@@ -1,0 +1,23 @@
+name: Push to Alibaba Cloud OSS
+
+on:
+  push:
+    branches: [ main ]
+
+env:
+  BUCKET: ${{ secrets.BUCKET_NAME }}
+  ENDPOINT: ${{ secrets.BUCKET_ENDPOINT }}
+  ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
+  ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Alibaba Cloud OSSUTIL
+        run: wget http://gosspublic.alicdn.com/ossutil/1.6.10/ossutil64 && chmod +x ossutil64
+      - name: Configure Alibaba Cloud OSSUTIL
+        run: ./ossutil64 config -i ${ACCESS_KEY} -k ${ACCESS_KEY_SECRET} -e ${ENDPOINT} -c .ossutilconfig
+      - name: Upload the web folder to the chosen OSS bucket
+        run: ./ossutil64 --config-file .ossutilconfig cp ${{ github.workspace }}/web oss://${BUCKET} -r -f
