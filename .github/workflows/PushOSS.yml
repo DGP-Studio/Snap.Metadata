@@ -19,5 +19,5 @@ jobs:
         run: wget http://gosspublic.alicdn.com/ossutil/1.6.10/ossutil64 && chmod +x ossutil64
       - name: Configure Alibaba Cloud OSSUTIL
         run: ./ossutil64 config -i ${ACCESS_KEY} -k ${ACCESS_KEY_SECRET} -e ${ENDPOINT} -c .ossutilconfig
-      - name: Upload the web folder to the chosen OSS bucket
-        run: ./ossutil64 --config-file .ossutilconfig cp ${{ github.workspace }}/web oss://${BUCKET} -r -f
+      - name: Upload the Output folder to the chosen OSS bucket
+        run: ./ossutil64 --config-file .ossutilconfig cp ${{ github.workspace }}/Output oss://${BUCKET} -r -f
