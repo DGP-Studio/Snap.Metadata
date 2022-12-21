@@ -851,37 +851,13 @@
       "CvJapanese": "早见沙织",
       "CvEnglish": "艾丽卡·门德斯",
       "CvKorean": "李侑俐",
-      "CookBonus": {
-        "OriginName": "绯樱饼",
-        "OriginDescription": "细腻雅致的点心。暗绿的叶片为整体的暖色调添上层次感。单单是观赏，也别具安静之美。可惜品尝它美味的佳期却如花开一般短暂，不要不舍得下口哦。",
-        "OriginIcon": "UI_ItemIcon_108283",
-        "Name": "「红炉一点雪」",
-        "Description": "神里绫华的特色料理。仿佛是一件娇小可爱的精致艺术品，薄红色的外衣包裹着的，是少女自那一刻起暗生的情愫。如果能与那位优雅如高岭白鹭般的公主一起边品茶边享用的话，大概会贪心地想要时间永远停驻吧。",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的20%，并额外恢复1500点生命值。",
-        "Icon": "UI_ItemIcon_108300",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108283,
+        "ItemId": 108300,
         "InputList": [
-          {
-            "Id": 100092,
-            "Name": "稻米",
-            "Icon": "UI_ItemIcon_100092",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 110006,
-            "Name": "糖",
-            "Icon": "UI_ItemIcon_110006",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 101202,
-            "Name": "绯樱绣球",
-            "Icon": "UI_ItemIcon_101202",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100092,
+          110006,
+          101202
         ]
       },
       "Fetters": [
@@ -1205,7 +1181,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 200200,
+        "Name": "莹辉流华",
+        "Description": "神里绫华的装扮款式。以铠甲覆裙，昭显「白鹭公主」高洁与坚韧气质的贵重着物。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104164,
+      113023,
+      101202,
+      112046,
+      104325,
+      113018
+    ]
   },
   {
     "Id": 10000003,
@@ -2078,44 +2069,14 @@
       "CvJapanese": "斋藤千和",
       "CvEnglish": "斯蒂芬妮·萨瑟兰",
       "CvKorean": "安荣美",
-      "CookBonus": {
-        "OriginName": "烤蘑菇披萨",
-        "OriginDescription": "铺满蘑菇和奶酪的薄饼。热的时候奶酪可以拉出细长的丝，大口咬下去很过瘾。",
-        "OriginIcon": "UI_ItemIcon_Recipe_1005",
-        "Name": "提神醒脑披萨",
-        "Description": "琴的特色料理。规整得像是工艺品的薄饼，吃一片就可以大大地振奋精神。这就是她能够连续工作的秘密武器吗？",
-        "EffectDescription": "立即为选中的角色恢复生命值上限的34%，并在之后的30秒内，每5秒恢复980点生命值。",
-        "Icon": "UI_ItemIcon_108044",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108042,
+        "ItemId": 108044,
         "InputList": [
-          {
-            "Id": 100011,
-            "Name": "蘑菇",
-            "Icon": "UI_ItemIcon_100011",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100018,
-            "Name": "卷心菜",
-            "Icon": "UI_ItemIcon_100018",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 110009,
-            "Name": "奶酪",
-            "Icon": "UI_ItemIcon_110009",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100011,
+          110001,
+          100018,
+          110009
         ]
       },
       "Fetters": [
@@ -2443,7 +2404,38 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 200301,
+        "Name": "海风之梦",
+        "Description": "琴的夏日装束。清凉而不失优雅，是海滨之游的绝佳搭配。",
+        "IsDefault": false,
+        "Icon": "UI_AvatarIcon_QinCostumeSea",
+        "SideIcon": "UI_AvatarIcon_Side_QinCostumeSea"
+      },
+      {
+        "Id": 200302,
+        "Name": "古恩希尔德的传承",
+        "Description": "琴的装扮款式。典雅干练的骑士礼服，适用于多种场合。",
+        "IsDefault": false,
+        "Icon": "UI_AvatarIcon_QinCostumeWic",
+        "SideIcon": "UI_AvatarIcon_Side_QinCostumeWic"
+      },
+      {
+        "Id": 200300,
+        "Name": "风之虔护",
+        "Description": "琴的装扮款式。彰显骑士风度的利落装束。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104154,
+      113001,
+      100057,
+      112007,
+      104306,
+      113003
+    ]
   },
   {
     "Id": 10000006,
@@ -3286,37 +3278,13 @@
       "CvJapanese": "田中理惠",
       "CvEnglish": "玛拉·朱诺",
       "CvKorean": "朴高夽",
-      "CookBonus": {
-        "OriginName": "火火肉酱面",
-        "OriginDescription": "淋满肉酱的细面。细面被番茄酱着上红红火火的色彩，酸甜可口，非常开胃。",
-        "OriginIcon": "UI_ItemIcon_Recipe_1003",
-        "Name": "魔法肉酱面",
-        "Description": "丽莎的特色料理。颜色有些奇妙的肉酱面，可一旦尝过一口就再也不想停下来。她究竟施了什么魔法？",
-        "EffectDescription": "立即为选中的角色恢复生命值上限的26%，并在之后的30秒内，每5秒恢复570点生命值。",
-        "Icon": "UI_ItemIcon_108018",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108016,
+        "ItemId": 108018,
         "InputList": [
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100079,
-            "Name": "番茄",
-            "Icon": "UI_ItemIcon_100079",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          110001,
+          100061,
+          100079
         ]
       },
       "Fetters": [
@@ -3652,7 +3620,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 200600,
+        "Name": "绀紫蔷薇",
+        "Description": "丽莎的装扮款式。以蔷薇缀饰描绘淑女优雅气质的修身裙装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104144,
+      113002,
+      100022,
+      112004,
+      104309,
+      113004
+    ]
   },
   {
     "Id": 10000014,
@@ -4492,37 +4475,13 @@
       "CvJapanese": "鬼头明里",
       "CvEnglish": "劳拉·斯特尔",
       "CvKorean": "尹娥煐",
-      "CookBonus": {
-        "OriginName": "白汁时蔬烩肉",
-        "OriginDescription": "奶油炖煮的烩菜。稠厚的汤汁成就了浓香的口感，入口温润柔和。",
-        "OriginIcon": "UI_ItemIcon_Recipe_2003",
-        "Name": "辣味时蔬烩肉",
-        "Description": "芭芭拉的特色料理。切成星形的胡萝卜为菜品增添了不少可爱度…不好，这魔鬼般的辣味是怎么回事？",
-        "EffectDescription": "队伍中所有角色冲刺消耗的体力降低25%，持续1500秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108040",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108038,
+        "ItemId": 108040,
         "InputList": [
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 110002,
-            "Name": "奶油",
-            "Icon": "UI_ItemIcon_110002",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100015,
-            "Name": "金鱼草",
-            "Icon": "UI_ItemIcon_100015",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100061,
+          110002,
+          100015
         ]
       },
       "Fetters": [
@@ -4842,7 +4801,30 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 201401,
+        "Name": "闪耀协奏",
+        "Description": "芭芭拉的海滩装扮。洋溢着夏日活力的俏丽短裙，似乎散发着海洋的清爽气息。",
+        "IsDefault": false,
+        "Icon": "UI_AvatarIcon_BarbaraCostumeSummertime",
+        "SideIcon": "UI_AvatarIcon_Side_BarbaraCostumeSummertime"
+      },
+      {
+        "Id": 201400,
+        "Name": "纯真期待",
+        "Description": "芭芭拉的装扮款式。带有芭芭拉个人特色的西风教会牧师制服。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104124,
+      113012,
+      100025,
+      112010,
+      104303,
+      113007
+    ]
   },
   {
     "Id": 10000015,
@@ -5631,30 +5613,12 @@
       "CvJapanese": "鸟海浩辅",
       "CvEnglish": "乔西·蒙塔纳·麦科伊",
       "CvKorean": "郑周元",
-      "CookBonus": {
-        "OriginName": "野菇鸡肉串",
-        "OriginDescription": "由野菇和禽肉组成的烤串。鲜嫩禽肉佐以鲜香野菇，吃的时候也不要挑食哦。",
-        "OriginIcon": "UI_ItemIcon_Recipe_1002",
-        "Name": "果香串烤",
-        "Description": "凯亚的特色料理。弹牙可口的烤串，隐约带有一丝甘甜浓厚的回味。等等…真的是果香吗？",
-        "EffectDescription": "为选中的角色恢复生命值上限的16%，并额外恢复1350点生命值。",
-        "Icon": "UI_ItemIcon_108014",
-        "RankLevel": 1,
+      "CookBonus2": {
+        "OriginItemId": 108012,
+        "ItemId": 108014,
         "InputList": [
-          {
-            "Id": 100011,
-            "Name": "蘑菇",
-            "Icon": "UI_ItemIcon_100011",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100064,
-            "Name": "禽肉",
-            "Icon": "UI_ItemIcon_100064",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100011,
+          100064
         ]
       },
       "Fetters": [
@@ -5990,7 +5954,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 201500,
+        "Name": "冰上飞羽",
+        "Description": "凯亚的装扮款式。以幽蓝色皮毛装饰衣领的潇洒衣装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104164,
+      113010,
+      100056,
+      112037,
+      104309,
+      113008
+    ]
   },
   {
     "Id": 10000016,
@@ -6850,44 +6829,14 @@
       "CvJapanese": "小野贤章",
       "CvEnglish": "肖恩·奇普洛克",
       "CvKorean": "崔乘勋",
-      "CookBonus": {
-        "OriginName": "「堆高高」",
-        "OriginDescription": "用料丰厚的肉料理。原先是将烤肉排、土豆、奶酪堆叠而成的一道蒙德家常菜，后来作为羽球节的压轴菜声名远扬。",
-        "OriginIcon": "UI_ItemIcon_Recipe_3004",
-        "Name": "「蒙德往事」",
-        "Description": "迪卢克的特色料理。先用眼睛饱尝精致细致的摆盘，再让柔嫩的肉排在唇齿间微微融化。嗯…没想到老爷还有这种手艺？",
-        "EffectDescription": "队伍中所有角色暴击率提升20%，暴击伤害提升20%，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108058",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108056,
+        "ItemId": 108058,
         "InputList": [
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100080,
-            "Name": "土豆",
-            "Icon": "UI_ItemIcon_100080",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100055,
-            "Name": "小灯草",
-            "Icon": "UI_ItemIcon_100055",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110009,
-            "Name": "奶酪",
-            "Icon": "UI_ItemIcon_110009",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100061,
+          100080,
+          100055,
+          110009
         ]
       },
       "Fetters": [
@@ -7219,7 +7168,30 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 201601,
+        "Name": "殷红终夜",
+        "Description": "迪卢克隐秘行动时所穿的衣装之一，如阴影之中翻腾的火焰。敌人视野尽头所留下的殷红残痕，即是他们余生挥之不去的梦魇。",
+        "IsDefault": false,
+        "Icon": "UI_AvatarIcon_DilucCostumeFlamme",
+        "SideIcon": "UI_AvatarIcon_Side_DilucCostumeFlamme"
+      },
+      {
+        "Id": 201600,
+        "Name": "夜行暗火",
+        "Description": "迪卢克的装扮款式。低调而不失品味的贵族衣装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104114,
+      113011,
+      100055,
+      112034,
+      104306,
+      113003
+    ]
   },
   {
     "Id": 10000020,
@@ -8137,37 +8109,13 @@
       "CvJapanese": "内山昂辉",
       "CvEnglish": "托德·哈伯空",
       "CvKorean": "金徐暎",
-      "CookBonus": {
-        "OriginName": "蒙德土豆饼",
-        "OriginDescription": "土豆做的炸饼。少量松果提供了富有变化的口感。可以搭配果酱食用，深受各个年龄阶层的欢迎。",
-        "OriginIcon": "UI_ItemIcon_Recipe_3003",
-        "Name": "爪爪土豆饼",
-        "Description": "雷泽的特色料理。被小心翼翼捏成狼爪形状的土豆饼，朴实中带着香甜，能够品尝出他对于人类料理的努力。",
-        "EffectDescription": "为选中的角色恢复生命值上限的40%，并额外恢复2350点生命值。",
-        "Icon": "UI_ItemIcon_108048",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108046,
+        "ItemId": 108048,
         "InputList": [
-          {
-            "Id": 100020,
-            "Name": "松果",
-            "Icon": "UI_ItemIcon_100020",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100080,
-            "Name": "土豆",
-            "Icon": "UI_ItemIcon_100080",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110008,
-            "Name": "果酱",
-            "Icon": "UI_ItemIcon_110008",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100020,
+          100080,
+          110008
         ]
       },
       "Fetters": [
@@ -8471,7 +8419,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 202000,
+        "Name": "奔行原野",
+        "Description": "雷泽的装扮款式。便于野外奔行的简约装束。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104144,
+      113002,
+      100021,
+      112007,
+      104306,
+      113004
+    ]
   },
   {
     "Id": 10000021,
@@ -9298,23 +9261,11 @@
       "CvJapanese": "石见舞菜香",
       "CvEnglish": "凯莉·巴斯金",
       "CvKorean": "金延佑",
-      "CookBonus": {
-        "OriginName": "烤肉排",
-        "OriginDescription": "煎烤过的肉排。高温将水分紧锁其中，令人期待它切开后流汁的样子。",
-        "OriginIcon": "UI_ItemIcon_Recipe_3001",
-        "Name": "侦察骑士烤肉！",
-        "Description": "安柏的特色料理。一面泛着血色，另一面散发着微妙焦香气味的肉排。闭着眼大口吃下去，安柏会很高兴的吧。",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的10%，并额外恢复150点生命值。",
-        "Icon": "UI_ItemIcon_108010",
-        "RankLevel": 1,
+      "CookBonus2": {
+        "OriginItemId": 108008,
+        "ItemId": 108010,
         "InputList": [
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 2
-          }
+          100061
         ]
       },
       "Fetters": [
@@ -9670,7 +9621,30 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 202101,
+        "Name": "100%侦察骑士",
+        "Description": "安柏的装扮款式。这一次出现的，是更为正式也更为英气的侦察骑士哦！",
+        "IsDefault": false,
+        "Icon": "UI_AvatarIcon_AmborCostumeWic",
+        "SideIcon": "UI_AvatarIcon_Side_AmborCostumeWic"
+      },
+      {
+        "Id": 202100,
+        "Name": "「满分的侦察骑士」",
+        "Description": "安柏的装扮款式。具备高机动性的侦察骑士服装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104114,
+      113011,
+      100055,
+      112013,
+      104303,
+      113005
+    ]
   },
   {
     "Id": 10000022,
@@ -10513,37 +10487,13 @@
       "CvJapanese": "村濑步",
       "CvEnglish": "艾丽卡·哈拉彻",
       "CvKorean": "郑侑廷",
-      "CookBonus": {
-        "OriginName": "风神杂烩菜",
-        "OriginDescription": "历史悠久的简单菜肴。用料传统而朴实。无论身处何方，这样一碗热乎乎杂烩菜所提供的满足感都是无比真实的。",
-        "OriginIcon": "UI_ItemIcon_108111",
-        "Name": "真·风神杂烩菜",
-        "Description": "温迪的特色料理。除却作为装饰的塞西莉亚花，用料与一般菜品并无二致。但细细品尝，便能体会出「细小的转机与希望之风」的味道。这莫非…正是他的心意？",
-        "EffectDescription": "队伍中所有角色滑翔和冲刺消耗的体力降低25%，持续1800秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108113",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108111,
+        "ItemId": 108113,
         "InputList": [
-          {
-            "Id": 100013,
-            "Name": "胡萝卜",
-            "Icon": "UI_ItemIcon_100013",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 100080,
-            "Name": "土豆",
-            "Icon": "UI_ItemIcon_100080",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 100076,
-            "Name": "洋葱",
-            "Icon": "UI_ItemIcon_100076",
-            "RankLevel": 0,
-            "Count": 4
-          }
+          100013,
+          100080,
+          100076
         ]
       },
       "Fetters": [
@@ -10871,7 +10821,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 202200,
+        "Name": "青风结诗",
+        "Description": "温迪的装扮款式。自由随性的吟游诗人装束。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104154,
+      113001,
+      100023,
+      112004,
+      104309,
+      113006
+    ]
   },
   {
     "Id": 10000023,
@@ -11698,44 +11663,14 @@
       "CvJapanese": "小泽亚李",
       "CvEnglish": "杰基·拉斯塔",
       "CvKorean": "尹娥煐",
-      "CookBonus": {
-        "OriginName": "水煮黑背鲈",
-        "OriginDescription": "煮制而成的鱼料理。鱼片紧实饱满，鲜香入味。而这道菜品的秘诀在于热油中加入了磨成粉的琉璃袋，使得菜肴香气四溢，辣而不燥。",
-        "OriginIcon": "UI_ItemIcon_108075",
-        "Name": "万民堂水煮鱼",
-        "Description": "香菱的特色料理。万民堂的金字招牌菜，凝聚着香菱对烹饪全心全意的热情。但凡尝过的人，都能在这酣畅过瘾的复合香味中，收获对于美食的最纯粹的感动。",
-        "EffectDescription": "立即为选中的角色恢复生命值上限的34%，并在之后的30秒内，每5秒恢复980点生命值。",
-        "Icon": "UI_ItemIcon_108135",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108075,
+        "ItemId": 108135,
         "InputList": [
-          {
-            "Id": 100084,
-            "Name": "鱼肉",
-            "Icon": "UI_ItemIcon_100084",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100027,
-            "Name": "绝云椒椒",
-            "Icon": "UI_ItemIcon_100027",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100075,
-            "Name": "盐",
-            "Icon": "UI_ItemIcon_100075",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100034,
-            "Name": "琉璃袋",
-            "Icon": "UI_ItemIcon_100034",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100084,
+          100027,
+          100075,
+          100034
         ]
       },
       "Fetters": [
@@ -12059,7 +11994,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 202300,
+        "Name": "椒红姜黄",
+        "Description": "香菱的装扮款式。洋溢着火辣热情的轻便衣装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104114,
+      113011,
+      100027,
+      112004,
+      104315,
+      113004
+    ]
   },
   {
     "Id": 10000024,
@@ -12948,30 +12898,12 @@
       "CvJapanese": "小清水亚美",
       "CvEnglish": "阿莱格拉·克拉克",
       "CvKorean": "郑柚美",
-      "CookBonus": {
-        "OriginName": "爆炒肉片",
-        "OriginDescription": "猛火快炒的兽肉。肉香混合着绝云椒椒的丝丝辣味，无论用来开胃还是下饭都是非常棒的选择。",
-        "OriginIcon": "UI_ItemIcon_108099",
-        "Name": "炝炒肉片",
-        "Description": "北斗的特色料理。据说北斗曾向香菱学了一手，并对这道菜肴加重了口味进行改良。要是豪放地一口气吃完，或许能得到北斗的赞赏？",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的10%，并额外恢复150点生命值。",
-        "Icon": "UI_ItemIcon_108138",
-        "RankLevel": 1,
+      "CookBonus2": {
+        "OriginItemId": 108099,
+        "ItemId": 108138,
         "InputList": [
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100027,
-            "Name": "绝云椒椒",
-            "Icon": "UI_ItemIcon_100027",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100061,
+          100027
         ]
       },
       "Fetters": [
@@ -13295,7 +13227,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 202400,
+        "Name": "赫浪连涛",
+        "Description": "北斗的装扮款式。充满踏浪者气魄的轻便裙装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104144,
+      113002,
+      100028,
+      112037,
+      104318,
+      113005
+    ]
   },
   {
     "Id": 10000025,
@@ -14161,37 +14108,13 @@
       "CvJapanese": "皆川纯子",
       "CvEnglish": "克里斯蒂娜·比·巴伦苏埃拉",
       "CvKorean": "郭奎媄",
-      "CookBonus": {
-        "OriginName": "水晶虾",
-        "OriginDescription": "璃月的传统点心之一。馅料选取整颗鲜虾仁，盈亮的粉色在半透明的薄皮下隐约可见。轻嚼下去更是弹牙可口。",
-        "OriginIcon": "UI_ItemIcon_108105",
-        "Name": "江湖百味",
-        "Description": "行秋的特色料理。如同工艺品般精致的外形让人舍不得下口，可一旦浅尝，清甜甘美的鲜味就会诱人欲罢不能。等等…胡萝卜该不会被他偷偷丢掉了吧？",
-        "EffectDescription": "立即为选中的角色恢复生命值上限的26%，并在之后的30秒内，每5秒恢复570点生命值。",
-        "Icon": "UI_ItemIcon_108136",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108105,
+        "ItemId": 108136,
         "InputList": [
-          {
-            "Id": 100092,
-            "Name": "稻米",
-            "Icon": "UI_ItemIcon_100092",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100093,
-            "Name": "虾仁",
-            "Icon": "UI_ItemIcon_100093",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100013,
-            "Name": "胡萝卜",
-            "Icon": "UI_ItemIcon_100013",
-            "RankLevel": 0,
-            "Count": 2
-          }
+          100092,
+          100093,
+          100013
         ]
       },
       "Fetters": [
@@ -14535,7 +14458,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 202500,
+        "Name": "锦钰兰衫",
+        "Description": "行秋的装扮款式。飞云商会所售之上品绸缎织就的褂装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104124,
+      113012,
+      100029,
+      112007,
+      104318,
+      113006
+    ]
   },
   {
     "Id": 10000026,
@@ -15377,37 +15315,13 @@
       "CvJapanese": "松冈祯丞",
       "CvEnglish": "莱拉·贝尔津什",
       "CvKorean": "沈揆赫",
-      "CookBonus": {
-        "OriginName": "杏仁豆腐",
-        "OriginDescription": "杏仁磨浆制成的甜品。有着嫩滑香甜的独特口感和浓郁绵长的杏仁香味，因形似豆腐而得名。",
-        "OriginIcon": "UI_ItemIcon_100428",
-        "Name": "「美梦」",
-        "Description": "魈的特色料理。他的「美梦」很简单，不过是做一个美梦而已。",
-        "EffectDescription": "队伍中所有角色攻击力提高114点，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108137",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108081,
+        "ItemId": 108137,
         "InputList": [
-          {
-            "Id": 100078,
-            "Name": "牛奶",
-            "Icon": "UI_ItemIcon_100078",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 110006,
-            "Name": "糖",
-            "Icon": "UI_ItemIcon_110006",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100089,
-            "Name": "杏仁",
-            "Icon": "UI_ItemIcon_100089",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100078,
+          110006,
+          100089
         ]
       },
       "Fetters": [
@@ -15735,7 +15649,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 202600,
+        "Name": "千秋竞岁",
+        "Description": "魈的装扮款式。千年间降妖除魔的经典战袍。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104154,
+      113016,
+      100031,
+      112004,
+      104312,
+      113015
+    ]
   },
   {
     "Id": 10000027,
@@ -16479,30 +16408,12 @@
       "CvJapanese": "大原沙耶香",
       "CvEnglish": "伊琳·艾伯丝",
       "CvKorean": "郭奎媄",
-      "CookBonus": {
-        "OriginName": "摩拉肉",
-        "OriginDescription": "包裹大块肉馅的饼食。将烧饼一分为二，夹入浓郁肉馅。既解去了肉的腻味，又烘托了饼的香甜。为图富贵如意的口彩，通常还会印上「摩拉」的图案。",
-        "OriginIcon": "UI_ItemIcon_108093",
-        "Name": "乾坤摩拉肉",
-        "Description": "凝光的特色料理。饼皮软糯适中，肉块肥瘦均匀，如蜜般的肉汁随着挤压丝丝渗出。看似高高在上的「天权」凝光大人，究竟是从哪里学会的这门手艺呢？",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的10%，并额外恢复150点生命值。",
-        "Icon": "UI_ItemIcon_108139",
-        "RankLevel": 1,
+      "CookBonus2": {
+        "OriginItemId": 108093,
+        "ItemId": 108139,
         "InputList": [
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100061,
+          110001
         ]
       },
       "Fetters": [
@@ -16838,7 +16749,30 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 202701,
+        "Name": "纱中幽兰",
+        "Description": "凝光的礼服装扮。绀蓝长裙勾勒出丽人优雅的曲线，脚踝上的蝶翼又为她平添了几分轻盈。",
+        "IsDefault": false,
+        "Icon": "UI_AvatarIcon_NingguangCostumeFloral",
+        "SideIcon": "UI_AvatarIcon_Side_NingguangCostumeFloral"
+      },
+      {
+        "Id": 202700,
+        "Name": "玑玉琼金",
+        "Description": "凝光的装扮款式。绣工精巧、尽显雍容气度的飘逸裙装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104174,
+      113009,
+      100030,
+      112034,
+      104312,
+      113008
+    ]
   },
   {
     "Id": 10000029,
@@ -17657,44 +17591,14 @@
       "CvJapanese": "久野美咲",
       "CvEnglish": "帕娜姆·巴苏",
       "CvKorean": "房莲知",
-      "CookBonus": {
-        "OriginName": "渔人吐司",
-        "OriginDescription": "铺满洋葱的吐司。是渔夫间流行的主食。他们会在包里塞满这种吐司，并在河边蹲上一整天。",
-        "OriginIcon": "UI_ItemIcon_Recipe_1001",
-        "Name": "鱼香吐司",
-        "Description": "可莉的特色料理。因为乱丢炸弹惊走了鱼，在琴的指导下，可莉认真地学做了这道吐司作为给渔人的赔礼。味道很好还管饱，从此以后，可莉炸一整天鱼也不会饿肚子了。",
-        "EffectDescription": "队伍中所有角色防御力提高151点，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108115",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108002,
+        "ItemId": 108115,
         "InputList": [
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100079,
-            "Name": "番茄",
-            "Icon": "UI_ItemIcon_100079",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100076,
-            "Name": "洋葱",
-            "Icon": "UI_ItemIcon_100076",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100078,
-            "Name": "牛奶",
-            "Icon": "UI_ItemIcon_100078",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          110001,
+          100079,
+          100076,
+          100078
         ]
       },
       "Fetters": [
@@ -18018,7 +17922,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 202900,
+        "Name": "轻灵火花",
+        "Description": "可莉的装扮款式。与皮制书包自成一套的活泼童装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104114,
+      113011,
+      100025,
+      112010,
+      104303,
+      113007
+    ]
   },
   {
     "Id": 10000030,
@@ -18909,37 +18828,13 @@
       "CvJapanese": "前野智昭",
       "CvEnglish": "基思·西尔弗斯坦",
       "CvKorean": "表永宰",
-      "CookBonus": {
-        "OriginName": "腌笃鲜",
-        "OriginDescription": "久经炖煮的汤羹。将鲜竹笋、鲜肉和火腿切成小块，小火慢炖直至汤色乳白。两种不同质地的肉焕发出不同的风味，而汤汁则尤为鲜美。",
-        "OriginIcon": "UI_ItemIcon_108153",
-        "Name": "文火慢炖腌笃鲜",
-        "Description": "钟离的特色料理。火腿要选用月海亭盛宴标准的火腿部位，鲜肉要挑清泉镇当天猎来的五花肉，竹笋要取轻策庄笋节紧密的春笋，秉承慢工细活的精神以文火慢炖…这样「讲究」的美味，他只愿和懂得欣赏之人一同分享。",
-        "EffectDescription": "立即为选中的角色恢复生命值上限的34%，并在之后的30秒内，每5秒恢复980点生命值。",
-        "Icon": "UI_ItemIcon_108173",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108153,
+        "ItemId": 108173,
         "InputList": [
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 110005,
-            "Name": "火腿",
-            "Icon": "UI_ItemIcon_110005",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100091,
-            "Name": "竹笋",
-            "Icon": "UI_ItemIcon_100091",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100061,
+          110005,
+          100091
         ]
       },
       "Fetters": [
@@ -19271,7 +19166,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 203000,
+        "Name": "凡世致身",
+        "Description": "钟离的装扮款式。「往生堂」客卿钟离先生近来最为青睐的假日常服。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104174,
+      113009,
+      100058,
+      112004,
+      104318,
+      113013
+    ]
   },
   {
     "Id": 10000031,
@@ -20140,44 +20050,14 @@
       "CvJapanese": "内田真礼&增谷康纪",
       "CvEnglish": "布兰特妮·考克斯&本·普罗斯基",
       "CvKorean": "朴高夽&李弦",
-      "CookBonus": {
-        "OriginName": "冷肉拼盘",
-        "OriginDescription": "摆满肉类的拼盘。由等量的培根、火腿和香肠组成。食客们可以暂且放下关于三大肉类哪种最好吃的争论，和平地享用美味。",
-        "OriginIcon": "UI_ItemIcon_Recipe_2004",
-        "Name": "祝圣交响乐",
-        "Description": "菲谢尔的特色料理。精美的摆盘中似乎传言着某种不为人知的深奥。如果在享受美味的同时看向菲谢尔的话，能透过她半遮脸庞的指尖看到她期待的眼神…这也是秘密的一部分吗？",
-        "EffectDescription": "队伍中所有角色物理伤害提升55%，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108117",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108060,
+        "ItemId": 108117,
         "InputList": [
-          {
-            "Id": 110005,
-            "Name": "火腿",
-            "Icon": "UI_ItemIcon_110005",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110010,
-            "Name": "培根",
-            "Icon": "UI_ItemIcon_110010",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110011,
-            "Name": "香肠",
-            "Icon": "UI_ItemIcon_110011",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100016,
-            "Name": "薄荷",
-            "Icon": "UI_ItemIcon_100016",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          110005,
+          110010,
+          110011,
+          100016
         ]
       },
       "Fetters": [
@@ -20489,7 +20369,30 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 203101,
+        "Name": "极夜真梦",
+        "Description": "皇女菲谢尔的祭礼着装。愿高贵的人永远葆有勇气、诚挚与善心，如此，邪恶必无法挫败她。",
+        "IsDefault": false,
+        "Icon": "UI_AvatarIcon_FischlCostumeHighness",
+        "SideIcon": "UI_AvatarIcon_Side_FischlCostumeHighness"
+      },
+      {
+        "Id": 203100,
+        "Name": "绮夜圣礼",
+        "Description": "菲谢尔的装扮款式。「断罪之皇女」于提瓦特大陆巡礼时所着之常服。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104144,
+      113002,
+      100055,
+      112013,
+      104309,
+      113008
+    ]
   },
   {
     "Id": 10000032,
@@ -21433,23 +21336,11 @@
       "CvJapanese": "逢坂良太",
       "CvEnglish": "克里斯蒂娜·比·巴伦苏埃拉",
       "CvKorean": "宋河琳",
-      "CookBonus": {
-        "OriginName": "提瓦特煎蛋",
-        "OriginDescription": "单面煎熟的禽蛋。蛋黄一戳就可以流出汁，非常适合解馋。",
-        "OriginIcon": "UI_ItemIcon_Recipe_2001",
-        "Name": "提瓦特焦蛋",
-        "Description": "班尼特的特色料理。不知道为什么每份煎蛋边缘都是焦焦的，但焦脆也带来了别具一格的风味。",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的10%，并额外恢复150点生命值。",
-        "Icon": "UI_ItemIcon_108116",
-        "RankLevel": 1,
+      "CookBonus2": {
+        "OriginItemId": 108005,
+        "ItemId": 108116,
         "InputList": [
-          {
-            "Id": 100062,
-            "Name": "鸟蛋",
-            "Icon": "UI_ItemIcon_100062",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100062
         ]
       },
       "Fetters": [
@@ -21781,7 +21672,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 203200,
+        "Name": "噩运绕行",
+        "Description": "班尼特的装扮款式。缝缝又补补的老旧冒险家装束。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104114,
+      113011,
+      100024,
+      112037,
+      104306,
+      113003
+    ]
   },
   {
     "Id": 10000033,
@@ -22874,37 +22780,13 @@
       "CvJapanese": "木村良平",
       "CvEnglish": "格里芬·伯恩斯",
       "CvKorean": "南度亨",
-      "CookBonus": {
-        "OriginName": "嘟嘟莲海鲜羹",
-        "OriginDescription": "营养均衡的海鲜羹。色泽清亮的汤汁每一口都淌着螃蟹的鲜美，薄荷和嘟嘟莲又为它增添了几分清雅爽口。",
-        "OriginIcon": "UI_ItemIcon_Recipe_1006",
-        "Name": "极致一钓",
-        "Description": "达达利亚的特色料理。如同血海中漂泊的困兽，在垂死时发出人耳所不能闻的哀嚎…不过达达利亚却笑着解释说，只是海钓的战利品加了一些老家特产而已。",
-        "EffectDescription": "队伍中所有角色防御力提高282点，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108175",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108050,
+        "ItemId": 108175,
         "InputList": [
-          {
-            "Id": 100073,
-            "Name": "螃蟹",
-            "Icon": "UI_ItemIcon_100073",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 100056,
-            "Name": "嘟嘟莲",
-            "Icon": "UI_ItemIcon_100056",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100016,
-            "Name": "薄荷",
-            "Icon": "UI_ItemIcon_100016",
-            "RankLevel": 0,
-            "Count": 2
-          }
+          100073,
+          100056,
+          100016
         ]
       },
       "Fetters": [
@@ -23272,7 +23154,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 203300,
+        "Name": "荣光之刃",
+        "Description": "达达利亚的装扮款式。标识着愚人众第十一执行官「公子」身份的荣耀衣装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104124,
+      113012,
+      100033,
+      112034,
+      104303,
+      113014
+    ]
   },
   {
     "Id": 10000034,
@@ -24195,37 +24092,13 @@
       "CvJapanese": "高尾奏音",
       "CvEnglish": "劳拉·费伊·史密斯",
       "CvKorean": "李甫熙",
-      "CookBonus": {
-        "OriginName": "庄园烤松饼",
-        "OriginDescription": "圆形的烤饼。从庄园的午后点心逐渐演变成为寻常主食，会用最好的树莓进行点缀。",
-        "OriginIcon": "UI_ItemIcon_Recipe_4001",
-        "Name": "厚云朵松饼",
-        "Description": "诺艾尔的特色料理。厚厚的松饼，是骑士团的下午茶特供甜点，带给人仿佛坠入柔软云端般的幸福感。看着身旁诺艾尔的笑容，甜度似乎又提高了一点！",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的15%，并额外恢复550点生命值。",
-        "Icon": "UI_ItemIcon_108118",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108023,
+        "ItemId": 108118,
         "InputList": [
-          {
-            "Id": 100051,
-            "Name": "树莓",
-            "Icon": "UI_ItemIcon_100051",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100062,
-            "Name": "鸟蛋",
-            "Icon": "UI_ItemIcon_100062",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100051,
+          110001,
+          100062
         ]
       },
       "Fetters": [
@@ -24541,7 +24414,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 203400,
+        "Name": "甲铁玫瑰",
+        "Description": "诺艾尔的装扮款式。甲胄与厚实丝绒连缀成的沉重裙装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104174,
+      113009,
+      100022,
+      112007,
+      104306,
+      113004
+    ]
   },
   {
     "Id": 10000035,
@@ -25440,44 +25328,14 @@
       "CvJapanese": "田村由加莉",
       "CvEnglish": "克莉斯蒂·凯特",
       "CvKorean": "李露",
-      "CookBonus": {
-        "OriginName": "来来菜",
-        "OriginDescription": "用料丰富的菜肴。配料与做法上并没有特别的讲究，经常在璃月的节庆时分登场。每当这道菜上来以后，为首的人会说「来来，吃」，招呼大家动筷子，因此而得名。",
-        "OriginIcon": "UI_ItemIcon_108132",
-        "Name": "没有未来菜",
-        "Description": "七七的特色料理。整齐排列的食材，看上去异常美味，难怪白术说七七花了很长时间才做出来这道菜。呃…但是考虑到七七没有味觉，下筷子真的需要勇气。",
-        "EffectDescription": "队伍中所有角色暴击率提升20%，暴击伤害提升20%，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108140",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108132,
+        "ItemId": 108140,
         "InputList": [
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100084,
-            "Name": "鱼肉",
-            "Icon": "UI_ItemIcon_100084",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100092,
-            "Name": "稻米",
-            "Icon": "UI_ItemIcon_100092",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100088,
-            "Name": "豆腐",
-            "Icon": "UI_ItemIcon_100088",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100061,
+          100084,
+          100092,
+          100088
         ]
       },
       "Fetters": [
@@ -25793,7 +25651,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 203500,
+        "Name": "夏冰梦身",
+        "Description": "七七的装扮款式。因为贴满符咒而令七七倍感安心的药童衣装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104164,
+      113010,
+      100034,
+      112010,
+      104312,
+      113006
+    ]
   },
   {
     "Id": 10000036,
@@ -26605,37 +26478,13 @@
       "CvJapanese": "齐藤壮马",
       "CvEnglish": "博·布里奇兰德",
       "CvKorean": "梁静花",
-      "CookBonus": {
-        "OriginName": "山珍热卤面",
-        "OriginDescription": "荤素搭配的卤面。分量十足的配菜拌入卤面之中，酱味敦厚。虽然是普通家常的做法，却能孕育出无比浓郁的回味。",
-        "OriginIcon": "UI_ItemIcon_108142",
-        "Name": "山珍凉卤面",
-        "Description": "重云的特色料理。虽说韧劲十足的面条让人在炎炎夏日欲罢不能，但即使在冬天，重云也坚持食用这样的主食。当真不易。",
-        "EffectDescription": "恢复80点体力。",
-        "Icon": "UI_ItemIcon_108144",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108142,
+        "ItemId": 108144,
         "InputList": [
-          {
-            "Id": 100011,
-            "Name": "蘑菇",
-            "Icon": "UI_ItemIcon_100011",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 2
-          }
+          100011,
+          100061,
+          110001
         ]
       },
       "Fetters": [
@@ -26943,7 +26792,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 203600,
+        "Name": "清正灵台",
+        "Description": "重云的装扮款式。方士一族家传的驱邪装束。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104164,
+      113010,
+      100058,
+      112007,
+      104315,
+      113005
+    ]
   },
   {
     "Id": 10000037,
@@ -27802,44 +27666,14 @@
       "CvJapanese": "上田丽奈",
       "CvEnglish": "珍妮佛·罗希",
       "CvKorean": "金仙惠",
-      "CookBonus": {
-        "OriginName": "四方和平",
-        "OriginDescription": "色彩缤纷的主食。香软糯口的稻米间，紧实地码放着各类甜味的食材。比起口味，更重视的是万事兴隆，天下太平的心意。而心意就是最好的调味料，所以口味一定不会差。",
-        "OriginIcon": "UI_ItemIcon_108202",
-        "Name": "盛世太平",
-        "Description": "甘雨的特色料理。麒麟憩于花丛的画面，光是观赏就能让心情平静下来。甘雨怀揣着对世间的美好祈愿烹制菜肴，再将自己最喜欢的清心花瓣，默不作声地留给了珍视的你。",
-        "EffectDescription": "为选中的角色恢复生命值上限的40%，并额外恢复2350点生命值。",
-        "Icon": "UI_ItemIcon_108213",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108202,
+        "ItemId": 108213,
         "InputList": [
-          {
-            "Id": 100092,
-            "Name": "稻米",
-            "Icon": "UI_ItemIcon_100092",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 100026,
-            "Name": "莲蓬",
-            "Icon": "UI_ItemIcon_100026",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100013,
-            "Name": "胡萝卜",
-            "Icon": "UI_ItemIcon_100013",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100051,
-            "Name": "树莓",
-            "Icon": "UI_ItemIcon_100051",
-            "RankLevel": 0,
-            "Count": 2
-          }
+          100092,
+          100026,
+          100013,
+          100051
         ]
       },
       "Fetters": [
@@ -28187,7 +28021,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 203700,
+        "Name": "霜麟聚露",
+        "Description": "甘雨的装扮款式。得到「三眼五显仙人」祝福的典雅衣装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104164,
+      113010,
+      100031,
+      112040,
+      104315,
+      113015
+    ]
   },
   {
     "Id": 10000038,
@@ -29014,44 +28863,14 @@
       "CvJapanese": "野岛健儿",
       "CvEnglish": "科伊·道",
       "CvKorean": "金明俊",
-      "CookBonus": {
-        "OriginName": "黄油煎鱼",
-        "OriginDescription": "慢火煎制的鱼料理。火候得当的鱼肉最大程度保持了鲜味，入口细嫩柔软，搭配表面带有黄油香气的微焦，形成了一种层次丰富的口感。",
-        "OriginIcon": "UI_ItemIcon_108208",
-        "Name": "「林之梦」",
-        "Description": "阿贝多的特色料理。蔬果平铺为草，直立为树。在这盘中世界绕过斑驳城墙，沿着棕色小道，踏入浅橘色的城堡。细嫩而香甜的滋味瞬间如花般绽放。睁开双眼，白发的王子眼里含笑。",
-        "EffectDescription": "队伍中所有角色护盾强效提升35%，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108214",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108208,
+        "ItemId": 108214,
         "InputList": [
-          {
-            "Id": 110004,
-            "Name": "黄油",
-            "Icon": "UI_ItemIcon_110004",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100084,
-            "Name": "鱼肉",
-            "Icon": "UI_ItemIcon_100084",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100075,
-            "Name": "盐",
-            "Icon": "UI_ItemIcon_100075",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100055,
-            "Name": "小灯草",
-            "Icon": "UI_ItemIcon_100055",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          110004,
+          100084,
+          100075,
+          100055
         ]
       },
       "Fetters": [
@@ -29351,7 +29170,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 203800,
+        "Name": "朔分星芒",
+        "Description": "阿贝多的装扮款式。阿贝多实验时常穿着的西风骑士团炼金术士制服。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104174,
+      113009,
+      100023,
+      112010,
+      104309,
+      113013
+    ]
   },
   {
     "Id": 10000039,
@@ -30256,30 +30090,12 @@
       "CvJapanese": "井泽诗织",
       "CvEnglish": "蒂娜·谢尔曼",
       "CvKorean": "禹贞信",
-      "CookBonus": {
-        "OriginName": "蒙德烤鱼",
-        "OriginDescription": "小火细烤的鱼串。鱼肉因烤制除去水分而变得紧实，胡椒的加入更进一步激发了它的鲜味。",
-        "OriginIcon": "UI_ItemIcon_108096",
-        "Name": "绝对不是下酒菜",
-        "Description": "迪奥娜的特色料理。鱼皮香脆，鱼肉饱满。只有对鱼肉有着足够的热爱，才能烹调出如此美妙的味道。如果有一杯什么喝的…不好，迪奥娜看过来了！",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的10%，并额外恢复150点生命值。",
-        "Icon": "UI_ItemIcon_108134",
-        "RankLevel": 1,
+      "CookBonus2": {
+        "OriginItemId": 108096,
+        "ItemId": 108134,
         "InputList": [
-          {
-            "Id": 100084,
-            "Name": "鱼肉",
-            "Icon": "UI_ItemIcon_100084",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100077,
-            "Name": "胡椒",
-            "Icon": "UI_ItemIcon_100077",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100084,
+          100077
         ]
       },
       "Fetters": [
@@ -30639,7 +30455,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 203900,
+        "Name": "粉糖青酿",
+        "Description": "迪奥娜的装扮款式。猫尾酒吧明星调酒师工作时的日常装束。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104164,
+      113010,
+      100056,
+      112013,
+      104303,
+      113014
+    ]
   },
   {
     "Id": 10000041,
@@ -31564,44 +31395,14 @@
       "CvJapanese": "小原好美",
       "CvEnglish": "费丽茜娅·安吉尔",
       "CvKorean": "禹贞信",
-      "CookBonus": {
-        "OriginName": "满足沙拉",
-        "OriginDescription": "凉拌的鲜蔬拼盘。在水煮土豆和新鲜果蔬中间，摆上了半熟的鸡蛋。能够提供充足的饱腹感。",
-        "OriginIcon": "UI_ItemIcon_Recipe_4003",
-        "Name": "至高的智慧（生活）",
-        "Description": "莫娜的特色料理。伟大占星术士的伟大之作，其中的最伟大之处在于这道菜肴能性价比极高地填饱肚子。",
-        "EffectDescription": "队伍中所有角色暴击率提升16%，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108114",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108029,
+        "ItemId": 108114,
         "InputList": [
-          {
-            "Id": 100018,
-            "Name": "卷心菜",
-            "Icon": "UI_ItemIcon_100018",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100001,
-            "Name": "苹果",
-            "Icon": "UI_ItemIcon_100001",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100062,
-            "Name": "鸟蛋",
-            "Icon": "UI_ItemIcon_100062",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100080,
-            "Name": "土豆",
-            "Icon": "UI_ItemIcon_100080",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100018,
+          100001,
+          100062,
+          100080
         ]
       },
       "Fetters": [
@@ -31909,7 +31710,30 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 204101,
+        "Name": "星与月之约",
+        "Description": "莫娜的装扮款式。为迎接占星术概念中的「命定之刻」而特别购置的衣装，感谢星象仪补款七折优惠券。",
+        "IsDefault": false,
+        "Icon": "UI_AvatarIcon_MonaCostumeWic",
+        "SideIcon": "UI_AvatarIcon_Side_MonaCostumeWic"
+      },
+      {
+        "Id": 204100,
+        "Name": "星命流转",
+        "Description": "莫娜的装扮款式。由于缩减了布料用量因而物美价廉的轻便术士衣装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104124,
+      113012,
+      100025,
+      112040,
+      104306,
+      113007
+    ]
   },
   {
     "Id": 10000042,
@@ -32767,30 +32591,12 @@
       "CvJapanese": "喜多村英梨",
       "CvEnglish": "凯莉·米尔斯",
       "CvKorean": "李甫熙",
-      "CookBonus": {
-        "OriginName": "烤吃虎鱼",
-        "OriginDescription": "急火烤制的鱼串。将码头打捞上来的鱼略加腌制后迅速烤熟，香味能吸引街边的猫。而新鲜正是美味的秘诀。",
-        "OriginIcon": "UI_ItemIcon_108108",
-        "Name": "绝境求生烤鱼",
-        "Description": "刻晴的特色料理。并非以火烤熟，而是借由雷元素的精细操作将鱼肉从内部炸透。轻轻一咬，微焦的鱼皮包裹着香酥的鱼肉，程度却是恰到好处。露宿荒野的时候，她就是凭借着这些技巧生存下去的吗？真是不可貌相。",
-        "EffectDescription": "为选中的角色恢复生命值上限的16%，并额外恢复1350点生命值。",
-        "Icon": "UI_ItemIcon_108145",
-        "RankLevel": 1,
+      "CookBonus2": {
+        "OriginItemId": 108108,
+        "ItemId": 108145,
         "InputList": [
-          {
-            "Id": 100084,
-            "Name": "鱼肉",
-            "Icon": "UI_ItemIcon_100084",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100077,
-            "Name": "胡椒",
-            "Icon": "UI_ItemIcon_100077",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100084,
+          100077
         ]
       },
       "Fetters": [
@@ -33162,7 +32968,30 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 204201,
+        "Name": "霓裾翩跹",
+        "Description": "刻晴的礼服装扮。于海灯节之良辰美景中，往日辛劳浓墨所绘的线条，交织成今夜轻盈而瑰丽的容姿。",
+        "IsDefault": false,
+        "Icon": "UI_AvatarIcon_KeqingCostumeFeather",
+        "SideIcon": "UI_AvatarIcon_Side_KeqingCostumeFeather"
+      },
+      {
+        "Id": 204200,
+        "Name": "雷雳寰宇",
+        "Description": "刻晴的装扮款式。用料华贵的飒爽裙装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104144,
+      113002,
+      100058,
+      112040,
+      104312,
+      113007
+    ]
   },
   {
     "Id": 10000043,
@@ -33942,44 +33771,14 @@
       "CvJapanese": "藤田茜",
       "CvEnglish": "瓦莱里娅·罗德里格兹",
       "CvKorean": "金荷英",
-      "CookBonus": {
-        "OriginName": "蟹黄火腿焗时蔬",
-        "OriginDescription": "配料奢华的焗菜。金黄的外皮下，隐约透着玫红的火腿与青绿的蔬菜，丰富的配色让人不由食指大动。",
-        "OriginIcon": "UI_ItemIcon_Recipe_2006",
-        "Name": "伍玖叁式营养餐",
-        "Description": "砂糖的特色料理。乍一眼看上去像是某种奇妙的炼金产物，但据砂糖本人坚称是多次实验改良后才研发成功的营养餐品。「健康」的绿色来源于加入奶油中的天然蔬菜汁…蔬菜汁？",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的20%，并额外恢复1500点生命值。",
-        "Icon": "UI_ItemIcon_108146",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108066,
+        "ItemId": 108146,
         "InputList": [
-          {
-            "Id": 100074,
-            "Name": "蟹黄",
-            "Icon": "UI_ItemIcon_110007",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110005,
-            "Name": "火腿",
-            "Icon": "UI_ItemIcon_110005",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110002,
-            "Name": "奶油",
-            "Icon": "UI_ItemIcon_110002",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100018,
-            "Name": "卷心菜",
-            "Icon": "UI_ItemIcon_100018",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100074,
+          110005,
+          110002,
+          100018
         ]
       },
       "Fetters": [
@@ -34299,7 +34098,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 204300,
+        "Name": "萌生的灵风",
+        "Description": "砂糖的装扮款式。带有砂糖个人特色的西风骑士团炼金术士制服。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104154,
+      113001,
+      100024,
+      112040,
+      104303,
+      113008
+    ]
   },
   {
     "Id": 10000044,
@@ -35232,37 +35046,13 @@
       "CvJapanese": "高桥智秋",
       "CvEnglish": "劳拉·斯特尔",
       "CvKorean": "金採河",
-      "CookBonus": {
-        "OriginName": "香嫩椒椒鸡",
-        "OriginDescription": "凉拌的禽肉。凉拌的技法充分保留住了禽肉鲜美多汁的特点。金黄晶莹的外皮之下，有着微辣的回味。",
-        "OriginIcon": "UI_ItemIcon_108084",
-        "Name": "摇·滚·鸡！",
-        "Description": "辛焱的特色料理。魔鬼般的造型隐藏着魔鬼般的辣度，一边吃一边流泪却还越吃越上瘾。只有魔鬼才做得出这样的菜吧！",
-        "EffectDescription": "队伍中所有角色暴击率提升16%，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108174",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108084,
+        "ItemId": 108174,
         "InputList": [
-          {
-            "Id": 100064,
-            "Name": "禽肉",
-            "Icon": "UI_ItemIcon_100064",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100027,
-            "Name": "绝云椒椒",
-            "Icon": "UI_ItemIcon_100027",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100077,
-            "Name": "胡椒",
-            "Icon": "UI_ItemIcon_100077",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100064,
+          100027,
+          100077
         ]
       },
       "Fetters": [
@@ -35574,7 +35364,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 204400,
+        "Name": "灵魂热望",
+        "Description": "辛焱的装扮款式。装饰有尖刺的摇滚乐手服饰。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104114,
+      113011,
+      100034,
+      112037,
+      104318,
+      113013
+    ]
   },
   {
     "Id": 10000045,
@@ -36418,30 +36223,12 @@
       "CvJapanese": "加隈亚衣",
       "CvEnglish": "伊丽莎白·麦克斯韦",
       "CvKorean": "金洑娜",
-      "CookBonus": {
-        "OriginName": "甜甜花酿鸡",
-        "OriginDescription": "蜜酿后烤熟的禽肉。细嫩的禽肉里渗着甜甜花的丝丝蜜汁，香甜可口。",
-        "OriginIcon": "UI_ItemIcon_Recipe_1004",
-        "Name": "审判的晚宴",
-        "Description": "罗莎莉亚的特色料理。看似「黑暗」的荆棘让人不知从何下手，经过一番折腾去除装饰，试着品尝时，香嫩的鸡肉竟然爆发出了惊人的美味。你的神情尽数落在罗莎莉亚眼里，她似乎对你的反应很满意。",
-        "EffectDescription": "为选中的角色恢复生命值上限的30%，并额外恢复1750点生命值。",
-        "Icon": "UI_ItemIcon_108234",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108032,
+        "ItemId": 108234,
         "InputList": [
-          {
-            "Id": 100064,
-            "Name": "禽肉",
-            "Icon": "UI_ItemIcon_100064",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100012,
-            "Name": "甜甜花",
-            "Icon": "UI_ItemIcon_100012",
-            "RankLevel": 0,
-            "Count": 2
-          }
+          100064,
+          100012
         ]
       },
       "Fetters": [
@@ -36757,7 +36544,30 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 204501,
+        "Name": "致教会自由人",
+        "Description": "罗莎莉亚的装扮款式。这套衣服似乎是教会为她专门定制的礼物。",
+        "IsDefault": false,
+        "Icon": "UI_AvatarIcon_RosariaCostumeWic",
+        "SideIcon": "UI_AvatarIcon_Side_RosariaCostumeWic"
+      },
+      {
+        "Id": 204500,
+        "Name": "处刑棘刺",
+        "Description": "罗莎莉亚的装扮款式。经罗莎莉亚大幅改造后的西风教会修女制服。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104164,
+      113010,
+      100022,
+      112034,
+      104309,
+      113015
+    ]
   },
   {
     "Id": 10000046,
@@ -37694,30 +37504,12 @@
       "CvJapanese": "高桥李依",
       "CvEnglish": "布丽安娜·尼克博克",
       "CvKorean": "金贺娄",
-      "CookBonus": {
-        "OriginName": "素鲍鱼",
-        "OriginDescription": "滋味浓郁的素食。将松茸切成薄片，煎至焦黄后倒入酱汁。松茸肉质饱满，嚼上去有着鲍鱼般鲜香的滋味，是一道近乎能够以假乱真的菜肴。",
-        "OriginIcon": "UI_ItemIcon_108189",
-        "Name": "幽幽大行军",
-        "Description": "胡桃的特色料理。圆头幽灵挤作一堆的样子有些滑稽可爱。不过，要是因为好奇抵不住诱惑而吃了其中「一只」的话，可能会为此后悔很久吧…毕竟，盘子里装的是境界极高的、将味蕾轰炸到完全失灵的——「吃不出是什么食材」。",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的15%，并额外恢复550点生命值。",
-        "Icon": "UI_ItemIcon_108200",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108189,
+        "ItemId": 108200,
         "InputList": [
-          {
-            "Id": 100063,
-            "Name": "松茸",
-            "Icon": "UI_ItemIcon_100063",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100015,
-            "Name": "金鱼草",
-            "Icon": "UI_ItemIcon_100015",
-            "RankLevel": 0,
-            "Count": 2
-          }
+          100063,
+          100015
         ]
       },
       "Fetters": [
@@ -38061,7 +37853,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 204600,
+        "Name": "折梅留芳",
+        "Description": "胡桃的装扮款式。「往生堂」堂主工作时的日常装束。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104114,
+      113016,
+      100029,
+      112040,
+      104315,
+      113014
+    ]
   },
   {
     "Id": 10000047,
@@ -38934,30 +38741,12 @@
       "CvJapanese": "岛崎信长",
       "CvEnglish": "马克·威顿",
       "CvKorean": "金信旴",
-      "CookBonus": {
-        "OriginName": "干烧香鱼",
-        "OriginDescription": "炭火慢烤的鱼干。风干了一夜的鱼，外皮浸润着海风的气息，经烤制后迸发出诱人的咸香，是许多沿海而居的稻妻人最为熟悉的味道。",
-        "OriginIcon": "UI_ItemIcon_108268",
-        "Name": "雨奇晴好",
-        "Description": "枫原万叶的特色料理。由在航行的船上风干了一夜的鱼制作而成，据万叶说，用的只是普普通通的鱼干罢了。但是，这番风味…是包容自然万象的洒脱之意吗？",
-        "EffectDescription": "为选中的角色恢复生命值上限的16%，并额外恢复1350点生命值。",
-        "Icon": "UI_ItemIcon_108301",
-        "RankLevel": 1,
+      "CookBonus2": {
+        "OriginItemId": 108268,
+        "ItemId": 108301,
         "InputList": [
-          {
-            "Id": 100084,
-            "Name": "鱼肉",
-            "Icon": "UI_ItemIcon_100084",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100075,
-            "Name": "盐",
-            "Icon": "UI_ItemIcon_100075",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100084,
+          100075
         ]
       },
       "Fetters": [
@@ -39289,7 +39078,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 204700,
+        "Name": "叶落天涯",
+        "Description": "枫原万叶的装扮款式。染有枫叶纹样的浪人衣装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104154,
+      113022,
+      101206,
+      112037,
+      104315,
+      113019
+    ]
   },
   {
     "Id": 10000048,
@@ -40251,30 +40055,12 @@
       "CvJapanese": "花守由美里",
       "CvEnglish": "莉琪·弗里曼",
       "CvKorean": "赵京洢",
-      "CookBonus": {
-        "OriginName": "蟹黄豆腐",
-        "OriginDescription": "口感细嫩的菜肴。将蟹黄煸炒出油，加入事先烫好的豆腐，并用高汤加以调制。用料简单，入口却极其鲜美。",
-        "OriginIcon": "UI_ItemIcon_108177",
-        "Name": "「自有方圆」",
-        "Description": "烟绯的特色料理。被处理得异常规整的蟹黄豆腐。无论是规格还是味道，都严格遵循着食谱所定下的「蟹黄豆腐律法」，不逾出方圆半分。",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的15%，并额外恢复550点生命值。",
-        "Icon": "UI_ItemIcon_108244",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108177,
+        "ItemId": 108244,
         "InputList": [
-          {
-            "Id": 100074,
-            "Name": "蟹黄",
-            "Icon": "UI_ItemIcon_110007",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100088,
-            "Name": "豆腐",
-            "Icon": "UI_ItemIcon_100088",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100074,
+          100088
         ]
       },
       "Fetters": [
@@ -40582,7 +40368,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 204800,
+        "Name": "金科赤律",
+        "Description": "烟绯的装扮款式。律法咨询师烟绯出外勤时的装束。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104114,
+      113016,
+      100028,
+      112037,
+      104318,
+      113018
+    ]
   },
   {
     "Id": 10000049,
@@ -41441,44 +41242,14 @@
       "CvJapanese": "植田佳奈",
       "CvEnglish": "珍妮·橫堀",
       "CvKorean": "朴信姬",
-      "CookBonus": {
-        "OriginName": "三彩团子",
-        "OriginDescription": "软糯弹牙的点心。由磨成粉的糯米加水捏成球状，再蒸煮而成。绯樱绣球和金鱼草的颜色更是为团子带来了一丝活泼的气息。",
-        "OriginIcon": "UI_ItemIcon_108253",
-        "Name": "夏祭游鱼",
-        "Description": "宵宫的特色料理。在看烟花的时候，被宵宫塞入怀里的点心，耳边传来她无忧无虑如孩童般的笑声，加上砰砰炸响的烟花声，在这独一无二的旋律里，手中圆嘟嘟的金鱼仿佛下一刻就要摆尾游动…",
-        "EffectDescription": "为选中的角色恢复生命值上限的40%，并额外恢复2350点生命值。",
-        "Icon": "UI_ItemIcon_108302",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108253,
+        "ItemId": 108302,
         "InputList": [
-          {
-            "Id": 100078,
-            "Name": "牛奶",
-            "Icon": "UI_ItemIcon_100078",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100015,
-            "Name": "金鱼草",
-            "Icon": "UI_ItemIcon_100015",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 101202,
-            "Name": "绯樱绣球",
-            "Icon": "UI_ItemIcon_101202",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100092,
-            "Name": "稻米",
-            "Icon": "UI_ItemIcon_100092",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100078,
+          100015,
+          101202,
+          100092
         ]
       },
       "Fetters": [
@@ -41814,7 +41585,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 204900,
+        "Name": "金鱼花火",
+        "Description": "宵宫的装扮款式。缀满了历年祭典纪念物的随性装扮。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104114,
+      113024,
+      101205,
+      112010,
+      104322,
+      113017
+    ]
   },
   {
     "Id": 10000050,
@@ -42735,30 +42521,12 @@
       "CvJapanese": "森田成一",
       "CvEnglish": "克里斯蒂安·巴纳斯",
       "CvKorean": "柳承坤",
-      "CookBonus": {
-        "OriginName": "味噌汤",
-        "OriginDescription": "朴实无华的汤料理。用料常见，制法简单，但在小小一碗味噌汤之中却蕴含有「三里之力」，让步行赶路都不再疲惫。",
-        "OriginIcon": "UI_ItemIcon_108277",
-        "Name": "「暖意」",
-        "Description": "托马的特色料理。精致的造型令人不敢相信用料的简单，喝上一口，托马阳光般热忱的笑脸便浮上心头。将最朴素的食材，制作成温暖人身心的美味，这就是他的本领吗？",
-        "EffectDescription": "立即为选中的角色恢复生命值上限的14%，并在之后的30秒内，每5秒恢复350点生命值。",
-        "Icon": "UI_ItemIcon_108354",
-        "RankLevel": 1,
+      "CookBonus2": {
+        "OriginItemId": 108277,
+        "ItemId": 108354,
         "InputList": [
-          {
-            "Id": 100088,
-            "Name": "豆腐",
-            "Icon": "UI_ItemIcon_100088",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 101210,
-            "Name": "海草",
-            "Icon": "UI_ItemIcon_101210",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100088,
+          101210
         ]
       },
       "Fetters": [
@@ -43086,7 +42854,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 205000,
+        "Name": "焰之赤武",
+        "Description": "托马的装扮款式。由托马自行裁剪后几乎只剩佩楯与笼手的轻型具足，便于游刃有余地处理战斗内外各种事物。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104114,
+      113024,
+      101209,
+      112037,
+      104322,
+      113026
+    ]
   },
   {
     "Id": 10000051,
@@ -44099,44 +43882,14 @@
       "CvJapanese": "佐藤利奈",
       "CvEnglish": "素汐·杨",
       "CvKorean": "金炫志",
-      "CookBonus": {
-        "OriginName": "月亮派",
-        "OriginDescription": "蒙德的传统主食。腌制过的肉类不仅风味浓郁，经过酥皮的烘烤后，更保持了香甜与湿润。是蒙德节日不可缺少的组成部分。",
-        "OriginIcon": "UI_ItemIcon_108165",
-        "Name": "骇浪派",
-        "Description": "优菈的特色料理。不同于圆月的造型不知是在反抗传统，还是表达她「以牙还牙」的行事作风。金黄外皮之下，咸鲜的烟熏风味饱满浓郁，全蒙德也难找到第二个能做出如此美味的人…但要是这样说出口的话，恐怕又会被她「记仇」了吧。",
-        "EffectDescription": "队伍中所有角色护盾强效提升40%，防御力提高282点，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108245",
-        "RankLevel": 4,
+      "CookBonus2": {
+        "OriginItemId": 108165,
+        "ItemId": 108245,
         "InputList": [
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 100062,
-            "Name": "鸟蛋",
-            "Icon": "UI_ItemIcon_100062",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 110004,
-            "Name": "黄油",
-            "Icon": "UI_ItemIcon_110004",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 2
-          }
+          100061,
+          100062,
+          110004,
+          110001
         ]
       },
       "Fetters": [
@@ -44488,7 +44241,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 205100,
+        "Name": "浪尖之舞",
+        "Description": "优菈的装扮款式。利落中凸显典雅风范的骑士装束。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104164,
+      113020,
+      100057,
+      112007,
+      104306,
+      113017
+    ]
   },
   {
     "Id": 10000052,
@@ -45937,7 +45705,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 205200,
+        "Name": "御建鸣神主尊之典",
+        "Description": "雷电将军的装扮款式。因以「雷之三重巴」纹为饰而获得无上地位的尊崇着物。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104144,
+      113029,
+      101208,
+      112046,
+      104328,
+      113025
+    ]
   },
   {
     "Id": 10000053,
@@ -46921,37 +46704,13 @@
       "CvJapanese": "洲崎绫",
       "CvEnglish": "莉莉·奇",
       "CvKorean": "李智贤",
-      "CookBonus": {
-        "OriginName": "饭团",
-        "OriginDescription": "由米饭捏成的便携食物。制作简单，常温食用也无损其美味，因此得到兵士和民众的普遍欢迎。",
-        "OriginIcon": "UI_ItemIcon_108256",
-        "Name": "头晕回避术・改",
-        "Description": "早柚的特色料理。饭团被早柚捏成了可爱的形状，要记好造型是貉，千万不要和狸猫搞混了。话说回来，这就是早柚能够吃一顿就睡上一整天的秘密之术吗？",
-        "EffectDescription": "立即为选中的角色恢复生命值上限的26%，并在之后的30秒内，每5秒恢复570点生命值。",
-        "Icon": "UI_ItemIcon_108303",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108256,
+        "ItemId": 108303,
         "InputList": [
-          {
-            "Id": 100084,
-            "Name": "鱼肉",
-            "Icon": "UI_ItemIcon_100084",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 101210,
-            "Name": "海草",
-            "Icon": "UI_ItemIcon_101210",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100092,
-            "Name": "稻米",
-            "Icon": "UI_ItemIcon_100092",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100084,
+          101210,
+          100092
         ]
       },
       "Fetters": [
@@ -47291,7 +47050,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 205300,
+        "Name": "小貉服",
+        "Description": "早柚的装扮款式。以神秘生物——「貉」为灵感设计的奇妙装束。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104154,
+      113022,
+      101203,
+      112040,
+      104328,
+      113019
+    ]
   },
   {
     "Id": 10000054,
@@ -48177,30 +47951,12 @@
       "CvJapanese": "三森铃子",
       "CvEnglish": "林丽莎",
       "CvKorean": "吕允美",
-      "CookBonus": {
-        "OriginName": "鸟蛋寿司",
-        "OriginDescription": "稻妻的家常料理之一。将切成片的鸟蛋烧放在调味过的米饭上，做法简单，美味却丝毫不打折扣。",
-        "OriginIcon": "UI_ItemIcon_108325",
-        "Name": "「奇策」",
-        "Description": "珊瑚宫心海的特色料理。蛋皮包成锦囊之形，末端鱼尾小巧而又可爱。如此珍品让人好奇「锦囊」中包裹之物，却又捧在掌心不忍下口…看着心海脸上盈盈的笑意，可恶，已经中计了吗？",
-        "EffectDescription": "为选中的角色恢复生命值上限的16%，并额外恢复1350点生命值。",
-        "Icon": "UI_ItemIcon_108340",
-        "RankLevel": 1,
+      "CookBonus2": {
+        "OriginItemId": 108325,
+        "ItemId": 108340,
         "InputList": [
-          {
-            "Id": 100062,
-            "Name": "鸟蛋",
-            "Icon": "UI_ItemIcon_100062",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100092,
-            "Name": "稻米",
-            "Icon": "UI_ItemIcon_100092",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100062,
+          100092
         ]
       },
       "Fetters": [
@@ -48512,7 +48268,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 205400,
+        "Name": "珊骨粼波",
+        "Description": "珊瑚宫心海的装扮款式。以海祇岛所产灵宝点缀的尊贵衣装。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104124,
+      113028,
+      101207,
+      112055,
+      104322,
+      113026
+    ]
   },
   {
     "Id": 10000055,
@@ -49340,44 +49111,14 @@
       "CvJapanese": "畠中祐",
       "CvEnglish": "科里·易",
       "CvKorean": "李晓",
-      "CookBonus": {
-        "OriginName": "兽骨拉面",
-        "OriginDescription": "热气腾腾的面食。低温烹熟的兽肉铺于面上，咸香可口的汤汁，丝丝渗入面条之中。疲惫的时候吃上这么一碗，精神也能为之一振。",
-        "OriginIcon": "UI_ItemIcon_108262",
-        "Name": "常胜传说",
-        "Description": "五郎的特色料理。堆得又高又满的配菜，就如他的心意一般令人动容。一口气吃完面、喝完汤，揉揉略撑的肚皮，再抬头看向身边的五郎…只见他笑得灿烂，尾巴还在身后轻轻晃动，大概他自己也没有发现吧…",
-        "EffectDescription": "为选中的角色恢复生命值上限的40%，并额外恢复2350点生命值。",
-        "Icon": "UI_ItemIcon_108365",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108262,
+        "ItemId": 108365,
         "InputList": [
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100091,
-            "Name": "竹笋",
-            "Icon": "UI_ItemIcon_100091",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100062,
-            "Name": "鸟蛋",
-            "Icon": "UI_ItemIcon_100062",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100061,
+          110001,
+          100091,
+          100062
         ]
       },
       "Fetters": [
@@ -49701,7 +49442,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 205500,
+        "Name": "百狩之义铠",
+        "Description": "五郎的装扮款式。为使神射将军五郎御弓灵便而打造的轻铠，肩头与肘部护有甲片，便于控弦。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104174,
+      113023,
+      101207,
+      112055,
+      104328,
+      113025
+    ]
   },
   {
     "Id": 10000056,
@@ -50512,30 +50268,12 @@
       "CvJapanese": "濑户麻沙美",
       "CvEnglish": "珍妮·迪拉多",
       "CvKorean": "文支映",
-      "CookBonus": {
-        "OriginName": "鸟蛋烧",
-        "OriginDescription": "煎制而成的蛋料理。将搅拌均匀的蛋液先行调味，倒入锅中小火慢煎，卷至一边定型，再次倒入蛋液继续…重复至一定厚度，便可摆盘作为成品。是稻妻地区平凡而又亲切的美味。",
-        "OriginIcon": "UI_ItemIcon_108265",
-        "Name": "永恒的信仰",
-        "Description": "九条裟罗的特色料理。与其说成菜肴，不如说是点心。甜蜜绵软的口味似乎与裟罗本人的喜好大不相同。等等，这上面的印记，莫非是与「那位大人」有关？",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的10%，并额外恢复150点生命值。",
-        "Icon": "UI_ItemIcon_108341",
-        "RankLevel": 1,
+      "CookBonus2": {
+        "OriginItemId": 108265,
+        "ItemId": 108341,
         "InputList": [
-          {
-            "Id": 100062,
-            "Name": "鸟蛋",
-            "Icon": "UI_ItemIcon_100062",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110006,
-            "Name": "糖",
-            "Icon": "UI_ItemIcon_110006",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100062,
+          110006
         ]
       },
       "Fetters": [
@@ -50867,7 +50605,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 205600,
+        "Name": "严正净衣",
+        "Description": "九条裟罗的装扮款式。洁净端正，足以面神的虔信者装束。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104144,
+      113029,
+      101204,
+      112007,
+      104325,
+      113027
+    ]
   },
   {
     "Id": 10000057,
@@ -51753,37 +51506,13 @@
       "CvJapanese": "西川贵教",
       "CvEnglish": "马克斯·迈特尔曼",
       "CvKorean": "宋埈硕",
-      "CookBonus": {
-        "OriginName": "什锦炒面",
-        "OriginDescription": "稻妻的家常料理之一。只需要把面与配菜均匀炒熟就能出锅，做法便捷，又能带来充实的饱腹感，一直以来深受稻妻人民的追捧。",
-        "OriginIcon": "UI_ItemIcon_108292",
-        "Name": "强者之道",
-        "Description": "荒泷一斗的特色料理。对方一再强调这是由「荒泷美食大师一斗」亲手组装的「美味到古今无双的料理」。不管站着、坐着、躺着，只要吃下就能填饱肚子，吃完之后就能成为一人之下万人之上的强者…真是多谢他了。",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的15%，并额外恢复550点生命值。",
-        "Icon": "UI_ItemIcon_108364",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108292,
+        "ItemId": 108364,
         "InputList": [
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100018,
-            "Name": "卷心菜",
-            "Icon": "UI_ItemIcon_100018",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          110001,
+          100018,
+          100061
         ]
       },
       "Fetters": [
@@ -52115,7 +51844,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 205700,
+        "Name": "倾奇狂鬼",
+        "Description": "荒泷一斗的装扮款式。不仅大衣气派非常，腰带上的鬼面更是威严，连花见坂最顽皮的小孩也能吓哭。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104174,
+      113030,
+      101201,
+      112004,
+      104325,
+      113027
+    ]
   },
   {
     "Id": 10000058,
@@ -52923,37 +52667,13 @@
       "CvJapanese": "佐仓绫音",
       "CvEnglish": "拉塔纳",
       "CvKorean": "文维贞",
-      "CookBonus": {
-        "OriginName": "乌冬面",
-        "OriginDescription": "韧劲十足的面食。面团经过多次醒发与拉长之后，变成了爽滑弹牙的面条。与风味浓郁的拉面不同，乌冬面以清淡的味道治愈着稻妻的人们。",
-        "OriginIcon": "UI_ItemIcon_108378",
-        "Name": "福内乌冬",
-        "Description": "八重神子的特色料理。中间的油豆腐是庄重的「狐狸小姐」的特殊定制品，据说如果心怀诚意，一口气全部吃完的话，接下去的一整天内都能得到「狐仙大人」的庇佑，晦气远远，福气满满。",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的15%，并额外恢复550点生命值。",
-        "Icon": "UI_ItemIcon_108380",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108378,
+        "ItemId": 108380,
         "InputList": [
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 101210,
-            "Name": "海草",
-            "Icon": "UI_ItemIcon_101210",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100084,
-            "Name": "鱼肉",
-            "Icon": "UI_ItemIcon_100084",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          110001,
+          101210,
+          100084
         ]
       },
       "Fetters": [
@@ -53277,7 +52997,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 205800,
+        "Name": "御子之谕",
+        "Description": "八重神子的装扮款式。宣昭鸣神大社斋宫高贵地位的巫女服饰。愿她身着此衣时的美丽容姿，像那洁白襦裙上永不凋谢的神樱花一般驻留。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104144,
+      113031,
+      101206,
+      112046,
+      104328,
+      113034
+    ]
   },
   {
     "Id": 10000059,
@@ -54132,37 +53867,13 @@
       "CvJapanese": "井口祐一",
       "CvEnglish": "凯伊冉·里根",
       "CvKorean": "郑义陈",
-      "CookBonus": {
-        "OriginName": "炸肉排三明治",
-        "OriginDescription": "营养均衡的餐点。面包夹着厚厚的炸肉排，入口香酥，略带酸甜的酱汁则是避免口感生腻的精髓。可谓异国风情与当地美味的完美融合。",
-        "OriginIcon": "UI_ItemIcon_108382",
-        "Name": "唯一的真相",
-        "Description": "鹿野院平藏的特色料理。金黄多汁的肉排横卧在嫩滑的蛋液上，散发着令人无法抗拒的香气…迫不及待吃完后，居然有一种想把深藏于内心的秘密一吐为快的冲动，这莫非是平藏的什么秘密武器吗？",
-        "EffectDescription": "队伍中所有角色攻击力提高114点，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108390",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108382,
+        "ItemId": 108390,
         "InputList": [
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100018,
-            "Name": "卷心菜",
-            "Icon": "UI_ItemIcon_100018",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          110001,
+          100061,
+          100018
         ]
       },
       "Fetters": [
@@ -54474,7 +54185,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 205900,
+        "Name": "弁武朝风",
+        "Description": "鹿野院平藏的装扮款式。解下外套，随意系在腰间，天领奉行的侦探总是一副自在潇洒做派。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104154,
+      113035,
+      101201,
+      112037,
+      104322,
+      113034
+    ]
   },
   {
     "Id": 10000060,
@@ -55305,37 +55031,13 @@
       "CvJapanese": "远藤绫",
       "CvEnglish": "劳拉·波斯特",
       "CvKorean": "玟我",
-      "CookBonus": {
-        "OriginName": "清炒虾仁",
-        "OriginDescription": "清淡润口的菜肴。将虾仁上浆后快速炒熟勾薄芡。极其简单的调味方式，为的是衬托虾肉本身的鲜美。从家常小菜到宴请宾客，都有它的一席之地。",
-        "OriginIcon": "UI_ItemIcon_108195",
-        "Name": "沾露虾仁",
-        "Description": "夜兰的特色料理。食材选用的是由翘英庄送到茶室的新茶沾露，配合现捕的河虾快速炒制。观之，色泽雅丽；闻之，茶香幽远；尝之，软嫩弹牙…等等，她怎么又端了个辣椒碟上来？",
-        "EffectDescription": "队伍中所有角色护盾强效提升35%，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108389",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108195,
+        "ItemId": 108389,
         "InputList": [
-          {
-            "Id": 100093,
-            "Name": "虾仁",
-            "Icon": "UI_ItemIcon_100093",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100015,
-            "Name": "金鱼草",
-            "Icon": "UI_ItemIcon_100015",
-            "RankLevel": 0,
-            "Count": 3
-          }
+          100093,
+          110001,
+          100015
         ]
       },
       "Fetters": [
@@ -55659,7 +55361,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 206000,
+        "Name": "于阑珊处",
+        "Description": "夜兰的装扮款式。常年随主人一道潜伏于暗影之中的装束，气质神秘宛如午夜绽放之兰。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104124,
+      113035,
+      100033,
+      112034,
+      104312,
+      113019
+    ]
   },
   {
     "Id": 10000062,
@@ -56547,30 +56264,12 @@
       "CvJapanese": "高垣彩阳",
       "CvEnglish": "——",
       "CvKorean": "赵玄正",
-      "CookBonus": {
-        "OriginName": "薄荷果冻",
-        "OriginDescription": "口感清凉的甜点。制作步骤十分简单，柔滑的入口和淡淡的薄荷清香却能带给人一整天的清爽心情。",
-        "OriginIcon": "UI_ItemIcon_108226",
-        "Name": "饱腹感凝胶",
-        "Description": "埃洛伊的特色料理。切面完美，造型规整，散发着凉爽的气息。一开始，埃洛伊似乎很担心你能否接受这款外观与众不同的甜品，在看到你一口气吃光后，她总算松了口气…",
-        "EffectDescription": "为选中的角色恢复生命值上限的16%，并额外恢复1350点生命值。",
-        "Icon": "UI_ItemIcon_108339",
-        "RankLevel": 1,
+      "CookBonus2": {
+        "OriginItemId": 108226,
+        "ItemId": 108339,
         "InputList": [
-          {
-            "Id": 100016,
-            "Name": "薄荷",
-            "Icon": "UI_ItemIcon_100016",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110006,
-            "Name": "糖",
-            "Icon": "UI_ItemIcon_110006",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100016,
+          110006
         ]
       },
       "Fetters": [
@@ -56830,7 +56529,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 206200,
+        "Name": "机动猎手",
+        "Description": "埃洛伊的装扮款式。适合林野生活的猎手装束。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104164,
+      113020,
+      101203,
+      112055,
+      104303,
+      113025
+    ]
   },
   {
     "Id": 10000063,
@@ -57768,44 +57482,14 @@
       "CvJapanese": "川澄绫子",
       "CvEnglish": "切尔希·克沃卡",
       "CvKorean": "李贤真",
-      "CookBonus": {
-        "OriginName": "龙须面",
-        "OriginDescription": "细如龙须的面食。葱花炝锅后，加入高汤与配菜，最后下入面条，熟后捞出摆盘。面团须经历多次抻面，才能成为细如秋毫的龙须面，属于璃月面食中最为考究技艺的一品。",
-        "OriginIcon": "UI_ItemIcon_108370",
-        "Name": "连心面",
-        "Description": "申鹤的特色料理。或许是为了还原她记忆中的味道，申鹤在制作和摆盘上都花费了不少时间。细滑的面条，鲜美的汤底，的确让人印象深刻。不过最难忘的，还数这一份付出与心意…",
-        "EffectDescription": "队伍中所有角色攻击力提高274点，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108372",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108370,
+        "ItemId": 108372,
         "InputList": [
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 100064,
-            "Name": "禽肉",
-            "Icon": "UI_ItemIcon_100064",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100011,
-            "Name": "蘑菇",
-            "Icon": "UI_ItemIcon_100011",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 110005,
-            "Name": "火腿",
-            "Icon": "UI_ItemIcon_110005",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          110001,
+          100064,
+          100011,
+          110005
         ]
       },
       "Fetters": [
@@ -58133,7 +57817,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 206300,
+        "Name": "缚绝红尘",
+        "Description": "申鹤的装扮款式。伴随申鹤常年修行的优雅衣装，缠绕身躯的红绳既是束缚也是庇护。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104164,
+      113031,
+      100031,
+      112040,
+      104312,
+      113026
+    ]
   },
   {
     "Id": 10000064,
@@ -59037,37 +58736,13 @@
       "CvJapanese": "小岩井小鸟&杨扬",
       "CvEnglish": "朱蒂·艾丽丝·李&杨扬",
       "CvKorean": "史文英&杨扬",
-      "CookBonus": {
-        "OriginName": "莲子禽蛋羹",
-        "OriginDescription": "蒸制而成的蛋料理。色泽澄澈金黄的禽蛋羹上点缀了几颗莲子。不管是作为早餐还是饭后点心，都能大量补充身体所需的优质营养。",
-        "OriginIcon": "UI_ItemIcon_108120",
-        "Name": "云遮玉",
-        "Description": "云堇的特色料理。香甜糯口的点心，不会对嗓子产生什么影响，是云堇最中意的甜品。回味清雅，即使多吃一些也不会腻。这样想来…分量的确比她平时做给自己吃的更足些。这也是她的善意吧。",
-        "EffectDescription": "队伍中所有角色冲刺消耗的体力降低25%，持续1500秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108373",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108120,
+        "ItemId": 108373,
         "InputList": [
-          {
-            "Id": 100026,
-            "Name": "莲蓬",
-            "Icon": "UI_ItemIcon_100026",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100062,
-            "Name": "鸟蛋",
-            "Icon": "UI_ItemIcon_100062",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110006,
-            "Name": "糖",
-            "Icon": "UI_ItemIcon_110006",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100026,
+          100062,
+          110006
         ]
       },
       "Fetters": [
@@ -59383,7 +59058,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 206400,
+        "Name": "氍毹烟云",
+        "Description": "云堇的装扮款式。由飞云商会的巧手裁缝设计制作的裙装，被云堇一眼相中，成为了她最心爱的常服。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104174,
+      113030,
+      100030,
+      112007,
+      104315,
+      113027
+    ]
   },
   {
     "Id": 10000065,
@@ -60287,44 +59977,14 @@
       "CvJapanese": "水桥香织",
       "CvEnglish": "基拉·巴克兰德",
       "CvKorean": "金燏",
-      "CookBonus": {
-        "OriginName": "蛋包饭",
-        "OriginDescription": "蛋皮包裹的主食。将搅拌均匀的蛋液煎成半熟的蛋皮，倒入米饭，包起来装盘并淋上番茄酱。据说这道菜是由其他地区的菜肴改造而来，同时也有着更为复杂的做法。",
-        "OriginIcon": "UI_ItemIcon_108328",
-        "Name": "蛋包饭圆舞曲",
-        "Description": "久岐忍的特色料理。柔软的蛋皮，仿佛在酱汁构筑成的舞台上翩翩起舞，摇曳的裙摆下包裹着松软香甜的米饭。与乌有亭的主厨作品相比也不会逊色吧，真不愧是拥有厨师证的阿忍！",
-        "EffectDescription": "队伍中所有角色攀爬和冲刺消耗的体力降低25%，持续1500秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108388",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108328,
+        "ItemId": 108388,
         "InputList": [
-          {
-            "Id": 100062,
-            "Name": "鸟蛋",
-            "Icon": "UI_ItemIcon_100062",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 100092,
-            "Name": "稻米",
-            "Icon": "UI_ItemIcon_100092",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100079,
-            "Name": "番茄",
-            "Icon": "UI_ItemIcon_100079",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 110006,
-            "Name": "糖",
-            "Icon": "UI_ItemIcon_110006",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100062,
+          100092,
+          100079,
+          110006
         ]
       },
       "Fetters": [
@@ -60632,7 +60292,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 206500,
+        "Name": "荒泷鬼副手",
+        "Description": "久岐忍的装扮款式。标志性的鬼面铠象征着荒泷派中最为威严的那位「鬼副手」。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104144,
+      113035,
+      101205,
+      112055,
+      104325,
+      113033
+    ]
   },
   {
     "Id": 10000066,
@@ -61525,44 +61200,14 @@
       "CvJapanese": "石田彰",
       "CvEnglish": "克里斯·哈克尼",
       "CvKorean": "张民赫",
-      "CookBonus": {
-        "OriginName": "绯樱天妇罗",
-        "OriginDescription": "油炸而成的菜肴。将腌制好的绯樱花瓣拌入面浆中，再把新鲜的虾和蔬菜均匀裹上面衣，炸制沥干油分。看似简单，但想做出足够惊艳的天妇罗，却非一朝一夕就能练成。",
-        "OriginIcon": "UI_ItemIcon_108298",
-        "Name": "「静寂闲雅」",
-        "Description": "神里绫人的特色料理。摆盘精致典雅，照应绫人本人的处事风格，多一分是盈，少一分则亏。细细品尝，味道居然和乌有亭一模一样，真是奇妙。最后将筷子伸向那朵晶莹的椿花时，却被绫人拦了下来…「那是练剑时的顺手之作，只是个装饰品。」",
-        "EffectDescription": "队伍中所有角色护盾强效提升35%，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108387",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108298,
+        "ItemId": 108387,
         "InputList": [
-          {
-            "Id": 100093,
-            "Name": "虾仁",
-            "Icon": "UI_ItemIcon_100093",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 101211,
-            "Name": "堇瓜",
-            "Icon": "UI_ItemIcon_101211",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 101202,
-            "Name": "绯樱绣球",
-            "Icon": "UI_ItemIcon_101202",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100093,
+          101211,
+          101202,
+          110001
         ]
       },
       "Fetters": [
@@ -61882,7 +61527,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 206600,
+        "Name": "绫罗锦绣",
+        "Description": "神里绫人的装扮款式。着物本身由珍奇布料制成，布料上的纹饰褶褶若高山之泉，散发出同他本人一般的沉稳庄重气质。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104124,
+      113028,
+      101202,
+      112046,
+      104325,
+      113032
+    ]
   },
   {
     "Id": 10000067,
@@ -62663,44 +62323,14 @@
       "CvJapanese": "前川凉子",
       "CvEnglish": "克里斯蒂娜·科斯特洛",
       "CvKorean": "房翅于",
-      "CookBonus": {
-        "OriginName": "口袋饼",
-        "OriginDescription": "内馅多样的面饼。扁扁的面团经过烤制后，像炮鲀一般变得圆鼓鼓的，切开后就像口袋一样，由此而得名。据说以前的须弥人偏好蘸酱直接吃，而现在的主流吃法则是，往里塞入各种各样的馅料，大口大口吃下。",
-        "OriginIcon": "UI_ItemIcon_108407",
-        "Name": "憧憬",
-        "Description": "柯莱的特色料理。松软的饼皮内塞满了营养丰富的配菜，方便携带又管饱。柯莱补充说，里面夹着的肉排名为「巡林员烤肉！」。嗯——不禁让人联想起一个红色的活泼身影…这也是根植于柯莱内心深处的美好憧憬吧。",
-        "EffectDescription": "为选中的角色恢复生命值上限的40%，并额外恢复2350点生命值。",
-        "Icon": "UI_ItemIcon_108437",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108407,
+        "ItemId": 108437,
         "InputList": [
-          {
-            "Id": 100061,
-            "Name": "兽肉",
-            "Icon": "UI_ItemIcon_100061",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100079,
-            "Name": "番茄",
-            "Icon": "UI_ItemIcon_100079",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100078,
-            "Name": "牛奶",
-            "Icon": "UI_ItemIcon_100078",
-            "RankLevel": 0,
-            "Count": 2
-          }
+          100061,
+          110001,
+          100079,
+          100078
         ]
       },
       "Fetters": [
@@ -63016,7 +62646,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 206700,
+        "Name": "一叶新生",
+        "Description": "柯莱的装扮款式。再也不必蜷缩在厚重的斗篷下，像新叶一样舒展身体，迎接每个美好的清晨吧。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104134,
+      113036,
+      101213,
+      112013,
+      104337,
+      113033
+    ]
   },
   {
     "Id": 10000068,
@@ -63874,44 +63519,14 @@
       "CvJapanese": "金田朋子",
       "CvEnglish": "安洁丽·库娜帕内妮",
       "CvKorean": "李明浩",
-      "CookBonus": {
-        "OriginName": "黄油鸡",
-        "OriginDescription": "风味浓郁的菜肴。腌制好的鸡肉块，先用油炸一遍。加热黄油再加入番茄碎和香辛料，煮成糊状后加入炸好的鸡块。成品配上主食一起吃，是最能拨动须弥人心弦的美味。",
-        "OriginIcon": "UI_ItemIcon_108392",
-        "Name": "摩拉急速来",
-        "Description": "多莉的特色料理。付了一大笔餐费后，终于有幸吃上了桑歌玛哈巴依老爷亲手制作的料理。丝滑的酱汁如同绸缎一般包裹着紧实的鸡肉…在这欲罢不能的美味影响下，竟然有种奇妙的冲动——还想要掏出摩拉，再买一份！",
-        "EffectDescription": "队伍中所有角色攻击力提高274点，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108438",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108392,
+        "ItemId": 108438,
         "InputList": [
-          {
-            "Id": 100064,
-            "Name": "禽肉",
-            "Icon": "UI_ItemIcon_100064",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100079,
-            "Name": "番茄",
-            "Icon": "UI_ItemIcon_100079",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 110004,
-            "Name": "黄油",
-            "Icon": "UI_ItemIcon_110004",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110014,
-            "Name": "香辛料",
-            "Icon": "UI_ItemIcon_110014",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100064,
+          100079,
+          110004,
+          110014
         ]
       },
       "Fetters": [
@@ -64235,7 +63850,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 206800,
+        "Name": "我爱摩拉",
+        "Description": "多莉的装扮款式。这套恨不得嵌满宝石和贵金属的衣服大声宣告着主人对财富的欲望。据说这还只是商人多莉的常服，难道她还有比这更昂贵的衣服吗？！",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104144,
+      113037,
+      101217,
+      112067,
+      104334,
+      113018
+    ]
   },
   {
     "Id": 10000069,
@@ -65063,37 +64693,13 @@
       "CvJapanese": "小林沙苗",
       "CvEnglish": "艾利奥特·金迪",
       "CvKorean": "郑义宅",
-      "CookBonus": {
-        "OriginName": "杂菇荟萃",
-        "OriginDescription": "经过派蒙苦思冥想改良后的兰那罗烧菇，其实也就是市面上常见的须弥烧菇多加了点调味料。选用三种不同蘑菇，经过适当处理，用简单的手法就能烹饪而成，口感和香味均有可取之处。",
-        "OriginIcon": "UI_ItemIcon_108404",
-        "Name": "巡林官精选",
-        "Description": "提纳里的特色料理。由巡林官提纳里精心挑选出的可食用菇组成。除了寻常菇类，还有从未见过的神秘品种。未经任何香料调味，反而更加凸显出菌菇本身的鲜美…如此难得的珍馐美味，一定让他花了不少研究工作以外的时间吧。",
-        "EffectDescription": "队伍中所有角色防御力提高151点，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108436",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108404,
+        "ItemId": 108436,
         "InputList": [
-          {
-            "Id": 101213,
-            "Name": "树王圣体菇",
-            "Icon": "UI_ItemIcon_101213",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100011,
-            "Name": "蘑菇",
-            "Icon": "UI_ItemIcon_100011",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 101212,
-            "Name": "星蕈",
-            "Icon": "UI_ItemIcon_101212",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          101213,
+          100011,
+          101212
         ]
       },
       "Fetters": [
@@ -65433,7 +65039,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 206900,
+        "Name": "森林之歌",
+        "Description": "提纳里的装扮款式。把花草树木的色彩穿在身上，让自然的生机时刻包裹自己。即便是在衣着上，巡林官提纳里也总是偏向更有森林气息的选择。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104134,
+      113036,
+      101215,
+      112061,
+      104331,
+      113034
+    ]
   },
   {
     "Id": 10000070,
@@ -66339,44 +65960,14 @@
       "CvJapanese": "金元寿子",
       "CvEnglish": "丹妮·钱伯斯",
       "CvKorean": "䌽玪",
-      "CookBonus": {
-        "OriginName": "帕蒂沙兰布丁",
-        "OriginDescription": "须弥流行的甜点。将帕蒂沙兰和须弥蔷薇的花瓣捣出汁液，混合入牛奶、明胶、糖等材料凝固成固状。外表可爱，口味香甜，在须弥的庆典里十分常见。",
-        "OriginIcon": "UI_ItemIcon_108458",
-        "Name": "婆娑一舞",
-        "Description": "妮露的特色料理。晶莹剔透的杯子宛若华美的珠宝盒一般，装着入口即化的香软布丁。这一抹红艳的色泽…恍惚间让人联想到了妮露婆娑起舞之时，那熠熠生辉的身影。不由希望这一舞能永远没有落幕的时刻。",
-        "EffectDescription": "队伍中所有角色攀爬和冲刺消耗的体力降低25%，持续1500秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108466",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108458,
+        "ItemId": 108466,
         "InputList": [
-          {
-            "Id": 101214,
-            "Name": "帕蒂沙兰",
-            "Icon": "UI_ItemIcon_101214",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 101219,
-            "Name": "须弥蔷薇",
-            "Icon": "UI_ItemIcon_101219",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 100078,
-            "Name": "牛奶",
-            "Icon": "UI_ItemIcon_100078",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110006,
-            "Name": "糖",
-            "Icon": "UI_ItemIcon_110006",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          101214,
+          101219,
+          100078,
+          110006
         ]
       },
       "Fetters": [
@@ -66684,7 +66275,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 207000,
+        "Name": "非花非雾",
+        "Description": "妮露的装扮款式。既非花也非雾，她身着舞衣飞旋时却有如花开雾起。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104124,
+      113038,
+      101214,
+      112061,
+      104337,
+      113033
+    ]
   },
   {
     "Id": 10000071,
@@ -67685,44 +67291,14 @@
       "CvJapanese": "入野自由",
       "CvEnglish": "亚历杭德罗·萨博",
       "CvKorean": "李宇梨",
-      "CookBonus": {
-        "OriginName": "米圆塔",
-        "OriginDescription": "量大管饱的经典主食。先将米饭煮好，在米饭中央加上经酸奶腌制过的肉块，再将表面烘烤至酥脆，最后别忘了撒上帕蒂沙兰。不管是米饭还是肉块都能带给人充分的饱腹感，因此在大巴扎非常受欢迎。",
-        "OriginIcon": "UI_ItemIcon_108419",
-        "Name": "决斗之魂",
-        "Description": "赛诺的特色料理。金灿灿的米粒被堆叠成了不可思议的丘状，挖开一勺，里面香喷喷的肉块入口后，顿时在心中激起了一种不可言状的冲动——好想现在就拿出「七圣召唤」，进行一场畅快淋漓的决斗！",
-        "EffectDescription": "立即为选中的角色恢复生命值上限的34%，并在之后的30秒内，每5秒恢复980点生命值。",
-        "Icon": "UI_ItemIcon_108467",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108419,
+        "ItemId": 108467,
         "InputList": [
-          {
-            "Id": 100092,
-            "Name": "稻米",
-            "Icon": "UI_ItemIcon_100092",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 100064,
-            "Name": "禽肉",
-            "Icon": "UI_ItemIcon_100064",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100084,
-            "Name": "鱼肉",
-            "Icon": "UI_ItemIcon_100084",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 101214,
-            "Name": "帕蒂沙兰",
-            "Icon": "UI_ItemIcon_101214",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100092,
+          100064,
+          100084,
+          101214
         ]
       },
       "Fetters": [
@@ -68062,7 +67638,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 207100,
+        "Name": "衡断之心",
+        "Description": "赛诺的装扮款式。体现大风纪官威严与公正原则的装束，由于头部的饰物是应赛诺本人要求特别定制的，做工复杂，需要定期维护。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104144,
+      113037,
+      101225,
+      112010,
+      104331,
+      113032
+    ]
   },
   {
     "Id": 10000072,
@@ -68948,44 +68539,14 @@
       "CvJapanese": "柚木凉香",
       "CvEnglish": "莎蕾·科尔比",
       "CvKorean": "全暎洙",
-      "CookBonus": {
-        "OriginName": "阿如拌饭",
-        "OriginDescription": "量大管饱的主食。集米、面、豆于一体的食物，好吃的秘诀来源于番茄酸甜的味道。因为用料常见，价格低廉，是充饥的好选择，这种做法也渐渐从阿如村传遍了整个须弥。",
-        "OriginIcon": "UI_ItemIcon_108461",
-        "Name": "关怀备至",
-        "Description": "坎蒂丝的特色料理。在端上来之前先已闻到扑鼻的香气，看来坎蒂丝在守护「胃口」方面也颇有心得…只是这分量比寻常的阿如拌饭还要来得更多一些，该、该如何才能将这一份「备至到过量的关怀」全部吃完呢？",
-        "EffectDescription": "恢复80点体力。",
-        "Icon": "UI_ItemIcon_108468",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108461,
+        "ItemId": 108468,
         "InputList": [
-          {
-            "Id": 100092,
-            "Name": "稻米",
-            "Icon": "UI_ItemIcon_100092",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100096,
-            "Name": "秃秃豆",
-            "Icon": "UI_ItemIcon_100096",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 100079,
-            "Name": "番茄",
-            "Icon": "UI_ItemIcon_100079",
-            "RankLevel": 0,
-            "Count": 2
-          }
+          100092,
+          110001,
+          100096,
+          100079
         ]
       },
       "Fetters": [
@@ -69301,7 +68862,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 207200,
+        "Name": "沙漠与夜",
+        "Description": "坎蒂丝的装扮款式。不论走到哪里，点缀在衣间的金黄沙漠和故乡的夜空都陪伴着她。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104124,
+      113039,
+      101220,
+      112067,
+      104331,
+      113033
+    ]
   },
   {
     "Id": 10000073,
@@ -70242,44 +69818,14 @@
       "CvJapanese": "田村由加莉",
       "CvEnglish": "金伯利·安妮·坎贝尔",
       "CvKorean": "朴恃奫",
-      "CookBonus": {
-        "OriginName": "枣椰蜜糖",
-        "OriginDescription": "馅料丰富的甜点。先将糖水熬制到清澈，再与馅料和须弥芝麻酱一起混合，最后等搅拌均匀的糖浆在模具内晾干成松脆的成品即可。据说在寒冷的至冬国也有相似甜点，只是口味略有不同。当然，两国人民自然都认为自家的蜜糖才是全提瓦特最好吃的。",
-        "OriginIcon": "UI_ItemIcon_108455",
-        "Name": "哈瓦玛玛兹",
-        "Description": "纳西妲的特色料理。据说玛兹在须弥有「智慧」的意思，如此精致玲珑的「智慧」，着实令人无法抗拒。纳西妲的眼里有着温柔的笑意：「海葵帮助并见证了鱼儿成长，鱼儿的小小馈赠也是理所应当的呀。」",
-        "EffectDescription": "队伍中所有角色防御力提高282点，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108474",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108455,
+        "ItemId": 108474,
         "InputList": [
-          {
-            "Id": 101221,
-            "Name": "枣椰",
-            "Icon": "UI_ItemIcon_101221",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 100089,
-            "Name": "杏仁",
-            "Icon": "UI_ItemIcon_100089",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 110004,
-            "Name": "黄油",
-            "Icon": "UI_ItemIcon_110004",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 101219,
-            "Name": "须弥蔷薇",
-            "Icon": "UI_ItemIcon_101219",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          101221,
+          100089,
+          110004,
+          101219
         ]
       },
       "Fetters": [
@@ -70615,7 +70161,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 207300,
+        "Name": "万识一偈",
+        "Description": "纳西妲的装扮款式。唯有阐释真知的谶语妙词堪为智慧之神作饰，因此她的一切衣饰均被信徒视为圣言。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104134,
+      113040,
+      101217,
+      112061,
+      104334,
+      113041
+    ]
   },
   {
     "Id": 10000074,
@@ -71439,37 +71000,13 @@
       "CvJapanese": "富田美忧",
       "CvEnglish": "阿希礼·比斯琪",
       "CvKorean": "姜新春",
-      "CookBonus": {
-        "OriginName": "蔷薇奶糊",
-        "OriginDescription": "由发酵乳制成的甜点。将牛奶发酵后过滤，制成酸奶后加糖搅匀，缀以蔷薇花干和坚果碎。这种吃法最初仅在四处奔波的冒险者和旅行商人之间流行，但现在已传遍整个须弥，不管是早餐还是午后甜点，都能见到它的身影。",
-        "OriginIcon": "UI_ItemIcon_108471",
-        "Name": "安眠奢想",
-        "Description": "莱依拉的特色料理。零零散散的坚果粒，宛若星辰点点缀于深邃静谧之夜。浅尝一口，奔波一整天的身心，忽而感受到了安宁。将感受告诉莱依拉之后，她露出了开心而又遗憾的复杂表情——「太、太好了！呜，如果对我也有效就更好了。」",
-        "EffectDescription": "立即为选中的角色恢复生命值上限的26%，并在之后的30秒内，每5秒恢复570点生命值。",
-        "Icon": "UI_ItemIcon_108473",
-        "RankLevel": 2,
+      "CookBonus2": {
+        "OriginItemId": 108471,
+        "ItemId": 108473,
         "InputList": [
-          {
-            "Id": 100078,
-            "Name": "牛奶",
-            "Icon": "UI_ItemIcon_100078",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 101219,
-            "Name": "须弥蔷薇",
-            "Icon": "UI_ItemIcon_101219",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 110006,
-            "Name": "糖",
-            "Icon": "UI_ItemIcon_110006",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100078,
+          101219,
+          110006
         ]
       },
       "Fetters": [
@@ -71773,7 +71310,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 207400,
+        "Name": "梦里星",
+        "Description": "莱依拉的装扮款式。幽深安宁的夜中，点点星光包裹着她进入最甜蜜的梦乡——以上是莱依拉的美好愿望。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104164,
+      113038,
+      101215,
+      112010,
+      104334,
+      113042
+    ]
   },
   {
     "Id": 10000075,
@@ -72616,44 +72168,14 @@
       "CvJapanese": "柿原彻也",
       "CvEnglish": "帕特里克·佩德拉萨",
       "CvKorean": "闵丞釪",
-      "CookBonus": {
-        "OriginName": "鳗肉茶泡饭",
-        "OriginDescription": "清淡可口的主食。往铺好鳗肉的米饭上倒入泡好的茶，短暂静置，等米粒吸饱了茶的香气，配上回味悠长略带回甘的鳗肉，眨眼间便能呼啦呼啦吃掉大半碗。",
-        "OriginIcon": "UI_ItemIcon_108356",
-        "Name": "真味茶泡饭",
-        "Description": "流浪者的特色料理。微苦的茶香与清甜的米饭浑然一体，吃上一口就停不下来。如此高超的厨艺，他是怎么做到的？似乎察觉到了你的内心想法，只见他脸色一沉：「还等什么？吃完了就赶快去洗碗。」",
-        "EffectDescription": "队伍中所有角色治疗加成提升25%，持续300秒。多人游戏时，仅对自己的角色生效。",
-        "Icon": "UI_ItemIcon_108479",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108356,
+        "ItemId": 108479,
         "InputList": [
-          {
-            "Id": 100095,
-            "Name": "鳗肉",
-            "Icon": "UI_ItemIcon_100095",
-            "RankLevel": 0,
-            "Count": 4
-          },
-          {
-            "Id": 100092,
-            "Name": "稻米",
-            "Icon": "UI_ItemIcon_100092",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 101210,
-            "Name": "海草",
-            "Icon": "UI_ItemIcon_101210",
-            "RankLevel": 0,
-            "Count": 3
-          },
-          {
-            "Id": 100075,
-            "Name": "盐",
-            "Icon": "UI_ItemIcon_100075",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          100095,
+          100092,
+          101210,
+          100075
         ]
       },
       "Fetters": [
@@ -73025,7 +72547,22 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 207500,
+        "Name": "寂忿空相",
+        "Description": "#{REALNAME[ID(1)]}的装扮款式。修验之人的常服，斗笠可以为雨中的流浪人留下一隅驻足之地，对心中肆虐的风啸雷鸣，却无能为力。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104154,
+      113038,
+      101213,
+      112046,
+      104337,
+      113043
+    ]
   },
   {
     "Id": 10000076,
@@ -73915,37 +73452,13 @@
       "CvJapanese": "堀江由衣",
       "CvEnglish": "婵达妮·帕雷克",
       "CvKorean": "金愈琳",
-      "CookBonus": {
-        "OriginName": "椰炭饼",
-        "OriginDescription": "乌漆墨黑的甜饼。先将枣椰烧制成粉状，过筛提纯，再加入面糊，搅拌均匀后烤熟。其貌不扬的成品带有淡淡的枣椰清香，搭配果酱尤为香甜。",
-        "OriginIcon": "UI_ItemIcon_108449",
-        "Name": "古法秘制椰炭饼",
-        "Description": "珐露珊的特色料理。漆黑的甜饼横卧在薄荷般翠绿的酱汁之上，宛若一个玄之又玄的机关。或许是察觉到了你的犹豫，珐露珊前辈立刻挺起胸膛，「自信满满」地表示，这是一百年前须弥传统的做法，保证好吃。可，可是…一百年前须弥人的口味，真是如此吗？",
-        "EffectDescription": "复苏选中的角色，为其恢复生命值上限的20%，并额外恢复1500点生命值。",
-        "Icon": "UI_ItemIcon_108478",
-        "RankLevel": 3,
+      "CookBonus2": {
+        "OriginItemId": 108449,
+        "ItemId": 108478,
         "InputList": [
-          {
-            "Id": 101221,
-            "Name": "枣椰",
-            "Icon": "UI_ItemIcon_101221",
-            "RankLevel": 0,
-            "Count": 2
-          },
-          {
-            "Id": 110001,
-            "Name": "面粉",
-            "Icon": "UI_ItemIcon_110001",
-            "RankLevel": 0,
-            "Count": 1
-          },
-          {
-            "Id": 110008,
-            "Name": "果酱",
-            "Icon": "UI_ItemIcon_110008",
-            "RankLevel": 0,
-            "Count": 1
-          }
+          101221,
+          110001,
+          110008
         ]
       },
       "Fetters": [
@@ -74253,6 +73766,21 @@
         }
       ]
     },
-    "Costumes": []
+    "Costumes": [
+      {
+        "Id": 207600,
+        "Name": "碧叶素华",
+        "Description": "珐露珊的装扮款式。素雅的风格象征着不为外物所动的纯粹，百年前曾在教令院内风靡一时，现如今已经没什么人穿了。",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104154,
+      113039,
+      101220,
+      112067,
+      104331,
+      113041
+    ]
   }
 ]
