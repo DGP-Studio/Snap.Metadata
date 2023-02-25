@@ -317,6 +317,32 @@
     }
   },
   {
+    "Id": 21020701,
+    "MonsterName": "Brute_Electric_Axe",
+    "Title": "Crackling Axe Mitachurl",
+    "Description": "Mitachurl: Cracking Axe",
+    "Icon": "UI_MonsterIcon_Brute_None_01",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 40.752,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 21020703,
     "MonsterName": "Brute_Electric_Axe_AttackEnhance",
     "Title": "Crackling Axe Mitachurl",
@@ -338,6 +364,32 @@
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 21020801,
+    "MonsterName": "Brute_Electric_None",
+    "Title": "Thunderhelm Lawachurl",
+    "Description": "Thunderhelm Lawachurl",
+    "Icon": "UI_MonsterIcon_Brute_Electric_01",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 122.256,
+      "AttackBase": 150.72,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.7,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.5
     },
     "GrowCurves": {
       "FIGHT_PROP_BASE_HP": 1,
@@ -1100,6 +1152,41 @@
       101103,
       101104,
       101105
+    ],
+    "BaseValue": {
+      "HpBase": 489.024,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
+      "PhysicalSubHurt": 0.4
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 29040111,
+    "MonsterName": "Monster_Dahaka",
+    "Title": "Azhdaha",
+    "Description": "Sealed Lord of Vishaps",
+    "Icon": "UI_MonsterIcon_Dahaka",
+    "Type": 2,
+    "Affixes": [
+      "若陀龙王-任务"
+    ],
+    "Drops": [
+      104172,
+      104002,
+      104013,
+      202
     ],
     "BaseValue": {
       "HpBase": 489.024,
@@ -2057,6 +2144,36 @@
     }
   },
   {
+    "Id": 20010604,
+    "MonsterName": "Slime_Electric_03_AttackEnhance",
+    "Title": "Large Electro Slime",
+    "Description": "Large Electro Slime",
+    "Icon": "UI_MonsterIcon_Slime_Electric_03",
+    "Type": 1,
+    "Affixes": [
+      "感电免疫",
+      "强攻"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 52.752,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 20010605,
     "MonsterName": "Slime_Electric_03_SimpleStick",
     "Title": "Large Electro Slime",
@@ -2102,6 +2219,36 @@
       112002,
       112003,
       112004
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 52.752,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 20010702,
+    "MonsterName": "Slime_Electric_03_Positive_AttackEnhance",
+    "Title": "Mutant Electro Slime",
+    "Description": "Mutant Electro Slime",
+    "Icon": "UI_MonsterIcon_Slime_Electric_03_Positive",
+    "Type": 1,
+    "Affixes": [
+      "感电免疫",
+      "强攻"
     ],
     "BaseValue": {
       "HpBase": 27.168,
@@ -2251,6 +2398,36 @@
     }
   },
   {
+    "Id": 20010904,
+    "MonsterName": "Slime_Ice_03_AttackEnhance",
+    "Title": "Large Cryo Slime",
+    "Description": "Large Cryo Slime",
+    "Icon": "UI_MonsterIcon_Slime_Ice_03",
+    "Type": 1,
+    "Affixes": [
+      "寒气免疫",
+      "强攻"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 52.752,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 20010905,
     "MonsterName": "Slime_Ice_03_SimpleStick",
     "Title": "Large Cryo Slime",
@@ -2325,6 +2502,35 @@
       112002,
       112003,
       112004
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 35.168,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 20011103,
+    "MonsterName": "Slime_Water_03_AttackEnhance",
+    "Title": "Large Hydro Slime",
+    "Description": "Large Hydro Slime",
+    "Icon": "UI_MonsterIcon_Slime_Water_03",
+    "Type": 1,
+    "Affixes": [
+      "强攻"
     ],
     "BaseValue": {
       "HpBase": 27.168,
@@ -3320,6 +3526,35 @@
     }
   },
   {
+    "Id": 21010402,
+    "MonsterName": "Hili_None_01_Range_Multi",
+    "Title": "Hilichurl Shooter",
+    "Description": "Hilichurl Shooter",
+    "Icon": "UI_MonsterIcon_Hili_None_01",
+    "Type": 1,
+    "Affixes": [
+      "强攻"
+    ],
+    "BaseValue": {
+      "HpBase": 10.8672,
+      "AttackBase": 11.304,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 21010501,
     "MonsterName": "Hili_Fire_Range",
     "Title": "Pyro Hilichurl Shooter",
@@ -3358,6 +3593,36 @@
     }
   },
   {
+    "Id": 21010502,
+    "MonsterName": "Hili_Fire_Range_Multi",
+    "Title": "Pyro Hilichurl Shooter",
+    "Description": "Hilichurl Shooter",
+    "Icon": "UI_MonsterIcon_Hili_Fire_Range",
+    "Type": 1,
+    "Affixes": [
+      "点燃免疫",
+      "强攻"
+    ],
+    "BaseValue": {
+      "HpBase": 10.8672,
+      "AttackBase": 16.956,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 21010601,
     "MonsterName": "Hili_Fire_Bomb",
     "Title": "Hilichurl Grenadier",
@@ -3372,6 +3637,36 @@
       112005,
       112006,
       112007
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 21010603,
+    "MonsterName": "Hili_Fire_Bomb_AttackEnhance",
+    "Title": "Hilichurl Grenadier",
+    "Description": "Hilichurl",
+    "Icon": "UI_MonsterIcon_Hili_Fire_Range",
+    "Type": 1,
+    "Affixes": [
+      "点燃免疫",
+      "强攻"
     ],
     "BaseValue": {
       "HpBase": 13.584,
@@ -3506,6 +3801,35 @@
       112005,
       112006,
       112007
+    ],
+    "BaseValue": {
+      "HpBase": 10.8672,
+      "AttackBase": 16.956,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 21011002,
+    "MonsterName": "Hili_Electric_Range_Multi",
+    "Title": "Electro Hilichurl Shooter",
+    "Description": "Hilichurl Shooter",
+    "Icon": "UI_MonsterIcon_Hili_Electric_Range",
+    "Type": 1,
+    "Affixes": [
+      "强攻"
     ],
     "BaseValue": {
       "HpBase": 10.8672,
@@ -3704,6 +4028,32 @@
     }
   },
   {
+    "Id": 21011601,
+    "MonsterName": "Hili_Electric_Bomb",
+    "Title": "Electro Hilichurl Grenadier",
+    "Description": "Hilichurl",
+    "Icon": "UI_MonsterIcon_Hili_Electric_Range",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 21011602,
     "MonsterName": "Hili_Electric_Bomb_AttackEnhance",
     "Title": "Electro Hilichurl Grenadier",
@@ -3765,6 +4115,32 @@
     }
   },
   {
+    "Id": 20011202,
+    "MonsterName": "Slime_Fire_Tutorial",
+    "Title": "Pyro Slime",
+    "Description": "Pyro Slime",
+    "Icon": "UI_MonsterIcon_Slime_Fire_02",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 7,
+      "AttackBase": 0,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 20011204,
     "MonsterName": "Slime_Fire_02_SimpleStick",
     "Title": "Pyro Slime",
@@ -3806,6 +4182,35 @@
       112002,
       112003,
       112004
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 52.752,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 20011304,
+    "MonsterName": "Slime_Fire_03_AttackEnhance",
+    "Title": "Large Pyro Slime",
+    "Description": "Large Pyro Slime",
+    "Icon": "UI_MonsterIcon_Slime_Fire_03",
+    "Type": 1,
+    "Affixes": [
+      "强攻"
     ],
     "BaseValue": {
       "HpBase": 27.168,
@@ -3992,6 +4397,98 @@
     }
   },
   {
+    "Id": 22010102,
+    "MonsterName": "Abyss_Fire_01_ShieldEnhance",
+    "Title": "Pyro Abyss Mage",
+    "Description": "Pyrochanter",
+    "Icon": "UI_MonsterIcon_Abyss_Fire_01",
+    "Type": 1,
+    "Affixes": [
+      "点燃免疫",
+      "元素盾含量强化高",
+      "防护"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22010103,
+    "MonsterName": "Abyss_Fire_01_BlinkEnhance",
+    "Title": "Pyro Abyss Mage",
+    "Description": "Pyrochanter",
+    "Icon": "UI_MonsterIcon_Abyss_Fire_01",
+    "Type": 1,
+    "Affixes": [
+      "点燃免疫",
+      "灵动",
+      "灵动-深渊法师逻辑"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22010104,
+    "MonsterName": "Abyss_Fire_01_AttackEnhance",
+    "Title": "Pyro Abyss Mage",
+    "Description": "Pyrochanter",
+    "Icon": "UI_MonsterIcon_Abyss_Fire_01",
+    "Type": 1,
+    "Affixes": [
+      "点燃免疫",
+      "强攻"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 22010201,
     "MonsterName": "Abyss_Ice_01",
     "Title": "Cryo Abyss Mage",
@@ -4013,6 +4510,98 @@
       400023,
       400033,
       400043
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22010202,
+    "MonsterName": "Abyss_Ice_01_ShieldEnhance",
+    "Title": "Cryo Abyss Mage",
+    "Description": "Cryochanter",
+    "Icon": "UI_MonsterIcon_Abyss_Ice_01",
+    "Type": 1,
+    "Affixes": [
+      "寒气免疫",
+      "元素盾含量强化高",
+      "防护"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22010203,
+    "MonsterName": "Abyss_Ice_01_BlinkEnhance",
+    "Title": "Cryo Abyss Mage",
+    "Description": "Cryochanter",
+    "Icon": "UI_MonsterIcon_Abyss_Ice_01",
+    "Type": 1,
+    "Affixes": [
+      "寒气免疫",
+      "灵动",
+      "灵动-深渊法师逻辑"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22010204,
+    "MonsterName": "Abyss_Ice_01_AttackEnhance",
+    "Title": "Cryo Abyss Mage",
+    "Description": "Cryochanter",
+    "Icon": "UI_MonsterIcon_Abyss_Ice_01",
+    "Type": 1,
+    "Affixes": [
+      "寒气免疫",
+      "强攻"
     ],
     "BaseValue": {
       "HpBase": 27.168,
@@ -4056,6 +4645,121 @@
     "BaseValue": {
       "HpBase": 27.168,
       "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22010302,
+    "MonsterName": "Abyss_Water_01_ShieldEnhance",
+    "Title": "Hydro Abyss Mage",
+    "Description": "Hydrochanter",
+    "Icon": "UI_MonsterIcon_Abyss_Water_01",
+    "Type": 1,
+    "Affixes": [
+      "元素盾含量强化高",
+      "防护"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22010303,
+    "MonsterName": "Abyss_Water_01_BlinkEnhance",
+    "Title": "Hydro Abyss Mage",
+    "Description": "Hydrochanter",
+    "Icon": "UI_MonsterIcon_Abyss_Water_01",
+    "Type": 1,
+    "Affixes": [
+      "灵动",
+      "灵动-深渊法师逻辑"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22010304,
+    "MonsterName": "Abyss_Water_01_AttackEnhance",
+    "Title": "Hydro Abyss Mage",
+    "Description": "Hydrochanter",
+    "Icon": "UI_MonsterIcon_Abyss_Water_01",
+    "Type": 1,
+    "Affixes": [
+      "强攻"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22010401,
+    "MonsterName": "Abyss_Electric_01",
+    "Title": "Electro Abyss Mage",
+    "Description": "Electrochanter",
+    "Icon": "UI_MonsterIcon_Abyss_Electric_01",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 47.1,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -4138,21 +4842,64 @@
     "Description": "Dark Usher of Wicked Torrents",
     "Icon": "UI_MonsterIcon_Invoker_Herald_Water_01",
     "Type": 1,
-    "Drops": [
-      202,
-      112020,
-      112021,
-      112022,
-      112017,
-      112018,
-      112019,
-      400022,
-      400032,
-      400042,
-      400062,
-      400023,
-      400033,
-      400043
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22020102,
+    "MonsterName": "Invoker_Herald_Water_01",
+    "Title": "Abyss Herald: Wicked Torrents",
+    "Description": "Dark Usher of Wicked Torrents",
+    "Icon": "UI_MonsterIcon_Invoker_Herald_Water_01",
+    "Type": 1,
+    "Affixes": [
+      "剧情任务-脱战逻辑标签"
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22020103,
+    "MonsterName": "Invoker_Herald_Water_01",
+    "Title": "Abyss Herald: Wicked Torrents",
+    "Description": "Dark Usher of Wicked Torrents",
+    "Icon": "UI_MonsterIcon_Invoker_Herald_Water_01",
+    "Type": 1,
+    "Affixes": [
+      "剧情任务-脱战逻辑标签",
+      "剧情任务-难度调节标签"
     ],
     "BaseValue": {
       "HpBase": 108.672,
@@ -4180,21 +4927,64 @@
     "Description": "Evangelist of Striking Thunder",
     "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
     "Type": 1,
-    "Drops": [
-      202,
-      112020,
-      112021,
-      112022,
-      112017,
-      112018,
-      112019,
-      400022,
-      400032,
-      400042,
-      400062,
-      400023,
-      400033,
-      400043
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22030102,
+    "MonsterName": "Invoker_Deacon_Electric_01",
+    "Title": "Abyss Lector: Violet Lightning",
+    "Description": "Evangelist of Striking Thunder",
+    "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
+    "Type": 1,
+    "Affixes": [
+      "剧情任务-脱战逻辑标签"
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22030103,
+    "MonsterName": "Invoker_Deacon_Electric_01",
+    "Title": "Abyss Lector: Violet Lightning",
+    "Description": "Evangelist of Striking Thunder",
+    "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
+    "Type": 1,
+    "Affixes": [
+      "剧情任务-脱战逻辑标签",
+      "WQ深渊咏者·紫电-落石"
     ],
     "BaseValue": {
       "HpBase": 108.672,
@@ -4222,21 +5012,34 @@
     "Description": "The Devouring Benthic Flame",
     "Icon": "UI_MonsterIcon_Invoker_Deacon_Fire",
     "Type": 1,
-    "Drops": [
-      202,
-      112020,
-      112021,
-      112022,
-      112017,
-      112018,
-      112019,
-      400022,
-      400032,
-      400042,
-      400062,
-      400023,
-      400033,
-      400043
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22030202,
+    "MonsterName": "Invoker_Deacon_Fire_01",
+    "Title": "Abyss Lector: Fathomless Flames",
+    "Description": "The Devouring Benthic Flame",
+    "Icon": "UI_MonsterIcon_Invoker_Deacon_Fire",
+    "Type": 1,
+    "Affixes": [
+      "剧情任务-脱战逻辑标签"
     ],
     "BaseValue": {
       "HpBase": 108.672,
@@ -4498,6 +5301,45 @@
     }
   },
   {
+    "Id": 22070102,
+    "MonsterName": "ForlornVessel_Strong_Warbanner_Fire_02",
+    "Title": "Shadowy Husk: Standard Bearer",
+    "Description": "The Black Serpent Knights' End",
+    "Icon": "UI_MonsterIcon_ForlornVessel_Strong_Warbanner_Fire",
+    "Type": 1,
+    "Drops": [
+      202,
+      112017,
+      112018,
+      112019,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 67.92,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.3,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 22070201,
     "MonsterName": "ForlornVessel_Strong_Lance_Water_01",
     "Title": "Shadowy Husk: Line Breaker",
@@ -4537,8 +5379,86 @@
     }
   },
   {
+    "Id": 22070202,
+    "MonsterName": "ForlornVessel_Strong_Lance_Water_02",
+    "Title": "Shadowy Husk: Line Breaker",
+    "Description": "The Black Serpent Knights' End",
+    "Icon": "UI_MonsterIcon_ForlornVessel_Strong_Lance_Water",
+    "Type": 1,
+    "Drops": [
+      202,
+      112017,
+      112018,
+      112019,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 81.504,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.3,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 22070301,
     "MonsterName": "ForlornVessel_Strong_Chargebow_Ice_01",
+    "Title": "Shadowy Husk: Defender",
+    "Description": "The Black Serpent Knights' End",
+    "Icon": "UI_MonsterIcon_ForlornVessel_Strong_Chargebow_Ice",
+    "Type": 1,
+    "Drops": [
+      202,
+      112017,
+      112018,
+      112019,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.3,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22070302,
+    "MonsterName": "ForlornVessel_Strong_Chargebow_Ice_02",
     "Title": "Shadowy Husk: Defender",
     "Description": "The Black Serpent Knights' End",
     "Icon": "UI_MonsterIcon_ForlornVessel_Strong_Chargebow_Ice",
@@ -4616,6 +5536,35 @@
       112005,
       112006,
       112007
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 21030103,
+    "MonsterName": "Shaman_Water_01_HealEnhance",
+    "Title": "Hydro Samachurl",
+    "Description": "Hydro Samachurl",
+    "Icon": "UI_MonsterIcon_Shaman_Water_01",
+    "Type": 1,
+    "Affixes": [
+      "支援"
     ],
     "BaseValue": {
       "HpBase": 13.584,
@@ -4715,6 +5664,35 @@
       112005,
       112006,
       112007
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 21030303,
+    "MonsterName": "Shaman_Wind_01_WindZoneEnhance",
+    "Title": "Anemo Samachurl",
+    "Description": "Anemo Samachurl",
+    "Icon": "UI_MonsterIcon_Shaman_Wind_01",
+    "Type": 1,
+    "Affixes": [
+      "支援"
     ],
     "BaseValue": {
       "HpBase": 13.584,
@@ -4854,6 +5832,32 @@
       "ElecSubHurt": 0.1,
       "WindSubHurt": 0.1,
       "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 21030601,
+    "MonsterName": "Shaman_Electric_01",
+    "Title": "Electro Samachurl",
+    "Description": "Electro Samachurl",
+    "Icon": "UI_MonsterIcon_Shaman_Electric_01",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
       "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1
     },
@@ -5642,6 +6646,35 @@
     }
   },
   {
+    "Id": 24021102,
+    "MonsterName": "Apparatus_Perpetual",
+    "Title": "Perpetual Mechanical Array",
+    "Description": "Perpetual Mechanical Array",
+    "Icon": "UI_MonsterIcon_Apparatus_Perpetual",
+    "Type": 2,
+    "Drops": [
+      128
+    ],
+    "BaseValue": {
+      "HpBase": 217.344,
+      "AttackBase": 90.432,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.7
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 24030101,
     "MonsterName": "Gargoyle_Airborne_01",
     "Title": "Ruin Drake: Skywatch",
@@ -6199,6 +7232,35 @@
     }
   },
   {
+    "Id": 23020102,
+    "MonsterName": "Fatuus_Fire_01_AttackEnhance",
+    "Title": "Fatui - Pyro Agent",
+    "Description": "Agent - Incinerating Blades",
+    "Icon": "UI_MonsterIcon_Fatuus_Fire_01",
+    "Type": 1,
+    "Affixes": [
+      "强攻"
+    ],
+    "BaseValue": {
+      "HpBase": 67.92,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.5,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 23030101,
     "MonsterName": "Fatuus_Summoner_01",
     "Title": "Fatui - Electro Cicin Mage",
@@ -6223,6 +7285,36 @@
       400023,
       400033,
       400043
+    ],
+    "BaseValue": {
+      "HpBase": 67.92,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 23030102,
+    "MonsterName": "Fatuus_Summoner_01_AttackEnhance",
+    "Title": "Fatui - Electro Cicin Mage",
+    "Description": "Cicin Mage - Thunder Embracer",
+    "Icon": "UI_MonsterIcon_Fatuus_Summoner_01",
+    "Type": 1,
+    "Affixes": [
+      "召唤怪同生同死",
+      "强攻"
     ],
     "BaseValue": {
       "HpBase": 67.92,
@@ -6880,6 +7972,32 @@
     "BaseValue": {
       "HpBase": 27.168,
       "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 25020101,
+    "MonsterName": "Thoarder_Male_Crossbow_01",
+    "Title": "Treasure Hoarder - Raptor",
+    "Description": "Treasure Hoarder - Raptor",
+    "Icon": "UI_MonsterIcon_Thoarder_Male_Crossbow_01",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -7689,6 +8807,32 @@
     "GrowCurves": {
       "FIGHT_PROP_BASE_HP": 23,
       "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 25080401,
+    "MonsterName": "Samurai_Hatamoto_01",
+    "Title": "Yoriki Samurai",
+    "Description": "Yoriki Samurai",
+    "Icon": "UI_MonsterIcon_Samurai_Hatamoto_01",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 48.9024,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 2,
       "FIGHT_PROP_BASE_DEFENSE": 12
     }
   },
@@ -9288,6 +10432,32 @@
     }
   },
   {
+    "Id": 26010301,
+    "MonsterName": "Mimik_Electric",
+    "Title": "Electro Whopperflower",
+    "Description": "Electro Whopperflower",
+    "Icon": "UI_MonsterIcon_Mimik_Electric",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 40.752,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 26020101,
     "MonsterName": "Regisvine_Ice",
     "Title": "Cryo Regisvine",
@@ -9941,6 +11111,38 @@
     }
   },
   {
+    "Id": 26050501,
+    "MonsterName": "Drake_Primo_Rock_01_Activity",
+    "Title": "Primo Geovishap",
+    "Description": "Primo Geovishap",
+    "Icon": "UI_MonsterIcon_Drake_Primo_Rock",
+    "Type": 2,
+    "Affixes": [
+      "古岩龙蜥-活动"
+    ],
+    "Drops": [
+      141
+    ],
+    "BaseValue": {
+      "HpBase": 407.52,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 1,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 26050601,
     "MonsterName": "Drake_DeepSea_Water_01",
     "Title": "Primordial Bathysmal Vishap",
@@ -9967,6 +11169,45 @@
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
       "WaterSubHurt": 0.3,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 26050901,
+    "MonsterName": "Drake_DeepSea_Water_02",
+    "Title": "Primordial Bathysmal Vishap",
+    "Description": "Primordial Bathysmal Vishap",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
+    "Type": 1,
+    "Drops": [
+      202,
+      112041,
+      112042,
+      112043,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.2,
       "ElecSubHurt": 0.1,
       "WindSubHurt": 0.1,
       "IceSubHurt": 0.1,
@@ -10021,6 +11262,45 @@
       "ElecSubHurt": 0.1,
       "WindSubHurt": 0.1,
       "IceSubHurt": 0.3,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 26051001,
+    "MonsterName": "Drake_Deepsea_Ice_02",
+    "Title": "Rimebiter Bathysmal Vishap",
+    "Description": "Rimebiter Bathysmal Vishap",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Ice",
+    "Type": 1,
+    "Drops": [
+      202,
+      112041,
+      112042,
+      112043,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.2,
       "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.3
     },
@@ -10252,6 +11532,32 @@
     }
   },
   {
+    "Id": 26090101,
+    "MonsterName": "Fungus_Un_Gamma_Water_01",
+    "Title": "Floating Hydro Fungus",
+    "Description": "Floating Hydro Fungus",
+    "Icon": "UI_MonsterIcon_Fungus_Un_Gamma_Water",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.2,
+      "WaterSubHurt": 0.2,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 26090201,
     "MonsterName": "Fungus_Un_Delta_Grass_01",
     "Title": "Floating Dendro Fungus",
@@ -10412,6 +11718,32 @@
     }
   },
   {
+    "Id": 26090601,
+    "MonsterName": "Fungus_Trois_Gamma_Fire_01",
+    "Title": "Whirling Pyro Fungus",
+    "Description": "Whirling Pyro Fungus",
+    "Icon": "UI_MonsterIcon_Fungus_Trois_Gamma_Fire",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.2,
+      "GrassSubHurt": 0.2,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 26090701,
     "MonsterName": "Fungus_Deux_Alpha_Fire_01",
     "Title": "Stretchy Pyro Fungus",
@@ -10508,6 +11840,32 @@
       "WindSubHurt": 0.1,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.2,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 26091001,
+    "MonsterName": "Fungus_Deux_Delta_Electric_01",
+    "Title": "Stretchy Electro Fungus",
+    "Description": "Stretchy Electro Fungus",
+    "Icon": "UI_MonsterIcon_Fungus_Deux_Delta_Electric",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.2,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.2,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": {
@@ -11295,6 +12653,32 @@
       "WindSubHurt": 0.1,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 26120401,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Title": "Grounded Geoshroom",
+    "Description": "Grounded Geoshroom",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": {
