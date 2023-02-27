@@ -1564,7 +1564,7 @@
     "WeaponType": 1,
     "RankLevel": 5,
     "Name": "Light of Foliar Incision",
-    "Description": "Pedang berburu berwarna emas yang dibuat dari cabang putih yang berharga, telah menebas jatuh begitu banyak racun kegelapan yang hendak memasuki hutan.",
+    "Description": "Pedang berburu berlapis emas terbuat dari ranting putih yang berharga, telah menebas jatuh begitu banyak racun kegelapan yang hendak memasuki hutan.",
     "Icon": "UI_EquipIcon_Sword_Ayus",
     "AwakenIcon": "UI_EquipIcon_Sword_Ayus_Awaken",
     "GrowCurves": {
@@ -2626,6 +2626,51 @@
     }
   },
   {
+    "Id": 12418,
+    "PromoteId": 12418,
+    "WeaponType": 11,
+    "RankLevel": 4,
+    "Name": "Mailed Flower",
+    "Description": "Greatsword yang anggun dan elegan, dihiasi dengan bunga dan pita bernuansa festival.",
+    "Icon": "UI_EquipIcon_Claymore_Fleurfair",
+    "AwakenIcon": "UI_EquipIcon_Claymore_Fleurfair_Awaken",
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_ATTACK": {
+        "Type": 1202,
+        "Value": 43.7349
+      },
+      "FIGHT_PROP_ELEMENT_MASTERY": {
+        "Type": 2201,
+        "Value": 24
+      }
+    },
+    "Affix": {
+      "Name": "Whispers of Wind and Flower",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Selama 8 detik setelah Elemental Skill mengenai musuh atau Reaksi Elemental terpicu, ATK meningkat <color=#99FFFFFF>12%</color>, Elemental Mastery meningkat <color=#99FFFFFF>48</color> poin."
+        },
+        {
+          "Level": 1,
+          "Description": "Selama 8 detik setelah Elemental Skill mengenai musuh atau Reaksi Elemental terpicu, ATK meningkat <color=#99FFFFFF>15%</color>, Elemental Mastery meningkat <color=#99FFFFFF>60</color> poin."
+        },
+        {
+          "Level": 2,
+          "Description": "Selama 8 detik setelah Elemental Skill mengenai musuh atau Reaksi Elemental terpicu, ATK meningkat <color=#99FFFFFF>18%</color>, Elemental Mastery meningkat <color=#99FFFFFF>72</color> poin."
+        },
+        {
+          "Level": 3,
+          "Description": "Selama 8 detik setelah Elemental Skill mengenai musuh atau Reaksi Elemental terpicu, ATK meningkat <color=#99FFFFFF>21%</color>, Elemental Mastery meningkat <color=#99FFFFFF>84</color> poin."
+        },
+        {
+          "Level": 4,
+          "Description": "Selama 8 detik setelah Elemental Skill mengenai musuh atau Reaksi Elemental terpicu, ATK meningkat <color=#99FFFFFF>24%</color>, Elemental Mastery meningkat <color=#99FFFFFF>96</color> poin."
+        }
+      ]
+    }
+  },
+  {
     "Id": 12501,
     "PromoteId": 12501,
     "WeaponType": 11,
@@ -2878,6 +2923,51 @@
         {
           "Level": 4,
           "Description": "Meningkatkan <color=#99FFFFFF>56%</color> DEF. DMG dari Normal dan Charged Attack akan meningkat sebesar <color=#99FFFFFF>80%</color> DEF."
+        }
+      ]
+    }
+  },
+  {
+    "Id": 12511,
+    "PromoteId": 12511,
+    "WeaponType": 11,
+    "RankLevel": 5,
+    "Name": "Beacon of the Reed Sea",
+    "Description": "Pedang besar berujung datar yang dirancang agar cocok dipakai sebagai senjata raja kuno atau instrumen upacara.",
+    "Icon": "UI_EquipIcon_Claymore_Deshret",
+    "AwakenIcon": "UI_EquipIcon_Claymore_Deshret_Awaken",
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_ATTACK": {
+        "Type": 1301,
+        "Value": 45.9364
+      },
+      "FIGHT_PROP_CRITICAL": {
+        "Type": 2301,
+        "Value": 0.072
+      }
+    },
+    "Affix": {
+      "Name": "Desert Watch",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Setelah Elemental Skill mengenai musuh, ATK meningkat <color=#99FFFFFF>20%</color> selama 8 detik; Setelah menerima DMG, ATK meningkat <color=#99FFFFFF>20%</color> selama 8 detik. Kedua efek di atas tetap bisa terpicu meskipun Karakter yang mengenakan Senjata ini ada dalam party namun sedang tidak berada di medan pertempuran. Selain itu, saat tidak dilindungi perisai, Max HP meningkat <color=#99FFFFFF>32%</color>."
+        },
+        {
+          "Level": 1,
+          "Description": "Setelah Elemental Skill mengenai musuh, ATK meningkat <color=#99FFFFFF>25%</color> selama 8 detik; Setelah menerima DMG, ATK meningkat <color=#99FFFFFF>25%</color> selama 8 detik. Kedua efek di atas tetap bisa terpicu meskipun Karakter yang mengenakan Senjata ini ada dalam party namun sedang tidak berada di medan pertempuran. Selain itu, saat tidak dilindungi perisai, Max HP meningkat <color=#99FFFFFF>40%</color>."
+        },
+        {
+          "Level": 2,
+          "Description": "Setelah Elemental Skill mengenai musuh, ATK meningkat <color=#99FFFFFF>30%</color> selama 8 detik; Setelah menerima DMG, ATK meningkat <color=#99FFFFFF>30%</color> selama 8 detik. Kedua efek di atas tetap bisa terpicu meskipun Karakter yang mengenakan Senjata ini ada dalam party namun sedang tidak berada di medan pertempuran. Selain itu, saat tidak dilindungi perisai, Max HP meningkat <color=#99FFFFFF>48%</color>."
+        },
+        {
+          "Level": 3,
+          "Description": "Setelah Elemental Skill mengenai musuh, ATK meningkat <color=#99FFFFFF>35%</color> selama 8 detik; Setelah menerima DMG, ATK meningkat <color=#99FFFFFF>35%</color> selama 8 detik. Kedua efek di atas tetap bisa terpicu meskipun Karakter yang mengenakan Senjata ini ada dalam party namun sedang tidak berada di medan pertempuran. Selain itu, saat tidak dilindungi perisai, Max HP meningkat <color=#99FFFFFF>56%</color>."
+        },
+        {
+          "Level": 4,
+          "Description": "Setelah Elemental Skill mengenai musuh, ATK meningkat <color=#99FFFFFF>40%</color> selama 8 detik; Setelah menerima DMG, ATK meningkat <color=#99FFFFFF>40%</color> selama 8 detik. Kedua efek di atas tetap bisa terpicu meskipun Karakter yang mengenakan Senjata ini ada dalam party namun sedang tidak berada di medan pertempuran. Selain itu, saat tidak dilindungi perisai, Max HP meningkat <color=#99FFFFFF>64%</color>."
         }
       ]
     }

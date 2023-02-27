@@ -65,8 +65,8 @@
     "RankLevel": 4,
     "ItemType": 1,
     "Name": "Clé des légendes",
-    "Description": "Clé requise pour débloquer les Quêtes d'histoire.\nS'obtient en terminant des missions quotidiennes.",
-    "TypeDescription": "Objet d'accès aux Quêtes d'histoires",
+    "Description": "Clé requise pour débloquer les quêtes d'histoire.\nS'obtient en terminant des missions quotidiennes.",
+    "TypeDescription": "Objet d'accès aux quêtes d'histoires",
     "Icon": "UI_ItemIcon_107"
   },
   {
@@ -334,7 +334,7 @@
     "Id": 1105,
     "RankLevel": 5,
     "ItemType": 2,
-    "Name": "Stella Fortuna de Voyageur",
+    "Name": "Stella Fortuna du Voyageur",
     "Description": "Objet abandonné",
     "TypeDescription": "Matériau d'activation de constellation",
     "Icon": "UI_ItemIcon_1102"
@@ -354,7 +354,7 @@
     "Id": 1107,
     "RankLevel": 5,
     "ItemType": 2,
-    "Name": "Stella Fortuna de Voyageuse",
+    "Name": "Stella Fortuna de la Voyageuse",
     "Description": "Objet abandonné",
     "TypeDescription": "Matériau d'activation de constellation",
     "Icon": "UI_ItemIcon_1102"
@@ -938,6 +938,26 @@
     "Description": "Matériau d'activation de la constellation d'Alhaitham.",
     "TypeDescription": "Matériau d'activation de constellation",
     "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1179,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Dehya",
+    "Description": "Matériau d'activation de la constellation de Dehya.",
+    "TypeDescription": "Matériau d'activation de constellation",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1180,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Mika",
+    "Description": "Matériau d'activation de la constellation de Mika.",
+    "TypeDescription": "Matériau d'activation de constellation",
+    "Icon": "UI_ItemIcon_1103"
   },
   {
     "MaterialType": 20,
@@ -1710,6 +1730,16 @@
     "Description": "Un morceau de viande fraîche qui émet une odeur mystérieuse. Quel goût peut-il bien avoir ?",
     "TypeDescription": "Ingrédient",
     "Icon": "UI_ItemIcon_100097"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 100098,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Grain de café",
+    "Description": "Un fruit commun en Teyvat, dont l'arôme est particulier. Il peut être utilisé pour faire des boissons après avoir été moulu.",
+    "TypeDescription": "Ingrédient",
+    "Icon": "UI_ItemIcon_100098"
   },
   {
     "MaterialType": 4,
@@ -6291,26 +6321,6 @@
   },
   {
     "MaterialType": 2,
-    "Id": 100584,
-    "RankLevel": 5,
-    "ItemType": 2,
-    "Name": "Sang sombre",
-    "Description": "#Une substance que vous avez obtenue après la défaite de Dvalin.\nElle possède la forme d'un cristal imbibé du pouvoir des vents anciens et d'un autre pouvoir inconnu qui habitait le corps du dragon.\nCe dernier était prisonnier d'une cage toxique constituée de trois éléments :\nLe sang empoisonné qu'il avait autrefois ingéré, les mensonges de l'Ordre de l'Abîme et la peur de l'abandon.\nEn entendant les paroles d'un certain barde, Dvalin versa des larmes qui brisèrent les caillots de sang impur qui avaient poussé sur son corps, et se libéra de l'emprise maléfique à laquelle il était soumis.\nCet exploit fut possible grâce à {M#un voyageur}{F#une voyageuse} venant d'une contrée lointaine...",
-    "TypeDescription": "Objet de quête",
-    "Icon": "UI_ItemIcon_100584"
-  },
-  {
-    "MaterialType": 2,
-    "Id": 100585,
-    "RankLevel": 5,
-    "ItemType": 2,
-    "Name": "Fragment de monolithe",
-    "Description": "Fragment récupéré après avoir vaincu le Dieu du Vortex.\nDans le passé, ce type de fragment était utilisé pour contenir la puissance d'Ortell.\n\nIl fut un temps où les habitants de ces terres étaient terrorisés par des vagues aussi hautes que des montagnes, incapables de trouver le sommeil dans la nuit soumise à l'assaut des flots rageurs faisant trembler le monde. Ces peurs finirent par disparaître avec le temps et le retour de la paix.\nMais au fond, ceci importe peu. Car quand bien même l'ancien dieu gisant dans les profondeurs se réveillerait à nouveau, il ne pourrait pas changer le cours de l'histoire et lutter contre la naissance d'une nouvelle ère. Peut-être est-ce justement là ce dont souhaite être le témoin celui qui vint à bout du Dieu du Vortex autrefois.",
-    "TypeDescription": "Objet de quête",
-    "Icon": "UI_ItemIcon_100585"
-  },
-  {
-    "MaterialType": 2,
     "Id": 100586,
     "RankLevel": 3,
     "ItemType": 2,
@@ -9648,16 +9658,6 @@
     "Description": "Un composant qui est tombé de l'appareil de purification.",
     "TypeDescription": "Objet de quête",
     "Icon": "UI_ItemIcon_100101"
-  },
-  {
-    "MaterialType": 2,
-    "Id": 100957,
-    "RankLevel": 5,
-    "ItemType": 2,
-    "Name": "Masque funéraire",
-    "Description": "#Un trophée obtenu en vainquant Signora, la 8e Exécutrice des Fatui.\nLes membres de Fatui vivent souvent leurs vies à travers leurs masques. Après avoir rejoint l'organisation, ils doivent abandonner leur passé et leur individualité, renonçant ainsi à leurs noms et à leurs visages.\n\nCependant, ces actions restent difficiles à accomplir.\nSeuls ceux qui portent en eux une obsession qui frôle ou transcende le délire sont disposés à rejoindre cette organisation qui défie l'ordre divin, laissant un œil maléfique consumer les jours qu'ils leur restent dans ce monde en échange d'un immense pouvoir.\nÉvidemment, cela n'exclut pas la présence de personnes ayant soif de pouvoir ou qui aiment tout simplement faire du mal à autrui chez les Fatui.\n\nRosalyne-Kruzchka Lohefalter mena jadis une vie simple et innocente.\nCependant, cette dernière prit fin lorsque ses yeux se remplirent d'une rage folle. La glace froide de son œil maléfique éteignit les flammes qui la dévoraient, mais celles-ci resurgirent lorsqu'{M#un étranger éternel}{F#une étrangère éternelle} à la volonté aussi inébranlable que la sienne brisa le pouvoir du froid qui la protégeait...",
-    "TypeDescription": "Objet de quête",
-    "Icon": "UI_ItemIcon_100957"
   },
   {
     "MaterialType": 2,
@@ -14742,7 +14742,7 @@
     "ItemType": 2,
     "Name": "Éclat de diamant scintillant",
     "Description": "Matériau d'élévation de personnage.\n« Bienvenue au monde »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104101"
   },
   {
@@ -14752,7 +14752,7 @@
     "ItemType": 2,
     "Name": "Fragment de diamant scintillant",
     "Description": "Matériau d'élévation de personnage.\n« Bienvenue au monde »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104102"
   },
   {
@@ -14762,7 +14762,7 @@
     "ItemType": 2,
     "Name": "Morceau de diamant scintillant",
     "Description": "Matériau d'élévation de personnage.\n« Bienvenue au monde »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104103"
   },
   {
@@ -14772,7 +14772,7 @@
     "ItemType": 2,
     "Name": "Diamant scintillant",
     "Description": "Matériau d'élévation de personnage.\n« Bienvenue au monde »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104104"
   },
   {
@@ -14782,7 +14782,7 @@
     "ItemType": 2,
     "Name": "Éclat d'agate agnidus",
     "Description": "Matériau d'élévation de personnage.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104111"
   },
   {
@@ -14792,7 +14792,7 @@
     "ItemType": 2,
     "Name": "Fragment d'agate agnidus",
     "Description": "Matériau d'élévation de personnage.\n« Aller en pèlerinage pour le désir, et se battre pour la réputation... »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104112"
   },
   {
@@ -14802,7 +14802,7 @@
     "ItemType": 2,
     "Name": "Morceau d'agate agnidus",
     "Description": "Matériau d'élévation de personnage.\n« Aller en pèlerinage pour le désir, et se battre pour la réputation... »\n« Le rêve a tout brûlé en cendre à la fin. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104113"
   },
   {
@@ -14812,7 +14812,7 @@
     "ItemType": 2,
     "Name": "Pierre d'agate agnidus",
     "Description": "Matériau d'élévation de personnage.\n« Aller en pèlerinage pour le désir, et se battre pour la réputation... »\n« Si son vrai cœur originel peut être laissé dans les cendres, il a réussi à atteindre la vérité de ██. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104114"
   },
   {
@@ -14822,7 +14822,7 @@
     "ItemType": 2,
     "Name": "Éclat de lazurite varunada",
     "Description": "Matériau d'élévation de personnage.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104121"
   },
   {
@@ -14832,7 +14832,7 @@
     "ItemType": 2,
     "Name": "Fragment de lazurite varunada",
     "Description": "Matériau d'élévation de personnage.\n« Mes idéaux sont purs. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104122"
   },
   {
@@ -14842,7 +14842,7 @@
     "ItemType": 2,
     "Name": "Morceau de lazurite varunada",
     "Description": "Matériau d'élévation de personnage.\n« Mes idéaux sont purs. »\n« Je me dois de te corriger : personne ici n'est impur aux yeux des dieux... »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104123"
   },
   {
@@ -14852,7 +14852,7 @@
     "ItemType": 2,
     "Name": "Pierre de lazurite varunada",
     "Description": "Matériau d'élévation de personnage.\n« Mes idéaux sont purs. »\n« Je me dois de te corriger : personne ici n'est impur aux yeux des dieux, et seuls les lois et le tribunal peuvent déclarer un jugement. »\n« Ils peuvent même me juger. Louez donc ma grandeur et ma pureté. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104124"
   },
   {
@@ -14862,7 +14862,7 @@
     "ItemType": 2,
     "Name": "Éclat d'émeraude nagadus",
     "Description": "Matériau d'élévation de personnage.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104131"
   },
   {
@@ -14872,7 +14872,7 @@
     "ItemType": 2,
     "Name": "Fragment d'émeraude nagadus",
     "Description": "Matériau d'élévation de personnage.\n« J'ai fait un très long rêve... »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104132"
   },
   {
@@ -14882,7 +14882,7 @@
     "ItemType": 2,
     "Name": "Morceau d'émeraude nagadus",
     "Description": "Matériau d'élévation de personnage.\n« J'ai fait un très long rêve... »\n« Il y avait des gens qui se tenaient la main et dansaient en cercle : des sages et des simples d'esprit, des danseuses et des guerriers, des marionnettes et des statues de divinités... »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104133"
   },
   {
@@ -14892,7 +14892,7 @@
     "ItemType": 2,
     "Name": "Pierre d'émeraude nagadus",
     "Description": "Matériau d'élévation de personnage.\n« J'ai fait un très long rêve... »\n« Il y avait des gens qui se tenaient la main et dansaient en cercle : des sages et des simples d'esprit, des danseuses et des guerriers, des marionnettes et des statues de divinités... »\n« Ces gens qui dansaient ensemble étaient une représentation de l'univers. Vivre a toujours été une fin, et la sagesse, le moyen d'y parvenir. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104134"
   },
   {
@@ -14902,7 +14902,7 @@
     "ItemType": 2,
     "Name": "Éclat d'améthyste vajrada",
     "Description": "Matériau d'élévation de personnage.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104141"
   },
   {
@@ -14912,7 +14912,7 @@
     "ItemType": 2,
     "Name": "Fragment d'améthyste vajrada",
     "Description": "Matériau d'élévation de personnage.\n« Ce corps est le plus noble et le plus éminent du monde. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104142"
   },
   {
@@ -14922,7 +14922,7 @@
     "ItemType": 2,
     "Name": "Morceau d'améthyste vajrada",
     "Description": "Matériau d'élévation de personnage.\n« Ce corps est le plus noble et le plus éminent du monde. »\n« Il devrait gouverner le monde. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104143"
   },
   {
@@ -14932,7 +14932,7 @@
     "ItemType": 2,
     "Name": "Pierre d'améthyste vajrada",
     "Description": "Matériau d'élévation de personnage.\n« Ce corps est le plus noble et le plus éminent du monde. »\n« Il devrait gouverner le monde. »\n« Il a promis une fois un beau rêve à son peuple : une éternité qui ne change jamais. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104144"
   },
   {
@@ -14942,7 +14942,7 @@
     "ItemType": 2,
     "Name": "Éclat de turquoise vayuda",
     "Description": "Matériau d'élévation de personnage.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104151"
   },
   {
@@ -14952,7 +14952,7 @@
     "ItemType": 2,
     "Name": "Fragment de turquoise vayuda",
     "Description": "Matériau d'élévation de personnage.\n« Le vent change toujours de direction. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104152"
   },
   {
@@ -14962,7 +14962,7 @@
     "ItemType": 2,
     "Name": "Morceau de turquoise vayuda",
     "Description": "Matériau d'élévation de personnage.\n« Le vent change toujours de direction. »\n« Un jour, il soufflera vers un meilleur avenir. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104153"
   },
   {
@@ -14972,7 +14972,7 @@
     "ItemType": 2,
     "Name": "Pierre de turquoise vayuda",
     "Description": "Matériau d'élévation de personnage.\n« Le vent change toujours de direction »\n« Un jour, il soufflera vers un meilleur avenir. »\n« À partir de cet instant, je te donne ma bénédiction. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104154"
   },
   {
@@ -14982,7 +14982,7 @@
     "ItemType": 2,
     "Name": "Éclat de jade shivada",
     "Description": "Matériau d'élévation de personnage.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104161"
   },
   {
@@ -14992,7 +14992,7 @@
     "ItemType": 2,
     "Name": "Fragment de jade shivada",
     "Description": "Matériau d'élévation de personnage.\n« Pardon... »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104162"
   },
   {
@@ -15002,7 +15002,7 @@
     "ItemType": 2,
     "Name": "Morceau de jade shivada",
     "Description": "Matériau d'élévation de personnage.\n« Pardon... »\n« Je vous laisse partager la tristesse du monde entier avec moi. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104163"
   },
   {
@@ -15012,7 +15012,7 @@
     "ItemType": 2,
     "Name": "Pierre de jade shivada",
     "Description": "Matériau d'élévation de personnage.\n« Pardon... »\n« Je vous laisse partager la tristesse du monde entier avec moi. »\n« Puisque vous pourriez supporter mon froid glacial, vous devez avoir un fort désir au fond du cœur. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104164"
   },
   {
@@ -15022,7 +15022,7 @@
     "ItemType": 2,
     "Name": "Éclat de topaze prithiva",
     "Description": "Matériau d'élévation de personnage.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104171"
   },
   {
@@ -15032,7 +15032,7 @@
     "ItemType": 2,
     "Name": "Fragment de topaze prithiva",
     "Description": "Matériau d'élévation de personnage.\n« Toutes les monnaies qui circulent sur le continent font partie de mon corps. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104172"
   },
   {
@@ -15042,7 +15042,7 @@
     "ItemType": 2,
     "Name": "Morceau de topaze prithiva",
     "Description": "Matériau d'élévation de personnage.\n« Toutes les monnaies qui circulent sur le continent font partie de mon corps. »\n« Je garantis la sueur, la sagesse et l'avenir des humains de cette manière. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104173"
   },
   {
@@ -15052,7 +15052,7 @@
     "ItemType": 2,
     "Name": "Pierre de topaze prithiva",
     "Description": "Matériau d'élévation de personnage.\n« Toutes les monnaies qui circulent sur le continent font partie de mon corps. »\n« Je garantis la sueur, la sagesse et l'avenir des humains de cette manière. »\n« C'est la confiance que je place en vous. Si vous la trahissez, vous tacherez mon sang. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'élévation de personnage",
     "Icon": "UI_ItemIcon_104174"
   },
   {
@@ -15072,7 +15072,7 @@
     "ItemType": 2,
     "Name": "Enseignement de la Liberté",
     "Description": "Matériau d'amélioration d'aptitude.\nL'esprit du Royaume du Vent est défini par plusieurs libertés.\nLa liberté de vivre est une d'entre elles, c'est-à-dire, être libre de vivre en bonne santé et sans jamais se soucier du danger.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104301"
   },
   {
@@ -15082,7 +15082,7 @@
     "ItemType": 2,
     "Name": "Guide de la Liberté",
     "Description": "Matériau d'amélioration d'aptitude.\nL'esprit du Royaume du Vent est défini par plusieurs libertés.\nLa liberté de voyager est une d'entre elles, c'est-à-dire, être libre de circuler à travers les terres sans aucune obstruction.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104302"
   },
   {
@@ -15092,7 +15092,7 @@
     "ItemType": 2,
     "Name": "Philosophie de la Liberté",
     "Description": "Matériau d'amélioration d'aptitude.\nL'esprit du Royaume du Vent est défini par plusieurs libertés.\nLa liberté de chanter est une d'entre elles, c'est-à-dire, être libre de fredonner sur l'air du vent les terres de l'Archon Anémo.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104303"
   },
   {
@@ -15102,7 +15102,7 @@
     "ItemType": 2,
     "Name": "Enseignement de la Résistance",
     "Description": "Matériau d'élévation d'aptitude.\nLa résistance constitue l'échine du Royaume du Vent.\nElle a marqué son histoire à travers les âges. Certains se sont soulevés pour que les injustices passées ne tombent pas dans l'oubli, comme des pousses qui jaillissent du sol et le vent qui souffle à travers les murs de pierre.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104304"
   },
   {
@@ -15112,7 +15112,7 @@
     "ItemType": 2,
     "Name": "Guide de la Résistance",
     "Description": "Matériau d'amélioration d'aptitude.\nLa résistance constitue l'échine du Royaume du Vent.\nElle a marqué son histoire à travers les âges. Certains ont agi pour que le peuple jouisse de sa liberté actuelle, comme Barbatos qui a dispersé la neige et Vennessa qui s'est rebellée.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104305"
   },
   {
@@ -15122,7 +15122,7 @@
     "ItemType": 2,
     "Name": "Philosophie de la Résistance",
     "Description": "Matériau d'amélioration d'aptitude.\nLa résistance constitue l'échine du Royaume.\nElle a marqué son histoire à travers les âges. Certains se sont soulevé pour que la poésie de Mondstadt se répande aussi librement que le vent à travers les terres.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104306"
   },
   {
@@ -15132,7 +15132,7 @@
     "ItemType": 2,
     "Name": "Enseignement de la Poésie",
     "Description": "Matériau d'amélioration d'aptitude.\nL'âme du Royaume du Vent réside dans la poésie.\nElle existe pour exprimer la beauté. La brise transporte les mots doux lors des beaux jours. Ils touchent le cœur des gens comme elle caresse les feuilles d'un arbre.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104307"
   },
   {
@@ -15142,7 +15142,7 @@
     "ItemType": 2,
     "Name": "Guide de la Poésie",
     "Description": "Matériau d'amélioration d'aptitude.\nL'âme du Royaume du Vent réside dans la poésie.\nElle existe pour donner du courage à ceux qui en ont besoin. Pendant les jours sombres, les bourrasques soufflaient des mots de colère dans les rues, comme des tambours de guerre qui annoncent une tempête à venir.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104308"
   },
   {
@@ -15152,7 +15152,7 @@
     "ItemType": 2,
     "Name": "Philosophie de la Poésie",
     "Description": "Matériau d'amélioration d'aptitude.\nL'âme du Royaume du Vent réside dans la poésie.\nElle existe pour être transmise à travers les générations. Bien que rien ne soit éternel, le vent soufflera toujours ces mots doux au-delà des cieux, à travers les terres et les mers du monde entier.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104309"
   },
   {
@@ -15162,7 +15162,7 @@
     "ItemType": 2,
     "Name": "Enseignement de la Prospérité",
     "Description": "Matériau d'amélioration d'aptitude.\nLe Pays de la Roche aspire à la prospérité.\nElle assure la paix et la sécurité de Liyue, cité bâtie conjointement par les dieux et par les hommes.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104310"
   },
   {
@@ -15172,7 +15172,7 @@
     "ItemType": 2,
     "Name": "Guide de la Prospérité",
     "Description": "Matériau d'amélioration d'aptitude.\nLe Pays de la Roche aspire à la prospérité.\nRécompenser le labeur avec de l'or, telle était la promesse faite aux enfants de Liyue.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104311"
   },
   {
@@ -15182,7 +15182,7 @@
     "ItemType": 2,
     "Name": "Philosophie de la Prospérité",
     "Description": "Matériau d'amélioration d'aptitude.\nLe Pays de la Roche aspire à la prospérité.\nElle incarne le passé, le présent et le futur de Liyue. La cité possède toutes les richesses que nulle autre nation peut oser espérer obtenir.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104312"
   },
   {
@@ -15192,7 +15192,7 @@
     "ItemType": 2,
     "Name": "Enseignement de la Diligence",
     "Description": "Matériau d'amélioration d'aptitude.\nLe goût du travail représente l'essence du Pays de la Roche.\nConquérir les montagnes et les mers, aspirer à la richesse et à la prospérité... Tout est possible lorsqu'on travaille dur pour atteindre son objectif.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104313"
   },
   {
@@ -15202,7 +15202,7 @@
     "ItemType": 2,
     "Name": "Guide de la Diligence",
     "Description": "Matériau d'amélioration d'aptitude.\nLe goût du travail représente l'essence du Pays de la Roche.\nIl coule dans les veines des Liyuéens, qui deviennent capables de transformer la roche en or grâce à lui. La prospérité de son port commercial n'est guère étonnante.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104314"
   },
   {
@@ -15212,7 +15212,7 @@
     "ItemType": 2,
     "Name": "Philosophie de la Diligence",
     "Description": "Matériau d'amélioration d'aptitude.\nLe goût du travail représente l'essence du Pays de la Roche.\nLes Liyuéens croient que chacun peut se faire une place sur la terre des dieux grâce à sa sagesse et à sa force, mais aussi à la sueur de son front.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104315"
   },
   {
@@ -15222,7 +15222,7 @@
     "ItemType": 2,
     "Name": "Enseignement de l'Or",
     "Description": "Matériau d'amélioration d'aptitude.\nL'or est le symbole du Pays de la Roche.\nAbondant sous ses terres, il est le nerf de la guerre de Liyue qui tient debout grâce à lui.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104316"
   },
   {
@@ -15232,7 +15232,7 @@
     "ItemType": 2,
     "Name": "Guide de l'Or",
     "Description": "Matériau d'amélioration d'aptitude.\nL'or est le symbole du Pays de la Roche.\nIl représente la transformation et le lien unissant le port, les monts, les terres et les hommes de Liyue : le travail se transforme en or, et ce dernier apporte la prospérité en retour.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104317"
   },
   {
@@ -15242,7 +15242,7 @@
     "ItemType": 2,
     "Name": "Philosophie de l'Or",
     "Description": "Matériau d'amélioration d'aptitude.\nL'or est le symbole du Pays de la Roche.\nLiyue n'en manque pas, mais sa véritable richesse se trouve dans le cœur de ses habitants.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104318"
   },
   {
@@ -15252,7 +15252,7 @@
     "ItemType": 2,
     "Name": "Couronne de la sagesse",
     "Description": "Matériau d'amélioration d'aptitude rare.\nUn support utilisé dans les temps anciens pour conserver et transmettre le savoir. Bien que de nos jours les connaissances se transmettent de différentes manières, autant orales qu'écrites, cet artéfact n'a pas perdu la moindre once de son pouvoir d'antan.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104319"
   },
   {
@@ -15262,7 +15262,7 @@
     "ItemType": 2,
     "Name": "Enseignement de l'Éphémère",
     "Description": "Matériau d'amélioration d'aptitude.\nL'éphémère est ce dont rêve la Nation du Tonnerre.\nLes gloires éphémères sont la plus haute expression de la beauté mortelle, car nous autres, mortels, sommes tels des éclairs dans la nuit. Comme un beau rêve ou une étincelle qui s'embrase, nous laissons une empreinte magnifique sur le ciel nocturne éternel.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104320"
   },
   {
@@ -15272,7 +15272,7 @@
     "ItemType": 2,
     "Name": "Guide de l'Éphémère",
     "Description": "Matériau d'amélioration d'aptitude.\nL'éphémère est ce dont rêve la Nation du Tonnerre.\nNous autres, mortels, trouvons les plus grandes joies dans les rêves éphémères, car la vie passe tel un éclair. Poursuivez vos rêves éthérés si vous le souhaitez et profitez du silence inattendu de la nuit à la lueur des lampes.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104321"
   },
   {
@@ -15282,7 +15282,7 @@
     "ItemType": 2,
     "Name": "Philosophie de l'Éphémère",
     "Description": "Matériau d'amélioration d'aptitude.\nL'éphémère est ce dont rêve la Nation du Tonnerre.\nC'est la nature éphémère de ce monde mortel qui est l'essence de sa beauté, car nos vies en ce monde sont tels des éclairs fugaces. Et pourtant, voilà que se manifeste la puissance du divin. Qui peut donc faire face au rugissement de l'éternité ?",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104322"
   },
   {
@@ -15292,7 +15292,7 @@
     "ItemType": 2,
     "Name": "Enseignement de l'Élégance",
     "Description": "Matériau d'amélioration d'aptitude.\nL'élégance est la forme sous laquelle se présente la Nation du Tonnerre.\nL'élégance n'aime pas la flatterie et les élégants sont toujours nobles. Ils sont comme ces grands oiseaux des mers qui planent au-dessus des tempêtes retentissantes. Ils ne répondent pas à la vulgarité, comme on ne jette pas une couronne de fleurs dans la boue, sans éclabousser sa propre dignité.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104323"
   },
   {
@@ -15302,7 +15302,7 @@
     "ItemType": 2,
     "Name": "Guide de l'Élégance",
     "Description": "Matériau d'amélioration d'aptitude.\nL'élégance est la forme sous laquelle se présente la Nation du Tonnerre.\nL'élégance évite l'arrogance. Les élégants sont toujours humbles, et ce n'est qu'en rejetant la vanité et la négligence que l'on voit la véritable beauté, même dans l'apparence la plus inesthétique.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104324"
   },
   {
@@ -15312,7 +15312,7 @@
     "ItemType": 2,
     "Name": "Philosophie de l'Élégance",
     "Description": "Matériau d'amélioration d'aptitude.\nL'élégance est la forme sous laquelle se présente la Nation du Tonnerre.\nL'élégance abhorre la vulgarité, et l'élégant marche toujours seul. Résister aux vils maux, ne pas se laisser émouvoir par l'amour de la médiocrité, ne jamais se réfugier dans la basse ignorance, voilà comment on perçoit l'abîme entre l'élégant et le méprisant.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104325"
   },
   {
@@ -15322,7 +15322,7 @@
     "ItemType": 2,
     "Name": "Enseignement de la Lumière",
     "Description": "Matériau d'amélioration d'aptitude.\nLa lumière est l'aspiration de la Nation du Tonnerre.\nLe dirigeant qui prétend tout savoir pour toujours vise à accumuler la gloire céleste. Mais cette vision qui ne peut être partagée ne mène les gens qu'à la désirer plus hardament, comme des papillons de nuit attirés par une lumière.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104326"
   },
   {
@@ -15332,7 +15332,7 @@
     "ItemType": 2,
     "Name": "Guide de la Lumière",
     "Description": "Matériau d'amélioration d'aptitude.\nLa lumière est l'aspiration de la Nation du Tonnerre.\nBien que les rayons du soleil soient bloqués par des couches de nuages, il y a encore des gens au pays du dieu du tonnerre qui rêvent de percer cette mer de colère foudroyante pour poursuivre la gloire du divin, ne craignant pas d'être cruellement frappés.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104327"
   },
   {
@@ -15342,7 +15342,7 @@
     "ItemType": 2,
     "Name": "Philosophie de la Lumière",
     "Description": "Matériau d'amélioration d'aptitude.\nLa lumière est l'aspiration de la Nation du Tonnerre.\nBien qu'elle doive vivre sur la terre, l'humanité aspirera toujours à la lumière. Les mortels se dépasseront toujours et ils ne s'arrêteront jamais. Une éternité scellée peut sembler magnifique, mais son essence est la mort.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104328"
   },
   {
@@ -15352,7 +15352,7 @@
     "ItemType": 2,
     "Name": "Enseignement de l'Admonestation",
     "Description": "Matériau d'amélioration d'aptitude.\nL'admonestation est une des branches de la nation de la sagesse.\nElle provient d'un cœur pur et seuls les mots clairs et bienveillants peuvent exprimer une extrême sagesse et libérer les germes de la connaissance des chaînes de l'arrogance.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104329"
   },
   {
@@ -15362,7 +15362,7 @@
     "ItemType": 2,
     "Name": "Guide de l'Admonestation",
     "Description": "Matériau d'amélioration d'aptitude.\nL'admonestation est une des branches de la nation de la sagesse.\nElle va de pair avec la pensée ingénieuse. Une réflexion consciencieuse permet de s'exprimer clairement et humblement pour convaincre les sages et éclairer les ignorants. De telles paroles donnent la possibilité à la sagesse de couler librement, comme une rivière sans barrage.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104330"
   },
   {
@@ -15372,7 +15372,7 @@
     "ItemType": 2,
     "Name": "Philosophie de l'Admonestation",
     "Description": "Matériau d'amélioration d'aptitude.\nL'admonestation est une des branches de la nation de la sagesse.\nElle est accomplie par de bonnes actions. Les gestes donnent un sens aux mots. Ce n'est qu'en tenant ses intentions, ses paroles et ses actions que des fruits charnus mûriront de l'arbre de la sagesse.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104331"
   },
   {
@@ -15382,7 +15382,7 @@
     "ItemType": 2,
     "Name": "Enseignement de l'Ingénuité",
     "Description": "Matériau d'amélioration d'aptitude.\nL'ingénuité est une nervure de feuille de la nation de la sagesse.\nElle naît de la considération bienveillante. Il est souvent dit qu'un arbre empoisonné ne porte pas de fruit. De même, les idées ingénieuses proviennent uniquement d'esprits déterminés et attentionnés, dignes de sagesse.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104332"
   },
   {
@@ -15392,7 +15392,7 @@
     "ItemType": 2,
     "Name": "Guide de l'Ingénuité",
     "Description": "Matériau d'amélioration d'aptitude.\nL'ingénuité est une nervure de feuille de la nation de la sagesse.\nElle guide les paroles honnêtes. Réfléchir avec intelligence, attention et bonté permet de rester dans le droit chemin. Seuls ceux dont l'âme est emplie de dédain et de méchanceté sont capables de paroles abjectes.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104333"
   },
   {
@@ -15402,7 +15402,7 @@
     "ItemType": 2,
     "Name": "Philosophie de l'Ingénuité",
     "Description": "Matériau d'amélioration d'aptitude.\nL'ingénuité est une nervure de feuille de la nation de la sagesse.\nElle est vectrice d'une conduite harmonieuse. L'action est complémentaire à la pensée. La sagesse s'épanouit là où l'esprit, les mots et les actions convergent.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104334"
   },
   {
@@ -15412,7 +15412,7 @@
     "ItemType": 2,
     "Name": "Enseignement de l'Usage",
     "Description": "Matériau d'amélioration d'aptitude.\nL'usage représente les racines de la nation de la sagesse.\nIl naît d'une volonté inébranlable. La sagesse se manifeste à travers la quête de la bonté. Lorsque cette dernière est absente, l'ingéniosité et l'éloquence le sont également.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104335"
   },
   {
@@ -15422,7 +15422,7 @@
     "ItemType": 2,
     "Name": "Guide de l'Usage",
     "Description": "Matériau d'amélioration d'aptitude.\nL'usage représente les racines de la nation de la sagesse.\nIl corrobore les paroles sincères. Il ne suffit pas de penser et de se comporter avec bienveillance pour atteindre la sagesse. Elle émerge de certaines actions et laisse son empreinte sur les mots honnêtes.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104336"
   },
   {
@@ -15432,7 +15432,7 @@
     "ItemType": 2,
     "Name": "Philosophie de l'Usage",
     "Description": "Matériau d'amélioration d'aptitude.\nL'usage représente les racines de la nation de la sagesse.\nIl fait pousser les fruits de la sagesse. L'acte pratiqué se donne un sens. L'union des actions, des paroles et des pensées est le seul moyen qu'ont les sages d'atteindre la perfection.",
-    "TypeDescription": "Matériau d'amélioration d'aptitude",
+    "TypeDescription": "Matériau d'aptitude de personnage",
     "Icon": "UI_ItemIcon_104337"
   },
   {
@@ -21003,6 +21003,160 @@
     "Icon": "UI_ItemIcon_120085"
   },
   {
+    "MaterialType": 1,
+    "EffectDescription": "Réduit la consommation d'endurance de tous les personnages de l'équipe de 15 % lors du planage et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108489,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tulumbas (suspects)",
+    "Description": "Une collation frite dans l'huile. Les morceaux n'ont pas été sauvés de la marmite à temps, et lorsque vous y mordez, l'huile déborde pratiquement de votre bouche. Une situation pénible que seule une rapide gorgée de café pourra atténuer...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108490"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Réduit la consommation d'endurance de tous les personnages de l'équipe de 20 % lors du planage et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108490,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tulumbas",
+    "Description": "Une collation frite dans l'huile. La farine façonnée est abaissée directement dans une marmite pour être frite jusqu'à ce qu'elle soit dorée, avant d'être récupérée et trempée dans du sirop tout en étant très chaude. Cette friandise est une saveur inséparable pour beaucoup de Sumériens.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108490"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Réduit la consommation d'endurance de tous les personnages de l'équipe de 25 % lors du planage et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108491,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tulumbas (délicieux)",
+    "Description": "Une collation frite dans l'huile. Les morceaux dorés enveloppés dans un sirop savoureux fondent très rapidement, une bouchée à la fois. Miam, il reste encore un peu de sirop dans l'assiette. Peut-être que cette douceur pourra encore durer une seconde de plus...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108490"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente les PV max de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108492,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tajine érémite (suspect)",
+    "Description": "Un plat de viande mijotée. Bien qu'elle semble comestible, une simple bouchée révèle que la viande est sèche comme un os, presque comme si vous mâchiez des branches. Le couvercle du pot était-il abîmé ? Ou l'application dudit couvercle était-elle fautive ?",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108493"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente les PV max de tous les personnages de l'équipe de 22 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108493,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tajine érémite",
+    "Description": "Un plat de viande mijotée. Le couvercle unique en forme de chapeau de ce pot est capable de réduire les pertes d'humidité pendant le mijotage... Un secret culinaire connu uniquement des gens du désert. Ce délicieux mets a suivi les Érémites partout à Sumeru, et c'est ainsi qu'il a acquis son nom et sa renommée.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108493"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente les PV max de tous les personnages de l'équipe de 25 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108494,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tajine érémite (délicieux)",
+    "Description": "Un plat de viande mijotée. Les gros morceaux de viande ont été trempés dans la soupe épaisse et riche, et ils fondent à l'instant où ils touchent votre palais. L'unique mélange d'épices danse avec le rythme des arômes de viande, et un air du désert se joue sur vos papilles gustatives, avec votre langue ne pouvant s'empêcher d'applaudir.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108493"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 25 % et leur taux CRIT de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108495,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Super pizza suprême (suspecte)",
+    "Description": "Une somptueuse pizza. Si l'on passe outre la graisse un instant, les morceaux de viande froide peuvent toujours être ingurgités, mais la pâte rassis pose tout de même un défi. Avec sa dureté, peut-être pourriez-vous assommer un Brutocollinus avec...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108496"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 35 % et leur taux CRIT de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108496,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Super pizza suprême",
+    "Description": "Une somptueuse pizza. Si vous étalez d'abord une base de jambon avant d'ajouter de la viande hachée en petits morceaux, vous obtenez un plat qui procure un sentiment de satisfaction inégalé. Après cuisson, le subtil goût carbonisé de la viande et la saveur crémeuse du fromage forment une combinaison vraiment alléchante.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108496"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 45 % et leur taux CRIT de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108497,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Super pizza suprême (délicieuse)",
+    "Description": "Une somptueuse pizza. Au milieu de la chaleur qui monte à la sortie du four, vous tirez doucement sur les bords croustillants... Une véritable cascade de fromage jaillit, enveloppée d'un arôme dense de viande qui satisfait les papilles et donne une merveilleuse sensation de plénitude.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108496"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la DÉF de tous les personnages de l'équipe de 165 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108498,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Thé menthe aux fruits (suspect)",
+    "Description": "Une boisson rafraîchissante. La toute première gorgée fait pratiquement fuir vos dents sous l'assaut de ce goût aigre. La douceur légère a été complètement usurpée par une astringence tyrannique. Est-ce vraiment du thé aux fruits...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108499"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la DÉF de tous les personnages de l'équipe de 200 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108499,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Thé menthe aux fruits",
+    "Description": "Une boisson rafraîchissante. Le thé revigorant et le goût aigre-doux des fruits se mélangent et dynamisent vos papilles gustatives... Et avant que vous ne vous en rendiez compte, vous avez déjà vidé la tasse.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108499"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la DÉF de tous les personnages de l'équipe de 235 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108500,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Thé menthe aux fruits (délicieux)",
+    "Description": "Une boisson rafraîchissante. La saveur sucrée du thé se combine avec des notes florales légères et s'emmêle avec une touche fruitée, remplissant votre bouche et votre gorge de leur arôme. Attendez un instant... Pourquoi n'y a-t-il que des glaçons dans la tasse...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108499"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente les PV max de tous les personnages de l'équipe de 30 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108501,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tajine de flamme dorée",
+    "Description": "Spécialité culinaire de Dehya. En ouvrant le couvercle sans prétention, la viande souple qui se présente à l'intérieur est si tendre qu'on pourrait s'enivrer rien qu'à l'idée de la glisser entre ses lèvres... Il semble que les mains de Dehya soient aussi douées en cuisine que sur le champ de bataille.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108501"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 274 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108502,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Pain de l'arpenteur",
+    "Description": "Spécialité culinaire de Mika. La luxueuse tartinade devant vous est un véritable monticule d'ingrédients... Et lorsque vous en prenez une petite bouchée, chaque couche clairement délimitée de saveur et d'épices savoureuses se répand dans votre bouche, comme si vous aviez gravi une montagne réservée aux gourmets. S'agit-il des compétences culinaires qu'il a perfectionnées avec l'Ordre ?",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108502"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
@@ -22373,6 +22527,46 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109521,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Tulumbas",
+    "Description": "Étapes de préparation des tulumbas.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109522,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Tajine érémite",
+    "Description": "Étapes de préparation du tajine érémite.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109523,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Recette : Super pizza suprême",
+    "Description": "Étapes de préparation de la super pizza suprême.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109524,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Thé menthe aux fruits",
+    "Description": "Étapes de préparation du thé menthe aux fruits.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -22743,7 +22937,7 @@
     "ItemType": 2,
     "Name": "Substance Primo",
     "Description": "Des particules condensées par le pouvoir des éléments originels. Cette substance est largement utilisée dans l'alchimie classique en tant que matériau de base.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112001"
   },
   {
@@ -22753,7 +22947,7 @@
     "ItemType": 2,
     "Name": "Bave de Blob",
     "Description": "Liquide épais que l'on trouve sur les Blobs. Il s'agit d'un matériau commun utilisé chez les forgerons élémentaires.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112002"
   },
   {
@@ -22763,7 +22957,7 @@
     "ItemType": 2,
     "Name": "Mucus de Blob",
     "Description": "Substance légèrement purifiée, sécrétée par un Blob. Éviter tout contact avec la peau.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112003"
   },
   {
@@ -22773,7 +22967,7 @@
     "ItemType": 2,
     "Name": "Essence de Blob",
     "Description": "Concentré de Blob. Il peut se déplacer tout seul sans surveillance de votre part.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112004"
   },
   {
@@ -22783,7 +22977,7 @@
     "ItemType": 2,
     "Name": "Masque endommagé",
     "Description": "Un masque en os fissuré qui a appartenu à un Brutocollinus.\nIl est tellement endommagé qu'on ne peut plus vraiment appeler ça un masque.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112005"
   },
   {
@@ -22793,7 +22987,7 @@
     "ItemType": 2,
     "Name": "Masque sale",
     "Description": "Un masque en os taché par une substance non identifiée qui dégage une odeur étrange.\nUn Brutocollinus le porterait même dans cet état.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112006"
   },
   {
@@ -22803,7 +22997,7 @@
     "ItemType": 2,
     "Name": "Masque sinistre",
     "Description": "Un masque en os d'une grande qualité sur lequel un visage terrifiant est peint pour effrayer vos ennemis.\nLes Brutocollinus sont très attachés à ce genre d'objet pour une raison mystérieuse. Certaines sources attribuent le port du masque à leur peur de voir leur propre reflet dans l'eau.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112007"
   },
   {
@@ -22813,7 +23007,7 @@
     "ItemType": 2,
     "Name": "Parchemin divinatoire",
     "Description": "Un parchemin qui semble parler de magie. Il dégage une étrange chaleur.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112008"
   },
   {
@@ -22823,7 +23017,7 @@
     "ItemType": 2,
     "Name": "Parchemin sigillé",
     "Description": "Un ancien parchemin aux dessins étranges. En reproduisant les gestes des personnages, il est possible de recréer une certaine magie miraculeuse.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112009"
   },
   {
@@ -22833,7 +23027,7 @@
     "ItemType": 2,
     "Name": "Parchemin maudit",
     "Description": "Un parchemin ancien très difficile à déchiffrer. Ceux qui y sont parvenus sont tous devenus fous.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112010"
   },
   {
@@ -22843,7 +23037,7 @@
     "ItemType": 2,
     "Name": "Pointe de flèche robuste",
     "Description": "Une pointe de flèche rudimentaire. Bien que son état laisse à désirer, elle peut se révéler mortelle si la flèche est tirée au bon moment.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112011"
   },
   {
@@ -22853,7 +23047,7 @@
     "ItemType": 2,
     "Name": "Pointe de flèche aiguisée",
     "Description": "Une pointe de flèche de haute qualité. Parfaitement aiguisée, elle traverse aisément la chair.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112012"
   },
   {
@@ -22863,7 +23057,7 @@
     "ItemType": 2,
     "Name": "Pointe de flèche usée",
     "Description": "Une vieille pointe de flèche recouverte de sang. Elle a perdu son tranchant depuis longtemps et ne sert plus d'arme.\nCependant, les chasseurs la portent fièrement à leur cou comme une amulette ou une médaille.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112013"
   },
   {
@@ -22873,7 +23067,7 @@
     "ItemType": 2,
     "Name": "Corne lourde",
     "Description": "Une corne utilisée par les Brutocollinus pour prévenir leurs alliés d'un danger imminent. Bien que cet objet soit déjà bien endommagé, il n'est pas prêt de rendre l'âme.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112014"
   },
   {
@@ -22883,7 +23077,7 @@
     "ItemType": 2,
     "Name": "Corne en bronze noir",
     "Description": "Une corne de démon en métal. Elle peut souvent être obtenue des Brutocollinus musclés en raison de son poids.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112015"
   },
   {
@@ -22893,7 +23087,7 @@
     "ItemType": 2,
     "Name": "Corne à cristal noir",
     "Description": "Une corne en métal ornée d'un cristal noir. Probablement utilisée par les Brutocollinus lors de rituels, elle se trouve dans un état quasiment neuf.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112016"
   },
   {
@@ -22903,7 +23097,7 @@
     "ItemType": 2,
     "Name": "Statuette sinistre",
     "Description": "Une statuette sculptée à l'effigie d'une personne inconnue.\nElle a été témoin du passage du temps, mais demeure intacte. Son précédent propriétaire semble l'avoir chérie comme une icône sainte.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112017"
   },
   {
@@ -22913,7 +23107,7 @@
     "ItemType": 2,
     "Name": "Statuette maudite",
     "Description": "Une statuette sculptée à l'effigie d'une personne inconnue qui ne possédait qu'un œil.\nVous sentez une chaleur s'en dégager lorsque vous la tenez, comme si c'était l'épaule d'un ami cher. Peut-être que cette statuette peut donner le courage de persévérer aux gens qui comprennent son importance.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112018"
   },
   {
@@ -22923,7 +23117,7 @@
     "ItemType": 2,
     "Name": "Statuette maléfique",
     "Description": "Une statuette à un œil qui émet une certaine énergie et dont la matière première est inconnue.\nEn la regardant, vous pouvez presque entendre un murmure à peine audible...\n« Vois, mon enfant. Tout ce qui se trouve sous le trône du ciel finira détruit dans la tourmente. L'obscurité de la sérénité éternelle nous enveloppera tous. »",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112019"
   },
   {
@@ -22933,7 +23127,7 @@
     "ItemType": 2,
     "Name": "Branche morte des lignes énergétiques",
     "Description": "Branche fragile provenant des profondeurs de la terre. Malgré son piteux état, elle a survécu à l'épreuve du temps et a conservé une once de ses pouvoirs.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112020"
   },
   {
@@ -22943,7 +23137,7 @@
     "ItemType": 2,
     "Name": "Feuilles mortes des lignes énergétiques",
     "Description": "Ces feuilles proviennent des profondeurs de la terre. Une énergie vitale émane d'elles comme si elles étaient encore rattachées à leur arbre.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112021"
   },
   {
@@ -22953,7 +23147,7 @@
     "ItemType": 2,
     "Name": "Pousse des lignes énergétiques",
     "Description": "Cette pousse a été extraite à partir d'énormes racines qui poussent sous terre. Elle déborde de vitalité comme si elle était encore rattachée à la racine mère et déploie de nouvelles feuilles.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112022"
   },
   {
@@ -22963,7 +23157,7 @@
     "ItemType": 2,
     "Name": "Dispositif du chaos",
     "Description": "Une pièce qui effectuait la maintenance d'une structure antique. Son mécanisme est un plaisir pour les yeux et relève d'une ingénierie exquise.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112023"
   },
   {
@@ -22973,7 +23167,7 @@
     "ItemType": 2,
     "Name": "Circuit du chaos",
     "Description": "Un circuit qui commandait les mouvements d'une structure antique. De nos jours, personne ne sait comment il fonctionne.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112024"
   },
   {
@@ -22983,7 +23177,7 @@
     "ItemType": 2,
     "Name": "Noyau du chaos",
     "Description": "Un noyau qui faisait fonctionner une structure antique. Le monde ne serait plus le même si une telle technologie parvenait à être reproduite.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112025"
   },
   {
@@ -22993,7 +23187,7 @@
     "ItemType": 2,
     "Name": "Pollen d'herbe brumeuse",
     "Description": "De mystérieuses spores produites par l'herbe brumeuse lorsqu'elles sont dans un espace confiné. Il s'agit de la nourriture préférée des lucioles.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112026"
   },
   {
@@ -23003,7 +23197,7 @@
     "ItemType": 2,
     "Name": "Herbe brumeuse",
     "Description": "Entièrement bien conservée. Les Lucioles Électro ont un goût prononcé pour ces herbes, ce qui permet de les contrôler.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112027"
   },
   {
@@ -23013,7 +23207,7 @@
     "ItemType": 2,
     "Name": "Mèches d'herbe brumeuse",
     "Description": "Un bouquet d'herbe brumeuse rare qui dégage une lueur blême, il risque d'attirer les lucioles.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112028"
   },
   {
@@ -23023,7 +23217,7 @@
     "ItemType": 2,
     "Name": "Dague de chasse rituelle",
     "Description": "Une arme tranchante en alliage. Elle n'a plus de propriétaire depuis longtemps, mais sa lame brille toujours d'un éclat menaçant.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112029"
   },
   {
@@ -23033,7 +23227,7 @@
     "ItemType": 2,
     "Name": "Dague rituelle de l'Usurier",
     "Description": "Une arme à la forme étrange, fabriquée grâce à une technologie de pointe snezhnayienne. Il est impossible de la manier sans avoir effectué un entraînement spécial.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112030"
   },
   {
@@ -23042,8 +23236,8 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Grande dague de l'Inspecteur",
-    "Description": "Une arme qui a servi à « régler des comptes ». Personne n'a les yeux derrière la tête, alors cette dague et ses techniques de maniement ont spécifiquement été conçues pour pallier à cette faiblesse.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "Description": "Une arme qui a servi à « régler des comptes ». Personne n'a les yeux derrière la tête, alors cette dague et ses techniques de maniement ont spécifiquement été conçues pour pallier cette faiblesse.",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112031"
   },
   {
@@ -23053,7 +23247,7 @@
     "ItemType": 2,
     "Name": "Insigne de nouvelle recrue",
     "Description": "Un insigne servant à identifier les nouvelles recrues. Personne ne sait ni à qui il appartient, ni pourquoi cette personne a décidé de rejoindre l'armée des Fatui.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112032"
   },
   {
@@ -23063,7 +23257,7 @@
     "ItemType": 2,
     "Name": "Insigne de sergent",
     "Description": "Un insigne servant à identifier les sergents. Il est sans doute porteur d'émotions complexes.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112033"
   },
   {
@@ -23073,7 +23267,7 @@
     "ItemType": 2,
     "Name": "Insigne d'officier",
     "Description": "Un insigne servant à identifier les officiers. Compte tenu de la taille de l'armée des Fatui, ceux qui parviennent à atteindre le rang d'officier doivent sûrement être un minimum doués.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112034"
   },
   {
@@ -23083,7 +23277,7 @@
     "ItemType": 2,
     "Name": "Insigne des Pilleurs",
     "Description": "Un insigne porté avec fierté et qui indique le rang de son propriétaire au sein des Pilleurs de trésors. Leur soif de richesse ne pourra jamais être assouvie... Ceci dit, depuis quand peut-on se vanter d'être un voleur ?",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112035"
   },
   {
@@ -23093,7 +23287,7 @@
     "ItemType": 2,
     "Name": "Insigne de corbeau en argent",
     "Description": "Un insigne en forme de corbeau porté par les Pilleurs de trésors pour se reconnaître entre eux. Pas besoin d'entretien pour adhérer à leur groupe, tant qu'on est suffisamment motivé par le gain et que le courage ne nous fait pas défaut.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112036"
   },
   {
@@ -23103,7 +23297,7 @@
     "ItemType": 2,
     "Name": "Insigne de corbeau en or",
     "Description": "Un insigne qui représente la fierté des Pilleurs de trésors. Ils ne reculeront jamais devant rien pour s'emparer du moindre trésor, qu'il soit enfoui sous de vastes plaines ou sous l'océan.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112037"
   },
   {
@@ -23113,7 +23307,7 @@
     "ItemType": 2,
     "Name": "Nectar de Fleur mensongère",
     "Description": "Nectar extrait du pistil d'une Fleur mensongère. Il contient des traces d'éléments.\nSon goût rappelle celui de la fleur sucrante.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112038"
   },
   {
@@ -23123,7 +23317,7 @@
     "ItemType": 2,
     "Name": "Nectar miroitant",
     "Description": "Un nectar de Fleur mensongère concentré en éléments.\nToute la communauté scientifique s'accorde généralement sur le fait que les Fleurs mensongères occupent une place à part parmi les plantes élémentaires, mais nombre d'interrogations demeurent quant à ses habitudes prédatrices.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112039"
   },
   {
@@ -23133,7 +23327,7 @@
     "ItemType": 2,
     "Name": "Nectar élémentaire",
     "Description": "Un nectar de Fleur mensongère épais et collant, empli d'énergie.\nLa Fleur mensongère, comme son nom l'indique, trompe sa proie pour s'alimenter – peut-être dans le but d'évoluer vers une forme plus puissante ?",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112040"
   },
   {
@@ -23143,7 +23337,7 @@
     "ItemType": 2,
     "Name": "Fragment d'os fragile",
     "Description": "Fragment d'os retrouvé sur le corps d'un Élémentosaure.\nMalgré sa fragilité, une mystérieuse puissance semble s'en dégager.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112041"
   },
   {
@@ -23153,7 +23347,7 @@
     "ItemType": 2,
     "Name": "Fragment d'os solide",
     "Description": "Fragment d'os qui semble très apprécié des Élémentosaures.\nL'os doit être assez ancien. Ces créatures cousines du dragon ont beau n'avoir pas de langage à proprement parler, elles semblent malgré tout être très attachées à ce type d'objet.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112042"
   },
   {
@@ -23163,7 +23357,7 @@
     "ItemType": 2,
     "Name": "Fragment d'os fossilisé",
     "Description": "Fragment d'os obtenu parfois après avoir vaincu des Élémentosaures.\nTous les Élémentosaures rêvent de devenir un jour dragon, et vénèrent avec passion ce type de fossile ; peut-être pensent-ils bénéficier ainsi de la longévité et de la puissance des vrais dragons.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112043"
   },
   {
@@ -23173,7 +23367,7 @@
     "ItemType": 2,
     "Name": "Garde-main ancien",
     "Description": "Un garde-main qui a connu de nombreuses batailles et qui autrefois était monté sur une lame inazumienne.\nPour les épéistes expérimentés, la tsuba permet de bloquer la lame de l'adversaire. Pour les débutants, elle permet de protéger sa propre main.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112044"
   },
   {
@@ -23183,7 +23377,7 @@
     "ItemType": 2,
     "Name": "Garde-main kageuchi",
     "Description": "Un garde-main que l'on monte sur une épée de valeur.\nInazuma a une longue tradition de fabrication d'épées. Lorsqu'un artisan veut forger une épée, il fabrique souvent plusieurs exemplaires du même modèle pour en sélectionner le meilleur, le shinuchi, les autres étant appelés les kageuchi.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112045"
   },
   {
@@ -23193,7 +23387,7 @@
     "ItemType": 2,
     "Name": "Garde-main célèbre",
     "Description": "Un magnifique garde-main monté sur une épée célèbre.\nCertains croient fermement que les épées ont leur âme propre, c'est pourquoi ils leur donnent des noms. Ceux qui montrent de l'attachement à leur lame seront récompensés en retour. Mais ceux qui voient leur épée comme une amie ou même une amante doivent savoir que cette affection s'abreuve de sang et de mort. Les passions de ceux qui baignent dans les effusions pourpres et dansent avec les lames se verront un jour refroidies par l'acier même qu'ils avaient aimé.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112046"
   },
   {
@@ -23203,7 +23397,7 @@
     "ItemType": 2,
     "Name": "Engrenage du chaos",
     "Description": "Provient d'un ancien mécanisme des ruines désormais inactif.\nC'est la source d'énergie de ce mécanisme biomimétique.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112047"
   },
   {
@@ -23213,7 +23407,7 @@
     "ItemType": 2,
     "Name": "Axe du chaos",
     "Description": "Provient d'un ancien mécanisme des ruines désormais inactif.\nLa haute technologie et la puissance de cette machine ont été perdues quand elle n'a pas réussi à maintenir son intégrité structurelle.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112048"
   },
   {
@@ -23223,7 +23417,7 @@
     "ItemType": 2,
     "Name": "Œil du chaos",
     "Description": "Provient d'un ancien mécanisme des ruines désormais inactif.\nLe mot « ruines » fait référence aux zones dans lesquelles ils sont les plus actifs. Cependant, les mécanismes des ruines n'ont en réalité que peu de points communs avec les débris dans lesquels ils se trouvent habituellement.\nDans un passé lointain, ces ruines appartenaient à une civilisation assez puissante pour presque toucher le dôme du firmament, pendant qu'elles restaient à attendre dans les tréfonds de la terre, l'ordre de se soulever et de renverser tous les royaumes.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112049"
   },
   {
@@ -23233,7 +23427,7 @@
     "ItemType": 2,
     "Name": "Prisme sombre",
     "Description": "Ce prisme pouvait autrefois polariser la lumière, mais il s'est assombri au fil des ans.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112050"
   },
   {
@@ -23243,7 +23437,7 @@
     "ItemType": 2,
     "Name": "Prisme de cristal",
     "Description": "Un prisme qui peut dévier la lumière.\nIl est possible de créer des illusions à l'aide de tels prismes, ce qui en fait, dans un sens, des appareils capables d'influencer le cœur des hommes.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112051"
   },
   {
@@ -23253,7 +23447,7 @@
     "ItemType": 2,
     "Name": "Prisme polarisant",
     "Description": "Un prisme qui peut dévier la lumière.\nDans l'obscurité, de tels prismes peuvent diffuser une faible lumière sur une zone plus large. Peut-être est-ce dû à cette caractéristique que ce genre de prismes peut apporter une certaine quiétude à ceux dont le cœur est souvent enveloppé de ténèbres.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112052"
   },
   {
@@ -23263,7 +23457,7 @@
     "ItemType": 2,
     "Name": "Coquille spectrale",
     "Description": "Un noyau d'énergie qui permet aux Spectres de flotter. Il contient une petite quantité d'énergie élémentaire.\nLa plupart de l'énergie restante s'est déjà dissipée.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112053"
   },
   {
@@ -23273,7 +23467,7 @@
     "ItemType": 2,
     "Name": "Cœur spectral",
     "Description": "Un noyau d'énergie qui permet aux Spectres de flotter.\nCes formes de vie élémentaires ont des habitudes de comportement étranges et augmenteront périodiquement leur nombre avant de disparaître.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112054"
   },
   {
@@ -23283,7 +23477,7 @@
     "ItemType": 2,
     "Name": "Noyau spectral",
     "Description": "Un noyau d'énergie intégral qui peut être ramassé après avoir vaincu un Spectre.\nUn débat revient souvent parmi ceux qui aiment diviser le monde entre gagnants et perdants : Lequel flotte le mieux dans les airs ? Un Anémoblob ou un Spectre ?",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112055"
   },
   {
@@ -23293,7 +23487,7 @@
     "ItemType": 2,
     "Name": "Griffe dissimulée",
     "Description": "Le tissu résiduel provenant du corps d'un canidé de faille.\nEn toute logique, cet objet qui n'appartient guère à ce monde n'aurait pas dû subsister après l'anéantissement de ces créatures anormales.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112056"
   },
   {
@@ -23303,7 +23497,7 @@
     "ItemType": 2,
     "Name": "Ongle dissimulé",
     "Description": "Du tissu de chair provenant du corps d'un canidé de faille.\nAussi étonnantes qu'elles soient, ces créatures d'Alfisol ne sont rien comparées à Durin, l'Humus.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112057"
   },
   {
@@ -23313,7 +23507,7 @@
     "ItemType": 2,
     "Name": "Serre dissimulée",
     "Description": "La griffe tranchante d'un canidé de faille.\nToutes les merveilles du monde ne font pas le poids face au Cretaceus, la plus belle création de toutes.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112058"
   },
   {
@@ -23323,7 +23517,7 @@
     "ItemType": 2,
     "Name": "Spores de Fongus",
     "Description": "Une petite quantité de poudre de spores lumineuses laissée par un Fongus. Un éternuement suffit à la faire s'envoler sans aucune trace.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112059"
   },
   {
@@ -23333,7 +23527,7 @@
     "ItemType": 2,
     "Name": "Pollen fluorescent",
     "Description": "Un petit paquet de spores fluorescentes qui provient d'un Fongus. Il s'agit d'un ingrédient médicinal commun dans les pays avec des forêts tropicales. Les marchands en vendent souvent dans des sachets en papier.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112060"
   },
   {
@@ -23343,7 +23537,7 @@
     "ItemType": 2,
     "Name": "Poussière cristalline de sporange",
     "Description": "Un gros amas de poudre de spores qui a été prélevé d'un kyste complet. Si vous le placez dans un environnement adapté, celui-ci pourrait se remplir de Fongus avec le temps...",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112061"
   },
   {
@@ -23353,7 +23547,7 @@
     "ItemType": 2,
     "Name": "Noyau fongique inactivé",
     "Description": "Du tissu d'un Fongus qui a été exposé à une stimulation élémentaire intense.\nSa texture apaisante en fait un excellent remède contre le stress. Cependant, son utilisation peut aussi facilement conduire à une infestation de Fongus, il ne convient donc pas à un usage commercial.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112062"
   },
   {
@@ -23363,7 +23557,7 @@
     "ItemType": 2,
     "Name": "Noyau fongique dormant",
     "Description": "Du tissu organique d'un Fongus qui a été exposé à une stimulation élémentaire intense.\nIl y a eu un jour un long débat entre les chercheurs de l'Amurta pour savoir si les Fongus devaient être classés dans la catégorie des plantes ou des animaux. Finalement, ils sont arrivés à un consensus et ont définitivement clos l'affaire : les Fongus sont considérés comme une catégorie à part, ni végétale ni animale.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112063"
   },
   {
@@ -23373,7 +23567,7 @@
     "ItemType": 2,
     "Name": "Noyau fongique robuste",
     "Description": "Du tissu organique d'un Fongus qui a été exposé à une stimulation élémentaire intense.\nOn pense généralement que les Fongus ont évolué et gagné en mobilité pour mieux disperser leurs spores.\nUn poète a un jour affirmé que les Fongus avaient un rêve commun dans lequel leurs spores recouvraient chaque parcelle des montagnes et des océans, et que le monde était plus paisible que jamais. Puis les Fongus se transformèrent en poissons, en oiseaux, en bêtes, en hommes et en dieux qui dépendaient tous de la pluie, de la terre et de leur propre espèce qui était revenue sur terre pour survivre.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112064"
   },
   {
@@ -23383,7 +23577,7 @@
     "ItemType": 2,
     "Name": "Satin rouge délavé",
     "Description": "Un morceau de satin rouge légèrement déchiré utilisé pour couvrir les yeux.\nDe nombreux Érémites ont tendance à se couvrir les yeux avec des tissus, une pratique dont l'origine est perdue depuis longtemps dans les sables du temps.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112065"
   },
   {
@@ -23393,7 +23587,7 @@
     "ItemType": 2,
     "Name": "Soie rouge brodée",
     "Description": "Un morceau de soie rouge garni de décorations simples.\nUn guerrier aguerri peut détecter les faiblesses dans les yeux de son ennemi et en tirer ainsi profit. Les Érémites ont perdu leur maître il y a fort longtemps, et aujourd'hui, ils ne font plus confiance qu'à eux-mêmes. On dit qu'ils sont plus que convaincus que toutes les choses du monde les trahissent, même leurs propres yeux.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112066"
   },
   {
@@ -23403,7 +23597,7 @@
     "ItemType": 2,
     "Name": "Brocart rouge luxueux",
     "Description": "Une pièce de brocart rouge avec des motifs dorés tissés à l'intérieur.\nLe peuple perdu qui a vu le jour parmi les sables dorés du désert entonne parfois un chant dont la signification a été oubliée depuis longtemps pour louer le soleil brûlant qui illumine la terre comme jamais et se lamenter devant les dernières lueurs du crépuscule. La chanson se termine par la répétition de mots inconnus, qui seraient les noms de leurs anciennes divinités. Lorsque le roi du désert était en vie, ses sujets se couvraient les yeux par crainte d'être brûlés par sa radiance semblable à celle du soleil.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112067"
   },
   {
@@ -23413,7 +23607,7 @@
     "ItemType": 2,
     "Name": "Conteneur du chaos",
     "Description": "#Provient d'un ancien Dragon des ruines désormais inactif.\nLes Dragons des ruines peuvent absorber l'énergie élémentaire et la stocker dans un composant situé à l'intérieur de leur «{NON_BREAK_SPACE}cou{NON_BREAK_SPACE}».",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112068"
   },
   {
@@ -23423,7 +23617,7 @@
     "ItemType": 2,
     "Name": "Module du chaos",
     "Description": "Provient d'un ancien Dragon des ruines désormais inactif.\nLes dragons étaient autrefois l'incarnation charnelle la plus primitive et la plus ancienne des éléments suprêmes jusqu'à ce qu'ils soient vaincus, conquis ou assimilés.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112069"
   },
   {
@@ -23433,7 +23627,7 @@
     "ItemType": 2,
     "Name": "Vis du chaos",
     "Description": "Provient d'un ancien Dragon des ruines désormais inactif.\nParmi les anciens royaumes perdus, il y avait un groupe de personnes qui étaient obsédées par l'idée de mimétisme. Qu'il s'agisse des éléments purs et ordonnés des Hypostases ou de l'ancien pouvoir primitif des dragons, ces personnes pensaient qu'ils pouvaient tous être reproduits et modifiés au point de surpasser leurs homologues naturels.\nAinsi, une forme corporelle supérieure et immaculée pourrait remplacer l'ordre voué à la décomposition et à la destruction.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112070"
   },
   {
@@ -23443,7 +23637,7 @@
     "ItemType": 2,
     "Name": "Prisme endommagé",
     "Description": "Un composant endommagé que vous avez obtenu après avoir vaincu une Structure primale.\nCes machines aux formes singulières sont les protectrices éternelles des ruines du désert et sont assez puissante pour percer les montagnes et remodeler les rochers. Les principes de fonctionnement de ces machines sont similaires aux nombreux mécanismes mystérieux à la surface et sous terre.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112071"
   },
   {
@@ -23453,7 +23647,7 @@
     "ItemType": 2,
     "Name": "Prisme trouble",
     "Description": "Un composant usé que vous avez obtenu après avoir vaincu une Structure primale.\nOn dit que ces machines sont différentes des mécanismes des ruines des profondeurs du désert en ce qu'elles n'ont pas été créées pour conquérir ou amener la destruction.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112072"
   },
   {
@@ -23463,7 +23657,7 @@
     "ItemType": 2,
     "Name": "Prisme radieux",
     "Description": "Un composant de fabrication subtile que vous avez obtenu après avoir vaincu une Structure primale.\nLe roi du désert a autrefois fait un rêve et a jadis formulé beaucoup de promesses.\nIl est dit dans les légendes du désert que ces machines avaient à l'origine été créées pour réaliser ces promesses. Aujourd'hui, cependant, ces promesses et ce rêve ont été oubliés et ne survivent qu'à l'intérieur de la mémoire mécanique de ces engins.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112073"
   },
   {
@@ -23473,7 +23667,7 @@
     "ItemType": 2,
     "Name": "Coque desséchée",
     "Description": "La coque desséchée d'une Bête sacralisée.\nUne preuve de la calamité qui a ravagé le monde dans le passé, et qui aujourd'hui ne peut être trouvée que dans des endroits où personne n'ose s'aventurer.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112074"
   },
   {
@@ -23483,7 +23677,7 @@
     "ItemType": 2,
     "Name": "Coque robuste",
     "Description": "La coque solide d'une Bête sacralisée.\nLes restes d'une bête née de la ruine, qui rongeait la chair et les os de grands êtres déchus. Même si ces bêtes ont reçu une once de pouvoir des divinités d'antan, elles connaîtront la même fin que ces derniers.",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112075"
   },
   {
@@ -23493,7 +23687,7 @@
     "ItemType": 2,
     "Name": "Coque marquée",
     "Description": "La coque d'une Bête sacralisée sur laquelle figurent des inscriptions anciennes.\nSur cette carapace pâle persistent faiblement les chagrins d'un âge lointain. Le jour viendra où les os des bêtes deviendront de la poussière blanche dispersée par le vent, et alors, les défunts exaltés pourront enfin saluer leur dernier repos...",
-    "TypeDescription": "Matériau d'amélioration de personnage",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112076"
   },
   {
@@ -24322,7 +24516,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Talisman en argent de la rosée",
-    "Description": "Matériau d'élévation d'arme.\nDans les innombrables histoires de la forêt existe un personnage portant une cape aux rayures rouges comme le feu ardent : il est le roi des labyrinthes et le maître des eaux où se reflète la lune.\nCelui-ci inclina la tête pour officialiser son amitié avec la maîtresse des plantes, un acte qui fut scellé par le biais de pierres précieuses qui scintillaient comme l'eau et de l'argent qui brillait comme le clair de lune.\nEn échange d'un tel geste, la maîtresse des plantes promit de garder les secrets du roi du labyrinthe et de protéger les beaux rêves de la forêt tropicale.\nPersonne n'aurait pu prédire que le magnifique manoir des secrets et des rêves s'éteindrait plus tard dans le linceul de la flamme sombre de l'oubli, après quoi ses cendres retourneraient au sol et deviendraient des nutriments pour les forêts tropicales qui venaient de naître.",
+    "Description": "Matériau d'élévation d'arme.\nDans les innombrables histoires de la forêt existe un personnage portant une cape aux rayures rouges comme le feu ardent : il est le roi des labyrinthes et le maître des eaux où se reflète la lune.\nCelui-ci inclina la tête pour officialiser son amitié avec la maîtresse des plantes, un acte qui fut scellé par le biais de pierres précieuses qui scintillaient comme l'eau et de l'argent qui brillait comme le clair de lune.\nEn échange d'un tel geste, la maîtresse des plantes promit de garder les secrets du seigneur du labyrinthe et de protéger les beaux rêves de la forêt tropicale.\nPersonne n'aurait pu prédire que le magnifique manoir des secrets et des rêves s'éteindrait plus tard dans le linceul de la flamme sombre de l'oubli, après quoi ses cendres retourneraient au sol et deviendraient des nutriments pour les forêts tropicales qui venaient de naître.",
     "TypeDescription": "Matériau d'élévation d'arme",
     "Icon": "UI_ItemIcon_114039"
   },
@@ -25828,16 +26022,6 @@
   },
   {
     "MaterialType": 2,
-    "Id": 120127,
-    "RankLevel": 5,
-    "ItemType": 2,
-    "Name": "Brindille d'argent",
-    "Description": "Une brindille qui a été extraite du centre du monde.\nElle faisait partie d'un arbre géant dont les racines s'étendaient dans le monde entier. Bien qu'elle ait été arrachée de celui-ci, leur lien demeure aussi fort qu'autrefois. Tant que l'arbre blanc géant qui symbolise le centre de ce monde ne dépérit pas, cette brindille conservera sa vitalité.\n\nLes arbres symbolisent la vie. Une histoire raconte que quelqu'un a confié sa conscience aux branches de l'arbre blanc avant son trépas pour que sa vie et ses espoirs ne soient pas perdus : les branches pousseraient et bourgeonneraient avec le soleil et la pluie pour finalement porter de nouveaux fruits.\nLes arbres symbolisent également la sagesse. Une légende raconte qu'un sage suspendu à l'envers à un arbre avait obtenu le savoir nécessaire pour écrire des runes et contrôler les mots sacrés. En parcourant le royaume qui se trouvait le long des racines, il a pu entrevoir le secret du cosmos.\nL'ensemble des connaissances, tous souvenirs et expériences du monde circulent à travers les racines du grand arbre, comme des ruisseaux qui convergent pour former une rivière qui se jette dans la mer et dont l'eau tombe des nuages. Ce cycle est celui de la vie.",
-    "TypeDescription": "Objet de quête",
-    "Icon": "UI_ItemIcon_120127"
-  },
-  {
-    "MaterialType": 2,
     "Id": 120142,
     "RankLevel": 0,
     "ItemType": 2,
@@ -26272,7 +26456,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "Plume de Vautour rouge",
-    "Description": "Un des plumes qui permettent au Vautour rouge de voler. Elles peuvent être utilisées pour créer des pigments éclatants... Ou encore des poisons mortels.",
+    "Description": "Une des plumes qui permettent au Vautour rouge de voler. Elles peuvent être utilisées pour créer des pigments éclatants... Ou encore des poisons mortels.",
     "TypeDescription": "Objet de quête",
     "Icon": "UI_ItemIcon_120201"
   },
@@ -26568,6 +26752,46 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120244,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Lettre sentant le vin",
+    "Description": "Cette lettre a une légère odeur d'alcool. On peut spéculer sur les circonstances dans lesquelles elle a été écrite... L'expéditeur semblait avoir eu peu d'espoir qu'elle puisse être livrée.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120245,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Champignon étrange",
+    "Description": "#Les champignons peuvent-ils vraiment pousser dans des champs{NON_BREAK_SPACE}?",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120245"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120246,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Médicament tabou et anonyme de la cour royale",
+    "Description": "Son odeur vous pique les narines et ne s'estompe pas facilement. Selon les archives, on peut utiliser le pouvoir de la divinité de la sagesse pour réveiller la santé mentale d'un esprit confus. Peut-être pourra-t-il ainsi résister à la malédiction...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120246"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120247,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Eau d'arrosage pour champignons étranges",
+    "Description": "Vous avez récupéré cette eau à deux heures de l'après-midi près d'une chute d'eau à côté d'une Statue des Sept, exactement comme Eide vous l'a demandé.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120247"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120248,
     "RankLevel": 0,
     "ItemType": 2,
@@ -26605,6 +26829,256 @@
     "Description": "Au-delà des nations et des identités, unis par la voie du guerrier.",
     "TypeDescription": "Objet de quête",
     "Icon": "UI_ItemIcon_120251"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120257,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Note de Venti",
+    "Description": "Un papier avec une carte simple et quelque chose qui ressemble à une incantation dessus. Selon Venti, il contient les secrets pour révéler la prophétie.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100214"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120258,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120258"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120259,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Alizée de Collei",
+    "Description": "Pour Collei, la seule fleur qui peut lui servir d'alizée et transmettre sa gratitude et ses vœux est la padisachidée, et elle vous en offre les graines.\nEn visitant Mondstadt, Collei a fait un pas timide vers l'avenir. Que ses jours futurs soient comme une petite graine dans sa paume, remplie d'un potentiel de lumière et d'espoir.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120259"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120260,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120261,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120262,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120263,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120264,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120265,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120266,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120267,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120268,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120269,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120270,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120271,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120272,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "？？？",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120294,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Comptes de la caravane",
+    "Description": "Les registres comptables obtenus dans la caravane que vous cibliez. Les informations à l'intérieur concernent principalement le Dakan Al-Ahmar. Outre la grande quantité de données et d'informations sur les flux de butin, le fait que le père de Dunyarzad y soit mentionné est également préoccupant.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120294"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120295,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Missive de Sumeru",
+    "Description": "Une lettre.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120296,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Missive d'Inazuma",
+    "Description": "Une lettre.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120297,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Arrangements pour les invités",
+    "Description": "？？？",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100721"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120317,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gelées merveilleuses offertes par Haniyyah",
+    "Description": "Un cadeau exquis envoyé par Haniyyah. Il contient des gelées merveilleuses très appréciées des Fongus, ces dernières se déclinant même en de nombreuses saveurs uniques qui peuvent être données aux Fongus en fonction de leurs goûts individuels.\nLes gelées merveilleuses sont une version raffinée de la gelée florale qui les a précédées et conservent leur translucidité cristalline et texture élastique, sans les ingrédients dangereux, ce qui en fait l'aliment idéal pour les Fongus. Cela dit, il faut veiller à ce que les enfants n'en mangent pas par erreur si vous les stockez à la maison...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_118101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 100584,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Sang sombre",
+    "Description": "#Une substance que vous avez obtenue après la défaite de Dvalin.\nElle possède la forme d'un cristal imbibé du pouvoir des vents anciens et d'un autre pouvoir inconnu qui habitait le corps du dragon.\nCe dernier était prisonnier d'une cage toxique constituée de trois éléments :\nLe sang empoisonné qu'il avait autrefois ingéré, les mensonges de l'Ordre de l'Abîme et la peur de l'abandon.\nEn entendant les paroles d'un certain barde, Dvalin versa des larmes qui brisèrent les caillots de sang impur qui avaient poussé sur son corps, et se libéra de l'emprise maléfique à laquelle il était soumis.\nCet exploit fut possible grâce à {M#un voyageur}{F#une voyageuse} venant d'une contrée lointaine...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100584"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 100585,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Fragment de monolithe",
+    "Description": "Fragment récupéré après avoir vaincu le Dieu du Vortex.\nDans le passé, ce type de fragment était utilisé pour contenir la puissance d'Ortell.\n\nIl fut un temps où les habitants de ces terres étaient terrorisés par des vagues aussi hautes que des montagnes, incapables de trouver le sommeil dans la nuit soumise à l'assaut des flots rageurs faisant trembler le monde. Ces peurs finirent par disparaître avec le temps et le retour de la paix.\nMais au fond, ceci importe peu. Car quand bien même l'ancien dieu gisant dans les profondeurs se réveillerait à nouveau, il ne pourrait pas changer le cours de l'histoire et lutter contre la naissance d'une nouvelle ère. Peut-être est-ce justement là ce dont souhaite être le témoin celui qui vint à bout du Dieu du Vortex autrefois.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100585"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 100957,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Masque funéraire",
+    "Description": "#Un trophée obtenu en vainquant Signora, la 8e Exécutrice des Fatui.\nLes membres de Fatui vivent souvent leurs vies à travers leurs masques. Après avoir rejoint l'organisation, ils doivent abandonner leur passé et leur individualité, renonçant ainsi à leurs noms et à leurs visages.\n\nCependant, ces actions restent difficiles à accomplir.\nSeuls ceux qui portent en eux une obsession qui frôle ou transcende le délire sont disposés à rejoindre cette organisation qui défie l'ordre divin, laissant un œil maléfique consumer les jours qu'ils leur restent dans ce monde en échange d'un immense pouvoir.\nÉvidemment, cela n'exclut pas la présence de personnes ayant soif de pouvoir ou qui aiment tout simplement faire du mal à autrui chez les Fatui.\n\nRosalyne-Kruzchka Lohefalter mena jadis une vie simple et innocente.\nCependant, cette dernière prit fin lorsque ses yeux se remplirent d'une rage folle. La glace froide de son œil maléfique éteignit les flammes qui la dévoraient, mais celles-ci resurgirent lorsqu'{M#un étranger éternel}{F#une étrangère éternelle} à la volonté aussi inébranlable que la sienne brisa le pouvoir du froid qui la protégeait...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100957"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120127,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Brindille d'argent",
+    "Description": "Une brindille qui a été extraite du centre du monde.\nElle faisait partie d'un arbre géant dont les racines s'étendaient dans le monde entier. Bien qu'elle ait été arrachée de celui-ci, leur lien demeure aussi fort qu'autrefois. Tant que l'arbre blanc géant qui symbolise le centre de ce monde ne dépérit pas, cette brindille conservera sa vitalité.\n\nLes arbres symbolisent la vie. Une histoire raconte que quelqu'un a confié sa conscience aux branches de l'arbre blanc avant son trépas pour que sa vie et ses espoirs ne soient pas perdus : les branches pousseraient et bourgeonneraient avec le soleil et la pluie pour finalement porter de nouveaux fruits.\nLes arbres symbolisent également la sagesse. Une légende raconte qu'un sage suspendu à l'envers à un arbre avait obtenu le savoir nécessaire pour écrire des runes et contrôler les mots sacrés. En parcourant le royaume qui se trouvait le long des racines, il a pu entrevoir le secret du cosmos.\nL'ensemble des connaissances, tous souvenirs et expériences du monde circulent à travers les racines du grand arbre, comme des ruisseaux qui convergent pour former une rivière qui se jette dans la mer et dont l'eau tombe des nuages. Ce cycle est celui de la vie.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120127"
   },
   {
     "MaterialType": 31,
@@ -28087,6 +28561,176 @@
     "Icon": "UI_ItemIcon_BGM_Common"
   },
   {
+    "MaterialType": 37,
+    "Id": 141099,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Steak (parfumé)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_3001"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141100,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Poisson grillé mondstadtois (parfumé)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_108096"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141101,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Poulet fumé nordique (parfumé)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_2002"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141102,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Brochette de poulet et de champignons (parfumée)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_1002"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141103,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Salade copieuse (parfumée)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_4003"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141104,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Gratin de crabe, jambon et légumes (parfumé)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_2006"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141105,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Délice de viande et carottes au miel (parfumé)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_2005"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141106,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Toast du pêcheur (parfumé)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_1001"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141107,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Boulettes de radis frites (parfumées)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_4002"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141108,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pancakes (parfumés)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_4001"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141109,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Soupe de radis (parfumée)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_3002"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141110,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Pizza aux champignons (parfumée)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_1005"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141111,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Assortiment de charcuterie (parfumé)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_2004"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141112,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Soupe au lys calla et aux fruits de mer (parfumée)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_Recipe_1006"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141113,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Gelée de menthe (parfumée)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_108226"
+  },
+  {
+    "MaterialType": 37,
+    "Id": 141114,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Poisson grillé au beurre (parfumé)",
+    "Description": "Un plat délicieux avec un peu d'assaisonnement en plus ! Il dégage un arôme titillant... Mais à qui ce plat conviendra-t-il ? Invitez vos amis et vos compagnons pour leur faire goûter ce nouveau plat !",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_108208"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 141115,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Assaisonnement parfumé",
+    "Description": "Un assaisonnement créé à partir d'une recette de Nazafarin. Grâce à son arôme intense, il peut rehausser la saveur de tout plat auquel il est ajouté.",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_101714"
+  },
+  {
     "MaterialType": 4,
     "Id": 200001,
     "RankLevel": 3,
@@ -28212,7 +28856,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Baume de la vue",
-    "Description": "Matériau de raffinement spécial pour l'Œil d'assermentation.\nL'huile spéciale d'unagi abyssal, qui était autrefois utilisée pour entretenir les artéfacts sacrés d'Enkanomiya, a été soigneusement traitée dans le but de rendre cet œil brillant et lumineux.",
+    "Description": "Matériau de raffinement spécial pour l'Œil d'assermentation.\nL'huile spéciale d'unagi abyssale, qui était autrefois utilisée pour entretenir les artéfacts sacrés d'Enkanomiya, a été soigneusement traitée dans le but de rendre cet œil brillant et lumineux.",
     "TypeDescription": "Matériau de raffinement",
     "Icon": "UI_ItemIcon_200109"
   },
@@ -28255,6 +28899,16 @@
     "Description": "Matériau de raffinement spécial pour la Pluie florale.\nUne substance poudreuse censée fixer du bambou à un parapluie.\nMalgré le changement des saisons et le passage du temps, les souvenirs et les pensées restent toujours, comme endormis sous un parapluie au sein d'un songe.",
     "TypeDescription": "Matériau de raffinement",
     "Icon": "UI_ItemIcon_200113"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 200114,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Grâce soyeuse immuable",
+    "Description": "Matériau de raffinement spécial pour la Fleur de mailles.\nLa « décoration » peut certainement ajouter un petit plus qui permet à toute chose de transcender sa propre valeur et sa fonction première. Dans des moments comme ceux-ci, cette fleur qui ne se fane jamais peut donner une essence romantique même à une arme.",
+    "TypeDescription": "Matériau de raffinement",
+    "Icon": "UI_ItemIcon_200114"
   },
   {
     "MaterialType": 28,
@@ -28322,7 +28976,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Tourbillon",
-    "Description": "Lorsqu'un personnage élimine un ennemi à l'aide d'une attaque chargée, il crée un champ de vide qui attire les ennemis à proximité et leur inflige des DGT équivalant à 500 % de son ATQ. Cet effet peut être déclenché une fois toutes les 2 s, et son TdR est partagé entre tous les personnages de l'équipe.",
+    "Description": "Lorsqu'un personnage élimine un ennemi à l'aide d'une attaque chargée, il crée un champ de vide qui attire les ennemis proches et leur inflige des DGT équivalant à 500 % de son ATQ. Cet effet peut être déclenché une fois toutes les 2 s, et son TdR est partagé entre tous les personnages de l'équipe.",
     "TypeDescription": "Bris de fruit fracturé",
     "Icon": "UI_ItemIcon_200202"
   },
@@ -28442,7 +29096,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Déchaînement amélioré",
-    "Description": "Augmente le Niv. du déchaînement élémentaire de tous les personnages de l'équipe de 1.\nNiv. maximum : 15",
+    "Description": "Augmente le Niv. du déchaînement élémentaire de tous les personnages de l'équipe de 1.\nNiv. max : 15",
     "TypeDescription": "Bris de fruit fracturé",
     "Icon": "UI_ItemIcon_200202"
   },
@@ -28622,7 +29276,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Duelliste acharné",
-    "Description": "Au combat, lorsqu'il n'y a pas plus de 2 ennemis à proximité d'un personnage, son ATQ augmente de 20 % et sa DÉF de 20 %.",
+    "Description": "Au combat, lorsqu'il n'y a pas plus de 2 ennemis proches d'un personnage, son ATQ augmente de 20 % et sa DÉF de 20 %.",
     "TypeDescription": "Bris de fruit fracturé",
     "Icon": "UI_ItemIcon_200202"
   },
@@ -28742,7 +29396,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Tourbillon",
-    "Description": "Lorsqu'un personnage élimine un ennemi à l'aide d'une attaque chargée, il crée un champ de vide qui attire les ennemis à proximité et leur inflige des DGT équivalant à 500 % de son ATQ. Cet effet peut être déclenché une fois toutes les 2 s, et son TdR est partagé entre tous les personnages de l'équipe.",
+    "Description": "Lorsqu'un personnage élimine un ennemi à l'aide d'une attaque chargée, il crée un champ de vide qui attire les ennemis proches et leur inflige des DGT équivalant à 500 % de son ATQ. Cet effet peut être déclenché une fois toutes les 2 s, et son TdR est partagé entre tous les personnages de l'équipe.",
     "TypeDescription": "Bris de fruit fracturé",
     "Icon": "UI_ItemIcon_200202"
   },
@@ -28752,7 +29406,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Duelliste acharné",
-    "Description": "Lorsqu'il n'y a pas plus de 2 ennemis à proximité d'un personnage, son ATQ augmente de 20 % et sa DÉF de 20 %.",
+    "Description": "Lorsqu'il n'y a pas plus de 2 ennemis proches d'un personnage, son ATQ augmente de 20 % et sa DÉF de 20 %.",
     "TypeDescription": "Bris de fruit fracturé",
     "Icon": "UI_ItemIcon_200202"
   },
@@ -28782,7 +29436,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Déchaînement amélioré",
-    "Description": "Augmente le Niv. du déchaînement élémentaire de tous les personnages de l'équipe de 1.\nNiv. maximum : 15",
+    "Description": "Augmente le Niv. du déchaînement élémentaire de tous les personnages de l'équipe de 1.\nNiv. max : 15",
     "TypeDescription": "Bris de fruit fracturé",
     "Icon": "UI_ItemIcon_200202"
   },
@@ -29625,6 +30279,26 @@
     "Description": "Une boussole spéciale que vous avez obtenue de la Guilde des aventuriers. Certaines rumeurs disent qu'elle porte chance...",
     "TypeDescription": "Gadget",
     "Icon": "UI_ItemIcon_220075"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220077,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Daguerréotype des alizées",
+    "Description": "Le Daguerréotype que vous avez emprunté à Fassben. Attention lorsque vous l'utilisez. Vous ne voudriez pas l'abîmer, hein...",
+    "TypeDescription": "Gadget",
+    "Icon": "UI_ItemIcon_220077"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220078,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tambour festif",
+    "Description": "Un instrument qui peut être utilisé pour jouer de la musique.\nUn tambour avec un son clair et un design unique, dont l'extérieur exquis traduit d'un artisanat complexe. Des matériaux de haute qualité ont été utilisés dans sa construction, avec pour but une qualité sonore optimale lors des performances, la justesse de l'intonation et une faible usure à long terme.\nIl est dit que ce petit tambour combine un instrument traditionnel inazumien avec quelques tambours plus étranges d'autres nations. Il paraît que certains airs joués dessus peuvent même porter chance...",
+    "TypeDescription": "Gadget",
+    "Icon": "UI_ItemIcon_220051"
   },
   {
     "MaterialType": 5,
@@ -30502,7 +31176,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Maison de fumée de bois",
-    "Description": "Étapes de mise en place de la maison de fumée de bois.\nUne cuisine entièrement équipée dont l'armoire est remplie de condiments soigneusement préparés.\nLes chefs à la recherche de l'excellence achèteront quotidiennement des ingrédients frais au marché et les vrais artistes culinaires porteront même une attention particulière au bois de chauffage utilisé dans leur cuisine. La jeune cheffe du Restaurant Wanmin a un jour partagé que pour préparer les plats traditionnels du Village de Qingce, il fallait d'abord placer des copeaux de bambou secs dans le poêle et en contrôler soigneusement la flamme. De plus, si l'on peut transformer les arbustes près des baies à crochet en minces bûchettes de chauffage, on peut même ajouter une touche d'arôme mondstadtois.\nDifférents types de bois de chauffage produisent des effets très différents, et la plupart des chefs ne les maîtriseront jamais vraiment tous. En tant que tel, le Restaurant Wanmin a la mainmise sur cette technique particulière.\nAprès utilisation, ce plan sera disponible dans l'interface de placement des décorations.\nCompagnons préférant ce set : Tartaglia, Mona, Xiao, Xiangling, Razor, Yaoyao.",
+    "Description": "Étapes de mise en place de la maison de fumée de bois.\nUne cuisine entièrement équipée dont l'armoire est remplie de condiments soigneusement préparés.\nLes chefs à la recherche de l'excellence achèteront quotidiennement des ingrédients frais au marché et les vrais artistes culinaires porteront même une attention particulière au bois de chauffage utilisé dans leur cuisine. La jeune cheffe du Restaurant Wanmin a un jour partagé que pour préparer les plats traditionnels du Village de Qingce, il fallait d'abord placer des copeaux de bambou secs dans le poêle et en contrôler soigneusement la flamme. De plus, si l'on peut transformer les arbustes près des baies à crochet en minces bûchettes de chauffage, on peut même ajouter une touche d'arôme mondstadtois.\nDifférents types de bois de chauffage produisent des effets très différents, et la plupart des chefs ne les maîtriseront jamais vraiment tous. En tant que tel, le Restaurant Wanmin a la mainmise sur cette technique particulière.\nAprès utilisation, ce plan sera disponible dans l'interface de placement des décorations.\nCompagnons préférant ce set : Tartaglia, Mona, Xiao, Xiangling, Razor, Yaoyao, Mika.",
     "TypeDescription": "Plan de set de décorations",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -30582,7 +31256,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "« Périple vers les étoiles et au-delà »",
-    "Description": "Étapes de mise en place du « Périple vers les étoiles et au-delà ».\nUn camp d'aventurier que l'on peut souvent voir dans la nature. Il utilise des modèles de tente dernier cri et très en vogue.\nLes aventuriers expérimentés sont habitués à mener une existence difficile et n'ont besoin que d'une tente légère et durable pour dormir profondément, même dans la tempête hurlante, reprenant ainsi leurs forces pour continuer vers leur prochaine destination le lendemain. Ainsi, ce type de tentes, jolies et abordables, a toujours eu beaucoup de facilités à trouver preneurs.\nAprès utilisation, ce plan sera disponible dans l'interface de placement des décorations.\nCompagnons préférant ce set : Bennett, Qiqi, Chongyun, Fischl, Albedo, Aloy.",
+    "Description": "Étapes de mise en place du « Périple vers les étoiles et au-delà ».\nUn camp d'aventurier que l'on peut souvent voir dans la nature. Il utilise des modèles de tente dernier cri et très en vogue.\nLes aventuriers expérimentés sont habitués à mener une existence difficile et n'ont besoin que d'une tente légère et durable pour dormir profondément, même dans la tempête hurlante, reprenant ainsi leurs forces pour continuer vers leur prochaine destination le lendemain. Ainsi, ce type de tentes, jolies et abordables, a toujours eu beaucoup de facilités à trouver preneur.\nAprès utilisation, ce plan sera disponible dans l'interface de placement des décorations.\nCompagnons préférant ce set : Bennett, Qiqi, Chongyun, Fischl, Albedo, Aloy, Mika.",
     "TypeDescription": "Plan de set de décorations",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -30742,7 +31416,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Arôme fervent",
-    "Description": "Le modèle de ce restaurant au décor exquis est une célèbre taverne de la Ville de Sumeru... Modifié pour être utilisé dans la Sérénithéière, évidemment. La vapeur et les effluves des épices flottent dans l'air, enrichissant une expérience déjà joyeuse. Un peu de bon vin et de compagnie suffira pour un bon repas.\nLes personnes qui voyagent souvent en groupe choisissent les restaurants où elles mangent en fonction du nombre de places et de la taille des plats. De ce fait, un restaurant de viande grillée constitue un choix optimal. Quant à celles qui voyagent seules, l'ambiance bruyante et animée de ce genre de lieux leur permet de dissimuler leurs gestes pour mieux observer, suivre et manigancer.\nCompagnon préférant ce set : Alhaitham.",
+    "Description": "Le modèle de ce restaurant au décor exquis est une célèbre taverne de la Ville de Sumeru... Modifié pour être utilisé dans la Sérénithéière, évidemment. La vapeur et les effluves des épices flottent dans l'air, enrichissant une expérience déjà joyeuse. Un peu de bon vin et de compagnie suffira pour un bon repas.\nLes personnes qui voyagent souvent en groupe choisissent les restaurants où elles mangent en fonction du nombre de places et de la taille des plats. De ce fait, une kebaberie constitue un choix optimal. Quant à celles qui voyagent seules, l'ambiance bruyante et animée de ce genre de lieux leur permet de dissimuler leurs gestes pour mieux observer, suivre et manigancer.\nCompagnons préférant ce set : Alhaitham, Dehya.",
     "TypeDescription": "Plan de set de décorations",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -30832,7 +31506,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Faste de la troupe itinérante",
-    "Description": "Un campement militaire qui abonde d'une diversité de marchandises. Des fortifications défensives ont été installées, ainsi que des feux de camp à des endroits stratégiques pour les opérations nocturnes. En théorie, ce camp peut résister à l'assaut de nombreux ennemis et même former le pivot d'une ligne défensive avec des ressources humaines suffisantes.\nLe transport et la mise en place de ce campement peuvent s'avérer difficiles et l'absence de tentes pour s'abriter du vent et de la pluie créent des conditions de vie difficiles... Cependant, les mercenaires aguerris n'ont besoin que d'un lit de paille pour dormir et ne se soucient pas de ces petits désagréments.",
+    "Description": "Un campement militaire qui abonde d'une diversité de marchandises. Des fortifications défensives ont été installées, ainsi que des feux de camp à des endroits stratégiques pour les opérations nocturnes. En théorie, ce camp peut résister à l'assaut de nombreux ennemis et même former le pivot d'une ligne défensive avec des ressources humaines suffisantes.\nLe transport et la mise en place de ce campement peuvent s'avérer difficiles et l'absence de tentes pour s'abriter du vent et de la pluie créent des conditions de vie difficiles... Cependant, les mercenaires aguerris n'ont besoin que d'un lit de paille pour dormir et ne se soucient pas de ces petits désagréments.\nCompagnon préférant ce set : Dehya.",
     "TypeDescription": "Plan de set de décorations",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -36681,7 +37355,7 @@
     "Id": 390733,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "#« Tissu protecteur des bêtes marines{NON_BREAK_SPACE}»",
+    "Name": "« Tissu protecteur des bêtes marines »",
     "Description": "Étapes de fabrication du « Tissu protecteur des bêtes marines ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
     "Icon": "UI_ItemIcon_Home_Common"
@@ -36883,6 +37557,146 @@
     "ItemType": 2,
     "Name": "« Infinité de demeures éclairant la lune »",
     "Description": "Étapes de fabrication de l'« Infinité de demeures éclairant la lune ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393374,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ballon ersatz « Faible murmure »",
+    "Description": "Étapes de fabrication du ballon ersatz « Faible murmure ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393375,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ballon ersatz « Rafale sphérique »",
+    "Description": "Étapes de fabrication du ballon ersatz « Rafale sphérique ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393376,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ballon ersatz « Impact fongique »",
+    "Description": "Étapes de fabrication du ballon ersatz « Impact fongique ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393157,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Appareil de loisirs « Sauti-Taby »",
+    "Description": "Étapes de fabrication de l'appareil de loisirs « Sauti-Taby ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393158,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Appareil de loisirs « Sauti-Toby »",
+    "Description": "Étapes de fabrication de l'appareil de loisirs « Sauti-Toby ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390735,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "#« Parfum de thé sur la cour tranquille{NON_BREAK_SPACE}»",
+    "Description": "Étapes de fabrication du « Parfum de thé sur la cour tranquille ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390736,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "#« Fredonnement sur la cour tranquille{NON_BREAK_SPACE}»",
+    "Description": "#Étapes de fabrication du «{NON_BREAK_SPACE}Fredonnement sur la cour tranquille ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391243,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Aspiration de la cité de la sagesse »",
+    "Description": "Étapes de fabrication de l'« Aspiration de la cité de la sagesse ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391244,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Partition de la cité de la sagesse »",
+    "Description": "Étapes de fabrication de la « Partition de la cité de la sagesse ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391245,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Bouclier léger de la cité de la sagesse »",
+    "Description": "Étapes de fabrication du « Bouclier léger de la cité de la sagesse ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391246,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Pilastre de la cité de la sagesse »",
+    "Description": "Étapes de fabrication du « Pilastre de la cité de la sagesse ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391128,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "« Flottaison florale »",
+    "Description": "#Étapes de fabrication de la «{NON_BREAK_SPACE}Flottaison florale ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391247,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escalier polyvalent en bois fruitier",
+    "Description": "Étapes de fabrication de l'escalier polyvalent en bois fruitier.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391248,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escalier en pierre blanche texturé",
+    "Description": "Étapes de fabrication de l'escalier en pierre blanche texturé.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
     "Icon": "UI_ItemIcon_Home_Common"
   }

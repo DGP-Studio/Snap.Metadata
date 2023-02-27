@@ -1145,23 +1145,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is taken out during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <color=#99FFFFFF>16%</color> more DMG to the opponent affected by Cursed Parasol."
+          "Description": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <color=#99FFFFFF>16%</color> more DMG to the opponent affected by Cursed Parasol."
         },
         {
           "Level": 1,
-          "Description": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is taken out during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <color=#99FFFFFF>20%</color> more DMG to the opponent affected by Cursed Parasol."
+          "Description": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <color=#99FFFFFF>20%</color> more DMG to the opponent affected by Cursed Parasol."
         },
         {
           "Level": 2,
-          "Description": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is taken out during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <color=#99FFFFFF>24%</color> more DMG to the opponent affected by Cursed Parasol."
+          "Description": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <color=#99FFFFFF>24%</color> more DMG to the opponent affected by Cursed Parasol."
         },
         {
           "Level": 3,
-          "Description": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is taken out during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <color=#99FFFFFF>28%</color> more DMG to the opponent affected by Cursed Parasol."
+          "Description": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <color=#99FFFFFF>28%</color> more DMG to the opponent affected by Cursed Parasol."
         },
         {
           "Level": 4,
-          "Description": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is taken out during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <color=#99FFFFFF>32%</color> more DMG to the opponent affected by Cursed Parasol."
+          "Description": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <color=#99FFFFFF>32%</color> more DMG to the opponent affected by Cursed Parasol."
         }
       ]
     }
@@ -2626,6 +2626,51 @@
     }
   },
   {
+    "Id": 12418,
+    "PromoteId": 12418,
+    "WeaponType": 11,
+    "RankLevel": 4,
+    "Name": "Mailed Flower",
+    "Description": "A graceful and elegant greatsword that is decorated with flowers and ribbons.",
+    "Icon": "UI_EquipIcon_Claymore_Fleurfair",
+    "AwakenIcon": "UI_EquipIcon_Claymore_Fleurfair_Awaken",
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_ATTACK": {
+        "Type": 1202,
+        "Value": 43.7349
+      },
+      "FIGHT_PROP_ELEMENT_MASTERY": {
+        "Type": 2201,
+        "Value": 24
+      }
+    },
+    "Affix": {
+      "Name": "Whispers of Wind and Flower",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by <color=#99FFFFFF>12%</color> and <color=#99FFFFFF>48</color> respectively."
+        },
+        {
+          "Level": 1,
+          "Description": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by <color=#99FFFFFF>15%</color> and <color=#99FFFFFF>60</color> respectively."
+        },
+        {
+          "Level": 2,
+          "Description": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by <color=#99FFFFFF>18%</color> and <color=#99FFFFFF>72</color> respectively."
+        },
+        {
+          "Level": 3,
+          "Description": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by <color=#99FFFFFF>21%</color> and <color=#99FFFFFF>84</color> respectively."
+        },
+        {
+          "Level": 4,
+          "Description": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by <color=#99FFFFFF>24%</color> and <color=#99FFFFFF>96</color> respectively."
+        }
+      ]
+    }
+  },
+  {
     "Id": 12501,
     "PromoteId": 12501,
     "WeaponType": 11,
@@ -2878,6 +2923,51 @@
         {
           "Level": 4,
           "Description": "DEF is increased by <color=#99FFFFFF>56%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>80%</color> of DEF."
+        }
+      ]
+    }
+  },
+  {
+    "Id": 12511,
+    "PromoteId": 12511,
+    "WeaponType": 11,
+    "RankLevel": 5,
+    "Name": "Beacon of the Reed Sea",
+    "Description": "A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.",
+    "Icon": "UI_EquipIcon_Claymore_Deshret",
+    "AwakenIcon": "UI_EquipIcon_Claymore_Deshret_Awaken",
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_ATTACK": {
+        "Type": 1301,
+        "Value": 45.9364
+      },
+      "FIGHT_PROP_CRITICAL": {
+        "Type": 2301,
+        "Value": 0.072
+      }
+    },
+    "Affix": {
+      "Name": "Desert Watch",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by <color=#99FFFFFF>20%</color> for 8s. After the character takes DMG, their ATK will be increased by <color=#99FFFFFF>20%</color> for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by <color=#99FFFFFF>32%</color>."
+        },
+        {
+          "Level": 1,
+          "Description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by <color=#99FFFFFF>25%</color> for 8s. After the character takes DMG, their ATK will be increased by <color=#99FFFFFF>25%</color> for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by <color=#99FFFFFF>40%</color>."
+        },
+        {
+          "Level": 2,
+          "Description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by <color=#99FFFFFF>30%</color> for 8s. After the character takes DMG, their ATK will be increased by <color=#99FFFFFF>30%</color> for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by <color=#99FFFFFF>48%</color>."
+        },
+        {
+          "Level": 3,
+          "Description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by <color=#99FFFFFF>35%</color> for 8s. After the character takes DMG, their ATK will be increased by <color=#99FFFFFF>35%</color> for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by <color=#99FFFFFF>56%</color>."
+        },
+        {
+          "Level": 4,
+          "Description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by <color=#99FFFFFF>40%</color> for 8s. After the character takes DMG, their ATK will be increased by <color=#99FFFFFF>40%</color> for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by <color=#99FFFFFF>64%</color>."
         }
       ]
     }
