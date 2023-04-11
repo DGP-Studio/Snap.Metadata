@@ -961,6 +961,26 @@
   },
   {
     "MaterialType": 20,
+    "Id": 1181,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Kaveh",
+    "Description": "Material de activación de constelación de Kaveh.",
+    "TypeDescription": "Activación de constelación",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1182,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Baizhu",
+    "Description": "Material de activación de constelación de Baizhu.",
+    "TypeDescription": "Activación de constelación",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
     "Id": 1176,
     "RankLevel": 4,
     "ItemType": 2,
@@ -2193,6 +2213,26 @@
     "Description": "Una cáscara seca que solo se encuentra en los criaderos de anguilas del desierto situados en lo más profundo del mar de arena. Esta resistente capa exterior protege los débiles cuerpos de las crías de anguila hasta que finalmente se aclimatan a las condiciones ambientales desérticas.",
     "TypeDescription": "Objeto típico de Sumeru",
     "Icon": "UI_ItemIcon_101222"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101223,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Flor funeraria",
+    "Description": "Una flor de un intenso color rojo capaz de florecer en antiguos campos de batalla y en los más áridos desiertos. Los pétalos marchitos que se desprenden parecen entonar un pesaroso cántico en honor a los caídos.",
+    "TypeDescription": "Objeto típico de Sumeru",
+    "Icon": "UI_ItemIcon_101223"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101224,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Trishiraíta",
+    "Description": "Una lustrosa y singular piedra que puede encontrarse en las profundidades de yermas montañas. Parece ser el resultado de la solidificación de Energía Elemental.",
+    "TypeDescription": "Objeto típico de Sumeru",
+    "Icon": "UI_ItemIcon_101224"
   },
   {
     "MaterialType": 4,
@@ -15666,6 +15706,16 @@
     "Icon": "UI_ItemIcon_107018"
   },
   {
+    "MaterialType": 5,
+    "Id": 107022,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pluma lumiprístina",
+    "Description": "Un fragmento de la jvarena que contiene recuerdos de antaño.",
+    "TypeDescription": "Consumible",
+    "Icon": "UI_ItemIcon_107022"
+  },
+  {
     "MaterialType": 1,
     "EffectDescription": "Aumenta la DEF de todos los miembros del equipo en 88 pts. durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
     "Id": 108001,
@@ -21187,11 +21237,99 @@
     "Icon": "UI_ItemIcon_108502"
   },
   {
+    "MaterialType": 1,
+    "EffectDescription": "Revive a un personaje y restaura 250 pts. de su Vida.",
+    "Id": 108503,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fatteh extraño",
+    "Description": "Una antigua receta de Sumeru. Si se tiene la paciencia de quitar las legumbres peladas a medio cocer y el pan chamuscado, la crema de leche restante es apenas apetecible como postre.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108504"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Revive a un personaje y restaura 400 pts. de su Vida.",
+    "Id": 108504,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fatteh",
+    "Description": "Una antigua receta de Sumeru. Primero se hornea el pan y luego se añade una pasta cocida de legumbres peladas y crema de leche fermentada ya procesada. El resultado es un plato que se puede consumir directamente. Esta receta se ha ido modificando a lo largo de los años, pero lo que no cambia nunca es la facilidad de su preparación y el delicioso sabor de siempre.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108504"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Revive a un personaje y restaura 550 pts. de su Vida.",
+    "Id": 108505,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fatteh delicioso",
+    "Description": "Una antigua receta de Sumeru. Las legumbres peladas cubiertas por la espesa crema de leche, te transportan a un sueño de nubes. Y cuando despiertas, el regusto a trigo del pan pita sigue en el paladar.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108504"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta el Bono de Curación de todos los miembros del equipo en un 15% durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108506,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sopa de frutos de jade extraña",
+    "Description": "Un dulce tradicional de Sumeru. Los ingredientes culinarios se echaron apresuradamente en la sartén, dando como resultado un plato con sabor a Esencia de slime. Aunque su sabor es poco apetitoso, los ingredientes utilizados siguen siendo nutritivos.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108507"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta el Bono de Curación de todos los miembros del equipo en un 17% durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108507,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sopa de frutos de jade",
+    "Description": "Un postre tradicional de Sumeru. Una vez que el agua rompe a hervir, se añaden todo tipo de ingredientes y se cuecen durante cierto tiempo. A continuación, se añade la cantidad adecuada de terrones de azúcar y se deja reposar a fuego bajo hasta que el líquido adquiere un tono brillante y una densa consistencia. Esta sopa dulce de larga cocción tiene un sabor y un regusto muy suaves, por lo que es perfecta tanto para niños como para mayores.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108507"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta el Bono de Curación de todos los miembros del equipo en un 20% durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108508,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sopa de frutos de jade deliciosa",
+    "Description": "Un postre tradicional de Sumeru. Los grandes trozos de fruta flotan en la aromática sopa, como un barco que navega por el río, dejan en el paladar una refrescante brisa frutal.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108507"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Revive a un personaje y restaura un 15% de la Vida Máx. más 550 pts. de Vida adicionales.",
+    "Id": 108509,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Un soplo de arrojo",
+    "Description": "La especialidad de Kaveh. Panecillos dulces de aspecto dorado con una bonita presentación en forma del Palacio Alcazarzaray, colocados sobre una base de salsa de yogur. Su creador se tomó mucho tiempo creando esta obra de arte, pero olvidó que para degustarla, hay que romper los panecillos de un golpe.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108509"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta el Bono de Curación de todos los miembros del equipo en un 25% durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108510,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sopa regulatemperaturas",
+    "Description": "La especialidad de Baizhu. “Aunque no es una medicina, sí sirve para reducir la sequedad”, te dice Baizhu con una voz seria, tras lo que frente a tus ojos aparece un cuenco de sopa brillante y cristalina. “*Sss*, antes la hacía sin azúcar, pero esta vez le añadió un poco porque temía que no fueras a tolerar bien el amargor”, sisea Changsheng.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108510"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Brocheta de champiñones y pollo",
+    "Name": "Receta: brocheta de champiñones y pollo",
     "Description": "Receta paso a paso para hacer una brocheta de champiñones y pollo",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21201,7 +21339,7 @@
     "Id": 109102,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Tostada del pescador",
+    "Name": "Receta: tostada del pescador",
     "Description": "Receta paso a paso para hacer una tostada del pescador.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21211,7 +21349,7 @@
     "Id": 109103,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Pasta a la boloñesa",
+    "Name": "Receta: pasta a la boloñesa",
     "Description": "Receta paso a paso para hacer una pasta a la boloñesa.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21221,7 +21359,7 @@
     "Id": 109104,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Pollo asado con miel",
+    "Name": "Receta: pollo asado con miel",
     "Description": "Receta paso a paso para hacer un pollo asado con miel.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21231,7 +21369,7 @@
     "Id": 109106,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Sopa de marisco",
+    "Name": "Receta: sopa de marisco",
     "Description": "Receta paso a paso para hacer una sopa de marisco.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21241,7 +21379,7 @@
     "Id": 109107,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Matsutakes salteados",
+    "Name": "Receta: matsutakes salteados",
     "Description": "Receta paso a paso para hacer matsutakes salteados.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21251,7 +21389,7 @@
     "Id": 109201,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Huevo frito de Teyvat",
+    "Name": "Receta: huevo frito de Teyvat",
     "Description": "Receta paso a paso para hacer un huevo frito de Teyvat.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21261,7 +21399,7 @@
     "Id": 109202,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Pollo ahumado del Norte",
+    "Name": "Receta: pollo ahumado del Norte",
     "Description": "Receta paso a paso para hacer un pollo ahumado del Norte.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21271,7 +21409,7 @@
     "Id": 109203,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Guisado de temporada",
+    "Name": "Receta: guisado de temporada",
     "Description": "Receta paso a paso para hacer un guisado de temporada.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21281,7 +21419,7 @@
     "Id": 109204,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Plato de carnes frías",
+    "Name": "Receta: plato de carnes frías",
     "Description": "Receta paso a paso para hacer un plato de carnes frías.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21291,7 +21429,7 @@
     "Id": 109205,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Asado a la miel",
+    "Name": "Receta: asado a la miel",
     "Description": "Receta paso a paso para hacer un asado a la miel.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21301,7 +21439,7 @@
     "Id": 109206,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Asado mar y montaña",
+    "Name": "Receta: asado mar y montaña",
     "Description": "Receta paso a paso para hacer un asado mar y montaña.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21311,7 +21449,7 @@
     "Id": 109207,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Pizza de champiñones",
+    "Name": "Receta: pizza de champiñones",
     "Description": "Receta paso a paso para hacer una pizza de champiñones.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21321,7 +21459,7 @@
     "Id": 109301,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Filete a la barbacoa",
+    "Name": "Receta: filete a la barbacoa",
     "Description": "Receta paso a paso para hacer un Filete a la barbacoa.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21331,7 +21469,7 @@
     "Id": 109302,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Sopa vegetariana de rábano",
+    "Name": "Receta: sopa vegetariana de rábano",
     "Description": "Receta paso a paso para hacer una sopa vegetariana de rábano.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21341,7 +21479,7 @@
     "Id": 109303,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Tortilla de papas de Mondstadt",
+    "Name": "Receta: tortilla de papas de Mondstadt",
     "Description": "Receta paso a paso para hacer una tortilla de papas de Mondstadt.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21351,7 +21489,7 @@
     "Id": 109304,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Torre de Ludi",
+    "Name": "Receta: torre de Ludi",
     "Description": "Receta paso a paso para hacer una torre de Ludi.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21361,7 +21499,7 @@
     "Id": 109401,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Panqueques",
+    "Name": "Receta: panqueques",
     "Description": "Receta paso a paso para hacer panqueques.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21371,7 +21509,7 @@
     "Id": 109402,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Albóndigas de rábano fritas",
+    "Name": "Receta: albóndigas de rábano fritas",
     "Description": "Receta paso a paso para hacer albóndigas de rábano fritas",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21381,7 +21519,7 @@
     "Id": 109403,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Ensalada saludable",
+    "Name": "Receta: ensalada saludable",
     "Description": "Receta paso a paso para hacer una ensalada saludable",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21391,7 +21529,7 @@
     "Id": 109404,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Rollitos de jade",
+    "Name": "Receta: rollitos de jade",
     "Description": "Receta paso a paso para hacer unos rollitos de jade",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21401,7 +21539,7 @@
     "Id": 109405,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Pescado a la parrilla de Mondstadt",
+    "Name": "Receta: pescado a la parrilla de Mondstadt",
     "Description": "Receta paso a paso para hacer un pescado a la parrilla de Mondstadt.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21411,7 +21549,7 @@
     "Id": 109406,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Carne de Mora",
+    "Name": "Receta: carne de Mora",
     "Description": "Receta paso a paso para hacer una carne de Mora.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21421,7 +21559,7 @@
     "Id": 109407,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Carne frita",
+    "Name": "Receta: carne frita",
     "Description": "Receta paso a paso para hacer una carne frita.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21431,7 +21569,7 @@
     "Id": 109408,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Tofu de almendras",
+    "Name": "Receta: tofu de almendras",
     "Description": "Receta paso a paso para hacer un tofu de almendras.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21441,7 +21579,7 @@
     "Id": 109409,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Pollo al chile Jueyun",
+    "Name": "Receta: pollo al chile Jueyun",
     "Description": "Receta paso a paso para hacer un pollo al chile Jueyun.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21451,7 +21589,7 @@
     "Id": 109410,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Estofado de gemas",
+    "Name": "Receta: estofado de gemas",
     "Description": "Receta paso a paso para hacer un estofado de gemas.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21461,7 +21599,7 @@
     "Id": 109411,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Rollos de carne con matsutake",
+    "Name": "Receta: rollos de carne con matsutake",
     "Description": "Receta paso a paso para hacer unos rollos de carne con matsutake.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21471,7 +21609,7 @@
     "Id": 109412,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Chop suey de Zhongyuan",
+    "Name": "Receta: chop suey de Zhongyuan",
     "Description": "Receta paso a paso para hacer chop suey de Zhongyuan.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21481,7 +21619,7 @@
     "Id": 109413,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Estofado de perca de lomo negro",
+    "Name": "Receta: estofado de perca de lomo negro",
     "Description": "Receta paso a paso para hacer un estofado de perca de lomo negro.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21491,7 +21629,7 @@
     "Id": 109414,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Pescado mandarín agridulce",
+    "Name": "Receta: pescado mandarín agridulce",
     "Description": "Receta paso a paso para hacer un pescado mandarín agridulce.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21501,7 +21639,7 @@
     "Id": 109415,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Cangrejo dorado",
+    "Name": "Receta: cangrejo dorado",
     "Description": "Receta paso a paso para hacer un cangrejo dorado.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21511,7 +21649,7 @@
     "Id": 109416,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Camarones de cristal",
+    "Name": "Receta: camarones de cristal",
     "Description": "Receta paso a paso para hacer unos camarones de cristal.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21521,7 +21659,7 @@
     "Id": 109417,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Pez tigre a la parrilla",
+    "Name": "Receta: pez tigre a la parrilla",
     "Description": "Receta paso a paso para hacer un pez tigre a la parrilla.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21531,7 +21669,7 @@
     "Id": 109418,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Puchero de Barbatos",
+    "Name": "Receta: puchero de Barbatos",
     "Description": "Receta paso a paso para hacer un puchero de Barbatos.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21541,7 +21679,7 @@
     "Id": 109419,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Sopa de loto y huevo",
+    "Name": "Receta: sopa de loto y huevo",
     "Description": "Receta paso a paso para hacer una sopa de loto y huevo.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21551,7 +21689,7 @@
     "Id": 109420,
     "RankLevel": 5,
     "ItemType": 2,
-    "Name": "Receta: Tentación de Adeptus",
+    "Name": "Receta: tentación de Adeptus",
     "Description": "Receta paso a paso para hacer una tentación de Adeptus",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21561,7 +21699,7 @@
     "Id": 109421,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Albóndigas de camarón dorado",
+    "Name": "Receta: albóndigas de camarón dorado",
     "Description": "Receta paso a paso para hacer albóndigas de camarón dorado.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21571,7 +21709,7 @@
     "Id": 109422,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Salteado de Chingtsé",
+    "Name": "Receta: salteado de Chingtsé",
     "Description": "Receta paso a paso para hacer un salteado de Chingtsé.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21591,7 +21729,7 @@
     "Id": 109424,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Fideos con delicias de montaña",
+    "Name": "Receta: fideos con delicias de montaña",
     "Description": "Receta paso a paso para hacer unos fideos con delicias de montaña.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21601,7 +21739,7 @@
     "Id": 109425,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Sopa de brotes de bambú",
+    "Name": "Receta: sopa de brotes de bambú",
     "Description": "Receta paso a paso para hacer una sopa de brotes de bambú.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21611,7 +21749,7 @@
     "Id": 109426,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Tiras de tres sabores",
+    "Name": "Receta: tiras de tres sabores",
     "Description": "Receta paso a paso para hacer tiras de tres sabores.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21621,7 +21759,7 @@
     "Id": 109427,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Carne estilo Eje Celestial",
+    "Name": "Receta: carne estilo Eje Celestial",
     "Description": "Receta paso a paso para hacer carne estilo Eje Celestial.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21631,7 +21769,7 @@
     "Id": 109428,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Estrellitas de loto",
+    "Name": "Receta: estrellitas de loto",
     "Description": "Receta paso a paso para hacer unas estrellitas de loto.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21641,7 +21779,7 @@
     "Id": 109429,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Pastelillo de luna",
+    "Name": "Receta: pastelillo de luna",
     "Description": "Receta paso a paso para hacer un pastelillo de luna.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21651,7 +21789,7 @@
     "Id": 109430,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Sándwich del aventurero",
+    "Name": "Receta: sándwich del aventurero",
     "Description": "Receta paso a paso para hacer un sándwich del aventurero.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21661,7 +21799,7 @@
     "Id": 109431,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Estofado de carne y manzana del Norte",
+    "Name": "Receta: estofado de carne y manzana del Norte",
     "Description": "Receta paso a paso para hacer un estofado de carne y manzana del Norte.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21671,7 +21809,7 @@
     "Id": 109432,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Tofu con huevas de cangrejo",
+    "Name": "Receta: tofu con huevas de cangrejo",
     "Description": "Receta paso a paso para hacer tofu con huevas de cangrejo.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21681,7 +21819,7 @@
     "Id": 109433,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Rollitos de luna llena",
+    "Name": "Receta: rollitos de luna llena",
     "Description": "Receta paso a paso para hacer unos rollitos de luna llena.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21691,7 +21829,7 @@
     "Id": 109434,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Carne curada con matsutake",
+    "Name": "Receta: carne curada con matsutake",
     "Description": "Receta paso a paso para hacer carne curada con matsutake.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21701,7 +21839,7 @@
     "Id": 109435,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Tallarines fritos con pescado",
+    "Name": "Receta: tallarines fritos con pescado",
     "Description": "Receta paso a paso para hacer tallarines fritos con pescado.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21711,7 +21849,7 @@
     "Id": 109436,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Abulón vegetariano",
+    "Name": "Receta: abulón vegetariano",
     "Description": "Receta paso a paso para hacer un abulón vegetariano.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21721,7 +21859,7 @@
     "Id": 109437,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Delicias del Puerto de Piedra",
+    "Name": "Receta: delicias del Puerto de Piedra",
     "Description": "Receta paso a paso para hacer unas delicias del Puerto de Piedra.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21731,7 +21869,7 @@
     "Id": 109438,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Salteado de camarones",
+    "Name": "Receta: salteado de camarones",
     "Description": "Receta paso a paso para hacer un salteado de camarones",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21741,7 +21879,7 @@
     "Id": 109439,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Bolitas de harina de arroz",
+    "Name": "Receta: bolitas de harina de arroz",
     "Description": "Receta paso a paso para hacer unas bolitas de harina de arroz.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21751,7 +21889,7 @@
     "Id": 109440,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Carne a la jardinera",
+    "Name": "Receta: carne a la jardinera",
     "Description": "Receta paso a paso para hacer carne a la jardinera.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21771,7 +21909,7 @@
     "Id": 109442,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Paz universal",
+    "Name": "Receta: paz universal",
     "Description": "Receta paso a paso para hacer paz universal.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21791,7 +21929,7 @@
     "Id": 109444,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Cóctel de camarones sobre papas fritas",
+    "Name": "Receta: cóctel de camarones sobre papas fritas",
     "Description": "Receta paso a paso para hacer un cóctel de camarones sobre papas fritas.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21801,7 +21939,7 @@
     "Id": 109445,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Gelatina de menta",
+    "Name": "Receta: gelatina de menta",
     "Description": "Receta paso a paso para hacer gelatina de menta.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21811,7 +21949,7 @@
     "Id": 109446,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Ensalada de menta",
+    "Name": "Receta: ensalada de menta",
     "Description": "Receta paso a paso para hacer una ensalada de menta.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21821,7 +21959,7 @@
     "Id": 109447,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Rollitos de carne y menta",
+    "Name": "Receta: rollitos de carne y menta",
     "Description": "Receta paso a paso para hacer unos rollitos de carne y menta.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21831,7 +21969,7 @@
     "Id": 109448,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Pollo frito",
+    "Name": "Receta: pollo frito",
     "Description": "Receta paso a paso para hacer pollo frito.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21841,7 +21979,7 @@
     "Id": 109449,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Hamburguesa de pollo crujiente",
+    "Name": "Receta: hamburguesa de pollo crujiente",
     "Description": "Receta paso a paso para hacer una hamburguesa de pollo crujiente.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21851,7 +21989,7 @@
     "Id": 109450,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Puré de papas",
+    "Name": "Receta: puré de papas",
     "Description": "Receta paso a paso para hacer puré de papas.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21861,7 +21999,7 @@
     "Id": 109451,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Pollo con textura de tofu",
+    "Name": "Receta: pollo con textura de tofu",
     "Description": "Receta paso a paso para hacer un pollo con textura de tofu.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21871,7 +22009,7 @@
     "Id": 109452,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Sushi de atún",
+    "Name": "Receta: sushi de atún",
     "Description": "Receta paso a paso para hacer sushi de atún.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21881,7 +22019,7 @@
     "Id": 109453,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Dango tricolor",
+    "Name": "Receta: dango tricolor",
     "Description": "Receta paso a paso para hacer dango tricolor.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21901,7 +22039,7 @@
     "Id": 109455,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Surtido de sashimi",
+    "Name": "Receta: surtido de sashimi",
     "Description": "Receta paso a paso para hacer surtido de sashimi.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21911,7 +22049,7 @@
     "Id": 109456,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Ramen de carne",
+    "Name": "Receta: ramen de carne",
     "Description": "Receta paso a paso para hacer ramen de carne.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21921,7 +22059,7 @@
     "Id": 109457,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Rollitos de huevo",
+    "Name": "Receta: rollitos de huevo",
     "Description": "Receta paso a paso para hacer rollitos de huevo.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21931,7 +22069,7 @@
     "Id": 109458,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Pescado seco estofado",
+    "Name": "Receta: pescado seco estofado",
     "Description": "Receta paso a paso para hacer pescado seco estofado.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21941,7 +22079,7 @@
     "Id": 109459,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Cangrejo mantequilla",
+    "Name": "Receta: cangrejo mantequilla",
     "Description": "Receta paso a paso para hacer un cangrejo mantequilla.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21951,7 +22089,7 @@
     "Id": 109460,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Brochetas de tres sabores",
+    "Name": "Receta: brochetas de tres sabores",
     "Description": "Receta paso a paso para hacer brochetas de tres sabores.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21961,7 +22099,7 @@
     "Id": 109461,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Sopa de miso",
+    "Name": "Receta: sopa de miso",
     "Description": "Receta paso a paso para hacer sopa de miso.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21971,7 +22109,7 @@
     "Id": 109462,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Carne de ave importada",
+    "Name": "Receta: carne de ave importada",
     "Description": "Receta paso a paso para hacer carne de ave importada.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21981,7 +22119,7 @@
     "Id": 109463,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Mochis de cerezo",
+    "Name": "Receta: mochis de cerezo",
     "Description": "Receta paso a paso para hacer mochis de cerezo.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -21991,7 +22129,7 @@
     "Id": 109464,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Estofado de Konda",
+    "Name": "Receta: estofado de Konda",
     "Description": "Receta paso a paso para hacer estofado de Konda.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22001,7 +22139,7 @@
     "Id": 109465,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Sopa de pastel de arroz",
+    "Name": "Receta: sopa de pastel de arroz",
     "Description": "Receta paso a paso para hacer sopa de pastel de arroz.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22011,7 +22149,7 @@
     "Id": 109466,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Yakisoba con verdura",
+    "Name": "Receta: yakisoba con verdura",
     "Description": "Receta paso a paso para hacer yakisoba con verdura.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22021,7 +22159,7 @@
     "Id": 109467,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Caparazón de cangrejo con huevas",
+    "Name": "Receta: caparazón de cangrejo con huevas",
     "Description": "Receta paso a paso para hacer un caparazón de cangrejo con huevas.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22031,7 +22169,7 @@
     "Id": 109468,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Tempura de cerezo",
+    "Name": "Receta: tempura de cerezo",
     "Description": "Receta paso a paso para hacer tempura de cerezo.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22041,7 +22179,7 @@
     "Id": 109469,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Pudín de arroz",
+    "Name": "Receta: pudín de arroz",
     "Description": "Receta paso a paso para hacer un pudín de arroz.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22051,7 +22189,7 @@
     "Id": 109470,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Carne estofada",
+    "Name": "Receta: carne estofada",
     "Description": "Receta paso a paso para hacer carne estofada.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22061,7 +22199,7 @@
     "Id": 109471,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Tofu oncidium",
+    "Name": "Receta: tofu oncidium",
     "Description": "Receta paso a paso para hacer tofu oncidium.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22071,7 +22209,7 @@
     "Id": 109472,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Panecillos de maíz con carne picante",
+    "Name": "Receta: panecillos de maíz con carne picante",
     "Description": "Receta paso a paso para hacer unos panecillos de maíz con carne picante.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22081,7 +22219,7 @@
     "Id": 109473,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Comida felina revitalizante",
+    "Name": "Receta: comida felina revitalizante",
     "Description": "Receta paso a paso para hacer comida felina revitalizante.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22091,7 +22229,7 @@
     "Id": 109474,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Sushi de camarón",
+    "Name": "Receta: sushi de camarón",
     "Description": "Receta paso a paso para hacer sushi de camarón.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22101,7 +22239,7 @@
     "Id": 109475,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Sushi de huevo",
+    "Name": "Receta: sushi de huevo",
     "Description": "Receta paso a paso para hacer sushi de huevo.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22111,7 +22249,7 @@
     "Id": 109476,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Tortilla con arroz",
+    "Name": "Receta: tortilla con arroz",
     "Description": "Receta paso a paso para hacer una tortilla con arroz.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22121,7 +22259,7 @@
     "Id": 109477,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Taiyaki",
+    "Name": "Receta: taiyaki",
     "Description": "Receta paso a paso para hacer taiyaki.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22131,7 +22269,7 @@
     "Id": 109478,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Más y más",
+    "Name": "Receta: más y más",
     "Description": "Receta paso a paso para hacer un “más y más”.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22141,7 +22279,7 @@
     "Id": 109479,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Anguila a la parrilla",
+    "Name": "Receta: anguila a la parrilla",
     "Description": "Receta paso a paso para hacer anguila a la parrilla.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22151,7 +22289,7 @@
     "Id": 109480,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Guiso de pescado y rábano",
+    "Name": "Receta: guiso de pescado y rábano",
     "Description": "Receta paso a paso para hacer un guiso de pescado y rábano.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22161,7 +22299,7 @@
     "Id": 109481,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Brotes de bambú hervidos",
+    "Name": "Receta: brotes de bambú hervidos",
     "Description": "Receta paso a paso para hacer brotes de bambú hervidos.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22171,7 +22309,7 @@
     "Id": 109482,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Pastelillos de bayas acuosos",
+    "Name": "Receta: pastelillos de bayas acuosos",
     "Description": "Receta paso a paso para hacer unos pastelillos de bayas acuosos.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22181,7 +22319,7 @@
     "Id": 109483,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Fideos soba",
+    "Name": "Receta: fideos soba",
     "Description": "Receta paso a paso para hacer fideos soba.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22191,7 +22329,7 @@
     "Id": 109484,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Arroz con anguila bañado en té",
+    "Name": "Receta: arroz con anguila bañado en té",
     "Description": "Receta paso a paso para hacer arroz con anguila bañado en té.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22201,7 +22339,7 @@
     "Id": 109485,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Cinco tesoros marinados",
+    "Name": "Receta: cinco tesoros marinados",
     "Description": "Receta paso a paso para hacer cinco tesoros marinados.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22211,7 +22349,7 @@
     "Id": 109486,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Galletas de camarón y cerezo",
+    "Name": "Receta: galletas de camarón y cerezo",
     "Description": "Receta paso a paso para hacer galletas de camarón y cerezo.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22221,7 +22359,7 @@
     "Id": 109487,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Pescado de la abundancia",
+    "Name": "Receta: pescado de la abundancia",
     "Description": "Receta paso a paso para hacer pescado de la abundancia.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22231,7 +22369,7 @@
     "Id": 109488,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Fideos barba de dragón",
+    "Name": "Receta: fideos barba de dragón",
     "Description": "Receta paso a paso para hacer fideos barba de dragón.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22241,7 +22379,7 @@
     "Id": 109489,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Sangayaki",
+    "Name": "Receta: sangayaki",
     "Description": "Receta paso a paso para hacer Sangayaki.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22251,7 +22389,7 @@
     "Id": 109490,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Udon",
+    "Name": "Receta: udon",
     "Description": "Receta paso a paso para hacer udon.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22261,7 +22399,7 @@
     "Id": 109491,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Sándwich de milanesa",
+    "Name": "Receta: sándwich de milanesa",
     "Description": "Receta paso a paso para hacer un sándwich de milanesa.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22271,7 +22409,7 @@
     "Id": 109492,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Margarita arcoíris",
+    "Name": "Receta: margarita arcoíris",
     "Description": "Receta paso a paso para hacer una margarita arcoíris.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22281,7 +22419,7 @@
     "Id": 109493,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Pollo con mantequilla",
+    "Name": "Receta: pollo con mantequilla",
     "Description": "Receta paso a paso para hacer pollo con mantequilla.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22291,7 +22429,7 @@
     "Id": 109494,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Rollos de shawarma",
+    "Name": "Receta: rollos de shawarma",
     "Description": "Receta paso a paso para hacer unos rollos de shawarma.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22301,7 +22439,7 @@
     "Id": 109495,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Ensalada tropical",
+    "Name": "Receta: ensalada tropical",
     "Description": "Una receta paso a paso que obtuviste durante tu aventura y mejorada por la chef Paimon para hacer una ensalada tropical.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22311,7 +22449,7 @@
     "Id": 109496,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Bolitas de queso con masala",
+    "Name": "Receta: bolitas de queso con masala",
     "Description": "Una receta paso a paso que obtuviste durante tu aventura y mejorada por la chef Paimon para hacer unas bolitas de queso con masala.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22321,7 +22459,7 @@
     "Id": 109497,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Surtido de champiñones",
+    "Name": "Receta: surtido de champiñones",
     "Description": "Una receta paso a paso que obtuviste durante tu aventura y mejorada por la chef Paimon para hacer un surtido de champiñones.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22331,7 +22469,7 @@
     "Id": 109498,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Döner kebab",
+    "Name": "Receta: döner kebab",
     "Description": "Una detallada receta escrita a mano para hacer döner kebab. La caligrafía empleada muestra que la autora no es muy buena escribiendo, ya que algunas de las letras están un poco borrosas, lo cual puede que se deba a alguna enfermedad. Sin embargo, escribió cada letra con mucho cuidado.\nSi la aprendes, la próxima vez que visites la Villa Gandharva podrás compartir con ella este delicioso manjar.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22341,7 +22479,7 @@
     "Id": 109499,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Panipuri",
+    "Name": "Receta: panipuri",
     "Description": "Receta paso a paso para hacer panipuri.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22351,7 +22489,7 @@
     "Id": 109500,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Sopa de menta y frijoles",
+    "Name": "Receta: sopa de menta y frijoles",
     "Description": "Receta paso a paso para hacer una sopa de menta y frijoles.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22361,7 +22499,7 @@
     "Id": 109501,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Biryani",
+    "Name": "Receta: biryani",
     "Description": "Receta paso a paso para hacer biryani.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22371,7 +22509,7 @@
     "Id": 109502,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Tahchín",
+    "Name": "Receta: tahchín",
     "Description": "Receta paso a paso para hacer tahchín.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22381,7 +22519,7 @@
     "Id": 109503,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Receta: Rollo de pescado de Lambad",
+    "Name": "Receta: rollo de pescado de Lambad",
     "Description": "Receta paso a paso para hacer un rollo de pescado de Lambad.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22391,7 +22529,7 @@
     "Id": 109504,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Camarones al curri",
+    "Name": "Receta: camarones al curri",
     "Description": "Receta paso a paso para hacer unos camarones al curri.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22401,7 +22539,7 @@
     "Id": 109505,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Pollo tandoori",
+    "Name": "Receta: pollo tandoori",
     "Description": "Receta paso a paso para hacer pollo tandoori.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22411,7 +22549,7 @@
     "Id": 109506,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Barco de papa",
+    "Name": "Receta: barco de papa",
     "Description": "Receta paso a paso para hacer un barco de papa.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22421,7 +22559,7 @@
     "Id": 109507,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Pescado a la crema",
+    "Name": "Receta: pescado a la crema",
     "Description": "Receta paso a paso para hacer un pescado a la crema.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22431,7 +22569,7 @@
     "Id": 109508,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Receta: Pizza de carne y champiñones",
+    "Name": "Receta: pizza de carne y champiñones",
     "Description": "Receta paso a paso para hacer una pizza de carne y champiñones.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22441,7 +22579,7 @@
     "Id": 109509,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Té de bayas crepusculares",
+    "Name": "Receta: té de bayas crepusculares",
     "Description": "Receta paso a paso para hacer un té de bayas crepusculares.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22451,7 +22589,7 @@
     "Id": 109510,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Tostadas crujientes de champiñones y queso",
+    "Name": "Receta: tostadas crujientes de champiñones y queso",
     "Description": "Receta paso a paso para hacer unas tostadas crujientes de champiñones y queso.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22461,7 +22599,7 @@
     "Id": 109511,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Panecillos de dátil carbonizados",
+    "Name": "Receta: panecillos de dátil carbonizados",
     "Description": "Receta paso a paso para hacer panecillos de dátil carbonizados.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22471,7 +22609,7 @@
     "Id": 109512,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Baklava",
+    "Name": "Receta: baklava",
     "Description": "Receta paso a paso para hacer baklava.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22481,7 +22619,7 @@
     "Id": 109513,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Dátiles caramelizados",
+    "Name": "Receta: dátiles caramelizados",
     "Description": "Receta paso a paso para hacer dátiles caramelizados.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22491,7 +22629,7 @@
     "Id": 109514,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Pudín de orquídea padishá",
+    "Name": "Receta: pudín de orquídea padishá",
     "Description": "Receta paso a paso para hacer pudín de orquídea padishá.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22501,7 +22639,7 @@
     "Id": 109515,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Arroz de Aaru",
+    "Name": "Receta: arroz de Aaru",
     "Description": "Receta paso a paso para hacer arroz de Aaru.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22511,7 +22649,7 @@
     "Id": 109516,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Jugo festivo",
+    "Name": "Receta: jugo festivo",
     "Description": "Receta paso a paso para hacer un jugo festivo.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22521,7 +22659,7 @@
     "Id": 109517,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Natillas de rosa",
+    "Name": "Receta: natillas de rosa",
     "Description": "Receta paso a paso para hacer unas natillas de rosa.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22531,7 +22669,7 @@
     "Id": 109518,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Samosas",
+    "Name": "Receta: samosas",
     "Description": "Receta paso a paso para hacer samosas.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22541,7 +22679,7 @@
     "Id": 109519,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Estofado de carne de Sabz",
+    "Name": "Receta: estofado de carne de Sabz",
     "Description": "Receta paso a paso para hacer un estofado de carne de Sabz.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22551,7 +22689,7 @@
     "Id": 109520,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Receta: Albóndigas especiadas",
+    "Name": "Receta: albóndigas especiadas",
     "Description": "Receta paso a paso para hacer unas albóndigas especiadas.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
@@ -22593,6 +22731,26 @@
     "ItemType": 2,
     "Name": "Receta: Té de menta afrutado",
     "Description": "Receta paso a paso para hacer té de menta afrutado.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109525,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Receta: fatteh",
+    "Description": "Receta paso a paso para hacer fatteh.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109526,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Receta: sopa de frutos de jade",
+    "Description": "Receta paso a paso para hacer una sopa de frutos de jade.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
   },
@@ -23722,6 +23880,36 @@
   },
   {
     "MaterialType": 14,
+    "Id": 112077,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Flor encapullada de origen desconocido",
+    "Description": "Una flor silvestre que custodiaba un Hilichurl Errabundo y que había arrancado antes de que pudiese florecer.\nEl Hilichurl se limita a vagar por la naturaleza desorientado, sin ninguna otra posesión salvo esta flor aún en capullo.",
+    "TypeDescription": "Material de mejora de personaje y arma",
+    "Icon": "UI_ItemIcon_112077"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112078,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Flor velada",
+    "Description": "Una simple flor que custodiaba un Hilichurl Errabundo.\nLas flores son en muchas naciones un regalo perfecto para trasmitir los verdaderos sentimientos de una persona.",
+    "TypeDescription": "Material de mejora de personaje y arma",
+    "Icon": "UI_ItemIcon_112078"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112079,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Flor floreciente del trashumante",
+    "Description": "Una flor en todo su esplendor que custodiaba un Hilichurl Errabundo.\nLos extraños de la eternidad no esperan recompensa alguna, todo cuanto hacen es con el mero objetivo de ser testigos del fruto de lo acaecido...",
+    "TypeDescription": "Material de mejora de personaje y arma",
+    "Icon": "UI_ItemIcon_112079"
+  },
+  {
+    "MaterialType": 14,
     "Id": 113001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -24162,6 +24350,46 @@
   },
   {
     "MaterialType": 14,
+    "Id": 113045,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Aro sombrioeterno",
+    "Description": "Un catalizador circular obtenido tras derrotar a un emisario de cuatro brazos que susurraba cánticos oscuros.\nEste aro tiene la forma de un camino, lo cual se debe a que los círculos son los patrones que se usan normalmente para crear sellos con efectos místicos. Quizá estos catalizadores circulares sean puertas que conducen al universo.",
+    "TypeDescription": "Material de mejora de personaje",
+    "Icon": "UI_ItemIcon_113045"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113046,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Helecho del paraíso exuberante",
+    "Description": "Un helecho extraído del interior del Oasis de Apep.\nEn una época anterior a la existencia del tiempo, el mundo estaba gobernado por dragones. En el jardín del palacio de Apep, un paraíso para la proliferación de la vegetación, lo primero en brotar fueron los helechos.\nCon el paso de los años, estas plantas se convirtieron en árboles, enredaderas, raíces y hojas que se extendían por todas partes. Sin embargo, Apep aún recuerda el sonido casi inaudible que emitió el primer helecho al retorcerse para alcanzar el vasto cielo.",
+    "TypeDescription": "Material de mejora de personaje",
+    "Icon": "UI_ItemIcon_113046"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113047,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Floración primigenia del oasis",
+    "Description": "Una flor extraída del interior del Oasis de Apep que conserva su forma primigenia.\nCon el paso del tiempo, las flores adquirieron una infinita variedad de colores y fragancias, y tantos nombres como estrellas hay en el firmamento.\nCuando esta flor empezó a abrirse, no tenía ningún nombre. Sin embargo, como decían los antiguos dragones, aunque una flor haya perdido su nombre, nunca perderá su innata fragancia. Por tanto, las definiciones son solo una herramienta que utilizan las especies cortas de miras y efímeras para comprender el mundo que las rodea. Pero la vida no está limitada por las palabras, sino que permanece en constante evolución.",
+    "TypeDescription": "Material de mejora de personaje",
+    "Icon": "UI_ItemIcon_113047"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113048,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Instante del mar arbóreo",
+    "Description": "Un ámbar extraído del interior del Oasis de Apep capaz de aprisionar insectos diminutos que ya están extintos.\nPara los árboles, es casualidad que el ámbar encierre a esos diminutos seres, pero para esos seres, es cuestión del destino.\nCon la catástrofe que cayó del cielo, árboles, enredaderas, raíces y hojas se secaron y se convirtieron en polvo, y gran parte de la vida desapareció.\nSolo los desconocidos insectos que permanecen silenciosos en el ámbar del oasis inexistente han conocido el futuro que nadie más de su época pudo conocer.",
+    "TypeDescription": "Material de mejora de personaje",
+    "Icon": "UI_ItemIcon_113048"
+  },
+  {
+    "MaterialType": 14,
     "Id": 114001,
     "RankLevel": 2,
     "ItemType": 2,
@@ -24586,7 +24814,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Lamento del oasis exuberante",
-    "Description": "Material de ascensión de arma.\nEn el pasado, la Reina de las Flores era buena amiga de los genios.\nElla, maestra de las flores y los oasis, unió esfuerzos con el Rey del Desierto y construyó para los genios Ai Janum, la Ciudad de los Anfiteatros. En la antigua lengua de estos genios, “Ai Janum” significaba “Ciudad de la Dama Luna”.\nSin embargo, más tarde, la Reina de las Flores murió a causa de la maldad del sol abrasador y del desierto, y las violáceas orquídeas padishá nunca más volvieron a florecer.\nCuando ella cayó, el desierto y los genios lloraron su pérdida, la redonda gema que brillaba como la luna perdió su función de esparcir felicidad y comenzó a emitir un brillo aciago.",
+    "Description": "Material de ascensión de arma.\nEn el pasado, la Reina de las Flores era buena amiga de las genios.\nElla, maestra de las flores y los oasis, unió esfuerzos con el Rey del Desierto y construyó para las genios Ai Janum, la Ciudad de los Anfiteatros. En la antigua lengua de estas genios, “Ai Janum” significaba “Ciudad de la Dama Luna”.\nSin embargo, más tarde, la Reina de las Flores murió a causa de la maldad del sol abrasador y del desierto, y las violáceas orquídeas padishá nunca más volvieron a florecer.\nCuando ella cayó, el desierto y las genios lloraron su pérdida, la redonda gema que brillaba como la luna perdió su función de esparcir felicidad y comenzó a emitir un brillo aciago.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114043"
   },
@@ -24847,6 +25075,26 @@
     "ItemType": 2,
     "Name": "Cofre de artefactos de los dominios - Categoría 1",
     "Description": "Una reliquia obtenida de un cofre de artefactos. Que aquel que lo encuentre reciba un milagro.\n\nDe cada cofre se puede obtener una pieza de alguno de los siguientes conjuntos:\n·Épica del Pabellón del Desierto\n·Flor Olvidada del Paraíso",
+    "TypeDescription": "Cofre de artefactos",
+    "Icon": "UI_ItemIcon_117003"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 117012,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Cofre de artefactos de los dominios - Categoría 2",
+    "Description": "Una reliquia obtenida de un cofre de artefactos. Que aquel que lo encuentre sea bendecido.\n\nDe cada cofre se puede obtener una pieza de alguno de los siguientes conjuntos:\n·Sueño de la Ninfa\n·Fulgor de Vurukasha\n·Berserker\n·Instructor\n·Exiliado",
+    "TypeDescription": "Cofre de artefactos",
+    "Icon": "UI_ItemIcon_117002"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 117013,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Cofre de artefactos de los dominios - Categoría 1",
+    "Description": "Una reliquia obtenida de un cofre de artefactos. Que aquel que lo encuentre reciba un milagro.\n\nDe cada cofre se puede obtener una pieza de alguno de los siguientes conjuntos:\n·Sueño de la Ninfa\n·Fulgor de Vurukasha",
     "TypeDescription": "Cofre de artefactos",
     "Icon": "UI_ItemIcon_117003"
   },
@@ -25185,7 +25433,7 @@
     "Id": 120028,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Stotra de la luz de los espíritus",
+    "Name": "Stotra de las jvarena",
     "Description": "Según se dice, una comunidad religiosa del desierto, ahora inexistente, transmitió esta canción de generación en generación de manera oral. Sin embargo, no se sabe quién la transcribió.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_100229"
@@ -26692,6 +26940,46 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120223,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Fruto harra carnoso",
+    "Description": "Este fruto que crece en las zonas más húmedas y calurosas de la selva se caracteriza por un aroma muy fragante y especiado. Seguro que su sabor resulta aún más delicioso si se combina con otros frutos.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101216"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120224,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Duraznoliva jugosa",
+    "Description": "Un fruto que crece en los arbustos del bosque, muy dulce y carnoso. Dicen que comerlo calma el cuerpo y la mente. Es perfecto para la Laila de ahora.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101218"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120225,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Manzana fresca",
+    "Description": "Crujiente y aromática. No solo se puede comer cruda o usarse para hacer vino, también resulta deliciosa cuando se asa.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120234,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Madera seca",
+    "Description": "Madera convenientemente recogida. Tiene el tamaño y el grosor perfecto para usarse para encender un fuego. Si se usa para cocinar, seguro que le aporta un agradable aroma natural a las ascuas. Esperemos que sirva para animar un poco a Laila.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120234"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120235,
     "RankLevel": 0,
     "ItemType": 2,
@@ -27022,6 +27310,206 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120273,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Himno de la jvarena",
+    "Description": "Los himnos de la jvarena contienen una formidable cantidad de energía jvarena, pero solo las pari reconocidas por la jvarena pueden liberar su poder mediante un ritual específico.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120273"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120274,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Boceto adjuntado a unas notas",
+    "Description": "Boceto extraído de unas misteriosas notas de investigación. Parece describir en detalle la estructura de las ruinas de un campo de pruebas subterráneo y la ubicación de un himno de la jvarena.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120274"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120275,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notas de investigación de René",
+    "Description": "Al parecer son las notas dejadas por un gran erudito que intentó “trascender la mortalidad”. En ellas detalla sus experiencias mientras exploraba las ruinas subterráneas y todos los conocimientos que adquirió en el proceso.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120275"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120276,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notas de alguien",
+    "Description": "Parecen ser notas dejadas por un miembro de la Orden de los Escépticos. En ellas hay información relacionada con los tambores kory perdidos y sus ceremonias.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120277,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Documento antiguo",
+    "Description": "Parece tratarse de un documento pasado de generación en generación dentro de la Orden de los Escépticos. El críptico y arcaico lenguaje usado dificulta descifrar su contenido.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120278,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pistilo de udumbara",
+    "Description": "Un pistilo extraído de una udumbara en flor. Parece que tiene un significado especial para las pari...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120278"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120279,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Fragmento de inscripción de la jvarena",
+    "Description": "Fragmento de inscripción perdido. Un fragmento que se ha dispersado del resto por motivos desconocidos.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120279"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120280,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Fragmento de inscripción de la jvarena",
+    "Description": "Fragmento de inscripción perdido. Solo las descendientes del ave divina pueden captar su débil resplandor.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120280"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120281,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Fragmento de inscripción de la jvarena",
+    "Description": "Fragmento de inscripción perdido. Colocar todos los fragmentos en su posición original quizá revele el aspecto original de la inscripción.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120281"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120282,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Fragmento de inscripción de la jvarena",
+    "Description": "Fragmento de inscripción perdido. Se dice que tiene una profunda conexión kármica con las pari.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120282"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120283,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Coribante: vedana",
+    "Description": "Un misterioso tambor con una marca Cryo grabada en él.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120283"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120284,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Coribante: rupa",
+    "Description": "Uno de los tambores kory desaparecidos. Lleva la marca Dendro.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120284"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120285,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Coribante: samjña",
+    "Description": "Uno de los tambores kory desaparecidos. Lleva la marca Hydro.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120285"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120286,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Coribante: sankhara",
+    "Description": "Uno de los tambores kory desaparecidos. Lleva la marca Electro.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120286"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120287,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Coribante: vijñana",
+    "Description": "Uno de los tambores kory desaparecidos. Lleva la marca Pyro.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120287"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120288,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bloque de energía misterioso",
+    "Description": "Un bloque de energía condensado a partir de la azosita extraída de Energía Elemental pura. Parece servir como fuente de alimentación para grandes sistemas de energía.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120288"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120290,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Equipaje de Julien",
+    "Description": "Un equipaje que acabó empapado. Parece ser que su contenido fue cuidadosamente guardado. Se desconoce si habrá sido capaz de resistir a los efectos del agua.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120290"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120291,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Boceto de Julien",
+    "Description": "Un bosquejo en el que se ha utilizado una curiosa combinación de colores.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120291"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120292,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Experiencia del aventurero",
+    "Description": "Una copia de Experiencia del aventurero escrita por Julien. A simple vista, no parece guardar ninguna diferencia con el original.\nAl leerlo, sin embargo, uno tiene una extraña sensación de vacío, como si no hubiera ganado nada de la experiencia...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_104002"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120293,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Imagen que dejó el Seelie de la Sabiduría",
+    "Description": "Una pista que dejó el Seelie de la Sabiduría. Con suerte, esta aventura no será tan poco fructífera como antes...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100721"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120294,
     "RankLevel": 0,
     "ItemType": 2,
@@ -27062,6 +27550,106 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120298,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Réplica de reliquia (I)",
+    "Description": "Un recipiente pintado de púrpura para una réplica de reliquia.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120298"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120299,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Réplica de reliquia (II)",
+    "Description": "Un recipiente pintado de azul para una réplica de reliquia.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120299"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120300,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Réplica de reliquia (III)",
+    "Description": "Un recipiente pintado de rojo para una réplica de reliquia.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120300"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120301,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partitura para coribante: vijñana",
+    "Description": "Una partitura de percusión para el coribante: vijñana.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120301"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120302,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partitura para coribante: samjña",
+    "Description": "Una partitura de percusión para el coribante: samjña.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120303,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partitura para coribante: rupa",
+    "Description": "Una partitura de percusión para el coribante: rupa.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120303"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120304,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partitura para coribante: sankhara",
+    "Description": "Una partitura de percusión para el coribante: sankhara.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120304"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120305,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partitura para coribante: vedana",
+    "Description": "Una partitura de percusión para el coribante: vedana.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120305"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120315,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Caballete de Julien",
+    "Description": "Un caballete que parece haber sido usado, aunque ahora mismo no hay ningún dibujo que dé fe de ello.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120315"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120316,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notas sobre inscripciones perdidas",
+    "Description": "Notas de Sosi. Registran pistas sobre la posible ubicación de los fragmentos dispersos de inscripciones.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120317,
     "RankLevel": 0,
     "ItemType": 2,
@@ -27069,6 +27657,306 @@
     "Description": "Una bella caja que te regaló Haniyyah y que contiene el agar mirífico que tanto les gusta a los Hongos. Los agares están divididos según el sabor para poder alimentar a los Hongos según sus gustos particulares.\nEl agar mirífico es una versión mejorada de su predecesor, el agar floral. Conserva el brillo y la elasticidad que lo caracterizan y le han quitado los componentes que eran dañinos, por lo que es el alimento ideal para los Hongos. Eso sí, hay que tener cuidado al guardarlo en casa para que no se los zampen los niños glotones y no tengan una indigestión.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_118101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120322,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Caja de pociones especiales",
+    "Description": "Una caja que conseguiste de Bahador y que contiene una serie de pociones especiales. Según él, te podrían resultar muy útiles para explorar cierto dominio...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120324,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diario de alguien",
+    "Description": "El diario de alguien.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120325,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Memorias de alguien",
+    "Description": "Las memorias de alguien.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120327,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Localizador",
+    "Description": "Un invento de la Escuela de Tecnología. El localizador mostrará la ubicación general de los participantes que lleven un rastreador encima. Además, emitirá un sonido cuando cada participante complete un objetivo de la competición.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120327"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120345,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Registro de aventuras anónimo",
+    "Description": "Unas breves notas perdidas en el desierto que parecen haber sido dejadas por algún aventurero.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120346,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Libro de obra antiguo",
+    "Description": "Un registro antiguo con los hechos importantes de una obra.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120347,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Libro de obra deteriorado",
+    "Description": "Un libro de obra que vio mejores días.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120348,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Carta de alguien",
+    "Description": "Una carta dejada por a saber quién.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120349,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diario del equipo de investigación de la Academia de Sumeru (III)",
+    "Description": "La tercera parte del diario del equipo de investigación enviado por la Academia de Sumeru.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120350,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diario del equipo de investigación de la Academia de Sumeru (IV)",
+    "Description": "La cuarta parte del diario del equipo de investigación enviado por la Academia de Sumeru.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120351,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Anuncio apenas reconocible",
+    "Description": "Un anuncio difícil de leer.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120352,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diario antiguo",
+    "Description": "Un diario que no es nada nuevo.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120353,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Registro de alguien (II)",
+    "Description": "La segunda parte de un registro dejado por una persona totalmente desconocida.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120357,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diario del equipo de investigación de la Academia de Sumeru (I)",
+    "Description": "Diario del equipo de investigación de la Academia de Sumeru (I)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120358,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diario del equipo de investigación de la Academia de Sumeru (II)",
+    "Description": "Diario del equipo de investigación de la Academia de Sumeru (II)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120359,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Comunicado con órdenes manchado",
+    "Description": "Comunicado con órdenes manchado",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120360,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Registro de alguien (I)",
+    "Description": "Registro de alguien (I)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120361,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Página dañada de unos apuntes perdidos (I)",
+    "Description": "Página dañada de unos apuntes perdidos (I)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120362,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Página dañada de unos apuntes perdidos (II)",
+    "Description": "Página dañada de unos apuntes perdidos (II)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120363,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Transcripción extraña",
+    "Description": "Transcripción extraña",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120364,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Enseñanzas de la Orden de los Escépticos",
+    "Description": "Enseñanzas de la Orden de los Escépticos",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120365,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Anotaciones de un erudito desconocido (I)",
+    "Description": "Anotaciones de un erudito desconocido (I)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120366,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Anotaciones de un erudito desconocido (II)",
+    "Description": "Anotaciones de un erudito desconocido (II)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120367,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Anotaciones de un erudito desconocido (III)",
+    "Description": "Anotaciones de un erudito desconocido (III)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120368,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Anotaciones de un erudito desconocido (IV)",
+    "Description": "Anotaciones de un erudito desconocido (IV)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120369,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notas antiguas de un mercenario (I)",
+    "Description": "Notas antiguas de un mercenario (I)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120370,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notas antiguas de un mercenario (II)",
+    "Description": "Notas antiguas de un mercenario (II)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120371,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notas antiguas de un mercenario (III)",
+    "Description": "Notas antiguas de un mercenario (III)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120372,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notas antiguas de un mercenario (IV)",
+    "Description": "Notas antiguas de un mercenario (IV)",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120373,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Monumento de la jvarena",
+    "Description": "Monumento de la jvarena",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100112"
   },
   {
     "MaterialType": 2,
@@ -27109,6 +27997,16 @@
     "Description": "Un retoño extraído directamente del centro del mundo.\nHabía una vez un árbol gigante que atravesaba el mundo entero, y esta rama era parte de él. Aunque fue arrancada, nunca ha perdido su conexión con el árbol del que procedía. Por eso, mientras el gran árbol blanco que simboliza el centro del mundo siga vivo, esta rama nunca se secará.\n\nLos árboles son el símbolo de la vida. Cuenta la leyenda de cierto lugar que una persona que estaba en el lecho de muerte transmitió su consciencia a las ramas de un gran árbol blanco, pues así ni su vida ni sus sueños llegarían a su fin. Mientras tuvieran sol y lluvia, las ramas seguirían creciendo, brotando, floreciendo y, finalmente, dando frutos.\nAsimismo, los árboles también simbolizan la sabiduría. Según otra leyenda de aquel lugar, un sabio que colgaba bocabajo del árbol adquirió el conocimiento para inscribir runas y controlar las palabras sagradas. Así, caminó por el reino que se extendía bajo las raíces del gran árbol y vislumbró los secretos del cosmos.\nTodo el conocimiento, todos los recuerdos y todas las vivencias del mundo circulan por las raíces del gran árbol, como arroyos que convergen para formar un río que desemboca en el mar y, finalmente, se convierte en agua de lluvia caída de las nubes. Ese es el ciclo de la vida.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120127"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120335,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Semillas de alimentos",
+    "Description": "Unas semillas que te dio el ser elemental Flotihongo Anemo. Si las plantas, podrás cultivar los alimentos que a los Hongos tanto les gusta comer. ¿Sabrán los Hongos cómo cuidar de los cultivos ellos solos?",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100314"
   },
   {
     "MaterialType": 31,
@@ -28586,6 +29484,56 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (93)",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Sumeru.",
+    "TypeDescription": "Objeto de aventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141094,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Girocristal radiante (94)",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Sumeru.",
+    "TypeDescription": "Objeto de aventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141095,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Girocristal radiante (95)",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Sumeru.",
+    "TypeDescription": "Objeto de aventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141096,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Girocristal radiante (96)",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Sumeru.",
+    "TypeDescription": "Objeto de aventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141097,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Girocristal radiante (97)",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Sumeru.",
+    "TypeDescription": "Objeto de aventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141098,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Girocristal radiante (98)",
     "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Sumeru.",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
@@ -30312,6 +31260,16 @@
   },
   {
     "MaterialType": 21,
+    "Id": 220076,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sorush",
+    "Description": "Como pari protectora de la tierra, Sorush aspira a convertirse en la guardiana floral que pacifique el desastre.\nTras establecer una conexión con alguien de su confianza, recorrerá la tierra emponzoñada junto a su Yasnapati.",
+    "TypeDescription": "Artilugio",
+    "Icon": "UI_ItemIcon_220076"
+  },
+  {
+    "MaterialType": 21,
     "Id": 220077,
     "RankLevel": 4,
     "ItemType": 2,
@@ -30329,6 +31287,26 @@
     "Description": "Un instrumento para utilizar durante las actuaciones musicales.\nLa estructura de este tambor, capaz de producir un sonido nítido, es de lo más particular. Cuenta con un diseño refinado y un magistral trabajo de artesanía. Para su construcción, se han elegido materiales de gran calidad y tenido en cuenta la calidad del sonido, su reverberación y la resistencia al paso del tiempo.\nCuenta con las características de los instrumentos tradicionales de Inazuma y de los tambores de otras naciones, y se dice que tocar música con él trae buena fortuna.",
     "TypeDescription": "Artilugio",
     "Icon": "UI_ItemIcon_220051"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220079,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sorush",
+    "Description": "Como una pari nacida en el Piélago Vurukasha, Sorush es reconocida por la jvarena como una valiente guardiana floral.\nTras establecer una conexión con alguien de su confianza, Sorush recorrerá junto a su Yasnapati la tierra bendecida por la jvarena.",
+    "TypeDescription": "Artilugio",
+    "Icon": "UI_ItemIcon_220079"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220080,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Brújula arqueológica",
+    "Description": "Brújula arqueológica utilizada para encontrar réplicas de reliquia. Al ser un dispositivo creado originalmente para detectar elementos, parece que al detectar la ubicación de réplicas de reliquia aún puede verse afectada por los elementos presentes...",
+    "TypeDescription": "Artilugio",
+    "Icon": "UI_ItemIcon_220080"
   },
   {
     "MaterialType": 5,
@@ -30455,7 +31433,7 @@
     "Id": 221035,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Cebo afrutado",
+    "Name": "Receta: cebo afrutado",
     "Description": "Receta paso a paso para hacer un cebo afrutado.",
     "TypeDescription": "Plano para cebo",
     "Icon": "UI_ItemIcon_221035"
@@ -30465,7 +31443,7 @@
     "Id": 221036,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Cebo de sangre",
+    "Name": "Receta: cebo de sangre",
     "Description": "Receta paso a paso para hacer un cebo de sangre.",
     "TypeDescription": "Plano para cebo",
     "Icon": "UI_ItemIcon_221035"
@@ -30475,7 +31453,7 @@
     "Id": 221037,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Cebo de lombriz falsa",
+    "Name": "Receta: cebo de lombriz falsa",
     "Description": "Receta paso a paso para hacer un cebo de lombriz falsa.",
     "TypeDescription": "Plano para cebo",
     "Icon": "UI_ItemIcon_221035"
@@ -30485,7 +31463,7 @@
     "Id": 221038,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Cebo de mosca falsa",
+    "Name": "Receta: cebo de mosca falsa",
     "Description": "Receta paso a paso para hacer un cebo de mosca falsa.",
     "TypeDescription": "Plano para cebo",
     "Icon": "UI_ItemIcon_221035"
@@ -30495,7 +31473,7 @@
     "Id": 221039,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Receta: Cebo maná",
+    "Name": "Receta: cebo maná",
     "Description": "Receta paso a paso para hacer un cebo maná.",
     "TypeDescription": "Plano para cebo",
     "Icon": "UI_ItemIcon_221035"
@@ -31176,7 +32154,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Estudio Feiyun",
-    "Description": "Plano detallado para colocar Estudio Feiyun.\nEn Liyue hay estudios de muchos estilos distintos, pero el lujo solo es un elemento opcional, ya que los estudiosos dan más importancia al ambiente y a la elegancia. Una planta equilibra el nivel de humedad de la habitación, y la mesa y las estanterías emiten una sutil fragancia a madera que combina con el diseño sencillo y el brillo anaranjado de las luces para proporcionar inspiración al escribir.\nSe dice que, hace muchos años, alguien que se alojaba en la Pendiente Feiyun decoró su estudio de esta forma, y el anterior dueño de la Casa de Libros Wanwen adoptó el diseño y lo popularizó. Por eso, este tipo de estudio llamado Feiyun es conocido en toda Liyue.\nTras usarlo, entra en el menú de colocación para verlo.\nLos siguientes acompañantes prefieren este conjunto: Xingchiu, Zhongli, Ninguang, Yun Jin.",
+    "Description": "Plano detallado para colocar Estudio Feiyun.\nEn Liyue hay estudios de muchos estilos distintos, pero el lujo solo es un elemento opcional, ya que los estudiosos dan más importancia al ambiente y a la elegancia. Una planta equilibra el nivel de humedad de la habitación, y la mesa y las estanterías emiten una sutil fragancia a madera que combina con el diseño sencillo y el brillo anaranjado de las luces para proporcionar inspiración al escribir.\nSe dice que, hace muchos años, alguien que se alojaba en la Pendiente Feiyun decoró su estudio de esta forma, y el anterior dueño de la Casa de Libros Wanwen adoptó el diseño y lo popularizó. Por eso, este tipo de estudio llamado Feiyun es conocido en toda Liyue.\nTras usarlo, entra en el menú de colocación para verlo.\nLos siguientes acompañantes prefieren este conjunto: Xingchiu, Zhongli, Ninguang, Yun Jin y Baizhu.",
     "TypeDescription": "Plano de conjunto de decoración",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -31206,7 +32184,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Leña y ahumados",
-    "Description": "Plano detallado para colocar Leña y ahumados.\nUna cocina completamente equipada y con un armario lleno de condimentos preparados cuidadosamente.\nLos chefs que aspiran a la excelencia compran los ingredientes más frescos del día en el mercado, y los artistas de los fogones prestan incluso más atención a la leña usada en su fuego. Una vez, la joven cocinera del Restaurante Wanmin compartió sus conocimientos con sus colegas del gremio: para preparar los platos tradicionales de la Aldea Chingtsé, se debe hacer el fuego con trozos secos de bambú y controlar constantemente las llamas. Si se consigue madera de los arbustos que rodean a los ganchos de lobo, incluso se puede agregar una nota de sabor típica de Mondstadt.\nLos distintos tipos de leña producen efectos muy diferentes y la mayoría de los cocineros nunca logran dominar esta técnica, así que puede decirse que el Restaurante Wanmin tiene el monopolio sobre ella.\nTras usarlo, entra en el menú de colocación para verlo.\nLos siguientes acompañantes prefieren este conjunto: Tartaglia, Mona, Xiao, Xiangling, Razor, Yaoyao y Mika.",
+    "Description": "Plano detallado para colocar Leña y ahumados.\nUna cocina completamente equipada y con un armario lleno de condimentos preparados cuidadosamente.\nLos chefs que aspiran a la excelencia compran los ingredientes más frescos del día en el mercado, y los artistas de los fogones prestan incluso más atención a la leña usada en su fuego. Una vez, la joven cocinera del Restaurante Wanmin compartió sus conocimientos con sus colegas del gremio: para preparar los platos tradicionales de la Aldea Chingtsé, se debe hacer el fuego con trozos secos de bambú y controlar constantemente las llamas. Si se consigue madera de los arbustos que rodean a los ganchos de lobo, incluso se puede agregar una nota de sabor típica de Mondstadt.\nLos distintos tipos de leña producen efectos muy diferentes y la mayoría de los cocineros nunca logran dominar esta técnica, así que puede decirse que el Restaurante Wanmin tiene el monopolio sobre ella.\nTras usarlo, entra en el menú de colocación para verlo.\nLos siguientes acompañantes prefieren este conjunto: Tartaglia, Mona, Xiao, Xiangling, Razor, Yaoyao, Mika y Baizhu.",
     "TypeDescription": "Plano de conjunto de decoración",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -31506,7 +32484,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Danza de las sombras",
-    "Description": "Un mayestático y hermoso teatro. En este diseño no solo se incluye el gran escenario, sino también una refinada fuente, todo ello adornado con las más hermosas de las flores replicadas por la creación dimensional. Este teatro es un fiel reflejo de la majestuosidad y belleza del Teatro Zubayr.\nSe rumorea que algunas actuaciones es mejor verlas de noche, pues la disposición de las lámparas del teatro no deja indiferente al público, y permite que todos los asistentes disfruten de una vista clara de todos los bailarines desde cualquier ángulo.\nLos siguientes acompañantes prefieren este conjunto: Nilou.",
+    "Description": "Un mayestático y hermoso teatro. En este diseño no solo se incluye el gran escenario, sino también una refinada fuente, todo ello adornado con las más hermosas de las flores replicadas por la creación dimensional. Este teatro es un fiel reflejo de la majestuosidad y belleza del Teatro Zubayr.\nSe rumorea que algunas actuaciones es mejor verlas de noche, pues la disposición de las lámparas del teatro no deja indiferente al público, y permite que todos los asistentes disfruten de una vista clara de todos los bailarines desde cualquier ángulo.\nLos siguientes acompañantes prefieren este conjunto: Nilou y Kaveh.",
     "TypeDescription": "Plano de conjunto de decoración",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -31546,7 +32524,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Mente en calma",
-    "Description": "Un refinado y sosegado jardín que imita la estética de los pabellones del Jardín Razan y del Jardín Dhyai. Este espacio ignora la disparidad estética entre los distintos estilos arquitectónicos y se centra en crear un ambiente de relajación.\nCapullos de flores jóvenes brotan en completa serenidad, y las lámparas iluminan la superficie del agua de la fuente con sus destellos dorados... A la caída de la noche, pasear por este sinuoso jardín será capaz de acallar todas las vanas preocupaciones que tan tozudamente se aferran a la mente durante el día...\nLos siguientes acompañantes prefieren este conjunto: Nahida.",
+    "Description": "Un refinado y sosegado jardín que imita la estética de los pabellones del Jardín Razan y del Jardín Dhyai. Este espacio ignora la disparidad estética entre los distintos estilos arquitectónicos y se centra en crear un ambiente de relajación.\nCapullos de flores jóvenes brotan en completa serenidad, y las lámparas iluminan la superficie del agua de la fuente con sus destellos dorados... A la caída de la noche, pasear por este sinuoso jardín será capaz de acallar todas las vanas preocupaciones que tan tozudamente se aferran a la mente durante el día...\nLos siguientes acompañantes prefieren este conjunto: Nahida y Kaveh.",
     "TypeDescription": "Plano de conjunto de decoración",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -36906,7 +37884,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Imperturbabilidad del jardín acristalado",
-    "Description": "Plano detallado para fabricar “Imperturbabilidad del jardín abovedado”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "Description": "Plano detallado para fabricar “Imperturbabilidad del jardín acristalado”.\nTras usarlo, entra en el menú de fabricación para verlo.",
     "TypeDescription": "Plano de decoración",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -37727,6 +38705,306 @@
     "ItemType": 2,
     "Name": "Escaleras rocagrís granuladas",
     "Description": "Plano detallado para fabricar unas Escaleras rocagrís granuladas.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381324,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Mesa de madera de tamarisco compactada",
+    "Description": "Plano detallado para fabricar una Mesa de madera de tamarisco compactada.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383343,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vasija pigmentada: Relente nocturno",
+    "Description": "Plano detallado para fabricar una Vasija pigmentada: Relente nocturno.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383344,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Plato de cerámica multicolor: Aroma a carne fresca",
+    "Description": "Plano detallado para fabricar un Plato de cerámica multicolor: Aroma a carne fresca.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383345,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Plato de cerámica multicolor: Sensación frutal",
+    "Description": "Plano detallado para fabricar un Plato de cerámica multicolor: Sensación frutal.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382240,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Acrecencia de bienestar",
+    "Description": "Plano detallado para fabricar “Acrecencia de bienestar”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383346,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Frescura alcoholizada",
+    "Description": "Plano detallado para fabricar “Frescura alcoholizada”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383347,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Entre la polvareda",
+    "Description": "Plano detallado para fabricar “Entre la polvareda”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382241,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vasija pigmentada: Hojas de datilera",
+    "Description": "Plano detallado para fabricar una Vasija pigmentada: Hojas de datilera.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382242,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vasija pigmentada: Arena escarlata",
+    "Description": "Plano detallado para fabricar una Vasija pigmentada: Arena escarlata.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382243,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Entusiasmo puro",
+    "Description": "Plano detallado para fabricar “Entusiasmo puro”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390737,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Arena fina de estaciones cálidas",
+    "Description": "Plano detallado para fabricar “Arena fina de estaciones cálidas”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390324,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Estante expositor de madera kármica",
+    "Description": "Plano detallado para fabricar un Estante expositor de madera kármica.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393377,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Frescor de la sombra",
+    "Description": "Plano detallado para fabricar “Frescor de la sombra”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393159,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Palé para transporte terrestre del Caravasar Ribat",
+    "Description": "Plano detallado para fabricar un Palé para transporte terrestre del Caravasar Ribat.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393160,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Jarrón simple: Brebajes infinitos",
+    "Description": "Plano detallado para fabricar “Brebajes infinitos”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393161,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Jarrón simple: Embriaguez",
+    "Description": "Plano detallado para fabricar un Jarrón simple: Embriaguez.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393378,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Heroicidad de mercenario",
+    "Description": "Plano detallado para fabricar “Heroicidad de mercenario”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393379,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Convección abrasadora",
+    "Description": "Plano detallado para fabricar “Convección abrasadora”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393380,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Cajas de madera de tamarisco ligera",
+    "Description": "Plano detallado para fabricar unas Cajas de madera de tamarisco ligera.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393162,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tonel compacto de madera radiante",
+    "Description": "Plano detallado para fabricar un Tonel compacto de madera radiante.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393163,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Caja de madera radiante",
+    "Description": "Plano detallado para fabricar una Caja de madera radiante.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390325,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Puesto de comida para exteriores de madera de bodhi",
+    "Description": "Plano detallado para fabricar un Puesto de comida para exteriores de madera de bodhi.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393381,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bandera de Vahumana",
+    "Description": "Plano detallado para fabricar una Bandera de Vahumana.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393382,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bandera de Spantamad",
+    "Description": "Plano detallado para fabricar una Bandera de Spantamad.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393383,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bandera de Haravatat",
+    "Description": "Plano detallado para fabricar una Bandera de Haravatat.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393384,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bandera de Amurta",
+    "Description": "Plano detallado para fabricar una Bandera de Amurta.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393385,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bandera de Rtawahist",
+    "Description": "Plano detallado para fabricar una Bandera de Rtawahist.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393386,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bandera de Kshahrewar",
+    "Description": "Plano detallado para fabricar una Bandera de Kshahrewar.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380428,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Resplandor de dulzura",
+    "Description": "Plano detallado para fabricar “Resplandor de dulzura”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380429,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Luz en el camino",
+    "Description": "Plano detallado para fabricar “Luz en el camino”.\nTras usarlo, entra en el menú de fabricación para verlo.",
     "TypeDescription": "Plano de decoración",
     "Icon": "UI_ItemIcon_Home_Common"
   }

@@ -1641,7 +1641,7 @@
     "WeaponType": 11,
     "RankLevel": 3,
     "Name": "鉄影段平",
-    "Description": "この剣はかの光の獅子エレンドリンの佩剣の模造品。これを握って、伝説の英雄の力を感じよう！注意：妄想はほどほどに。",
+    "Description": "この剣は、かの「光の獅子」エレンドリンが腰に下げていた剣の模造品だ。これを握って、伝説の英雄の力を感じよう！注意：空想ほどほどに！",
     "Icon": "UI_EquipIcon_Claymore_Glaive",
     "AwakenIcon": "UI_EquipIcon_Claymore_Glaive_Awaken",
     "GrowCurves": {
@@ -5316,18 +5316,47 @@
   },
   {
     "Id": 14505,
-    "PromoteId": 11101,
+    "PromoteId": 14505,
     "WeaponType": 10,
     "RankLevel": 5,
-    "Name": "土定の玉",
-    "Description": "山の際と海の浜で居場所を見つけたことを記念するために作られた古代の宝玉。今でも古の力を放ち、国家の平和を守っている。",
-    "Icon": "UI_EquipIcon_Catalyst_Apprentice",
-    "AwakenIcon": "UI_EquipIcon_Catalyst_Apprentice_Awaken",
+    "Name": "碧落の瓏",
+    "Description": "緑色の玉でできた礼器。空と水の輝きを放っている。",
+    "Icon": "UI_EquipIcon_Catalyst_Morax",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_Morax_Awaken",
     "GrowCurves": {
       "FIGHT_PROP_BASE_ATTACK": {
-        "Type": 1101,
-        "Value": 47.537
+        "Type": 1301,
+        "Value": 45.9364
+      },
+      "FIGHT_PROP_HP_PERCENT": {
+        "Type": 2301,
+        "Value": 0.108
       }
+    },
+    "Affix": {
+      "Name": "定土玉圭",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "元素爆発を発動、またはシールドを生成した後の3秒間、「定土玉圭」効果を獲得する。2.5秒毎に元素エネルギーを<color=#99FFFFFF>4.5</color>回復し、さらに装備者のHP上限に基づき、1000ごとに自身元素タイプの元素ダメージ+<color=#99FFFFFF>0.3%</color>、最大+<color=#99FFFFFF>12%</color>まで。装備したキャラクターが待機している場合にも、「定土玉圭」効果を発動できる。"
+        },
+        {
+          "Level": 1,
+          "Description": "元素爆発を発動、またはシールドを生成した後の3秒間、「定土玉圭」効果を獲得する。2.5秒毎に元素エネルギーを<color=#99FFFFFF>5</color>回復し、さらに装備者のHP上限に基づき、1000ごとに自身元素タイプの元素ダメージ+<color=#99FFFFFF>0.5%</color>、最大+<color=#99FFFFFF>20%</color>まで。装備したキャラクターが待機している場合にも、「定土玉圭」効果を発動できる。"
+        },
+        {
+          "Level": 2,
+          "Description": "元素爆発を発動、またはシールドを生成した後の3秒間、「定土玉圭」効果を獲得する。2.5秒毎に元素エネルギーを<color=#99FFFFFF>5.5</color>回復し、さらに装備者のHP上限に基づき、1000ごとに自身元素タイプの元素ダメージ+<color=#99FFFFFF>0.7%</color>、最大+<color=#99FFFFFF>28%</color>まで。装備したキャラクターが待機している場合にも、「定土玉圭」効果を発動できる。"
+        },
+        {
+          "Level": 3,
+          "Description": "元素爆発を発動、またはシールドを生成した後の3秒間、「定土玉圭」効果を獲得する。2.5秒毎に元素エネルギーを<color=#99FFFFFF>6</color>回復し、さらに装備者のHP上限に基づき、1000ごとに自身元素タイプの元素ダメージ+<color=#99FFFFFF>0.9%</color>、最大+<color=#99FFFFFF>36%</color>まで。装備したキャラクターが待機している場合にも、「定土玉圭」効果を発動できる。"
+        },
+        {
+          "Level": 4,
+          "Description": "元素爆発を発動、またはシールドを生成した後の3秒間、「定土玉圭」効果を獲得する。2.5秒毎に元素エネルギーを<color=#99FFFFFF>6.5</color>回復し、さらに装備者のHP上限に基づき、1000ごとに自身元素タイプの元素ダメージ+<color=#99FFFFFF>1.1%</color>、最大+<color=#99FFFFFF>44%</color>まで。装備したキャラクターが待機している場合にも、「定土玉圭」効果を発動できる。"
+        }
+      ]
     }
   },
   {

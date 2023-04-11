@@ -65,8 +65,8 @@
     "RankLevel": 4,
     "ItemType": 1,
     "Name": "Kunci Story",
-    "Description": "Kunci yang digunakan untuk membuka Story Quest.\nDiperoleh setelah menyelesaikan sejumlah Misi Harian.",
-    "TypeDescription": "Item pembuka Story Quest",
+    "Description": "Kunci yang digunakan untuk membuka Quest Story.\nDiperoleh setelah menyelesaikan sejumlah Misi Harian.",
+    "TypeDescription": "Item pembuka Quest Story",
     "Icon": "UI_ItemIcon_107"
   },
   {
@@ -958,6 +958,26 @@
     "Description": "Material aktivasi untuk konstelasi Mika",
     "TypeDescription": "Aktivasi Konstelasi",
     "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1181,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kaveh's Stella Fortuna",
+    "Description": "Material aktivasi untuk konstelasi Kaveh",
+    "TypeDescription": "Aktivasi Konstelasi",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1182,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Baizhu's Stella Fortuna",
+    "Description": "Material aktivasi untuk konstelasi Baizhu",
+    "TypeDescription": "Aktivasi Konstelasi",
+    "Icon": "UI_ItemIcon_1102"
   },
   {
     "MaterialType": 20,
@@ -2193,6 +2213,26 @@
     "Description": "Kamu hanya dapat menemukan cangkang ini jauh di dalam padang pasir tempat Quicksand Eel berkembang biak. Cangkang yang mengeras ini dimaksudkan untuk melindungi tubuh larvanya sampai akhirnya mereka bisa menyesuaikan diri dengan kondisi padang pasir yang kering.",
     "TypeDescription": "Produk Khas Sumeru",
     "Icon": "UI_ItemIcon_101222"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101223,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Mourning Flower",
+    "Description": "Bunga merah yang dapat mekar di medan perang kuno, dan tumbuh di pedalaman padang pasir. Bunganya yang terkulai terlihat seperti sedang berkabung bagi para pahlawan di masa lalu.",
+    "TypeDescription": "Produk Khas Sumeru",
+    "Icon": "UI_ItemIcon_101223"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101224,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Trishiraite",
+    "Description": "Sebuah piroksen khusus yang memancarkan warna aneh dan dapat ditemukan di kedalaman pegunungan terpencil, sepertinya terbentuk akibat dari pembekuan energi elemental.",
+    "TypeDescription": "Produk Khas Sumeru",
+    "Icon": "UI_ItemIcon_101224"
   },
   {
     "MaterialType": 4,
@@ -14830,7 +14870,7 @@
     "Id": 104171,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Prithiva Topaz Silver",
+    "Name": "Prithiva Topaz Sliver",
     "Description": "Material Ascension Karakter.",
     "TypeDescription": "Material Ascension Karakter",
     "Icon": "UI_ItemIcon_104171"
@@ -15464,6 +15504,16 @@
     "Description": "Kunci yang dapat menghancurkan segel Shrine of Depths yang tersebar di Sumeru.\nShrine of Depths menyegel diri mereka sendiri saat peradaban yang membangun mereka hilang. Kunci yang hilang di kedalaman Domain dapat menghancurkan segelnya. Atau mungkin, untuk sesaat, kunci ini membantu segelnya melupakan segalanya yang telah hilang dari mereka.",
     "TypeDescription": "Item Petualangan",
     "Icon": "UI_ItemIcon_107018"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 107022,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Plume of Purifying Light",
+    "Description": "Peninggalan Khvarena. Mengandung ingatan masa lampau.",
+    "TypeDescription": "Konsumsi",
+    "Icon": "UI_ItemIcon_107022"
   },
   {
     "MaterialType": 1,
@@ -18011,7 +18061,7 @@
     "Id": 108232,
     "RankLevel": 3,
     "ItemType": 2,
-    "Name": "Minty Meat Roll",
+    "Name": "Minty Meat Rolls",
     "Description": "Hidangan dengan rasa asam dan manis. Daging yang telah dimarinasi, dipotong tipis dan digulung dengan daun Mint, kemudian dioleskan saus berbahan Jueyun Chili. Rasa Mint yang unik adalah sentuhan akhir yang sangat cocok untuk hidangan dingin seperti ini.",
     "TypeDescription": "Makanan",
     "Icon": "UI_ItemIcon_108232"
@@ -20987,6 +21037,94 @@
     "Icon": "UI_ItemIcon_108502"
   },
   {
+    "MaterialType": 1,
+    "EffectDescription": "Menghidupkan kembali Karakter dan memulihkan 250 HP.",
+    "Id": 108503,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Suspicious Fatteh",
+    "Description": "Hidangan dari zaman Sumeru kuno. Kalau kamu cukup sabar untuk menyingkirkan Glabrous Bean yang masih setengah mentah dan serpihan Fatteh yang gosongnya, mungkin saus yogurt di dalamnya bisa dimakan sebagai hidangan penutup ....",
+    "TypeDescription": "Makanan",
+    "Icon": "UI_ItemIcon_108504"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Menghidupkan kembali Karakter dan memulihkan 400 HP.",
+    "Id": 108504,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fatteh",
+    "Description": "Hidangan dari zaman Sumeru kuno. Roti yang baru selesai dipanggang akan dihancurkan dan dicampur dengan Glabrous Bean rebus serta saus yogurt. Hidangan ini pun sudah siap dihidangkan. Resep ini sudah diwariskan turun temurun sehingga memiliki banyak variasinya, tetapi semuanya memiliki kesamaan, yaitu sederhana dan lezat.",
+    "TypeDescription": "Makanan",
+    "Icon": "UI_ItemIcon_108504"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Menghidupkan kembali Karakter dan memulihkan 550 HP.",
+    "Id": 108505,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Delicious Fatteh",
+    "Description": "Hidangan dari zaman Sumeru kuno. Dengan saus yogurt lembut yang menyelimuti Glabrous Bean, teksturnya terasa seperti mimpi indah di dalam mulutmu. Tapi setelah terbangun dari mimpi indah ini, kamu masih bisa merasakan aroma harum roti panggang di sela-sela gigimu.",
+    "TypeDescription": "Makanan",
+    "Icon": "UI_ItemIcon_108504"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Meningkatkan 15% bonus pemulihan seluruh anggota party selama 300 detik. Dalam Mode Co-Op, efek ini hanya berlaku untuk Karaktermu sendiri.",
+    "Id": 108506,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Suspicious Jade Fruit Soup",
+    "Description": "Hidangan penutup mulut tradisional dari Liyue. Mencampur semua bahan masakannya secara asal ke dalam satu panci akan menghasilkan sesuatu yang rasanya mirip dengan Slime Concentrate ... Em, meskipun teksturnya akan memengaruhi selera makanmu, tapi bahan-bahannya bisa dibilang bagus untuk kesehatan?",
+    "TypeDescription": "Makanan",
+    "Icon": "UI_ItemIcon_108507"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Meningkatkan 17% bonus pemulihan seluruh anggota party selama 300 detik. Dalam Mode Co-Op, efek ini hanya berlaku untuk Karaktermu sendiri.",
+    "Id": 108507,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Jade Fruit Soup",
+    "Description": "Hidangan penutup tradisional dari Liyue. Didihkan air terlebih dulu, lalu masukkan berbagai jenis bahan dan rebus untuk beberapa saat, kemudian masukkan gula batu. Terus panaskan dengan api kecil hingga menjadi bening dan kental. Waktu merebus yang cukup lama ini menghasilkan sup yang terasa lembut, bahan-bahannya terasa meleleh begitu masuk ke mulut. Cocok dinikmati segala usia.",
+    "TypeDescription": "Makanan",
+    "Icon": "UI_ItemIcon_108507"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Meningkatkan 20% bonus pemulihan seluruh anggota party selama 300 detik. Dalam Mode Co-Op, efek ini hanya berlaku untuk Karaktermu sendiri.",
+    "Id": 108508,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Delicious Jade Fruit Soup",
+    "Description": "Hidangan penutup mulut tradisional dari Liyue. Potongan buah-buahan yang besar di dalam kuah ini bagaikan sebuah kapal yang mengarungi arus sungai, dan kesegaran dari hidangan ini menyeruak tiba-tiba bagaikan embusan angin sejuk.",
+    "TypeDescription": "Makanan",
+    "Icon": "UI_ItemIcon_108507"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Menghidupkan kembali Karakter lalu memulihkan 15% HP dan 550 HP Karakter yang dipilih.",
+    "Id": 108509,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "The Endeavor",
+    "Description": "Masakan andalan Kaveh. Lapisan biskuitnya yang berwarna keemasan disusun menyerupai Palace of Alcazarzaray, dan hidangan ini dibentuk seperti menara yang muncul dari kolam saus yogurt berwarna putih. Meskipun pembuat hidangan ini sudah menghabiskan sangat banyak waktu dan tenaga untuk membuatnya, tapi sepertinya dia lupa kalau semua biskuitnya harus dihancurkan dulu agar bisa dimakan.",
+    "TypeDescription": "Makanan",
+    "Icon": "UI_ItemIcon_108509"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Meningkatkan 25% bonus pemulihan seluruh anggota party selama 300 detik. Dalam Mode Co-Op, efek ini hanya berlaku untuk Karaktermu sendiri.",
+    "Id": 108510,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Heatquelling Soup",
+    "Description": "Masakan andalan Baizhu. \"Sebenarnya ini bukan obat, tapi hanya sesuatu yang bisa menghilangkan rasa kering saja\". Bersamaan dengan suara khawatir Baizhu yang terdengar di telingamu, semangkuk sup buah yang berkilauan hadir di hadapanmu. \"Harusnya makanan ini tidak pakai gula, tapi dia khawatir kamu tidak terbiasa dengan rasa pahitnya, jadi dia tambahkan gula,\" ucap Changsheng.",
+    "TypeDescription": "Makanan",
+    "Icon": "UI_ItemIcon_108510"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
@@ -22397,6 +22535,26 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109525,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Resep: Fatteh",
+    "Description": "Resep yang berisi langkah-langkah untuk membuat Fatteh.",
+    "TypeDescription": "Resep",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109526,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Resep: Jade Fruit Soup",
+    "Description": "Resep yang berisi langkah-langkah untuk membuat Jade Fruit Soup.",
+    "TypeDescription": "Resep",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -23522,6 +23680,36 @@
   },
   {
     "MaterialType": 14,
+    "Id": 112077,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "A Flower Yet to Bloom",
+    "Description": "Bunga liar kesayangan Hilichurl Rogue, yang dipetik sebelum mekar.\nDia berkelana di alam liar tanpa membawa barang apa pun, kecuali bunga yang belum mekar ini.",
+    "TypeDescription": "Material Penguatan Senjata dan Karakter",
+    "Icon": "UI_ItemIcon_112077"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112078,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Treasured Flower",
+    "Description": "Bunga liar kesayangan Hilichurl Rogue. Tidak memiliki kegunaan khusus apa pun.\nDalam banyak peradaban, bunga dapat digunakan sebagai suatu pemberian atau hadiah yang mengekspresikan ketulusan seseorang.",
+    "TypeDescription": "Material Penguatan Senjata dan Karakter",
+    "Icon": "UI_ItemIcon_112078"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112079,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Wanderer's Blooming Flower",
+    "Description": "Bunga liar kesayangan Hilichurl Rogue yang sudah mekar. Tidak memiliki kegunaan khusus apa pun.\nOrang asing dalam keabadian tidak meminta imbalan, namun pada akhirnya semua yang dilakukannya akan membuahkan hasil ....",
+    "TypeDescription": "Material Penguatan Senjata dan Karakter",
+    "Icon": "UI_ItemIcon_112079"
+  },
+  {
+    "MaterialType": 14,
     "Id": 113001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -23959,6 +24147,46 @@
     "Description": "Selubung sayap pucat Wenut, setipis benang sari bunga yang mekar.\nKonon katanya pada masa lalu sebelum waktu dimulai, mereka pernah berjalan melalui tanah basah di bawah padang rumput dan pohon-pohon raksasa layaknya burung yang terbang bebas di udara dan ikan yang berenang bebas di air. Teori umumnya adalah, mereka meniru bunga untuk menarik mangsa yang tersesat karena badai pasir. Akan tetapi, ada juga yang bilang kalau cara benang sari mereka ditampilkan mirip pada zaman ketika tumbuhan ada di mana-mana dan bunga masih bermekaran pada zaman-zaman pasir emas jutaan tahun yang lalu.",
     "TypeDescription": "Material Penguatan Karakter",
     "Icon": "UI_ItemIcon_113044"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113045,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Evergloom Ring",
+    "Description": "Senjata mistis yang diperoleh setelah mengalahkan Utusan Bertangan Empat dari gelombang kegelapan.\nCincin ini berbentuk seperti sebuah lorong, dan dapat menghasilkan berbagai efek misterius yang berhubungan dengan lingkaran. Cincin ini sepertinya sebuah alat yang dapat digunakan untuk mengarahkan aliran semesta.",
+    "TypeDescription": "Material Penguatan Karakter",
+    "Icon": "UI_ItemIcon_113045"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113046,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Worldspan Fern",
+    "Description": "Semak yang diambil dari dalam oasis di tubuh Apep.\nPada mulanya, para naga berkuasa atas dunia ini. Worldspan Fern adalah yang pertama dipetik dari segala tetumbuhan yang hidup di taman yang ada di istana Apep.\nZaman berlalu dan Worldspan Fern tumbuh menjadi pohon, rambat, belukar, dan dedaunan yang menaungi dunia dengan sentuhannya. Tetapi Apep tidak melupakan bentuk awalnya yang menyerupai semak, mekar menyeruak ke arah langit dengan suara lembut yang nyaris tidak tertangkap telinga.",
+    "TypeDescription": "Material Penguatan Karakter",
+    "Icon": "UI_ItemIcon_113046"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113047,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Primordial Greenbloom",
+    "Description": "Bunga purbakala yang diambil dalam oasis di tubuh Apep.\nMasa berganti masa, bunga ini tumbuh berkembang, harum, penuh warna, serta mendapatkan gelar sebanyak bintang di langit malam.\nNamun bunga ini tanpa nama ketika ia pertama membuka kuncupnya. Bagi para naga purba, bahkan bunga yang tak bernama pun tetaplah semerbak. Nomenklatur hanyalah alat makhluk fana untuk mencoba memahami dunia. Hidup ini tidak dibatasi istilah, dan pertumbuhan serta perubahan akan selamanya terjadi.",
+    "TypeDescription": "Material Penguatan Karakter",
+    "Icon": "UI_ItemIcon_113047"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113048,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Everamber",
+    "Description": "Kristal getah yang diambil dalam oasis di tubuh Apep. Di dalamnya ada serangga kuno yang sudah punah, awet dan terlindungi dari gerusan kala.\nSuatu kebetulan yang luar biasa ketika ada bentuk kehidupan kecil terjebak dalam getah pohon dan dapat terus lestari.\nSetelah bencana dari langit itu turun, pohon, rambat, akar dan segala jenis tetumbuhan mengering sampai menjadi debu. Banyak makhluk hidup mengalami kepunahan.\nTetapi di dalam getah yang membeku sunyi untuk selama-lamanya, seekor serangga tanpa nama bertahan di oasis dunia lain ini hingga terbawa aliran waktu sampai ke masa depan yang tidak pernah terjangkau oleh kaumnya.",
+    "TypeDescription": "Material Penguatan Karakter",
+    "Icon": "UI_ItemIcon_113048"
   },
   {
     "MaterialType": 14,
@@ -24652,6 +24880,26 @@
   },
   {
     "MaterialType": 12,
+    "Id": 117012,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Domain Reliquary: Tier II",
+    "Description": "Tempat yang digunakan untuk menyimpan Artefak, semoga orang yang menemukannya diberkati.\n\nDalam setiap Reliquary, bisa didapatkan salah satu dari set Artefak berikut:\n· \"Nymph's Dream\"\n· \"Vourukasha's Glow\"\n· \"Berserker\"\n· \"Instructor\"\n· \"The Exile\"",
+    "TypeDescription": "Reliquary",
+    "Icon": "UI_ItemIcon_117002"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 117013,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Domain Reliquary: Tier I",
+    "Description": "Tempat yang digunakan untuk menyimpan Artefak, semoga keajaiban terjadi kepada orang yang menemukannya.\n\nDalam setiap Reliquary, bisa didapatkan salah satu dari set Artefak berikut:\n· \"Nymph's Dream\"\n· \"Vourukasha's Glow\"",
+    "TypeDescription": "Reliquary",
+    "Icon": "UI_ItemIcon_117003"
+  },
+  {
+    "MaterialType": 12,
     "Id": 118001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -24985,7 +25233,7 @@
     "Id": 120028,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Sebuah Ode 'tuk Cahaya Jiwa",
+    "Name": "Lagu Pujian untuk Khvarena",
     "Description": "Konon benda ini adalah lagu yang disebarkan oleh grup religius dari gurun pasir yang telah hilang. Seseorang telah membuatnya menjadi bentuk tulisan.",
     "TypeDescription": "Item Quest",
     "Icon": "UI_ItemIcon_100229"
@@ -26492,6 +26740,46 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120223,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Harra Fruit Besar",
+    "Description": "Tumbuh di hutan hujan lembap yang panas, buah ini memiliki aroma pedas yang istimewa. Saat dipadukan dengan buah lain, dapat memberikan rasa yang lebih mendalam dengan beragam lapisan.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_101216"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120224,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Zaytun Peach Berair",
+    "Description": "Buah dari semak hutan. Dagingnya keras dan manis. Dikatakan memiliki efek penenang pada pikiran, sangat cocok untuk Layla.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_101218"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120225,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Apel Segar",
+    "Description": "Renyah saat digigit, rasanya manis dan sedikit asam, selain cocok untuk dimakan langsung atau dibuat menjadi cider, juga bisa dibakar untuk memberikan rasa yang unik.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120234,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kayu Bakar Kering",
+    "Description": "Kayu bakar yang dikumpulkan dengan mudah yang memiliki ukuran dan tingkat kekeringan yang sesuai untuk membuat api unggun. Menggunakan kayu ini untuk memasak makanan akan memberikan aroma alami arang ke dalam makanan. Semoga hal ini bisa membuat Layla sedikit lebih bersemangat.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120234"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120235,
     "RankLevel": 0,
     "ItemType": 2,
@@ -26822,6 +27110,206 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120273,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Lagu Agung Khvarena",
+    "Description": "Lagu Agung Khvarena mengandung kekuatan yang sangat besar, tapi hanya Pari yang bisa mendapatkan pengakuan dari Khvarena dan mengeluarkan potensi sesungguhnya melalui sebuah ritual spesial ....",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120273"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120274,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Skema Gambar yang Dijepit di Catatan",
+    "Description": "Gambar sketsa yang diambil dari catatan penyelidikan misterius. Sepertinya berisi deskripsi terperinci tentang reruntuhan uji coba bawah tanah dan lokasi Lagu Agung Khvarena ....",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120274"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120275,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Penyelidikan Rene",
+    "Description": "Konon catatan ini berasal dari peneliti hebat yang bertekad untuk menjadi \"lebih dari manusia\". Catatannya berisi perincian tentang pengalamannya menjelajahi reruntuhan dan pengetahuan yang ia dapatkan ....",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120275"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120276,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Peninggalan Seseorang",
+    "Description": "Sepertinya ini adalah catatan yang ditinggalkan oleh anggota Orde Pembenaran. Catatan ini berisi tentang informasi Drum Kory yang hilang dan cara penggunaannya dalam ritual.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120277,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gulungan Perkamen Kuno",
+    "Description": "Dokumen kuno yang diwariskan dari generasi Orde Pembenaran sebelumnya. Dituliskan dalam bahasa misterius sehingga kontennya sulit dipahami.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120278,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Putik Udumbara",
+    "Description": "Sebuah putik yang diambil dari Udumbara yang mekar. Sepertinya benda ini cukup berarti bagi para Pari ....",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120278"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120279,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pecahan Prasasti Khvarena",
+    "Description": "Pecahan prasasti yang hilang. Tidak diketahui kenapa dia bisa terpecah dan tersebar.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120279"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120280,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pecahan Prasasti Khvarena",
+    "Description": "Pecahan prasasti yang hilang. Cahayanya begitu samar, dan hanya keturunan burung dewa saja yang bisa membacanya.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120280"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120281,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pecahan Prasasti Khvarena",
+    "Description": "Pecahan prasasti yang hilang. Kembalikan semua pecahan ke posisinya semula, dan tulisan yang semula terukir di monumen akan kembali terlihat.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120281"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120282,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pecahan Prasasti Khvarena",
+    "Description": "Pecahan prasasti yang hilang. Ada ikatan yang kuat antara pecahan ini dan kaum Pari.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120282"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120283,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Korybantes: Vedana",
+    "Description": "Sebuah drum yang misterius. Drum ini ditandai dengan simbol Cryo.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120283"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120284,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Korybantes: Rupa",
+    "Description": "Salah satu dari Drum Kory yang hilang. Drum ini ditandai dengan simbol Dendro.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120284"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120285,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Korybantes: Samjna",
+    "Description": "Salah satu dari Drum Kory yang hilang. Drum ini ditandai dengan simbol Hydro.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120285"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120286,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Korybantes: Sankhara",
+    "Description": "Salah satu dari Drum Kory yang hilang. Drum ini ditandai dengan simbol Electro.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120286"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120287,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Korybantes: Vijnana",
+    "Description": "Salah satu dari Drum Kory yang hilang. Drum ini ditandai dengan simbol Pyro.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120287"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120288,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Balok Energi Misterius",
+    "Description": "Balok energi yang diekstrak dari Azosite melalui kondensasi energi elemental murni. Sepertinya bisa digunakan sebagai sumber energi pada perangkat penyedia energi berskala besar.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120288"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120290,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Koper Julien",
+    "Description": "Koper yang tenggelam di dalam air yang dikemas dengan ketulusan hati. Tidak jelas apakah barang di dalamnya sudah rusak karena tergenang dalam air.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120290"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120291,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Sketsa Julien",
+    "Description": "Sebuah sketsa yang menggunakan paduan warna yang aneh.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120291"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120292,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "\"Adventurer's Experience\"",
+    "Description": "Salinan Adventurer's Experience buatan Julien. Sekilas tidak ada bedanya dengan yang aslinya.\nSetelah dibaca sampai habis, pikiranmu tetap terasa kosong. Hanya menghabiskan waktu, tapi tidak mendapatkan apa-apa.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_104002"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120293,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gambar yang Ditinggalkan Wisdom Seelie",
+    "Description": "Petunjuk yang ditinggalkan oleh Wisdom Seelie. Semoga penjelajahan kali ini tidak berakhir sia-sia ....",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100721"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120294,
     "RankLevel": 0,
     "ItemType": 2,
@@ -26862,6 +27350,106 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120298,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Wadah Replika Relik (I)",
+    "Description": "Sebuah wadah yang berisikan replika relik. Warnanya sengaja dicat ungu.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120298"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120299,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Wadah Replika Relik (II)",
+    "Description": "Sebuah wadah yang berisikan replika relik. Warnanya sengaja dicat biru.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120299"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120300,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Wadah Replika Relik (III)",
+    "Description": "Sebuah wadah yang berisikan replika relik. Warnanya sengaja dicat merah.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120300"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120301,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partitur Korybantes: Vijnana",
+    "Description": "Partitur drum yang sesuai dengan Korybantes: Vijnana.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120301"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120302,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partitur Korybantes: Samjna",
+    "Description": "Partitur drum yang sesuai dengan Korybantes: Samjna.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120303,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partitur Korybantes: Rupa",
+    "Description": "Partitur drum yang sesuai dengan Korybantes: Rupa.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120303"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120304,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partitur Korybantes: Sankhara",
+    "Description": "Partitur drum yang sesuai dengan Korybantes: Sankhara.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120304"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120305,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partitur Korybantes: Vedana",
+    "Description": "Partitur drum yang sesuai dengan Korybantes: Vedana.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120305"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120315,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papan Gambar Julien",
+    "Description": "Terdapat bekas pemakaian sebelumnya, tetapi masih belum ada satu garis sekarang.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120315"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120316,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pencarian Prasasti yang Hilang",
+    "Description": "Catatan yang diperoleh dari Sosi. Sepertinya ada petunjuk mengenai pecahan prasasti yang hilang di dalamnya.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120317,
     "RankLevel": 0,
     "ItemType": 2,
@@ -26869,6 +27457,306 @@
     "Description": "Hadiah istimewa yang dikirimkan Haniyyah. Di dalamnya berisi Marvelous Jelly yang sangat disukai Fungus, ditambah lagi dengan berbagai rasa Jelly yang bisa diberikan kepada Fungus sesuai dengan selera mereka masing-masing.\nMarvelous Jelly adalah Floral Jelly yang ditingkatkan, yang lebih baik dari Floral Jelly, namun tetap mempertahankan transparansi seperti kristalnya dan teksturnya yang kenyal, dan tidak mengandung bahan berbahaya, sehingga menjadikannya bahan yang ideal untuk makanan Fungus. Jadi, harus diperhatikan agar anak-anak tidak memakannya ya pada saat disimpan di rumah ....",
     "TypeDescription": "Item Quest",
     "Icon": "UI_ItemIcon_118101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120322,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kotak Berisi Ramuan Khusus",
+    "Description": "Sebuah kotak yang diambil dari Bahador. Di dalamnya terdapat beberapa ramuan khusus. Menurutnya, ramu-ramuan ini bisa berguna untuk menjelajahi Domain tertentu ....",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120324,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Jurnal Seseorang",
+    "Description": "Jurnal Seseorang",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120325,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Memo Seseorang",
+    "Description": "Memo Seseorang",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120327,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Penanda Lokasi",
+    "Description": "Sebuah alat penemuan Kshahrewar. Saat dibawa oleh para kontestan, Penanda Lokasi ini akan menampilkan perkiraan posisi mereka. Alat ini juga akan berbunyi saat ada peserta yang berhasil menyelesaikan misinya.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_120327"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120345,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Petualang Tanpa Nama",
+    "Description": "Tulisan yang tertinggal di tengah padang pasir, sepertinya dulu dimiliki oleh seseorang petualang.",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120346,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Teknis Kuno",
+    "Description": "Catatan Teknis Kuno",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120347,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Teknis yang Rusak",
+    "Description": "Catatan Teknis yang Rusak",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120348,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Surat yang Ditinggalkan Seseorang",
+    "Description": "Surat yang Ditinggalkan Seseorang",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120349,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Jurnal Tim Investigasi Akademiya: III",
+    "Description": "Jurnal Tim Investigasi Akademiya: III",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120350,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Jurnal Tim Investigasi Akademiya: IV",
+    "Description": "Jurnal Tim Investigasi Akademiya: IV",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120351,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pemberitahuan yang Sulit Dibaca",
+    "Description": "Pemberitahuan yang Sulit Dibaca",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120352,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Buku Harian Tua",
+    "Description": "Buku Harian Tua",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120353,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Orang Tak Dikenal: II",
+    "Description": "Catatan Orang Tak Dikenal: II",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120357,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Jurnal Tim Investigasi Akademiya: I",
+    "Description": "Jurnal Tim Investigasi Akademiya: I",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120358,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Jurnal Tim Investigasi Akademiya: II",
+    "Description": "Jurnal Tim Investigasi Akademiya: II",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120359,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Surat Perintah yang Usang",
+    "Description": "Surat Perintah yang Usang",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120360,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Orang Tak Dikenal: I",
+    "Description": "Catatan Orang Tak Dikenal: I",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120361,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Halaman dari Catatan yang Hilang: I",
+    "Description": "Halaman dari Catatan yang Hilang: I",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120362,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Halaman dari Catatan yang Hilang: II",
+    "Description": "Halaman dari Catatan yang Hilang: II",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120363,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Salinan yang Aneh",
+    "Description": "Salinan yang Aneh",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120364,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ajaran Orde Pembenaran",
+    "Description": "Ajaran Orde Pembenaran",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120365,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Seorang Pelajar Tanpa Nama: I",
+    "Description": "Catatan Seorang Pelajar Tanpa Nama: I",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120366,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Seorang Pelajar Tanpa Nama: II",
+    "Description": "Catatan Seorang Pelajar Tanpa Nama: II",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120367,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Seorang Pelajar Tanpa Nama: III",
+    "Description": "Catatan Seorang Pelajar Tanpa Nama: III",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120368,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Seorang Pelajar Tanpa Nama: IV",
+    "Description": "Catatan Seorang Pelajar Tanpa Nama: IV",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120369,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Kuno Milik Tentara Bayaran: I",
+    "Description": "Catatan Kuno Milik Tentara Bayaran: I",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120370,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Kuno Milik Tentara Bayaran: II",
+    "Description": "Catatan Kuno Milik Tentara Bayaran: II",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120371,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Kuno Milik Tentara Bayaran: III",
+    "Description": "Catatan Kuno Milik Tentara Bayaran: III",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120372,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Catatan Kuno Milik Tentara Bayaran: IV",
+    "Description": "Catatan Kuno Milik Tentara Bayaran: IV",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120373,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tulisan Prasasti Khvarena",
+    "Description": "Tulisan Prasasti Khvarena",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100112"
   },
   {
     "MaterialType": 2,
@@ -26909,6 +27797,16 @@
     "Description": "Cabang yang diambil dari tengah dunia.\nDahulu kala ada sebuah pohon raksasa di dunia ini, dan ranting ini adalah bagian darinya. Walaupun sudah diambil dari pohon tersebut, hubungan di antara mereka masih kuat seperti dulu. Karena itu, selama pohon putih raksasa yang melambangkan pusat dunia tidak mati, ia tidak akan pernah layu.\n\n\"Pohon\" adalah lambang kehidupan. Dalam sebuah cerita dari daerah yang nun jauh di sana, ada seseorang yang telah memercayakan kesadarannya pada dahan pohon putih tersebut sebelum dia meninggal. Dengan cara itu, baik kehidupan maupun harapannya tidak akan hilang, karena cabang-cabang akan tumbuh dan bertunas di tempat yang ada sinar matahari dan hujan, dan suatu hari akan mekar dan menghasilkan buah.\n\"Pohon\" juga adalah lambang kebijaksanaan. Dalam sebuah legenda, seorang Sage yang tergantung terbalik di pohon telah memperoleh pengetahuan tentang cara menulis sajak dan mengendalikan kata-kata suci, dan dengan demikian kerajaan yang didirikan di sepanjang akar pohon, akhirnya mendapatkan sekilas penglihatan tentang rahasia iblis di langit.\nSemua pengetahuan, ingatan, dan pengalaman mengalir melalui pohon raksasa ini, seperti sungai mengalir ke sungai, dan akhirnya bermuara di laut, lalu laut berubah menjadi awan, dan awan menghujani tanah — seperti kehidupan itu sendiri.",
     "TypeDescription": "Item Quest",
     "Icon": "UI_ItemIcon_120127"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120335,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Benih Makanan",
+    "Description": "Sebuah benih yang diberikan padamu oleh makhluk elemen yang disebut Floating Anemo Fungus. Tanamkan benih ini di sebuah ladang untuk menghasilkan makanan yang disukai para Fungi. Tapi apakah di masa depan akan ada Fungi yang bisa membajak tanah?",
+    "TypeDescription": "Item Quest",
+    "Icon": "UI_ItemIcon_100314"
   },
   {
     "MaterialType": 31,
@@ -28386,6 +29284,56 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 93",
+    "Description": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Sumeru.",
+    "TypeDescription": "Item Petualangan",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141094,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Radiant Spincrystal 94",
+    "Description": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Sumeru.",
+    "TypeDescription": "Item Petualangan",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141095,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Radiant Spincrystal 95",
+    "Description": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Sumeru.",
+    "TypeDescription": "Item Petualangan",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141096,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Radiant Spincrystal 96",
+    "Description": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Sumeru.",
+    "TypeDescription": "Item Petualangan",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141097,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Radiant Spincrystal 97",
+    "Description": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Sumeru.",
+    "TypeDescription": "Item Petualangan",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141098,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Radiant Spincrystal 98",
     "Description": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Sumeru.",
     "TypeDescription": "Item Petualangan",
     "Icon": "UI_ItemIcon_BGM_Common"
@@ -30112,6 +31060,16 @@
   },
   {
     "MaterialType": 21,
+    "Id": 220076,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sorush",
+    "Description": "Salah satu kaum Pari, penjaga bumi. Sorush bercita-cita menjadi Bloomguard yang meredam malapetaka.\nSetelah membangun hubungan dengan orang yang dia percaya, Sorush akan menjelajahi tanah yang tercemar bersama Yasnapati ....",
+    "TypeDescription": "Peralatan",
+    "Icon": "UI_ItemIcon_220076"
+  },
+  {
+    "MaterialType": 21,
     "Id": 220077,
     "RankLevel": 4,
     "ItemType": 2,
@@ -30129,6 +31087,26 @@
     "Description": "Alat musik yang dapat digunakan dalam pertunjukan.\nDrum dengan suara yang jernih dan desain yang unik. Eksteriornya sangat indah dan menampilkan hasil jerih payah pengerjaan yang rumit. Dibuat dengan material berkualitas tinggi yang senantiasa mempertimbangkan faktor kualitas suara selama pertunjukan, intonasi, dan potensi aus dalam jangka panjang.\nDikatakan bahwa drum kecil ini memadukan keunikan alat musik tradisional Inazuma dengan beberapa keunikan drum dari negara lain. Saat memainkan lagu-lagu tertentu, drum ini bahkan bisa membawa keberuntungan bagi orang-orang ....",
     "TypeDescription": "Peralatan",
     "Icon": "UI_ItemIcon_220051"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220079,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sorush",
+    "Description": "Sorush adalah Pari yang lahir di Oasis Vourukasha dan merupakan Bloomguard yang telah diakui oleh Khvarena.\nSetelah membangun hubungan dengan orang yang dia percaya, Sorush akan menjelajahi tanah yang tercemar bersama Yasnapati ....",
+    "TypeDescription": "Peralatan",
+    "Icon": "UI_ItemIcon_220079"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220080,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Search Compass",
+    "Description": "\"Search Compass\" yang bisa digunakan untuk mencari replika relik. Karena alat ini adalah modifikasi dari perangkat untuk mendeteksi energi elemental, maka elemen yang ada di suatu tempat mungkin dapat mengganggu hasil bacaan alat ini saat mencari replika ....",
+    "TypeDescription": "Peralatan",
+    "Icon": "UI_ItemIcon_220080"
   },
   {
     "MaterialType": 5,
@@ -30976,7 +31954,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Ruang Belajar Feiyun",
-    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Ruang Belajar Feiyun\".\nRuang belajar Liyue mempunyai banyak cara dan gaya, tapi kemewahan adalah pilihan, karena yang terpelajar lebih memilih \"semangat\" dan \"keanggunan\". Tanaman dalam pot akan menyeimbangkan kelembapan di dalam ruangan, dan meja serta rak memancarkan keharuman kayu yang dipadukan dengan tata letak sederhana dan cahaya matahari terbenam dari lampu untuk menginspirasi berbagai ide dan meningkatkan gaya tulisan.\nDikatakan bahwa bertahun-tahun lalu, seorang tamu di Feiyun Slope membuat ruang belajar seperti itu, lalu desain ini diadopsi oleh bos Wanwen Bookhouse sebelumnya. Sehingga, akhirnya dikenal sebagai Ruang Belajar Feiyun dan dikenali di seluruh Liyue.\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Penempatan.\nRekan yang menyukai Set Perabotan ini: Xingqiu, Zhongli, Ningguang, Yun Jin",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Ruang Belajar Feiyun\".\nRuang belajar Liyue mempunyai banyak cara dan gaya, tapi kemewahan adalah pilihan, karena yang terpelajar lebih memilih \"semangat\" dan \"keanggunan\". Tanaman dalam pot akan menyeimbangkan kelembapan di dalam ruangan, dan meja serta rak memancarkan keharuman kayu yang dipadukan dengan tata letak sederhana dan cahaya matahari terbenam dari lampu untuk menginspirasi berbagai ide dan meningkatkan gaya tulisan.\nDikatakan bahwa bertahun-tahun lalu, seorang tamu di Feiyun Slope membuat ruang belajar seperti itu, lalu desain ini diadopsi oleh bos Wanwen Bookhouse sebelumnya. Sehingga, akhirnya dikenal sebagai Ruang Belajar Feiyun dan dikenali di seluruh Liyue.\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Penempatan.\nRekan yang menyukai Set Perabotan ini: Xingqiu, Zhongli, Ningguang, Yun Jin, Baizhu",
     "TypeDescription": "Blueprint Set Perabotan",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -31006,7 +31984,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Dapur Rumah Kecil",
-    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Dapur Rumah Kecil\".\nDapur lengkap dengan lemari berisi bumbu yang disiapkan dengan cermat.\nKoki yang hebat akan membeli bahan-bahan segar dari pasar setiap hari, dan seorang kuliner sejati bahkan akan memperhatikan kayu bakar yang digunakan dalam kompor mereka. Kepala koki muda di Wanmin Restaurant pernah berkata bahwa untuk membuat hidangan tradisional Desa Qingce, pertama-tama orang harus memasukkan bambu kering ke dalam kompor dan mengontrol apinya dengan hati-hati. Jika seseorang dapat mengolah semak Wolfhook menjadi kayu bakar yang tipis, maka dia akan dapat menambahkan sedikit sentuhan Mondstadt di dalamnya.\nJenis kayu bakar yang berbeda menghasilkan efek yang sangat berbeda, dan sebagian besar koki tidak akan pernah benar-benar menguasainya. Karena itu, Wanmin Restaurant telah memonopoli teknik khusus ini.\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Penempatan.\nRekan yang menyukai Set Perabotan ini: Tartaglia, Mona, Xiao, Xiangling, Razor, Yaoyao, Mika",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Dapur Rumah Kecil\".\nDapur lengkap dengan lemari berisi bumbu yang disiapkan dengan cermat.\nKoki yang hebat akan membeli bahan-bahan segar dari pasar setiap hari, dan seorang kuliner sejati bahkan akan memperhatikan kayu bakar yang digunakan dalam kompor mereka. Kepala koki muda di Wanmin Restaurant pernah berkata bahwa untuk membuat hidangan tradisional Desa Qingce, pertama-tama orang harus memasukkan bambu kering ke dalam kompor dan mengontrol apinya dengan hati-hati. Jika seseorang dapat mengolah semak Wolfhook menjadi kayu bakar yang tipis, maka dia akan dapat menambahkan sedikit sentuhan Mondstadt di dalamnya.\nJenis kayu bakar yang berbeda menghasilkan efek yang sangat berbeda, dan sebagian besar koki tidak akan pernah benar-benar menguasainya. Karena itu, Wanmin Restaurant telah memonopoli teknik khusus ini.\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Penempatan.\nRekan yang menyukai Set Perabotan ini: Tartaglia, Mona, Xiao, Xiangling, Razor, Yaoyao, Mika, Baizhu",
     "TypeDescription": "Blueprint Set Perabotan",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -31306,7 +32284,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Tarian Memutar yang Tak Lekang",
-    "Description": "Teater yang megah dan indah. Dalam banyak hal — panggung megah, kabut air pancur yang menyembur, dan berbagai bunga berharga telah kembali diciptakan oleh Sub-Space Creation — tempat ini meniru suasana meriah yang dibawakan oleh Teater Zubayr.\nMereka mengatakan bahwa beberapa pertunjukan paling indah disaksikan saat malam hari. Penempatan lampu teater tampaknya juga merupakan hasil dari studi yang cermat yang bertujuan untuk memaksimalkan kejelasan di mana setiap penonton dapat melihat para penari, tidak peduli dari sudut mana mereka duduk atau berdiri, sedangkan pencahayaan dan pancaran lampu-lampu tersebut juga disesuaikan dengan tepat untuk memaksimalkan efek pantulan cahayanya.\nRekan yang menyukai set perabot ini: Nilou",
+    "Description": "Teater yang megah dan indah. Dalam banyak hal — panggung megah, kabut air pancur yang menyembur, dan berbagai bunga berharga telah kembali diciptakan oleh Sub-Space Creation — tempat ini meniru suasana meriah yang dibawakan oleh Teater Zubayr.\nMereka mengatakan bahwa beberapa pertunjukan paling indah disaksikan saat malam hari. Penempatan lampu teater tampaknya juga merupakan hasil dari studi yang cermat yang bertujuan untuk memaksimalkan kejelasan di mana setiap penonton dapat melihat para penari, tidak peduli dari sudut mana mereka duduk atau berdiri, sedangkan pencahayaan dan pancaran lampu-lampu tersebut juga disesuaikan dengan tepat untuk memaksimalkan efek pantulan cahayanya.\nRekan yang menyukai set perabot ini: Nilou, Kaveh",
     "TypeDescription": "Blueprint Set Perabotan",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -31346,7 +32324,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Di Tengah Aroma dan Ketenangan",
-    "Description": "Taman yang elegan dan tenang yang memanfaatkan gazebo yang diambil dari Razan Garden dan Pardis Dhyai. Tempat ini tidak terlalu peduli dengan kesatuan mutlak dari gaya arsitektur yang berbeda, tetapi lebih fokus untuk menciptakan suasana tenang secara keseluruhan.\nBunga yang indah tertidur di sini dengan tenang, dan lampu yang membuat air pancur seolah bersinar... Saat malam hari mendekat, berjalan-jalan melalui taman ini dapat menyebabkan pikiran bising di kepalamu menghilang seperti awan tipis yang tertiup angin. Mungkin kamu juga bahkan bisa mendapatkan inspirasi yang biasanya sulit kamu dapatkan ....\nRekan yang menyukai set perabot ini: Nahida",
+    "Description": "Taman yang elegan dan tenang yang memanfaatkan gazebo yang diambil dari Razan Garden dan Pardis Dhyai. Tempat ini tidak terlalu peduli dengan kesatuan mutlak dari gaya arsitektur yang berbeda, tetapi lebih fokus untuk menciptakan suasana tenang secara keseluruhan.\nBunga yang indah tertidur di sini dengan tenang, dan lampu yang membuat air pancur seolah bersinar... Saat malam hari mendekat, berjalan-jalan melalui taman ini dapat menyebabkan pikiran bising di kepalamu menghilang seperti awan tipis yang tertiup angin. Mungkin kamu juga bahkan bisa mendapatkan inspirasi yang biasanya sulit kamu dapatkan ....\nRekan yang menyukai set perabot ini: Nahida, Kaveh",
     "TypeDescription": "Blueprint Set Perabotan",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -37305,7 +38283,7 @@
     "Id": 393155,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "\"Berhasil Nih Tampaknya!\"",
+    "Name": "Berhasil Nih Tampaknya!",
     "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Berhasil Nih Tampaknya!\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
     "TypeDescription": "Blueprint Perabotan",
     "Icon": "UI_ItemIcon_Home_Common"
@@ -37445,8 +38423,8 @@
     "Id": 390735,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Aroma teh di Taman Terang",
-    "Description": "Diagram yang berisi langkah-langkah untuk membuat \"Aroma teh di Taman Terang\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "Name": "Aroma Teh di Taman Terang",
+    "Description": "Diagram yang berisi langkah-langkah untuk membuat \"Aroma Teh di Taman Terang\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
     "TypeDescription": "Blueprint Perabotan",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -37527,6 +38505,306 @@
     "ItemType": 2,
     "Name": "Tangga Batu Putih yang Bertekstur",
     "Description": "Diagram yang berisi langkah-langkah untuk membuat \"Tangga Batu Putih yang Bertekstur\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381324,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Meja Athelwood Ringkas",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Meja Athelwood Ringkas\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383343,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vas Berwarna: Gelombang Malam",
+    "Description": "Diagram yang berisi langkah-langkah untuk membuat \"Vas Berwarna: Gelombang Malam\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383344,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Piring Keramik Berwarna: Daging Gurih",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Piring Keramik Berwarna: Daging Gurih\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383345,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Piring Keramik Berwarna: Buah Manis",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Piring Keramik Berwarna: Buah Manis\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382240,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kombinasi Dingin dan Hangat",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Kombinasi Dingin dan Hangat\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383346,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Dalam Kesegaran Anggur",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Dalam Kesegaran Anggur\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383347,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Di Antara Debu",
+    "Description": "Blueprint yang berisi langkah-langkah terperinci untuk membuat \"Di Antara Debu\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382241,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vas Berwarna: Ajilenakh",
+    "Description": "Diagram yang berisi langkah-langkah untuk membuat \"Vas Berwarna: Ajilenakh\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382242,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vas Berwarna: Pasir Merah",
+    "Description": "Diagram yang berisi langkah-langkah untuk membuat \"Vas Berwarna: Pasir Merah\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382243,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bara Murni",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Bara Murni\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390737,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Pasir Halus di Cuaca Cerah",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Pasir Halus di Cuaca Cerah\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390324,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kios Pedagang Kayu Karmaphala",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Kios Pedagang Kayu Karmaphala\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393377,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bayangan Berkelopak",
+    "Description": "Blueprint yang berisi langkah-langkah terperinci untuk membuat \"Bayangan Berkelopak\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393159,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Palet Transportasi Darat Caravan Ribat Tipe III",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Palet Transportasi Darat Caravan Ribat Tipe III\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393160,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Vas Polos: Ratusan Tegukan",
+    "Description": "Diagram yang berisi langkah-langkah untuk membuat \"Vas Polos: Ratusan Tegukan\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393161,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Vas Polos: Mabuk Sepuluh Keliling",
+    "Description": "Diagram yang berisi langkah-langkah untuk membuat \"Vas Polos: Mabuk Sepuluh Keliling\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393378,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Semangat Brigade",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Semangat Brigade\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393379,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Aroma Bara Matahari",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Aroma Bara Matahari\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393380,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Kotak Ringan dari Athelwood",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Kotak Ringan dari Athelwood\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393162,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tong Anggur Pengencang Diri dari Brightwood",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Tong Anggur Pengencang Diri dari Brightwood\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393163,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Platform Kotak Kain dari Brightwood",
+    "Description": "Diagram yang berisi langkah-langkah untuk membuat \"Platform Kotak Kain dari Brightwood\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390325,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Stan Makanan Luar Ruangan dari Adhigama Wood",
+    "Description": "Diagram yang berisi langkah-langkah untuk membuat \"Stan Makanan Luar Ruangan dari Adhigama Wood\".\nSetelah digunakan, diagram ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393381,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bendera Vahumana",
+    "Description": "Blueprint yang berisi langkah-langkah terperinci untuk membuat \"Bendera Vahumana\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393382,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bendera Spantamad",
+    "Description": "Blueprint yang berisi langkah-langkah terperinci untuk membuat \"Bendera Spantamad\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393383,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bendera Haravatat",
+    "Description": "Blueprint yang berisi langkah-langkah terperinci untuk membuat \"Bendera Haravatat\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393384,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bendera Amurta",
+    "Description": "Blueprint yang berisi langkah-langkah terperinci untuk membuat \"Bendera Amurta\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393385,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bendera Rtawahist",
+    "Description": "Blueprint yang berisi langkah-langkah terperinci untuk membuat \"Bendera Rtawahist\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393386,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bendera Kshahrewar",
+    "Description": "Blueprint yang berisi langkah-langkah terperinci untuk membuat \"Bendera Kshahrewar\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380428,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kilauan Manis",
+    "Description": "Diagram yang berisi langkah-langkah untuk membuat \"Kilauan Manis\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
+    "TypeDescription": "Blueprint Perabotan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380429,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cahaya yang Konstan",
+    "Description": "Blueprint yang berisi langkah-langkah untuk membuat \"Cahaya yang Konstan\".\nSetelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan.",
     "TypeDescription": "Blueprint Perabotan",
     "Icon": "UI_ItemIcon_Home_Common"
   }

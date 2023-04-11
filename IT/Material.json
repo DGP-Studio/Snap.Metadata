@@ -941,6 +941,26 @@
   },
   {
     "MaterialType": 20,
+    "Id": 1181,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Stella Fortuna di Kaveh",
+    "Description": "Materiale per l'attivazione della costellazione di Kaveh",
+    "TypeDescription": "Attiva costellazione",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1182,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna di Baizhu",
+    "Description": "Materiale per l'attivazione della costellazione di Baizhu",
+    "TypeDescription": "Attiva costellazione",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
     "Id": 1176,
     "RankLevel": 4,
     "ItemType": 2,
@@ -1127,7 +1147,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "Bacca uncinata",
-    "Description": "Una bacca dotata di spine che spesso si attaccano al pelo di un lupo. Osservandola, puoi quasi sentire le grida echeggianti dei lupo nei boschi.",
+    "Description": "Una bacca spinosa che spesso si impiglia nel pelo dei lupi. Osservandola, puoi quasi sentire le grida echeggianti dei lupi nei boschi.",
     "TypeDescription": "Specialità di Mondstadt",
     "Icon": "UI_ItemIcon_100021"
   },
@@ -2103,6 +2123,26 @@
     "Description": "È possibile trovare gusci come questo solo nelle zone più profonde del deserto, dove si riproducono le anguille delle sabbie mobili. L'involucro indurito serve a proteggere i corpi larvali di queste anguille, e a permettere loro di abituarsi alle aride condizioni del deserto.",
     "TypeDescription": "Specialità di Sumeru",
     "Icon": "UI_ItemIcon_101222"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101223,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Fiore del lutto",
+    "Description": "Fiori vermigli che fioriscono sui campi di battaglia o addirittura nelle profondità del deserto. Sono protesi verso il basso, come a portare il lutto per gli eroi caduti del passato.",
+    "TypeDescription": "Specialità di Sumeru",
+    "Icon": "UI_ItemIcon_101223"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101224,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Trishiraite",
+    "Description": "Una pietra splendente che si trova nelle profondità delle montagne desolate, composta di energia elementale solidificata.",
+    "TypeDescription": "Specialità di Sumeru",
+    "Icon": "UI_ItemIcon_101224"
   },
   {
     "MaterialType": 4,
@@ -5175,7 +5215,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "Sacchetto di Mora grande",
-    "Description": "Monete fornite dal Principino. Il senso di stabilità trasmesso dal loro peso rende anche difficile separarsene...\nIl valore di ognuna di queste monete d'oro è immenso, ma possono essere cambiate con tagli più piccoli alla Banca del Nord.",
+    "Description": "Monete fornite dal Principe. Il senso di stabilità trasmesso dal loro peso rende anche difficile separarsene...\nIl valore di ognuna di queste monete d'oro è immenso, ma possono essere cambiate con tagli più piccoli alla Banca del Nord.",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_100309"
   },
@@ -8534,7 +8574,7 @@
     "Id": 100866,
     "RankLevel": 0,
     "ItemType": 2,
-    "Name": "Spada dell'oni violetta",
+    "Name": "Spada dell'oni violetto",
     "Description": "La spada preferita di Yanagiha Arashi, un membro ormai espulso della Scuola Iwakura.\nÈ una delle rimanenti riproduzioni di una spada famosa, che è stata riforgiata dopo essere stata rotta. Quest'arma e quella di Okazaki Toraemon formano una coppia.",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_100855"
@@ -14491,7 +14531,7 @@
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "Gemma d'agata Agnidus",
-    "Description": "Materiale d'ascensione dei personaggi.\n\"Viaggia per un desiderio; combatti per diventare forte...\n...Bruciando tra i tizzoni per un sogno.\nSe la volontà permane, allora avrai ottenuto la verità\".",
+    "Description": "Materiale d'ascensione dei personaggi.\n\"Viaggia per un desiderio; combatti per diventare forte...\n...Bruciando tra i tizzoni per un sogno.\nSe la volontà permane, egli otterrà la verità di ██\".",
     "TypeDescription": "Materiale d'ascensione personaggi",
     "Icon": "UI_ItemIcon_104114"
   },
@@ -15334,6 +15374,16 @@
     "Description": "Una chiave che può spezzare il sigillo di uno degli antichi Santuari delle Profondità sparsi per Sumeru.\nQuesti Santuari delle Profondità si sigillarono quando la civiltà che li aveva realizzati scomparve. Le chiavi che si trovano nei luoghi più disparati del regno sono in grado di aprire i sigilli. O forse, solo per un momento, queste chiavi aiutano a far dimenticare ai sigilli tutto ciò che hanno perso.",
     "TypeDescription": "Oggetto dell'avventura",
     "Icon": "UI_ItemIcon_107018"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 107022,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Piuma di luce purificante",
+    "Description": "Frammento lasciato da Khvarena. Contiene ricordi passati.",
+    "TypeDescription": "Consumabile",
+    "Icon": "UI_ItemIcon_107022"
   },
   {
     "MaterialType": 1,
@@ -20857,6 +20907,94 @@
     "Icon": "UI_ItemIcon_108502"
   },
   {
+    "MaterialType": 1,
+    "EffectDescription": "Rianima un personaggio e ripristina 250 PS.",
+    "Id": 108503,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fatteh sospetto",
+    "Description": "Un piatto dell'antica Sumeru. Avendo la pazienza di rimuovere i Fagioli glabri semicrudi e i piccoli pezzetti di pane bruciacchiato, la salsa allo yogurt che rimane può grossomodo essere considerata un dolce...",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108504"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Rianima un personaggio e ripristina 400 PS.",
+    "Id": 108504,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fatteh",
+    "Description": "Un'antica specialità di Sumeru. Il pane cotto al forno viene sbriciolato e mescolato con fagioli glabri lessati e salsa allo yogurt. La ricetta è stata tramandata per lungo tempo e ne esistono diverse versioni, ma tutte hanno due cose in comune: la semplicità e il gusto.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108504"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Rianima un personaggio e ripristina 550 PS.",
+    "Id": 108505,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fatteh delizioso",
+    "Description": "Un piatto dell'antica Sumeru. I fagioli glabri sono ricoperti dalla setosa morbidezza della salsa allo yogurt, la cui scioglievolezza inebria il palato; non appena si riesce a recuperare la lucidità dei sensi, potresti persino sentire tra i denti l'avvolgente fragranza del pane azzimo.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108504"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta di un 15% il bonus di guarigione di tutti i membri del gruppo per 300{NON_BREAK_SPACE}s. In modalità cooperativa, si applica solo ai tuoi personaggi.",
+    "Id": 108506,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zuppa ai frutti di giada sospetta",
+    "Description": "Un dolce tradizionale di Liyue. Buttare gli ingredienti tutti assieme in padella darà vita a qualcosa dal sapore simile al Concentrato di Melmoso... Anche se la consistenza può influire sul gradimento di questo piatto, gli ingredienti dovrebbero comunque essere salutari...",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108507"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta di un 17% il bonus di guarigione di tutti i membri del gruppo per 300{NON_BREAK_SPACE}s. In modalità cooperativa, si applica solo ai tuoi personaggi.",
+    "Id": 108507,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zuppa ai frutti di giada",
+    "Description": "Un dolce tradizionale di Liyue. Dopo aver portato l'acqua a ebollizione, si immergono vari ingredienti da far sobbollire a fuoco lento. Successivamente, si aggiungono cristalli di zucchero e, sempre a fuoco lento, li si lascia cuocere fino a ottenere un composto denso e chiaro. La lunga cottura crea una consistenza soffice che si scioglie con un leggero sorso ed è adatta a grandi e piccini.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108507"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta di un 20% il bonus di guarigione di tutti i membri del gruppo per 300{NON_BREAK_SPACE}s. In modalità cooperativa, si applica solo ai tuoi personaggi.",
+    "Id": 108508,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zuppa ai frutti di giada deliziosa",
+    "Description": "Un dolce tradizionale di Liyue. Il grosso pezzo di frutta immerso nella zuppa somiglia a una barca solitaria alla deriva trasportata dalla corrente di un fiume. Il gusto rinfrescante di questo piatto colpisce come una brezza improvvisa.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108507"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Rianima un personaggio e ripristina un 15% dei PS max, quindi ripristina 550 PS aggiuntivi.",
+    "Id": 108509,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Zuppa della risolutezza",
+    "Description": "La specialità di Kaveh. La crosta dorata dei biscotti è impiattata in modo da sembrare il Palazzo di Alcazarzaray e il piatto s'innalza come una torre da una pallida zuppa di salsa allo yogurt. Anche se l'ideatore del piatto ha messo tutto sé stesso nella creazione, sembra che si sia perso il fatto che i biscotti vadano per forza rotti quando li si mangia.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108509"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta di un 25% il bonus di guarigione di tutti i membri del gruppo per 300{NON_BREAK_SPACE}s. In modalità cooperativa, si applica solo ai tuoi personaggi.",
+    "Id": 108510,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zuppa rinfrescante",
+    "Description": "La specialità di Baizhu. \"Questa non è proprio medicina, è semplicemente qualcosa che può alleviare la secchezza\". Mentre la voce apprensiva di Baizhu riecheggia nelle tue orecchie, una sfavillante zuppa di frutta incontra i tuoi occhi. \"Questo piatto è solitamente senza zucchero, ma lui era preoccupato che non ti piacesse il gusto amaro, quindi ne ha aggiunto un po'\", ha aggiunto Changsheng.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108510"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
@@ -22267,6 +22405,26 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109525,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Ricetta: Fatteh",
+    "Description": "Una ricetta passo dopo passo per preparare del Fatteh.",
+    "TypeDescription": "Ricetta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109526,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ricetta: zuppa ai frutti di giada",
+    "Description": "Una ricetta passo dopo passo per preparare una zuppa ai frutti di giada.",
+    "TypeDescription": "Ricetta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -23392,6 +23550,36 @@
   },
   {
     "MaterialType": 14,
+    "Id": 112077,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Un fiore ancora in boccio",
+    "Description": "Un fiore selvatico raccolto da un Hilichurl reietto prima che potesse sbocciare.\nLa creatura vaga per i boschi portando con sé solo questo fiore.",
+    "TypeDescription": "Materiale di potenziamento armi e personaggi",
+    "Icon": "UI_ItemIcon_112077"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112078,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Fiore adorato",
+    "Description": "Un fiore selvatico raccolto da un Hilichurl reietto e privo di qualità speciali.\nIn diverse culture, i fiori vengono regalati per esprimere i propri sentimenti.",
+    "TypeDescription": "Materiale di potenziamento armi e personaggi",
+    "Icon": "UI_ItemIcon_112078"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112079,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Fiore sbocciato del vagabondo",
+    "Description": "Un fiore selvatico sbocciato raccolto da un Hilichurl reietto e privo di qualità speciali.\nL'eterno forestiero non chiede ricompense, ma ambisce soltanto a vedere il frutto delle proprie azioni...",
+    "TypeDescription": "Materiale di potenziamento armi e personaggi",
+    "Icon": "UI_ItemIcon_112079"
+  },
+  {
+    "MaterialType": 14,
     "Id": 113001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -23829,6 +24017,46 @@
     "Description": "Le pallide elitre nascoste nella coda di un Unut sono sottili come gli stami di un fiore che sboccia.\nSi dice che in passato, ancor prima dell'inizio del tempo, viaggiassero attraverso la terra umida dei campi e delle foreste, similmente agli uccelli che solcano i cieli e ai pesci che attraversano le acque. È opinione diffusa che imitino i fiori per attirare le prede che si sono perse nelle tempeste di sabbia. Tuttavia, c'è anche una teoria per cui la loro imitazione di un fiore sbocciato sia stata ispirata dalle splendide fioriture d'innumerevoli epoche fa, che da tempo hanno preso la via dei venti del deserto.",
     "TypeDescription": "Materiale per aumento livello dei personaggi",
     "Icon": "UI_ItemIcon_113044"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113045,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Anello verdeterno",
+    "Description": "Un'arma mistica che si ottiene sconfiggendo l'Emissario delle oscure novelle dalle quattro braccia.\nGli anelli sono a forma di cunicoli, ed è per questo che le formazioni arcane atte a innescare un insieme di effetti misteriosi hanno spesso una composizione circolare. Questi anelli sono forse portali in grado di controllare il flusso dell'universo.",
+    "TypeDescription": "Materiale per aumento livello dei personaggi",
+    "Icon": "UI_ItemIcon_113045"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113046,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Felce del paradiso",
+    "Description": "Una felce originaria dell'Oasi all'interno di Apep.\nAll'alba dei tempi il mondo apparteneva ai draghi. Allora, la felce fu la prima a germogliare nella verde e rigogliosa corte di Apep.\nCon il passare dei secoli diventò alberi, rampicanti, radici e foglie, ricoprendo la terra intera. Ma Apep ricorda ancora la prima fronda mentre cominciava a protendersi verso il cielo, producendo un suono così delicato da risultare inudibile.",
+    "TypeDescription": "Materiale per aumento livello dei personaggi",
+    "Icon": "UI_ItemIcon_113046"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113047,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Bocciolverde primordiale",
+    "Description": "Un fiore primordiale originario dell'Oasi all'interno di Apep.\nCon il passare del tempo, i fiori diventarono sempre più profumati e voluminosi, acquisendo una varietà di nomi tanto numerosi quante sono le stelle nel cielo notturno.\nTuttavia, il primo a fiorire non aveva nessun nome. Per i draghi del passato il nome di una rosa non aveva alcuna importanza, ciò che contava per loro era il profumo che emanava. Dare un nome alle cose è un atto effimero. La vita non è vincolata dalle parole, e nascerà e si evolverà in eterno.",
+    "TypeDescription": "Materiale per aumento livello dei personaggi",
+    "Icon": "UI_ItemIcon_113047"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113048,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Ambra perenne",
+    "Description": "Un pezzo d'ambra originario dell'Oasi all'interno di Apep. Vi giace un insetto estinto sospeso nel tempo.\nPer l'albero è stato un puro caso che una forma di vita tanto piccola sia rimasta avviluppata nella sua resina, ma il persistere della sua esistenza è stato voluto dal fato.\nIn seguito a un disastro divino, gli alberi, i rampicanti, le radici e ogni elemento della vegetazione avvizzirono fino a tramutarsi in polvere. Molte forme di vita sparirono.\nMa, nell'immobilità dell'ambra, rimane un insetto senza nome che ha raggiunto un futuro negato a tutti i suoi pari.",
+    "TypeDescription": "Materiale per aumento livello dei personaggi",
+    "Icon": "UI_ItemIcon_113048"
   },
   {
     "MaterialType": 14,
@@ -24522,6 +24750,26 @@
   },
   {
     "MaterialType": 12,
+    "Id": 117012,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Reliquiario del dominio: livello II",
+    "Description": "Un reliquiario utilizzato per conservare i manufatti. Sia benedetto chi lo vede.\n\nOgni reliquiario garantisce un manufatto dai seguenti set:\n· Sogno della ninfa\n· Bagliore della Vourukasha\n· Berserker\n· Istruttore\n· Esule",
+    "TypeDescription": "Reliquiario",
+    "Icon": "UI_ItemIcon_117002"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 117013,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Reliquiario del dominio: livello I",
+    "Description": "Un reliquiario utilizzato per conservare i manufatti. Sia benedetto chi lo vede.\n\nOgni reliquiario garantisce un manufatto dai seguenti set:\n· Sogno della ninfa\n· Bagliore della Vourukasha",
+    "TypeDescription": "Reliquiario",
+    "Icon": "UI_ItemIcon_117003"
+  },
+  {
+    "MaterialType": 12,
     "Id": 118001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -24855,7 +25103,7 @@
     "Id": 120028,
     "RankLevel": 4,
     "ItemType": 2,
-    "Name": "Ode alla luce eterea",
+    "Name": "Ode alla Khvarena",
     "Description": "Un'ode tramandata oralmente da una comunità religiosa nel deserto e trascritta da qualcuno.",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_100229"
@@ -26362,6 +26610,46 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120223,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Frutto di Harra polposo",
+    "Description": "Tipico degli ambienti caldi e umidi della foresta pluviale, questo frutto ha uno speciale aroma speziato. Rispetto ad altri frutti, regala un connubio di sapori inimmaginabile.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_101216"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120224,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pesca di Zaytun succosa",
+    "Description": "Il frutto di un arbusto di foresta dalla polpa dolce e compatta. Si dice che abbia un effetto calmante sulla mente, il che lo rende perfetto per Layla.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_101218"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120225,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Mela fresca",
+    "Description": "Croccante e fragrante. Deliziosa sia cruda che fermentata in sidro. Le mele arrostite donano un sapore particolare.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120234,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Legna secca",
+    "Description": "Dell'ottima legna da ardere, asciutta al punto giusto e dalle dimensioni ideali per accendere un fuoco negli accampamenti. Il cibo cucinato con questa legna sprigionerà l'odore naturale del carbone, e forse renderà Layla un pochino più scoppiettante.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120234"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120235,
     "RankLevel": 0,
     "ItemType": 2,
@@ -26692,6 +26980,206 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120273,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Grandi Canti di Khvarena",
+    "Description": "I Grandi Canti di Khvarena contengono un immenso potere, ma solo le Pari possono ottenere l'approvazione di Khvarena e rilasciare il suo potenziale tramite un rito speciale...",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120273"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120274,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti riservati schematici",
+    "Description": "Schizzi e bozze tratti dai misteriosi appunti investigativi sembrano elencare la struttura dei terreni di prova sotterranei in rovina e la posizione dei Grandi Canti di Khvarena...",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120274"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120275,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti sulle indagini di René",
+    "Description": "A quanto sembra, questi appunti sono stati lasciati da un grande ricercatore che aspirava a \"superare la mortalità\", il loro contenuto mostra dettagli sulla sua esperienza nell'esplorazione delle rovine e delle relative conoscenze apprese...",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120275"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120276,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti lasciati da qualcuno",
+    "Description": "Sembrano essere appunti lasciati da un membro dell'Ordine degli Scettici. Contengono informazioni sui tamburi Kory perduti e il loro uso tradizionale.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120277,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Volume antico",
+    "Description": "Un documento antico passato da generazioni fino all'Ordine degli Scettici. Il linguaggio arcaico rende il contenuto difficile da decifrare.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120278,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pistillo di Udumbara",
+    "Description": "Un pistillo preso da un Udumbara in fiore. Sembra avere un significato speciale per le Pari...",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120278"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120279,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Frammento dell'Incisione di Khvarena",
+    "Description": "Un frammento dell'incisione perduta di un monumento. Non si sa come mai sia andato perso.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120279"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120280,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Frammento dell'Incisione di Khvarena",
+    "Description": "Un frammento perduto dell'incisione sul monumento. La sua luce tenue può essere percepibile solo dai discendenti dell'uccello divino.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120280"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120281,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Frammento dell'Incisione di Khvarena",
+    "Description": "Un frammento perduto dell'incisione sul monumento. La restituzione di tutti i frammenti alle loro posizioni originali potrebbe ripristinare la vera forma dell'iscrizione sul monumento.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120281"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120282,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Frammento dell'Incisione di Khvarena",
+    "Description": "Un frammento dell'incisione perduta di un monumento. Si dice che abbia un profondo legame con le Pari.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120282"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120283,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Korybantes: Vedana",
+    "Description": "Un tamburo misterioso, marchiato da un simbolo di Cryo.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120283"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120284,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Korybantes: Rupa",
+    "Description": "Uno dei tamburi Kory mancanti. Questo è marchiato da un simbolo di Dendro.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120284"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120285,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Korybantes: Samjna",
+    "Description": "Uno dei tamburi Kory mancanti. Questo è marchiato da un simbolo di Hydro.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120285"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120286,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Korybantes: Sankhara",
+    "Description": "Uno dei tamburi Kory mancanti. Questo è marchiato da un simbolo di Electro.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120286"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120287,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Korybantes: Vijnana",
+    "Description": "Uno dei tamburi Kory mancanti. Questo è marchiato da un simbolo di Pyro.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120287"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120288,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Blocco di energia misterioso",
+    "Description": "Un blocco di energia formatosi dall'Azosite tramite la condensazione di energia elementale pura. Può essere sfruttato come fonte energetica per sistemi di alimentazione su grande scala.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120288"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120290,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Valigia di Julien",
+    "Description": "Una valigia bagnata fradicia. È stata chiusa molto bene, ma sembra che il suo contenuto sia stato danneggiato dopo essere stata immersa nell'acqua.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120290"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120291,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bozza di Julien",
+    "Description": "Una bozza dalla bizzarra combinazione di colori.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120291"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120292,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Esperienza dell'avventuriere",
+    "Description": "Una copia di Esperienza dell'avventuriere realizzata da Julien. Non sembra diversa dall'originale.\nDopo averla letta, la mente viene pervasa da un senso di vuoto e dall'impressione di aver perso del tempo senza avere acquisito l'esperienza necessaria.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_104002"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120293,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Immagine lasciata dal Seelie della Saggezza",
+    "Description": "Consigli lasciati dal Seelie della Saggezza. Speriamo che stavolta la ricerca non sia vana...",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100721"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120294,
     "RankLevel": 0,
     "ItemType": 2,
@@ -26732,6 +27220,106 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120298,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Contenitore della replica della reliquia (I)",
+    "Description": "Un contenitore che contiene una replica della reliquia. È stato dipinto di viola di proposito.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120298"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120299,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Contenitore della replica della reliquia (II)",
+    "Description": "Un contenitore che contiene una replica della reliquia. È stato dipinto di blu di proposito.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120299"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120300,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Contenitore della replica della reliquia (III)",
+    "Description": "Un contenitore che contiene una replica della reliquia. È stato dipinto di rosso di proposito.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120300"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120301,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Spartito Korybantes: Vijnana",
+    "Description": "Uno spartito per tamburi relativo al Korybantes: Vijnana.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120301"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120302,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Spartito Korybantes: Samjna",
+    "Description": "Uno spartito per tamburi relativo al Korybantes: Samjna.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120303,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Spartito Korybantes: Rupa",
+    "Description": "Uno spartito per tamburi relativo al Korybantes: Rupa.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120303"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120304,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Spartito Korybantes: Sankhara",
+    "Description": "Uno spartito per tamburi relativo al Korybantes: Sankhara.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120304"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120305,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Spartito Korybantes: Vedana",
+    "Description": "Uno spartito per tamburi relativo al Korybantes: Vedana",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120305"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120315,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tavolo da disegno di Julien",
+    "Description": "Un tavolo da disegno, visibilmente usato, ma al momento privo di ogni tratto.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120315"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120316,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Alla ricerca dell'iscrizione perduta",
+    "Description": "Un appunto ottenuto da Sosi. Potrebbe contenere indizi riguardanti i frammenti perduti del monumento.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120317,
     "RankLevel": 0,
     "ItemType": 2,
@@ -26739,6 +27327,306 @@
     "Description": "Un regalo squisito da parte di Haniyyah. Contiene le Gelatine meravigliose tanto amate dai Miconoidi in una varietà di gusti unici per soddisfare ogni loro preferenza.\nLe Gelatine meravigliose sono una versione perfezionata delle Gelatine floreali che le hanno precedute, mantenendone la stessa traslucidità cristallina e la stessa consistenza elastica ma senza gli ingredienti nocivi, il che le rende il nutrimento ideale per i Miconoidi. Detto questo, è meglio assicurarsi che i bambini non le mangino per sbaglio se vengono conservate in casa...",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_118101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120322,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cassa di pozioni speciali",
+    "Description": "Una cassa ottenuta da Bahador. Al suo interno si trovano alcune pozioni speciali. Secondo quanto affermato da Bahador, potrebbero aiutare nell'esplorazione di un certo dominio...",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120324,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diario di qualcuno",
+    "Description": "Diario di qualcuno",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120325,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti di qualcuno",
+    "Description": "Appunti di qualcuno",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120001"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120327,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Localizzatore",
+    "Description": "Un'invenzione di Kshahrewar. Quando i concorrenti portano con sé questi dispositivi di tracciamento, il localizzatore è in grado di mostrare la loro posizione generale. In aggiunta, se i concorrenti completano le loro missioni, il localizzatore emette un suono.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120327"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120345,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti dell'avventuriere senza nome",
+    "Description": "Appunti smarriti lasciati nel deserto. Sembrano essere stati scritti e abbandonati da un qualche avventuriere.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120346,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti di ingegneria antichi",
+    "Description": "Appunti di ingegneria antichi",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120347,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti di ingegneria rovinati",
+    "Description": "Appunti di ingegneria rovinati",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120348,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Lettera abbandonata di qualcuno",
+    "Description": "Lettera abbandonata di qualcuno",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120349,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diari della squadra investigativa dell'Akademiya (3)",
+    "Description": "Diari della squadra investigativa dell'Akademiya (3)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120350,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diari della squadra investigativa dell'Akademiya (4)",
+    "Description": "Diari della squadra investigativa dell'Akademiya (4)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120351,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bollettino quasi illeggibile",
+    "Description": "Bollettino quasi illeggibile",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120352,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diario antico",
+    "Description": "Diario antico",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120353,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Registri di origini sconosciute (2)",
+    "Description": "Registri di origini sconosciute (2)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120357,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diari della squadra investigativa dell'Akademiya (1)",
+    "Description": "Diari della squadra investigativa dell'Akademiya (1)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120358,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diari della squadra investigativa dell'Akademiya (2)",
+    "Description": "Diari della squadra investigativa dell'Akademiya (2)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120359,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ordini sudici",
+    "Description": "Ordini sudici",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120360,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Registri di origini sconosciute (1)",
+    "Description": "Registri di origini sconosciute (1)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120361,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pagine di alcuni appunti perduti (1)",
+    "Description": "Pagine di alcuni appunti perduti (1)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120362,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pagine di alcuni appunti perduti (2)",
+    "Description": "Pagine di alcuni appunti perduti (2)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120363,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Trascrizione bizzarra",
+    "Description": "Trascrizione bizzarra",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120364,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Insegnamenti degli Scettici",
+    "Description": "Insegnamenti degli Scettici",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120365,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti di un ricercatore anonimo (1)",
+    "Description": "Appunti di un ricercatore anonimo (1)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120366,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti di un ricercatore anonimo (2)",
+    "Description": "Appunti di un ricercatore anonimo (2)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120367,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti di un ricercatore anonimo (3)",
+    "Description": "Appunti di un ricercatore anonimo (3)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120368,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti di un ricercatore anonimo (4)",
+    "Description": "Appunti di un ricercatore anonimo (4)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120369,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti logori di un Mercenario (1)",
+    "Description": "Appunti logori di un Mercenario (1)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120370,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti logori di un Mercenario (2)",
+    "Description": "Appunti logori di un Mercenario (2)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120371,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti logori di un Mercenario (3)",
+    "Description": "Appunti logori di un Mercenario (3)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120372,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti logori di un Mercenario (4)",
+    "Description": "Appunti logori di un Mercenario (4)",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120373,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Incisione sul Monumento di Khvarena",
+    "Description": "Incisione sul Monumento di Khvarena",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100112"
   },
   {
     "MaterialType": 2,
@@ -26779,6 +27667,16 @@
     "Description": "Un nuovo ramo preso dal centro del mondo.\nC'era una volta un albero gigante che si estendeva per il mondo intero, e questo ramo ne faceva parte. Sebbene sia stato rimosso dall'albero, il loro legame rimane sempre molto forte. Pertanto, finché il gigantesco albero bianco che simboleggia il centro del mondo non morirà, questo ramoscello non avvizzirà mai.\n\nGli \"alberi\" simboleggiano la vita. In una storia popolare di un certo luogo, una persona aveva affidato la propria coscienza ai rami dell'albero bianco prima di spirare. In questo modo, né la sua vita né le sue speranze sarebbero andate perdute, dato che i rami sarebbero cresciuti e germogliati dove c'erano sole e pioggia, e un giorno sarebbero fioriti producendo frutti.\nGli \"alberi\" simboleggiano anche la saggezza. Secondo una leggenda, un saggio sospeso a testa in giù su un albero acquisì la conoscenza relativa all'iscrizione delle rune e al controllo delle parole sacre, a cui seguì un regno fondato lungo le radici dell'albero, e che infine si guadagnò uno sguardo al segreto del cosmo.\nTutta la conoscenza, la memoria e l'esperienza scorrono in quest'albero, come un ruscello verso un fiume, che a sua volta si apre al mare, il quale si fa nuvole e porta pioggia al terreno, proprio come la vita.",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_120127"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120335,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Semi nutrienti",
+    "Description": "La forma di vita elementale conosciuta come Miconoide fluttuante di Anemo ti ha dato questi semi. Piantali in un campo per coltivare cibo amato dai Miconoidi. Ma in futuro i Miconoidi si ricorderanno di arare e dissodare i campi?",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100314"
   },
   {
     "MaterialType": 31,
@@ -28257,6 +29155,56 @@
     "ItemType": 2,
     "Name": "Voltacristallo radioso 93",
     "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Sumeru.",
+    "TypeDescription": "Oggetto dell'avventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141094,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Voltacristallo radioso 94",
+    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Sumeru, e può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo.",
+    "TypeDescription": "Oggetto dell'avventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141095,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Voltacristallo radioso 95",
+    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Sumeru, e può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo.",
+    "TypeDescription": "Oggetto dell'avventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141096,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Voltacristallo radioso 96",
+    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Sumeru, e può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo.",
+    "TypeDescription": "Oggetto dell'avventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141097,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Voltacristallo radioso 97",
+    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Sumeru, e può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo.",
+    "TypeDescription": "Oggetto dell'avventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141098,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Voltacristallo radioso 98",
+    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Sumeru, e può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo.",
     "TypeDescription": "Oggetto dell'avventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -29982,6 +30930,16 @@
   },
   {
     "MaterialType": 21,
+    "Id": 220076,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sorush",
+    "Description": "#In quanto membro delle Pari che difendono il territorio, Sorush aspira a diventare una Guardiana della fioritura che scaccia via le calamità.\nDopo aver formato un legame con persone fidate, Sorush attraversa le terre empie con {F#la sua}{M#il suo} Yasnapati...",
+    "TypeDescription": "Gadget",
+    "Icon": "UI_ItemIcon_220076"
+  },
+  {
+    "MaterialType": 21,
     "Id": 220077,
     "RankLevel": 4,
     "ItemType": 2,
@@ -29999,6 +30957,26 @@
     "Description": "Uno strumento musicale che può essere usato durante le esibizioni.\nUn tamburo dal suono pulito e dal design unico. Di fattura squisita, è abbellito da dettagli elaborati. Per costruirlo sono stati usati dei materiali pregiati, con una particolare attenzione alla qualità acustica e alla resistenza all'usura.\nSi dice che questo piccolo tamburo sia la combinazione tra uno strumento tradizionale d'Inazuma e i tamburi di altre nazioni. Quando scandisce certi ritmi, può addirittura portare fortuna...",
     "TypeDescription": "Gadget",
     "Icon": "UI_ItemIcon_220051"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220079,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sorush",
+    "Description": "#In quanto membro delle Pari, nata nell'Oasi di Vourukasha, Sorush è una Guardiana della fioritura riconosciuta dalla Khvarena.\nDopo aver formato un legame con persone fidate, Sorush attraversa la terra benedetta da Khvarena con {F#la sua}{M#il suo} Yasnapati...",
+    "TypeDescription": "Gadget",
+    "Icon": "UI_ItemIcon_220079"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220080,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bussola rilevatrice",
+    "Description": "Una Bussola rilevatrice creata per trovare le repliche. Dal momento che questo dispositivo è stato costruito a partire da uno che misurava le energie elementali, quando si ricerca repliche delle reliquie, gli elementi presenti nei paraggi potrebbero disturbarne le rilevazioni...",
+    "TypeDescription": "Gadget",
+    "Icon": "UI_ItemIcon_220080"
   },
   {
     "MaterialType": 5,
@@ -30846,7 +31824,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Studio di Feiyun",
-    "Description": "Un progetto con istruzioni passo dopo passo per allestire un set Studio di Feiyun.\nEsistono molti modi per arredare uno studio a Liyue, ma il lusso è opzionale, poiché i sapienti preferiscono lo spirito e l'eleganza. Una pianta in vaso equilibra l'umidità nella stanza, il tavolo e gli scaffali emanano una leggera fragranza di legno che si confà all'arredamento semplice, mentre la luce soffusa delle lampade ispira il genio e la scrittura ricercata.\nSi dice che, molti anni fa, un certo ospite del Pendio di Feiyun avesse approntato uno studio come questo, e che il suo progetto fosse stato ripreso dal precedente gestore della Libreria Wanwen. Da allora è quindi conosciuto come \"Studio di Feiyun\", e la sua fama si è diffusa in tutta Liyue.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di posizionamento.\nQuesto set decorativo è particolarmente apprezzato dai seguenti compagni: Xingqiu, Zhongli, Ningguang, Yun Jin",
+    "Description": "Un progetto con istruzioni passo dopo passo per allestire un set Studio di Feiyun.\nEsistono molti modi per arredare uno studio a Liyue, ma il lusso è opzionale, poiché i sapienti preferiscono lo spirito e l'eleganza. Una pianta in vaso equilibra l'umidità nella stanza, il tavolo e gli scaffali emanano una leggera fragranza di legno che si confà all'arredamento semplice, mentre la luce soffusa delle lampade ispira il genio e la scrittura ricercata.\nSi dice che, molti anni fa, un certo ospite del Pendio di Feiyun avesse approntato uno studio come questo, e che il suo progetto fosse stato ripreso dal precedente gestore della Libreria Wanwen. Da allora è quindi conosciuto come \"Studio di Feiyun\", e la sua fama si è diffusa in tutta Liyue.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di posizionamento.\nQuesto set decorativo piace particolarmente a Xingqiu, Zhongli, Ningguang, Yun Jin e Baizhu.",
     "TypeDescription": "Progetto per set decorativo",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -30876,7 +31854,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cucina fumo e legna",
-    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un set Cucina fumo e legna.\nUna cucina attrezzata di tutto punto con una credenza piena di spezie scelte con cura.\nI cuochi che ricercano l'eccellenza comprano quotidianamente ingredienti freschi al mercato, e i veri artisti della cucina prestano addirittura attenzione alla legna usata per i loro fornelli. Una volta, il giovane capocuoco del Ristorante Wanmin rivelò che, per preparare i piatti tradizionali del Villaggio di Qingce, si devono prima adagiare dei trucioli di bambù ben asciutti nel fornello e controllare attentamente la fiamma. Chi è in grado di trasformare gli arbusti accanto alle Bacche uncinate in sottile legna da ardere può persino aggiungervi un vago aroma di Mondstadt.\nDiversi tipi di legna producono effetti molto distinti, e la maggior parte dei cuochi non riuscirà mai davvero a padroneggiarli. Ecco perché il Ristorante Wanmin ha il monopolio su questa particolare tecnica.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di posizionamento.\nQuesto set decorativo piace particolarmente a Tartaglia, Mona, Xiao, Xiangling, Razor, Yaoyao e Mika",
+    "Description": "Un progetto con istruzioni passo dopo passo per allestire un set Cucina fumo e legna.\nUna cucina attrezzata di tutto punto con una credenza piena di spezie scelte con cura.\nI cuochi che ricercano l'eccellenza comprano quotidianamente ingredienti freschi al mercato, e i veri artisti della cucina prestano addirittura attenzione alla legna usata per i loro fornelli. Una volta, il giovane capocuoco del Ristorante Wanmin rivelò che, per preparare i piatti tradizionali del Villaggio di Qingce, si devono prima adagiare dei trucioli di bambù ben asciutti nel fornello e controllare attentamente la fiamma. Chi è in grado di trasformare gli arbusti accanto alle Bacche uncinate in sottile legna da ardere può persino aggiungervi un vago aroma di Mondstadt.\nDiversi tipi di legna producono effetti molto distinti, e la maggior parte dei cuochi non riuscirà mai davvero a padroneggiarli. Ecco perché il Ristorante Wanmin detiene il monopolio di questa particolare tecnica.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di posizionamento.\nQuesto set decorativo piace particolarmente a Tartaglia, Mona, Xiao, Xiangling, Razor, Yaoyao, Mika e Baizhu.",
     "TypeDescription": "Progetto per set decorativo",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -31176,7 +32154,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Danze vorticose sregolate",
-    "Description": "Un teatro maestoso . Da molti punti di vista, come il palcoscenico sfarzoso, gli spruzzi della fontana e la varietà di fiori pregiati portati in vita dalla Creazione di Mondi alternativi, questo luogo imita le atmosfere festive del Teatro Zubayr.\nSi dice che alcuni spettacoli diano il meglio se ammirati di notte. Il posizionamento dei lampioni del teatro sono il risultato di attenti studi per ottimizzare la visuale di ogni singolo membro del pubblico a prescindere dalla posizione del loro posto. L'intensità dell'illuminazione, inoltre, è regolata per ottenere una luminosità ideale della scena.\nQuesto set decorativo piace particolarmente a Nilou.",
+    "Description": "Un teatro maestoso. Da molti punti di vista, come il palcoscenico sfarzoso, gli spruzzi della fontana e la varietà di fiori pregiati portati in vita dalla Creazione di Mondi alternativi, questo luogo imita le atmosfere festive del Teatro Zubayr.\nSi dice che alcuni spettacoli diano il meglio se ammirati di notte. Il posizionamento dei lampioni del teatro sono il risultato di attenti studi per ottimizzare la visuale di ogni singolo membro del pubblico, a prescindere dalla posizione del loro posto. L'intensità dell'illuminazione, inoltre, è regolata per ottenere una luminosità ideale della scena.\nQuesto set decorativo piace particolarmente a Nilou e a Kaveh.",
     "TypeDescription": "Progetto per set decorativo",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -31216,7 +32194,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Tra aromi e serenità",
-    "Description": "Un elegante giardino pacifico che utilizza gazebo tratti dal Giardino di Razan e da Pardis Dhyai. Questo non spicca certo per la coerenza stilistica dei suoi edifici, ma crea un'atmosfera generale di tranquillità.\nI magnifici boccioli dormono qui serenamente, e i lampioni illuminano la fontana... Quando cala la notte, una passeggiata attraverso questo giardino può fugare i rumorosi pensieri che affollano la tua mente. Potresti perfino trovare l'ispirazione che tanto fatichi a scovare...\nQuesto set decorativo piace particolarmente a Nahida.",
+    "Description": "Un elegante giardino pacifico che utilizza gazebo tratti dal Giardino di Razan e dal Pardis Dhyai. Questo non spicca certo per la coerenza stilistica dei suoi edifici, ma crea un'atmosfera generale di tranquillità.\nI magnifici boccioli dormono qui serenamente, e i lampioni illuminano la fontana... Quando cala la notte, una passeggiata attraverso questo giardino può fugare i rumorosi pensieri che affollano la tua mente. Potresti perfino trovare l'ispirazione che tanto fatichi a scovare...\nQuesto set decorativo piace particolarmente a Nahida e a Kaveh.",
     "TypeDescription": "Progetto per set decorativo",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -37397,6 +38375,306 @@
     "ItemType": 2,
     "Name": "Scala in pietra bianca goffrata",
     "Description": "Un progetto con istruzioni passo dopo passo per realizzare una scala in pietra bianca goffrata.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381324,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Scrivania compatta in legno di athel",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una scrivania compatta in legno di athel.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383343,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vaso color crepuscolo sul mare",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un vaso color crepuscolo sul mare.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383344,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Piatto decorato per affettati",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un piatto decorato per affettati.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383345,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Piatto decorato per dolci e frutta",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un piatto decorato per dolci e frutta.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382240,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sovrapposizione caldo e freddo",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Sovrapposizione caldo e freddo.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383346,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "In vino claritas",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare In vino claritas.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383347,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Il differenziale della polvere",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Il differenziale della polvere.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382241,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vaso color Ajilenakh",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un vaso color Ajilenakh.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382242,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vaso color sabbie scarlatte",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un vaso color sabbie scarlatte.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382243,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Calore puro",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Calore puro.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390737,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sabbia fine nelle calde temperature",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Sabbia fine nelle calde temperature.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390324,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bancarella per merci sfuse in legno di Karmaphala",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una bancarella per merci sfuse in legno di Karmaphala.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393377,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ombra petalosa",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Ombra petalosa.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393159,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pallet per il trasporto su terra Ribat delle Carovane tipo III",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un pallet per il trasporto su terra Ribat delle Carovane tipo III.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393160,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Brocca semplice Da bere per cento",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una brocca semplice Da bere per cento.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393161,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Brocca semplice Ebbrezza per dieci",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una brocca semplice Ebbrezza per dieci.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393378,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Spirito di squadra",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Spirito di squadra.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393379,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fragranza del sole ardente",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Fragranza del sole ardente.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393380,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Scatole per merci leggere in legno di athel",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare scatole per merci leggere in legno di athel.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393162,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Barilotti per vino autoserranti in Legno dello splendore",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare dei barilotti per vino autoserranti in Legno dello splendore.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393163,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Piattaforma per scatole di stoffe in Legno dello splendore",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una piattaforma per scatole di stoffe in Legno dello splendore.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390325,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bancarella di cibo all'aria aperta in legno di Adhigama",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una bancarella di cibo all'aria aperta in legno di Adhigama.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393381,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bandiera della Vahumana",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una bandiera della Vahumana.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393382,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bandiera della Spantamad",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una bandiera della Spantamad.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393383,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bandiera dell'Haravatat",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una bandiera dell'Haravatat.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393384,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bandiera dell'Amurta",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una bandiera dell'Amurta.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393385,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bandiera della Rtawahist",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una bandiera della Rtawahist.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393386,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bandiera della Kshahrewar",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una bandiera della Kshahrewar.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380428,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Dolce lume",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un Dolce lume.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380429,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Costanza della luce",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Costanza della luce.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
     "TypeDescription": "Progetto per oggetto decorativo",
     "Icon": "UI_ItemIcon_Home_Common"
   }

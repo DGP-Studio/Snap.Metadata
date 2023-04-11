@@ -91,7 +91,7 @@
     "DescribeId": 10201,
     "MonsterName": "Brute_None_Shield",
     "Title": "Mitachurl con scudo di legno",
-    "Description": "Mitachurl: scudo di legno",
+    "Description": "Mitachurl con scudo di legno",
     "Icon": "UI_MonsterIcon_Brute_None_01",
     "Type": 1,
     "Drops": [
@@ -134,7 +134,7 @@
     "DescribeId": 10202,
     "MonsterName": "Brute_None_Axe",
     "Title": "Mitachurl con ascia di fuoco",
-    "Description": "Mitachurl: Ascia di fuoco",
+    "Description": "Mitachurl con ascia di fuoco",
     "Icon": "UI_MonsterIcon_Brute_None_01",
     "Type": 1,
     "Affixes": [
@@ -180,7 +180,7 @@
     "DescribeId": 10202,
     "MonsterName": "Brute_None_Axe_AttackEnhance",
     "Title": "Mitachurl con ascia di fuoco",
-    "Description": "Mitachurl: Ascia di fuoco",
+    "Description": "Mitachurl con ascia di fuoco",
     "Icon": "UI_MonsterIcon_Brute_None_01",
     "Type": 1,
     "Affixes": [
@@ -211,7 +211,7 @@
     "DescribeId": 10203,
     "MonsterName": "Brute_None_RockShield",
     "Title": "Mitachurl con scudo di roccia",
-    "Description": "Mitachurl: scudo di roccia",
+    "Description": "Mitachurl con scudo di roccia",
     "Icon": "UI_MonsterIcon_Brute_None_01",
     "Type": 1,
     "Drops": [
@@ -340,7 +340,7 @@
     "DescribeId": 10206,
     "MonsterName": "Brute_Ice_Shield",
     "Title": "Mitachurl con scudo di ghiaccio",
-    "Description": "Mitachurl: scudo di ghiaccio",
+    "Description": "Mitachurl con scudo di ghiaccio",
     "Icon": "UI_MonsterIcon_Brute_None_01",
     "Type": 1,
     "Drops": [
@@ -1554,6 +1554,88 @@
       "IceSubHurt": 0.3,
       "RockSubHurt": 0.3,
       "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 29080102,
+    "DescribeId": 90801,
+    "MonsterName": "Monster_Apep_Stage3",
+    "Title": "Guardiano dell'Oasi di Apep",
+    "Description": "Guardiano dell'Oasi finale",
+    "Icon": "UI_MonsterIcon_Apep",
+    "Type": 2,
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.7,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 29080104,
+    "DescribeId": 90801,
+    "MonsterName": "Monster_Apep_Stage3",
+    "Title": "Guardiano dell'Oasi di Apep",
+    "Description": "Guardiano dell'Oasi finale",
+    "Icon": "UI_MonsterIcon_Apep",
+    "Type": 2,
+    "Drops": [
+      102,
+      202,
+      105,
+      104131,
+      104132,
+      104133,
+      104134,
+      113021,
+      113046,
+      113047,
+      113048,
+      400022,
+      400032,
+      400042,
+      400088,
+      400098,
+      400023,
+      400033,
+      400043,
+      400089,
+      400099,
+      101111,
+      101112,
+      101113,
+      101114,
+      101115
+    ],
+    "BaseValue": {
+      "HpBase": 217.344,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.7,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": {
       "FIGHT_PROP_BASE_HP": 23,
@@ -5388,6 +5470,36 @@
     }
   },
   {
+    "Id": 22040102,
+    "DescribeId": 20401,
+    "MonsterName": "Hound_Kanis_Rock_01_Crystallization",
+    "Title": "Segugio della Faglia Spaccaroccia cucciolo",
+    "Description": "Segugio della Faglia cucciolo",
+    "Icon": "UI_MonsterIcon_Hound_Kanis_Rock",
+    "Type": 1,
+    "Affixes": [
+      "3.6结晶化怪物不入战"
+    ],
+    "BaseValue": {
+      "HpBase": 32.6016,
+      "AttackBase": 15.072,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.2,
+      "GrassSubHurt": 0.2,
+      "WaterSubHurt": 0.2,
+      "ElecSubHurt": 0.2,
+      "WindSubHurt": 0.2,
+      "IceSubHurt": 0.2,
+      "RockSubHurt": 0.2,
+      "PhysicalSubHurt": 0.2
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 22040201,
     "DescribeId": 20402,
     "MonsterName": "Hound_Kanis_Electric_01",
@@ -5407,6 +5519,36 @@
       400023,
       400033,
       400043
+    ],
+    "BaseValue": {
+      "HpBase": 32.6016,
+      "AttackBase": 15.072,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.2,
+      "GrassSubHurt": 0.2,
+      "WaterSubHurt": 0.2,
+      "ElecSubHurt": 0.2,
+      "WindSubHurt": 0.2,
+      "IceSubHurt": 0.2,
+      "RockSubHurt": 0.2,
+      "PhysicalSubHurt": 0.2
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22040202,
+    "DescribeId": 20402,
+    "MonsterName": "Hound_Kanis_Electric_01_Crystallization",
+    "Title": "Segugio della Faglia Viltuono cucciolo",
+    "Description": "Segugio della Faglia cucciolo",
+    "Icon": "UI_MonsterIcon_Hound_Kanis_Electric",
+    "Type": 1,
+    "Affixes": [
+      "3.6结晶化怪物不入战"
     ],
     "BaseValue": {
       "HpBase": 32.6016,
@@ -5468,6 +5610,36 @@
     }
   },
   {
+    "Id": 22050102,
+    "DescribeId": 20501,
+    "MonsterName": "Hound_Riftstalker_Rock_01_Crystallization",
+    "Title": "Segugio della Faglia Spaccaroccia",
+    "Description": "Segugio della Faglia",
+    "Icon": "UI_MonsterIcon_Hound_Riftstalker_Rock",
+    "Type": 1,
+    "Affixes": [
+      "3.6结晶化怪物不入战"
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 40.192,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.25,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 22050201,
     "DescribeId": 20502,
     "MonsterName": "Hound_Riftstalker_Electric_01",
@@ -5487,6 +5659,36 @@
       400023,
       400033,
       400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 40.192,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.25,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22050202,
+    "DescribeId": 20502,
+    "MonsterName": "Hound_Riftstalker_Electric_01_Crystallization",
+    "Title": "Segugio della Faglia Viltuono",
+    "Description": "Segugio della Faglia",
+    "Icon": "UI_MonsterIcon_Hound_Riftstalker_Electric",
+    "Type": 1,
+    "Affixes": [
+      "3.6结晶化怪物不入战"
     ],
     "BaseValue": {
       "HpBase": 95.088,
@@ -5839,6 +6041,300 @@
       "WindSubHurt": 0.1,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22100101,
+    "DescribeId": 21005,
+    "MonsterName": "Invoker_Archdeacon_01",
+    "Title": "Battezzante maligno",
+    "Description": "Battezzante maligno",
+    "Icon": "UI_MonsterIcon_Invoker_Archdeacon",
+    "Type": 2,
+    "Affixes": [
+      "深渊法师（火雷冰）"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104141,
+      104142,
+      104143,
+      104144,
+      104161,
+      104162,
+      104163,
+      104164,
+      104111,
+      104112,
+      104113,
+      104114,
+      104121,
+      104122,
+      104123,
+      104124,
+      113045,
+      400022,
+      400032,
+      400042,
+      400023,
+      400033,
+      400043,
+      400138,
+      400148,
+      400128,
+      400133,
+      400088,
+      400098,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 135.84,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22100201,
+    "DescribeId": 21005,
+    "MonsterName": "Invoker_Archdeacon_01",
+    "Title": "Battezzante maligno",
+    "Description": "Battezzante maligno",
+    "Icon": "UI_MonsterIcon_Invoker_Archdeacon",
+    "Type": 2,
+    "Affixes": [
+      "深渊法师（冰水火）"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104141,
+      104142,
+      104143,
+      104144,
+      104161,
+      104162,
+      104163,
+      104164,
+      104111,
+      104112,
+      104113,
+      104114,
+      104121,
+      104122,
+      104123,
+      104124,
+      113045,
+      400022,
+      400032,
+      400042,
+      400023,
+      400033,
+      400043,
+      400138,
+      400148,
+      400128,
+      400133,
+      400088,
+      400098,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 135.84,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22100301,
+    "DescribeId": 21005,
+    "MonsterName": "Invoker_Archdeacon_01",
+    "Title": "Battezzante maligno",
+    "Description": "Battezzante maligno",
+    "Icon": "UI_MonsterIcon_Invoker_Archdeacon",
+    "Type": 2,
+    "Affixes": [
+      "深渊法师（雷火水）"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104141,
+      104142,
+      104143,
+      104144,
+      104161,
+      104162,
+      104163,
+      104164,
+      104111,
+      104112,
+      104113,
+      104114,
+      104121,
+      104122,
+      104123,
+      104124,
+      113045,
+      400022,
+      400032,
+      400042,
+      400023,
+      400033,
+      400043,
+      400138,
+      400148,
+      400128,
+      400133,
+      400088,
+      400098,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 135.84,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22100401,
+    "DescribeId": 21005,
+    "MonsterName": "Invoker_Archdeacon_01",
+    "Title": "Battezzante maligno",
+    "Description": "Battezzante maligno",
+    "Icon": "UI_MonsterIcon_Invoker_Archdeacon",
+    "Type": 2,
+    "Affixes": [
+      "深渊法师（水冰雷）"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104141,
+      104142,
+      104143,
+      104144,
+      104161,
+      104162,
+      104163,
+      104164,
+      104111,
+      104112,
+      104113,
+      104114,
+      104121,
+      104122,
+      104123,
+      104124,
+      113045,
+      400022,
+      400032,
+      400042,
+      400023,
+      400033,
+      400043,
+      400138,
+      400148,
+      400128,
+      400133,
+      400088,
+      400098,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 135.84,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22100501,
+    "DescribeId": 21005,
+    "MonsterName": "Invoker_Archdeacon_01",
+    "Title": "Battezzante maligno",
+    "Description": "Battezzante maligno",
+    "Icon": "UI_MonsterIcon_Invoker_Archdeacon",
+    "Type": 2,
+    "Affixes": [
+      "深渊法师（水冰雷）"
+    ],
+    "BaseValue": {
+      "HpBase": 135.84,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": {
@@ -6232,6 +6728,86 @@
     "GrowCurves": {
       "FIGHT_PROP_BASE_HP": 1,
       "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 21040101,
+    "DescribeId": 10401,
+    "MonsterName": "Hilistray_Wind_01",
+    "Title": "Hilichurl reietto di Anemo",
+    "Description": "Hilichurl reietto di Anemo",
+    "Icon": "UI_MonsterIcon_Hilistray_Wind",
+    "Type": 1,
+    "Drops": [
+      202,
+      112077,
+      112078,
+      112079,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 67.92,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 21040201,
+    "DescribeId": 10402,
+    "MonsterName": "Hilistray_Water_01",
+    "Title": "Hilichurl reietto di Hydro",
+    "Description": "Hilichurl reietto di Hydro",
+    "Icon": "UI_MonsterIcon_Hilistray_Water",
+    "Type": 1,
+    "Drops": [
+      202,
+      112077,
+      112078,
+      112079,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 67.92,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
       "FIGHT_PROP_BASE_DEFENSE": 12
     }
   },
@@ -7291,8 +7867,8 @@
     "Id": 24050101,
     "DescribeId": 40501,
     "MonsterName": "Monolith_Starchild",
-    "Title": "Algoritmo Matrice semi-transitoria rete di sorveglianza",
-    "Description": "Algoritmo Matrice semi-transitoria rete di sorveglianza",
+    "Title": "Algoritmo della Matrice semi-perenne della rete di sorveglianza",
+    "Description": "Algoritmo della Matrice semi-perenne della rete di sorveglianza",
     "Icon": "UI_MonsterIcon_Monolith_Starchild",
     "Type": 2,
     "Drops": [
@@ -7962,7 +8538,7 @@
     "DescribeId": 30201,
     "MonsterName": "Fatuus_Fire_01",
     "Title": "Agente dei Fatui di Pyro",
-    "Description": "Agente - Fiamme incineranti",
+    "Description": "Agente Fiamme incineranti",
     "Icon": "UI_MonsterIcon_Fatuus_Fire_01",
     "Type": 1,
     "Drops": [
@@ -8005,7 +8581,7 @@
     "DescribeId": 30201,
     "MonsterName": "Fatuus_Fire_01_AttackEnhance",
     "Title": "Agente dei Fatui di Pyro",
-    "Description": "Agente - Fiamme incineranti",
+    "Description": "Agente Fiamme incineranti",
     "Icon": "UI_MonsterIcon_Fatuus_Fire_01",
     "Type": 1,
     "Affixes": [
@@ -8035,7 +8611,7 @@
     "DescribeId": 30301,
     "MonsterName": "Fatuus_Summoner_01",
     "Title": "Maga Cicin di Electro dei Fatui",
-    "Description": "Maga Cicin - Abbraccia tuono",
+    "Description": "Maga Cicin Abbraccia tuono",
     "Icon": "UI_MonsterIcon_Fatuus_Summoner_01",
     "Type": 1,
     "Affixes": [
@@ -8081,7 +8657,7 @@
     "DescribeId": 30301,
     "MonsterName": "Fatuus_Summoner_01_AttackEnhance",
     "Title": "Maga Cicin di Electro dei Fatui",
-    "Description": "Maga Cicin - Abbraccia tuono",
+    "Description": "Maga Cicin Abbraccia tuono",
     "Icon": "UI_MonsterIcon_Fatuus_Summoner_01",
     "Type": 1,
     "Affixes": [
@@ -8112,7 +8688,7 @@
     "DescribeId": 30401,
     "MonsterName": "Fatuus_Mage_Ice_01",
     "Title": "Maga Cicin di Cryo dei Fatui",
-    "Description": "Maga Cicin: Portatrice di Gelobrina",
+    "Description": "Maga Cicin Portatrice di Gelobrina",
     "Icon": "UI_MonsterIcon_Fatuus_Mage_Ice_01",
     "Type": 1,
     "Affixes": [
@@ -8158,7 +8734,7 @@
     "DescribeId": 30401,
     "MonsterName": "Fatuus_Mage_Ice_01_AttackEnhance",
     "Title": "Maga Cicin di Cryo dei Fatui",
-    "Description": "Maga Cicin: Portatrice di Gelobrina",
+    "Description": "Maga Cicin Portatrice di Gelobrina",
     "Icon": "UI_MonsterIcon_Fatuus_Mage_Ice_01",
     "Type": 1,
     "Affixes": [
@@ -8189,7 +8765,7 @@
     "DescribeId": 30501,
     "MonsterName": "Fatuus_Maiden_Water_01",
     "Title": "Sacerdotessa degli specchi",
-    "Description": "Sacerdotessa di Snezhnaya: Emissaria dello specchio",
+    "Description": "Sacerdotessa di Snezhnaya Emissaria dello specchio",
     "Icon": "UI_MonsterIcon_Fatuus_Maiden_Water",
     "Type": 1,
     "Drops": [
@@ -13331,6 +13907,60 @@
     }
   },
   {
+    "Id": 26100101,
+    "DescribeId": 61001,
+    "MonsterName": "Gator_Sacred_Water_01",
+    "Title": "Cornodrillo consacrato",
+    "Description": "Cornodrillo consacrato Corrente immensa",
+    "Icon": "UI_MonsterIcon_Gator_Sacred_Water",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 26100201,
+    "DescribeId": 61002,
+    "MonsterName": "Panther_Sacred_Grass_01",
+    "Title": "Bestia zannuta consacrata",
+    "Description": "Bestia zannuta consacrata Supercrescita intricata",
+    "Icon": "UI_MonsterIcon_Panther_Sacred_Grass",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 26100301,
     "DescribeId": 61003,
     "MonsterName": "Vulture_Sacred_Fire_01",
@@ -13928,7 +14558,7 @@
     "DescribeId": 10201,
     "MonsterName": "Brute_None_Shield",
     "Title": "Mitachurl con scudo di legno",
-    "Description": "Mitachurl: scudo di legno",
+    "Description": "Mitachurl con scudo di legno",
     "Icon": "UI_MonsterIcon_Brute_None_01",
     "Type": 1,
     "Affixes": [
@@ -13961,7 +14591,7 @@
     "DescribeId": 10202,
     "MonsterName": "Brute_None_Axe",
     "Title": "Mitachurl con ascia di fuoco",
-    "Description": "Mitachurl: Ascia di fuoco",
+    "Description": "Mitachurl con ascia di fuoco",
     "Icon": "UI_MonsterIcon_Brute_None_01",
     "Type": 1,
     "Affixes": [
@@ -14028,7 +14658,7 @@
     "DescribeId": 10203,
     "MonsterName": "Brute_None_RockShield",
     "Title": "Mitachurl con scudo di roccia",
-    "Description": "Mitachurl: scudo di roccia",
+    "Description": "Mitachurl con scudo di roccia",
     "Icon": "UI_MonsterIcon_Brute_None_01",
     "Type": 1,
     "Affixes": [
@@ -14163,7 +14793,7 @@
     "DescribeId": 10206,
     "MonsterName": "Brute_Ice_Shield",
     "Title": "Mitachurl con scudo di ghiaccio",
-    "Description": "Mitachurl: scudo di ghiaccio",
+    "Description": "Mitachurl con scudo di ghiaccio",
     "Icon": "UI_MonsterIcon_Brute_None_01",
     "Type": 1,
     "Affixes": [

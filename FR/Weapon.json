@@ -5316,18 +5316,47 @@
   },
   {
     "Id": 14505,
-    "PromoteId": 11101,
+    "PromoteId": 14505,
     "WeaponType": 10,
     "RankLevel": 5,
-    "Name": "Tablette de jade primordial",
-    "Description": "Une ancienne gemme commémorative qui symbolise la volonté d'un ancien peuple qui avait enfin trouvé leur espèce de paradis. Aujourd'hui, cette gemme émane encore un pouvoir de l'ancien époque et protège toujours la paix de la terre.",
-    "Icon": "UI_EquipIcon_Catalyst_Apprentice",
-    "AwakenIcon": "UI_EquipIcon_Catalyst_Apprentice_Awaken",
+    "Name": "Splendeur de l'azur",
+    "Description": "Un objet rituel sculpté dans du jade qui reflète l'éclat des cieux et des eaux claires.",
+    "Icon": "UI_EquipIcon_Catalyst_Morax",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_Morax_Awaken",
     "GrowCurves": {
       "FIGHT_PROP_BASE_ATTACK": {
-        "Type": 1101,
-        "Value": 47.537
+        "Type": 1301,
+        "Value": 45.9364
+      },
+      "FIGHT_PROP_HP_PERCENT": {
+        "Type": 2301,
+        "Value": 0.108
       }
+    },
+    "Affix": {
+      "Name": "Tablette de jade primordial",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <color=#99FFFFFF>4,5</color> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <color=#99FFFFFF>0,3 %</color> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <color=#99FFFFFF>12 %</color>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+        },
+        {
+          "Level": 1,
+          "Description": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <color=#99FFFFFF>5</color> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <color=#99FFFFFF>0,5 %</color> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <color=#99FFFFFF>20 %</color>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+        },
+        {
+          "Level": 2,
+          "Description": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <color=#99FFFFFF>5,5</color> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <color=#99FFFFFF>0,7 %</color> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <color=#99FFFFFF>28 %</color>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+        },
+        {
+          "Level": 3,
+          "Description": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <color=#99FFFFFF>6</color> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <color=#99FFFFFF>0,9 %</color> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <color=#99FFFFFF>36 %</color>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+        },
+        {
+          "Level": 4,
+          "Description": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <color=#99FFFFFF>6,5</color> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <color=#99FFFFFF>1,1 %</color> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <color=#99FFFFFF>44 %</color>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+        }
+      ]
     }
   },
   {
@@ -6813,23 +6842,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <color=#99FFFFFF>12 %</color>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires touche un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <color=#99FFFFFF>10/20/30/48 %</color>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques sont comptabilisés indépendamment les uns des autres."
+          "Description": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <color=#99FFFFFF>12 %</color>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires touche un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <color=#99FFFFFF>10/20/30/48 %</color>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques existent indépendamment les uns des autres."
         },
         {
           "Level": 1,
-          "Description": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <color=#99FFFFFF>15 %</color>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires touche un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <color=#99FFFFFF>12,5/25/37,5/60 %</color>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques sont comptabilisés indépendamment les uns des autres."
+          "Description": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <color=#99FFFFFF>15 %</color>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires touche un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <color=#99FFFFFF>12,5/25/37,5/60 %</color>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques existent indépendamment les uns des autres."
         },
         {
           "Level": 2,
-          "Description": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <color=#99FFFFFF>18 %</color>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires touche un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <color=#99FFFFFF>15/30/45/72 %</color>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques sont comptabilisés indépendamment les uns des autres."
+          "Description": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <color=#99FFFFFF>18 %</color>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires touche un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <color=#99FFFFFF>15/30/45/72 %</color>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques existent indépendamment les uns des autres."
         },
         {
           "Level": 3,
-          "Description": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <color=#99FFFFFF>21 %</color>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires touche un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <color=#99FFFFFF>17,5/35/52,5/84 %</color>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques sont comptabilisés indépendamment les uns des autres."
+          "Description": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <color=#99FFFFFF>21 %</color>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires touche un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <color=#99FFFFFF>17,5/35/52,5/84 %</color>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques existent indépendamment les uns des autres."
         },
         {
           "Level": 4,
-          "Description": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <color=#99FFFFFF>24 %</color>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires touche un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <color=#99FFFFFF>20/40/60/96 %</color>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques sont comptabilisés indépendamment les uns des autres."
+          "Description": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <color=#99FFFFFF>24 %</color>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires touche un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <color=#99FFFFFF>20/40/60/96 %</color>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques existent indépendamment les uns des autres."
         }
       ]
     }

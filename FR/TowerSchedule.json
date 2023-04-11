@@ -438,7 +438,7 @@
     "Close": "2021-08-16T03:59:59+08:00",
     "BuffName": "Lune fracassante",
     "Descriptions": [
-      "Lorsque l'énergie élémentaire du personnage déployé est pleine, et qu'il frappe un ennemi avec une attaque normale, chargée ou plongeante, la DÉF de ce dernier diminue de 7 % pendant 10 s. Cet effet peut être cumulé 5 fois maximum. La durée de chaque cumul est calculée de façon indépendante."
+      "Lorsque l'énergie élémentaire du personnage déployé est pleine, et qu'il frappe un ennemi avec une attaque normale, chargée ou plongeante, la DÉF de ce dernier diminue de 7 % pendant 10 s. Cet effet peut être cumulé 5 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
     ],
     "Icon": "UI_TowerBlessing_23"
   },
@@ -470,7 +470,7 @@
     "Close": "2021-09-16T03:59:59+08:00",
     "BuffName": "Lune fidèle",
     "Descriptions": [
-      "L'ATQ de tous les personnages de l'équipe augmente de 20 % pendant 10 s après un déchaînement élémentaire. Cet effet peut être cumulé 3 fois maximum. La durée de chaque cumul est calculée de façon indépendante."
+      "L'ATQ de tous les personnages de l'équipe augmente de 20 % pendant 10 s après un déchaînement élémentaire. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
     ],
     "Icon": "UI_TowerBlessing_25"
   },
@@ -1081,5 +1081,53 @@
       "Lorsque les PV d'un personnage diminuent, <color=#F39000FF>une onde de choc est libérée</color> à l'emplacement du personnage déployé, infligeant des DGT réels aux ennemis proches. Cet effet peut être déclenché une fois toutes les 3 s."
     ],
     "Icon": "UI_TowerBlessing_62"
+  },
+  {
+    "Id": 68,
+    "Floors": [
+      1044,
+      1045,
+      1058,
+      1059
+    ],
+    "Open": "2023-04-16T04:00:00+08:00",
+    "Close": "2023-05-01T03:59:59+08:00",
+    "BuffName": "Lune réverbérante",
+    "Descriptions": [
+      "Lorsque les PV du personnage déployé diminuent, <color=#F39000FF>une onde de choc est libérée</color> à son emplacement, infligeant des DGT réels aux ennemis proches. Cet effet peut être déclenché une fois toutes les 0,8 s."
+    ],
+    "Icon": "UI_TowerBlessing_63"
+  },
+  {
+    "Id": 69,
+    "Floors": [
+      1044,
+      1045,
+      1058,
+      1059
+    ],
+    "Open": "2023-05-01T04:00:00+08:00",
+    "Close": "2023-05-16T03:59:59+08:00",
+    "BuffName": "Lune éruptante",
+    "Descriptions": [
+      "Lorsqu'un personnage a déclenché une réaction de Fleurissement, les DGT infligés par les réactions de Fleurissement, d'Exubérance et de Bourgeonnement de tous les personnages de l'équipe <color=#F39000FF>augmentent de 35 %</color> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 4 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
+    ],
+    "Icon": "UI_TowerBlessing_64"
+  },
+  {
+    "Id": 70,
+    "Floors": [
+      1044,
+      1045,
+      1058,
+      1059
+    ],
+    "Open": "2023-05-16T04:00:00+08:00",
+    "Close": "2023-06-01T03:59:59+08:00",
+    "BuffName": "Lune florissante",
+    "Descriptions": [
+      "Lorsque des DGT infligés par un noyau Dendro (incluant Bourgeonnement et Exubérance) touchent un personnage, la maîtrise élémentaire de tous les personnages de l'équipe <color=#F39000FF>augmente de 200 pts</color> pendant 4 s."
+    ],
+    "Icon": "UI_TowerBlessing_65"
   }
 ]
