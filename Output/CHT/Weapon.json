@@ -4764,7 +4764,7 @@
     "WeaponType": 10,
     "RankLevel": 4,
     "Name": "黑岩緋玉",
-    "Description": "由黑岩製成的神祕法器，無常的赤色閃光彷彿與大地深處的悸動同調。",
+    "Description": "由黑岩製成的神秘法器，無常的赤色閃光彷彿與大地深處的悸動同調。",
     "Icon": "UI_EquipIcon_Catalyst_Blackrock",
     "AwakenIcon": "UI_EquipIcon_Catalyst_Blackrock_Awaken",
     "GrowCurves": {
@@ -5316,18 +5316,47 @@
   },
   {
     "Id": 14505,
-    "PromoteId": 11101,
+    "PromoteId": 14505,
     "WeaponType": 10,
     "RankLevel": 5,
-    "Name": "定土玉圭",
-    "Description": "紀念於山之際海之濱尋得安身之地的古代寶玉。如今仍隱隱散發古老的力量，守護國土安寧。",
-    "Icon": "UI_EquipIcon_Catalyst_Apprentice",
-    "AwakenIcon": "UI_EquipIcon_Catalyst_Apprentice_Awaken",
+    "Name": "碧落之瓏",
+    "Description": "由碧色美玉雕成的禮器，放射著天空與碧水的光澤。",
+    "Icon": "UI_EquipIcon_Catalyst_Morax",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_Morax_Awaken",
     "GrowCurves": {
       "FIGHT_PROP_BASE_ATTACK": {
-        "Type": 1101,
-        "Value": 47.537
+        "Type": 1301,
+        "Value": 45.9364
+      },
+      "FIGHT_PROP_HP_PERCENT": {
+        "Type": 2301,
+        "Value": 0.108
       }
+    },
+    "Affix": {
+      "Name": "定土玉圭",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "施放元素爆發或創造護盾後的3秒內，將產生「定土玉圭」效果：每2.5秒恢復<color=#99FFFFFF>4.5</color>點元素能量，並基於裝備者的生命值上限，每1000點使其對應元素類型的元素傷害加成提高<color=#99FFFFFF>0.3%</color>，至多提高<color=#99FFFFFF>12%</color>。裝備該武器的角色處於隊伍後臺時，依然能產生「定土玉圭」效果。"
+        },
+        {
+          "Level": 1,
+          "Description": "施放元素爆發或創造護盾後的3秒內，將產生「定土玉圭」效果：每2.5秒恢復<color=#99FFFFFF>5</color>點元素能量，並基於裝備者的生命值上限，每1000點使其對應元素類型的元素傷害加成提高<color=#99FFFFFF>0.5%</color>，至多提高<color=#99FFFFFF>20%</color>。裝備該武器的角色處於隊伍後臺時，依然能產生「定土玉圭」效果。"
+        },
+        {
+          "Level": 2,
+          "Description": "施放元素爆發或創造護盾後的3秒內，將產生「定土玉圭」效果：每2.5秒恢復<color=#99FFFFFF>5.5</color>點元素能量，並基於裝備者的生命值上限，每1000點使其對應元素類型的元素傷害加成提高<color=#99FFFFFF>0.7%</color>，至多提高<color=#99FFFFFF>28%</color>。裝備該武器的角色處於隊伍後臺時，依然能產生「定土玉圭」效果。"
+        },
+        {
+          "Level": 3,
+          "Description": "施放元素爆發或創造護盾後的3秒內，將產生「定土玉圭」效果：每2.5秒恢復<color=#99FFFFFF>6</color>點元素能量，並基於裝備者的生命值上限，每1000點使其對應元素類型的元素傷害加成提高<color=#99FFFFFF>0.9%</color>，至多提高<color=#99FFFFFF>36%</color>。裝備該武器的角色處於隊伍後臺時，依然能產生「定土玉圭」效果。"
+        },
+        {
+          "Level": 4,
+          "Description": "施放元素爆發或創造護盾後的3秒內，將產生「定土玉圭」效果：每2.5秒恢復<color=#99FFFFFF>6.5</color>點元素能量，並基於裝備者的生命值上限，每1000點使其對應元素類型的元素傷害加成提高<color=#99FFFFFF>1.1%</color>，至多提高<color=#99FFFFFF>44%</color>。裝備該武器的角色處於隊伍後臺時，依然能產生「定土玉圭」效果。"
+        }
+      ]
     }
   },
   {

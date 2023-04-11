@@ -3010,7 +3010,7 @@
     "WeaponType": 13,
     "RankLevel": 3,
     "Name": "Borla Branca",
-    "Description": "Uma arma padrão dos soldados de Millelith. Tem uma ponta bastante afida e resistente. É uma arma confiável.",
+    "Description": "Uma arma padrão dos soldados de Millelith. Tem uma ponta bastante afiada e resistente. É uma arma confiável.",
     "Icon": "UI_EquipIcon_Pole_Ruby",
     "AwakenIcon": "UI_EquipIcon_Pole_Ruby_Awaken",
     "GrowCurves": {
@@ -5316,18 +5316,47 @@
   },
   {
     "Id": 14505,
-    "PromoteId": 11101,
+    "PromoteId": 14505,
     "WeaponType": 10,
     "RankLevel": 5,
-    "Name": "Presente de Jade Primordial",
-    "Description": "Uma joia antiga que simboliza a vontade de um povo antigo que buscava uma terra prometida. Ainda emana gentilmente um misterioso poder antigo que protege a terra.",
-    "Icon": "UI_EquipIcon_Catalyst_Apprentice",
-    "AwakenIcon": "UI_EquipIcon_Catalyst_Apprentice_Awaken",
+    "Name": "Esplendor Índigo",
+    "Description": "Um recipiente ritualístico esculpido de jade que reflete o brilho dos céus e águas cristalinas.",
+    "Icon": "UI_EquipIcon_Catalyst_Morax",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_Morax_Awaken",
     "GrowCurves": {
       "FIGHT_PROP_BASE_ATTACK": {
-        "Type": 1101,
-        "Value": 47.537
+        "Type": 1301,
+        "Value": 45.9364
+      },
+      "FIGHT_PROP_HP_PERCENT": {
+        "Type": 2301,
+        "Value": 0.108
       }
+    },
+    "Affix": {
+      "Name": "Presente de Jade Primordial",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Nos 3s após lançar um Supremo ou criar um Escudo, gera o efeito \"Presente de Jade Primordial\": regenera <color=#99FFFFFF>4.5</color> de Energia Elemental a cada 2.5s, e concede um Bônus de Dano Elemental do Tipo Elemental correspondente do personagem que tem esta arma equipada de <color=#99FFFFFF>0.3%</color> para cada 1.000 pontos de Sua Vida Máxima. É possível aumentar em até <color=#99FFFFFF>12%</color>. O efeito \"Presente de Jade Primordial\" pode ser desencadeado mesmo se o personagem que tem esta arma equipada não estiver ativo no campo de batalha."
+        },
+        {
+          "Level": 1,
+          "Description": "Nos 3s após lançar um Supremo ou criar um Escudo, gera o efeito \"Presente de Jade Primordial\": regenera <color=#99FFFFFF>5</color> de Energia Elemental a cada 2.5s, e concede um Bônus de Dano Elemental do Tipo Elemental correspondente do personagem que tem esta arma equipada de <color=#99FFFFFF>0.5%</color> para cada 1.000 pontos de Sua Vida Máxima. É possível aumentar em até <color=#99FFFFFF>20%</color>. O efeito \"Presente de Jade Primordial\" pode ser desencadeado mesmo se o personagem que tem esta arma equipada não estiver ativo no campo de batalha."
+        },
+        {
+          "Level": 2,
+          "Description": "Nos 3s após lançar um Supremo ou criar um Escudo, gera o efeito \"Presente de Jade Primordial\": regenera <color=#99FFFFFF>5.5</color> de Energia Elemental a cada 2.5s, e concede um Bônus de Dano Elemental do Tipo Elemental correspondente do personagem que tem esta arma equipada de <color=#99FFFFFF>0.7%</color> para cada 1.000 pontos de Sua Vida Máxima. É possível aumentar em até <color=#99FFFFFF>28%</color>. O efeito \"Presente de Jade Primordial\" pode ser desencadeado mesmo se o personagem que tem esta arma equipada não estiver ativo no campo de batalha."
+        },
+        {
+          "Level": 3,
+          "Description": "Nos 3s após lançar um Supremo ou criar um Escudo, gera o efeito \"Presente de Jade Primordial\": regenera <color=#99FFFFFF>6</color> de Energia Elemental a cada 2.5s, e concede um Bônus de Dano Elemental do Tipo Elemental correspondente do personagem que tem esta arma equipada de <color=#99FFFFFF>0.9%</color> para cada 1.000 pontos de Sua Vida Máxima. É possível aumentar em até <color=#99FFFFFF>36%</color>. O efeito \"Presente de Jade Primordial\" pode ser desencadeado mesmo se o personagem que tem esta arma equipada não estiver ativo no campo de batalha."
+        },
+        {
+          "Level": 4,
+          "Description": "Nos 3s após lançar um Supremo ou criar um Escudo, gera o efeito \"Presente de Jade Primordial\": regenera <color=#99FFFFFF>6.5</color> de Energia Elemental a cada 2.5s, e concede um Bônus de Dano Elemental do Tipo Elemental correspondente do personagem que tem esta arma equipada de <color=#99FFFFFF>1.1%</color> para cada 1.000 pontos de Sua Vida Máxima. É possível aumentar em até <color=#99FFFFFF>44%</color>. O efeito \"Presente de Jade Primordial\" pode ser desencadeado mesmo se o personagem que tem esta arma equipada não estiver ativo no campo de batalha."
+        }
+      ]
     }
   },
   {
@@ -5444,23 +5473,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Os personagens da equipe além do personagem com esta arma equipada darão bônus ao personagem com esta arma equipada baseado no seu Tipo Elemental. Se o Tipo Elemental for o mesmo do personagem com esta arma equipada, aumentarão a Proficiência Elemental em <color=#99FFFFFF>32</color>. Se o Tipo Elemental for diferente do personagem com esta arma equipada, aumentarão o Bônus de Dano Elemental do Tipo Elemental do personagem com esta arma equipada em <color=#99FFFFFF>10%</color>. Os efeitos mencionados acima podem acumular até 3 vezes. Além disso, todos os aliados próximos além do personagem com esta arma equipada terão sua Proficiência Elemental aumentada em <color=#99FFFFFF>40</color>. Os efeitos de várias armas com este mesmo nome podem ser acumulados."
+          "Description": "Os personagens da equipe além do personagem com esta arma equipada darão bônus ao personagem com esta arma equipada baseado no seu Tipo Elemental. Se o Tipo Elemental for o mesmo do personagem com esta arma equipada, aumentarão a Proficiência Elemental em <color=#99FFFFFF>32</color>. Se o Tipo Elemental for diferente do personagem com esta arma equipada, aumentarão o Bônus de Dano Elemental do Tipo Elemental do personagem com esta arma equipada em <color=#99FFFFFF>10%</color>. Os efeitos mencionados acima podem acumular até 3 vezes. Além disso, todos os aliados próximos exceto pelo personagem com esta arma equipada terão sua Proficiência Elemental aumentada em <color=#99FFFFFF>40</color>. Os efeitos de várias armas com este mesmo nome podem ser acumulados."
         },
         {
           "Level": 1,
-          "Description": "Os personagens da equipe além do personagem com esta arma equipada darão bônus ao personagem com esta arma equipada baseado no seu Tipo Elemental. Se o Tipo Elemental for o mesmo do personagem com esta arma equipada, aumentarão a Proficiência Elemental em <color=#99FFFFFF>40</color>. Se o Tipo Elemental for diferente do personagem com esta arma equipada, aumentarão o Bônus de Dano Elemental do Tipo Elemental do personagem com esta arma equipada em <color=#99FFFFFF>14%</color>. Os efeitos mencionados acima podem acumular até 3 vezes. Além disso, todos os aliados próximos além do personagem com esta arma equipada terão sua Proficiência Elemental aumentada em <color=#99FFFFFF>42</color>. Os efeitos de várias armas com este mesmo nome podem ser acumulados."
+          "Description": "Os personagens da equipe além do personagem com esta arma equipada darão bônus ao personagem com esta arma equipada baseado no seu Tipo Elemental. Se o Tipo Elemental for o mesmo do personagem com esta arma equipada, aumentarão a Proficiência Elemental em <color=#99FFFFFF>40</color>. Se o Tipo Elemental for diferente do personagem com esta arma equipada, aumentarão o Bônus de Dano Elemental do Tipo Elemental do personagem com esta arma equipada em <color=#99FFFFFF>14%</color>. Os efeitos mencionados acima podem acumular até 3 vezes. Além disso, todos os aliados próximos exceto pelo personagem com esta arma equipada terão sua Proficiência Elemental aumentada em <color=#99FFFFFF>42</color>. Os efeitos de várias armas com este mesmo nome podem ser acumulados."
         },
         {
           "Level": 2,
-          "Description": "Os personagens da equipe além do personagem com esta arma equipada darão bônus ao personagem com esta arma equipada baseado no seu Tipo Elemental. Se o Tipo Elemental for o mesmo do personagem com esta arma equipada, aumentarão a Proficiência Elemental em <color=#99FFFFFF>48</color>. Se o Tipo Elemental for diferente do personagem com esta arma equipada, aumentarão o Bônus de Dano Elemental do Tipo Elemental do personagem com esta arma equipada em <color=#99FFFFFF>18%</color>. Os efeitos mencionados acima podem acumular até 3 vezes. Além disso, todos os aliados próximos além do personagem com esta arma equipada terão sua Proficiência Elemental aumentada em <color=#99FFFFFF>44</color>. Os efeitos de várias armas com este mesmo nome podem ser acumulados."
+          "Description": "Os personagens da equipe além do personagem com esta arma equipada darão bônus ao personagem com esta arma equipada baseado no seu Tipo Elemental. Se o Tipo Elemental for o mesmo do personagem com esta arma equipada, aumentarão a Proficiência Elemental em <color=#99FFFFFF>48</color>. Se o Tipo Elemental for diferente do personagem com esta arma equipada, aumentarão o Bônus de Dano Elemental do Tipo Elemental do personagem com esta arma equipada em <color=#99FFFFFF>18%</color>. Os efeitos mencionados acima podem acumular até 3 vezes. Além disso, todos os aliados próximos exceto pelo personagem com esta arma equipada terão sua Proficiência Elemental aumentada em <color=#99FFFFFF>44</color>. Os efeitos de várias armas com este mesmo nome podem ser acumulados."
         },
         {
           "Level": 3,
-          "Description": "Os personagens da equipe além do personagem com esta arma equipada darão bônus ao personagem com esta arma equipada baseado no seu Tipo Elemental. Se o Tipo Elemental for o mesmo do personagem com esta arma equipada, aumentarão a Proficiência Elemental em <color=#99FFFFFF>56</color>. Se o Tipo Elemental for diferente do personagem com esta arma equipada, aumentarão o Bônus de Dano Elemental do Tipo Elemental do personagem com esta arma equipada em <color=#99FFFFFF>22%</color>. Os efeitos mencionados acima podem acumular até 3 vezes. Além disso, todos os aliados próximos além do personagem com esta arma equipada terão sua Proficiência Elemental aumentada em <color=#99FFFFFF>46</color>. Os efeitos de várias armas com este mesmo nome podem ser acumulados."
+          "Description": "Os personagens da equipe além do personagem com esta arma equipada darão bônus ao personagem com esta arma equipada baseado no seu Tipo Elemental. Se o Tipo Elemental for o mesmo do personagem com esta arma equipada, aumentarão a Proficiência Elemental em <color=#99FFFFFF>56</color>. Se o Tipo Elemental for diferente do personagem com esta arma equipada, aumentarão o Bônus de Dano Elemental do Tipo Elemental do personagem com esta arma equipada em <color=#99FFFFFF>22%</color>. Os efeitos mencionados acima podem acumular até 3 vezes. Além disso, todos os aliados próximos exceto pelo personagem com esta arma equipada terão sua Proficiência Elemental aumentada em <color=#99FFFFFF>46</color>. Os efeitos de várias armas com este mesmo nome podem ser acumulados."
         },
         {
           "Level": 4,
-          "Description": "Os personagens da equipe além do personagem com esta arma equipada darão bônus ao personagem com esta arma equipada baseado no seu Tipo Elemental. Se o Tipo Elemental for o mesmo do personagem com esta arma equipada, aumentarão a Proficiência Elemental em <color=#99FFFFFF>64</color>. Se o Tipo Elemental for diferente do personagem com esta arma equipada, aumentarão o Bônus de Dano Elemental do Tipo Elemental do personagem com esta arma equipada em <color=#99FFFFFF>26%</color>. Os efeitos mencionados acima podem acumular até 3 vezes. Além disso, todos os aliados próximos além do personagem com esta arma equipada terão sua Proficiência Elemental aumentada em <color=#99FFFFFF>48</color>. Os efeitos de várias armas com este mesmo nome podem ser acumulados."
+          "Description": "Os personagens da equipe além do personagem com esta arma equipada darão bônus ao personagem com esta arma equipada baseado no seu Tipo Elemental. Se o Tipo Elemental for o mesmo do personagem com esta arma equipada, aumentarão a Proficiência Elemental em <color=#99FFFFFF>64</color>. Se o Tipo Elemental for diferente do personagem com esta arma equipada, aumentarão o Bônus de Dano Elemental do Tipo Elemental do personagem com esta arma equipada em <color=#99FFFFFF>26%</color>. Os efeitos mencionados acima podem acumular até 3 vezes. Além disso, todos os aliados próximos exceto pelo personagem com esta arma equipada terão sua Proficiência Elemental aumentada em <color=#99FFFFFF>48</color>. Os efeitos de várias armas com este mesmo nome podem ser acumulados."
         }
       ]
     }
@@ -5742,7 +5771,7 @@
       }
     },
     "Affix": {
-      "Name": "Messagem da Flecha Voadora",
+      "Name": "Mensagem da Flecha Voadora",
       "Descriptions": [
         {
           "Level": 0,

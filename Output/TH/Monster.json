@@ -1562,6 +1562,88 @@
     }
   },
   {
+    "Id": 29080102,
+    "DescribeId": 90801,
+    "MonsterName": "Monster_Apep_Stage3",
+    "Title": "ผู้พิทักษ์โอเอซิสของ Apep",
+    "Description": "ผู้พิทักษ์โอเอซิสแห่งจุดจบ",
+    "Icon": "UI_MonsterIcon_Apep",
+    "Type": 2,
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.7,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 29080104,
+    "DescribeId": 90801,
+    "MonsterName": "Monster_Apep_Stage3",
+    "Title": "ผู้พิทักษ์โอเอซิสของ Apep",
+    "Description": "ผู้พิทักษ์โอเอซิสแห่งจุดจบ",
+    "Icon": "UI_MonsterIcon_Apep",
+    "Type": 2,
+    "Drops": [
+      102,
+      202,
+      105,
+      104131,
+      104132,
+      104133,
+      104134,
+      113021,
+      113046,
+      113047,
+      113048,
+      400022,
+      400032,
+      400042,
+      400088,
+      400098,
+      400023,
+      400033,
+      400043,
+      400089,
+      400099,
+      101111,
+      101112,
+      101113,
+      101114,
+      101115
+    ],
+    "BaseValue": {
+      "HpBase": 217.344,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.7,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 20020101,
     "DescribeId": 201,
     "MonsterName": "Elemental_Wind_01",
@@ -3350,8 +3432,8 @@
     "Id": 20050701,
     "DescribeId": 507,
     "MonsterName": "Monster_Oceanid_Squirrel",
-    "Title": "Hydro Mimic Ferret",
-    "Description": "Hydro Mimic Ferret",
+    "Title": "Hydro Mimic Squirrel",
+    "Description": "Hydro Mimic Squirrel",
     "Icon": "UI_MonsterIcon_Oceanid_Underling",
     "Type": 1,
     "Affixes": [
@@ -3380,8 +3462,8 @@
     "Id": 20050702,
     "DescribeId": 507,
     "MonsterName": "Monster_Oceanid_Squirrel_02",
-    "Title": "Hydro Mimic Ferret",
-    "Description": "Hydro Mimic Ferret",
+    "Title": "Hydro Mimic Squirrel",
+    "Description": "Hydro Mimic Squirrel",
     "Icon": "UI_MonsterIcon_Oceanid_Underling",
     "Type": 1,
     "Affixes": [
@@ -3410,8 +3492,8 @@
     "Id": 20050703,
     "DescribeId": 507,
     "MonsterName": "Monster_Oceanid_Squirrel",
-    "Title": "Hydro Mimic Ferret",
-    "Description": "Hydro Mimic Ferret",
+    "Title": "Hydro Mimic Squirrel",
+    "Description": "Hydro Mimic Squirrel",
     "Icon": "UI_MonsterIcon_Oceanid_Underling",
     "Type": 1,
     "Affixes": [
@@ -5388,6 +5470,36 @@
     }
   },
   {
+    "Id": 22040102,
+    "DescribeId": 20401,
+    "MonsterName": "Hound_Kanis_Rock_01_Crystallization",
+    "Title": "Rockfond - Rifthound Whelp",
+    "Description": "Rifthound Whelp",
+    "Icon": "UI_MonsterIcon_Hound_Kanis_Rock",
+    "Type": 1,
+    "Affixes": [
+      "3.6结晶化怪物不入战"
+    ],
+    "BaseValue": {
+      "HpBase": 32.6016,
+      "AttackBase": 15.072,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.2,
+      "GrassSubHurt": 0.2,
+      "WaterSubHurt": 0.2,
+      "ElecSubHurt": 0.2,
+      "WindSubHurt": 0.2,
+      "IceSubHurt": 0.2,
+      "RockSubHurt": 0.2,
+      "PhysicalSubHurt": 0.2
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 22040201,
     "DescribeId": 20402,
     "MonsterName": "Hound_Kanis_Electric_01",
@@ -5407,6 +5519,36 @@
       400023,
       400033,
       400043
+    ],
+    "BaseValue": {
+      "HpBase": 32.6016,
+      "AttackBase": 15.072,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.2,
+      "GrassSubHurt": 0.2,
+      "WaterSubHurt": 0.2,
+      "ElecSubHurt": 0.2,
+      "WindSubHurt": 0.2,
+      "IceSubHurt": 0.2,
+      "RockSubHurt": 0.2,
+      "PhysicalSubHurt": 0.2
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22040202,
+    "DescribeId": 20402,
+    "MonsterName": "Hound_Kanis_Electric_01_Crystallization",
+    "Title": "Thundercraven - Rifthound Whelp",
+    "Description": "Rifthound Whelp",
+    "Icon": "UI_MonsterIcon_Hound_Kanis_Electric",
+    "Type": 1,
+    "Affixes": [
+      "3.6结晶化怪物不入战"
     ],
     "BaseValue": {
       "HpBase": 32.6016,
@@ -5468,6 +5610,36 @@
     }
   },
   {
+    "Id": 22050102,
+    "DescribeId": 20501,
+    "MonsterName": "Hound_Riftstalker_Rock_01_Crystallization",
+    "Title": "Rockfond - Rifthound",
+    "Description": "Rifthound",
+    "Icon": "UI_MonsterIcon_Hound_Riftstalker_Rock",
+    "Type": 1,
+    "Affixes": [
+      "3.6结晶化怪物不入战"
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 40.192,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.25,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 22050201,
     "DescribeId": 20502,
     "MonsterName": "Hound_Riftstalker_Electric_01",
@@ -5487,6 +5659,36 @@
       400023,
       400033,
       400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 40.192,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.25,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22050202,
+    "DescribeId": 20502,
+    "MonsterName": "Hound_Riftstalker_Electric_01_Crystallization",
+    "Title": "Thundercraven - Rifthound",
+    "Description": "Rifthound",
+    "Icon": "UI_MonsterIcon_Hound_Riftstalker_Electric",
+    "Type": 1,
+    "Affixes": [
+      "3.6结晶化怪物不入战"
     ],
     "BaseValue": {
       "HpBase": 95.088,
@@ -5839,6 +6041,300 @@
       "WindSubHurt": 0.1,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22100101,
+    "DescribeId": 21005,
+    "MonsterName": "Invoker_Archdeacon_01",
+    "Title": "Iniquitous Baptist",
+    "Description": "Iniquitous Baptist",
+    "Icon": "UI_MonsterIcon_Invoker_Archdeacon",
+    "Type": 2,
+    "Affixes": [
+      "深渊法师（火雷冰）"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104141,
+      104142,
+      104143,
+      104144,
+      104161,
+      104162,
+      104163,
+      104164,
+      104111,
+      104112,
+      104113,
+      104114,
+      104121,
+      104122,
+      104123,
+      104124,
+      113045,
+      400022,
+      400032,
+      400042,
+      400023,
+      400033,
+      400043,
+      400138,
+      400148,
+      400128,
+      400133,
+      400088,
+      400098,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 135.84,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22100201,
+    "DescribeId": 21005,
+    "MonsterName": "Invoker_Archdeacon_01",
+    "Title": "Iniquitous Baptist",
+    "Description": "Iniquitous Baptist",
+    "Icon": "UI_MonsterIcon_Invoker_Archdeacon",
+    "Type": 2,
+    "Affixes": [
+      "深渊法师（冰水火）"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104141,
+      104142,
+      104143,
+      104144,
+      104161,
+      104162,
+      104163,
+      104164,
+      104111,
+      104112,
+      104113,
+      104114,
+      104121,
+      104122,
+      104123,
+      104124,
+      113045,
+      400022,
+      400032,
+      400042,
+      400023,
+      400033,
+      400043,
+      400138,
+      400148,
+      400128,
+      400133,
+      400088,
+      400098,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 135.84,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22100301,
+    "DescribeId": 21005,
+    "MonsterName": "Invoker_Archdeacon_01",
+    "Title": "Iniquitous Baptist",
+    "Description": "Iniquitous Baptist",
+    "Icon": "UI_MonsterIcon_Invoker_Archdeacon",
+    "Type": 2,
+    "Affixes": [
+      "深渊法师（雷火水）"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104141,
+      104142,
+      104143,
+      104144,
+      104161,
+      104162,
+      104163,
+      104164,
+      104111,
+      104112,
+      104113,
+      104114,
+      104121,
+      104122,
+      104123,
+      104124,
+      113045,
+      400022,
+      400032,
+      400042,
+      400023,
+      400033,
+      400043,
+      400138,
+      400148,
+      400128,
+      400133,
+      400088,
+      400098,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 135.84,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22100401,
+    "DescribeId": 21005,
+    "MonsterName": "Invoker_Archdeacon_01",
+    "Title": "Iniquitous Baptist",
+    "Description": "Iniquitous Baptist",
+    "Icon": "UI_MonsterIcon_Invoker_Archdeacon",
+    "Type": 2,
+    "Affixes": [
+      "深渊法师（水冰雷）"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104141,
+      104142,
+      104143,
+      104144,
+      104161,
+      104162,
+      104163,
+      104164,
+      104111,
+      104112,
+      104113,
+      104114,
+      104121,
+      104122,
+      104123,
+      104124,
+      113045,
+      400022,
+      400032,
+      400042,
+      400023,
+      400033,
+      400043,
+      400138,
+      400148,
+      400128,
+      400133,
+      400088,
+      400098,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 135.84,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 22100501,
+    "DescribeId": 21005,
+    "MonsterName": "Invoker_Archdeacon_01",
+    "Title": "Iniquitous Baptist",
+    "Description": "Iniquitous Baptist",
+    "Icon": "UI_MonsterIcon_Invoker_Archdeacon",
+    "Type": 2,
+    "Affixes": [
+      "深渊法师（水冰雷）"
+    ],
+    "BaseValue": {
+      "HpBase": 135.84,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": {
@@ -6232,6 +6728,86 @@
     "GrowCurves": {
       "FIGHT_PROP_BASE_HP": 1,
       "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 21040101,
+    "DescribeId": 10401,
+    "MonsterName": "Hilistray_Wind_01",
+    "Title": "Anemo Hilichurl Rogue",
+    "Description": "Anemo Hilichurl Rogue",
+    "Icon": "UI_MonsterIcon_Hilistray_Wind",
+    "Type": 1,
+    "Drops": [
+      202,
+      112077,
+      112078,
+      112079,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 67.92,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 21040201,
+    "DescribeId": 10402,
+    "MonsterName": "Hilistray_Water_01",
+    "Title": "Hydro Hilichurl Rogue",
+    "Description": "Hydro Hilichurl Rogue",
+    "Icon": "UI_MonsterIcon_Hilistray_Water",
+    "Type": 1,
+    "Drops": [
+      202,
+      112077,
+      112078,
+      112079,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 67.92,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
       "FIGHT_PROP_BASE_DEFENSE": 12
     }
   },
@@ -13319,6 +13895,60 @@
       "GrassSubHurt": 0.2,
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.2,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 26100101,
+    "DescribeId": 61001,
+    "MonsterName": "Gator_Sacred_Water_01",
+    "Title": "Consecrated Horned Crocodile",
+    "Description": "Vast Current: Consecrated Horned Crocodile",
+    "Icon": "UI_MonsterIcon_Gator_Sacred_Water",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 26100201,
+    "DescribeId": 61002,
+    "MonsterName": "Panther_Sacred_Grass_01",
+    "Title": "Consecrated Fanged Beast",
+    "Description": "Tangled Overgrowth: Consecrated Fanged Beast",
+    "Icon": "UI_MonsterIcon_Panther_Sacred_Grass",
+    "Type": 1,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
       "WindSubHurt": 0.1,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.1,

@@ -5316,18 +5316,47 @@
   },
   {
     "Id": 14505,
-    "PromoteId": 11101,
+    "PromoteId": 14505,
     "WeaponType": 10,
     "RankLevel": 5,
-    "Name": "Primordial Jade Regalia",
-    "Description": "An ancient gem that symbolizes the will of an ancient people who sought a promised land. It still gently emanates a mysterious ancient power that protects the land.",
-    "Icon": "UI_EquipIcon_Catalyst_Apprentice",
-    "AwakenIcon": "UI_EquipIcon_Catalyst_Apprentice_Awaken",
+    "Name": "Jadefall's Splendor",
+    "Description": "A ritual vessel carved from jade that reflects the luster of the skies and the clear waters.",
+    "Icon": "UI_EquipIcon_Catalyst_Morax",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_Morax_Awaken",
     "GrowCurves": {
       "FIGHT_PROP_BASE_ATTACK": {
-        "Type": 1101,
-        "Value": 47.537
+        "Type": 1301,
+        "Value": 45.9364
+      },
+      "FIGHT_PROP_HP_PERCENT": {
+        "Type": 2301,
+        "Value": 0.108
       }
+    },
+    "Affix": {
+      "Name": "Primordial Jade Regalia",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore <color=#99FFFFFF>4.5</color> Energy every 2.5s, and gain <color=#99FFFFFF>0.3%</color> Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to <color=#99FFFFFF>12%</color>. Primordial Jade Regalia will still take effect even if the equipping character is not on the field."
+        },
+        {
+          "Level": 1,
+          "Description": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore <color=#99FFFFFF>5</color> Energy every 2.5s, and gain <color=#99FFFFFF>0.5%</color> Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to <color=#99FFFFFF>20%</color>. Primordial Jade Regalia will still take effect even if the equipping character is not on the field."
+        },
+        {
+          "Level": 2,
+          "Description": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore <color=#99FFFFFF>5.5</color> Energy every 2.5s, and gain <color=#99FFFFFF>0.7%</color> Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to <color=#99FFFFFF>28%</color>. Primordial Jade Regalia will still take effect even if the equipping character is not on the field."
+        },
+        {
+          "Level": 3,
+          "Description": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore <color=#99FFFFFF>6</color> Energy every 2.5s, and gain <color=#99FFFFFF>0.9%</color> Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to <color=#99FFFFFF>36%</color>. Primordial Jade Regalia will still take effect even if the equipping character is not on the field."
+        },
+        {
+          "Level": 4,
+          "Description": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore <color=#99FFFFFF>6.5</color> Energy every 2.5s, and gain <color=#99FFFFFF>1.1%</color> Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to <color=#99FFFFFF>44%</color>. Primordial Jade Regalia will still take effect even if the equipping character is not on the field."
+        }
+      ]
     }
   },
   {
