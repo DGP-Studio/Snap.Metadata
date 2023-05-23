@@ -1,5 +1,69 @@
 [
   {
+    "Id": 70,
+    "Floors": [
+      1044,
+      1045,
+      1058,
+      1059
+    ],
+    "Open": "2023-05-16T04:00:00+08:00",
+    "Close": "2023-06-01T03:59:59+08:00",
+    "BuffName": "Lune efflorescente",
+    "Descriptions": [
+      "Lorsque des DGT infligés par un noyau Dendro (incluant Bourgeonnement et Exubérance) touchent un personnage, la maîtrise élémentaire de tous les personnages de l'équipe <color=#F39000FF>augmente de 200 pts</color> pendant 4 s."
+    ],
+    "Icon": "UI_TowerBlessing_65"
+  },
+  {
+    "Id": 71,
+    "Floors": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-01T04:00:00+08:00",
+    "Close": "2023-06-16T03:59:59+08:00",
+    "BuffName": "Lune tambourinante",
+    "Descriptions": [
+      "Lorsque l'attaque normale d'un personnage a touché un ennemi, ce dernier est affligé d'une marque d'embûche. Après 3 s, la marque d'embûche est consommée pour infliger des DGT réels à l'ennemi. Si l'attaque normale d'un personnage touche un ennemi <color=#F39000FF>avec une marque d'embûche</color>, les DGT infligés lors de la disparition de la marque augmentent. Les DGT peuvent être augmentés de cette manière jusqu'à 9 fois."
+    ],
+    "Icon": "UI_TowerBlessing_66"
+  },
+  {
+    "Id": 72,
+    "Floors": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-16T04:00:00+08:00",
+    "Close": "2023-07-01T03:59:59+08:00",
+    "BuffName": "Lune puissante",
+    "Descriptions": [
+      "Lorsque l'attaque normale du personnage déployé a touché un ennemi, les DGT infligés par ce personnage augmentent de <color=#F39000FF>12 %</color> pendant 2 s. Cet effet peut être cumulé <color=#F39000FF>5</color> fois maximum, la durée de chaque cumul étant calculée de façon indépendante, et il peut être déclenché une fois toutes les 0,05 s. L'effet est annulé lorsque le personnage quitte le champ de bataille."
+    ],
+    "Icon": "UI_TowerBlessing_40"
+  },
+  {
+    "Id": 73,
+    "Floors": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-07-01T04:00:00+08:00",
+    "Close": "2023-07-16T03:59:59+08:00",
+    "BuffName": "Lune svelte",
+    "Descriptions": [
+      "Lorsque l'attaque normale d'un personnage a touché un ennemi, la RÉS physique ou élémentaire (selon le type d'attaque) de ce dernier <color=#F39000FF>diminue de 6 %</color> pendant 2 s. Cet effet peut être cumulé <color=#F39000FF>6</color> fois maximum. Les diminutions de RÉS de différents types déclenchées de cette manière peuvent coexister, et leurs cumuls et temps restants sont indépendants les uns des autres."
+    ],
+    "Icon": "UI_TowerBlessing_67"
+  },
+  {
     "Id": 1,
     "Floors": [
       1009,
@@ -390,7 +454,7 @@
     "Close": "2021-07-01T03:59:59+08:00",
     "BuffName": "Lune du vortex",
     "Descriptions": [
-      "Lorsque le personnage déployé déclenche une réaction de Dispersion sur un ennemi proche, il libère une onde de choc qui inflige des DGT de zone à l'emplacement de l'ennemi. L'onde de choc peut être déclenchée une fois toutes les 3,5 s de cette manière."
+      "Lorsque le personnage déployé déclenche une réaction de Dispersion sur un ennemi proche, il libère une onde de choc qui inflige des DGT de zone à l'emplacement de l'ennemi. L'onde de choc peut être libérée une fois toutes les 3,5 s de cette manière."
     ],
     "Icon": "UI_TowerBlessing_20"
   },
@@ -454,7 +518,7 @@
     "Close": "2021-09-01T03:59:59+08:00",
     "BuffName": "Lune d'abondance",
     "Descriptions": [
-      "Lorsque le personnage déployé obtient des orbes ou des particules élémentaires, il libère une onde de choc qui inflige des DGT aux ennemis proches. L'onde de choc peut être déclenchée une fois toutes les 4 s de cette manière."
+      "Lorsque le personnage déployé obtient des orbes ou des particules élémentaires, il libère une onde de choc qui inflige des DGT aux ennemis proches. L'onde de choc peut être libérée une fois toutes les 4 s de cette manière."
     ],
     "Icon": "UI_TowerBlessing_24"
   },
@@ -486,7 +550,7 @@
     "Close": "2021-10-01T03:59:59+08:00",
     "BuffName": "Lune moribonde",
     "Descriptions": [
-      "Après qu'un personnage utilise son déchaînement élémentaire, l'ATQ de tous les personnages de l'équipe augmente de 6,5 % pendant 15 s. Cet effet peut être cumulé 7 fois maximum. Lorsque le 7e cumul est atteint, l'attaque normale du personnage déployé libère une onde de choc à l'emplacement où les ennemis sont touchés, infligeant des DGT de zone. L'onde de choc peut être déclenchée une fois toutes les 2 s de cette manière."
+      "Après qu'un personnage utilise son déchaînement élémentaire, l'ATQ de tous les personnages de l'équipe augmente de 6,5 % pendant 15 s. Cet effet peut être cumulé 7 fois maximum. Lorsque le 7e cumul est atteint, l'attaque normale du personnage déployé libère une onde de choc à l'emplacement où les ennemis sont touchés, infligeant des DGT de zone. L'onde de choc peut être libérée une fois toutes les 2 s de cette manière."
     ],
     "Icon": "UI_TowerBlessing_26"
   },
@@ -502,7 +566,7 @@
     "Close": "2021-10-16T03:59:59+08:00",
     "BuffName": "Lune dansante",
     "Descriptions": [
-      "Pendant 10 s après qu'un personnage utilise son déchaînement élémentaire, ses attaques normales et chargées libèrent des ondes de choc à l'emplacement où les ennemis sont touchés, infligeant des DGT de zone, en échange de 1 % de ses PV. Cet effet cesse lorsque le personnage quitte le champ de bataille. L'onde de choc peut être déclenchée une fois toutes les secondes par tous les personnages de l'équipe. Le personnage déployé peut succomber à cause de ce sacrifice de PV."
+      "Pendant 10 s après qu'un personnage utilise son déchaînement élémentaire, ses attaques normales et chargées libèrent des ondes de choc à l'emplacement où les ennemis sont touchés, infligeant des DGT de zone, en échange de 1 % de ses PV. Cet effet cesse lorsque le personnage quitte le champ de bataille. L'onde de choc peut être libérée une fois toutes les secondes par tous les personnages de l'équipe. Le personnage déployé peut succomber à cause de ce sacrifice de PV."
     ],
     "Icon": "UI_TowerBlessing_27"
   },
@@ -566,7 +630,7 @@
     "Close": "2021-12-16T03:59:59+08:00",
     "BuffName": "Lune extraite",
     "Descriptions": [
-      "Après avoir obtenu un cristal issu d'une Cristallisation, vous obtenez 1 cumul d'extrait, ce qui permet d'augmenter les DGT du personnage déployé de 8 % pendant 10 s. Cet effet peut être cumulé 3 fois maximum. Si un personnage avec 3 cumuls obtient un cristal issu d'une Cristallisation, il libère une onde de choc qui inflige des DGT réels aux ennemis proches. L'onde de choc peut être déclenchée une fois toutes les 3 s de cette manière."
+      "Après avoir obtenu un cristal issu d'une Cristallisation, vous obtenez 1 cumul d'extrait, ce qui permet d'augmenter les DGT du personnage déployé de 8 % pendant 10 s. Cet effet peut être cumulé 3 fois maximum. Si un personnage avec 3 cumuls obtient un cristal issu d'une Cristallisation, il libère une onde de choc qui inflige des DGT réels aux ennemis proches. L'onde de choc peut être libérée une fois toutes les 3 s de cette manière."
     ],
     "Icon": "UI_TowerBlessing_31"
   },
@@ -630,7 +694,7 @@
     "Close": "2022-02-16T03:59:59+08:00",
     "BuffName": "Lune d'éclosion",
     "Descriptions": [
-      "Lorsque le personnage déployé touche un ennemi avec une attaque considérée comme infligeant des DGT d'attaque normale, il y a 50 % de chances de libérer une onde de choc infligeant des DGT de zone réels à l'emplacement de l'ennemi touché. L'onde de choc peut être déclenchée une fois toutes les 0,3 s de cette manière."
+      "Lorsque le personnage déployé a touché un ennemi avec une attaque considérée comme infligeant des DGT d'attaque normale, il y a 50 % de chances de libérer une onde de choc infligeant des DGT de zone réels à l'emplacement de l'ennemi touché. L'onde de choc peut être libérée une fois toutes les 0,3 s de cette manière."
     ],
     "Icon": "UI_TowerBlessing_35"
   },
@@ -646,7 +710,7 @@
     "Close": "2022-03-01T03:59:59+08:00",
     "BuffName": "Lune d'éveil",
     "Descriptions": [
-      "Lorsqu'une attaque normale, chargée ou plongeante du personnage déployé touche plusieurs fois des ennemis en moins de 2 s, il obtient 1 cumul d'émergence. Cet effet peut être déclenché une fois toutes les 0,1 s, et dure 8 s. L'émergence cesse lorsque le personnage quitte le champ de bataille ou est vaincu. Lorsqu'un personnage a cumulé cet effet 15 fois, les cumuls sont consommés pour libérer une onde de choc infligeant des DGT réels aux ennemis proches. Après une onde de choc déclenchée de cette manière, les DGT infligés par tous les personnages de l'équipe augmentent de 25 % pendant 10 s."
+      "Lorsqu'une attaque normale, chargée ou plongeante du personnage déployé a touché plusieurs fois des ennemis en moins de 2 s, il obtient 1 cumul d'émergence. Cet effet peut être déclenché une fois toutes les 0,1 s, et dure 8 s. L'émergence cesse lorsque le personnage quitte le champ de bataille ou est vaincu. Lorsqu'un personnage a cumulé cet effet 15 fois, les cumuls sont consommés pour libérer une onde de choc infligeant des DGT réels aux ennemis proches. Après une onde de choc libérée de cette manière, les DGT infligés par tous les personnages de l'équipe augmentent de 25 % pendant 10 s."
     ],
     "Icon": "UI_TowerBlessing_36"
   },
@@ -678,7 +742,7 @@
     "Close": "2022-04-01T03:59:59+08:00",
     "BuffName": "Lune invocatrice",
     "Descriptions": [
-      "Lorsqu'une attaque normale, chargée ou plongeante, la compétence élémentaire ou le déchaînement élémentaire du personnage déployé touche un ennemi affecté par l'<color=#F39000FF>élément Électro</color>, une <color=#F39000FF>onde de choc est libérée</color>, infligeant des DGT réels à l'emplacement de l'ennemi. L'onde de choc peut être déclenchée une fois toutes les 2 s de cette manière."
+      "Lorsqu'une attaque normale, chargée ou plongeante, la compétence élémentaire ou le déchaînement élémentaire du personnage déployé touche un ennemi affecté par l'<color=#F39000FF>élément Électro</color>, une <color=#F39000FF>onde de choc est libérée</color>, infligeant des DGT réels à l'emplacement de l'ennemi. L'onde de choc peut être libérée une fois toutes les 2 s de cette manière."
     ],
     "Icon": "UI_TowerBlessing_38"
   },
@@ -694,7 +758,7 @@
     "Close": "2022-04-16T03:59:59+08:00",
     "BuffName": "Lune glaciale",
     "Descriptions": [
-      "Lorsqu'une attaque normale d'un personnage touche un ennemi, ce dernier est affligé d'une marque de dénouement. Après 10 s, la marque de dénouement est consommée pour infliger des DGT réels à l'ennemi. Si l'attaque normale d'un personnage touche un ennemi <color=#F39000FF>avec une marque de dénouement</color>, les DGT infligés lors de la disparition de la marque augmentent. Les DGT peuvent être augmentés de cette manière jusqu'à <color=#F39000FF>9</color> fois."
+      "Lorsque l'attaque normale d'un personnage a touché un ennemi, ce dernier est affligé d'une marque de dénouement. Après 10 s, la marque de dénouement est consommée pour infliger des DGT réels à l'ennemi. Si l'attaque normale d'un personnage touche un ennemi <color=#F39000FF>avec une marque de dénouement</color>, les DGT infligés lors de la disparition de la marque augmentent. Les DGT peuvent être augmentés de cette manière jusqu'à <color=#F39000FF>9</color> fois."
     ],
     "Icon": "UI_TowerBlessing_39"
   },
@@ -710,7 +774,7 @@
     "Close": "2022-05-01T03:59:59+08:00",
     "BuffName": "Lune pluviale",
     "Descriptions": [
-      "Lorsqu'une attaque normale d'un personnage a touché un ennemi, les DGT infligés par les attaques normales de ce personnage augmentent de <color=#F39000FF>12 %</color> pendant 5 s. Cet effet peut être cumulé <color=#F39000FF>5</color> fois maximum, la durée de chaque cumul étant calculée de façon indépendante, et il peut être déclenché une fois toutes les 0,1 s."
+      "Lorsque l'attaque normale d'un personnage a touché un ennemi, les DGT infligés par les attaques normales de ce personnage augmentent de <color=#F39000FF>12 %</color> pendant 5 s. Cet effet peut être cumulé <color=#F39000FF>5</color> fois maximum, la durée de chaque cumul étant calculée de façon indépendante, et il peut être déclenché une fois toutes les 0,1 s."
     ],
     "Icon": "UI_TowerBlessing_40"
   },
@@ -726,7 +790,7 @@
     "Close": "2022-05-16T03:59:59+08:00",
     "BuffName": "Lune irisée",
     "Descriptions": [
-      "Lorsqu'une attaque normale d'un personnage a infligé des DGT à un ennemi, la RÉS physique ou élémentaire (selon le type de DGT infligés) de ce dernier <color=#F39000FF>diminue de 6 %</color> pendant 5 s. Cet effet peut être cumulé <color=#F39000FF>7</color> fois maximum. Les diminutions de RÉS de différents types déclenchées de cette manière peuvent coexister, et leurs cumuls et temps restants sont indépendants les uns des autres."
+      "Lorsque l'attaque normale d'un personnage a infligé des DGT à un ennemi, la RÉS physique ou élémentaire (selon le type de DGT infligés) de ce dernier <color=#F39000FF>diminue de 6 %</color> pendant 5 s. Cet effet peut être cumulé <color=#F39000FF>7</color> fois maximum. Les diminutions de RÉS de différents types déclenchées de cette manière peuvent coexister, et leurs cumuls et temps restants sont indépendants les uns des autres."
     ],
     "Icon": "UI_TowerBlessing_41"
   },
@@ -742,7 +806,7 @@
     "Close": "2022-06-01T03:59:59+08:00",
     "BuffName": "Lune glaciale",
     "Descriptions": [
-      "Lorsqu'une attaque normale d'un personnage touche un ennemi, ce dernier est affligé d'une marque de dénouement. Après 10 s, la marque de dénouement est consommée pour infliger des DGT réels à l'ennemi. Si l'attaque normale d'un personnage touche un ennemi <color=#F39000FF>avec une marque de dénouement</color>, les DGT infligés lors de la disparition de la marque augmentent. Les DGT peuvent être augmentés de cette manière jusqu'à <color=#F39000FF>9</color> fois."
+      "Lorsque l'attaque normale d'un personnage a touché un ennemi, ce dernier est affligé d'une marque de dénouement. Après 10 s, la marque de dénouement est consommée pour infliger des DGT réels à l'ennemi. Si l'attaque normale d'un personnage touche un ennemi <color=#F39000FF>avec une marque de dénouement</color>, les DGT infligés lors de la disparition de la marque augmentent. Les DGT peuvent être augmentés de cette manière jusqu'à <color=#F39000FF>9</color> fois."
     ],
     "Icon": "UI_TowerBlessing_39"
   },
@@ -774,7 +838,7 @@
     "Close": "2022-07-01T03:59:59+08:00",
     "BuffName": "Lune éthérée",
     "Descriptions": [
-      "<color=#F39000FF>La RÉS physique et les RÉS élémentaires d'un ennemi diminuent de 12 %</color> pendant 8 s lorsqu'un personnage le touche avec une compétence élémentaire. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
+      "<color=#F39000FF>La RÉS physique et les RÉS élémentaires d'un ennemi diminuent de 12 %</color> pendant 8 s lorsqu'un personnage l'a touché avec une compétence élémentaire. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
     ],
     "Icon": "UI_TowerBlessing_43"
   },
@@ -806,7 +870,7 @@
     "Close": "2022-08-01T03:59:59+08:00",
     "BuffName": "Lune intrépide",
     "Descriptions": [
-      "Lorsqu'un personnage est déployé au combat, il obtient 1 cumul de détermination toutes les 2 s, <color=#F39000FF>augmentant l'ATQ de 20 %</color>. Cet effet peut être cumulé 3 fois maximum. Si un personnage avec 3 cumuls de détermination touche un ennemi avec une attaque chargée, il <color=#F39000FF>libère une onde de choc</color> à l'emplacement de l'ennemi, infligeant des DGT réels. L'onde de choc peut être déclenchée une fois toutes les 2 s de cette manière. Tous les cumuls de détermination sont annulés lorsque le personnage quitte le champ de bataille."
+      "Lorsqu'un personnage est déployé au combat, il obtient 1 cumul de détermination toutes les 2 s, <color=#F39000FF>augmentant l'ATQ de 20 %</color>. Cet effet peut être cumulé 3 fois maximum. Si un personnage avec 3 cumuls de détermination touche un ennemi avec une attaque chargée, il <color=#F39000FF>libère une onde de choc</color> à l'emplacement de l'ennemi, infligeant des DGT réels. L'onde de choc peut être libérée une fois toutes les 2 s de cette manière. Tous les cumuls de détermination sont annulés lorsque le personnage quitte le champ de bataille."
     ],
     "Icon": "UI_TowerBlessing_45"
   },
@@ -918,7 +982,7 @@
     "Close": "2022-11-16T03:59:59+08:00",
     "BuffName": "Lune de rupture",
     "Descriptions": [
-      "Lorsque l'attaque d'un noyau Dendro (incluant Bourgeonnement et Exubérance) a touché un ennemi, <color=#F39000FF>une onde de choc est libérée</color> à son emplacement, infligeant des DGT réels. L'onde de choc peut être déclenchée une fois toutes les 2 s de cette manière."
+      "Lorsque l'attaque d'un noyau Dendro (incluant Bourgeonnement et Exubérance) a touché un ennemi, <color=#F39000FF>une onde de choc est libérée</color> à son emplacement, infligeant des DGT réels. L'onde de choc peut être libérée une fois toutes les 2 s de cette manière."
     ],
     "Icon": "UI_TowerBlessing_52"
   },
@@ -934,7 +998,7 @@
     "Close": "2022-12-01T03:59:59+08:00",
     "BuffName": "Lune grêlante",
     "Descriptions": [
-      "Lorsqu'un personnage a infligé des DGT à un ennemi, <color=#F39000FF>une onde de choc est libérée</color> à son emplacement, infligeant des DGT réels. Chaque type de DGT élémentaire (incluant les DGT physiques) permet de déclencher une onde de choc toutes les 8 s de cette manière."
+      "Lorsqu'un personnage a infligé des DGT à un ennemi, <color=#F39000FF>une onde de choc est libérée</color> à son emplacement, infligeant des DGT réels. Chaque type de DGT élémentaire (incluant les DGT physiques) permet de libérer une onde de choc toutes les 8 s de cette manière."
     ],
     "Icon": "UI_TowerBlessing_53"
   },
@@ -950,7 +1014,7 @@
     "Close": "2022-12-16T03:59:59+08:00",
     "BuffName": "Lune luxuriante",
     "Descriptions": [
-      "Lorsqu'un personnage a déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, d'Exubérance ou de Bourgeonnement sur un ennemi, tous les personnages de l'équipe bénéficient d'un <color=#F39000FF>bonus de DGT Dendro de 10 %</color> pendant 10 s. Cet effet peut être déclenché une fois toutes les 5 s et cumulé 4 fois maximum. En obtenant 4 cumuls, lorsqu'un personnage inflige des DGT Dendro à un ennemi, <color=#F39000FF>une onde de choc est libérée</color> à son emplacement, infligeant des DGT réels. L'onde de choc peut être déclenchée une fois toutes les 5 s de cette manière."
+      "Lorsqu'un personnage a déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, d'Exubérance ou de Bourgeonnement sur un ennemi, tous les personnages de l'équipe bénéficient d'un <color=#F39000FF>bonus de DGT Dendro de 10 %</color> pendant 10 s. Cet effet peut être déclenché une fois toutes les 5 s et cumulé 4 fois maximum. En obtenant 4 cumuls, lorsqu'un personnage inflige des DGT Dendro à un ennemi, <color=#F39000FF>une onde de choc est libérée</color> à son emplacement, infligeant des DGT réels. L'onde de choc peut être libérée une fois toutes les 5 s de cette manière."
     ],
     "Icon": "UI_TowerBlessing_54"
   },
@@ -1046,7 +1110,7 @@
     "Close": "2023-03-16T03:59:59+08:00",
     "BuffName": "Lune opulente",
     "Descriptions": [
-      "Lorsqu'un personnage déclenche une réaction de Propagation ou de Suractivation sur un ennemi, <color=#F39000FF>une onde de choc est libérée</color> à son emplacement, infligeant des DGT réels. L'onde de choc peut être déclenchée une fois toutes les 3 s de cette manière."
+      "Lorsqu'un personnage déclenche une réaction de Propagation ou de Suractivation sur un ennemi, <color=#F39000FF>une onde de choc est libérée</color> à son emplacement, infligeant des DGT réels. L'onde de choc peut être libérée une fois toutes les 3 s de cette manière."
     ],
     "Icon": "UI_TowerBlessing_60"
   },
@@ -1113,21 +1177,5 @@
       "Lorsqu'un personnage a déclenché une réaction de Fleurissement, les DGT infligés par les réactions de Fleurissement, d'Exubérance et de Bourgeonnement de tous les personnages de l'équipe <color=#F39000FF>augmentent de 35 %</color> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 4 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
     ],
     "Icon": "UI_TowerBlessing_64"
-  },
-  {
-    "Id": 70,
-    "Floors": [
-      1044,
-      1045,
-      1058,
-      1059
-    ],
-    "Open": "2023-05-16T04:00:00+08:00",
-    "Close": "2023-06-01T03:59:59+08:00",
-    "BuffName": "Lune florissante",
-    "Descriptions": [
-      "Lorsque des DGT infligés par un noyau Dendro (incluant Bourgeonnement et Exubérance) touchent un personnage, la maîtrise élémentaire de tous les personnages de l'équipe <color=#F39000FF>augmente de 200 pts</color> pendant 4 s."
-    ],
-    "Icon": "UI_TowerBlessing_65"
   }
 ]

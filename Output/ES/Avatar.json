@@ -428,7 +428,7 @@
           "Proud": {
             "Descriptions": [
               "Coste de Aguante al activar|{param1:F1} pts.",
-              "Consumo de Aguante|{param2:F1} pts./s",
+              "Coste de Aguante|{param2:F1} pts./s",
               "Duración del elemento imbuido|{param3:F1} s"
             ],
             "Parameters": [
@@ -874,7 +874,7 @@
         },
         {
           "Title": "Más sobre Kamisato Ayaka (IV)",
-          "Context": "Mi madre era una persona increíble. Era tan solemne y elegante... Siempre sonreía, se enfrentase a lo que se enfrentase. Tenía tantas cosas de las que encargarse en el clan y, aun así, siempre se lo tomaba todo con calma, como si nada la perturbarse. No sería exagerado decir que era una persona perfecta. *Suspira*, pero cuando falleció, me di cuenta de que... ya no podía esconderme detrás de ella. Ya no era la pequeña Ayaka."
+          "Context": "Mi madre era una persona increíble. Era tan solemne y elegante... Siempre sonreía, se enfrentase a lo que se enfrentase. Tenía tantas cosas de las que encargarse en el clan y, aun así, siempre se lo tomaba todo con calma, como si nada la perturbase. No sería exagerado decir que era una persona perfecta. *Suspira*, pero cuando falleció, me di cuenta de que... ya no podía esconderme detrás de ella. Ya no era la pequeña Ayaka."
         },
         {
           "Title": "Más sobre Kamisato Ayaka (V)",
@@ -1028,7 +1028,7 @@
         },
         {
           "Title": "Historia del personaje (1)",
-          "Context": "En Inazuma, todos los asuntos de estado que no dependen de la Shogun Raiden son administrados en gran medida por el Consejo Triarcal.\nLos poderes ejecutivos de este organismo se dividen, a su vez, entre tres grupos conocidos como el “Triunvirato”: la Comisión Yashiro, la Comisión Tenryou y la Comisión Kanjou.\nLos tres clanes que tienen poder sobre estas Comisiones son el clan Kamisato, el Kujou y el Hiiragi. Estos tres grandes clanes son conocidos en toda Inazuma.\nKamisato Ayaka es la descendiente del clan Kamisato de la Comisión Yashiro, y es conocida como la Princesa Garza.\nEn cuanto al porqué de tal apodo, cada persona de Inazumana tiene su propia explicación.\n“La señorita Ayaka es tan grácil y pura como una garza. No hay más que ver su elegancia y su inteligente y correcta forma de hablar. ¿Cómo alguien así no iba a ser nombrada princesa?”.\n“La señorita Ayaka puede haber nacido en una familia noble, pero es elegante y educada con nosotros. Es amable, leal y está dispuesta a ayudar a los demás. Es más, incluso acogió a ese plebeyo, Thoma, en contra de la opinión de algunas personas”.\nHay tantas opiniones como personas, pero nadie es capaz de decir de dónde surgió realmente el apodo de “Princesa Garza”."
+          "Context": "En Inazuma, todos los asuntos de estado que no dependen de la Shogun Raiden son administrados en gran medida por el Consejo Triarcal.\nLos poderes ejecutivos de este organismo se dividen, a su vez, entre tres grupos conocidos como el “Triunvirato”: la Comisión Yashiro, la Comisión Tenryou y la Comisión Kanjou.\nLos tres clanes que tienen poder sobre estas Comisiones son el clan Kamisato, el Kujou y el Hiiragi. Estos tres grandes clanes son conocidos en toda Inazuma.\nKamisato Ayaka es la descendiente del clan Kamisato de la Comisión Yashiro, y es conocida como la Princesa Garza.\nEn cuanto al porqué de tal apodo, cada persona de Inazuma tiene su propia explicación.\n“La señorita Ayaka es tan grácil y pura como una garza. No hay más que ver su elegancia y su inteligente y correcta forma de hablar. ¿Cómo alguien así no iba a ser nombrada princesa?”.\n“La señorita Ayaka puede haber nacido en una familia noble, pero es elegante y educada con nosotros. Es amable, leal y está dispuesta a ayudar a los demás. Es más, incluso acogió a ese plebeyo, Thoma, en contra de la opinión de algunas personas”.\nHay tantas opiniones como personas, pero nadie es capaz de decir de dónde surgió realmente el apodo de “Princesa Garza”."
         },
         {
           "Title": "Historia del personaje (2)",
@@ -6496,8 +6496,8 @@
               "Daño de 4.º golpe|{param4:P}",
               "Daño de ATQ Cargado en ciclo|{param5:F1P}",
               "Daño final de Ataque Cargado|{param6:P}",
-              "Coste de Aguante de ATQ Cargado|{param7:F1} pts./s",
-              "Duración máx.|{param8:F1} s",
+              "#Coste de Aguante de ATQ Cargado|{param7:F1}{NON_BREAK_SPACE}pts./s",
+              "#Duración máx.|{param8:F1}{NON_BREAK_SPACE}s",
               "Daño de Caída|{param9:F1P}",
               "Daño de impacto de caída baja/alta|{param10:P}/{param11:P}"
             ],
@@ -6749,15 +6749,15 @@
           "Id": 10202,
           "GroupId": 2032,
           "Name": "Garra y trueno",
-          "Description": "#Caza su presa usando las técnicas que le enseñó su maestro y su lupical.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nAtaca con las garras del Lobo del Trueno, infligiendo <color=#FFACFFFF>Daño Electro</color> a los enemigos frente a Razor.\nAl golpear a un enemigo, Razor obtendrá una insignia Electro, la cual aumentará su Recarga de Energía.\nRazor puede tener hasta 3 insignias Electro al mismo tiempo. Obtener una nueva insignia Electro reiniciará su duración.\n\n<color=#FFD780FF>Mantener pulsado</color>\nReúne energía eléctrica para desatar una tormenta de rayos sobre una AdE, infligiendo una gran cantidad de <color=#FFACFFFF>Daño Electro</color>, y eliminando todas las insignias Electro de Razor.\nCada insignia Electro eliminada de esta manera se convertirá en Energía Elemental.\n\n<i>En el momento en que cae el rayo , a veces se puede ver en lo más profundo de los ojos de Razor la mirada de un depredador observando a su presa.</i>",
+          "Description": "#Caza su presa usando las técnicas que le enseñó su maestro y su lupical.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nAtaca con las garras del Lobo del Trueno, infligiendo <color=#FFACFFFF>Daño Electro</color> a los enemigos frente a Razor.\nAl golpear a un enemigo, Razor obtendrá una carga Electro, la cual aumentará su Recarga de Energía.\nRazor puede tener hasta 3 cargas Electro al mismo tiempo. Obtener una nueva carga Electro reiniciará su duración.\n\n<color=#FFD780FF>Mantener pulsado</color>\nReúne energía eléctrica para desatar una tormenta de rayos sobre una AdE, infligiendo una gran cantidad de <color=#FFACFFFF>Daño Electro</color>, y eliminando todas las cargas Electro de Razor.\nCada carga Electro eliminada de esta manera se convertirá en Energía Elemental.\n\n<i>En el momento en que cae el rayo , a veces se puede ver en lo más profundo de los ojos de Razor la mirada de un depredador observando a su presa.</i>",
           "Icon": "Skill_S_Razor_01",
           "Proud": {
             "Descriptions": [
               "#Daño de habilidad {LAYOUT_MOBILE#por toque}{LAYOUT_PC#al pulsar una vez}{LAYOUT_PS#al pulsar una vez}|{param1:P}",
               "Daño de habilidad al mantener pulsado|{param2:P}",
-              "Aumento de Rec. de Energía|{param3:P} por insignia Electro",
-              "Energía recuperada|{param4:F1} pts. por insignia Electro absorbida",
-              "Duración de insignia Electro|{param5:F1} s",
+              "Aumento de Rec. de Energía|{param3:P} por carga Electro",
+              "Energía recuperada|{param4:F1} pts. por carga Electro absorbida",
+              "Duración de carga Electro|{param5:F1} s",
               "#TdE {LAYOUT_MOBILE#por toque}{LAYOUT_PC#al pulsar una vez}{LAYOUT_PS#al pulsar una vez}|{param6:F1} s",
               "TdE de mantener pulsado|{param7:F1} s"
             ],
@@ -6950,7 +6950,7 @@
         "Id": 10203,
         "GroupId": 2039,
         "Name": "Colmillo relámpago",
-        "Description": "Razor invoca a su lobo interior, infligiendo <color=#FFACFFFF>Daño Electro</color> a todos los enemigos cercanos. Esto elimina todas sus insignias Electro, que se convertirán en Energía Elemental.\nEl lobo interior luchará junto a Razor mientras dure la habilidad.\n\n<color=#FFD780FF>Lobo interior</color>\n·Ataca junto a los Ataques Normales de Razor, infligiendo <color=#FFACFFFF>Daño Electro</color>.\n·Aumenta la Vel. de Ataque de Razor y su <color=#FFACFFFF>RES Electro</color>.\n·Hace que Razor sea inmune al daño que recibe por la reacción de <color=#FFACFFFF>Electrocargado</color>.\n·Desactiva los Ataques Cargados de Razor.\n·Aumenta la RES a interrupción de Razor.\n\nEstos efectos terminan cuando Razor abandona el campo de batalla.\nAl hacerlo, obtendrá una cierta cantidad de Energía Elemental en proporción a la duración restante de la habilidad. Razor solo podrá recuperar un máximo de 10 pts. de Energía de esta manera.\n\n<i>El lobo se ha despertado. La cacería está en marcha.</i>",
+        "Description": "Razor invoca a su lobo interior, infligiendo <color=#FFACFFFF>Daño Electro</color> a todos los enemigos cercanos. Esto elimina todas sus cargas Electro, que se convertirán en Energía Elemental.\nEl lobo interior luchará junto a Razor mientras dure la habilidad.\n\n<color=#FFD780FF>Lobo interior</color>\n·Ataca junto a los Ataques Normales de Razor, infligiendo <color=#FFACFFFF>Daño Electro</color>.\n·Aumenta la Vel. de Ataque de Razor y su <color=#FFACFFFF>RES Electro</color>.\n·Hace que Razor sea inmune al daño que recibe por la reacción de <color=#FFACFFFF>Electrocargado</color>.\n·Desactiva los Ataques Cargados de Razor.\n·Aumenta la RES a interrupción de Razor.\n\nEstos efectos terminan cuando Razor abandona el campo de batalla.\nAl hacerlo, obtendrá una cierta cantidad de Energía Elemental en proporción a la duración restante de la habilidad. Razor solo podrá recuperar un máximo de 10 pts. de Energía de esta manera.\n\n<i>El lobo se ha despertado. La cacería está en marcha.</i>",
         "Icon": "Skill_E_Razor_01",
         "Proud": {
           "Descriptions": [
@@ -6958,8 +6958,8 @@
             "Daño del espíritu del lobo|{param2:F1P} de daño de ATQ Normal",
             "Aumento de Vel. de ATQ Normal|{param3:P}",
             "Aumento de RES Electro|{param4:P}",
-            "Duración|{param5:F1} s",
-            "TdE|{param6:F1} s",
+            "#Duración|{param5:F1}{NON_BREAK_SPACE}s",
+            "#TdE|{param6:F1}{NON_BREAK_SPACE}s",
             "Energía Elemental|{param7:I}"
           ],
           "Parameters": [
@@ -7212,7 +7212,7 @@
         {
           "Id": 203,
           "Name": "Alma de la bestia",
-          "Description": "Aumenta el nivel de habilidad de <color=#FFD780FF>Colmillo relámpago</color> +3.\nPuede ser aumentado hasta Niv. 15.",
+          "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Colmillo relámpago</color> +3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
           "Icon": "UI_Talent_U_Razor_02"
         },
         {
@@ -7224,20 +7224,20 @@
         {
           "Id": 205,
           "Name": "Garras afiladas",
-          "Description": "Aumenta el nivel de habilidad de <color=#FFD780FF>Garra y trueno</color> +3.\nPuede ser aumentado hasta Niv. 15.",
+          "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Garra y trueno</color> +3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
           "Icon": "UI_Talent_U_Razor_01"
         },
         {
           "Id": 206,
           "Name": "Lupus fulguris",
-          "Description": "La espada de Razor se carga de electricidad cada 10 s, lo que hace que su próximo Ataque Normal libere un rayo que inflige un 100% del ATQ como <color=#FFACFFFF>Daño Electro</color>.\nCuando no está bajo los efectos de <color=#FFD780FF>Colmillo relámpago</color>, cada rayo añade 1 insignia Electro a <color=#FFD780FF>Garra y trueno</color>.",
+          "Description": "La espada de Razor se carga de electricidad cada 10 s, lo que hace que su próximo Ataque Normal libere un rayo que inflige un 100% del ATQ como <color=#FFACFFFF>Daño Electro</color>.\nCuando no está bajo los efectos de <color=#FFD780FF>Colmillo relámpago</color>, cada rayo añade 1 carga Electro a <color=#FFD780FF>Garra y trueno</color>.",
           "Icon": "UI_Talent_S_Razor_04"
         }
       ]
     },
     "FetterInfo": {
       "Title": "El Niño-lobo",
-      "Detail": "Un niño que vive entre los lobos en el Reino de los Lobos de Mondstadt, lejos de la civilización. Es ágil como un relámpago.",
+      "Detail": "Un chico que vive entre los lobos en el Reino de los Lobos de Mondstadt, lejos de la civilización. Es ágil como un relámpago.",
       "Association": "ASSOC_TYPE_MONDSTADT",
       "Native": "Reino de los Lobos",
       "BirthMonth": 9,
@@ -7310,7 +7310,7 @@
         },
         {
           "Title": "Sobre Razor...",
-          "Context": "Soy un lobo. No tengo papá humano o mamá humana."
+          "Context": "Yo ser un lobo. No tener papá humano o mamá humana."
         },
         {
           "Title": "Sobre nosotros - Amigos",
@@ -7346,7 +7346,7 @@
         },
         {
           "Title": "Sobre Venti...",
-          "Context": "No entiendo poemas, pero a lupical le gusta."
+          "Context": "No entender poemas, pero a lupical gustarle."
         },
         {
           "Title": "Sobre Bennett...",
@@ -7378,11 +7378,11 @@
         },
         {
           "Title": "Más sobre Razor (IV)",
-          "Context": "Lupical, mi única familia. Yo ser lupical, pero no tengo cuatro patas. No soy lobo de verdad. Por eso, a veces yo triste."
+          "Context": "Lupical, mi única familia. Yo ser lupical, pero no tener cuatro patas. No ser lobo de verdad. Por eso, a veces yo triste."
         },
         {
           "Title": "Más sobre Razor (V)",
-          "Context": "#Yo muy contento cuando correr y cazar con tú. No soy lobo, no soy humano, soy yo.\nTú mi amig{F#a}{M#o}, tú también mi lupical. Quiero que tú feliz, ¿sí?"
+          "Context": "#Yo muy contento cuando correr y cazar con tú. No ser lobo, no ser humano, yo ser yo.\nTú mi amig{F#a}{M#o}, tú también mi lupical. Quiero que tú feliz, ¿sí?"
         },
         {
           "Title": "Aficiones de Razor...",
@@ -7390,7 +7390,7 @@
         },
         {
           "Title": "Preocupaciones de Razor...",
-          "Context": "Hablar es cansado y difícil, pero hablar es necesario."
+          "Context": "Hablar ser cansado y difícil, pero hablar ser necesario."
         },
         {
           "Title": "Comida que más le gusta...",
@@ -7398,7 +7398,7 @@
         },
         {
           "Title": "Comida que menos le gusta...",
-          "Context": "Verdura sabe mal. Yo comer animal que come verdura."
+          "Context": "Verdura saber mal. Yo comer animal que come verdura."
         },
         {
           "Title": "Al recibir un regalo (I)",
@@ -7414,7 +7414,7 @@
         },
         {
           "Title": "Cumpleaños...",
-          "Context": "Hoy ser tu... día que naciste hace muchos, muchos meses. Hoy yo hacerte feliz. ¿Comemos carne?"
+          "Context": "Hoy ser tu... día que naciste hace muchas, muchas lunas. Hoy yo hacerte feliz. ¿Comemos carne?"
         },
         {
           "Title": "El sentimiento de Ascensión - Introducción",
@@ -7458,7 +7458,7 @@
         },
         {
           "Title": "Habilidad Definitiva (III)",
-          "Context": "*Ruge*"
+          "Context": "*Ruge*."
         },
         {
           "Title": "Habilidad Definitiva (IV)",
@@ -7540,15 +7540,15 @@
         },
         {
           "Title": "Historia del personaje (3)",
-          "Context": "Su pacífica vida solo se vio perturbada el día en que apareció un hombre muy grande ante la manada de lobos.\nRazor no lo conocía, solo sabía que era un humano. El hombre le dirigió una sonrisa amistosa mientras le tendía la mano.\n“¿Qué tal si vuelves conmigo a Mondstadt?”.\nPero ni Razor ni los lobos entendieron su gesto. Los lobos se colocaron entre Razor y el hombre para mantenerlo alejado.\nLa manada de lobos lo protegió.\nRazor miró su propio cuerpo y luego el del hombre a través de los huecos entre el pelaje de sus parientes.\nRazor sabe que no es muy inteligente, pero sí hay una pregunta que le lleva rondando por la mente desde aquel día.\n“¿Soy un humano o un lobo?”"
+          "Context": "Su pacífica vida solo se vio perturbada el día en que apareció un hombre muy grande ante la manada de lobos.\nRazor no lo conocía, solo sabía que era un humano. El hombre le dirigió una sonrisa amistosa mientras le tendía la mano.\n“¿Qué tal si vuelves conmigo a Mondstadt?”.\nPero ni Razor ni los lobos entendieron su gesto. Los lobos se colocaron entre Razor y el hombre para mantenerlo alejado.\nLa manada de lobos lo protegió.\nRazor miró su propio cuerpo y luego el del hombre a través de los huecos entre el pelaje de sus parientes.\nRazor sabe que no es muy inteligente, pero sí hay una pregunta que le lleva rondando por la mente desde aquel día.\n“¿Soy un humano o un lobo?”."
         },
         {
           "Title": "Historia del personaje (4)",
-          "Context": "El nombre de “Razor” lo obtuvo de aquel hombre.\nUn simple chico lobo nunca podría entender las complejidades del lenguaje humano, pero, a juzgar por la expresión de la cara que puso el hombre al pronunciarlo, Razor sabía que el nombre era para sí mismo.\n“Ra... zor”.\nLas sombras de los árboles del Reino de los Lobos se acortaron y luego se alargaron.\nEl hombre le enseñó a Razor cómo blandir una espada. La torpe “garra de hierro” era lo suficientemente afilada como para cortar una rama en dos.\n“Protege a tus amigos”.\n“A... mi... gos...”\nRazor repitió las palabras después del hombre, sin saber lo que quería decir.\nTampoco entendió si los nombres eran importantes o no. Después de todo, nunca aprendió el nombre de ese señor."
+          "Context": "El nombre de “Razor” lo obtuvo de aquel hombre.\nUn simple niño-lobo nunca podría entender las complejidades del lenguaje humano, pero a juzgar por la expresión de la cara que puso el hombre al pronunciarlo, Razor sabía que el nombre era para sí mismo.\n“Ra... zor”.\nLas sombras de los árboles del Reino de los Lobos se acortaron y luego se alargaron.\nEl hombre le enseñó a Razor cómo blandir una espada. La torpe “garra de hierro” era lo suficientemente afilada como para cortar una rama en dos.\n“A partir de ahora, puedes proteger a tus amigos”.\n“A... mi... gos...”.\nRazor repitió las palabras después del hombre, sin saber lo que querían decir.\nTampoco entendió si los nombres eran importantes o no. Después de todo, nunca aprendió el nombre de ese señor."
         },
         {
           "Title": "Historia del personaje (5)",
-          "Context": "“¿Qué ser... amigos?”,\nle intentó preguntar una vez Razor a su nuevo mentor usando su limitado vocabulario.\nEl hombre, que iba vestido de violeta, lo sabía todo, desde cómo hacer tortilla de papas con papas recién recolectadas, hasta el nombre de la estrella más brillante durante el verano.\nSin embargo, Lisa, su otra mentora, solo bostezó y sonrió.\nRazor pensaba en ello día y noche, sin excepción, pero nunca fue capaz de resolverlo.\nHasta que, un día, Razor conoció a una chica que vestía de rojo.\nEstaban siempre juntos, lloviese o hiciera sol, y solían jugar a dar volteretas por los arbustos con ganchos de lobo.\nSu nombre era Klee. Cuando jugaban juntos, Razor sentía como si volviera a los simples placeres de los que disfrutaba con sus parientes cuando era joven.\n“Amigos... es... lupical”.\nRazor quizás no comprendía la complejidad de las relaciones humanas, pero, sin duda, tenía la lealtad de una bestia.\n“Lupical... proteger amigos... con su vida”.\nLa manada de lobos aulló en la distancia, llamándolo de vuelta a casa.\nRazor ya no sabía si era un hombre o un lobo.\nPero ¿qué tiene eso de malo?"
+          "Context": "“¿Qué ser... amigos?”, le intentó preguntar una vez Razor a su nueva mentora usando su limitado vocabulario.\nAquella persona, que iba vestida de violeta, lo sabía todo, desde cómo hacer tortilla de papas con papas recién recolectadas, hasta el nombre de la estrella más brillante durante el verano.\nSin embargo, Lisa, su mentora, solo bostezó y sonrió.\nRazor pensaba en ello día y noche, sin excepción, pero nunca fue capaz de resolverlo.\nHasta que, un día, Razor conoció a una chica que vestía de rojo.\nEstaban siempre juntos, lloviese o hiciera sol, y solían jugar a dar volteretas por los arbustos con ganchos de lobo.\nSu nombre era Klee. Cuando jugaban juntos, Razor sentía como si volviera a los simples placeres de los que disfrutaba con sus padres cuando era joven.\n“Amigos... es... lupical”.\nRazor quizás no comprendía la complejidad de las relaciones humanas, pero sin duda, tenía la lealtad de una bestia.\n“Lupical... proteger amigos... con su vida”.\nLa manada de lobos aulló en la distancia, llamándolo de vuelta a casa.\nRazor ya no sabía si era un hombre o un lobo.\nPero ¿qué tiene eso de malo?"
         },
         {
           "Title": "Cofre de madera de Razor",
@@ -7556,7 +7556,7 @@
         },
         {
           "Title": "Visión",
-          "Context": "La historia de cómo Razor obtuvo su Visión es uno de los pocos recuerdos que desearía poder olvidar.\nUn día, durante una tormenta eléctrica, un Mago del Abismo le tendió una emboscada por detrás y se lo llevó. La manada de lobos corrió en su auxilio y luchó sin miedo, pero todos ellos fueron derrotados por el Mago del Abismo.\nMientras miraba impotente cómo sus queridos compañeros eran heridos, Razor dejó escapar un rugido poderoso como el de una fiera acorralada.\n“¡Mi lupical!”.\nAlimentado por su furia, un poder similar a un rayo creció en su interior, y de repente una sobrecarga de energía elemental fluía dentro de él.\nEstaba listo para protegerlos y vengarse.\nSe quitó los grilletes y empuñó su arma.\nEl Mago del Abismo fue abrumado por ataques Electro que venían en todas direcciones y fue derrotado, pero ya era demasiado tarde para salvar a los lobos compañeros de Razor.\n...\nAunque había obtenido una Visión, Razor aún no podía manipular la energía Electro con sutileza. Un día, muchas lunas después, cuando conoció a Lisa, la Bruja de las Rosas, comenzó a estudiar el conocimiento humano.\n“Amigos heridos... ¡Nunca más! Yo... proteger a ellos”.\nDía tras día, Razor se volvió más hábil en el uso de su Visión, y se prometió a sí mismo en silencio: “Yo más fuerte. Más fuerte de todos”.\nPorque podría llegar el día en que su lupical se enfrentara a otra amenaza, y ese día él los protegerá."
+          "Context": "La historia de cómo Razor obtuvo su Visión es uno de los pocos recuerdos que desearía poder olvidar.\nUn día, durante una tormenta eléctrica, un Mago del Abismo le tendió una emboscada por detrás y se lo llevó. La manada de lobos corrió en su auxilio y luchó sin miedo, pero todos ellos fueron derrotados por el Mago del Abismo.\nMientras miraba impotente cómo sus queridos compañeros eran heridos, Razor dejó escapar un rugido poderoso como el de una fiera acorralada.\n“¡Mi lupical!”.\nAlimentado por la furia, un poder similar a un rayo creció en su interior, y de repente una sobrecarga de energía elemental fluía dentro de él.\nEstaba listo para protegerlos y vengarse.\nSe quitó los grilletes y empuñó su arma.\nEl Mago del Abismo fue abrumado por ataques Electro que venían de todas direcciones y fue derrotado, pero ya era demasiado tarde para salvar a los lobos compañeros de Razor.\n...\nAunque había obtenido una Visión, Razor aún no podía manipular la energía Electro con destreza. Muchas lunas después, cuando conoció a Lisa, la Bruja de las Rosas, comenzó a estudiar el conocimiento humano.\n“Amigos heridos... ¡Nunca más! Yo... proteger a ellos”.\nDía tras día, Razor se volvió más hábil en el uso de su Visión, y se prometió a sí mismo en silencio: “Yo más fuerte. Más fuerte de todos”, porque puede llegar el día en que su lupical se enfrente a otra amenaza, y ese día él los protegerá."
         }
       ]
     },
@@ -15633,7 +15633,7 @@
           "Id": 292101,
           "GroupId": 0,
           "Name": "Regalo explosivo",
-          "Description": "Cuando se inflige daño con <color=#FFD780FF>Bomba saltarina</color> y Ataque Normal, hay una probabilidad del 50% de que Klee obtenga una flor explosiva.\nEl siguiente Ataque Cargado consumirá esta flor explosiva sin ningún coste de Aguante y tendrá un aumento de daño del 50%.",
+          "Description": "Cuando se inflige daño con <color=#FFD780FF>Bomba saltarina</color> y Ataque Normal, hay una probabilidad del 50% de que Klee obtenga una flor explosiva.\nEl siguiente Ataque Cargado consumirá esta flor explosiva sin ningún Coste de Aguante y tendrá un aumento de daño del 50%.",
           "Icon": "UI_Talent_S_Klee_05",
           "Proud": {
             "Descriptions": [],
@@ -20849,8 +20849,8 @@
               "Daño de 4.º golpe|{param4:P}",
               "Daño de ATQ Cargado en ciclo|{param5:F1P}",
               "Daño final de Ataque Cargado|{param6:F1P}",
-              "Coste de Aguante de ATQ Cargado|{param7:F1} pts./s",
-              "Duración máx.|{param8:F1} s",
+              "#Coste de Aguante de ATQ Cargado|{param7:F1}{NON_BREAK_SPACE}pts./s",
+              "#Duración máx.|{param8:F1}{NON_BREAK_SPACE}s",
               "Daño de Caída|{param9:F1P}",
               "Daño de impacto de caída baja/alta|{param10:P}/{param11:P}"
             ],
@@ -21107,11 +21107,11 @@
           "Proud": {
             "Descriptions": [
               "Daño de habilidad|{param6:P} de DEF",
-              "Absorción|{param1:P} de DEF + {param7:I}",
-              "Curación|{param2:F1P} de DEF + {param8:I}",
+              "#Absorción|{param1:P} de DEF{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param7:I}",
+              "#Curación|{param2:F1P} de DEF{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param8:I}",
               "Prob. de curación|{param3:P}",
-              "Duración|{param4:F1} s",
-              "TdE|{param5:F1} s"
+              "#Duración|{param4:F1}{NON_BREAK_SPACE}s",
+              "#TdE|{param5:F1}{NON_BREAK_SPACE}s"
             ],
             "Parameters": [
               {
@@ -21324,8 +21324,8 @@
             "Daño instantáneo|{param1:F1P}",
             "Daño de habilidad|{param2:F1P}",
             "Aumento de ATQ|{param3:P} de DEF",
-            "Duración|{param4:F1} s",
-            "TdE|{param5:F1} s",
+            "#Duración|{param4:F1}{NON_BREAK_SPACE}s",
+            "#TdE|{param5:F1}{NON_BREAK_SPACE}s",
             "Energía Elemental|{param6:I}"
           ],
           "Parameters": [
@@ -21502,7 +21502,7 @@
           "Id": 342101,
           "GroupId": 0,
           "Name": "De todo corazón",
-          "Description": "Si la Vida de tu personaje en uso es inferior al 30% cuando Noelle está en tu equipo pero no en combate:\n·Dicho personaje en uso recibirá inmediatamente un escudo de una duración de 20 s que absorbe un daño equivalente al 400% de la DEF de Noelle.\n·El escudo tiene un 150% de efectividad de absorción contra todo el Daño Elemental y el Daño Físico.\n·Este efecto solo puede ocurrir una vez cada 60 s.",
+          "Description": "#Si la Vida de tu personaje en uso es inferior al 30% cuando Noelle está en tu equipo pero no en combate:\n·Dicho personaje en uso recibirá inmediatamente un escudo con una duración de 20{NON_BREAK_SPACE}s que absorbe un daño equivalente al 400% de la DEF de Noelle.\n·El escudo tiene un 150% de efectividad de absorción contra todo el Daño Elemental y el Daño Físico.\n·Este efecto solo puede ocurrir una vez cada 60{NON_BREAK_SPACE}s.",
           "Icon": "UI_Talent_S_Noel_05",
           "Proud": {
             "Descriptions": [],
@@ -21523,7 +21523,7 @@
           "Id": 342201,
           "GroupId": 0,
           "Name": "Pulcra y eficaz",
-          "Description": "Por cada 4 veces consecutivas que Noelle golpee a un enemigo con sus Ataques Normales o Cargados, el TdE de <color=#FFD780FF>Guardiana del corazón</color> se reduce en 1 s.\nComo máximo, cada golpe solo puede ocurrir una vez cada 0.1 s.",
+          "Description": "#Por cada 4 veces consecutivas que Noelle golpee a un enemigo con sus Ataques Normales o Cargados, el TdE de <color=#FFD780FF>Guardiana del corazón</color> se reduce en 1{NON_BREAK_SPACE}s.\nComo máximo, solo puede ocurrir una vez cada 0.1{NON_BREAK_SPACE}s.",
           "Icon": "UI_Talent_S_Noel_06",
           "Proud": {
             "Descriptions": [],
@@ -21564,13 +21564,13 @@
         {
           "Id": 342,
           "Name": "Torbellino de la criada",
-          "Description": "Reduce en un 20% el coste de Aguante del Ataque Cargado de Noelle, y aumenta en un 15% el daño infligido con dicho ataque.",
+          "Description": "Reduce en un 20% el Coste de Aguante del Ataque Cargado de Noelle, y aumenta en un 15% el daño infligido con dicho ataque.",
           "Icon": "UI_Talent_S_Noel_02"
         },
         {
           "Id": 343,
           "Name": "Sin un rasguño",
-          "Description": "Aumenta el nivel de habilidad de <color=#FFD780FF>Guardiana del corazón</color> +3.\nPuede ser aumentado hasta Niv. 15.",
+          "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Guardiana del corazón</color> +3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
           "Icon": "UI_Talent_U_Noel_01"
         },
         {
@@ -21582,13 +21582,13 @@
         {
           "Id": 345,
           "Name": "Experta en limpieza",
-          "Description": "Aumenta el nivel de habilidad de <color=#FFD780FF>Hora de limpiar</color> +3.\nPuede ser aumentado hasta Niv. 15.",
+          "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Hora de limpiar</color> +3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
           "Icon": "UI_Talent_U_Noel_02"
         },
         {
           "Id": 346,
           "Name": "Debe quedar impoluto",
-          "Description": "<color=#FFD780FF>Hora de limpiar</color> aumenta el ATQ de Noelle en un 50% adicional de su DEF.\nAdemás, mientras dure la habilidad, su duración se extenderá en 1 s por cada enemigo derrotado (máx. 10 s).",
+          "Description": "#<color=#FFD780FF>Hora de limpiar</color> aumenta el ATQ de Noelle en un 50% adicional de su DEF.\nAdemás, mientras dure la habilidad, su duración se extenderá en 1{NON_BREAK_SPACE}s por cada enemigo derrotado (máx. 10{NON_BREAK_SPACE}s).",
           "Icon": "UI_Talent_S_Noel_04"
         }
       ]
@@ -21680,7 +21680,7 @@
         },
         {
           "Title": "#Sobre nosotr{F#as}{M#os} - Urgencia",
-          "Context": "#Por muy ocupad{F#a}{M#o} que esté, nunca se salte las tres comidas del día, nunca coma algo que no sepa de dónde procede y mantenga siempre un equilibrio entre la carne y la verdura que coma. Ah, y tampoco beba agua muy fría porque, según la gente de Liyue, es malo para el estómago. No estará pensando “¡Oh! Esta tarea es muy complicada. Le diré a Noelle si puede hacerla por mí”, ¿no? Porque si es así... Está bien, déjemelo a mí."
+          "Context": "#Por muy ocupad{F#a}{M#o} que esté, nunca se salte las tres comidas del día, nunca coma algo que no sepa de dónde procede y mantenga siempre un equilibrio entre la carne y la verdura que coma. Ah, y tampoco beba agua muy fría porque, según la gente de Liyue, es malo para el estómago. No estará pensando “¡oh! Esta tarea es muy complicada. Le diré a Noelle si puede hacerla por mí”, ¿verdad? Porque si es así... Está bien, déjemelo a mí."
         },
         {
           "Title": "#Sobre nosotr{F#as}{M#os} - Fiesta de bienvenida",
@@ -21716,7 +21716,7 @@
         },
         {
           "Title": "Sobre Kaeya...",
-          "Context": "¡Es una persona muy misteriosa! Viene y va como el viento, y siempre está ocupado con sus cosas. Me gusta que a veces delegue en mí algún que otro trabajito. Es agradable sentir que formo parte de su equipo, ¿sabe? ... ¿Qué quiere decir con “chica de los mandados”? ¡Yo en absoluto lo veo así! De acuerdo, bueno. Técnicamente, sí son mandados, pero, aun así, ¡es algo que aprecio mucho!"
+          "Context": "¡Es una persona muy misteriosa! Viene y va como el viento, y siempre está ocupado con sus cosas. Me gusta que a veces delegue en mí algunos trabajitos. Es agradable sentir que formo parte de su equipo, ¿sabe? ... ¿Qué quiere decir con “chica de los mandados”? ¡Yo en absoluto lo veo así! De acuerdo, bueno. Técnicamente, sí son mandados, pero aun así, ¡es algo que aprecio mucho!"
         },
         {
           "Title": "Sobre Bennett...",
@@ -21768,7 +21768,7 @@
         },
         {
           "Title": "Comida que menos le gusta...",
-          "Context": "No soy muy quisquillosa con la comida, pero no me gustan los banquetes... La razón es que, como criada, mi obligación es probar todos y cada uno de los platos para garantizar su calidad. Solo pruebo un bocado de cada uno, claro, pero, aun así, va directo a mi estómago... Me siento tan culpable después de comer tanto..."
+          "Context": "No soy muy quisquillosa con la comida, pero no me gustan los banquetes... La razón es que, como criada, mi obligación es probar todos y cada uno de los platos para garantizar su calidad. Solo pruebo un bocado de cada uno, claro, pero aun así, va directo a mi estómago... Me siento tan culpable después de comer tanto..."
         },
         {
           "Title": "Al recibir un regalo (I)",
@@ -21784,7 +21784,7 @@
         },
         {
           "Title": "Cumpleaños...",
-          "Context": "#Ya que siempre está tan ocupad{F#a}{M#o} con sus aventuras, seguro que hay cosas que no le da tiempo a hacer. Bueno, pues no se preocupe porque hoy soy toda suya. ¡Seré su criada exclusiva durante todo el día! ¡Déjamelo todo a mí! Ah, casi me olvido: ¡feliz cumpleaños!"
+          "Context": "#Ya que siempre está tan ocupad{F#a}{M#o} con sus aventuras, seguro que hay cosas que no le da tiempo a hacer. Bueno, pues no se preocupe porque hoy soy toda suya. ¡Seré su criada exclusiva durante todo el día! ¡Déjemelo todo a mí! Ah, casi me olvido: ¡feliz cumpleaños!"
         },
         {
           "Title": "El sentimiento de Ascensión - Introducción",
@@ -21812,7 +21812,7 @@
         },
         {
           "Title": "Habilidad Elemental (III)",
-          "Context": "Déjamelo a mí."
+          "Context": "Déjemelo a mí."
         },
         {
           "Title": "Habilidad Definitiva (I)",
@@ -21864,7 +21864,7 @@
         },
         {
           "Title": "Aliado con vida baja (II)",
-          "Context": "¡Déjamelo a mí! ¡Necesitas atención médica!"
+          "Context": "¡Déjemelo a mí! ¡Necesita atención médica!"
         },
         {
           "Title": "Derrotada (I)",
@@ -21884,7 +21884,7 @@
         },
         {
           "Title": "Unirse al equipo (I)",
-          "Context": "Oh, ¡qué emoción! *Ejem*"
+          "Context": "Oh, ¡qué emoción! *Ejem*..."
         },
         {
           "Title": "Unirse al equipo (II)",
@@ -21898,35 +21898,35 @@
       "FetterStories": [
         {
           "Title": "Detalles del personaje",
-          "Context": "A diferencia del resto de criadas normales y corrientes de los Caballeros, Noelle guarda en su corazón un sueño mucho más ambicioso.\nAl vivir en la ciudad que durante miles de años ha sido protegida por los Caballeros de Favonius, tanto ella como todos los jóvenes de Mondstadt ansían el día en que puedan ponerse esa honorable armadura.\nAunque no tenga las aptitudes suficientes para pasar el exigente proceso de selección, lo único que busca Noelle es acercarse cada vez más a los Caballeros para aprender de ellos.\nAparte de entrenar y estudiar, también disfruta de su vida en Mondstadt, yendo siempre de un sitio a otro para ayudar a todo aquel que necesite que le echen una mano.\nSu frase estrella es: “¡Déjamelo a mí! ¡Yo me encargo!”. Por eso, si alguien se encuentra en apuros, basta con gritar su nombre y ella acudirá a ayudar gustosamente."
+          "Context": "A diferencia del resto de criadas comunes y corrientes de los Caballeros, Noelle guarda en su corazón un sueño mucho más ambicioso.\nAl vivir en la ciudad que durante miles de años ha sido protegida por los Caballeros de Favonius, tanto ella como todos los jóvenes de Mondstadt ansían el día en que puedan ponerse esa honorable armadura.\nAunque no tenga las aptitudes suficientes para pasar el exigente proceso de selección, lo único que busca Noelle es acercarse cada vez más a los Caballeros para aprender de ellos.\nAparte de entrenar y estudiar, también disfruta de su vida en Mondstadt, yendo siempre de un sitio a otro para ayudar a todo aquel que necesite que le echen una mano.\nSu frase estrella es: “¡Déjamelo a mí! ¡Yo me encargo!”. Por eso, si alguien se encuentra en apuros, basta con gritar su nombre y ella acudirá a ayudar gustosamente."
         },
         {
           "Title": "Historia del personaje (1)",
-          "Context": "Noelle es “la criada de todas las criadas” para muchos.\nOtro punto en el que muchos están de acuerdo: “Noelle está en todas partes”.\nPor ejemplo, una vez en un banquete, un niño quería sacar un plato pero descubrió que no había forma de abrir el gabinete sin que se cayeran todos los platos...\n“¡¡Noelle!!”,\ngritó el niño, y en el acto apareció Noelle. Puso el gabinete tumbado en el suelo, sacó un plato, se lo entregó al niño recordándole que no tomara bebidas frías inmediatamente después de comer, enderezó el gabinete, limpió los otros platos y luego los volvió a poner en orden. .\nEstar en todas partes a la vez es algo milagroso para muchos.\nSin embargo, el trabajo de una criada no es algo digno de mitos o leyendas. Noelle solo hace su trabajo al pie de la letra.\n“Ni más ni menos. Como debería ser, no como no debería ser”.\nNoelle no se considera especial, solo que a veces piensa demasiado."
+          "Context": "Noelle es “la criada de todas las criadas” para muchos.\nTodo el mundo está de acuerdo en que Noelle está en todas partes.\nPor ejemplo, una vez en un banquete, un niño quería sacar un plato pero descubrió que no había forma de abrir el gabinete sin que se cayeran todos los platos...\n“¡Noelle!”, gritó el niño, y en el acto apareció ella. Puso el gabinete tumbado en el suelo, sacó un plato, se lo entregó al niño recordándole que no tomara bebidas frías inmediatamente después de comer, enderezó el gabinete, limpió los otros platos y luego los volvió a poner en orden.\nLa habilidad de Noelle de estar en todas partes a la vez es algo milagroso para muchos.\nSin embargo, el trabajo de una criada no es algo digno de mitos o leyendas. Noelle solo hace su trabajo al pie de la letra.\n“Ni más ni menos. Como debería ser, no como no debería ser”.\nNoelle no se considera especial, solo que a veces se complica la vida."
         },
         {
           "Title": "Historia del personaje (2)",
-          "Context": "Noelle siempre está dispuesta a brindar ayuda, a veces más de la necesaria.\nSi va de paso y le preguntan cómo hacer una fogata para cocinar, no solo ayudará a hacer la fogata, sino que pondrá la parrilla, sazonará la comida, la cocinará y la probará para asegurarse que quedó bien. Luego, antes de volver a sus asuntos, te recordará que apagues el fuego cuando termines para no quemar el bosque.\nA la mayoría de la gente no le importa que se esfuerce, por supuesto. Sin embargo, una vez ocurrió un hecho sorprendente.\nUn comerciante de Snezhnaya vino a Mondstadt deseando entrar en el negocio de los vinos. Sin embargo, su verdadera intención era destruir el negocio del vino en Mondstadt por completo, arruinando la tierra de los viñedos y ocupando el mercado con vinos de Snezhnaya.\nSe disfrazó como un comerciante honesto que viajaba con su familia a Mondstadt por un asunto de negocios. Como visitante de tierras lejanas, Noelle le dio una cálida recepción.\nInicialmente, el comerciante se sintió bastante feliz por la hospitalidad de Noelle, a diferencia de la falta de etiqueta de la mayoría de los campesinos en Mondstadt. Sin embargo, no pasó mucho tiempo antes de que comenzara a sospechar.\nElla parecía poder leer la mente del huésped: aprendió sus horarios de rutina, cocinaba los platos favoritos de su familia, e incluso hizo una muñeca con sus propias manos para la hija del comerciante, quien no podía conciliar el sueño si no dormía abrazada a una.\nEsto asustó al hombre de Snezhnaya, quien comenzó a dudar de ejecutar sus planes malvados. Las cálidas sonrisas de Noelle enfriaron al comerciante hasta los huesos, no sabiendo lo que sabía y lo que realmente tramaba.\nAl final, el comerciante huyó de Mondstadt con su familia.\nNoelle estuvo decepcionada por unos días, preguntándose si había molestado a sus invitados de alguna forma. Toda Mondstadt está en deuda con Noelle, por tomarse su trabajo tan en serio."
+          "Context": "Noelle siempre está dispuesta a brindar ayuda, a veces más de la necesaria.\nSi va de paso y le preguntan cómo hacer una fogata para cocinar, no solo ayudará a hacer la fogata, sino que pondrá la parrilla, sazonará la comida, la cocinará y la probará para asegurarse que quedó bien. Luego, antes de volver a sus asuntos, te recordará que apagues el fuego cuando termines para no quemar el bosque.\nA la mayoría de la gente no le importa que se esfuerce, por supuesto. Sin embargo, una vez ocurrió un hecho sorprendente.\nUn comerciante de Snezhnaya vino a Mondstadt deseando entrar en el negocio de los vinos. Sin embargo, su verdadera intención era destruir el negocio del vino en Mondstadt por completo, arruinando la tierra de los viñedos y ocupando el mercado con vinos de Snezhnaya.\nSe disfrazó como un comerciante honesto que viajaba con su familia a Mondstadt por un asunto de negocios. Como visitante de tierras lejanas, Noelle le dio una cálida recepción.\nInicialmente, el comerciante se sintió bastante feliz por la hospitalidad de Noelle, a diferencia de la falta de etiqueta de la mayoría de los campesinos en Mondstadt. Sin embargo, no pasó mucho tiempo antes de que comenzara a sospechar que algo andaba mal.\nElla parecía poder leer la mente del huésped: aprendió sus horarios de rutina, cocinaba los platos favoritos de su familia, e incluso hizo una muñeca con sus propias manos para la hija del comerciante, quien no podía conciliar el sueño si no dormía abrazada a una.\nEsto asustó al hombre de Snezhnaya, quien comenzó a dudar de ejecutar sus planes malvados. Las cálidas sonrisas de Noelle helaron al comerciante hasta los huesos, no sabiendo si ella estaba enterada de algo o lo que realmente tramaba.\nAl final, el comerciante huyó de Mondstadt con su familia.\nNoelle estuvo decepcionada por unos días, preguntándose si había molestado a sus invitados de alguna forma. Toda Mondstadt está en deuda con Noelle por tomarse su trabajo tan en serio."
         },
         {
           "Title": "Historia del personaje (3)",
-          "Context": "La mayoría de las veces, la fiabilidad de Noelle proporciona una presencia reconfortante, pero siempre hay excepciones.\nUna vez se enteró de que un aventurero estaba atrapado en Espinadragón, por lo que decidió preparar un rescate ella misma.\nLa tormenta de nieve ese día era excepcionalmente feroz; las huellas dejadas por los humanos en la nieve desaparecían casi tan pronto como levantaban el pie. Era imposible encontrar una ruta segura para continuar, y mucho menos encontrar al aventurero en medio de la nieve.\nSin embargo, Noelle persistió en buscarlo y finalmente lo encontró dentro de un cueva con hipotermia severa.\nEn ese momento, su abrigo estaba completamente empapado, y el agua dentro de su botella se había convertido en hielo. Muerta de hambre y sed, Noelle aún logró cargarse a ese aventurero a la espalda.\nEl aventurero se salvó, pero Noelle, que había hecho un esfuerzo sobrehumano, cayó enferma con una fiebre alta y estuvo en cama por tres días. Todos los Caballeros de Favonius apenas dormían preocupados por ella. Afortunadamente, Noelle se recuperó.\nNo era la primera ni la última vez que ocurrían cosas similares y todos se preocupaban mucho por Noelle.\nPara evitar que volviera a ponerse en peligro, Jean tuvo que inventar algunos trabajos seguros para mantener a Noelle ocupada. Si algo sucediera, entonces Kaeya tendría que prevenir la catástrofe.\nDurante la amenaza de Stormterror, Noelle también estaba dispuesta a cortar el problema de raíz; sin embargo, Kaeya logró organizar bastantes “asuntos urgentes” dentro de la ciudad para que ella se ocupara hasta que todo terminó."
+          "Context": "La mayoría de las veces, la fiabilidad de Noelle es reconfortante, pero siempre hay excepciones.\nUna vez se enteró de que un aventurero estaba atrapado en Espinadragón, por lo que decidió preparar un rescate ella misma.\nLa tormenta de nieve ese día era excepcionalmente feroz; las huellas dejadas por los humanos en la nieve desaparecían casi tan pronto como levantaban el pie. Era imposible encontrar una ruta segura para continuar, y mucho menos encontrar al aventurero en medio de la nieve.\nSin embargo, Noelle persistió en buscarlo y finalmente lo encontró dentro de un cueva con hipotermia severa.\nEn ese momento, su abrigo estaba completamente empapado, y el agua dentro de su botella se había convertido en hielo. Muerta de hambre y sed, Noelle aún logró cargarse a ese aventurero a la espalda.\nEl aventurero se salvó, pero Noelle, que había hecho un esfuerzo sobrehumano, cayó enferma con una fiebre alta y estuvo en cama por tres días. Todos los Caballeros de Favonius apenas dormían preocupados por ella. Afortunadamente, Noelle se recuperó.\nNo era la primera ni la última vez que ocurrían cosas similares y todos se preocupaban mucho por ella.\nPara evitar que volviera a ponerse en peligro, Jean tuvo que inventar algunos trabajos seguros para mantener a Noelle ocupada. Si algo sucediera, Kaeya tendría que prevenir la catástrofe.\nDurante la amenaza de Stormterror, Noelle también estaba dispuesta a cortar el problema de raíz; sin embargo, Kaeya logró organizar bastantes “asuntos urgentes” dentro de la ciudad para que ella se ocupara hasta que todo terminó."
         },
         {
           "Title": "Historia del personaje (4)",
-          "Context": "Noelle alberga una gran fuerza dentro de su pequeño cuerpo... No hablando metafóricamente, sino literalmente.\nEn una ocasión, un aparato de laboratorio de Lisa cayó debajo de una de las estanterías de la biblioteca. Lisa dudaba en arrastrarse por el suelo, perdiendo cualquier decoro femenino, pero Noelle vino y simplemente levantó el estante para que Lisa pudiera recuperar el instrumento. Desde que Noelle levantó el estante hasta ponerlo de vuelta, ningún libro se cayó.\nEn otra ocasión, cuando unas carretas de carga pasaron por las puertas laterales de Mondstadt, fueron atacados por Slimes Pyro y todo comenzó a arder. Una vez más, Noelle acudió al rescate, arrojando todas las carretas al Lago de Sidra antes de saltar y recuperar la carga.\nSe dice que fue Noelle quien casi hizo que Wagner, el maestro herrero, se retirara a vivir como un ermitaño en los bosques por depresión, porque sin importar la técnica o los materiales detrás de sus espadas, se doblaban con unos cuantos golpes de espada de Noelle.\nAl principio Wagner pensó que era porque Noelle no era buena con la espada, pero más tarde descubrió que era simplemente porque sus hojas no eran lo suficientemente resistentes. Entonces Wagner puso su reputación en juego y forjó una gran espada fuerte y robusta para Noelle, reforzada con Geo por ella misma.\nNo hay nada de que preocuparse, Noelle nunca haría uso de su increíble fuerza si no fuera necesario. A fin de cuentas, es una pacifista de corazón.\nSin embargo, se dice que el día en que Noelle recibió la gran espada de Wagner, fue asaltada por dos ladrones de tesoros ebrios en la Garganta de los Borrachos...\nNuestros pensamientos y oraciones están con esos pobres bandidos."
+          "Context": "Noelle alberga una gran fuerza dentro de su pequeño cuerpo... No hablando metafóricamente, sino literalmente.\nEn una ocasión, un aparato de laboratorio de Lisa cayó debajo de una de las estanterías de la biblioteca. Lisa dudaba en arrastrarse por el suelo, perdiendo cualquier decoro femenino, pero Noelle vino y simplemente levantó el estante para que Lisa pudiera recuperar el instrumento. Desde que Noelle levantó el estante hasta ponerlo de vuelta, ningún libro se cayó.\nEn otra ocasión, cuando unas carretas de carga pasaron por las puertas laterales de Mondstadt, fueron atacadas por Slimes Pyro y todo comenzó a arder. Una vez más, Noelle acudió al rescate, arrojando todas las carretas al Lago de Sidra antes de saltar y recuperar la carga.\nSe dice que fue Noelle quien casi hizo que Wagner, el maestro herrero, se retirara a vivir como un ermitaño en los bosques por depresión, porque sin importar la técnica o los materiales detrás de sus espadas, se doblaban con unos cuantos golpes de espada de Noelle.\nAl principio Wagner pensó que era porque Noelle no era buena con la espada, pero más tarde descubrió que era simplemente porque sus hojas no eran lo suficientemente resistentes. Entonces Wagner puso su reputación en juego y forjó una gran espada fuerte y robusta para Noelle, reforzada con Geo por ella misma.\nNo hay nada de que preocuparse, Noelle nunca haría uso de su increíble fuerza si no fuera necesario. A fin de cuentas, es una pacifista de corazón.\nSin embargo, se dice que el día en que Noelle recibió la gran espada de Wagner, fue asaltada por dos ladrones de tesoros ebrios en la Garganta de los Borrachos...\nNuestros pensamientos y oraciones están con esos pobres bandidos."
         },
         {
           "Title": "Historia del personaje (5)",
-          "Context": "El mayor enemigo de Noelle, curiosamente, no es una persona, sino el propio Ludi Harpastum.\nDurante la celebración del festival, se colocan unas grandes mesas circulares llenas de todo tipo de comida en la plaza que hay frente a la Catedral para el disfrute de todos.\nNormalmente, la comida la preparan voluntariamente personas con excelentes habilidades culinarias, y Noelle siempre se une a ellos para cocinar y servir comida sin parar.\nPara ella, el problema no es la carga de trabajo, sino que tiene que probar todos los platos y dar su visto bueno.\nLos crujientes pastelillos de luna, la chuleta de cerdo de Mondstadt, la imponente torre de Ludi, hecha con carne, queso y todo tipo de comida frita y asada que es tan deliciosa como poco saludable.\nLas sonrisas en los rostros de las personas hacen feliz a Noelle. Lo que no le hace tanta gracia es ver su abultada barriga...\nDespués del festival, Noelle se ofrece como voluntaria de la patrulla nocturna de los Caballeros de Favonius de Mondstadt.\nPuede que el festival haya terminado, pero sus batallas no."
+          "Context": "El mayor enemigo de Noelle, curiosamente, no es una persona, sino el propio Ludi Harpastum.\nDurante la celebración del festival, se colocan unas grandes mesas circulares llenas de todo tipo de comida en la plaza que hay frente a la Catedral para el disfrute de todos.\nNormalmente, la comida la preparan voluntariamente personas con excelentes habilidades culinarias, y Noelle siempre se une a ellos para cocinar y servir comida sin parar.\nPara ella, el problema no es la carga de trabajo, sino que tiene que probar todos los platos y dar su visto bueno.\nLos crujientes pastelillos de luna, la chuleta de cerdo de Mondstadt, la imponente torre de Ludi hecha con carne, queso y todo tipo de comida frita y asada que es tan deliciosa como poco saludable.\nLas sonrisas en los rostros de las personas hacen feliz a Noelle. Lo que no le hace tanta gracia es ver su abultada barriga...\nDespués del festival, Noelle se ofrece como voluntaria de la patrulla nocturna de los Caballeros de Favonius de Mondstadt.\nPuede que el festival haya terminado, pero sus batallas no."
         },
         {
           "Title": "“La advertencia de las rosas”",
-          "Context": "Las criadas de los Caballeros tienen muchas “líneas rojas” que no deben cruzar, y una de ellas es que la información personal de los Caballeros debe mantenerse en estricta confidencialidad.\nEsto no solo requiere restringir que personas ajenas a los Caballeros tengan acceso a esa información, sino que también se aplica a otros miembros de los Caballeros.\nPor ejemplo, lo que guarda Jean en sus aposentos, qué hay dentro del Barón Bunny de Amber, la cantidad de parches del ojo especiales que posee Kaeya, cuántos escondites de bombas tiene Klee... Todo ello es información confidencial.\nPara evitar que esa información se filtrara, Noelle usó una tela roja para hacer muchas rosas de tela, ya que en Mondstadt, esta flor simboliza que “mis labios están sellados como una botella en la que se guarda una rosa”.\nAdemás, también tejió una de esas rosas específicamente para su guantelete como recordatorio para sí misma.\nRevelar un secreto sería una grave negligencia del deber de una criada, y aquellos que aspiran a ser caballeros no pueden permitirse tales errores.\nAsí que, si quieres que Noelle te revele algún secreto, mejor ve olvidándote de ello. Jamás lo hará."
+          "Context": "Las criadas de los Caballeros tienen muchas “líneas rojas” que no deben cruzar, y una de ellas es que la información personal de los Caballeros debe mantenerse en estricta confidencialidad.\nEsto no solo requiere restringir que personas ajenas a los Caballeros tengan acceso a esa información, sino que también se aplica a otros miembros de los Caballeros.\nPor ejemplo, lo que guarda Jean en sus aposentos, qué hay dentro del Barón Bunny de Amber, la cantidad de parches del ojo especiales que posee Kaeya, cuántos escondites de bombas tiene Klee... Todo ello es información confidencial.\nPara evitar que esa información se filtrara, Noelle usó una tela roja para hacer muchas rosas bordadas, ya que en Mondstadt, esta flor simboliza que “mis labios están sellados como una botella en la que se guarda una rosa”.\nAdemás, tejió una de ellas específicamente para su guantelete como recordatorio para sí misma.\nRevelar un secreto sería una grave negligencia del deber de una criada, y aquellos que aspiran a ser caballeros no pueden permitirse tales errores.\nAsí que, si quieres que Noelle te revele algún secreto, mejor ve olvidándote de ello. Jamás lo hará."
         },
         {
           "Title": "Visión",
-          "Context": "Una vez, Noelle deseó cumplir su sueño antes de tiempo. Hace unos años, después de reprobar su séptima prueba de selección, algo que incluso ella sabía que ocurriría, se sintió un tanto desanimada.\nEl protocolo, el manejo de la espada, las frases que había tenido que memorizar... ¿Había sido todo una pérdida de tiempo? Ella recordaba los puntos fuertes de todos los Caballeros, pero ¿quién recordaría el arduo trabajo de alguien que fracasaba constantemente?\nNunca había dejado de aspirar a convertirse en Caballera de Favonius, pero debido a su agotamiento físico, seguir esforzándose le estaba empezando a costar mucho. Se sentía como alguien que había pasado días y noches viajando a través de la tundra helada.\nEn ese momento, la puerta principal de la Sede de los Caballeros se abrió, y de ella salió la Gran Maestra Intendente Jean, que estaba a cargo del proceso de selección.\nSin pensarlo, Noelle saludó exactamente como se esperaba que lo hiciera un Caballero.\nInmediatamente, se dio cuenta de que había sido un poco abrupta, y se preguntó qué pensaría Jean de ella.\nPero justo cuando pensó “tierra, trágame”, Jean se detuvo en seco y le devolvió el saludo.\nAl recuperarse de su sorpresa, Noelle sonrió forzada pero inocentemente.\nAquel fue un día que nunca olvidaría, ya que recibió dos importantes reconocimientos: el de Jean y el de los dioses.\nA pesar de todo, alguien había recordado su esfuerzo.\nDesde aquel día en adelante, ya con su Visión, Noelle reafirmó su creencia de que algún día sería capaz de ponerse esa armadura que tanto anhelaba; que sería una Caballera en quien la gente confiara; y que, igual que había hecho como criada, siempre estaría allá donde se la necesitase."
+          "Context": "Una vez, Noelle deseó cumplir su sueño antes de tiempo. Hace unos años, después de reprobar su séptima prueba de selección, algo que incluso ella sabía que ocurriría, se sintió un tanto desanimada.\nEl protocolo, el manejo de la espada, las frases que había tenido que memorizar... ¿Había sido todo una pérdida de tiempo? Ella recordaba los puntos fuertes de todos los Caballeros, pero ¿quién recordaría el arduo trabajo de alguien que fracasaba constantemente?\nNunca había dejado de aspirar a convertirse en Caballera de Favonius, pero debido a su agotamiento físico, seguir esforzándose le estaba empezando a costar mucho. Se sentía como alguien que había pasado días y noches viajando a través de la tundra helada.\nEn ese momento, la puerta principal de la Sede de los Caballeros se abrió, y de ella salió la Gran Maestra Intendente Jean, que estaba a cargo del proceso de selección.\nSin pensarlo, Noelle saludó exactamente como se esperaba que lo hiciera un Caballero.\nInmediatamente, se dio cuenta de que había sido un poco abrupta, y se preguntó qué pensaría Jean de ella.\nPero justo cuando pensó “tierra, trágame”, Jean se detuvo en seco y le devolvió el saludo.\nAl recuperarse de su sorpresa, Noelle sonrió forzada pero inocentemente.\nAquel fue un día que nunca olvidaría, ya que recibió dos importantes reconocimientos: el de Jean y el de los dioses.\nA pesar de todo, alguien había recordado su esfuerzo.\nDesde aquel día, ya con su Visión, Noelle reafirmó su creencia de que algún día sería capaz de ponerse esa armadura que tanto anhelaba; que sería una Caballera en quien la gente confiara; y que, igual que había hecho como criada, siempre estaría allá donde se la necesitase."
         }
       ]
     },
@@ -37244,6 +37244,10 @@
           "Context": "Ah, ¿dices que en Mondstadt hay una niña a la que se le da muy bien hacer bombas? Bueno, las bombas no son muy distintas de los fuegos artificiales, así que podría ser una genio... Oh, me encantaría conocerla. *Suspira*, pero... ¿no es peligroso dejar que una niña juegue con explosivos? ¿No le preocupa eso a la gente de Mondstadt?"
         },
         {
+          "Title": "Sobre Kirara...",
+          "Context": "¿Te refieres a la repartidora de Komaniya Exprés? ¡Es rápida como una de mis flechas! Cuando me quedo sin algunos materiales para hacer fuegos artificiales, ella me trae lo que me falta en el momento preciso. Una vez, le regalé un fuego para agradecerle su ayuda, pero no se atrevió a prenderlo porque, según lo que me dijo, el sonido la asusta demasiado, así que le dije un lugar desde el que podía verlo y lo encendí yo en su lugar."
+        },
+        {
           "Title": "Más sobre Yoimiya (I)",
           "Context": "¿Quieres que te cuente una historia? Está bien, está bien. Siéntate aquí, te contaré la historia de la que más orgullosa estoy: ¡la de la familia Naganohara! Pero que sepas que pocas veces me escucharás hablar de algo tan serio."
         },
@@ -38463,7 +38467,7 @@
       "FetterStories": [
         {
           "Title": "Detalles del personaje",
-          "Context": "El cargo oficial de Thoma en el clan Kamisato es el de amo de llaves encargado de limpiar y cocinar, entre otras tareas.\nSiempre que está en la sede de la Comisión Yashiro, se mantiene ocupado con este tipo de labores. Lo hace todo tan bien que incluso Furuta, el mayordomo de los Kamisato, tiene elogios para sus habilidades domésticas.\nSin embargo, la mayor parte del tiempo, Thoma no se queda en la Comisión, sino que se dedica a resolver otros asuntos especiales desde las sombras, como por ejemplo: a solucionar los problemas de la Comisión Yashiro, a averiguar información en nombre del líder del clan Kamisato, a cumplir con los deseos de Ayaka, etc.\nA su manera, Thoma no deja de expandir la influencia de la Comisión Yashiro incluso por los rincones más desconocidos."
+          "Context": "El cargo oficial de Thoma en el clan Kamisato es el de amo de llaves encargado de limpiar y cocinar, entre otras tareas.\nSiempre que está en la sede de la Comisión Yashiro, se mantiene ocupado con este tipo de labores. Lo hace todo tan bien que incluso Furuta, la mayordoma de los Kamisato, tiene elogios para sus habilidades domésticas.\nSin embargo, la mayor parte del tiempo, Thoma no se queda en la Comisión, sino que se dedica a resolver otros asuntos especiales desde las sombras, como por ejemplo: a solucionar los problemas de la Comisión Yashiro, a averiguar información en nombre del líder del clan Kamisato, a cumplir con los deseos de Ayaka, etc.\nA su manera, Thoma no deja de expandir la influencia de la Comisión Yashiro incluso por los rincones más desconocidos."
         },
         {
           "Title": "Historia del personaje (1)",
@@ -40255,7 +40259,7 @@
             "Regen. de Energía de mente onírica|{param17:F1}",
             "Duración de mente onírica|{param18:F1} s",
             "TdE|{param19:F1} s",
-            "Energía elemental|{param20:I}"
+            "Energía Elemental|{param20:I}"
           ],
           "Parameters": [
             {
@@ -42209,6 +42213,10 @@
           "Context": "No me suena ese nombre... Hummm... Espera, ¿no es la compañera de Arataki Itto? Oh, entonces seguro que también le gusta molestar a la gente mientras duerme. ¡Los Arcontes los crían y ellos se juntan!"
         },
         {
+          "Title": "Sobre Kirara...",
+          "Context": "Una vez, cuando me desperté de la siesta, sentí algo muy cálido en la espalda. Cuando me giré, vi una gatita echa un ovillo a mi lado durmiendo a pata suelta. Y no te lo vas a creer, ¡pero tenía dos colas muy peluditas! Casi me caigo del árbol de la sorpresa y todo. ¿Sería algún tipo de técnica de transformación?"
+        },
+        {
           "Title": "Más sobre Sayu (I)",
           "Context": "Zzz..."
         },
@@ -42978,7 +42986,7 @@
         {
           "Id": 542101,
           "GroupId": 0,
-          "Name": "Bendición de Tamanooya",
+          "Name": "Bendición de Tamakushi",
           "Description": "Si ya hay en combate una medusa invocada por Sangonomiya Kokomi, al realizar <color=#FFD780FF>Encarnación de las nereidas</color> se reiniciará la duración de la medusa.",
           "Icon": "UI_Talent_S_Kokomi_05",
           "Proud": {
@@ -45301,6 +45309,10 @@
           "Context": "Con su talento y cualificación, es una lástima que decidiera unirse a la Banda de Arataki. Sin embargo, he de admitir que, al menos, su presencia ha evitado que los más holgazanes causen problemas y perturben el orden público, lo que ha reducido la carga que la Comisión Tenryou lleva a sus hombros."
         },
         {
+          "Title": "Sobre Kirara...",
+          "Context": "Últimamente, siento que unos ojos me miran penetrantemente desde la oscuridad, pero cuando voy a comprobarlo, no hay nada. ¿Será algún tipo de broma malvada? ¿Una nekomata, dices? Humm, si tiene algo que decirme, puede acercarse sin más."
+        },
+        {
           "Title": "Más sobre Kujou Sara (I)",
           "Context": "¿Quieres saber más sobre mí? ¿Saber qué, exactamente? No puedo hablar de los asuntos de la Comisión Tenryou contigo porque son confidenciales, y obviamente tampoco puedo divulgar nada relacionado con la todopoderosa Shogun. ¿A dónde quieres llegar? ¿Eh? ¿Sobre mí a nivel personal? Supongo que eso es aceptable, pero... sin precedentes."
         },
@@ -47262,7 +47274,7 @@
         {
           "Id": 581,
           "Name": "Ofrenda de los yako",
-          "Description": "Yae Miko recupera 8 pts. de Energía elemental por cada relámpago de Kitsune Celestial desencadenado con <color=#FFD780FF>Técnica secreta suprema: Encarnación de Kitsune Celestial</color>.",
+          "Description": "Yae Miko recupera 8 pts. de Energía Elemental por cada relámpago de Kitsune Celestial desencadenado con <color=#FFD780FF>Técnica secreta suprema: Encarnación de Kitsune Celestial</color>.",
           "Icon": "UI_Talent_S_Yae_01"
         },
         {
@@ -47441,6 +47453,10 @@
         {
           "Title": "Sobre Kuki Shinobu...",
           "Context": "He oído muchas cosas sobre la hermana pequeña de Miyuki y, por lo que me han dicho, es toda un personaje. Aunque viene de una familia de miko, tomó su propio camino en la vida. Ha probado suerte en muchos oficios diferentes, ha estudiado en Liyue e incluso acabó uniéndose a la Banda de Arataki. Qué chica tan fascinante... Tal vez debería decirle a Miyuki que me la presente. Sí, eso funcionará, Miyuki nunca rechazaría una petición mía."
+        },
+        {
+          "Title": "Sobre Kirara...",
+          "Context": "Cada vez más youkai muestran interés por el mundo humano. Me pregunto si realmente será algo bueno. ¿Que qué opino yo? Jaja, yo animo a todos a vivir la vida. Además, ¿cómo podría no gustarme una youkai tan adorable y que está dispuesta a pagar cuando salimos a cenar?"
         },
         {
           "Title": "Más sobre Yae Miko (I)",
@@ -49771,6 +49787,1190 @@
       112034,
       104312,
       113019
+    ]
+  },
+  {
+    "Id": 10000061,
+    "PromoteId": 61,
+    "Sort": 67,
+    "Body": "BODY_GIRL",
+    "Icon": "UI_AvatarIcon_Momoka",
+    "SideIcon": "UI_AvatarIcon_Side_Momoka",
+    "Name": "Kirara",
+    "BeginTime": "2023-05-23T00:00:00+08:00",
+    "Quality": 4,
+    "Weapon": 1,
+    "BaseValue": {
+      "HpBase": 1021.20593,
+      "AttackBase": 18.6984,
+      "DefenseBase": 45.78
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 22,
+      "FIGHT_PROP_BASE_ATTACK": 32,
+      "FIGHT_PROP_BASE_DEFENSE": 22
+    },
+    "SkillDepot": {
+      "Skills": [
+        {
+          "Id": 10611,
+          "GroupId": 6131,
+          "Name": "Ataque Normal: Kirigami",
+          "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 ataques consecutivos.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para ejecutar tres zarpazos hacia delante.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+          "Icon": "Skill_A_01",
+          "Proud": {
+            "Descriptions": [
+              "Daño de 1er golpe|{param1:F1P}",
+              "Daño de 2.º golpe|{param2:F1P}",
+              "#Daño de 3er golpe|{param3:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param4:F1P}",
+              "Daño de 4.º golpe|{param5:F1P}",
+              "#Ataque Cargado|{param6:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param7:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param8:F1P}",
+              "#Coste de Aguante de ATQ Cargado|{param9:F1}{NON_BREAK_SPACE}pts.",
+              "Daño de Caída|{param10:F1P}",
+              "Daño de impacto de caída baja/alta|{param11:P}/{param12:P}"
+            ],
+            "Parameters": [
+              {
+                "Level": 1,
+                "Parameters": [
+                  0.47902,
+                  0.46354,
+                  0.254216,
+                  0.381324,
+                  0.73272,
+                  0.223772,
+                  0.447544,
+                  0.447544,
+                  20,
+                  0.639324,
+                  1.278377,
+                  1.596762
+                ]
+              },
+              {
+                "Level": 2,
+                "Parameters": [
+                  0.51801,
+                  0.50127,
+                  0.274908,
+                  0.412362,
+                  0.79236,
+                  0.241986,
+                  0.483972,
+                  0.483972,
+                  20,
+                  0.691362,
+                  1.382431,
+                  1.726731
+                ]
+              },
+              {
+                "Level": 3,
+                "Parameters": [
+                  0.557,
+                  0.539,
+                  0.2956,
+                  0.4434,
+                  0.852,
+                  0.2602,
+                  0.5204,
+                  0.5204,
+                  20,
+                  0.7434,
+                  1.486485,
+                  1.8567
+                ]
+              },
+              {
+                "Level": 4,
+                "Parameters": [
+                  0.6127,
+                  0.5929,
+                  0.32516,
+                  0.48774,
+                  0.9372,
+                  0.28622,
+                  0.57244,
+                  0.57244,
+                  20,
+                  0.81774,
+                  1.635134,
+                  2.04237
+                ]
+              },
+              {
+                "Level": 5,
+                "Parameters": [
+                  0.65169,
+                  0.63063,
+                  0.345852,
+                  0.518778,
+                  0.99684,
+                  0.304434,
+                  0.608868,
+                  0.608868,
+                  20,
+                  0.869778,
+                  1.739187,
+                  2.172339
+                ]
+              },
+              {
+                "Level": 6,
+                "Parameters": [
+                  0.69625,
+                  0.67375,
+                  0.3695,
+                  0.55425,
+                  1.065,
+                  0.32525,
+                  0.6505,
+                  0.6505,
+                  20,
+                  0.92925,
+                  1.858106,
+                  2.320875
+                ]
+              },
+              {
+                "Level": 7,
+                "Parameters": [
+                  0.75752,
+                  0.73304,
+                  0.402016,
+                  0.603024,
+                  1.15872,
+                  0.353872,
+                  0.707744,
+                  0.707744,
+                  20,
+                  1.011024,
+                  2.02162,
+                  2.525112
+                ]
+              },
+              {
+                "Level": 8,
+                "Parameters": [
+                  0.81879,
+                  0.79233,
+                  0.434532,
+                  0.651798,
+                  1.25244,
+                  0.382494,
+                  0.764988,
+                  0.764988,
+                  20,
+                  1.092798,
+                  2.185133,
+                  2.729349
+                ]
+              },
+              {
+                "Level": 9,
+                "Parameters": [
+                  0.88006,
+                  0.85162,
+                  0.467048,
+                  0.700572,
+                  1.34616,
+                  0.411116,
+                  0.822232,
+                  0.822232,
+                  20,
+                  1.174572,
+                  2.348646,
+                  2.933586
+                ]
+              },
+              {
+                "Level": 10,
+                "Parameters": [
+                  0.9469,
+                  0.9163,
+                  0.50252,
+                  0.75378,
+                  1.4484,
+                  0.44234,
+                  0.88468,
+                  0.88468,
+                  20,
+                  1.26378,
+                  2.527025,
+                  3.15639
+                ]
+              },
+              {
+                "Level": 11,
+                "Parameters": [
+                  1.01374,
+                  0.98098,
+                  0.537992,
+                  0.806988,
+                  1.55064,
+                  0.473564,
+                  0.947128,
+                  0.947128,
+                  20,
+                  1.352988,
+                  2.705403,
+                  3.379194
+                ]
+              },
+              {
+                "Level": 12,
+                "Parameters": [
+                  1.08058,
+                  1.04566,
+                  0.573464,
+                  0.860196,
+                  1.65288,
+                  0.504788,
+                  1.009576,
+                  1.009576,
+                  20,
+                  1.442196,
+                  2.883781,
+                  3.601998
+                ]
+              },
+              {
+                "Level": 13,
+                "Parameters": [
+                  1.14742,
+                  1.11034,
+                  0.608936,
+                  0.913404,
+                  1.75512,
+                  0.536012,
+                  1.072024,
+                  1.072024,
+                  20,
+                  1.531404,
+                  3.062159,
+                  3.824802
+                ]
+              },
+              {
+                "Level": 14,
+                "Parameters": [
+                  1.21426,
+                  1.17502,
+                  0.644408,
+                  0.966612,
+                  1.85736,
+                  0.567236,
+                  1.134472,
+                  1.134472,
+                  20,
+                  1.620612,
+                  3.240537,
+                  4.047606
+                ]
+              },
+              {
+                "Level": 15,
+                "Parameters": [
+                  1.2811,
+                  1.2397,
+                  0.67988,
+                  1.01982,
+                  1.9596,
+                  0.59846,
+                  1.19692,
+                  1.19692,
+                  20,
+                  1.70982,
+                  3.418915,
+                  4.27041
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Id": 10612,
+          "GroupId": 6132,
+          "Name": "Nekopatada voladora",
+          "Description": "#<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nSalta con la destreza de un gato que se mueve entre la maleza y golpea al enemigo con una patada voladora que inflige <color=#99FF88FF>Daño Dendro en el AdE</color>. A su vez, crea un escudo de transporte seguro que aplica <color=#99FF88FF>Dendro</color> sobre Kirara durante un corto periodo de tiempo y tiene un 250% de efectividad de absorción de <color=#99FF88FF>Daño Dendro</color>. La cantidad de absorción de daño del escudo aumenta en función de la Vida Máx. de Kirara, y no superará cierto porcentaje de dicha Vida Máx. La absorción de daño restante del escudo podrá acumularse con la otorgada por un nuevo escudo de transporte seguro, reiniciando su duración.\n\n<color=#FFD780FF>Mantener pulsado</color>\nReúne la determinación de una repartidora entregada a su trabajo para crear un escudo de transporte seguro idéntico al que obtiene al {LAYOUT_MOBILE#tocar una vez}{LAYOUT_PC#pulsar una vez}{LAYOUT_PS#pulsar una vez} y se acurruca en una caja de entrega especial, lo que hace que Kirara entre en el estado de “paquete minino” para moverse y pelear más velozmente.\n\n<color=#FFD780FF>Paquete minino</color>\n·Inflige <color=#99FF88FF>Daño Dendro</color> a los enemigos contra los que impacta. Este efecto solo puede ocurrir una vez cada 0.5{NON_BREAK_SPACE}s por cada enemigo.\n·En este estado, la Vel. Movimiento, Vel. de Escalada y la capacidad de salto de Kirara aumentan, pero el Coste de Aguante al escalar también es mayor.\n·Cuando termina la duración o esta habilidad se vuelve a usar, ejecuta un zarpazo más poderoso que el de {LAYOUT_MOBILE#tocar una vez}{LAYOUT_PC#pulsar una vez}{LAYOUT_PS#pulsar una vez}, y que inflige <color=#99FF88FF>Daño Dendro en el AdE</color>.\n·El estado de paquete minino tiene una duración máxima de 10{NON_BREAK_SPACE}s y, cuando el efecto termina, la habilidad entra en TdE. Cuanto más tiempo permanezca Kirara en este estado, mayor será el TdE.\n·Esprintar o dejar de escalar cancelará este estado.\n\n<i>“¿Quieres saber cuál es el secreto para entregar algo tan rápidamente? Evidentemente, ¡la clave está en las patas!”.</i>",
+          "Icon": "Skill_S_Momoka_01",
+          "Proud": {
+            "Descriptions": [
+              "Daño de patada voladora|{param1:F1P}",
+              "#Absorción de daño del escudo|{param2:F1P} de Vida Máx.{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param3:I}",
+              "#Absorción de daño máx. del escudo|{param4:F1P} de Vida Máx.{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param5:I}",
+              "#Duración del escudo|{param6:F1}{NON_BREAK_SPACE}s",
+              "Daño de impacto de paquete minino|{param7:F1P}",
+              "#Duración máxima de paquete minino|{param8:F1}{NON_BREAK_SPACE}s",
+              "Daño de zarpazo|{param9:F1P}",
+              "#TdE|{param10:F1}-{param11:F1}{NON_BREAK_SPACE}s"
+            ],
+            "Parameters": [
+              {
+                "Level": 1,
+                "Parameters": [
+                  1.04,
+                  0.1,
+                  962.2313,
+                  0.16,
+                  1541.0796,
+                  12,
+                  0.336,
+                  10,
+                  1.44,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 2,
+                "Parameters": [
+                  1.118,
+                  0.1075,
+                  1058.4679,
+                  0.172,
+                  1695.2089,
+                  12,
+                  0.3612,
+                  10,
+                  1.548,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 3,
+                "Parameters": [
+                  1.196,
+                  0.115,
+                  1162.7241,
+                  0.184,
+                  1862.1824,
+                  12,
+                  0.3864,
+                  10,
+                  1.656,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 4,
+                "Parameters": [
+                  1.3,
+                  0.125,
+                  1275,
+                  0.2,
+                  2042,
+                  12,
+                  0.42,
+                  10,
+                  1.8,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 5,
+                "Parameters": [
+                  1.378,
+                  0.1325,
+                  1395.2957,
+                  0.212,
+                  2234.6616,
+                  12,
+                  0.4452,
+                  10,
+                  1.908,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 6,
+                "Parameters": [
+                  1.456,
+                  0.14,
+                  1523.611,
+                  0.224,
+                  2440.1675,
+                  12,
+                  0.4704,
+                  10,
+                  2.016,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 7,
+                "Parameters": [
+                  1.56,
+                  0.15,
+                  1659.946,
+                  0.24,
+                  2658.5176,
+                  12,
+                  0.504,
+                  10,
+                  2.16,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 8,
+                "Parameters": [
+                  1.664,
+                  0.16,
+                  1804.3008,
+                  0.256,
+                  2889.7117,
+                  12,
+                  0.5376,
+                  10,
+                  2.304,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 9,
+                "Parameters": [
+                  1.768,
+                  0.17,
+                  1956.6753,
+                  0.272,
+                  3133.7498,
+                  12,
+                  0.5712,
+                  10,
+                  2.448,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 10,
+                "Parameters": [
+                  1.872,
+                  0.18,
+                  2117.0693,
+                  0.288,
+                  3390.632,
+                  12,
+                  0.6048,
+                  10,
+                  2.592,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 11,
+                "Parameters": [
+                  1.976,
+                  0.19,
+                  2285.4834,
+                  0.304,
+                  3660.3584,
+                  12,
+                  0.6384,
+                  10,
+                  2.736,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 12,
+                "Parameters": [
+                  2.08,
+                  0.2,
+                  2461.917,
+                  0.32,
+                  3942.929,
+                  12,
+                  0.672,
+                  10,
+                  2.88,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 13,
+                "Parameters": [
+                  2.21,
+                  0.2125,
+                  2646.3704,
+                  0.34,
+                  4238.3438,
+                  12,
+                  0.714,
+                  10,
+                  3.06,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 14,
+                "Parameters": [
+                  2.34,
+                  0.225,
+                  2838.8433,
+                  0.36,
+                  4546.6025,
+                  12,
+                  0.756,
+                  10,
+                  3.24,
+                  8,
+                  12
+                ]
+              },
+              {
+                "Level": 15,
+                "Parameters": [
+                  2.47,
+                  0.2375,
+                  3039.336,
+                  0.38,
+                  4867.705,
+                  12,
+                  0.798,
+                  10,
+                  3.42,
+                  8,
+                  12
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "EnergySkill": {
+        "Id": 10615,
+        "GroupId": 6139,
+        "Name": "Técnica secreta: Entrega sorpresa",
+        "Description": "Utiliza un paquete especial antiladrones para castigar y aplastar a sus enemigos e infligir <color=#99FF88FF>Daño Dendro en el AdE</color>. Cuando el paquete explota, se divide en múltiples <color=#FFD780FF>briznas cardamiau-miau</color>, las cuales a su vez explotan cuando entran en contacto con un enemigo o tras un periodo de tiempo e infligen <color=#99FF88FF>Daño Dendro en el AdE</color>.\n\n<i>“Jeje, esto es para los que les gusta robar paquetes. Delincuentes, ¡no olviden dejar una reseña de 5 estrellas tras recibir el suyo!”.</i>",
+        "Icon": "Skill_E_Momoka_01",
+        "Proud": {
+          "Descriptions": [
+            "Daño de habilidad|{param1:F1P}",
+            "Daño de explosión de briznas cardamiau-miau|{param2:F1P}",
+            "#Duración de briznas cardamiau-miau|{param3:F1}{NON_BREAK_SPACE}s",
+            "#TdE|{param4:F1}{NON_BREAK_SPACE}s",
+            "Energía Elemental|{param5:I}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                5.7024,
+                0.3564,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                6.13008,
+                0.38313,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                6.55776,
+                0.40986,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                7.128,
+                0.4455,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                7.55568,
+                0.47223,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                7.98336,
+                0.49896,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                8.5536,
+                0.5346,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                9.12384,
+                0.57024,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                9.69408,
+                0.60588,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                10.26432,
+                0.64152,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                10.83456,
+                0.67716,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                11.4048,
+                0.7128,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                12.1176,
+                0.75735,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                12.8304,
+                0.8019,
+                12,
+                15,
+                60
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                13.5432,
+                0.84645,
+                12,
+                15,
+                60
+              ]
+            }
+          ]
+        }
+      },
+      "Inherents": [
+        {
+          "Id": 612101,
+          "GroupId": 0,
+          "Name": "Cola exorcizadora",
+          "Description": "#Cuando Kirara se encuentra en el estado de paquete minino de <color=#FFD780FF>Nekopatada voladora</color>, cada impacto contra un oponente otorga una carga de <color=#FFD780FF>paquete reforzado</color>. Este efecto solo puede ocurrir una vez cada 0.5{NON_BREAK_SPACE}s por cada enemigo impactado y puede acumularse hasta 3 veces. Cuando termina el estado de paquete minino, cada carga de paquete reforzado otorga a Kirara un escudo de transporte seguro con una absorción de daño equivalente al 20% de la que tendría un escudo obtenido al utilizar <color=#FFD780FF>Nekopatada voladora</color>. Si Kirara ya se encuentra bajo la protección de un escudo de transporte seguro de Nekopatada voladora, su absorción de daño restante se acumula y su duración se reinicia.",
+          "Icon": "UI_Talent_S_Momoka_05",
+          "Proud": {
+            "Descriptions": [],
+            "Parameters": [
+              {
+                "Level": 1,
+                "Parameters": [
+                  0.2,
+                  3,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Id": 612201,
+          "GroupId": 0,
+          "Name": "Distracción oportuna",
+          "Description": "#Por cada 1000{NON_BREAK_SPACE}pts. de Vida Máx. que tenga Kirara, el daño infligido por <color=#FFD780FF>Nekopatada voladora</color> aumenta en un 0.4%, y el de <color=#FFD780FF>Técnica secreta: Entrega sorpresa</color> aumenta en un 0.3%.",
+          "Icon": "UI_Talent_S_Momoka_06",
+          "Proud": {
+            "Descriptions": [],
+            "Parameters": [
+              {
+                "Level": 1,
+                "Parameters": [
+                  0.004,
+                  0.003
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Id": 612301,
+          "GroupId": 0,
+          "Name": "Acecho furtivo",
+          "Description": "Cuando Kirara está en el equipo, tus personajes no asustarán a los animales de los que se puede obtener carne de ave, carne cruda y carne congelada.",
+          "Icon": "UI_Talent_S_Aloy_07",
+          "Proud": {
+            "Descriptions": [],
+            "Parameters": [
+              {
+                "Level": 1,
+                "Parameters": []
+              }
+            ]
+          }
+        }
+      ],
+      "Talents": [
+        {
+          "Id": 611,
+          "Name": "Circulación logística",
+          "Description": "#Al utilizar <color=#FFD780FF>Técnica secreta: Entrega sorpresa</color>, Kirara crea una <color=#FFD780FF>brizna cardamiau-miau</color> adicional por cada 8000{NON_BREAK_SPACE}pts. de Vida Máx. que posea. Solo se pueden crear hasta 4 briznas cardamiau-miau adicionales de esta manera.",
+          "Icon": "UI_Talent_S_Momoka_01"
+        },
+        {
+          "Id": 612,
+          "Name": "Embalaje perfecto",
+          "Description": "#Cuando Kirara se encuentra en el estado de paquete minino de <color=#FFD780FF>Nekopatada voladora</color>, otorga escudos de transporte crítico a los demás miembros del equipo con los que impacta.\nLa cantidad de absorción de daño de dicho escudo es equivalente al 40% de la absorción de daño máxima de un escudo de transporte seguro de <color=#FFD780FF>Nekopatada voladora</color>, y tiene un 250% de efectividad de absorción de <color=#99FF88FF>Daño Dendro</color>.\nEl escudo de transporte crítico tiene una duración de 12{NON_BREAK_SPACE}s y solo puede otorgarse una vez cada 10{NON_BREAK_SPACE}s a cada miembro del equipo.",
+          "Icon": "UI_Talent_S_Momoka_02"
+        },
+        {
+          "Id": 613,
+          "Name": "Conoce a tu vecino",
+          "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Nekopatada voladora</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+          "Icon": "UI_Talent_U_Momoka_01"
+        },
+        {
+          "Id": 614,
+          "Name": "Corcel de Skanda",
+          "Description": "#Cuando el personaje en uso está bajo la protección de un <color=#FFD780FF>escudo de transporte seguro</color> o de un <color=#FFD780FF>escudo de transporte crítico</color> y golpea a un enemigo con un Ataque Normal, Cargado o Descendente, Kirara realizará un ataque coordinado utilizando <color=#FFD780FF>minibriznas cardamiau-miau</color> para infligir <color=#99FF88FF>Daño Dendro</color> equivalente al 200% de su ATQ. El daño infligido de esta forma se considera daño de Habilidad Definitiva. Este efecto solo puede ocurrir una vez cada 3.8{NON_BREAK_SPACE}s y el TdE se comparte entre todos los miembros del equipo.",
+          "Icon": "UI_Talent_S_Momoka_04"
+        },
+        {
+          "Id": 615,
+          "Name": "Periplo diario",
+          "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Técnica secreta: Entrega sorpresa</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+          "Icon": "UI_Talent_U_Momoka_02"
+        },
+        {
+          "Id": 616,
+          "Name": "Infinidad paisajística",
+          "Description": "#Después de que Kirara use su Habilidad Elemental o Definitiva, todos los miembros del equipo cercanos obtienen un 12% de todos los Bonos de Daño Elemental durante 15{NON_BREAK_SPACE}s.",
+          "Icon": "UI_Talent_S_Momoka_03"
+        }
+      ]
+    },
+    "FetterInfo": {
+      "Title": "La Gata en los Aleros",
+      "Detail": "Una repartidora de Komaniya Exprés, una empresa de envíos de Inazuma. Es una nekomata a la que le encanta su trabajo y la sociedad humana.",
+      "Association": "ASSOC_TYPE_INAZUMA",
+      "Native": "Komaniya Exprés",
+      "BirthMonth": 1,
+      "BirthDay": 22,
+      "VisionBefore": "Dendro",
+      "VisionAfter": "",
+      "ConstellationBefore": "Arcella",
+      "ConstellationAfter": "",
+      "CvChinese": "孙艳琦",
+      "CvJapanese": "鈴代紗弓",
+      "CvEnglish": "Julia Gu",
+      "CvKorean": "Kang Eun-ae",
+      "CookBonus": {
+        "OriginItemId": 108319,
+        "ItemId": 108511,
+        "InputList": [
+          100084,
+          100061,
+          101210,
+          100092
+        ]
+      },
+      "Fetters": [
+        {
+          "Title": "Hola...",
+          "Context": "¡Hola! Soy Kirara, repartidora de Komaniya Exprés, una empresa de paquetería de Inazuma. ¡No hay paquete que no pueda entregar! ¿Miau? ¿Que por qué tengo colas? ¡Pues porque soy una youkai! Una nekomata, para ser más específicos."
+        },
+        {
+          "Title": "Charla - Paquete",
+          "Context": "Humm, ¿qué habrá dentro de este paquete? ¡Miau, me muero de curiosidad! No, no, no puedo meter las zarpas en paquetería ajena."
+        },
+        {
+          "Title": "Charla - Pedidos",
+          "Context": "A ver, a ver, deja que vea otra vez el pedido... Bien, en marcha. Nuestro siguiente destino no está lejos."
+        },
+        {
+          "Title": "Charla - Trabajo",
+          "Context": "¡Miaaaau! Fíjate en este paisaje... Sin duda, he elegido bien mi trabajo."
+        },
+        {
+          "Title": "Cuando llueve...",
+          "Context": "¡Miau! ¡Se me está empapando todo el pelaje! ¿Tú también necesitas una caja para resguardarte?"
+        },
+        {
+          "Title": "Cuando truena...",
+          "Context": "¡Miaaaaaaau! Ay, me ha dado un susto tan grande que hasta se me ha olvidado hablar como las personas."
+        },
+        {
+          "Title": "Cuando nieva...",
+          "Context": "Uff, hace tanto frío que mis colas están a punto de convertirse en estalagmitas heladas. Debería acercarme al fuego para calentarme. Mientras mantenga la distancia, no se me quemará el pelaje, ¿verdad?"
+        },
+        {
+          "Title": "Qué sol hace...",
+          "Context": "Hoy se está muy bien al sol. Dan ganas de encaramarse a un árbol y hacerse una bolita para dormir... Solo de pensarlo me entra sueño."
+        },
+        {
+          "Title": "Hace mucho viento...",
+          "Context": "¡Oh, no! ¡Los paquetes pequeños saldrán volando con este viento!"
+        },
+        {
+          "Title": "En el desierto...",
+          "Context": "Miaaau, tengo arena entre las almohadillas de las patas. Qué sensación tan extraña..."
+        },
+        {
+          "Title": "Buenos días...",
+          "Context": "¡Buenos días! Estabas durmiendo, así que he ido a buscar algo de comida. Ay, no te preocupes, no son ni ardillas ni pinzones. Aunque esos también están deliciosos..."
+        },
+        {
+          "Title": "Buenas tardes...",
+          "Context": "*Bosteza*, voy a mimir un ratito más... Todavía... no tengo fuerzas para levantar las colas..."
+        },
+        {
+          "Title": "Buenas noches... (I)",
+          "Context": "¡Buenas noches! Ya estoy lista para salir de paseo. ¿Eh? ¿Dormir? ¿Ahora? ¡Pero por las noches es cuando más energía tengo! Puedo ir más rápido y mi visión es mucho mejor. Además, hay menos gente por la calle."
+        },
+        {
+          "Title": "Buenas noches... (II)",
+          "Context": "¡Buenas noches! ¡Que tengas dulces sueños! Aunque supongo que sin dos colas en las que enredarte, dormirás muy a gusto, ¿no?"
+        },
+        {
+          "Title": "Sobre Kirara - Almohadillas",
+          "Context": "¿Mis botas? Ah, en realidad son mis patas. Podría usar mis poderes para convertirlas en pies humanos, pero me siento más segura corriendo con mis almohadillas y mis garras. ¡Miau! No las toques, por favor, me haces cosquillas."
+        },
+        {
+          "Title": "Sobre Kirara - Nombre",
+          "Context": "Mi nombre me lo dio mi abuelita. Cuando aún tenía una sola cola, solía acariciarme la barbilla, darme palmaditas en la cabeza y decirme que tenía unos ojos preciosos que brillaban como cristales."
+        },
+        {
+          "Title": "#Sobre nosotr{F#a}{M#o}s - Viajar",
+          "Context": "#Tú viajas de un lado para otro y yo entrego paquetes allá donde se me requiera. Nos parecemos mucho, ¿no crees? Amb{F#a}{M#o}s estamos siempre de acá para allá. Aunque, claro, a mí me pagan el alojamiento y el viaje, mientras que tú te lo tienes que pagar todo de tu propio bolsi... ¡Ay, no! ¡No lo decía por alardear!"
+        },
+        {
+          "Title": "#Sobre nosotr{F#as}{M#os} - Destinos entrelazados",
+          "Context": "He conocido a mucha gente gracias a mi trabajo. Algunos incluso se han vuelto clientes asiduos de Komaniya Exprés, y otros son ahora mis amigos... Es maravilloso, ¿no crees? Puede que todo paquete tenga un destino y un final, pero su historia no tiene por qué acabar ahí. Lo cierto es que la amistad entre humanos y youkai no es tan complicada como parece."
+        },
+        {
+          "Title": "Sobre la Visión...",
+          "Context": "Aún recuerdo la primera vez que usé mis poderes de youkai para convertirme en humana. ¡No podía contener la emoción de, por fin, poder ver el mundo humano en persona! Fue entonces cuando mi Visión se me apareció en la cintura. Me pregunto si la deidad que me la otorgó compartía mi deseo de viajar a otros lugares..."
+        },
+        {
+          "Title": "¿Algo que decir? - Caza",
+          "Context": "Las armas de los humanos no están tan mal, pero yo prefiero usar mi instinto felino. Ya sabes, cuando ves un pinzón paseando tan tranquilamente, ¿no te entran ganas de seguirlo a escondidas, agazaparte y... *¡piu!*, atraparlo por detrás? ¡Cazar a una presa es incluso más satisfactorio que entregar un paquete!"
+        },
+        {
+          "Title": "¿Algo que decir? - Caja",
+          "Context": "Mi abuelita me dijo que esta era la caja en la que más me gustaba acurrucarme cuando era pequeña. Es curioso porque, en ese entonces, lo único que sabía de Komaniya Exprés es que sus cajas eran realmente cómodas y calentitas. Ahora que trabajo ahí, tengo a mi disposición todas las cajas que quiera, jaja. Qué misterioso es lo que nos depara el destino... Aunque, ahora que lo pienso, últimamente me siento más apretada al meterme en una de esas cajas. ¿Qué? ¡De eso nada, no es por haber engordado! ¡Nunca voy a ser como uno de esos gatos gordos!"
+        },
+        {
+          "Title": "Una noticia interesante - Casa del árbol",
+          "Context": "¿Sabes que en Sumeru tienen por costumbre hacer las casas en los árboles? ¡Miau! Sería genial poder tumbarse al sol todos los días sin tener que preocuparse de bajar del árbol para buscar comida. Ah, ¿ya lo sabías? Vaya... ¿Y no sabrás por casualidad de qué están hechas esas casas? La última vez que entregué un paquete por allí, usé mis garras para escalar, pero acabé agotada. Me pregunto cómo se las arreglaba antes la gente de Sumeru para llevar todos los muebles y materiales de construcción hasta allí si ni siquiera tenían garras..."
+        },
+        {
+          "Title": "Una noticia interesante - Casas enormes",
+          "Context": "En mi trabajo suelo ver las casas de mucha gente, ¿sabes? Y algunas son grandes, ¡miaaaucho más grandes que la de mi abuelita! Que si un palacio aquí, que si un templo allá... Y encima con tantas habitaciones que no puedes ni contarlas. Me pregunto si las casas tan grandes no se sentirán muy vacías. Yo me conformo con un sitio para desayunar por la mañana, un lugar para acurrucarme al sol por la tarde y una cajita donde dormir por la noche. ¡Ah, claro! ¿Será que las casas grandes son como cajas grandes para los humanos?"
+        },
+        {
+          "Title": "Sobre Yae Miko...",
+          "Context": "La Srta. Kitsune es una youkai muy conocida en toda Inazuma, así que es normal que los youkai más jóvenes como yo la respetemos mucho. Y, sin embargo, es muy afable. ¡Incluso se toma la molestia de venir a verme para enseñarme cosas! Me ha dado consejos sobre las costumbres y comportamientos de los humanos: cómo entablar conversación con la gente, distintas recetas de tofu frito... ¿Eh? ¿Crees que eso último era totalmente innecesario?"
+        },
+        {
+          "Title": "Sobre la Shogun Raiden...",
+          "Context": "Los paquetes que entrego en Tenshukaku siempre están perfectamente envueltos con no una, ni dos, sino varias capas de envoltorio. Supongo que es porque todos están dirigidos a la todopoderosa Shogun. Aunque no puedo evitar sentir curiosidad por su contenido. Algunos de ellos huelen genial..."
+        },
+        {
+          "Title": "Sobre Shikanoin Heizou...",
+          "Context": "Hace ya mucho tiempo que conozco a ese detective. Cuando descubrió que era una nekomata, me pidió que le ayudara a buscar gatos desaparecidos. Al principio estaba muy contenta de poder ayudarle, pero luego oí a los gatos decir cosas como “¡El mundo es tan grande que quiero ir a verlo!” o “Pasar el día en casa es tan miauburrido...”, así que se me ablandó el corazón y le mentí diciendo que no había visto ningún gato. Sin embargo, creo que sabía que le estaba mintiendo..."
+        },
+        {
+          "Title": "Sobre Kujou Sara...",
+          "Context": "Siempre he querido acercarme a esa tengu para hablar, pero no me atrevo. Tal vez sea porque es la general de la Comisión Tenryou, pero resulta un poco intimidante. Por eso, me limito a observarla desde la distancia. No es por nada malo, es solo que siento curiosidad por sus alas. ¿Le resultarán incómodas? ¿Qué hace si se le cae una pluma? Estoy segura de que podrían convertirse en un cojín muy mullidito para mi caja."
+        },
+        {
+          "Title": "Sobre Arataki Itto...",
+          "Context": "Aunque es un oni, se lleva superbién con los humanos, ¡y hasta tiene su propia banda! Miau, creo que es increíble. Tal vez debería pedirle consejo."
+        },
+        {
+          "Title": "Sobre Lyney...",
+          "Context": "Cuando estaba en Fontaine, ¡me crucé con un mago capaz de transformar cosas y hacer que se volvieran invisibles! Tiene que ser algún tipo de poder youkai, ¿no? ¿Eso quiere decir que él también es un youkai?"
+        },
+        {
+          "Title": "Sobre Chiori...",
+          "Context": "Chiori siempre ha sido muy buena conmigo. Solía cruzarme con ella cuando salía a investigar tipos de materiales y técnicas de color. Le preocupaba que fuera a arañar sus telas, pero yo nunca haría algo así, eran demasiado bonitas. Ha abierto su propia tienda en Fontaine, así que de vez en cuando me pide que le entregue algún pedido allí. Jeje, fue ella la que me ayudó a hacer más bonita la ropa que llevo puesta."
+        },
+        {
+          "Title": "Más sobre Kirara (I)",
+          "Context": "Cuando aún era una gatita, la abuela me contaba muchas historias sobre los youkai de Inazuma, los festivales de la ciudad, los deliciosos platos de otras naciones... Solía recostarme en su regazo y escuchar sus historias hasta quedarme dormida. Incluso ahora soy incapaz de distinguir entre lo que realmente eran historias y lo que eran sueños."
+        },
+        {
+          "Title": "Más sobre Kirara (II)",
+          "Context": "Este trabajo es perfecto para mí. La Srta. Kitsune me dijo que, para vivir en la sociedad humana, es necesario trabajar. ¡Por eso me lo tomo tan en serio y entrego a tiempo cada envío! No pienso volver a la naturaleza, ¡incluso aunque eso signifique ser una gran youkai!"
+        },
+        {
+          "Title": "Más sobre Kirara (III)",
+          "Context": "Tal vez sea porque no parezco gran cosa, pero por el camino siempre me topo con bandidos que quieren robarme los paquetes. Aun así, ¡siempre me las he arreglado para ahuyentarlos! Y eso que no uso toda mi fuerza. Si le hago daño a alguien, la culpa sería de la empresa, ¡y hasta podrían despedirme!"
+        },
+        {
+          "Title": "Más sobre Kirara (IV)",
+          "Context": "Lo primero que hago al llegar a una nueva ciudad es trepar a algún lugar alto y observar el paisaje. A veces se levanta una brisa que lleva pétalos de una calle a otra como si de cristalópteros se tratara. Otras, cuando va a anochecer, las luces de la ciudad se encienden una a una, como si de pequeños haces de luz que bailan entre las sombras se tratara. Si no fuera porque siempre voy con prisa para cumplir con mis entregas, me pasaría el día disfrutando de la vista. *Suspira*, me gustaría tanto poder llevar a mi abuelita conmigo para que lo viera..."
+        },
+        {
+          "Title": "Más sobre Kirara (V)",
+          "Context": "¡Hay que disfrutar de la vida! Cuando tengo que hacer algún viaje largo, aprovecho el último día o cuando ya he terminado el trabajo para invitarme a mí misma a una buena comilona en algún restaurante muy concurrido. Luego, trepo al tejado más cómodo de todos y disfruto del viento hasta que me quedo dulcemente dormida... La vida está llena de pequeños placeres, ¡sería una pena no disfrutarlos! Es por eso que, cuando como pescado, ¡nunca dejo más que las espinas!"
+        },
+        {
+          "Title": "Aficiones de Kirara...",
+          "Context": "Me encanta entregar paquetes por todo el continente. Siempre que veo una nueva dirección en la lista, la emoción no me deja dormir la noche anterior porque quiero ponerme directamente en camino. Yo crecí en medio de bosques y arbustos, así que pronto me aburrí mucho de ese paisaje, pero ahí fuera hay tantas cosas por ver... ¡Hay sorpresas esperando detrás de cada esquina!"
+        },
+        {
+          "Title": "Preocupaciones de Kirara...",
+          "Context": "La vida de un humano es muy entretenida, pero también está llena de normas. Las personas no duermen en los tejados, las personas no cazan los peces de los estanques, las personas no se afilan las garras ni arañan las cosas... Pero si me recupero mi forma original, a nadie le importa que haga esas cosas. El problema es que cuando adquiero mi forma de nekomata, llamo mucho la atención, así que no puedo entrar en un restaurante sin más y pedir algo de comer."
+        },
+        {
+          "Title": "Comida que más le gusta...",
+          "Context": "Lo que más me gustaba comer cuando era una gata era la comida de mi abuelita. ¡Me gustaba tanto que metía la cabeza en el plato! Y ahora... ¡lo que más me gusta es el surtido de sashimi! Es tan tierno y fresco... Y además, no hace falta que me ande con cuidado por las espinas. El problema es que cuando me como la cabeza de un pescado, los empleados del restaurante siempre me miran con malos ojos..."
+        },
+        {
+          "Title": "Comida que menos le gusta...",
+          "Context": "Una vez, estaba atrapando peces en la orilla y de repente un cangrejo me pellizcó las colas. ¡No sabes lo que me dolió! Por un momento pensé que me las había roto. Los cangrejos son la peor comida del mundo. Tienen poca carne, su caparazón está duro como una piedra y no son nada, pero que nada fáciles de abrir con las garras. Ah, y tampoco me gustan las cosas calientes. He oído que hay un plato llamado “cangrejo mantequilla”, ¡qué horror! Suena a una comida muy, muy caliente y muy, muy dura. ¿Cómo puede la gente comer algo así?"
+        },
+        {
+          "Title": "Al recibir un regalo (I)",
+          "Context": "#¡Miaaau! Nunca había probado algo así, ¡está delicioso! ¿N-no serás {F#una}{M#un} youkai de la cocina?"
+        },
+        {
+          "Title": "Al recibir un regalo (II)",
+          "Context": "Miaaau, riquísimo. ¿Tienes más? ¿Puedo llevarme un poco para el camino?"
+        },
+        {
+          "Title": "Al recibir un regalo (III)",
+          "Context": "El sabor me recuerda a cuando vivía vagando por la naturaleza..."
+        },
+        {
+          "Title": "Cumpleaños...",
+          "Context": "#¡Felicidades! Ya seas {F#humana}{M#humano} o youkai, ¡los cumpleaños siempre son dignos de celebración! Si tienes tiempo, podría llevarte a ver el lugar en el que me crie. No es un sitio animado ni nada de eso, así que me tranquiliza mucho estar allí. ¡Puedo dejar que te tumbes en mi caja favorita! ¡Ya verás lo cómoda que es!"
+        },
+        {
+          "Title": "El sentimiento de Ascensión - Introducción",
+          "Context": "¡Miau, siento que mi poder youkai ha aumentado!"
+        },
+        {
+          "Title": "El sentimiento de Ascensión - Desarrollo",
+          "Context": "Tengo la impresión de que me han crecido las colas, ¿no crees?"
+        },
+        {
+          "Title": "El sentimiento de Ascensión - Nudo",
+          "Context": "¡Me siento tan ligera que podría repartir hasta diez paquetes en una sola mañana!"
+        },
+        {
+          "Title": "El sentimiento de Ascensión - Desenlace",
+          "Context": "Miaaau, ahora que soy tan fuerte, hasta la Srta. Kitsune debería andarse con cuidado... Jajaja, ¡es broma! No es ninguna competición. Me conformo con ser capaz de proteger los paquetes de todos los clientes y... de poder estar a tu lado, claro. Por cierto, ¿te apetece acariciarme las colas? Te lo digo en serio, ¡creo que ahora son más largas!"
+        },
+        {
+          "Title": "Habilidad Elemental (I)",
+          "Context": "¡Miaaau!"
+        },
+        {
+          "Title": "Habilidad Elemental (II)",
+          "Context": "¡Toma arañazo!"
+        },
+        {
+          "Title": "Habilidad Elemental (III)",
+          "Context": "¡Con permiso!"
+        },
+        {
+          "Title": "Habilidad Definitiva (I)",
+          "Context": "¡Aquí está tu paquete!"
+        },
+        {
+          "Title": "Habilidad Definitiva (II)",
+          "Context": "¡No olvides dejar una reseña!"
+        },
+        {
+          "Title": "Habilidad Definitiva (III)",
+          "Context": "¡Una firmita por aquí!"
+        },
+        {
+          "Title": "Al abrir un cofre (I)",
+          "Context": "¡Miaaau! ¡Cuántas cosas que no había visto nunca!"
+        },
+        {
+          "Title": "Al abrir un cofre (II)",
+          "Context": "¿Se le habrá caído a alguien este paquete?"
+        },
+        {
+          "Title": "Al abrir un cofre (III)",
+          "Context": "Esta caja sería perfecta para acurrucarse..."
+        },
+        {
+          "Title": "Vida baja (I)",
+          "Context": "He de proteger el paquete..."
+        },
+        {
+          "Title": "Vida baja (II)",
+          "Context": "Buscaré otra ruta..."
+        },
+        {
+          "Title": "Vida baja (III)",
+          "Context": "Miaaau..."
+        },
+        {
+          "Title": "Aliado con vida baja (I)",
+          "Context": "¡Escóndete en mi caja!"
+        },
+        {
+          "Title": "Aliado con vida baja (II)",
+          "Context": "¡Deja que te eche una zarpa!"
+        },
+        {
+          "Title": "Derrotada (I)",
+          "Context": "No podré cumplir... con la entrega..."
+        },
+        {
+          "Title": "Derrotada (II)",
+          "Context": "Me acurrucaré... en mi caja..."
+        },
+        {
+          "Title": "Derrotada (III)",
+          "Context": "Me despedirán... por esto..."
+        },
+        {
+          "Title": "Recibiendo un ligero ataque (I)",
+          "Context": "¡Miau!"
+        },
+        {
+          "Title": "Recibiendo un fuerte ataque (I)",
+          "Context": "¡Mis pobres colas!"
+        },
+        {
+          "Title": "Recibiendo un fuerte ataque (II)",
+          "Context": "¡Oye, cuidado con el paquete!"
+        },
+        {
+          "Title": "Unirse al equipo (I)",
+          "Context": "¿Tienes algún paquete que entregar?"
+        },
+        {
+          "Title": "Unirse al equipo (II)",
+          "Context": "¡Gracias por elegir Komaniya Exprés!"
+        },
+        {
+          "Title": "Unirse al equipo (III)",
+          "Context": "¿Un viaje con todo pagado? ¡¿Dónde pongo la almohadilla?!"
+        }
+      ],
+      "FetterStories": [
+        {
+          "Title": "Detalles del personaje",
+          "Context": "Si le preguntas a alguien de Inazuma cuál es la empresa de paquetería más fiable, todos te responderán que es Komaniya Exprés. Si les preguntas por lo que hace sus servicios tan buenos, una tierna sonrisa se dibujará en sus rostros mientras mencionan a cierta repartidora.\nSe trata de una joven linda y alegre cuyas dos colas nunca paran quietas. Cuando hace una entrega y le das las gracias, siempre sonríe llena de felicidad antes de inclinarse respetuosamente, casi como si fuera ella la que ha recibido un maravilloso regalo.\nSi te tomas la molestia de darle una puntuación de cinco estrellas o le ofreces un par de aperitivos, sus ojos brillarán de emoción y sus colas bailarán para expresar su agradecimiento.\nAunque, eso sí, la gente también te advertirá de que, por muy simpática que pueda ser, no deberías nunca meterte con la joven repartidora. Si pones en peligro la entrega de otro cliente o si te dejas llevar por la curiosidad e intentas tocarle las colas, atente a las consecuencias.\nTras escuchar todo esto, la gente siempre acaba por ir a Komaniya Exprés por curiosidad.\n“Buenas, quisiera enviar un paquete. ¿Puedo solicitar a la neko...?”.\nAntes de que el cliente haya terminado la frase, el dueño se dará la vuelta y gritará “¡Kirara, ¡este pedido también es para ti!”. De hecho, ya no le extrañan nada este tipo de peticiones.\nEs entonces cuando una joven radiante sale precipitadamente, se arregla el pelo y la ropa, y con una deslumbrante sonrisa en la cara dice “Le damos la bienvenida, ¡gracias por elegir Komaniya Exprés!”."
+        },
+        {
+          "Title": "Historia del personaje (1)",
+          "Context": "Kirara había estado deambulando por la naturaleza en Inazuma desde que tenía uso de razón.\nPor aquel entonces, aún era una gata sin nombre y tenía solamente una cola. Cada mañana se despertaba con los rugidos de su pequeño estómago, y tras estirarse, bostezar y soltar un maullido quejicoso, se ponía en marcha para buscar algo de comer. En la mayoría de casos, se alimentaba de pinzones despistados o peces curiosos que nadaban cerca de la orilla y que la pequeña gatita lograba cazar.\nUn día, se topó con unos aventureros. Kirara, los observó desde lejos mientras sacaban de sus mochilas todo tipo de objetos extraños. Con un “fus” prendieron un fuego; “bong”, colocaron una especie de cubo de metal sobre la llama; y después de unos “plo, plo, plo”, un delicioso olor inundó el aire que la separaba de aquellos curiosos humanos.\nKirara se limitó a mirarlos con los ojos como platos, como si estuviera contemplando algún tipo de magia. Fue entonces cuando el anhelo por formar parte de la sociedad humana revoloteó por primera vez en su cabecita como una pequeña mariposa.\nDurante una gélida y ventosa noche de invierno, Kirara, que aún era muy pequeña, tenía tanto frío que ya no podía sentir su propia cola.\n“Tengo que encontrar un lugar cálido para esconderme, incluso el hueco de un árbol servirá...”, pensó. Pero cuando volvió a levantar la vista, vio unas luces que parpadeaban no muy lejos de donde estaba.\nEsa fue la primera vez que Kirara entró en la casa de un humano. Sentía curiosidad por todo lo que la rodeaba, pero también miedo. La dueña de la casa parecía no haberse dado cuenta de que la gatita se había colado en su morada, y Kirara tampoco le hizo mucho caso. Encontró una pequeña caja cuadrada cerca de la entrada en la que se acomodó y se acurrucó, y allí, guarecida y protegida, se quedó dormida casi de inmediato.\n“Solo me quedaré a dormir una noche, lo prometo, solo una...”.\nCuando se despertó, sintió el calor de un horno encendido y una sabrosa comida para gatos aguardaba a su lado. Frente de ella, una señora tejía. La mujer parecía intentar decirle algo, como si estuviera animándola a comer. Kirara bajó la cola, curiosa, pero alerta, y tomó con cautela un bocado de aquella sabrosa comida que tenía delante.\nEra la comida más exquisita que había probado jamás. Tal fue la sensación que, por un momento, pensó que seguía soñando...\nAsí fue como Kirara pasó los inviernos en aquel acogedor hogar, en el que escuchó las muchas historias que su afectuosa abuelita le contaba...\nA veces, Kirara recordaba la primera noche que llegó a la casa e inclinaba la cabeza mientras se preguntaba a sí misma:\n “Qué raro... ¿En qué estaba pensando aquella noche antes de quedarme dormida?”."
+        },
+        {
+          "Title": "Historia del personaje (2)",
+          "Context": "Kirara disfruta de las ciudades humanas, de sus fuegos artificiales, de sus mercados, sus tejados y todo cuanto a sus ojos resulta nuevo o curioso.\nPoco después de convertirse en nekomata, Kirara utilizó sus poderes de youkai para entrar en la Ciudad de Inazuma con forma humana. Exploró con avidez todos los rincones de la ciudad, incluyendo el tejado de Tenshukaku. Por eso, la Comisión Tenryou es uno de los lugares que mejor conoce.\nFue allí donde aprendió lecciones como “no se puede trepar a los tejados de las casas ajenas”, o “los peces del estanque no son para comer”. De la Srta. Kitsune del Gran Santuario Narukami también aprendió “cómo ser una buena youkai en la sociedad humana”. Yae Miko, o la gran kitsune como la llama Kirara, se ha mostrado dispuesta a compartir toda su experiencia con esta alegre e interesante joven. Al enterarse de que para Kirara, las calles y callejones de la ciudad eran una especie de preciado tesoro, Yae Miko le recomendó que buscara empleo en Komaniya Exprés.\n“Si quieres integrarte en la sociedad humana, lo más importante es que puedas trabajar como una persona normal y corriente”.\n“Y por cierto, los paquetes dirigidos a la Suma Sacerdotisa Yae del Gran Santuario Narukami deben repartirse con la máxima prioridad. Esto es aún más relevante que todo lo que te acabo de enseñar”."
+        },
+        {
+          "Title": "Historia del personaje (3)",
+          "Context": "De vez en cuando, hay ladrones con malas intenciones que codician los abultados paquetes de la empresa de paquetería y preparan emboscadas en los caminos que siempre toman los repartidores.\nSi el repartidor tiene cara de pocos amigos o va acompañado, los ladrones no se arriesgan. Al fin y al cabo, pasar hambre un día no es gran cosa para ellos.\nUn día, al ver pasar a Kirara, que parecía tan débil y viajaba sola, no pudieron evitar frotarse las manos pensando en todos los Moras que iban a ganar.\nCuando Kirara pasó, los ladrones salieron de su escondite y la rodearon, bloqueándole el camino.\n“¿Miau? ¿Les puedo ayudar en algo?”. Kirara, confusa ante semejante situación, se detuvo.\nAsí vista de cerca, los ladrones se percataron por fin de lo extraño que es que tenga dos colas, pero su aspecto de niña y su carita inocente la hacían la presa perfecta. Además, el paquete que llevaba era de gran tamaño. ¡Era la ocasión perfecta para un atraco!\n“Esto... Si necesitan enviar un paquete, tienen que ir a nuestra oficina en la ciudad...”.\nAntes de que terminara de hablar, los ladrones ya habían sacado los cuchillos. Kirara se ha encontrado en la misma situación muchas veces. Los ladrones más educados intentan persuadirla de que deje el paquete por su propia seguridad, pero los más impacientes suelen intentar quitárselo a la fuerza. De cualquier forma, el resultado nunca cambia.\nA la mañana siguiente, aparecieron varias cajas grandes a las puertas de la Comisión Tenryou. En la casilla de “Tipo de mercancía” solo hay escrita una palabra: “Malvados”."
+        },
+        {
+          "Title": "Historia del personaje (4)",
+          "Context": "Cuando Kirara se acababa de mudar a la ciudad, solía tumbarse junto a los caminos y observar a los transeúntes que pasaban por allí.\n“Ahh, así se visten las humanas...”. Su deseo de integrarse en la sociedad fue lo que la hizo prestar atención a su propia indumentaria y analizar si era o no similar a la de los que la rodeaban.\nEn primavera, las chicas solían recoger flores para colocárselas detrás de la oreja o en el pelo, cada cierto tiempo salían nuevos accesorios o una pulsera se volvía popular y todo el mundo empezaba a llevarla...\nKirara seguía todas aquellas tendencias sin rechistar. Nunca pensó que hubiera nada malo en lo que hacía, pero pronto se dio cuenta de que aquellos accesorios a veces limitaban sus movimientos y le impedían subir y bajar con agilidad. Era un estilo de vida totalmente diferente a ser una gatita de campo.\nUn día, cuando estaba entregando un paquete a una clienta frecuente llamada Chiori en Fontaine, le cayó una buena reprimenda...\nAquel día, Kirara llamó educadamente a la puerta como de costumbre y entró. No se percató de que Chiori la mirara como si se tratara de una gatita abandonada que hubiera caído de cabeza en un cubo de pintura.\nHacía ya tiempo que Kirara había conocido a aquella famosa diseñadora de Inazuma que ahora había abierto una tienda de ropa en Fontaine, así que Chiori fue muy directa y le dijo:\n“Madre mía, ¿te has peleado con un Espectro antes de venir o qué? ¿Qué diantres es eso que llevas? ¿Por qué te pones esa flor tan fea en la cabeza? Lo único decente que llevas son los zapatos.”.\n“Miau... E-esas son mis propias patas, Chiori...”. Explicó Kirara nerviosamente.\nChiori se golpeó la frente con la palma, tomó unas tijeras y unas telas de inmediato y la arrastró hacia el probador.\n“No me malinterpretes, pero no puedo permitir que la gente te vea salir de mi tienda vestida así”.\nUnos cortes y unas cuantas costuras más tarde, Kirara llevaba puesto su modelo de vestimenta actual.\nDesde aquel día, son muchos los clientes que le preguntan a Kirara dónde ha conseguido ese precioso conjunto. Y así, la reputación de Chiori se extendió por todo el continente.\n“¿Lo ves? Ya te dije que tengo buen gusto”. En su siguiente entrega en Fontaine, Kirara encontró a su amiga de mucho mejor humor.\n“Aparte de los pedidos de ropa, ¿me buscabas para algo más?”, preguntó Chiori. “Sí, verás...”.\n“¡Vamos, déjate de rodeos!”.\n“Los clientes quieren saber si podrías diseñar unos zapatos con forma de patitas de un gato...”."
+        },
+        {
+          "Title": "Historia del personaje (5)",
+          "Context": "Para Kirara, cada entrega es como un tesoro que la lleva a distintos lugares y le permite contemplar diferentes paisajes.\nCuando termina de trabajar, va al área de “no entregados” del almacén e inspecciona las razones por las que los paquetes no han podido ser entregados a los destinatarios.\n“Dirección incorrecta”, “El destinatario se ha mudado”, “Nombre incorrecto”...\nCada paquete no entregado es como una espina de pescado clavada en la garganta que la hace sufrir constantemente. Por eso, Kirara se anota los detalles de cada paquete, y aprovecha las horas de trabajo y su tiempo libre para descubrir el paradero de cada destinatario.\nEste pequeño gesto hizo que la reputación de Komaniya Exprés mejorara aún más, ya que los clientes elogian la fiabilidad y calidad de su servicio: no hay paquete que se quede sin entregar.\nAl enterarse, el jefe de Komaniya Exprés se pasó toda una noche sin dormir pensando en un título que concederle a Kirara: “Repartidora nivel oro”.\n“Sinceramente, cuando vi que el área de paquetes no entregados estaba cada vez más vacía, pensé que algún ladrón se había colado en el almacén o algo así...”, dijo el dueño con franqueza.\nCada vez que Kirara cumple con una entrega, se siente plena. Después de un largo día de idas y venidas, Kirara suele subirse a un lugar alto para disfrutar de las vistas de la ciudad mientras escucha las risas y conversaciones de la gente.\nEn estos momentos, recuerda los días en que era una gatita y escuchaba cuentos en el regazo de su abuelita. Aquellas tramas con giros y sucesos repentinos, aquellas bestias y monstruos fantásticos son recuerdos que ocupan su mente como una fresca brisa al atardecer y acariciaban suavemente su corazón.\nKirara no puede evitar cerrar lentamente los ojos y dejar que los cuentos se entremezclen con sus sueños hasta que comience un nuevo día."
+        },
+        {
+          "Title": "Paquete misterioso",
+          "Context": "Ciertos clientes de Komaniya Exprés se han encontrado en alguna ocasión con un paquete misterioso en la puerta. La mayoría de estos paquetes son pequeños y están exquisitamente decorados.\nConfusos e incapaces de recordar si han comprado algo, la reacción más frecuente entre los clientes es mirar el paquete con curiosidad. Extrañamente, tampoco hay ninguna información escrita en el envoltorio. Tal vez no lo recuerden ya que, recientemente, le ofrecieron unos aperitivos a cierta repartidora con dos colas.\nCada paquete contiene algún detalle como una flor seca de loto nilotpala, un adorno de caracolas estelares o, si la familia tiene niños, un escarabajo dorado con algún diseño característico. Se trata de objetos que Kirara ha recogido durante sus entregas. Para ella, cada uno es un pequeño y curioso tesoro, perfecto para servir de regalo de agradecimiento. Desafortunadamente, las normas de Komaniya Exprés prohíben cualquier transacción entre repartidores y clientes. Por eso, Kirara tiene que preparar cada paquete ella misma. También se molesta en añadir alguna decoración bonita antes de colocarlos discretamente en la puerta del cliente.\nSin embargo, la beneficiaria de la mayoría de estos paquetes es una señora que vive en una pequeña casa a las afueras de Inazuma... Aunque Kirara insiste en que no quiere volver a ser una gran youkai que vaga por la naturaleza, siempre que tiene tiempo se da una vuelta hasta la vieja casa en la que buscó refugio aquella gélida noche de invierno para dejar un regalo en la puerta. Si por casualidad se encuentra a la abuelita tomando el sol en el patio, vuelve inmediatamente a su forma felina. “Miau, miau” y se encarama a las piernas de la mujer, haciéndose un ovillo y llamando su atención para que la acaricie.\nLa anciana sonríe diciendo “Vaya, si es Kirara”. Lo que no sabe es que esta gatita ya se ha convertido en una repartidora famosa. Lo único que sabe es que cada vez tarda más tiempo cuando sale de casa para jugar.\n“Cuánto has crecido, recuerdo que cuando te encontré en la caja, solo eras así de chiquitita... La abuela le acaricia la cabeza, saca una perla redonda y brillante y se la pone entre las almohadillas.\n“Mira, es una perla de coral como la de los cuentos. Alguien me la ha dejado en la puerta junto con unos dulces”. Y luego añade: “Últimamente, me encuentro con la casa limpia y ordenada cuando me levanto, e incluso con el desayuno preparado”.\n“No será que alguna gatita se ha convertido en youkai para cuidar de mí, ¿verdad?”.\nCuando Kirara la escucha decir esas palabras, se estira inocentemente, y deja escapar un bostezo mientras finge no tener ni idea de lo ocurrido.\nDespués de hablar, la anciana se queda callada y se limita a sonreír, y las dos siguen disfrutando de una tarde tranquila bajo los cálidos rayos del sol."
+        },
+        {
+          "Title": "Visión",
+          "Context": "Una noche en pleno invierno, Kirara estaba tumbada junto a las brasas, echándose una siesta. Pero por mucho que lo intentara, no lograba dormirse. El carbón hacía tiempo que se había consumido, e incluso las brasas humeantes habían dejado de desprender calor. El viento frío se colaba por las rendijas de las ventanas y la puerta. Kirara se acurrucó involuntariamente, abrazándose la cola. Últimamente, sentía muchos picores en la cola, como si le pasara algo malo, y por mucho que se la lamiera, no lograba poner fin a aquella sensación.\n“Qué raro, la abuelita está tardando más de la cuenta. Lleva fuera desde la mañana...”, maulló en voz baja.\nLa última brasa que quedaba se convirtió en ceniza oscura, y el poco calor que restaba pareció desvanecerse en el aire. Kirara se estiró y miró con inquietud la nieve que caía en el exterior. Luego, saltó silenciosamente por la ventana.\nLa nieve que pisaba estaba tan fría que le dolían las almohadillas. Kirara se subió a lo alto del tejado y oteó la ciudad en la lejanía, pero era una noche sin luna y todo estaba completamente a oscuras.\n“Recuerdo que había un árbol muy alto por allí...”. La cola de Kirara parecía estar aún más impaciente que ella, tanto que casi no la podía controlar. Estuvo a punto de caerse varias veces.\nEl árbol era tan alto que no alcanzaba a ver la copa. Pero Kirara no pensaba en lo alto que estaba trepando. Eran las historias de youkai y humanos las que ocuparon repentinamente su mente. No parecía estar trepando un árbol, sino persiguiendo días del pasado. Casi parecía que si no llegaba a tiempo, todo habría acabado... “Rápido, más rápido...”.\nFinalmente, llegó a la copa del árbol y pudo contemplar todo el paisaje que la rodeaba. A lo lejos, una luz deslumbrante iluminó de repente la negrura ante sus ojos como una nube de luciérnagas: eran las luces de la ciudad. En ese momento, algo se encendió en su corazón, como si todas las historias fantásticas se hubieran hecho realidad y convertido en destellos que se entremezclaban con el mar de luces de la ciudad. Las historias que antes le habían parecido tan lejanas estaban ahora tan cerca que casi podía estirar la pata y tocarlas. Nunca antes había sentido tal urgencia por sumergirse en aquella amalgama luminosa...\n“¡Ahí, ahí está!”.\nDe algún modo, una fuerza invisible ayudó a Kirara a encontrar a esa persona que tanto deseaba ver.\nAterrizó en el suelo y el cielo se despejó y la luz de la luna proyectó su sombra sobre la nieve, una sombra con dos colas...\n“¿Está segura de que no quiere pasar la noche? Ha nevado mucho y no le será fácil volver a casa”, insistió la dueña.\n“Mejor no, tengo una gatita esperándome, jeje”, respondió sonriendo la abuelita en la entrada de la tienda.\n“¡Si quiere, puedo acompañarla!”, la voz de una chica joven la sobresaltó.\nLa dueña y la anciana se asomaron al exterior, y allí vieron a una joven con dos colas inquietas, y una brillante Visión colgando de la cintura."
+        }
+      ]
+    },
+    "Costumes": [
+      {
+        "Id": 206100,
+        "Name": "Mezcolanza florífera",
+        "Description": "Modelo de vestimenta de Kirara. Un bonito diseño que la prestigiosa diseñadora Chiori creó para Kirara siguiendo el principio de “llevar puesta una flor hermosa de manera cómoda”.",
+        "IsDefault": true
+      }
+    ],
+    "CultivationItems": [
+      104134,
+      113045,
+      101208,
+      112055,
+      104322,
+      113048
     ]
   },
   {
@@ -53131,7 +54331,7 @@
               "Daño de 3er golpe|{param3:F1P}",
               "Daño de 4.º golpe|{param4:F1P}",
               "#Daño de ATQ Cargado|{param5:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param6:F1P}",
-              "Coste de Aguante de ATQ Cargado|{param7:F1} pts.",
+              "#Coste de Aguante de ATQ Cargado|{param7:F1}{NON_BREAK_SPACE}pts.",
               "Daño de Caída|{param8:F1P}",
               "Daño de impacto de caída baja/alta|{param9:P}/{param10:P}"
             ],
@@ -53368,16 +54568,16 @@
           "Id": 10652,
           "GroupId": 6532,
           "Name": "Anillo purificador herboatronador",
-          "Description": "Consume una parte de la Vida del personaje para crear un anillo purificador que inflige <color=#FFACFFFF>Daño Electro</color> a los enemigos cercanos.\n\n<color=#FFD780FF>Anillo purificador</color>\nAcompaña al personaje en uso para infligir <color=#FFACFFFF>Daño Electro</color> cada 1.5 s contra los enemigos de alrededor y regenerar Vida a los personajes en uso que estén en el AdE del anillo. La cantidad de Vida regenerada varía en función de la Vida Máx. de Kuki Shinobu.\n\nLa Vida consumida para usar esta habilidad no reducirá la Vida actual de Kuki Shinobu por debajo del 20%.\n\n<i>Un anillo de percibetormentas se forma en su cintura para expulsar la energía impura.</i>",
+          "Description": "#Consume una parte de la Vida del personaje para crear un anillo purificador que inflige <color=#FFACFFFF>Daño Electro</color> a los enemigos cercanos.\n\n<color=#FFD780FF>Anillo purificador</color>\nAcompaña al personaje en uso para infligir <color=#FFACFFFF>Daño Electro</color> cada 1.5{NON_BREAK_SPACE}s contra los enemigos de alrededor y regenerar Vida a los personajes en uso que estén en el AdE del anillo. La cantidad de Vida regenerada varía en función de la Vida Máx. de Kuki Shinobu.\n\nLa Vida consumida para usar esta habilidad no reducirá la Vida actual de Kuki Shinobu por debajo del 20%.\n\n<i>Un anillo de percibetormentas se forma en su cintura para expulsar la energía impura.</i>",
           "Icon": "Skill_S_Shinobu_01",
           "Proud": {
             "Descriptions": [
               "Daño de habilidad|{param1:P}",
-              "Curación de anillo purificador|{param2:F1P} de Vida Máx. + {param3:I}",
+              "#Curación de anillo purificador|{param2:F1P} de Vida Máx.{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param3:I}",
               "Daño de anillo purificador|{param4:F1P}",
               "Consumo de Vida|{param5:P} de la Vida actual",
-              "Duración|{param6:F1} s",
-              "TdE|{param7:F1} s"
+              "#Duración|{param6:F1}{NON_BREAK_SPACE}s",
+              "#TdE|{param7:F1}{NON_BREAK_SPACE}s"
             ],
             "Parameters": [
               {
@@ -53568,14 +54768,14 @@
         "Id": 10655,
         "GroupId": 6539,
         "Name": "Eleusinia de Narukami",
-        "Description": "Clava una espada exorcizante en el suelo para crear frente a sí misma una barrera purificadora, la cual inflige <color=#FFACFFFF>Daño Electro</color> de forma continua en función de la Vida Máx. de Kuki Shinobu contra los enemigos que se encuentren en el AdE de la barrera.\nSi al usar esta habilidad la Vida de Kuki Shinobu es igual o inferior al 50%, la duración de la barrera será mayor.\n\n<i>Tradicionalmente, esta técnica se usaba para desbrozar, y también, en ciertos rituales como plegaria de abundancia para las cosechas venideras. Sin embargo, Shinobu no la ha olvidado, ni siquiera tras haber dejado atrás su vida como miko.</i>",
+        "Description": "Clava una espada exorcizante en el suelo para crear frente a sí misma una barrera purificadora, la cual inflige <color=#FFACFFFF>Daño Electro</color> de forma continua en función de la Vida Máx. de Kuki Shinobu contra los enemigos que se encuentren en el AdE de la barrera.\nSi al usar esta habilidad la Vida de Kuki Shinobu es igual o inferior al 50%, la duración de la barrera será mayor.\n\n<i>Tradicionalmente, esta técnica se usaba para desbrozar, y también, en ciertos rituales, como plegaria de abundancia para las cosechas venideras. Shinobu no la ha olvidado, ni siquiera tras haber dejado atrás su vida como miko.</i>",
         "Icon": "Skill_E_Shinobu_01",
         "Proud": {
           "Descriptions": [
             "Daño por cada golpe|{param1:F1P} de Vida Máx.",
             "Daño total|{param2:F1P}/{param3:F1P} de Vida Máx.",
-            "Duración|{param4:F1} s/{param5:F1} s",
-            "TdE|{param6:F1} s",
+            "#Duración|{param4:F1}{NON_BREAK_SPACE}s/{param5:F1}{NON_BREAK_SPACE}s",
+            "#TdE|{param6:F1}{NON_BREAK_SPACE}s",
             "Energía Elemental|{param7:I}"
           ],
           "Parameters": [
@@ -53805,7 +55005,7 @@
           "Id": 652301,
           "GroupId": 0,
           "Name": "Plegaria perpetua",
-          "Description": "Aumenta en un 25% las recompensas de las expediciones de 20 h en Inazuma.",
+          "Description": "#Aumenta en un 25% las recompensas de las expediciones de 20{NON_BREAK_SPACE}h en Inazuma.",
           "Icon": "UI_Talent_S_Shinobu_07",
           "Proud": {
             "Descriptions": [],
@@ -53828,38 +55028,38 @@
         {
           "Id": 652,
           "Name": "Reniego de la fortuna",
-          "Description": "Aumenta en 3 s la duración del <color=#FFD780FF>anillo purificador</color>.",
+          "Description": "#Aumenta en 3{NON_BREAK_SPACE}s la duración del <color=#FFD780FF>anillo purificador</color>.",
           "Icon": "UI_Talent_S_Shinobu_02"
         },
         {
           "Id": 653,
           "Name": "Reniego del sufrimiento",
-          "Description": "Aumenta el nivel de habilidad de <color=#FFD780FF>Anillo purificador herboatronador</color> +3.\nPuede ser aumentado hasta Niv. 15.",
+          "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Anillo purificador herboatronador</color> +3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
           "Icon": "UI_Talent_U_Shinobu_01"
         },
         {
           "Id": 654,
           "Name": "Reniego de la reclusión",
-          "Description": "Cuando un personaje bajo los efectos del <color=#FFD780FF>anillo purificador</color> de Kuki Shinobu golpea a un enemigo con un Ataque Normal, Cargado o Descendente, una marca herboatronadora caerá en la ubicación del enemigo e infligirá <color=#FFACFFFF>Daño Electro en el AdE</color> en proporción al 9.7% de la Vida Máx. de Kuki Shinobu.\nEste efecto puede ocurrir una vez cada 5 s.",
+          "Description": "#Cuando un personaje bajo los efectos del <color=#FFD780FF>anillo purificador</color> de Kuki Shinobu golpea a un enemigo con un Ataque Normal, Cargado o Descendente, una marca herboatronadora caerá en la ubicación del enemigo e infligirá <color=#FFACFFFF>Daño Electro en el AdE</color> en proporción al 9.7% de la Vida Máx. de Kuki Shinobu.\nEste efecto puede ocurrir una vez cada 5{NON_BREAK_SPACE}s.",
           "Icon": "UI_Talent_S_Shinobu_03"
         },
         {
           "Id": 655,
           "Name": "Reniego de la adulación",
-          "Description": "Aumenta el nivel de habilidad de <color=#FFD780FF>Eleusinia de Narukami</color> +3.\nPuede ser aumentado hasta Niv. 15.",
+          "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Eleusinia de Narukami</color> +3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
           "Icon": "UI_Talent_U_Shinobu_02"
         },
         {
           "Id": 656,
           "Name": "Reniego de la debilidad",
-          "Description": "Cuando Kuki Shinobu recibe una cantidad de daño suficiente como para ser derrotada, dicho daño no hará que sea derrotada. Este efecto se activará automáticamente cuando Kuki Shinobu tenga 1 pt. de Vida, y solo podrá ocurrir una vez cada 60 s.\nCuando la Vida de Kuki Shinobu sea inferior al 25%, su Maestría Elemental aumenta en 150 pts. durante 15 s, lo cual solo puede ocurrir una vez cada 60 s.",
+          "Description": "#Cuando Kuki Shinobu recibe una cantidad de daño suficiente como para ser derrotada, dicho daño no hará que sea derrotada. Este efecto se activará automáticamente cuando Kuki Shinobu tenga 1{NON_BREAK_SPACE}pt. de Vida, y solo podrá ocurrir una vez cada 60{NON_BREAK_SPACE}s.\nCuando la Vida de Kuki Shinobu sea inferior al 25%, su Maestría Elemental aumenta en 150 pts. durante 15{NON_BREAK_SPACE}s, lo cual solo puede ocurrir una vez cada 60{NON_BREAK_SPACE}s.",
           "Icon": "UI_Talent_S_Shinobu_04"
         }
       ]
     },
     "FetterInfo": {
       "Title": "La Resolutora de Apuros",
-      "Detail": "La hábil y confiable subjefa de la Banda de Arataki. Menos mal que está ella, si no, la Banda de Arataki no tendría nada de “hábil” y “confiable”.",
+      "Detail": "La hábil y confiable subjefa de la Banda de Arataki. Menos mal que está ella, si no, la Banda de Arataki no tendría nada de “hábil” ni “confiable”.",
       "Association": "ASSOC_TYPE_INAZUMA",
       "Native": "Banda de Arataki",
       "BirthMonth": 7,
@@ -53913,7 +55113,7 @@
         },
         {
           "Title": "Qué sol hace...",
-          "Context": "Hace un buen día, pero, no puedo deshacerme de esta extraña sensación... Humm, esperemos que sea mi imaginación."
+          "Context": "Hace un buen día, pero no puedo deshacerme de esta extraña sensación... Humm, esperemos que sea mi imaginación."
         },
         {
           "Title": "Hace mucho viento...",
@@ -54155,7 +55355,7 @@
       "FetterStories": [
         {
           "Title": "Detalles del personaje",
-          "Context": "En la Banda de Arataki, donde bullicio y vocerío están a la orden del día, Kuki Shinobu, la segunda al mando de la Banda, siempre enmascarada y discreta, llama más la atención que el resto de sus ruidosos compañeros.\nNo importa en qué lío se haya metido el resto de la Banda, su segunda al mando siempre es capaz de resolver los problemas de manera profesional y eficiente.\nPreparar comida para los niños a los que les robaron el almuerzo, dar una capa de pintura a los objetos de laca con desperfectos, defender a los compañeros que han sido arrestados...\nSon tantas sus destrezas que hace que la gente se pregunte si hay algo en este mundo que no pueda hacer.\n“No puedo afirmar que tenga la titulación necesaria para llevar a cabo cualquier tarea. Hay profesiones que carecen de criterios de evaluación, con lo cual no hay manera de que obtenga la titulación correspondiente”.\nDe alguna manera, aun teniendo el rostro cubierto con una máscara, su expresión siempre hace evidente su descontento.\n“Además, no entiendo cómo puede haber profesiones a las que la gente puede acceder sin poseer la cualificación pertinente. Me parece sorprendente”.\nIgual de sorprendente es, sin embargo, lo contagiosos que pueden llegar a ser su tono cuestionador y su incredulidad."
+          "Context": "En la Banda de Arataki, donde bullicio y vocerío están a la orden del día, Kuki Shinobu, la segunda al mando de la Banda, siempre enmascarada y discreta, llama más la atención que el resto de sus ruidosos compañeros.\nNo importa en qué lío se haya metido el resto de la Banda, su segunda al mando siempre es capaz de resolver los problemas de manera profesional y eficiente.\nPreparar comida para los niños a los que les robaron el almuerzo, dar una capa de pintura a los objetos de laca que dañaron, defender a los compañeros que han sido arrestados...\nSon tantas sus destrezas que hace que la gente se pregunte si hay algo en este mundo que no pueda hacer.\n“No puedo afirmar que tenga la titulación necesaria para llevar a cabo cualquier tarea. Hay profesiones que carecen de criterios de evaluación, con lo cual no hay manera de que obtenga la titulación correspondiente”.\nDe alguna manera, aun teniendo el rostro cubierto con una máscara, su expresión siempre hace evidente su descontento.\n“Además, no entiendo cómo puede haber profesiones a las que la gente puede acceder sin poseer la cualificación pertinente. Me parece sorprendente”.\nIgual de sorprendente es, sin embargo, lo contagiosos que pueden llegar a ser su tono cuestionador y su incredulidad."
         },
         {
           "Title": "Historia del personaje (1)",
@@ -54171,19 +55371,19 @@
         },
         {
           "Title": "Historia del personaje (4)",
-          "Context": "Con el fin de encontrar un trabajo en el que pudiera tener plena libertad, Kuki Shinobu rechazó todo tipo de ofertas y aceptó únicamente trabajos como agente externa a tiempo parcial para llegar a fin de mes.\nUno de esos encargos vino de un artesano de objetos de laca que se había lesionado accidentalmente la espalda. Al haber obtenido la correspondiente titulación, el trabajo en sí mismo no suponía un gran reto para Kuki Shinobu, pero la dirección del cliente... Bueno, sí que era un tanto especial.\nCuando llevaba a la comisaría de policía la figurilla de laca de la que había estado cuidando, un ladronzuelo que justamente estaba intentando escapar chocó directamente contra Kuki Shinobu, lo que mandó a la figurilla por los aires.\nAl ver que el trabajo de varios días estaba a punto de echarse a perder, Kuki Shinobu, rápida como un rayo, agarró la figurilla con la mano antes de que cayera y, a la vez que se giraba, le puso la zancadilla al fugitivo.\nDe repente, la gente se amontonó alrededor y se abalanzó sobre el delincuente hasta inmovilizarlo. Entonces, Kujou Sara, quien al parecer publicó el encargo, le dio las gracias personalmente a Kuki Shinobu.\nEn cuanto al artículo, para sorpresa de Sara, se encontraba en perfecto estado. ¿Quién habría imaginado que una artesana de laca tendría semejante dominio de las artes marciales?\nTras enterarse de la situación de Kuki Shinobu y su deseo de “encontrar un trabajo en el que pudiera tener plena libertad”, Kujou Sara reflexionó por un momento y la invitó a unirse a la Comisión Tenryou.\n“Humm... No, creo que ser funcionaria no sería una buena idea, es un trabajo con muy poca libertad...”. En ese momento, Kuki Shinobu comenzó a dudar. “Pero si dar seminarios sobre la obediencia de las normas y la instrucción en artes marciales se pudiera hacer a tiempo parcial, entonces lo consideraría seriamente”.\nDesde ese día, Kuki Shinobu comenzó un nuevo trabajo a tiempo parcial.\nSin embargo, hubo algo que la sorprendió: que la General de la Comisión Tenryou asistía a todos y cada uno de sus seminarios.\n“Es natural que quien hace cumplir las normas se interese por saber más sobre ellas”, dijo Kujou Sara con sinceridad.\n“Intercambiar puntos de vista con guerreros de un nivel semejante al mío tampoco es algo que pueda hacer todos los días”, respondió Kuki Shinobu con gran sinceridad.\nLa honestidad y la determinación de Kujou Sara era algo que Kuki Shinobu realmente apreciaba, y fue por esto (y porque Kujou Sara le pedía que cuidara de sus figurillas) por lo que las dos se hicieron amigas rápidamente.\nKujou Sara insistió en reiteradas ocasiones que aceptara su oferta de trabajo, pero Kuki Shinobu la rechazaba constantemente. Sin embargo, seguía sin encontrar ese “trabajo en el que tuviera plena libertad”.\nUn día, Kuki Shinobu se dirigía al izakaya donde ambas se reunían habitualmente para entregarle las figurillas, pero no vio a Kujou Sara por ningún lado hasta que, tras haber estado bebiendo sola hasta medianoche, por fin apareció.\n“¡Esto sí que es raro! ¡La gran Kujou Sara llegando tarde!”.\n“¡Lo siento! Me he topado con una banda de alborotadores...”.\n“¿Una banda? ¿Qué clase de banda podría haberte causado tantos problemas?”\n“Bueno, no fueron exactamente problemas. Se hacen llamar a sí mismos la ‘Banda de Arataki’...”."
+          "Context": "Con el fin de encontrar un trabajo en el que pudiera tener plena libertad, Kuki Shinobu rechazó todo tipo de ofertas y aceptó únicamente trabajos como agente externa a tiempo parcial para llegar a fin de mes.\nUno de esos encargos vino de un artesano de objetos de laca que se había lesionado accidentalmente la espalda. Al haber obtenido la correspondiente titulación, el trabajo en sí mismo no suponía un gran reto para Kuki Shinobu, pero la dirección del cliente... Bueno, sí que era un tanto especial.\nCuando llevaba a la comisaría de policía la figurilla de laca de la que había estado cuidando, un ladronzuelo que justamente estaba intentando escapar chocó directamente contra Kuki Shinobu, lo que mandó a la figurilla por los aires.\nAl ver que el trabajo de varios días estaba a punto de echarse a perder, Kuki Shinobu, rápida como un rayo, agarró la figurilla antes de que cayera y, a la vez que se giraba, le puso la zancadilla al fugitivo.\nDe repente, la gente se amontonó alrededor y se abalanzó sobre el delincuente hasta inmovilizarlo. Entonces, Kujou Sara, quien al parecer publicó el encargo, le dio las gracias personalmente a Kuki Shinobu.\nEn cuanto al artículo, para sorpresa de Sara, se encontraba en perfecto estado. ¿Quién habría imaginado que una artesana de laca tendría semejante dominio de las artes marciales?\nTras enterarse de la situación de Kuki Shinobu y su deseo de “encontrar un trabajo en el que pudiera tener plena libertad”, Kujou Sara reflexionó por un momento y la invitó a unirse a la Comisión Tenryou.\n“Humm... No, creo que ser funcionaria sea una buena idea, es un trabajo con muy poca libertad...”. En ese momento, Kuki Shinobu comenzó a dudar. “Pero si dar seminarios sobre la obediencia de las normas y la instrucción en artes marciales se pudiera hacer a tiempo parcial, entonces lo consideraría seriamente”.\nDesde ese día, Kuki Shinobu comenzó un nuevo trabajo a tiempo parcial.\nSin embargo, hubo algo que la sorprendió: que la General de la Comisión Tenryou asistía a todos y cada uno de sus seminarios.\n“Es natural que quien hace cumplir las normas se interese por saber más sobre ellas”, dijo Kujou Sara con sinceridad.\n“Intercambiar puntos de vista con guerreros de un nivel semejante al mío tampoco es algo que pueda hacer todos los días”, respondió Kuki Shinobu.\nLa honestidad y la determinación de Kujou Sara era algo que Kuki Shinobu realmente apreciaba, y fue por esto (y porque Kujou Sara le pedía que cuidara de sus figurillas) por lo que las dos se hicieron amigas rápidamente.\nKujou Sara insistió en reiteradas ocasiones que aceptara su oferta de trabajo, pero Kuki Shinobu la rechazaba constantemente. Sin embargo, seguía sin encontrar ese “trabajo en el que tuviera plena libertad”.\nUn día, Kuki Shinobu se dirigía al izakaya donde ambas se reunían habitualmente para entregarle las figurillas, pero no vio a Kujou Sara por ningún lado hasta que, tras haber estado bebiendo sola hasta medianoche, por fin apareció.\n“¡Esto sí que es raro! ¡La gran Kujou Sara llegando tarde!”.\n“¡Lo siento! Me he topado con una banda de alborotadores...”.\n“¿Una banda? ¿Qué clase de banda podría haberte causado tantos problemas?”\n“Bueno, no fueron exactamente problemas. Se hacen llamar a sí mismos la ‘Banda de Arataki’...”."
         },
         {
           "Title": "Historia del personaje (5)",
-          "Context": "El hecho de que a la Banda de Arataki llegara una “segunda al mando” dio mucho de que hablar en Hanamizaka.\nSe decía que conocía muy bien los protocolos, que entendía de leyes y que, además, era fuerte y hábil. Poco después de hacer su aparición, ya tenía a los demás miembros de la banda arrodillados a sus pies.\nTodos aquellos que han visto en persona a la segunda al mando en acción elogian sus grandes capacidades y dicen que “por fin hay alguien culto, razonable y cortés en la Banda de Arataki”.\nPero también hay quien se preocupó por ello, ya que “la Banda de Arataki es una banda de alborotadores”.\nAntes solo causaban pequeños problemas insignificantes, pero ahora, con alguien inteligente en la banda, tendrían una mejor organización y disciplina. Los Arcontes saben qué serían capaces de hacer...\nLas actividades cotidianas de la banda, como la logística, el transporte, las reparaciones de viviendas y los espectáculos, ahora cuentan con una agente fiscal, una asesora legal, una organizadora de eventos y demás trabajos que implican grandes operaciones financieras y riesgos.\nNo se atreverían a hacer todas estas cosas sin las licencias legales necesarias, ¿cierto?\nY dejando eso de lado, si tenían la intención de cometer fraude con alguna de estas nuevas labores, la Comisión Tenryou los arrestaría sin vacilar.\nSin embargo, todas esas habladurías se esfumaron pronto. Con sus acciones, la Banda de Arataki volvió a demostrar que, como siempre, seguía siendo la misma banda honesta y que cumple lo que promete.\nQuienes han probado sus nuevos servicios financieros han visto una gran mejoría en su situación económica, y además con una transparencia y honestidad sorprendentes.\nSin embargo, es difícil erradicar por completo el mal. La Banda de Arataki sigue siendo la de siempre, y los niños de Hanamizaka siguen volviendo a casa por la noche enojados después de que Arataki Itto les robe su comida.\nResulta que la increíble segunda al mando aún tiene un largo camino por recorrer para cambiar los malos hábitos de Itto."
+          "Context": "El hecho de que a la Banda de Arataki llegara una “segunda al mando” dio mucho de que hablar en Hanamizaka.\nSe decía que conocía muy bien los protocolos, que entendía de leyes y que, además, era fuerte y hábil. Poco después de hacer su aparición, ya tenía a los demás miembros de la banda arrodillados a sus pies.\nTodos aquellos que han visto en persona a la segunda al mando en acción elogian sus grandes capacidades y dicen que “por fin hay alguien culto, razonable y cortés en la Banda de Arataki”.\nPero también hay quien se preocupó por ello, ya que “la Banda de Arataki es una pandilla de alborotadores”.\nAntes solo causaban pequeños problemas insignificantes, pero ahora, con alguien inteligente en la banda, tendrían una mejor organización y disciplina. Los Arcontes saben qué serían capaces de hacer...\nLas actividades cotidianas de la banda, como la logística, el transporte, las reparaciones de viviendas y los espectáculos, ahora cuentan con una agente fiscal, una asesora legal, una organizadora de eventos y demás trabajos que implican grandes operaciones financieras y riesgos.\nNo se atreverían a hacer todas estas cosas sin las licencias legales necesarias, ¿cierto?\nY dejando eso de lado, si tenían la intención de cometer fraude con alguna de estas nuevas labores, la Comisión Tenryou los arrestaría sin vacilar.\nSin embargo, todas esas habladurías se esfumaron pronto. Con sus acciones, la Banda de Arataki volvió a demostrar que, como siempre, seguía siendo la misma banda honesta y que cumple lo que promete.\nQuienes han probado sus nuevos servicios financieros han visto una gran mejoría en su situación económica, y además con una transparencia y honestidad sorprendentes.\nSin embargo, es difícil erradicar por completo el mal. La Banda de Arataki sigue siendo la de siempre, y los niños de Hanamizaka siguen volviendo a casa por la noche enojados después de que Arataki Itto les robe su comida.\nResulta que la increíble segunda al mando aún tiene un largo camino por recorrer para cambiar los malos hábitos de Itto."
         },
         {
           "Title": "Máscara oni",
-          "Context": "Cuando entró a la Banda de Arataki, Kuki Shinobu no llevaba ninguna máscara.\nEn cierta ocasión en la que estaba de viaje de negocios, Kuki Shinobu tuvo que llevar a cabo unas negociaciones bastante serias. Los otros miembros de la Banda de Arataki se pusieron en fila uno detrás de otro, con las manos en la espalda y sin esbozar sonrisa alguna.\n“Mantengan esta postura y no digan ni una palabra”, les avisó Kuki Shinobu antes de irse. “Esta es la forma más eficaz de negociación... al menos para ustedes, claro”.\nLas negociaciones fueron exactamente como Kuki Shinobu había previsto, hasta que, casualmente, pasó por delante un niño que señaló a Kuki Shinobu y dijo entusiasmado:\n“¡Mamá, mamá, mira! ¡Esa es la miko del Santuario que nunca sonreía! ¡Mira qué genial parece ahora!”\nRápidamente, la madre, aterrorizada, tomó al niño del brazo y se lo llevó, pero esto no evitó que el semblante de Kuki Shinobu denotara una mezcla de vergüenza y frustración, como si lo que más quisiera en ese momento fuera irse a vivir a la montaña más recóndita de un bosque.\nMientras tanto, la cara de Itto era como si tuviera un par de escaradiablos peleando sobre ella.\nGenta y compañía intentaron contenerse con todas sus fuerzas, pero les resultaba muy difícil mantener la compostura ante una desgracia ajena, hasta que al final no aguantaron más y estallaron en una avalancha de risas.\nLa próxima vez que entrenaran artes marciales, Kuki Shinobu les iba a poner las caras más rojas de lo que la tenía ella en ese momento. De haber sido conscientes de la tunda que les esperaba, quizás no se habrían reído tan frenéticamente.\nDesde ese día, Kuki Shinobu comenzó a llevar una afilada máscara oni protectora de color negro azabache.\nY así, en el siguiente entrenamiento de artes marciales que tuvieron, le pusieron a Shinobu el apodo de “subjefa oni”."
+          "Context": "Cuando entró a la Banda de Arataki, Kuki Shinobu no llevaba ninguna máscara.\nEn cierta ocasión en la que estaba de viaje de negocios, Kuki Shinobu tuvo que llevar a cabo unas negociaciones bastante serias. Los otros miembros de la Banda de Arataki se pusieron en fila uno detrás de otro, con las manos en la espalda y sin esbozar sonrisa alguna.\n“Mantengan esta postura y no digan ni una palabra”, les avisó Kuki Shinobu antes de irse. “Esta es la forma más eficaz de negociación... al menos para ustedes, claro”.\nLas negociaciones fueron exactamente como Kuki Shinobu había previsto, hasta que, casualmente, pasó por delante un niño que señaló a Kuki Shinobu y dijo entusiasmado:\n“¡Mamá, mamá, mira! ¡Esa es la miko del Santuario que nunca sonreía! ¡Mira qué genial luce ahora!”\nRápidamente, la madre, aterrorizada, tomó al niño del brazo y se lo llevó, pero esto no evitó que el semblante de Kuki Shinobu denotara una mezcla de vergüenza y frustración, como si lo que más quisiera en ese momento fuera irse a vivir a la montaña más recóndita de un bosque.\nMientras tanto, la cara de Itto era como si tuviera un par de escaradiablos peleando sobre ella.\nGenta y compañía intentaron contenerse con todas sus fuerzas, pero les resultaba muy difícil mantener la compostura ante una desgracia ajena, hasta que al final no aguantaron más y estallaron en una avalancha de risas.\nLa próxima vez que entrenaran artes marciales, Kuki Shinobu les iba a poner las caras más rojas de lo que la tenía ella en ese momento. De haber sido conscientes de la tunda que les esperaba, quizás no se habrían reído tan frenéticamente.\nDesde ese día, Kuki Shinobu comenzó a llevar una afilada máscara oni protectora de color negro azabache.\nY así, en el siguiente entrenamiento de artes marciales que tuvieron, le pusieron a Shinobu el apodo de “subjefa oni”."
         },
         {
           "Title": "Visión",
-          "Context": "El día que abandonó el Santuario, Kuki Shinobu dejó en su habitación todas sus pertenencias de cuando era una miko. Únicamente se llevó el equipaje indispensable.\nAl cargar con él, se dio cuenta de que pesaba más de lo que debía. ¿Acaso no había metido solamente unas toallas?\nRebuscó en el equipaje y, para su sorpresa, sacó una resplandeciente Visión. La belleza de su resplandor era tal que hizo que su hermana Miyuki, que se encontraba a su lado, se quedara contemplándola con admiración.\nResultaba irónico que una miko que acababa de renunciar a su cometido de venerar a los dioses recibiera una Visión de ellos al abandonar su santuario.\nPrecisamente, esa fue la primera “titulación” que obtuvo Kuki Shinobu: una titulación de los dioses que certificaba su libertad.\nSu hermana Miyuki, que en un principio intentó detenerla, cambió de idea tras presenciar la escena y accedió a ayudarla a convencer a sus padres.\nY fue por esto por lo que durante el Decreto de captura de Visiones, Kuki Shinobu entregó voluntariamente su Visión.\nPor un lado, no quería que su amiga de la Comisión Tenryou tuviera que enfrentarse a la disyuntiva de requisarle la Visión. Por otro, para Shinobu su Visión no era más que una de las muchas titulaciones y certificados que poseía.\nLa gran mayoría de los problemas con los que uno se encuentra a diario pueden resolverse sin necesidad de una Visión y, si se trata de un problema realmente grave, tampoco es que se pueda resolver simplemente por tener una Visión.\nComo por ejemplo, cómo deshacerse de prejuicios que han existido durante generaciones, o cómo encontrar la verdadera y absoluta libertad.\nO también, cómo disuadir a esa panda de alborotadores de la Banda de Arataki para que dejen de lado la idea de recuperar la Visión de Kuki Shinobu."
+          "Context": "El día que abandonó el Santuario, Kuki Shinobu dejó en su habitación todas sus pertenencias de cuando era una miko. Únicamente se llevó el equipaje indispensable.\nAl cargar con él, se dio cuenta de que pesaba más de lo que debía. ¿Acaso no había metido solamente unas toallas?\nRebuscó en el equipaje y, para su sorpresa, sacó una resplandeciente Visión. La belleza de su resplandor era tal que hizo que su hermana Miyuki, que se encontraba a su lado, se quedara contemplándola con admiración.\nResultaba irónico que una miko que acababa de renunciar a su cometido de venerar a los dioses recibiera una Visión de ellos al abandonar su santuario.\nPrecisamente, esa fue la primera “titulación” que obtuvo Kuki Shinobu: una titulación de los dioses que certificaba su libertad.\nSu hermana Miyuki, que en un principio intentó detenerla, cambió de idea tras presenciar la escena y accedió a ayudarla a convencer a sus padres.\nY fue por esto por lo que durante el Decreto de captura de Visiones, Kuki Shinobu entregó voluntariamente su Visión.\nPor un lado, no quería que su amiga de la Comisión Tenryou tuviera que enfrentarse a la disyuntiva de requisarle la Visión. Por otro, para Shinobu su Visión no era más que una de las muchas titulaciones y certificados que poseía.\nLa gran mayoría de los problemas con los que uno se encuentra a diario pueden resolverse sin necesidad de una Visión y, si se trata de un problema realmente grave, tampoco es que se pueda resolver simplemente por tener una Visión.\nComo por ejemplo, ¿cómo deshacerse de prejuicios que han existido durante generaciones? ¿O cómo encontrar la verdadera y absoluta libertad?\nO también, ¿cómo disuadir a esa panda de alborotadores de la Banda de Arataki para que dejen de lado la idea de recuperar la Visión de Kuki Shinobu?..."
         }
       ]
     },
@@ -56180,6 +57380,10 @@
           "Context": "¡A volar!"
         },
         {
+          "Title": "Habilidad Elemental (III)",
+          "Context": "¡Toma!"
+        },
+        {
           "Title": "Habilidad Definitiva (I)",
           "Context": "¡Ayúdame, Colleámbar!"
         },
@@ -57175,6 +58379,10 @@
           "Context": "¡Alice es una fuente inagotable de extraños inventos! Es, con diferencia, mi mejor proveedora, jeje. *Ejem*, acabo de revelarte mi secreto comercial, ¿no crees que deberías pagarme? Vamos, suelta esos Moras."
         },
         {
+          "Title": "Sobre Kirara...",
+          "Context": "Me ha entregado varios pedidos cuando he comprado cosas de fuera de Sumeru. No solo ofrece un buen servicio, sino que sus precios también son asequibles. Tengo entendido que le gustan los accesorios bonitos, y resulta que tengo en mi haber algunos productos artesanales típicos de Sumeru, preciosos y de gran calidad. ¿Qué me dices? ¿Por qué no compras alguno para regalárselo? Te puedo hacer un descuento."
+        },
+        {
           "Title": "Más sobre Dori (I)",
           "Context": "#¿Quieres que te cuente alguna historia? Claro, por el módico precio de un millón de Moras. Bueno, bien. Te haré un descuento de un 1% por nuestra amistad. Así que eso haría un total de 990{NON_BREAK_SPACE}000 Moras. No dirás que no es un buen precio."
         },
@@ -57249,6 +58457,10 @@
         {
           "Title": "Habilidad Elemental (II)",
           "Context": "¡Me quedaré con todos tus Moras!"
+        },
+        {
+          "Title": "Habilidad Elemental (III)",
+          "Context": "¡Allá va!"
         },
         {
           "Title": "Habilidad Definitiva (I)",
@@ -64877,11 +66089,11 @@
           "Context": "¿Qué, no puedes dormir conmigo cerca? Jeje."
         },
         {
-          "Title": "Sobre 流浪者 - Marioneta",
+          "Title": "#Sobre {REALNAME[ID(1)]} - Marioneta",
           "Context": "Una marioneta consumida por el fuego de la venganza deja cenizas tras de sí. Pero ¿qué resurgirá de ellas?..."
         },
         {
-          "Title": "Sobre 流浪者 - Corazón",
+          "Title": "#Sobre {REALNAME[ID(1)]} - Corazón",
           "Context": "Dejaré eso en manos del destino. Obsesionarse por algo que jamás estará a mi alcance es una pérdida de tiempo. Tengo asuntos más importantes de los que ocuparme ahora mismo."
         },
         {
@@ -64965,31 +66177,31 @@
           "Context": "¿Te refieres al descendiente del clan Kaedehara? Entonces, ¿él es quien...? Tiene una Visión Anemo, ¿no? Y fue capaz de hacer frente al Filo del pensamiento vacío de la Shogun Raiden, ¿cierto? Jeje... ¡Jajajaja!"
         },
         {
-          "Title": "Más sobre 流浪者 (I)",
+          "Title": "#Más sobre {REALNAME[ID(1)]} (I)",
           "Context": "#¿Quieres saber más sobre mí? No seas ridícul{F#a}{M#o}. Solo conseguirás buscarte problemas."
         },
         {
-          "Title": "Más sobre 流浪者 (II)",
+          "Title": "#Más sobre {REALNAME[ID(1)]} (II)",
           "Context": "Oh, soy consciente de que muchos querrán buscarme y saldar cuentas conmigo por el rencor que han ido acumulando contra mi pasado. Me parece perfecto, los estaré esperando. Se podría decir que incluso estoy ansioso por enfrentarme a ellos."
         },
         {
-          "Title": "Más sobre 流浪者 (III)",
+          "Title": "#Más sobre {REALNAME[ID(1)]} (III)",
           "Context": "Antes pensaba que la deificación me ayudaría a liberarme de todas estas emociones banales, pero ya no pienso así. El odio, proceda de otros o de mí mismo, es un instrumento demasiado poderoso como para dejarlo escapar.\n¿Cómo puede haber gente que no se enfade nunca? Es algo que nunca entenderé. ¿Acaso sus cuerpos carecen del odio necesario para hacerlo?"
         },
         {
-          "Title": "Más sobre 流浪者 (IV)",
+          "Title": "#Más sobre {REALNAME[ID(1)]} (IV)",
           "Context": "Cuando accedí al Irminsul, solo podía pensar en una cosa: deseaba con todas mis fuerzas no haber nacido.\nEl Irminsul respondió a mi anhelo, pero no me concedió aquello que quería. El destino de este mundo no ha cambiado nada, sigue regocijándose con las bromas crueles a las que somete a sus prisioneros."
         },
         {
-          "Title": "Más sobre 流浪者 (V)",
+          "Title": "#Más sobre {REALNAME[ID(1)]} (V)",
           "Context": "Puede que nuestros caminos se hayan cruzado en el pasado, pero volverán a sus respectivos cauces tarde o temprano. ¿Quién sabe lo que ocurrirá en el futuro? Solo podemos esperar a que ocurra."
         },
         {
-          "Title": "Aficiones de 流浪者...",
+          "Title": "#Aficiones de {REALNAME[ID(1)]}...",
           "Context": "¿Aficiones? Eso es para personas ociosas con el tiempo libre suficiente para pensar en ese tipo de cosas. ¿Te parece que tengo interés alguno en esas distracciones?"
         },
         {
-          "Title": "Preocupaciones de 流浪者...",
+          "Title": "#Preocupaciones de {REALNAME[ID(1)]}...",
           "Context": "Estaba pensando en cómo podría librarme de ti para seguir cometiendo atrocidades... Espera, ¿de verdad te lo has creído?"
         },
         {
@@ -65196,7 +66408,7 @@
       {
         "Id": 207500,
         "Name": "Vacuidad de la ira",
-        "Description": "Modelo de vestimenta de 流浪者. Un atuendo típico de los ascetas con un sombrero que, aunque protege al cuerpo de las desavenencias del tiempo, no es capaz de ofrecer cobijo de las tormentas que turban el corazón.",
+        "Description": "#Modelo de vestimenta de {REALNAME[ID(1)]}. Un atuendo típico de los ascetas con un sombrero que, aunque protege al cuerpo de las desavenencias del tiempo, no es capaz de ofrecer cobijo de las tormentas que turban el corazón.",
         "IsDefault": true
       }
     ],
@@ -66060,7 +67272,7 @@
         },
         {
           "Title": "¿Algo que decir? - Escuela de Semiótica",
-          "Context": "Los fósiles de la Escuela de Semiótica se divierten rechazando mis propuestas de investigación alegando que son demasiado especializados o carecen de aplicación práctica. Por esa regla de tres, teniendo en cuenta que somos la escuela con menor número de estudiantes, lo mejor será que cierren directamente la Facultad Haravatat y punto."
+          "Context": "Los fósiles de la Escuela de Semiótica se divierten rechazando mis propuestas de investigación alegando que son demasiado especializadas o carecen de aplicación práctica. Por esa regla de tres, teniendo en cuenta que somos la escuela con menor número de estudiantes, lo mejor será que cierren directamente la Facultad Haravatat y punto."
         },
         {
           "Title": "Una noticia interesante...",
@@ -66270,7 +67482,7 @@
         },
         {
           "Title": "Historia del personaje (4)",
-          "Context": "En cuanto a su experiencia atrapada durante cien años en unas ruinas, ni siquiera Faruzán lo recuerda bien o suele dar muchos detalles.\nEran unas ruinas de origen y ubicación desconocidos, sobre las que lo único que recuerda es que estaban relacionados con la civilización del Rey Deshret. En ellas había todo tipo de mecanismos, y sus paredes estaban llenas de inscripciones que parecían códigos.\nEl misterioso poder de las ruinas hizo que el tiempo no pasara para su cuerpo y que no sintiera ni hambre ni cansancio físico, pero de lo que no podía deshacerse era del cansancio mental.\nUsó todas las plumas y papeles que llevaba consigo y no consiguió descifrar ni una sola frase; empleó todo su conocimiento y no logró entender el funcionamiento de ningún mecanismo.\nTumbada boca arriba sobre incontables papeles con anotaciones, se quedó mirando fijamente los textos inscritos en la bóveda de donde se encontraba.\nAquel antiguo misterio se burlaba silenciosamente de la ignorancia de Faruzán, de la insignificancia de la humanidad de hoy en día.\n¿Acaso la disciplina que con tanto orgullo estudiaba y el vasto conocimiento cultivado en vida por generaciones de eruditos no servía para nada ante las ruinas de una civilización antigua?\nFaruzán se incorporó, agarró un trozo de piedra y empezó a grabar algo sobre las losas del suelo.\nMientras haya vida, habrá esperanza. Lo que hoy no entiendes podrás entenderlo en el futuro. Mientras existan las civilizaciones, estas no dejarán de desarrollarse. Lo que la humanidad no comprende hoy lo aclararán las generaciones futuras.\nAunque aquel lugar acabase siendo su tumba, tenía que dejar un registro de sus deducciones y pruebas fallidas para que la próxima persona con la misma mala suerte que ella aún tuviera un haz de esperanza.\nEse era el sentido de la existencia para los eruditos especializados en escritura rúnica.\nPasó quién sabe cuánto tiempo para que Faruzán llenara de deducciones y símbolos crípticos toda la superficie disponible en el lugar.\nPasó quién sabe cuánto tiempo para que su memoria empezara a fallarle, comenzara a delirar y murmurara palabras incomprensibles.\nPasó quién sabe cuánto tiempo para que por fin encontrara la solución al acertijo.\nPero lo que no sabía, debido a lo aturdida que estaba, era que el auténtico sufrimiento aún la esperaba fuera de las ruinas."
+          "Context": "En cuanto a su experiencia atrapada durante cien años en unas ruinas, ni siquiera Faruzán lo recuerda bien o suele dar muchos detalles.\nEran unas ruinas de origen y ubicación desconocidos, sobre las que lo único que recuerda es que estaban relacionadas con la civilización del Rey Deshret. En ellas había todo tipo de mecanismos, y sus paredes estaban llenas de inscripciones que parecían códigos.\nEl misterioso poder de las ruinas hizo que el tiempo no pasara para su cuerpo y que no sintiera ni hambre ni cansancio físico, pero de lo que no podía deshacerse era del cansancio mental.\nUsó todas las plumas y papeles que llevaba consigo y no consiguió descifrar ni una sola frase; empleó todo su conocimiento y no logró entender el funcionamiento de ningún mecanismo.\nTumbada boca arriba sobre incontables papeles con anotaciones, se quedó mirando fijamente los textos inscritos en la bóveda de donde se encontraba.\nAquel antiguo misterio se burlaba silenciosamente de la ignorancia de Faruzán, de la insignificancia de la humanidad de hoy en día.\n¿Acaso la disciplina que con tanto orgullo estudiaba y el vasto conocimiento cultivado en vida por generaciones de eruditos no servía para nada ante las ruinas de una civilización antigua?\nFaruzán se incorporó, agarró un trozo de piedra y empezó a grabar algo sobre las losas del suelo.\nMientras haya vida, habrá esperanza. Lo que hoy no entiendes podrás entenderlo en el futuro. Mientras existan las civilizaciones, estas no dejarán de desarrollarse. Lo que la humanidad no comprende hoy lo aclararán las generaciones futuras.\nAunque aquel lugar acabase siendo su tumba, tenía que dejar un registro de sus deducciones y pruebas fallidas para que la próxima persona con la misma mala suerte que ella aún tuviera un haz de esperanza.\nEse era el sentido de la existencia para los eruditos especializados en escritura rúnica.\nPasó quién sabe cuánto tiempo para que Faruzán llenara de deducciones y símbolos crípticos toda la superficie disponible en el lugar.\nPasó quién sabe cuánto tiempo para que su memoria empezara a fallarle, comenzara a delirar y murmurara palabras incomprensibles.\nPasó quién sabe cuánto tiempo para que por fin encontrara la solución al acertijo.\nPero lo que no sabía, debido a lo aturdida que estaba, era que el auténtico sufrimiento aún la esperaba fuera de las ruinas."
         },
         {
           "Title": "Historia del personaje (5)",
@@ -66282,7 +67494,7 @@
         },
         {
           "Title": "Visión",
-          "Context": "Aunque ya olvidó cómo logró resolver aquel acertijo, Faruzán todavía tiene un vago recuerdo de lo que sucedió cuando salió de las ruinas.\nLo primero que sintió al salir al exterior fue la luz del sol sobre su rostro, que la encandiló tanto que no podía abrir los ojos, lo que la hizo retroceder ligeramente hacia atrás.\nEntonces, notó una brisa de viento que pasó por su lado, refrescó su cara de un soplido y le acabó rodeando la cintura y los hombros como si el viento le estuviera dando la bienvenida con un cálido abrazo.\nY aunque Farazán hubiera cerrado los ojos, ella sentía como si fuera capaz de verlo todo. Avanzó paso tras paso dejándose guiar por el viento, aproximándose cada vez más hacia una libertad que había perdido cien años atrás.\nDurante el último siglo, el entorno había cambiado considerablemente, y su memoria también se había deteriorado, por lo que le fue imposible recordar el camino de vuelta a casa.\nSin embargo, Faruzán continuó siguiendo al viento, el cual, a pesar del estado de turbación en el que ella se encontraba, la guio entre bamboleos a través del bosque y la llevó por aquellas zonas en las que no tendría que enfrentar monstruos ni peligros. De repente, despertó en ella una sensación familiar y extraña a la vez.\nEn ese instante, su cuerpo se desvaneció en el suelo y su estómago protestó con un rugido.\n“Ah... Cuánto tiempo sin sentir hambre”...\n¿Quién lo iba a decir? Faruzán desbloqueó el mecanismo y escapó de las ruinas, ¡pero se olvidó de una de sus necesidades más básicas!\nEl viento cesó poco a poco, y Faruzán, que no era capaz de sostenerse en pie, acabó desmayándose y sumiéndose en un profundo sueño.\n...\nCerca de aquel lugar, una caravana de comerciantes avanzaba con parsimonia. De repente, una brisa de viento sopló a uno de sus animales de carga en los ojos, lo que hizo que se detuviera para agitar la cabeza.\nEl comerciante tiró de las riendas para intentar reincorporarlo a la fila, y entonces divisó un destello a lo lejos.\n“¡Abre ya los ojos! ¿Qué es eso que miras que te ha fascinado tanto? ¿Acaso has visto una gema?”\n“No... Espera... ¡Hay una persona tumbada en el suelo!”.\nEn la lejanía, junto a Faruzán, que yacía inconsciente en el suelo, se hallaba una Visión que emanaba un centelleo deslumbrante."
+          "Context": "Aunque ya olvidó cómo logró resolver aquel acertijo, Faruzán todavía tiene un vago recuerdo de lo que sucedió cuando salió de las ruinas.\nLo primero que sintió al salir al exterior fue la luz del sol sobre su rostro, que la encandiló tanto que no podía abrir los ojos, lo que la hizo retroceder ligeramente hacia atrás.\nEntonces, notó una brisa de viento que pasó por su lado, refrescó su cara de un soplido y le acabó rodeando la cintura y los hombros como si el viento le estuviera dando la bienvenida con un cálido abrazo.\nY aunque Faruzán hubiera cerrado los ojos, ella sentía como si fuera capaz de verlo todo. Avanzó paso tras paso dejándose guiar por el viento, aproximándose cada vez más hacia una libertad que había perdido cien años atrás.\nDurante el último siglo, el entorno había cambiado considerablemente, y su memoria también se había deteriorado, por lo que le fue imposible recordar el camino de vuelta a casa.\nSin embargo, Faruzán continuó siguiendo al viento, el cual, a pesar del estado de turbación en el que ella se encontraba, la guio entre bamboleos a través del bosque y la llevó por aquellas zonas en las que no tendría que enfrentar monstruos ni peligros. De repente, despertó en ella una sensación familiar y extraña a la vez.\nEn ese instante, su cuerpo se desvaneció en el suelo y su estómago protestó con un rugido.\n“Ah... Cuánto tiempo sin sentir hambre”...\n¿Quién lo iba a decir? Faruzán desbloqueó el mecanismo y escapó de las ruinas, ¡pero se olvidó de una de sus necesidades más básicas!\nEl viento cesó poco a poco, y Faruzán, que no era capaz de sostenerse en pie, acabó desmayándose y sumiéndose en un profundo sueño.\n...\nCerca de aquel lugar, una caravana de comerciantes avanzaba con parsimonia. De repente, una brisa de viento sopló a uno de sus animales de carga en los ojos, lo que hizo que se detuviera para agitar la cabeza.\nEl comerciante tiró de las riendas para intentar reincorporarlo a la fila, y entonces divisó un destello a lo lejos.\n“¡Abre ya los ojos! ¿Qué es eso que miras que te ha fascinado tanto? ¿Acaso has visto una gema?”\n“No... Espera... ¡Hay una persona tumbada en el suelo!”.\nEn la lejanía, junto a Faruzán, que yacía inconsciente en el suelo, se hallaba una Visión que emanaba un centelleo deslumbrante."
         }
       ]
     },
@@ -68399,7 +69611,7 @@
         },
         {
           "Title": "Sobre la Reina Menor Kusanali...",
-          "Context": "No hay ni que menospreciar no adorar ciegamente a los dioses. Ellos necesitan creyentes, y son un escalafón más en la jerarquía natural de este mundo. Es por eso que no me jacto de haber salvado a una diosa. Espero que la Reina Menor Kusanali no se lo tome como una ofensa."
+          "Context": "No hay ni que menospreciar ni adorar ciegamente a los dioses. Ellos necesitan creyentes, y son un escalafón más en la jerarquía natural de este mundo. Es por eso que no me jacto de haber salvado a una diosa. Espero que la Reina Menor Kusanali no se lo tome como una ofensa."
         },
         {
           "Title": "Sobre Kaveh - Un grano de arena",
@@ -68504,6 +69716,10 @@
         {
           "Title": "Habilidad Elemental (II)",
           "Context": "¡Destello!"
+        },
+        {
+          "Title": "Habilidad Elemental (III)",
+          "Context": "¡Hum!"
         },
         {
           "Title": "Habilidad Definitiva (I)",
@@ -70886,7 +72102,7 @@
         },
         {
           "Title": "Unirse al equipo (I)",
-          "Context": "Veamos el equipamiento... ¡Todo orden!"
+          "Context": "Veamos el equipamiento... ¡Todo en orden!"
         },
         {
           "Title": "Unirse al equipo (II)",
@@ -71933,7 +73149,7 @@
         },
         {
           "Title": "Historia del personaje (3)",
-          "Context": "Después de graduarse, Kaveh comenzó por ayudar a un compañero de la misma facultad cuyo tutor era distinto al de Kaveh. Con la poca experiencia que tenía, hacerse cargo del diseño era una tarea sumamente estresante. Pero él se consideraba una persona tenaz, y empeñó todas sus energías haciendo toda clase de proyectos sin descanso durante dos años.\nDespués de adquirir suficiente experiencia, Kaveh dejó de hacer proyectos colaborativos y comenzó a trabajar en construir su propia reputación, consiguiendo así una clientela que se sentía atraída por su estilo. Muchos de ellos le daban comisiones para diseñar edificios, lo que marcó el comienzo de su trayectoria profesional y le permitió ahorrar una suma considerable de Moras tras un gran esfuerzo. Sin embargo, no pasó mucho tiempo para que Kaveh se topara con un obstáculo. Las nociones de diseño que aprendió en la Academia eran muy distintas a las del mundo real. El mundo de allá afuera era más materialista, y superfluo, y las exigencias de sus clientes eran más difíciles de satisfacer en comparación con las demandas de sus tutores. Encima de esto, las tendencias académicas en Sumeru interferían con su trabajo. Kaveh se dio cuenta de que sus ideales y la vida real eran muy distintos y difíciles de conciliar.\nLas escuelas de pensamiento de Sumeru estaban en constante cambio, y muchos eruditos se enfrascaban en la introspección y autocrítica, tomando en cuenta los elementos sociales como motor de cambio en su pensamiento, de tal forma que, lo que alguna vez fue elogiado, posteriormente podría convertirse en objeto de críticas, como libros físicos u obras de arte.\nPero a excepción de aquellos que se consagraban a las artes, el resto de Sumeru no tenía idea de las penurias que tuvieron que aguantar los artistas. Conforme el éxito académico se convertía en motivo de más y mayores elogios, los eruditos fueron enalteciendo las habilidades prácticas y el conocimiento académico puro. La postura de los Seis Sabios frente a las artes se radicalizó, y la idea de que eran “carentes de beneficio alguno” se popularizó. Artistas y artesanos fueron marginados, y aquellas disciplinas académicas relacionadas con las artes se desembarazaron de ellas de la noche a la mañana.\nKaveh llegó a involucrarse en proyectos de ingeniería meramente funcionales. A pesar de presentar todo tipo de propuestas con diseños estéticos, todas ellas eran rechazadas con el pretexto de ser “un lindo envoltorio carente de contenido” o “por no apegarse a la practicidad del edificio”. En un principio, Kaveh buscaba la comunión entre la estética y la practicidad en sus diseños, pero ahora que las artes se miraban con desdén y que la gente consideraba la estética como una mera frivolidad, ya no había cabida para sus ideas en el mundo actual. Kaveh, quien reconocía la belleza en la arquitectura, se opuso tajantemente a esta perspectiva, pero los requerimientos técnicos y financieros de su oficio le impedían alejarse de esos círculos y de divulgar su punto de vista por miedo a arrastrar a otros consigo.\nCon sus sueños y su trayectoria profesional frustrados, Kaveh decidió tomarse un largo descanso. Sin embargo, al volver a casa recibió una carta inesperada procedente de Fontaine. Era su madre, quien decía que había encontrado a alguien en quien confiar por el resto de su vida y que, después de pensarlo por mucho tiempo, había decidido contarle al único miembro de su familia que había decidido volver a casarse.\nKaveh le escribió en respuesta para felicitarla, y le dijo que estaba dispuesto a asistir a la boda en Fontaine. La ceremonia fue muy austera y tuvo pocos invitados. Al ver a su madre sonreír una vez más, Kaveh sintió alegría, pero poco tiempo después se sintió perdido y sin rumbo.\nA pesar de que su madre le dejó todos los bienes de Sumeru, tres días después, al volver a casa, un sentimiento de vacío lo envolvió. Bastaba con sentarse en el sofá para sentir una soledad incomparable. Fue en ese momento que comprendió el proverbio que los sabios eruditos solían repetir: “haz lo correcto, sin importar el precio que debas pagar por ello”."
+          "Context": "Después de graduarse, Kaveh comenzó por ayudar a un compañero de la misma facultad cuyo tutor era distinto al de él. Con la poca experiencia que tenía, hacerse cargo del diseño era una tarea sumamente estresante. Pero él se consideraba una persona tenaz, y empeñó todas sus energías haciendo toda clase de proyectos sin descanso durante dos años.\nDespués de adquirir suficiente experiencia, Kaveh dejó de hacer proyectos colaborativos y comenzó a trabajar en construir su propia reputación, consiguiendo así una clientela que se sentía atraída por su estilo. Muchos de ellos le daban comisiones para diseñar edificios, lo que marcó el comienzo de su trayectoria profesional y le permitió ahorrar una suma considerable de Moras tras un gran esfuerzo. Sin embargo, no pasó mucho tiempo para que Kaveh se topara con un obstáculo. Las nociones de diseño que aprendió en la Academia eran muy distintas a las del mundo real. El mundo de allá afuera era más materialista y superfluo, y las exigencias de sus clientes eran más difíciles de satisfacer en comparación con las demandas de sus tutores. Encima de esto, las tendencias académicas en Sumeru interferían con su trabajo. Kaveh se dio cuenta de que sus ideales y la vida real eran muy distintos y difíciles de conciliar.\nLas escuelas de pensamiento de Sumeru estaban en constante cambio, y muchos eruditos se enfrascaban en la introspección y autocrítica, tomando en cuenta los elementos sociales como motor de cambio en su pensamiento, de tal forma que, lo que alguna vez fue elogiado posteriormente podría convertirse en objeto de críticas, como libros físicos u obras de arte.\nPero a excepción de aquellos que se consagraban a las artes, el resto de Sumeru no tenía idea de las penurias que tuvieron que aguantar los artistas. Conforme el éxito académico se convertía en motivo de más y mayores elogios, los eruditos fueron enalteciendo las habilidades prácticas y el conocimiento académico puro. La postura de los Seis Sabios frente a las artes se radicalizó, y se fue extendiendo la idea de que eran “carentes de beneficio alguno”. Artistas y artesanos fueron marginados, y aquellas disciplinas académicas relacionadas con las artes se desembarazaron de ellas de la noche a la mañana.\nKaveh llegó a involucrarse en proyectos de ingeniería meramente funcionales. A pesar de presentar todo tipo de propuestas con diseños estéticos, todas ellas eran rechazadas con el pretexto de ser “un lindo envoltorio carente de contenido” o “por no apegarse a la practicidad del edificio”. En un principio, Kaveh buscaba la comunión entre la estética y la practicidad en sus diseños, pero ahora que las artes se miraban con desdén y que la gente consideraba la estética como una mera frivolidad, ya no había cabida para sus ideas en el mundo actual. Kaveh, quien reconocía la belleza en la arquitectura, se opuso tajantemente a esta perspectiva, pero los requerimientos técnicos y financieros de su oficio le impedían alejarse de esos círculos y de divulgar su punto de vista por miedo a arrastrar a otros consigo.\nCon sus sueños y su trayectoria profesional frustrados, Kaveh decidió tomarse un largo descanso. Sin embargo, al volver a casa recibió una carta inesperada procedente de Fontaine. Era su madre, quien decía que había encontrado a alguien en quien confiar por el resto de su vida y que, después de pensarlo por mucho tiempo, había decidido contarle al único miembro de su familia que había decidido volver a casarse.\nKaveh le escribió en respuesta para felicitarla, y le dijo que estaba dispuesto a asistir a la boda en Fontaine. La ceremonia fue muy austera y tuvo pocos invitados. Al ver a su madre sonreír una vez más, Kaveh sintió alegría, pero poco tiempo después se sintió perdido y sin rumbo.\nA pesar de que su madre le dejó todos los bienes de Sumeru, tres días después, al volver a casa, un sentimiento de vacío lo envolvió. Bastaba con sentarse en el sofá para sentir una soledad incomparable. Fue en ese momento que comprendió el proverbio que los sabios eruditos solían repetir: “haz lo correcto, sin importar el precio que debas pagar por ello”."
         },
         {
           "Title": "Historia del personaje (4)",
@@ -72646,7 +73862,7 @@
           "Id": 822201,
           "GroupId": 0,
           "Name": "Madre tierra",
-          "Description": "#El personaje que sea curado con el <color=#FFD780FF>escudo incólume</color> obtendrá el efecto de “fortuna de la madera”, el cual hace que, por cada 1000{NON_BREAK_SPACE}pts. de Vida Máx. de Baizhu que no superen los 50{NON_BREAK_SPACE}000{NON_BREAK_SPACE}pts., el daño que inflige dicho personaje con las reacciones de Quemadura, Florecimiento, Sobreflorecimiento y Crepitar aumenta en un 2%, y el de las reacciones de Intensificación y Propagación aumenta en un 0.8% durante 6{NON_BREAK_SPACE}s.",
+          "Description": "#El personaje que sea curado con el <color=#FFD780FF>escudo incólume</color> obtendrá el efecto de “fortuna de la madera”, el cual hace que, por cada 1000{NON_BREAK_SPACE}pts. de Vida Máx. de Baizhu que no superen los 50{NON_BREAK_SPACE}000{NON_BREAK_SPACE}pts., el daño que inflige dicho personaje con las reacciones de Quemadura, Florecimiento, Sobreflorecimiento y Crepitar aumenta en un 2%, y el aumento de daño generado por las reacciones de Intensificación y Propagación aumenta en un 0.8% durante 6{NON_BREAK_SPACE}s.",
           "Icon": "UI_Talent_S_Baizhuer_06",
           "Proud": {
             "Descriptions": [],
@@ -72732,10 +73948,10 @@
       "VisionAfter": "",
       "ConstellationBefore": "Lagenaria",
       "ConstellationAfter": "",
-      "CvChinese": "秦且歌",
-      "CvJapanese": "遊佐浩二",
-      "CvEnglish": "Sean Durrie",
-      "CvKorean": "Yi Ho-san",
+      "CvChinese": "秦且歌&王晓彤",
+      "CvJapanese": "遊佐浩二&庄子裕衣",
+      "CvEnglish": "Sean Durrie & Xanthe Huynh",
+      "CvKorean": "Yi Ho-san & Jang Mi",
       "CookBonus": {
         "OriginItemId": 108507,
         "ItemId": 108510,
@@ -72813,7 +74029,7 @@
         },
         {
           "Title": "Sobre nosotros - Sujeto de pruebas",
-          "Context": "#Cada persona es un mundo. Para algunos, una cosa puede ser un veneno letal, mientras que para otros, la misma cosa puede ser la cura que los salve la vida. Esta misma lógica se aplica a la medicina, pero no es algo que pueda decirle a la ligera a mis pacientes. Si supieran que las medicinas que les receto contienen veneno, nunca más volverían a la farmacia.\nDe hecho, eres la primera persona que no se asusta al saberlo, aunque supongo que era de esperar viniendo de {F#una viajera tan conocedora y experimentada}{M#un viajero tan conocedor y experimentado} como tú. Ya me estaba preocupando por no poder encontrar un sujeto de pruebas para mis medicinas, ¿podría probar contigo algunas con efectos más fuertes? Jeje."
+          "Context": "#Cada persona es un mundo. Para algunos, una cosa puede ser un veneno letal, mientras que para otros, la misma cosa puede ser la cura que les salve la vida. Esta misma lógica se aplica a la medicina, pero no es algo que pueda decirle a la ligera a mis pacientes. Si supieran que las medicinas que les receto contienen veneno, nunca más volverían a la farmacia.\nDe hecho, eres la primera persona que no se asusta al saberlo, aunque supongo que era de esperar viniendo de {F#una viajera tan conocedora y experimentada}{M#un viajero tan conocedor y experimentado} como tú. Ya me estaba preocupando por no poder encontrar un sujeto de pruebas para mis medicinas, ¿podría probar contigo algunas con efectos más fuertes? Jeje."
         },
         {
           "Title": "Sobre la Visión...",
@@ -72845,7 +74061,7 @@
         },
         {
           "Title": "Sobre Ganyu...",
-          "Context": "Aquellos con sangre de Adeptus tienen una constitución muy fuerte. Aunque enfermen, se curan solos sin necesidad de ninguna medicina. No como los mortales normales y corrientes, que sufrirían consecuencias a largo plazo si no reciben tratamiento médico tras una herida."
+          "Context": "Aquellos con sangre de Adeptus tienen una constitución muy fuerte. Aunque enfermen, se curan solos sin necesidad de ninguna medicina. No como los mortales comunes y corrientes, que sufrirían consecuencias a largo plazo si no reciben tratamiento médico tras una herida."
         },
         {
           "Title": "Sobre Keching...",
@@ -72901,7 +74117,7 @@
         },
         {
           "Title": "Comida que menos le gusta...",
-          "Context": "¿A dónde vas con todos esos dulces? ¡Ni se te ocurra comértelos todos de una sentada! Si tomas demasiado azúcar, te saldrán caries en un santiamén. Sí, has acertado. Yo suelo poner mucho cuidado en mi alimentación. ¿Qué clase de médico podría dar buenos consejos de nutrición a sus pacientes si ni siquiera es capaz de mantener una dieta saludable?"
+          "Context": "¿A dónde vas con todos esos dulces? ¡Ni se te ocurra comértelos todos de una sentada! Si tomas demasiado azúcar, te saldrán caries en un santiamén. Sí, has acertado. Yo suelo poner cuidado en no comer muchas cosas dulces o picantes. ¿Qué clase de médico podría dar buenos consejos de nutrición a sus pacientes si ni siquiera es capaz de mantener una dieta saludable?"
         },
         {
           "Title": "Al recibir un regalo (I)",
@@ -73059,7 +74275,7 @@
         },
         {
           "Title": "Visión",
-          "Context": "Cuando Baizhu aún era joven, una plaga asoló su pueblo natal.\nPor suerte, el médico de la zona estaba curtido en dichos temas y consiguió evitar que la plaga se extendiera aún más.\nSin embargo, ningún milagro fue capaz de evitar la pérdida de vidas. Baizhu perdió a sus padres en aquella tragedia. Desde entonces, estudió junto al médico del pueblo.\nA pesar de que en este mundo hay todo tipo de dolencias y enfermedades de lo más extrañas, su maestro siempre parecía conocer el remedio para todas y cada una de ellas. Después de estudiar tantos años, Baizhu aprendió una gran lección de su maestro: No importa cuán peligrosa o desconocida sea una enfermedad, el saber humano siempre será capaz de encontrar la cura adecuada.\n... Hasta que un día, los malestares acumulados por el contrato provocaron que su maestro enfermara y, finalmente, falleciera.\nAunque, para entonces, los estudios de Baizhu ya habían empezado a rendir frutos, aún se sentía incapaz ante las enfermedades más complicadas.\nPara colmo, la única dolencia incurable de este mundo, la muerte, se había llevado a su maestro.\n¿De verdad eran los humanos incapaces de detener el ciclo de la vida y la muerte?\nAllí, sentado frente a la fría lápida de su maestro, los recuerdos de su infancia se volvieron borrosos. Las virulentas toses de sus padres, el olor a sangre que emanaba de sus bocas... eran simples escenas poco nítidas que se superponían ante sus ojos.\nEn aquel cementerio, las mordaces palabras de Changsheng se mezclaban con la melancolía que sentía el muchacho.\n“Me pregunto cuántas personas más aceptarán este contrato...”.\nBaizhu no estaba dispuesto a dejar que otro de sus seres queridos volviera a desaparecer del mundo frente a sus ojos.\n“... No. Yo seré el último que firme ese contrato”.\nCuando volvió a abrir los ojos, una dorada luz refulgía frente a él, como una vela recién encendida.\nLo primero que fue capaz de vislumbrar entre los haces de luz fue la Visión que, cual luciérnaga que sobrevuela el oscuro manto de la noche, iluminaba ahora la lápida de su maestro.\nAquella Visión era la prueba de que los dioses, al igual que su maestro tiempo atrás, habían fijado su compasiva mirada en él."
+          "Context": "Cuando Baizhu aún era joven, una plaga asoló su pueblo natal.\nPor suerte, el médico de la zona estaba curtido en dichos temas y consiguió evitar que la plaga se extendiera aún más.\nSin embargo, ningún milagro fue capaz de evitar la pérdida de vidas. Baizhu perdió a sus padres en aquella tragedia. Desde entonces, estudió junto al médico del pueblo.\nA pesar de que en este mundo hay todo tipo de dolencias y enfermedades de lo más extrañas, su maestro siempre parecía conocer el remedio para todas y cada una de ellas. Después de estudiar tantos años, Baizhu aprendió una gran lección de su maestro: no importa cuán peligrosa o desconocida sea una enfermedad, el saber humano siempre será capaz de encontrar la cura adecuada.\n... Hasta que un día, los malestares acumulados por el contrato provocaron que su maestro enfermara y, finalmente, falleciera.\nAunque, para entonces, los estudios de Baizhu ya habían empezado a rendir frutos, aún se sentía incapaz ante las enfermedades más complicadas.\nPara colmo, la única dolencia incurable de este mundo, la muerte, se había llevado a su maestro.\n¿De verdad eran los humanos incapaces de detener el ciclo de la vida y la muerte?\nAllí, sentado frente a la fría lápida de su maestro, los recuerdos de su infancia se volvieron borrosos. Las virulentas toses de sus padres, el olor a sangre que emanaba de sus bocas... eran simples escenas poco nítidas que se superponían ante sus ojos.\nEn aquel cementerio, las mordaces palabras de Changsheng se mezclaban con la melancolía que sentía el muchacho.\n“Me pregunto cuántas personas más aceptarán este contrato...”.\nBaizhu no estaba dispuesto a dejar que otro de sus seres queridos volviera a desaparecer del mundo frente a sus ojos.\n“... No. Yo seré el último que firme ese contrato”.\nCuando volvió a abrir los ojos, una dorada luz refulgía frente a él, como una vela recién encendida.\nLo primero que fue capaz de vislumbrar entre los haces de luz fue la Visión que, cual luciérnaga que sobrevuela el oscuro manto de la noche, iluminaba ahora la lápida de su maestro.\nAquella Visión era la prueba de que los dioses, al igual que su maestro tiempo atrás, habían fijado su compasiva mirada en él."
         }
       ]
     },

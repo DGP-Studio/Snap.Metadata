@@ -1,5 +1,69 @@
 [
   {
+    "Id": 70,
+    "Floors": [
+      1044,
+      1045,
+      1058,
+      1059
+    ],
+    "Open": "2023-05-16T04:00:00+08:00",
+    "Close": "2023-06-01T03:59:59+08:00",
+    "BuffName": "Gelişen Ay",
+    "Descriptions": [
+      "Doğa Çekirdeklerinin verdiği Hasar (Aşırı Çiçeklenme ve Filizlenme tepkimelerinin Hasarları dahil) bir karaktere vurduğunda, 4 saniyeliğine tüm karakterlerin <color=#F39000FF>Element Ustalığı 200 artar</color>."
+    ],
+    "Icon": "UI_TowerBlessing_65"
+  },
+  {
+    "Id": 71,
+    "Floors": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-01T04:00:00+08:00",
+    "Close": "2023-06-16T03:59:59+08:00",
+    "BuffName": "Yankılanan Ay",
+    "Descriptions": [
+      "Karakterin Normal Saldırısı düşmana vurduktan sonra o düşmana bir Kapan İşareti verilir. 3sn sonra Kapan İşareti silinir ve o düşmana Gerçek Hasar verir. Bir Karakterin Normal Saldırısı, <color=#F39000FF>Kapan İşaretine</color> sahip bir düşmana vurursa İşaretin silinirken verdiği Hasar artar. Bu Hasar 9 defaya kadar artabilir."
+    ],
+    "Icon": "UI_TowerBlessing_66"
+  },
+  {
+    "Id": 72,
+    "Floors": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-16T04:00:00+08:00",
+    "Close": "2023-07-01T03:59:59+08:00",
+    "BuffName": "Kuvvetli Ay",
+    "Descriptions": [
+      "Aktif karakterin Normal Saldırıları düşmana vurduktan sonra 2 saniyeliğine bu karakterin verdiği Hasar <color=#F39000FF>%12</color> artar. Bu etki <color=#F39000FF>5</color> kademeye kadar birikebilir. Her kademenin süresi birbirinden bağımsızdır. Bu etki 0,05 saniyede bir tetiklenebilir. Karakter savaş alanından ayrıldığında bu etki iptal edilir."
+    ],
+    "Icon": "UI_TowerBlessing_40"
+  },
+  {
+    "Id": 73,
+    "Floors": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-07-01T04:00:00+08:00",
+    "Close": "2023-07-16T03:59:59+08:00",
+    "BuffName": "Narin Ay",
+    "Descriptions": [
+      "Karakterin Normal Saldırısı düşmana vurduktan sonra verilen Hasar türüne göre düşmanın 2 saniyeliğine Fiziksel veya Element Direnci <color=#F39000FF>%6 azalır</color>. Bu etki <color=#F39000FF>6</color> kademeye kadar birikebilir. Aynı anda farklı türlerde Direnç azalması yaşanabilir. Farklı türlerin kademeleri ve süreleri birbirinden bağımsızdır."
+    ],
+    "Icon": "UI_TowerBlessing_67"
+  },
+  {
     "Id": 1,
     "Floors": [
       1009,
@@ -486,7 +550,7 @@
     "Close": "2021-10-01T03:59:59+08:00",
     "BuffName": "Yenileyen Ay",
     "Descriptions": [
-      "Bir karakter Element Patlaması kullandıktan sonra gruptaki tüm karakterlerin Saldırıları 15 saniyeliğine %6,5 artar. 7 kademeye kadar birikir. 7 kademeye ulaşıldığında aktif karakterin Normal Saldırılarının vurduğu düşmanın konumunda Alan Hasarı veren bir şok dalgası yayılır. Bu şekilde 2 saniyede bir şok dalgası yayılabilir."
+      "Karakter Element Patlaması kullandıktan sonra gruptaki tüm karakterlerin Saldırıları 15 saniyeliğine %6,5 artar. 7 kademeye kadar birikir. 7 kademeye ulaşıldığında aktif karakterin Normal Saldırılarının vurduğu düşmanın konumunda Alan Hasarı veren bir şok dalgası yayılır. Bu şekilde 2 saniyede bir şok dalgası yayılabilir."
     ],
     "Icon": "UI_TowerBlessing_26"
   },
@@ -694,7 +758,7 @@
     "Close": "2022-04-16T03:59:59+08:00",
     "BuffName": "Buz Tabakası Ayı",
     "Descriptions": [
-      "Bir karakterin Normal Saldırısı düşmana vurduktan sonra o düşmana Yıkım İşareti etkisi verilir. 10sn sonra Yıkım İşareti kaldırılır ve o düşmana Gerçek Hasar verir. Bir karakterin Normal Saldırısı düşmana <color=#F39000FF>Yıkım İşaretiyle</color> vurduğunda Yıkım İşaretinin kalkmasıyla verilen Hasar artar. Bu Hasar <color=#F39000FF>9</color> defa artırılabilir."
+      "Karakterin Normal Saldırısı düşmana vurduktan sonra o düşmana Yıkım İşareti etkisi verilir. 10sn sonra Yıkım İşareti kaldırılır ve o düşmana Gerçek Hasar verir. Bir karakterin Normal Saldırısı düşmana <color=#F39000FF>Yıkım İşaretiyle</color> vurduğunda Yıkım İşaretinin kalkmasıyla verilen Hasar artar. Bu Hasar <color=#F39000FF>9</color> defa artırılabilir."
     ],
     "Icon": "UI_TowerBlessing_39"
   },
@@ -710,7 +774,7 @@
     "Close": "2022-05-01T03:59:59+08:00",
     "BuffName": "Ani Yağmur Ayı",
     "Descriptions": [
-      "Bir karakterin Normal Saldırıları düşmanlara vurduktan sonra 5 saniyeliğine bu karakterin Normal Saldırılarının verdiği hasar <color=#F39000FF>%12</color> artar. Bu etki <color=#F39000FF>5</color> kademeye kadar birikebilir. Her kademe farklı hesaplanır. Bu etki 0,1 saniyede bir tetiklenebilir."
+      "Karakterin Normal Saldırıları düşmanlara vurduktan sonra 5 saniyeliğine bu karakterin Normal Saldırılarının verdiği hasar <color=#F39000FF>%12</color> artar. Bu etki <color=#F39000FF>5</color> kademeye kadar birikebilir. Her kademe farklı hesaplanır. Bu etki 0,1 saniyede bir tetiklenebilir."
     ],
     "Icon": "UI_TowerBlessing_40"
   },
@@ -726,7 +790,7 @@
     "Close": "2022-05-16T03:59:59+08:00",
     "BuffName": "İris Ayı",
     "Descriptions": [
-      "Bir karakterin Normal Saldırıları düşmana Hasar verdikten sonra 5 saniyeliğine bu düşmanın verilen Hasarla aynı türdeki Fiziksel veya Element Direnci <color=#F39000FF>%6 azalır</color>. Bu etki <color=#F39000FF>7</color> kademeye kadar birikebilir. Aynı anda farklı türlerde Direnç azalması yaşanabilir. Kademeleri ve süreleri birbirinden bağımsızdır."
+      "Karakterin Normal Saldırıları düşmana Hasar verdikten sonra 5 saniyeliğine bu düşmanın verilen Hasarla aynı türdeki Fiziksel veya Element Direnci <color=#F39000FF>%6 azalır</color>. Bu etki <color=#F39000FF>7</color> kademeye kadar birikebilir. Aynı anda farklı türlerde Direnç azalması yaşanabilir. Kademeleri ve süreleri birbirinden bağımsızdır."
     ],
     "Icon": "UI_TowerBlessing_41"
   },
@@ -742,7 +806,7 @@
     "Close": "2022-06-01T03:59:59+08:00",
     "BuffName": "Buz Tabakası Ayı",
     "Descriptions": [
-      "Bir karakterin Normal Saldırısı düşmana vurduktan sonra o düşmana Yıkım İşareti etkisi verilir. 10sn sonra Yıkım İşareti kaldırılır ve o düşmana Gerçek Hasar verir. Bir karakterin Normal Saldırısı düşmana <color=#F39000FF>Yıkım İşaretiyle</color> vurduğunda Yıkım İşaretinin kalkmasıyla verilen Hasar artar. Bu Hasar <color=#F39000FF>9</color> defa artırılabilir."
+      "Karakterin Normal Saldırısı düşmana vurduktan sonra o düşmana Yıkım İşareti etkisi verilir. 10sn sonra Yıkım İşareti kaldırılır ve o düşmana Gerçek Hasar verir. Bir karakterin Normal Saldırısı düşmana <color=#F39000FF>Yıkım İşaretiyle</color> vurduğunda Yıkım İşaretinin kalkmasıyla verilen Hasar artar. Bu Hasar <color=#F39000FF>9</color> defa artırılabilir."
     ],
     "Icon": "UI_TowerBlessing_39"
   },
@@ -774,7 +838,7 @@
     "Close": "2022-07-01T03:59:59+08:00",
     "BuffName": "Eşli Ay",
     "Descriptions": [
-      "Bir karakterin Element Becerisi bir düşmanı vurduğunda 8 saniyeliğine o düşmanın <color=#F39000FF>Fiziksel Direnci ve Tüm Element Dirençleri %12 azalır</color>. 3 kademeye kadar birikir. Kademeler birbirinden bağımsız olarak hesaplanır."
+      "Karakterin Element Becerisi bir düşmanı vurduğunda 8 saniyeliğine o düşmanın <color=#F39000FF>Fiziksel Direnci ve Tüm Element Dirençleri %12 azalır</color>. 3 kademeye kadar birikir. Kademeler birbirinden bağımsız olarak hesaplanır."
     ],
     "Icon": "UI_TowerBlessing_43"
   },
@@ -886,7 +950,7 @@
     "Close": "2022-10-16T03:59:59+08:00",
     "BuffName": "Küçülen Ay",
     "Descriptions": [
-      "Bir karakter Çiçeklenme, Aşırı Çiçeklenme veya Filizlenme tetikledikten sonra, 10 saniye boyunca tüm grup üyelerinin <color=#F39000FF>Element Ustalığı 40 artar</color>. Bu etki her 0,1 saniyede bir tetiklenebilir. En fazla 5 kademeye kadar birikebilir. Her kademenin süresi birbirinden bağımsızdır."
+      "Karakter Çiçeklenme, Aşırı Çiçeklenme veya Filizlenme tetikledikten sonra, 10 saniye boyunca tüm grup üyelerinin <color=#F39000FF>Element Ustalığı 40 artar</color>. Bu etki her 0,1 saniyede bir tetiklenebilir. En fazla 5 kademeye kadar birikebilir. Her kademenin süresi birbirinden bağımsızdır."
     ],
     "Icon": "UI_TowerBlessing_50"
   },
@@ -1030,7 +1094,7 @@
     "Close": "2023-03-01T03:59:59+08:00",
     "BuffName": "Yeşil Ay",
     "Descriptions": [
-      "Bir karakter, bir düşmana Normal, Yüklü ve Havadan Saldırı, Element Becerisi ve Element Patlaması ile Doğa Hasarı verdikten sonra bir adet Yeşil Azim kademesi kazanır. 6 saniyeliğine <color=#F39000FF>Karakterin verdiği Hasar %8 artar</color>. Bu etki her 0,1 saniyede bir tetiklenebilir. 6 kademeye kadar birikir. Her kademenin süresi birbirinden bağımsızdır."
+      "Karakter, bir düşmana Normal, Yüklü ve Havadan Saldırı, Element Becerisi ve Element Patlaması ile Doğa Hasarı verdikten sonra bir adet Yeşil Azim kademesi kazanır. 6 saniyeliğine <color=#F39000FF>Karakterin verdiği Hasar %8 artar</color>. Bu etki her 0,1 saniyede bir tetiklenebilir. 6 kademeye kadar birikir. Her kademenin süresi birbirinden bağımsızdır."
     ],
     "Icon": "UI_TowerBlessing_59"
   },
@@ -1062,7 +1126,7 @@
     "Close": "2023-04-01T03:59:59+08:00",
     "BuffName": "Sarsılmaz Ay",
     "Descriptions": [
-      "Bir karakterin Canı azaldıktan sonra tüm grup üyeleri bir kademe Amansız kazanır ve 8 saniye boyunca <color=#F39000FF>verilen Hasar %8 artar</color>. Bu etki her 0,3 saniyede bir tetiklenebilir. En fazla 4 kademeye kadar birikebilir. Her kademenin süresi birbirinden bağımsızdır."
+      "Karakterin Canı azaldıktan sonra tüm grup üyeleri bir kademe Amansız kazanır ve 8 saniye boyunca <color=#F39000FF>verilen Hasar %8 artar</color>. Bu etki her 0,3 saniyede bir tetiklenebilir. En fazla 4 kademeye kadar birikebilir. Her kademenin süresi birbirinden bağımsızdır."
     ],
     "Icon": "UI_TowerBlessing_61"
   },
@@ -1113,21 +1177,5 @@
       "Bir karakter, bir Çiçeklenme tepkimesi tetikledikten sonra 6 saniyeliğine tüm karakterlerin <color=#F39000FF>Çiçeklenme, Aşırı Çiçeklenme ve Filizlenme Hasarı %35 artar</color>. Bu etki her 0,1 saniyede bir tetiklenebilir. En fazla 4 kademeye kadar birikebilir. Her kademenin süresi birbirinden bağımsızdır."
     ],
     "Icon": "UI_TowerBlessing_64"
-  },
-  {
-    "Id": 70,
-    "Floors": [
-      1044,
-      1045,
-      1058,
-      1059
-    ],
-    "Open": "2023-05-16T04:00:00+08:00",
-    "Close": "2023-06-01T03:59:59+08:00",
-    "BuffName": "Gelişen Ay",
-    "Descriptions": [
-      "Doğa Çekirdeklerinin verdiği Hasar (Aşırı Çiçeklenme ve Filizlenme tepkimelerinin Hasarları dahil) bir karaktere vurduğunda, 4 saniyeliğine tüm karakterlerin <color=#F39000FF>Element Ustalığı 200 artar</color>."
-    ],
-    "Icon": "UI_TowerBlessing_65"
   }
 ]

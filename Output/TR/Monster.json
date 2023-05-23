@@ -133,8 +133,8 @@
     "Id": 21020201,
     "DescribeId": 10202,
     "MonsterName": "Brute_None_Axe",
-    "Title": "Alevli Baltalı Dağ Azmanı",
-    "Description": "Dağ Azmanı: Alevli Balta",
+    "Title": "Alev Baltalı Dağ Azmanı",
+    "Description": "Dağ Azmanı: Alev Baltalı",
     "Icon": "UI_MonsterIcon_Brute_None_01",
     "Type": 1,
     "Affixes": [
@@ -179,8 +179,8 @@
     "Id": 21020202,
     "DescribeId": 10202,
     "MonsterName": "Brute_None_Axe_AttackEnhance",
-    "Title": "Alevli Baltalı Dağ Azmanı",
-    "Description": "Dağ Azmanı: Alevli Balta",
+    "Title": "Alev Baltalı Dağ Azmanı",
+    "Description": "Dağ Azmanı: Alev Baltalı",
     "Icon": "UI_MonsterIcon_Brute_None_01",
     "Type": 1,
     "Affixes": [
@@ -3432,8 +3432,8 @@
     "Id": 20050701,
     "DescribeId": 507,
     "MonsterName": "Monster_Oceanid_Squirrel",
-    "Title": "Su Taklitçisi Dağ Gelinciği",
-    "Description": "Su Taklitçisi Dağ Gelinciği",
+    "Title": "Su Taklitçisi Sincap",
+    "Description": "Su Taklitçisi Sincap",
     "Icon": "UI_MonsterIcon_Oceanid_Underling",
     "Type": 1,
     "Affixes": [
@@ -3462,8 +3462,8 @@
     "Id": 20050702,
     "DescribeId": 507,
     "MonsterName": "Monster_Oceanid_Squirrel_02",
-    "Title": "Su Taklitçisi Dağ Gelinciği",
-    "Description": "Su Taklitçisi Dağ Gelinciği",
+    "Title": "Su Taklitçisi Sincap",
+    "Description": "Su Taklitçisi Sincap",
     "Icon": "UI_MonsterIcon_Oceanid_Underling",
     "Type": 1,
     "Affixes": [
@@ -3492,8 +3492,8 @@
     "Id": 20050703,
     "DescribeId": 507,
     "MonsterName": "Monster_Oceanid_Squirrel",
-    "Title": "Su Taklitçisi Dağ Gelinciği",
-    "Description": "Su Taklitçisi Dağ Gelinciği",
+    "Title": "Su Taklitçisi Sincap",
+    "Description": "Su Taklitçisi Sincap",
     "Icon": "UI_MonsterIcon_Oceanid_Underling",
     "Type": 1,
     "Affixes": [
@@ -3641,6 +3641,33 @@
     ],
     "BaseValue": {
       "HpBase": 190.176,
+      "AttackBase": 90.432,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 20070102,
+    "DescribeId": 701,
+    "MonsterName": "Monster_Raijin_02",
+    "Title": "Yıldırım Alameti",
+    "Description": "Yıldırım Alameti",
+    "Icon": "UI_MonsterIcon_Raijin",
+    "Type": 2,
+    "BaseValue": {
+      "HpBase": 244.512,
       "AttackBase": 90.432,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
@@ -3848,7 +3875,7 @@
     "Id": 21010501,
     "DescribeId": 10105,
     "MonsterName": "Hili_Fire_Range",
-    "Title": "Ateş Dağ Yabanisi Nişancısı",
+    "Title": "Nişancı Ateş Dağ Yabanisi",
     "Description": "Nişancı Dağ Yabanisi",
     "Icon": "UI_MonsterIcon_Hili_Fire_Range",
     "Type": 1,
@@ -3887,7 +3914,7 @@
     "Id": 21010502,
     "DescribeId": 10105,
     "MonsterName": "Hili_Fire_Range_Multi",
-    "Title": "Ateş Dağ Yabanisi Nişancısı",
+    "Title": "Nişancı Ateş Dağ Yabanisi",
     "Description": "Nişancı Dağ Yabanisi",
     "Icon": "UI_MonsterIcon_Hili_Fire_Range",
     "Type": 1,
@@ -4021,7 +4048,7 @@
     "Id": 21010901,
     "DescribeId": 10109,
     "MonsterName": "Hili_Ice_Range",
-    "Title": "Buz Dağ Yabanisi Nişancısı",
+    "Title": "Nişancı Buz Dağ Yabanisi",
     "Description": "Nişancı Dağ Yabanisi",
     "Icon": "UI_MonsterIcon_Hili_Ice_Range",
     "Type": 1,
@@ -4057,7 +4084,7 @@
     "Id": 21010902,
     "DescribeId": 10109,
     "MonsterName": "Hili_Ice_Range_Multi",
-    "Title": "Buz Dağ Yabanisi Nişancısı",
+    "Title": "Nişancı Buz Dağ Yabanisi",
     "Description": "Nişancı Dağ Yabanisi",
     "Icon": "UI_MonsterIcon_Hili_Ice_Range",
     "Type": 1,
@@ -4087,7 +4114,7 @@
     "Id": 21011001,
     "DescribeId": 10110,
     "MonsterName": "Hili_Electric_Range",
-    "Title": "Elektrik Dağ Yabanisi Nişancısı",
+    "Title": "Nişancı Elektrik Dağ Yabanisi",
     "Description": "Nişancı Dağ Yabanisi",
     "Icon": "UI_MonsterIcon_Hili_Electric_Range",
     "Type": 1,
@@ -4123,7 +4150,7 @@
     "Id": 21011002,
     "DescribeId": 10110,
     "MonsterName": "Hili_Electric_Range_Multi",
-    "Title": "Elektrik Dağ Yabanisi Nişancısı",
+    "Title": "Nişancı Elektrik Dağ Yabanisi",
     "Description": "Nişancı Dağ Yabanisi",
     "Icon": "UI_MonsterIcon_Hili_Electric_Range",
     "Type": 1,
@@ -7727,6 +7754,33 @@
     "BaseValue": {
       "HpBase": 230.928,
       "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.7
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 24030302,
+    "DescribeId": 40303,
+    "MonsterName": "Gargoyle_Fafnir_02",
+    "Title": "Sonsuz Felaket Ejderi",
+    "Description": "Sonsuz Felaket Ejderi",
+    "Icon": "UI_MonsterIcon_Gargoyle_Fafnir",
+    "Type": 2,
+    "BaseValue": {
+      "HpBase": 203.76,
+      "AttackBase": 90.432,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -11631,7 +11685,7 @@
     "Id": 25410101,
     "DescribeId": 54101,
     "MonsterName": "Eremite_Male_Strong_Katar_01",
-    "Title": "Münzevi Taş Üfürükçüsü",
+    "Title": "Münzevi Taş Terbiyecisi",
     "Description": "Münzevi Fırtına Avcısı",
     "Icon": "UI_MonsterIcon_Eremite_Male_Strong_Katar",
     "Type": 1,
@@ -11659,7 +11713,7 @@
     "DescribeId": 54102,
     "MonsterName": "Eremite_Female_Standard_Longbow_01",
     "Title": "Münzevi Fırtına Avcısı",
-    "Description": "Münzevi Taş Üfürükçüsü",
+    "Description": "Münzevi Taş Terbiyecisi",
     "Icon": "UI_MonsterIcon_Eremite_Female_Standard_Longbow",
     "Type": 1,
     "BaseValue": {
@@ -12811,6 +12865,33 @@
     }
   },
   {
+    "Id": 26050703,
+    "DescribeId": 60507,
+    "MonsterName": "Drake_Deepsea_Ice_04",
+    "Title": "Buzkıran Su Ejderi",
+    "Description": "Buzkıran Su Ejderi",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Ice",
+    "Type": 2,
+    "BaseValue": {
+      "HpBase": 185.185,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.3,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 26050801,
     "DescribeId": 60508,
     "MonsterName": "Drake_Deepsea_Electric_01",
@@ -12901,6 +12982,33 @@
     "GrowCurves": {
       "FIGHT_PROP_BASE_HP": 23,
       "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 26050803,
+    "DescribeId": 60508,
+    "MonsterName": "Drake_Deepsea_Electric_04",
+    "Title": "Yıldırımyutan Su Ejderi",
+    "Description": "Yıldırımyutan Su Ejderi",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Electric",
+    "Type": 2,
+    "BaseValue": {
+      "HpBase": 185.185,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.3,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
       "FIGHT_PROP_BASE_DEFENSE": 12
     }
   },
@@ -14590,8 +14698,8 @@
     "Id": 21020203,
     "DescribeId": 10202,
     "MonsterName": "Brute_None_Axe",
-    "Title": "Alevli Baltalı Dağ Azmanı",
-    "Description": "Dağ Azmanı: Alevli Balta",
+    "Title": "Alev Baltalı Dağ Azmanı",
+    "Description": "Dağ Azmanı: Alev Baltalı",
     "Icon": "UI_MonsterIcon_Brute_None_01",
     "Type": 1,
     "Affixes": [
