@@ -3432,8 +3432,8 @@
     "Id": 20050701,
     "DescribeId": 507,
     "MonsterName": "Monster_Oceanid_Squirrel",
-    "Title": "Imitatore di Hydro furetto",
-    "Description": "Imitatore di Hydro furetto",
+    "Title": "Imitatore di Hydro scoiattolo",
+    "Description": "Imitatore di Hydro scoiattolo",
     "Icon": "UI_MonsterIcon_Oceanid_Underling",
     "Type": 1,
     "Affixes": [
@@ -3462,8 +3462,8 @@
     "Id": 20050702,
     "DescribeId": 507,
     "MonsterName": "Monster_Oceanid_Squirrel_02",
-    "Title": "Imitatore di Hydro furetto",
-    "Description": "Imitatore di Hydro furetto",
+    "Title": "Imitatore di Hydro scoiattolo",
+    "Description": "Imitatore di Hydro scoiattolo",
     "Icon": "UI_MonsterIcon_Oceanid_Underling",
     "Type": 1,
     "Affixes": [
@@ -3492,8 +3492,8 @@
     "Id": 20050703,
     "DescribeId": 507,
     "MonsterName": "Monster_Oceanid_Squirrel",
-    "Title": "Imitatore di Hydro furetto",
-    "Description": "Imitatore di Hydro furetto",
+    "Title": "Imitatore di Hydro scoiattolo",
+    "Description": "Imitatore di Hydro scoiattolo",
     "Icon": "UI_MonsterIcon_Oceanid_Underling",
     "Type": 1,
     "Affixes": [
@@ -3641,6 +3641,33 @@
     ],
     "BaseValue": {
       "HpBase": 190.176,
+      "AttackBase": 90.432,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 20070102,
+    "DescribeId": 701,
+    "MonsterName": "Monster_Raijin_02",
+    "Title": "Manifestazione del tuono",
+    "Description": "Manifestazione del tuono",
+    "Icon": "UI_MonsterIcon_Raijin",
+    "Type": 2,
+    "BaseValue": {
+      "HpBase": 244.512,
       "AttackBase": 90.432,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
@@ -7744,6 +7771,33 @@
     }
   },
   {
+    "Id": 24030302,
+    "DescribeId": 40303,
+    "MonsterName": "Gargoyle_Fafnir_02",
+    "Title": "Drago cataclismatico",
+    "Description": "Drago cataclismatico",
+    "Icon": "UI_MonsterIcon_Gargoyle_Fafnir",
+    "Type": 2,
+    "BaseValue": {
+      "HpBase": 203.76,
+      "AttackBase": 90.432,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.7
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 24040101,
     "DescribeId": 40401,
     "MonsterName": "Monolith_Ordinator_01",
@@ -11712,8 +11766,8 @@
     "Id": 25410401,
     "DescribeId": 54104,
     "MonsterName": "Eremite_Female_Standard_Dancer_01",
-    "Title": "Eremita danzatrice di spade dell'Anello floreale",
-    "Description": "Eremita danzatrice di spade dell'Anello floreale",
+    "Title": "Eremita danzatrice dell'anello floreale",
+    "Description": "Eremita danzatrice dell'anello floreale",
     "Icon": "UI_MonsterIcon_Eremite_Female_Standard_Dancer",
     "Type": 1,
     "BaseValue": {
@@ -12811,6 +12865,33 @@
     }
   },
   {
+    "Id": 26050703,
+    "DescribeId": 60507,
+    "MonsterName": "Drake_Deepsea_Ice_04",
+    "Title": "Elementosauro abissale Azzannabrina",
+    "Description": "Elementosauro abissale Azzannabrina",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Ice",
+    "Type": 2,
+    "BaseValue": {
+      "HpBase": 185.185,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.3,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
     "Id": 26050801,
     "DescribeId": 60508,
     "MonsterName": "Drake_Deepsea_Electric_01",
@@ -12901,6 +12982,33 @@
     "GrowCurves": {
       "FIGHT_PROP_BASE_HP": 23,
       "FIGHT_PROP_BASE_ATTACK": 2,
+      "FIGHT_PROP_BASE_DEFENSE": 12
+    }
+  },
+  {
+    "Id": 26050803,
+    "DescribeId": 60508,
+    "MonsterName": "Drake_Deepsea_Electric_04",
+    "Title": "Elementosauro abissale Divoratuono",
+    "Description": "Elementosauro abissale Divoratuono",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Electric",
+    "Type": 2,
+    "BaseValue": {
+      "HpBase": 185.185,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.3,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.3
+    },
+    "GrowCurves": {
+      "FIGHT_PROP_BASE_HP": 23,
+      "FIGHT_PROP_BASE_ATTACK": 24,
       "FIGHT_PROP_BASE_DEFENSE": 12
     }
   },
@@ -13343,8 +13451,8 @@
     "Id": 26091001,
     "DescribeId": 60910,
     "MonsterName": "Fungus_Deux_Delta_Electric_01",
-    "Title": "Miconoide retrattile di Electro",
-    "Description": "Miconoide retrattile di Electro",
+    "Title": "Miconoide oblungo di Electro",
+    "Description": "Miconoide oblungo di Electro",
     "Icon": "UI_MonsterIcon_Fungus_Deux_Delta_Electric",
     "Type": 1,
     "BaseValue": {
@@ -13613,8 +13721,8 @@
     "Id": 26091090,
     "DescribeId": 60910,
     "MonsterName": "Fungus_Deux_Delta_Electric_Enemy",
-    "Title": "Miconoide retrattile di Electro",
-    "Description": "Miconoide retrattile di Electro",
+    "Title": "Miconoide oblungo di Electro",
+    "Description": "Miconoide oblungo di Electro",
     "Icon": "UI_MonsterIcon_Fungus_Deux_Delta_Electric",
     "Type": 1,
     "BaseValue": {
@@ -13883,8 +13991,8 @@
     "Id": 26091091,
     "DescribeId": 60910,
     "MonsterName": "Fungus_Deux_Delta_Electric_01_Capture",
-    "Title": "Miconoide retrattile di Electro",
-    "Description": "Miconoide retrattile di Electro",
+    "Title": "Miconoide oblungo di Electro",
+    "Description": "Miconoide oblungo di Electro",
     "Icon": "UI_MonsterIcon_Fungus_Deux_Delta_Electric",
     "Type": 1,
     "BaseValue": {
