@@ -1,5 +1,69 @@
 [
   {
+    "Id": 70,
+    "FloorIds": [
+      1044,
+      1045,
+      1058,
+      1059
+    ],
+    "Open": "2023-05-16T04:00:00+08:00",
+    "Close": "2023-06-01T03:59:59+08:00",
+    "BuffName": "Fioritura lunare",
+    "Descriptions": [
+      "#Quando i DAN inflitti dai nuclei di Dendro (inclusi DAN da Iperfioritura e di Germinazione) vengono applicati a un personaggio, la <color=#F39000FF>maestria elementale</color> di tutti i personaggi del gruppo <color=#F39000FF>aumenta di 200</color> per 4{NON_BREAK_SPACE}s."
+    ],
+    "Icon": "UI_TowerBlessing_65"
+  },
+  {
+    "Id": 71,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-01T04:00:00+08:00",
+    "Close": "2023-06-16T03:59:59+08:00",
+    "BuffName": "Luna risonante",
+    "Descriptions": [
+      "#Quando il personaggio colpisce un avversario con un attacco normale, l'avversario riceve un Marchio del calappio. Dopo 3{NON_BREAK_SPACE}s, il Marchio viene rimosso, infliggendo DAN puri all'avversario. Se il personaggio colpisce con un attacco normale un avversario <color=#F39000FF>afflitto da un Marchio del calappio</color>, i DAN inflitti dalla rimozione del Marchio aumentano. Questi DAN si possono aumentare fino a un massimo di 9 volte."
+    ],
+    "Icon": "UI_TowerBlessing_66"
+  },
+  {
+    "Id": 72,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-16T04:00:00+08:00",
+    "Close": "2023-07-01T03:59:59+08:00",
+    "BuffName": "Luna poderosa",
+    "Descriptions": [
+      "#Quando il personaggio attivo colpisce gli avversari con un attacco normale, i DAN che infligge aumentano di un <color=#F39000FF>12%</color> per 2{NON_BREAK_SPACE}s. L'effetto è cumulabile fino a un massimo di <color=#F39000FF>5</color> volte, e la durata di ogni accumulo è contata in modo indipendente. Quest'effetto può attivarsi una volta ogni 0,05{NON_BREAK_SPACE}s, e si annulla quando il personaggio lascia il campo."
+    ],
+    "Icon": "UI_TowerBlessing_40"
+  },
+  {
+    "Id": 73,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-07-01T04:00:00+08:00",
+    "Close": "2023-07-16T03:59:59+08:00",
+    "BuffName": "Luna affusolata",
+    "Descriptions": [
+      "#Quando il personaggio colpisce un avversario con un attacco normale, la RES fisica o elementale di tale avversario <color=#F39000FF>si riduce di un 6%</color> per 2{NON_BREAK_SPACE}s, in base all'attributo dell'attacco. L'effetto è cumulabile fino a un massimo di <color=#F39000FF>6</color> volte. Possono coesistere più tipi di riduzioni delle RES, e i relativi accumuli e durate sono indipendenti gli uni dagli altri."
+    ],
+    "Icon": "UI_TowerBlessing_67"
+  },
+  {
     "Id": 1,
     "FloorIds": [
       1009,
@@ -486,7 +550,7 @@
     "Close": "2021-10-01T03:59:59+08:00",
     "BuffName": "Luna rinnovatrice",
     "Descriptions": [
-      "#Quando un personaggio usa un Tripudio elementale, l'ATT di tutti i membri del gruppo aumenta di un 6,5% per 15{NON_BREAK_SPACE}s. Cumulabile fino a 7 volte. Raggiunta la quantità massima cumulabile, gli attacchi normali del personaggio attivo rilasceranno un'onda d'urto nell'area dell'avversario, infliggendo DAN ad area. Quest'onda d'urto può sprigionarsi una volta ogni 2{NON_BREAK_SPACE}s."
+      "#Quando il personaggio usa un Tripudio elementale, l'ATT di tutti i membri del gruppo aumenta di un 6,5% per 15{NON_BREAK_SPACE}s. Cumulabile fino a 7 volte. Raggiunta la quantità massima cumulabile, gli attacchi normali del personaggio attivo rilasceranno un'onda d'urto nell'area dell'avversario, infliggendo DAN ad area. Quest'onda d'urto può sprigionarsi una volta ogni 2{NON_BREAK_SPACE}s."
     ],
     "Icon": "UI_TowerBlessing_26"
   },
@@ -694,7 +758,7 @@
     "Close": "2022-04-16T03:59:59+08:00",
     "BuffName": "Luna lastra gelata",
     "Descriptions": [
-      "Dopo che un personaggio colpisce un avversario con un attacco normale, l'avversario riceve un Marchio finale. Dopo 10 s, tale Marchio finale sarà rimosso, infliggendo DAN puri all'avversario. Quando l'attacco normale di un personaggio colpisce un avversario <color=#F39000FF>con un Marchio finale</color>, i DAN inflitti dalla rimozione del Marchio finale aumentano. Questi DAN si possono aumentare <color=#F39000FF>9</color> volte."
+      "#Dopo che il personaggio colpisce un avversario con un attacco normale, l'avversario riceve un Marchio finale. Dopo 10{NON_BREAK_SPACE}s, tale Marchio finale sarà rimosso, infliggendo DAN puri all'avversario. Quando l'attacco normale di un personaggio colpisce un avversario <color=#F39000FF>con un Marchio finale</color>, i DAN inflitti dalla rimozione del Marchio finale aumentano. Questi DAN si possono aumentare <color=#F39000FF>9</color> volte."
     ],
     "Icon": "UI_TowerBlessing_39"
   },
@@ -710,7 +774,7 @@
     "Close": "2022-05-01T03:59:59+08:00",
     "BuffName": "Luna pioggia battente",
     "Descriptions": [
-      "Dopo che un personaggio colpisce un avversario con un attacco normale, i DAN inflitti dagli attacchi normali di questo personaggio aumentano di un <color=#F39000FF>12%</color> per 5 s. Questo effetto è cumulabile fino a <color=#F39000FF>5 volte</color> e ogni accumulo si calcola in modo indipendente. Quest'effetto può attivarsi una volta ogni 0,1 s."
+      "#Dopo che il personaggio colpisce un avversario con un attacco normale, i DAN inflitti dagli attacchi normali di questo personaggio aumentano di un <color=#F39000FF>12%</color> per 5{NON_BREAK_SPACE}s. Questo effetto è cumulabile fino a <color=#F39000FF>5 volte</color> e ogni accumulo si calcola in modo indipendente. Quest'effetto può attivarsi una volta ogni 0,1{NON_BREAK_SPACE}s."
     ],
     "Icon": "UI_TowerBlessing_40"
   },
@@ -726,7 +790,7 @@
     "Close": "2022-05-16T03:59:59+08:00",
     "BuffName": "Luna d'iride",
     "Descriptions": [
-      "Dopo che un personaggio infligge DAN a un avversario con un attacco normale, la RES fisica/elementale di tale avversario <color=#F39000FF>diminuisce di un 6%</color> per 5 s, in base al tipo di DAN inflitto. L'effetto è cumulabile fino a <color=#F39000FF>7</color> volte. Le diminuzioni di RES a vari tipi possono coesistere, e i loro accumuli e il tempo sono indipendenti gli uni dagli altri."
+      "#Dopo che il personaggio infligge DAN a un avversario con un attacco normale, la RES fisica/elementale di tale avversario <color=#F39000FF>diminuisce di un 6%</color> per 5{NON_BREAK_SPACE}s, in base al tipo di DAN inflitto. L'effetto è cumulabile fino a <color=#F39000FF>7</color> volte. Le diminuzioni di RES a vari tipi possono coesistere, e i loro accumuli e il tempo sono indipendenti gli uni dagli altri."
     ],
     "Icon": "UI_TowerBlessing_41"
   },
@@ -742,7 +806,7 @@
     "Close": "2022-06-01T03:59:59+08:00",
     "BuffName": "Luna lastra gelata",
     "Descriptions": [
-      "Dopo che un personaggio colpisce un avversario con un attacco normale, l'avversario riceve un Marchio finale. Dopo 10 s, tale Marchio finale sarà rimosso, infliggendo DAN puri all'avversario. Quando l'attacco normale di un personaggio colpisce un avversario <color=#F39000FF>con un Marchio finale</color>, i DAN inflitti dalla rimozione del Marchio finale aumentano. Questi DAN si possono aumentare <color=#F39000FF>9</color> volte."
+      "#Dopo che il personaggio colpisce un avversario con un attacco normale, l'avversario riceve un Marchio finale. Dopo 10{NON_BREAK_SPACE}s, tale Marchio finale sarà rimosso, infliggendo DAN puri all'avversario. Quando l'attacco normale di un personaggio colpisce un avversario <color=#F39000FF>con un Marchio finale</color>, i DAN inflitti dalla rimozione del Marchio finale aumentano. Questi DAN si possono aumentare <color=#F39000FF>9</color> volte."
     ],
     "Icon": "UI_TowerBlessing_39"
   },
@@ -774,7 +838,7 @@
     "Close": "2022-07-01T03:59:59+08:00",
     "BuffName": "Luna scalare",
     "Descriptions": [
-      "#Dopo che l'abilità elementale di un personaggio colpisce un avversario, <color=#F39000FF>la RES fisica e a tutti gli elementi dell'avversario si riducono di un 12%</color> per 8{NON_BREAK_SPACE}s. Cumulabile fino a 3 volte. Le cariche sono contate in modo indipendente."
+      "#Dopo che l'abilità elementale del personaggio colpisce un avversario, <color=#F39000FF>la RES fisica e a tutti gli elementi dell'avversario si riducono di un 12%</color> per 8{NON_BREAK_SPACE}s. Cumulabile fino a 3 volte. Le cariche sono contate in modo indipendente."
     ],
     "Icon": "UI_TowerBlessing_43"
   },
@@ -886,7 +950,7 @@
     "Close": "2022-10-16T03:59:59+08:00",
     "BuffName": "Luna sfrondata",
     "Descriptions": [
-      "#Quando un personaggio innesca una reazione di Fioritura, Iperfioritura o Germinazione, la <color=#F39000FF>maestria elementale aumenta di 40</color> per 10{NON_BREAK_SPACE}s per tutti i membri del gruppo. Quest'effetto può attivarsi una volta ogni 0,1{NON_BREAK_SPACE}s. Cumulabile fino a 5 volte. La durata di ciascun effetto cumulato è contata in modo indipendente."
+      "#Quando il personaggio innesca una reazione di Fioritura, Iperfioritura o Germinazione, la <color=#F39000FF>maestria elementale aumenta di 40</color> per 10{NON_BREAK_SPACE}s per tutti i membri del gruppo. Quest'effetto può attivarsi una volta ogni 0,1{NON_BREAK_SPACE}s. Cumulabile fino a 5 volte. La durata di ciascun effetto cumulato è contata in modo indipendente."
     ],
     "Icon": "UI_TowerBlessing_50"
   },
@@ -1030,7 +1094,7 @@
     "Close": "2023-03-01T03:59:59+08:00",
     "BuffName": "Luna verdeggiante",
     "Descriptions": [
-      "#Quando un personaggio infligge DAN da Dendro agli avversari usando attacchi normali, caricati e in picchiata, o abilità elementale e Tripudio elementale, il personaggio ottiene un accumulo di Vigore viride: <color=#F39000FF>i DAN inflitti aumentano di un 8%</color> per 6{NON_BREAK_SPACE}s. Quest'effetto può attivarsi una volta ogni 0,1{NON_BREAK_SPACE}s. Massimo 6 accumuli. Ciascun accumulo viene contato in modo indipendente."
+      "#Quando il personaggio infligge DAN da Dendro agli avversari usando attacchi normali, caricati e in picchiata, o abilità elementale e Tripudio elementale, il personaggio ottiene un accumulo di Vigore viride: <color=#F39000FF>i DAN inflitti aumentano di un 8%</color> per 6{NON_BREAK_SPACE}s. Quest'effetto può attivarsi una volta ogni 0,1{NON_BREAK_SPACE}s. Massimo 6 accumuli. Ciascun accumulo viene contato in modo indipendente."
     ],
     "Icon": "UI_TowerBlessing_59"
   },
@@ -1062,7 +1126,7 @@
     "Close": "2023-04-01T03:59:59+08:00",
     "BuffName": "Luna determinata",
     "Descriptions": [
-      "#Dopo che i PS di un personaggio diminuiscono, tutti i membri del gruppo ottengono un accumulo di Implacabilità: <color=#F39000FF>i DAN inflitti aumentano di un 8%</color> per 8{NON_BREAK_SPACE}s. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s. Cumulabile fino a 4 volte. La durata di ciascun accumulo è contata in modo indipendente."
+      "#Dopo che i PS del personaggio diminuiscono, tutti i membri del gruppo ottengono un accumulo di Implacabilità: <color=#F39000FF>i DAN inflitti aumentano di un 8%</color> per 8{NON_BREAK_SPACE}s. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s. Cumulabile fino a 4 volte. La durata di ciascun accumulo è contata in modo indipendente."
     ],
     "Icon": "UI_TowerBlessing_61"
   },
@@ -1113,21 +1177,5 @@
       "#Quando un personaggio innesca una reazione di Fioritura, <color=#F39000FF>i DAN inflitti tramite Fioritura, Iperfioritura e Germinazione aumentano di un 35%</color> per 6{NON_BREAK_SPACE}s. Quest'effetto può attivarsi una volta ogni 0,1{NON_BREAK_SPACE}s. Cumulabile fino a 4 volte. La durata di ciascun accumulo è contata in modo indipendente."
     ],
     "Icon": "UI_TowerBlessing_64"
-  },
-  {
-    "Id": 70,
-    "FloorIds": [
-      1044,
-      1045,
-      1058,
-      1059
-    ],
-    "Open": "2023-05-16T04:00:00+08:00",
-    "Close": "2023-06-01T03:59:59+08:00",
-    "BuffName": "Fioritura lunare",
-    "Descriptions": [
-      "#Quando i DAN inflitti dai nuclei di Dendro (inclusi DAN da Iperfioritura e di Germinazione) vengono applicati a un personaggio, la <color=#F39000FF>maestria elementale</color> di tutti i personaggi del gruppo <color=#F39000FF>aumenta di 200</color> per 4{NON_BREAK_SPACE}s."
-    ],
-    "Icon": "UI_TowerBlessing_65"
   }
 ]

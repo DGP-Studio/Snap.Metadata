@@ -1,5 +1,69 @@
 [
   {
+    "Id": 70,
+    "FloorIds": [
+      1044,
+      1045,
+      1058,
+      1059
+    ],
+    "Open": "2023-05-16T04:00:00+08:00",
+    "Close": "2023-06-01T03:59:59+08:00",
+    "BuffName": "Lua Deslumbrante",
+    "Descriptions": [
+      "Quando um Dano causado por Núcleos Dendro (inclusive das Reações de Superflorescimento e Germinação) é aplicado ao personagem, <color=#F39000FF>a Proficiência Elemental será aumentada em 200</color> para todos os personagens da equipe por 4s."
+    ],
+    "Icon": "UI_TowerBlessing_65"
+  },
+  {
+    "Id": 71,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-01T04:00:00+08:00",
+    "Close": "2023-06-16T03:59:59+08:00",
+    "BuffName": "Lua Retumbante",
+    "Descriptions": [
+      "Quando o Ataque Normal do personagem atinge um inimigo, aplicará o Selo da Batida nesse inimigo. Após 3s, o Selo da Batida será removido e esse inimigo sofrerá Dano Real. Depois que o Ataque Normal do personagem atinge <color=#F39000FF>um inimigo com o Selo da Batida</color>, o Dano causado pela remoção do Selo será aumentado, pode ser aumentado até 9 vezes."
+    ],
+    "Icon": "UI_TowerBlessing_66"
+  },
+  {
+    "Id": 72,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-16T04:00:00+08:00",
+    "Close": "2023-07-01T03:59:59+08:00",
+    "BuffName": "Lua Potente",
+    "Descriptions": [
+      "Quando o Ataque Normal do personagem ativo atinge um inimigo, aumenta o Dano causado por esse personagem em <color=#F39000FF>12%</color> por 2s. Esse efeito pode ser acumulado até <color=#F39000FF>5</color> vezes, com cada acúmulo sendo contado independentemente e podendo ser desencadeado uma vez a cada 0.05s. Quando o personagem sair do campo de batalha, esse efeito será removido."
+    ],
+    "Icon": "UI_TowerBlessing_40"
+  },
+  {
+    "Id": 73,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-07-01T04:00:00+08:00",
+    "Close": "2023-07-16T03:59:59+08:00",
+    "BuffName": "Lua Graciosa",
+    "Descriptions": [
+      "Quando o Ataque Normal do personagem atinge um inimigo, dependendo se infligiu Dano Físico ou Elemental, <color=#F39000FF>reduzirá essa RES do inimigo em 6%</color> por 2s, podendo acumular até <color=#F39000FF>6</color> vezes. Reduções de RES de tipos diferentes criadas dessa forma podem existir simultaneamente e terão suas durações contadas separadamente."
+    ],
+    "Icon": "UI_TowerBlessing_67"
+  },
+  {
     "Id": 1,
     "FloorIds": [
       1009,
@@ -1113,21 +1177,5 @@
       "Quando o personagem desencadear uma reação de Florescimento, todos os membros da equipe <color=#F39000FF>causam 35% a mais de Dano nas reações de Florescimento, Superflorescimento e Germinação</color>. Esse efeito dura 6s e pode ser desencadeado uma vez a cada 0.1s, acumulando até 4 vezes e com a duração de cada acúmulo sendo contada independentemente."
     ],
     "Icon": "UI_TowerBlessing_64"
-  },
-  {
-    "Id": 70,
-    "FloorIds": [
-      1044,
-      1045,
-      1058,
-      1059
-    ],
-    "Open": "2023-05-16T04:00:00+08:00",
-    "Close": "2023-06-01T03:59:59+08:00",
-    "BuffName": "Lua Deslumbrante",
-    "Descriptions": [
-      "Quando um Dano causado por Núcleos Dendro (inclusive das Reações de Superflorescimento e Germinação) é aplicado ao personagem, <color=#F39000FF>a Proficiência Elemental será aumentada em 200</color> para todos os personagens da equipe por 4s."
-    ],
-    "Icon": "UI_TowerBlessing_65"
   }
 ]
