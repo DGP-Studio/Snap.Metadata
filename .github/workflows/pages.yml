@@ -1,8 +1,19 @@
 name: Pages Deploy
 
-on:
+on: 
   push:
     branches: [ "main" ]
+  workflow_dispatch:
+    inputs:
+       logLevel:
+        description: 'Log level'
+        required: false
+        default: 'info'
+        type: choice
+        options:
+        - info
+  
+  
     
 jobs:
   build:
