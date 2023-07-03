@@ -1,53 +1,5 @@
 [
   {
-    "Id": 70,
-    "FloorIds": [
-      1044,
-      1045,
-      1058,
-      1059
-    ],
-    "Open": "2023-05-16T04:00:00+08:00",
-    "Close": "2023-06-01T03:59:59+08:00",
-    "BuffName": "Lune efflorescente",
-    "Descriptions": [
-      "Lorsque des DGT infligés par un noyau Dendro (incluant Bourgeonnement et Exubérance) touchent un personnage, la maîtrise élémentaire de tous les personnages de l'équipe <color=#F39000FF>augmente de 200 pts</color> pendant 4 s."
-    ],
-    "Icon": "UI_TowerBlessing_65"
-  },
-  {
-    "Id": 71,
-    "FloorIds": [
-      1044,
-      1045,
-      1060,
-      1061
-    ],
-    "Open": "2023-06-01T04:00:00+08:00",
-    "Close": "2023-06-16T03:59:59+08:00",
-    "BuffName": "Lune tambourinante",
-    "Descriptions": [
-      "Lorsque l'attaque normale d'un personnage a touché un ennemi, ce dernier est affligé d'une marque d'embûche. Après 3 s, la marque d'embûche est consommée pour infliger des DGT réels à l'ennemi. Si l'attaque normale d'un personnage touche un ennemi <color=#F39000FF>avec une marque d'embûche</color>, les DGT infligés lors de la disparition de la marque augmentent. Les DGT peuvent être augmentés de cette manière jusqu'à 9 fois."
-    ],
-    "Icon": "UI_TowerBlessing_66"
-  },
-  {
-    "Id": 72,
-    "FloorIds": [
-      1044,
-      1045,
-      1060,
-      1061
-    ],
-    "Open": "2023-06-16T04:00:00+08:00",
-    "Close": "2023-07-01T03:59:59+08:00",
-    "BuffName": "Lune puissante",
-    "Descriptions": [
-      "Lorsque l'attaque normale du personnage déployé a touché un ennemi, les DGT infligés par ce personnage augmentent de <color=#F39000FF>12 %</color> pendant 2 s. Cet effet peut être cumulé <color=#F39000FF>5</color> fois maximum, la durée de chaque cumul étant calculée de façon indépendante, et il peut être déclenché une fois toutes les 0,05 s. L'effet est annulé lorsque le personnage quitte le champ de bataille."
-    ],
-    "Icon": "UI_TowerBlessing_40"
-  },
-  {
     "Id": 73,
     "FloorIds": [
       1044,
@@ -62,6 +14,54 @@
       "Lorsque l'attaque normale d'un personnage a touché un ennemi, la RÉS physique ou élémentaire (selon le type d'attaque) de ce dernier <color=#F39000FF>diminue de 6 %</color> pendant 2 s. Cet effet peut être cumulé <color=#F39000FF>6</color> fois maximum. Les diminutions de RÉS de différents types déclenchées de cette manière peuvent coexister, et leurs cumuls et temps restants sont indépendants les uns des autres."
     ],
     "Icon": "UI_TowerBlessing_67"
+  },
+  {
+    "Id": 74,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-07-16T04:00:00+08:00",
+    "Close": "2023-08-01T03:59:59+08:00",
+    "BuffName": "Lune fugace",
+    "Descriptions": [
+      "Pendant 10 s après qu'un personnage est déployé au combat, <color=#F39000FF>les DGT infligés par ses attaques normales, chargées et plongeantes augmentent de 30 % et sa VIT d'attaque de 10 %</color>. Cet effet est annulé lorsque le personnage quitte le champ de bataille."
+    ],
+    "Icon": "UI_TowerBlessing_68"
+  },
+  {
+    "Id": 75,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-01T04:00:00+08:00",
+    "Close": "2023-08-16T03:59:59+08:00",
+    "BuffName": "Lune changeante",
+    "Descriptions": [
+      "Lorsqu'un personnage perd ou récupère des PV, tous les personnages de l'équipe voient <color=#F39000FF>leur ATQ augmenter de 7,5 %</color> pendant 10 s. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 4 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 76,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-16T04:00:00+08:00",
+    "Close": "2023-09-01T03:59:59+08:00",
+    "BuffName": "Lune entrante",
+    "Descriptions": [
+      "Lorsque le personnage déployé inflige consécutivement des DGT du même type élémentaire ou des DGT physiques à un ennemi en utilisant des attaques normales, chargées ou plongeantes, il obtient un cumul. Un cumul peut être obtenu une fois toutes les 0,3 s. Les cumuls de chaque type (incluant également les DGT de type physique) existent indépendamment les uns des autres. Avec 6 cumuls, <color=#F39000FF>une onde de choc est libérée</color> à l'emplacement de l'ennemi, infligeant des DGT réels et consommant tous les cumuls correspondant au type des DGT. Si le personnage quitte le champ de bataille, tous les cumuls sont enlevés."
+    ],
+    "Icon": "UI_TowerBlessing_70"
   },
   {
     "Id": 1,
@@ -902,7 +902,7 @@
     "Close": "2022-09-01T03:59:59+08:00",
     "BuffName": "Lune tremblante",
     "Descriptions": [
-      "Lorsque le personnage déployé a touché un ennemi avec une attaque normale, chargée ou plongeante, <color=#F39000FF>les DGT infligés par les attaques normales, chargées ou plongeantes de ce personnage augmentent de 12 %</color> pendant 8 s. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 4 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Cet effet est annulé lorsque le personnage quitte le champ de bataille."
+      "Lorsque le personnage déployé a touché un ennemi avec une attaque normale, chargée ou plongeante, <color=#F39000FF>les DGT infligés par les attaques normales, chargées et plongeantes de ce personnage augmentent de 12 %</color> pendant 8 s. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 4 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Cet effet est annulé lorsque le personnage quitte le champ de bataille."
     ],
     "Icon": "UI_TowerBlessing_47"
   },
@@ -1177,5 +1177,53 @@
       "Lorsqu'un personnage a déclenché une réaction de Fleurissement, les DGT infligés par les réactions de Fleurissement, d'Exubérance et de Bourgeonnement de tous les personnages de l'équipe <color=#F39000FF>augmentent de 35 %</color> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 4 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
     ],
     "Icon": "UI_TowerBlessing_64"
+  },
+  {
+    "Id": 70,
+    "FloorIds": [
+      1044,
+      1045,
+      1058,
+      1059
+    ],
+    "Open": "2023-05-16T04:00:00+08:00",
+    "Close": "2023-06-01T03:59:59+08:00",
+    "BuffName": "Lune efflorescente",
+    "Descriptions": [
+      "Lorsque des DGT infligés par un noyau Dendro (incluant Bourgeonnement et Exubérance) touchent un personnage, la maîtrise élémentaire de tous les personnages de l'équipe <color=#F39000FF>augmente de 200 pts</color> pendant 4 s."
+    ],
+    "Icon": "UI_TowerBlessing_65"
+  },
+  {
+    "Id": 71,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-01T04:00:00+08:00",
+    "Close": "2023-06-16T03:59:59+08:00",
+    "BuffName": "Lune tambourinante",
+    "Descriptions": [
+      "Lorsque l'attaque normale d'un personnage a touché un ennemi, ce dernier est affligé d'une marque d'embûche. Après 3 s, la marque d'embûche est consommée pour infliger des DGT réels à l'ennemi. Si l'attaque normale d'un personnage touche un ennemi <color=#F39000FF>avec une marque d'embûche</color>, les DGT infligés lors de la disparition de la marque augmentent. Les DGT peuvent être augmentés de cette manière jusqu'à 9 fois."
+    ],
+    "Icon": "UI_TowerBlessing_66"
+  },
+  {
+    "Id": 72,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-16T04:00:00+08:00",
+    "Close": "2023-07-01T03:59:59+08:00",
+    "BuffName": "Lune puissante",
+    "Descriptions": [
+      "Lorsque l'attaque normale du personnage déployé a touché un ennemi, les DGT infligés par ce personnage augmentent de <color=#F39000FF>12 %</color> pendant 2 s. Cet effet peut être cumulé <color=#F39000FF>5</color> fois maximum, la durée de chaque cumul étant calculée de façon indépendante, et il peut être déclenché une fois toutes les 0,05 s. L'effet est annulé lorsque le personnage quitte le champ de bataille."
+    ],
+    "Icon": "UI_TowerBlessing_40"
   }
 ]

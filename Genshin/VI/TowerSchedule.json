@@ -1,53 +1,5 @@
 [
   {
-    "Id": 70,
-    "FloorIds": [
-      1044,
-      1045,
-      1058,
-      1059
-    ],
-    "Open": "2023-05-16T04:00:00+08:00",
-    "Close": "2023-06-01T03:59:59+08:00",
-    "BuffName": "Vầng Trăng Tươi Đẹp",
-    "Descriptions": [
-      "Sát thương do Hạt Nhân Thảo gây ra (bao gồm Bung Tỏa, Nở Rộ) khi đánh trúng nhân vật, tất cả nhân vật trong đội <color=#F39000FF>tăng 200 điểm Tinh Thông Nguyên Tố</color>, duy trì 4s."
-    ],
-    "Icon": "UI_TowerBlessing_65"
-  },
-  {
-    "Id": 71,
-    "FloorIds": [
-      1044,
-      1045,
-      1060,
-      1061
-    ],
-    "Open": "2023-06-01T04:00:00+08:00",
-    "Close": "2023-06-16T03:59:59+08:00",
-    "BuffName": "Vầng Trăng Loạn Nhịp",
-    "Descriptions": [
-      "Sau khi tấn công thường của nhân vật đánh trúng kẻ địch, sẽ thi triển Ấn Cuồng Nhiệt lên kẻ địch này. Sau 3s, Ấn Cuồng Nhiệt sẽ bị hủy và gây sát thương chuẩn cho kẻ địch này. Sau khi tấn công thường của nhân vật đánh trúng kẻ địch có <color=#F39000FF>Ấn Cuồng Nhiệt</color>, sẽ tăng sát thương gây ra khi Ấn Cuồng Nhiệt bị hủy, tối đa tăng 9 lần."
-    ],
-    "Icon": "UI_TowerBlessing_66"
-  },
-  {
-    "Id": 72,
-    "FloorIds": [
-      1044,
-      1045,
-      1060,
-      1061
-    ],
-    "Open": "2023-06-16T04:00:00+08:00",
-    "Close": "2023-07-01T03:59:59+08:00",
-    "BuffName": "Vầng Trăng Vững Chắc",
-    "Descriptions": [
-      "Sau khi tấn công thường của nhân vật trong trận hiện tại đánh trúng kẻ địch, sẽ tăng <color=#F39000FF>12%</color> sát thương do nhân vật này gây ra, duy trì 2s. Hiệu quả này tối đa cộng dồn <color=#F39000FF>5</color> tầng, mỗi tầng đều tính giờ riêng, mỗi 0.05s tối đa kích hoạt 1 lần. Khi nhân vật rời trận sẽ xóa hiệu quả này."
-    ],
-    "Icon": "UI_TowerBlessing_40"
-  },
-  {
     "Id": 73,
     "FloorIds": [
       1044,
@@ -62,6 +14,54 @@
       "Sau khi tấn công thường của nhân vật đánh trúng kẻ địch, sẽ khiến cho <color=#F39000FF>kẻ địch giảm 6% kháng vật lý hoặc kháng nguyên tố tương ứng</color>, duy trì 2s, tối đa cộng dồn <color=#F39000FF>6</color> tầng. Hiệu quả này có thể tồn tại các loại giảm kháng cùng lúc, số tầng cộng dồn và thời gian duy trì sẽ được tính riêng."
     ],
     "Icon": "UI_TowerBlessing_67"
+  },
+  {
+    "Id": 74,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-07-16T04:00:00+08:00",
+    "Close": "2023-08-01T03:59:59+08:00",
+    "BuffName": "Ánh Trăng Nhạy Bén",
+    "Descriptions": [
+      "Trong 10s sau khi nhân vật ra trận, <color=#F39000FF>Tấn Công Thường, Trọng Kích và Tấn Công Khi Đáp của nhân vật sẽ tăng 30% sát thương gây ra, tốc độ tấn công tăng 10%</color>. Hiệu quả này sẽ xóa khi nhân vật rời trận."
+    ],
+    "Icon": "UI_TowerBlessing_68"
+  },
+  {
+    "Id": 75,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-01T04:00:00+08:00",
+    "Close": "2023-08-16T03:59:59+08:00",
+    "BuffName": "Ánh Trăng Khéo Léo",
+    "Descriptions": [
+      "Khi nhân vật bị mất HP hoặc hồi phục HP, tất cả nhân vật trong đội <color=#F39000FF>tăng 7.5% tấn công</color>, duy trì 10s. Hiệu quả này mỗi 0.1s tối đa kích hoạt 1 lần, tối đa dồn 4 tầng, mỗi tầng tính giờ riêng."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 76,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-16T04:00:00+08:00",
+    "Close": "2023-09-01T03:59:59+08:00",
+    "BuffName": "Ánh Trăng Liên Bước",
+    "Descriptions": [
+      "Khi nhân vật trong trận liên tục gây sát thương nguyên tố cùng loại hoặc sát thương vật lý cho kẻ địch bằng tấn công thường, trọng kích hoặc tấn công khi đáp, sẽ tiến hành cộng dồn, mỗi 0.3s tối đa cộng dồn 1 lần, sát thương vật lý và mỗi loại nguyên tố sẽ được tính riêng. Khi cộng dồn đạt 6 lần, sẽ <color=#F39000FF>thi triển sóng xung kích</color> tại vị trí kẻ địch, gây sát thương chuẩn và xóa số lần cộng dồn của loại sát thương này. Khi nhân vật này rời trận, sẽ xóa tất cả số lượng cộng dồn."
+    ],
+    "Icon": "UI_TowerBlessing_70"
   },
   {
     "Id": 1,
@@ -1177,5 +1177,53 @@
       "Sau khi nhân vật kích hoạt phản ứng Sum Suê, tất cả nhân vật trong đội <color=#F39000FF>tăng 35% sát thương do Sum Suê, Nở Rộ, Bung Tỏa gây ra</color>, hiệu quả này duy trì 6s, mỗi 0.1s tối đa kích hoạt 1 lần. Tối đa dồn 4 tầng, mỗi tầng sẽ tính giờ riêng."
     ],
     "Icon": "UI_TowerBlessing_64"
+  },
+  {
+    "Id": 70,
+    "FloorIds": [
+      1044,
+      1045,
+      1058,
+      1059
+    ],
+    "Open": "2023-05-16T04:00:00+08:00",
+    "Close": "2023-06-01T03:59:59+08:00",
+    "BuffName": "Vầng Trăng Tươi Đẹp",
+    "Descriptions": [
+      "Sát thương do Hạt Nhân Thảo gây ra (bao gồm Bung Tỏa, Nở Rộ) khi đánh trúng nhân vật, tất cả nhân vật trong đội <color=#F39000FF>tăng 200 điểm Tinh Thông Nguyên Tố</color>, duy trì 4s."
+    ],
+    "Icon": "UI_TowerBlessing_65"
+  },
+  {
+    "Id": 71,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-01T04:00:00+08:00",
+    "Close": "2023-06-16T03:59:59+08:00",
+    "BuffName": "Vầng Trăng Loạn Nhịp",
+    "Descriptions": [
+      "Sau khi tấn công thường của nhân vật đánh trúng kẻ địch, sẽ thi triển Ấn Cuồng Nhiệt lên kẻ địch này. Sau 3s, Ấn Cuồng Nhiệt sẽ bị hủy và gây sát thương chuẩn cho kẻ địch này. Sau khi tấn công thường của nhân vật đánh trúng kẻ địch có <color=#F39000FF>Ấn Cuồng Nhiệt</color>, sẽ tăng sát thương gây ra khi Ấn Cuồng Nhiệt bị hủy, tối đa tăng 9 lần."
+    ],
+    "Icon": "UI_TowerBlessing_66"
+  },
+  {
+    "Id": 72,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-16T04:00:00+08:00",
+    "Close": "2023-07-01T03:59:59+08:00",
+    "BuffName": "Vầng Trăng Vững Chắc",
+    "Descriptions": [
+      "Sau khi tấn công thường của nhân vật trong trận hiện tại đánh trúng kẻ địch, sẽ tăng <color=#F39000FF>12%</color> sát thương do nhân vật này gây ra, duy trì 2s. Hiệu quả này tối đa cộng dồn <color=#F39000FF>5</color> tầng, mỗi tầng đều tính giờ riêng, mỗi 0.05s tối đa kích hoạt 1 lần. Khi nhân vật rời trận sẽ xóa hiệu quả này."
+    ],
+    "Icon": "UI_TowerBlessing_40"
   }
 ]

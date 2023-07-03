@@ -1,53 +1,5 @@
 [
   {
-    "Id": 70,
-    "FloorIds": [
-      1044,
-      1045,
-      1058,
-      1059
-    ],
-    "Open": "2023-05-16T04:00:00+08:00",
-    "Close": "2023-06-01T03:59:59+08:00",
-    "BuffName": "Fioritura lunare",
-    "Descriptions": [
-      "#Quando i DAN inflitti dai nuclei di Dendro (inclusi DAN da Iperfioritura e di Germinazione) vengono applicati a un personaggio, la <color=#F39000FF>maestria elementale</color> di tutti i personaggi del gruppo <color=#F39000FF>aumenta di 200</color> per 4{NON_BREAK_SPACE}s."
-    ],
-    "Icon": "UI_TowerBlessing_65"
-  },
-  {
-    "Id": 71,
-    "FloorIds": [
-      1044,
-      1045,
-      1060,
-      1061
-    ],
-    "Open": "2023-06-01T04:00:00+08:00",
-    "Close": "2023-06-16T03:59:59+08:00",
-    "BuffName": "Luna risonante",
-    "Descriptions": [
-      "#Quando il personaggio colpisce un avversario con un attacco normale, l'avversario riceve un Marchio del calappio. Dopo 3{NON_BREAK_SPACE}s, il Marchio viene rimosso, infliggendo DAN puri all'avversario. Se il personaggio colpisce con un attacco normale un avversario <color=#F39000FF>afflitto da un Marchio del calappio</color>, i DAN inflitti dalla rimozione del Marchio aumentano. Questi DAN si possono aumentare fino a un massimo di 9 volte."
-    ],
-    "Icon": "UI_TowerBlessing_66"
-  },
-  {
-    "Id": 72,
-    "FloorIds": [
-      1044,
-      1045,
-      1060,
-      1061
-    ],
-    "Open": "2023-06-16T04:00:00+08:00",
-    "Close": "2023-07-01T03:59:59+08:00",
-    "BuffName": "Luna poderosa",
-    "Descriptions": [
-      "#Quando il personaggio attivo colpisce gli avversari con un attacco normale, i DAN che infligge aumentano di un <color=#F39000FF>12%</color> per 2{NON_BREAK_SPACE}s. L'effetto è cumulabile fino a un massimo di <color=#F39000FF>5</color> volte, e la durata di ogni accumulo è contata in modo indipendente. Quest'effetto può attivarsi una volta ogni 0,05{NON_BREAK_SPACE}s, e si annulla quando il personaggio lascia il campo."
-    ],
-    "Icon": "UI_TowerBlessing_40"
-  },
-  {
     "Id": 73,
     "FloorIds": [
       1044,
@@ -62,6 +14,54 @@
       "#Quando il personaggio colpisce un avversario con un attacco normale, la RES fisica o elementale di tale avversario <color=#F39000FF>si riduce di un 6%</color> per 2{NON_BREAK_SPACE}s, in base all'attributo dell'attacco. L'effetto è cumulabile fino a un massimo di <color=#F39000FF>6</color> volte. Possono coesistere più tipi di riduzioni delle RES, e i relativi accumuli e durate sono indipendenti gli uni dagli altri."
     ],
     "Icon": "UI_TowerBlessing_67"
+  },
+  {
+    "Id": 74,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-07-16T04:00:00+08:00",
+    "Close": "2023-08-01T03:59:59+08:00",
+    "BuffName": "Luna effimera",
+    "Descriptions": [
+      "#Entro 10{NON_BREAK_SPACE}s dall'entrata in campo, gli <color=#F39000FF>attacchi normali, caricati e in picchiata del personaggio infliggono un 30% di DAN aggiuntivi, mentre la sua VEL d'ATT aumenta di un 10%</color>. Quest'effetto termina quando il personaggio abbandona il campo."
+    ],
+    "Icon": "UI_TowerBlessing_68"
+  },
+  {
+    "Id": 75,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-01T04:00:00+08:00",
+    "Close": "2023-08-16T03:59:59+08:00",
+    "BuffName": "Luna mutevole",
+    "Descriptions": [
+      "#Quando i PS di un personaggio si riducono o vengono ripristinati, <color=#F39000FF>l'ATT dei membri del gruppo aumenta di un 7,5%</color> per 10{NON_BREAK_SPACE}s. Quest'effetto può attivarsi una volta ogni 0,1{NON_BREAK_SPACE}s. Cumulabile fino a 4 volte. Ogni accumulo viene conteggiato in maniera indipendente."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 76,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-16T04:00:00+08:00",
+    "Close": "2023-09-01T03:59:59+08:00",
+    "BuffName": "Luna incedente",
+    "Descriptions": [
+      "#Quando il personaggio attivo usa un attacco normale, caricato o in picchiata e infligge DAN fisici o elementali consecutivi dello stesso tipo a un avversario, ottiene 1 accumulo. È possibile ottenere 1 accumulo ogni 0,3{NON_BREAK_SPACE}s. Gli accumuli per i DAN elementali o fisici vengono conteggiati in maniera indipendente. Dopo averne ottenuti 6, viene <color=#F39000FF>rilasciata un'onda d'urto</color> nel punto in cui si trova l'avversario, infliggendo DAN puri e rimuovendo gli accumuli ottenuti fino ad allora per questo tipo di DAN. Se il personaggio attivo lascia il campo, gli accumuli vengono rimossi."
+    ],
+    "Icon": "UI_TowerBlessing_70"
   },
   {
     "Id": 1,
@@ -1177,5 +1177,53 @@
       "#Quando un personaggio innesca una reazione di Fioritura, <color=#F39000FF>i DAN inflitti tramite Fioritura, Iperfioritura e Germinazione aumentano di un 35%</color> per 6{NON_BREAK_SPACE}s. Quest'effetto può attivarsi una volta ogni 0,1{NON_BREAK_SPACE}s. Cumulabile fino a 4 volte. La durata di ciascun accumulo è contata in modo indipendente."
     ],
     "Icon": "UI_TowerBlessing_64"
+  },
+  {
+    "Id": 70,
+    "FloorIds": [
+      1044,
+      1045,
+      1058,
+      1059
+    ],
+    "Open": "2023-05-16T04:00:00+08:00",
+    "Close": "2023-06-01T03:59:59+08:00",
+    "BuffName": "Fioritura lunare",
+    "Descriptions": [
+      "#Quando i DAN inflitti dai nuclei di Dendro (inclusi DAN da Iperfioritura e di Germinazione) vengono applicati a un personaggio, la <color=#F39000FF>maestria elementale</color> di tutti i personaggi del gruppo <color=#F39000FF>aumenta di 200</color> per 4{NON_BREAK_SPACE}s."
+    ],
+    "Icon": "UI_TowerBlessing_65"
+  },
+  {
+    "Id": 71,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-01T04:00:00+08:00",
+    "Close": "2023-06-16T03:59:59+08:00",
+    "BuffName": "Luna risonante",
+    "Descriptions": [
+      "#Quando il personaggio colpisce un avversario con un attacco normale, l'avversario riceve un Marchio del calappio. Dopo 3{NON_BREAK_SPACE}s, il Marchio viene rimosso, infliggendo DAN puri all'avversario. Se il personaggio colpisce con un attacco normale un avversario <color=#F39000FF>afflitto da un Marchio del calappio</color>, i DAN inflitti dalla rimozione del Marchio aumentano. Questi DAN si possono aumentare fino a un massimo di 9 volte."
+    ],
+    "Icon": "UI_TowerBlessing_66"
+  },
+  {
+    "Id": 72,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-16T04:00:00+08:00",
+    "Close": "2023-07-01T03:59:59+08:00",
+    "BuffName": "Luna poderosa",
+    "Descriptions": [
+      "#Quando il personaggio attivo colpisce gli avversari con un attacco normale, i DAN che infligge aumentano di un <color=#F39000FF>12%</color> per 2{NON_BREAK_SPACE}s. L'effetto è cumulabile fino a un massimo di <color=#F39000FF>5</color> volte, e la durata di ogni accumulo è contata in modo indipendente. Quest'effetto può attivarsi una volta ogni 0,05{NON_BREAK_SPACE}s, e si annulla quando il personaggio lascia il campo."
+    ],
+    "Icon": "UI_TowerBlessing_40"
   }
 ]
