@@ -1,53 +1,5 @@
 [
   {
-    "Id": 70,
-    "FloorIds": [
-      1044,
-      1045,
-      1058,
-      1059
-    ],
-    "Open": "2023-05-16T04:00:00+08:00",
-    "Close": "2023-06-01T03:59:59+08:00",
-    "BuffName": "Luna boyante",
-    "Descriptions": [
-      "Cuando un enemigo recibe daño provocado por un núcleo Dendro (esto incluye Crepitar y Sobreflorecimiento), <color=#F39000FF>aumenta en 200 pts. la Maestría Elemental</color> de todos los miembros del equipo durante 4 s."
-    ],
-    "Icon": "UI_TowerBlessing_65"
-  },
-  {
-    "Id": 71,
-    "FloorIds": [
-      1044,
-      1045,
-      1060,
-      1061
-    ],
-    "Open": "2023-06-01T04:00:00+08:00",
-    "Close": "2023-06-16T03:59:59+08:00",
-    "BuffName": "Luna retumbante",
-    "Descriptions": [
-      "#Cuando el personaje golpea a un enemigo con un Ataque Normal, aplica sobre él una marca de “enredo”. 3{NON_BREAK_SPACE}s después, la marca se disipa para infligir Daño Verdadero contra dicho enemigo. Al golpear con un Ataque Normal a un enemigo <color=#F39000FF>afectado por una marca de enredo</color>, el daño que esta inflige al disiparse es mayor. Este daño puede aumentar hasta 9 veces."
-    ],
-    "Icon": "UI_TowerBlessing_66"
-  },
-  {
-    "Id": 72,
-    "FloorIds": [
-      1044,
-      1045,
-      1060,
-      1061
-    ],
-    "Open": "2023-06-16T04:00:00+08:00",
-    "Close": "2023-07-01T03:59:59+08:00",
-    "BuffName": "Luna táctica",
-    "Descriptions": [
-      "#Cuando el personaje en uso golpea a un enemigo con su Ataque Normal, el daño que inflige dicho personaje aumenta en un <color=#F39000FF>12%</color> durante 2{NON_BREAK_SPACE}s. Este efecto puede acumularse hasta <color=#F39000FF>5</color> veces, el tiempo de cada acumulación se calcula de manera independiente y solo puede activarse una vez cada 0.05{NON_BREAK_SPACE}s. Cuando el personaje abandona el campo de batalla, este efecto se elimina."
-    ],
-    "Icon": "UI_TowerBlessing_40"
-  },
-  {
     "Id": 73,
     "FloorIds": [
       1044,
@@ -62,6 +14,54 @@
       "#Cuando un personaje golpea a un enemigo con un Ataque Normal, dependiendo de si infligió Daño Físico o Elemental, la <color=#F39000FF>RES correspondiente del enemigo se reduce en un 6%</color> durante 2{NON_BREAK_SPACE}s, lo cual puede acumularse un máximo de <color=#F39000FF>6</color> veces. Pueden existir al mismo tiempo reducciones de RES distintas provocadas de esta forma, y las acumulaciones y la duración de cada una se calculan de manera independiente."
     ],
     "Icon": "UI_TowerBlessing_67"
+  },
+  {
+    "Id": 74,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-07-16T04:00:00+08:00",
+    "Close": "2023-08-01T03:59:59+08:00",
+    "BuffName": "Luna cadente",
+    "Descriptions": [
+      "#Al entrar en el campo de batalla, <color=#F39000FF>el daño infligido por los Ataques Normal, Cargado y Descendente del personaje aumenta en un 30% y la Vel. de Ataque un 10%</color> durante 10{NON_BREAK_SPACE}s. Cuando el personaje sale del campo de batalla, el efecto desaparece."
+    ],
+    "Icon": "UI_TowerBlessing_68"
+  },
+  {
+    "Id": 75,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-01T04:00:00+08:00",
+    "Close": "2023-08-16T03:59:59+08:00",
+    "BuffName": "Luna veleidosa",
+    "Descriptions": [
+      "#Cuando un miembro del equipo pierde o recupera Vida, el <color=#F39000FF>ATQ de todos los miembros del equipo aumenta en un 7.5%</color> durante 10{NON_BREAK_SPACE}s. Esto solo puede activarse una vez cada 0.1 s y acumularse un máximo de 4 veces. Cada acumulación se calcula de manera independiente."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 76,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-16T04:00:00+08:00",
+    "Close": "2023-09-01T03:59:59+08:00",
+    "BuffName": "Luna engarzadora",
+    "Descriptions": [
+      "#Cuando el personaje en uso inflige el mismo tipo de Daño Elemental o Daño Físico consecutivamente con Ataques Normales, Cargados o Descendentes contra un enemigo, se irán obteniendo cargas una vez por cada 0.3{NON_BREAK_SPACE}s. Las cargas de cada tipo de Daño Elemental y Físico son independientes entre sí. Al alcanzar 6 cargas, en la ubicación del enemigo se <color=#F39000FF>liberará una onda de choque</color> que inflige Daño Verdadero y que elimina las cargas de ese tipo de Daño. Cuando el personaje activo sale del campo de batalla, se eliminan todas las cargas."
+    ],
+    "Icon": "UI_TowerBlessing_70"
   },
   {
     "Id": 1,
@@ -1177,5 +1177,53 @@
       "#Tras causar una reacción de Florecimiento, todos los personajes del equipo <color=#F39000FF>infligen un 35% más de daño con las reacciones de Florecimiento, Sobreflorecimiento y Crepitar</color> durante 6{NON_BREAK_SPACE}s. Este efecto solo puede activarse una vez cada 0.1{NON_BREAK_SPACE}s y acumularse un máximo de 4 veces. Cada acumulación se calcula de manera independiente."
     ],
     "Icon": "UI_TowerBlessing_64"
+  },
+  {
+    "Id": 70,
+    "FloorIds": [
+      1044,
+      1045,
+      1058,
+      1059
+    ],
+    "Open": "2023-05-16T04:00:00+08:00",
+    "Close": "2023-06-01T03:59:59+08:00",
+    "BuffName": "Luna boyante",
+    "Descriptions": [
+      "Cuando un enemigo recibe daño provocado por un núcleo Dendro (esto incluye Crepitar y Sobreflorecimiento), <color=#F39000FF>aumenta en 200 pts. la Maestría Elemental</color> de todos los miembros del equipo durante 4 s."
+    ],
+    "Icon": "UI_TowerBlessing_65"
+  },
+  {
+    "Id": 71,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-01T04:00:00+08:00",
+    "Close": "2023-06-16T03:59:59+08:00",
+    "BuffName": "Luna retumbante",
+    "Descriptions": [
+      "#Cuando el personaje golpea a un enemigo con un Ataque Normal, aplica sobre él una marca de “enredo”. 3{NON_BREAK_SPACE}s después, la marca se disipa para infligir Daño Verdadero contra dicho enemigo. Al golpear con un Ataque Normal a un enemigo <color=#F39000FF>afectado por una marca de enredo</color>, el daño que esta inflige al disiparse es mayor. Este daño puede aumentar hasta 9 veces."
+    ],
+    "Icon": "UI_TowerBlessing_66"
+  },
+  {
+    "Id": 72,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-06-16T04:00:00+08:00",
+    "Close": "2023-07-01T03:59:59+08:00",
+    "BuffName": "Luna táctica",
+    "Descriptions": [
+      "#Cuando el personaje en uso golpea a un enemigo con su Ataque Normal, el daño que inflige dicho personaje aumenta en un <color=#F39000FF>12%</color> durante 2{NON_BREAK_SPACE}s. Este efecto puede acumularse hasta <color=#F39000FF>5</color> veces, el tiempo de cada acumulación se calcula de manera independiente y solo puede activarse una vez cada 0.05{NON_BREAK_SPACE}s. Cuando el personaje abandona el campo de batalla, este efecto se elimina."
+    ],
+    "Icon": "UI_TowerBlessing_40"
   }
 ]
