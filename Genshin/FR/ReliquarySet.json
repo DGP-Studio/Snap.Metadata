@@ -593,7 +593,7 @@
     "Icon": "UI_RelicIcon_15017_4",
     "Descriptions": [
       "Les PV sont augmentés de 20 %.",
-      "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ de tous les personnages de l'équipe à proximité augmente de 20 % et la force de leur bouclier augmente de 30 % pendant 3 s. Cet effet peut être déclenché une fois toutes les 0,5 s, même si le personnage équipé de ce set d'artéfacts fait partie de l'équipe mais n'est pas déployé."
+      "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ de tous les personnages de l'équipe à proximité augmente de 20 % et la force de leur bouclier augmente de 30 % pendant 3 s. Cet effet peut être déclenché une fois toutes les 0,5 s, même lorsque le personnage équipé de ce set d'artéfacts fait partie de l'équipe mais n'est pas déployé."
     ]
   },
   {
@@ -683,7 +683,7 @@
     "Icon": "UI_RelicIcon_15022_4",
     "Descriptions": [
       "Augmente le bonus de soins de 15 %.",
-      "Lorsqu'un personnage équipé de ce set d'artéfacts soigne un personnage de l'équipe, une mousse marine apparaîtra pendant 3 s, accumulant la quantité de PV récupérée grâce au soin (y compris tout surplus au-dessus de 100 %). À la fin de la durée, la mousse marine explosera, infligeant des DGT aux ennemis proches d'une valeur équivalant à 90 % du soin accumulé (Ces DGT sont calculés de la même manière que les réactions d'Électrocution et de Supraconduction, mais ne sont pas affectés par la maîtrise élémentaire, les niveaux des personnages ou les bonus de DGT de réactions élémentaires). Une mousse marine peut être générée une fois toutes les 3,5 s, et chaque mousse marine peut accumuler jusqu'à 30 000 PV, incluant tout surplus au-dessus de 100 %. Il ne peut exister qu'une seule mousse marine à la fois. Cet effet peut être déclenché même si le personnage équipé de ce set d'artéfacts fait partie de l'équipe mais n'est pas déployé."
+      "Lorsqu'un personnage équipé de ce set d'artéfacts soigne un personnage de l'équipe, une mousse marine apparaîtra pendant 3 s, accumulant la quantité de PV récupérée grâce au soin (y compris tout surplus au-dessus de 100 %). À la fin de la durée, la mousse marine explosera, infligeant des DGT aux ennemis proches d'une valeur équivalant à 90 % du soin accumulé (Ces DGT sont calculés de la même manière que les réactions d'Électrocution et de Supraconduction, mais ne sont pas affectés par la maîtrise élémentaire, les niveaux des personnages ou les bonus de DGT de réactions élémentaires). Une mousse marine peut être générée une fois toutes les 3,5 s, et chaque mousse marine peut accumuler jusqu'à 30 000 PV, incluant tout surplus au-dessus de 100 %. Il ne peut exister qu'une seule mousse marine à la fois. Cet effet peut être déclenché même lorsque le personnage équipé de ce set d'artéfacts fait partie de l'équipe mais n'est pas déployé."
     ]
   },
   {
@@ -828,6 +828,42 @@
     "Descriptions": [
       "Les PV sont augmentés de 20 %.",
       "#Les DGT infligés par les compétences et déchaînements élémentaires augmentent de 10 %. Lorsque le personnage équipé de l'artéfact a subi des DGT, cet effet de bonus de DGT augmente de 80{NON_BREAK_SPACE}% pendant 5 s. Cet effet peut être cumulé 5 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Cet effet peut être déclenché même si le personnage fait partie de l'équipe mais n'est pas déployé."
+    ]
+  },
+  {
+    "SetId": 15031,
+    "EquipAffixId": 215031,
+    "EquipAffixIds": [
+      2150310,
+      2150311
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Chasseur de la Maréchaussée",
+    "Icon": "UI_RelicIcon_15031_4",
+    "Descriptions": [
+      "Augmente les DGT infligés par les attaques normales et chargées de 15 %.",
+      "Lorsque les PV actuels du personnage augmentent ou diminuent, son taux CRIT augmente de 12 % pendant 5 s. Cet effet peut être cumulé 3 fois maximum."
+    ]
+  },
+  {
+    "SetId": 15032,
+    "EquipAffixId": 215032,
+    "EquipAffixIds": [
+      2150320,
+      2150321
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Troupe dorée",
+    "Icon": "UI_RelicIcon_15032_4",
+    "Descriptions": [
+      "Augmente les DGT infligés par la compétence élémentaire de 20 %.",
+      "#Les DGT infligés par les compétences élémentaires augmentent de 25{NON_BREAK_SPACE}%. De plus, lorsque le personnage fait partie de l'équipe mais n'est pas déployé, les DGT infligés par ses compétences élémentaires augmentent de 25 % supplémentaires, cet effet prenant fin 2 s après le déploiement du personnage."
     ]
   }
 ]

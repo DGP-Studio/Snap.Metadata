@@ -185,7 +185,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "水の印",
-    "Description": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる",
+    "Description": "フォンテーヌの水に認められ、授かった印記。\nルキナの泉に投げ入れると、泉の返礼を獲得できる。",
     "TypeDescription": "七国の印",
     "Icon": "UI_ItemIcon_302"
   },
@@ -996,6 +996,36 @@
     "ItemType": 2,
     "Name": "綺良々の星屑",
     "Description": "綺良々の命ノ星座アンロック用素材",
+    "TypeDescription": "命ノ星座アンロック",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1183,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "リネットの星屑",
+    "Description": "リネットの命ノ星座アンロック用素材",
+    "TypeDescription": "命ノ星座アンロック",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1184,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "リネの星屑",
+    "Description": "リネの命ノ星座アンロック用素材",
+    "TypeDescription": "命ノ星座アンロック",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1185,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "フレミネの星屑",
+    "Description": "フレミネの命ノ星座アンロック用素材",
     "TypeDescription": "命ノ星座アンロック",
     "Icon": "UI_ItemIcon_1103"
   },
@@ -1873,6 +1903,16 @@
   },
   {
     "MaterialType": 4,
+    "Id": 100099,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "発酵フルーツジュース",
+    "Description": "発酵させて作ったフルーツジュース。特別な果物の香りがする。よく肉の料理で調味料として使われる。",
+    "TypeDescription": "食材",
+    "Icon": "UI_ItemIcon_100099"
+  },
+  {
+    "MaterialType": 4,
     "Id": 101001,
     "RankLevel": 0,
     "ItemType": 2,
@@ -1952,6 +1992,16 @@
     "Description": "稲妻列島でしか産出されていない、未加工の鉱物の結晶。専門的な処理を施すことで、真価を発揮できる。",
     "TypeDescription": "鍛造用鉱石",
     "Icon": "UI_ItemIcon_101008"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101009,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "萃凝晶",
+    "Description": "透き通った晶石。優れた耐久性と可塑性を持つ鉱石。",
+    "TypeDescription": "鍛造用鉱石",
+    "Icon": "UI_ItemIcon_101009"
   },
   {
     "MaterialType": 4,
@@ -2387,6 +2437,87 @@
     "Icon": "UI_ItemIcon_101228"
   },
   {
+    "MaterialType": 4,
+    "Id": 101229,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "プリュイロータス",
+    "Description": "水元素の豊富な所で育つ植物。フォンテーヌの長い雨季の後、至る所にその姿が見られることが命名の由来。",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_101229"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHPを300回復する。",
+    "Id": 101230,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "バブルオレンジ",
+    "Description": "暖かくて湿度の高い、日当たりの良い場所で育つ果物。真ん丸な形をしており、中には甘く爽やかな果肉がひっそりと隠れている。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_101230"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101231,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "マルコット草",
+    "Description": "真珠のような光沢を持つ、華やかな桃色の花。豊かで複雑な香りを放ち、調香する際の主な材料の一つである。",
+    "TypeDescription": "食材",
+    "Icon": "UI_ItemIcon_101231"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101232,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "蒼晶螺",
+    "Description": "薄暗い光を放つ貝の形をした構造物。生物の甲羅ではなく、より原始的な元素エネルギーが集まって出来た産物のようだ。",
+    "TypeDescription": "フォンテーヌ地域の特産",
+    "Icon": "UI_ItemIcon_101232"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101233,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ロマリタイムフラワー",
+    "Description": "淡い青色が高貴な花。柔らかい花蕊は吸水性に優れ、弾力があるため、多くの日用品の原材料として使われている。",
+    "TypeDescription": "フォンテーヌ地域の特産",
+    "Icon": "UI_ItemIcon_101233"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101234,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "タイダルガ",
+    "Description": "波に流されながら生きている藻類。他の植物が排出する養分に頼って生命を維持している。浮遊生物と誤解されることが多いが、その本質は、実のところ浮遊植物である。",
+    "TypeDescription": "食材",
+    "Icon": "UI_ItemIcon_101234"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101235,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ルミドゥースベル",
+    "Description": "優雅に佇む、紫色の清楚な花。淡く清らかな香りは繊細にして優しく、貴重な香水の製造に使われることが多い。",
+    "TypeDescription": "フォンテーヌ地域の特産",
+    "Icon": "UI_ItemIcon_101235"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101236,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "レインボーローズ",
+    "Description": "すらりと伸びる姿が美しい、柔らかなピンク色の花。ローズという名前ではあるが、実際は百合により近い。",
+    "TypeDescription": "フォンテーヌ地域の特産",
+    "Icon": "UI_ItemIcon_101236"
+  },
+  {
     "MaterialType": 25,
     "Id": 101301,
     "RankLevel": 1,
@@ -2545,6 +2676,56 @@
     "Description": "「タマリスク」から生産される木材。特別な質感がある。乾燥にも湿気にも強く、劣化に極めて強い。\n調度品の製作に使うことができる。",
     "TypeDescription": "素材",
     "Icon": "UI_ItemIcon_101317"
+  },
+  {
+    "MaterialType": 25,
+    "Id": 101318,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "マロウ材",
+    "Description": "「マロウの木」から生産される木材。堅く丈夫な心材は、家屋の土台や枠組みを作るのに適しており、辺材も加工しやすく、様々な美しい調度品の製作に必要な労力は比較的少ない。\n調度品の製作に使うことができる。",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_101318"
+  },
+  {
+    "MaterialType": 25,
+    "Id": 101319,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "菩提樹材",
+    "Description": "「心菩提樹」から生産される木材。材質が柔らかく、色合いがやや薄い。細工時に出る木屑が少ないため、精巧な工芸品の彫刻や小型の木製装置部品の製作に使われることが多い。\n調度品の製作に使うことができる。",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_101319"
+  },
+  {
+    "MaterialType": 25,
+    "Id": 101320,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "ホワイトアッシュ材",
+    "Description": "「ホワイトアッシュ」から生産される木材。極めて丈夫で、高い耐荷重性が必要な部品の製作に使われるほか、丈夫な板材に組み合わせて、壁の補強や木製コンテナなど、常に衝撃に耐える必要があるものに使われる。\n調度品の製作に使うことができる。",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_101320"
+  },
+  {
+    "MaterialType": 25,
+    "Id": 101321,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "コウハクジュ材",
+    "Description": "「コウハクジュ」から生産される木材。辺材が比較的薄く、心材の直径が大きいという長所がある。金属ほど堅くはないが、面積の大きい部品を作る必要がある時は、この木材の強みが生かされる。\n調度品の製作に使うことができる。",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_101321"
+  },
+  {
+    "MaterialType": 25,
+    "Id": 101322,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "トーチ材",
+    "Description": "「トーチの木」から生産される木材。比較的柔らかく切りやすい。また、乾燥状態を保ちやすく、多くの鮮やかな塗料とも相性がいいため、職人たちは手の込んだ装飾品の製作にこの木材を使うことが多い。\n調度品の製作に使うことができる。",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_101322"
   },
   {
     "MaterialType": 4,
@@ -15001,7 +15182,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "澄明なラピスラズリ·欠片",
-    "Description": "キャラクターの突破用アイテム。\n「吾の理想には一片の穢れも無い。」",
+    "Description": "キャラクターの突破用アイテム。\n「僕の理想には一片の穢れも無い。」",
     "TypeDescription": "キャラクター突破素材",
     "Icon": "UI_ItemIcon_104122"
   },
@@ -15011,7 +15192,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "澄明なラピスラズリ·塊",
-    "Description": "キャラクターの突破用アイテム。\n「吾の理想には一片の穢れも無い。」\n「正そうか、ここでは、人間は神に罪を背負わん…」",
+    "Description": "キャラクターの突破用アイテム。\n「僕の理想には一片の穢れも無い。」\n「訂正させてもらおう。ここでは、人が神の裁きを受けることはない…」",
     "TypeDescription": "キャラクター突破素材",
     "Icon": "UI_ItemIcon_104123"
   },
@@ -15021,7 +15202,7 @@
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "澄明なラピスラズリ",
-    "Description": "キャラクターの突破用アイテム。\n「吾の理想には一片の穢れも無い。」\n「正そうか、ここでは、人間は神に罪を背負わん。裁きを下すのは、法律と裁判所だけ。」\n「この吾にも裁きを受ける。さあ、吾の崇高と純潔を讃えよう。」",
+    "Description": "キャラクターの突破用アイテム。\n「僕の理想には一片の穢れも無い。」\n「訂正させてもらおう。ここでは、人が神の裁きを受けることはない。裁きを下せるのは、ただ法と法廷のみ。」\n「この僕でさえ、断罪され得るのだからね。さあ、僕の崇高と純潔を讃えてくれたまえ。」",
     "TypeDescription": "キャラクター突破素材",
     "Icon": "UI_ItemIcon_104124"
   },
@@ -15606,6 +15787,96 @@
     "Icon": "UI_ItemIcon_104337"
   },
   {
+    "MaterialType": 14,
+    "Id": 104338,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "「公平」の教え",
+    "Description": "水の国の堤は公平である。\n公平は権利の境界線を制限する。公平がなければ、法律に定められた権利は悪用され、良き風習を傷つけるための道具になってしまう。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104338"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 104339,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「公平」の導き",
+    "Description": "水の国の堤は公平である。\n公平はフォンテーヌが成り立つ礎となる。公平は法律の基準を形作っている。もし法律が公平という本質を失えば、必ず貪欲をむさぼる駒になってしまうだろう。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104339"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 104340,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「公平」の哲学",
+    "Description": "水の国の堤は公平である。\n公平はフォンテーヌが成り立つ礎となる。公平には常に揺るがない道徳と法律の支えが必要だ。道徳と法律も、変わらない公平を基に変化し続けている。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104340"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 104341,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "「正義」の教え",
+    "Description": "水の国の剣は正義である。\nフォンテーヌの法律は正義の剣をもって実行される。正義という基準がなければ、すべての法律は無力な文字となり、誰にでも容易く変えられてしまう。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104341"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 104342,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「正義」の導き",
+    "Description": "水の国の剣は正義である。\nフォンテーヌの法律は正義の剣をもって実行される。正義は盲目であり、正義を剣とする者は、利益や私情に惑わされたりしない。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104342"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 104343,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義」の哲学",
+    "Description": "水の国の剣は正義である。\nフォンテーヌの法律は正義の剣をもって実行される。正義は裁判と調停を意味する。裁きの剣で悪行を抑え、調停する手段で秩序を維持する。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104343"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 104344,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "「秩序」の教え",
+    "Description": "水の国の盾は秩序である。\nフォンテーヌのすべての法律は、最終的には安定した秩序を守るためにある。秩序の存在がなければ、混沌とした乱流の中には、公平も存在しないだろう。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104344"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 104345,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「秩序」の導き",
+    "Description": "水の国の盾は秩序である。\nフォンテーヌのすべての法律は、最終的には安定した秩序を守るためにある。秩序の保障がなければ、正義は終わりなき暴力となり、すべての人がすべての人に反対するための武器になってしまう。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104345"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 104346,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「秩序」の哲学",
+    "Description": "水の国の盾は秩序である。\nフォンテーヌのすべての法律は、最終的には安定した秩序を守るためにある。公平と正義の源は秩序であり、これらもまた秩序のために在る。フォンテーヌの穏やかな水面のように、秩序はフォンテーヌが存在する礎となっている。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104346"
+  },
+  {
     "MaterialType": 13,
     "Id": 105002,
     "RankLevel": 3,
@@ -15836,6 +16107,16 @@
     "Icon": "UI_ItemIcon_107022"
   },
   {
+    "MaterialType": 10,
+    "Id": 107023,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "失われた水神の瞳",
+    "Description": "強烈な水元素エネルギーを集積させた物質。水の神像に捧げると、長い年月で失われた力を補える。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_107023"
+  },
+  {
     "MaterialType": 5,
     "Id": 107024,
     "RankLevel": 0,
@@ -15844,6 +16125,16 @@
     "Description": "「ハッピークーポン」が入っている箱。花のような独特な外見は「ヴェルーリヤ·ミラージュ」の中でも特別なものであり、来客たちが賞品を獲得するのに必要かつ重要な収集品。「喜悦晶石」と「満悦晶石」を使用することで、その位置を特定しやすくなるようだ…",
     "TypeDescription": "冒険アイテム",
     "Icon": "UI_ItemIcon_107024"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 107025,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "フォンテーヌの地霊壇の鍵",
+    "Description": "フォンテーヌ各地に散らばった上古の地霊壇の封印を解除する鍵。\n大地に聳え立つ古代の祭壇は、文明の破滅と共に封印された。幽深なる秘境で見つけた鍵だけがその封印を破ることができる。さすれば過去の時代の息吹が、祭壇に破滅の事実を忘れさせるだろう。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_107025"
   },
   {
     "MaterialType": 1,
@@ -21466,6 +21757,677 @@
     "Icon": "UI_ItemIcon_108511"
   },
   {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の8%を回復し、さらにHPを800回復する。",
+    "Id": 108512,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "微妙な鴨肉のコンフィ",
+    "Description": "焼いて仕上げた料理。ちょっと触っただけでボロボロと崩れる鴨のもも肉は、口に入れると脂っこく、しかも微かに違和感のある食感がする。うっ、これって鴨の羽毛…？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108513"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の9%を回復し、さらにHPを1000回復する。",
+    "Id": 108513,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "鴨肉のコンフィ",
+    "Description": "焼いて仕上げた料理。香辛料と塩にしばらく漬け込んだ鴨のもも肉をきれいに洗い、鴨の脂に漬けて弱火でじっくり煮込む。最後に煮込んだもも肉をからりと焼き上げて出来上がり。鴨の脂で香ばしく焼き上げたジャガイモとともにいただけば、これぞ逸品。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108513"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の10%を回復し、さらにHPを1200回復する。",
+    "Id": 108514,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "美味しそうな鴨肉のコンフィ",
+    "Description": "焼いて仕上げた料理。ふっくらとジューシーな鴨のもも肉は「コンフィ」という名の魔法によって、皮はカリッと、肉質はちょうどいい加減の柔らかさに仕上がっている…調理に費やした時間と苦労がこの瞬間、全て報われたのだ！",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108513"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の防御力+165、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108515,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙なフォアグラ·ドゥ·フォンテーヌ",
+    "Description": "フォンテーヌの伝統料理。一口食べたら、脂を口いっぱいに含んだような感じ。諦めずに二口目を食べたら、脂っこさのあまり呑み込むことすらできない…も、もしかして焼く時に油を入れ過ぎちゃった？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108516"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の防御力+200、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108516,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "フォアグラ·ドゥ·フォンテーヌ",
+    "Description": "フォンテーヌの伝統料理。シンプルに火を入れただけのフォアグラをお皿に盛りつけて一品に。外はこんがり、中はじゅわっと柔らかい。絶妙な味は正確な火加減の賜物であり、調理中は一心不乱に集中しなければならない。少しでも気を散じれば、せっかくのフォアグラが鍋いっぱいの脂へと変わり果ててしまう…",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108516"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の防御力+235、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108517,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうなフォアグラ·ドゥ·フォンテーヌ",
+    "Description": "フォンテーヌの伝統料理。柔らかく繊細な口当たりは、まるで滑らかなシルクのよう。舌先でそっと触れただけで、スルッと喉へと滑り込む。これほど贅沢を極めた絶品料理はまさに罪の味だが、もし食べなければ、それこそ一生の罪だろう。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108516"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "選択したキャラを復活させ、HPを250回復する。",
+    "Id": 108518,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "微妙なきのこのクリームスープ",
+    "Description": "どこにでもある濃厚なスープ。ちょこっと舐めてみたが、まだ喉を通ってすらいないのに、つい祈ってしまっていた——舌先から伝わるこの味が、どうか泥の味ではありませんように…",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108519"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "選択したキャラを復活させ、HPを400回復する。",
+    "Id": 108519,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "きのこのクリームスープ",
+    "Description": "どこにでもある濃厚なスープ。十分に煮込んだ具材を潰してペースト状にし、クリームと一緒に温めれば出来上がり。シンプルながら熱々の美味しさを堪能できて、胃袋も心もぽかぽかにしてくれる一品。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108519"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "選択したキャラを復活させ、HPを550回復する。",
+    "Id": 108520,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味しそうなきのこのクリームスープ",
+    "Description": "どこにでもある濃厚なスープ。滑らかで温かい口当たりは、まるでシルクに包まれ、舞台の上でしなやかに軽やかに踊っているかのようだ…幕が下りた後も、豊かなその余韻はしばらく続く。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108519"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+66、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108521,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "微妙なガーリックバゲット",
+    "Description": "スライスしたバゲット。ガッチガチの食感に、何度も皿の上のモノを確認せずにはいられない——これって本当にパンのふりをした石じゃないよね？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108522"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+81、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108522,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "ガーリックバゲット",
+    "Description": "スライスしたバゲット。オーブンから出したばかりのバケットは…外はカリッ、中はふわっ。バターとガーリックの香りが広がって、絶妙なお味！フォンテーヌ人が仕事終わりによくこのパンを買って行くのも頷ける。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108522"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+95、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108523,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味しそうなガーリックバゲット",
+    "Description": "スライスしたバゲット。フォンテーヌでは、一番美味しいバゲットを作るパン職人を選抜する大会が定期的に開かれるという。選抜されたパン職人はパレ·メルモニアでその腕を披露することになる。もしこのバゲットで大会に参加したら、優勝すること間違いなし！",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108522"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "スタミナを70回復する。",
+    "Id": 108524,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙なフィッシュアンドチップス",
+    "Description": "油で揚げたおつまみ。これを食べたフォンテーヌ人は、誰一人例外なくパレ·メルモニア宛に手紙を書かずにはいられない。「ふにゃふにゃになったフィッシュアンドチップスの流通を直ちに禁止すべし。さもなくばさらに被害者が続出する！」",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108525"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "スタミナを85回復する。",
+    "Id": 108525,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "フィッシュアンドチップス",
+    "Description": "油で揚げたおつまみ。魚の切り身に衣をつけて、きつね色になるまでカリッと揚げたら、ポテトを添えてさあ召し上がれ。どんなソースと合わせても、食べる人を笑顔にしてくれる不思議な力がある。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108525"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "スタミナを100回復する。",
+    "Id": 108526,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうなフィッシュアンドチップス",
+    "Description": "油で揚げたおつまみ。お魚の切り身と短冊切りのジャガイモが油の中で楽しそうにジュワジュワっと音を立て、高温から生まれた魅力的な匂いが複雑に絡み合っては、鼻先をくすぐる…もしポテトを食べることよりも幸せなことがあるとすれば、それはきっとフィッシュフライと一緒に頬張ることだろう！",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108525"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の30%を回復し、さらにHPを600回復する。",
+    "Id": 108527,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙なミートソースラザニア",
+    "Description": "焼き上げたパスタ料理。パスタとソースがぐちゃぐちゃに混ざっていて、お世辞でも美味しいとは言えない。喉に詰まりそうな錯覚さえ覚えるが、今の一口はまだマシなほうだろう——次の一口に比べれば、の話だが。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108528"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の32%を回復し、さらにHPを1250回復する。",
+    "Id": 108528,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "ミートソースラザニア",
+    "Description": "焼き上げたパスタ料理。ラザニア用パスタにミートソース、チーズ、ホワイトソースを乗せ、その上にさらにパスタを重ねる。この手順を何度か繰り返した後、チーズが膨らんでこんがりと焼き色が付くまで焼く。美味しさの秘密は、丁寧に煮込んだミートソースにある。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108528"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の34%を回復し、さらにHPを1900回復する。",
+    "Id": 108529,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうなミートソースラザニア",
+    "Description": "焼き上げたパスタ料理。鍋と火の歌の中で精練されたミートソースが、ラザニア用パスタとチーズで築き上げられた王座で王冠をその手に。口に入れた瞬間、言葉では言い表せない程の美味しさに脳が占領され、今日を「ミートソースラザニアの日」と定めたくなる。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108528"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "選択したキャラを復活させ、HPを900回復する。",
+    "Id": 108530,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙なポワソンチャンティー·パイ",
+    "Description": "魚がベースのミートパイ。魚の頭が無秩序に倒れており、合唱どころか悲鳴を上げているようだ。一口食べたら、しょっぱさと生臭さが口の中で暴走しながらぶつかり合い、味蕾に予期せぬ奇襲を食らわす。ふと耳元で微かに魚たちの泣き声が聞こえるような…ま、まさか幻聴なのか？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108531"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "選択したキャラを復活させ、HPを1200回復する。",
+    "Id": 108531,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "ポワソンチャンティー·パイ",
+    "Description": "魚がベースのミートパイ。具を混ぜ合わせたら、生地で包んでパイの形に整える。一番大事なステップは、魚の頭をちゃんと良いポジションに調整してから焼くこと。焼き上がったパイから突き出す魚の頭は揃って上を向いていて、まるで呪文を唱えているかのよう。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108531"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "選択したキャラを復活させ、HPを1500回復する。",
+    "Id": 108532,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうなポワソンチャンティー·パイ",
+    "Description": "魚がベースのミートパイ。火の踊りの中で、魚の脂がじわっとパイに染み込み、サクッと膨らんだ皮に焼き色が付きはじめる。出来立てのパイを待ちかねてフーフー吹きながら一口かじると、お魚たちが舌先で讃美歌を歌い始めたかのようだ。伸びやかに響くその歌声はとてもロマンチックだ。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108531"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員が登りとダッシュに消費するスタミナ-15%、継続時間900秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108533,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙な花と果実のトリオ",
+    "Description": "ロマンチックな匂い溢れるデザート。何度もメレンゲを焦がした後、やっとそれなりに整った形に仕上げたが、時間がかかりすぎたせいで、バブルオレンジのスライスはしわくちゃになり、本来の香りと甘さがなくなってしまった。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108534"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員が登りとダッシュに消費するスタミナ-20%、継続時間900秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108534,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "花と果実のトリオ",
+    "Description": "ロマンチックな匂い溢れるデザート。用意したタルト生地にジャムとバブルオレンジのフィリングを載せてさらに生地を重ね、メレンゲを乗せてオーブンで焼けば出来上がり。花と果物の三重の香りをいっぺんに楽しむことができて、食後のデザートにはもってこいな一品。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108534"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員が登りとダッシュに消費するスタミナ-25%、継続時間900秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108535,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうな花と果実のトリオ",
+    "Description": "ロマンチックな匂い溢れるデザート。甘ったるい香りが漂うサクサクの皮と口当たりのいい爽やかなフルーツ餡が口の中で溶け込み合う絶品。一番歓声を上げたくなるのは、こんがり焼き色と雪のような真っ白がいい具合に混じったメレンゲ。まるで太陽の光で焼かれた雲のようで、まさに空へ舞い上がるほどの美味しさを舌先にたっぷりとプレゼントしてくれる。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108534"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の20%を回復し、さらにHPを900回復する。",
+    "Id": 108536,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "微妙なラタトゥイユ·タッセス",
+    "Description": "色んな野菜を入れて作ったごった煮。余計な具材を入れたり、或いは具材が足らなかったりしても勘付かれることはないだろう。調味料の濃すぎる味のせいで、野菜本来の味が消されているから。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108537"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の22%を回復し、さらにHPを1200回復する。",
+    "Id": 108537,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "ラタトゥイユ·タッセス",
+    "Description": "色んな野菜を入れて作ったごった煮。フォンテーヌの農民たちが野菜の豊作を祝って気まぐれに作る。明確な食材の配分や決まった料理法はなく、焼いても炒めても一番素朴な美味しさを届けてくれる。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108537"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の24%を回復し、さらにHPを1500回復する。",
+    "Id": 108538,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味しそうなラタトゥイユ·タッセス",
+    "Description": "色んな野菜を入れて作ったごった煮。噂によれば、かつてフォンテーヌで最も厳しいと言われる美食家が、この素朴な一品を食べた後、自身の子供時代を思い出し、熱い涙を流したという。この物語には誇張された部分があるかもしれないが、目の前のこの料理は正真正銘の美食と言えよう。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108537"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の30%を回復し、さらにHPを600回復する。",
+    "Id": 108539,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙なタルタルタワー",
+    "Description": "新鮮な生肉料理。ひき肉の黒みがかった赤色に不吉な予感がする。鼻を近づけて嗅ぐと、微かに酢の匂いがする。もはや人間の食用には向いていないようだ。うーん…もちろんクロックワークセキュリティロボに食べさせてもダメ、だよね？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108540"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の32%を回復し、さらにHPを1250回復する。",
+    "Id": 108540,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "タルタルタワー",
+    "Description": "新鮮な生肉料理。上質な肉の塊を切り刻み、調味料を加えて混ぜた後、生卵の黄身と一緒にいただく。この料理を考案したのが誰なのかは知られていないが、もしかしたら窮地に陥った冒険者の閃きによって誕生した料理なのかもしれない…",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108540"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の34%を回復し、さらにHPを1900回復する。",
+    "Id": 108541,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうなタルタルタワー",
+    "Description": "新鮮な生肉料理。まろやかで柔らかい鮮肉のミンチに、卵の黄身が絡まり、ジューシーな甘味が際立つ。肉の旨味と豊かな汁の香りが口の中で歓喜のパレードを披露し、最も純粋で原始的な美味しさを満喫させてくれる。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108540"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の物理ダメージ+25%、会心率+6%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108542,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "微妙なベッシーチキン",
+    "Description": "フォンテーヌの有名な伝統料理。渾身の力を振り絞りやっとのことで鶏肉をイノシシの膀胱に詰め込むことができた。楽しみにしていた完成品の味は…うーん、鶏肉がなんだか変な味がして、イノシシを食べているのか、鶏を食べているのか分からなくなってしまいそうだ。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108543"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の物理ダメージ+35%、会心率+8%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108543,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "ベッシーチキン",
+    "Description": "フォンテーヌの有名な伝統料理。「ベッシー」はフォンテーヌで「膀胱」を意味する。その名の通り、漬け込んで下味をつけた若鶏をイノシシの膀胱に詰めて密封して出し汁を加えたら、怒ったフライムのようにパンパンになるまで煮込む。通常は、中身の鶏肉だけを食べる。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108543"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の物理ダメージ+45%、会心率+10%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108544,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "美味しそうなベッシーチキン",
+    "Description": "フォンテーヌの有名な伝統料理。旨味たっぷりの汁が肉の中にぎゅっと閉じ込められ、豊かな香りが魅力のこの料理は、グルメたちの最愛の一品。あっという間に一皿を平らげた後も、その僅かに残る余韻を楽しもうと思わず唇を舐めてしまう。ほっぺが落ちる程美味しいこの料理は、フォンテーヌのグルメ界の輝く宝石と言っていいだろう。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108543"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の防御力+88、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108545,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "微妙なフォンテーヌ風オニオンスープ",
+    "Description": "玉ねぎがベースのスープ。一口二口飲んで何も問題はなさそうだったから、ゴクゴクと全部飲み干した。しかし、押し寄せるチーズのくどさと言ったら…これから一週間、汁物を見たくもない。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108546"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の防御力+107、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108546,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "フォンテーヌ風オニオンスープ",
+    "Description": "玉ねぎがベースのスープ。玉葱をキツネ色になるまで炒めた後、出し汁を入れて煮込む。スープボウルに移してスライスしたパンを載せ、チーズをまぶして焼いたら出来上がり。熟練のシェフは皆、玉葱を切る時に涙が出ないコツを掴んでいる——玉葱を切る作業は、弟子に任せればいいのだ。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108546"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の防御力+126、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108547,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味しそうなフォンテーヌ風オニオンスープ",
+    "Description": "玉ねぎがベースのスープ。とろーんと伸びる金色のチーズに、上の面はサクサクで下の面はジュワーッと柔らかいパン。玉葱のコクに薄めの塩味がアクセントとなり、少しいただくだけで全身がぽっかぽかになる。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108546"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の18%を回復し、その後30秒間、5秒毎にHPを300回復する。",
+    "Id": 108548,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "微妙なイル·フロッタント",
+    "Description": "卵白で作ったデザート。手がしびれるほど卵白を泡立てるも、なかなか固くならない。用意済のソースに無理やり加えると、両者はほぼ一体化してしまった…はぁ、ドリンクとみなして飲んでみようかな？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108549"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の20%を回復し、その後30秒間、5秒毎にHPを390回復する。",
+    "Id": 108549,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "イル·フロッタント",
+    "Description": "卵白で作ったデザート。作り方は至ってシンプルで、卵白を泡立てたら半分完成。その後、温めた卵白をソースに入れたら残りの半分もそれでお終い。完成品は造形からしてロマンに溢れ、フォンテーヌの貴婦人たちがティータイムを楽しむ際の第一候補となっている。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108549"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の22%を回復し、その後30秒間、5秒毎にHPを470回復する。",
+    "Id": 108550,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味しそうなイル·フロッタント",
+    "Description": "卵白で作ったデザート。白霜のようなソースの上に、ふわふわの露のようなメレンゲが浮かぶその姿は、まるで旅人の探索を待ちわびる不思議なお宝のようだ。言葉では言い表せないほどの美味しさは、豪華な宝箱を開けた時と同じように満足感たっぷり！",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108549"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の26%を回復し、その後30秒間、5秒毎にHPを450回復する。",
+    "Id": 108551,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙なポワソンシーフードスープ",
+    "Description": "水産物で作ったスープ。生臭さ以外何の味もしない。味覚に問題がなければ、きっとこのスープに問題があるのだろう…あっ、ちょっと待った、歯に挟まったのは砂利？それとも鱗？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108552"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の28%を回復し、その後30秒間、5秒毎にHPを620回復する。",
+    "Id": 108552,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "ポワソンシーフードスープ",
+    "Description": "水産物で作ったスープ。発祥地は漁村のポワソンで、最初は漁民たちが売れ残った魚を適当に鍋に入れて煮込んだだけのものだったが、新鮮な旨味が際立つということで、フォンテーヌの人気料理となっていった。今では水産物なら何でも入れてオーケーな料理になっている。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108552"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の30%を回復し、その後30秒間、5秒毎にHPを790回復する。",
+    "Id": 108553,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうなポワソンシーフードスープ",
+    "Description": "水産物で作ったスープ。お日様の光を浴びて金色に輝くさざ波のような濃厚なスープは、海の豊かな香りとともに口の中に流れ込む。たっぷり入った様々な海鮮の具は、代々受け継がれる名画の色合いのように、相互に入り混じりながらも調和がとれている。あっという間に飲み干した後は、スープの1滴たりとも残すまいとパンにつけて食べずにはいられない。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108552"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の会心率+6%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108554,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "微妙な水郷のアスピック",
+    "Description": "水産物で作った冷菜。もし肉ゼリーの中の罠——魚の骨を完璧に避けることができれば、前菜としては悪くないだろう。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108555"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の会心率+9%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108555,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "水郷のアスピック",
+    "Description": "水産物で作った冷菜。ミンチにした魚肉をいくつかに分けて長方形の型に入れ、蒸した後、十分に冷ましてからお皿に盛りつけてテーブルへ。冷菜だが、場の雰囲気を温めてくれる。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108555"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の会心率+12%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108556,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味しそうな水郷のアスピック",
+    "Description": "水産物で作った冷菜。肉ゼリーと魚卵が口の中でプチプチと炸裂し、驚きと喜びに満ちた味覚を楽しめる。間もなくして一皿平らげられた。周りに誰もいないし…こっそりお皿を舐めてもいいだろう、ね？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108555"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の会心率+10%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108557,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙なパート·ドゥ·フリュイ",
+    "Description": "柔らかいスイーツ。ネバネバが歯にくっつき、咀嚼に少なからず障碍をもたらす。歯の掃除ならむしろお安い御用だが、スイーツタイムを満喫したい気分はもうすっかり消え失せてしまった。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108558"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の会心率+15%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108558,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "パート·ドゥ·フリュイ",
+    "Description": "柔らかいスイーツ。当初は果物の保存方法の一つとして作られていたものだが、長い時を経て、今やフォンテーヌ人にとっては、子供時代の思い出の味となっている。口の中に広がる甘さと抜群の嚙み応えのお陰で、いくら食べても飽きが来ない。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108558"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の会心率+20%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108559,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうなパート·ドゥ·フリュイ",
+    "Description": "柔らかいスイーツ。一口噛んだ瞬間、フルーツの香りが口いっぱいに広がり、まるで色とりどりの果樹園が小さなスイーツの中に濃縮されたかのようだ。知らぬうちに、キャンディージャーは空っぽになってしまったが、手にくっついたべたべたのアイシングさえ無駄にしたくない！",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108558"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の与える治療効果+15%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108560,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙な晶螺マドレーヌ",
+    "Description": "可愛い形をしたデザート。奇怪な形をした失敗作。その中から蒼晶螺の形を探すには、並外れの想像力を働かせる必要がある…味はまあまあなのが不幸中の幸いだ。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108561"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の与える治療効果+17%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108561,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "晶螺マドレーヌ",
+    "Description": "可愛い形をしたデザート。噂によれば、フォンテーヌの裕福な家の料理人が、坊ちゃんをあやすために蒼晶螺の形を真似て作ったケーキだとか。話の真偽は証明しようもないが、その美味しさは紛れもない真実である。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108561"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の与える治療効果+20%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108562,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうな晶螺マドレーヌ",
+    "Description": "可愛い形をしたデザート。フォンテーヌにはある言い伝えがある——「もし世の中に晶螺マドレーヌが嫌いな人がいるとすれば、それはきっと晶螺マドレーヌを食べたことがないからだろう。」ふわふわの口当たりと甘さが織りなすこのケーキを食べたら、きっと誰もが直ちにその虜となるだろう！",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108561"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の34%を回復し、その後30秒間、5秒毎にHPを980回復する。",
+    "Id": 108563,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「海鳥の一休み」",
+    "Description": "フレミネのオリジナル料理。彼はこのスープの鍋をその場に置いてそそくさと走り去った。具材は浅瀬のものではなさそうなので、恐らく海のかなり深くまで潜って採ってきたのだろう。彼と面と向かって「ありがとう」と伝えたいけど…どこに行けば彼を見つけられるだろう？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108563"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の会心率+20%、会心ダメージ+20%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108564,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "キューブトリック",
+    "Description": "リネのオリジナル料理。彼はあなたが採ってきたばかりの果物の上にビロードをかざしてからまた外した。すると目の前に現れたのは色とりどりのグミ。一粒口に入れた途端、心にある変化が起きたようだ。もしかして、これもまた大魔術師が人に気づかれないようにこっそりと施した、人の心を虜にする魔術なのだろうか？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108564"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の与える治療効果+25%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108565,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "アフタヌーンティー",
+    "Description": "リネットのオリジナル料理。いつものアフタヌーンティーの時間、リネットはあなたのために特別に作った一皿をテーブルに置いてくれた。優雅に座ってお茶を飲む彼女の姿は、目の前にある可愛らしい猫の形と重なる。心が甘い感覚で満たされる一方、キッチンの調理道具がどんな状況になっているのか些か心配になってきた…",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108565"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "フォンタで、世界に「爽やか」を！",
+    "Id": 108566,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "フォンタ",
+    "Description": "フォンテーヌの名物ドリンク。フォンテーヌ科学院によって開発され、発売されてからフォンテーヌ人の間でかなりの人気を博している。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108566"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+160、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108567,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙な清露デュエット",
+    "Description": "二種のフルーツのフレーバーが楽しめるドリンク。カップの下に敷かれた果実になぜか少し苦みが含まれていて、気分も落ち込んでいく…気を取り直すために、もう1杯作ってみようかな？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108568"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+194、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108568,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "清露デュエット",
+    "Description": "二種のフルーツのフレーバーが楽しめるドリンク。果実をたっぷり敷いた上に、茶殻と果汁のスムージーを注げば完成。爽やかで多層的なフルーツの香りが立つこのドリンクを拒める人はいないだろう。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108568"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+228、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108569,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうな清露デュエット",
+    "Description": "二種のフルーツのフレーバーが楽しめるドリンク。一口飲むと、果物の香りが口の中でこだまし、白いビーチに座ってオレンジ色の朝日がゆっくりと昇る景色を眺めているかのような感覚とともに、気持ちもやる気満々になる。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108568"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "選択したキャラを復活させ、HPを900回復する。",
+    "Id": 108570,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙な仙果スムージー",
+    "Description": "シンプルな色合いのドリンク。冷えすぎたかき氷は、ドラゴンスパインをよじ登っているかのような錯覚を引き起こし、極寒に置かれた身体の冷えが限界に…早く焚火でも見つけて身体を温めないと！",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108571"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "選択したキャラを復活させ、HPを1200回復する。",
+    "Id": 108571,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "仙果スムージー",
+    "Description": "シンプルな色合いのドリンク。フルーツ味のフローズンヨーグルトを、青空と白い雲の形に盛りつけた一品で、下層にはカットフルーツとゼリーが分厚く敷かれている。爽やかな味はまさに夏にピッタリ！",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108571"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "選択したキャラを復活させ、HPを1500回復する。",
+    "Id": 108572,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうな仙果スムージー",
+    "Description": "シンプルな色合いのドリンク。ほんのわずかにフルーツの香りを帯びた爽やかなかき氷を口に入れると、思わずこんな想像をしてみる——慶雲頂の仙気をまとった雲も、こんなふわふわで不思議な味がするんじゃないだろうか？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108571"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
@@ -22896,6 +23858,196 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109527,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "レシピ：鴨肉のコンフィ",
+    "Description": "「鴨肉のコンフィ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109528,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：フォアグラ·ドゥ·フォンテーヌ",
+    "Description": "「フォアグラ·ドゥ·フォンテーヌ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109529,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "レシピ：きのこのクリームスープ",
+    "Description": "「きのこのクリームスープ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109530,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "レシピ：ガーリックバゲット",
+    "Description": "「ガーリックバゲット」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109531,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：フィッシュアンドチップス",
+    "Description": "「フィッシュアンドチップス」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109532,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：ミートソースラザニア",
+    "Description": "「ミートソースラザニア」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109533,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：ポワソンチャンティー·パイ",
+    "Description": "「ポワソンチャンティー·パイ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109534,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：花と果実のトリオ",
+    "Description": "「花と果実のトリオ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109535,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "レシピ：ラタトゥイユ·タッセス",
+    "Description": "「ラタトゥイユ·タッセス」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109536,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：タルタルタワー",
+    "Description": "「タルタルタワー」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109537,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "レシピ：ベッシーチキン",
+    "Description": "「ベッシーチキン」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109538,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "レシピ：フォンテーヌ風オニオンスープ",
+    "Description": "「フォンテーヌ風オニオンスープ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109539,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "レシピ：イル·フロッタント",
+    "Description": "「イル·フロッタント」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109540,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：ポワソンシーフードスープ",
+    "Description": "「ポワソンシーフードスープ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109541,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "レシピ：水郷のアスピック",
+    "Description": "「水郷のアスピック」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109542,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：パート·ドゥ·フリュイ",
+    "Description": "「パート·ドゥ·フリュイ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109543,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：晶螺マドレーヌ",
+    "Description": "「晶螺マドレーヌ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109544,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：清露デュエット",
+    "Description": "「清露デュエット」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109545,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：仙果スムージー",
+    "Description": "「仙果スムージー」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -23258,6 +24410,26 @@
     "Description": "ローズの露をベースに、干したハッラの実の粉を混ぜた餌。スパイシーな口当たりと甘い余韻が特徴。その味は、まさに釣り人の人生そのものだ。雨風や日光に晒されたり、荒れ狂う怒涛を乗り越えたり、試練と向き合ったりした後に得られた収穫こそ、一層嬉しいものである。\n\n対象魚類：コオニフグ類、ハチェットウオ類",
     "TypeDescription": "釣り餌",
     "Icon": "UI_ItemIcon_111028"
+  },
+  {
+    "MaterialType": 32,
+    "Id": 111030,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "すっぱいオレンジの餌",
+    "Description": "小麦粉をベースとした釣り餌。バブルオレンジの果肉と種が混ぜてあり、水の中に投げられると直ちに甘酸っぱい香りが広がっていき、ハートフェザースズキなどの魚を惹きつける効果がある。言い伝えによれば、かつて野外で長い間釣りをしていた人の食料が底をついた時、緊急対策としてこの釣り餌を食べて中毒を起こした不幸な事件があったという…このような事故の再発を防ぐために、それ以降作られた餌は酸味が大幅に強まったものとなった。一般人は鼻を近づいただけで、その刺激で目眩がし涙が出るほどだから、口にしようなんて考えるはずもない。\n\n対象魚類：ハートフェザースズキ類。",
+    "TypeDescription": "釣り餌",
+    "Icon": "UI_ItemIcon_111030"
+  },
+  {
+    "MaterialType": 32,
+    "Id": 111031,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "メンテマシナリーの閃光釣り餌",
+    "Description": "フォンテーヌ科学院の某開発チームから外部に漏れた技術を応用して作られたと言われる極めて特殊な「トラップ装置」。装置の外部には金属で作られた防護ネットと釣り針の役割をするゴムが付けられており、内部はマルコット草の抽出物が入った灯具で構成されている。\n水の中に投げられると、装置内部の灯具が特定の周波数で点滅し、周囲の「メンテマシナリー」、つまり人々の言う「水域保護魚」或いは「鉄魚」を惹きつける。「メンテマシナリー」の噛む力は相当強いが、それでも外部の特殊なゴムまでしか嚙み込めず、しかも装置の上にしっかり固定されてしまう。この装置も本質的には特殊な「釣り餌」と言えるだろう。高い価値のある「鉄魚」専用ではあるが。\n対象魚類：メンテマシナリー類。",
+    "TypeDescription": "釣り餌",
+    "Icon": "UI_ItemIcon_111031"
   },
   {
     "MaterialType": 14,
@@ -24051,6 +25223,126 @@
   },
   {
     "MaterialType": 14,
+    "Id": 112080,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "異海の露",
+    "Description": "原海アベラントを倒した後、その体内から得た小さな結晶。\nフォンテーヌの「海」に生まれた原海アベラントは、水中の不思議なエネルギーによってその独特な形の生命体が形成されたと推測されている。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112080"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112081,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "異海の塊",
+    "Description": "原海アベラントを倒した後、その体内から得られる結晶体。\n微かに不思議なエネルギーを放っている。\n航路や人間の足ではたどり着けない遠海には、偉大なる生命が存在すると言われているが、普通の海は取り立てて言うほどの特徴もなく、その生命力はフォンテーヌの「海」に遥かに及ばない。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112081"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112082,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "色変わりの結晶",
+    "Description": "原海アベラントを倒した後、その体内から得た大きな結晶。\n不思議なエネルギーを秘めている。\n万水の源であるフォンテーヌの水だが、異国へ流れるとその独特の性質が失われてしまう。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112082"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112083,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "整合の歯車",
+    "Description": "クロックワーク·マシナリーの歯車。\n動力伝達のための重要な部品。この部品がないと、対応のモジュールは機能しなくなる。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112083"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112084,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "機構の平歯車",
+    "Description": "クロックワーク·マシナリーの歯車。\nクロックワーク·マシナリーは運動学において数々の画期的な進歩を遂げてきたが、動力学においては、400年以上も前に、アラン·ギヨタンが築き上げた基礎と枠を未だに突破できていない。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112084"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112085,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "奇械のコア歯車",
+    "Description": "クロックワーク·マシナリーの歯車。\n加工の精度および材料学の進歩はフォンテーヌのクロックワーク·マシナリーの発展のカギとなる。先進的設備の力を借りれば、どのエンジニアだって「奇械公」ギヨタンの時代を凌駕する機械を作り出せる可能性がある。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112085"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112086,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "濁水のひとしずく",
+    "Description": "濁水幻霊を倒した後に得た小さな水滴。\nまだ生命力が完全に消えていないようだ。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112086"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112087,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "濁水のひとすくい",
+    "Description": "濁水幻霊を倒した後に得た水。\nまだ生命力が完全に消えていないようだ。\nかつての純水精霊がフォンテーヌから姿を消した後、水中から浮かび上がるのは、美しいとは言えない形の、奇妙な元素生命体しかいない。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112087"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112088,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "生まれたての濁水幻霊",
+    "Description": "濁水幻霊を倒した後、再び浮かび上がろうとする新たな生命体。瓶の中に密閉されている。\n水の中に息づく生命には形がなく、形のない生命もまた水の中で、水の形を借りて誕生する。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112088"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112089,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "隙間のコア",
+    "Description": "ブリーチャープリムスが残した欠片。\n地上のどの生命体とも似た箇所がない。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112089"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112090,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "外界のシナプス",
+    "Description": "ブリーチャープリムスが残した欠片。\nこの種の異形生命体はエリナスに由来しており、エリナスを主な活動範囲としている。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112090"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112091,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "異界生命体のコア",
+    "Description": "ブリーチャープリムスが残したコア。\nこの類の生命体を完全に消滅させる方法はない。コアしか残っていなくても、翌日或いは数十年後に再び生き返るからだ。幸い、あまり高い攻撃性や知性を持っていないようで、ほとんどのフォンテーヌ人はなるべくそれに近づかないようにしている。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112091"
+  },
+  {
+    "MaterialType": 14,
     "Id": 113001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -24528,6 +25820,36 @@
     "Description": "アペプの体内にあるオアシスで採った一つの琥珀。中には今や絶滅した小さな飛虫が閉じ込められている。\n小さな命を包んだ琥珀は、木にとっての偶然だが、その中にある存在にとっては運命なのだ。\n天から降ってきた災厄と共に、木も、蔓も、根茎も、草木も枯れていき、塵となり、多くの命が消えた。\nしかし地上に存在しないオアシスによって大切に保管され、琥珀の中に静止したこの名もなき虫は、だからこそ同族がたどり着けなかった未来へと向かうことができた。",
     "TypeDescription": "キャラクター育成素材",
     "Icon": "UI_ItemIcon_113048"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113049,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "奇械部品·コッペリア",
+    "Description": "コッペリアの奇械部品。奇械ダンサーにエネルギーを供給できる。\n製作者の構想の中で、細くしなやかな関節を持つ奇械ダンサーの物語は、喜びに満ちた瞬間に留まったままだ。もしこの瞬間を邪魔しようとする者がいれば、コッペリアは並外れた戦闘能力でその招かれざる客に悲運の一節を贈るだろう。",
+    "TypeDescription": "キャラクター育成素材",
+    "Icon": "UI_ItemIcon_113049"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113050,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "奇械部品·コペリウス",
+    "Description": "コペリウスの奇械部品。奇械ダンサーにエネルギーを供給できる。\n奇械ダンサーは白金の音節を踏みながら、昼夜を問わず観客のために氷風の輪舞を披露する。弔いの鐘が鳴るまで、コぺリウスのステップが止まることはない。",
+    "TypeDescription": "キャラクター育成素材",
+    "Icon": "UI_ItemIcon_113050"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113051,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "帝王の決断",
+    "Description": "鉄甲熔炎帝王のハンマー。その巨大な爪は、他の原海アベラント、クロックワーク·マシナリー、はたまた突然現れた討伐者を問わず、無数の謁見者を粉々にしてきた。\n人間と違って、原海アベラントの中には、貴族とか金持ちの親を持つ子供とか存在しないし、生まれながらに高貴な身分に恵まれる等あり得ない。如何なる逆境をも乗り越え、全ての天敵との闘いで勝ち続けてきた原海アベラントは、長い歳月の捕食により力を蓄え続けた末に、覇者と呼ばれ恐れられる存在となった。",
+    "TypeDescription": "キャラクター育成素材",
+    "Icon": "UI_ItemIcon_113051"
   },
   {
     "MaterialType": 14,
@@ -25010,6 +26332,126 @@
     "Icon": "UI_ItemIcon_114048"
   },
   {
+    "MaterialType": 14,
+    "Id": 114049,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "悠久の弦の残章",
+    "Description": "ピンが腐ったハープ。共鳴胴が塞がれ、もう音を出すことはできない。\n楽章を忘れた人々は、古代王朝の華麗なる過去を再現しようと、木製の機械ハープに金色の漆を塗り、努力もむなしく、それを無言の魔像と組み合わせたという…\n、長い時が経った後、腐って音程がズレたハープは依然として、沈黙する巨像の手に残され、波に撫でられ、悲哀な余韻を奏でている。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114049"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 114050,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "悠久の弦の断章",
+    "Description": "伝説によると、古代王朝の遺民は記念と弔うために、黒鉄でハープを作った。\n黒鉄で作られたハープは音を奏でられない。金色を誇りにしていた古代王朝を弔うために、遺民たちはこれら重くて沈黙する楽器を作った。\nだがそれでも、あの沈黙した時代のように、黒鉄は音を奏でられなかった。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114050"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 114051,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "悠久の弦の楽章",
+    "Description": "黄金の宮殿と玉座が共に沈んだ災いの中で、楽章はバラバラになり、音符は沈黙した…\nしかし、帝国の遺民は運命を救い、越えていく執念を諦めなかった。\n落ちこぼれた文明を救い、昔の夢を超越するため、「金色の劇団」は美しい楽曲を奏で、深く眠った魔像に尊い魂を捧げるように、子供たちを導いた。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114051"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 114052,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "悠久の弦の響き",
+    "Description": "神王の壮大な楽章は無数のメロディーで綴られたが、その主な旋律は水国の共同運命の下にある。\n憂いなき時代の協奏曲は文明と秩序の最高の代表者だった。しかし、繁盛する帝国が暴君の楽園に成り下がり、乱暴者が贅沢な金色のマントに隠れて源泉との繋がりを断ち、やがて不協和音が帝国各地で騒ぎ立てた時——\nあの最初の運命の曲は、騒ぎの影響を受けずに、黄金色が日々褪せていく楽譜を奏で続ける…すべてが溶け、すべてが混沌に帰るまで。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114052"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 114053,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "純聖な雫の濾滓",
+    "Description": "伝説によると、生命が誕生する前に、濃密な原始の海が存在していた。それはかつて万物の純粋な起源であり、やがてすべての命を呑み込むという…そして、原始の海に属さない物質は排除され、漂う残滓になる。\n「残滓でも存在する意味があるのでしょう——すべての命を呑み込む原始の源の海に拒まれる物質とは、一体なんでしょうか？」若き調律師はかつて偉大な僭主に仕え、この難問について考えていた。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114053"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 114054,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "純聖な雫の昇華",
+    "Description": "「原始の海から生まれた生き物は、必ず同じ運命に帰るでしょう。」調律師のボエティウスはかつてこう語った。「しかし、何かを越えていく人間には無限の可能性が秘めていて、たとえ原始の胎海でも、それを全部溶かすことはできません…」\n傲慢な僭主はかつて、民に肉体を捨て、独立した永遠の命を手に入れてもらうよう、知恵と記憶を保存する、純水に溶けないイーコールを作ろうとした。\nだが、精神と肉体の転換による苦しみは、凡人には耐えられるものではなかった。僭主の命令はボロボロの魂を引き裂いた…\n多くの魂の慟哭により、イーコールは黒く染められ、調和を失った精神には、混乱と狂気だけが残されていた。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114054"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 114055,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "純聖な雫の甘泉",
+    "Description": "これは「純水騎士」がまだいた頃の遺物——騎士たちはこう言った。誰も訪れない山を流れる水に、忠実な精霊がいて、穢されない純粋なの泉を守っていたと…\nしかし、イーコールを作った人間の主は、偉大な楽章と調和しない一切の不協和音を許さなかった。噂によると、調律師のボエティウスが行きつく場所に、甘露は埋め立てられ、帝国の橋は築かれ、純水精霊は跡形もなく消えていったようだ…",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114055"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 114056,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "純聖な雫の精髄",
+    "Description": "濃厚で純粋な液体は、果てしない原始の海の水滴から精製されたもの。古代の神王は、それが永遠の命と無限の知恵をもたらすと信じていた。しかし、耳を傾けてみると——それは「一つに溶け合う終末」を囁いている。\nこれはかつて神王が完成しなかった偉大なる楽章——どこからともなく生まれた黄金のイーコールは、荒れ果てた原始の水に取って代わり、不死の智者の輝かしい秩序は、甘露のような啓示を隅々まで届ける。\nしかし、神王の妄想はやがて深い海に沈み、黄金のイーコールも残酷な時間と共に原始の汁に侵蝕された…\n調律師は凶兆を無視し、ボロボロな体を支えながらも、過去の秩序を再現するため、最後のイーコールで同胞に命を与えようとしていた…\n今のフォンテーヌにおいて、狂気に落ちた多くの詩人や若き画家の悪夢の中で、ボエティウスが経験していた世の終わりの光景は、逃げられない輪廻の存在を告げるように、今もまた現れ続けている。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114056"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 114057,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "無垢な海の苦杯",
+    "Description": "伝説によると、最初の僭主が原始の海に来た時、水国の先主は彼に一杯の水を与えたという。\nその後、彼は独断の神王となり、その水から不思議なイーコールを精製し、強くて輝かしい帝国を築いた。\nそれはもう遥か昔の物語、その主人公は今、深海の魚の群れが発する燐光の中で眠っている。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114057"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 114058,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "無垢な海の酒盃",
+    "Description": "どのような帝国が千年にも続けられるだろう？龍の国から帰ってきた後、僭主はそう考えた。\n不朽なる石と、原始の水から抽出されたイーコールを組み合わせ、黒い鉄のように固い種族を作り上げた——魔法の石を皮膚に、イーコールを血に。それから、野蛮に戻る呪いを恐れることはもうない…\n沈黙する魔像は、未だに素晴らしい帝国の夢を見ている——いつの間にか、帝国の滅亡から千年も経ったのだが。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114058"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 114059,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "無垢な海の銀盃",
+    "Description": "黄金のベールが国土を覆い尽くした時代、純粋な泉水は山々に隠されなければならなかった。「純水騎士」はこれらの避難所で生まれた。\n騎士たちはシルバーの甲冑に誓った。純水の精霊を守り、唯一の源を信じている故郷の人々を守り、太陽をも覆う黄金の政権に抗うと。\nあれは遥か昔の伝説…帝国が崩壊して沈没したしばらく後、僭主に抗う騎士たちは甲冑を脱いだ。彼らの物語も、複雑で膨大な物語の歌に消えていた。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114059"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 114060,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "無垢な海の金盃",
+    "Description": "沈んだ都の僭主が黄金楽章の最後の一曲を奏でた時、王に寵愛される楽師はイーコールがたっぷり入った金盃を盗んだ。\n神王の愚かな裏切りに驚き、楽師は最後の衛兵を招集し、溶けないイーコールで悪龍を高塔の下に封印した後、王国と共に海底に沈んだ。\nその後、この尊い盗賊の姿は歴史から静かに消えていき、「金色の劇団」のみが、彼の予言を忠実に覚えている。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114060"
+  },
+  {
     "MaterialType": 5,
     "Id": 116001,
     "RankLevel": 3,
@@ -25106,6 +26548,26 @@
     "ItemType": 2,
     "Name": "碧草の哲学",
     "Description": "草の国「スメール」の旅の途中で理解したもの、内部には技を鍛える典籍が入っている。\n\n使用すると以下から1つ獲得できる:\n·「忠言」の哲学\n·「創意」の哲学\n·「篤行」の哲学",
+    "TypeDescription": "ギフトパック",
+    "Icon": "UI_ItemIcon_116005"
+  },
+  {
+    "MaterialType": 17,
+    "Id": 116014,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "源流の導き",
+    "Description": "水の国「フォンテーヌ」の旅の途中で発見したもの、内部には技を鍛える典籍が入っている。\n\n使用すると以下から1つ獲得できる:\n·「公平」の導き\n·「正義」の導き\n·「秩序」の導き",
+    "TypeDescription": "ギフトパック",
+    "Icon": "UI_ItemIcon_116004"
+  },
+  {
+    "MaterialType": 17,
+    "Id": 116015,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "源流の哲学",
+    "Description": "水の国「フォンテーヌ」の旅の途中で理解したもの、内部には技を鍛える典籍が入っている。\n\n使用すると以下から1つ獲得できる:\n·「公平」の哲学\n·「正義」の哲学\n·「秩序」の哲学",
     "TypeDescription": "ギフトパック",
     "Icon": "UI_ItemIcon_116005"
   },
@@ -25241,6 +26703,26 @@
   },
   {
     "MaterialType": 12,
+    "Id": 117014,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "深秘の聖遺物箱·二等",
+    "Description": "聖遺物を収納する箱。見た人が祝福に恵まれますように。\n\n聖遺物箱からは、以下の聖遺物セットの中から一つ入手できる。\n·「ファントムハンター」\n·「黄金の劇団」\n·「狂戦士」\n·「教官」\n·「亡命者」",
+    "TypeDescription": "聖遺物箱",
+    "Icon": "UI_ItemIcon_117002"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 117015,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "深秘の聖遺物箱·一等",
+    "Description": "聖遺物を収納する箱。見た人が聖跡を感じられますように。\n\n聖遺物箱からは、以下の聖遺物セットの中から一つ入手できる。\n·「ファントムハンター」\n·「黄金の劇団」",
+    "TypeDescription": "聖遺物箱",
+    "Icon": "UI_ItemIcon_117003"
+  },
+  {
+    "MaterialType": 12,
     "Id": 118001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -25298,6 +26780,26 @@
     "Description": "ある大事な日にもらえるプレゼント。\n\n波浪や山岳を越えてきた旅人へ。\nこの大地での旅が幸せに満ちるように。\n\n「オススメ料理は週替わりで、月の祝福は月替り。次に一緒に祝う時はなんと、およそ9000時間後だ！これからは晴れの日も雨の日も、オイラはおまえと一緒に過ごすんだぞ、へへっ。」",
     "TypeDescription": "貴重品",
     "Icon": "UI_ItemIcon_118005"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 118007,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旅人へのケーキ",
+    "Description": "ある大事な日にもらえるプレゼント。\n\n森の中で演奏しながら優美な響きに耳を傾けるあなたへ。\n甘い夢の中で穏やかな幸せに包まれるように。",
+    "TypeDescription": "貴重品",
+    "Icon": "UI_ItemIcon_118007"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 118008,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旅人へのケーキ",
+    "Description": "ある大事な日にもらえるプレゼント。\n\n森の中で演奏しながら優美な響きに耳を傾けるあなたへ。\n甘い夢の中で穏やかな幸せに包まれるように。\n\n「オススメ料理は週替わりで、月の祝福は月替り。次に一緒に祝う時はなんと、およそ9000時間後だ！へへっ、今からオイラがケーキの上の楽譜に従って、おまえに演奏してやるからな。先に言っとくけど、絶対に笑っちゃいけないぞ。オイラ相当時間を掛けて練習したんだからさ！」",
+    "TypeDescription": "貴重品",
+    "Icon": "UI_ItemIcon_118007"
   },
   {
     "MaterialType": 2,
@@ -27981,6 +29483,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120337,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "奇妙なパーツ",
+    "Description": "メリュシー村の近くで入手した機械部品。その形は、今の一般的な装置の部品とは微妙に違うようだ。\nなぜこんな場所でこんな部品が見つかったのか分からないが、これらの美しい金属製品はメリュジーヌたちに大人気のようだ…",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120337"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120338,
     "RankLevel": 0,
     "ItemType": 2,
@@ -28008,6 +29520,36 @@
     "Description": "中がくり抜かれ、採掘道具が隠されている道具の本。言うまでもなく、舞台用の道具なので他のページはくっついており、本の内容を読み取ることはできない。しかし時には、本の内容よりも本の「中身」のほうが重要なこともある。",
     "TypeDescription": "任務アイテム",
     "Icon": "UI_ItemIcon_120340"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120342,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·1",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120343,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·2",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120344,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·3",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
   },
   {
     "MaterialType": 2,
@@ -28301,6 +29843,56 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120374,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「香気模倣ルアー」",
+    "Description": "デラロッシュが開発した釣りの新型補助装置。匂いを分析し、高級な釣り餌の原理を模倣して作られ、「とても強力な効果」があるそうだ。専用袋と緩衝材で保護されていることから、この釣り餌に対するデラロッシュの思い入れが相当強いことが見受けられる。これだけしっかり保護された釣り餌は果たしてその基本的機能に支障がないか疑問である。魚が惹きつけられてきたとしても、食べる方法がなさそう…",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_101605"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120376,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "沈んだ箱",
+    "Description": "水底に沈んだ箱。中に何が入っているのかは不明だ…",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120377,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "沈んだ箱",
+    "Description": "水底に沈んだ箱。どうやら他の箱とは…ちょっと違うかも…？",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120378,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "古い鍵",
+    "Description": "「十字鈴蘭学会」遺跡の深部へ続く道を開けられる鍵。\n長年水中に浸っているにもかかわらず、ちっとも錆びたり壊れたりしていない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120104"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120379,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "学院のどこかの鍵",
+    "Description": "自然哲学学院のどこかの扉を開けられるようだ。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120104"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120382,
     "RankLevel": 0,
     "ItemType": 2,
@@ -28321,6 +29913,26 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120384,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "重い荷物",
+    "Description": "とても重い荷物。中には大量の絵の具が入っている。果たしてデピエリはこれらの絵の具をどう使うのだろうか…",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100314"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120386,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "一缶の稚魚",
+    "Description": "リノレアからもらった稚魚。彼女が特別に選定して育ててきたこれらの稚魚は、ここの水域での棲息に適しているそうだ…",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120386"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120387,
     "RankLevel": 4,
     "ItemType": 2,
@@ -28328,6 +29940,16 @@
     "Description": "演劇の中でクバッド王子の高貴な身分を象徴する道具として使われた印章。本来なら糸に繋がれ、王子の胸に付けられるべきであったが、運命に定められた悲劇により王子はそれを捨てた。\n血のように赤い宝石には、ガイアからの問いかけ——運命に関する、あの古き質問が凝縮されている。\n答えを急ぐ必要はない。自分の魂が導き出した答えを、未来のその目と手、そして心で証明しよう。",
     "TypeDescription": "任務アイテム",
     "Icon": "UI_ItemIcon_120387"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120399,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ヴェニールのノート",
+    "Description": "ヴェニールのノート",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_101991"
   },
   {
     "MaterialType": 2,
@@ -28381,6 +30003,246 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120404,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "レムリア衰亡史·1",
+    "Description": "フォンテーヌ建国の初期に、有名な学者プルトニーの著した古代レムリア文明に関する歴史大作と言われている。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120404"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120405,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "レムリア衰亡史·2",
+    "Description": "フォンテーヌ建国の初期に、有名な学者プルトニーの著した古代レムリア文明に関する歴史大作と言われている。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120404"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120406,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "レムリア衰亡史·3",
+    "Description": "フォンテーヌ建国の初期に、有名な学者プルトニーの著した古代レムリア文明に関する歴史大作と言われている。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120404"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120407,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "フォンテーヌ動物寓意譚·1",
+    "Description": "様々な短編寓話が収集された物語集。中の殆どの物語は作者の自作によるものではなく、今は失われてしまった古代の詩に由来している。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120407"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120408,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "フォンテーヌ動物寓意譚·2",
+    "Description": "様々な短編寓話が収集された物語集。中の殆どの物語は作者の自作によるものではなく、今は失われてしまった古代の詩に由来している。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120407"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120409,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "フォンテーヌ動物寓意譚·3",
+    "Description": "様々な短編寓話が収集された物語集。中の殆どの物語は作者の自作によるものではなく、今は失われてしまった古代の詩に由来している。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120407"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120410,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "怪盗と名探偵：レインボーブローチの謎·1",
+    "Description": "フォンテーヌで人気のエンターテインメント書籍。「幻影紳士」と呼ばれる怪盗ファントーマス·ルパンと名探偵チェスタトンの初の正面対決の物語が描かれている。免責事項：この物語はフィクションであり、実在の場所、人物、事件とは一切関係ありません。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120410"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120411,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "怪盗と名探偵：レインボーブローチの謎·2",
+    "Description": "フォンテーヌで人気のエンターテインメント書籍。「幻影紳士」と呼ばれる怪盗ファントーマス·ルパンと名探偵チェスタトンの初の正面対決の物語が描かれている。免責事項：この物語はフィクションであり、実在の場所、人物、事件とは一切関係ありません。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120410"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120412,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "怪盗と名探偵：レインボーブローチの謎·3",
+    "Description": "フォンテーヌで人気のエンターテインメント書籍。「幻影紳士」と呼ばれる怪盗ファントーマス·ルパンと名探偵チェスタトンの初の正面対決の物語が描かれている。免責事項：この物語はフィクションであり、実在の場所、人物、事件とは一切関係ありません。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120410"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120428,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「別れ」の贈り物",
+    "Description": "リネがマジックショーの時に贈ってくれたお花の装飾品。「別れ」を象徴するルミドゥースベルで作られている。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120428"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120429,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「美しき出会い」",
+    "Description": "リネがマジックショーの時に贈ってくれたお花の装飾品。別れを象徴するルミドゥースベルと情熱を象徴するレインボーローズで作られている。本来別れと出会いは表裏一体で、私たちの今こそが大切にすべきものだ。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120429"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120432,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「赤い石」",
+    "Description": "マメールと一緒に採集した赤い鉱石。これを使って絵の具を作れるそうだ。\n鉱石なのに、触った時になぜかほのかな温もりが感じられるような…錯覚だろうか？",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120432"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120433,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「宝物」",
+    "Description": "古びた懐中時計。\nチクタクの音もしないし、蓋ももう開かなくなった。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120433"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120434,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「水仙十字聖剣」",
+    "Description": "とある物語の中では意味のある聖剣。\n誰の所有物でもない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120434"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120436,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "濃緑の羽飾り",
+    "Description": "時によっては物語を進展させ、終結させる力がある。\nその出現自体が物語を超越した力の象徴である。\nとても古いものだが、保存状態がよく、かつて多くの人々に大切にされてきたのだろう。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120435"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120437,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "タイプライターのキーキャップ",
+    "Description": "買ったばかりのタイプライター用キーキャップ。他のキーキャップとあまり相性がよくなさそうだが、とりあえず…付けてから作業しよう。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120437"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120439,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「マルコット草」",
+    "Description": "「マルコット」という名の香水。原料はまさにマルコット草のようだ。リノレアがよく購入するタイプ。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120440,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「湖光」",
+    "Description": "「湖光」という名の香水。スメイヌが割と好むタイプ。仕事の時に付けたりするのだろうか…",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120441,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「タイダルガ」",
+    "Description": "「タイダルガ」という名の香水。独特の水草の香りがする。しかし…水草の「香り」って一体どんな匂いなんだろう…",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120442,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "稚魚",
+    "Description": "バタッソからもらった稚魚。彼が特別に選定して育てたこれらの稚魚は、あの水域で棲息するのに適しているそうだ…",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120386"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120443,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "重みのある箱",
+    "Description": "重みのある箱。映影フィルムが箱いっぱいに入っている。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 49,
+    "Id": 120444,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「歌劇場の交換マジック」事件ファイル",
+    "Description": "「エピクレシス歌劇場」で発生した、リネとリネットの交換マジックよる殺人及び少女失踪事件の詳細が記録されている。もし調査が難航したら、今まで集めた手がかりや証拠を基に再度考えを整理してみるといいだろう。",
+    "TypeDescription": "便利アイテム",
+    "Icon": "UI_ItemIcon_120444"
+  },
+  {
+    "MaterialType": 49,
+    "Id": 120445,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「水と失踪者」事件ファイル",
+    "Description": "ナヴィアの父カーレスに関わる殺人事件、及びそれと密接な関係にある「連続少女失踪事件」の詳細が記録されている。もし調査が難航したら、今まで集めた手がかりや証拠を基に再度考えを整理してみるといいだろう。",
+    "TypeDescription": "便利アイテム",
+    "Icon": "UI_ItemIcon_120445"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120461,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「ジャバウォックの聖剣」",
+    "Description": "とある物語の中では意味のある聖剣。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120461"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120462,
     "RankLevel": 0,
     "ItemType": 2,
@@ -28388,6 +30250,296 @@
     "Description": "「ヴェルーリヤ·ミラージュ」の中で見つけた一通の手紙。きちんとたたまれており、折り目のしわが黄ばんでいるところから察するに、ずいぶんと昔、誰かが蜃境の中に残したのだろう。",
     "TypeDescription": "任務アイテム",
     "Icon": "UI_ItemIcon_100229"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120463,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·4",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120464,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·5",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120465,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·6",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120466,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·7",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120467,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·8",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120468,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·9",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120469,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·10",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120470,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·11",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120471,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·12",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120472,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議な本のページ·13",
+    "Description": "書かれた内容が全く理解できない古い紙。\nその内容を解読できる何かしらの方法があるかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120473,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ベスタの歌",
+    "Description": "伝説に伝わる古の楽譜が記録されているそうだが、変な符号が使われているため解読するのが難しい。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120473"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120474,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "トピアの「しるし」",
+    "Description": "音楽家と自称するトピアがくれた「しるし」。海螺の響きを演奏するための部品だそうだ。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120474"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120475,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "奇妙な鉱石",
+    "Description": "奇妙な光沢を放つ鉱石。その材質はとても緻密で堅い。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120475"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120476,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "特製の時計",
+    "Description": "特殊な材料で作られたプロトタイプの時計。摩擦による時計のコアの摩耗問題を効果的に改善した。貝式構造を採用したため、水中でも使用可能らしい。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120476"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120486,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "コーヒーの材料",
+    "Description": "アルエが作った材料。コーヒーを淹れる際に直接使える。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_110008"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120487,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "特製の魚肉",
+    "Description": "アイオーヌが特殊処理を施した魚肉。紫金オオズグロカモメに受けがいいようだ…",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100084"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120488,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「真眼薬」強化版",
+    "Description": "配合が改善された「真眼薬」。飲んだらどんな不思議な効果が現れるのだろうか…",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100704"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120490,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "釣り餌",
+    "Description": "ブシコーからもらった釣り餌。これでロアルテが1匹でも多く釣れたらいいけど…",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120521,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "不思議なコア",
+    "Description": "謎の機器から得た不思議なコア。\n歯車のように見えるが、実は歯車の形をしたコア。実に謎めいたものだ。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120318"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120522,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "法螺貝の枯れた盃",
+    "Description": "とても古い法螺貝の容器。その歴史はもっと古い文明まで遡れそうだ。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120522"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120531,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "航海日誌の断片",
+    "Description": "航海日誌の断片",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120531"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120532,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "破れた日誌",
+    "Description": "破れた日誌",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120532"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120571,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "怪しい鳥肉",
+    "Description": "なぜか道端に落ちている鳥肉。恐らく想定外の事故に遭った鳥たちのものだろう。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100064"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120572,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "繊維型ロマリタイムフラワー",
+    "Description": "リネがマジックポケットを作るのを手伝うために採ってきたロマリタイムフラワー。この辺りのロマリタイムフラワーは繊維を豊富に含んでおり、質のいいマジックポケットを作るのにもってこいだそうだ。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_101233"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120573,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "公子の「神の目」",
+    "Description": "その中の元素力は公子の制御が効かない時があったようだ。主の元を離れたそれは、光を失い暗澹として見える。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120573"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120574,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "マジックポケットの製作材料",
+    "Description": "「予言の危機」に備え、マジックポケットを多めに作っておくのはいいことだろう。袋にいっぱい詰められた材料には、あなたとリネ、フレミネをはじめとするみんなの気持ちが込められている。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120574"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120575,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "マジックポケット",
+    "Description": "リネのスタイルが見られるマジック道具。マジックショーに使われるだけでなく、優れた収納力が備わっており、フォンテーヌの人々が「予言の危機」に備えるための手助けとなる。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120575"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120576,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "プーカの「しるし」",
+    "Description": "プーカが鉱脈の奥深くでなくした「しるし」。早く彼女に届けてあげよう！",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_101605"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120590,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "散らかっている本のページ",
+    "Description": "神秘に包まれた空間で手に入れた古い紙。あれは決して夢ではなかったと証明してくれそう…",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_120577"
   },
   {
     "MaterialType": 31,
@@ -28658,6 +30810,46 @@
     "Description": "「種の匣」で入手した種。生命力が強く品質も高い。「壺洞天」の田んぼに植え、時間が経つと「スメールローズ」に成長する。",
     "TypeDescription": "素材",
     "Icon": "UI_ItemIcon_130027"
+  },
+  {
+    "MaterialType": 31,
+    "Id": 130028,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「プリュイロータス」の種",
+    "Description": "「種の匣」で入手した種。生命力が強く品質も高い。「壺洞天」の田んぼに植え、時間が経つと「プリュイロータス」に成長する。",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_130028"
+  },
+  {
+    "MaterialType": 31,
+    "Id": 130029,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「マルコット草」の種",
+    "Description": "「種の匣」で入手した種。生命力が強く品質も高い。「壺洞天」の田んぼに植え、時間が経つと「マルコット草」に成長する。",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_130029"
+  },
+  {
+    "MaterialType": 31,
+    "Id": 130030,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「ルミドゥースベル」の種",
+    "Description": "「種の匣」で入手した種。生命力が強く品質も高い。「壺洞天」の田んぼに植え、時間が経つと「ルミドゥースベル」に成長する。",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_130030"
+  },
+  {
+    "MaterialType": 31,
+    "Id": 130031,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「レインボーローズ」の種",
+    "Description": "「種の匣」で入手した種。生命力が強く品質も高い。「壺洞天」の田んぼに植え、時間が経つと「レインボーローズ」に成長する。",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_130031"
   },
   {
     "MaterialType": 4,
@@ -28938,6 +31130,76 @@
     "Description": "ユニークな形をした魚で、チョウチョウウオのスメールにいる遠縁に当たる。骨格が広く、体の曲線が特徴的な魚。この魚を最初に釣り上げた漁師が、尾びれの先で竿を傾けたところ、その組み合わせが何か長柄武器のように見えたため、「ハチェットウオ」と呼ばれるようになったと言われている。この名前は、学名の「アンカーフックチョウ」よりも分かりやすいため、民間で流行っていた。\n翠玉の色がするハチェットウオは水生植物が生い茂った場所を好む。それらの姿は背景に溶け込みやすく、現れたり消えたりする。水草をさまよう小魚がそのバリアのような体によくぶつかって頭をクラクラしてしまうが、翠玉ハチェットウオそれで怒ることはない。逆に、時を見極めて隣人に庇護を与えている。",
     "TypeDescription": "魚",
     "Icon": "UI_ItemIcon_131028"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131029,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "波濤ハチェットウオ",
+    "Description": "ユニークな形をした魚で、チョウチョウウオのフォンテーヌにいる遠縁に当たる。骨格が広く、体の曲線が特徴的な魚。この魚を最初に釣り上げた漁師が、尾びれの先で竿を傾けたところ、その組み合わせが何か長柄武器のように見えたため、「ハチェットウオ」と呼ばれるようになったと言われている。この名前は、学名の「アンカーフックチョウ」よりも分かりやすいため、民間で流行っていた。\n「海の青」色をしたハチェットウオはスメールの水域からフォンテーヌに移動してきた特殊な例だと言われている。温和な性格のスメールの近縁種と比べれば、波濤ハチェットウオは確かにより強靭な性格の持ち主で、過酷な環境で生き長らえ、商船の航続距離と比肩するほどの長距離を泳ぐことができる。そのため、この魚を勇気と忍耐のシンボルとみなす船員もいる。",
+    "TypeDescription": "魚",
+    "Icon": "UI_ItemIcon_131029"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131030,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "ポッポハートフェザースズキ",
+    "Description": "側面がハートの形をしたユニークな魚で、スズキと一定の近縁関係にあると言われているが、羽のように細長い軟骨でできた背びれと腹びれを持っていることから、学者たちによって「ハートフェザースズキ」と名付けられた。\nハートフェザースズキの中で重要な種類の1つであるポッポハートフェザースズキは、その外見に見合わないほど高い航海能力で、荒波をも切り裂きながら泳ぐことができる。水面に姿を現したまま激流に逆らって泳ぐ時、その特徴的なひれから「ポッポ」と音が鳴るという。青い水面から保護色を持つこの魚を見分けることは極めて難しく、ましてやその独特な音を聞いたことがある釣り人はほとんどいない。",
+    "TypeDescription": "魚",
+    "Icon": "UI_ItemIcon_131030"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131031,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "メラメラハートフェザースズキ",
+    "Description": "側面がハートの形をしたユニークな魚で、スズキと一定の近縁関係にあると言われているが、羽のように細長い軟骨でできた背びれと腹びれを持っていることから、学者たちによって「ハートフェザースズキ」と名付けられた。\n「メラメラハートフェザースズキ」と名付けられたこの魚は太陽に似た独特の色をしており、水中でとりわけ目立つ。これは彼らが独自で身につけた自己防衛法で、視覚に依存する一部の魚は彼らを「水中で燃えている正体不明な物体」とみなして遠ざけるという。しかし、その燃えるような外見とは裏腹に、ハートフェザースズキの体温は割と低く、摂食量もごく僅か。時にはわざわざ浅海エリアに留まり、日向ぼっこをすることもある。",
+    "TypeDescription": "魚",
+    "Icon": "UI_ItemIcon_131031"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131032,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "メンテマシナリー·基礎能力型",
+    "Description": "水中活動を行うクロックワークを助け、その稼働率を上げるために開発されたコンパクトな補助装置。当初は水中のゴミや植物の残滓などを除去してクロックワークの心臓部に異物が付着するのを防ぎ、できるだけ故障率を低下させる目的で設計された。別の角度から見れば、これらは「水中清掃員」としてフォンテーヌの生態環境保護に間違いなく貢献している。\n感度の高いセンサーが搭載されたこの装置は、「嗅覚」を利用してターゲットを探したり、水中ゴミの光学特性を捉えたりできるので、たまに釣り餌に惹きつけられることもある。これを釣り上げた漁師によって「水域保護魚」或いは「鉄魚」と呼ばれるようになった。\n軽量木材と低コストの金属を採用したこのメンテマシナリーモデルは量産が安定した後の最初のモデルで、設計目的の「基礎行動能力」が備わっている。しかし、寿命はあまり理想的でないため、大量に投入され、寿命が尽きたり故障で稼働しなくなったりしたマシナリーの代わりに、水中に隠れていた他のマシナリーが稼働するといった「複数班によるシフト稼働」式が採用されている。一般人からしたら、絶えず浮かび上がってくるこれらの「鉄魚」は、あたかも自ら繁殖しているかのように見えるだろう。数台釣り上げたとしても、あまり罪悪感を抱く必要はなさそうだ。",
+    "TypeDescription": "魚",
+    "Icon": "UI_ItemIcon_131032"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131033,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "メンテマシナリー·水域清掃員",
+    "Description": "水中活動を行うクロックワークを助け、その稼働率を上げるために開発されたコンパクトな補助装置。当初は水中のゴミや植物の残滓などを除去してクロックワークの心臓部に異物が付着するのを防ぎ、できるだけ故障率を低下させる目的で設計された。別の角度から見れば、これらは「水中清掃員」としてフォンテーヌの生態環境保護に間違いなく貢献している。\n感度の高いセンサーが搭載されたこの装置は、「嗅覚」を利用してターゲットを探したり、水中ゴミの光学特性を捉えたりできるので、たまに釣り餌に惹きつけられることもある。これを釣り上げた漁師によって「水域保護魚」或いは「鉄魚」と呼ばれるようになった。\n大量投入される「基礎能力型」に対し、より改善されたこの量産モデル「水域清掃員」は表面に極めて腐食に強いコーティングが施されている。また、プロジェクトの研究員は大量投入後に放置するやり方ではなく、周期的に回収してメンテナンスする方法を採用している。つまり、帰航サインとして特定周波数で点滅するライトをメンテマシナリーのセンサーに送り、それらを回収して適切な修理と点検を行った後、再度水中に戻して稼働させるといった体制だ。この特定周波数の点滅ライトは、あとでメンテマシナリーを狙うための釣り餌に使われ、知られざるルートを辿って一般漁師の間で広まっていった。",
+    "TypeDescription": "魚",
+    "Icon": "UI_ItemIcon_131033"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131034,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "メンテマシナリー·態勢制御者",
+    "Description": "水中活動を行うクロックワークを助け、その稼働率を上げるために開発されたコンパクトな補助装置。当初は水中のゴミや植物の残滓などを除去してクロックワークの心臓部に異物が付着するのを防ぎ、できるだけ故障率を低下させる目的で設計された。別の角度から見れば、これらは「水中清掃員」としてフォンテーヌの生態環境保護に間違いなく貢献している。\n感度の高いセンサーが搭載されたこの装置は、「嗅覚」を利用してターゲットを探したり、水中ゴミの光学特性を捉えたりできるので、たまに釣り餌に惹きつけられることもある。これを釣り上げた漁師によって「水域保護魚」或いは「鉄魚」と呼ばれるようになった。\nメンテマシナリーは一部の水中生物の食べ物をゴミとして認識し清掃することがあるため、水中生物と衝突するケースがある。だが、パワーの低い小型マシナリーに勝ち目がないのは自明の理。時間が経つにつれ、破壊されたマシナリーの数は増える一方だった。\n既存の2タイプのメンテマシナリーが安全な環境で水域を清掃できるようにと、研究員は既存のフレームを基に、コア構造のパワーを最大限引き上げ、一定の戦闘能力を備えた3つ目のモデルと開発した。このモデルを水中生物に衝突させることでその脅威をなくし、メンテマシナリーの正常な作業環境を維持するという思惑だった。しかも既存の生産ラインを使って早くも大量生産された。\nしかし、「態勢制御者」を強化するための研究員たちの後続開発計画はフォンテーヌ科学院によって止められてしまった。「こんな小さな代物で凶暴な水中生物を駆逐できるなら、既存の水中装置になんの意味がある！」という理由だった。実際のところ、「態勢制御者」は有害な水中生物を駆逐できるどころか、むしろ一般の魚を「清掃」してしまい、とんだ環境破壊を引き起こすことが明らかになった。そのため、研究員たちは一部「態勢制御者」を停止させ、それらの攻撃行為に制限措置を加えた。",
+    "TypeDescription": "魚",
+    "Icon": "UI_ItemIcon_131034"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131035,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "メンテマシナリー·白金秘蔵型",
+    "Description": "水中活動を行うクロックワークを助け、その稼働率を上げるために開発されたコンパクトな補助装置。当初は水中のゴミや植物の残滓などを除去してクロックワークの心臓部に異物が付着するのを防ぎ、それらの雑物を清掃する目的で設計された。\n他の量産型モデルと比べ、きれいな光沢のある表面加工が施されたこの特別な「白金秘蔵型」は、開発チームが特別に作った記念型モデルである。このプロジェクトへの投資を誘致すべく、開発チームは裕福な商人たちに相談する際にこの記念品を贈答した。そして、これは確かにアクアリウムの精巧なオーナメントとして珍しいものだったという。しかし残念ながら、投資誘致の試みは実を結ぶことはなく、日に日に赤字に迫っていく予算を補填するため、開発チームはこのメンテマシナリーを玩具として販売することを計画した。\n結局、周知の事故により、メンテマシナリー開発チームは解散し、メンテマシナリーの後続プロジェクトも取り消された。今のフォンテーヌ水域内にある同シリーズのメンテマシナリーは一切管理されておらず、量産前に試作された「白金秘蔵型」もすべて水底のどこかに沈み、フォンテーヌ水域で最も特別で、最も値が張る「魚類」となった。科学院の一部プロジェクトが公開されるとともに、『スチームバード新聞社』の記者たちは資料の比較や踏み入った調査をした。その結果、「メンテマシナリーが投入される前後で、フォンテーヌ水域の汚染状況に著しい変化は確認されておらず、このプロジェクトの効果には疑問点がある」ことに気づいたのだった。以降も、まだ機能する「白金秘蔵型」は依然としてフォンテーヌ水域で泳いでおり、漁師たちはそれが釣れることを誇りに思うようになった。なにせ「白金秘蔵型」の珍しさは、他の国で最も貴重な観賞魚と肩を並べるほどだから…",
+    "TypeDescription": "魚",
+    "Icon": "UI_ItemIcon_131035"
   },
   {
     "MaterialType": 36,
@@ -29920,6 +32182,96 @@
     "Icon": "UI_ItemIcon_BGM_Common"
   },
   {
+    "MaterialType": 36,
+    "Id": 141199,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·99",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き·飄揚」、あるいは「華麗なる千の響き·繚繞」を使用することで復元できる。この「旋曜玉帛」には、フォンテーヌの不思議な旋律が秘められている。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141200,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·100",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き·飄揚」、あるいは「華麗なる千の響き·繚繞」を使用することで復元できる。この「旋曜玉帛」には、フォンテーヌの不思議な旋律が秘められている。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141201,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·101",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き·飄揚」、あるいは「華麗なる千の響き·繚繞」を使用することで復元できる。この「旋曜玉帛」には、フォンテーヌの不思議な旋律が秘められている。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141202,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·102",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き·飄揚」、あるいは「華麗なる千の響き·繚繞」を使用することで復元できる。この「旋曜玉帛」には、フォンテーヌの不思議な旋律が秘められている。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141203,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·103",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き·飄揚」、あるいは「華麗なる千の響き·繚繞」を使用することで復元できる。この「旋曜玉帛」には、フォンテーヌの不思議な旋律が秘められている。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141204,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·104",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き·飄揚」、あるいは「華麗なる千の響き·繚繞」を使用することで復元できる。この「旋曜玉帛」には、フォンテーヌの不思議な旋律が秘められている。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141205,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·105",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き·飄揚」、あるいは「華麗なる千の響き·繚繞」を使用することで復元できる。この「旋曜玉帛」には、フォンテーヌの不思議な旋律が秘められている。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141206,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·106",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き·飄揚」、あるいは「華麗なる千の響き·繚繞」を使用することで復元できる。この「旋曜玉帛」には、フォンテーヌの不思議な旋律が秘められている。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141207,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·107",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き·飄揚」、あるいは「華麗なる千の響き·繚繞」を使用することで復元できる。この「旋曜玉帛」には、フォンテーヌの不思議な旋律が秘められている。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
     "MaterialType": 37,
     "Id": 141099,
     "RankLevel": 1,
@@ -30278,6 +32630,16 @@
     "Description": "「トキの嘴」専用の精錬アイテム。\n一説によると、このアイテムは後に「召喚王」となる少年が、かつて大赤砂海でトキの王の末裔に託されたものだそうだ。数日かけて集めた脂蛹を煮詰めてできた、弦の手入れに使われる蝋である。しかし、伝説の弓は既にトキの王と共に消え、脂蝋の作り方だけが代々受け継がれている。もしかすると、再び使われる日のための下準備なのかもしれない。",
     "TypeDescription": "精錬素材",
     "Icon": "UI_ItemIcon_200115"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 200116,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "マルテンスの万能保護剤",
+    "Description": "「サーンドルの渡し守」専用の精錬アイテム。\n特定の材質の表面に保護膜を作り、金属の酸化と腐食を防ぐだけでなく、滑らかさと清潔さを保ち、光沢を出す効果もあるため、フォンテーヌで一世を風靡した時期があった。当時の広告によると、サーンドル河のレジェンドはかの有名な先の曲がった銅パイプの手入れにこのアイテムを使ったという。",
+    "TypeDescription": "精錬素材",
+    "Icon": "UI_ItemIcon_200116"
   },
   {
     "MaterialType": 28,
@@ -30960,6 +33322,16 @@
     "Icon": "UI_ItemIcon_200905"
   },
   {
+    "MaterialType": 33,
+    "Id": 200906,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "波裂きの槍",
+    "Description": "美しい金属の光沢を放つ細長い釣り竿。フォンテーヌ科学院の最新鋭の金属で作られており、軽くて丈夫。多段式構造の継ぎ目は、強度の高い金属ワイヤーで補強されており、驚くほど重い魚でも無事に釣り上げることができる。武器の鍔に似たスピニングリールは、凶暴で「堅い」魚によって漁師の手が傷つくのを防ぐことができる。\nベテランの漁師によると、この釣り竿は手に馴染む長槍にも似ていて、フォンテーヌ特有の「鉄魚」と決闘するための理想的な武器だという。",
+    "TypeDescription": "釣り竿",
+    "Icon": "UI_ItemIcon_200906"
+  },
+  {
     "MaterialType": 21,
     "Id": 220001,
     "RankLevel": 3,
@@ -31255,7 +33627,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "種の匣",
-    "Description": "ピンばあやから貰った不思議な箱。ピンばあやによると、この箱には「種化」の能力が秘められている…植物本来の特性を基に、「種化」で得た種を「塵歌壺」の指定の田んぼに植えることが出来る。\n栽培可能な植物：霓裳花、スイートフラワー、セシリアの花、琉璃百合、風車アスター、清心、琉璃袋、ヴァルベリー、イグサ、絶雲の唐辛子、ニンジン、ダイコン、ミント、キノコ、鳴草、馬尾、キンギョソウ、ハスの花托、ドドリアン、海草、ウミレイシ、ハッラの実、ザイトゥン桃、スメールローズ。",
+    "Description": "ピンばあやから貰った不思議な箱。ピンばあやによると、この箱には「種化」の能力が秘められている…植物本来の特性を基に、「種化」で得た種を「塵歌壺」の指定の田んぼに植えることが出来る。\n栽培可能な植物：霓裳花、スイートフラワー、セシリアの花、琉璃百合、風車アスター、清心、琉璃袋、ヴァルベリー、イグサ、絶雲の唐辛子、ニンジン、ダイコン、ミント、キノコ、鳴草、馬尾、キンギョソウ、ハスの花托、ドドリアン、海草、ウミレイシ、ハッラの実、ザイトゥン桃、スメールローズ、プリュイロータス、マルコット草、ルミドゥースベル、レインボーローズ。",
     "TypeDescription": "便利アイテム",
     "Icon": "UI_ItemIcon_220033"
   },
@@ -31730,6 +34102,56 @@
     "Icon": "UI_ItemIcon_220085"
   },
   {
+    "MaterialType": 21,
+    "Id": 220086,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "水神の瞳の共鳴石",
+    "Description": "フォンテーヌで使用することで、近くにある「失われた水神の瞳」を探知できる。\n作られた時に水の七天神像の性質をできるだけ模倣した不思議なお守り。水元素の神の瞳からの元素の流れを探知できるらしい。\n神の瞳は元より失われた神像の力を象徴する。その力を神像に奉還することは、理に適ったものであり、法に沿ったことでもある。",
+    "TypeDescription": "消耗品",
+    "Icon": "UI_ItemIcon_220086"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220087,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "水のトレジャーコンパス",
+    "Description": "フォンテーヌで使用することで、近くの宝箱を探知できる。\nフォンテーヌに散らばっている宝物の所有権を主張する者は誰もいないため、ほとんどの場合、それら宝物を手に入れても法に触れたり刑罰を受けたりすることはない。",
+    "TypeDescription": "便利アイテム",
+    "Icon": "UI_ItemIcon_220087"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220088,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "晶蝶トラップ装置",
+    "Description": "フォンテーヌ運動エネルギー工学科学研究院に所属する上級研究員のファヴィツキーが開発した「晶蝶トラップ装置」。\n設置後、内部に特定の材料を入れると装置が運転を始め、惹きつけられた晶蝶を捕まえることができる。\nファヴィツキーが以前立ち上げた研究プロジェクト「低温照明装置」では研究材料として大量の晶蝶を必要としたため、この装置はそのために開発されたもの。\nしかし諸事情により、このプロジェクトは当面停止となった。\n「勤勉なファヴィツキーさんを追悼すると同時に、彼の事業が引き継がれることを心から願っています。当研究院では然る面において、可能な限りの支援を提供する所存です」",
+    "TypeDescription": "便利アイテム",
+    "Icon": "UI_ItemIcon_220088"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220089,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "風力ファン",
+    "Description": "フォンテーヌ運動エネルギー工学科学研究院に所属する上級研究員のルフェールが開発した「送風装置」。\n起動後、風の翼で飛行する人に強力な上昇効果を提供できる。\nしかし設計の限界により、装置を起動するためには風の翼で飛行する時に発生する気流と同じぐらいの風力が必要となっている。\n「うーん…つまり、風の翼で飛行する時にしか、この装置を起動できないってこと？」\n「そもそもこの装置が必要なのは、風の翼を押し上げる強い風がほしいからなのに！？」",
+    "TypeDescription": "便利アイテム",
+    "Icon": "UI_ItemIcon_220089"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220090,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "ブレッソンの特別な「写真機」",
+    "Description": "ブレッソンが特殊な改造を施した「写真機」。最高の材料を用いて作られており、優れた性能があるそうだ。",
+    "TypeDescription": "便利アイテム",
+    "Icon": "UI_ItemIcon_220090"
+  },
+  {
     "MaterialType": 5,
     "Id": 221001,
     "RankLevel": 3,
@@ -31901,6 +34323,26 @@
   },
   {
     "MaterialType": 5,
+    "Id": 221040,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "配合：すっぱいオレンジの餌",
+    "Description": "「すっぱいオレンジの餌」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "釣り餌配合",
+    "Icon": "UI_ItemIcon_221035"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 221041,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "配合：メンテマシナリーの閃光釣り餌",
+    "Description": "「メンテマシナリーの閃光釣り餌」の詳しい作り方が載っている配合。",
+    "TypeDescription": "釣り餌配合",
+    "Icon": "UI_ItemIcon_221035"
+  },
+  {
+    "MaterialType": 5,
     "Id": 221057,
     "RankLevel": 3,
     "ItemType": 2,
@@ -31916,6 +34358,26 @@
     "ItemType": 2,
     "Name": "図譜：草のトレジャーコンパス",
     "Description": "「草のトレジャーコンパス」の詳しい作り方が載っている図譜。このコンパスを利用すれば、スメールの土地での宝探しがより簡単になる。",
+    "TypeDescription": "鍛造設計図",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 221059,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "説明：水神の瞳の共鳴石",
+    "Description": "「水神の瞳の共鳴石」の詳しい作り方が載っている説明書。習得後は、「失われた水神の瞳」を探知できるアイテムを作れるようになる。",
+    "TypeDescription": "合成設計図",
+    "Icon": "UI_ItemIcon_221001"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 221060,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "鍛造図：水のトレジャーコンパス",
+    "Description": "「水のトレジャーコンパス」の詳しい作り方が載っている図譜。このコンパスを利用すれば、フォンテーヌの土地での宝探しがより簡単になる。",
     "TypeDescription": "鍛造設計図",
     "Icon": "UI_ItemIcon_221003"
   },
@@ -32046,6 +34508,56 @@
     "ItemType": 2,
     "Name": "異兆に関する物語",
     "Description": "この物語を通して、法器「満悦の実」の製作方法を把握できる。\n\nこの物語は異兆や災厄と関わっている。\n「実は、月はずっと真珠のように丸いじゃない…」",
+    "TypeDescription": "鍛造設計図",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 221024,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "鍛造図：海淵のフィナーレ",
+    "Description": "エスタブレが古代の伝説と資料に基づいて描いた武器設計図。習得後「海淵のフィナーレ」を復元できる。",
+    "TypeDescription": "鍛造設計図",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 221025,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "鍛造図：静寂の唄",
+    "Description": "エスタブレが古代の伝説と資料に基づいて描いた武器設計図。習得後「静寂の唄」を復元できる。",
+    "TypeDescription": "鍛造設計図",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 221026,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "鍛造図：タイダル·シャドー",
+    "Description": "エスタブレが古代の伝説と資料に基づいて描いた武器設計図。習得後「タイダル·シャドー」を復元できる。",
+    "TypeDescription": "鍛造設計図",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 221027,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "鍛造図：純水流華",
+    "Description": "エスタブレが古代の伝説と資料に基づいて描いた武器設計図。習得後「純水流華」を復元できる。",
+    "TypeDescription": "鍛造設計図",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 221028,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "鍛造図：正義の報酬",
+    "Description": "エスタブレが古代の伝説と資料に基づいて描いた武器設計図。習得後「正義の報酬」を復元できる。",
     "TypeDescription": "鍛造設計図",
     "Icon": "UI_ItemIcon_221003"
   },
@@ -39726,6 +42238,346 @@
     "ItemType": 2,
     "Name": "「楽園の喜びのテント」",
     "Description": "「『楽園の喜びのテント』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390800,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の閑居」",
+    "Description": "「『正義の都の閑居』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390801,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の勇気」",
+    "Description": "「『正義の都の勇気』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390802,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の剛鉄」",
+    "Description": "「『正義の都の剛鉄』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390803,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の名匠」",
+    "Description": "「『正義の都の名匠』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390804,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の寸刻」",
+    "Description": "「『正義の都の寸刻』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390805,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の芳醇」",
+    "Description": "「『正義の都の芳醇』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390806,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の繁栄」",
+    "Description": "「『正義の都の繁栄』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390807,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の百貨」",
+    "Description": "「『正義の都の百貨』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390808,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の貿易」",
+    "Description": "「『正義の都の貿易』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390809,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の勤務」",
+    "Description": "「『正義の都の勤務』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390810,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の羅衣」",
+    "Description": "「『正義の都の羅衣』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390811,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の新鮮」",
+    "Description": "「『正義の都の新鮮』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390812,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の芳香」",
+    "Description": "「『正義の都の芳香』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390813,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「正義の都の時事」",
+    "Description": "「『正義の都の時事』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390326,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "機械染めの小屋-「マルコットの赤」",
+    "Description": "「機械染めの小屋-『マルコットの赤』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390327,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "機械染めの小屋-「ルミドゥースベルの青」",
+    "Description": "「機械染めの小屋-『ルミドゥースベルの青』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390814,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「オトンヌキの地·守護者」",
+    "Description": "「『オトンヌキの地·守護者』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390815,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「オトンヌキの地·煙」",
+    "Description": "「『オトンヌキの地·煙』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390816,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "分散型前衛補給基地",
+    "Description": "「分散型前衛補給基地」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391134,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「オトンヌキの地·古酒」",
+    "Description": "「『オトンヌキの地·古酒』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394318,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「回廊·防汚円卓」",
+    "Description": "「『回廊·防汚円卓』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393399,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「回廊·青空パラソル」",
+    "Description": "「『回廊·青空パラソル』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390328,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「回廊·目映い花綵」",
+    "Description": "「『回廊·目映い花綵』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390329,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「回廊·お得な果物」",
+    "Description": "「『回廊·お得な果物』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390330,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「回廊·時間のルール」",
+    "Description": "「『回廊·時間のルール』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394112,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「正義の都の隊列」",
+    "Description": "「『正義の都の隊列』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394209,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「回廊·のどかなひと時」",
+    "Description": "「『回廊·のどかなひと時』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394210,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「回廊·夜風の合奏」",
+    "Description": "「『回廊·夜風の合奏』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393213,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「回廊·取り巻く香り」",
+    "Description": "「『回廊·取り巻く香り』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380432,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「回廊·光の甘露」",
+    "Description": "「『回廊·光の甘露』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380433,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "枢機の照明-「明るい歩道」",
+    "Description": "「枢機の照明-『明るい歩道』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380434,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "枢機の照明-「明るい近景」",
+    "Description": "「枢機の照明-『明るい近景』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380435,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "枢機の照明-「明るい郊外」",
+    "Description": "「枢機の照明-『明るい郊外』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393172,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "メンテマシナリー·技術デモ型",
+    "Description": "「メンテマシナリー·技術デモ型」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
     "Icon": "UI_ItemIcon_Home_Common"
   }
