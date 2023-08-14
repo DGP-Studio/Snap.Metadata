@@ -1,69 +1,5 @@
 [
   {
-    "Id": 73,
-    "FloorIds": [
-      1044,
-      1045,
-      1060,
-      1061
-    ],
-    "Open": "2023-07-01T04:00:00+08:00",
-    "Close": "2023-07-16T03:59:59+08:00",
-    "BuffName": "Narin Ay",
-    "Descriptions": [
-      "Karakterin Normal Saldırısı düşmana vurduktan sonra verilen Hasar türüne göre düşmanın 2 saniyeliğine Fiziksel veya Element Direnci <color=#F39000FF>%6 azalır</color>. Bu etki <color=#F39000FF>6</color> kademeye kadar birikebilir. Aynı anda farklı türlerde Direnç azalması yaşanabilir. Farklı türlerin kademeleri ve süreleri birbirinden bağımsızdır."
-    ],
-    "Icon": "UI_TowerBlessing_67"
-  },
-  {
-    "Id": 74,
-    "FloorIds": [
-      1044,
-      1045,
-      1062,
-      1063
-    ],
-    "Open": "2023-07-16T04:00:00+08:00",
-    "Close": "2023-08-01T03:59:59+08:00",
-    "BuffName": "Uçan Ay",
-    "Descriptions": [
-      "Karakter savaş alanına girdikten sonraki 10 saniye içinde karakterin <color=#F39000FF>Normal, Yüklü ve Havadan Saldırıları %30 fazla Hasar verir. Saldırı Hızı da %10 artar</color>. Bu etki, karakter savaş alanından ayrıldığında kaybolur."
-    ],
-    "Icon": "UI_TowerBlessing_68"
-  },
-  {
-    "Id": 75,
-    "FloorIds": [
-      1044,
-      1045,
-      1062,
-      1063
-    ],
-    "Open": "2023-08-01T04:00:00+08:00",
-    "Close": "2023-08-16T03:59:59+08:00",
-    "BuffName": "Değişen Ay",
-    "Descriptions": [
-      "Bir karakter Can kaybettiğinde veya yenilediğinde 10 saniyeliğine tüm grup üyelerinin <color=#F39000FF>Saldırısı %7,5 artar</color>. Bu etki her 0,1 saniyede bir tetiklenebilir. En fazla 4 kademeye kadar birikebilir. Her kademenin süresi birbirinden bağımsızdır."
-    ],
-    "Icon": "UI_TowerBlessing_69"
-  },
-  {
-    "Id": 76,
-    "FloorIds": [
-      1044,
-      1045,
-      1062,
-      1063
-    ],
-    "Open": "2023-08-16T04:00:00+08:00",
-    "Close": "2023-09-01T03:59:59+08:00",
-    "BuffName": "Girintili Ay",
-    "Descriptions": [
-      "Aktif karakter, bir düşmana Normal, Yüklü, Havadan Saldırılar ile art arda aynı Element Türünden Element Hasarı ya da Fiziksel Hasar verirse 1 kademe birikir. Her 0,3 saniyede 1 kademe birikebilir. Her Element ve Fiziksel Hasar kademesinin süresi birbirinden bağımsızdır. 6 kademe biriktiğinde düşmanın olduğu yerde Gerçek Hasar veren bir <color=#F39000FF>şok dalgası ortaya çıkar</color> ve o Hasar türü için önceden biriken tüm kademeler silinir. Aktif karakter alanı terk ettiğinde de kademeler silinir."
-    ],
-    "Icon": "UI_TowerBlessing_70"
-  },
-  {
     "Id": 1,
     "FloorIds": [
       1009,
@@ -1225,5 +1161,101 @@
       "Aktif karakterin Normal Saldırıları düşmana vurduktan sonra 2 saniyeliğine bu karakterin verdiği Hasar <color=#F39000FF>%12</color> artar. Bu etki <color=#F39000FF>5</color> kademeye kadar birikebilir. Her kademenin süresi birbirinden bağımsızdır. Bu etki 0,05 saniyede bir tetiklenebilir. Karakter savaş alanından ayrıldığında bu etki iptal edilir."
     ],
     "Icon": "UI_TowerBlessing_40"
+  },
+  {
+    "Id": 73,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-07-01T04:00:00+08:00",
+    "Close": "2023-07-16T03:59:59+08:00",
+    "BuffName": "Narin Ay",
+    "Descriptions": [
+      "Karakterin Normal Saldırısı düşmana vurduktan sonra verilen Hasar türüne göre düşmanın 2 saniyeliğine Fiziksel veya Element Direnci <color=#F39000FF>%6 azalır</color>. Bu etki <color=#F39000FF>6</color> kademeye kadar birikebilir. Aynı anda farklı türlerde Direnç azalması yaşanabilir. Farklı türlerin kademeleri ve süreleri birbirinden bağımsızdır."
+    ],
+    "Icon": "UI_TowerBlessing_67"
+  },
+  {
+    "Id": 74,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-07-16T04:00:00+08:00",
+    "Close": "2023-08-01T03:59:59+08:00",
+    "BuffName": "Uçan Ay",
+    "Descriptions": [
+      "Karakter savaş alanına girdikten sonraki 10 saniye içinde karakterin <color=#F39000FF>Normal, Yüklü ve Havadan Saldırıları %30 fazla Hasar verir. Saldırı Hızı da %10 artar</color>. Bu etki, karakter savaş alanından ayrıldığında kaybolur."
+    ],
+    "Icon": "UI_TowerBlessing_68"
+  },
+  {
+    "Id": 75,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-01T04:00:00+08:00",
+    "Close": "2023-08-16T03:59:59+08:00",
+    "BuffName": "Değişen Ay",
+    "Descriptions": [
+      "Bir karakter Can kaybettiğinde veya yenilediğinde 10 saniyeliğine tüm grup üyelerinin <color=#F39000FF>Saldırısı %7,5 artar</color>. Bu etki her 0,1 saniyede bir tetiklenebilir. En fazla 4 kademeye kadar birikebilir. Her kademenin süresi birbirinden bağımsızdır."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 76,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-16T04:00:00+08:00",
+    "Close": "2023-09-01T03:59:59+08:00",
+    "BuffName": "Girintili Ay",
+    "Descriptions": [
+      "Aktif karakter, bir düşmana Normal, Yüklü, Havadan Saldırılar ile art arda aynı Element Türünden Element Hasarı ya da Fiziksel Hasar verirse 1 kademe birikir. Her 0,3 saniyede 1 kademe birikebilir. Her Element ve Fiziksel Hasar kademesinin süresi birbirinden bağımsızdır. 6 kademe biriktiğinde düşmanın olduğu yerde Gerçek Hasar veren bir <color=#F39000FF>şok dalgası ortaya çıkar</color> ve o Hasar türü için önceden biriken tüm kademeler silinir. Aktif karakter alanı terk ettiğinde de kademeler silinir."
+    ],
+    "Icon": "UI_TowerBlessing_70"
+  },
+  {
+    "Id": 77,
+    "FloorIds": [
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "Open": "2023-09-01T04:00:00+08:00",
+    "Close": "2023-09-16T03:59:59+08:00",
+    "BuffName": "Keskin Ay",
+    "Descriptions": [
+      "Bir karakter Can yenilediğinde 10 saniyeliğine <color=#F39000FF>Saldırısı %10 artar</color>. 3 kademeye kadar birikir. Her kademenin süresi birbirinden bağımsızdır. Bir karakter Can kaybettiğinde 10 saniyeliğine <color=#F39000FF>40 Element Ustalığı</color> kazanır. 3 kademeye kadar birikir. Her kademenin süresi birbirinden bağımsızdır. Can yenileme ve kaybetmenin etkisi birbirinden bağımsızdır, kademeler birbirinden bağımsız olarak hesaplanır."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 78,
+    "FloorIds": [
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "Open": "2023-09-16T04:00:00+08:00",
+    "Close": "2023-10-01T03:59:59+08:00",
+    "BuffName": "Dönen Ay",
+    "Descriptions": [
+      "Bir karakter Can yenilediğinde veya kaybettiğinde 3 saniyeliğine <color=#F39000FF>Tüm Element ve Fiziksel Hasar Bonusu %40 artar</color>."
+    ],
+    "Icon": "UI_TowerBlessing_69"
   }
 ]

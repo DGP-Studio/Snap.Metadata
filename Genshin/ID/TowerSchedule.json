@@ -1,69 +1,5 @@
 [
   {
-    "Id": 73,
-    "FloorIds": [
-      1044,
-      1045,
-      1060,
-      1061
-    ],
-    "Open": "2023-07-01T04:00:00+08:00",
-    "Close": "2023-07-16T03:59:59+08:00",
-    "BuffName": "Willowy Moon",
-    "Descriptions": [
-      "Setelah Normal Attack Karakter mengenai musuh, Physical atau Elemental RES dari musuh ini akan <color=#F39000FF>berkurang 6%</color> berdasarkan tipe serangan Karakter. Efek berlangsung 2 detik dan dapat ditumpuk hingga <color=#F39000FF>6</color> lapis. Pengurangan RES untuk atribut berbeda yang diberikan dengan cara ini dapat aktif bersamaan. Jumlah lapisan dan durasi dihitung terpisah."
-    ],
-    "Icon": "UI_TowerBlessing_67"
-  },
-  {
-    "Id": 74,
-    "FloorIds": [
-      1044,
-      1045,
-      1062,
-      1063
-    ],
-    "Open": "2023-07-16T04:00:00+08:00",
-    "Close": "2023-08-01T03:59:59+08:00",
-    "BuffName": "Fleeting Moon",
-    "Descriptions": [
-      "Selama 10 detik setelah Karakter memasuki medan pertempuran, <color=#F39000FF>DMG Normal Attack, Charged Attack, dan Plunging Attack yang diakibatkan Karakter meningkat 30%, ATK SPD meningkat 10%</color>. Efek ini akan dihapus saat Karakter meninggalkan medan pertempuran."
-    ],
-    "Icon": "UI_TowerBlessing_68"
-  },
-  {
-    "Id": 75,
-    "FloorIds": [
-      1044,
-      1045,
-      1062,
-      1063
-    ],
-    "Open": "2023-08-01T04:00:00+08:00",
-    "Close": "2023-08-16T03:59:59+08:00",
-    "BuffName": "Shifting Moon",
-    "Descriptions": [
-      "Saat Karakter kehilangan HP atau memulihkan HP, seluruh anggota party mendapatkan <color=#F39000FF>peningkatan ATK sebesar 7,5%</color> selama 10 detik. Efek ini dapat terpicu sekali setiap 0,1 detik dan dapat ditumpuk sampai 4 lapis. Setiap lapisnya dihitung terpisah."
-    ],
-    "Icon": "UI_TowerBlessing_69"
-  },
-  {
-    "Id": 76,
-    "FloorIds": [
-      1044,
-      1045,
-      1062,
-      1063
-    ],
-    "Open": "2023-08-16T04:00:00+08:00",
-    "Close": "2023-09-01T03:59:59+08:00",
-    "BuffName": "Ingressing Moon",
-    "Descriptions": [
-      "Saat Karakter aktif terus-menerus mengakibatkan DMG jenis elemen yang sama atau Physical DMG melalui Normal Attack, Charged Attack, atau Plunging Attack, akan dilakukan perhitungan setiap 0,3 detik sekali. Perhitungan yang dilakukan untuk DMG setiap jenis elemen dan Physical DMG dihitung terpisah. Saat jumlah perhitungan mencapai 6 kali, akan <color=#F39000FF>melancarkan serangan gelombang</color> di tempat musuh berada dan mengakibatkan True DMG, lalu menghapus perhitungan jenis DMG yang bersangkutan. Seluruh perhitungan akan dihapus saat Karakter meninggalkan medan pertempuran."
-    ],
-    "Icon": "UI_TowerBlessing_70"
-  },
-  {
     "Id": 1,
     "FloorIds": [
       1009,
@@ -1225,5 +1161,101 @@
       "Setelah Normal Attack Karakter aktif mengenai musuh, DMG yang diakibatkan Karakter ini akan meningkat sebesar <color=#F39000FF>12%</color> selama 2 detik. Efek ini dapat ditumpuk hingga <color=#F39000FF>5</color> lapis. Durasi setiap lapis dihitung terpisah dan efek ini hanya bisa dipicu sekali setiap 0,05 detik. Efek akan hilang saat Karakter meninggalkan medan pertempuran."
     ],
     "Icon": "UI_TowerBlessing_40"
+  },
+  {
+    "Id": 73,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-07-01T04:00:00+08:00",
+    "Close": "2023-07-16T03:59:59+08:00",
+    "BuffName": "Willowy Moon",
+    "Descriptions": [
+      "Setelah Normal Attack Karakter mengenai musuh, Physical atau Elemental RES dari musuh ini akan <color=#F39000FF>berkurang 6%</color> berdasarkan tipe serangan Karakter. Efek berlangsung 2 detik dan dapat ditumpuk hingga <color=#F39000FF>6</color> lapis. Pengurangan RES untuk atribut berbeda yang diberikan dengan cara ini dapat aktif bersamaan. Jumlah lapisan dan durasi dihitung terpisah."
+    ],
+    "Icon": "UI_TowerBlessing_67"
+  },
+  {
+    "Id": 74,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-07-16T04:00:00+08:00",
+    "Close": "2023-08-01T03:59:59+08:00",
+    "BuffName": "Fleeting Moon",
+    "Descriptions": [
+      "Selama 10 detik setelah Karakter memasuki medan pertempuran, <color=#F39000FF>DMG Normal Attack, Charged Attack, dan Plunging Attack yang diakibatkan Karakter meningkat 30%, ATK SPD meningkat 10%</color>. Efek ini akan dihapus saat Karakter meninggalkan medan pertempuran."
+    ],
+    "Icon": "UI_TowerBlessing_68"
+  },
+  {
+    "Id": 75,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-01T04:00:00+08:00",
+    "Close": "2023-08-16T03:59:59+08:00",
+    "BuffName": "Shifting Moon",
+    "Descriptions": [
+      "Saat Karakter kehilangan HP atau memulihkan HP, seluruh anggota party mendapatkan <color=#F39000FF>peningkatan ATK sebesar 7,5%</color> selama 10 detik. Efek ini dapat terpicu sekali setiap 0,1 detik dan dapat ditumpuk sampai 4 lapis. Setiap lapisnya dihitung terpisah."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 76,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-16T04:00:00+08:00",
+    "Close": "2023-09-01T03:59:59+08:00",
+    "BuffName": "Ingressing Moon",
+    "Descriptions": [
+      "Saat Karakter aktif terus-menerus mengakibatkan DMG jenis elemen yang sama atau Physical DMG melalui Normal Attack, Charged Attack, atau Plunging Attack, akan dilakukan perhitungan setiap 0,3 detik sekali. Perhitungan yang dilakukan untuk DMG setiap jenis elemen dan Physical DMG dihitung terpisah. Saat jumlah perhitungan mencapai 6 kali, akan <color=#F39000FF>melancarkan serangan gelombang</color> di tempat musuh berada dan mengakibatkan True DMG, lalu menghapus perhitungan jenis DMG yang bersangkutan. Seluruh perhitungan akan dihapus saat Karakter meninggalkan medan pertempuran."
+    ],
+    "Icon": "UI_TowerBlessing_70"
+  },
+  {
+    "Id": 77,
+    "FloorIds": [
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "Open": "2023-09-01T04:00:00+08:00",
+    "Close": "2023-09-16T03:59:59+08:00",
+    "BuffName": "Keen Moon",
+    "Descriptions": [
+      "Saat HP Karakter dipulihkan, <color=#F39000FF>ATK</color> Karakter tersebut <color=#F39000FF>meningkat 10%</color> selama 10 detik. Efek ini dapat ditumpuk hingga 3 lapis dan durasi setiap lapis dihitung terpisah. Saat HP Karakter berkurang, <color=#F39000FF>Elemental Mastery</color> Karakter tersebut <color=#F39000FF>meningkat 40 poin</color> selama 10 detik. Efek ini dapat ditumpuk hingga 3 lapis dan durasi setiap lapis dihitung terpisah. Kedua efek di atas dapat aktif secara bersamaan dan durasinya akan dihitung terpisah."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 78,
+    "FloorIds": [
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "Open": "2023-09-16T04:00:00+08:00",
+    "Close": "2023-10-01T03:59:59+08:00",
+    "BuffName": "Gyrating Moon",
+    "Descriptions": [
+      "Saat HP Karakter dipulihkan atau berkurang, Karakter tersebut akan mendapatkan <color=#F39000FF>40% Elemental DMG Bonus dari semua elemen dan Physical DMG Bonus</color> selama 3 detik."
+    ],
+    "Icon": "UI_TowerBlessing_69"
   }
 ]

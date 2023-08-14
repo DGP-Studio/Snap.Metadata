@@ -1,69 +1,5 @@
 [
   {
-    "Id": 73,
-    "FloorIds": [
-      1044,
-      1045,
-      1060,
-      1061
-    ],
-    "Open": "2023-07-01T04:00:00+08:00",
-    "Close": "2023-07-16T03:59:59+08:00",
-    "BuffName": "Lune svelte",
-    "Descriptions": [
-      "Lorsque l'attaque normale d'un personnage a touché un ennemi, la RÉS physique ou élémentaire (selon le type d'attaque) de ce dernier <color=#F39000FF>diminue de 6 %</color> pendant 2 s. Cet effet peut être cumulé <color=#F39000FF>6</color> fois maximum. Les diminutions de RÉS de différents types déclenchées de cette manière peuvent coexister, et leurs cumuls et temps restants sont indépendants les uns des autres."
-    ],
-    "Icon": "UI_TowerBlessing_67"
-  },
-  {
-    "Id": 74,
-    "FloorIds": [
-      1044,
-      1045,
-      1062,
-      1063
-    ],
-    "Open": "2023-07-16T04:00:00+08:00",
-    "Close": "2023-08-01T03:59:59+08:00",
-    "BuffName": "Lune fugace",
-    "Descriptions": [
-      "Pendant 10 s après qu'un personnage est déployé au combat, <color=#F39000FF>les DGT infligés par ses attaques normales, chargées et plongeantes augmentent de 30 % et sa VIT d'attaque de 10 %</color>. Cet effet est annulé lorsque le personnage quitte le champ de bataille."
-    ],
-    "Icon": "UI_TowerBlessing_68"
-  },
-  {
-    "Id": 75,
-    "FloorIds": [
-      1044,
-      1045,
-      1062,
-      1063
-    ],
-    "Open": "2023-08-01T04:00:00+08:00",
-    "Close": "2023-08-16T03:59:59+08:00",
-    "BuffName": "Lune changeante",
-    "Descriptions": [
-      "Lorsqu'un personnage perd ou récupère des PV, tous les personnages de l'équipe voient <color=#F39000FF>leur ATQ augmenter de 7,5 %</color> pendant 10 s. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 4 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
-    ],
-    "Icon": "UI_TowerBlessing_69"
-  },
-  {
-    "Id": 76,
-    "FloorIds": [
-      1044,
-      1045,
-      1062,
-      1063
-    ],
-    "Open": "2023-08-16T04:00:00+08:00",
-    "Close": "2023-09-01T03:59:59+08:00",
-    "BuffName": "Lune entrante",
-    "Descriptions": [
-      "Lorsque le personnage déployé inflige consécutivement des DGT du même type élémentaire ou des DGT physiques à un ennemi en utilisant des attaques normales, chargées ou plongeantes, il obtient un cumul. Un cumul peut être obtenu une fois toutes les 0,3 s. Les cumuls de chaque type (incluant également les DGT de type physique) existent indépendamment les uns des autres. Avec 6 cumuls, <color=#F39000FF>une onde de choc est libérée</color> à l'emplacement de l'ennemi, infligeant des DGT réels et consommant tous les cumuls correspondant au type des DGT. Si le personnage quitte le champ de bataille, tous les cumuls sont enlevés."
-    ],
-    "Icon": "UI_TowerBlessing_70"
-  },
-  {
     "Id": 1,
     "FloorIds": [
       1009,
@@ -1225,5 +1161,101 @@
       "Lorsque l'attaque normale du personnage déployé a touché un ennemi, les DGT infligés par ce personnage augmentent de <color=#F39000FF>12 %</color> pendant 2 s. Cet effet peut être cumulé <color=#F39000FF>5</color> fois maximum, la durée de chaque cumul étant calculée de façon indépendante, et il peut être déclenché une fois toutes les 0,05 s. L'effet est annulé lorsque le personnage quitte le champ de bataille."
     ],
     "Icon": "UI_TowerBlessing_40"
+  },
+  {
+    "Id": 73,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-07-01T04:00:00+08:00",
+    "Close": "2023-07-16T03:59:59+08:00",
+    "BuffName": "Lune svelte",
+    "Descriptions": [
+      "Lorsque l'attaque normale d'un personnage a touché un ennemi, la RÉS physique ou élémentaire (selon le type d'attaque) de ce dernier <color=#F39000FF>diminue de 6 %</color> pendant 2 s. Cet effet peut être cumulé <color=#F39000FF>6</color> fois maximum. Les diminutions de RÉS de différents types déclenchées de cette manière peuvent coexister, et leurs cumuls et temps restants sont indépendants les uns des autres."
+    ],
+    "Icon": "UI_TowerBlessing_67"
+  },
+  {
+    "Id": 74,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-07-16T04:00:00+08:00",
+    "Close": "2023-08-01T03:59:59+08:00",
+    "BuffName": "Lune fugace",
+    "Descriptions": [
+      "Pendant 10 s après qu'un personnage est déployé au combat, <color=#F39000FF>les DGT infligés par ses attaques normales, chargées et plongeantes augmentent de 30 % et sa VIT d'attaque de 10 %</color>. Cet effet est annulé lorsque le personnage quitte le champ de bataille."
+    ],
+    "Icon": "UI_TowerBlessing_68"
+  },
+  {
+    "Id": 75,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-01T04:00:00+08:00",
+    "Close": "2023-08-16T03:59:59+08:00",
+    "BuffName": "Lune changeante",
+    "Descriptions": [
+      "Lorsqu'un personnage perd ou récupère des PV, tous les personnages de l'équipe voient <color=#F39000FF>leur ATQ augmenter de 7,5 %</color> pendant 10 s. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 4 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 76,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-16T04:00:00+08:00",
+    "Close": "2023-09-01T03:59:59+08:00",
+    "BuffName": "Lune entrante",
+    "Descriptions": [
+      "Lorsque le personnage déployé inflige consécutivement des DGT du même type élémentaire ou des DGT physiques à un ennemi en utilisant des attaques normales, chargées ou plongeantes, il obtient un cumul. Un cumul peut être obtenu une fois toutes les 0,3 s. Les cumuls de chaque type (incluant également les DGT de type physique) existent indépendamment les uns des autres. Avec 6 cumuls, <color=#F39000FF>une onde de choc est libérée</color> à l'emplacement de l'ennemi, infligeant des DGT réels et consommant tous les cumuls correspondant au type des DGT. Si le personnage quitte le champ de bataille, tous les cumuls sont enlevés."
+    ],
+    "Icon": "UI_TowerBlessing_70"
+  },
+  {
+    "Id": 77,
+    "FloorIds": [
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "Open": "2023-09-01T04:00:00+08:00",
+    "Close": "2023-09-16T03:59:59+08:00",
+    "BuffName": "Lune vive",
+    "Descriptions": [
+      "#Lorsqu'un personnage récupère des PV, son <color=#F39000FF>ATQ augmente de 10{NON_BREAK_SPACE}%</color> pendant 10 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Lorsqu'un personnage perd des PV, sa <color=#F39000FF>maîtrise élémentaire augmente de 40 pts</color> pendant 10 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Les effets déclenchés en récupérant ou perdant des PV sont indépendants, et ont chacun une durée propre."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 78,
+    "FloorIds": [
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "Open": "2023-09-16T04:00:00+08:00",
+    "Close": "2023-10-01T03:59:59+08:00",
+    "BuffName": "Lune giratoire",
+    "Descriptions": [
+      "Lorsqu'un personnage récupère ou perd des PV, il bénéficie d'un bonus de <color=#F39000FF>DGT élémentaires et physiques de 40 %</color> pendant 3 s."
+    ],
+    "Icon": "UI_TowerBlessing_69"
   }
 ]

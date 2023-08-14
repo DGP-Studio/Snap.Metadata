@@ -1,69 +1,5 @@
 [
   {
-    "Id": 73,
-    "FloorIds": [
-      1044,
-      1045,
-      1060,
-      1061
-    ],
-    "Open": "2023-07-01T04:00:00+08:00",
-    "Close": "2023-07-16T03:59:59+08:00",
-    "BuffName": "Lua Graciosa",
-    "Descriptions": [
-      "Quando o Ataque Normal do personagem atinge um inimigo, dependendo se infligiu Dano Físico ou Elemental, <color=#F39000FF>reduzirá essa RES do inimigo em 6%</color> por 2s, podendo acumular até <color=#F39000FF>6</color> vezes. Reduções de RES de tipos diferentes criadas dessa forma podem existir simultaneamente e terão suas durações contadas separadamente."
-    ],
-    "Icon": "UI_TowerBlessing_67"
-  },
-  {
-    "Id": 74,
-    "FloorIds": [
-      1044,
-      1045,
-      1062,
-      1063
-    ],
-    "Open": "2023-07-16T04:00:00+08:00",
-    "Close": "2023-08-01T03:59:59+08:00",
-    "BuffName": "Lua Fugaz",
-    "Descriptions": [
-      "Nos 10s depois do personagem entrar no campo de batalha, <color=#F39000FF>aumenta o Dano causado pelo Ataque Normal, Carregado e Imersivo dele em 30%, e aumenta a Vel. de ATQ em 10%</color>. Quando o personagem sair do campo de batalha, esse efeito será removido."
-    ],
-    "Icon": "UI_TowerBlessing_68"
-  },
-  {
-    "Id": 75,
-    "FloorIds": [
-      1044,
-      1045,
-      1062,
-      1063
-    ],
-    "Open": "2023-08-01T04:00:00+08:00",
-    "Close": "2023-08-16T03:59:59+08:00",
-    "BuffName": "Lua Oscilante",
-    "Descriptions": [
-      "Quando o personagem perde ou regenera Vida, <color=#F39000FF>Aumenta o ATQ em 7.5%</color> de todos os membros da equipe por 10s. Esse efeito pode ser desencadeado uma vez a cada 0.1s e pode acumular até 4 vezes. Cada acúmulo é contado independentemente."
-    ],
-    "Icon": "UI_TowerBlessing_69"
-  },
-  {
-    "Id": 76,
-    "FloorIds": [
-      1044,
-      1045,
-      1062,
-      1063
-    ],
-    "Open": "2023-08-16T04:00:00+08:00",
-    "Close": "2023-09-01T03:59:59+08:00",
-    "BuffName": "Lua Vindoura",
-    "Descriptions": [
-      "Quando o personagem ativo no campo de batalha causa Dano Elemental ou Dano Físico contra o inimigo consecutivamente com Ataques Normais, Carregados ou Imersivos, obterá um acúmulo a cada 0.3s. Os acúmulos de Tipo Elemental e Dano Físico são contados separadamente. Quando acumular 6 vezes, <color=#F39000FF>lançará uma onda de choque</color> na localização do inimigo, causando Dano Real e removendo os acúmulos do tipo de Dano. Quando o personagem sair do campo de batalha, removerá todos os acúmulos."
-    ],
-    "Icon": "UI_TowerBlessing_70"
-  },
-  {
     "Id": 1,
     "FloorIds": [
       1009,
@@ -1225,5 +1161,101 @@
       "Quando o Ataque Normal do personagem ativo atinge um inimigo, aumenta o Dano causado por esse personagem em <color=#F39000FF>12%</color> por 2s. Esse efeito pode ser acumulado até <color=#F39000FF>5</color> vezes, com cada acúmulo sendo contado independentemente e podendo ser desencadeado uma vez a cada 0.05s. Quando o personagem sair do campo de batalha, esse efeito será removido."
     ],
     "Icon": "UI_TowerBlessing_40"
+  },
+  {
+    "Id": 73,
+    "FloorIds": [
+      1044,
+      1045,
+      1060,
+      1061
+    ],
+    "Open": "2023-07-01T04:00:00+08:00",
+    "Close": "2023-07-16T03:59:59+08:00",
+    "BuffName": "Lua Graciosa",
+    "Descriptions": [
+      "Quando o Ataque Normal do personagem atinge um inimigo, dependendo se infligiu Dano Físico ou Elemental, <color=#F39000FF>reduzirá essa RES do inimigo em 6%</color> por 2s, podendo acumular até <color=#F39000FF>6</color> vezes. Reduções de RES de tipos diferentes criadas dessa forma podem existir simultaneamente e terão suas durações contadas separadamente."
+    ],
+    "Icon": "UI_TowerBlessing_67"
+  },
+  {
+    "Id": 74,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-07-16T04:00:00+08:00",
+    "Close": "2023-08-01T03:59:59+08:00",
+    "BuffName": "Lua Fugaz",
+    "Descriptions": [
+      "Nos 10s depois do personagem entrar no campo de batalha, <color=#F39000FF>aumenta o Dano causado pelo Ataque Normal, Carregado e Imersivo dele em 30%, e aumenta a Vel. de ATQ em 10%</color>. Quando o personagem sair do campo de batalha, esse efeito será removido."
+    ],
+    "Icon": "UI_TowerBlessing_68"
+  },
+  {
+    "Id": 75,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-01T04:00:00+08:00",
+    "Close": "2023-08-16T03:59:59+08:00",
+    "BuffName": "Lua Oscilante",
+    "Descriptions": [
+      "Quando o personagem perde ou regenera Vida, <color=#F39000FF>Aumenta o ATQ em 7.5%</color> de todos os membros da equipe por 10s. Esse efeito pode ser desencadeado uma vez a cada 0.1s e pode acumular até 4 vezes. Cada acúmulo é contado independentemente."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 76,
+    "FloorIds": [
+      1044,
+      1045,
+      1062,
+      1063
+    ],
+    "Open": "2023-08-16T04:00:00+08:00",
+    "Close": "2023-09-01T03:59:59+08:00",
+    "BuffName": "Lua Vindoura",
+    "Descriptions": [
+      "Quando o personagem ativo no campo de batalha causa Dano Elemental ou Dano Físico contra o inimigo consecutivamente com Ataques Normais, Carregados ou Imersivos, obterá um acúmulo a cada 0.3s. Os acúmulos de Tipo Elemental e Dano Físico são contados separadamente. Quando acumular 6 vezes, <color=#F39000FF>lançará uma onda de choque</color> na localização do inimigo, causando Dano Real e removendo os acúmulos do tipo de Dano. Quando o personagem sair do campo de batalha, removerá todos os acúmulos."
+    ],
+    "Icon": "UI_TowerBlessing_70"
+  },
+  {
+    "Id": 77,
+    "FloorIds": [
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "Open": "2023-09-01T04:00:00+08:00",
+    "Close": "2023-09-16T03:59:59+08:00",
+    "BuffName": "Lua do Despertar",
+    "Descriptions": [
+      "Quando um personagem recupera Vida, esse personagem <color=#F39000FF>tem um aumento de 10% de ATQ</color> por 10s, acumulando até 3 vezes. A duração de cada acúmulo é contada de forma independente. Quando o personagem perde Vida, <color=#F39000FF>aumenta a Proficiência Elemental dele em 40</color> por 10s, podendo ser acumulado até 3 vezes. A duração de cada acúmulo é contada de forma independente. Os efeitos de recuperação e perda de Vida são independentes entre si, com suas durações contadas independentes umas das outras."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 78,
+    "FloorIds": [
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "Open": "2023-09-16T04:00:00+08:00",
+    "Close": "2023-10-01T03:59:59+08:00",
+    "BuffName": "Lua Rodopiante",
+    "Descriptions": [
+      "Quando um personagem recupera ou perde Vida, esse personagem obtém bônus de <color=#F39000FF>40% de Dano de todos os elementos e Dano Físico</color> por 3s."
+    ],
+    "Icon": "UI_TowerBlessing_69"
   }
 ]
