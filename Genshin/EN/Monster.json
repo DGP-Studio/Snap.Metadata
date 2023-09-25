@@ -1449,7 +1449,7 @@
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
-    "Name": "Local Legend: Tainted Water-Splitting Phantasm",
+    "Name": "Veteran Tainted Water-Splitting Phantasm",
     "Title": "Tainted Water-Splitting Phantasm",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 0,
@@ -1459,7 +1459,7 @@
     "Id": 0,
     "DescribeId": 515,
     "RelationshipId": 515,
-    "Name": "Local Legend: Tainted Water-Spouting Phantasm",
+    "Name": "Veteran Tainted Water-Spouting Phantasm",
     "Title": "Tainted Water-Spouting Phantasm",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
     "Type": 0,
@@ -4879,6 +4879,130 @@
     ]
   },
   {
+    "Id": 23060101,
+    "DescribeId": 30601,
+    "RelationshipId": 30601,
+    "MonsterName": "Fatuus_Escadron_Ice_01",
+    "Name": "Frost Operative",
+    "Title": "Rimesword Servant",
+    "Description": "An elite agent among the Fatui.\nSelected while still children, they can only become an \"Operative\" after many long years of training and teaching, after countless rounds have winnowed the field. They are the most outstanding soldiers among the Fatui, with extraordinary skill and unswerving loyalty.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23060201,
+    "DescribeId": 30602,
+    "RelationshipId": 30602,
+    "MonsterName": "Fatuus_Escadron_Wind_01",
+    "Name": "Wind Operative",
+    "Title": "Gale-Lily Servant",
+    "Description": "An elite agent among the Fatui.\n\"Operatives\" have no ordinary military rank among the Fatui. Based on their orders and the content of their missions, they can work in concert with other soldiers, work alone, or in tandem with the \"tacks\" hidden and scattered across the world. They spy, conduct counter-espionage, protect, assassinate, and conduct other tasks. In order to effectively carry out missions of a more special nature, \"Operatives\" also need to master all kinds of other skills and even various arts and talents.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30603,
+    "RelationshipId": 30603,
+    "Name": "Veteran Frost Operative",
+    "Title": "Rimesword Servant",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30604,
+    "RelationshipId": 30604,
+    "Name": "Veteran Wind Operative",
+    "Title": "Gale-Lily Servant",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 24010101,
     "DescribeId": 40101,
     "RelationshipId": 40101,
@@ -6087,6 +6211,69 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40606,
+    "RelationshipId": 40606,
+    "Name": "Deepwater Assault Mek: Ousia",
+    "Title": "Deepwater Assault Mek",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40656,
+    "RelationshipId": 40656,
+    "Name": "Deepwater Assault Mek: Pneuma",
+    "Title": "Deepwater Assault Mek",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 24068601,
+    "DescribeId": 40686,
+    "RelationshipId": 40686,
+    "MonsterName": "MachinaIustitia_Frigate_Codex",
+    "Name": "Deepwater Assault Mek",
+    "Title": "Deepwater Assault Mek",
+    "Description": "A clockwork meka designed to conducting underwater attacks. Unlike \"Underwater Patrol Mek\" models, it is expected to take on much larger and fiercer opponents. Of course, the price it pays for such capabilities and its cost of manufacture is that is unable to fully unleash its capabilities against smaller opponents.\nLong ago, Fontaine was once scarred by the tragic invasion of a massive monster. The revered White Armada that sailed upon the great terrestrial lake was completely destroyed in defense of the nation. The designer hoped that were such a thing to happen again, the clockwork meka would possess enough naval firepower to be the first line of defense, going before the soldiers and generals.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 1,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "BaseValue": {
+      "HpBase": 64.9378,
+      "AttackBase": 60,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 25
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
     "DescribeId": 40607,
     "RelationshipId": 40607,
     "Name": "Nimble Harvester Mek - Ousia",
@@ -6471,6 +6658,16 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40613,
+    "RelationshipId": 40613,
+    "Name": "Veteran Arithmetic Enhancer Mek",
+    "Title": "Arithmetic Enhancer Mek",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
     "Name": "Icewind Suite: Nemesis of Coppelius",
@@ -6518,6 +6715,68 @@
       "WindSubHurt": 0.7,
       "IceSubHurt": 0.7,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24080101,
+    "DescribeId": 40801,
+    "RelationshipId": 40801,
+    "MonsterName": "Monster_MachinaIustitia_Gravitas_01",
+    "Name": "Experimental Field Generator",
+    "Title": "Experimental Field Generator",
+    "Description": "A large device designed by the late Edwin Eastinghouse. It has the ability to \"counteract\" the effects of gravity. According to the original design intentions, this was the first step in a plan to turn Fontaine into a city in the sky, so never again would the people have to worry about the waves that once swept over the land. Even if all seven nations were to be swallowed by the deeps, the elegant Court of Fontaine would float above it all, just like Celestia. Even the secrets of the universe would no longer seem so distant.\nThe Arkhium in the device's core has the characteristics of \"splitting\" or \"precipitation,\" and can take matter, or certain things outside of matter, and separate them. It is said that this process can be reversed, but the Fontaine Research Institute is infatuated only with the physical effects it can produce.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "Type": 2,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104171,
+      104172,
+      104173,
+      104174,
+      113052,
+      400032,
+      400042,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 213.2688,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -10106,6 +10365,103 @@
     ]
   },
   {
+    "Id": 26120401,
+    "DescribeId": 61204,
+    "RelationshipId": 61204,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Name": "Grounded Geoshroom",
+    "Title": "Grounded Geoshroom",
+    "Description": "A mimetic life form made out of spores that has extreme adaptability.\nThis being has undergone almost complete keratinization due to the influence of Geo. When one considers that Fungi evolved from spores, perhaps this one might even be the foundation for a further evolution into some new life form altogether — if given time, that is.\nThis creature has a position of command amongst colonies of fungal beasts and exhibits heightened intelligence to match.",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26130101,
+    "DescribeId": 61301,
+    "RelationshipId": 61301,
+    "MonsterName": "Sandworm",
+    "Name": "Setekh Wenut",
+    "Title": "Setekh Wenut",
+    "Description": "An eyeless predator that dwells within the depths of the desert and uses sound and vibrations to seek out its prey.\nLegend has it that in the ancient past before even the concept of time was created, these creatures thrived with their progenitors and offspring in a land of verdant grass and colossal trees, traversing through slick soil like fishes diving through the wet.\nWith the passage of eons, the gifts of heaven have long reduced the soils to sand, rendering a great many creatures extinct. This branch of their genus was able to survive by adapting more toward earth-based living, and became known as the \"Wenut.\"\nSome desert folk still mistakenly believe that Wenut is the final point of a quicksand eel's life cycle, likely due to superficial similarities between the species' behaviors.",
+    "Icon": "UI_MonsterIcon_Sandworm",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104151,
+      104152,
+      104153,
+      104154,
+      113044,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 190.176,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.6,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -10919,6 +11275,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61624,
+    "RelationshipId": 61624,
+    "Name": "Local Legend: Cherubic Sea Hare",
+    "Title": "Cherubic Sea Hare",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -10964,86 +11330,49 @@
     ]
   },
   {
-    "Id": 26120401,
-    "DescribeId": 61204,
-    "RelationshipId": 61204,
-    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
-    "Name": "Grounded Geoshroom",
-    "Title": "Grounded Geoshroom",
-    "Description": "A mimetic life form made out of spores that has extreme adaptability.\nThis being has undergone almost complete keratinization due to the influence of Geo. When one considers that Fungi evolved from spores, perhaps this one might even be the foundation for a further evolution into some new life form altogether — if given time, that is.\nThis creature has a position of command amongst colonies of fungal beasts and exhibits heightened intelligence to match.",
-    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 38.0352,
-      "AttackBase": 30.144,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.3,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.3,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26130101,
-    "DescribeId": 61301,
-    "RelationshipId": 61301,
-    "MonsterName": "Sandworm",
-    "Name": "Setekh Wenut",
-    "Title": "Setekh Wenut",
-    "Description": "An eyeless predator that dwells within the depths of the desert and uses sound and vibrations to seek out its prey.\nLegend has it that in the ancient past before even the concept of time was created, these creatures thrived with their progenitors and offspring in a land of verdant grass and colossal trees, traversing through slick soil like fishes diving through the wet.\nWith the passage of eons, the gifts of heaven have long reduced the soils to sand, rendering a great many creatures extinct. This branch of their genus was able to survive by adapting more toward earth-based living, and became known as the \"Wenut.\"\nSome desert folk still mistakenly believe that Wenut is the final point of a quicksand eel's life cycle, likely due to superficial similarities between the species' behaviors.",
-    "Icon": "UI_MonsterIcon_Sandworm",
+    "Id": 26180101,
+    "DescribeId": 61801,
+    "RelationshipId": 61801,
+    "MonsterName": "SeaHorse_Primo_Electric_01",
+    "Name": "Millennial Pearl Seahorse",
+    "Title": "Millennial Pearl Seahorse",
+    "Description": "One of the two sovereigns standing at the apex of the Fontemer Aberrants.\nPoets and authors often proclaim it to be proud and noble due to its solitary tendencies, but the true reason behind such adulatory descriptions is its elegant and slender body. As such, it is a \"Pearl Seahorse,\" while the suzerain of the Armored Crabs is an \"Emperor.\"\nIn the legends and rumors of Fontaine, a brutal war was once waged among the Aberrants of the Fontemer, leaving only the \"Millennial Pearl Seahorse\" and \"Emperor of Fire and Iron\" splitting the great lake into two courts, one ruling over the north, the other the south. In the \"Song of Dobharcu,\" the writer describes the outcome of the war: the great Hunter's Ray known as the Stormlord stirred huge waves in its death throes, causing what is now known by the people as the \"first diluvian period\"...\nOf course, all of this is nothing more than the romantic imaginations of people who are unwilling to accept the bland realities of the world. For the Fontemer Aberrants are in fact just simple aquatic animals, and they have no grand courts nor fallen kingdoms, nor do they possess words meant to exalt or curse.",
+    "Icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
     "Type": 2,
     "Arkhe": 0,
     "Drops": [
       102,
       202,
       105,
-      104151,
-      104152,
-      104153,
-      104154,
-      113044,
-      400022,
+      104141,
+      104142,
+      104143,
+      104144,
+      113053,
       400032,
-      400052,
+      400042,
+      400137,
+      400062,
       400088,
       400098,
-      400023,
       400033,
+      400043,
+      400138,
       400089,
       400099
     ],
     "BaseValue": {
-      "HpBase": 190.176,
-      "AttackBase": 75.36,
+      "HpBase": 149.424,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
-      "FireSubHurt": 0.25,
-      "GrassSubHurt": 0.25,
-      "WaterSubHurt": 0.25,
-      "ElecSubHurt": 0.25,
-      "WindSubHurt": 0.6,
-      "IceSubHurt": 0.25,
-      "RockSubHurt": 0.25,
-      "PhysicalSubHurt": 0.25
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.6,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {

@@ -1449,7 +1449,7 @@
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
-    "Name": "Huyền Thoại Địa Phương - Ảo Linh Nước Đục Phân Tách",
+    "Name": "Ảo Linh Nước Đục Phân Tách Bách Chiến",
     "Title": "Ảo Linh Nước Đục Phân Tách",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 0,
@@ -1459,7 +1459,7 @@
     "Id": 0,
     "DescribeId": 515,
     "RelationshipId": 515,
-    "Name": "Huyền Thoại Địa Phương - Ảo Linh Nước Đục Phun Trào",
+    "Name": "Ảo Linh Nước Đục Phun Trào Bách Chiến",
     "Title": "Ảo Linh Nước Đục Phun Trào",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
     "Type": 0,
@@ -4879,6 +4879,130 @@
     ]
   },
   {
+    "Id": 23060101,
+    "DescribeId": 30601,
+    "RelationshipId": 30601,
+    "MonsterName": "Fatuus_Escadron_Ice_01",
+    "Name": "Fatui - Đặc Vụ Băng",
+    "Title": "Đặc Vụ - Thanh Kiếm Sương Giá",
+    "Description": "Đặc vụ tinh nhuệ của Fatui.\nNgười đã được lựa chọn từ nhỏ, qua thời gian dài được dạy dỗ và huấn luyện, trải qua vô số lần đào thải mới có thể trở thành \"Đặc Vụ\". Là binh sĩ ưu tú nhất trong hàng ngũ Fatui, có thân thủ xuất sắc và lòng trung thành tuyệt đối.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23060201,
+    "DescribeId": 30602,
+    "RelationshipId": 30602,
+    "MonsterName": "Fatuus_Escadron_Wind_01",
+    "Name": "Fatui - Đặc Vụ Gió",
+    "Title": "Đặc Vụ - Linh Lan Gió Lốc",
+    "Description": "Đặc vụ tinh nhuệ của Fatui.\nLà người không có trong biên chế thường quy của Fatui. Căn cứ theo nội dung nhiệm vụ và mệnh lệnh mà họ vừa có thể cùng tiến lui với binh lính, cũng có thể độc lập hoặc cùng với thành viên mai phục ở các nơi tiến hành các công việc như gián điệp, chống trinh sát, bảo vệ, xóa sạch dấu tích. Vì những nhiệm vụ rất đặc thù, nên đặc vụ thường phải nắm vững nhiều loại kỹ năng, và thậm chí là tài nghệ.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30603,
+    "RelationshipId": 30603,
+    "Name": "Fatui Bách Chiến - Đặc Vụ Băng",
+    "Title": "Đặc Vụ - Thanh Kiếm Sương Giá",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30604,
+    "RelationshipId": 30604,
+    "Name": "Fatui Bách Chiến - Đặc Vụ Gió",
+    "Title": "Đặc Vụ - Linh Lan Gió Lốc",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 24010101,
     "DescribeId": 40101,
     "RelationshipId": 40101,
@@ -6087,6 +6211,69 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40606,
+    "RelationshipId": 40606,
+    "Name": "Robot Tiến Công Đáy Biển - Ousia",
+    "Title": "Robot Tiến Công Đáy Biển",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40656,
+    "RelationshipId": 40656,
+    "Name": "Robot Tiến Công Đáy Biển - Pneuma",
+    "Title": "Robot Tiến Công Đáy Biển",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 24068601,
+    "DescribeId": 40686,
+    "RelationshipId": 40686,
+    "MonsterName": "MachinaIustitia_Frigate_Codex",
+    "Name": "Robot Tiến Công Đáy Biển",
+    "Title": "Robot Tiến Công Đáy Biển",
+    "Description": "Robot Dây Cót với mục đích thiết kế là tiến hành tấn công dưới nước. Khác với \"Robot Tuần Tra Đáy Biển\" ở chỗ kẻ địch của nó theo dự kiến sẽ lớn và hung hãn hơn. Đương nhiên, cái giá phải đánh đổi là khi đối diện với kẻ địch cỡ nhỏ sẽ không thể phát huy hoàn toàn uy lực.\nTrong quá khứ, Fontaine từng gặp phải bi kịch ma thú khổng lồ xâm nhập, đội chiến hạm thiết giáp trắng được kính ngưỡng tại hồ nước lớn trên lục địa đã bị nhấn chìm vì bảo vệ nước nhà. Người thiết kế hy vọng rằng nếu như chuyện tương tự lại xảy ra lần nữa, chí ít có thể dùng Robot Dây Cót với khả năng tấn công dưới nước mạnh mẽ làm tuyến phòng ngự đầu tiên trước tướng quân và binh sĩ.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 1,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "BaseValue": {
+      "HpBase": 64.9378,
+      "AttackBase": 60,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 25
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
     "DescribeId": 40607,
     "RelationshipId": 40607,
     "Name": "Robot Thu Hoạch Nhanh Nhẹn - Ousia",
@@ -6471,6 +6658,16 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40613,
+    "RelationshipId": 40613,
+    "Name": "Robot Số Học Cải Tiến Bách Chiến",
+    "Title": "Robot Số Học Cải Tiến",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
     "Name": "Liên Khúc Gió Băng - Quả Báo Của Coppelius",
@@ -6518,6 +6715,68 @@
       "WindSubHurt": 0.7,
       "IceSubHurt": 0.7,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24080101,
+    "DescribeId": 40801,
+    "RelationshipId": 40801,
+    "MonsterName": "Monster_MachinaIustitia_Gravitas_01",
+    "Name": "Máy Tạo Trường Lực Thí Nghiệm",
+    "Title": "Máy Tạo Trường Lực Thí Nghiệm",
+    "Description": "Cỗ máy cỡ lớn do Edwin Eastinghouse thiết kế lúc sinh thời. Theo dụng ý thiết kế ban đầu, sẽ có hiệu quả \"giảm bớt\" trọng lực. Theo thiết kế ban đầu, đây sẽ là bước đi đầu tiên để xây dựng Fontaine trở thành vương đô trên không. Từ đây về sau không còn ai phải lo lắng về cơn đại hồng thủy từng quét qua mặt đất như ngày xưa nữa. Dù cho bảy quốc gia đều bị nhấn chìm vào biển sâu, thì Đại Sảnh Fontaine xinh đẹp vẫn sẽ lơ lửng trên không giống như Đảo Thiên Không. Ngay cả bí mật của vũ trụ cũng không còn quá xa xôi nữa.\nPhần lõi Arkhium của cỗ máy có đặc tính \"phân tách\" hoặc \"kết tủa\", có thể phân tách vật chất hoặc thứ gì đó khác ngoài vật chất. Tương truyền đặc tính này cũng có thể đảo ngược, nhưng Viện Khoa Học Fontaine chỉ chìm đắm trong hiệu quả vật lý mà nó sản sinh ra.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "Type": 2,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104171,
+      104172,
+      104173,
+      104174,
+      113052,
+      400032,
+      400042,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 213.2688,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -10106,6 +10365,103 @@
     ]
   },
   {
+    "Id": 26120401,
+    "DescribeId": 61204,
+    "RelationshipId": 61204,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Name": "Nấm Quỷ Đi Bộ - Nham",
+    "Title": "Nấm Quỷ Đi Bộ - Nham",
+    "Description": "Sinh vật mô phỏng được cấu thành từ bào tử, có khả năng thích nghi hoàn cảnh rất tốt.\nCác phần của mô dường như đã hoàn toàn bị sừng hóa dưới tác động của nguyên tố Nham. Xét thấy nấm ban đầu được tiến hóa từ bào tử, theo thời gian, có thể phát triển một dạng mới khác dựa trên cơ sở này.\nCó địa vị cao trong quần thể Nấm Quỷ, cho thấy nó sở hữu trí tuệ khá cao.",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26130101,
+    "DescribeId": 61301,
+    "RelationshipId": 61301,
+    "MonsterName": "Sandworm",
+    "Name": "Setekh Wenut",
+    "Title": "Setekh Wenut",
+    "Description": "Một loài săn mồi không mắt sống ở nơi sâu thẳm trong sa mạc, theo dõi con mồi bằng âm thanh và rung động truyền từ mặt đất.\nTương truyền rằng trong quá khứ trước khi thời gian bắt đầu, vùng đất mà chúng cai trị phủ đầy cỏ xanh và đại thụ, còn tổ tiên và đời sau của chúng đều len lỏi trong những vùng đất ẩm ướt, tựa như cá gặp nước vậy.\nNhiều kỷ nguyên sau đó, ân huệ trời ban khiến cho bùn đất hóa thành sỏi cát. Nhiều sinh mạng mất đi, nhiều vật chủng biến mất, còn chủng tộc sống dựa vào bùn đất đã trở thành \"Wenut\".\nCó lẽ vì tập tính sinh vật có điểm chung, nên dường như cư dân sa mạc đều hiểu lầm rằng \"Wenut\" là hình thái hoàn chỉnh của Lươn Sa Mạc sau khi trưởng thành.",
+    "Icon": "UI_MonsterIcon_Sandworm",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104151,
+      104152,
+      104153,
+      104154,
+      113044,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 190.176,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.6,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -10919,6 +11275,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61624,
+    "RelationshipId": 61624,
+    "Name": "Huyền Thoại Địa Phương - Thỏ Biển Đại Thiên Sứ",
+    "Title": "Thỏ Biển Đại Thiên Sứ",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -10964,86 +11330,49 @@
     ]
   },
   {
-    "Id": 26120401,
-    "DescribeId": 61204,
-    "RelationshipId": 61204,
-    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
-    "Name": "Nấm Quỷ Đi Bộ - Nham",
-    "Title": "Nấm Quỷ Đi Bộ - Nham",
-    "Description": "Sinh vật mô phỏng được cấu thành từ bào tử, có khả năng thích nghi hoàn cảnh rất tốt.\nCác phần của mô dường như đã hoàn toàn bị sừng hóa dưới tác động của nguyên tố Nham. Xét thấy nấm ban đầu được tiến hóa từ bào tử, theo thời gian, có thể phát triển một dạng mới khác dựa trên cơ sở này.\nCó địa vị cao trong quần thể Nấm Quỷ, cho thấy nó sở hữu trí tuệ khá cao.",
-    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 38.0352,
-      "AttackBase": 30.144,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.3,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.3,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26130101,
-    "DescribeId": 61301,
-    "RelationshipId": 61301,
-    "MonsterName": "Sandworm",
-    "Name": "Setekh Wenut",
-    "Title": "Setekh Wenut",
-    "Description": "Một loài săn mồi không mắt sống ở nơi sâu thẳm trong sa mạc, theo dõi con mồi bằng âm thanh và rung động truyền từ mặt đất.\nTương truyền rằng trong quá khứ trước khi thời gian bắt đầu, vùng đất mà chúng cai trị phủ đầy cỏ xanh và đại thụ, còn tổ tiên và đời sau của chúng đều len lỏi trong những vùng đất ẩm ướt, tựa như cá gặp nước vậy.\nNhiều kỷ nguyên sau đó, ân huệ trời ban khiến cho bùn đất hóa thành sỏi cát. Nhiều sinh mạng mất đi, nhiều vật chủng biến mất, còn chủng tộc sống dựa vào bùn đất đã trở thành \"Wenut\".\nCó lẽ vì tập tính sinh vật có điểm chung, nên dường như cư dân sa mạc đều hiểu lầm rằng \"Wenut\" là hình thái hoàn chỉnh của Lươn Sa Mạc sau khi trưởng thành.",
-    "Icon": "UI_MonsterIcon_Sandworm",
+    "Id": 26180101,
+    "DescribeId": 61801,
+    "RelationshipId": 61801,
+    "MonsterName": "SeaHorse_Primo_Electric_01",
+    "Name": "Cá Ngựa Ngọc Trai Ngàn Năm",
+    "Title": "Cá Ngựa Ngọc Trai Ngàn Năm",
+    "Description": "Một trong hai bá chủ đứng đầu trong loài Dị Chủng Biển Sâu.\nNhà thơ và tác giả thường vì cách độc hành của nó mà bảo rằng nó kiêu ngạo và cao quý, nhưng có thể trở thành đối tượng miêu tả thế này suy cho cùng là vì thân hình thon dài xinh đẹp của nó. Cũng vì vậy mà nó là \"Cá Ngựa Ngọc Trai\", còn vua của Cua Giáp Nặng là \"Hoàng Đế\".\nTrong các giai thoại truyền kỳ ở Fontaine, trong loài Dị Chủng Biển Sâu từng xảy ra một cuộc chiến tranh vô cùng khốc liệt, chỉ còn lại \"Cá Ngựa Ngọc Trai Ngàn Năm\" và \"Hoàng Đế Thép Lửa\" chia ra ở hai đầu nam bắc đối kháng lẫn nhau. Trong \"Bài Ca Của Dobharcu\", tác giả từng mô tả kết cục của chiến tranh: Cá Đuối Sát Thủ khổng lồ được xưng là Vua Bão Táp trước khi chết đã dấy lên cơn sóng dữ, dẫn đến việc mà mọi người gọi là \"kỳ nước dâng lần một\"...\nTất cả đương nhiên chỉ là sự tưởng tượng của con người, vì họ không muốn làm quen với cuộc sống hiện thực không chút mơ mộng nào. Dị Chủng Biển Sâu suy cho cùng cũng chỉ là động vật thủy sinh mà thôi, vừa không có cung đình lộng lẫy hoặc đổ nát, cũng không có lời lẽ kiêu ngạo hoặc độc ác.",
+    "Icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
     "Type": 2,
     "Arkhe": 0,
     "Drops": [
       102,
       202,
       105,
-      104151,
-      104152,
-      104153,
-      104154,
-      113044,
-      400022,
+      104141,
+      104142,
+      104143,
+      104144,
+      113053,
       400032,
-      400052,
+      400042,
+      400137,
+      400062,
       400088,
       400098,
-      400023,
       400033,
+      400043,
+      400138,
       400089,
       400099
     ],
     "BaseValue": {
-      "HpBase": 190.176,
-      "AttackBase": 75.36,
+      "HpBase": 149.424,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
-      "FireSubHurt": 0.25,
-      "GrassSubHurt": 0.25,
-      "WaterSubHurt": 0.25,
-      "ElecSubHurt": 0.25,
-      "WindSubHurt": 0.6,
-      "IceSubHurt": 0.25,
-      "RockSubHurt": 0.25,
-      "PhysicalSubHurt": 0.25
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.6,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {

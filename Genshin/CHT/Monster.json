@@ -1449,7 +1449,7 @@
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
-    "Name": "地方傳奇·濁水粉碎幻靈",
+    "Name": "歷經百戰的濁水粉碎幻靈",
     "Title": "濁水粉碎幻靈",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 0,
@@ -1459,7 +1459,7 @@
     "Id": 0,
     "DescribeId": 515,
     "RelationshipId": 515,
-    "Name": "地方傳奇·濁水噴吐幻靈",
+    "Name": "歷經百戰的濁水噴吐幻靈",
     "Title": "濁水噴吐幻靈",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
     "Type": 0,
@@ -4879,6 +4879,130 @@
     ]
   },
   {
+    "Id": 23060101,
+    "DescribeId": 30601,
+    "RelationshipId": 30601,
+    "MonsterName": "Fatuus_Escadron_Ice_01",
+    "Name": "愚人眾·霜役人",
+    "Title": "役人·霜劍律從",
+    "Description": "愚人眾當中的精銳特務。\n自幼就被選中的人，經長久年月的教育與訓練，在無數次的汰換後才能成為所謂的「役人」。是愚人眾隊伍中最優秀的士兵，有著出色的身手與不渝的忠誠心。",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23060201,
+    "DescribeId": 30602,
+    "RelationshipId": 30602,
+    "MonsterName": "Fatuus_Escadron_Wind_01",
+    "Name": "愚人眾·風役人",
+    "Title": "役人·幽風鈴蘭",
+    "Description": "愚人眾當中的精銳特務。\n役人在愚人眾中並沒有常規的軍種編制。依據命令與任務的內容，她們既可以與士兵同進退，也能獨自或者與埋在各地的「釘子」一同進行諜報、反偵察、護衛、抹殺等工作。為了那些更為特殊的任務，役人往往也需要掌握各式各樣的技能乃至才藝。",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30603,
+    "RelationshipId": 30603,
+    "Name": "歷經百戰的愚人眾·霜役人",
+    "Title": "役人·霜劍律從",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30604,
+    "RelationshipId": 30604,
+    "Name": "歷經百戰的愚人眾·風役人",
+    "Title": "役人·幽風鈴蘭",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 24010101,
     "DescribeId": 40101,
     "RelationshipId": 40101,
@@ -6087,6 +6211,69 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40606,
+    "RelationshipId": 40606,
+    "Name": "機關·深海攻擊型·荒",
+    "Title": "機關·深海攻擊型",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40656,
+    "RelationshipId": 40656,
+    "Name": "機關·深海攻擊型·芒",
+    "Title": "機關·深海攻擊型",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 24068601,
+    "DescribeId": 40686,
+    "RelationshipId": 40686,
+    "MonsterName": "MachinaIustitia_Frigate_Codex",
+    "Name": "機關·深海攻擊型",
+    "Title": "機關·深海攻擊型",
+    "Description": "設計目的是進行水下攻擊的發條機關。與「水下巡遊型」機關不同的是——預期中它的敵人會更大、更凶暴。當然，性能優秀與造價便宜的代價是面對體型小的敵人時，便無法完全發揮威力。\n過去在楓丹曾經發生了巨大魔獸入侵的悲劇，使得在陸上大湖受到景仰的白色鐵甲艦隊為了護國最終全軍覆沒。設計者希望如有此類事件再次發生，至少在水中能夠以強大火力出擊的發條機關可以成為將官與士兵之前的第一道防線。",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 1,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "BaseValue": {
+      "HpBase": 64.9378,
+      "AttackBase": 60,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 25
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
     "DescribeId": 40607,
     "RelationshipId": 40607,
     "Name": "機關·靈活採集型·荒",
@@ -6471,6 +6658,16 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40613,
+    "RelationshipId": 40613,
+    "Name": "歷經百戰的機關·計算增幅器",
+    "Title": "機關·計算增幅器",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
     "Name": "冰風組曲·科培琉司的劫罰",
@@ -6518,6 +6715,68 @@
       "WindSubHurt": 0.7,
       "IceSubHurt": 0.7,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24080101,
+    "DescribeId": 40801,
+    "RelationshipId": 40801,
+    "MonsterName": "Monster_MachinaIustitia_Gravitas_01",
+    "Name": "實驗性場力發生裝置",
+    "Title": "實驗性場力發生裝置",
+    "Description": "艾德溫·伊斯丁豪斯生前設計的大型裝置。依照原本的設計意圖，這個大型裝置擁有「抵消」重力的效果；依照原本的設計意圖，這會是將楓丹建設成天空之都的第一步，從此以後再也沒有人需要為曾經蕩滌大地的浪潮而憂心。即使七國盡沒深海，瑰麗的楓丹廷也將如天空島那樣在空中飄遊，就連宇宙的秘密也將變得不那麼遙不可及。\n裝置核心的始基礦擁有「分離」或是「沉澱」的特性，能夠將物質，或是某些物質以外的事物分離。傳說這樣的性質也能夠被反轉，但楓丹科學院只醉心於它所能產生的物理效用。",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "Type": 2,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104171,
+      104172,
+      104173,
+      104174,
+      113052,
+      400032,
+      400042,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 213.2688,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -10106,6 +10365,103 @@
     ]
   },
   {
+    "Id": 26120401,
+    "DescribeId": 61204,
+    "RelationshipId": 61204,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Name": "陸行岩本真蕈",
+    "Title": "陸行岩本真蕈",
+    "Description": "孢子構成的擬態生物，具有強大的環境適應能力。\n受到岩元素的影響，部分組織似乎已經完全角質化了。考慮到蕈類本就是從孢子進化而來。假以時日，或許可以以此為基礎發展出另一種全新的生命形態。\n在蕈獸群落中佔有主導地位，顯示出其擁有著更高的智慧。",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26130101,
+    "DescribeId": 61301,
+    "RelationshipId": 61301,
+    "MonsterName": "Sandworm",
+    "Name": "風蝕沙蟲",
+    "Title": "風蝕沙蟲",
+    "Description": "生活在沙海深處的無目掠食者，會依據聲音與大地的震動尋找獵物的蹤跡。\n傳說在時間開始之前的過去，牠們所統轄地上遍布芳草與巨木，而牠們的主宰與其子嗣一同，在濕潤的泥土中穿梭，如同魚之游於水中。\n許多紀元之後，天降的恩賜讓泥土化為砂礫。許多生命隕落了，許多物種消失了，而依托土地而生的這一族則成為了「沙蟲」。\n或許是因為生物習性中的共同之處，似乎有沙漠的居民錯誤地認為，「沙蟲」是流沙鰻鰻蛹化成熟之後的完整形態。",
+    "Icon": "UI_MonsterIcon_Sandworm",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104151,
+      104152,
+      104153,
+      104154,
+      113044,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 190.176,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.6,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -10919,6 +11275,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61624,
+    "RelationshipId": 61624,
+    "Name": "地方傳奇·大天使海兔",
+    "Title": "大天使海兔",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -10964,86 +11330,49 @@
     ]
   },
   {
-    "Id": 26120401,
-    "DescribeId": 61204,
-    "RelationshipId": 61204,
-    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
-    "Name": "陸行岩本真蕈",
-    "Title": "陸行岩本真蕈",
-    "Description": "孢子構成的擬態生物，具有強大的環境適應能力。\n受到岩元素的影響，部分組織似乎已經完全角質化了。考慮到蕈類本就是從孢子進化而來。假以時日，或許可以以此為基礎發展出另一種全新的生命形態。\n在蕈獸群落中佔有主導地位，顯示出其擁有著更高的智慧。",
-    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 38.0352,
-      "AttackBase": 30.144,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.3,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.3,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26130101,
-    "DescribeId": 61301,
-    "RelationshipId": 61301,
-    "MonsterName": "Sandworm",
-    "Name": "風蝕沙蟲",
-    "Title": "風蝕沙蟲",
-    "Description": "生活在沙海深處的無目掠食者，會依據聲音與大地的震動尋找獵物的蹤跡。\n傳說在時間開始之前的過去，牠們所統轄地上遍布芳草與巨木，而牠們的主宰與其子嗣一同，在濕潤的泥土中穿梭，如同魚之游於水中。\n許多紀元之後，天降的恩賜讓泥土化為砂礫。許多生命隕落了，許多物種消失了，而依托土地而生的這一族則成為了「沙蟲」。\n或許是因為生物習性中的共同之處，似乎有沙漠的居民錯誤地認為，「沙蟲」是流沙鰻鰻蛹化成熟之後的完整形態。",
-    "Icon": "UI_MonsterIcon_Sandworm",
+    "Id": 26180101,
+    "DescribeId": 61801,
+    "RelationshipId": 61801,
+    "MonsterName": "SeaHorse_Primo_Electric_01",
+    "Name": "千年珍珠駿麟",
+    "Title": "千年珍珠駿麟",
+    "Description": "矗立在原海異種頂端的兩位霸主之一。\n詩人與作者常因其獨行而稱其孤傲而高潔，但能成為這類描繪的對象歸根究柢是因為牠的身姿修長優美，也因此牠是「駿麟」，而重甲蟹之王是「帝皇」。\n在楓丹的傳奇逸事中，原海異種當中曾經爆發過無比酷烈的戰爭，只留下「千年珍珠駿麟」與「鐵甲熔火帝皇」在大湖南北分庭抗禮。在《多爾庫之歌》中，作者曾經如此描繪戰爭的結局：被稱為風暴王的巨大獵刀鰩在死前掀起了巨浪，導致了人們口中所謂的「第一次漲水期」…\n所有的這一切當然只不過是人類不願習慣於毫無幻想可言的現實生活所做的浪漫想像。原海異種歸根究柢不過是水生動物罷了，既沒有華麗或破敗的王庭，也沒有昂揚或惡毒的話語。",
+    "Icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
     "Type": 2,
     "Arkhe": 0,
     "Drops": [
       102,
       202,
       105,
-      104151,
-      104152,
-      104153,
-      104154,
-      113044,
-      400022,
+      104141,
+      104142,
+      104143,
+      104144,
+      113053,
       400032,
-      400052,
+      400042,
+      400137,
+      400062,
       400088,
       400098,
-      400023,
       400033,
+      400043,
+      400138,
       400089,
       400099
     ],
     "BaseValue": {
-      "HpBase": 190.176,
-      "AttackBase": 75.36,
+      "HpBase": 149.424,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
-      "FireSubHurt": 0.25,
-      "GrassSubHurt": 0.25,
-      "WaterSubHurt": 0.25,
-      "ElecSubHurt": 0.25,
-      "WindSubHurt": 0.6,
-      "IceSubHurt": 0.25,
-      "RockSubHurt": 0.25,
-      "PhysicalSubHurt": 0.25
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.6,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {

@@ -1449,7 +1449,7 @@
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
-    "Name": "ตำนานท้องถิ่น - Tainted Water-Splitting Phantasm",
+    "Name": "Tainted Water-Splitting Phantasm ที่ผ่านศึกมานับร้อย",
     "Title": "Tainted Water-Splitting Phantasm",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 0,
@@ -1459,7 +1459,7 @@
     "Id": 0,
     "DescribeId": 515,
     "RelationshipId": 515,
-    "Name": "ตำนานท้องถิ่น - Tainted Water-Spouting Phantasm",
+    "Name": "Tainted Water-Spouting Phantasm ที่ผ่านศึกมานับร้อย",
     "Title": "Tainted Water-Spouting Phantasm",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
     "Type": 0,
@@ -4278,7 +4278,7 @@
     "MonsterName": "Ovacua_Order_02",
     "Name": "Shatterstone Breacher Primus",
     "Title": "Shatterstone Breacher Primus",
-    "Description": "สิ่งมีชีวิตประหลาดที่ส่วนใหญ่ปรากฏใน Elynas\nดูเหมือนว่าจะถูกกระตุ้นอย่างรุนแรงเมื่อเผชิญพลังสสารหรือพลังวิญญาณ ดังนั้นแม้ว่ามันจะไม่ความรุนแรงและการรุกรานที่แข็งแกร่ง แต่ดูเหมือนว่าวิธีนี้จะสามารถขับไล่ Breacher Primus ได้อย่างมีประสิทธิภาพ",
+    "Description": "สิ่งมีชีวิตประหลาดที่ส่วนใหญ่ปรากฏใน Elynas\nเมื่อเผชิญพลังสสารหรือพลังวิญญาณจะถูกกระตุ้นอย่างรุนแรง ดังนั้นแม้ว่ามันจะไม่ก้าวร้าวและชอบรุกราน แต่ดูเหมือนว่าการใช้ประโยชน์จากมันจะขับไล่ Breacher Primus ได้อย่างมีประสิทธิภาพ",
     "Icon": "UI_MonsterIcon_Ovacua_Order_02",
     "Type": 1,
     "Arkhe": 0,
@@ -4879,6 +4879,130 @@
     ]
   },
   {
+    "Id": 23060101,
+    "DescribeId": 30601,
+    "RelationshipId": 30601,
+    "MonsterName": "Fatuus_Escadron_Ice_01",
+    "Name": "Fatui - Frost Operative",
+    "Title": "Rimesword Servant",
+    "Description": "สายลับชั้นยอดของ Fatui\nผู้ที่ได้รับการคัดเลือกตั้งแต่ยังเด็ก หลังจากได้รับการศึกษาและการฝึกฝนเป็นเวลาหลายปี และผ่านการคัดเลือกมากมาย จึงจะกลายเป็น \"เจ้าหน้าที่\" ได้ พวกเขาเป็นทหารที่เก่งกาจที่สุดในหมู่ Fatui ซึ่งเปี่ยมด้วยทักษะที่ยอดเยี่ยมและความภักดีที่แน่วแน่",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23060201,
+    "DescribeId": 30602,
+    "RelationshipId": 30602,
+    "MonsterName": "Fatuus_Escadron_Wind_01",
+    "Name": "Fatui - Wind Operative",
+    "Title": "Gale-Lily Servant",
+    "Description": "สายลับชั้นยอดของ Fatui\nเจ้าหน้าที่ที่ไม่มีกองทหารประจำการในหมู่ Fatui พวกเธอสามารถปฏิบัติงานพร้อมกับทหารคนอื่น ๆ หรือปฏิบัติงานคนเดียว และปฏิบัติงานร่วมกับ \"หมุด\" ที่ถูกฝังอยู่ทั่วทุกที่ได้ ตามคำสั่งและเนื้อหาของภารกิจ เช่น เป็นสายลับ ต้านการสอดแนม คุ้มกัน หรือลอบสังหาร เป็นต้น เพื่อปฏิบัติภารกิจพิเศษเหล่านี้ เจ้าหน้าที่จึงต้องเชี่ยวชาญทักษะที่หลากหลาย รวมถึงความสามารถพิเศษต่าง ๆ ด้วย",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30603,
+    "RelationshipId": 30603,
+    "Name": "Fatui - Frost Operative ที่ผ่านศึกมานับร้อย",
+    "Title": "Rimesword Servant",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30604,
+    "RelationshipId": 30604,
+    "Name": "Fatui - Wind Operative ที่ผ่านศึกมานับร้อย",
+    "Title": "Gale-Lily Servant",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 24010101,
     "DescribeId": 40101,
     "RelationshipId": 40101,
@@ -5151,7 +5275,7 @@
     "MonsterName": "Apparatus_Enigma_BionicFlora",
     "Name": "Ruin Destroyer",
     "Title": "Ruin Destroyer",
-    "Description": "เครื่องจักรรูปทรงแปลกประหลาด ที่มีรูปร่างและคุณสมบัติที่ต่างกันไป เพื่อปรับให้เข้ากับเป้าหมาย\nว่ากันว่ามันเป็นเครื่องจักรสงคราม ที่หลงเหลืออยู่จากอาณาจักรที่ล่มสลายไปเมื่อนานมาแล้ว เมื่อเทียบกับ Ruin Guard ที่เห็นได้ทั่วไปแล้ว การออกแบบของมันมีคุณค่าต่อการศึกษาในแง่ของกลไกของสิ่งมีชีวิตมากกว่าเสียอีก มงกุฎยักษ์ที่ประกอบขึ้นจากหลาย ๆ ส่วน ซึ่งดูเหมือนพืชบางชนิดที่น่ากลัว ไม่รู้ว่าต้องผ่านอะไรมาบ้าง ถึงได้ออกแบบเครื่องจักรที่น่ากลัวแบบนี้ออกมากได้",
+    "Description": "เครื่องจักรรูปทรงแปลกประหลาด ที่มีรูปร่างและคุณสมบัติที่ต่างกันไป เพื่อปรับให้เข้ากับเป้าหมาย\nว่ากันว่ามันเป็นเครื่องจักรสงคราม ที่หลงเหลืออยู่จากอาณาจักรที่ล่มสลายไปเมื่อนานมาแล้ว เมื่อเทียบกับ Ruin Guard ที่เห็นได้ทั่วไปแล้ว การออกแบบของมันมีคุณค่าต่อการศึกษาในแง่ของกลไกของสิ่งมีชีวิตมากกว่าเสียอีก มงกุฎยักษ์ที่ประกอบขึ้นจากหลาย ๆ ส่วน ซึ่งดูเหมือนพืชบางชนิดที่น่ากลัว ไม่รู้ว่าต้องผ่านอะไรมาบ้าง ถึงได้ออกแบบเครื่องจักรที่น่ากลัวแบบนี้ออกมาได้",
     "Icon": "UI_MonsterIcon_Apparatus_Enigma_BionicFlora",
     "Type": 1,
     "Arkhe": 0,
@@ -6087,6 +6211,69 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40606,
+    "RelationshipId": 40606,
+    "Name": "Deepwater Assault Mek - สสาร",
+    "Title": "Deepwater Assault Mek",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40656,
+    "RelationshipId": 40656,
+    "Name": "Deepwater Assault Mek - วิญญาณ",
+    "Title": "Deepwater Assault Mek",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 24068601,
+    "DescribeId": 40686,
+    "RelationshipId": 40686,
+    "MonsterName": "MachinaIustitia_Frigate_Codex",
+    "Name": "Deepwater Assault Mek",
+    "Title": "Deepwater Assault Mek",
+    "Description": "จักรกลเครื่องลานที่ออกแบบมาเพื่อโจมตีใต้น้ำ ซึ่งสิ่งที่แตกต่างจาก \"รักษาการณ์ใต้น้ำ\" คือ ศัตรูของมันคาดว่าจะตัวใหญ่กว่าและดุร้ายยิ่งกว่า แน่นอนว่าราคาที่จ่ายสำหรับความสามารถดังกล่าวและต้นทุนการผลิตนั้น ไม่สามารถปลดปล่อยพลังได้อย่างเต็มที่เมื่อต้องเผชิญหน้ากับศัตรูขนาดเล็ก\nในอดีต เคยเกิดโศกนาฏกรรมที่มอนสเตอร์ขนาดใหญ่บุกเข้ามาใน Fontaine กองเรือเกราะเหล็กสีขาวอันเป็นที่ชื่นชมของผู้คน ซึ่งลอยลำอยู่ในทะเลสาบ ได้ถูกทำลายอย่างสิ้นเชิงเพื่อปกป้องประเทศ ผู้ออกแบบหวังว่าหากเหตุการณ์เช่นนี้เกิดขึ้นอีก อย่างน้อยจักรกลเครื่องลานที่สามารถโจมตีด้วยอานุภาพแรงสูงในน้ำ จะเป็นแนวป้องกันด่านแรกของกองทัพเรือและทหารได้",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 1,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "BaseValue": {
+      "HpBase": 64.9378,
+      "AttackBase": 60,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 25
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
     "DescribeId": 40607,
     "RelationshipId": 40607,
     "Name": "จักรกลเก็บเกี่ยว - สสาร",
@@ -6471,6 +6658,16 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40613,
+    "RelationshipId": 40613,
+    "Name": "Arithmetic Enhancer Mek ที่ผ่านศึกมานับร้อย",
+    "Title": "จักรกลรุ่นเพิ่มประสิทธิภาพการคำนวณ",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
     "Name": "Icewind Suite: ทัณฑ์นิรันดร์ของ Coppelius",
@@ -6518,6 +6715,68 @@
       "WindSubHurt": 0.7,
       "IceSubHurt": 0.7,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24080101,
+    "DescribeId": 40801,
+    "RelationshipId": 40801,
+    "MonsterName": "Monster_MachinaIustitia_Gravitas_01",
+    "Name": "Experimental Field Generator",
+    "Title": "Experimental Field Generator",
+    "Description": "อุปกรณ์ขนาดใหญ่ที่ออกแบบโดย Edwin Eastinghouse ขณะมีชีวิตอยู่ ตามจุดประสงค์การออกแบบเดิม ซึ่งมีผล \"ต้านทาน\" แรงโน้มถ่วง ตามความตั้งใจเดิมของการออกแบบ นี่เป็นก้าวแรกในการเปลี่ยน Fontaine ให้เป็นเมืองบนท้องฟ้า ดังนั้นผู้คนจะไม่ต้องกังวลกับคลื่นที่เคยพัดถล่มแผ่นดินอีกต่อไป แม้ว่าทั้งเจ็ดประเทศจะจมอยู่ใต้ทะเลลึกอย่างสมบูรณ์ แต่นครว่าการ Fontaine อันงดงามจะยังคงลอยอยู่ในอากาศเช่นเดียวกับ Celestia แม้แต่ความลับของจักรวาลก็ดูจะไม่ใช่เรื่องไกลตัวอีกต่อไป\nArkhium ในแกนกลางของอุปกรณ์มีลักษณะของการ \"แยกตัว\" หรือ \"ตกตะกอน\" ซึ่งมีคุณสมบัติในการแปลงวัสดุ หรือแยกสิ่งอื่นที่ไม่ใช่วัสดุได้ ว่ากันว่าคุณสมบัติดังกล่าวสามารถย้อนกลับได้ แต่ศูนย์วิทยาศาสตร์ Fontaine กลับหมกมุ่นอยู่กับผลทางกายภาพของมันเท่านั้น",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "Type": 2,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104171,
+      104172,
+      104173,
+      104174,
+      113052,
+      400032,
+      400042,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 213.2688,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -10106,6 +10365,103 @@
     ]
   },
   {
+    "Id": 26120401,
+    "DescribeId": 61204,
+    "RelationshipId": 61204,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Name": "Grounded Geoshroom",
+    "Title": "Grounded Geoshroom",
+    "Description": "สิ่งมีชีวิตเลียนแบบที่เกิดขึ้นมาจากสปอร์มีความสามารถในการปรับตัวเข้ากับสิ่งแวดล้อมได้เป็นอย่างดี\nเนื้อเยื่อบางส่วนดูเหมือนจะได้รับการคีราติไนเซชันอย่างสมบูรณ์ภายใต้อิทธิพลของธาตุหิน เมื่อพิจารณาแล้วจากเดิมที่เห็ดวิวัฒนาการมาจากสปอร์ เมื่อเวลาผ่านไป อาจเป็นไปได้ที่จะพัฒนารูปแบบชีวิตใหม่โดยอาศัยสิ่งนี้\nและมันจะยึดครองอาณานิคมของ Fungus เพื่อแสดงถึงการมีสติปัญญาที่เหนือกว่า",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26130101,
+    "DescribeId": 61301,
+    "RelationshipId": 61301,
+    "MonsterName": "Sandworm",
+    "Name": "Setekh Wenut",
+    "Title": "Setekh Wenut",
+    "Description": "นักล่าไร้ตาซึ่งอาศัยอยู่ในส่วนลึกของทะเลทราย จะสัมผัสหาร่องรอยของเหยื่อโดยอาศัยเสียง และการสั่นสะเทือนของพื้นดิน\nตำนานเล่าว่าในอดีตกาลก่อนที่แนวคิดเรื่องเวลาจะถูกสร้างขึ้น ดินแดนที่พวกมันอยู่เต็มไปด้วยหญ้าเขียวขจี และต้นไม้ยักษ์ นายของพวกมัน และลูกหลานของเขาลัดเลาะไปตามดินที่ชื้นเปียกลื่น ราวกับปลาที่แหวกว่ายอยู่ในน้ำ\nหลังจากผ่านมาหลายยุคหลายสมัย ของประทานจากสวรรค์ได้เปลี่ยนให้ดินกลายเป็นก้อนกรวด ทำให้สิ่งมีชีวิตจำนวนมากดับสูญ และหายไป แต่พวกมันยังสามารถอยู่รอดได้ ด้วยการปรับตัวให้เข้ากับสิ่งมีชีวิตบนพื้นโลกมากขึ้น และกลายเป็นที่รู้จักในชื่อ \"Wenut\"\nอาจเป็นเพราะความคล้ายคลึงกันในพฤติกรรมทางชีววิทยา ทำให้ชาวทะเลทรายบางคนยังคงเชื่ออย่างผิด ๆ ว่า \"Wenut\" เป็นร่างโตเต็มวัยของ Quicksand Eel",
+    "Icon": "UI_MonsterIcon_Sandworm",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104151,
+      104152,
+      104153,
+      104154,
+      113044,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 190.176,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.6,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -10919,6 +11275,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61624,
+    "RelationshipId": 61624,
+    "Name": "ตำนานท้องถิ่น - Cherubic Sea Hare",
+    "Title": "Cherubic Sea Hare",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -10964,86 +11330,49 @@
     ]
   },
   {
-    "Id": 26120401,
-    "DescribeId": 61204,
-    "RelationshipId": 61204,
-    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
-    "Name": "Grounded Geoshroom",
-    "Title": "Grounded Geoshroom",
-    "Description": "สิ่งมีชีวิตเลียนแบบที่เกิดขึ้นมาจากสปอร์มีความสามารถในการปรับตัวเข้ากับสิ่งแวดล้อมได้เป็นอย่างดี\nเนื้อเยื่อบางส่วนดูเหมือนจะได้รับการคีราติไนเซชันอย่างสมบูรณ์ภายใต้อิทธิพลของธาตุหิน เมื่อพิจารณาแล้วจากเดิมที่เห็ดวิวัฒนาการมาจากสปอร์ เมื่อเวลาผ่านไป อาจเป็นไปได้ที่จะพัฒนารูปแบบชีวิตใหม่โดยอาศัยสิ่งนี้\nและมันจะยึดครองอาณานิคมของ Fungus เพื่อแสดงถึงการมีสติปัญญาที่เหนือกว่า",
-    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 38.0352,
-      "AttackBase": 30.144,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.3,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.3,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26130101,
-    "DescribeId": 61301,
-    "RelationshipId": 61301,
-    "MonsterName": "Sandworm",
-    "Name": "Setekh Wenut",
-    "Title": "Setekh Wenut",
-    "Description": "นักล่าไร้ตาซึ่งอาศัยอยู่ในส่วนลึกของทะเลทราย จะสัมผัสหาร่องรอยของเหยื่อโดยอาศัยเสียง และการสั่นสะเทือนของพื้นดิน\nตำนานเล่าว่าในอดีตกาลก่อนที่แนวคิดเรื่องเวลาจะถูกสร้างขึ้น ดินแดนที่พวกมันอยู่เต็มไปด้วยหญ้าเขียวขจี และต้นไม้ยักษ์ นายของพวกมัน และลูกหลานของเขาลัดเลาะไปตามดินที่ชื้นเปียกลื่น ราวกับปลาที่แหวกว่ายอยู่ในน้ำ\nหลังจากผ่านมาหลายยุคหลายสมัย ของประทานจากสวรรค์ได้เปลี่ยนให้ดินกลายเป็นก้อนกรวด ทำให้สิ่งมีชีวิตจำนวนมากดับสูญ และหายไป แต่พวกมันยังสามารถอยู่รอดได้ ด้วยการปรับตัวให้เข้ากับสิ่งมีชีวิตบนพื้นโลกมากขึ้น และกลายเป็นที่รู้จักในชื่อ \"Wenut\"\nอาจเป็นเพราะความคล้ายคลึงกันในพฤติกรรมทางชีววิทยา ทำให้ชาวทะเลทรายบางคนยังคงเชื่ออย่างผิด ๆ ว่า \"Wenut\" เป็นร่างโตเต็มวัยของ Quicksand Eel",
-    "Icon": "UI_MonsterIcon_Sandworm",
+    "Id": 26180101,
+    "DescribeId": 61801,
+    "RelationshipId": 61801,
+    "MonsterName": "SeaHorse_Primo_Electric_01",
+    "Name": "Millennial Pearl Seahorse",
+    "Title": "Millennial Pearl Seahorse",
+    "Description": "หนึ่งในผู้ปกครองสองตนที่ยืนอยู่บนยอด Fontemer Aberrant\nกวีและนักเขียนมักจะยกย่องว่ามันมีความภาคภูมิและสูงส่งเพราะความสันโดษ แต่ท้ายที่สุด สิ่งที่สามารถทำให้พรรณนาออกมาเช่นนี้ได้ ก็เป็นเพราะรูปลักษณ์ที่เรียวยาวและสง่างาม นั่นเป็นเหตุผลว่าทำไมมันจึงถูกเรียกว่า \"ม้าน้ำ\" และราชาแห่ง Armored Crab กลับเป็น \"ราชา\"\nในตำนานของ Fontaine กล่าวว่า ครั้งหนึ่งเคยมีสงครามอันดุเดือดเกิดขึ้นในหมู่ Fontemer Aberrant หลงเหลือไว้เพียง \"Millennial Pearl Seahorse\" และ \"Emperor of Fire and Iron\" เท่านั้นที่ยังคงประจันหน้าต่อสู้กันเอง อยู่ทางตอนเหนือและตอนใต้ของทะเลสาบ ใน \"บทเพลงแห่ง Dobharcu\" ผู้เขียนเคยบรรยายจุดจบของสงครามไว้ว่า: Hunter's Ray ที่รู้จักกันในชื่อ Stormlord ได้สร้างคลื่นลูกใหญ่ขึ้นก่อนที่เขาจะตายไป ก่อให้เกิดสิ่งที่ผู้คนเรียกกันว่า \"ช่วงน้ำท่วมครั้งแรก\"...\nแน่นอนว่าทั้งหมดนี้ เป็นเพียงจินตนาการโรแมนติกของผู้คน ที่ไม่เต็มใจที่จะยอมรับความจริงอันไร้การเพ้อฝัน Fontemer Aberrant เป็นเพียงสิ่งมีชีวิตใต้น้ำธรรมดา ไม่มีราชสำนักที่งดงามหรือล่มสลาย และไม่มีคำพูดยกยอปอปั้น หรือคำว่ากล่าวชั่วร้ายใด ๆ",
+    "Icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
     "Type": 2,
     "Arkhe": 0,
     "Drops": [
       102,
       202,
       105,
-      104151,
-      104152,
-      104153,
-      104154,
-      113044,
-      400022,
+      104141,
+      104142,
+      104143,
+      104144,
+      113053,
       400032,
-      400052,
+      400042,
+      400137,
+      400062,
       400088,
       400098,
-      400023,
       400033,
+      400043,
+      400138,
       400089,
       400099
     ],
     "BaseValue": {
-      "HpBase": 190.176,
-      "AttackBase": 75.36,
+      "HpBase": 149.424,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
-      "FireSubHurt": 0.25,
-      "GrassSubHurt": 0.25,
-      "WaterSubHurt": 0.25,
-      "ElecSubHurt": 0.25,
-      "WindSubHurt": 0.6,
-      "IceSubHurt": 0.25,
-      "RockSubHurt": 0.25,
-      "PhysicalSubHurt": 0.25
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.6,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {

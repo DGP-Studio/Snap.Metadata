@@ -1449,7 +1449,7 @@
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
-    "Name": "Yerel Efsane: Lekeli Su Yaran Tayf",
+    "Name": "Kıdemli Lekeli Su Yaran Tayf",
     "Title": "Lekeli Su Yaran Tayf",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 0,
@@ -1459,7 +1459,7 @@
     "Id": 0,
     "DescribeId": 515,
     "RelationshipId": 515,
-    "Name": "Yerel Efsane: Lekeli Su Püskürten Tayf",
+    "Name": "Kıdemli Lekeli Su Püskürten Tayf",
     "Title": "Lekeli Su Püskürten Tayf",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
     "Type": 0,
@@ -4879,6 +4879,130 @@
     ]
   },
   {
+    "Id": 23060101,
+    "DescribeId": 30601,
+    "RelationshipId": 30601,
+    "MonsterName": "Fatuus_Escadron_Ice_01",
+    "Name": "Buz Ajanı",
+    "Title": "Kırağı Kılıç Hizmetkarı",
+    "Description": "Seçkin bir Fatui tetikçisi.\nÇocukken seçilirler ve yıllar boyu süren eğitim, öğretim ve sayısız imtihanın sonucunda \"Ajan\" olurlar. Olağanüstü beceri ve sarsılmaz sadakatleriyle Fatui içinde en öne çıkan askerlerdir.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23060201,
+    "DescribeId": 30602,
+    "RelationshipId": 30602,
+    "MonsterName": "Fatuus_Escadron_Wind_01",
+    "Name": "Rüzgar Ajanı",
+    "Title": "Fırtına Zambağı Hizmetkarı",
+    "Description": "Seçkin bir Fatui tetikçisi.\nFatui içindeki \"Ajanların\" sıradan askeri rütbeleri yoktur. Onlar aldıkları emirlere veya görev içeriklerine göre diğer askerlerle, kendi başlarına veya Teyvat'ın dört bir yanına gizlenmiş \"muhbirlerle\" çalışırlar. Casusluk, karşı casusluk, korumalık, suikast ve diğer işlerle uğraşırlar. \"Ajanlar\", bu özel görevleri yerine getirmek için çeşitli sanat ve yetenekler de dahil olmak üzere tüm becerilerde ustalaşmak zorundadırlar.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30603,
+    "RelationshipId": 30603,
+    "Name": "Kıdemli Buz Ajanı",
+    "Title": "Kırağı Kılıç Hizmetkarı",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30604,
+    "RelationshipId": 30604,
+    "Name": "Kıdemli Rüzgar Ajanı",
+    "Title": "Fırtına Zambağı Hizmetkarı",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 24010101,
     "DescribeId": 40101,
     "RelationshipId": 40101,
@@ -6087,6 +6211,69 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40606,
+    "RelationshipId": 40606,
+    "Name": "Derin Su Saldırı Mekası: Öz",
+    "Title": "Derin Su Saldırı Mekası",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40656,
+    "RelationshipId": 40656,
+    "Name": "Derin Su Saldırı Mekası: Ruh",
+    "Title": "Derin Su Saldırı Mekası",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 24068601,
+    "DescribeId": 40686,
+    "RelationshipId": 40686,
+    "MonsterName": "MachinaIustitia_Frigate_Codex",
+    "Name": "Derin Su Saldırı Mekası",
+    "Title": "Derin Su Saldırı Mekası",
+    "Description": "Su altı saldırıları yapmak için tasarlanmış bir Kurmalı Meka. \"Su Altı Devriye Mekası\" modellerinin aksine daha büyük ve güçlü düşmanlarla savaşmak için tasarlanmışlardır. Ancak sahip olduğu özelliklerin ve üretim maliyetinin yüksek olması nedeniyle küçük düşmanlara karşı kullanıldığında verimli değildir.\nUzun zaman önce Fontaine devasa bir canavarın saldırısına uğramıştı. Büyük Yeryüzü Gölü'nde seyreden saygıdeğer Beyaz Donanma, ulusu korurken tamamen yok edilmişti. Bu Mekayı tasarlayan kişi bunun bir daha yaşanmamasını istiyordu. Bu Kurmalı Meka, askerler ve generallerden önce ilk savunma hattı olabilecek kadar ateş gücüne sahip olacaktı.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 1,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "BaseValue": {
+      "HpBase": 64.9378,
+      "AttackBase": 60,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 25
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
     "DescribeId": 40607,
     "RelationshipId": 40607,
     "Name": "Çevik Toplayıcı Meka - Öz",
@@ -6471,6 +6658,16 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40613,
+    "RelationshipId": 40613,
+    "Name": "Kıdemli Hesap Geliştirici Meka",
+    "Title": "Hesap Geliştirici Meka",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
     "Name": "Buzul Rüzgarı Süiti: Coppelius'un İntikamı",
@@ -6518,6 +6715,68 @@
       "WindSubHurt": 0.7,
       "IceSubHurt": 0.7,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24080101,
+    "DescribeId": 40801,
+    "RelationshipId": 40801,
+    "MonsterName": "Monster_MachinaIustitia_Gravitas_01",
+    "Name": "Deneysel Alan Oluşturucu",
+    "Title": "Deneysel Alan Oluşturucu",
+    "Description": "Edwin Eastinghouse tarafından tasarlanmış büyük bir cihaz. Yer çekiminin etkilerine \"karşı koyabilme\" özelliğine sahiptir. Aslen Fontaine'i gökteki bir şehre dönüştürme planının ilk adımı olarak tasarlanmıştı. Bu şekilde insanlar, bir zamanlar topraklarını dağlayan dalgalardan bir daha korkmak zorunda kalmayacaklardı. Yedi ulusun tamamı sular altında kalsa bile Fontaine Şehri, Kutsal Diyar gibi göklerde süzülecekti. Evrenin sırları dahi erişilemez olmayacaktı.\nCihazın çekirdeğindeki Arkhiyum, \"ayırma\" ve \"çökeltme\" özelliklerine sahiptir. Madde ve madde dışı bazı şeyleri ayrıştırabilir. Bu sürecin tersine çevrilebileceği de söylenir ancak Fontaine Araştırma Enstitüsü yalnızca cihazın sağlayabileceği fiziksel etkilerle ilgileniyor.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "Type": 2,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104171,
+      104172,
+      104173,
+      104174,
+      113052,
+      400032,
+      400042,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 213.2688,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -10106,6 +10365,103 @@
     ]
   },
   {
+    "Id": 26120401,
+    "DescribeId": 61204,
+    "RelationshipId": 61204,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Name": "Ayaklı Toprak Mantarı",
+    "Title": "Ayaklı Toprak Mantarı",
+    "Description": "Ortama uyum sağlama konusunda oldukça yetenekli olan ve sporlardan oluşan taklitçi bir yaşam formu.\nToprak gücünün etkisiyle neredeyse tamamen keratinleşmiştir. Mantarların sporlardan evrildiği düşünüldüğünde belki de bu yaratık zamanla yeni bir canlıya evrilecek olan temel bir yaşam formudur.\nMantar kolonileri arasında yönetici bir konuma sahiptir ve üstün zeka belirtisi gösterir.",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26130101,
+    "DescribeId": 61301,
+    "RelationshipId": 61301,
+    "MonsterName": "Sandworm",
+    "Name": "Setekh Solucanı",
+    "Title": "Setekh Solucanı",
+    "Description": "Çölün derinliklerinden gelen ve gözleri olmayan bir yırtıcı, avını bulmak için sesleri ve titreşimleri kullanır.\nEfsaneye göre zaman kavramının henüz başlamadığı eski çağlarda, bu hayvanların ataları ve yavruları, yemyeşil çimler ve devasa ağaçlarla dolu bir bölgede yaşam sürüyorlarmış ve balıkların suda akıp gittiği gibi ıslak topraklardan geçebiliyorlarmış.\nÇok uzun zaman sonra, gökten gelen hediyeler toprakları kuma dönüştürerek birçok türün soyunun tükenmesine neden olmuş. Bu tür, yeryüzündeki yaşama daha fazla uyum sağlayarak hayatta kalmayı başardı ve \"Solucan\" olarak bilindi.\nBazı çöl sakinleri, büyük ihtimalle türlerin davranışları arasındaki yüzeysel benzerlikler nedeniyle, Solucanların bir nevi bataklık yılan balığı yaşam döngüsünün son ürünü olduğuna inanıyor.",
+    "Icon": "UI_MonsterIcon_Sandworm",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104151,
+      104152,
+      104153,
+      104154,
+      113044,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 190.176,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.6,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -10919,6 +11275,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61624,
+    "RelationshipId": 61624,
+    "Name": "Yerel Efsane: Başmelek Deniz Tavşanı",
+    "Title": "Başmelek Deniz Tavşanı",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -10964,86 +11330,49 @@
     ]
   },
   {
-    "Id": 26120401,
-    "DescribeId": 61204,
-    "RelationshipId": 61204,
-    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
-    "Name": "Ayaklı Toprak Mantarı",
-    "Title": "Ayaklı Toprak Mantarı",
-    "Description": "Ortama uyum sağlama konusunda oldukça yetenekli olan ve sporlardan oluşan taklitçi bir yaşam formu.\nToprak gücünün etkisiyle neredeyse tamamen keratinleşmiştir. Mantarların sporlardan evrildiği düşünüldüğünde belki de bu yaratık zamanla yeni bir canlıya evrilecek olan temel bir yaşam formudur.\nMantar kolonileri arasında yönetici bir konuma sahiptir ve üstün zeka belirtisi gösterir.",
-    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 38.0352,
-      "AttackBase": 30.144,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.3,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.3,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26130101,
-    "DescribeId": 61301,
-    "RelationshipId": 61301,
-    "MonsterName": "Sandworm",
-    "Name": "Setekh Solucanı",
-    "Title": "Setekh Solucanı",
-    "Description": "Çölün derinliklerinden gelen ve gözleri olmayan bir yırtıcı, avını bulmak için sesleri ve titreşimleri kullanır.\nEfsaneye göre zaman kavramının henüz başlamadığı eski çağlarda, bu hayvanların ataları ve yavruları, yemyeşil çimler ve devasa ağaçlarla dolu bir bölgede yaşam sürüyorlarmış ve balıkların suda akıp gittiği gibi ıslak topraklardan geçebiliyorlarmış.\nÇok uzun zaman sonra, gökten gelen hediyeler toprakları kuma dönüştürerek birçok türün soyunun tükenmesine neden olmuş. Bu tür, yeryüzündeki yaşama daha fazla uyum sağlayarak hayatta kalmayı başardı ve \"Solucan\" olarak bilindi.\nBazı çöl sakinleri, büyük ihtimalle türlerin davranışları arasındaki yüzeysel benzerlikler nedeniyle, Solucanların bir nevi bataklık yılan balığı yaşam döngüsünün son ürünü olduğuna inanıyor.",
-    "Icon": "UI_MonsterIcon_Sandworm",
+    "Id": 26180101,
+    "DescribeId": 61801,
+    "RelationshipId": 61801,
+    "MonsterName": "SeaHorse_Primo_Electric_01",
+    "Name": "Bin Yıllık İnci Denizatı",
+    "Title": "Bin Yıllık İnci Denizatı",
+    "Description": "Fontemer Sapkınlarının zirvesindeki iki hükümdardan biri.\nŞairler ve yazarlar, yalnız olmaya meyilli olduğu için onu genellikle onurlu ve asil olarak tasvir ederler ancak bunun asıl nedeni bedeninin zarif ve ince olmasıdır. Bu yüzden o \"İnci Denizatı\"yken Zırhlı Yengeçlerin hükümdarı \"İmparator\"dur.\nFontaine'in efsane ve hikayelerinde bir zamanlar Fontemer Sapkınları arasında amansız bir savaş yaşandığı, bu savaştan sonra geriye yalnızca \"Bin Yıllık İnci Denizatı\" ile \"Ateş ve Demir İmparatoru\"nun kaldığı ve onların da büyük gölü kuzey ve güney olmak üzere ikiye böldüğü anlatılır. \"Dobharcu Şarkısı\"nın yazarı, bu savaşın sonucunu şarkısında şu şekilde tasvir eder: Fırtına Efendisi olarak bilinirdi Avcı Vatoz, onun can çekiştiğini gören dalgalar kabardı bir anda ve neden oldu insanların \"ilk su baskını dönemine\" girmesine...\nElbette tüm bunlar dünyanın katı gerçekliğini kabul etmek istemeyen insanların aşırı tasvirlerinden ibaret. Fontemer Sapkınlarının aslında sıradan deniz canlılarından farkı yoktur. Ne şehirleri ne de düşmüş krallıkları vardır. İnsanların söylediği sözler ile de ne yükselir ne alçalırlar.",
+    "Icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
     "Type": 2,
     "Arkhe": 0,
     "Drops": [
       102,
       202,
       105,
-      104151,
-      104152,
-      104153,
-      104154,
-      113044,
-      400022,
+      104141,
+      104142,
+      104143,
+      104144,
+      113053,
       400032,
-      400052,
+      400042,
+      400137,
+      400062,
       400088,
       400098,
-      400023,
       400033,
+      400043,
+      400138,
       400089,
       400099
     ],
     "BaseValue": {
-      "HpBase": 190.176,
-      "AttackBase": 75.36,
+      "HpBase": 149.424,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
-      "FireSubHurt": 0.25,
-      "GrassSubHurt": 0.25,
-      "WaterSubHurt": 0.25,
-      "ElecSubHurt": 0.25,
-      "WindSubHurt": 0.6,
-      "IceSubHurt": 0.25,
-      "RockSubHurt": 0.25,
-      "PhysicalSubHurt": 0.25
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.6,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {

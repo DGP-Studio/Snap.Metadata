@@ -1449,7 +1449,7 @@
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
-    "Name": "Leggenda locale - Fantasma squarciacque contaminato",
+    "Name": "Fantasma squarciacque veterano contaminato",
     "Title": "Fantasma squarciacque contaminato",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 0,
@@ -1459,7 +1459,7 @@
     "Id": 0,
     "DescribeId": 515,
     "RelationshipId": 515,
-    "Name": "Leggenda locale - Fantasma zampillante contaminato",
+    "Name": "Fantasma zampillante veterano contaminato",
     "Title": "Fantasma zampillante contaminato",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
     "Type": 0,
@@ -4879,6 +4879,130 @@
     ]
   },
   {
+    "Id": 23060101,
+    "DescribeId": 30601,
+    "RelationshipId": 30601,
+    "MonsterName": "Fatuus_Escadron_Ice_01",
+    "Name": "Operativo del Gelo",
+    "Title": "Servitore di Lamabrina",
+    "Description": "Un agente d'élite dei Fatui.\nSelezionati quando sono ancora bambini, possono diventare \"Operativi\" solo dopo lunghi anni di addestramento e di insegnamento, e solo dopo aver passato innumerevoli selezioni. Sono i soldati più eccezionali tra i Fatui, con un'abilità straordinaria e una fedeltà incrollabile.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23060201,
+    "DescribeId": 30602,
+    "RelationshipId": 30602,
+    "MonsterName": "Fatuus_Escadron_Wind_01",
+    "Name": "Operativo del Vento",
+    "Title": "Servitore di Callaverna",
+    "Description": "Un agente d'élite dei Fatui.\nGli \"Operativi\" non hanno un grado militare ordinario tra i Fatui. In base agli ordini ricevuti e al contenuto delle loro missioni, possono lavorare assieme ad altri soldati, da soli o collaborando con le \"pedine\" nascoste e sparse per il mondo. Spiano, fanno controspionaggio, proteggono, assassinano e svolgono altri compiti. Per svolgere efficacemente le loro missioni di natura più speciale, gli \"Operativi\" devono anche padroneggiare qualsiasi tipo di abilità e persino varie arti e talenti.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30603,
+    "RelationshipId": 30603,
+    "Name": "Operativo del Gelo veterano",
+    "Title": "Servitore di Lamabrina",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30604,
+    "RelationshipId": 30604,
+    "Name": "Operativo del Vento veterano",
+    "Title": "Servitore di Callaverna",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 24010101,
     "DescribeId": 40101,
     "RelationshipId": 40101,
@@ -6087,6 +6211,69 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40606,
+    "RelationshipId": 40606,
+    "Name": "Meka d'assalto subacqueo (Ousia)",
+    "Title": "Meka d'assalto subacqueo",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40656,
+    "RelationshipId": 40656,
+    "Name": "Meka d'assalto subacqueo (Pneuma)",
+    "Title": "Meka d'assalto subacqueo",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 24068601,
+    "DescribeId": 40686,
+    "RelationshipId": 40686,
+    "MonsterName": "MachinaIustitia_Frigate_Codex",
+    "Name": "Meka d'assalto subacqueo",
+    "Title": "Meka d'assalto subacqueo",
+    "Description": "Un Mekautoma progettato per condurre attacchi subacquei. A differenza dei modelli come il \"Meka pattugliatore subacqueo\", è in grado di affrontare avversari molto più grandi e agguerriti. Naturalmente, il prezzo da pagare per tali capacità e per il suo costo di produzione è che non è in grado di sprigionare appieno le sue capacità contro avversari più piccoli.\nTanto tempo fa, Fontaine subì la catastrofica invasione di un enorme mostro. La riverita Armata bianca che navigava sul Grande Lago Terrestre fu completamente distrutta difendendo la nazione. Il progettista sperava che, se una cosa del genere si fosse ripetuta, il Mekautoma avrebbe avuto una potenza di fuoco navale sufficiente a costituire la prima linea di difesa, prima dei soldati e dei generali.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 1,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "BaseValue": {
+      "HpBase": 64.9378,
+      "AttackBase": 60,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 25
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
     "DescribeId": 40607,
     "RelationshipId": 40607,
     "Name": "Meka mietitore agile (Ousia)",
@@ -6471,6 +6658,16 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40613,
+    "RelationshipId": 40613,
+    "Name": "Meka potenziatore aritmetico veterano",
+    "Title": "Meka potenziatore aritmetico",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
     "Name": "Suite del Vento glaciale - Nemesi di Coppelius",
@@ -6518,6 +6715,68 @@
       "WindSubHurt": 0.7,
       "IceSubHurt": 0.7,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24080101,
+    "DescribeId": 40801,
+    "RelationshipId": 40801,
+    "MonsterName": "Monster_MachinaIustitia_Gravitas_01",
+    "Name": "Generatore di campo sperimentale",
+    "Title": "Generatore di campo sperimentale",
+    "Description": "Un grande dispositivo progettato da Edwin Eastinghouse. Ha la capacità di \"contrastare\" gli effetti della gravità. Secondo le intenzioni del progetto originale, questo era il primo passo di un piano per trasformare Fontaine in una città nel cielo, in modo che gli abitanti non dovessero più preoccuparsi della marea che inondava la terra. Anche se tutte le sette nazioni fossero state inghiottite dagli abissi, l'elegante Corte di Fontaine avrebbe fluttuato al di sopra di tutto, proprio come Celestia. Anche i segreti dell'universo non sembrerebbero più così lontani.\nL'Arkhium nel nucleo del dispositivo ha capacità di \"scissione\" o di \"sedimentazione\" e può prendere la materia, o alcune cose che non siano materia, e separarle. Si dice che questo processo possa essere invertito, ma l'Istituto di ricerca di Fontaine è ossessionato solo dagli effetti fisici che può produrre.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "Type": 2,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104171,
+      104172,
+      104173,
+      104174,
+      113052,
+      400032,
+      400042,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 213.2688,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -8632,7 +8891,7 @@
     "MonsterName": "Regisvine_Electric",
     "Name": "Regisreptus di Electro",
     "Title": "Regisreptus di Electro",
-    "Description": "Un enorme rampicante tramutatosi in mostro a causa delle correnti ad alta tensione che scorrono nelle linee geomantiche.\nLa sua chioma sprigiona una tensione elettrica costante, con una furia senza fine pari a quella della terra.\nTempo fa, i ricercatori della Kshahrewar proposero di disporre una complessa matrice di circuiti intorno a questa creatura, con l'intento di trasportare l'energia elettrica fino alla città e sfruttarla opportunamente. Il piano fu aspramente contestato dagli studiosi della Spantamad, che sacrificarono 10 Funginghiali per dimostrare quanto l'utilizzo dell'elettricità fosse rischioso.",
+    "Description": "Un enorme rampicante tramutatosi in mostro a causa delle correnti ad alta tensione che scorrono nelle linee geomantiche.\nLa sua chioma sprigiona una tensione elettrica costante, con una furia senza fine pari a quella della terra.\nTempo fa, i ricercatori della Kshahrewar proposero di disporre una complessa matrice di circuiti intorno a questa creatura, con l'intento di trasportare l'energia elettrica fino alla città e sfruttarla opportunamente. Il piano fu aspramente contestato dagli studiosi della Spantamad, che sacrificarono 10 Funghiali per dimostrare quanto l'utilizzo dell'elettricità fosse rischioso.",
     "Icon": "UI_MonsterIcon_Regisvine_Electric",
     "Type": 2,
     "Arkhe": 0,
@@ -10106,6 +10365,103 @@
     ]
   },
   {
+    "Id": 26120401,
+    "DescribeId": 61204,
+    "RelationshipId": 61204,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Name": "Geofungo radicato",
+    "Title": "Geofungo radicato",
+    "Description": "Una forma di vita mimetica composta da spore e che possiede un'estrema capacità di adattamento.\nA causa dell'influenza dell'elemento Geo, ha subito una quasi totale cheratinizzazione. Considerando che i Miconoidi si sono evoluti dalle spore, è possibile che, se ne avrà il tempo, questa creatura si evolverà in una forma di vita del tutto nuova.\nQuesta creatura esercita un ruolo di comando all'interno delle colonie di bestie fungine, e presenta un livello d'intelligenza superiore alla media.",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26130101,
+    "DescribeId": 61301,
+    "RelationshipId": 61301,
+    "MonsterName": "Sandworm",
+    "Name": "Unut del Setekh",
+    "Title": "Unut del Setekh",
+    "Description": "Un predatore senza occhi che abita nel deserto profondo e sfrutta i suoni e le vibrazioni per trovare la sua preda.\nSecondo la leggenda, in un passato ormai remoto, prima che esistesse perfino il concetto di tempo, queste creature prosperavano assieme ai loro progenitori e alla loro prole in una terra di erba verdeggiante e alberi colossali, attraversando il terreno umido come fossero pesci nell'acqua.\nMolti eoni dopo, i doni del cielo hanno ridotto ormai il suolo in sabbia, facendo estinguere una moltitudine di creature. Questa specie è stata capace di sopravvivere adattandosi alla vita sulla terra, e prendendo il nome di \"Unut\".\n Alcuni abitanti del deserto credono ancora, erroneamente, che gli Unut siano il punto d'arrivo del ciclo di vita dell'anguilla delle sabbie mobili, probabilmente per via delle somiglianze superficiali tra i comportamenti delle due specie.",
+    "Icon": "UI_MonsterIcon_Sandworm",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104151,
+      104152,
+      104153,
+      104154,
+      113044,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 190.176,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.6,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -10919,6 +11275,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61624,
+    "RelationshipId": 61624,
+    "Name": "Leggenda locale - Lepre marina cherubica",
+    "Title": "Lepre marina cherubica",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -10964,86 +11330,49 @@
     ]
   },
   {
-    "Id": 26120401,
-    "DescribeId": 61204,
-    "RelationshipId": 61204,
-    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
-    "Name": "Geofungo radicato",
-    "Title": "Geofungo radicato",
-    "Description": "Una forma di vita mimetica composta da spore e che possiede un'estrema capacità di adattamento.\nA causa dell'influenza dell'elemento Geo, ha subito una quasi totale cheratinizzazione. Considerando che i Miconoidi si sono evoluti dalle spore, è possibile che, se ne avrà il tempo, questa creatura si evolverà in una forma di vita del tutto nuova.\nQuesta creatura esercita un ruolo di comando all'interno delle colonie di bestie fungine, e presenta un livello d'intelligenza superiore alla media.",
-    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 38.0352,
-      "AttackBase": 30.144,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.3,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.3,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26130101,
-    "DescribeId": 61301,
-    "RelationshipId": 61301,
-    "MonsterName": "Sandworm",
-    "Name": "Unut del Setekh",
-    "Title": "Unut del Setekh",
-    "Description": "Un predatore senza occhi che abita nel deserto profondo e sfrutta i suoni e le vibrazioni per trovare la sua preda.\nSecondo la leggenda, in un passato ormai remoto, prima che esistesse perfino il concetto di tempo, queste creature prosperavano assieme ai loro progenitori e alla loro prole in una terra di erba verdeggiante e alberi colossali, attraversando il terreno umido come fossero pesci nell'acqua.\nMolti eoni dopo, i doni del cielo hanno ridotto ormai il suolo in sabbia, facendo estinguere una moltitudine di creature. Questa specie è stata capace di sopravvivere adattandosi alla vita sulla terra, e prendendo il nome di \"Unut\".\n Alcuni abitanti del deserto credono ancora, erroneamente, che gli Unut siano il punto d'arrivo del ciclo di vita dell'anguilla delle sabbie mobili, probabilmente per via delle somiglianze superficiali tra i comportamenti delle due specie.",
-    "Icon": "UI_MonsterIcon_Sandworm",
+    "Id": 26180101,
+    "DescribeId": 61801,
+    "RelationshipId": 61801,
+    "MonsterName": "SeaHorse_Primo_Electric_01",
+    "Name": "Ippocampo Perlamillenario",
+    "Title": "Ippocampo Perlamillenario",
+    "Description": "Uno dei due sovrani che si trovano all'apice degli Aberranti del Fontemer.\nPoeti e scrittori lo definiscono spesso fiero e nobile a causa delle sue tendenze solitarie, ma il vero motivo di tali descrizioni adulatorie è il suo corpo elegante e snello. Come tale è un \"cavalluccio marino perlato\", mentre il sovrano dei Granchi corazzati è un \"imperatore\".\nNelle leggende e nelle dicerie di Fontaine, un tempo si scatenò una guerra brutale tra gli Aberranti del Fontemer, che lasciò in vita solo l'\"Ippocampo Perlamillenario\" e l'\"Imperatore del Fuoco e del Ferro\", dividendo il grande lago in due corti, una che governava il nord e l'altra il sud. Nella \"Canzone di Dobharcu\", lo scrittore descrive l'esito della guerra: la grande Razza cacciatrice, nota come Signora delle tempeste, agitò enormi onde prima di morire, causando quello che ora è conosciuto dalla gente come il \"primo periodo diluviale\"... Naturalmente, tutto questo non è altro che l'immaginazione romantica di persone che non sono disposte ad accettare la blanda realtà del mondo. Gli Aberranti del Fontemer, infatti, sono semplici animali acquatici, non hanno grandi corti né regni caduti, e nemmeno riservano parole di incitamento o perfidia.",
+    "Icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
     "Type": 2,
     "Arkhe": 0,
     "Drops": [
       102,
       202,
       105,
-      104151,
-      104152,
-      104153,
-      104154,
-      113044,
-      400022,
+      104141,
+      104142,
+      104143,
+      104144,
+      113053,
       400032,
-      400052,
+      400042,
+      400137,
+      400062,
       400088,
       400098,
-      400023,
       400033,
+      400043,
+      400138,
       400089,
       400099
     ],
     "BaseValue": {
-      "HpBase": 190.176,
-      "AttackBase": 75.36,
+      "HpBase": 149.424,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
-      "FireSubHurt": 0.25,
-      "GrassSubHurt": 0.25,
-      "WaterSubHurt": 0.25,
-      "ElecSubHurt": 0.25,
-      "WindSubHurt": 0.6,
-      "IceSubHurt": 0.25,
-      "RockSubHurt": 0.25,
-      "PhysicalSubHurt": 0.25
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.6,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {

@@ -1449,7 +1449,7 @@
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
-    "Name": "地方伝説·濁水粉砕の幻霊",
+    "Name": "百戦錬磨の濁水粉砕の幻霊",
     "Title": "濁水粉砕の幻霊",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 0,
@@ -1459,7 +1459,7 @@
     "Id": 0,
     "DescribeId": 515,
     "RelationshipId": 515,
-    "Name": "地方伝説·濁水噴出の幻霊",
+    "Name": "百戦錬磨の濁水噴出の幻霊",
     "Title": "濁水噴出の幻霊",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
     "Type": 0,
@@ -4879,6 +4879,130 @@
     ]
   },
   {
+    "Id": 23060101,
+    "DescribeId": 30601,
+    "RelationshipId": 30601,
+    "MonsterName": "Fatuus_Escadron_Ice_01",
+    "Name": "ファデュイ·氷霜の従者",
+    "Title": "従者·霜剣の律従",
+    "Description": "ファデュイ所属の精鋭特別部隊。\n幼少期に選抜された者が長年に渡る教育と訓練によりふるいにかけられ、残った者が「従者」となる。ファデュイの中で最も優秀な兵士であり、優れた腕前と揺るがない忠誠心を持つ。",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23060201,
+    "DescribeId": 30602,
+    "RelationshipId": 30602,
+    "MonsterName": "Fatuus_Escadron_Wind_01",
+    "Name": "ファデュイ·烈風の従者",
+    "Title": "従者·幽風の鈴蘭",
+    "Description": "ファデュイ所属の精鋭特別部隊。\n従者はファデュイにおける通常の役職ではない。命令や任務の内容に応じて、彼女たちは兵士と連携したり、単独または各地の工作員と共に諜報、対偵察、護衛、抹殺などの任務を行う。それらの特殊な任務のために、従者には往々にして様々な技能や才能が必要とされる。",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30603,
+    "RelationshipId": 30603,
+    "Name": "百戦錬磨のファデュイ·氷霜の従者",
+    "Title": "従者·霜剣の律従",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30604,
+    "RelationshipId": 30604,
+    "Name": "百戦錬磨のファデュイ·烈風の従者",
+    "Title": "従者·幽風の鈴蘭",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 24010101,
     "DescribeId": 40101,
     "RelationshipId": 40101,
@@ -6087,6 +6211,69 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40606,
+    "RelationshipId": 40606,
+    "Name": "マシナリー·深海攻撃型·ウーシア",
+    "Title": "マシナリー·深海攻撃型",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40656,
+    "RelationshipId": 40656,
+    "Name": "マシナリー·深海攻撃型·プネウマ",
+    "Title": "マシナリー·深海攻撃型",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 24068601,
+    "DescribeId": 40686,
+    "RelationshipId": 40686,
+    "MonsterName": "MachinaIustitia_Frigate_Codex",
+    "Name": "マシナリー·深海攻撃型",
+    "Title": "マシナリー·深海攻撃型",
+    "Description": "水中で攻撃を行うことを目的として設計·製造されたクロックワーク·マシナリー。「水中巡遊型」のマシナリーと異なり、より大きく、より凶暴な敵と戦うことが想定されている。ただ、性能と製造費の代償として、小型の敵に対してはあまり力を発揮できない。\n過去、巨大な魔獣がフォンテーヌを侵攻する悲劇が起きた。地上大湖で信頼を集めていた白い甲鉄艦隊は、国を守るために戦い、全軍が壊滅した。設計者は、このような悲劇の再発生に備えた。少なくとも水中から強力な火力で攻撃できるクロックワーク·マシナリーが、ジェネラルや兵士の前に立ち、第一の防衛ラインとなれるよう願いを込めた。",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 1,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "BaseValue": {
+      "HpBase": 64.9378,
+      "AttackBase": 60,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 25
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
     "DescribeId": 40607,
     "RelationshipId": 40607,
     "Name": "マシナリー·機敏採集型·ウーシア",
@@ -6471,6 +6658,16 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40613,
+    "RelationshipId": 40613,
+    "Name": "百戦錬磨のマシナリー·演算力増幅器",
+    "Title": "マシナリー·演算力増幅器",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
     "Name": "氷風組曲·コペリウスの劫罰",
@@ -6518,6 +6715,68 @@
       "WindSubHurt": 0.7,
       "IceSubHurt": 0.7,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24080101,
+    "DescribeId": 40801,
+    "RelationshipId": 40801,
+    "MonsterName": "Monster_MachinaIustitia_Gravitas_01",
+    "Name": "実験用フィールド生成装置",
+    "Title": "実験用フィールド生成装置",
+    "Description": "エドウィン·イースティングハウスが生前に設計した大型装置。本来の設計意図によると、重力を「相殺」する機能を持っている。その誕生は、フォンテーヌを天空の都とするための第一歩と言われたそうだ。かつて大地を押し流す大波に、これからはもう誰も憂う必要はない。たとえ七つの国が全て深海に沈んでも、美しきフォンテーヌ廷は天空の島のように空中を漂う。宇宙の秘密さえも手の届かないものではなくなるだろう。\n装置の核となるアルケウムには、「分離」と「沈殿」の特性があり、物質、あるいは物質以外の何かを分離できる。この性質は反転させることもできると言われているが、フォンテーヌ科学院はアルケウムの生む物理的効果にしか興味がない。",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "Type": 2,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104171,
+      104172,
+      104173,
+      104174,
+      113052,
+      400032,
+      400042,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 213.2688,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -10106,6 +10365,103 @@
     ]
   },
   {
+    "Id": 26120401,
+    "DescribeId": 61204,
+    "RelationshipId": 61204,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Name": "トコトコ岩マッシュロン",
+    "Title": "トコトコ岩マッシュロン",
+    "Description": "胞子でできた擬態生物。とても高い環境適応能力を持っている。\n岩元素の影響を受け、一部の組織はどうやら完全に角質化しているようだ。元よりキノコンは胞子から進化したことを考えると、もしかすると時間が経てば、これをベースに全く異なる新しい形体の命が生まれるかもしれない。\nキノコンたちの間ではリーダーのような立場にあり、それに見合うだけの高い知性を持っている。",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26130101,
+    "DescribeId": 61301,
+    "RelationshipId": 61301,
+    "MonsterName": "Sandworm",
+    "Name": "風蝕ウェネト",
+    "Title": "風蝕ウェネト",
+    "Description": "砂海の奥に生息する目のない捕食者。音や地響きを頼りに獲物の気配を探す。\n時間の概念が生まれるよりも昔のこと、彼らは大地を覆った芳草や巨木を統制していた。そして、彼らの主宰はその子孫たちと共に、湿った土の中を行き来していた——まるで魚が水の中を泳ぐかのように。\n長い長い時間が過ぎて、空からの恵みは泥を砂礫にした。多くの命が潰えて、多くの種族が消えた。そして、この地を頼りに生きている一族は「ウェネト」となった。\n生物的習性に共通点があるためか、砂漠の民は「ウェネト」を流砂ウナギが蛹になって成熟した後の完全体だという誤った認識を持っているようだ。",
+    "Icon": "UI_MonsterIcon_Sandworm",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104151,
+      104152,
+      104153,
+      104154,
+      113044,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 190.176,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.6,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -10919,6 +11275,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61624,
+    "RelationshipId": 61624,
+    "Name": "地方伝説·チェルビックアプリシア",
+    "Title": "チェルビックアプリシア",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -10964,86 +11330,49 @@
     ]
   },
   {
-    "Id": 26120401,
-    "DescribeId": 61204,
-    "RelationshipId": 61204,
-    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
-    "Name": "トコトコ岩マッシュロン",
-    "Title": "トコトコ岩マッシュロン",
-    "Description": "胞子でできた擬態生物。とても高い環境適応能力を持っている。\n岩元素の影響を受け、一部の組織はどうやら完全に角質化しているようだ。元よりキノコンは胞子から進化したことを考えると、もしかすると時間が経てば、これをベースに全く異なる新しい形体の命が生まれるかもしれない。\nキノコンたちの間ではリーダーのような立場にあり、それに見合うだけの高い知性を持っている。",
-    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 38.0352,
-      "AttackBase": 30.144,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.3,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.3,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26130101,
-    "DescribeId": 61301,
-    "RelationshipId": 61301,
-    "MonsterName": "Sandworm",
-    "Name": "風蝕ウェネト",
-    "Title": "風蝕ウェネト",
-    "Description": "砂海の奥に生息する目のない捕食者。音や地響きを頼りに獲物の気配を探す。\n時間の概念が生まれるよりも昔のこと、彼らは大地を覆った芳草や巨木を統制していた。そして、彼らの主宰はその子孫たちと共に、湿った土の中を行き来していた——まるで魚が水の中を泳ぐかのように。\n長い長い時間が過ぎて、空からの恵みは泥を砂礫にした。多くの命が潰えて、多くの種族が消えた。そして、この地を頼りに生きている一族は「ウェネト」となった。\n生物的習性に共通点があるためか、砂漠の民は「ウェネト」を流砂ウナギが蛹になって成熟した後の完全体だという誤った認識を持っているようだ。",
-    "Icon": "UI_MonsterIcon_Sandworm",
+    "Id": 26180101,
+    "DescribeId": 61801,
+    "RelationshipId": 61801,
+    "MonsterName": "SeaHorse_Primo_Electric_01",
+    "Name": "千年真珠の海駿",
+    "Title": "千年真珠の海駿",
+    "Description": "原海アベラントの頂点に君臨する二大覇者のうちの一種。\n詩人や物書きはよく、その独立した行動を孤高かつ高潔と評するが、このように描写されるのは、つまるところその姿が端麗で優美だからだ。そのため、それは「海駿」と呼ばれ、重甲ヤドカニの王は「帝王」なのである。\nフォンテーヌに伝わる逸話では、かつて原海アベラントの中で非常に苛烈な戦争が勃発し、「千年真珠の海駿」と「鉄甲熔炎帝王」のみが生き残って大きな湖を南北に分断した。『ドアーチュの歌』では、戦争の結末がこのように描かれた。嵐王と呼ばれる巨大な狩猟刀エイが死を前にして大きな波を起こし、いわゆる「第一次大水期」を引き起こした…。\nこれらはもちろん、ファンタジーの欠片もない現実生活に受け入れたくないがためのロマンチックな空想に過ぎない。原海アベラントは結局のところ、ただの水生動物に過ぎず、美しく、または朽ち果てた王宮は登場しないし、気持ちが高ぶるような、あるいは悪辣な言葉を投げかけられることもないのである。",
+    "Icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
     "Type": 2,
     "Arkhe": 0,
     "Drops": [
       102,
       202,
       105,
-      104151,
-      104152,
-      104153,
-      104154,
-      113044,
-      400022,
+      104141,
+      104142,
+      104143,
+      104144,
+      113053,
       400032,
-      400052,
+      400042,
+      400137,
+      400062,
       400088,
       400098,
-      400023,
       400033,
+      400043,
+      400138,
       400089,
       400099
     ],
     "BaseValue": {
-      "HpBase": 190.176,
-      "AttackBase": 75.36,
+      "HpBase": 149.424,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
-      "FireSubHurt": 0.25,
-      "GrassSubHurt": 0.25,
-      "WaterSubHurt": 0.25,
-      "ElecSubHurt": 0.25,
-      "WindSubHurt": 0.6,
-      "IceSubHurt": 0.25,
-      "RockSubHurt": 0.25,
-      "PhysicalSubHurt": 0.25
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.6,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {

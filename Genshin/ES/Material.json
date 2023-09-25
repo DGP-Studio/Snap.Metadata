@@ -1030,6 +1030,26 @@
     "Icon": "UI_ItemIcon_1103"
   },
   {
+    "MaterialType": 20,
+    "Id": 1186,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Wriothesley",
+    "Description": "Material de activación de constelación de Wriothesley.",
+    "TypeDescription": "Activación de constelación",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1187,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Neuvillette",
+    "Description": "Material de activación de constelación de Neuvillette.",
+    "TypeDescription": "Activación de constelación",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
     "MaterialType": 5,
     "Id": 1201,
     "RankLevel": 5,
@@ -2393,7 +2413,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "Marealga",
-    "Description": "Un tipo de alga que flota en zonas submarinas y que se alimenta principalmente de las sustancias que producen otras plantas. Aunque a menudo se la confunde con un animal, la marealaga es en realidad un fictoplanton.",
+    "Description": "Un tipo de alga que flota en zonas submarinas y que se alimenta principalmente de las sustancias que producen otras plantas. Aunque a menudo se la confunde con un animal, la marealga es en realidad un fitoplancton.",
     "TypeDescription": "Ingrediente culinario",
     "Icon": "UI_ItemIcon_101234"
   },
@@ -2416,6 +2436,26 @@
     "Description": "Una delicada planta de color rosado. A pesar de lo que su nombre indica, este tipo de planta se parece más a los lirios.",
     "TypeDescription": "Objeto típico de Fontaine",
     "Icon": "UI_ItemIcon_101236"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101237,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Lumistela",
+    "Description": "Un molusco que emite un ligero brillo en el agua. La mayoría trepa por los bordes de las zonas con agua o por la superficie de los edificios submarinos.",
+    "TypeDescription": "Objeto típico de Fontaine",
+    "Icon": "UI_ItemIcon_101237"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101239,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Unidad de subdetección",
+    "Description": "Una pequeña unidad de detección fabricada por el Instituto de Ciencias de Fontaine que utiliza los nuevos componentes mecánicos y que, en un principio, se utilizaban para monitorizar diversos tipos de datos medioambientales.",
+    "TypeDescription": "Objeto típico de Fontaine",
+    "Icon": "UI_ItemIcon_101239"
   },
   {
     "MaterialType": 25,
@@ -15682,7 +15722,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Enseñanzas de la ecuanimidad",
-    "Description": "La ecuanimidad es el dique de la Nación del Agua y lo que define los límites de los derechos individuales.\nSin ecuanimidad, se puede abusar de la ley para conceder derechos, lo que la transformaría en una herramienta que destruye las buenas formas y costumbres.",
+    "Description": "Material de mejora de talento.\nLa ecuanimidad es el dique de la Nación del Agua y lo que define los límites de los derechos individuales.\nSin ecuanimidad, se puede abusar de la ley para conceder derechos, lo que la transformaría en una herramienta que destruye las buenas formas y costumbres.",
     "TypeDescription": "Material de talento de personaje",
     "Icon": "UI_ItemIcon_104338"
   },
@@ -15692,7 +15732,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Guía de la ecuanimidad",
-    "Description": "La ecuanimidad es el dique de la Nación del Agua y los cimientos sobre los que se construyó Fontaine.\nLa ecuanimidad conforma un criterio legal sin el que la ley perdería su fundamento y se convertiría en un juego de favores.",
+    "Description": "Material de mejora de talento.\nLa ecuanimidad es el dique de la Nación del Agua y los cimientos sobre los que se construyó Fontaine.\nLa ecuanimidad conforma un criterio legal sin el que la ley perdería su fundamento y se convertiría en un juego de favores.",
     "TypeDescription": "Material de talento de personaje",
     "Icon": "UI_ItemIcon_104339"
   },
@@ -15702,7 +15742,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Filosofía de la ecuanimidad",
-    "Description": "La ecuanimidad es el dique de la Nación del Agua y los cimientos sobre los que se construyó Fontaine.\nEs un sistema de principios morales que debe consolidarse con la ayuda de la ley. Tanto dichos principios como dicha ley están basados en unos criterios invariables que, sin embargo, evolucionan sin cesar.",
+    "Description": "Material de mejora de talento.\nLa ecuanimidad es el dique de la Nación del Agua y los cimientos sobre los que se construyó Fontaine.\nEs un sistema de principios morales que debe consolidarse con la ayuda de la ley. Tanto dichos principios como dicha ley están basados en unos criterios invariables que, sin embargo, evolucionan sin cesar.",
     "TypeDescription": "Material de talento de personaje",
     "Icon": "UI_ItemIcon_104340"
   },
@@ -15712,7 +15752,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Enseñanzas de la justicia",
-    "Description": "La justicia es la espada de la Nación del Agua, una espada empuñada por el sistema legal de Fontaine.\nSin unos principios que rijan la justicia, la ley se convierte en papel mojado que cualquiera puede manipular en beneficio propio.",
+    "Description": "Material de mejora de talento.\nLa justicia es la espada de la Nación del Agua, una espada empuñada por el sistema legal de Fontaine.\nSin unos principios que rijan la justicia, la ley se convierte en papel mojado que cualquiera puede manipular en beneficio propio.",
     "TypeDescription": "Material de talento de personaje",
     "Icon": "UI_ItemIcon_104341"
   },
@@ -15722,7 +15762,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Guía de la justicia",
-    "Description": "La justicia es la espada de la Nación del Agua, una espada empuñada por el sistema legal de Fontaine.\nLa justicia ha de ser ciega. Empuñándola como una espada, no habrá intereses o motivo personales que la desvirtúen.",
+    "Description": "Material de mejora de talento.\nLa justicia es la espada de la Nación del Agua, una espada empuñada por el sistema legal de Fontaine.\nLa justicia ha de ser ciega. Empuñándola como una espada, no habrá intereses o motivos personales que la desvirtúen.",
     "TypeDescription": "Material de talento de personaje",
     "Icon": "UI_ItemIcon_104342"
   },
@@ -15732,7 +15772,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Filosofía de la justicia",
-    "Description": "La justicia es la espada de la Nación del Agua, una espada empuñada por el sistema legal de Fontaine.\nLa justicia implica dictaminar y mediar: dictaminar como una espada que detiene el crimen y mediar como un método para mantener el orden.",
+    "Description": "Material de mejora de talento.\nLa justicia es la espada de la Nación del Agua, una espada empuñada por el sistema legal de Fontaine.\nLa justicia implica dictaminar y mediar: dictaminar como una espada que detiene el crimen y mediar como un método para mantener el orden.",
     "TypeDescription": "Material de talento de personaje",
     "Icon": "UI_ItemIcon_104343"
   },
@@ -15742,7 +15782,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Enseñanzas del orden",
-    "Description": "El orden es el escudo de la Nación del Agua, un firme orden al que sirven las leyes de Fontaine.\nSi no existe el orden, solo hay caos y confusión en el que la ecuanimidad no tiene cabida alguna.",
+    "Description": "Material de mejora de talento.\nEl orden es el escudo de la Nación del Agua, un firme orden al que sirven las leyes de Fontaine.\nSi no existe el orden, solo hay caos y confusión en el que la ecuanimidad no tiene cabida alguna.",
     "TypeDescription": "Material de talento de personaje",
     "Icon": "UI_ItemIcon_104344"
   },
@@ -15752,7 +15792,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Guía del orden",
-    "Description": "El orden es el escudo de la Nación del Agua, un firme orden al que sirven las leyes de Fontaine.\nSi no se puede garantizar el orden, la justicia se convierte en una violencia sin límites y en un arma que pone a todos en contra de todos.",
+    "Description": "Material de mejora de talento.\nEl orden es el escudo de la Nación del Agua, un firme orden al que sirven las leyes de Fontaine.\nSi no se puede garantizar el orden, la justicia se convierte en una violencia sin límites y en un arma que pone a todos en contra de todos.",
     "TypeDescription": "Material de talento de personaje",
     "Icon": "UI_ItemIcon_104345"
   },
@@ -15762,7 +15802,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Filosofía del orden",
-    "Description": "El orden es el escudo de la Nación del Agua, un firme orden al que sirven las leyes de Fontaine.\nLa ecuanimidad y la justicia derivan del orden y le sirven fielmente. Igual que las serenas aguas de Fontaine, el orden constituye la piedra angular de la nación.",
+    "Description": "Material de mejora de talento.\nEl orden es el escudo de la Nación del Agua, un firme orden al que sirven las leyes de Fontaine.\nLa ecuanimidad y la justicia derivan del orden y le sirven fielmente. Igual que las serenas aguas de Fontaine, el orden constituye la piedra angular de la nación.",
     "TypeDescription": "Material de talento de personaje",
     "Icon": "UI_ItemIcon_104346"
   },
@@ -21653,7 +21693,7 @@
     "RankLevel": 1,
     "ItemType": 2,
     "Name": "Pato confitado extraño",
-    "Description": "Se trata de una receta frita. Da la sensación de que la carne se va a deshacer en cualquier momento. El primer bocado tiene un sabor demasiado grasiento y hay algo que no termina de encajar con esta textura... Arg, ¿es eso un pelo de pato?",
+    "Description": "Se trata de una receta frita. Da la sensación de que la carne se va a deshacer en cualquier momento. El primer bocado tiene un sabor demasiado grasiento y hay algo que no termina de encajar con esta textura... Arg, ¿es eso una pluma de pato?",
     "TypeDescription": "Comida",
     "Icon": "UI_ItemIcon_108513"
   },
@@ -21774,7 +21814,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Pan de ajo delicioso",
-    "Description": "Una rebanada de baguette. Se dice que cada cierto se celebra en Fontaine una competición culinaria y que los mejores maestros panaderos hacen alarde de sus deliciosas barras de pan en el Palacio Mermonia. ¡Esta baguette con ajo podría, sin duda alguna, ganar el primer premio en una de esas competiciones!",
+    "Description": "Una rebanada de baguette. Se dice que cada cierto tiempo se celebra en Fontaine una competición culinaria y que los mejores maestros panaderos hacen alarde de sus deliciosas barras de pan en el Palacio Mermonia. ¡Esta baguette con ajo podría, sin duda alguna, ganar el primer premio en una de esas competiciones!",
     "TypeDescription": "Comida",
     "Icon": "UI_ItemIcon_108522"
   },
@@ -22316,6 +22356,358 @@
     "Description": "Una bebida con colores muy sencillos. Este refrescante batido tiene un sutil buqué afrutado que te recuerda a las nubes de la Cima Chingyun. ¿Tendrá la misma textura suave y esponjosa?",
     "TypeDescription": "Comida",
     "Icon": "UI_ItemIcon_108571"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaura un 8% de la Vida Máx. al personaje seleccionado y regenera 210 pts. de Vida cada 5 s durante 30 s.",
+    "Id": 108573,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Trucha con almendras extraña",
+    "Description": "Un gran trozo de pescado frito en aceite. El amargo sabor de la piel chamuscada del pescado se asienta en la base de la lengua y ni un buen trago de agua es capaz de hacer que desaparezca. Parece que es necesario afinar el control del fuego.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108574"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaura un 9% de la Vida Máx. al personaje seleccionado y regenera 260 pts. de Vida cada 5 s durante 30 s.",
+    "Id": 108574,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Trucha con almendras",
+    "Description": "Un gran trozo de pescado frito en aceite. Primero, se dora el pescado en mantequilla, luego se fríen las almendras y se sirven en una fuente. La forma tradicional de cocinar este plato era procesar el filete de trucha entero y luego ponerlo directamente en la sartén, pero últimamente se ha popularizado freír el pescado.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108574"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaura un 10% de la Vida Máx. al personaje seleccionado y regenera 300 pts. de Vida cada 5 s durante 30 s.",
+    "Id": 108575,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Trucha con almendras deliciosa",
+    "Description": "Un gran trozo de pescado frito en aceite. Las almendras crujientes se acompañan con trozos de jugoso pescado que te harán sentir como si estuvieras nadando entre las olas del océano y disfrutando de un choque fresco de sabor.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108574"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "#Restaura un 20% de la Vida Máx. y 900{NON_BREAK_SPACE}pts. de Vida al personaje seleccionado.",
+    "Id": 108576,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Costillas a la parrilla extrañas",
+    "Description": "Un plato de carne envuelta en piel crujiente. El exceso de cocción ha carbonizado la piel, y el costillar que estaba envuelto en ella estaba completamente cocido... Tal vez habría sido mejor bautizar este plato como “costillas a la chamusquina”.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108577"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "#Restaura un 22% de la Vida Máx. y 1200{NON_BREAK_SPACE}pts. de Vida al personaje seleccionado.",
+    "Id": 108577,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Costillas a la parrilla",
+    "Description": "Un plato de carne envuelta en piel crujiente. Las costillas se doran ligeramente por fuera, luego se unta la piel crujiente en salsa y se sazona. Finalmente, se asan lentamente a baja temperatura. Con un buen control del calor se obtiene una piel crujiente y una carne jugosa.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108577"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "#Restaura un 24% de la Vida Máx. y 1500{NON_BREAK_SPACE}pts. de Vida al personaje seleccionado.",
+    "Id": 108578,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Costillas a la parrilla deliciosas",
+    "Description": "Un plato de carne envuelta en piel crujiente. El aroma de la carne ya es abrumador incluso antes de sacarlas del horno. Con un bocado notarás el embriagador chasquido de la piel crujiente y la carne tierna deshaciéndose en la boca. ¡No es de extrañar que al servirlas se conviertan en el centro de atención de la mesa!",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108577"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "#Restaura un 26% de la Vida Máx. al personaje seleccionado y regenera 450{NON_BREAK_SPACE}pts. de Vida cada 5{NON_BREAK_SPACE}s durante 30{NON_BREAK_SPACE}s.",
+    "Id": 108579,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bavaroise de café extraña",
+    "Description": "Un postre refrescante. Tras probarlo, el intenso sabor agrio y amargo hace que el cerebro se quede en blanco. Cabe suponer que se debe a la cantidad excesiva de granos de café. El sabor amargo de la boca debería calmarse al cabo de un rato, pero más importante sería preocuparse por la calidad del sueño de esta noche...",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108580"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "#Restaura un 28% de la Vida Máx. al personaje seleccionado y regenera 620{NON_BREAK_SPACE}pts. de Vida cada 5{NON_BREAK_SPACE}s durante 30{NON_BREAK_SPACE}s.",
+    "Id": 108580,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bavaroise de café",
+    "Description": "Un postre refrescante. Como postre típico de Fontaine, es tan fácil de hacer que es prácticamente imposible fallar si los ingredientes se emplean en las proporciones adecuadas. Es delicado, pero también tiene un sabor refrescante que levanta el ánimo al instante.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108580"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "#Restaura un 30% de la Vida Máx. al personaje seleccionado y regenera 790{NON_BREAK_SPACE}pts. de Vida cada 5{NON_BREAK_SPACE}s durante 30{NON_BREAK_SPACE}s.",
+    "Id": 108581,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bavaroise de café deliciosa",
+    "Description": "Un postre refrescante. El rico aroma de las natillas florece en la lengua junto con el sabor del café, pero lo más sorprendente es su textura densa y sedosa. ¡Un favorito infaltable en las cartas de postres de los restaurantes!",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108580"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta la DEF de todos los miembros del equipo en 215 pts. y su curación en un 6% durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108582,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Haggis extraño",
+    "Description": "Un plato de sabor intenso. La textura granulosa, seca y áspera raspa la superficie de la lengua, lo que hace imposible sentir que se trate de algo comestible. Mientras se mastica, uno se pregunta: ¿no habrán mezclado astillas de madera accidentalmente durante el proceso de preparación?",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108583"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta la DEF de todos los miembros del equipo en 261 pts. y su curación en un 8% durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108583,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Haggis",
+    "Description": "Un plato de sabor intenso. Las vísceras de la oveja se trituran, se mezclan con la avena, se agregan los condimentos y se introducen en el estómago de la oveja para formar saquitos. Los saquitos a menudo se retiran cuando se sirven los platos, y solo se come el contenido junto con puré de rábano y papas. Se trata de un manjar local que a menudo se sirve para agasajar a los invitados de honor en Fontaine.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108583"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta la DEF de todos los miembros del equipo en 308 pts. y su curación en un 10% durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108584,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Haggis delicioso",
+    "Description": "Un plato de sabor intenso. El sabor de la carne mezclada con todo tipo de especias crea un cóctel de sabores. Al saborearla, el aroma de la carne deja un regusto persistente. No sería de extrañar que un bardo le dedicara a este plato un poema tras probarlo.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108583"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Revive a un personaje y restaura 900{NON_BREAK_SPACE}pts. de su Vida.",
+    "Id": 108585,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Callos a la portuaria extraños",
+    "Description": "Un plato hecho a base de vísceras. Los callos parecen piel de animal seca, completamente imposibles de masticar, y lo que es peor, el extraño sabor empieza a impregnar la boca y es casi como enfrentarse a una lata caducada... Darse por vencido podría ser la mejor opción.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108586"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Revive a un personaje y restaura 1200{NON_BREAK_SPACE}pts. de su Vida.",
+    "Id": 108586,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Callos a la portuaria",
+    "Description": "Un plato hecho a base de vísceras. Los ingredientes se cortan en trozos, se ponen en una sartén, se sellan con masa y se hornean. Este método de preparación tiene su origen en cierta ciudad portuaria, cuya historia hace tiempo que fue engullida por la crecida del mar, pero el manjar se ha transmitido en Fontaine.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108586"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Revive a un personaje y restaura 1500{NON_BREAK_SPACE}pts. de su Vida.",
+    "Id": 108587,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Callos a la portuaria deliciosos",
+    "Description": "Un plato hecho a base de vísceras. Crujientes trozos de tripa con un aroma afrutado. A diferencia de los sorprendentes platos novedosos, ¡los sabores suaves y tradicionales llenan el plato haciendo que no puedas parar en cuanto lo pruebes!",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108586"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta el ATQ de todos los miembros del equipo en 160 pts. durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108588,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tomates Narbonnais extraños",
+    "Description": "Un plato hecho a base de carne y verduras. El color oscuro de los tomates da la sensación de que están llorando, pero lo peor es que la carne que contiene es como si fueran trozos de madera. Y, encima, hay cuatro tomates como este. ¿Cómo se lidia con algo así?",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108589"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta el ATQ de todos los miembros del equipo en 194 pts. durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108589,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tomates Narbonnais",
+    "Description": "Un plato hecho a base de carne y verduras. Los tomates redondos se vacían y se rellenan con carne picada de forma uniforme, se preparan y se hornean. El producto final es agridulce, suave y muy popular en las mesas de Fontaine.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108589"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta el ATQ de todos los miembros del equipo en 228 pts. durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108590,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tomates Narbonnais deliciosos",
+    "Description": "Un plato hecho a base de carne y verduras. Los tomates, jugosos y rellenos, aportan un toque de alegría a la carne picada, y el bocado es maravillosamente agrio y sabroso. Al comerlo entero, toda la melancolía del corazón se disipa gracias al delicioso placer que transmite la punta de la lengua.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108589"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta la Prob. CRIT de todos los miembros del equipo en un 10% durante 300{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108591,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cien sabores extraños",
+    "Description": "Una sopa de compleja elaboración. El líquido turbio salta a la vista que es todo un fracaso. Los únicos que podrían aceptar una comida así en toda Fontaine serían probablemente las Ánimas Legamosas que vagan por el agua...",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108592"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta la Prob. CRIT de todos los miembros del equipo en un 15% durante 300{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108592,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cien sabores",
+    "Description": "Una sopa de compleja elaboración. Los ingredientes se trituran y se cuecen a fuego lento con el caldo, y este se cuela y se sirve al final. Circula por las calles de Fontaine el misterioso rumor de que escritores faltos de inspiración la encuentran con solo probar esta sopa... Pero ¿no son los mercaderes quienes crean cosas con efectos tan increíbles?",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108592"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta la Prob. CRIT de todos los miembros del equipo en un 20% durante 300{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108593,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cien sabores deliciosos",
+    "Description": "Una sopa de compleja elaboración. Una sopa ligera que combina la esencia del vasto cielo y de la tierra sin límites. El aroma de la carne y las verduras armoniza a la perfección. No es de extrañar que una vez hubiera un columnista de «El Pájaro de Vapor» incapaz de escribir una palabra y que, tras tomar esta sopa, las ideas comenzaran de repente a brotar en su mente como si hubiera recibido inspiración divina.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108592"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Disminuye el Coste de Aguante de todos los miembros del equipo al esprintar en un 15% durante 900 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108594,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pudín negro de manzana extraño",
+    "Description": "Un plato tradicional de la Fontaine. Se ha descuidado el uso excesivo de aceite, lo cual ha dado como resultado un producto aceitoso incluso después de freírlo. Si se halla una buena forma de escurrir todo ese aceite, quizá se pueda probar.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108595"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Disminuye el Coste de Aguante de todos los miembros del equipo al esprintar en un 20% durante 900 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108595,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pudín negro de manzana",
+    "Description": "Un plato tradicional de Fontaine. Primero, se cocinan los trozos de manzana y la morcilla a la parrilla y luego se sirven acompañados de una salsa. Muchos visitantes de fuera piensan que es algún tipo de dulce debido a su nombre, pero lo cierto es que pudín negro es un nombre muy común para la morcilla.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108595"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Disminuye el Coste de Aguante de todos los miembros del equipo al esprintar en un 25% durante 900 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108596,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pudín negro de manzana delicioso",
+    "Description": "Un plato tradicional de Fontaine. La grasa de la morcilla queda perfectamente neutralizada por la manzana dulce, desprendiendo un fascinante aroma caramelizado que hará que tus ojos se iluminen de admiración.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108595"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta la Protección de Escudo de todos los miembros del equipo en un 20% durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108597,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cassoulet extraña",
+    "Description": "Un plato de la tierra, sencillo y fácil de preparar. La apariencia parece buena. Al comerlo, se aprecia un ligero olor a chamuscado que revela que los ingredientes del fondo se habían quemado y pegado a la cazuela. La próxima vez, convendría recordar darle una vuelta al cocinarlo...",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108598"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta la Protección de Escudo de todos los miembros del equipo en un 25% durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108598,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cassoulet",
+    "Description": "Un plato de la tierra, sencillo y fácil de preparar. Basta con cocinar en una cazuela todos los ingredientes. Lo más relevante de este plato es probablemente su nombre completo: estofado a la cazuela de patatas tiernas, carne de ave y salchichas ahumadas con base ajardinada de jazmimpolutos. Pero era demasiado largo, así que al final se quedó con Cassoulet.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108598"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta la Protección de Escudo de todos los miembros del equipo en un 30% durante 300 s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108599,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cassoulet deliciosa",
+    "Description": "Un plato de la tierra, sencillo y fácil de cocinar. El tiempo es el arma más mágica para catalizar un delicioso sabor. La larga cocción a fuego lento hace que la carne absorba el sabroso caldo y se ablande, lo que unido a los aromáticos frijoles crea un sabor cálido y vigorizante.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108598"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Disminuye el Coste de Aguante de todos los miembros del equipo al esprintar y planear en un 15% durante 900{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108600,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Crepes Suzette extrañas",
+    "Description": "Una fina masa de tortilla rellena. El primer bocado es tan soso que te preocupa haber perdido el sentido del gusto, y el segundo es tan dulce que preferirías perder las papilas gustativas... Es una experiencia tan emocionante que es como gobernar un Rompeolas en medio de una tormenta. Incluso tras haber llegado a tierra, seguirás impactado por el trauma.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108601"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Disminuye el Coste de Aguante de todos los miembros del equipo al esprintar y planear en un 20% durante 900{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108601,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Crepes Suzette",
+    "Description": "Una fina masa de tortilla rellena. Primero se fríe la tortilla y luego se añade mermelada, crema batida y trozos de fruta. Hay mil y una maneras de condimentarla, lo que da lugar a todo un abanico de posibles sabores.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108601"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Disminuye el Coste de Aguante de todos los miembros del equipo al esprintar y planear en un 25% durante 900{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108602,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Crepes Suzette deliciosas",
+    "Description": "Una fina masa de tortilla rellena. La crema ligera y la mermelada densa se entrelazan en una larga melodía. La suave capa exterior, como de una grácil falda se tratara, atrae a la lengua, incapaz de resistirse a bailar con ella.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108601"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta la Prob. CRIT y Daño CRIT de todos los miembros del equipo en un 20% durante 300{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108603,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Gota de bruma",
+    "Description": "La especialidad de Neuvillette. Según él, ha utilizado el agua de montaña más pura y refrescante para crear un producto único y exquisito. Su sabor es realmente refrescante y delicioso. En cuanto al hecho de que el sabor en general no difiere del de una sopa común, será mejor no hablar de ello...",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108603"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaura un 30% de Vida Máx. y 1750 pts. de Vida al personaje seleccionado.",
+    "Id": 108604,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Costillas con salsa secreta",
+    "Description": "La especialidad de Wriothesley. Tras oírle rechazar a sus subordinados bajo el pretexto de que “si nos vamos ahora, la cocina explotará”, al poco rato apareció un plato de carne. El jugo de la carne y la piel crujiente provocan un doble placer extraordinario, aunque el sabor era exactamente igual al de cierto condimento que se había popularizado recientemente...",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108604"
   },
   {
     "MaterialType": 5,
@@ -23938,6 +24330,106 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109546,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Receta: trucha con almendras",
+    "Description": "Receta paso a paso para hacer una trucha con almendras.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109547,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Receta: costillas a la parrilla",
+    "Description": "Receta paso a paso para hacer unas costillas a la parilla.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109548,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Receta: bavaroise de café",
+    "Description": "Receta paso a paso para hacer una bavaroise de café.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109549,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Receta: haggis",
+    "Description": "Receta paso a paso para hacer haggis.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109550,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Receta: callos a la portuaria",
+    "Description": "Receta paso a paso para hacer callos a la portuaria.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109551,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Receta: tomates Narbonnais",
+    "Description": "Receta paso a paso para hacer tomates Narbonnais.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109552,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Receta: cien sabores",
+    "Description": "Receta paso a paso para hacer “cien sabores”.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109553,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Receta: pudín negro de manzana",
+    "Description": "Receta paso a paso para hacer un pudín negro de manzana.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109554,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Receta: cassoulet",
+    "Description": "Receta paso a paso para hacer una cassoulet.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109555,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Receta: crepes Suzette",
+    "Description": "Receta paso a paso para hacer crepes Suzette.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -24297,9 +24789,20 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Cebo maná",
-    "Description": "El cebo utiliza el capullo de una rosa como base, y se mezcla con fruto harra seco en polvo. Al comerlo da una sensación picante con un regusto dulce. El sabor es como la vida de un pescador. Como se suele decir, la cosecha que ha sobrevivido al temporal es la más gratificante.\n\nPerfecto para pescar peces globo y peces espada.",
+    "Description": "El cebo utiliza el capullo de una rosa como base, y se mezcla con fruto harra seco en polvo. Al comerlo da una sensación picante con un regusto dulce. El sabor es como la vida de un pescador. Como se suele decir, la cosecha que ha sobrevivido al temporal es la más gratificante.\n\nPerfecto para pescar peces globo y marlines.",
     "TypeDescription": "Cebo",
     "Icon": "UI_ItemIcon_111028"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta el ATQ de todos los miembros del equipo en 320 pts., su Prob. CRIT en un 10% y el daño recibido en un 20% durante 30{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 111029,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Agua pura",
+    "Description": "Se dice que es el legado de un Maestro de Pociones. Puede extraer una parte del poder más puro del cuerpo de alguien.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_111029"
   },
   {
     "MaterialType": 32,
@@ -25116,7 +25619,7 @@
     "Id": 112080,
     "RankLevel": 1,
     "ItemType": 2,
-    "Name": "Condensado engendroceánico",
+    "Name": "Condensado extramarino",
     "Description": "Un diminuto cristal obtenido del interior del cuerpo de un Engendro Fontamarino.\nComo la forma de estos seres se debe a la particular energía que hay en el agua, dependen de los mares de Fontaine para subsistir.",
     "TypeDescription": "Material de mejora de personaje y arma",
     "Icon": "UI_ItemIcon_112080"
@@ -25126,7 +25629,7 @@
     "Id": 112081,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "Fragmento engendroceánico",
+    "Name": "Fragmento extramarino",
     "Description": "Un cristal obtenido del interior del cuerpo de un Engendro Fontamarino.\nDe él se desprende una tenue y misteriosa energía.\nCuenta la leyenda que unos seres gigantes habitaban en un mar distante e inalcanzable para humanos y rutas marítimas. Sin embargo, a excepción de ese mar, el resto no tenía nada del otro mundo, y su vitalidad no era nada comparada con la de los mares de Fontaine.",
     "TypeDescription": "Material de mejora de personaje y arma",
     "Icon": "UI_ItemIcon_112081"
@@ -25230,6 +25733,36 @@
     "Description": "El núcleo de un Protofisurador.\nNo existe una forma de eliminar por completo a estas criaturas, ya que aunque lo único que quede de ellas sea el núcleo, revivirán al día siguiente o décadas después. Por suerte, no son ni muy agresivas ni inteligentes, por lo que la mayoría de la gente de Fontaine mantiene las distancias con ellas.",
     "TypeDescription": "Material de mejora de personaje y arma",
     "Icon": "UI_ItemIcon_112091"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112092,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Reloj de bolsillo vetusto de Senescal",
+    "Description": "El reloj de bolsillo estándar que se entrega a las Senescales Fatui.\nEl desgaste y el óxido de la insignia de la carcasa reflejan fielmente sus días como ejecutoras.",
+    "TypeDescription": "Material de mejora de personaje y arma",
+    "Icon": "UI_ItemIcon_112092"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112093,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Reloj de bolsillo estándar de Senescal",
+    "Description": "El reloj de bolsillo estándar que se entrega a las Senescales Fatui.\nEl diseño del reloj no es muy bueno, y la excesiva angulosidad de la carcasa suele rasgar la ropa, por lo que siempre hay quien utiliza una carcasa más sencilla y sin rasgos distintivos.",
+    "TypeDescription": "Material de mejora de personaje y arma",
+    "Icon": "UI_ItemIcon_112093"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112094,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Asiduidad de Senescal",
+    "Description": "Un accesorio que contiene un Engaño, la fuente del poder elemental de las Senescales Fatui.\nAunque no lo usaran, las Senescales seguirían teniendo unas cualidades físicas superiores a las de la gente normal, las cuales provienen de un largo entrenamiento y de la experiencia en combate. Los Fatui a menudo consagran su pasado, presente y futuro a su nación ideal, y el daño que pueda causarles los Engaños les resulta irrelevante.",
+    "TypeDescription": "Material de mejora de personaje y arma",
+    "Icon": "UI_ItemIcon_112094"
   },
   {
     "MaterialType": 14,
@@ -25717,7 +26250,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Recambio mecánico de Coppélia",
-    "Description": "Una pieza de recambio perteneciente a Coppélia y que sirve como fuente de energía para este bailarín mecánico.\nPara su creador, la historia de esta bailarina de juntas finas reposa en un momento feliz, y Coppélia utilizará sus extraordinarias habilidades de combate para enviar al capítulo de la tragedia a cualquier invitado indeseado que perturbe dicho momento.",
+    "Description": "Una pieza de recambio perteneciente a Coppélia y que sirve como fuente de energía para esta bailarina mecánica.\nPara su creador, la historia de esta bailarina de juntas finas reposa en un momento feliz, y Coppélia utilizará sus extraordinarias habilidades de combate para enviar al capítulo de la tragedia a cualquier invitado indeseado que perturbe dicho momento.",
     "TypeDescription": "Material de mejora de personaje",
     "Icon": "UI_ItemIcon_113049"
   },
@@ -25740,6 +26273,26 @@
     "Description": "La tenaza de guerra del Emperador Piroacorazado. Ya se trate de otros Engendros Fontamarinos, de Mecabots o de un cazador, el Emperador Piroacorazado ha aplastado a innumerables visitantes con esta colosal tenaza.\nA diferencia de los humanos, entre los Engendros Fontamarinos no existe ni la aristocracia, ni la herencia de la riqueza ni nadie con privilegios desde el nacimiento. Aquellos Engendros Fontamarinos que son capaces de superar todas las adversidades y derrotar a sus depredadores naturales se fortalecen con el tiempo a medida que cazan y se alimentan, hasta que acaban siendo temidos y se convierten en grandes monarcas.",
     "TypeDescription": "Material de mejora de personaje",
     "Icon": "UI_ItemIcon_113051"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113052,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Dispositivo de Tubion",
+    "Description": "Un componente del núcleo del Generador de Campo Experimental.\nUn preciso componente mecánico capaz de contrarrestar el efecto gravitatorio y con una fuerza rotativa tan rápida que resulta casi imperceptible para el ojo humano.\nEn su larga historia, el Instituto de Investigación Científica e Ingeniería de Energía Cinética de Fontaine ha perdido incontables vidas, pero llegará un día en el que vuelva a erigirse como enemigo de las inundaciones en busca de un camino hacia la supervivencia.\nContiene tal cantidad de energía que, en el pasado, era capaz de romper las cadenas terrenales del árjium y se le consideraba la llave que abría la puerta hacia la salvación.",
+    "TypeDescription": "Material de mejora de personaje",
+    "Icon": "UI_ItemIcon_113052"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113053,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Cuerno de corcel fontamarino",
+    "Description": "El dispositivo de descargas eléctricas del Corcel de Mar Perlamilenario, el cual también es símbolo de su extraordinaria trascendencia real.\nComo depredador superior que creció a partir de un Caballito Burbumarino, el proceso evolutivo del Corcel de Mar Perlamilenario es completamente distinto al de otros Engendros Fontamarinos: no evolucionó para hacerse más grande y fuerte basándose en la estructura original de la especie, sino que desarrolló extremidades, un cuerno e incluso cambios en su estructura ósea y muscular que no estaban presentes en los Caballitos Burbumarinos. Su forma se parece más a la de una bestia fantástica de una antigua leyenda que a la original. En las fantasías de poetas y dramaturgos, incluso un caballito de mar podría ser como un unicornio galopando y saltando sobre la superficie terrestre.",
+    "TypeDescription": "Material de mejora de personaje",
+    "Icon": "UI_ItemIcon_113053"
   },
   {
     "MaterialType": 14,
@@ -26227,7 +26780,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Fragmento de serenata arcaica",
-    "Description": "Una pieza oxidada de arpa. El tubo por el que sale la música está obstruido, así que ya no sirve para tocar.\nDicen que, para restaurar la magnificencia de la antigua dinastía, los descendientes de la serenata olvidada revistieron de oro unas arpas mecánicas de madera en un inútil intento de dárselo a unos gólems taciturnos.\nMucho tiempo después, esas arpas, ahora oxidadas y desafinadas, siguen en las manos de aquellas gigantescas estatuas silenciosas mientras acarician el mar con el melancólico eco de su música.",
+    "Description": "Material de ascensión de arma.\nUna pieza oxidada de arpa cuyo tubo por el que sale la música está obstruido, así que ya no sirve para tocar.\nDicen que, para restaurar la magnificencia de la antigua dinastía, los descendientes de la serenata olvidada revistieron de oro unas arpas mecánicas de madera en un inútil intento de dárselo a unos gólems taciturnos.\nMucho tiempo después, esas arpas, ahora oxidadas y desafinadas, siguen en las manos de aquellas gigantescas estatuas silenciosas mientras acarician el mar con el melancólico eco de su música.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114049"
   },
@@ -26237,7 +26790,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Pieza de serenata arcaica",
-    "Description": "Cuenta la leyenda que el pueblo de la antigua dinastía fabricó arpas de hierro negro para conmemorar y llorar por los difuntos.\nDichas arpas, sin embargo, no producían sonido alguno, así que para llorar la pérdida de la dinastía que se enorgullecía de su serenata dorada, el pueblo creó estos pesados y afásicos instrumentos musicales.\nNo obstante, del hierro negro, tan taciturno como aquella época, no salió ni una sola nota musical.",
+    "Description": "Material de ascensión de arma.\nCuenta la leyenda que el pueblo de la antigua dinastía fabricó arpas de hierro negro para conmemorar y llorar por los difuntos.\nDichas arpas, sin embargo, no producían sonido alguno, así que para llorar la pérdida de la dinastía que se enorgullecía de su serenata dorada, el pueblo creó estos pesados y afásicos instrumentos musicales.\nNo obstante, del hierro negro, tan taciturno como aquella época, no salió ni una sola nota musical.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114050"
   },
@@ -26247,7 +26800,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Movimiento de serenata arcaica",
-    "Description": "La serenata se fragmentó y las notas musicales se silenciaron durante la catástrofe en la que palacios de oro y tronos reales quedaron sumergidos bajo el agua.\nSin embargo, la gente del imperio nunca renunció a su esperanza de poder salvar y trascender a su destino.\nA fin de salvar una civilización en decadencia y unos sueños trascendentales, la Compañía Dorada interpretó una bella sinfonía con la que guio a los niños para que ofrecieran sus nobles almas a los gólems durmientes.",
+    "Description": "Material de ascensión de arma.\nLa serenata se fragmentó y las notas musicales se silenciaron durante la catástrofe en la que palacios de oro y tronos reales quedaron sumergidos bajo el agua.\nSin embargo, la gente del imperio nunca renunció a su esperanza de poder salvar y trascender a su destino.\nA fin de salvar una civilización en decadencia y unos sueños trascendentales, la Compañía Dorada interpretó una bella sinfonía con la que guio a los niños para que ofrecieran sus nobles almas a los gólems durmientes.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114051"
   },
@@ -26257,7 +26810,7 @@
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "Reverberación de serenata arcaica",
-    "Description": "La grandiosa serenata del rey divino estaba compuesta por un sinfín de sinfonías, pero la principal de todas ellas se encontraba oculta en un lugar muy profundo bajo el destino conjunto de la Nación del Agua.\nLa armonía y las sonatas de la época de paz fueron los símbolos de la civilización y el orden, pero cuando el próspero imperio degeneró hasta convertirse en el feudo del tirano, los violentos rompieron toda conexión que había con la fuente original y quisieron ocultarlo con una magnífica capa dorada, de modo que en todas partes del imperio retumbaba un estrépito que carecía de armonía alguna...\nAquella primera tonada del destino siguió sin verse perturbada y continuó sonando gracias a una partitura dorada que, con el paso del tiempo, fue perdiendo todo su brillo... hasta que todo, absolutamente todo se disolvió y volvió a sumirse en el caos.",
+    "Description": "Material de ascensión de arma.\nLa grandiosa serenata del rey divino estaba compuesta por un sinfín de sinfonías, pero la principal de todas ellas se encontraba oculta en un lugar muy profundo bajo el destino conjunto de la Nación del Agua.\nLa armonía y las sonatas de la época de paz fueron los símbolos de la civilización y el orden, pero cuando el próspero imperio degeneró hasta convertirse en el feudo del tirano, los violentos rompieron toda conexión que había con la fuente original y quisieron ocultarlo con una magnífica capa dorada, de modo que en todas partes del imperio retumbaba un estrépito que carecía de armonía alguna...\nAquella primera tonada del destino siguió sin verse perturbada y continuó sonando gracias a una partitura dorada que, con el paso del tiempo, fue perdiendo todo su brillo... hasta que todo, absolutamente todo se disolvió y volvió a sumirse en el caos.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114052"
   },
@@ -26267,7 +26820,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Sedimento de rocío sagrado",
-    "Description": "Cuenta la leyenda que, antes del nacimiento de los seres vivos, existía un denso Mar Primigenio. Este mar era el origen de la pureza de todas las cosas, pero también el que acabaría engullendo a todo ser vivo. Mientras tanto, aquello que no tenía cabida en el Mar Primigenio era filtrado y se convertía en desechos a la deriva.\n“Si incluso los desechos tienen su razón de ser, ¿qué tipo de cosas pueden ser rechazadas por el mar de los orígenes primigenios que todo lo engulle?”, reflexionó el joven afinador mientras caminaba junto al grandioso tirano.",
+    "Description": "Material de ascensión de arma.\nCuenta la leyenda que, antes del nacimiento de los seres vivos, existía un denso Mar Primigenio. Este mar era el origen de la pureza de todas las cosas, pero también el que acabaría engullendo a todo ser vivo. Mientras tanto, aquello que no tenía cabida en el Mar Primigenio era filtrado y se convertía en desechos a la deriva.\n“Si incluso los desechos tienen su razón de ser, ¿qué tipo de cosas pueden ser rechazadas por el mar de los orígenes primigenios que todo lo engulle?”, reflexionó el joven afinador mientras caminaba junto al grandioso tirano.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114053"
   },
@@ -26277,7 +26830,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Sublimación de rocío sagrado",
-    "Description": "El afinador Boecio dijo una vez: “Los animales que proceden del Mar Primigenio tendrán todos el mismo destino, pero el espíritu de superación de los humanos tiene infinitas posibilidades, por lo que ni dicho mar podrá engullirlos”.\nEn el pasado, el arrogante tirano intentó utilizar el icor, el cual era insoluble en agua pura, para reunir la sabiduría y los recuerdos con los que ordenar a sus súbditos a que renunciaran a su cuerpo físico y obtuvieran una vida eterna independiente.\nSin embargo, ningún ser vivo normal era capaz de soportar el dolor de esa transformación corpórea, así que, por culpa del decreto del tirano, las almas de esas personas se hicieron añicos.\nAsí pues, el icor se manchó de negro por los gritos y los llantos de un sinfín de almas, con lo que perdió toda la armonía y sabiduría que contenía y se transformó en un objeto de caos y locura.",
+    "Description": "Material de ascensión de arma.\nEl afinador Boecio dijo una vez: “Los animales que proceden del Mar Primigenio tendrán todos el mismo destino, pero el espíritu de superación de los humanos tiene infinitas posibilidades, por lo que ni dicho mar podrá engullirlos”.\nEn el pasado, el arrogante tirano intentó utilizar el icor, el cual era insoluble en agua pura, para reunir la sabiduría y los recuerdos con los que ordenar a sus súbditos a que renunciaran a su cuerpo físico y obtuvieran una vida eterna independiente.\nSin embargo, ningún ser vivo normal era capaz de soportar el dolor de esa transformación corpórea, así que, por culpa del decreto del tirano, las almas de esas personas se hicieron añicos.\nAsí pues, el icor se manchó de negro por los gritos y los llantos de un sinfín de almas, con lo que perdió toda la armonía y sabiduría que contenía y se transformó en un objeto de caos y locura.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114054"
   },
@@ -26287,7 +26840,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Manantial de rocío sagrado",
-    "Description": "Esta es una reliquia de cuando aún no existían los Caballeros Aguapura, los cuales siempre afirmaron que, en el manantial de una montaña remota y solitaria, vivían unos espíritus muy leales que protegían a dicho manantial de toda contaminación.\nSin embargo, el dueño del icor artificial no podía tolerar la existencia de ningún sonido distinto al de la grandiosa serenata. Se dice que el icor natural quedó sepultado y en el imperio se construyeron acueductos allá por donde pasó el afinador Boecio, de manera que aquellos espíritus de agua pura desaparecieron sin dejar rastro.",
+    "Description": "Material de ascensión de arma.\nEsta es una reliquia de cuando aún no existían los Caballeros Aguapura, los cuales siempre afirmaron que, en el manantial de una montaña remota y solitaria, vivían unos espíritus muy leales que protegían a dicho manantial de toda contaminación.\nSin embargo, el dueño del icor artificial no podía tolerar la existencia de ningún sonido distinto al de la grandiosa serenata. Se dice que el icor natural quedó sepultado y en el imperio se construyeron acueductos allá por donde pasó el afinador Boecio, de manera que aquellos espíritus de agua pura desaparecieron sin dejar rastro.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114055"
   },
@@ -26297,7 +26850,7 @@
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "Esencia de rocío sagrado",
-    "Description": "Un líquido denso, muy condensado y de alta pureza que fue refinado a partir de gotas de agua del inconmensurable Mar Primigenio. El antiguo rey divino creía que este líquido podía otorgar la vida eterna y la suprema sabiduría, pero no se percató de que, al acercar el oído, se podía escuchar muy lejanamente una profecía que vaticinaba la disolución de todo en uno.\nLa grandiosa serenata incompleta del rey divino decía que el dorado icor, una sustancia sin raíces u orígenes, remplazaría a la salvaje y burda agua primigenia, y que el glorioso orden de los sabios sempiternos iluminaría todos los rincones del mundo cual dulce rocío matutino.\nSin embargo, la vanidad del rey divino acabó sumergida en lo más profundo de las oscuras llanuras abisales, y el dorado icor fue corrompido por las aguas primigenias debido al implacable paso del tiempo...\nEl afinador hizo caso omiso de estos presagios y, sirviéndose de su tan deteriorado cuerpo, intentó usar la última gota de icor para dotar de vida a sus compatriotas y, así, restablecer el orden de antaño.\nEn la actualidad, los poetas dementes y los jóvenes pintores de Fontaine aún ven ocasionalmente en sus pesadillas la apocalíptica imagen que presenció Boecio, la cual les avisa de un bucle inexorable.",
+    "Description": "Material de ascensión de arma.\nUn líquido denso, muy condensado y de alta pureza que fue refinado a partir de gotas de agua del inconmensurable Mar Primigenio. El antiguo rey divino creía que este líquido podía otorgar la vida eterna y la suprema sabiduría, pero no se percató de que, al acercar el oído, se podía escuchar muy lejanamente una profecía que vaticinaba la disolución de todo en uno.\nLa grandiosa serenata incompleta del rey divino decía que el dorado icor, una sustancia sin raíces u orígenes, remplazaría a la salvaje y burda agua primigenia, y que el glorioso orden de los sabios sempiternos iluminaría todos los rincones del mundo cual dulce rocío matutino.\nSin embargo, la vanidad del rey divino acabó sumergida en lo más profundo de las oscuras llanuras abisales, y el dorado icor fue corrompido por las aguas primigenias debido al implacable paso del tiempo...\nEl afinador hizo caso omiso de estos presagios y, sirviéndose de su tan deteriorado cuerpo, intentó usar la última gota de icor para dotar de vida a sus compatriotas y, así, restablecer el orden de antaño.\nEn la actualidad, los poetas dementes y los jóvenes pintores de Fontaine aún ven ocasionalmente en sus pesadillas la apocalíptica imagen que presenció Boecio, la cual les avisa de un bucle inexorable.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114056"
   },
@@ -26307,7 +26860,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Copa rota del mar impoluto",
-    "Description": "Cuando el primer tirano llegó al Mar Primigenio, la persona que fundó la Nación del Agua le obsequió una copa.\nMás tarde, dicho tirano se convirtió en el rey divino al que nadie podía cuestionar, y construyó un glorioso y próspero imperio con las milagrosas gotas de rocío que recogió con esta copa.\nPero esta es una historia muy antigua y su protagonista aún dormita entre los bancos de peces del fondo del mar.",
+    "Description": "Material de ascensión de arma.\nCuando el Primer Usurpador llegó al Mar Primigenio, la persona que fundó la Nación del Agua le obsequió una copa.\nMás tarde, dicho usurpador se convirtió en el rey divino al que nadie podía cuestionar, y construyó un glorioso y próspero imperio con las milagrosas gotas de rocío que recogió con esta copa.\nPero esta es una historia muy antigua y su protagonista aún dormita entre los bancos de peces del fondo del mar.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114057"
   },
@@ -26317,7 +26870,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Copa de vino del mar impoluto",
-    "Description": "“¿Qué clase de imperio puede perdurar durante milenios?”, reflexionó el tirano tras regresar del reino de los dragones.\nCon una mezcla de inertes rocas e icor extraído de las aguas primigenias, se esculpió una raza tan tenaz como el hierro negro; una raza cuya piel era roca y cuya sangre era icor. Así, nunca más hubo que temer el regreso de la abominable maldición.\nAunque los taciturnos gólems aún sueñan con ese imperio, ya han pasado más de mil años desde su desaparición.",
+    "Description": "Material de ascensión de arma.\n“¿Qué clase de imperio puede perdurar durante milenios?”, reflexionó el usurpador tras regresar del reino de los dragones.\nCon una mezcla de inertes rocas e icor extraído de las aguas primigenias, se esculpió una raza tan tenaz como el hierro negro; una raza cuya piel era roca y cuya sangre era icor. Así, nunca más hubo que temer el regreso de la abominable maldición.\nAunque los taciturnos gólems aún sueñan con ese imperio, ya han pasado más de mil años desde su desaparición.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114058"
   },
@@ -26327,7 +26880,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Copa de plata del mar impoluto",
-    "Description": "En la época en la que un manto dorado cubría toda la nación, la agua pura de manantial no tuvo más remedio que esconderse en los arroyos de las montañas. En esos santuarios fue donde nacieron los Caballeros Aguapura.\nCon sus armaduras de plata como juramento de honor, los caballeros protegieron a los espíritus procedentes del agua pura, defendieron a los compatriotas que, igual que ellos, creían en la existencia de un único manantial original, y lucharon contra el autoritarismo del oro que se cirnió sobre toda la nación.\nEsta es una leyenda muy, muy antigua... Pero poco después de que el imperio se desmoronara y quedara sumergido bajo el agua, los caballeros que tanto habían luchado contra el tirano por fin pudieron quitarse las armaduras y sus historias pasaron a formar parte de las historias y el folclore.",
+    "Description": "Material de ascensión de arma.\nEn la época en la que un manto dorado cubría toda la nación, el agua pura de manantial no tuvo más remedio que esconderse en los arroyos de las montañas. En esos santuarios fue donde nacieron los Caballeros Aguapura.\nCon sus armaduras de plata como juramento de honor, los caballeros protegieron a los espíritus procedentes del agua pura, defendieron a los compatriotas que, igual que ellos, creían en la existencia de un único manantial original, y lucharon contra el autoritarismo del oro que se cirnió sobre toda la nación.\nEsta es una leyenda muy, muy antigua... Pero poco después de que el imperio se desmoronara y quedara sumergido bajo el agua, los caballeros que tanto habían luchado contra el usurpador por fin pudieron quitarse las armaduras y sus historias pasaron a formar parte de las historias y el folclore.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114059"
   },
@@ -26337,7 +26890,7 @@
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "Copa de oro del mar impoluto",
-    "Description": "Cuando el tirano de la ciudad sumergida tocó el último movimiento de la serenata dorada, el compositor que gozaba del favor imperial robó una copa dorada llena de icor.\nPerplejo ante la traición del rey divino, reunió a los últimos guardias imperiales y, sirviéndose del insoluble líquido de la copa, selló al dragón bajo la torre, hundiéndose hasta el fondo marino junto a la ciudad real.\nMás tarde, todo rastro que había de este noble ladrón desapareció por completo de los libros de historia, de forma que solamente la Compañía Dorada siguió recordando muy claramente la profecía que vaticinó.",
+    "Description": "Material de ascensión de arma.\nCuando el tirano de la ciudad sumergida tocó el último movimiento de la serenata dorada, el compositor que gozaba del favor imperial robó una copa dorada llena de icor.\nPerplejo ante la traición del rey divino, reunió a los últimos guardias imperiales y, sirviéndose del insoluble líquido de la copa, selló al dragón bajo la torre, hundiéndose hasta el fondo marino junto a la ciudad real.\nMás tarde, todo rastro que había de este noble ladrón desapareció por completo de los libros de historia, de forma que solamente la Compañía Dorada siguió recordando muy claramente la profecía que vaticinó.",
     "TypeDescription": "Material de ascensión de arma",
     "Icon": "UI_ItemIcon_114060"
   },
@@ -29167,7 +29720,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "Objeto testimonial de la Marea de las Mil Maravillas (I)",
-    "Description": "Un recipiente que contiene un objeto testimonial del evento “Marea de las Mil Maravillas”, en el Espejismo Veluriyam. Este recipiente corresponde al primer acertijo: “Por el embrujo una dulce bruma, seis veces olvidé respirar durante mi vacilación. Finalmente, el largo gorjeo de mi vientre y los recuerdos de mi infancia me dieron la guía para tomar esta decisión”.",
+    "Description": "Un recipiente que contiene un objeto testimonial del evento “Marea de las Mil Maravillas”, en el Espejismo Veluriyam. Este recipiente corresponde al primer acertijo: “Por el embrujo de una dulce bruma, seis veces olvidé respirar durante mi vacilación. Finalmente, el largo gorjeo de mi vientre y los recuerdos de mi infancia fueron mi guía para tomar esta decisión”.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120309"
   },
@@ -29317,7 +29870,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "Lámpara de viaje",
-    "Description": "Una lámpara utilizada a menudo por una niño cuando estudia por la noche. Contiene pequeños mecanismos que sirven para regular la llama, lo que puede resultar mágico para un niño que nunca ha visto una lámpara así. Cada vez que vea la luz de esta lámpara, recordará los tiempos en los que jugaba a interpretar varios personajes y animales con las sombras de las manos. Esta lámpara se dejó aquí como regalo. Quizá, para él fuera además una forma de aligerar su carga y seguir adelante.",
+    "Description": "Una lámpara utilizada a menudo por un niño cuando estudia por la noche. Contiene pequeños mecanismos que sirven para regular la llama, lo que puede resultar mágico para un niño que nunca ha visto una lámpara así. Cada vez que vea la luz de esta lámpara, recordará los tiempos en los que jugaba a interpretar varios personajes y animales con las sombras de las manos. Esta lámpara se dejó aquí como regalo. Quizá, para él fuera además una forma de aligerar su carga y seguir adelante.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120321"
   },
@@ -29330,6 +29883,16 @@
     "Description": "Una caja que conseguiste de Bahador y que contiene una serie de pociones especiales. Según él, te podrían resultar muy útiles para explorar cierto dominio...",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120323,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tren de transmisión de engranajes",
+    "Description": "Una pieza desmontable que forma parte de la válvula de accionamiento central en el Área de Producción Abandonada.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120323"
   },
   {
     "MaterialType": 2,
@@ -29397,7 +29960,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "Poción antimaldiciones",
-    "Description": "Un objeto clave del acto “La maldición pupilar” de «El sueño de tres días de Daiya».\nUn eidolon hidromimético solitario dijo que esta poción era capaz de eliminar maldiciones espirituales y devolver a los eidolones hidromiméticos petrificados a su estado original.\nSin embargo, a juzgar por la apariencia, parece que han utilizado un recipiente de poción alquímica normal y corriente, y tampoco está claro que si su diseño tiene algo que ver con la alquimia o es que el personal necesitaba recortar costes...",
+    "Description": "Un objeto clave del acto “La maldición pupilar” de «El sueño de tres días de Daiya».\nUn eidolon hidromimético solitario dijo que esta poción era capaz de eliminar maldiciones espirituales y devolver a los eidolones hidromiméticos petrificados a su estado original.\nSin embargo, a juzgar por la apariencia, parece que han utilizado un recipiente de poción alquímica normal y corriente, y tampoco está claro si su diseño tiene algo que ver con la alquimia o es que el personal necesitaba recortar costes...",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120339"
   },
@@ -29757,7 +30320,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "Caja sumergida",
-    "Description": "Una caja que se había hundido en el agua. Parece un poco distinta al resto, ¿no?",
+    "Description": "Una caja que se había hundido en el agua. Parece un poco distinta de una caja normal.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_100101"
   },
@@ -29816,7 +30379,7 @@
     "Id": 120386,
     "RankLevel": 0,
     "ItemType": 2,
-    "Name": "Una lata de alevines",
+    "Name": "Lata de alevines",
     "Description": "Unos cuantos alevines que Linorea te dio. Parece que estos pececitos fueron especialmente elegidos por su gran capacidad de adaptación a este entorno acuático.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120386"
@@ -29840,6 +30403,36 @@
     "Description": "Cuaderno de Vigneire.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_101991"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120400,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cupón crediticio",
+    "Description": "Una divisa utilizada únicamente en el Fuerte Merópide.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120400"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120401,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "El arte de negociar",
+    "Description": "“¡Un hito en la ciencia del éxito, una obra maestra de obligada lectura!”.\nUn libro excepcional recomendado por los editores de «La Gouttière», las élites empresariales y los eruditos del Instituto de Ciencias de Fontaine.\nOfrece una profunda introspectiva sobre la comprensión del abismo de la naturaleza humana, ¡una contribución inconmensurable a la ciencia!",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120401"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 120403,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Comida de comedor",
+    "Description": "Comida de comedor ofrecida por el Comedor Crediticio. Como es gratis, es a la vez una sorpresa y un riesgo.\n\nUtiliza la bandeja para conseguir comida y un papelito de la suerte.",
+    "TypeDescription": "Consumible",
+    "Icon": "UI_ItemIcon_120403"
   },
   {
     "MaterialType": 2,
@@ -29927,7 +30520,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Fábulas de Fontaine (I)",
-    "Description": "Un libro que contiene diversas historias y cuentos. La mayoría no son obras de la autora, sino fragmentos recopilados de antiguos poemas ya olvidados.",
+    "Description": "Un libro escrito por Marie Héricart que contiene diversas historias y cuentos. La mayoría no son obras de la autora, sino fragmentos recopilados de antiguos poemas ya olvidados.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120407"
   },
@@ -29937,7 +30530,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Fábulas de Fontaine (II)",
-    "Description": "Un libro que contiene diversas historias y cuentos. La mayoría no son obras de la autora, sino fragmentos recopilados de antiguos poemas ya olvidados.",
+    "Description": "Un libro escrito por Marie Héricart que contiene diversas historias y cuentos. La mayoría no son obras de la autora, sino fragmentos recopilados de antiguos poemas ya olvidados.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120407"
   },
@@ -29947,7 +30540,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Fábulas de Fontaine (III)",
-    "Description": "Un libro que contiene diversas historias y cuentos. La mayoría no son obras de la autora, sino fragmentos recopilados de antiguos poemas ya olvidados.",
+    "Description": "Un libro escrito por Marie Héricart que contiene diversas historias y cuentos. La mayoría no son obras de la autora, sino fragmentos recopilados de antiguos poemas ya olvidados.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120407"
   },
@@ -30053,6 +30646,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120438,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Carta con caligrafía hermosa",
+    "Description": "Una carta de Decembre. Según afirma, escribió esta carta con motivo del cumpleaños de su hijo.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100229"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120439,
     "RankLevel": 0,
     "ItemType": 2,
@@ -30120,6 +30723,116 @@
     "Description": "Un detallado expediente del caso relacionado con el asesinato supuestamente cometido por Calas, el padre de Navia, y el a su vez relacionado caso de las chicas desaparecidas. Si no sabes cómo avanzar durante la investigación, puedes revisar las pruebas recabadas hasta el momento. Tal vez te ayude a aclarar lo ocurrido.",
     "TypeDescription": "Artilugio",
     "Icon": "UI_ItemIcon_120445"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120446,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Piñón puro",
+    "Description": "Un piñón más grande de lo normal. Debe ser porque es más puro que un piñón ordinario.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120446"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120447,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Botella vacía",
+    "Description": "Una botella vacía es una botella llena de aire, lo que significa que también puede usarse para almacenar otras cosas.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120447"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120448,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Llave secreta",
+    "Description": "Se dice que se trata de una llave para abrir el Mundo Puroferoz. En realidad, se trata de un fluido, y probablemente sirve para facilitar la entrada en cualquier cerradura.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120448"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 120450,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fondo personal para comida de Paimon",
+    "Description": "Paimon usó parte de su fondo personal para comida con el fin de pagar tus honorarios de un encargo. Pensándolo bien, ¿no tendrá más escondido?",
+    "TypeDescription": "Consumible",
+    "Icon": "UI_ItemIcon_120450"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120454,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Componente de circuito óptico de cristal experimental",
+    "Description": "Un componente hallado en un misterioso espacio submarino. Parece ser el componente central de una especie de mecanismo óptico. Si se coloca en la posición correcta, debería ser capaz de activar algún mecanismo especial...\nDespués del experimento, por favor, separe los componentes clave de los mecanismos principales en cumplimiento con las normas de seguridad.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120454"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120455,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cinta perforada",
+    "Description": "Una cinta perforada bien preservada. Necesitarás un instrumento especial para descifrar la información que almacena.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120598"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120456,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cinta perforada",
+    "Description": "Una cinta perforada algo deteriorada. Necesitarás un instrumento especial para descifrar la información que almacena.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120598"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120457,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cinta perforada",
+    "Description": "Una cinta perforada obtenida a petición de Sévigné. Necesitarás un instrumento especial para descifrar la información que almacena.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120598"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120458,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Mineral misterioso",
+    "Description": "Un misterioso mineral de color verde amarillento.\nParece que atrae a los minerales del mismo tipo.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120458"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120459,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Materia prima de árjium",
+    "Description": "Materia prima de árjium formada de forma espontánea bajo ciertas reglas especiales.\nTras someterla al proceso de forjado, quizá sea posible desbloquear el infinito potencial que contiene...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120459"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120460,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Cristal de árjium radiante",
+    "Description": "Un cristal brillante de árjium formado gracias al proceso de forjado. Emite una energía y brillo extraños. Supuestamente, se puede utilizar para abrir una puerta en algún lugar...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120460"
   },
   {
     "MaterialType": 2,
@@ -30313,6 +31026,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120489,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cupones crediticios para usar durante la investigación",
+    "Description": "Cupones crediticios obtenidos durante la investigación de Neuvillette en el Fuerte Merópide. ¡Recuerda darles uso!",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120489"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120490,
     "RankLevel": 0,
     "ItemType": 2,
@@ -30320,6 +31043,306 @@
     "Description": "Cebo que conseguiste de Boucicaut. Esperemos que le sirva de ayuda a Roialte durante su pesca...",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120491,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“La suerte temporal solo trae un breve instante de satisfacción. La felicidad duradera en la vida sigue dependiendo del trabajo duro y del progreso”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120492,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“A veces pasa. ¡No te preocupes!”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120493,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“En la vida, la mala suerte es una enfermedad y los buenos amigos son la medicina”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120494,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“¡Con trabajo y esfuerzo, el éxito estará a tu alcance!”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120495,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“Quien ríe mejor no tiene por qué ser el último en reír, pero quien ríe el último siempre ríe mejor”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120496,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“Después de haber golpeado la mano de alguien con la mejilla izquierda de tu cara, debes aprovechar el momento y continuar golpeando su mano con la mejilla derecha”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120497,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“Si fracasas, no te desanimes. A veces, el naufragio también es un destino”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120498,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“Si compras un cupón, es posible que no obtengas el premio, pero si no compras un cupón, jamás lo obtendrás”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120499,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“No busques un atajo, puede que ese camino ya esté lleno de gente”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120500,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“No te arrepientas, ni te arrepientas de arrepentirte, pero mucho menos te arrepientas de arrepentirte de arrepentirte”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120501,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“El sentido de la vida subyace en la reflexión, y el sentido del trabajo yace en renunciar a la vida”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120502,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“La suerte fácil no trae felicidad duradera”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120503,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“Mantente alerta cuando creas que la situación es suficientemente mala, porque las cosas pueden empeorar aún más”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120504,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“Confía en el poder de la sospecha”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120505,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“Los días de infortunio acabarán. Cuando te acostumbres a ellos, ya no existirán”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120506,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“No te desanimes cuando encuentres un obstáculo, empieza con una comida de comedor. El obstáculo no desaparecerá, ¡pero al menos habrás llenado el estómago!”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120507,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“Las personas sin libertad no se sienten tristes”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120508,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“No pienses que no tienes nada. ¡Tienes esta deliciosa comida!”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120509,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“Aunque la Megaflora se vista de flor dulce, Megaflora se queda”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120510,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“Truco para mantener una buena salud: no enfermar”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120511,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“Las solsettias dulces también caen de las ramas más altas. Ese es el resultado de la madurez”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120512,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“No creas en máximas escritas en papelitos”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120513,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“En ocasiones, la felicidad es como una lumistela: solo se puede apreciar en la oscuridad”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120514,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“La vida no es un juego”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120515,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“A menudo, dos pasos pequeños pueden superar a una zancada”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120516,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“¡No te preocupes! ¡Todo saldrá bien! O, al menos, eso es lo que me han dicho que escriba”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120517,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“La suerte no está aquí, sino en otro lugar”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120518,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“Solo soy un papelito de la suerte, no puedo dar respuesta a los problemas que te encuentres. Tienes que depender de ti mismo”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120519,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“La frustración puede darte experiencia, ¡pero nunca te dará un cupón especial!”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120520,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Papelito de la suerte",
+    "Description": "“¡Otra ración! (Es broma)”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120491"
   },
   {
     "MaterialType": 2,
@@ -30343,6 +31366,76 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120523,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Componente sin procesar",
+    "Description": "Componente sin procesar ni forjar.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120523"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120524,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Componente procesado",
+    "Description": "Componente procesado en el Área de Producción.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120524"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120526,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Copa Fonta del Torneo “A Bocajarro”",
+    "Description": "#Un trofeo concedido por participar en el torneo recreativo “A Bocajarro” como entrenad{F#ora}{M#or} y guiar a Geneviève y Poiret hacia la victoria en el torneo. Fabricado en metal y de aspecto elegante, bajo la iluminación adecuada brilla y resplandece como el Mora. Con este trofeo especial podrás obtener recargas ilimitadas de la refrescante fonta en las máquinas designadas, beber hasta saciarte y convertirte en {F#la mayor bebedora}{M#el mayor bebedor} de fonta del mundo...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120526"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120527,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cinta perforada empapada",
+    "Description": "Una cinta perforada que encontraste en el agua. Necesitarás un instrumento especial para descifrar la información que almacena.\nAl estar hecha de materiales resistentes al agua, no es fácil que se estropee. Sin embargo, al haber estado durante tanto tiempo en el agua, sigue estando húmeda.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120527"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120528,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Engranaje exacto tipo C",
+    "Description": "Un engranaje aparentemente corriente. Originalmente, pertenecía al Prototipo de Capacidad Inicial N.º 2. Parece haberse separado accidentalmente del cuerpo principal debido a alguna fuerza externa muy potente...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120528"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120529,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Engranaje exacto tipo C",
+    "Description": "Un engranaje aparentemente corriente. Originalmente, pertenecía al Prototipo de Capacidad Inicial N.º 2. Parece haberse separado accidentalmente del cuerpo principal debido a alguna fuerza externa muy potente...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120528"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120530,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Engranaje exacto tipo T",
+    "Description": "Un engranaje aparentemente corriente. Originalmente, pertenecía al Prototipo de Capacidad Inicial N.º 2. Parece haberse separado accidentalmente del cuerpo principal debido a alguna fuerza externa muy potente...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120528"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120531,
     "RankLevel": 0,
     "ItemType": 2,
@@ -30360,6 +31453,166 @@
     "Description": "Diario desgastado.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120532"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120555,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Caramelo de Mora",
+    "Description": "Un caramelo que parece Mora. El caramelo en sí es amargo y dulce, un sabor adulto que los niños no saben apreciar. Pero el envoltorio dorado es muy popular entre ellos.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_202"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120556,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Tablón de madera de buena calidad",
+    "Description": "Un tablón de madera de alta calidad con numerosos usos. Puede colocarse bajo la ropa para bloquear un ataque potencialmente mortal o usarse para practicar artes marciales.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100306"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120557,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "La princesa jabalí (VIII)",
+    "Description": "La octava parte de este clásico atemporal.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100202"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120558,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Caja arcana (reventa)",
+    "Description": "Una Caja arcana cuyo propietario ha revendido por desamor. Por tiempo limitado, viene con una copia de “Invocación de los Sabios: De cero a héroe”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_220056"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120559,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Póster de ídolo",
+    "Description": "Un póster de una ídolo extremadamente popular en Inazuma. Es una de las mejores opciones para decorar una habitación. Descuentos disponibles si se compra junto con un Muñeco adorable.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101606"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120560,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Muñeco adorable",
+    "Description": "¡Certificado por Roussimoff! ¡Ni el hombre más varonil podría desprenderse de tan adorables muñecos! Descuentos disponibles si se compran junto con un Póster de ídolo.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101757"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120561,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Trampa para animales",
+    "Description": "Una misteriosa trampa para animales. Ponle Cupones crediticios y atraerá a los más codiciosos.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100225"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120562,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Huevo de pájaro mágico",
+    "Description": "¡Un sabor delicioso que podría revivir a los muertos! Si lo comes, puedes contrarrestar las desgracias de todo un día.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100062"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120563,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Hojas de té deliciosas",
+    "Description": "Tiene el misterioso efecto de estimular la sabiduría latente. Un sabor único para una persona única.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120564,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Agua pura (caja)",
+    "Description": "Agua pura vendida por cajas. Una vez, alguien se bebió media caja y se convirtió en el campeón del siguiente Torneo “A bocajarro”. Para beberse una caja entera, hay que tener una valentía superior a la de un campeón y un estómago aún más fuerte.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_111029"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120565,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fonta: Cereza dulce",
+    "Description": "Fonta con un sabor especial. Se dice que está elaborada a partir de pétalos de cerezo de Inazuma. Durante su fabricación, se redujo la cantidad de azúcar para evitar desvirtuar el sabor a cereza, pero las opiniones de los consumidores indican que el llamado “sabor a cereza” se parece más al olor a hierba recién cortada.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100329"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120566,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fonta: Explosión de bayas rojas",
+    "Description": "Se dice que la fonta de sabor especial utiliza muchos frutos rojos diferentes como ingredientes, y que tiene un color carmesí y un sabor muy atractivos. Sin embargo, por razones desconocidas, este sabor de fonta irrita gravemente los intestinos, y hasta que se descubra la razón subyacente, se ha suspendido la promoción provisionalmente...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100316"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120567,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Haggis",
+    "Description": "Un plato de sabor intenso. Las vísceras de la oveja se trituran, se mezclan con la avena, se agregan los condimentos y se introducen en el estómago de la oveja para formar saquitos. Los saquitos a menudo se retiran cuando se sirven los platos, y solo se come el contenido junto con puré de rábano y papas. Se trata de un manjar local que a menudo se sirve para agasajar a los invitados de honor en Fontaine.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_108583"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120568,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bavaroise de café",
+    "Description": "Un postre refrescante. Como postre típico de Fontaine, es tan fácil de hacer que es prácticamente imposible fallar si los ingredientes se emplean en las proporciones adecuadas. Es delicado, pero también tiene un sabor refrescante que levanta el ánimo al instante.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_108580"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120569,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Costillas a la parrilla",
+    "Description": "Un plato de carne envuelta en piel crujiente. Las costillas se doran ligeramente por fuera, luego se unta la piel crujiente en salsa y se sazona. Finalmente, se asan lentamente a baja temperatura. Con un buen control del calor se obtiene una piel crujiente y una carne jugosa.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_108577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120570,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Trucha con almendras",
+    "Description": "Un gran trozo de pescado frito en aceite. Primero, se dora el pescado en mantequilla, luego se fríen las almendras y se sirven en una fuente. La forma tradicional de cocinar este plato era procesar el filete de trucha entero y luego ponerlo directamente en la sartén, pero últimamente se ha popularizado freír el pescado.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_108574"
   },
   {
     "MaterialType": 2,
@@ -30430,6 +31683,397 @@
     "Description": "Una página antigua que obtuviste en un lugar misterioso. Debería ser prueba suficiente de que lo ocurrido no era un simple sueño...",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120593,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Rueda de control",
+    "Description": "Una rueda común utilizada para controlar las válvulas de ajuste de las tuberías alrededor del Fuerte Merópide.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120593"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120594,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Rueda de control",
+    "Description": "Una rueda común utilizada para controlar las válvulas de ajuste de las tuberías en el Taller de Mecabots de Kuisel.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120594"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120595,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Rueda de control",
+    "Description": "Una rueda común utilizada para controlar las válvulas de ajuste de las tuberías en el Taller de Prensado de Bravais.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120595"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120598,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cinta perforada",
+    "Description": "Una cinta perforada hecha con materiales resistentes al agua. Necesitarás un instrumento especial para descifrar la información que almacena.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120598"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120599,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cinta perforada",
+    "Description": "Una cinta perforada encontrada en una torre cercana al Instituto de Ciencias de Fontaine. Necesitarás un instrumento especial para descifrar la información que almacena.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120599"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120600,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Componente de concentración energética",
+    "Description": "A lo que originalmente era un componente mecánico común se le añadió de alguna manera un anillo de almacenamiento de energía hecho de material de alta densidad.\nTal vez con solo este componente se pueda proporcionar suficiente energía para toda una máquina...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120600"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120605,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Poema en una hoja",
+    "Description": "Poema en una hoja",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101501"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120606,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Poema de respuesta escrito en una hoja",
+    "Description": "Poema de respuesta escrito en una hoja",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101501"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120607,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Poema en una hoja",
+    "Description": "Poema en una hoja",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101501"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120608,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Acertijo poético de linterna",
+    "Description": "Acertijo poético de linterna",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101501"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120609,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Acertijo poético de linterna",
+    "Description": "Acertijo poético de linterna",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101501"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120610,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Poema abandonado",
+    "Description": "Poema abandonado",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101501"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120611,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Condensador del inhibidor de árjium",
+    "Description": "Un componente de condensación que originalmente estaba instalado en un inhibidor de árjium. Según Raimundo, si se instalan todos tal vez se pueda reiniciar el inhibidor.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120611"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120612,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Informe especial",
+    "Description": "Un informe especial impreso en privado por Chronie. Se dice que contiene todas las “verdades” que el Instituto de Ciencias de Fontaine pretende ocultar...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120612"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120613,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Informe especial",
+    "Description": "Un informe especial impreso en privado por Chronie. Se dice que contiene todas las “verdades” que el Instituto de Ciencias de Fontaine pretende ocultar...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120612"
+  },
+  {
+    "MaterialType": 49,
+    "Id": 120614,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Registro de pistas del Fuerte Merópide",
+    "Description": "Un registro en el que se recogen las numerosas pistas investigadas en el Fuerte Merópide.",
+    "TypeDescription": "Artilugio",
+    "Icon": "UI_ItemIcon_120614"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120638,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Caja con expedientes de la mesa izquierda",
+    "Description": "Una caja con expedientes que atacó sin piedad la cintura de Chalmet. Está en la mesa a la izquierda de la puerta. Quizá sea más fácil transportarla con una bolsa...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101605"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120639,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Caja con expedientes de la mesa derecha",
+    "Description": "Una caja con expedientes que atacó sin piedad la cintura de Chalmet. Está en la mesa a la derecha de la puerta. Quizá sea más fácil transportarla con una bolsa...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101605"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120640,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Panfleto de la Red de Ayuda Mutua",
+    "Description": "Un panfleto distribuido por un miembro muy entusiasta de la Red de Ayuda Mutua. Contiene los principios básicos de dicha red. El logotipo de la portada resulta un tanto familiar...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120640"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120641,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chile de Jueyun fresco",
+    "Description": "Un chile de Jueyun recién recolectado con una brillante coloración roja. Esto es lo que Diona quería utilizar para hacer un cóctel.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100745"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120642,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bayas frescas",
+    "Description": "Frutos de colores vivos y textura dulce. Se puede preparar un pícnic magnífico maridándolos con otros alimentos.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100051"
+  },
+  {
+    "MaterialType": 2,
+    "EffectDescription": "¡Bébete el mundo, bebe fonta!",
+    "Id": 120643,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Copa Fonta rebosante del Torneo “A Bocajarro”",
+    "Description": "El trofeo del torneo recreativo “A Bocajarro”, lleno completamente de fonta.\nIncluso cuando está en reposo, se puede oír un sonido burbujeante, algo así como el sonido del aceite y el jugo que sale de un filete de carne cuando se está cocinando, haciendo que cualquiera que lo oiga tenga ganas de comer.\nSin embargo, el tamaño del trofeo es tan extraordinario que pocos podrían beberse el contenido de un solo trago. Incluso si te obligaras a hacerlo, probablemente te hincharías como una Foca Abotargada y acabarías hospitalizado...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120643"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120644,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bebida experimental n.º 1",
+    "Description": "Una bebida experimental creada por Heinry con muchas burbujas y un toque salado.\nSin embargo, en general, sigue manteniendo el sabor original a fonta... Al menos, sabes que estás bebiendo fonta.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_108566"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120645,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bebida experimental n.º 2",
+    "Description": "Una bebida experimental creada por Heinry con muchas burbujas y un toque a té salado.\nAl beberla, se parece más a una botella de té salado que a fonta.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_108566"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120646,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bebida experimental n.º 3",
+    "Description": "Una bebida experimental creada por Heinry sin burbujas y con un sabor salado a fonta.\nEn cualquier caso, al menos sigue siendo fonta.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_108566"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120647,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bebida experimental n.º 4",
+    "Description": "Una bebida experimental creada por Heinry sin burbujas y con sabor salado debido al té.\nAunque, todo sea dicho, parece más una botella de té.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_108566"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120648,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bebida experimental n.º 5",
+    "Description": "Una bebida experimental creada por Heinry muy refrescante. ¡Bébete el mundo, bebe fonta!\nHumm... Aunque hacer una botella de fonta clásica no parece tener mucho sentido.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_108566"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120649,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bebida experimental n.º 6",
+    "Description": "Una bebida experimental creada por Heinry y que contiene muchas burbujas dulces de té. Parece que no está nada mal.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_108566"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120650,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bebida experimental n.º 7",
+    "Description": "Una bebida experimental creada por Heinry muy refrescante... ¡Oye! Esta fonta no tiene burbujas. ¿Quién la ha abierto y se la ha dejado sin terminar?",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_108566"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120651,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bebida experimental n.º 8",
+    "Description": "Una bebida experimental creada por Heinry que lleva té dulce sin burbujas. ¿No es mejor tomarse una taza de té directamente?",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_108566"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120657,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Imagen del Salón Académico",
+    "Description": "Una imagen tomada en el Salón Académico. Quién sabe qué uso le dará Iaune...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100721"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120658,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Las Dodoaventuras",
+    "Description": "#Un libro de cuentos escrito por Lisa inspirado en el juego especial «Las Dodoaventuras» en el que se registran las aventuras de la Caballera Chispeante con Dodoco, la Bomba saltarina singular, {F#la}{M#el} Caballer{F#a}{M#o} Honorari{F#a}{M#o} y su pequeña ayudante contra los globopeces cornudos...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120658"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120659,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Las Dodoaventuras",
+    "Description": "#Un libro de cuentos escrito por Lisa inspirado en el juego especial «Las Dodoaventuras» en el que se registran las aventuras de la Caballera Chispeante con Dodoco, la Bomba saltarina singular, {F#la}{M#el} Caballer{F#a}{M#o} Honorari{F#a}{M#o} y su pequeña ayudante contra los globopeces cornudos...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120658"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120660,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Sombrero",
+    "Description": "Un sombrero que obtuviste en La Cachivachería. Aunque no es el mismo sombrero que se perdió, debería servir para salir del paso.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120660"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120664,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Madera seca",
+    "Description": "Madera fina y seca, ideal para hacer fuego.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120234"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120699,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Carta de Blanche",
+    "Description": "Una carta colocada junto a dos burburanjas.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120577"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120702,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Documentos del lugar nº. 1",
+    "Description": "Los documentos de Heinry. ¿Qué tipo de inspiración podrá obtener con ellos?",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101605"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120703,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Documentos del lugar nº. 2",
+    "Description": "Los documentos de Heinry. ¿Qué tipo de inspiración podrá obtener con ellos?",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101605"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120704,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Documentos del lugar nº. 3",
+    "Description": "Los documentos de Heinry. ¿Qué tipo de inspiración podrá obtener con ellos?",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101605"
   },
   {
     "MaterialType": 31,
@@ -32162,6 +33806,76 @@
     "Icon": "UI_ItemIcon_BGM_Common"
   },
   {
+    "MaterialType": 36,
+    "Id": 141208,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Girocristal radiante (108)",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "TypeDescription": "Objeto de aventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141209,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Girocristal radiante (109)",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "TypeDescription": "Objeto de aventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141210,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Girocristal radiante (110)",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "TypeDescription": "Objeto de aventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141211,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Girocristal radiante (111)",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "TypeDescription": "Objeto de aventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141212,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Girocristal radiante (112)",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "TypeDescription": "Objeto de aventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141213,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Girocristal radiante (113)",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "TypeDescription": "Objeto de aventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141214,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Girocristal radiante (114)",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "TypeDescription": "Objeto de aventura",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
     "MaterialType": 37,
     "Id": 141099,
     "RankLevel": 1,
@@ -32530,6 +34244,16 @@
     "Description": "Objeto de refinamiento exclusivo para el arma “Vado del Río Ceniciento”.\nSirve para aplicar en ciertos materiales una capa aislante que previene la oxidación y la corrosión del metal, pero también para engrasarlo, limpiarlo y darle brillo. Fue muy popular en Fontaine durante un tiempo porque en los anuncios publicitarios de aquella época, una figura legendaria del Río Ceniciento la usaba para mantener en buen estado una famosa tubería de cobre.",
     "TypeDescription": "Material de refinamiento",
     "Icon": "UI_ItemIcon_200116"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 200117,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Marcapáginas con forma de diente de león",
+    "Description": "Objeto de refinamiento exclusivo para el arma “Oda al Vasto Azul”.\nEn numerosos poemas e historias, los dientes de león son un símbolo de libertad y viaje sin restricciones. Es posible que meter en un libro un marcapáginas con forma de diente de león resulte paradójico, pero no es una forma de aprisionarlo, sino más bien de darle la oportunidad de flotar en un mundo aún más vasto y brillante que el real.",
+    "TypeDescription": "Material de refinamiento",
+    "Icon": "UI_ItemIcon_200117"
   },
   {
     "MaterialType": 28,
@@ -33217,7 +34941,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Arpón perforamareas",
-    "Description": "Una larga caña de pescar con un hermoso brillo metálico. Para fabricarla, se han usado nuevos tipos de materiales metálicos del Instituto de Ciencias de Fontaine que resultan ligeros y fáciles de transportar. En el eje que une la parte superior con la inferior hay un resistente resorte eléctrico de metal, capaz de levantar el peso de peces enormes. Por su parte, el sedal de la caña, concebido como una especie de guardamano, sirve para que el pescador se proteja de las especies más agresivas.\nSegún algunos pescadores veteranos, esta caña es la mejor “arma” para luchar con los distintivos mecapeces de Fontaine, como si de un práctico arpón se tratara.",
+    "Description": "Si logras mantenerte en la zona de tensión ideal cuando estés pescando, esta caña reducirá el tiempo de forcejeo de los peces y tus posibilidades de éxito aumentarán. Este efecto solo funciona en Fontaine.\n\nUna larga caña de pescar con un hermoso brillo metálico. Para fabricarla, se han usado nuevos tipos de materiales metálicos del Instituto de Ciencias de Fontaine que resultan ligeros y fáciles de transportar. En el eje que une la parte superior con la inferior hay un resistente resorte eléctrico de metal, capaz de levantar el peso de peces enormes. Por su parte, el sedal de la caña, concebido como una especie de guardamano, sirve para que el pescador se proteja de las especies más agresivas.\nSegún algunos pescadores veteranos, esta caña es la mejor “arma” para luchar con los distintivos mecapeces de Fontaine, como si de un práctico arpón se tratara.",
     "TypeDescription": "Caña de pescar",
     "Icon": "UI_ItemIcon_200906"
   },
@@ -33983,6 +35707,16 @@
   },
   {
     "MaterialType": 21,
+    "Id": 220084,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Minioctópodo",
+    "Description": "Un tipo de octópodo diminuto que normalmente vive en las profundidades del océano.\nQuizá se deba a un exceso de curiosidad, o tal vez sea por el deseo de viajar, pero siendo extremadamente joven comienza ya a recorrer los océanos. Si ve una criatura que le gusta, la sigue a todas partes.\nPero quién sabe cómo será cuando crezca...",
+    "TypeDescription": "Artilugio",
+    "Icon": "UI_ItemIcon_220084"
+  },
+  {
+    "MaterialType": 21,
     "Id": 220085,
     "RankLevel": 4,
     "ItemType": 2,
@@ -34040,6 +35774,16 @@
     "Description": "Un Daguerrotipo modificado por Bresson. Al hacerlo, utilizó los mejores materiales posibles para darle unas funcionalidades extraordinarias.",
     "TypeDescription": "Artilugio",
     "Icon": "UI_ItemIcon_220090"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220091,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Generador aerodinámico portátil de burbujas gelatinosas",
+    "Description": "Un mecanismo que puede utilizarse para crear grandes cantidades de burbujas coloidales.\n\nGivalois, del Instituto de Ciencias de Fontaine, desarrolló este prototipo de máquina.\nEl propósito original era crear un gran generador de burbujas gelatinosas. Tal y como pretendía el proyecto, las burbujas así producidas podrían transportar cierta cantidad de agua en su interior, y moverse o flotar de forma estable en el aire, logrando potencialmente el objetivo de poder transportar rápidamente recursos hídricos.\nSin embargo, como nunca fueron capaces de encontrar un material para fabricar burbujas gelatinosas de este tipo, el proyecto se estancó en la fase del prototipo.\nSin embargo, se dice que al hijo del investigador Givalois le encantó este prototipo de máquina de burbujas, así que tal vez sería posible venderlo como juguete...\n\n“Esta máquina es un producto de la investigación de papá, y se llama Generador aerodinámico portátil de burbujas gelatinosas...”.\n“¡Burbujas! ¡Qué bonitas! ¡Papá, eres increíble!”.",
+    "TypeDescription": "Artilugio",
+    "Icon": "UI_ItemIcon_220091"
   },
   {
     "MaterialType": 5,
@@ -34270,6 +36014,16 @@
     "Description": "Planos detallados para fabricar una Brújula buscatesoros Hydro. Puede utilizarse para encontrar fácilmente tesoros en Fontaine.",
     "TypeDescription": "Plano para forja",
     "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 221061,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Receta: Agua pura",
+    "Description": "Receta paso a paso para hacer Agua pura.",
+    "TypeDescription": "Instrucciones para síntesis",
+    "Icon": "UI_ItemIcon_221001"
   },
   {
     "MaterialType": 5,
@@ -42468,6 +44222,366 @@
     "ItemType": 2,
     "Name": "Mecarreparador: Modelo de demostración",
     "Description": "Plano detallado para fabricar un Mecarreparador: Modelo de demostración.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381326,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Estudio del fuerte recluido",
+    "Description": "Plano detallado para fabricar un Estudio del fuerte recluido.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381327,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Día a día del fuerte recluido",
+    "Description": "Plano detallado para fabricar “Día a día del fuerte recluido”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381328,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Algarabía elegante",
+    "Description": "Plano detallado para fabricar “Algarabía elegante”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381329,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Estabilidad solemne",
+    "Description": "Plano detallado para fabricar “Estabilidad solemne”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381330,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Concentración del palacio cardenalicio",
+    "Description": "Plano detallado para fabricar “Concentración del palacio cardenalicio”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382251,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Sabiduría del fuerte recluido",
+    "Description": "Plano detallado para fabricar “Sabiduría del fuerte recluido”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382252,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Descanso para la hora del té",
+    "Description": "Plano detallado para fabricar “Descanso para la hora del té”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383505,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Jarrón floral: Aguamarina",
+    "Description": "Plano detallado para fabricar un Jarrón floral: Aguamarina.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383506,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Jarrón floral: Florecimiento albugíneo",
+    "Description": "Plano detallado para fabricar un Jarrón floral: Florecimiento albugíneo.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383507,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Jarrón floral: Reflejo del arte",
+    "Description": "Plano detallado para fabricar un Jarrón floral: Reflejo del arte.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382253,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Puntualidad del palacio cardenalicio",
+    "Description": "Plano detallado para fabricar “Puntualidad del palacio cardenalicio”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383356,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Clave musical del palacio cardenalicio",
+    "Description": "Plano detallado para fabricar “Clave musical del palacio cardenalicio”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383357,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Oficinista del palacio cardenalicio",
+    "Description": "Plano detallado para fabricar “Oficinista del palacio cardenalicio”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382254,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Baúl metálico del palacio cardenalicio",
+    "Description": "Plano detallado para fabricar un Baúl metálico del palacio cardenalicio.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382255,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Pedestal de herramientas del palacio cardenalicio",
+    "Description": "Plano detallado para fabricar un Pedestal de herramientas del palacio cardenalicio.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382256,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escalera de la eficacia de madera de malvavisco",
+    "Description": "Plano detallado para fabricar una Escalera de la eficacia de madera de malvavisco.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382257,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Baúl de la firmeza de madera de malvavisco",
+    "Description": "Plano detallado para fabricar un Baúl de la firmeza de madera de malvavisco.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382118,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Comunicación del fuerte recluido",
+    "Description": "Plano detallado para fabricar “Comunicación del fuerte recluido”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382119,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Como en casa",
+    "Description": "Plano detallado para fabricar “Como en casa”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382120,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Testigo de grandes eventos",
+    "Description": "Plano detallado para fabricar “Testigo de grandes eventos”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382121,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Alegría de la celebración conjunta",
+    "Description": "Plano detallado para fabricar “Alegría de la celebración conjunta”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381407,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Litera de la corpulencia de tilo silvestre",
+    "Description": "Plano detallado para fabricar una Litera de la corpulencia de tilo silvestre.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382258,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Robustez del fuerte recluido",
+    "Description": "Plano detallado para fabricar “Robustez del fuerte recluido”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381216,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Cómoda del palacio cardenalicio",
+    "Description": "Plano detallado para fabricar una Cómoda del palacio cardenalicio.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381217,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Estantería alta del palacio cardenalicio",
+    "Description": "Plano detallado para fabricar una Estantería del palacio cardenalicio.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381218,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Estantería arqueada del palacio cardenalicio",
+    "Description": "Plano detallado para fabricar una Estantería arqueada del palacio cardenalicio.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381219,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Mueble de apoyo del palacio cardenalicio",
+    "Description": "Plano detallado para fabricar un Mueble de apoyo del palacio cardenalicio.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382313,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Alfombra de bistró: En términos de igualdad",
+    "Description": "Plano detallado para fabricar una Alfombra de bistró: En términos de igualdad.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382314,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Alfombra de bistró: Bañado por la brisa",
+    "Description": "Plano detallado para fabricar una Alfombra de bistró: Bañado por la brisa.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391135,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Veredicto incorruptible",
+    "Description": "Plano detallado para fabricar “Veredicto incorruptible”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391136,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Fuente de los mil deseos",
+    "Description": "Plano detallado para fabricar una Fuente de los mil deseos.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393214,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Nobleza del índigo",
+    "Description": "Plano detallado para fabricar “Nobleza del índigo”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380436,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Pedestal del fulgor: Iluminación desbordante",
+    "Description": "Plano detallado para fabricar un Pedestal del fulgor: Iluminación desbordante.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380437,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Mecaluminaria: Olas radiantes",
+    "Description": "Plano detallado para fabricar una Mecaluminaria: Olas radiantes.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393176,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Majestuosidad del fuerte recluido",
+    "Description": "Plano detallado para fabricar “Majestuosidad del fuerte recluido”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394506,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Losa de lacripórfido: Teoría de la perspectiva",
+    "Description": "Plano detallado para fabricar una Losa de lacripórfido: Teoría de la perspectiva.\nTras usarlo, entra en el menú de fabricación para verlo.",
     "TypeDescription": "Plano de decoración",
     "Icon": "UI_ItemIcon_Home_Common"
   }

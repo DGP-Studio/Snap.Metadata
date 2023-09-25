@@ -1449,7 +1449,7 @@
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
-    "Name": "Lokallegende – Wasser spaltender Okeanospuk",
+    "Name": "Altgedienter Wasser spaltender Okeanospuk",
     "Title": "Wasser spaltender Okeanospuk",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 0,
@@ -1459,7 +1459,7 @@
     "Id": 0,
     "DescribeId": 515,
     "RelationshipId": 515,
-    "Name": "Lokallegende – Wasser speiender Okeanospuk",
+    "Name": "Altgedienter Wasser speiender Okeanospuk",
     "Title": "Wasser speiender Okeanospuk",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
     "Type": 0,
@@ -4879,6 +4879,130 @@
     ]
   },
   {
+    "Id": 23060101,
+    "DescribeId": 30601,
+    "RelationshipId": 30601,
+    "MonsterName": "Fatuus_Escadron_Ice_01",
+    "Name": "Fatui – Frostdienerin",
+    "Title": "Dienerin des Frostschwerts",
+    "Description": "Eine Elite-Agentin der Fatui.\nSchon im Kindesalter ausgewählt, müssen sie sich einer langen Ausbildung und einem harten Training unterziehen und erst nach unzähligen Ausscheidungen werden die sogenannten „Dienerinnen“ ernannt. Mit ihren ausgezeichneten Fähigkeiten und ihrer unendlichen Loyalität zählen sie zu den Besten der Besten in den Reihen der Fatui.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23060201,
+    "DescribeId": 30602,
+    "RelationshipId": 30602,
+    "MonsterName": "Fatuus_Escadron_Wind_01",
+    "Name": "Fatui – Winddienerin",
+    "Title": "Dienerin des Brisen-Maiglöckchens",
+    "Description": "Eine Elite-Agentin der Fatui.\nDie Dienerinnen besitzen unter den Fatui keinen offiziellen Rang. Je nach Auftrag und Mission können sie dann entweder mit den Soldaten gemeinsam, allein oder zusammen mit den an verschiedenen Orten platzierten „Einheiten“ Spionage-, Anti-Überwachungs-, Begleit- und Vernichtungsaufgaben übernehmen. Für diese spezielleren Missionen müssen die Dienerinnen oft eine Vielzahl von Fähigkeiten beherrschen und nicht selten sogar besondere Talente entwickeln.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30603,
+    "RelationshipId": 30603,
+    "Name": "Altgediente Fatui – Frostdienerin",
+    "Title": "Dienerin des Frostschwerts",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30604,
+    "RelationshipId": 30604,
+    "Name": "Altgediente Fatui – Winddienerin",
+    "Title": "Dienerin des Brisen-Maiglöckchens",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 24010101,
     "DescribeId": 40101,
     "RelationshipId": 40101,
@@ -6087,6 +6211,69 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40606,
+    "RelationshipId": 40606,
+    "Name": "Mecha – Typ: Tiefwasserangriff – Ousia",
+    "Title": "Mecha – Typ: Tiefwasserangriff",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40656,
+    "RelationshipId": 40656,
+    "Name": "Mecha – Typ: Tiefwasserangriff – Pneuma",
+    "Title": "Mecha – Typ: Tiefwasserangriff",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 24068601,
+    "DescribeId": 40686,
+    "RelationshipId": 40686,
+    "MonsterName": "MachinaIustitia_Frigate_Codex",
+    "Name": "Mecha – Typ: Tiefwasserangriff",
+    "Title": "Mecha – Typ: Tiefwasserangriff",
+    "Description": "Ein Uhrwerk-Mecha, entwickelt, um Unterwasserangriffe durchzuführen. Im Gegensatz zum „Typ: Subaquatische Patrouille“, wird von ihm erwartet, es mit deutlich größeren und brutaleren Feinden aufnehmen zu können. Der Preis hierfür wird mit Funktionsleistung und Fertigungskosten gezahlt. So kann er insbesondere gegen kleinere Feinde sein Potenzial nicht vollständig ausschöpfen.\nEinst ereignete sich in Fontaine eine Tragödie, als riesige Bestien einfielen und die Flotte der Weißen Panzer, eigentlich der ganze Stolz von Fontaine, bei der Verteidigung des Landes vollständig ausgelöscht wurde. Die Konstrukteure hofften, eine Wiederholung eines solchen Vorfalls verhindern zu können, indem zumindest ein Uhrwerk-Mecha mit gewaltiger Feuerkraft im Wasser zuschlagen könnte. Er sollte die erste Verteidigungslinie bilden, noch vor den Generälen und ihren Truppen.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 1,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "BaseValue": {
+      "HpBase": 64.9378,
+      "AttackBase": 60,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 25
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
     "DescribeId": 40607,
     "RelationshipId": 40607,
     "Name": "Mecha – Typ: Flinker Ernter – Ousia",
@@ -6471,6 +6658,16 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40613,
+    "RelationshipId": 40613,
+    "Name": "Altgedienter Mecha – Rechenleistungsverstärker",
+    "Title": "Mecha – Rechenleistungsverstärker",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
     "Name": "Eiswind-Suite – Coppelius’ Bestrafung",
@@ -6518,6 +6715,68 @@
       "WindSubHurt": 0.7,
       "IceSubHurt": 0.7,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24080101,
+    "DescribeId": 40801,
+    "RelationshipId": 40801,
+    "MonsterName": "Monster_MachinaIustitia_Gravitas_01",
+    "Name": "Experimenteller Feldgenerator",
+    "Title": "Experimenteller Feldgenerator",
+    "Description": "Ein riesiger Apparat, der noch zu Lebzeiten Edwin Eastinghouses entworfen wurde. Ursprünglich war er dazu gedacht, die „Schwerkraft“ aufzuheben, und gemäß der ursprünglichen Entwurfsabsicht wäre dies der erste Schritt gewesen, Fontaine in eine Himmelsstadt zu verwandeln. Niemand hätte sich mehr Sorgen um die Fluten machen müssen, die einst die Welt umspülten. Und selbst wenn die sieben Städte allesamt von der Tiefsee verschlungen worden wären, so hätte doch der prächtige Hof von Fontaine weiterhin wie Celestia am Himmelszelt gethront. Außerdem wäre man den Geheimnissen des Universums ein ganzes Stück näher gewesen, räumlich jedenfalls.\nDas Arkhium im Kern des Geräts verfügt über die Eigenschaft der „Trennung“ oder „Sedimentation“ und ist in der Lage, Materie oder bestimmte andere Dinge außer Materie, zu spalten. Angeblich ließe sich diese Eigenschaft auch umkehren, aber das Forschungsinstitut Fontaine ist lediglich auf den physikalischen Nutzen bedacht, der hierdurch erzielt werden kann.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "Type": 2,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104171,
+      104172,
+      104173,
+      104174,
+      113052,
+      400032,
+      400042,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 213.2688,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -10106,6 +10365,103 @@
     ]
   },
   {
+    "Id": 26120401,
+    "DescribeId": 61204,
+    "RelationshipId": 61204,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Name": "Laufender Geo-Pilz",
+    "Title": "Laufender Geo-Pilz",
+    "Description": "Nachahmendes Wesen, das aus Sporen besteht, hat eine starke Fähigkeit zur Anpassung an die Umwelt.\nDurch den Einfluss der Geo-Kraft, ist ein Teil der es bildenden Sporen schon komplett verhornt. Wenn man bedenkt, dass die Pilzbestien sich ursprünglich aus Sporen entwickelt haben, kann man nun vielleicht sagen, dass sich auf dieser Basis eines Tages eine völlig neue Lebensform entwickeln kann.\nSeine Dominanz unter den Pilzbestien zeigt, dass es eine höhere Intelligenz besitzt.",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26130101,
+    "DescribeId": 61301,
+    "RelationshipId": 61301,
+    "MonsterName": "Sandworm",
+    "Name": "Setekh Wenut",
+    "Title": "Setekh Wenut",
+    "Description": "Ein in der Tiefe der Wüste lebendes blindes Raubtier, das seine Beute mithilfe von Geräuschen und Erschütterungen der Erde aufspürt.\nDer Legende nach waren die Gebiete, über die sie in prähistorischer Zeit herrschten, mit Pflanzen und riesigen Bäumen bewachsen, und gemeinsam mit ihrem Herrscher durchdrangen sie den feuchten Schlamm ihres Herrschaftsgebiets, so wie Fische das Wasser.\nNach vielen Äonen verwandelte sich der Schlamm durch die Gnade des Himmels zu grobem Sand. Viele Lebensformen vergingen, viele Arten starben aus und aus dieser auf das Land angewiesenen Art wurden die „Wenut“.\nDie Wüstenbewohner scheinen aufgrund ihrer ähnlichen Lebensweise fälschlich anzunehmen, dass „Wenut“ die vollständig entwickelte Form der Treibsandaale nach deren Verpuppung seien.",
+    "Icon": "UI_MonsterIcon_Sandworm",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104151,
+      104152,
+      104153,
+      104154,
+      113044,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 190.176,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.6,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -10919,6 +11275,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61624,
+    "RelationshipId": 61624,
+    "Name": "Lokallegende – Meereshase",
+    "Title": "Meereshase",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -10964,86 +11330,49 @@
     ]
   },
   {
-    "Id": 26120401,
-    "DescribeId": 61204,
-    "RelationshipId": 61204,
-    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
-    "Name": "Laufender Geo-Pilz",
-    "Title": "Laufender Geo-Pilz",
-    "Description": "Nachahmendes Wesen, das aus Sporen besteht, hat eine starke Fähigkeit zur Anpassung an die Umwelt.\nDurch den Einfluss der Geo-Kraft, ist ein Teil der es bildenden Sporen schon komplett verhornt. Wenn man bedenkt, dass die Pilzbestien sich ursprünglich aus Sporen entwickelt haben, kann man nun vielleicht sagen, dass sich auf dieser Basis eines Tages eine völlig neue Lebensform entwickeln kann.\nSeine Dominanz unter den Pilzbestien zeigt, dass es eine höhere Intelligenz besitzt.",
-    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 38.0352,
-      "AttackBase": 30.144,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.3,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.3,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26130101,
-    "DescribeId": 61301,
-    "RelationshipId": 61301,
-    "MonsterName": "Sandworm",
-    "Name": "Setekh Wenut",
-    "Title": "Setekh Wenut",
-    "Description": "Ein in der Tiefe der Wüste lebendes blindes Raubtier, das seine Beute mithilfe von Geräuschen und Erschütterungen der Erde aufspürt.\nDer Legende nach waren die Gebiete, über die sie in prähistorischer Zeit herrschten, mit Pflanzen und riesigen Bäumen bewachsen, und gemeinsam mit ihrem Herrscher durchdrangen sie den feuchten Schlamm ihres Herrschaftsgebiets, so wie Fische das Wasser.\nNach vielen Äonen verwandelte sich der Schlamm durch die Gnade des Himmels zu grobem Sand. Viele Lebensformen vergingen, viele Arten starben aus und aus dieser auf das Land angewiesenen Art wurden die „Wenut“.\nDie Wüstenbewohner scheinen aufgrund ihrer ähnlichen Lebensweise fälschlich anzunehmen, dass „Wenut“ die vollständig entwickelte Form der Treibsandaale nach deren Verpuppung seien.",
-    "Icon": "UI_MonsterIcon_Sandworm",
+    "Id": 26180101,
+    "DescribeId": 61801,
+    "RelationshipId": 61801,
+    "MonsterName": "SeaHorse_Primo_Electric_01",
+    "Name": "Millenniums-Perlenseepferd",
+    "Title": "Millenniums-Perlenseepferd",
+    "Description": "Einer der beiden obersten Herrscher, die an der Spitze der Fontemer-Mutanten stehen.\nDichter und Schriftsteller bezeichnen ihn wegen seiner Zurückgezogenheit oft als stolz und edel, doch eigentlich verdankt er diese Darstellung seinem schlanken und anmutigen Körper. Deshalb wird ihm auch die Bezeichnung „Seepferd“ zuteil, während der König der Panzerkrabben „Kaiser“ genannt wird.\nDer Legende nach soll unter den Fontemer-Mutanten ein erbitterter Krieg ausgebrochen sein, an dessen Ende schließlich nur noch das „Millenniums-Perlenseepferd“ und der „Kaiser von Feuer und Eisen“ übrig waren und um den Norden und Süden des Großen Sees kämpften. In der „Ballade von Dobharcu„ beschrieb der Autor das Ende des Krieges einst wie folgt: Der riesige Jäger-Schwertrochen, auch bekannt als der Sturmkönig, hauchte sein Leben aus und entfesselte Wellen von gewaltiger Größe; so läutete er die „erste Hochwasserperiode“ ein ...\nAll dies ist natürlich nichts weiter als das Produkt der romantischen Vorstellung eines Mannes, der nicht bereit war, sich der fantasielosen Realität hinzugeben. Die Fontemer-Mutanten sind letztlich nichts weiter als Wasserlebewesen. Sie verfügen weder über prunkvolle oder zerfallende Königshäuser noch über überschwängliche oder boshafte Worte.",
+    "Icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
     "Type": 2,
     "Arkhe": 0,
     "Drops": [
       102,
       202,
       105,
-      104151,
-      104152,
-      104153,
-      104154,
-      113044,
-      400022,
+      104141,
+      104142,
+      104143,
+      104144,
+      113053,
       400032,
-      400052,
+      400042,
+      400137,
+      400062,
       400088,
       400098,
-      400023,
       400033,
+      400043,
+      400138,
       400089,
       400099
     ],
     "BaseValue": {
-      "HpBase": 190.176,
-      "AttackBase": 75.36,
+      "HpBase": 149.424,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
-      "FireSubHurt": 0.25,
-      "GrassSubHurt": 0.25,
-      "WaterSubHurt": 0.25,
-      "ElecSubHurt": 0.25,
-      "WindSubHurt": 0.6,
-      "IceSubHurt": 0.25,
-      "RockSubHurt": 0.25,
-      "PhysicalSubHurt": 0.25
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.6,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {

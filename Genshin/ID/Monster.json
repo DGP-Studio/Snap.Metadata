@@ -1449,7 +1449,7 @@
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
-    "Name": "Local Legend: Tainted Water-Splitting Phantasm",
+    "Name": "Veteran Tainted Water-Splitting Phantasm",
     "Title": "Tainted Water-Splitting Phantasm",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 0,
@@ -1459,7 +1459,7 @@
     "Id": 0,
     "DescribeId": 515,
     "RelationshipId": 515,
-    "Name": "Local Legend: Tainted Water-Spouting Phantasm",
+    "Name": "Veteran Tainted Water-Spouting Phantasm",
     "Title": "Tainted Water-Spouting Phantasm",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
     "Type": 0,
@@ -4879,6 +4879,130 @@
     ]
   },
   {
+    "Id": 23060101,
+    "DescribeId": 30601,
+    "RelationshipId": 30601,
+    "MonsterName": "Fatuus_Escadron_Ice_01",
+    "Name": "Frost Operative",
+    "Title": "Rimesword Servant",
+    "Description": "Agen elit di kalangan Fatui.\nDipilih sejak masih kanak-kanak, mereka hanya akan bisa menjadi \"detektif\" pada akhirnya setelah menjalani pelatihan selama bertahun-tahun dan pergantian yang tak terhitung jumlahnya. Mereka adalah prajurit paling menonjol di kalangan para Fatui, yang memiliki keterampilan luar biasa dan kesetiaan yang tak tergoyahkan.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23060201,
+    "DescribeId": 30602,
+    "RelationshipId": 30602,
+    "MonsterName": "Fatuus_Escadron_Wind_01",
+    "Name": "Wind Operative",
+    "Title": "Gale-Lily Servant",
+    "Description": "Agen elit di kalangan Fatui.\n\"Detektif\" tidak memiliki pangkat militer yang umum di kalangan Fatui. Berdasarkan perintah dan misi, mereka dapat bekerja sama dengan tentara lain, bekerja sendiri, atau bersama-sama dengan \"pion\" yang tersembunyi dan tersebar di seluruh dunia. Mereka memata-matai, melakukan kontra-spionase, melindungi, membunuh, dan melakukan tugas-tugas lainnya. Supaya mampu menjalankan misi-misi khususnya dengan lebih efektif, \"detektif\" juga perlu menguasai berbagai jenis keterampilan pendukung, bahkan berbagai seni dan bakat.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30603,
+    "RelationshipId": 30603,
+    "Name": "Veteran Frost Operative",
+    "Title": "Rimesword Servant",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30604,
+    "RelationshipId": 30604,
+    "Name": "Veteran Wind Operative",
+    "Title": "Gale-Lily Servant",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 24010101,
     "DescribeId": 40101,
     "RelationshipId": 40101,
@@ -6087,6 +6211,69 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40606,
+    "RelationshipId": 40606,
+    "Name": "Deepwater Assault Mek: Ousia",
+    "Title": "Deepwater Assault Mek",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40656,
+    "RelationshipId": 40656,
+    "Name": "Deepwater Assault Mek: Pneuma",
+    "Title": "Deepwater Assault Mek",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 24068601,
+    "DescribeId": 40686,
+    "RelationshipId": 40686,
+    "MonsterName": "MachinaIustitia_Frigate_Codex",
+    "Name": "Deepwater Assault Mek",
+    "Title": "Deepwater Assault Mek",
+    "Description": "Clockwork meka yang dirancang untuk melakukan serangan di air. Berbeda dari model \"Underwater Patrol Mek\", mereka diharapkan sanggup untuk menghadapi lawan yang jauh lebih besar dan lebih ganas. Dan tentunya, harga yang harus dibayar demi kemampuan seperti itu dan modal produksinya telah membuatnya kehilangan kemampuan yang utuh dalam menangkis lawan-lawan yang lebih kecil.\nZaman dahulu, Fontaine pernah mengalami kisah tragis oleh invasi monster raksasa. Armada Putih terhormat yang berlayar di danau terestrial besar hancur sepenuhnya dalam mempertahankan bangsa. Karena itu para perancang berharap bilamana hal yang demikian terjadi lagi, clockwork meka kini setidaknya berkemampuan menembak yang memadai layaknya angkatan laut dan berfungsi sebagai garda terdepan sebelum para tentara dan jenderal memainkan perannya.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 1,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "BaseValue": {
+      "HpBase": 64.9378,
+      "AttackBase": 60,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 25
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
     "DescribeId": 40607,
     "RelationshipId": 40607,
     "Name": "Nimble Harvester Mek - Ousia",
@@ -6471,6 +6658,16 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40613,
+    "RelationshipId": 40613,
+    "Name": "Veteran Arithmetic Enhancer Mek",
+    "Title": "Arithmetic Enhancer Mek",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
     "Name": "Icewind Suite: Nemesis of Coppelius",
@@ -6518,6 +6715,68 @@
       "WindSubHurt": 0.7,
       "IceSubHurt": 0.7,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24080101,
+    "DescribeId": 40801,
+    "RelationshipId": 40801,
+    "MonsterName": "Monster_MachinaIustitia_Gravitas_01",
+    "Name": "Experimental Field Generator",
+    "Title": "Experimental Field Generator",
+    "Description": "Perangkat besar yang dirancang oleh almarhum Edwin Eastinghouse. Ia berkemampuan untuk \"melawan\" efek gravitasi. Menurut rancangan awal desain, ini adalah langkah pertama dalam rencana untuk menjadikan Fontaine sebagai kota di langit, sehingga orang tidak perlu lagi khawatir tentang ombak yang pernah menyapu daratan. Bahkan sekalipun ketujuh bangsa ditelan oleh laut dalam, Court of Fontaine yang elegan tetap akan mengapung di udara layaknya Celestia. Bahkan misteri alam semesta kini tidak lagi tampak begitu jauh dan tak terengkuh.\nArkhium yang terdapat pada inti perangkat memiliki karakteristik \"membelah\" atau \"mengendap\". Ia dapat memisahkan materi, ataupun hal-hal tertentu di luar materi. Dikatakan bahwa proses ini dapat ditukar urutannya, namun Institut Penelitian Fontaine hanya tergila-gila dengan efek fisika yang mampu dihasilkannya.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "Type": 2,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104171,
+      104172,
+      104173,
+      104174,
+      113052,
+      400032,
+      400042,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 213.2688,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -10106,6 +10365,103 @@
     ]
   },
   {
+    "Id": 26120401,
+    "DescribeId": 61204,
+    "RelationshipId": 61204,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Name": "Grounded Geoshroom",
+    "Title": "Grounded Geoshroom",
+    "Description": "Suatu bentuk kehidupan mimesis yang terbentuk dari spora yang memiliki kemampuan adaptasi yang ekstrem.\nMakhluk ini telah mengalami keratinisasi yang hampir sempurna karena pengaruh Geo. Ketika orang menganggap bahwa Jamur berevolusi dari spora, mungkin yang satu ini bisa menjadi dasar untuk evolusi lebih lanjut menjadi beberapa bentuk kehidupan benar-benar baru — minimal kalau memang waktunya mencukupi.\nDengan mendominasi bangsa jamur, ini menunjukkan bahwa ia memiliki kecerdasan yang lebih tinggi.",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26130101,
+    "DescribeId": 61301,
+    "RelationshipId": 61301,
+    "MonsterName": "Sandworm",
+    "Name": "Setekh Wenut",
+    "Title": "Setekh Wenut",
+    "Description": "Predator tanpa mata dari kedalaman padang pasir yang menggunakan suara dan getaran untuk mencari mangsanya.\nLegenda mengatakan bahwa di masa lalu sebelum konsep waktu telah ada, tanah yang mereka kuasai dipenuhi oleh rerumputan harum dan pohon-pohon yang raksasa. Mereka serta keturunannya melalui tanah basah seperti ikan yang berenang di dalam air.\nSetelah ribuan tahun berlalu, anugerah yang diberikan oleh langit membuat tanah berubah menjadi pasir dan menyebabkan banyak makhluk ini menjadi punah. Cabang dari spesies mereka masih tetap mampu bertahan hidup dengan melakukan adaptasi ke kehidupan yang lebih mengarah ke tanah, dan dikenal sebagai \"Wenut\".\nBeberapa penduduk padang pasir masih percaya dengan keliru bahwa Wenut adalah titik akhir dari siklus hidup Quicksand Eel, mungkin karena adanya kesamaan yang sekilas antara perilaku kedua spesies ini.",
+    "Icon": "UI_MonsterIcon_Sandworm",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104151,
+      104152,
+      104153,
+      104154,
+      113044,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 190.176,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.6,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -10919,6 +11275,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61624,
+    "RelationshipId": 61624,
+    "Name": "Legenda Lokal: Cherubic Sea Hare",
+    "Title": "Cherubic Sea Hare",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -10964,86 +11330,49 @@
     ]
   },
   {
-    "Id": 26120401,
-    "DescribeId": 61204,
-    "RelationshipId": 61204,
-    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
-    "Name": "Grounded Geoshroom",
-    "Title": "Grounded Geoshroom",
-    "Description": "Suatu bentuk kehidupan mimesis yang terbentuk dari spora yang memiliki kemampuan adaptasi yang ekstrem.\nMakhluk ini telah mengalami keratinisasi yang hampir sempurna karena pengaruh Geo. Ketika orang menganggap bahwa Jamur berevolusi dari spora, mungkin yang satu ini bisa menjadi dasar untuk evolusi lebih lanjut menjadi beberapa bentuk kehidupan benar-benar baru — minimal kalau memang waktunya mencukupi.\nDengan mendominasi bangsa jamur, ini menunjukkan bahwa ia memiliki kecerdasan yang lebih tinggi.",
-    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 38.0352,
-      "AttackBase": 30.144,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.3,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.3,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26130101,
-    "DescribeId": 61301,
-    "RelationshipId": 61301,
-    "MonsterName": "Sandworm",
-    "Name": "Setekh Wenut",
-    "Title": "Setekh Wenut",
-    "Description": "Predator tanpa mata dari kedalaman padang pasir yang menggunakan suara dan getaran untuk mencari mangsanya.\nLegenda mengatakan bahwa di masa lalu sebelum konsep waktu telah ada, tanah yang mereka kuasai dipenuhi oleh rerumputan harum dan pohon-pohon yang raksasa. Mereka serta keturunannya melalui tanah basah seperti ikan yang berenang di dalam air.\nSetelah ribuan tahun berlalu, anugerah yang diberikan oleh langit membuat tanah berubah menjadi pasir dan menyebabkan banyak makhluk ini menjadi punah. Cabang dari spesies mereka masih tetap mampu bertahan hidup dengan melakukan adaptasi ke kehidupan yang lebih mengarah ke tanah, dan dikenal sebagai \"Wenut\".\nBeberapa penduduk padang pasir masih percaya dengan keliru bahwa Wenut adalah titik akhir dari siklus hidup Quicksand Eel, mungkin karena adanya kesamaan yang sekilas antara perilaku kedua spesies ini.",
-    "Icon": "UI_MonsterIcon_Sandworm",
+    "Id": 26180101,
+    "DescribeId": 61801,
+    "RelationshipId": 61801,
+    "MonsterName": "SeaHorse_Primo_Electric_01",
+    "Name": "Millennial Pearl Seahorse",
+    "Title": "Millennial Pearl Seahorse",
+    "Description": "Salah satu dari dua penguasa yang berada di puncak Fontemer Aberrant.\nPenyair dan penulis sering menyatakannya sebagai kebanggaan dan keagungan karena kecenderungannya yang menyendiri. Namun alasan sesungguhnya di balik deskripsi pujian tersebut adalah tubuhnya yang anggun dan ramping. Karena itu, ia adalah \"Pearl Seahorse\", sedangkan penguasa dari Armored Crab adalah \"Emperor\".\nDalam legenda dan rumor Fontaine, perang brutal pernah terjadi di antara Fontemer Aberrant, sampai pada akhirnya yang tersisa tinggallah \"Millennial Pearl Seahorse\" dan \"Emperor of Fire and Iron\" yang membagi danau besar menjadi dua wilayah kekuasaan: satu memerintah di utara, satunya lagi di selatan. Dalam \"Lagu Dobharcu\", penulis menggambarkan kondisi pascaperang: Hunter's Ray hebat yang dikenal sebagai raja badai mengaduk ombak besar dalam proses kematiannya, menyebabkan apa yang sekarang orang kenal sebagai \"periode banjir pertama\" ....\nTentu saja, semua ini tidak ubahnya imajinasi romantis orang-orang yang tak rela menerima kenyataan dunia yang hambar tanpa legenda. Fontemer Aberrant sebenarnya hanyalah hewan air yang sederhana. Mereka tidak memiliki wilayah kekuasaan maupun kerajaan yang runtuh. Mereka pun tidak punya kata-kata yang menyanjung, maupun mengutuk.",
+    "Icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
     "Type": 2,
     "Arkhe": 0,
     "Drops": [
       102,
       202,
       105,
-      104151,
-      104152,
-      104153,
-      104154,
-      113044,
-      400022,
+      104141,
+      104142,
+      104143,
+      104144,
+      113053,
       400032,
-      400052,
+      400042,
+      400137,
+      400062,
       400088,
       400098,
-      400023,
       400033,
+      400043,
+      400138,
       400089,
       400099
     ],
     "BaseValue": {
-      "HpBase": 190.176,
-      "AttackBase": 75.36,
+      "HpBase": 149.424,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
-      "FireSubHurt": 0.25,
-      "GrassSubHurt": 0.25,
-      "WaterSubHurt": 0.25,
-      "ElecSubHurt": 0.25,
-      "WindSubHurt": 0.6,
-      "IceSubHurt": 0.25,
-      "RockSubHurt": 0.25,
-      "PhysicalSubHurt": 0.25
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.6,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {
