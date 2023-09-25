@@ -17249,5 +17249,503 @@
         ]
       }
     ]
+  },
+  {
+    "Id": 202,
+    "GroupId": 68,
+    "Index": 1,
+    "MonsterLevel": 87,
+    "Goal": 1,
+    "FirstMonsters": [
+      52102,
+      52103,
+      52104,
+      52105,
+      53101
+    ],
+    "FirstWaves": [
+      {
+        "Type": 1,
+        "Monsters": [
+          {
+            "Id": 52103,
+            "Count": 1
+          },
+          {
+            "AttackMonolith": true,
+            "Id": 52104,
+            "Count": 2
+          },
+          {
+            "Id": 52105,
+            "Count": 1
+          },
+          {
+            "AttackMonolith": true,
+            "Id": 52102,
+            "Count": 2
+          }
+        ]
+      },
+      {
+        "Type": 999,
+        "Description": "<b>使第一波维持6个，按顺序杀一个出一个</b>",
+        "Monsters": [
+          {
+            "Id": 53101,
+            "Count": 2
+          },
+          {
+            "Id": 52102,
+            "Count": 2
+          },
+          {
+            "AttackMonolith": true,
+            "Id": 52104,
+            "Count": 2
+          }
+        ]
+      }
+    ],
+    "SecondMonsters": [
+      10205,
+      10208
+    ],
+    "SecondWaves": [
+      {
+        "Type": 1,
+        "Monsters": [
+          {
+            "Id": 10205,
+            "Count": 1
+          },
+          {
+            "Id": 10208,
+            "Count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 203,
+    "GroupId": 68,
+    "Index": 2,
+    "MonsterLevel": 89,
+    "Goal": 0,
+    "FirstMonsters": [
+      604,
+      605,
+      606,
+      607
+    ],
+    "FirstWaves": [
+      {
+        "Type": 1,
+        "Monsters": [
+          {
+            "Id": 605,
+            "Count": 2
+          },
+          {
+            "Id": 606,
+            "Count": 2
+          },
+          {
+            "Id": 607,
+            "Count": 2
+          }
+        ]
+      },
+      {
+        "Type": 999,
+        "Description": "<b>使第一波维持6个，按顺序杀一个出一个</b>",
+        "Monsters": [
+          {
+            "Id": 604,
+            "Count": 1
+          },
+          {
+            "Id": 604,
+            "Count": 1
+          },
+          {
+            "Id": 606,
+            "Count": 1
+          },
+          {
+            "Id": 604,
+            "Count": 1
+          },
+          {
+            "Id": 605,
+            "Count": 1
+          },
+          {
+            "Id": 604,
+            "Count": 1
+          },
+          {
+            "Id": 604,
+            "Count": 1
+          },
+          {
+            "Id": 605,
+            "Count": 1
+          },
+          {
+            "Id": 606,
+            "Count": 1
+          },
+          {
+            "Id": 604,
+            "Count": 1
+          },
+          {
+            "Id": 606,
+            "Count": 1
+          },
+          {
+            "Id": 605,
+            "Count": 1
+          }
+        ]
+      }
+    ],
+    "SecondMonsters": [
+      40101,
+      40103,
+      40302
+    ],
+    "SecondWaves": [
+      {
+        "Type": 1,
+        "Monsters": [
+          {
+            "Id": 40101,
+            "Count": 1
+          }
+        ]
+      },
+      {
+        "Type": 2,
+        "Monsters": [
+          {
+            "Id": 40103,
+            "Count": 1
+          }
+        ]
+      },
+      {
+        "Type": 3,
+        "Monsters": [
+          {
+            "Id": 40302,
+            "Count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 204,
+    "GroupId": 68,
+    "Index": 3,
+    "MonsterLevel": 91,
+    "Goal": 0,
+    "FirstMonsters": [
+      113,
+      106,
+      107,
+      61601,
+      61603,
+      20101,
+      21104
+    ],
+    "FirstWaves": [
+      {
+        "Type": 1,
+        "Monsters": [
+          {
+            "Id": 113,
+            "Count": 2
+          },
+          {
+            "Id": 106,
+            "Count": 2
+          },
+          {
+            "Id": 107,
+            "Count": 2
+          }
+        ]
+      },
+      {
+        "Type": 2,
+        "Monsters": [
+          {
+            "Affixes": [
+              {
+                "Name": "深渊特化",
+                "Description": "原海异种的攻击更为频繁、更加强大。"
+              }
+            ],
+            "Id": 61603,
+            "Count": 1
+          },
+          {
+            "Affixes": [
+              {
+                "Name": "深渊特化",
+                "Description": "原海异种的攻击更为频繁、更加强大。"
+              }
+            ],
+            "Id": 61601,
+            "Count": 2
+          }
+        ]
+      },
+      {
+        "Type": 3,
+        "Monsters": [
+          {
+            "Affixes": [
+              {
+                "Name": "强攻强化",
+                "Description": "<b>火深渊法师</b><br>- 喷火领域由1个增加至3个。<br><br><b>水深渊法师</b><br>- 水泡额外造成一次伤害。<br><br><b>冰深渊法师</b><br>- 落冰产生冰雾，持续造成伤害。<br><br><b>雷深渊法师</b><br>- 所有技能CD变短。<br>- 普攻产生的雷球会追踪目标。<br>- 闪现时自动释放一次雷圈。<br>- 雷圈的持续时间翻倍。<br>- 雷圈的持续伤害提高。<br><br><b>债务处理人</b><br>- 幻影会进行协同攻击。<br><br><b>雷萤术士</b><br>- 落雷数量由1个增加至3~6个。<br><br><b>冰萤术士</b><br>- 拍地板攻击会向4个方向延申。"
+              }
+            ],
+            "Id": 20101,
+            "Count": 1
+          },
+          {
+            "Affixes": [
+              {
+                "Name": "深渊特化",
+                "Description": "隙境原体入战后立刻释放终结技。<br>终结技更加频繁。"
+              }
+            ],
+            "Id": 21104,
+            "Count": 2
+          }
+        ]
+      }
+    ],
+    "SecondMonsters": [
+      514,
+      515
+    ],
+    "SecondWaves": [
+      {
+        "Type": 1,
+        "Monsters": [
+          {
+            "Affixes": [
+              {
+                "Name": "深渊特化",
+                "Description": "地方传奇 · 浊水幻灵：攻击间隔由0.1s增加至2s。"
+              }
+            ],
+            "Id": 5102,
+            "Count": 1
+          },
+          {
+            "Affixes": [
+              {
+                "Name": "深渊特化",
+                "Description": "地方传奇 · 浊水幻灵：攻击间隔由0.1s增加至2s。"
+              }
+            ],
+            "Id": 5112,
+            "Count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 205,
+    "GroupId": 69,
+    "Index": 1,
+    "MonsterLevel": 94,
+    "Goal": 0,
+    "FirstMonsters": [
+      61801
+    ],
+    "FirstWaves": [
+      {
+        "Type": 61801,
+        "Monsters": [
+          {
+            "Affixes": [
+              {
+                "Name": "深渊特化",
+                "Description": "- 增幅期间全部抗性提升80%而不是60%。<br>- 增幅状态之间的间隔由30s缩短至20s。"
+              }
+            ],
+            "Id": 61801,
+            "Count": 1
+          }
+        ]
+      }
+    ],
+    "SecondMonsters": [
+      20401,
+      20402,
+      20501,
+      20502,
+      20101
+    ],
+    "SecondWaves": [
+      {
+        "Type": 1,
+        "Monsters": [
+          {
+            "Id": 20501,
+            "Count": 1
+          },
+          {
+            "Id": 20401,
+            "Count": 5
+          }
+        ]
+      },
+      {
+        "Type": 999,
+        "Description": "<b>使第一波维持6个，按顺序杀一个出一个</b>",
+        "Monsters": [
+          {
+            "Id": 20402,
+            "Count": 1
+          },
+          {
+            "Id": 20402,
+            "Count": 1
+          },
+          {
+            "Id": 20502,
+            "Count": 1
+          },
+          {
+            "Id": 20402,
+            "Count": 1
+          },
+          {
+            "Id": 20402,
+            "Count": 1
+          },
+          {
+            "Id": 20402,
+            "Count": 1
+          }
+        ]
+      },
+      {
+        "Type": 2,
+        "Monsters": [
+          {
+            "Affixes": [
+              {
+                "Name": "防护强化",
+                "Description": "<b>深渊法师</b><br>- 护盾量翻倍。<br>- 角色攻击护盾时会被强制附着对应元素。"
+              }
+            ],
+            "Id": 20101,
+            "Count": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 206,
+    "GroupId": 69,
+    "Index": 2,
+    "MonsterLevel": 97,
+    "Goal": 0,
+    "FirstMonsters": [
+      60509,
+      40662,
+      40659
+    ],
+    "FirstWaves": [
+      {
+        "Type": 1,
+        "Monsters": [
+          {
+            "Id": 60509,
+            "Count": 2
+          }
+        ]
+      },
+      {
+        "Type": 2,
+        "Monsters": [
+          {
+            "Id": 40662,
+            "Count": 1
+          },
+          {
+            "Id": 40659,
+            "Count": 1
+          }
+        ]
+      }
+    ],
+    "SecondMonsters": [
+      40702
+    ],
+    "SecondWaves": [
+      {
+        "Type": 40702,
+        "Monsters": [
+          {
+            "Affixes": [
+              {
+                "Name": "深渊组曲",
+                "Description": "这场华丽的演出刚刚开场就会立刻进入高潮..."
+              }
+            ],
+            "Id": 40702,
+            "Count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 207,
+    "GroupId": 69,
+    "Index": 3,
+    "MonsterLevel": 99,
+    "Goal": 0,
+    "FirstMonsters": [
+      30501,
+      30602
+    ],
+    "FirstWaves": [
+      {
+        "Type": 1,
+        "Monsters": [
+          {
+            "Id": 30501,
+            "Count": 1
+          }
+        ]
+      },
+      {
+        "Type": 2,
+        "Monsters": [
+          {
+            "Id": 30602,
+            "Count": 2
+          }
+        ]
+      }
+    ],
+    "SecondMonsters": [
+      40801
+    ],
+    "SecondWaves": []
   }
 ]

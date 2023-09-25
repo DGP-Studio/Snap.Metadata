@@ -1317,7 +1317,7 @@
     "WeaponType": 1,
     "RankLevel": 4,
     "Name": "Finale degli abissi",
-    "Description": "Una spadone silenzioso come i profondi abissi dell'oceano. Malgrado la sua forma, è ben più antico di quanto sembri.",
+    "Description": "Una spada silenziosa come i profondi abissi dell'oceano. Malgrado la sua forma, è ben più antica di quanto sembri.",
     "Icon": "UI_EquipIcon_Sword_Vorpal",
     "AwakenIcon": "UI_EquipIcon_Sword_Vorpal_Awaken",
     "GrowCurves": [
@@ -1412,6 +1412,58 @@
     "CultivationItems": [
       114052,
       112088,
+      112082
+    ]
+  },
+  {
+    "Id": 11427,
+    "PromoteId": 11427,
+    "WeaponType": 1,
+    "RankLevel": 4,
+    "Name": "Aiutante del porto",
+    "Description": "Un comodo strumento da taglio che al giorno d'oggi risulta particolarmente raro. Permette di sostituire facilmente le lame smussate dall'usura.",
+    "Icon": "UI_EquipIcon_Sword_Mechanic",
+    "AwakenIcon": "UI_EquipIcon_Sword_Mechanic_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.09,
+        "Type": 3,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Ballata marinara",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo stoico che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Riscossa per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio ottiene <color=#99FFFFFF>40</color> di maestria elementale. 2{NON_BREAK_SPACE}s dopo aver attivato l'effetto, il personaggio recupera <color=#99FFFFFF>2</color> di energia per ciascun Simbolo consumato. L'effetto Riscossa può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 1,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo stoico che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Riscossa per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio ottiene <color=#99FFFFFF>50</color> di maestria elementale. 2{NON_BREAK_SPACE}s dopo aver attivato l'effetto, il personaggio recupera <color=#99FFFFFF>2,5</color> di energia per ciascun Simbolo consumato. L'effetto Riscossa può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 2,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo stoico che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Riscossa per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio ottiene <color=#99FFFFFF>60</color> di maestria elementale. 2{NON_BREAK_SPACE}s dopo aver attivato l'effetto, il personaggio recupera <color=#99FFFFFF>3</color> di energia per ciascun Simbolo consumato. L'effetto Riscossa può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 3,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo stoico che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Riscossa per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio ottiene <color=#99FFFFFF>70</color> di maestria elementale. 2{NON_BREAK_SPACE}s dopo aver attivato l'effetto, il personaggio recupera <color=#99FFFFFF>3,5</color> di energia per ciascun Simbolo consumato. L'effetto Riscossa può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 4,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo stoico che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Riscossa per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio ottiene <color=#99FFFFFF>80</color> di maestria elementale. 2{NON_BREAK_SPACE}s dopo aver attivato l'effetto, il personaggio recupera <color=#99FFFFFF>4</color> di energia per ciascun Simbolo consumato. L'effetto Riscossa può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114056,
+      112094,
       112082
     ]
   },
@@ -2629,23 +2681,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "#Quando è in campo, il personaggio infligge e subisce rispettivamente un <color=#99FFFFFF>6%</color> e un <color=#99FFFFFF>3%</color> di DAN in più ogni 4{NON_BREAK_SPACE}s. Cumulabile fino a 5 volte. Il personaggio perde 1 accumulo quando subisce DAN."
+          "Description": "#Quando è in campo, il personaggio infligge e subisce rispettivamente un <color=#99FFFFFF>6%</color> e un <color=#99FFFFFF>3%</color> di DAN in più ogni 4{NON_BREAK_SPACE}s. Questo effetto può accumularsi fino a 5 volte e non si annulla se il personaggio lascia il campo. Tuttavia, se quest'ultimo subisce DAN, gli accumuli si riducono di 1."
         },
         {
           "Level": 1,
-          "Description": "#Quando è in campo, il personaggio infligge e subisce rispettivamente un <color=#99FFFFFF>7%</color> e un <color=#99FFFFFF>2,7%</color> di DAN in più ogni 4{NON_BREAK_SPACE}s. Cumulabile fino a 5 volte. Il personaggio perde 1 accumulo quando subisce DAN."
+          "Description": "#Quando è in campo, il personaggio infligge e subisce rispettivamente un <color=#99FFFFFF>7%</color> e un <color=#99FFFFFF>2,7%</color> di DAN in più ogni 4{NON_BREAK_SPACE}s. Questo effetto può accumularsi fino a 5 volte e non si annulla se il personaggio lascia il campo. Tuttavia, se quest'ultimo subisce DAN, gli accumuli si riducono di 1."
         },
         {
           "Level": 2,
-          "Description": "#Quando è in campo, il personaggio infligge e subisce rispettivamente un <color=#99FFFFFF>8%</color> e un <color=#99FFFFFF>2,4%</color> di DAN in più ogni 4{NON_BREAK_SPACE}s. Cumulabile fino a 5 volte. Il personaggio perde 1 accumulo quando subisce DAN."
+          "Description": "#Quando è in campo, il personaggio infligge e subisce rispettivamente un <color=#99FFFFFF>8%</color> e un <color=#99FFFFFF>2,4%</color> di DAN in più ogni 4{NON_BREAK_SPACE}s. Questo effetto può accumularsi fino a 5 volte e non si annulla se il personaggio lascia il campo. Tuttavia, se quest'ultimo subisce DAN, gli accumuli si riducono di 1."
         },
         {
           "Level": 3,
-          "Description": "#Quando è in campo, il personaggio infligge e subisce rispettivamente un <color=#99FFFFFF>9%</color> e un <color=#99FFFFFF>2,2%</color> di DAN in più ogni 4{NON_BREAK_SPACE}s. Cumulabile fino a 5 volte. Il personaggio perde 1 accumulo quando subisce DAN."
+          "Description": "#Quando è in campo, il personaggio infligge e subisce rispettivamente un <color=#99FFFFFF>9%</color> e un <color=#99FFFFFF>2,2%</color> di DAN in più ogni 4{NON_BREAK_SPACE}s. Questo effetto può accumularsi fino a 5 volte e non si annulla se il personaggio lascia il campo. Tuttavia, se quest'ultimo subisce DAN, gli accumuli si riducono di 1."
         },
         {
           "Level": 4,
-          "Description": "#Quando è in campo, il personaggio infligge e subisce rispettivamente un <color=#99FFFFFF>10%</color> e un <color=#99FFFFFF>2%</color> di DAN in più ogni 4{NON_BREAK_SPACE}s. Cumulabile fino a 5 volte. Il personaggio perde 1 accumulo quando subisce DAN."
+          "Description": "#Quando è in campo, il personaggio infligge e subisce rispettivamente un <color=#99FFFFFF>10%</color> e un <color=#99FFFFFF>2%</color> di DAN in più ogni 4{NON_BREAK_SPACE}s. Questo effetto può accumularsi fino a 5 volte e non si annulla se il personaggio lascia il campo. Tuttavia, se quest'ultimo subisce DAN, gli accumuli si riducono di 1."
         }
       ]
     },
@@ -3129,7 +3181,7 @@
     "WeaponType": 11,
     "RankLevel": 4,
     "Name": "Mareombra",
-    "Description": "Una spada di modello standard, forgiata con materiali di prima qualità per gli ufficiali d'alto rango e i capitani di bandiera dell'antica marina di Fontaine.",
+    "Description": "Uno spadone modello base forgiato con materiali di prima qualità per gli ufficiali d'alto rango e i capitani di bandiera dell'antica marina di Fontaine.",
     "Icon": "UI_EquipIcon_Claymore_Vorpal",
     "AwakenIcon": "UI_EquipIcon_Claymore_Vorpal_Awaken",
     "GrowCurves": [
@@ -3166,6 +3218,58 @@
         {
           "Level": 4,
           "Description": "#Quando chi la utilizza riceve effetti di guarigione, l'ATT aumenta di un <color=#99FFFFFF>48%</color> per 8{NON_BREAK_SPACE}s. Questo effetto può attivarsi anche quando il personaggio non si trova in campo."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114060,
+      112091,
+      112085
+    ]
+  },
+  {
+    "Id": 12427,
+    "PromoteId": 12427,
+    "WeaponType": 11,
+    "RankLevel": 4,
+    "Name": "Sega elettrica portatile",
+    "Description": "Una sega elettrica vecchio tipo che al giorno d'oggi risulta particolarmente rara. Un tempo era l'attrezzo più fidato di ogni operaio.",
+    "Icon": "UI_EquipIcon_Claymore_Mechanic",
+    "AwakenIcon": "UI_EquipIcon_Claymore_Mechanic_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 41.0671,
+        "Type": 4,
+        "Value": 1204
+      },
+      {
+        "InitValue": 0.12,
+        "Type": 3,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Ballata marinara",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo stoico che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Riscossa per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio ottiene <color=#99FFFFFF>40</color> di maestria elementale. 2{NON_BREAK_SPACE}s dopo aver attivato l'effetto, il personaggio recupera <color=#99FFFFFF>2</color> di energia per ciascun Simbolo consumato. L'effetto Riscossa può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 1,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo stoico che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Riscossa per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio ottiene <color=#99FFFFFF>50</color> di maestria elementale. 2{NON_BREAK_SPACE}s dopo aver attivato l'effetto, il personaggio recupera <color=#99FFFFFF>2,5</color> di energia per ciascun Simbolo consumato. L'effetto Riscossa può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 2,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo stoico che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Riscossa per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio ottiene <color=#99FFFFFF>60</color> di maestria elementale. 2{NON_BREAK_SPACE}s dopo aver attivato l'effetto, il personaggio recupera <color=#99FFFFFF>3</color> di energia per ciascun Simbolo consumato. L'effetto Riscossa può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 3,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo stoico che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Riscossa per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio ottiene <color=#99FFFFFF>70</color> di maestria elementale. 2{NON_BREAK_SPACE}s dopo aver attivato l'effetto, il personaggio recupera <color=#99FFFFFF>3,5</color> di energia per ciascun Simbolo consumato. L'effetto Riscossa può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 4,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo stoico che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Riscossa per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio ottiene <color=#99FFFFFF>80</color> di maestria elementale. 2{NON_BREAK_SPACE}s dopo aver attivato l'effetto, il personaggio recupera <color=#99FFFFFF>4</color> di energia per ciascun Simbolo consumato. L'effetto Riscossa può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
         }
       ]
     },
@@ -4516,6 +4620,58 @@
     "CultivationItems": [
       114060,
       112091,
+      112085
+    ]
+  },
+  {
+    "Id": 13427,
+    "PromoteId": 13427,
+    "WeaponType": 13,
+    "RankLevel": 4,
+    "Name": "Trivella mineraria",
+    "Description": "Una trivella dotata di una lunga impugnatura che al giorno d'oggi risulta particolarmente rara. Veniva usata comunemente per scavare nella roccia ed esplorare i cunicoli sotterranei.",
+    "Icon": "UI_EquipIcon_Pole_Mechanic",
+    "AwakenIcon": "UI_EquipIcon_Pole_Mechanic_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 43.7349,
+        "Type": 4,
+        "Value": 1202
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 6,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Canto dei muratori",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo d'unità che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Lotta per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio riceve un <color=#99FFFFFF>3%</color> di bonus ATT e un <color=#99FFFFFF>7%</color> di bonus DAN per tutti gli elementi. L'effetto Lotta può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 1,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo d'unità che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Lotta per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio riceve un <color=#99FFFFFF>4%</color> di bonus ATT e un <color=#99FFFFFF>8,5%</color> di bonus DAN per tutti gli elementi. L'effetto Lotta può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 2,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo d'unità che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Lotta per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio riceve un <color=#99FFFFFF>5%</color> di bonus ATT e un <color=#99FFFFFF>10%</color> di bonus DAN per tutti gli elementi. L'effetto Lotta può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 3,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo d'unità che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Lotta per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio riceve un <color=#99FFFFFF>6%</color> di bonus ATT e un <color=#99FFFFFF>11,5%</color> di bonus DAN per tutti gli elementi. L'effetto Lotta può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 4,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo d'unità che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Lotta per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio riceve un <color=#99FFFFFF>7%</color> di bonus ATT e un <color=#99FFFFFF>13%</color> di bonus DAN per tutti gli elementi. L'effetto Lotta può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114052,
+      112094,
       112085
     ]
   },
@@ -6124,6 +6280,58 @@
     ]
   },
   {
+    "Id": 14426,
+    "PromoteId": 14426,
+    "WeaponType": 10,
+    "RankLevel": 4,
+    "Name": "Ballata del blu sempiterno",
+    "Description": "Una splendida antologia poetica. Al suo interno sono raccolte poesie che parlano del cielo, di denti di leone e di altri temi tanto cari agli abitanti di Mondstadt.",
+    "Icon": "UI_EquipIcon_Catalyst_DandelionPoem",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_DandelionPoem_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 43.7349,
+        "Type": 4,
+        "Value": 1202
+      },
+      {
+        "InitValue": 0.066667,
+        "Type": 23,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Cieli azzurri",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "#Entro 6{NON_BREAK_SPACE}s dopo aver colpito un avversario con un attacco normale o caricato, i DAN da attacco normale e caricato aumentano rispettivamente di un <color=#99FFFFFF>8%</color> e di un <color=#99FFFFFF>6%</color>. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s."
+        },
+        {
+          "Level": 1,
+          "Description": "#Entro 6{NON_BREAK_SPACE}s dopo aver colpito un avversario con un attacco normale o caricato, i DAN da attacco normale e caricato aumentano rispettivamente di un <color=#99FFFFFF>10%</color> e di un <color=#99FFFFFF>7,5%</color>. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s."
+        },
+        {
+          "Level": 2,
+          "Description": "#Entro 6{NON_BREAK_SPACE}s dopo aver colpito un avversario con un attacco normale o caricato, i DAN da attacco normale e caricato aumentano rispettivamente di un <color=#99FFFFFF>12%</color> e di un <color=#99FFFFFF>9%</color>. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s."
+        },
+        {
+          "Level": 3,
+          "Description": "#Entro 6{NON_BREAK_SPACE}s dopo aver colpito un avversario con un attacco normale o caricato, i DAN da attacco normale e caricato aumentano rispettivamente di un <color=#99FFFFFF>14%</color> e di un <color=#99FFFFFF>10,5%</color>. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s."
+        },
+        {
+          "Level": 4,
+          "Description": "#Entro 6{NON_BREAK_SPACE}s dopo aver colpito un avversario con un attacco normale o caricato, i DAN da attacco normale e caricato aumentano rispettivamente di un <color=#99FFFFFF>16%</color> e di un <color=#99FFFFFF>12%</color>. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114008,
+      112043,
+      112037
+    ]
+  },
+  {
     "Id": 14501,
     "PromoteId": 14501,
     "WeaponType": 10,
@@ -6537,6 +6745,110 @@
       114048,
       112064,
       112061
+    ]
+  },
+  {
+    "Id": 14513,
+    "PromoteId": 14513,
+    "WeaponType": 10,
+    "RankLevel": 5,
+    "Name": "Supervisione pecuniaria",
+    "Description": "Un dispositivo fluttuante in grado di monitorare determinati fenomeni. Era rimasto abbandonato, ma è stato ritrovato e adattato ad altri utilizzi.",
+    "Icon": "UI_EquipIcon_Catalyst_Wheatley",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_Wheatley_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 47.537,
+        "Type": 4,
+        "Value": 1302
+      },
+      {
+        "InitValue": 0.048,
+        "Type": 20,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "Marea di sangue dorato",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "#L'ATT aumenta di un <color=#99FFFFFF>16%</color>. Quando la quantità di PS attuali aumenta o diminuisce, i DAN da attacco normale e da attacco caricato aumentano rispettivamente di un <color=#99FFFFFF>16%</color> e di un <color=#99FFFFFF>14%</color> per 4{NON_BREAK_SPACE}s. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s. Quando il personaggio che equipaggia l'arma raggiunge il massimo numero di accumuli, la sua VEL d'ATT aumenta di un <color=#99FFFFFF>8%</color>."
+        },
+        {
+          "Level": 1,
+          "Description": "#L'ATT aumenta di un <color=#99FFFFFF>20%</color>. Quando la quantità di PS attuali aumenta o diminuisce, i DAN da attacco normale e da attacco caricato aumentano rispettivamente di un <color=#99FFFFFF>20%</color> e di un <color=#99FFFFFF>17,5%</color> per 4{NON_BREAK_SPACE}s. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s. Quando il personaggio che equipaggia l'arma raggiunge il massimo numero di accumuli, la sua VEL d'ATT aumenta di un <color=#99FFFFFF>10%</color>."
+        },
+        {
+          "Level": 2,
+          "Description": "#L'ATT aumenta di un <color=#99FFFFFF>24%</color>. Quando la quantità di PS attuali aumenta o diminuisce, i DAN da attacco normale e da attacco caricato aumentano rispettivamente di un <color=#99FFFFFF>24%</color> e di un <color=#99FFFFFF>21%</color> per 4{NON_BREAK_SPACE}s. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s. Quando il personaggio che equipaggia l'arma raggiunge il massimo numero di accumuli, la sua VEL d'ATT aumenta di un <color=#99FFFFFF>12%</color>."
+        },
+        {
+          "Level": 3,
+          "Description": "#L'ATT aumenta di un <color=#99FFFFFF>28%</color>. Quando la quantità di PS attuali aumenta o diminuisce, i DAN da attacco normale e da attacco caricato aumentano rispettivamente di un <color=#99FFFFFF>28%</color> e di un <color=#99FFFFFF>24,5%</color> per 4{NON_BREAK_SPACE}s. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s. Quando il personaggio che equipaggia l'arma raggiunge il massimo numero di accumuli, la sua VEL d'ATT aumenta di un <color=#99FFFFFF>14%</color>."
+        },
+        {
+          "Level": 4,
+          "Description": "#L'ATT aumenta di un <color=#99FFFFFF>32%</color>. Quando la quantità di PS attuali aumenta o diminuisce, i DAN da attacco normale e da attacco caricato aumentano rispettivamente di un <color=#99FFFFFF>32%</color> e di un <color=#99FFFFFF>28%</color> per 4{NON_BREAK_SPACE}s. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s. Quando il personaggio che equipaggia l'arma raggiunge il massimo numero di accumuli, la sua VEL d'ATT aumenta di un <color=#99FFFFFF>16%</color>."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114060,
+      112094,
+      112082
+    ]
+  },
+  {
+    "Id": 14514,
+    "PromoteId": 14514,
+    "WeaponType": 10,
+    "RankLevel": 5,
+    "Name": "Tomo del flusso perenne",
+    "Description": "Un manuale che un tempo veniva tramandato all'interno di un priorato subacqueo. Al giorno d'oggi, la sua esistenza è ignota a chiunque.",
+    "Icon": "UI_EquipIcon_Catalyst_Iudex",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_Iudex_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 44.3358,
+        "Type": 4,
+        "Value": 1304
+      },
+      {
+        "InitValue": 0.192,
+        "Type": 22,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "Onda eonica",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "#I PS aumentano di un <color=#99FFFFFF>16%</color>. Quando la quantità di PS attuali aumenta o diminuisce, i DAN da attacco caricato aumentano di un <color=#99FFFFFF>14%</color> per 4{NON_BREAK_SPACE}s. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s. Una volta raggiunto il massimo numero di accumuli o quando la durata del terzo accumulo si ripristina, l'energia del personaggio si ripristina di <color=#99FFFFFF>8</color>. Questo effetto di ripristino dell'energia può attivarsi una volta ogni 12{NON_BREAK_SPACE}s."
+        },
+        {
+          "Level": 1,
+          "Description": "#I PS aumentano di un <color=#99FFFFFF>20%</color>. Quando la quantità di PS attuali aumenta o diminuisce, i DAN da attacco caricato aumentano di un <color=#99FFFFFF>18%</color> per 4{NON_BREAK_SPACE}s. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s. Una volta raggiunto il massimo numero di accumuli o quando la durata del terzo accumulo si ripristina, l'energia del personaggio si ripristina di <color=#99FFFFFF>9</color>. Questo effetto di ripristino dell'energia può attivarsi una volta ogni 12{NON_BREAK_SPACE}s."
+        },
+        {
+          "Level": 2,
+          "Description": "#I PS aumentano di un <color=#99FFFFFF>24%</color>. Quando la quantità di PS attuali aumenta o diminuisce, i DAN da attacco caricato aumentano di un <color=#99FFFFFF>22%</color> per 4{NON_BREAK_SPACE}s. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s. Una volta raggiunto il massimo numero di accumuli o quando la durata del terzo accumulo si ripristina, l'energia del personaggio si ripristina di <color=#99FFFFFF>10</color>. Questo effetto di ripristino dell'energia può attivarsi una volta ogni 12{NON_BREAK_SPACE}s."
+        },
+        {
+          "Level": 3,
+          "Description": "#I PS aumentano di un <color=#99FFFFFF>28%</color>. Quando la quantità di PS attuali aumenta o diminuisce, i DAN da attacco caricato aumentano di un <color=#99FFFFFF>>26%</color> per 4{NON_BREAK_SPACE}s. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s. Una volta raggiunto il massimo numero di accumuli o quando la durata del terzo accumulo si ripristina, l'energia del personaggio si ripristina di <color=#99FFFFFF>11</color>. Questo effetto di ripristino dell'energia può attivarsi una volta ogni 12{NON_BREAK_SPACE}s."
+        },
+        {
+          "Level": 4,
+          "Description": "#I PS aumentano di un <color=#99FFFFFF>32%</color>. Quando la quantità di PS attuali aumenta o diminuisce, i DAN da attacco caricato aumentano di un <color=#99FFFFFF>30%</color> per 4{NON_BREAK_SPACE}s. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s. Una volta raggiunto il massimo numero di accumuli o quando la durata del terzo accumulo si ripristina, l'energia del personaggio si ripristina di <color=#99FFFFFF>12</color>. Questo effetto di ripristino dell'energia può attivarsi una volta ogni 12{NON_BREAK_SPACE}s."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114056,
+      112091,
+      112085
     ]
   },
   {
@@ -7917,6 +8229,58 @@
       114052,
       112088,
       112013
+    ]
+  },
+  {
+    "Id": 15427,
+    "PromoteId": 15427,
+    "WeaponType": 12,
+    "RankLevel": 4,
+    "Name": "Indicatore distanziometrico",
+    "Description": "Uno strumento di misurazione che al giorno d'oggi risulta particolarmente raro. È in grado di scoccare delle frecce.",
+    "Icon": "UI_EquipIcon_Bow_Mechanic",
+    "AwakenIcon": "UI_EquipIcon_Bow_Mechanic_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 43.7349,
+        "Type": 4,
+        "Value": 1202
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 6,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Canto dei muratori",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo d'unità che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Lotta per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio riceve un <color=#99FFFFFF>3%</color> di bonus ATT e un <color=#99FFFFFF>7%</color> di bonus DAN per tutti gli elementi. L'effetto Lotta può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 1,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo d'unità che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Lotta per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio riceve un <color=#99FFFFFF>4%</color> di bonus ATT e un <color=#99FFFFFF>8,5%</color> di bonus DAN per tutti gli elementi. L'effetto Lotta può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 2,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo d'unità che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Lotta per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio riceve un <color=#99FFFFFF>5%</color> di bonus ATT e un <color=#99FFFFFF>10%</color> di bonus DAN per tutti gli elementi. L'effetto Lotta può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 3,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo d'unità che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Lotta per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio riceve un <color=#99FFFFFF>6%</color> di bonus ATT e un <color=#99FFFFFF>11,5%</color> di bonus DAN per tutti gli elementi. L'effetto Lotta può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        },
+        {
+          "Level": 4,
+          "Description": "#Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo d'unità che dura 30{NON_BREAK_SPACE}s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Lotta per 10{NON_BREAK_SPACE}s. Per ogni Simbolo consumato, il personaggio riceve un <color=#99FFFFFF>7%</color> di bonus ATT e un <color=#99FFFFFF>13%</color> di bonus DAN per tutti gli elementi. L'effetto Lotta può attivarsi una volta ogni 15{NON_BREAK_SPACE}s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114052,
+      112088,
+      112082
     ]
   },
   {

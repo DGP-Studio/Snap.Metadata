@@ -1,5 +1,69 @@
 [
   {
+    "Id": 78,
+    "FloorIds": [
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "Open": "2023-09-16T04:00:00+08:00",
+    "Close": "2023-10-01T03:59:59+08:00",
+    "BuffName": "Lune giratoire",
+    "Descriptions": [
+      "Lorsqu'un personnage récupère ou perd des PV, il bénéficie d'un bonus de <color=#F39000FF>DGT élémentaires et physiques de 40 %</color> pendant 3 s."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 79,
+    "FloorIds": [
+      1064,
+      1065,
+      1068,
+      1069
+    ],
+    "Open": "2023-10-01T04:00:00+08:00",
+    "Close": "2023-10-16T03:59:59+08:00",
+    "BuffName": "Lune fendante",
+    "Descriptions": [
+      "Lorsque les PV actuels d'un personnage augmentent ou diminuent, <color=#F39000FF>les DGT infligés par les attaques normales et chargées augmentent de 16 %</color> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,5 s et cumulé 3 fois maximum."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 80,
+    "FloorIds": [
+      1064,
+      1065,
+      1068,
+      1069
+    ],
+    "Open": "2023-10-16T04:00:00+08:00",
+    "Close": "2023-11-01T03:59:59+08:00",
+    "BuffName": "Lune convergente",
+    "Descriptions": [
+      "Lorsqu'un personnage a touché un ennemi avec une attaque chargée, il obtient un <color=#F39000FF>bonus correspondant de DGT physiques ou élémentaires de 20 %</color> pendant 5 s. Cet effet peut être déclenché une fois toutes les 0,5 s et cumulé 3 fois maximum. Les bonus de DGT des différents types d'attaque chargée étant indépendants, ils ont chacun une durée propre."
+    ],
+    "Icon": "UI_TowerBlessing_71"
+  },
+  {
+    "Id": 81,
+    "FloorIds": [
+      1064,
+      1065,
+      1068,
+      1069
+    ],
+    "Open": "2023-11-01T04:00:00+08:00",
+    "Close": "2023-11-16T03:59:59+08:00",
+    "BuffName": "Lune coalescente",
+    "Descriptions": [
+      "Lorsque le personnage déployé a touché un ennemi avec une attaque normale ou chargée, <color=#F39000FF>le taux CRIT de ses attaques normales et chargées augmentent de 6 %</color> pendant 5 s. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 5 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Cet effet est annulé lorsque le personnage quitte le champ de bataille."
+    ],
+    "Icon": "UI_TowerBlessing_55"
+  },
+  {
     "Id": 1,
     "FloorIds": [
       1009,
@@ -213,7 +277,7 @@
     "BuffName": "Lune enneigée",
     "Descriptions": [
       "Lorsqu'un personnage obtient un fragment élémentaire Cryo produit par une réaction de Cristallisation entre les éléments Géo et Cryo, une onde de choc est libérée, infligeant des DGT aux ennemis proches.",
-      "Lorsqu'un personnage obtient des Fragments Cryo créés par une Cristallisation Géo ou Cryo, le TdR de sa compétence élémentaire est réduit d'une seconde."
+      "Lorsqu'un personnage obtient des Fragments Cryo créés par une Cristallisation Géo ou Cryo, le TdR de sa compétence élémentaire diminue de 1 s."
     ],
     "Icon": "UI_TowerBlessing_8"
   },
@@ -310,7 +374,7 @@
     "Close": "2021-04-16T03:59:59+08:00",
     "BuffName": "Lune venteuse",
     "Descriptions": [
-      "Les personnages bénéficient d'un anneau lumineux qui augmente leur ATQ de 60 % maximum. Chaque fois qu'un ennemi rentre dans l'anneau, cet effet est réduit de 25 %. Lorsque 4 ennemis ou plus se trouvent dans l'anneau, le bonus d'ATQ qu'il confère devient nul."
+      "Les personnages bénéficient d'un anneau lumineux qui augmente leur ATQ de 60 % maximum. Chaque fois qu'un ennemi rentre dans l'anneau, cet effet diminue de 25 %. Lorsque 4 ennemis ou plus se trouvent dans l'anneau, le bonus d'ATQ qu'il confère devient nul."
     ],
     "Icon": "UI_TowerBlessing_14"
   },
@@ -326,7 +390,7 @@
     "Close": "2021-05-01T03:59:59+08:00",
     "BuffName": "Lune céleste",
     "Descriptions": [
-      "La DÉF de l'ennemi est réduite de 40 % pendant 10 s après avoir été frappé par une attaque plongeante."
+      "La DÉF de l'ennemi diminue de 40 % pendant 10 s après avoir été frappé par une attaque plongeante."
     ],
     "Icon": "UI_TowerBlessing_15"
   },
@@ -358,7 +422,7 @@
     "Close": "2021-06-01T03:59:59+08:00",
     "BuffName": "Lune épineuse",
     "Descriptions": [
-      "Déclenche un contrecoup lorsqu'un ennemi touche un personnage protégé par un bouclier, libérant une onde de choc de DGT de zone (une fois toutes les 6 s)."
+      "Déclenche un contrecoup lorsqu'un ennemi touche un personnage protégé par un bouclier, libérant une onde de choc de DGT de zone. Cet effet peut-être déclenché une fois toutes les 6 s."
     ],
     "Icon": "UI_TowerBlessing_18"
   },
@@ -822,7 +886,7 @@
     "Close": "2022-08-16T03:59:59+08:00",
     "BuffName": "Lune tourbillonnante",
     "Descriptions": [
-      "Lorsqu'un personnage déclenche une réaction de Dispersion sur un ennemi, <color=#F39000FF>la DÉF de ce dernier est réduite de 12 %</color> pendant 10 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
+      "Lorsqu'un personnage déclenche une réaction de Dispersion sur un ennemi, <color=#F39000FF>la DÉF de ce dernier diminue de 12 %</color> pendant 10 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
     ],
     "Icon": "UI_TowerBlessing_46"
   },
@@ -1239,22 +1303,6 @@
     "BuffName": "Lune vive",
     "Descriptions": [
       "#Lorsqu'un personnage récupère des PV, son <color=#F39000FF>ATQ augmente de 10{NON_BREAK_SPACE}%</color> pendant 10 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Lorsqu'un personnage perd des PV, sa <color=#F39000FF>maîtrise élémentaire augmente de 40 pts</color> pendant 10 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Les effets déclenchés en récupérant ou perdant des PV sont indépendants, et ont chacun une durée propre."
-    ],
-    "Icon": "UI_TowerBlessing_69"
-  },
-  {
-    "Id": 78,
-    "FloorIds": [
-      1064,
-      1065,
-      1066,
-      1067
-    ],
-    "Open": "2023-09-16T04:00:00+08:00",
-    "Close": "2023-10-01T03:59:59+08:00",
-    "BuffName": "Lune giratoire",
-    "Descriptions": [
-      "Lorsqu'un personnage récupère ou perd des PV, il bénéficie d'un bonus de <color=#F39000FF>DGT élémentaires et physiques de 40 %</color> pendant 3 s."
     ],
     "Icon": "UI_TowerBlessing_69"
   }

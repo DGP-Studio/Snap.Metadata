@@ -1449,7 +1449,7 @@
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
-    "Name": "Lenda Local: Fantasma Destruidor da Água",
+    "Name": "Fantasma Destruidor da Água Veterano",
     "Title": "Fantasma Destruidor da Água",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 0,
@@ -1459,7 +1459,7 @@
     "Id": 0,
     "DescribeId": 515,
     "RelationshipId": 515,
-    "Name": "Lenda Local: Fantasma Atirador da Água",
+    "Name": "Fantasma Atirador da Água Veterano",
     "Title": "Fantasma Atirador da Água",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
     "Type": 0,
@@ -4879,6 +4879,130 @@
     ]
   },
   {
+    "Id": 23060101,
+    "DescribeId": 30601,
+    "RelationshipId": 30601,
+    "MonsterName": "Fatuus_Escadron_Ice_01",
+    "Name": "Fatui Oficial do Gelo",
+    "Title": "Oficial da Espada Gelada",
+    "Description": "Um agente de elite entre os Fatui.\nSelecionados enquanto crianças, eles podem se tornar um \"Oficial\" após muitos anos de treino e ensino, após incontáveis rodadas terem joeirado o campo. Eles são os soldados mais excepcionais entre os Fatui, com habilidade extraordinária e lealdade incondicional.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23060201,
+    "DescribeId": 30602,
+    "RelationshipId": 30602,
+    "MonsterName": "Fatuus_Escadron_Wind_01",
+    "Name": "Fatui Oficial do Vento",
+    "Title": "Oficial do Sino de Vento",
+    "Description": "Um agente de elite entre os Fatui.\n\"Oficiais\" não têm posições militares comuns entre os Fatui. Baseado em suas ordens e o conteúdo de suas missões, eles podem trabalhar junto a outros soldados, sozinhos, ou em sincronia com as \"células\" escondidas e espalhadas pela mundo. Eles espionam, conduzem contra-espionagem, protegem, assassinam e realizam outras tarefas. Para cumprir a missão eficientemente de natureza mais especial, \"Oficiais\" também precisam dominar todos os tipos de outras habilidades e até várias artes e talentos.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30603,
+    "RelationshipId": 30603,
+    "Name": "Fatui Oficial do Gelo Veterano",
+    "Title": "Oficial da Espada Gelada",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30604,
+    "RelationshipId": 30604,
+    "Name": "Fatui Oficial do Vento Veterano",
+    "Title": "Oficial do Sino de Vento",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 24010101,
     "DescribeId": 40101,
     "RelationshipId": 40101,
@@ -6087,6 +6211,69 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40606,
+    "RelationshipId": 40606,
+    "Name": "Mecautômato de Assalto Submarino: Ousia",
+    "Title": "Mecautômato de Assalto Submarino",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40656,
+    "RelationshipId": 40656,
+    "Name": "Mecautômato de Assalto Submarino: Pneuma",
+    "Title": "Mecautômato de Assalto Submarino",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 24068601,
+    "DescribeId": 40686,
+    "RelationshipId": 40686,
+    "MonsterName": "MachinaIustitia_Frigate_Codex",
+    "Name": "Mecautômato de Assalto Submarino",
+    "Title": "Mecautômato de Assalto Submarino",
+    "Description": "Um Mecautômato projetado para conduzir ataques submarinos. Diferente de modelos \"Mecaquapatrulhadores\", é esperado enfrentar oponentes muito maiores e ferozes. Claro, o preço que paga por tais capacidades e seu custo de fabricação é que é incapaz de usar tudo que pode contra oponentes menores.\nHá muito tempo, Fontaine já foi ferida pela trágica invasão de um monstro gigantesco. A reverenciada Frota de Ferro que navegou sobre o grande lago terrestre foi completamente destruída em defesa da nação. O designer esperava que se tal coisa fosse acontecer de novo, o Mecautômato iria possuir poderio naval suficiente para ser a primeira linha de defesa, antes de soldados e generais.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 1,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "BaseValue": {
+      "HpBase": 64.9378,
+      "AttackBase": 60,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 25
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
     "DescribeId": 40607,
     "RelationshipId": 40607,
     "Name": "Mecacoletor - Ousia",
@@ -6471,6 +6658,16 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40613,
+    "RelationshipId": 40613,
+    "Name": "Mecaritmético Veterano",
+    "Title": "Mecaritmético",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
     "Name": "Suíte Criozéfira: Castigo de Coppelius",
@@ -6518,6 +6715,68 @@
       "WindSubHurt": 0.7,
       "IceSubHurt": 0.7,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24080101,
+    "DescribeId": 40801,
+    "RelationshipId": 40801,
+    "MonsterName": "Monster_MachinaIustitia_Gravitas_01",
+    "Name": "Gerador de Campo Experimental",
+    "Title": "Gerador de Campo Experimental",
+    "Description": "Um grande dispositivo projetado pelo finado Edwin Eastinghouse. Tem a habilidade de \"contrarreagir\" aos efeitos da gravidade. Segundo os objetivos de design originais, esse foi o primeiro passo em um plano para tornar Fontaine em uma cidade no céu, para que nunca mais as pessoas precisassem se preocupar com ondas que já varreram a terra. Mesmo se todas as sete nações fossem engolidas pelas profundezas, a elegante Corte de Fontaine flutuaria sobre tudo exatamente como Celestia. Até os segredos do universo não pareceriam mais tão distantes.\nO Arkhium no núcleo do dispositivo tem as características de \"rompimento\" ou \"precipitação\", e pode pegar matéria, ou certas coisas fora da matéria, e separá-las. Dizem que este processo pode ser revertido, mas o Instituto de Pesquisas de Fontaine só tem amor com os efeitos físicos que ele pode produzir.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "Type": 2,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104171,
+      104172,
+      104173,
+      104174,
+      113052,
+      400032,
+      400042,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 213.2688,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -10106,6 +10365,103 @@
     ]
   },
   {
+    "Id": 26120401,
+    "DescribeId": 61204,
+    "RelationshipId": 61204,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Name": "Cogumelo Terrestre Geo",
+    "Title": "Cogumelo Terrestre Geo",
+    "Description": "Uma forma de vida mimética feita de esporos. Ela é extremamente adaptável.\nEsse ser sofreu quase completa queratinização por causa da influência do Geo. Quando é levado em consideração que Cogumelos evoluíram de esporos, talvez esse seja a fundação para a evolução posterior de uma nova forma de vida, caso tempo suficiente se passe.\nEssa criatura possui uma posição de comando entre as colônias de cogumelos, e possui inteligência superior.",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26130101,
+    "DescribeId": 61301,
+    "RelationshipId": 61301,
+    "MonsterName": "Sandworm",
+    "Name": "Verme da Areia Setekh",
+    "Title": "Verme da Areia Setekh",
+    "Description": "Um predador sem olhos das profundezas do Grande Mar de Areias Escarlates que usa som e vibrações para perseguir sua presa.\nA lenda diz que no passado antigo, antes de o conceito de tempo ser criado, estas criaturas proliferavam com seus progenitores e crias em uma terra de grama verdejante e árvores colossais, atravessando solos lisos como peixes mergulhando em água.\nCom a passagem das eras, as dádivas do céu há muito tempo reduziu os solos a areia, extinguindo muitas criaturas. Este ramo do gênero deles conseguiu sobreviver ao se adaptar para uma vida mais baseada na terra, e se tornando conhecida como os \"vermes da areia\".\nAlguns povos do deserto ainda acreditam equivocadamente que vermes da areia são o ponto final da vida de um unagi de areia movediça, provavelmente devido a similaridades superficiais entre os comportamentos das espécies.",
+    "Icon": "UI_MonsterIcon_Sandworm",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104151,
+      104152,
+      104153,
+      104154,
+      113044,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 190.176,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.6,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -10919,6 +11275,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61624,
+    "RelationshipId": 61624,
+    "Name": "Lenda Local: Coelho Marinho Arcanjo",
+    "Title": "Coelho Marinho Arcanjo",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -10964,86 +11330,49 @@
     ]
   },
   {
-    "Id": 26120401,
-    "DescribeId": 61204,
-    "RelationshipId": 61204,
-    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
-    "Name": "Cogumelo Terrestre Geo",
-    "Title": "Cogumelo Terrestre Geo",
-    "Description": "Uma forma de vida mimética feita de esporos. Ela é extremamente adaptável.\nEsse ser sofreu quase completa queratinização por causa da influência do Geo. Quando é levado em consideração que Cogumelos evoluíram de esporos, talvez esse seja a fundação para a evolução posterior de uma nova forma de vida, caso tempo suficiente se passe.\nEssa criatura possui uma posição de comando entre as colônias de cogumelos, e possui inteligência superior.",
-    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 38.0352,
-      "AttackBase": 30.144,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.3,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.3,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26130101,
-    "DescribeId": 61301,
-    "RelationshipId": 61301,
-    "MonsterName": "Sandworm",
-    "Name": "Verme da Areia Setekh",
-    "Title": "Verme da Areia Setekh",
-    "Description": "Um predador sem olhos das profundezas do Grande Mar de Areias Escarlates que usa som e vibrações para perseguir sua presa.\nA lenda diz que no passado antigo, antes de o conceito de tempo ser criado, estas criaturas proliferavam com seus progenitores e crias em uma terra de grama verdejante e árvores colossais, atravessando solos lisos como peixes mergulhando em água.\nCom a passagem das eras, as dádivas do céu há muito tempo reduziu os solos a areia, extinguindo muitas criaturas. Este ramo do gênero deles conseguiu sobreviver ao se adaptar para uma vida mais baseada na terra, e se tornando conhecida como os \"vermes da areia\".\nAlguns povos do deserto ainda acreditam equivocadamente que vermes da areia são o ponto final da vida de um unagi de areia movediça, provavelmente devido a similaridades superficiais entre os comportamentos das espécies.",
-    "Icon": "UI_MonsterIcon_Sandworm",
+    "Id": 26180101,
+    "DescribeId": 61801,
+    "RelationshipId": 61801,
+    "MonsterName": "SeaHorse_Primo_Electric_01",
+    "Name": "Cavalo-marinho Perolado Milenar",
+    "Title": "Cavalo-marinho Perolado Milenar",
+    "Description": "Um dos dois soberanos no ápice das Aberrações Primordiais.\nPoetas e autores frequentemente proclamam que essas são nobres e orgulhosas criaturas devido às suas tendências solitárias, mas a real razão por trás de tais descrições aduladoras é seu corpo elegante e esguio. Assim é um \"Cavalo-marinho Perolado\", enquanto o suserano dos Caranguejos de Armadura é um \"Imperador\".\nNas lendas e rumores de Fontaine, uma guerra brutal foi travada entre as Aberrações Primordiais, deixando apenas o \"Cavalo-marinho Perolado Milenar\" e o \"Imperador do Fogo e Ferro\" dividindo o grande lago em duas cortes, um regendo o norte e outro o sul. Na \"Canção de Dobharcu\" o escritor descreve o resultado da guerra: A grande Arraia Caçadora conhecida como Lorde das Tempestades agitou grandes ondas em sua agonia mortal, causando o que é conhecido como o \"Primeiro Período Diluviano\"...\nClaro, isso nada mais é do que a imaginação romântica de pessoas que não estão dispostas a aceitar realidades insossas do mundo. Pois as Aberrações Primordiais são, na verdade, apenas animais aquáticos, e não têm grandes cortes ou reinos caídos, nem exaltam e amaldiçoam na língua humana.",
+    "Icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
     "Type": 2,
     "Arkhe": 0,
     "Drops": [
       102,
       202,
       105,
-      104151,
-      104152,
-      104153,
-      104154,
-      113044,
-      400022,
+      104141,
+      104142,
+      104143,
+      104144,
+      113053,
       400032,
-      400052,
+      400042,
+      400137,
+      400062,
       400088,
       400098,
-      400023,
       400033,
+      400043,
+      400138,
       400089,
       400099
     ],
     "BaseValue": {
-      "HpBase": 190.176,
-      "AttackBase": 75.36,
+      "HpBase": 149.424,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
-      "FireSubHurt": 0.25,
-      "GrassSubHurt": 0.25,
-      "WaterSubHurt": 0.25,
-      "ElecSubHurt": 0.25,
-      "WindSubHurt": 0.6,
-      "IceSubHurt": 0.25,
-      "RockSubHurt": 0.25,
-      "PhysicalSubHurt": 0.25
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.6,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {

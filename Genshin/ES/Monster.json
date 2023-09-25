@@ -1348,7 +1348,7 @@
     "MonsterName": "Monster_Necalevia_Normal_01",
     "Name": "Ánima Aplastalodo",
     "Title": "Ánima Aplastalodo",
-    "Description": "Una extraña forma de vida elemental que apareció en las zonas acuáticas cuando las Oceánidas desaparecieron de Fontaine.\nEste tipo de criatura, la cual comenzó a avistarse tras la catástrofe que aconteció en este mundo, carece de la belleza característica de las Oceánidas, de ahí su nombre haga referencia a unas aguas turbias y lodosas.\nAunque el veneno que se mezcló con las aguas de Fontaine ya se ha diluido y purificado, a menos que haya un espacio de agua pura en algún lugar de la nación, las Oceánidas no volverán a nacer de forma natural en sus aguas.",
+    "Description": "Una extraña forma de vida elemental que apareció en las zonas acuáticas cuando las Oceánidas desaparecieron de Fontaine.\nEste tipo de criatura, la cual comenzó a avistarse tras la catástrofe que aconteció en este mundo, carece de la belleza característica de las Oceánidas, de ahí que su nombre haga referencia a unas aguas turbias y lodosas.\nAunque el veneno que se mezcló con las aguas de Fontaine ya se ha diluido y purificado, a menos que haya un espacio de agua pura en algún lugar de la nación, las Oceánidas no volverán a nacer de forma natural en sus aguas.",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 1,
     "Arkhe": 0,
@@ -1449,7 +1449,7 @@
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
-    "Name": "Ánima Aplastalodo - Leyenda local",
+    "Name": "Ánima Aplastalodo veterana",
     "Title": "Ánima Aplastalodo",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 0,
@@ -1459,7 +1459,7 @@
     "Id": 0,
     "DescribeId": 515,
     "RelationshipId": 515,
-    "Name": "Ánima Escupelodo - Leyenda local",
+    "Name": "Ánima Escupelodo veterana",
     "Title": "Ánima Escupelodo",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
     "Type": 0,
@@ -4879,6 +4879,130 @@
     ]
   },
   {
+    "Id": 23060101,
+    "DescribeId": 30601,
+    "RelationshipId": 30601,
+    "MonsterName": "Fatuus_Escadron_Ice_01",
+    "Name": "Soldado Fatui - Senescal Cryo",
+    "Title": "Siervo filoescarcha",
+    "Description": "Una agente especial de élite de los Fatui.\nSolo alguien que ha sido elegido desde pequeño, que ha sido adoctrinado y entrenado durante muchos años y que ha sido repudiado en incontables ocasiones puede llegar a convertirse en Senescal. Son los soldados más sobresalientes de todas las filas de los Fatui y poseen tanto unas habilidades extraordinarias como una fidelidad férrea.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23060201,
+    "DescribeId": 30602,
+    "RelationshipId": 30602,
+    "MonsterName": "Fatuus_Escadron_Wind_01",
+    "Name": "Soldado Fatui - Senescal Anemo",
+    "Title": "Siervo liriobrisado",
+    "Description": "Una agente especial de élite de los Fatui.\nLas Senescales no tienen un rango militar reglado entre las filas de los Fatui y se mueven junto a los demás soldados según las órdenes y la misión en la que estén. También actúan de manera independiente o colaborando con los soldados de todas partes de Teyvat para labores de espionaje, contravigilancia, protección, eliminación de personas, etc. Para algunas misiones especiales, las Senescales necesitan dominar toda clase de habilidades, e incluso de formas artísticas.",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30603,
+    "RelationshipId": 30603,
+    "Name": "Soldado Fatui - Senescal Cryo veterana",
+    "Title": "Siervo filoescarcha",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30604,
+    "RelationshipId": 30604,
+    "Name": "Soldado Fatui - Senescal Anemo veterana",
+    "Title": "Siervo liriobrisado",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 24010101,
     "DescribeId": 40101,
     "RelationshipId": 40101,
@@ -6087,6 +6211,69 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40606,
+    "RelationshipId": 40606,
+    "Name": "Mecaasaltador Submarino - Ousía",
+    "Title": "Mecaasaltador Submarino",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40656,
+    "RelationshipId": 40656,
+    "Name": "Mecaasaltador Submarino - Pneuma",
+    "Title": "Mecaasaltador Submarino",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 24068601,
+    "DescribeId": 40686,
+    "RelationshipId": 40686,
+    "MonsterName": "MachinaIustitia_Frigate_Codex",
+    "Name": "Mecaasaltador Submarino",
+    "Title": "Mecaasaltador Submarino",
+    "Description": "Un Mecabot diseñado específicamente para atacar bajo el agua. Su diferencia con los Mecapatrulleros Subacuáticos es que los enemigos que desean atacarlos son más grandes y agresivos. La desventaja que tienen sus características y costes de fabricación es que no resultan tan amenazantes para los enemigos más pequeños.\nEn el pasado, en Fontaine ocurrió una gran tragedia en la que enormes bestias invadieron la nación, y en la cual la blanca Armada Blindada, adorada por todos los habitantes del Gran Lago, sufrió una aplastante derrota defendiendo su patria. El diseñador de esta máquina esperaba que, si algo así volviera a ocurrir, al menos tuvieran un tipo de Mecabot de gran potencia de fuego que pudiera estar en la primera línea de defensa, por delante del resto de los capitanes y soldados.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 1,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "BaseValue": {
+      "HpBase": 64.9378,
+      "AttackBase": 60,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 25
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
     "DescribeId": 40607,
     "RelationshipId": 40607,
     "Name": "Mecarrecolector Dinámico - Ousía",
@@ -6471,6 +6658,16 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40613,
+    "RelationshipId": 40613,
+    "Name": "Mecaoptimizador Aritmético veterano",
+    "Title": "Mecaoptimizador Aritmético",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
     "Name": "Suite Criocéfiro - Condena de Coppélius",
@@ -6518,6 +6715,68 @@
       "WindSubHurt": 0.7,
       "IceSubHurt": 0.7,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24080101,
+    "DescribeId": 40801,
+    "RelationshipId": 40801,
+    "MonsterName": "Monster_MachinaIustitia_Gravitas_01",
+    "Name": "Generador de Campo Experimental",
+    "Title": "Generador de Campo Experimental",
+    "Description": "Una máquina gigante diseñada por Edwin Eastinghouse. Originalmente, poseía unos efectos capaces de contrarrestar la fuerza de la gravedad y, también originalmente, ese iba a ser el primer paso para hacer de Fontaine una metrópoli flotante. Entonces, nadie tendría que volver a preocuparse de que una marea purgase la tierra, pues aunque las Siete Naciones quedaran sumergidas bajo el agua, la elegante Corte de Fontaine flotaría en el aire como si de Celestia se tratase. Es más, de ese modo, hasta los secretos del universo se antojarían menos remotos.\nEl árjium del que está compuesto el núcleo de esta máquina posee habilidades de división o sedimentación, por lo que puede dividir la materia e incluso otras cosas que no son materia. Aunque, según una leyenda, dicho proceso es reversible, al Instituto de Ciencias de Fontaine solo le importaban sus efectos físicos.",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "Type": 2,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104171,
+      104172,
+      104173,
+      104174,
+      113052,
+      400032,
+      400042,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 213.2688,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -10106,6 +10365,103 @@
     ]
   },
   {
+    "Id": 26120401,
+    "DescribeId": 61204,
+    "RelationshipId": 61204,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Name": "Geohongo Terrestre",
+    "Title": "Geohongo Terrestre",
+    "Description": "Una criatura fúngica mimética que posee una gran capacidad de adaptación al entorno.\nPartes de su tejido han completado un complejo proceso de queratinización gracias a la influencia del elemento Geo. Si se tiene en cuenta que los Hongos son el resultado de la evolución de las esporas, esta criatura podría ser el primer paso en un nuevo proceso evolutivo.\nDentro del ecosistema fúngico, ocupa una posición de poder y parece tener una capacidad intelectual superior a la del resto de Hongos.",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26130101,
+    "DescribeId": 61301,
+    "RelationshipId": 61301,
+    "MonsterName": "Sandworm",
+    "Name": "Gusano de Sutej",
+    "Title": "Gusano de Sutej",
+    "Description": "Un depredador desprovisto de ojos que vive en las profundidades del desierto, y que es capaz de seguir el rastro de su presa por el sonido y las vibraciones del suelo.\nCuenta la leyenda que, en una época anterior a la existencia del tiempo, este tipo de depredadores reinaba sobre la tierra, antaño cubierta de frondosas hierbas y árboles ciclópeos, y al igual que sus progenitores y descendientes, se desplazaban a través de la húmeda tierra como peces en el agua.\nTras muchos eones, la blanda tierra se convirtió en arena por la gracia de los cielos, con lo que muchas formas de vida perecieron y numerosas especies se extinguieron. Por su parte, estas criaturas que dependían de la tierra para subsistir se convirtieron en gusanos de arena.\nDebido a sus hábitos de vida similares, muchos habitantes del desierto creen que los gusanos de arena son la forma desarrollada de las anguilas del desierto después de pupar y metamorfosearse.",
+    "Icon": "UI_MonsterIcon_Sandworm",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104151,
+      104152,
+      104153,
+      104154,
+      113044,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 190.176,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.6,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -10919,6 +11275,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61624,
+    "RelationshipId": 61624,
+    "Name": "Gran Gasterópodo Ángel - Leyenda local",
+    "Title": "Gran Gasterópodo Ángel",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -10964,86 +11330,49 @@
     ]
   },
   {
-    "Id": 26120401,
-    "DescribeId": 61204,
-    "RelationshipId": 61204,
-    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
-    "Name": "Geohongo Terrestre",
-    "Title": "Geohongo Terrestre",
-    "Description": "Una criatura fúngica mimética que posee una gran capacidad de adaptación al entorno.\nPartes de su tejido han completado un complejo proceso de queratinización gracias a la influencia del elemento Geo. Si se tiene en cuenta que los Hongos son el resultado de la evolución de las esporas, esta criatura podría ser el primer paso en un nuevo proceso evolutivo.\nDentro del ecosistema fúngico, ocupa una posición de poder y parece tener una capacidad intelectual superior a la del resto de Hongos.",
-    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 38.0352,
-      "AttackBase": 30.144,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.3,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.3,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26130101,
-    "DescribeId": 61301,
-    "RelationshipId": 61301,
-    "MonsterName": "Sandworm",
-    "Name": "Gusano de Sutej",
-    "Title": "Gusano de Sutej",
-    "Description": "Un depredador desprovisto de ojos que vive en las profundidades del desierto, y que es capaz de seguir el rastro de su presa por el sonido y las vibraciones del suelo.\nCuenta la leyenda que, en una época anterior a la existencia del tiempo, este tipo de depredadores reinaba sobre la tierra, antaño cubierta de frondosas hierbas y árboles ciclópeos, y al igual que sus progenitores y descendientes, se desplazaban a través de la húmeda tierra como peces en el agua.\nTras muchos eones, la blanda tierra se convirtió en arena por la gracia de los cielos, con lo que muchas formas de vida perecieron y numerosas especies se extinguieron. Por su parte, estas criaturas que dependían de la tierra para subsistir se convirtieron en gusanos de arena.\nDebido a sus hábitos de vida similares, muchos habitantes del desierto creen que los gusanos de arena son la forma desarrollada de las anguilas del desierto después de pupar y metamorfosearse.",
-    "Icon": "UI_MonsterIcon_Sandworm",
+    "Id": 26180101,
+    "DescribeId": 61801,
+    "RelationshipId": 61801,
+    "MonsterName": "SeaHorse_Primo_Electric_01",
+    "Name": "Corcel de Mar Perlamilenario",
+    "Title": "Corcel de Mar Perlamilenario",
+    "Description": "Uno de los dos monarcas más evolucionados de los Engendros Fontamarinos.\nLos poetas y los escritores suelen calificarlo de arrogante y noble, aunque tales descripciones probablemente se deban a su aspecto esbelto y grácil. No obstante, esa es la razón por la que se le llama “corcel”, y por la que el rey de los Cangrejos Acorazados es llamado “emperador”.\nSegún las leyendas de Fontaine, entre los Engendros Fontamarinos tuvo lugar una cruenta guerra de la que solo salieron vivos el Corcel de Mar Perlamilenario y el Emperador Piroacorazado, los cuales se convirtieron en rivales que se disputaban el norte y el sur del Gran Lago. En el «Cantar de Dobhar-chú», el autor describe cómo fue el fin de la guerra: antes de morir, la Raya Depredadora conocida como la Reina de las Tempestades provocó un tsunami que más tarde pasó a llamarse la “primera subida del nivel del agua”.\nNo obstante, todo esto no es más que producto de la imaginación de las personas, las cuales se niegan a tener una vida en la que no haya ni un ápice de fantasía. Los Engendros Fontamarinos solo son criaturas acuáticas que no pertenecen ni en ningún momento destruyeron una corte real, y que tampoco cuentan historias de hazañas o maldades.",
+    "Icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
     "Type": 2,
     "Arkhe": 0,
     "Drops": [
       102,
       202,
       105,
-      104151,
-      104152,
-      104153,
-      104154,
-      113044,
-      400022,
+      104141,
+      104142,
+      104143,
+      104144,
+      113053,
       400032,
-      400052,
+      400042,
+      400137,
+      400062,
       400088,
       400098,
-      400023,
       400033,
+      400043,
+      400138,
       400089,
       400099
     ],
     "BaseValue": {
-      "HpBase": 190.176,
-      "AttackBase": 75.36,
+      "HpBase": 149.424,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
-      "FireSubHurt": 0.25,
-      "GrassSubHurt": 0.25,
-      "WaterSubHurt": 0.25,
-      "ElecSubHurt": 0.25,
-      "WindSubHurt": 0.6,
-      "IceSubHurt": 0.25,
-      "RockSubHurt": 0.25,
-      "PhysicalSubHurt": 0.25
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.6,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {
@@ -11176,7 +11505,7 @@
     "RelationshipId": 90401,
     "MonsterName": "Monster_Dahaka",
     "Name": "Azhdaha",
-    "Title": "Rey dragón Geo sellado",
+    "Title": "Rey Dragón de la Roca sellado",
     "Description": "Un enorme dragón tan antiguo como las montañas.\nEn una época que ya nadie recuerda, fue el compañero del gobernante del Puerto de Piedra. Pero, al final, entre ellos surgió un conflicto y el dragón fue encerrado en las profundidades de la tierra. Durante los largos años de confinamiento, su poder se disipó lentamente y su apariencia quedó desfigurada.\nEl tintineo de los grilletes que aprisionan al dragón y sus profundos gruñidos resuenan en el interior de la montaña como los recuerdos de un tiempo pasado.",
     "Icon": "UI_MonsterIcon_Dahaka",
     "Type": 2,

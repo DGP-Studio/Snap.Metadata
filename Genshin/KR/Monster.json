@@ -1449,7 +1449,7 @@
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
-    "Name": "지방 전설·탁한 물의 분쇄 환령",
+    "Name": "노련한 탁한 물의 분쇄 환령",
     "Title": "탁한 물의 분쇄 환령",
     "Icon": "UI_MonsterIcon_Necalevia_Normal",
     "Type": 0,
@@ -1459,7 +1459,7 @@
     "Id": 0,
     "DescribeId": 515,
     "RelationshipId": 515,
-    "Name": "지방 전설·탁한 물의 분사 환령",
+    "Name": "노련한 탁한 물의 분사 환령",
     "Title": "탁한 물의 분사 환령",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
     "Type": 0,
@@ -4879,6 +4879,130 @@
     ]
   },
   {
+    "Id": 23060101,
+    "DescribeId": 30601,
+    "RelationshipId": 30601,
+    "MonsterName": "Fatuus_Escadron_Ice_01",
+    "Name": "우인단·서리 심부름꾼",
+    "Title": "심부름꾼·서리검",
+    "Description": "우인단 소속 정예 공작원.\n어린 나이에 선택받아, 오랜 교화와 훈련 속에서 무수한 시험을 거쳐 살아남은 자만이 소위 말하는 「심부름꾼」이 될 수 있다. 우인단에서 가장 우수한 병사인 이들은 뛰어난 실력과 변치 않는 충성심을 갖추고 있다",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 60.288,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23060201,
+    "DescribeId": 30602,
+    "RelationshipId": 30602,
+    "MonsterName": "Fatuus_Escadron_Wind_01",
+    "Name": "우인단·바람 심부름꾼",
+    "Title": "심부름꾼·은방울꽃바람",
+    "Description": "우인단 소속 정예 공작원.\n우인단에서 심부름꾼은 정해진 병종 편제가 없다. 그녀들은 명령과 임무 내용에 따라 병사들과 함께 움직이거나, 혼자 또는 각지에 박혀 있는 「못(비밀 공작원)」과 함께 첩보, 역정찰, 호위, 암살 등 업무를 수행한다. 때로는 더 특수한 임무를 위해서 다양한 기술과 재주를 익히기도 한다",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112092,
+      112093,
+      112094,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30603,
+    "RelationshipId": 30603,
+    "Name": "노련한 우인단·서리 심부름꾼",
+    "Title": "심부름꾼·서리검",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30604,
+    "RelationshipId": 30604,
+    "Name": "노련한 우인단·바람 심부름꾼",
+    "Title": "심부름꾼·은방울꽃바람",
+    "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 24010101,
     "DescribeId": 40101,
     "RelationshipId": 40101,
@@ -6087,6 +6211,69 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40606,
+    "RelationshipId": 40606,
+    "Name": "장치·심해 공격 타입·우시아",
+    "Title": "장치·심해 공격 타입",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40656,
+    "RelationshipId": 40656,
+    "Name": "장치·심해 공격 타입·프뉴마",
+    "Title": "장치·심해 공격 타입",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 24068601,
+    "DescribeId": 40686,
+    "RelationshipId": 40686,
+    "MonsterName": "MachinaIustitia_Frigate_Codex",
+    "Name": "장치·심해 공격 타입",
+    "Title": "장치·심해 공격 타입",
+    "Description": "수중 공격을 목적으로 설계된 태엽 장치. 「수중 순찰 타입」 장치와 달리 더욱 크고 흉포한 적을 상대하기 위해 만들어진 이 장치는 제조 비용이 많이 들고 성능이 좋은 대신, 작은 몸집의 적을 상대할 때는 그 위력을 온전히 발휘하지는 못한다.\n과거 거대 마수가 폰타인을 침략했던 비극적인 사건이 있었는데, 존경받던 지상 대호수의 백색 철갑 함대는 나라를 지키려다 전멸했다. 설계자는 이런 비극이 다시 발생한다면, 물속에서 강력한 공격을 퍼붓는 태엽 장치가 장교와 병사보다 앞장서서 첫 번째 방어선을 구축하기를 기대했다",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "Type": 1,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "BaseValue": {
+      "HpBase": 64.9378,
+      "AttackBase": 60,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 25
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
     "DescribeId": 40607,
     "RelationshipId": 40607,
     "Name": "장치·채집 타입·우시아",
@@ -6471,6 +6658,16 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40613,
+    "RelationshipId": 40613,
+    "Name": "노련한 장치·연산 증폭기",
+    "Title": "장치·연산 증폭기",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
     "Name": "얼음 바람 모음곡·코펠리우스의 겁벌",
@@ -6518,6 +6715,68 @@
       "WindSubHurt": 0.7,
       "IceSubHurt": 0.7,
       "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24080101,
+    "DescribeId": 40801,
+    "RelationshipId": 40801,
+    "MonsterName": "Monster_MachinaIustitia_Gravitas_01",
+    "Name": "실험성 역장 발생 장치",
+    "Title": "실험성 역장 발생 장치",
+    "Description": "에드윈·이스팅하우스가 생전에 설계한 대형 장치. 원래 이 장치는 중력을 「상쇄하는」 효과로 폰타인을 공중 도시로 만드는 계획의 첫 단계였다. 계획대로라면 아름다운 폰타인은 다시는 대지를 씻어내는 격류를 걱정하지 않아도 되고 일곱 개의 나라가 바닷속에 잠겨도 셀레스티아처럼 공중을 떠돌 수 있으며, 심지어 우주의 비밀에도 한 발짝 더 가까워질 수 있을 것이다.\n장치의 코어인 아르케 광석은 「분리」 또는 「침전」 특성을 지니고 있어 물질 또는 일부 물질을 제외한 사물을 분리시킬 수 있다. 해당 성질은 반전될 수도 있다고 하는데, 폰타인 과학원은 이것의 물리적인 효과에만 관심이 있다",
+    "Icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "Type": 2,
+    "Arkhe": 2,
+    "Affixes": [
+      "正义机器-荒性词缀",
+      "正义机器-天线词缀"
+    ],
+    "Drops": [
+      102,
+      202,
+      105,
+      104171,
+      104172,
+      104173,
+      104174,
+      113052,
+      400032,
+      400042,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 213.2688,
+      "AttackBase": 113.04,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.7,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -10106,6 +10365,103 @@
     ]
   },
   {
+    "Id": 26120401,
+    "DescribeId": 61204,
+    "RelationshipId": 61204,
+    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
+    "Name": "뚜벅 바위 버섯몬",
+    "Title": "뚜벅 바위 버섯몬",
+    "Description": "포자로 구성된 의태 생물. 뛰어난 환경 적응 능력을 지녔다.\n바위 원소의 영향을 받아 일부 조직이 완전히 각화된 것 같다. 버섯몬이 포자에서 진화한 것을 생각해 보면, 언젠가 버섯몬을 토대로 또 다른 종류의 새로운 생명체가 생겨날지도 모른다.\n버섯몬 군락에서 주도적인 지위를 가지고 있으며 다른 개체보다 더 뛰어난 지능을 자랑한다",
+    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 38.0352,
+      "AttackBase": 30.144,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26130101,
+    "DescribeId": 61301,
+    "RelationshipId": 61301,
+    "MonsterName": "Sandworm",
+    "Name": "바람 침식 모래 벌레",
+    "Title": "바람 침식 모래 벌레",
+    "Description": "사막 깊은 곳에 사는 눈 없는 포식자. 소리와 대지의 진동으로 사냥감의 행적을 쫓는다.\n시간이 시작되기 이전, 그들이 다스리던 땅에는 풀과 거목이 가득했고 그들의 주인은 그의 후계자와 함께 물속을 헤엄치는 물고기처럼 진흙을 누볐다고 한다.\n셀 수 없이 많은 시간이 지나고, 하늘의 은혜는 진흙을 모래로 바꿨다. 많은 생명이 사라져갔고 멸종됐다. 그리고 흙에서 살아가던 일족은 그렇게 「모래 벌레」가 되어버렸다.\n사막 뱀장어와의 공통적인 습성 때문에 일부 사막의 백성들은 「모래 벌레」가 사막 뱀장어가 번데기에서 완전히 변태한 형태라고 여긴다",
+    "Icon": "UI_MonsterIcon_Sandworm",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104151,
+      104152,
+      104153,
+      104154,
+      113044,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 190.176,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.25,
+      "GrassSubHurt": 0.25,
+      "WaterSubHurt": 0.25,
+      "ElecSubHurt": 0.25,
+      "WindSubHurt": 0.6,
+      "IceSubHurt": 0.25,
+      "RockSubHurt": 0.25,
+      "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -10919,6 +11275,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61624,
+    "RelationshipId": 61624,
+    "Name": "지방 전설·큰 천사 군소",
+    "Title": "큰 천사 군소",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -10964,86 +11330,49 @@
     ]
   },
   {
-    "Id": 26120401,
-    "DescribeId": 61204,
-    "RelationshipId": 61204,
-    "MonsterName": "Fungus_Amanita_Du_Udatta_Rock_01",
-    "Name": "뚜벅 바위 버섯몬",
-    "Title": "뚜벅 바위 버섯몬",
-    "Description": "포자로 구성된 의태 생물. 뛰어난 환경 적응 능력을 지녔다.\n바위 원소의 영향을 받아 일부 조직이 완전히 각화된 것 같다. 버섯몬이 포자에서 진화한 것을 생각해 보면, 언젠가 버섯몬을 토대로 또 다른 종류의 새로운 생명체가 생겨날지도 모른다.\n버섯몬 군락에서 주도적인 지위를 가지고 있으며 다른 개체보다 더 뛰어난 지능을 자랑한다",
-    "Icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 38.0352,
-      "AttackBase": 30.144,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.3,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.3,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26130101,
-    "DescribeId": 61301,
-    "RelationshipId": 61301,
-    "MonsterName": "Sandworm",
-    "Name": "바람 침식 모래 벌레",
-    "Title": "바람 침식 모래 벌레",
-    "Description": "사막 깊은 곳에 사는 눈 없는 포식자. 소리와 대지의 진동으로 사냥감의 행적을 쫓는다.\n시간이 시작되기 이전, 그들이 다스리던 땅에는 풀과 거목이 가득했고 그들의 주인은 그의 후계자와 함께 물속을 헤엄치는 물고기처럼 진흙을 누볐다고 한다.\n셀 수 없이 많은 시간이 지나고, 하늘의 은혜는 진흙을 모래로 바꿨다. 많은 생명이 사라져갔고 멸종됐다. 그리고 흙에서 살아가던 일족은 그렇게 「모래 벌레」가 되어버렸다.\n사막 뱀장어와의 공통적인 습성 때문에 일부 사막의 백성들은 「모래 벌레」가 사막 뱀장어가 번데기에서 완전히 변태한 형태라고 여긴다",
-    "Icon": "UI_MonsterIcon_Sandworm",
+    "Id": 26180101,
+    "DescribeId": 61801,
+    "RelationshipId": 61801,
+    "MonsterName": "SeaHorse_Primo_Electric_01",
+    "Name": "천년 묵은 진주 기린",
+    "Title": "천년 묵은 진주 기린",
+    "Description": "원류바다 이종의 최정상의 자리에 위치한 두 패자 중 하나. \n시인과 작가들은 홀로 생활하는 모습을 보며 고고하고 고결하다고 말하지만, 사실 이렇게 묘사되는 것은 결국 길고 아름다운 외형 덕분이다. 때문에 그는 「기린」이라고 불리며, 중갑 게의 왕은 「제왕」이라고 불린다.\n폰타인의 전설에 따르면 원류바다 이종 사이에 참혹한 전쟁이 벌어졌고, 「천년 묵은 진주 기린」과 「용암철갑 제왕」만 살아남아 각각 호수 남쪽과 북쪽을 지배하며 대등하게 지내왔다고 한다. 《다르쿠의 노래》에서 작가는 전쟁의 결말을 언급한 적이 있다: 폭풍의 왕이라고 불리는 거대 칼날 가오리가 죽기 전에 거대한 파도를 일으켜 소위 「1차 수위 상승기」가 일어났다….\n물론 이 모든 것은 환상의 여지가 없는 현실에 안주하고 싶지 않은 사람들이 상상해 낸 낭만적인 이야기일 뿐이다. 원류바다 이종은 수생 동물에 불과하며 화려하거나 낡은 왕궁, 격앙되거나 악독한 말은 존재하지 않는다",
+    "Icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
     "Type": 2,
     "Arkhe": 0,
     "Drops": [
       102,
       202,
       105,
-      104151,
-      104152,
-      104153,
-      104154,
-      113044,
-      400022,
+      104141,
+      104142,
+      104143,
+      104144,
+      113053,
       400032,
-      400052,
+      400042,
+      400137,
+      400062,
       400088,
       400098,
-      400023,
       400033,
+      400043,
+      400138,
       400089,
       400099
     ],
     "BaseValue": {
-      "HpBase": 190.176,
-      "AttackBase": 75.36,
+      "HpBase": 149.424,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
-      "FireSubHurt": 0.25,
-      "GrassSubHurt": 0.25,
-      "WaterSubHurt": 0.25,
-      "ElecSubHurt": 0.25,
-      "WindSubHurt": 0.6,
-      "IceSubHurt": 0.25,
-      "RockSubHurt": 0.25,
-      "PhysicalSubHurt": 0.25
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.6,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {
