@@ -1,69 +1,5 @@
 [
   {
-    "Id": 78,
-    "FloorIds": [
-      1064,
-      1065,
-      1066,
-      1067
-    ],
-    "Open": "2023-09-16T04:00:00+08:00",
-    "Close": "2023-10-01T03:59:59+08:00",
-    "BuffName": "Lune giratoire",
-    "Descriptions": [
-      "Lorsqu'un personnage récupère ou perd des PV, il bénéficie d'un bonus de <color=#F39000FF>DGT élémentaires et physiques de 40 %</color> pendant 3 s."
-    ],
-    "Icon": "UI_TowerBlessing_69"
-  },
-  {
-    "Id": 79,
-    "FloorIds": [
-      1064,
-      1065,
-      1068,
-      1069
-    ],
-    "Open": "2023-10-01T04:00:00+08:00",
-    "Close": "2023-10-16T03:59:59+08:00",
-    "BuffName": "Lune fendante",
-    "Descriptions": [
-      "Lorsque les PV actuels d'un personnage augmentent ou diminuent, <color=#F39000FF>les DGT infligés par les attaques normales et chargées augmentent de 16 %</color> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,5 s et cumulé 3 fois maximum."
-    ],
-    "Icon": "UI_TowerBlessing_69"
-  },
-  {
-    "Id": 80,
-    "FloorIds": [
-      1064,
-      1065,
-      1068,
-      1069
-    ],
-    "Open": "2023-10-16T04:00:00+08:00",
-    "Close": "2023-11-01T03:59:59+08:00",
-    "BuffName": "Lune convergente",
-    "Descriptions": [
-      "Lorsqu'un personnage a touché un ennemi avec une attaque chargée, il obtient un <color=#F39000FF>bonus correspondant de DGT physiques ou élémentaires de 20 %</color> pendant 5 s. Cet effet peut être déclenché une fois toutes les 0,5 s et cumulé 3 fois maximum. Les bonus de DGT des différents types d'attaque chargée étant indépendants, ils ont chacun une durée propre."
-    ],
-    "Icon": "UI_TowerBlessing_71"
-  },
-  {
-    "Id": 81,
-    "FloorIds": [
-      1064,
-      1065,
-      1068,
-      1069
-    ],
-    "Open": "2023-11-01T04:00:00+08:00",
-    "Close": "2023-11-16T03:59:59+08:00",
-    "BuffName": "Lune coalescente",
-    "Descriptions": [
-      "Lorsque le personnage déployé a touché un ennemi avec une attaque normale ou chargée, <color=#F39000FF>le taux CRIT de ses attaques normales et chargées augmentent de 6 %</color> pendant 5 s. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 5 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Cet effet est annulé lorsque le personnage quitte le champ de bataille."
-    ],
-    "Icon": "UI_TowerBlessing_55"
-  },
-  {
     "Id": 1,
     "FloorIds": [
       1009,
@@ -1305,5 +1241,117 @@
       "#Lorsqu'un personnage récupère des PV, son <color=#F39000FF>ATQ augmente de 10{NON_BREAK_SPACE}%</color> pendant 10 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Lorsqu'un personnage perd des PV, sa <color=#F39000FF>maîtrise élémentaire augmente de 40 pts</color> pendant 10 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Les effets déclenchés en récupérant ou perdant des PV sont indépendants, et ont chacun une durée propre."
     ],
     "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 78,
+    "FloorIds": [
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "Open": "2023-09-16T04:00:00+08:00",
+    "Close": "2023-10-01T03:59:59+08:00",
+    "BuffName": "Lune giratoire",
+    "Descriptions": [
+      "Lorsqu'un personnage récupère ou perd des PV, il bénéficie d'un bonus de <color=#F39000FF>DGT élémentaires et physiques de 40 %</color> pendant 3 s."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 79,
+    "FloorIds": [
+      1064,
+      1065,
+      1068,
+      1069
+    ],
+    "Open": "2023-10-01T04:00:00+08:00",
+    "Close": "2023-10-16T03:59:59+08:00",
+    "BuffName": "Lune fendante",
+    "Descriptions": [
+      "Lorsque les PV actuels d'un personnage augmentent ou diminuent, <color=#F39000FF>les DGT infligés par les attaques normales et chargées augmentent de 16 %</color> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,5 s et cumulé 3 fois maximum."
+    ],
+    "Icon": "UI_TowerBlessing_69"
+  },
+  {
+    "Id": 80,
+    "FloorIds": [
+      1064,
+      1065,
+      1068,
+      1069
+    ],
+    "Open": "2023-10-16T04:00:00+08:00",
+    "Close": "2023-11-01T03:59:59+08:00",
+    "BuffName": "Lune convergente",
+    "Descriptions": [
+      "Lorsqu'un personnage a touché un ennemi avec une attaque chargée, il obtient un <color=#F39000FF>bonus correspondant de DGT physiques ou élémentaires de 20 %</color> pendant 5 s. Cet effet peut être déclenché une fois toutes les 0,5 s et cumulé 3 fois maximum. Les bonus de DGT des différents types d'attaque chargée étant indépendants, ils ont chacun une durée propre."
+    ],
+    "Icon": "UI_TowerBlessing_71"
+  },
+  {
+    "Id": 81,
+    "FloorIds": [
+      1064,
+      1065,
+      1068,
+      1069
+    ],
+    "Open": "2023-11-01T04:00:00+08:00",
+    "Close": "2023-11-16T03:59:59+08:00",
+    "BuffName": "Lune coalescente",
+    "Descriptions": [
+      "Lorsque le personnage déployé a touché un ennemi avec une attaque normale ou chargée, <color=#F39000FF>le taux CRIT de ses attaques normales et chargées augmentent de 6 %</color> pendant 5 s. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 5 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Cet effet est annulé lorsque le personnage quitte le champ de bataille."
+    ],
+    "Icon": "UI_TowerBlessing_55"
+  },
+  {
+    "Id": 82,
+    "FloorIds": [
+      1064,
+      1065,
+      1070,
+      1071
+    ],
+    "Open": "2023-11-16T04:00:00+08:00",
+    "Close": "2023-12-01T03:59:59+08:00",
+    "BuffName": "Lune tidale",
+    "Descriptions": [
+      "Lorsque les PV actuels d'un personnage augmentent ou diminuent, un cumul est comptabilisé. En atteignant 12 cumuls, une <color=#F39000FF>onde de choc est libérée</color> à l'emplacement du personnage, infligeant des DGT réels aux ennemis proches et réinitialisant le compte. L'onde de choc peut être libérée une fois toutes les 4 s de cette manière."
+    ],
+    "Icon": "UI_TowerBlessing_72"
+  },
+  {
+    "Id": 83,
+    "FloorIds": [
+      1064,
+      1065,
+      1070,
+      1071
+    ],
+    "Open": "2023-12-01T04:00:00+08:00",
+    "Close": "2023-12-16T03:59:59+08:00",
+    "BuffName": "Lune étrange",
+    "Descriptions": [
+      "Lorsqu'un personnage faisant partie de l'équipe mais n'étant pas déployé inflige des DGT à un ennemi avec une compétence élémentaire, ce dernier est affligé d'une marque inusitée pendant 5 s. Lorsque le personnage déployé (autre que le personnage ayant infligé la marque) touche un ennemi marqué avec une attaque du même type élémentaire, une <color=#F39000FF>onde de choc est libérée</color> à l'emplacement de l'ennemi, infligeant des DGT réels. Les marques inusitées des différents types élémentaires étant indépendantes, elles ont chacune une durée propre. L'onde de choc peut être libérée une fois toutes les 2 s de cette manière. Lorsqu'un personnage est déployé au combat, les marques inusitées qu'il a placées sur des ennemis sont annulées."
+    ],
+    "Icon": "UI_TowerBlessing_73"
+  },
+  {
+    "Id": 84,
+    "FloorIds": [
+      1064,
+      1065,
+      1070,
+      1071
+    ],
+    "Open": "2023-12-16T04:00:00+08:00",
+    "Close": "2024-01-01T03:59:59+08:00",
+    "BuffName": "Lune montante",
+    "Descriptions": [
+      "Lorsqu'un personnage est déployé au combat, il obtient 1 cumul d'essor toutes les 2,5 s, chaque cumul <color=#F39000FF>augmentant les DGT infligés par le personnage de 8 %</color>. Cet effet peut être cumulé 3 fois maximum. Lorsqu'un personnage avec 3 cumuls inflige des DGT à un ennemi, une <color=#F39000FF>onde de choc est libérée</color> à l'emplacement de ce dernier, infligeant des DGT réels. Cet effet cesse lorsque le personnage quitte le champ de bataille. L'onde de choc peut être libérée une fois toutes les secondes de cette manière."
+    ],
+    "Icon": "UI_TowerBlessing_74"
   }
 ]
