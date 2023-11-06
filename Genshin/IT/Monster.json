@@ -1446,6 +1446,76 @@
     ]
   },
   {
+    "Id": 20051201,
+    "DescribeId": 512,
+    "RelationshipId": 512,
+    "MonsterName": "Monster_Narcissusborn_Normal_01",
+    "Name": "Tulpa di Hydro",
+    "Title": "Tulpa di Hydro",
+    "Description": "Un mostro umanoide formato dall'agglomerazione di infinite gocce d'acqua.",
+    "Icon": "UI_MonsterIcon_Narcissusborn_Normal_01",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104121,
+      104122,
+      104123,
+      104124,
+      113057,
+      400022,
+      400042,
+      400132,
+      400047,
+      400088,
+      400098,
+      400023,
+      400043,
+      400133,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 298.848,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 513,
+    "RelationshipId": 513,
+    "Name": "Mezzo Tulpa",
+    "Title": "Imitatore di Hydro falco",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
@@ -1462,6 +1532,16 @@
     "Name": "Fantasma zampillante veterano contaminato",
     "Title": "Fantasma zampillante contaminato",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 516,
+    "RelationshipId": 516,
+    "Name": "Tulpa di Hydro",
+    "Title": "Imitatore di Hydro falco",
+    "Icon": "UI_MonsterIcon_Narcissusborn_Normal_01",
     "Type": 0,
     "Arkhe": 0
   },
@@ -3461,7 +3541,7 @@
     "DescribeId": 20201,
     "RelationshipId": 20201,
     "MonsterName": "Invoker_Herald_Water_01",
-    "Name": "Apostolo dell'Abisso Torrenti maligni",
+    "Name": "Apostolo dell'Abisso: Torrenti maligni",
     "Title": "Usciere oscuro dei torrenti maligni",
     "Description": "Servi dell'Ordine dell'Abisso che usano il potere di Hydro in combattimento.\nQueste figure silenziose sono l'avanguardia dell'Abisso e brandiscono delle Lame delle maree in grado di inghiottire tutto in un istante, accartocciando le armature e annientando gli eretici. Essi porteranno la dannazione a cui sono predestinate le masse di stolti.",
     "Icon": "UI_MonsterIcon_Invoker_Herald_Water_01",
@@ -3500,7 +3580,7 @@
     "DescribeId": 20202,
     "RelationshipId": 20202,
     "MonsterName": "Invoker_Herald_Ice_01",
-    "Name": "Apostolo dell'Abisso Cascata algida",
+    "Name": "Apostolo dell'Abisso: Cascata algida",
     "Title": "Emissario delle Lame di ghiaccio",
     "Description": "Un mostro dell'Ordine dell'Abisso che brandisce delle lame ghiacciate in battaglia.\nProprio come esistono santi che diffondono e glorificano il verbo abissale, ci sono anche emissari che devono correggere qualsiasi distorsione e rimuovere ogni dissonanza.\nLa gente dice spesso che l'acciaio è come il ghiaccio che trafigge il corpo, ma questo gelo oscuro sembra congelare persino l'anima.",
     "Icon": "UI_MonsterIcon_Invoker_Herald_Ice",
@@ -3542,7 +3622,7 @@
     "DescribeId": 20301,
     "RelationshipId": 20301,
     "MonsterName": "Invoker_Deacon_Electric_01",
-    "Name": "Cantore dell'Abisso Fulmine viola",
+    "Name": "Cantore dell'Abisso: Fulmine viola",
     "Title": "Evangelista del tuono fragoroso",
     "Description": "Un mostro che serve l'Ordine dell'Abisso e controlla il potere del fulmine mentre canta le lodi dell'oscurità.\nGli evangelisti e studiosi dell'Abisso. I loro violenti fulmini colpiscono i cuori dei miscredenti con oscura saggezza, distorta dalle oscure profondità di una notte eterna, e il bagliore viola annuncia l'esistenza di un grande potere in grado di corrodere la mente umana.",
     "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
@@ -3581,7 +3661,7 @@
     "DescribeId": 20302,
     "RelationshipId": 20302,
     "MonsterName": "Invoker_Deacon_Fire_01",
-    "Name": "Cantore dell'Abisso Fiamme imperscrutabili",
+    "Name": "Cantore dell'Abisso: Fiamme imperscrutabili",
     "Title": "Fiamma bentonica divoratrice",
     "Description": "Detentori del fuoco abissale che cercano il senso celato dietro i testi e le scritture. Sono membri dell'Ordine dell'Abisso.\nLe persone che vivono in superficie hanno una comprensione leggermente distorta del significato del loro nome e li chiamano \"lettori\", mentre il loro nome può anche significare \"esegeta\". Leggere la parola della grazia conferisce loro un grande potere.",
     "Icon": "UI_MonsterIcon_Invoker_Deacon_Fire",
@@ -3886,7 +3966,7 @@
     "DescribeId": 20701,
     "RelationshipId": 20701,
     "MonsterName": "ForlornVessel_Strong_Warbanner_Fire_01",
-    "Name": "Armatura oscura alfiere",
+    "Name": "Armatura oscura: Alfiere",
     "Title": "La fine dei Cavalieri del Serpente nero",
     "Description": "Un soldato nero come la pece. Un tempo fiero combattente di un'antica nazione sotterranea, ha ormai perso ogni traccia della sua memoria.\nCiononostante, continua a tenere alto il vessillo della casa reale in battaglia. Sebbene abbia dimenticato i suoi compagni o qualsiasi benedizione reale impartita, non deporrà mai il suo stendardo.",
     "Icon": "UI_MonsterIcon_ForlornVessel_Strong_Warbanner_Fire",
@@ -3938,7 +4018,7 @@
     "DescribeId": 20702,
     "RelationshipId": 20702,
     "MonsterName": "ForlornVessel_Strong_Lance_Water_01",
-    "Name": "Armatura oscura rompifile",
+    "Name": "Armatura oscura: Rompifile",
     "Title": "La fine dei Cavalieri del Serpente nero",
     "Description": "Un soldato nero come la pece. Un tempo fiero combattente di un'antica nazione sotterranea, non è più dotato di ragione, motivo per cui non può essere definito \"umano\".\nCiononostante, il desiderio di distruggere il nemico e di gettarsi in battaglia per difendere gli altri continua a rimanere impresso in questa armatura vuota, anche se non c'è più nessuno che gli dica chi difendere o quale nemico abbattere.",
     "Icon": "UI_MonsterIcon_ForlornVessel_Strong_Lance_Water",
@@ -3990,7 +4070,7 @@
     "DescribeId": 20703,
     "RelationshipId": 20703,
     "MonsterName": "ForlornVessel_Strong_Chargebow_Ice_01",
-    "Name": "Armatura oscura difensore",
+    "Name": "Armatura oscura: Difensore",
     "Title": "La fine dei Cavalieri del Serpente nero",
     "Description": "Un soldato nero come la pece. Un tempo fiero combattente di un'antica nazione sotterranea, ora non è altro che un involucro che porta con sé solo ricordi di battaglia.\nTutto è destinato a decadere, e questo è ciò che rimane dei Cavalieri del Serpente nero a causa della corruzione, dei peccati e del tempo che li hanno divorati.",
     "Icon": "UI_MonsterIcon_ForlornVessel_Strong_Chargebow_Ice",
@@ -4042,7 +4122,7 @@
     "DescribeId": 20801,
     "RelationshipId": 20801,
     "MonsterName": "Darkwraith_Strong_Wind_01",
-    "Name": "Cavaliere del Serpente nero Fendivento",
+    "Name": "Cavaliere del Serpente nero: Fendivento",
     "Title": "\"C'era una volta un vento gentile...\"",
     "Description": "Una guardia di una certa importanza a corte, che abbatte i nemici dei sovrani della nazione grazie alla sua particolare tecnica con la spada, nota come \"Verità assoluta\".\nLa Spada del crepuscolo un tempo militava nelle loro fila. La gloria di quel regno si è ormai estinta, senza alcuna speranza di poterla reclamare.",
     "Icon": "UI_MonsterIcon_Darkwraith_Strong_Wind",
@@ -4081,7 +4161,7 @@
     "DescribeId": 20802,
     "RelationshipId": 20802,
     "MonsterName": "Darkwraith_Fat_Rock_01",
-    "Name": "Cavaliere del Serpente nero Scure spaccapietra",
+    "Name": "Cavaliere del Serpente nero: Scure spaccapietra",
     "Title": "\"Colui che si oppose alle maree delle acque oscure come un macigno...\"",
     "Description": "Una guardia di una certa importanza a corte, che abbatte i nemici dei sovrani della nazione grazie alla sua particolare tecnica nota come \"Verità assoluta\".\nSebbene Verità assoluta sia, strettamente parlando, un'arte della spada, i suoi insegnamenti possono essere impiegati anche per altre armi. E, nell'ora più buia del regno, coloro che dovevano proteggere la propria patria non potevano fare tanto i difficili.",
     "Icon": "UI_MonsterIcon_Darkwraith_Fat_Rock",
@@ -4774,7 +4854,7 @@
     "RelationshipId": 30401,
     "MonsterName": "Fatuus_Mage_Ice_01",
     "Name": "Maga Cicin di Cryo dei Fatui",
-    "Title": "Maga Cicin Portatrice di Gelobrina",
+    "Title": "Maga Cicin: Portatrice di Gelobrina",
     "Description": "Una Maga dei Fatui che può comandare Cicin di Cryo in battaglia. La loro origine e il loro aspetto sotto la maschera sono entrambi un mistero.\nSecondo la logica, coloro che non hanno Visioni non dovrebbero essere in grado di controllare gli elementi come fanno queste Maghe. Tuttavia, oltre a usare l'Erbafosca per controllare le Cicin di Cryo, padroneggiano audacemente anche il potere del gelo. Vedendole vagare per la terra nel loro modo apparentemente senza scopo, non si può fare a meno di chiedersi quali doveri le spingano a proseguire...",
     "Icon": "UI_MonsterIcon_Fatuus_Mage_Ice_01",
     "Type": 1,
@@ -4832,7 +4912,7 @@
     "RelationshipId": 30501,
     "MonsterName": "Fatuus_Maiden_Water_01",
     "Name": "Sacerdotessa degli specchi",
-    "Title": "Sacerdotessa di Snezhnaya Emissaria dello specchio",
+    "Title": "Sacerdotessa di Snezhnaya: Emissaria dello specchio",
     "Description": "Una Maga dei Fatui in grado di controllare uno Specchio di Hydro in battaglia. La sua postura è molto solenne, come se adorasse una qualche divinità.\nManipola uno Specchio di Hydro in grado di attirare coloro che ha sedotto per farli cadere volontariamente vittima della sua illusione. Nulla sembra sfuggire alle sue orecchie. Nessuno sa cos'abbiano visto quegli occhi coperti, né che tipo di ossessione possa riflettersi al loro interno...",
     "Icon": "UI_MonsterIcon_Fatuus_Maiden_Water",
     "Type": 1,
@@ -5493,8 +5573,8 @@
     "DescribeId": 40301,
     "RelationshipId": 40301,
     "MonsterName": "Gargoyle_Airborne_01",
-    "Name": "Drago delle rovine Guardiano dei cieli",
-    "Title": "Drago delle rovine Guardiano dei cieli",
+    "Name": "Drago delle rovine: Guardiano dei cieli",
+    "Title": "Drago delle rovine: Guardiano dei cieli",
     "Description": "Una terrificante macchina a forma di drago.\nSi dice che fosse una macchina da guerra appartenuta a una nazione ormai distrutta. Il suo aspetto ricorda quello dei cosiddetti Elementosauri, rispetto ai quali possiede diverse migliorie a livello funzionale. Tali macchinari hanno infatti una capacità di \"assorbimento\" (o sarebbe meglio dire di \"contrasto\") dei poteri elementali superiore a quella dei normali Elementosauri.\nCome ha fatto una civiltà in grado di sviluppare dispositivi tanto spaventosi a scomparire così?",
     "Icon": "UI_MonsterIcon_Gargoyle",
     "Type": 1,
@@ -5545,8 +5625,8 @@
     "DescribeId": 40302,
     "RelationshipId": 40302,
     "MonsterName": "Gargoyle_Ground_01",
-    "Name": "Drago delle rovine Guardiano della terra",
-    "Title": "Drago delle rovine Guardiano della terra",
+    "Name": "Drago delle rovine: Guardiano della terra",
+    "Title": "Drago delle rovine: Guardiano della terra",
     "Description": "Una terrificante macchina a forma di drago.\nSi dice che fosse una macchina da guerra appartenuta a una nazione ormai distrutta. Il suo aspetto ricorda quello dei cosiddetti Elementosauri, rispetto ai quali possiede diverse migliorie a livello funzionale. Tali macchinari hanno infatti una capacità di \"assorbimento\" (o sarebbe meglio dire di \"contrasto\") dei poteri elementali superiore a quella dei normali Elementosauri.\nData una simile abilità, è facile intuire che la civiltà responsabile di tali creazioni avesse un livello di ambizione semplicemente fuori dal comune...",
     "Icon": "UI_MonsterIcon_Gargoyle",
     "Type": 1,
@@ -6670,7 +6750,7 @@
     "Id": 0,
     "DescribeId": 40701,
     "RelationshipId": 40701,
-    "Name": "Suite del Vento glaciale - Nemesi di Coppelius",
+    "Name": "Suite del Vento glaciale: Nemesi di Coppelius",
     "Title": "Nemesi di Coppelius",
     "Icon": "UI_MonsterIcon_MachinaIustitia_Nutcracker",
     "Type": 0,
@@ -6683,7 +6763,7 @@
     "Id": 0,
     "DescribeId": 40702,
     "RelationshipId": 40702,
-    "Name": "Suite del Vento glaciale - Trenodia di Coppelia",
+    "Name": "Suite del Vento glaciale: Trenodia di Coppelia",
     "Title": "Trenodia di Coppelia",
     "Icon": "UI_MonsterIcon_MachinaIustitia_Nutcracker",
     "Type": 0,
@@ -7254,6 +7334,16 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 50108,
+    "RelationshipId": 50108,
+    "Name": "",
+    "Title": "Cacciatore di tesori pozionista di Pyro",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 25020101,
     "DescribeId": 50201,
     "RelationshipId": 50201,
@@ -7659,6 +7749,16 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 50602,
+    "RelationshipId": 50602,
+    "Name": "",
+    "Title": "Cacciatore di tesori pugile",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Boxer_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 25070101,
     "DescribeId": 50701,
     "RelationshipId": 50701,
@@ -7718,8 +7818,8 @@
     "DescribeId": 50801,
     "RelationshipId": 50801,
     "MonsterName": "Samurai_Ronin_01",
-    "Name": "Nobushi Jintouban",
-    "Title": "Nobushi Jintouban",
+    "Name": "Nobushi: Jintouban",
+    "Title": "Nobushi: Jintouban",
     "Description": "Dei samurai divenuti briganti. Sebbene vengano chiamati Nobushi, non hanno un'organizzazione centralizzata.\nAvendo seguito a lungo il percorso da marzialisti, possiedono abilità con la spada molto avanzate, ma non le usano più a fin di bene.\nA volte, si mettono anche in combutta con i Cacciatori di tesori o con i Fatui per avidità... o semplicemente per sopravvivere.",
     "Icon": "UI_MonsterIcon_Samurai_Ronin_01",
     "Type": 1,
@@ -7763,8 +7863,8 @@
     "DescribeId": 50802,
     "RelationshipId": 50802,
     "MonsterName": "Samurai_Ronin_02",
-    "Name": "Nobushi Hitsukeban",
-    "Title": "Nobushi Hitsukeban",
+    "Name": "Nobushi: Hitsukeban",
+    "Title": "Nobushi: Hitsukeban",
     "Description": "Dei samurai divenuti briganti. Sebbene vengano chiamati Nobushi, non hanno un'organizzazione centralizzata.\nNon solo possiedono abilità con la spada molto avanzate, ma possono anche sferrare attacchi di polvere di fuoco usando gli elementi. Oggettivamente parlando, forse vincere in questo modo va contro il percorso di un marzialista.\nA volte, si mettono anche in combutta con i Cacciatori di tesori o con i Fatui per avidità... o semplicemente per sopravvivere.",
     "Icon": "UI_MonsterIcon_Samurai_Ronin_02",
     "Type": 1,
@@ -7808,8 +7908,8 @@
     "DescribeId": 50803,
     "RelationshipId": 50803,
     "MonsterName": "Samurai_Ronin_03",
-    "Name": "Nobushi Kikouban",
-    "Title": "Nobushi Kikouban",
+    "Name": "Nobushi: Kikouban",
+    "Title": "Nobushi: Kikouban",
     "Description": "Dei samurai divenuti briganti. Sebbene vengano chiamati Nobushi, non hanno un'organizzazione centralizzata.\nPossiedono abilità con la spada altamente avanzate e usano anche le balestre per tendere imboscate agli avversari, ricorrendo a qualsiasi mezzo per vincere. Coloro che hanno rinunciato al titolo di marzialisti spesso rinunciano anche alla loro dignità.\nA volte, si mettono anche in combutta con i Cacciatori di tesori o con i Fatui per avidità... o semplicemente per sopravvivere.",
     "Icon": "UI_MonsterIcon_Samurai_Ronin_03",
     "Type": 1,
@@ -7958,8 +8058,8 @@
     "DescribeId": 51001,
     "RelationshipId": 51001,
     "MonsterName": "Samurai_Kairagi_01",
-    "Name": "Kairagi Tuono danzante",
-    "Title": "Kairagi Tuono danzante",
+    "Name": "Kairagi: Tuono danzante",
+    "Title": "Kairagi: Tuono danzante",
     "Description": "Dei samurai divenuti briganti.\nPossiedono delle abilità avanzate nelle arti marziali, ma per vari motivi non sono riusciti a dar loro uno scopo. Per disperazione, sono finiti sulla via del male. Usano sigilli di carta, creati da un'arte Kamuna andata perduta da secoli, per infondere le loro lame del potere del fulmine.",
     "Icon": "UI_MonsterIcon_Samurai_Kairagi_01",
     "Type": 1,
@@ -8006,8 +8106,8 @@
     "DescribeId": 51002,
     "RelationshipId": 51002,
     "MonsterName": "Samurai_Kairagi_02",
-    "Name": "Kairagi Forza infuocata",
-    "Title": "Kairagi Forza infuocata",
+    "Name": "Kairagi: Forza infuocata",
+    "Title": "Kairagi: Forza infuocata",
     "Description": "Dei samurai divenuti briganti.\nHanno praticato arti marziali sin dalla giovane età, ma hanno perso l'opportunità di servire il popolo per vari motivi e si sono allontanati dal sentiero della rettitudine. I fili delle loro lame non sono freddi come il normale acciaio, ma bruciano con una fiamma pungente. Sembra che abbiano usato sigilli di carta creati dall'arte perduta di Kamuna per infuocare le loro lame.",
     "Icon": "UI_MonsterIcon_Samurai_Kairagi_02",
     "Type": 1,
@@ -8073,8 +8173,8 @@
     "Id": 0,
     "DescribeId": 51101,
     "RelationshipId": 51101,
-    "Name": "Spirito del presagio Drago della pietra",
-    "Title": "Spirito del presagio Drago della pietra",
+    "Name": "Spirito del presagio: Drago della pietra",
+    "Title": "Spirito del presagio: Drago della pietra",
     "Icon": "UI_MonsterIcon_Eremite_Male_Strong_Katar",
     "Type": 0,
     "Arkhe": 0
@@ -8083,8 +8183,8 @@
     "Id": 0,
     "DescribeId": 51102,
     "RelationshipId": 51102,
-    "Name": "Spirito del presagio Nibbio del vento",
-    "Title": "Spirito del presagio Nibbio del vento",
+    "Name": "Spirito del presagio: Nibbio del vento",
+    "Title": "Spirito del presagio: Nibbio del vento",
     "Icon": "UI_MonsterIcon_Eremite_Female_Standard_Longbow",
     "Type": 0,
     "Arkhe": 0
@@ -8093,8 +8193,8 @@
     "Id": 0,
     "DescribeId": 51103,
     "RelationshipId": 51103,
-    "Name": "Spirito del presagio Scorpione di Pyro",
-    "Title": "Spirito del presagio Scorpione di Pyro",
+    "Name": "Spirito del presagio: Scorpione di Pyro",
+    "Title": "Spirito del presagio: Scorpione di Pyro",
     "Icon": "UI_MonsterIcon_Samurai_Kairagi_05",
     "Type": 0,
     "Arkhe": 0
@@ -8103,8 +8203,8 @@
     "Id": 0,
     "DescribeId": 51104,
     "RelationshipId": 51104,
-    "Name": "Spirito del presagio Serpente spirituale di Dendro",
-    "Title": "Spirito del presagio Serpente spirituale di Dendro",
+    "Name": "Spirito del presagio: Serpente spirituale di Dendro",
+    "Title": "Spirito del presagio: Serpente spirituale di Dendro",
     "Icon": "UI_MonsterIcon_Samurai_Kairagi_05",
     "Type": 0,
     "Arkhe": 0
@@ -9934,7 +10034,7 @@
     "RelationshipId": 61001,
     "MonsterName": "Gator_Sacred_Water_01",
     "Name": "Cornodrillo consacrato",
-    "Title": "Cornodrillo consacrato Corrente immensa",
+    "Title": "Cornodrillo consacrato: Corrente immensa",
     "Description": "Un rettile che ha subìto delle mutazioni dopo aver divorato delle forme di vita più grandi.\nTalvolta, le bestie maestose sono venerate dagli umani in quanto incarnazione di un potere supremo, i loro volti sono trasformati in analogie in riferimento alle persone, alimentando così il loro ego. Tuttavia, la maggior parte delle bestie che hanno assorbito quel potere è stata sopraffatta dalla natura stessa di tale potere. Solo in poche si sono evolute assumendo nuove forme.",
     "Icon": "UI_MonsterIcon_Gator_Sacred_Water",
     "Type": 1,
@@ -9973,7 +10073,7 @@
     "RelationshipId": 61002,
     "MonsterName": "Panther_Sacred_Grass_01",
     "Name": "Bestia zannuta consacrata",
-    "Title": "Bestia zannuta consacrata Supercrescita intricata",
+    "Title": "Bestia zannuta consacrata: Supercrescita intricata",
     "Description": "Un predatore che ha subìto delle mutazioni dopo aver divorato delle forme di vita più grandi.\nLa sopravvivenza del più forte è scritta nella legge della natura, ma gli animali domestici e le Bestie consacrate sono un'eccezione. Le esche degli esseri umani e le spoglie di creature immortali sono essenzialmente trappole volontarie o accidentali. Il prezzo per bramare il dono del più forte è molto più alto della prigionia in una gabbia.",
     "Icon": "UI_MonsterIcon_Panther_Sacred_Grass",
     "Type": 1,
@@ -10012,7 +10112,7 @@
     "RelationshipId": 61003,
     "MonsterName": "Vulture_Sacred_Fire_01",
     "Name": "Avvoltoio rosso consacrato",
-    "Title": "Avvoltoio rosso consacrato Conflagrazione",
+    "Title": "Avvoltoio rosso consacrato: Conflagrazione",
     "Description": "Un uccello rapace che ha subìto delle mutazioni dopo aver divorato delle forme di vita più grandi.\nTali forme di vita hanno spesso una coscienza pressoché immorale, che non può mai essere completamente messa a tacere né estirpata. Il potere e la coscienza che le Bestie consacrate ottengono dopo aver divorato queste forme di vita le porterà a cercare sempre più violenza e sempre più carcasse.",
     "Icon": "UI_MonsterIcon_Vulture_Sacred_Fire",
     "Type": 1,
@@ -10064,7 +10164,7 @@
     "RelationshipId": 61004,
     "MonsterName": "Scorpion_Sacred_Electric_01",
     "Name": "Scorpione consacrato",
-    "Title": "Scorpione consacrato Tempesta",
+    "Title": "Scorpione consacrato: Tempesta",
     "Description": "Un artropode che ha subìto delle mutazioni dopo aver divorato delle forme di vita più grandi.\nGli esseri viventi sottostanno alle leggi dell'evoluzione, e le Bestie consacrate hanno sfruttato queste regole dopo aver scoperto fortuitamente una vecchia carcassa di un essere più grande, prima della concorrenza. Gli animali e gli umani hanno molto di più in comune di quanto questi ultimi osino ammettere.",
     "Icon": "UI_MonsterIcon_Scorpion_Sacred_Electric",
     "Type": 1,
@@ -10116,7 +10216,7 @@
     "RelationshipId": 61005,
     "MonsterName": "Chrysopelea_Sacred_Wind_01",
     "Name": "Serpente volante consacrato",
-    "Title": "Serpente volante consacrato Burrasca",
+    "Title": "Serpente volante consacrato: Burrasca",
     "Description": "Un rettile che ha subìto delle mutazioni dopo aver divorato delle forme di vita più grandi.\nSebbene ora siano intrise dal potere della manipolazione elementale, le stesse Bestie consacrate non sono in grado di digerire appieno i brandelli di carne delle carcasse immortali che hanno mangiato. Al contrario, questi brandelli si fondono lentamente con le stesse bestie, tessendo un guscio osseo sul loro corpo, della stessa consistenza di un materiale di fusione che si trova a Inazuma.",
     "Icon": "UI_MonsterIcon_Chrysopelea_Sacred_Wind",
     "Type": 1,
@@ -11248,7 +11348,7 @@
     "Id": 0,
     "DescribeId": 61621,
     "RelationshipId": 61621,
-    "Name": "Leggenda locale - Granchio corazzato",
+    "Name": "Leggenda locale: Granchio corazzato",
     "Title": "Granchio corazzato",
     "Icon": "UI_MonsterIcon_HermitCrab_Mature_02",
     "Type": 0,
@@ -11258,7 +11358,7 @@
     "Id": 0,
     "DescribeId": 61622,
     "RelationshipId": 61622,
-    "Name": "Leggenda locale - Razza cacciatrice",
+    "Name": "Leggenda locale: Razza cacciatrice",
     "Title": "Razza cacciatrice",
     "Icon": "UI_MonsterIcon_MantaRay_Larva_03",
     "Type": 0,
@@ -11268,7 +11368,7 @@
     "Id": 0,
     "DescribeId": 61623,
     "RelationshipId": 61623,
-    "Name": "Leggenda locale - Blobbofoca",
+    "Name": "Leggenda locale: Blobbofoca",
     "Title": "Blobbofoca",
     "Icon": "UI_MonsterIcon_Seal_Larva_02",
     "Type": 0,
@@ -11278,8 +11378,18 @@
     "Id": 0,
     "DescribeId": 61624,
     "RelationshipId": 61624,
-    "Name": "Leggenda locale - Lepre marina cherubica",
+    "Name": "Leggenda locale: Lepre marina cherubica",
     "Title": "Lepre marina cherubica",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 61625,
+    "RelationshipId": 61625,
+    "Name": "Leggenda locale: Medusa cappellaia",
+    "Title": "Chassanion",
     "Icon": "UI_MonsterIcon_Aplysia_Mature",
     "Type": 0,
     "Arkhe": 0
@@ -11469,7 +11579,8 @@
     "Type": 2,
     "Arkhe": 0,
     "Affixes": [
-      "剧情任务-难度调节标签"
+      "剧情任务-难度调节标签",
+      "公子-难度调节"
     ],
     "BaseValue": {
       "HpBase": 81.504,
@@ -11555,7 +11666,8 @@
     "Type": 2,
     "Arkhe": 0,
     "Affixes": [
-      "剧情任务-难度调节标签"
+      "剧情任务-难度调节标签",
+      "女士-难度调节"
     ],
     "BaseValue": {
       "HpBase": 95.088,
@@ -11610,7 +11722,8 @@
     "Type": 2,
     "Arkhe": 0,
     "Affixes": [
-      "雷电将军标记-2.5Quest1"
+      "雷电将军标记-2.5Quest1",
+      "雷电将军-难度调节2.5"
     ],
     "BaseValue": {
       "HpBase": 48.9024,
@@ -11652,7 +11765,8 @@
     "Type": 2,
     "Arkhe": 0,
     "Affixes": [
-      "散兵剧情标记-S1-1"
+      "散兵剧情标记-S1-1",
+      "散兵-难度调节S1"
     ],
     "BaseValue": {
       "HpBase": 135.84,
@@ -11693,6 +11807,9 @@
     "Icon": "UI_MonsterIcon_Apep",
     "Type": 2,
     "Arkhe": 0,
+    "Affixes": [
+      "草龙剧情-本体难度调节"
+    ],
     "BaseValue": {
       "HpBase": 122.256,
       "AttackBase": 37.68,
@@ -11777,6 +11894,68 @@
     "RelationshipId": 90807,
     "Name": "Organismo proliferante nidificato",
     "Title": "Guardiano dell'Oasi finale",
+    "Icon": "UI_MonsterIcon_Hili_None_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 29090101,
+    "DescribeId": 90901,
+    "RelationshipId": 90901,
+    "MonsterName": "Monster_Ptahur_Devourer",
+    "Name": "Narvalo Divoramondi",
+    "Title": "Narvalo Divoramondi",
+    "Description": "Una misteriosa creatura gigantesca proveniente da un altro mondo.",
+    "Icon": "UI_MonsterIcon_Ptahur_Devourer",
+    "Type": 2,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 543.36,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.7,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 90902,
+    "RelationshipId": 90902,
+    "Name": "",
+    "Title": "Narvalo Divoramondi",
+    "Icon": "UI_MonsterIcon_Hili_None_01",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "鲸鱼-黑色幻影剧情版本"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 90903,
+    "RelationshipId": 90903,
+    "Name": "",
+    "Title": "Narvalo Divoramondi",
     "Icon": "UI_MonsterIcon_Hili_None_01",
     "Type": 0,
     "Arkhe": 0

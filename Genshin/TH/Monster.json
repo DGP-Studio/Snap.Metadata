@@ -1446,6 +1446,76 @@
     ]
   },
   {
+    "Id": 20051201,
+    "DescribeId": 512,
+    "RelationshipId": 512,
+    "MonsterName": "Monster_Narcissusborn_Normal_01",
+    "Name": "Hydro Tulpa",
+    "Title": "Hydro Tulpa",
+    "Description": "มอนสเตอร์รูปร่างคล้ายมนุษย์ที่เกิดจากการรวมตัวกันของน้ำ",
+    "Icon": "UI_MonsterIcon_Narcissusborn_Normal_01",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      104121,
+      104122,
+      104123,
+      104124,
+      113057,
+      400022,
+      400042,
+      400132,
+      400047,
+      400088,
+      400098,
+      400023,
+      400043,
+      400133,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 298.848,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 513,
+    "RelationshipId": 513,
+    "Name": "Half-Tulpa",
+    "Title": "Hydro Mimic Raptor",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 0,
     "DescribeId": 514,
     "RelationshipId": 514,
@@ -1462,6 +1532,16 @@
     "Name": "Tainted Water-Spouting Phantasm ที่ผ่านศึกมานับร้อย",
     "Title": "Tainted Water-Spouting Phantasm",
     "Icon": "UI_MonsterIcon_Necalevia_Big",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 516,
+    "RelationshipId": 516,
+    "Name": "Hydro Tulpa",
+    "Title": "Hydro Mimic Raptor",
+    "Icon": "UI_MonsterIcon_Narcissusborn_Normal_01",
     "Type": 0,
     "Arkhe": 0
   },
@@ -7254,6 +7334,16 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 50108,
+    "RelationshipId": 50108,
+    "Name": "",
+    "Title": "กองโจรล่าสมบัติ - Pyro Potioneer",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 25020101,
     "DescribeId": 50201,
     "RelationshipId": 50201,
@@ -7657,6 +7747,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 50602,
+    "RelationshipId": 50602,
+    "Name": "",
+    "Title": "กองโจรล่าสมบัติ - Pugilist",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Boxer_01",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 25070101,
@@ -11285,6 +11385,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61625,
+    "RelationshipId": 61625,
+    "Name": "ตำนานท้องถิ่น - Hat Jellyfish",
+    "Title": "Chassanion",
+    "Icon": "UI_MonsterIcon_Aplysia_Mature",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61603,
     "RelationshipId": 61701,
@@ -11469,7 +11579,8 @@
     "Type": 2,
     "Arkhe": 0,
     "Affixes": [
-      "剧情任务-难度调节标签"
+      "剧情任务-难度调节标签",
+      "公子-难度调节"
     ],
     "BaseValue": {
       "HpBase": 81.504,
@@ -11555,7 +11666,8 @@
     "Type": 2,
     "Arkhe": 0,
     "Affixes": [
-      "剧情任务-难度调节标签"
+      "剧情任务-难度调节标签",
+      "女士-难度调节"
     ],
     "BaseValue": {
       "HpBase": 95.088,
@@ -11610,7 +11722,8 @@
     "Type": 2,
     "Arkhe": 0,
     "Affixes": [
-      "雷电将军标记-2.5Quest1"
+      "雷电将军标记-2.5Quest1",
+      "雷电将军-难度调节2.5"
     ],
     "BaseValue": {
       "HpBase": 48.9024,
@@ -11652,7 +11765,8 @@
     "Type": 2,
     "Arkhe": 0,
     "Affixes": [
-      "散兵剧情标记-S1-1"
+      "散兵剧情标记-S1-1",
+      "散兵-难度调节S1"
     ],
     "BaseValue": {
       "HpBase": 135.84,
@@ -11693,6 +11807,9 @@
     "Icon": "UI_MonsterIcon_Apep",
     "Type": 2,
     "Arkhe": 0,
+    "Affixes": [
+      "草龙剧情-本体难度调节"
+    ],
     "BaseValue": {
       "HpBase": 122.256,
       "AttackBase": 37.68,
@@ -11777,6 +11894,68 @@
     "RelationshipId": 90807,
     "Name": "สิ่งมีชีวิตที่สามารถเพิ่มจำนวนได้อย่างรวดเร็วร่างผู้สร้างรัง",
     "Title": "ผู้พิทักษ์โอเอซิสแห่งจุดจบ",
+    "Icon": "UI_MonsterIcon_Hili_None_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 29090101,
+    "DescribeId": 90901,
+    "RelationshipId": 90901,
+    "MonsterName": "Monster_Ptahur_Devourer",
+    "Name": "All-Devouring Narwhal",
+    "Title": "All-Devouring Narwhal",
+    "Description": "อสูรยักษ์จากต่างโลกอันลึกลับ",
+    "Icon": "UI_MonsterIcon_Ptahur_Devourer",
+    "Type": 2,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 543.36,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.7,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 90902,
+    "RelationshipId": 90902,
+    "Name": "",
+    "Title": "All-Devouring Narwhal",
+    "Icon": "UI_MonsterIcon_Hili_None_01",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "鲸鱼-黑色幻影剧情版本"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 90903,
+    "RelationshipId": 90903,
+    "Name": "",
+    "Title": "All-Devouring Narwhal",
     "Icon": "UI_MonsterIcon_Hili_None_01",
     "Type": 0,
     "Arkhe": 0
