@@ -1865,7 +1865,7 @@
         },
         {
           "Level": 2,
-          "Description": "Obtém <color=#99FFFFFF>18%</color> de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em  <color=#99FFFFFF>30%</color> por 8s."
+          "Description": "Obtém <color=#99FFFFFF>18%</color> de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em <color=#99FFFFFF>30%</color> por 8s."
         },
         {
           "Level": 3,
@@ -2349,7 +2349,7 @@
     "WeaponType": 11,
     "RankLevel": 4,
     "Name": "Grande Espada de Favonius",
-    "Description": "Uma espada pesada cerimonial dos Cavaleiros de Favonious. Canaliza poderes elementais facilmente e é altamente destrutiva.",
+    "Description": "Uma espada pesada cerimonial dos Cavaleiros de Favonius. Canaliza poderes elementais facilmente e é altamente destrutiva.",
     "Icon": "UI_EquipIcon_Claymore_Zephyrus",
     "AwakenIcon": "UI_EquipIcon_Claymore_Zephyrus_Awaken",
     "GrowCurves": [
@@ -3332,6 +3332,58 @@
     ]
   },
   {
+    "Id": 12426,
+    "PromoteId": 12426,
+    "WeaponType": 11,
+    "RankLevel": 4,
+    "Name": "Mega Ultra Espada Mágica do Soberano",
+    "Description": "Uma espada mágica que só pode ser empunhada por quem comandar os mares. Como foi feita com materiais especiais à prova d'água, não ficará encharcada mesmo que seja mergulhada na água. Pode-se dizer que ela é invencível!",
+    "Icon": "UI_EquipIcon_Claymore_Champion",
+    "AwakenIcon": "UI_EquipIcon_Claymore_Champion_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 43.7349,
+        "Type": 4,
+        "Value": 1202
+      },
+      {
+        "InitValue": 0.066667,
+        "Type": 23,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Você consegue!",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Aumenta o ATQ em <color=#99FFFFFF>12%</color>. Mas não só isso! As Melusines da Vila Marusea lhe oferecem todo seu apoio, de forma que segundo a quantidade de Melusines que você já ajudou, o ATQ pode aumentar em até <color=#99FFFFFF>12%</color> a mais."
+        },
+        {
+          "Level": 1,
+          "Description": "Aumenta o ATQ em <color=#99FFFFFF>15%</color>. Mas não só isso! As Melusines da Vila Marusea lhe oferecem todo seu apoio, de forma que segundo a quantidade de Melusines que você já ajudou, o ATQ pode aumentar em até <color=#99FFFFFF>15%</color> a mais."
+        },
+        {
+          "Level": 2,
+          "Description": "Aumenta o ATQ em <color=#99FFFFFF>18%</color>. Mas não só isso! As Melusines da Vila Marusea lhe oferecem todo seu apoio, de forma que segundo a quantidade de Melusines que você já ajudou, o ATQ pode aumentar em até <color=#99FFFFFF>18%</color> a mais."
+        },
+        {
+          "Level": 3,
+          "Description": "Aumenta o ATQ em <color=#99FFFFFF>21%</color>. Mas não só isso! As Melusines da Vila Marusea lhe oferecem todo seu apoio, de forma que segundo a quantidade de Melusines que você já ajudou, o ATQ pode aumentar em até <color=#99FFFFFF>21%</color> a mais."
+        },
+        {
+          "Level": 4,
+          "Description": "Aumenta o ATQ em <color=#99FFFFFF>24%</color>. Mas não só isso! As Melusines da Vila Marusea lhe oferecem todo seu apoio, de forma que segundo a quantidade de Melusines que você já ajudou, o ATQ pode aumentar em até <color=#99FFFFFF>24%</color> a mais."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114060,
+      112094,
+      112085
+    ]
+  },
+  {
     "Id": 12427,
     "PromoteId": 12427,
     "WeaponType": 11,
@@ -3693,6 +3745,58 @@
       114048,
       112076,
       112067
+    ]
+  },
+  {
+    "Id": 12512,
+    "PromoteId": 12512,
+    "WeaponType": 11,
+    "RankLevel": 5,
+    "Name": "Veredito",
+    "Description": "Uma espada usada por uma jovem dama que abandonou o nome de sua família, manchado com o sangue de inimigos e de familiares.",
+    "Icon": "UI_EquipIcon_Claymore_GoldenVerdict",
+    "AwakenIcon": "UI_EquipIcon_Claymore_GoldenVerdict_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 47.537,
+        "Type": 4,
+        "Value": 1302
+      },
+      {
+        "InitValue": 0.048,
+        "Type": 20,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "Juramento dos Reinos e Crepúsculos",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Aumenta o ATQ em <color=#99FFFFFF>20%</color>. Quando o personagem da equipe obtém um Fragmento gerado por Cristalização, concede ao personagem que está com essa arma equipada 1 \"Selo do Juramento\", aumentando o Dano causado por sua Habilidade Elemental em <color=#99FFFFFF>18%</color>. O Selo do Juramento dura 15s e pode ser acumulado até duas vezes. Todos os Selos do Juramento serão removidos 0.2s após o personagem que está com essa arma equipada causar Dano de Habilidade Elemental."
+        },
+        {
+          "Level": 1,
+          "Description": "Aumenta o ATQ em <color=#99FFFFFF>25%</color>. Quando o personagem da equipe obtém um Fragmento gerado por Cristalização, concede ao personagem que está com essa arma equipada 1 \"Selo do Juramento\", aumentando o Dano causado por sua Habilidade Elemental em <color=#99FFFFFF>22.5%</color>. O Selo do Juramento dura 15s e pode ser acumulado até duas vezes. Todos os Selos do Juramento serão removidos 0.2s após o personagem que está com essa arma equipada causar Dano de Habilidade Elemental."
+        },
+        {
+          "Level": 2,
+          "Description": "Aumenta o ATQ em <color=#99FFFFFF>30%</color>. Quando o personagem da equipe obtém um Fragmento gerado por Cristalização, concede ao personagem que está com essa arma equipada 1 \"Selo do Juramento\", aumentando o Dano causado por sua Habilidade Elemental em <color=#99FFFFFF>27%</color>. O Selo do Juramento dura 15s e pode ser acumulado até duas vezes. Todos os Selos do Juramento serão removidos 0.2s após o personagem que está com essa arma equipada causar Dano de Habilidade Elemental."
+        },
+        {
+          "Level": 3,
+          "Description": "Aumenta o ATQ em <color=#99FFFFFF>35%</color>. Quando o personagem da equipe obtém um Fragmento gerado por Cristalização, concede ao personagem que está com essa arma equipada 1 \"Selo do Juramento\", aumentando o Dano causado por sua Habilidade Elemental em <color=#99FFFFFF>31.5%</color>. O Selo do Juramento dura 15s e pode ser acumulado até duas vezes. Todos os Selos do Juramento serão removidos 0.2s após o personagem que está com essa arma equipada causar Dano de Habilidade Elemental."
+        },
+        {
+          "Level": 4,
+          "Description": "Aumenta o ATQ em <color=#99FFFFFF>40%</color>. Quando o personagem da equipe obtém um Fragmento gerado por Cristalização, concede ao personagem que está com essa arma equipada 1 \"Selo do Juramento\", aumentando o Dano causado por sua Habilidade Elemental em <color=#99FFFFFF>36%</color>. O Selo do Juramento dura 15s e pode ser acumulado até duas vezes. Todos os Selos do Juramento serão removidos 0.2s após o personagem que está com essa arma equipada causar Dano de Habilidade Elemental."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114052,
+      112091,
+      112085
     ]
   },
   {
@@ -4557,7 +4661,7 @@
         },
         {
           "Level": 3,
-          "Description": "Após desencadear Queimadura, Aceleração, Intensificação, Propagação, Florescimento, Superflorescimento e Germinação, uma Folha do Renascimento será criada em volta do personagem por no máximo 10s. Quando coletada,  a Folha do Renascimento aumentará o ATQ do personagem em <color=#99FFFFFF>28%</color> por 12s. Apenas 1 Folha pode ser criada dessa forma a cada 20s. Esse efeito ainda pode ser desencadeado mesmo se o personagem não estiver em campo."
+          "Description": "Após desencadear Queimadura, Aceleração, Intensificação, Propagação, Florescimento, Superflorescimento e Germinação, uma Folha do Renascimento será criada em volta do personagem por no máximo 10s. Quando coletada, a Folha do Renascimento aumentará o ATQ do personagem em <color=#99FFFFFF>28%</color> por 12s. Apenas 1 Folha pode ser criada dessa forma a cada 20s. Esse efeito ainda pode ser desencadeado mesmo se o personagem não estiver em campo."
         },
         {
           "Level": 4,
@@ -8495,7 +8599,7 @@
         },
         {
           "Level": 2,
-          "Description": "Aumenta o Dano infligido pelo Ataque Normal e Ataque Carregado em <color=#99FFFFFF>18%</color>.  A cada 0.1s depois de disparar uma flecha com o Ataque Normal e Ataque Carregado, terá aumento de Dano de <color=#99FFFFFF>12%</color>, acumulando até um máximo de 5 vezes."
+          "Description": "Aumenta o Dano infligido pelo Ataque Normal e Ataque Carregado em <color=#99FFFFFF>18%</color>. A cada 0.1s depois de disparar uma flecha com o Ataque Normal e Ataque Carregado, terá aumento de Dano de <color=#99FFFFFF>12%</color>, acumulando até um máximo de 5 vezes."
         },
         {
           "Level": 3,
@@ -8591,7 +8695,7 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Aumenta o Dano causado por Habilidade Elemental e Supremo em <color=#99FFFFFF>12%</color>; Depois  que o Ataque Normal, Ataque Carregado, Habilidade Elemental ou Supremo acerta o inimigo, gera 1 efeito \"Estrela Polar da Noite Branca\" por 12s. Quando tiver 1/2/3/4 acúmulos de \"Estrela Polar da Noite Branca\", o ATQ é aumentado em <color=#99FFFFFF>10/20/30/48%</color>. Os efeitos de \"Estrela Polar da Noite Branca\" gerados por Ataque Normal, Ataque Carregado, Habilidade Elemental ou Supremo são individuais."
+          "Description": "Aumenta o Dano causado por Habilidade Elemental e Supremo em <color=#99FFFFFF>12%</color>; Depois que o Ataque Normal, Ataque Carregado, Habilidade Elemental ou Supremo acerta o inimigo, gera 1 efeito \"Estrela Polar da Noite Branca\" por 12s. Quando tiver 1/2/3/4 acúmulos de \"Estrela Polar da Noite Branca\", o ATQ é aumentado em <color=#99FFFFFF>10/20/30/48%</color>. Os efeitos de \"Estrela Polar da Noite Branca\" gerados por Ataque Normal, Ataque Carregado, Habilidade Elemental ou Supremo são individuais."
         },
         {
           "Level": 1,

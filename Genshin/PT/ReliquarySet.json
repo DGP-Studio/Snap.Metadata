@@ -539,7 +539,7 @@
     "Icon": "UI_RelicIcon_15014_4",
     "Descriptions": [
       "Obtém 15% de Bônus de Dano Geo.",
-      "Ao obter um Fragmento Elemental por meio de uma Reação de Cristalização, todos os personagens na equipe ganham 35% de DMG para esse elemento em particular por 10s. Somente uma forma de Dano Elemental pode ser obtida dessa maneira a qualquer momento."
+      "Ao obter um Fragmento Elemental por meio de uma Reação de Cristalização, todos os personagens na equipe ganham 35% de Dano para esse elemento em particular por 10s. Somente uma forma de Dano Elemental pode ser obtida dessa maneira a qualquer momento."
     ]
   },
   {
@@ -864,6 +864,42 @@
     "Descriptions": [
       "Aumenta o dano da Habilidade Elemental em 20%.",
       "Aumenta o Dano da Habilidade Elemental em 25%. Além disso, quando o personagem não está no campo de batalha, o Dano da Habilidade Elemental aumenta em mais 25%. Este efeito será removido 2s após o personagem entrar no campo de batalha."
+    ]
+  },
+  {
+    "SetId": 15033,
+    "EquipAffixId": 215033,
+    "EquipAffixIds": [
+      2150330,
+      2150331
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Canção do Passado",
+    "Icon": "UI_RelicIcon_15033_4",
+    "Descriptions": [
+      "Bônus de Cura +15%",
+      "Quando o personagem que está com este conjunto equipado curar um membro da equipe, gera por 6s o efeito \"Sede de Esperança\", registrando a quantidade curada (inclui sobrecura). Quando a duração acabar, o efeito Sede de Esperança será convertido para o efeito \"Ondas do Passado\": quando o Ataque Normal, Carregado, Imersivo, a Habilidade Elemental e Supremo do personagem ativo de sua equipe atingirem um inimigo, aumentará o Dano causado em 8% da cura registrada. Ondas do Passado será removido depois de ser desencadeado 5 vezes ou após 10s. Uma Sede de Esperança pode registrar até 15.000 de cura, e só é possível existir um efeito ao mesmo tempo, mas que pode registrar a cura feita por mais de um personagem que está com esse conjunto equipado. Esse efeito pode ser desencadeado mesmo que o personagem que está com esse conjunto equipado não esteja ativo no campo de batalha."
+    ]
+  },
+  {
+    "SetId": 15034,
+    "EquipAffixId": 215034,
+    "EquipAffixIds": [
+      2150340,
+      2150341
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Ecos da Floresta Noturna",
+    "Icon": "UI_RelicIcon_15034_4",
+    "Descriptions": [
+      "ATQ +18%",
+      "Nos 10s depois de usar uma Habilidade Elemental, aumenta o Bônus de Dano Geo em 20%. Se estiver protegido por um escudo gerado pela Reação de Cristalização, o efeito acima será aumentado em 150%, e esse aumento adicional desaparece 1s após perder esse escudo."
     ]
   }
 ]
