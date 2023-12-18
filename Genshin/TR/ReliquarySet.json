@@ -175,7 +175,7 @@
     "Name": "Maceracı",
     "Icon": "UI_RelicIcon_10010_4",
     "Descriptions": [
-      "Maks. Can 1000 artar.",
+      "Maks. Can 1.000 artar.",
       "Bir sandık açmak Maks. Canın %30'unu 5 saniyede yeniler."
     ]
   },
@@ -864,6 +864,42 @@
     "Descriptions": [
       "Element Becerisi Hasarını %20 artırır.",
       "Element Becerisi Hasarını %25 artırır. Ek olarak, karakter savaş alanında değilken Element Becerisi Hasarı %25 daha artar. Bu etki, karakter savaş alanına geldikten 2 saniye sonra kaybolur."
+    ]
+  },
+  {
+    "SetId": 15033,
+    "EquipAffixId": 215033,
+    "EquipAffixIds": [
+      2150330,
+      2150331
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Geçmiş Günlerin Şarkısı",
+    "Icon": "UI_RelicIcon_15033_4",
+    "Descriptions": [
+      "+%15 İyileştirme Bonusu.",
+      "Kuşanan karakter, bir grup üyesini iyileştirdiğinde 6 saniyeliğine Hasret etkisi oluşur ve toplam iyileştirme miktarı kaydedilir (fazlalık iyileştirme miktarı dahil). Etki süresi sona erdiğinde Hasret etkisi \"Geçmiş Günlerin Dalgaları\" etkisine dönüşür. Aktif grup üyesi bir düşmana Normal Saldırı, Yüklü Saldırı, Havadan Saldırı, Element Becerisi veya Element Patlaması ile saldırdığında verilen Hasar, Hasret etkisiyle kaydedilen toplam iyileştirme miktarının %8'i kadar artar. \"Geçmiş Günlerin Dalgaları\" etkisi, 5 defa etkili olduğunda veya 10sn sonra kaldırılır. Tek bir Hasret etkisi en fazla 15.000 iyileştirme kaydeder ve aynı anda sadece bir tane var olabilir ancak kuşanan birden fazla karakter varsa hepsinin iyileştirmelerini kaydedebilir. Hazırdaki kuşanan karakterler de bu etkiyi tetikleyebilir."
+    ]
+  },
+  {
+    "SetId": 15034,
+    "EquipAffixId": 215034,
+    "EquipAffixIds": [
+      2150340,
+      2150341
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Yankılı Ormanda Gece Fısıltısı",
+    "Icon": "UI_RelicIcon_15034_4",
+    "Descriptions": [
+      "+%18 Saldırı.",
+      "Bir Element Becerisi kullandıktan sonra 10 saniyeliğine %20 Toprak Hasarı Bonusu kazanılır. Kristalleşme tepkimesinden gelen bir kalkan mevcutsa bu etki %150 artar. Bu ek artış, kalkan etkisini kaybettikten 1sn sonra kaybolur."
     ]
   }
 ]

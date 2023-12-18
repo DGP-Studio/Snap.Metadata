@@ -1,5 +1,53 @@
 [
   {
+    "Id": 84,
+    "FloorIds": [
+      1064,
+      1065,
+      1070,
+      1071
+    ],
+    "Open": "2023-12-16T04:00:00+08:00",
+    "Close": "2024-01-01T03:59:59+08:00",
+    "BuffName": "Luna svettante",
+    "Descriptions": [
+      "#Dopo che un personaggio entra in campo, ottiene un accumulo di Impennata ogni 2,5{NON_BREAK_SPACE}s. Ogni accumulo <color=#F39000FF>aumenta i DAN inflitti dal personaggio di un 8%</color>. Massimo 3 accumuli. Quando infligge DAN a un avversario, un personaggio con 3 accumuli <color=#F39000FF>sprigiona un'onda d'urto</color> nella posizione di quell'avversario, infliggendo DAN puri. Quest'effetto si annulla quando il personaggio lascia il campo. Si può sprigionare 1 onda d'urto ogni secondo."
+    ],
+    "Icon": "UI_TowerBlessing_74"
+  },
+  {
+    "Id": 85,
+    "FloorIds": [
+      1064,
+      1065,
+      1072,
+      1073
+    ],
+    "Open": "2024-01-01T04:00:00+08:00",
+    "Close": "2024-01-16T03:59:59+08:00",
+    "BuffName": "Luna solida",
+    "Descriptions": [
+      "#Dopo che un personaggio ottiene un frammento elementale creato dalla reazione di Cristallizzazione, il personaggio acquisisce lo stato di Formidabilità, che <color=#F39000FF>aumenta di un 15% i DAN inflitti</color> dai personaggi attivi per 8{NON_BREAK_SPACE}s. È possibile avere fino a 3 accumuli di questo stato, e la durata di ciascun accumulo è calcolata in maniera indipendente."
+    ],
+    "Icon": "UI_TowerBlessing_75"
+  },
+  {
+    "Id": 86,
+    "FloorIds": [
+      1064,
+      1065,
+      1072,
+      1073
+    ],
+    "Open": "2024-01-16T04:00:00+08:00",
+    "Close": "2024-02-01T03:59:59+08:00",
+    "BuffName": "Luna esplosiva",
+    "Descriptions": [
+      "#Dopo che un personaggio ottiene un frammento elementale creato dalla reazione di Cristallizzazione, quel frammento viene accumulato una volta. Raggiunti 3 accumuli, <color=#F39000FF>viene sprigionata un'onda d'urto</color> nella posizione del personaggio, infliggendo DAN puri e azzerando gli accumuli. Ciascuna di queste onde d'urto può essere sprigionata ogni 6{NON_BREAK_SPACE}s."
+    ],
+    "Icon": "UI_TowerBlessing_76"
+  },
+  {
     "Id": 1,
     "FloorIds": [
       1009,
@@ -1318,7 +1366,7 @@
     "Close": "2023-12-01T03:59:59+08:00",
     "BuffName": "Luna delle maree",
     "Descriptions": [
-      "#Quando i PS di un personaggio aumentano o diminuiscono, verranno contati. Raggiunto un totale di 12, <color=#F39000FF>viene rilasciata un'onda d'urto</color> nella posizione del personaggio, infliggendo DAN puri agli avversari vicini e azzerando il conteggio. È possibile rilasciare 1 onda d'urto ogni 4{NON_BREAK_SPACE}s."
+      "#Quando i PS di un personaggio aumentano o diminuiscono, tale evento viene conteggiato. Quando il conteggio arriva a 12, <color=#F39000FF>viene sprigionata un'onda d'urto</color> nella posizione del personaggio, infliggendo DAN puri agli avversari vicini e azzerando il conteggio. È possibile rilasciare 1 onda d'urto ogni 4{NON_BREAK_SPACE}s."
     ],
     "Icon": "UI_TowerBlessing_72"
   },
@@ -1337,21 +1385,5 @@
       "#Quando i personaggi fuori campo infliggono DAN da abilità elementale a un avversario, su quest'ultimo viene posizionato un Marchio misterioso. Quando un altro personaggio attivo colpisce un avversario marchiato con un attacco dello stesso tipo elementale, <color=#F39000FF>viene sprigionata un'onda d'urto</color> nella posizione dell'avversario, infliggendo DAN puri. Il Marchio misterioso dura 5{NON_BREAK_SPACE}s, e possono esistere contemporaneamente più Marchi generati con attacchi di tipo elementale diverso. Si può sprigionare 1 onda d'urto ogni 2{NON_BREAK_SPACE}s. Quando un personaggio entra in campo, i Marchi misteriosi che ha posizionato sugli avversari vengono rimossi."
     ],
     "Icon": "UI_TowerBlessing_73"
-  },
-  {
-    "Id": 84,
-    "FloorIds": [
-      1064,
-      1065,
-      1070,
-      1071
-    ],
-    "Open": "2023-12-16T04:00:00+08:00",
-    "Close": "2024-01-01T03:59:59+08:00",
-    "BuffName": "Luna svettante",
-    "Descriptions": [
-      "#Dopo che un personaggio entra in campo, ottiene un accumulo di Impennata ogni 2,5{NON_BREAK_SPACE}s. Ogni accumulo <color=#F39000FF>aumenta i DAN inflitti dal personaggio di un 8%</color>. Massimo 3 accumuli. Quando infligge DAN a un avversario, un personaggio con 3 accumuli <color=#F39000FF>sprigiona un'onda d'urto</color> nella posizione di quell'avversario, infliggendo DAN puri. Quest'effetto si annulla quando il personaggio lascia il campo. Si può sprigionare 1 onda d'urto ogni secondo."
-    ],
-    "Icon": "UI_TowerBlessing_74"
   }
 ]
