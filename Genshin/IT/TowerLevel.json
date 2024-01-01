@@ -18430,17 +18430,29 @@
     ],
     "FirstWaves": [
       {
-        "Type": 50901,
+        "Type": 1,
         "Monsters": [
           {
-            "Affixes": [
-              {
-                "Name": "SP",
-                "Description": "Spawns at the center of the arena, cannot prevent it from rushing (by pinning it on the edge) anymore."
-              }
-            ],
-            "Id": 50901,
+            "Id": 40662,
             "Count": 1
+          }
+        ]
+      },
+      {
+        "Type": 2,
+        "Monsters": [
+          {
+            "Id": 40101,
+            "Count": 1
+          }
+        ]
+      },
+      {
+        "Type": 3,
+        "Monsters": [
+          {
+            "Id": 40103,
+            "Count": 2
           }
         ]
       }
@@ -18456,6 +18468,19 @@
         "Type": 1,
         "Monsters": [
           {
+            "Id": 115,
+            "Count": 3
+          },
+          {
+            "Id": 602,
+            "Count": 2
+          }
+        ]
+      },
+      {
+        "Type": 2,
+        "Monsters": [
+          {
             "Id": 60401,
             "Count": 1
           },
@@ -18466,20 +18491,59 @@
         ]
       },
       {
-        "Type": 2,
+        "Type": 3,
         "Monsters": [
           {
-            "Id": 510,
-            "Count": 1
-          },
+            "Id": 10205,
+            "Count": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 219,
+    "GroupId": 73,
+    "Index": 3,
+    "MonsterLevel": 99,
+    "Goal": 0,
+    "FirstMonsters": [
+      512
+    ],
+    "FirstWaves": [
+      {
+        "Type": 512,
+        "Monsters": [
           {
-            "Id": 511,
+            "Affixes": [
+              {
+                "Name": "Abyss Version",
+                "Description": "- Skills are more powerful.<br>- Rage lasts 2 skills instead."
+              }
+            ],
+            "Id": 512,
             "Count": 1
+          }
+        ]
+      }
+    ],
+    "SecondMonsters": [
+      10208,
+      54103,
+      54104
+    ],
+    "SecondWaves": [
+      {
+        "Type": 1,
+        "Monsters": [
+          {
+            "Id": 10208,
+            "Count": 2
           }
         ]
       },
       {
-        "Type": 3,
+        "Type": 2,
         "Monsters": [
           {
             "Affixes": [
@@ -18499,72 +18563,6 @@
               }
             ],
             "Id": 54103,
-            "Count": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id": 219,
-    "GroupId": 73,
-    "Index": 3,
-    "MonsterLevel": 99,
-    "Goal": 0,
-    "FirstMonsters": [
-      512
-    ],
-    "FirstWaves": [
-      {
-        "Type": 1,
-        "Monsters": [
-          {
-            "Id": 60509,
-            "Count": 1
-          },
-          {
-            "Id": 60510,
-            "Count": 1
-          },
-          {
-            "Id": 60511,
-            "Count": 1
-          }
-        ]
-      },
-      {
-        "Type": 2,
-        "Monsters": [
-          {
-            "Affixes": [
-              {
-                "Name": "Abyss Version",
-                "Description": "Breacher Primus uses Ultimate Skill immediately upon entering battle.<br>Ultimate Skills are used more frequently."
-              }
-            ],
-            "Id": 21101,
-            "Count": 2
-          }
-        ]
-      }
-    ],
-    "SecondMonsters": [
-      10208,
-      54103,
-      54104
-    ],
-    "SecondWaves": [
-      {
-        "Type": 512,
-        "Monsters": [
-          {
-            "Affixes": [
-              {
-                "Name": "Abyss Version",
-                "Description": "- Skills are more powerful.<br>- Rage lasts 2 skills instead."
-              }
-            ],
-            "Id": 512,
             "Count": 1
           }
         ]
