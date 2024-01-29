@@ -1,53 +1,5 @@
 [
   {
-    "Id": 84,
-    "FloorIds": [
-      1064,
-      1065,
-      1070,
-      1071
-    ],
-    "Open": "2023-12-16T04:00:00+08:00",
-    "Close": "2024-01-01T03:59:59+08:00",
-    "BuffName": "Luna majestuosa",
-    "Descriptions": [
-      "#Después de que un personaje entre en el campo de batalla, obtendrá una carga del efecto de “ascensión” cada 2.5{NON_BREAK_SPACE}s. Cada carga <color=#F39000FF>aumenta el daño del personaje en un 8%</color>. Este efecto puede acumularse hasta 3 veces. Cuando un personaje tiene 3 acumulaciones e inflige daño a un enemigo, en la ubicación de dicho enemigo <color=#F39000FF>se libera una onda de choque</color> que inflige Daño Verdadero. Este efecto desaparece cuando el personaje se retira de combate, y solo se puede liberar una onda de choque de esta manera una vez por segundo."
-    ],
-    "Icon": "UI_TowerBlessing_74"
-  },
-  {
-    "Id": 85,
-    "FloorIds": [
-      1064,
-      1065,
-      1072,
-      1073
-    ],
-    "Open": "2024-01-01T04:00:00+08:00",
-    "Close": "2024-01-16T03:59:59+08:00",
-    "BuffName": "Luna férrea",
-    "Descriptions": [
-      "#Cuando un personaje recoge un fragmento creado con la reacción de Cristalización, obtendrá el estado de “firmeza inquebrantable”, el cual <color=#F39000FF>aumenta en un 15% el daño infligido</color> por el personaje en uso afectado por este estado. Firmeza inquebrantable tiene una duración de 8{NON_BREAK_SPACE}s, puede acumularse hasta 3 veces y el tiempo de cada acumulación se calcula de manera independiente."
-    ],
-    "Icon": "UI_TowerBlessing_75"
-  },
-  {
-    "Id": 86,
-    "FloorIds": [
-      1064,
-      1065,
-      1072,
-      1073
-    ],
-    "Open": "2024-01-16T04:00:00+08:00",
-    "Close": "2024-02-01T03:59:59+08:00",
-    "BuffName": "Luna fragmentada",
-    "Descriptions": [
-      "#Cuando un personaje recoge un fragmento creado con una reacción de Cristalización, esto se contabilizará. Al alcanzar 3 contabilizaciones, en la ubicación del personaje <color=#F39000FF>se libera una onda de choque</color> que inflige Daño Verdadero a los enemigos cercanos, tras lo que se anulan las contabilizaciones. Este efecto puede ocurrir una vez cada 6{NON_BREAK_SPACE}s."
-    ],
-    "Icon": "UI_TowerBlessing_76"
-  },
-  {
     "Id": 1,
     "FloorIds": [
       1009,
@@ -1094,7 +1046,7 @@
     "Close": "2023-03-16T03:59:59+08:00",
     "BuffName": "Luna valerosa",
     "Descriptions": [
-      "#Cuando un personaje cause una reacción de Propagación o Intensificación contra un enemigo, en la ubicación de dicho enemigo <color=#F39000FF>libera una onda de choque</color> que inflige Daño Verdadero. Solo se puede liberar una onda de choque cada 3{NON_BREAK_SPACE}s de esta manera."
+      "#Cuando un personaje causa una reacción de Propagación o Intensificación contra un enemigo, <color=#F39000FF>desata una onda de choque</color> que inflige Daño Verdadero en la ubicación de dicho enemigo. Solo se puede liberar una onda de choque cada 3{NON_BREAK_SPACE}s de esta manera."
     ],
     "Icon": "UI_TowerBlessing_60"
   },
@@ -1385,5 +1337,101 @@
       "#Cuando el personaje en tu equipo pero no en uso inflija daño a un enemigo con una Habilidad Elemental, aplicará una marca insólita sobre dicho enemigo. Cuando otro personaje en uso golpee con un ataque del mismo tipo elemental a un enemigo marcado, en la ubicación del enemigo <color=#F39000FF>se liberará una onda de choque</color> que inflige Daño Verdadero. La marca insólita tiene una duración de 5{NON_BREAK_SPACE}s, y las diferentes marcas creadas con ataques de distintos elementos se mantendrán activas y su duración se contabilizará de forma independiente. Solo se puede crear una onda de choque cada 2{NON_BREAK_SPACE}s de esta manera. Cuando un personaje entre en el campo de combate, las marcas insólitas que afecten a los enemigos desaparecerán."
     ],
     "Icon": "UI_TowerBlessing_73"
+  },
+  {
+    "Id": 84,
+    "FloorIds": [
+      1064,
+      1065,
+      1070,
+      1071
+    ],
+    "Open": "2023-12-16T04:00:00+08:00",
+    "Close": "2024-01-01T03:59:59+08:00",
+    "BuffName": "Luna majestuosa",
+    "Descriptions": [
+      "#Después de que un personaje entre en el campo de batalla, obtendrá una carga del efecto de “ascensión” cada 2.5{NON_BREAK_SPACE}s. Cada carga <color=#F39000FF>aumenta el daño del personaje en un 8%</color>. Este efecto puede acumularse hasta 3 veces. Cuando un personaje tiene 3 acumulaciones e inflige daño a un enemigo, en la ubicación de dicho enemigo <color=#F39000FF>se libera una onda de choque</color> que inflige Daño Verdadero. Este efecto desaparece cuando el personaje se retira de combate, y solo se puede liberar una onda de choque de esta manera una vez por segundo."
+    ],
+    "Icon": "UI_TowerBlessing_74"
+  },
+  {
+    "Id": 85,
+    "FloorIds": [
+      1064,
+      1065,
+      1072,
+      1073
+    ],
+    "Open": "2024-01-01T04:00:00+08:00",
+    "Close": "2024-01-16T03:59:59+08:00",
+    "BuffName": "Luna férrea",
+    "Descriptions": [
+      "#Cuando un personaje recoge un fragmento creado con la reacción de Cristalización, obtendrá el estado de “firmeza inquebrantable”, el cual <color=#F39000FF>aumenta en un 15% el daño infligido</color> por el personaje en uso afectado por este estado. Firmeza inquebrantable tiene una duración de 8{NON_BREAK_SPACE}s, puede acumularse hasta 3 veces y el tiempo de cada acumulación se calcula de manera independiente."
+    ],
+    "Icon": "UI_TowerBlessing_75"
+  },
+  {
+    "Id": 86,
+    "FloorIds": [
+      1064,
+      1065,
+      1072,
+      1073
+    ],
+    "Open": "2024-01-16T04:00:00+08:00",
+    "Close": "2024-02-01T03:59:59+08:00",
+    "BuffName": "Luna fragmentada",
+    "Descriptions": [
+      "#Cuando un personaje recoge un fragmento creado con una reacción de Cristalización, esto se contabilizará. Al alcanzar 3 contabilizaciones, en la ubicación del personaje <color=#F39000FF>se libera una onda de choque</color> que inflige Daño Verdadero a los enemigos cercanos, tras lo que se anulan las contabilizaciones. Este efecto puede ocurrir una vez cada 6{NON_BREAK_SPACE}s."
+    ],
+    "Icon": "UI_TowerBlessing_76"
+  },
+  {
+    "Id": 87,
+    "FloorIds": [
+      1064,
+      1065,
+      1074,
+      1075
+    ],
+    "Open": "2024-02-01T04:00:00+08:00",
+    "Close": "2024-02-16T03:59:59+08:00",
+    "BuffName": "Luna creciente",
+    "Descriptions": [
+      "#Cuando un personaje recibe curación, esto se contabilizará. Al contabilizarse 16 veces, en la ubicación del personaje <color=#F39000FF>se libera una onda de choque</color> que inflige Daño Verdadero contra los enemigos cercanos, tras lo cual desaparecerán todas las contabilizaciones. Como máximo, solo se puede generar una onda de choque cada 8{NON_BREAK_SPACE}s de esta manera."
+    ],
+    "Icon": "UI_TowerBlessing_72"
+  },
+  {
+    "Id": 88,
+    "FloorIds": [
+      1064,
+      1065,
+      1074,
+      1075
+    ],
+    "Open": "2024-02-16T04:00:00+08:00",
+    "Close": "2024-03-01T03:59:59+08:00",
+    "BuffName": "Luna resiliente",
+    "Descriptions": [
+      "#Después de que el personaje en uso golpee a un enemigo con un Ataque Descendente, <color=#F39000FF>el daño del Ataque Descendente de dicho personaje aumenta en un 20%</color> durante 8{NON_BREAK_SPACE}s. Este efecto solo se puede activar una vez cada 0.1{NON_BREAK_SPACE}s, puede acumularse un máximo de 3 veces y la duración de cada acumulación se calcula de manera independiente. Cuando el personaje salga del campo de batalla, este efecto se anulará."
+    ],
+    "Icon": "UI_TowerBlessing_78"
+  },
+  {
+    "Id": 89,
+    "FloorIds": [
+      1064,
+      1065,
+      1074,
+      1075
+    ],
+    "Open": "2024-03-01T04:00:00+08:00",
+    "Close": "2024-03-16T03:59:59+08:00",
+    "BuffName": "Luna menguante",
+    "Descriptions": [
+      "#Después de que el personaje en uso golpee a un enemigo con un Ataque Descendente, <color=#F39000FF>se desatará una onda de choque</color> en la ubicación de dicho personaje que infligirá Daño Verdadero a los enemigos cercanos. Como máximo, solo se puede generar una onda de choque cada 2{NON_BREAK_SPACE}s de esta manera."
+    ],
+    "Icon": "UI_TowerBlessing_79"
   }
 ]

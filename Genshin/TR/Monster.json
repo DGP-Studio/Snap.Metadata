@@ -3235,6 +3235,16 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 10307,
+    "RelationshipId": 10307,
+    "Name": "Dağ Şamanı Boss",
+    "Title": "Kazara Zindanda Aydınlığı Bulan Bir Şaman",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 21040101,
     "DescribeId": 10401,
     "RelationshipId": 10401,
@@ -9143,6 +9153,32 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 60402,
+    "RelationshipId": 60402,
+    "Name": "Chizhang Dağlarının Hakimi: Yiji",
+    "Title": "Toprak Ejderi",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-火"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 60403,
+    "RelationshipId": 60403,
+    "Name": "Chizhang Dağlarının Hakimi: Tianyu",
+    "Title": "Toprak Ejderi",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-冰"
+    ]
+  },
+  {
     "Id": 26050101,
     "DescribeId": 60501,
     "RelationshipId": 60501,
@@ -11471,6 +11507,120 @@
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.6,
       "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190101,
+    "DescribeId": 61901,
+    "RelationshipId": 61901,
+    "MonsterName": "Hermit_Normal_01",
+    "Name": "Yalnız Suanni",
+    "Title": "Yalnız Suanni",
+    "Description": "Bu zarif ve gururlu mistik yaratıklar yalnızca Adeptus enerjisinin hakim olduğu dağlarda yaşarlar.\nEski zamanlardan beri iyi şans sembolü olarak görülmüş, dünyevi hayattan uzakta sürdükleri yaşamdan ötürü nesiller boyunca entelektüellerin hayranlığını kazanmışlardır. Chenyu Vadisi'ndeki kadim efsanelerde Suanni'lerin liderine Dağ Efendisi denirdi ve Adeptuslarla aynı seviyede görülürdü.\nBaşka bir teori de günümüzde dağlarda dolaşan Xuanwen Canavarlarının, Suanni'nin torunları olduğunu ancak yıllar içerisinde Suanni kanının seyrelmesinden ötürü vahşi canavarlara dönüştüklerini iddia eder. Aslında bu, Xuanwen Canavarlarının kökenine ilişkin başka bir teoriyle çatışmasına rağmen Suanni'lerle ilgili az sayıdaki belgede onlara birçok Xuanwen Canavarının eşlik ettiği görülür.\nGünümüzde Chenyu Vadisi'nin meşhur Wushou Dansı, Suanni'nin hareketlerinden gelmektedir. Ancak bu canavarları gerçekten gören sadece bir avuç insan olduğundan çoğu kişi yalnızca neye benzedikleri hakkında tahminde bulunabilir. Binlerce yıllık değişim ve sanatsal yorumlamadan sonra Wushou Dansı kostüm başlığı da günümüzdeki halini almıştır.",
+    "Icon": "UI_MonsterIcon_Hermit",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113058,
+      104151,
+      104152,
+      104153,
+      104154,
+      104121,
+      104122,
+      104123,
+      104124,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 225.4944,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.7,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.7,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190201,
+    "DescribeId": 61902,
+    "RelationshipId": 61902,
+    "MonsterName": "Striped_01",
+    "Name": "Xuanwen Canavarı",
+    "Title": "Xuanwen Canavarı",
+    "Description": "İsmini vücutlarındaki koyu desenlerden alan Xuanwen Canavarları, Chenyu Vadisi dağlarında yaşayan vahşi yaratıklardır.\nBölgede anlatılan hikayelerde bu canavarların kadim zamanlarda bir Adeptusun hizmetkarları olduğu ve kötülüğü yenerek bölgeyi korumakla görevli oldukları anlatılır. Ancak bu Adeptus öldükten sonra bu Xuanwen Canavarları da vahşi yaratıklar haline gelmiş. Efsanenin gerçekliğini kanıtlamak mümkün değil ve bahsi geçen Adeptusun gerçek kimliğini ise kimse bilmiyor. Her halükarda güvenlik için bu agresif yaratıklardan uzak durmak gerektiği bir gerçek.\nGeçen bin yıl içerisinde insanların engellenemez bir biçimde yayılmasından ötürü bu yaratıklar önceden kendilerine ait olan çok büyük bir alanı kaybetmiş durumda. Günümüzde ancak Chenyu Vadisi'nin uzak dağlarında nadiren görülebiliyorlar...",
+    "Icon": "UI_MonsterIcon_Striped",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112095,
+      112096,
+      112097,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 57.0528,
+      "AttackBase": 55.264,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1

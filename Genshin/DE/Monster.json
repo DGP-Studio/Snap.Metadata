@@ -3235,6 +3235,16 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 10307,
+    "RelationshipId": 10307,
+    "Name": "Samachurl-Boss",
+    "Title": "Ein aus Versehen in eine Sphäre eingedrungener Schamane, der Erleuchtung erlangte?",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 21040101,
     "DescribeId": 10401,
     "RelationshipId": 10401,
@@ -9143,6 +9153,32 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 60402,
+    "RelationshipId": 60402,
+    "Name": "Streifenherrscher der Berge von Chizhang – Yiji",
+    "Title": "Geo-Drachenechse",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-火"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 60403,
+    "RelationshipId": 60403,
+    "Name": "Streifenherrscher der Berge von Chizhang – Tianyu",
+    "Title": "Geo-Drachenechse",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-冰"
+    ]
+  },
+  {
     "Id": 26050101,
     "DescribeId": 60501,
     "RelationshipId": 60501,
@@ -11471,6 +11507,120 @@
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.6,
       "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190101,
+    "DescribeId": 61901,
+    "RelationshipId": 61901,
+    "MonsterName": "Hermit_Normal_01",
+    "Name": "Ausgestiegene Suanni",
+    "Title": "Ausgestiegene Suanni",
+    "Description": "Eine elegante und stolze göttliche Bestie, die nur dort in den tiefsten Gebirgen haust, wo auch die Adeptenkraft verweilt.\nSie gilt bereits seit Urzeiten als Symbol des Glücks, und dass sie es bevorzugt, in Abgeschiedenheit zu leben, weit weg von den Problemen der Welt, ist seit jeher etwas, das Schriftsteller und Künstler an ihr zu schätzen wissen. In den uralten lokalen Legenden des Chenyu-Tals wird das Oberhaupt der Suanni auch gern mal als „Herrin des Berges“ bezeichnet, wobei ihr Status nicht selten mit dem der Adepten gleichgesetzt wird.\nEiner anderen Vermutung zufolge seien die Xuanwen-Bestien, die heute durch die Berge und Wälder streifen, ebenfalls die Erben jener göttlichen Bestien. Doch aufgrund ihres unbedeutenden Schicksals erwies es sich als schwierig, eine solch edle Blutlinie zu erben; und so degenerierten sie zu den wilden Biestern, die sie nun mal sind. Diese Aussage steht dabei allerdings im krassen Widerspruch zu einer anderen Erzählung über den Ursprung der Xuanwen-Bestien. Dennoch wird in den wenigen Berichten über das Erscheinen der Suanni oft von einer großen Anzahl von Xuanwen-Bestien berichtet, die ihr zur Seite stehen.\nHeutzutage wird im Chenyu-Tal der allseits beliebte „Wushou-Tanz“ aufgeführt, bei dem die Bewegungen und Verhaltensweisen der legendären Suanni Pate gestanden haben. Allerdings haben nur sehr wenige Menschen sie jemals zu Gesicht bekommen, und die meisten können ihr Aussehen nur mithilfe ihrer Vorstellungskraft beschreiben. Nach Jahrtausenden der Abwandlung und künstlerischen Bearbeitung wurde sich dann irgendwann schließlich auf den „Wushou-Tanz“ festgelegt, wie wir ihn heute kennen.",
+    "Icon": "UI_MonsterIcon_Hermit",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113058,
+      104151,
+      104152,
+      104153,
+      104154,
+      104121,
+      104122,
+      104123,
+      104124,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 225.4944,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.7,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.7,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190201,
+    "DescribeId": 61902,
+    "RelationshipId": 61902,
+    "MonsterName": "Striped_01",
+    "Name": "Xuanwen-Bestie",
+    "Title": "Xuanwen-Bestie",
+    "Description": "Dieses als „Xuanwen-Bestie“ bekannte wilde Tier, das sich in den Wäldern und Bergen des Chenyu-Tals niedergelassen hat, sticht besonders aufgrund seiner Färbung und Musterung ins Auge.\nIn der örtlichen Folklore des Chenyu-Tals sollen diese Bestien einst zu einem bestimmten Adepten gehört haben, der Dämonen bezwungen und seinesgleichen beschützt haben soll. Erst nach seinem Tod wurden sie zu den wilden Bestien, wie wir sie heute kennen. Der Ursprung der Legende ist längst vergessen, die wahre Identität des Adepten höchst umstritten; nur bei einem ist man sich absolut sicher: Willst du an einem Stück bleiben, solltest du dich auf keinen Fall diesen brutalen Biestern nähern. Und vermeide möglichst hastige Bewegungen.\nAufgrund unaufhaltsamer Pionierarbeit des Menschen wurde der ursprüngliche Lebensraum dieser Tiere im Laufe der Jahrtausende immer kleiner. Heutzutage sind sie nur noch gelegentlich abseits ausgetretener Pfade im tiefsten Gebirge des Chenyu-Tals anzutreffen ...",
+    "Icon": "UI_MonsterIcon_Striped",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112095,
+      112096,
+      112097,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 57.0528,
+      "AttackBase": 55.264,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1

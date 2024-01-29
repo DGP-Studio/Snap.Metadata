@@ -3235,6 +3235,16 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 10307,
+    "RelationshipId": 10307,
+    "Name": "츄츄 샤먼BOSS",
+    "Title": "실수로 비경에 들어와 득도한 샤먼?",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 21040101,
     "DescribeId": 10401,
     "RelationshipId": 10401,
@@ -9143,6 +9153,32 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 60402,
+    "RelationshipId": 60402,
+    "Name": "적장순악부군·이즉",
+    "Title": "바위 용 도마뱀",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-火"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 60403,
+    "RelationshipId": 60403,
+    "Name": "적장순악부군·천우",
+    "Title": "바위 용 도마뱀",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-冰"
+    ]
+  },
+  {
     "Id": 26050101,
     "DescribeId": 60501,
     "RelationshipId": 60501,
@@ -11471,6 +11507,120 @@
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.6,
       "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190101,
+    "DescribeId": 61901,
+    "RelationshipId": 61901,
+    "MonsterName": "Hermit_Normal_01",
+    "Name": "은둔 산예",
+    "Title": "은둔 산예",
+    "Description": "우아하면서도 고고한 영물. 선력이 감도는 깊은 산속에만 서식한다.\n예로부터 이 신수는 행운의 상징으로 여겨졌으며, 속세와 멀리 떨어진 산속에 은거한다는 특징은 역대 문인과 가객들의 찬사를 받아왔다. 침옥 협곡에 내려오는 오랜 전설에 의하면 산예의 우두머리는 「산의 주인」이라 불렸고, 가끔은 선인과 동등한 존재로 대접받기도 했다.\n다른 설에 따르면 오늘날 산속을 맴도는 현문 야수는 이 신수의 후예였으나, 인연이 얕아 고귀한 혈통을 잇지 못하고 포악한 야수가 되었다고 한다. 이 설은 현문 야수의 기원과 관련된 다른 설들과 모순되는 부분이 있다. 다만, 얼마 되지 않는 산예 목격 기록에는 산예가 다수의 현문 야수를 이끌고 나타났다는 내용이 기록되어 있다.\n오늘날, 침옥 협곡에서 잘 알려진 「짐승춤」은 전설 속 산예의 자태와 동작을 흉내 낸 것이다. 하지만 산예를 직접 본 자는 극히 드물고, 대부분은 상상을 통해 그 생물의 모습을 묘사할 뿐이다. 수천 년에 걸친 변천과 예술적 가공 끝에 「짐승 탈」은 현재의 모습을 갖추게 되었다",
+    "Icon": "UI_MonsterIcon_Hermit",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113058,
+      104151,
+      104152,
+      104153,
+      104154,
+      104121,
+      104122,
+      104123,
+      104124,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 225.4944,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.7,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.7,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190201,
+    "DescribeId": 61902,
+    "RelationshipId": 61902,
+    "MonsterName": "Striped_01",
+    "Name": "현문 야수",
+    "Title": "현문 야수",
+    "Description": "침옥 협곡 숲속에 서식하는 포악한 야수. 검은색 무늬 때문에 「현문」이라는 이름이 붙었다.\n침옥 협곡에 전해 내려오는 민간 설화에 따르면, 아주 먼 옛날 이 짐승은 한 선인의 권속으로서 요괴를 무찌르며 수호의 임무를 수행했으나, 선인이 죽고 난 후 난폭한 야수로 변해버렸다고 한다. 이야기의 기원은 잊혀진 지 오래고 선인이 누구였는지도 의견이 분분했지만, 한 가지만은 확실했다. 안전을 고려해 이 무시무시한 녀석에게 가까이 가지 않는 게 좋다는 것이다.\n오랜 세월 이어져 온 인간의 개척 사업으로 인해 이 야수의 서식지는 갈수록 좁아져만 갔고, 오늘날에 이르러서는 침옥 협곡에서 가장 인적이 드문 곳으로 찾아가야만 이들의 모습을 볼 수 있게 되었다…",
+    "Icon": "UI_MonsterIcon_Striped",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112095,
+      112096,
+      112097,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 57.0528,
+      "AttackBase": 55.264,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1

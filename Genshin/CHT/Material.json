@@ -1090,6 +1090,26 @@
     "Icon": "UI_ItemIcon_1102"
   },
   {
+    "MaterialType": 20,
+    "Id": 1192,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "嘉明的命星",
+    "Description": "嘉明的命之座啟用素材",
+    "TypeDescription": "命之座啟用",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1193,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "閒雲的命星",
+    "Description": "閒雲的命之座啟用素材",
+    "TypeDescription": "命之座啟用",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
     "MaterialType": 5,
     "Id": 1201,
     "RankLevel": 5,
@@ -2646,6 +2666,26 @@
     "Description": "懸浮於莫爾泰區水體深處的清澈露滴，與常見的純水造物不同，似乎凝聚著更為原始而純粹的元素能量。",
     "TypeDescription": "楓丹區域特產",
     "Icon": "UI_ItemIcon_101240"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101241,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "清水玉",
+    "Description": "出產於沉玉谷的玉石。觸感涼如清水，因此而得名。",
+    "TypeDescription": "璃月區域特產",
+    "Icon": "UI_ItemIcon_101241"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101242,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "沉玉仙茗",
+    "Description": "生長在沉玉谷溫暖濕潤之處的茶葉。經過數千年的精心篩選培育，如今的茶葉香氣濃馥綿長，縱然相隔數條街，依然能夠嗅到那沁人心脾的芬芳。",
+    "TypeDescription": "食材",
+    "Icon": "UI_ItemIcon_101242"
   },
   {
     "MaterialType": 25,
@@ -16257,6 +16297,16 @@
     "Icon": "UI_ItemIcon_107025"
   },
   {
+    "MaterialType": 10,
+    "Id": 107026,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "蒼靈鯉",
+    "Description": "由逸散的仙力凝集而成，暢遊於山野河谷之間的靈鯉。",
+    "TypeDescription": "冒險道具",
+    "Icon": "UI_ItemIcon_107026"
+  },
+  {
     "MaterialType": 1,
     "EffectDescription": "隊伍中所有角色防禦力提高88點，持續300秒。多人遊戲時，僅對自己的角色生效。",
     "Id": 108001,
@@ -23109,6 +23159,457 @@
     "Icon": "UI_ItemIcon_108622"
   },
   {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色生命值上限提升20%，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108624,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "奇怪的金玉滿堂",
+    "Description": "鮮香四溢的璃月菜餚。未經細緻處理的蝦仁和半生不熟的蟹黃中散發著詭異的氣息，彷如剛剛發生了一場殘酷的蝦蟹戰爭。考慮到原料本身還算新鮮，只要無視了氣味，或許這盤狼藉也勉強可以被歸入食物的範疇…",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108625"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色生命值上限提升22%，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108625,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "金玉滿堂",
+    "Description": "鮮香四溢的璃月菜餚。將蝦仁上漿後，配合濃郁的蟹黃燒製。蟹黃燦爛勝金，蝦仁晶瑩如玉，故此得名「金玉滿堂」。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108625"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色生命值上限提升25%，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108626,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味的金玉滿堂",
+    "Description": "鮮香四溢的璃月菜餚。鮮彈爽滑的蟹粉包裹著細嫩彈牙的蝦仁，宛如一盤玲瓏剔透的珍寶，讓人不覺食指大動。細嚐之下，口中鮮香四溢，讓人隨著味蕾上湧起的波濤，漫遊於蝦蟹成群的美味之河中。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108625"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色暴擊率提升10%，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108627,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "奇怪的繁弦急管",
+    "Description": "#風味獨特的肉類菜餚。在過熱的炒製中，各種肉絲已然混作一團，使整盤菜變成了一灘肉沫。一經入口，酸鹹又苦澀的味道會將{F#妳}{M#你}的味覺徹底攪亂。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108628"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色暴擊率提升15%，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108628,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "繁弦急管",
+    "Description": "風味獨特的肉類菜餚。由多種肉類切成絲後，揉制入味煎炒而成。由於用料繁複且口感多變，這道美食頗為考驗廚師本人的技藝。就算是在某些老牌的菜館之中，這道菜都難得一見。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108628"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色暴擊率提升20%，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108629,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味的繁弦急管",
+    "Description": "風味獨特的肉類菜餚。不同口感的肉絲如各式樂器齊鳴合奏，細膩的調味將多種香味巧妙地融合在了一起。如某位評論家所說，音分百韻、味含千變、絲條錯錯、諸味紛紛、此番妙曼，猶登仙境…",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108628"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "立即為選中的角色恢復生命值上限的26%，並在之後的30秒內，每5秒恢復450點生命值。",
+    "Id": 108630,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "奇怪的知足常樂",
+    "Description": "滷香四溢的豆腐菜式。豆腐過分辛辣，著實難以入口。如果花點時間，用清水涮去過度的調味，或許還能勉強吃下…",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108631"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "立即為選中的角色恢復生命值上限的28%，並在之後的30秒內，每5秒恢復620點生命值。",
+    "Id": 108631,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "知足常樂",
+    "Description": "滷香四溢的豆腐菜式。將豆腐煎制後，配合醬汁翻炒上色即可出鍋。雖然用料普普通通，但其風味醇厚香濃，十分下飯，可謂家常美味之優選。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108631"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "立即為選中的角色恢復生命值上限的30%，並在之後的30秒內，每5秒恢復790點生命值。",
+    "Id": 108632,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味的知足常樂",
+    "Description": "滷香四溢的豆腐菜式。香煎後的豆腐，包含醬香濃郁的湯汁，過癮的辛辣中又帶著若有似無的「肉香」。只須輕咬一口，醇香便在口中散開，讓人回味無窮。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108631"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色防禦力提高165點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108633,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "奇怪的賓至如歸",
+    "Description": "用料豐富的主食。因火候不到且水分過多，導致口感糜爛，根本感受不到應有的煙火氣息。或許下次，應該試試用更大的火力炒製…",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108634"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色防禦力提高200點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108634,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "賓至如歸",
+    "Description": "用料豐富的主食。由火腿、鳥蛋等原料配合稻米炒製而成。因選材自由且花樣百出，幾乎每個璃月人家都會製作這種美味主食。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108634"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色防禦力提高235點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108635,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味的賓至如歸",
+    "Description": "用料豐富的主食。金黃色的蛋液為每一粒米飯披上錦衣，來自火腿的酵香風味，在大火的催化下完美沁透其中。如此親切的煙火氣，定能讓每一位遠道而來的親朋好友感到「賓至如歸」吧。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108634"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色護盾強效提升25%，防禦力提高165點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108636,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "奇怪的八寶福祿鴨",
+    "Description": "實至名歸的功夫菜。直到眼睛都酸了才終於將骨頭全部拆完，看來這道菜餚考驗的不僅僅是刀工，還有體力和耐心。只可惜好不容易擺好造型的鴨子，在油鍋中轟然散架…比起再次挑戰，現在還是先閉眼歇一歇吧。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108637"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色護盾強效提升30%，防禦力提高200點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108637,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "八寶福祿鴨",
+    "Description": "實至名歸的功夫菜。往拆骨仔鴨中填入葷素搭配的八種餡料，是為八寶。塑成葫蘆形狀，取其福祿吉祥之意。用料考究、刀工高超、火候精湛，三者缺一不可，故而成品足以在任何宴席上作為壓軸主菜隆重登場。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108637"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色護盾強效提升35%，防禦力提高235點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108638,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "美味的八寶福祿鴨",
+    "Description": "實至名歸的功夫菜。飽滿豐腴的福祿鴨一出鍋，便足以令人按捺不住。最後澆下香濃的芡汁，再添上一抹紅潤油亮，可謂是集色香味形於一體。此番應是一箸入口，三春不忘。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108637"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色暴擊率提升6%，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108639,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "奇怪的油爆雙脆",
+    "Description": "璃月名菜之一。一不留神，還未來得及用鍋鏟翻動，熊熊旺火就無情地捲走了本應留有的脆嫩，徒餘一片焦黑，變成了「油爆雙焦」。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108640"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色暴擊率提升9%，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108640,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "油爆雙脆",
+    "Description": "璃月名菜之一。猛火滾油、顛鍋翻勺，頗為考驗火候的控制，欠一時則生而不熟，過半刻則老而不脆，是老道的璃月大廚炫技時常選的菜品。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108640"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色暴擊率提升12%，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108641,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味的油爆雙脆",
+    "Description": "璃月名菜之一。一紅一白兩朵肉花，彷彿在舌尖綻放。滑嫩爽脆，鹹香入味，可謂一絕。酣暢淋漓地吃光一盤，連聲直呼快哉美哉。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108640"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色攻擊力提高160點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108642,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "奇怪的紅燒肉圓",
+    "Description": "經典的璃月名餚。圓滾滾的外形，加上撲鼻的香氣，似乎沒什麼問題。嚐下一口，卻發現肉質乾柴。莫不是選用的肉塊裡瘦肉過多了？",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108643"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色攻擊力提高194點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108643,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "紅燒肉圓",
+    "Description": "經典的璃月名餚。肥瘦相間的肉塊配上清脆的竹筍剁碎，揉捏成丸，先炸後煮。成品膾炙人口，無論是家常菜，還是宴賓菜，均有其一席之位。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108643"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色攻擊力提高228點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108644,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味的紅燒肉圓",
+    "Description": "經典的璃月名餚。翠綠的蔥花與深紅的肉圓相映成趣，細膩超凡的刀工使得肉圓入口即溶，肥而不膩。吃下一口，不禁讚不絕口；全部吃完，定能鴻運當頭。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108643"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "立即為選中的角色恢復生命值上限的8%，並在之後的30秒內，每5秒恢復210點生命值。",
+    "Id": 108645,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "奇怪的蜜汁叉燒",
+    "Description": "璃月燒臘之一。過甜的調味帶來了膩味的口感，璃月常言道，失之毫釐，謬以千里，看來在烹飪上亦是如此。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108646"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "立即為選中的角色恢復生命值上限的9%，並在之後的30秒內，每5秒恢復260點生命值。",
+    "Id": 108646,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "蜜汁叉燒",
+    "Description": "璃月燒臘之一。顧名思義，用特製的鐵叉，叉上醃製好的肉懸掛於火爐上烤熟而成。新鮮出爐的叉燒滋味是不少老饕們的心頭好。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108646"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "立即為選中的角色恢復生命值上限的10%，並在之後的30秒內，每5秒恢復300點生命值。",
+    "Id": 108647,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "美味的蜜汁叉燒",
+    "Description": "璃月燒臘之一。色紅而腴，味香而濃，恐怕再多看一眼就要饞暈過去。入口是甘旨的肉與豐盈的汁，只搭配一碗米飯真是遠遠不夠！",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108646"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "為選中的角色恢復生命值上限的30%，並額外恢復600點生命值。",
+    "Id": 108648,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "奇怪的茶好月圓",
+    "Description": "內藏蛋黃的茶酥。拿起的時候，表皮宛如山體滑坡一般紛紛掉落，嚐下第一口，黏糊糊、甜膩膩…糟糕，嗓子好像被什麼給糊住了。先喝杯水緩緩，再思考該怎麼解決剩下的吧。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108649"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "為選中的角色恢復生命值上限的32%，並額外恢復1250點生命值。",
+    "Id": 108649,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "茶好月圓",
+    "Description": "內藏蛋黃的茶酥。先蒸熟鹹蛋黃，裹上餡，再包上加入了茶粉的麵皮，揉成圓月般的形狀，烤熟。外皮酥酥脆脆，內餡鹹甜可口，層次豐富惹人迷戀。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108649"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "為選中的角色恢復生命值上限的34%，並額外恢復1900點生命值。",
+    "Id": 108650,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味的茶好月圓",
+    "Description": "內藏蛋黃的茶酥。沙沙的蛋黃帶著鬆散細膩的口感，夾雜著自空谷而來的幽幽茶香，僅僅一小口，就帶來了紮紮實實的幸福感，足以讓人淪陷。一口氣能連吃好幾個，最後連黏在嘴角的酥皮都不想放過。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108649"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "復甦選中的角色，為其恢復50點生命值。",
+    "Id": 108651,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "奇怪的玉紋茶葉蛋",
+    "Description": "傳統璃月小吃之一。嚐起來和開水煮蛋沒有任何區別，到底是選用的茶葉出了問題，還是烹飪方式有誤？",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108652"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "復甦選中的角色，為其恢復100點生命值。",
+    "Id": 108652,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "玉紋茶葉蛋",
+    "Description": "傳統璃月小吃之一。做法在閭巷流傳甚廣，烹煮時，茶香會沿著蛋殼表面的裂痕滲入蛋中。成品宛若玉石上的碎紋一般美麗。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108652"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "復甦選中的角色，為其恢復150點生命值。",
+    "Id": 108653,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "美味的玉紋茶葉蛋",
+    "Description": "傳統璃月小吃之一。茶香完美融入了蛋中，無論是大口吃下，還是小口細嚐，均是相當有滋有味。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108652"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "為選中的角色恢復生命值上限的20%，並額外恢復900點生命值。",
+    "Id": 108654,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "奇怪的茶燻乳鴿",
+    "Description": "頗受歡迎的菜餚。鴿腿與翅尖上的焦黑，證明了火候的疏於管控。耐心處理一下的話，勉強能入口吧。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108655"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "為選中的角色恢復生命值上限的22%，並額外恢復1200點生命值。",
+    "Id": 108655,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "茶燻乳鴿",
+    "Description": "頗受歡迎的菜餚。用茶水與醬汁醃製乳鴿一夜後再吹乾油炸，鴿肉充盈著美妙的茶香。如此做法已傳多年，為筵席佳品。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108655"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "為選中的角色恢復生命值上限的24%，並額外恢復1500點生命值。",
+    "Id": 108656,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味的茶燻乳鴿",
+    "Description": "頗受歡迎的菜餚。半透明的鴿皮，又脆又薄好似一張赭色的琉璃紙，緊實飽滿的鴿肉，伴著醇香的肉汁不僅成功抓住了食客的胃，更是俘獲了他們的心。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108655"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色防禦力提高88點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108657,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "奇怪的古華魚羊鮮",
+    "Description": "記載於手記上的古老菜餚。羊肉的羶味與魚肉的腥氣各自為營，猝不及防地在口腔中胡亂衝撞，現在已無暇顧慮他事，只得不停漱口以緩和味蕾受到的衝擊。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108658"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色防禦力提高107點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108658,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "古華魚羊鮮",
+    "Description": "記載於手記上的古老菜餚。將鮮魚與羊肉合烹，燉作一鍋，魚塊鮮嫩，羊肉鮮美，可謂是有了魚羊，便成了鮮。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108658"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色防禦力提高126點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108659,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味的古華魚羊鮮",
+    "Description": "記載於手記上的古老菜餚。奶白的湯水滑入喉頭，鮮美至極，讓人恨不得長出兩個胃來。冬天吃上這麼一鍋，怕是來年春天仍覺意猶未盡。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108658"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "立即為選中的角色恢復生命值上限的8%，並在之後的30秒內，每5秒恢復210點生命值。",
+    "Id": 108660,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "奇怪的沉玉茶露",
+    "Description": "常見的璃月香茗。索然無味好似溫水，忍不住頻頻低頭確認杯中真的是茶水嗎？唔——問題出在水的溫度不夠高嗎，還是泡的時間不夠長？",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108661"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "立即為選中的角色恢復生命值上限的9%，並在之後的30秒內，每5秒恢復260點生命值。",
+    "Id": 108661,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "沉玉茶露",
+    "Description": "常見的璃月香茗。有時，所謂人生，或許就如細品一盞茶湯時所感受到的餘味回甘。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108661"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "立即為選中的角色恢復生命值上限的10%，並在之後的30秒內，每5秒恢復300點生命值。",
+    "Id": 108662,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "美味的沉玉茶露",
+    "Description": "常見的璃月香茗。清茶入口淡雅如微風，將沉玉谷漫山遍野的清香吹送到了唇齒之間，耳邊彷彿還飄蕩著茶山上叮咚作響的泉聲。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108661"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "隊伍中所有角色攻擊力提高274點，持續300秒。多人遊戲時，僅對自己的角色生效。",
+    "Id": 108663,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "四喜圓滿",
+    "Description": "#閒雲的特色料理。香氣撲鼻的肉圓子映入眼簾，還沒等{F#妳}{M#你}露出驚訝的表情，閒雲便開口道：「這等世俗庖廚怎能難倒本仙？快趁熱吃了罷，願{F#妳}{M#你}平安喜樂、順遂無憂。咳，偶爾尋些儀式感，{F#妳}{M#你}是有什麼意見嗎？」",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108663"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "立即為選中的角色恢復生命值上限的14%，並在之後的30秒內，每5秒恢復350點生命值。",
+    "Id": 108664,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "得閒飲茶",
+    "Description": "#嘉明的特色料理。排排坐於蒸籠裡的是栩栩如生的猊獸包，讓人一下子就想到了梅花樁上威武靈動的少年…「發什麼呆啊{F#妳}{M#你}？飲杯茶先啦，嗱。」說著，笑容爽朗的少年又遞過來一個茶杯。",
+    "TypeDescription": "食物",
+    "Icon": "UI_ItemIcon_108664"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
@@ -24879,6 +25380,136 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109561,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "食譜：金玉滿堂",
+    "Description": "步驟詳實的食譜，記載著「金玉滿堂」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109562,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "食譜：繁弦急管",
+    "Description": "步驟詳實的食譜，記載著「繁弦急管」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109563,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "食譜：知足常樂",
+    "Description": "步驟詳實的食譜，記載著「知足常樂」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109564,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "食譜：賓至如歸",
+    "Description": "步驟詳實的食譜，記載著「賓至如歸」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109565,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "食譜：八寶福祿鴨",
+    "Description": "步驟詳實的食譜，記載著「八寶福祿鴨」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109566,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "食譜：油爆雙脆",
+    "Description": "步驟詳實的食譜，記載著「油爆雙脆」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109567,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "食譜：紅燒肉圓",
+    "Description": "步驟詳實的食譜，記載著「紅燒肉圓」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109568,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "食譜：蜜汁叉燒",
+    "Description": "步驟詳實的食譜，記載著「蜜汁叉燒」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109569,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "食譜：茶好月圓",
+    "Description": "步驟詳實的食譜，記載著「茶好月圓」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109570,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "食譜：玉紋茶葉蛋",
+    "Description": "步驟詳實的食譜，記載著「玉紋茶葉蛋」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109571,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "食譜：茶燻乳鴿",
+    "Description": "步驟詳實的食譜，記載著「茶燻乳鴿」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109572,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "食譜：古華魚羊鮮",
+    "Description": "步驟詳實的食譜，記載著「古華魚羊鮮」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109573,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "食譜：沉玉茶露",
+    "Description": "步驟詳實的食譜，記載著「沉玉茶露」的製作方法。",
+    "TypeDescription": "食譜",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -26215,6 +26846,36 @@
   },
   {
     "MaterialType": 14,
+    "Id": 112095,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "羽狀鰭翅",
+    "Description": "擊敗玄文獸後，從其背上取得的鰭翅殘片。\n儘管不具備長距離飛行的能力，這些如同鳥羽一般的鰭翅依然能讓玄文獸在馳逐獵物時更為迅疾。",
+    "TypeDescription": "角色與武器培養素材",
+    "Icon": "UI_ItemIcon_112095"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112096,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "月色鰭翅",
+    "Description": "擊敗玄文獸後，從其背上取得的鰭翅。\n其上隱隱折射著如月色般溫潤的幽光，不知為何給人一種寧謐感。",
+    "TypeDescription": "角色與武器培養素材",
+    "Icon": "UI_ItemIcon_112096"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112097,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "淵光鰭翅",
+    "Description": "擊敗玄文獸後，從其背上取得的華美鰭翅。\n其上折射著幽邃的微光，能隱隱感受到仙力的痕跡。更深夜靜之時，即便是凶暴的野獸亦會短暫沉入寧謐的安眠，追憶「夢」尚不獨屬於人的年歲。",
+    "TypeDescription": "角色與武器培養素材",
+    "Icon": "UI_ItemIcon_112097"
+  },
+  {
+    "MaterialType": 14,
     "Id": 113001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -26782,6 +27443,16 @@
     "Description": "水形幻人崩潰逸散後留下的唯一痕跡。\n與原海異種體內取出的晶體有非常相近的性質，但當中蘊含了許多細碎的濁物，就如同凝固在拙劣工匠的玻璃製品中的微小氣泡。",
     "TypeDescription": "角色培養素材",
     "Icon": "UI_ItemIcon_113057"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113058,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "凝雲鱗甲",
+    "Description": "隱山猊獸的甲鱗，質地冰冷而堅硬。縱然剝離脫落，其上依然縈繞著純淨的仙力，普通的武器難以損之分毫。\n普通的野獸有時也會被逸散的仙力影響，變得比往常更為強大，但猊獸的不同之處在於，縈繞其身的仙力並非源於環境，而是源於它們自身——這也是其首領的地位往往被認為與仙人等同的原因。",
+    "TypeDescription": "角色培養素材",
+    "Icon": "UI_ItemIcon_113058"
   },
   {
     "MaterialType": 14,
@@ -31165,6 +31836,36 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120425,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "旅時者·第一卷",
+    "Description": "由《蒸汽鳥報》出版的楓丹科學幻想小說，講述了一位工程師利用時間機器旅行的故事。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120797"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120426,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "旅時者·第二卷",
+    "Description": "由《蒸汽鳥報》出版的楓丹科學幻想小說，講述了一位工程師利用時間機器旅行的故事。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120797"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120427,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "旅時者·第三卷",
+    "Description": "由《蒸汽鳥報》出版的楓丹科學幻想小說，講述了一位工程師利用時間機器旅行的故事。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120797"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120428,
     "RankLevel": 4,
     "ItemType": 2,
@@ -32525,6 +33226,56 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120615,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "畫片-明月荷塘",
+    "Description": "一張月下荷塘的美麗畫片。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120617"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120616,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "畫片-翹英嘉客",
+    "Description": "一張翹英莊的美麗畫片。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120616"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120617,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "畫片-靜水寶玦",
+    "Description": "一張寶玦口的美麗畫片。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120615"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120618,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "畫片-山如懸練",
+    "Description": "一張懸練山的美麗畫片。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120618"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120619,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "沉玉谷風光指南",
+    "Description": "一份旅遊風光指南，內容是當地居民們推薦的魅力風光點。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_100105"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120621,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33146,6 +33897,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120724,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "古樹樹枝",
+    "Description": "古茶樹上取下的一根枝條，似乎能夠感受到微弱的仙力氣息…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120724"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120725,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33366,6 +34127,46 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120754,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "王山廳備用鑰匙",
+    "Description": "從黃三爺那裡得到的鑰匙，似乎有點生鏽了…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120754"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120755,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "派蒙特製心意料理",
+    "Description": "根據黃三爺所說，昔日古華宗師傳授武藝之時，收取的報酬並非是摩拉，而是稻米和鹹肉。基於這一點，派蒙將全部心意（以及隨身攜帶的全部食鹽）灌注在了這道特製料理中…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120755"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 120757,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "一袋摩拉",
+    "Description": "從斡流處拿到的報酬。裡面裝著一筆能讓各方都滿意的摩拉。",
+    "TypeDescription": "消耗品",
+    "Icon": "UI_ItemIcon_100309"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120758,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "斡流的鑽探裝置",
+    "Description": "裝有鑽探裝置的盒子。不知道這個裝置究竟能鑽探到什麼東西…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120759,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33416,6 +34217,86 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120769,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "蒼鯉靈珠",
+    "Description": "原本鑲嵌在金鯉雕像之上的靈珠，蘊含著濃厚的仙力。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120769"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120785,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "遺蹟機關的核心",
+    "Description": "在沉玉谷的遺蹟中找到的遺蹟守衛供能機關。其中殘餘的能量似乎還足以啟動一臺遺蹟守衛。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_112025"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120786,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "玉玦斷片·左",
+    "Description": "縈繞著仙力的玉玦斷片。在先民古老的傳說中，所有的玉玦原本都來自同一塊璞石——若是如此，不同的玉玦碎片或許也能拼合在一處…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120786"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120787,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "玉玦斷片·右",
+    "Description": "縈繞著仙力的玉玦斷片。在先民古老的傳說中，所有的玉玦原本都來自同一塊璞石——若是如此，不同的玉玦碎片或許也能拼合在一處…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120787"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120788,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "香木「黃琮」",
+    "Description": "雕刻精美的祭祀用香木，散發著淡淡的清香氣味。從形制判斷，似乎與另一塊香木是成套的存在。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120788"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120789,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "香木「赤璋」",
+    "Description": "雕刻精美的祭祀用香木，散發著淡淡的燒焦氣味。從形制判斷，似乎與另一塊香木是成套的存在。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120789"
+  },
+  {
+    "MaterialType": 52,
+    "Id": 120790,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「沉玉之旅」紀念冊",
+    "Description": "收錄了多張精彩作品的留影紀念冊，令人意外的是，其中有一半作品都出自同一人之手。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120790"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120792,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "奇特的鑰匙",
+    "Description": "一把奇特的鑰匙，不知道可以打開哪裡的鎖…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120796,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33456,6 +34337,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120806,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "古老的石碑",
+    "Description": "古老的石碑",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120807,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33473,6 +34364,106 @@
     "Description": "送報人皮普把勒魯瓦一家人這陣子沒有取走的報紙統統塞進了這個包裹。",
     "TypeDescription": "任務道具",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120812,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "遺落的鑰匙·其一",
+    "Description": "不知何人遺落在沉玉谷野外的鑰匙。究竟是用來做什麼的呢…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120813,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "遺落的鑰匙·其二",
+    "Description": "不知何人遺落在沉玉谷野外的鑰匙。究竟是用來做什麼的呢…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120841,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「懸練仙水」",
+    "Description": "從懸練山附近取來的所謂「仙水」，若不是因為這個名字，無論如何也感受不到其中的玄妙。反過來，正因為有了「仙水」之名，再瞧它又似乎真的瞧見了仙氣嫋嫋。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120841"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120842,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "古老的玉盞",
+    "Description": "不知何人遺落在野外的古老茶杯，似乎能夠感受到微弱的仙力氣息…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120842"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120843,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "誰人的帳本",
+    "Description": "在王山廳中找到的帳本，詳實記載了每一筆收支。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120843"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120845,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「祀瓏」",
+    "Description": "浮錦仙人昔日投下的最後一枚寶玉。雖說看起來與普通的玉飾並無太大差異，但其中蘊藏的仙力似乎足以在一瞬間改變附近水土的形貌…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120845"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120851,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "赤璋輿圖",
+    "Description": "千岩軍留下的地圖，似乎記載了倉儲的位置。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_120274"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120853,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "古城垣鑰匙",
+    "Description": "如今早已生鏽的鑰匙，似乎能夠用來開啟赤璋城垣某處早已被拋棄的倉庫。",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120854,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "生鏽的鑰匙",
+    "Description": "在沉玉谷的遺蹟中找到的鑰匙，儘管鏽跡斑斑，但似乎還能使用…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120857,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "從「鵜鶘」嘴裡搶下的魚",
+    "Description": "從翹英莊碼頭的鵜鶘口中奪回的魚兒，似乎是其他動物頗為重視的珍饈，將牠放回某些動物日常用餐的餐具之中，或許能補足特定時期的遺憾吧…",
+    "TypeDescription": "任務道具",
+    "Icon": "UI_ItemIcon_100084"
   },
   {
     "MaterialType": 31,
@@ -34143,6 +35134,16 @@
     "Description": "為了輔助水下活動的發條機關，提升機隊總出勤率而開發的緊湊型輔助機關。最初的設計目的是清除水下的垃圾、植物殘渣等雜物，避免它們吸附在發條機關關鍵部位，從而盡可能降低發條機關的故障率。從另一種角度看，它們無疑也扮演著「水下清潔工」的角色，對楓丹的生態環境有益。\n相較於其他量產型號，這一特別的「澄金領隊型」維護機關採用了澄澈金色的殼體以及特別的控制裝置。在開發團隊的設想中，這種維護機關在較為複雜的水下地形活動時，能夠作為一種高效能的「中繼指揮站」，接收並向周圍的維護機關分發控制者所下達的各類指令，可以說是宛如「領隊」一般的重要機關。\n然而，隨著維護機關專案的中止，這些「領隊機關」們失去了存在的意義，唯有它們富有辨識度的澄澈金色外表，使得它們在一些漁師的眼中具有極高的收藏價值。",
     "TypeDescription": "魚",
     "Icon": "UI_ItemIcon_131036"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131037,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "玉玉心羽鱸",
+    "Description": "側面樣貌呈心形的奇特魚類，據說與鱸魚有著一定的親緣關係，又因羽毛般細長軟骨構成的背鰭和腹鰭，被學者們形象地命名為「心羽鱸」。\n「玉玉心羽鱸」的色澤尤為特別，如同水中的翡玉，因而獲得了這一美稱。牠們有著與安靜外貌完全不符的強韌生命力，能在多種特性截然不同的水域存活，而沉玉谷清冽的水質對於牠們而言更是無可挑剔，在美玉之名廣為流傳的沉玉谷，牠們生活得無憂無慮，健康安逸。",
+    "TypeDescription": "魚",
+    "Icon": "UI_ItemIcon_131037"
   },
   {
     "MaterialType": 36,
@@ -35130,7 +36131,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "旋曜玉帛·其九十九",
-    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含旋律為「眾水之詩」",
     "TypeDescription": "冒險道具",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35140,7 +36141,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "旋曜玉帛·其一百",
-    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含旋律為「星燈暈染之街」",
     "TypeDescription": "冒險道具",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35150,7 +36151,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "旋曜玉帛·其一百零一",
-    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含旋律為「縱然時歲流轉」",
     "TypeDescription": "冒險道具",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35160,7 +36161,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "旋曜玉帛·其一百零二",
-    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含旋律為「幻異的輕吟」",
     "TypeDescription": "冒險道具",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35170,7 +36171,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "旋曜玉帛·其一百零三",
-    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含旋律為「滄潮的溯想」",
     "TypeDescription": "冒險道具",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35180,7 +36181,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "旋曜玉帛·其一百零四",
-    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原紀錄在其中的旋律。目前「旋曜玉帛」中蘊含旋律為「安逸的靜水」",
     "TypeDescription": "冒險道具",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35190,7 +36191,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "旋曜玉帛·其一百零五",
-    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原紀錄在其中的旋律。目前「旋曜玉帛」中蘊含旋律為「露景澈映」",
     "TypeDescription": "冒險道具",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35200,7 +36201,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "旋曜玉帛·其一百零六",
-    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含旋律為「柔風的歡願」",
     "TypeDescription": "冒險道具",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35210,7 +36211,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "旋曜玉帛·其一百零七",
-    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含旋律為「若晨曦再度升起」",
     "TypeDescription": "冒險道具",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35331,6 +36332,66 @@
     "ItemType": 2,
     "Name": "旋曜玉帛·其一百一十九",
     "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地或是尋覓珍奇的商人手中，透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。",
+    "TypeDescription": "冒險道具",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141220,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·其一百二十",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自璃月的神秘旋律。",
+    "TypeDescription": "冒險道具",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141221,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·其一百二十一",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自璃月的神秘旋律。",
+    "TypeDescription": "冒險道具",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141222,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·其一百二十二",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自璃月的神秘旋律。",
+    "TypeDescription": "冒險道具",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141223,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·其一百二十三",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自璃月的神秘旋律。",
+    "TypeDescription": "冒險道具",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141224,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·其一百二十四",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自璃月的神秘旋律。",
+    "TypeDescription": "冒險道具",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141225,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛·其一百二十五",
+    "Description": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散佈在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自璃月的神秘旋律。",
     "TypeDescription": "冒險道具",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -38280,7 +39341,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "煙霞入夢閣",
-    "Description": "步驟詳實的圖紙，記載著「煙霞入夢閣」的放置方法。\n「昨日煙霞，藹然入夢」\n質樸無華的睡房，各式陳設的風格與望舒客棧相仿。這間睡房的玄奇之處難以言喻，如有時光的雲霧繚繞，勾起遊人的追思，卻將其中的哀戚卸下，獨留往事的刻痕。\n塵世的生活正如一場漂泊，牢記「本我」才能穩住身形，行槳前溯。半夢半醒之時的思緒，往往極為深切。難怪不少旅人在望舒客棧留宿一夜後，都能找到百倍的幹勁，容光煥發地啟程。\n使用後可進入放置介面查看。\n偏好這套擺設的同伴：胡桃、煙緋、甘雨、刻晴、重雲",
+    "Description": "步驟詳實的圖紙，記載著「煙霞入夢閣」的放置方法。\n「昨日煙霞，藹然入夢」\n質樸無華的睡房，各式陳設的風格與望舒客棧相仿。這間睡房的玄奇之處難以言喻，如有時光的雲霧繚繞，勾起遊人的追思，卻將其中的哀慼卸下，獨留往事的刻痕。\n塵世的生活正如一場漂泊，牢記「本我」才能穩住身形，行槳前溯。半夢半醒之時的思緒，往往極為深切。難怪不少旅人在望舒客棧留宿一夜後，都能找到百倍的幹勁，容光煥發地啟程。\n使用後可進入放置介面查看。\n偏好這套擺設的同伴：胡桃、煙緋、甘雨、刻晴、重雲、嘉明",
     "TypeDescription": "擺設套裝圖紙",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -38340,7 +39401,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "千家饔飧坊",
-    "Description": "步驟詳實的圖紙，記載著「千家饔飧坊」的放置方法。\n露天佈設的食坊，擺放著多種小吃攤位，重現了吃虎岩的盛景。\n「千家」實為謙遜之詞，這座露天食坊看似沒有太多廚具，卻幾乎包羅著璃月全境的知名美食——熟練的廚師能用最為簡單的廚具烹飪出可口的菜餚，而對廚具要求並不苛刻的料理，也易於流傳為家喻戶曉的名菜。\n使用後可進入放置介面查看。\n偏好這套擺設的同伴：北斗、香菱、甘雨、辛焱、達達利亞、夜蘭",
+    "Description": "步驟詳實的圖紙，記載著「千家饔飧坊」的放置方法。\n露天佈置的食坊，擺放著多種小吃攤位，重現了吃虎岩的盛景。\n「千家」實為謙遜之詞，這座露天食坊看似沒有太多廚具，卻幾乎包羅著璃月全境的知名美食——熟練的廚師能用最為簡單的廚具烹飪出可口的菜餚，而對廚具要求並不苛刻的料理，也易於流傳為家喻戶曉的名菜。\n使用後可進入放置介面查看。\n偏好這套擺設的同伴：北斗、香菱、甘雨、辛焱、達達利亞、夜蘭、嘉明、閒雲",
     "TypeDescription": "擺設套裝圖紙",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -38360,7 +39421,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "輕策閒雲居",
-    "Description": "步驟詳實的圖紙，記載著「輕策閒雲居」的放置方法。\n以輕策莊為摹版佈置的山間村莊。據說踏入此地後，遊人便會被親切的氛圍感染，心境歸於平和，發現以往疏忽的質樸之美。\n年少之時追求理想，為了事業闖蕩，經歷一段波瀾壯闊的歲月，固然值得肯定。不過常年在外闖蕩，可能也會有疲憊的一天。彼時，和睦的鄰里與平靜的鄉間生活，也不失為一種選擇。對於出門遠遊的年輕人，輕策莊始終持以長輩般的包容，隨時歡迎他們歸鄉發展。\n使用後可進入放置介面查看。\n偏好這套擺設的同伴：辛焱、魈、胡桃、七七、申鶴、夜蘭、瑤瑤",
+    "Description": "步驟詳實的圖紙，記載著「輕策閒雲居」的放置方法。\n以輕策莊為摹版佈置的山間村莊。據說踏入此地後，遊人便會被親切的氛圍感染，心境歸於平和，發現以往疏忽的質樸之美。\n年少之時追求理想，為了事業闖蕩，經歷一段波瀾壯闊的歲月，固然值得肯定。不過常年在外闖蕩，可能也會有疲憊的一天。彼時，和睦的鄰里與平靜的鄉間生活，也不失為一種選擇。對於出門遠遊的年輕人，輕策莊始終持以長輩般的包容，隨時歡迎他們歸鄉發展。\n使用後可進入放置介面查看。\n偏好這套擺設的同伴：辛焱、魈、胡桃、七七、申鶴、夜蘭、瑤瑤、閒雲",
     "TypeDescription": "擺設套裝圖紙",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -46931,6 +47992,416 @@
     "ItemType": 2,
     "Name": "「禁限之堡的拳靶」",
     "Description": "步驟詳實的圖紙，記載著「『禁限之堡的拳靶』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390117,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "秀谷商肆-「茶引閒邃」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷商肆-『茶引閒邃』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390118,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "秀谷戲臺-「雲海興波」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷戲臺-『雲海興波』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390119,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷遊廊-「遠始為容」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷遊廊-『遠始為容』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390120,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷遊廊-「本固枝榮」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷遊廊-『本固枝榮』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390121,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷芳榭-「明煦天光」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷芳榭-『明煦天光』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390122,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷石坊-「豐兆往返」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷石坊-『豐兆往返』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390123,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷涼亭-「晴雨皆宜」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷涼亭-『晴雨皆宜』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390124,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷望樓-「候望謹守」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷望樓-『候望謹守』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391253,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷院門-「若市門庭」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷院門-『若市門庭』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391254,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷院門-「過門見山」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷院門-『過門見山』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391255,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷月洞-「通幽紈扇」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷月洞-『通幽紈扇』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393439,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "鎮宅鼓石-「肅音震響」",
+    "Description": "步驟詳實的圖紙，記載著「鎮宅鼓石-『肅音震響』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391256,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷牆隅-「如聚波瀾」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷牆隅-『如聚波瀾』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391257,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷石壁-「玉帶懸江」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷石壁-『玉帶懸江』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391258,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷石壁-「柳暗花遮」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷石壁-『柳暗花遮』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391259,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷石壁-「鯉貫鳶羽」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷石壁-『鯉貫鳶羽』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390125,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷良居-「巍巍若山」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷良居-『巍巍若山』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390126,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷良居-「深谷靜暇」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷良居-『深谷靜暇』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390127,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷良居-「繁簡由心」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷良居-『繁簡由心』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390128,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷良居-「專於一心」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷良居-『專於一心』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390129,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷良居-「茗鄉田舍」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷良居-『茗鄉田舍』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390130,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷良居-「寸尺之樓」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷良居-『寸尺之樓』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391260,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷山牆-「折風阻火」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷山牆-『折風阻火』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391261,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷山牆-「闢雨留光」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷山牆-『闢雨留光』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391262,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷石階-「礎石之功」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷石階-『礎石之功』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394321,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "香茗方桌-「四方迎客」",
+    "Description": "步驟詳實的圖紙，記載著「香茗方桌-『四方迎客』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393441,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "舞獸戲服-「嗷嗷威猊」",
+    "Description": "步驟詳實的圖紙，記載著「舞獸戲服-『嗷嗷威猊』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393442,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "舞獸玩偶-「懶懶困猊」",
+    "Description": "步驟詳實的圖紙，記載著「舞獸玩偶-『懶懶困猊』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393443,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "芳宴錦扆-「蝶飛魚躍」",
+    "Description": "步驟詳實的圖紙，記載著「芳宴錦扆-『蝶飛魚躍』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393444,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "芳宴錦扆-「鳶噰雀囀」",
+    "Description": "步驟詳實的圖紙，記載著「芳宴錦扆-『鳶噰雀囀』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393448,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "吉慶紙鳶-「連年有餘」",
+    "Description": "步驟詳實的圖紙，記載著「吉慶紙鳶-『連年有餘』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393449,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "吉慶紙鳶-「諸事順遂」",
+    "Description": "步驟詳實的圖紙，記載著「吉慶紙鳶-『諸事順遂』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393450,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "吉慶紙鳶-「翾翾蝶舞」",
+    "Description": "步驟詳實的圖紙，記載著「吉慶紙鳶-『翾翾蝶舞』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393451,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "吉慶紙鳶-「亨通財運」",
+    "Description": "步驟詳實的圖紙，記載著「吉慶紙鳶-『亨通財運』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393452,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "垂香木雨檐告示牌",
+    "Description": "步驟詳實的圖紙，記載著「垂香木雨檐告示牌」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394211,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "香茗座椅-「清風蘧蘧」",
+    "Description": "步驟詳實的圖紙，記載著「香茗座椅-『清風蘧蘧』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380444,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "工巧魚燈-「無往不鯉」",
+    "Description": "步驟詳實的圖紙，記載著「工巧魚燈-『無往不鯉』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380445,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "工巧魚燈-「利是鬧春」",
+    "Description": "步驟詳實的圖紙，記載著「工巧魚燈-『利是鬧春』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380446,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "商埠地燈-「一縷幽香」",
+    "Description": "步驟詳實的圖紙，記載著「商埠地燈-『一縷幽香』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380447,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "商埠路燈-「好事成雙」",
+    "Description": "步驟詳實的圖紙，記載著「商埠路燈-『好事成雙』」的製作方法。\n使用後可進入製作介面查看。",
+    "TypeDescription": "擺設圖紙",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380448,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "秀谷石燈-「常亮燭火」",
+    "Description": "步驟詳實的圖紙，記載著「秀谷石燈-『常亮燭火』」的製作方法。\n使用後可進入製作介面查看。",
     "TypeDescription": "擺設圖紙",
     "Icon": "UI_ItemIcon_Home_Common"
   }

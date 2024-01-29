@@ -1090,6 +1090,26 @@
     "Icon": "UI_ItemIcon_1102"
   },
   {
+    "MaterialType": 20,
+    "Id": 1192,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Gaming",
+    "Description": "Matériau d'activation de la constellation de Gaming.",
+    "TypeDescription": "Matériau d'activation de constellation",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1193,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Xianyun",
+    "Description": "Matériau d'activation de la constellation de Xianyun.",
+    "TypeDescription": "Matériau d'activation de constellation",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
     "MaterialType": 5,
     "Id": 1201,
     "RankLevel": 5,
@@ -2516,6 +2536,26 @@
     "Description": "Une goutte de rosée limpide flottant dans les eaux de la Région mortée. Elle est différente des autres corps d'eau pure, car il semblerait qu'il s'agisse d'un regroupement d'énergie élémentaire encore plus pure et primordiale.",
     "TypeDescription": "Produit de Fontaine",
     "Icon": "UI_ItemIcon_101240"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101241,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Jade cristallin",
+    "Description": "Un jade du Vallon Chenyu, nommé ainsi en raison de sa surface fraîche et rafraîchissante, ressemblant beaucoup à un cristal d'eau claire.",
+    "TypeDescription": "Produit de Liyue",
+    "Icon": "UI_ItemIcon_101241"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101242,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Adepthé de Chenyu",
+    "Description": "Du thé cultivé dans les zones chaudes et humides du Vallon Chenyu. Après des millénaires de culture minutieuse, le thé dégage aujourd'hui un riche parfum que l'on peut sentir à plusieurs rues à la ronde.",
+    "TypeDescription": "Ingrédient",
+    "Icon": "UI_ItemIcon_101242"
   },
   {
     "MaterialType": 25,
@@ -16087,6 +16127,16 @@
     "Icon": "UI_ItemIcon_107025"
   },
   {
+    "MaterialType": 10,
+    "Id": 107026,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Carpe spirituelle",
+    "Description": "Une carpe spirituelle formée à partir de l'énergie mystique condensée, nageant librement au milieu des montagnes et des vallées fluviales.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_107026"
+  },
+  {
     "MaterialType": 1,
     "EffectDescription": "Augmente la DÉF de tous les personnages de l'équipe de 88 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
     "Id": 108001,
@@ -22939,6 +22989,457 @@
     "Icon": "UI_ItemIcon_108622"
   },
   {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente les PV max de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108624,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Joyaux du palais (suspects)",
+    "Description": "Un plat liyuéen délicieusement parfumé. Les crevettes grossièrement préparées et les œufs de crabe à moitié cuits dégagent une odeur étrange : la puanteur du charnier d'une guerre brutale entre crabes et crevettes. Étant donné que les ingrédients eux-mêmes sont encore frais, ce cauchemar peut toujours être considéré comme de la nourriture... Si on ignore l'odeur, en tout cas...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108625"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente les PV max de tous les personnages de l'équipe de 22 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108625,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Joyaux du palais",
+    "Description": "Un plat liyuéen délicieusement parfumé. La chair des crevettes est panée et cuite avec de riches œufs de crabe. Les œufs sont comme de l'or qui brille, tandis que les crevettes scintillent comme du jade, d'où le nom de « Joyaux du palais ».",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108625"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente les PV max de tous les personnages de l'équipe de 25 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108626,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Joyaux du palais (délicieux)",
+    "Description": "Un plat liyuéen délicieusement parfumé. La chair de crevette, tendre et moelleuse, est enveloppée dans de la chair de crabe douce et lisse, comme un trésor luxueux que les gens recherchent inconsciemment. Une bouchée délicate remplit votre bouche de saveur, comme des vagues ondulant sur votre palais alors que vous flottez dans une délicieuse rivière de crevettes et de crabes.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108625"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Augmente le taux CRIT de tous les personnages de l'équipe de 10{NON_BREAK_SPACE}% pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108627,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cordes vibrantes sur bruissement de roseaux (suspectes)",
+    "Description": "Un plat de viande très unique. Les différentes viandes hachées se sont agglutinées après avoir été cuites à une température beaucoup trop élevée, transformant le plat entier en une bouillie de viande. Une fois en bouche, vos papilles ne sauront pas comment réagir face aux goûts aigre, salé et amer qui se déchaînent.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108628"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Augmente le taux CRIT de tous les personnages de l'équipe de 15{NON_BREAK_SPACE}% pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108628,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cordes vibrantes sur bruissement de roseaux",
+    "Description": "Un plat de viande très unique. Les différentes viandes hachées ont été pétries et sautées, ce qui a décuplé leur saveur. Les ingrédients complexes et les différentes textures font de ce plat un véritable test des compétences d'un chef et ce mets ne se trouve que rarement, même sur les menus des restaurants les plus connus.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108628"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Augmente le taux CRIT de tous les personnages de l'équipe de 20{NON_BREAK_SPACE}% pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108629,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cordes vibrantes sur bruissement de roseaux (délicieuses)",
+    "Description": "Un plat de viande très unique. Chacune des différentes viandes hachées joue son rôle dans un orchestre d'arômes, tandis que l'assaisonnement délicat mélange habilement les différentes saveurs tonales. Comme l'a dit un critique : tout comme il existe une myriade d'accords, de notes nuancées et de compositions complexes, il en va de même pour la saveur, dont le summum pourrait même vous transporter dans un royaume différent...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108628"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108630,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Humilité satisfaisante (suspecte)",
+    "Description": "Un plat de tofu épicé. Le tofu est beaucoup trop épicé pour être dégusté tel quel, mais si vous prenez le temps de rincer l'excédent d'assaisonnement, votre bouche pourra peut-être le supporter...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108631"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108631,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Humilité satisfaisante",
+    "Description": "Un plat de tofu épicé. Le tofu est sauté avec de la sauce jusqu'à ce qu'il soit doré et prêt à servir. Malgré ses ingrédients ordinaires, le plat obtenu est particulièrement riche et aromatique et se marie parfaitement avec du riz. Certains le qualifient d'ailleurs affectueusement de « cuisine de grand-mère ».",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108631"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 30 % des PV max, puis 790 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108632,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Humilité satisfaisante (délicieuse)",
+    "Description": "Un plat de tofu épicé. Le tofu frit est élégamment accompagné d'une riche sauce de soja. Une seule bouchée et les épices et un soupçon d'arôme de viande bénissent délicieusement votre bouche de leur parfum doux et persistant.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108631"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la DÉF de tous les personnages de l'équipe de 165 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108633,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Doux foyer (suspect)",
+    "Description": "Un plat basique composé de nombreux ingrédients. Une chaleur insuffisante et une humidité trop présente ont laissé un goût terne, dépourvu de l'arôme fumé que le plat devrait avoir. Ce sera peut-être mieux la prochaine fois si on utilise un feu plus vif...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108634"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Augmente la DÉF de tous les personnages de l'équipe de 200{NON_BREAK_SPACE}pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108634,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Doux foyer",
+    "Description": "Un plat basique composé de nombreux ingrédients. Généralement préparé en faisant sauter du jambon, des œufs d'oiseaux et d'autres ingrédients avec du riz, ce plat permet de varier les ingrédients et les méthodes, ce qui le rend toujours bienvenu dans presque tous les foyers liyuéens.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108634"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la DÉF de tous les personnages de l'équipe de 235 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108635,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Doux foyer (délicieux)",
+    "Description": "Un plat basique composé de nombreux ingrédients. Le jaune d'œuf doré recouvre chaque grain de riz, la chaleur élevée ayant infusé le riche arôme du jambon à l'intérieur. Une saveur aussi familière et familiale permettra sûrement à toute personne en voyage au loin de se sentir comme chez elle.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108634"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la force du bouclier de tous les personnages de l'équipe de 25 % et augmente leur DÉF de 165 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108636,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Canard aux huit trésors (suspect)",
+    "Description": "Un plat qui nécessite un véritable savoir-faire. Vos yeux piquent alors que vous finissez de retirer tous les os. Il semble que ce plat ait mis à l'épreuve non seulement vos compétences au couteau, mais également votre endurance physique et votre patience. Dommage donc que le canard, à l'origine si soigneusement arrangé, se soit effondré à l'intérieur de la poêle... Plutôt que de réessayer une énième fois, fermez les yeux et détendez-vous un peu...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108637"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la force du bouclier de tous les personnages de l'équipe de 30 % et augmente leur DÉF de 200 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108637,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Canard aux huit trésors",
+    "Description": "Un plat qui nécessite un véritable savoir-faire. Huit sortes de viande et de légumes, appelés les huit trésors, sont fourrés dans un canard désossé. Celui-ci est ensuite moulé en forme de gourde afin de représenter la bonne fortune et le bon augure. Des ingrédients exquis, de superbes compétences de découpe et un timing phénoménal sont tous nécessaires pour que le plat fini mérite sa place de plat final de n'importe quel banquet.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108637"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la force du bouclier de tous les personnages de l'équipe de 35 % et augmente leur DÉF de 235 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108638,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Canard aux huit trésors (délicieux)",
+    "Description": "Un plat qui nécessite un véritable savoir-faire. Le canard dodu et juteux est irrésistible dès la fin de la cuisson. Ajoutez-y une sauce parfumée et une touche de dorure, et vous obtenez ce qui peut être considéré comme une combinaison parfaite de couleurs, d'arômes et de formes, chaque bouchée étant une véritable vague de saveurs.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108637"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente le taux CRIT de tous les personnages de l'équipe de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108639,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Double croustillant frit (suspect)",
+    "Description": "L'un des plats célèbres de Liyue. Un retournement imprudent et les flammes ont balayé impitoyablement tout croustillant et toute tendresse, ne laissant dans leur sillage que des morceaux carbonisés et noircis...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108640"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente le taux CRIT de tous les personnages de l'équipe de 9 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108640,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Double croustillant frit",
+    "Description": "L'un des plats célèbres de Liyue. Entre la chaleur intense, l'huile bouillante et le sautage compliqué, c'est un test sévère des compétences. Faites cuire quelques secondes de moins et vos ingrédients pourraient rester crus ; trop longtemps et ils seront trop cuits et manqueront de croustillant. Ainsi, ce plat est souvent choisi par les chefs liyuéens expérimentés qui souhaitent prouver leurs talents.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108640"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente le taux CRIT de tous les personnages de l'équipe de 12 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108641,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Double croustillant frit (délicieux)",
+    "Description": "L'un des plats célèbres de Liyue. Des fleurs de viande rouge et blanche, enduites de crème avant d'être sautées uniformément, font fleurir les saveurs sur le bout de votre langue. Onctueux, croustillant, salé, délicieux... C'est un plat incontournable. Vous n'arrêterez pas de chanter ses louanges alors que vous déciderez de lécher l'assiette pour n'en perdre aucune goutte.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108640"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 160 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108642,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Boulette braisée (suspecte)",
+    "Description": "Un plat classique de Liyue. Sa forme ronde et son arôme parfumé semblent corrects, mais la boulette s'avère bien trop sèche une fois en bouche. Peut-être que vous avez utilisé trop de viande maigre ?",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108643"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 194 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108643,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Boulette braisée",
+    "Description": "Un plat classique de Liyue. Des morceaux de viande gras et maigres sont mélangés à des pousses de bambou croquantes avant d'être pétris en boule, frits puis bouillis. Le résultat est très apprécié et trouve sa place aussi bien dans les repas à la maison que dans les banquets.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108643"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 228 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108644,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Boulette braisée (délicieuse)",
+    "Description": "Un plat classique de Liyue. Les oignons vert émeraude et la boulette de viande rouge rubis se complètent parfaitement, tandis que la lame extraordinaire du cuisinier a permis de créer une boulette de viande fondante et copieuse, mais sans être grasses... Ce plat sera sans l'ombre d'un doute l'objet de vos éloges pendant toute une semaine. N'oubliez pas de bien finir votre assiette, ça porte chance !",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108643"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 8 % des PV max, puis 210 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108645,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Char siu au miel (suspect)",
+    "Description": "Un type de viande rôtie de Liyue. Un assaisonnement bien trop sucré crée un goût difficile à supporter pour votre langue. Comme le dit un dicton local, une infime erreur peut faire une énorme différence, et il semble que cela soit également vrai en cuisine.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108646"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 9 % des PV max, puis 260 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108646,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Char siu au miel",
+    "Description": "Un type de viande rôtie de Liyue. La viande marinée est embrochée sur une fourchette en métal spéciale avant d'être suspendue au-dessus du poêle pour être rôtie. Le goût du char siu fraîchement rôti est un des mets préférés de nombreux gourmands.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108646"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 10 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108647,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Char siu au miel (délicieux)",
+    "Description": "Un type de viande rôtie de Liyue. Devant cette viande d'un rouge vif et aux arômes et saveurs intenses, il est facile de succomber à la gourmandise. Entre les bouchées de viande délicieuse et une sauce riche, un seul bol de riz peut sembler bien insuffisant pour cette expérience gustative !",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108646"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 30 % des PV max du personnage sélectionné et 600 PV supplémentaires.",
+    "Id": 108648,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Pleine lune au thé exquis (suspecte)",
+    "Description": "Une pâtisserie au thé contenant du jaune d'œuf. En la touchant, les couches s'écaillent comme de la terre meuble lors d'un glissement de terrain. La première bouchée est gluante, sucrée, écœurante et... Oh oh, quelque chose est resté coincé en travers de votre gorge. Allez vite chercher de l'eau pour faire passer tout ça et vous réfléchirez ensuite à quoi faire du reste.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108649"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 32 % des PV max du personnage sélectionné et 1 250 PV supplémentaires.",
+    "Id": 108649,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Pleine lune au thé exquis",
+    "Description": "Une pâtisserie au thé contenant du jaune d'œuf. Le jaune salé est d'abord cuit à la vapeur, puis farci et enveloppé dans une pâte infusée de poudre de thé. Il est ensuite pétri en forme de pleine lune avant d'être cuit. Il en résulte un extérieur croustillant et feuilleté avec un intérieur salé et sucré, les différentes couches formant une délicatesse délicieuse et addictive.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108649"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires.",
+    "Id": 108650,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Pleine lune au thé exquis (délicieuse)",
+    "Description": "Une pâtisserie au thé contenant du jaune d'œuf. La texture délicate du jaune d'œuf granuleux se mêle à un léger arôme de thé. Une petite bouchée suffit pour se perdre dans une agréable sensation de bonheur. Vous voudriez même en gober plusieurs à la fois, et malheur à quiconque chercherait à voler ne serait-ce qu'une miette au coin de vos lèvres.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108649"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Réanime un personnage et restaure 50 PV.",
+    "Id": 108651,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Œufs jadeveines au thé (suspects)",
+    "Description": "Un encas traditionnel de Liyue. Aucune différence avec un œuf dur... Quelque chose ne va pas avec les feuilles de thé ou le processus de cuisson ?",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108652"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Réanime un personnage et restaure 100 PV.",
+    "Id": 108652,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Œufs jadeveines au thé",
+    "Description": "Un encas traditionnel de Liyue. La saveur du thé s'infiltre dans les œufs à travers les fissures de leurs coquilles pendant que ces derniers bouillent, une pratique très populaire dans les rues et allées de la ville. Ainsi, les fissures sur leurs coques sont aussi belles que les motifs fragmentés du jade.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108652"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Réanime un personnage et restaure 150 PV.",
+    "Id": 108653,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Œufs jadeveines au thé (délicieux)",
+    "Description": "Un encas traditionnel de Liyue. L'arôme du thé s'est parfaitement intégré aux œufs. À vous de choisir : une délicieuse cuillerée à déguster en une fois ou à savourer en petites bouchées ?",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108652"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 20 % des PV max du personnage sélectionné et 900 PV supplémentaires.",
+    "Id": 108654,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pigeon fumé au thé (suspect)",
+    "Description": "Un plat très populaire. Les parties brûlées des pattes et des ailes du pigeon trahissent d'un manque de contrôle de la chaleur, mais avec un peu de patience, vous pourriez quand même en manger quelques bouts...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108655"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 22 % des PV max du personnage sélectionné et 1 200 PV supplémentaires.",
+    "Id": 108655,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pigeon fumé au thé",
+    "Description": "Un plat très populaire. Le pigeon est mariné dans du thé et de la sauce pendant la nuit avant d'être séché et frit, ce qui imprègne sa viande du merveilleux arôme du thé. Cette technique est transmise depuis de nombreuses années et le résultat constitue un délice lors des banquets.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108655"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 24 % des PV max du personnage sélectionné et 1 500 PV supplémentaires.",
+    "Id": 108656,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pigeon fumé au thé (délicieux)",
+    "Description": "Un plat très populaire. La peau translucide du pigeon est croustillante et fine comme une feuille de papier ocre, et la viande est ferme et charnue. Accompagné d'une sauce délicate, ce plat saura conquérir les cœurs et les estomacs.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108655"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la DÉF de tous les personnages de l'équipe de 88 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108657,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Soupe de Guhua au poisson et à l'agneau (suspecte)",
+    "Description": "Un plat que les documents historiques les plus anciens mentionnent. Hélas, pas le temps de trop y penser, car le mouton et le poisson se disputent la domination de votre bouche. Vos pauvres papilles gustatives auront certainement besoin d'un bon rinçage après cette soupe...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108658"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la DÉF de tous les personnages de l'équipe de 107 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108658,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Soupe de Guhua au poisson et à l'agneau",
+    "Description": "Un plat que les documents historiques les plus anciens mentionnent. Le poisson frais et l'agneau sont mijotés ensemble, la tendresse du poisson et la jutosité de l'agneau se mélangeant pour transformer le plat en un véritable délice.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108658"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la DÉF de tous les personnages de l'équipe de 126 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108659,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Soupe de Guhua au poisson et à l'agneau (délicieuse)",
+    "Description": "Un plat que les documents historiques les plus anciens mentionnent. Alors que la soupe blanche et laiteuse glisse dans votre gorge, vous maudissez les divinités de ne pas vous avoir donné deux estomacs. Prenez-en un bol en hiver et vous souhaiterez en manger jusqu'au printemps suivant...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108658"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 8 % des PV max, puis 210 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108660,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Infusion de Chenyu (suspecte)",
+    "Description": "Du thé ordinaire de Liyue. Vous vous retrouvez à le siroter de manière répétée pour confirmer que oui, ce soi-disant thé a le goût de l'eau... Un problème de température trop basse ou une infusion trop rapide ?",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108661"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 9 % des PV max, puis 260 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108661,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Infusion de Chenyu",
+    "Description": "Du thé ordinaire de Liyue. Parfois, la vie est comparée à l'arrière-goût sucré qu'on savoure en sirotant une tasse de thé.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108661"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 10 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108662,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Infusion de Chenyu (délicieuse)",
+    "Description": "Du thé ordinaire de Liyue. Votre première gorgée fait ressortir la saveur d'une brise légère et élégante, les doux parfums du Vallon Chenyu descendant sur vos lèvres et votre langue. Écoutez, est-ce la douce musique des sources des montagnes qui chantent à vos oreilles ?",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108661"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 274 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108663,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Allégresse englobante",
+    "Description": "#Spécialité culinaire de Xianyun. Avant même que votre air choqué devant ces boulettes de viande parfumées ne puisse se voir, elle dit : « Ah, et tu pensais qu'un travail culinaire aussi prosaïque pouvait me dérouter ? Maintenant, mange-les pendant qu'elles sont chaudes... Et je te souhaite paix, joie, prospérité et aucune détresse... *tousse* Quoi ? Quelques formalités rituelles de temps en temps ne font pas de mal.{NON_BREAK_SPACE}»",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108663"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 14 % des PV max, puis 350 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108664,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "P'tit yum cha",
+    "Description": "Spécialité culinaire de Gaming. Des rangées de petits pains en forme de suannis réalistes sont joliment arrangées à l'intérieur d'un cuiseur vapeur, évoquant un jeune homme sautant au milieu des poteaux d'équilibre... « C'est quoi, cette tête ? Prenons d'abord un peu de thé, hein ? » Sur ce, le jeune homme souriant vous passe une autre tasse...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108664"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
@@ -24709,6 +25210,136 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109561,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Joyaux du palais",
+    "Description": "Étapes de préparation des joyaux du palais.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109562,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Cordes vibrantes sur bruissement de roseaux",
+    "Description": "Étapes de préparation des cordes vibrantes sur bruissement de roseaux.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109563,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Humilité satisfaisante",
+    "Description": "Étapes de préparation de l'humilité satisfaisante.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109564,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Doux foyer",
+    "Description": "Étapes de préparation du doux foyer.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109565,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Recette : Canard aux huit trésors",
+    "Description": "Étapes de préparation du canard aux huit trésors.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109566,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Recette : Double croustillant frit",
+    "Description": "Étapes de préparation du double croustillant frit.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109567,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Boulettes braisées",
+    "Description": "Étapes de préparation de la boulette braisée.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109568,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Recette : Char siu au miel",
+    "Description": "Étapes de préparation du char siu au miel.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109569,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Pleine lune au thé exquis",
+    "Description": "Étapes de préparation de la pleine lune au thé exquis.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109570,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Recette : Œufs jadeveines au thé",
+    "Description": "Étapes de préparation des œufs jadeveines au thé.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109571,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Recette : Pigeon fumé au thé",
+    "Description": "Étapes de préparation du pigeon fumé au thé.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109572,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Recette : Soupe de Guhua au poisson et à l'agneau",
+    "Description": "Étapes de préparation de la soupe de Guhua au poisson et à l'agneau.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109573,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Recette : Infusion de Chenyu",
+    "Description": "Étapes de préparation de l'infusion de Chenyu.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -26045,6 +26676,36 @@
   },
   {
     "MaterialType": 14,
+    "Id": 112095,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Aileron plumeux",
+    "Description": "Un aileron prélevé sur le dos d'une Bête de Xuanwen vaincue.\nMême si les Bêtes de Xuanwen ne peuvent pas voler sur de longues distances, ces ailerons semblables à des plumes leur permettent de pourchasser rapidement leur proie.",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
+    "Icon": "UI_ItemIcon_112095"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112096,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Aileron lunaire",
+    "Description": "Un aileron prélevé sur le dos d'une Bête de Xuanwen vaincue.\nLa douce lueur semblable au clair de lune sur l'aileron dégage un sentiment de sérénité.",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
+    "Icon": "UI_ItemIcon_112096"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112097,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Aileron ténébreux",
+    "Description": "Un élégant aileron prélevé sur le dos d'une Bête de Xuanwen vaincue.\nLa faible lueur qu'il émet contient des traces d'énergie mystique. Dans le calme de la nuit, même les bêtes les plus violentes sombrent brièvement dans un sommeil paisible, se rappelant d'époques où les rêves n'appartenaient pas seulement aux humains.",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
+    "Icon": "UI_ItemIcon_112097"
+  },
+  {
+    "MaterialType": 14,
     "Id": 113001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -26612,6 +27273,16 @@
     "Description": "Ce qui reste d'un Tulpa Hydro une fois ses parties dispersées.\nCette substance est très similaire aux cristaux extraits des corps des Aberrants fontemarins, mais elle contient beaucoup d'impuretés minuscules, comme des bulles dans un verre fabriqué par un artisan maladroit.",
     "TypeDescription": "Matériau d'amélioration de personnage",
     "Icon": "UI_ItemIcon_113057"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113058,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Écaille nuageuse",
+    "Description": "L'écaille froide et solide d'un Suanni solitaire. Elle conserve son énergie mystique pure même après être tombée et ne peut pas être endommagée par les armes ordinaires.\nLes bêtes ordinaires peuvent parfois être affectées par l'énergie mystique dispersée et devenir plus puissantes que la normale. Cependant, l'énergie mystique des suannis vient d'eux-mêmes, c'est pourquoi leur cheffe est souvent considérée comme l'égale des Adeptes.",
+    "TypeDescription": "Matériau d'amélioration de personnage",
+    "Icon": "UI_ItemIcon_113058"
   },
   {
     "MaterialType": 14,
@@ -30995,6 +31666,36 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120425,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Temponaute - Tome I",
+    "Description": "Un roman de science-fiction fontainois publié par L'Oiseau de vapeur. Il raconte l'histoire des voyages d'un ingénieur utilisant une machine à voyager dans le temps.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120797"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120426,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Temponaute - Tome II",
+    "Description": "Un roman de science-fiction fontainois publié par L'Oiseau de vapeur. Il raconte l'histoire des voyages d'un ingénieur utilisant une machine à voyager dans le temps.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120797"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120427,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Temponaute - Tome III",
+    "Description": "Un roman de science-fiction fontainois publié par L'Oiseau de vapeur. Il raconte l'histoire des voyages d'un ingénieur utilisant une machine à voyager dans le temps.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120797"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120428,
     "RankLevel": 4,
     "ItemType": 2,
@@ -32355,6 +33056,56 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120615,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Image : Bassin de lotus sous la lune",
+    "Description": "Une belle photo de l'étang aux lotus se baignant dans le clair de lune.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120617"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120616,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Image : Invités de Qiaoying",
+    "Description": "Une belle photo du Village de Qiaoying.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120616"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120617,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Image : Jade tranquille",
+    "Description": "Une belle photo de l'Antre jadéique.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120615"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120618,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Image : Xuanlian l'imposant",
+    "Description": "Une belle photo du Mont Xuanlian.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120618"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120619,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Guide des paysages du Vallon Chenyu",
+    "Description": "Un guide touristique présentant les sites pittoresques recommandés par les habitants.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100105"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120621,
     "RankLevel": 0,
     "ItemType": 2,
@@ -32976,6 +33727,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120724,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Branche d'arbre ancien",
+    "Description": "Une branche prise sur un ancien théier. Elle émet une faible énergie mystique...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120724"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120725,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33196,6 +33957,46 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120754,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé de rechange de la Salle de la montagne céleste",
+    "Description": "Une clé rouillée obtenue auprès de Huang le troisième.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120754"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120755,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Le Paimon-spécial",
+    "Description": "Selon Huang le troisième, le grand maître Guhua acceptait du riz et de la viande salée en paiement à la place des moras lorsqu'il transmettait ses techniques. Basée sur cette anecdote, Paimon a mis tout son cœur (et tout son sel) dans ce plat super spécial...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120755"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 120757,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Bourse de moras",
+    "Description": "La compensation que vous avez reçue de Woliu. Elle contient une somme de moras satisfaisante pour toutes les parties concernées.",
+    "TypeDescription": "Consommable",
+    "Icon": "UI_ItemIcon_100309"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120758,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appareil de forage de Woliu",
+    "Description": "Une boîte qui contient un appareil de forage. Qui sait ce que ça va bien pouvoir déterrer...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120759,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33246,6 +34047,86 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120769,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Orbe spirituel de carpe",
+    "Description": "Un orbe qui était incrusté sur une statue de carpe dorée. Il contient une immense quantité d'énergie mystique.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120769"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120785,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Noyau de mécanisme des ruines",
+    "Description": "Un mécanisme d'alimentation pour Gardien des ruines découvert dans les ruines de Vallon Chenyu. L'énergie résiduelle à l'intérieur semble suffisante pour activer un Gardien des ruines.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_112025"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120786,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Fragment de jade (gauche)",
+    "Description": "Un fragment de jade imprégné d'énergie mystique. Dans les légendes racontées par les peuples ancestraux, tous les jades provenaient à l'origine de la même pierre. Si cela est vrai, il pourrait être possible de réunir les fragments de jade...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120786"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120787,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Fragment de jade (droit)",
+    "Description": "Un fragment de jade imprégné d'énergie mystique. Dans les légendes racontées par les peuples ancestraux, tous les jades provenaient à l'origine de la même pierre. Si cela est vrai, il pourrait être possible de réunir les fragments de jade...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120787"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120788,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bois « Huangcong » parfumé",
+    "Description": "Un morceau de bois superbement sculpté, souvent utilisé dans les rites cérémoniels et dégageant un léger parfum. À en juger par sa forme, il semble y avoir un autre morceau de bois qui vient compléter celui-ci.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120788"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120789,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bois « Chizhang » parfumé",
+    "Description": "Un morceau de bois superbement sculpté, souvent utilisé dans les rites cérémoniels et dégageant une odeur de brûlé. À en juger par sa forme, il semble y avoir un autre morceau de bois qui vient compléter celui-ci.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120789"
+  },
+  {
+    "MaterialType": 52,
+    "Id": 120790,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Album « Randonnée à Chenyu »",
+    "Description": "Un album photo commémoratif contenant de nombreuses photos merveilleuses. Étonnamment, plus de la moitié ont été prises par la même personne.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120790"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120792,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé étrange",
+    "Description": "Une clé étrange. Qui sait quelle serrure elle ouvre...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120796,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33286,6 +34167,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120806,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Stèle ancienne",
+    "Description": "Stèle ancienne",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120807,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33303,6 +34194,106 @@
     "Description": "Pip, le livreur de journaux, a mis dans ce paquet tous les journaux que la famille Leroy a commandés mais pas récupérés durant cette période.",
     "TypeDescription": "Objet de quête",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120812,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé perdue (1)",
+    "Description": "Une clé qui semble avoir été perdue dans la nature du Vallon Chenyu. À quoi pourrait-elle servir...?",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120813,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé perdue (2)",
+    "Description": "Une clé qui semble avoir été perdue dans la nature du Vallon Chenyu. À quoi pourrait-elle servir...?",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120841,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Eau sacrée de Xuanlian",
+    "Description": "Sans son nom, cette « eau sacrée » provenant des environs du Mont Xuanlian n'aurait jamais été considérée comme spéciale. À l'opposé, en la regardant de près en connaissant son nom, on a l'impression de voir une aura adeptale s'en dégager.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120841"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120842,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ancienne coupe en jade",
+    "Description": "Une ancienne tasse à thé qui semble avoir été perdue dans la nature. Elle semble dégager une faible énergie mystique.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120842"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120843,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Registre de quelqu'un",
+    "Description": "Ce livre trouvé dans la Salle de la montagne céleste consigne de manière détaillée chaque revenu et dépense.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120843"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120845,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Jade votif",
+    "Description": "La dernière pierre lancée par l'Adepte Fujin dans les temps anciens. Bien qu'elle ressemble à peu près aux autres pierres de jade, elle contient suffisamment d'énergie mystique pour transformer immédiatement l'eau et la terre des environs...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120845"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120851,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Carte de Chizhang",
+    "Description": "L'emplacement de l'entrepôt semble être indiqué sur cette carte que les Millelithes ont laissée.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120274"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120853,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé de l'ancienne ville",
+    "Description": "Il semble que cette clé rouillée puisse ouvrir un entrepôt abandonné depuis longtemps quelque part le long du Rempart de Chizhang.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120854,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé rouillée",
+    "Description": "Bien que cette clé trouvée au Vallon Chenyu soit couverte de rouille, il semble qu'elle puisse encore être utilisée...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120857,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Poisson récupéré dans la bouche d'un pélican",
+    "Description": "Un poisson que vous avez réussi à récupérer dans la gueule d'un pélican sur les quais du Village de Qiaoying. Il semble que ce soit quelque chose que d'autres créatures chérissent grandement. Qui sait, le mettre dans la mangeoire de certains animaux pourrait peut-être faire oublier un regret d'un certain temps...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100084"
   },
   {
     "MaterialType": 31,
@@ -33973,6 +34964,16 @@
     "Description": "#Un méka compact développé pour assister lors des activités sous-marines, permettant ainsi d'améliorer le taux d'utilisation des Mékas horlogoïdes. Ils ont été conçus à l'origine pour enlever les déchets, la végétation et les débris sous-marins afin d'éviter qu'ils n'obstruent les composants vitaux d'autres mékas, minimisant ainsi les défaillances. De plus, leur rôle de «{NON_BREAK_SPACE}nettoyeurs sous-marins » est également bénéfique à l'écosystème de Fontaine.\nPar rapport aux autres modèles produits en série, ces meks de maintenance « Meneurs dorés » en édition limitée se distinguent par leur apparence claire aux teintes dorées et leur équipement de contrôle spécial. L'équipe de développement les a conçus pour servir de « stations relais de commande » dans des environnements sous-marins particulièrement complexes, recevant et transmettant les directives du contrôleur à tous les autres meks de maintenance à proximité, ce qui les aurait rendus aussi importants que des meneurs.\nCependant, lorsque l'ensemble du projet des meks de maintenance a cessé, ces «{NON_BREAK_SPACE}mékas meneurs{NON_BREAK_SPACE}» ont perdu leur raison d'exister. Seule leur coque dorée, très reconnaissable, leur donne de la valeur aux yeux des pêcheurs qui les collectionnent.",
     "TypeDescription": "Poisson",
     "Icon": "UI_ItemIcon_131036"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131037,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bar plumé cordial de jade",
+    "Description": "Ce poisson particulier, qui ressemble à un cœur vu de côté, serait apparenté à la perche. Ses nageoires dorsale et ventrale sont constituées d'os flexibles aussi minces que des plumes, d'où sa description de « plumé cordial ».\nLe bar plumé cordial de jade doit son nom à la coloration semblable à celle du jade qu'il prend dans l'eau. Malgré son apparence paisible, il possède une résilience remarquable et peut s'adapter à différents milieux aquatiques. Les eaux claires du Vallon Chenyu leur convenant particulièrement bien, ils y prospèrent et y mènent une vie paisible et insouciante.",
+    "TypeDescription": "Poisson",
+    "Icon": "UI_ItemIcon_131037"
   },
   {
     "MaterialType": 36,
@@ -34960,7 +35961,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Gyrocristal radiant 99",
-    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est « Ballad of Many Waters ».",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -34970,7 +35971,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Gyrocristal radiant 100",
-    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est « Coruscating Street ».",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -34980,7 +35981,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Gyrocristal radiant 101",
-    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est « Throughout the Flow of Years ».",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -34990,7 +35991,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Gyrocristal radiant 102",
-    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est « Miraculous Whisper ».",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35000,7 +36001,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Gyrocristal radiant 103",
-    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est « Surging Reminiscence ».",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35010,7 +36011,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Gyrocristal radiant 104",
-    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est « Ann's Quiescent Residence ».",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35020,7 +36021,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Gyrocristal radiant 105",
-    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est « Limpide est le sanglot d'eau ».",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35030,7 +36031,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Gyrocristal radiant 106",
-    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est « Que le vent soit doux ».",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35040,7 +36041,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Gyrocristal radiant 107",
-    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est « Demain, dès l'aube ».",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35161,6 +36162,66 @@
     "ItemType": 2,
     "Name": "Gyrocristal radiant 119",
     "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141220,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 120",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Liyue.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141221,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 121",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Liyue.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141222,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 122",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Liyue.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141223,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 123",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Liyue.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141224,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 124",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Liyue.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141225,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 125",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Liyue.",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -38110,7 +39171,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Pavillon des rêves de brume",
-    "Description": "Étapes de mise en place du pavillon des rêves de brume.\n« De la brume nuageuse rêvant faiblement. »\nUne chambre humble et sans prétention qui ressemble à bien des égards à l'une de celles que vous pourriez trouver dans l'Auberge Wangshu. Le mystère de cette chambre est difficile à expliquer avec des mots : elle évoquera parfois le souvenir de ceux qui la traversent comme la lumière du soleil qui traverse les nuages tourbillonnants, mais elle en enlèvera les chagrins et ne laissera que les traces des événements passés.\nNous sommes tous à la dérive dans cette vie mortelle, et c'est seulement en nous souvenant de qui « nous » sommes pouvons-nous rester constants tout au long de notre parcours. Nos pensées sont les plus claires lors de l'interstice entre le rêve et le réveil. Pas étonnant que ceux qui visitent l'Auberge Wangshu pour une nuit se retrouvent pleins d'énergie, radieux et prêts à recommencer leur voyage...\nAprès utilisation, ce plan sera disponible dans l'interface de placement des décorations.\nCompagnons préférant ce set : Hu Tao, Yanfei, Ganyu, Keqing, Chongyun.",
+    "Description": "Étapes de mise en place du pavillon des rêves de brume.\n« De la brume nuageuse rêvant faiblement. »\nUne chambre humble et sans prétention qui ressemble à bien des égards à l'une de celles que vous pourriez trouver dans l'Auberge Wangshu. Le mystère de cette chambre est difficile à expliquer avec des mots : elle évoquera parfois le souvenir de ceux qui la traversent comme la lumière du soleil qui traverse les nuages tourbillonnants, mais elle en enlèvera les chagrins et ne laissera que les traces des événements passés.\nNous sommes tous à la dérive dans cette vie mortelle, et c'est seulement en nous souvenant de qui « nous » sommes pouvons-nous rester constants tout au long de notre parcours. Nos pensées sont les plus claires lors de l'interstice entre le rêve et le réveil. Pas étonnant que ceux qui visitent l'Auberge Wangshu pour une nuit se retrouvent pleins d'énergie, radieux et prêts à recommencer leur voyage...\nAprès utilisation, ce plan sera disponible dans l'interface de placement des décorations.\nCompagnons préférant ce set : Hu Tao, Yanfei, Ganyu, Keqing, Chongyun, Gaming.",
     "TypeDescription": "Plan de set de décorations",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -38170,7 +39231,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Rassemblement des gourmets",
-    "Description": "Étapes de mise en place du rassemblement des gourmets.\nUne ruelle gastronomique avec des installations de plein air non sans rappeler l'agitation de la Falaise Chihu.\nAppeler cet endroit un « rassemblement des gourmets » est un euphémisme, car même s'il semble qu'il n'y ait pas trop d'ustensiles de cuisine ici, ils sont plus que suffisants pour couvrir toutes les spécialités connues de la région liyuéenne. Les chefs expérimentés peuvent préparer de délicieux plats avec les ustensiles les plus simples, et les plats qui ne nécessitent pas d'ustensiles spécialisés sont souvent les plus répandus et, de ce fait, les plus populaires.\nAprès utilisation, ce plan sera disponible dans l'interface de placement des décorations.\nCompagnons préférant ce set : Beidou, Xiangling, Ganyu, Xinyan, Tartaglia, Yelan.",
+    "Description": "Étapes de mise en place du rassemblement des gourmets.\nUne ruelle gastronomique avec des installations de plein air non sans rappeler l'agitation de la Falaise Chihu.\nAppeler cet endroit un « rassemblement des gourmets » est un euphémisme, car même s'il semble qu'il n'y ait pas trop d'ustensiles de cuisine ici, ils sont plus que suffisants pour couvrir toutes les spécialités connues de la région liyuéenne. Les chefs expérimentés peuvent préparer de délicieux plats avec les ustensiles les plus simples, et les plats qui ne nécessitent pas d'ustensiles spécialisés sont souvent les plus répandus et, de ce fait, les plus populaires.\nAprès utilisation, ce plan sera disponible dans l'interface de placement des décorations.\nCompagnons préférant ce set : Beidou, Xiangling, Ganyu, Xinyan, Tartaglia, Yelan, Xianyun.",
     "TypeDescription": "Plan de set de décorations",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -38190,7 +39251,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Résidence des nuages de Qingce",
-    "Description": "Étapes de mise en place de la résidence des nuages de Qingce.\nUn hameau de montagne inspiré du Village de Qingce. On dit que l'atmosphère amicale y est contagieuse et que les visiteurs qui y pénètrent se trouveront plus calmes et plus attentifs aux joies simples qu'ils ont peut-être autrefois oubliées.\nPartir à la poursuite de ses idéaux et passer ses années à chasser une carrière est certainement louable. Mais après avoir passé beaucoup de temps à faire de telles choses, on peut éventuellement se sentir fatigué, et une fois que cela se produit, une vie calme et paisible à la campagne peut rester un bon choix. Le Village de Qingce a toujours maintenu son acceptation de ces jeunes gens qui partent chercher fortune et est prêt à les accueillir de nouveau à bras ouverts à tout moment.\nAprès utilisation, ce plan sera disponible dans l'interface de placement des décorations.\nCompagnons préférant ce set : Xinyan, Xiao, Hu Tao, Qiqi, Shenhe, Yelan, Yaoyao.",
+    "Description": "Étapes de mise en place de la résidence des nuages de Qingce.\nUn hameau de montagne inspiré du Village de Qingce. On dit que l'atmosphère amicale y est contagieuse et que les visiteurs qui y pénètrent se trouveront plus calmes et plus attentifs aux joies simples qu'ils ont peut-être autrefois oubliées.\nPartir à la poursuite de ses idéaux et passer ses années à chasser une carrière est certainement louable. Mais après avoir passé beaucoup de temps à faire de telles choses, on peut éventuellement se sentir fatigué, et une fois que cela se produit, une vie calme et paisible à la campagne peut rester un bon choix. Le Village de Qingce a toujours maintenu son acceptation de ces jeunes gens qui partent chercher fortune et est prêt à les accueillir de nouveau à bras ouverts à tout moment.\nAprès utilisation, ce plan sera disponible dans l'interface de placement des décorations.\nCompagnons préférant ce set : Xinyan, Xiao, Hu Tao, Qiqi, Shenhe, Yelan, Yaoyao, Xianyun.",
     "TypeDescription": "Plan de set de décorations",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -46761,6 +47822,416 @@
     "ItemType": 2,
     "Name": "« Pattes d'ours de la Forteresse interdite »",
     "Description": "Étapes de fabrication des « Pattes d'ours de la Forteresse interdite ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390117,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Échoppe du vallon « Plaisir du thé »",
+    "Description": "Étapes de fabrication de l'échoppe du vallon « Plaisir du thé ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390118,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Scène du vallon « Mer de nuages ondulants »",
+    "Description": "Étapes de fabrication de la scène du vallon « Mer de nuages ondulants ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390119,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Corridor du vallon « Commencements lointains »",
+    "Description": "Étapes de fabrication du corridor du vallon « Commencements lointains ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390120,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Corridor du vallon « Fondations solides pour prospérer »",
+    "Description": "Étapes de fabrication du corridor du vallon « Fondations solides pour prospérer ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390121,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Pavillon du vallon « Douce lumière du jour »",
+    "Description": "Étapes de fabrication du pavillon du vallon « Douce lumière du jour ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390122,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Arche en pierre du vallon « Présage récurrent d'abondance »",
+    "Description": "Étapes de fabrication de l'arche en pierre du vallon « Présage récurrent d'abondance ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390123,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Pergola du vallon « Soleil et pluie »",
+    "Description": "Étapes de fabrication de la pergola du vallon « Soleil et pluie ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390124,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tour de guet du vallon « Vigilance »",
+    "Description": "Étapes de fabrication de la tour de guet du vallon « Vigilance ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391253,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Portail du vallon « Cour animée »",
+    "Description": "Étapes de fabrication du portail du vallon « Cour animée ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391254,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Portail du vallon « Montagnes au-delà du seuil »",
+    "Description": "Étapes de fabrication du portail du vallon « Montagnes au-delà du seuil ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391255,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Caverne du vallon « Éventail des profondeurs »",
+    "Description": "Étapes de fabrication de la caverne du vallon « Éventail des profondeurs ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393439,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tambour de pierre « Grondement solennel »",
+    "Description": "Étapes de fabrication du tambour de pierre « Grondement solennel ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391256,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Mur d'angle du vallon « Rassemblement de vagues »",
+    "Description": "Étapes de fabrication du mur d'angle du vallon « Rassemblement de vagues ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391257,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Mur de pierre du vallon « Rivière de jade »",
+    "Description": "Étapes de fabrication du mur de pierre du vallon « Rivière de jade ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391258,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Mur de pierre du vallon « Fleurs et saules »",
+    "Description": "Étapes de fabrication du mur de pierre du vallon « Fleurs et saules ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391259,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Mur de pierre du vallon « Carpe et penne »",
+    "Description": "Étapes de fabrication du mur de pierre du vallon « Carpe et penne ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390125,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Résidence du vallon « Majestueuse montagne »",
+    "Description": "Étapes de fabrication de la résidence du vallon « Majestueuse montagne ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390126,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Résidence du vallon « Sérénité »",
+    "Description": "Étapes de fabrication de la résidence du vallon « Sérénité ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390127,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Résidence du vallon « Complexité personnalisée »",
+    "Description": "Étapes de fabrication de la résidence du vallon « Complexité personnalisée ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390128,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Résidence du vallon « Concentration totale »",
+    "Description": "Étapes de fabrication de la résidence du vallon « Concentration totale ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390129,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Résidence du vallon « Tendre campagne »",
+    "Description": "Étapes de fabrication de la résidence du vallon « Tendre campagne ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390130,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Résidence du vallon « Bâtiment mesuré »",
+    "Description": "Étapes de fabrication de la résidence du vallon « Bâtiment mesuré ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391260,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Gâble du vallon « Brise-vent et coupe-feu »",
+    "Description": "Étapes de fabrication du gâble du vallon « Brise-vent et coupe-feu ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391261,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Gâble du vallon « À l'abri de la pluie »",
+    "Description": "Étapes de fabrication du gâble du vallon « À l'abri de la pluie ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391262,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escalier en pierre du vallon « Première pierre »",
+    "Description": "Étapes de fabrication de l'escalier en pierre du vallon « Première pierre ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394321,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Table à thé carrée « Accueil convivial »",
+    "Description": "Étapes de fabrication de la table à thé carrée « Accueil convivial ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393441,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tenue de danse de wushou « Suanni rugissant »",
+    "Description": "Étapes de fabrication de la tenue de danse de wushou « Suanni rugissant ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393442,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Marionnette de danse de wushou « Suanni endormi »",
+    "Description": "Étapes de fabrication de la marionnette de danse de wushou « Suanni endormi ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393443,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Paravent de banquet « Papillons dansants et poissons bondissants »",
+    "Description": "Étapes de fabrication du paravent de banquet « Papillons dansants et poissons bondissants ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393444,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Paravent de banquet « Hirondelle lamentant et moineaux gazouillants »",
+    "Description": "Étapes de fabrication du paravent de banquet « Hirondelle lamentant et moineaux gazouillants ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393448,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Cerf-volant de fête « Abondance à venir »",
+    "Description": "Étapes de fabrication du cerf-volant de fête « Abondance à venir ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393449,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Cerf-volant de fête « Tout va bien »",
+    "Description": "Étapes de fabrication du cerf-volant de fête « Tout va bien ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393450,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Cerf-volant de fête « Danse des papillons »",
+    "Description": "Étapes de fabrication du cerf-volant de fête « Danse des papillons ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393451,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Cerf-volant de fête « Richesse et prospérité »",
+    "Description": "Étapes de fabrication du cerf-volant de fête « Richesse et prospérité ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393452,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Panneau en bois de cèdre parfumé",
+    "Description": "Étapes de fabrication du panneau en bois de cèdre parfumé.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394211,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Siège à thé « Brise légère »",
+    "Description": "Étapes de fabrication du siège à thé « Brise légère ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380444,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Lanterne poisson artisanale « Abondance de carpes »",
+    "Description": "Étapes de fabrication de la lanterne poisson artisanale « Abondance de carpes ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380445,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Lanterne poisson artisanale « Profits printaniers »",
+    "Description": "Étapes de fabrication de la lanterne poisson artisanale « Profits printaniers ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380446,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Lampe à pied du port « Zeste de parfum »",
+    "Description": "Étapes de fabrication de la lampe à pied du port « Zeste de parfum ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380447,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Lampadaire du port « Le bon vient en pair »",
+    "Description": "Étapes de fabrication du lampadaire du port « Le bon vient en pair ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380448,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Lanterne en pierre du vallon « Chandelle éternelle »",
+    "Description": "Étapes de fabrication de la lanterne en pierre du vallon « Chandelle éternelle ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
     "Icon": "UI_ItemIcon_Home_Common"
   }

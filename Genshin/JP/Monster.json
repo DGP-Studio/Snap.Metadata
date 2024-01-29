@@ -3235,6 +3235,16 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 10307,
+    "RelationshipId": 10307,
+    "Name": "ヒルチャールシャーマンBOSSJP0D",
+    "Title": "秘境に迷い込んだ悟りシャーマン？",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 21040101,
     "DescribeId": 10401,
     "RelationshipId": 10401,
@@ -9143,6 +9153,32 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 60402,
+    "RelationshipId": 60402,
+    "Name": "赤璋巡岳府君·移即",
+    "Title": "ヴィシャップ·岩",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-火"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 60403,
+    "RelationshipId": 60403,
+    "Name": "赤璋巡岳府君·天虞",
+    "Title": "ヴィシャップ·岩",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-冰"
+    ]
+  },
+  {
     "Id": 26050101,
     "DescribeId": 60501,
     "RelationshipId": 60501,
@@ -11471,6 +11507,120 @@
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.6,
       "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190101,
+    "DescribeId": 61901,
+    "RelationshipId": 61901,
+    "MonsterName": "Hermit_Normal_01",
+    "Name": "山隠れの猊獣",
+    "Title": "山隠れの猊獣",
+    "Description": "優雅で驕傲な霊獣。仙力が漂う深い山にしか生息しない。\n古来より、この仙獣は福運の象徴とされている。山に身を隠し、俗世から離れて過ごすその習性は、歴代の文人たちにいつも感銘を与えてきた。沈玉の谷の地元の古い伝説では、猊獣の長は「山主」と呼ばれ、その地位は往々にして仙人と同等とされる。\n別の説によると、現在山林に潜んでいる玄文獣もこの仙獣の子孫だという。ただ仙縁が浅く、このように高貴な血脈を受け継ぐことが難しかったため、凶暴な野獣に退化したそうだ。この説は玄文獣の起源に関する別の説とは食い違っているが、それでも猊獣に関する数少ない記載では、出現するときは多くの玄文獣を従者として伴っていることが多い。\n現在、沈玉の谷でよく知られる「獣舞劇」は、伝説の中の猊獣の動作や表情を模して演じられたものである。しかし実際に猊獣を見たことのある人はごくごく少なく、ほとんどの人は想像によってこの生き物の姿を描くことしかできない。数千年の変遷と芸術的な演出の結果、「獣頭」は最終的に現在のスタイルに固定された。",
+    "Icon": "UI_MonsterIcon_Hermit",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113058,
+      104151,
+      104152,
+      104153,
+      104154,
+      104121,
+      104122,
+      104123,
+      104124,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 225.4944,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.7,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.7,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190201,
+    "DescribeId": 61902,
+    "RelationshipId": 61902,
+    "MonsterName": "Striped_01",
+    "Name": "玄文獣",
+    "Title": "玄文獣",
+    "Description": "沈玉の谷の山林に生息する獰猛な野獣。濃い模様の色から「玄文」と名付けられた。\n沈玉の谷の民話によると、遥か昔、妖魔を退治し、民を守っていたこれらの猛獣は、ある仙人の眷属だったらしい。仙人が逝去した後、これらは凶暴な野獣へと退化したそうだ。その伝説を確かめる術はなく、仙人の正体にも諸説あるが、唯一確かなのは、安全面を考えて、こうした荒々しい生き物には軽々しく近づかないほうがいいということだ。\n千年もの間、人間による開拓が進められてきたことで、こうした野獣の生息空間はどんどん狭まっていった。今、この猛獣の姿を見ることができるのは、人が滅多に立ち入らない沈玉の谷の高く険しい山中のみである…",
+    "Icon": "UI_MonsterIcon_Striped",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112095,
+      112096,
+      112097,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 57.0528,
+      "AttackBase": 55.264,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1

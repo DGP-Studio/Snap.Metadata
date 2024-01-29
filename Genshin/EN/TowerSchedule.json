@@ -1,53 +1,5 @@
 [
   {
-    "Id": 84,
-    "FloorIds": [
-      1064,
-      1065,
-      1070,
-      1071
-    ],
-    "Open": "2023-12-16T04:00:00+08:00",
-    "Close": "2024-01-01T03:59:59+08:00",
-    "BuffName": "Soaring Moon",
-    "Descriptions": [
-      "After a character takes the field, they will gain one stack of Soar every 2.5s. Each stack will <color=#F39000FF>increase the DMG dealt by this character by 8%</color>. Max 3 stacks. A character with 3 stacks will <color=#F39000FF>unleash a shockwave</color> at an opponent's position when they deal DMG to that opponent, dealing True DMG. This effect will be cleared when the character leaves the field. 1 such shockwave can be unleashed every 1s."
-    ],
-    "Icon": "UI_TowerBlessing_74"
-  },
-  {
-    "Id": 85,
-    "FloorIds": [
-      1064,
-      1065,
-      1072,
-      1073
-    ],
-    "Open": "2024-01-01T04:00:00+08:00",
-    "Close": "2024-01-16T03:59:59+08:00",
-    "BuffName": "Sturdy Moon",
-    "Descriptions": [
-      "After a character obtains an Elemental Shard created by the Crystallize reaction, they will gain the Redoubtable state. Active characters in this state <color=#F39000FF>deal 15% increased DMG</color>. This state lasts for 8s and can stack up to 3 times, with the duration of each stack counted independently."
-    ],
-    "Icon": "UI_TowerBlessing_75"
-  },
-  {
-    "Id": 86,
-    "FloorIds": [
-      1064,
-      1065,
-      1072,
-      1073
-    ],
-    "Open": "2024-01-16T04:00:00+08:00",
-    "Close": "2024-02-01T03:59:59+08:00",
-    "BuffName": "Bursting Moon",
-    "Descriptions": [
-      "After a character obtains an Elemental Shard created by the Crystallize reaction, it will be counted. When the count reaches 3, a <color=#F39000FF>shockwave will be released</color> at the character's location, dealing True DMG to nearby opponents, and resetting the count. 1 such shockwave can be triggered every 6s."
-    ],
-    "Icon": "UI_TowerBlessing_76"
-  },
-  {
     "Id": 1,
     "FloorIds": [
       1009,
@@ -1385,5 +1337,101 @@
       "When off-field characters deal Elemental Skill DMG to an opponent, an Uncanny Mark will be placed upon that opponent. When another active character hits a marked opponent with an attack of the same Elemental Type, a <color=#F39000FF>shockwave will be unleashed</color> at that opponent's position, dealing True DMG. The Uncanny Mark lasts 5s, and Marks created through different attacks with different Elemental Types can exist independently. 1 such shockwave can be unleashed every 2s. When a character enters the field, the Uncanny Marks placed by that character on opponents will be removed."
     ],
     "Icon": "UI_TowerBlessing_73"
+  },
+  {
+    "Id": 84,
+    "FloorIds": [
+      1064,
+      1065,
+      1070,
+      1071
+    ],
+    "Open": "2023-12-16T04:00:00+08:00",
+    "Close": "2024-01-01T03:59:59+08:00",
+    "BuffName": "Soaring Moon",
+    "Descriptions": [
+      "After a character takes the field, they will gain one stack of Soar every 2.5s. Each stack will <color=#F39000FF>increase the DMG dealt by this character by 8%</color>. Max 3 stacks. A character with 3 stacks will <color=#F39000FF>unleash a shockwave</color> at an opponent's position when they deal DMG to that opponent, dealing True DMG. This effect will be cleared when the character leaves the field. 1 such shockwave can be unleashed every 1s."
+    ],
+    "Icon": "UI_TowerBlessing_74"
+  },
+  {
+    "Id": 85,
+    "FloorIds": [
+      1064,
+      1065,
+      1072,
+      1073
+    ],
+    "Open": "2024-01-01T04:00:00+08:00",
+    "Close": "2024-01-16T03:59:59+08:00",
+    "BuffName": "Sturdy Moon",
+    "Descriptions": [
+      "After a character obtains an Elemental Shard created by the Crystallize reaction, they will gain the Redoubtable state. Active characters in this state <color=#F39000FF>deal 15% increased DMG</color>. This state lasts for 8s and can stack up to 3 times, with the duration of each stack counted independently."
+    ],
+    "Icon": "UI_TowerBlessing_75"
+  },
+  {
+    "Id": 86,
+    "FloorIds": [
+      1064,
+      1065,
+      1072,
+      1073
+    ],
+    "Open": "2024-01-16T04:00:00+08:00",
+    "Close": "2024-02-01T03:59:59+08:00",
+    "BuffName": "Bursting Moon",
+    "Descriptions": [
+      "After a character obtains an Elemental Shard created by the Crystallize reaction, it will be counted. When the count reaches 3, a <color=#F39000FF>shockwave will be released</color> at the character's location, dealing True DMG to nearby opponents, and resetting the count. 1 such shockwave can be triggered every 6s."
+    ],
+    "Icon": "UI_TowerBlessing_76"
+  },
+  {
+    "Id": 87,
+    "FloorIds": [
+      1064,
+      1065,
+      1074,
+      1075
+    ],
+    "Open": "2024-02-01T04:00:00+08:00",
+    "Close": "2024-02-16T03:59:59+08:00",
+    "BuffName": "Ascendant Moon",
+    "Descriptions": [
+      "When a character receives healing, it will be counted. When the count reaches a total of 16, a <color=#F39000FF>shockwave will be unleashed</color> at the character's position, dealing True DMG to nearby opponents and clearing the count. 1 such shockwave can be unleashed every 8s."
+    ],
+    "Icon": "UI_TowerBlessing_72"
+  },
+  {
+    "Id": 88,
+    "FloorIds": [
+      1064,
+      1065,
+      1074,
+      1075
+    ],
+    "Open": "2024-02-16T04:00:00+08:00",
+    "Close": "2024-03-01T03:59:59+08:00",
+    "BuffName": "Resilient Moon",
+    "Descriptions": [
+      "After the active character's Plunging Attacks hit opponents, the character's <color=#F39000FF>Plunging Attack DMG is increased by 20%</color> for 8s. This effect can be triggered once every 0.1s. Max 3 stacks. Each stack's duration is counted independently. This effect will be cleared if the character leaves the field."
+    ],
+    "Icon": "UI_TowerBlessing_78"
+  },
+  {
+    "Id": 89,
+    "FloorIds": [
+      1064,
+      1065,
+      1074,
+      1075
+    ],
+    "Open": "2024-03-01T04:00:00+08:00",
+    "Close": "2024-03-16T03:59:59+08:00",
+    "BuffName": "Plummeting Moon",
+    "Descriptions": [
+      "After the active character's Plunging Attacks hit opponents, <color=#F39000FF>unleash a shockwave</color> at the character's location, dealing True DMG to nearby opponents. 1 such shockwave can be unleashed every 2s."
+    ],
+    "Icon": "UI_TowerBlessing_79"
   }
 ]

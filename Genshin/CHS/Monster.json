@@ -3235,6 +3235,16 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 10307,
+    "RelationshipId": 10307,
+    "Name": "（test）丘丘萨满BOSS",
+    "Title": "误入秘境迷糊悟道的萨满？",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 21040101,
     "DescribeId": 10401,
     "RelationshipId": 10401,
@@ -9153,6 +9163,32 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 60402,
+    "RelationshipId": 60402,
+    "Name": "赤璋巡岳府君·移即",
+    "Title": "岩龙蜥",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-火"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 60403,
+    "RelationshipId": 60403,
+    "Name": "赤璋巡岳府君·天虞",
+    "Title": "岩龙蜥",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-冰"
+    ]
+  },
+  {
     "Id": 26050101,
     "DescribeId": 60501,
     "RelationshipId": 60501,
@@ -11481,6 +11517,120 @@
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.6,
       "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190101,
+    "DescribeId": 61901,
+    "RelationshipId": 61901,
+    "MonsterName": "Hermit_Normal_01",
+    "Name": "隐山猊兽",
+    "Title": "隐山猊兽",
+    "Description": "优雅而高傲的灵兽，只栖息于仙力萦绕的深山中。\n自古以来，这种仙兽便被认为是福运的象征，其隐居山林、远离世俗纷扰的特质也为历代文人墨客所赞赏。在沉玉谷当地的古老传说中，猊兽的首领名为「山主」，其地位往往被认为与仙人等同。\n另有说法认为，如今伏行山林的玄文兽亦是这些仙兽的后嗣，只是因仙缘浅薄，难以继承如此高贵的血脉，从而退化为凶暴的野兽。这种说法与另一种关于玄文兽起源的说法相违背，但尽管如此，关于猊兽为数不多的记载中，其出现往往伴随着大量的玄文兽作为随从。\n如今，沉玉谷家喻户晓的「舞兽戏」，便是模仿传说中猊兽的动作与神态进行的表演。然而，真正见到过猊兽的人少之又少，绝大多数人只能通过想象来描述这种生灵的模样。数千年的流变与艺术加工后，「兽首」最终也固定成了现今的样式。",
+    "Icon": "UI_MonsterIcon_Hermit",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113058,
+      104151,
+      104152,
+      104153,
+      104154,
+      104121,
+      104122,
+      104123,
+      104124,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 225.4944,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.7,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.7,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190201,
+    "DescribeId": 61902,
+    "RelationshipId": 61902,
+    "MonsterName": "Striped_01",
+    "Name": "玄文兽",
+    "Title": "玄文兽",
+    "Description": "栖息在沉玉谷山林间的凶猛野兽，因其深色的纹理而得名「玄文」。\n沉玉谷本地的民话中，在遥远的过去，这些猛兽曾是某位仙人的眷属，降妖伏魔、庇护一方，在仙人故去后，方才退化为凶暴的野兽。传说早已无从查考，仙人的身份也众说纷纭，唯一可以确定的是，出于安全考虑，最好还是不要贸然靠近这些暴躁的生灵。\n千年间，伴随着人类不懈的开拓，原本属于这些野兽的生存空间变得越来越小。时至今日，只有在沉玉谷人迹罕至的崇山峻岭中，才能偶尔看到这些猛兽的身影…",
+    "Icon": "UI_MonsterIcon_Striped",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112095,
+      112096,
+      112097,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 57.0528,
+      "AttackBase": 55.264,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1
