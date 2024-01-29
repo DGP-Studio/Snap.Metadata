@@ -1,53 +1,5 @@
 [
   {
-    "Id": 84,
-    "FloorIds": [
-      1064,
-      1065,
-      1070,
-      1071
-    ],
-    "Open": "2023-12-16T04:00:00+08:00",
-    "Close": "2024-01-01T03:59:59+08:00",
-    "BuffName": "Lua do Falcão",
-    "Descriptions": [
-      "Depois de um personagem entrar no campo de batalha, a cada 2.5s obtém um acúmulo do efeito \"Voe, Falcão\". Cada acúmulo do efeito \"Voe, Falcão\" <color=#F39000FF>aumenta o Dano causado pelo personagem em 8%</color>. Esse efeito pode ser acumulado até 3 vezes. Quando um personagem com 3 acúmulos de \"Voe, Falcão\" causar Dano contra um inimigo, <color=#F39000FF>lançará uma onda de choque</color> na posição do inimigo, causando Dano Real. Esse efeito será removido quando o personagem sair do campo de batalha. É possível lançar a onda de choque uma vez a cada 1s dessa maneira."
-    ],
-    "Icon": "UI_TowerBlessing_74"
-  },
-  {
-    "Id": 85,
-    "FloorIds": [
-      1064,
-      1065,
-      1072,
-      1073
-    ],
-    "Open": "2024-01-01T04:00:00+08:00",
-    "Close": "2024-01-16T03:59:59+08:00",
-    "BuffName": "Lua Resistente",
-    "Descriptions": [
-      "Após um personagem obter um Fragmento Elemental criado por uma Reação de Cristalização, ele ganhará o estado Formidável. Personagens ativos neste estado <color=#F39000FF>causam 15% a mais de Dano</color>. Este estado dura por 8s e pode ser acumulado até 3 vezes, com a duração de cada acúmulo contada independentemente."
-    ],
-    "Icon": "UI_TowerBlessing_75"
-  },
-  {
-    "Id": 86,
-    "FloorIds": [
-      1064,
-      1065,
-      1072,
-      1073
-    ],
-    "Open": "2024-01-16T04:00:00+08:00",
-    "Close": "2024-02-01T03:59:59+08:00",
-    "BuffName": "Lua Fragmentada",
-    "Descriptions": [
-      "Após um personagem obter um Fragmento Elemental criado por uma Reação de Cristalização, iniciará uma contabilização. Quando a contabilização chegar em 3, uma <color=#F39000FF>onda de choque será lançada</color> no local do personagem, causando Dano Real a oponentes próximos, e reiniciando a contagem. Tal onda de choque pode ser desencadeada a cada 6s."
-    ],
-    "Icon": "UI_TowerBlessing_76"
-  },
-  {
     "Id": 1,
     "FloorIds": [
       1009,
@@ -1385,5 +1337,101 @@
       "Quando um personagem fora do campo de batalha causar Dano de Habilidade Elemental a um oponente, uma Marca Estranha será colocada naquele oponente. Quando outro personagem ativo acertar um oponente marcado com um ataque do mesmo Tipo Elemental, uma <color=#F39000FF>Onda de Choque será desencadeada</color> na posição do oponente, causando Dano Real. A Marca Estranha dura 5s, e Marcas criadas por ataques de diferentes Tipos Elementais podem existir independentemente. 1 dessas ondas de choque pode ser desencadeada a cada 2s. Quando um personagem entrar em campo, as Marcas Estranhas colocadas por aquele personagem nos oponentes será removida."
     ],
     "Icon": "UI_TowerBlessing_73"
+  },
+  {
+    "Id": 84,
+    "FloorIds": [
+      1064,
+      1065,
+      1070,
+      1071
+    ],
+    "Open": "2023-12-16T04:00:00+08:00",
+    "Close": "2024-01-01T03:59:59+08:00",
+    "BuffName": "Lua do Falcão",
+    "Descriptions": [
+      "Depois de um personagem entrar no campo de batalha, a cada 2.5s obtém um acúmulo do efeito \"Voe, Falcão\". Cada acúmulo do efeito \"Voe, Falcão\" <color=#F39000FF>aumenta o Dano causado pelo personagem em 8%</color>. Esse efeito pode ser acumulado até 3 vezes. Quando um personagem com 3 acúmulos de \"Voe, Falcão\" causar Dano contra um inimigo, <color=#F39000FF>lançará uma onda de choque</color> na posição do inimigo, causando Dano Real. Esse efeito será removido quando o personagem sair do campo de batalha. É possível lançar a onda de choque uma vez a cada 1s dessa maneira."
+    ],
+    "Icon": "UI_TowerBlessing_74"
+  },
+  {
+    "Id": 85,
+    "FloorIds": [
+      1064,
+      1065,
+      1072,
+      1073
+    ],
+    "Open": "2024-01-01T04:00:00+08:00",
+    "Close": "2024-01-16T03:59:59+08:00",
+    "BuffName": "Lua Resistente",
+    "Descriptions": [
+      "Após um personagem obter um Fragmento Elemental criado por uma Reação de Cristalização, ele ganhará o estado Formidável. Personagens ativos neste estado <color=#F39000FF>causam 15% a mais de Dano</color>. Este estado dura por 8s e pode ser acumulado até 3 vezes, com a duração de cada acúmulo contada independentemente."
+    ],
+    "Icon": "UI_TowerBlessing_75"
+  },
+  {
+    "Id": 86,
+    "FloorIds": [
+      1064,
+      1065,
+      1072,
+      1073
+    ],
+    "Open": "2024-01-16T04:00:00+08:00",
+    "Close": "2024-02-01T03:59:59+08:00",
+    "BuffName": "Lua Fragmentada",
+    "Descriptions": [
+      "Após um personagem obter um Fragmento Elemental criado por uma Reação de Cristalização, iniciará uma contabilização. Quando a contabilização chegar em 3, uma <color=#F39000FF>onda de choque será lançada</color> no local do personagem, causando Dano Real a oponentes próximos, e reiniciando a contagem. Tal onda de choque pode ser desencadeada a cada 6s."
+    ],
+    "Icon": "UI_TowerBlessing_76"
+  },
+  {
+    "Id": 87,
+    "FloorIds": [
+      1064,
+      1065,
+      1074,
+      1075
+    ],
+    "Open": "2024-02-01T04:00:00+08:00",
+    "Close": "2024-02-16T03:59:59+08:00",
+    "BuffName": "Lua Ascendente",
+    "Descriptions": [
+      "Quando um personagem recebe uma cura, será contado. Quando atingir um total de 6, uma <color=#F39000FF>Onda de Choque será desencadeada</color> na posição do personagem, causando Dano Real aos oponentes próximos e reiniciando a contagem. 1 dessas ondas de choque pode ser desencadeada a cada 8s."
+    ],
+    "Icon": "UI_TowerBlessing_72"
+  },
+  {
+    "Id": 88,
+    "FloorIds": [
+      1064,
+      1065,
+      1074,
+      1075
+    ],
+    "Open": "2024-02-16T04:00:00+08:00",
+    "Close": "2024-03-01T03:59:59+08:00",
+    "BuffName": "Lua Resiliente",
+    "Descriptions": [
+      "Depois que o Ataque Imersivo de um personagem ativo atingir os oponentes, <color=#F39000FF>o Dano do Ataque Imersivo é aumentado em 20%</color> por 8s. Esse efeito pode ser desencadeado uma vez a cada 0.1s. Máximo de 3 acúmulos. A duração de cada acúmulo é contada independentemente dos outros. Esse efeito irá terminar se o personagem deixar o campo."
+    ],
+    "Icon": "UI_TowerBlessing_78"
+  },
+  {
+    "Id": 89,
+    "FloorIds": [
+      1064,
+      1065,
+      1074,
+      1075
+    ],
+    "Open": "2024-03-01T04:00:00+08:00",
+    "Close": "2024-03-16T03:59:59+08:00",
+    "BuffName": "Lua Desabando",
+    "Descriptions": [
+      "Depois que o Ataque Imersivo de um personagem ativo atingir os oponentes, <color=#F39000FF>desencadeia uma onda de choque</color> na localização do personagem, causando Dano Real aos oponentes próximos. 1 Onda de Choque pode ser desencadeada a cada 2s."
+    ],
+    "Icon": "UI_TowerBlessing_79"
   }
 ]

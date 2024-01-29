@@ -3235,6 +3235,16 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 10307,
+    "RelationshipId": 10307,
+    "Name": "Capo Sciamachurl",
+    "Title": "Sciamano che ha accidentalmente raggiunto la Dominilluminazione",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 21040101,
     "DescribeId": 10401,
     "RelationshipId": 10401,
@@ -9143,6 +9153,32 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 60402,
+    "RelationshipId": 60402,
+    "Name": "Dominatore dei Monti Chizhang: Yiji",
+    "Title": "Geosauro",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-火"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 60403,
+    "RelationshipId": 60403,
+    "Name": "Dominatore dei Monti Chizhang: Tianyu",
+    "Title": "Geosauro",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-冰"
+    ]
+  },
+  {
     "Id": 26050101,
     "DescribeId": 60501,
     "RelationshipId": 60501,
@@ -11471,6 +11507,120 @@
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.6,
       "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190101,
+    "DescribeId": 61901,
+    "RelationshipId": 61901,
+    "MonsterName": "Hermit_Normal_01",
+    "Name": "Suanni solitario",
+    "Title": "Suanni solitario",
+    "Description": "Queste bestie mitologiche eleganti e superbe vivono solo sulle montagne avvolte da energia adeptica.\nConsiderate un simbolo di buon auspicio sin dai tempi antichi, il loro desiderio di vivere in disparte dal mondo materiale è stato motivo di ammirazione da parte degli intellettuali per generazioni. Nelle antiche leggende della Vallata Chenyu, il capo dei suanni era chiamato il Signore della Montagna e veniva considerato pari agli Adepti. \nUn'altra teoria sostiene che le bestie di Xuanwen che vagano sulle montagne al giorno d'oggi siano i discendenti dei suanni, ma perdendo la purezza originaria del loro sangue nel corso degli anni sono degenerate in creature violente. Anche se questo contraddice un'altra teoria sull'origine delle Bestie Xuanwen, i pochi documenti sui suanni mostrano spesso la presenza di un gran numero di Bestie Xuanwen.\nAl giorno d'oggi, la famosa danza Wushou nella Vallata Chenyu deriva dai movimenti dei suanni. Ma dato che sono in pochi ad aver visto tali creature, la maggior parte delle persone può solo immaginarne l'aspetto. Dopo migliaia di anni di cambiamenti e interpretazioni artistiche diverse, la testa del costume della danza Wushou è diventata il suo stile attuale.",
+    "Icon": "UI_MonsterIcon_Hermit",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113058,
+      104151,
+      104152,
+      104153,
+      104154,
+      104121,
+      104122,
+      104123,
+      104124,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 225.4944,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.7,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.7,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190201,
+    "DescribeId": 61902,
+    "RelationshipId": 61902,
+    "MonsterName": "Striped_01",
+    "Name": "Bestia Xuanwen",
+    "Title": "Bestia Xuanwen",
+    "Description": "Le bestie Xuanwen, chiamate così per via dei disegni scuri sui loro corpi, sono creature feroci che vivono sulle montagne della Vallata Chenyu.\nNel folklore della regione, nei tempi antichi queste bestie erano al servizio di un Adeptus e avevano il compito di estirpare il male e proteggere la regione. Tuttavia, dopo la dipartita di suddetto Adeptus, si sono trasformate in bestie violente... Queste leggende non possono essere verificate, e nessuno conosce la vera identità di questo Adeptus. Ciò che è certo però, è che per il proprio bene è meglio stare alla larga da queste creature aggressive.\nA causa dell'inarrestabile avanzata degli umani, nell'arco di oltre mille anni queste bestie hanno perso un'enorme quantità di territorio. Al giorno d'oggi, si vedono solo occasionalmente nelle montagne remote della Vallata Chenyu...",
+    "Icon": "UI_MonsterIcon_Striped",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112095,
+      112096,
+      112097,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 57.0528,
+      "AttackBase": 55.264,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1

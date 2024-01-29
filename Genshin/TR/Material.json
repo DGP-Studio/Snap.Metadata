@@ -1070,6 +1070,26 @@
     "Icon": "UI_ItemIcon_1102"
   },
   {
+    "MaterialType": 20,
+    "Id": 1192,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gaming'in Yaşam Yıldızı",
+    "Description": "Gaming'in Takımyıldız Etkinleştirme Malzemesi",
+    "TypeDescription": "Takımyıldızı Etkinleştirir",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1193,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Xianyun'un Yaşam Yıldızı",
+    "Description": "Xianyun'un Takımyıldız Etkinleştirme Malzemesi",
+    "TypeDescription": "Takımyıldızı Etkinleştirir",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
     "MaterialType": 5,
     "Id": 1201,
     "RankLevel": 5,
@@ -2426,6 +2446,26 @@
     "Description": "Morte Bölgesi'nin sularına karışmış saf bir çiy damlası. Diğer saf su kütlelerinden farklıdır, sanki daha saf ve ilkel Element Enerjisinin birikimiyle oluşmuş gibidir.",
     "TypeDescription": "Fontaine Yöresel Ürünü",
     "Icon": "UI_ItemIcon_101240"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101241,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Berrak Su Yeşimi",
+    "Description": "Chenyu Vadisi'nden bir yeşim. İsmini, berrak suları anımsatan soğuk ve iç ferahlatıcı görünüşünden alır.",
+    "TypeDescription": "Liyue Yöresel Ürünü",
+    "Icon": "UI_ItemIcon_101241"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101242,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chenyu Adeptus Çayı",
+    "Description": "Chenyu Vadisi'nin sıcak ve nemli bölgelerinde yetişen çay. Binlerce yıllık özenli yetiştirme sayesinde, çayın o zengin kokusunu birkaç sokak öteden bile almak mümkündür.",
+    "TypeDescription": "Yemek Malzemesi",
+    "Icon": "UI_ItemIcon_101242"
   },
   {
     "MaterialType": 25,
@@ -11406,7 +11446,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "Yue Chuan'ın Sürüklenen Şişesi",
-    "Description": "Yue Chuan'ın Minik Meng'e verdiği cevabın bulunduğu sürüklenen bir şişe. Acaba ona ulaşacak mı?...",
+    "Description": "Yue Chuan'ın Minik Meng'e verdiği cevabın bulunduğu sürüklenen bir şişe. Acaba ona ulaşacak mı...",
     "TypeDescription": "Görev Eşyası",
     "Icon": "UI_ItemIcon_100349"
   },
@@ -15795,6 +15835,16 @@
     "Description": "Fontaine çevresinde bulunan kadim Derinlikler Tapınaklarının mührünü kırabilen bir anahtar.\nDerinlikler Tapınaklarını inşa eden medeniyet yok olup gidince tapınaklar kendilerini mühürledi. Zindanların derinliklerinde bulunabilen anahtarlar bu mühürleri kırabilir. Belki de bu anahtarlar, mühürlerin kaybettiklerini unutmasına yardımcı oluyordur.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_107025"
+  },
+  {
+    "MaterialType": 10,
+    "Id": 107026,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ruh Sazanı",
+    "Description": "Dağlar, vadiler ve derelerde özgürce yüzen, yoğunlaşmış Adeptus enerjisinden oluşan bir Ruh Sazanı.",
+    "TypeDescription": "Macera Eşyası",
+    "Icon": "UI_ItemIcon_107026"
   },
   {
     "MaterialType": 1,
@@ -20576,7 +20626,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Krema Soslu Balık (Lezzetli)",
-    "Description": "Sosla servis edilen bir balık yemeği. Enfes kremalı sosun üzerinde yarı saydam bir fileto. Sadece küçücük bir lokmada bile, taptaze balığın o muhteşem lezzetini alabilirsin.",
+    "Description": "Sosla birlikte servis edilen bir balık yemeği. Krema sosuna bandırılmış ışıl ışıl balık filetoları, daha ilk ısırıkta sanki denizden yeni çıkmış gibi taptaze bir tat sunar.",
     "TypeDescription": "Yiyecek",
     "Icon": "UI_ItemIcon_108434"
   },
@@ -22649,6 +22699,457 @@
     "Icon": "UI_ItemIcon_108622"
   },
   {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Maks. Canını %20 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108624,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Saray Mücevherleri (Tuhaf)",
+    "Description": "Enfes kokulu bir Liyue yemeği. Düzgün ayıklanmamış karides ve yarı pişmiş yengeç yumurtaları, sanki aralarında ölümcül bir savaş çıkmış gibi etrafa korkunç kokular yayıyor. Çiğ malzemelerin hâlâ çok taze olduğu düşünüldüğünde, bu feci kabus bir yemek olarak kabul edilebilir... Kokuyu görmezden gelebilirsen tabii.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108625"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Maks. Canını %22 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108625,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Saray Mücevherleri",
+    "Description": "Enfes kokulu bir Liyue yemeği. Sosa bulanan karidesler, zengin yengeç yumurtası ile birlikte pişirilir. Altın gibi göz kamaştıran yengeç yumurtaları ile yeşim gibi parlayan karidesten ötürü yemek \"Saray Mücevherleri\" adını almıştır.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108625"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Maks. Canını %25 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108626,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Saray Mücevherleri (Lezzetli)",
+    "Description": "Lezzetli bir Liyue yemeği. İncecik karides etine sarılmış yumuşacık ve pürüzsüz yengeç etini görenler, sanki muhteşem bir hazineymiş gibi istemsizce tabağa doğru uzanır. Küçücük bir ısırıkta dahi ağzının içinde lezzet dalgaları oluşur, kendini karides ve yengeçten bir nehre kapılmış süzülürken bulursun.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108625"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Kritik Oranını %10 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108627,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Çalsın Sazlar Üflensin Kavallar (Tuhaf)",
+    "Description": "Oldukça değişik bir et yemeği. Kıyılmış etler çok yüksek ateşte pişirildiği için bütünleşmiş ve resmen cıvık bir et bulamacına dönüşmüş. Tek bir ısırık bile, damağının bu tat karmaşasından irkilmesi için yeterli.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108628"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Kritik Oranını %15 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108628,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Çalsın Sazlar Üflensin Kavallar",
+    "Description": "Oldukça değişik bir et yemeği. Çeşitli etlerin kıyılıp yoğrulması ve ardından kızartılmasıyla her birinin lezzeti ortaya çıkarılır. Zorlu malzemeler ve farklı dokular şefin yeteneklerinin sınırlarını zorlar, bu yüzden en meşhur restoranlarda bile nadiren bulunur.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108628"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Kritik Oranını %20 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108629,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Çalsın Sazlar Üflensin Kavallar (Lezzetli)",
+    "Description": "Oldukça değişik bir et yemeği. Bu lezzet orkestrasında her bir çeşit kıyılmış et farklı bir rol oynarken, hafifçe kullanılan baharatlar da değişik tonlardaki tatları ustaca bir araya getiriyor. Bir eleştirmenin de söylediği gibi, nasıl ki müzikte sayısız makam, çeşitli tınılar ve karmaşık besteler varsa lezzette de aynı şeyler geçerlidir. Lezzet sanatını zirvede icra edenler, seni bambaşka diyarlara alıp götürebilir...",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108628"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %26 yeniler ve 30 saniye boyunca 5 saniyede bir 450 Can verir.",
+    "Id": 108630,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sıcacık Aşım (Tuhaf)",
+    "Description": "Baharatlı bir tofu yemeği. Tofu, mevcut haliyle yenemeyecek derecede acı ama eğer üzerindeki fazla baharatı almak için biraz uğraşırsan belki miden kaldırabilir...",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108631"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %28 yeniler ve 30 saniye boyunca 5 saniyede bir 620 Can verir.",
+    "Id": 108631,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sıcacık Aşım",
+    "Description": "Baharatlı bir tofu yemeği. Sotelenen tofu, sosu karamelize olana kadar tavada pişirilir ve ardından servis edilir. Sıradan malzemelerle yapılmasına rağmen ortaya pilavın yanına çok yakışan, enfes kokulu ve hoş bir yemek çıkar.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108631"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %30 yeniler ve 30 saniye boyunca 5 saniyede bir 790 Can verir.",
+    "Id": 108632,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sıcacık Aşım (Lezzetli)",
+    "Description": "Baharatlı bir tofu yemeği. Kızarmış tofu, yanında zengin ve şık bir soya sosu ile gelir. Daha ilk ısırıkta kendini hissettiren acıya hafif bir et tadı eşlik eder ve damağında hoş bir lezzet ile uzun süren bir tat kalır.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108631"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Savunmasını 165 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108633,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Gurbetteki Yuva (Tuhaf)",
+    "Description": "Bol malzemeli bir yemek. Yetersiz ısıdan ve aşırı nemden dolayı tadı yavan ve normalde olması gereken o isli tattan eser yok. Bir dahaki sefere artık, mümkünse malzemeleri daha yüksek ateşte kızartarak...",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108634"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Savunmasını 200 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108634,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Gurbetteki Yuva",
+    "Description": "Jambon, kuş yumurtası ve diğer malzemelerin pirinçle birlikte kızartılarak yapıldığı Liyue'nin başlıca yemeklerinden biri. Envai çeşit malzeme ve farklı pişirme yöntemlerinden dolayı Liyue'deki hemen hemen her evde afiyetle yenir.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108634"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Savunmasını 235 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108635,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Gurbetteki Yuva (Lezzetli)",
+    "Description": "Bol malzemeli bir yemek. Altın renkli yumurta sarısı her bir pirinç tanesinin üzerini kaplamış ve yüksek ateşte jambonun tadı bütün yemeğe sinmiş. İnsana kendi evini hatırlatan o tanıdık lezzetin, uzaklardan gelen dostlara ve akrabalara kendilerini evlerinde gibi hissettireceği kesin.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108634"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Kalkan Gücünü %25, Savunmasını 165 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108636,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sekiz Hazine Ördeği (Tuhaf)",
+    "Description": "Yapımı gerçekten maharet isteyen bir yemek. Kemikleri ayıklamaktan neredeyse gözlerin bozuldu. Tam anlamıyla bir sabır, dayanıklılık ve aynı zamanda bıçak kullanma becerisi sınavı oldu bu yemek. O kadar özenle hazırladığın ördeğin tavada pişerken resmen patlamış olması da çok yazık oldu... Şimdi gözlerini kapat, sakinleş ve bu yemeği tekrar yapmayı aklından çıkar.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108637"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Kalkan Gücünü %30, Savunmasını 200 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108637,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sekiz Hazine Ördeği",
+    "Description": "Yapımı gerçekten maharet isteyen bir yemek. Adına sekiz hazine denen sekiz farklı çeşit et ve sebze, kemikleri ayıklanmış bir ördeğin içine doldurulur. Daha sonra ördeğe şans ve uğur sembolü olan asma kabağı şekli verilir. Seçkin malzemeler, üstün bir kesim tekniği ve muhteşem bir zamanlama gerektiren bu yemek, son tabak olarak sunulduğu tüm ziyafet sofralarındaki yerini hak ediyor.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108637"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Kalkan Gücünü %35, Savunmasını 235 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108638,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sekiz Hazine Ördeği (Lezzetli)",
+    "Description": "Yapımı gerçekten maharet isteyen bir yemek. Tombul ve lezzetli görünen şanslı ördeği daha tavadan aldığın an yememek için kendini zor tutarsın. Enfes kokulu sosu eklediğinde oluşan gül rengi parlaklık ile birlikte yemek mükemmel bir görüntü, tat ve şekil bütününe kavuşur. Her ısırık, ağızda gerçek bir lezzet patlaması yaşatırken ardında uzun süren ve hoş bir tat bırakır.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108637"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Kritik Oranını %6 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108639,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Çifte Çıtır Kızartması (Tuhaf)",
+    "Description": "Liyue'nin meşhur yemeklerinden biri. Yemeği tavada sadece bir kez dikkatsizce çevirmenle yükselen alevler, acımasızca tüm çıtırlığı ve yumuşaklığı alıp götürdü ve yerine yanmış, kararmış parçalardan başka bir şey kalmadı.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108640"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Kritik Oranını %9 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108640,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Çifte Çıtır Kızartması",
+    "Description": "Liyue'nin meşhur yemeklerinden biri. Harlı ateş, kızgın yağ ve soteleme işlemi gerektiren bu yemek, şefin yetenekleri için zorlu bir testtir. Birkaç saniye az pişse malzeme çiğ kalır, çok pişse bu sefer de çıtırlığı gider. Bu sebepten ötürü tecrübeli Liyue aşçıları becerilerini göstermek için sık sık bu yemeği seçer.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108640"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Kritik Oranını %12 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108641,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Çifte Çıtır Kızartması (Lezzetli)",
+    "Description": "Liyue'nin meşhur yemeklerinden biri. Sosla kaplanan kırmızı ve beyaz etler, tavada birlikte kızartılır ve damak bahçesinde çiçek açarlar adeta. Bu pürüzsüz, gevrek, tuzlu ve enfes yemeği herkes mutlaka tatmalı. Tabağı silip süpürdükten sonra dahi yemeği övmeyi bırakamazsın.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108640"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 160 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108642,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Köfte Kavurma (Tuhaf)",
+    "Description": "Klasik bir Liyue yemeği. Yuvarlak şekli ve aroması sanki yerinde ama tadına baktığında biraz fazla kuru olduğunu fark ediyorsun. Belki de kullandığın et biraz fazla yağsızdı.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108643"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 194 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108643,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Köfte Kavurma",
+    "Description": "Klasik bir Liyue yemeği. Yağlı ve yağsız et parçaları, çıtır bambu filizleriyle karıştırılıp köfte haline getirilir. Köfteler önce kızartılıp sonra haşlanır. Hem evlerde hem de ziyafetlerde kendine yer bulan popüler bir yemektir.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108643"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 228 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108644,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Köfte Kavurma (Lezzetli)",
+    "Description": "Klasik bir Liyue yemeği. Zümrüt yeşili taze soğan ve yakut kırmızısı köfte birbirini mükemmel şekilde tamamlarken, hassas ve olağanüstü bir bıçak işçiliğiyle hazırlanan köfte ağızda eriyor. Tam kıvamında yağlı olan bu yemeğin haftalarca dillerden düşmeyeceği garanti. Şans getirmesi için tabağındakileri bitirdiğinden emin ol!",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108643"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %8 yeniler ve 30 saniye boyunca 5 saniyede bir 210 Can verir.",
+    "Id": 108645,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Ballı Char Siu (Tuhaf)",
+    "Description": "Liyue'den bir çeşit kızarmış et yemeği. Aşırı derecede tatlı sosu, damak için usandırıcı bir işkenceden farksız. Yerlilerin de söylediği gibi küçük hatalar büyük sorunlara yol açar ve belli ki yemek yaparken de aynı durum geçerli.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108646"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %9 yeniler ve 30 saniye boyunca 5 saniyede bir 260 Can verir.",
+    "Id": 108646,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Ballı Char Siu",
+    "Description": "Liyue'den bir çeşit kızarmış et yemeği. Marine edilen et, metalden özel bir şişe takılarak ateşin üstüne asılır ve bu şekilde pişirilir. Taze kızarmış Char Siu, birçok gurmenin favori lezzetlerinden biridir.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108646"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %10 yeniler ve 30 saniye boyunca 5 saniyede bir 300 Can verir.",
+    "Id": 108647,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Ballı Char Siu (Lezzetli)",
+    "Description": "Liyue'den bir çeşit kızarmış et yemeği. Zengin kırmızı rengi, kokusu ve yoğun lezzetiyle harika bir bütün olmuş. Daha bakarken aşırı yemekten bayılacağını hissediyor insan. Bir parça et, biraz da zengin sostan derken bu lezzet deneyimi için bir kase pilav yetmeyecek gibi.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108646"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %30 yeniler, ardından 600 Can verir.",
+    "Id": 108648,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Çaylı Dolunay (Tuhaf)",
+    "Description": "Çayla birlikte yenilen ve yumurta sarısından yapılan bir hamur işi. Daha eline aldığın anda hamurun katmanları heyelan gibi dökülmeye başlıyor. İlk ısırıkta da yapış yapış, şekerli ve boğucu geliyor... Tam o sırada boğazına takılan parçayı yutmak için su içerken, tatlının kalanıyla ne yapacağını düşünüyorsun.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108649"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %32 yeniler, ardından 1.250 Can verir.",
+    "Id": 108649,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Çaylı Dolunay",
+    "Description": "Çayla birlikte yenilen ve yumurta sarısından yapılan bir hamur işi. Tuz eklenen yumurta sarısı önce buharda pişirilir, daha sonra içinde çay tozu bulunan hamura sarılır ve dolunay şekli verilerek fırına gönderilir. Bu sayede dışı çıtır çıtır ve gevrek, içi hem tuzlu hem tatlı olur. Böylece bağımlılık yaratan, farklı lezzet katmanlarının olduğu bir tat haline gelir.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108649"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %34 yeniler, ardından 1.900 Can verir.",
+    "Id": 108650,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Çaylı Dolunay (Lezzetli)",
+    "Description": "Çayla birlikte yenilen ve yumurta sarısından yapılan bir hamur işi. Yumurta sarısının akışkan ve narin yapısı çayın hafif kokusuna karışmış. Küçücük bir lokma bile insanın başını döndüren, içten bir mutlulukla sarmalanmasını sağlıyor. İstersen art arda hepsini ağzına at, senden kırıntısını bile almaya çalışanın vay haline.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108649"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Bir karakteri diriltir ve 50 Can yeniler.",
+    "Id": 108651,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Yeşim Desenli Çay Yumurtası (Tuhaf)",
+    "Description": "Geleneksel bir Liyue atıştırmalığı. Tadının normal bir haşlanmış yumurtadan hiçbir farkı yok. Acaba çay yapraklarında mı sorun vardı, yoksa pişirirken mi bir şeyler oldu?",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108652"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Bir karakteri diriltir ve 100 Can yeniler.",
+    "Id": 108652,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Yeşim Desenli Çay Yumurtası",
+    "Description": "Liyue sokaklarında epey popüler olan geleneksel bir atıştırmalık. Yumurta haşlanırken kabuğundaki çatlaklardan içeri çayın tadı sızar ve yumurtanın üzerinde yeşimlerde görülen parçalı, hoş desenler oluşur.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108652"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Bir karakteri diriltir ve 150 Can yeniler.",
+    "Id": 108653,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Yeşim Desenli Çay Yumurtası (Lezzetli)",
+    "Description": "Geleneksel bir Liyue atıştırmalığı. Çayın aroması yumurtaya mükemmel bir şekilde karışmış. Lokma lokma ya da tek bir seferde de yesen, adeta bir lezzet yumağı.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108652"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %20 yeniler, ardından 900 Can verir.",
+    "Id": 108654,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Çay Tütsülü Güvercin (Tuhaf)",
+    "Description": "Son derece sevilen bir yemek. Güvercinin yanık butları ve kanatları, pişirirken ateşin doğru kontrol edilemediğinin göstergesi. Biraz sabırlı olursan belki yiyebilirsin.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108655"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %22 yeniler, ardından 1.200 Can verir.",
+    "Id": 108655,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Çay Tütsülü Güvercin",
+    "Description": "Son derece sevilen bir yemek. Güvercin eti bir gece önceden çay ve sosla marine edilir, ardından kurutulur. Daha sonra yağda kızartıldığında çayın o muhteşem aroması eti kaplar. Ziyafetlerde sunulan bu lezzetin elde edildiği teknik, yıllardan beri şefler arasında aktarılarak bugüne kadar gelmiştir.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108655"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %24 yeniler, ardından 1.500 Can verir.",
+    "Id": 108656,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Çay Tütsülü Güvercin (Lezzetli)",
+    "Description": "Son derece sevilen bir yemek. Saydamlaşmış güvercinin derisi kağıt gibi incecik ve gevrek, eti ise sıkı ve dolgundur. Enfes bir sosun eşlik ettiği bu yemek hem kalpleri hem de mideyi fetheder.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108655"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Savunmasını 88 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108657,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Guhua Kuzu Balık Çorbası (Tuhaf)",
+    "Description": "Tarih boyunca izlerine rastlanan eski bir yemek. Ancak ağır kokulu et ile kokuşmuş balık, ağzında resmen bir savaş verirken bunları düşünmeye fırsat olmuyor. Zavallı ağzını bundan sonra sonsuza dek yıkasan yeridir.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108658"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Savunmasını 107 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108658,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Guhua Kuzu Balık Çorbası",
+    "Description": "Tarih boyunca izlerine rastlanan eski bir yemek. Taze balıkla kuzu eti birlikte haşlanır ve balığın yumuşak dokusu ile kuzunun lezzeti birleşerek ortaya harika bir lezzet çıkarır.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108658"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Savunmasını 126 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108659,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Guhua Kuzu Balık Çorbası (Lezzetli)",
+    "Description": "Tarih boyunca izlerine rastlanan eski bir yemek. Süt kıvamındaki beyaz çorba boğazından akarken, iki tane midem olsa da daha fazla yesem diye düşünürsün. Kışın koca bir tencere içsen, bahar geldiğinde keşke hâlâ içiyor olsam dersin.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108658"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %8 yeniler ve 30 saniye boyunca 5 saniyede bir 210 Can verir.",
+    "Id": 108660,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Chenyu Çayı (Tuhaf)",
+    "Description": "Liyue'de çok yaygın olan bir çay. Çay diye verdikleri bu şeyin tadının hâlâ su gibi olduğunu doğrulamak için sürekli şüpheyle bir yudum daha alırken buluyorsun kendini. Acaba su mu sıcak değildi, yoksa çay mı yeterince demlenmedi?",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108661"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %9 yeniler ve 30 saniye boyunca 5 saniyede bir 260 Can verir.",
+    "Id": 108661,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Chenyu Çayı",
+    "Description": "Liyue'de çok yaygın olan bir çay. Bazen hayat, bir yudum çaydan sonra ağızda kalan tat gibidir.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108661"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %10 yeniler ve 30 saniye boyunca 5 saniyede bir 300 Can verir.",
+    "Id": 108662,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Chenyu Çayı (Lezzetli)",
+    "Description": "Liyue'de çok yaygın olan bir çay. İlk yudumunla birlikte zarif ve hafif bir esinti kaplar bedenini, Chenyu Vadisi'nden gelen o lezzetli aroma dudaklarından ve dilinden süzülüp aşağı iner. Dinle, kulaklarında çalan bu ses dağ pınarlarının tatlı şırıltısı değil mi?",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108661"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 274 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108663,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Dört Köşe Keyif",
+    "Description": "Xianyun'un özel tarifi. Enfes kokulu köfteleri gördüğün anda yaşadığın şoku daha üzerinden atamadan Xianyun şunları söylüyor: \"Ah, böyle sıradan bir yemeğin şahsımı zorlayacağını mı sanmıştın? Soğumadan yesen iyi olur, ben de senin için huzur, mutluluk ve bereket dolu, sıkıntıdan uzak bir hayat dileyebilirim... *öksürür* Ne var yani? Formaliteden de olsa arada bir ayin ciddiyeti takınmaktan kimseye zarar gelmez.\"",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108663"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %14 yeniler ve 30 saniye boyunca 5 saniyede bir 350 Can verir.",
+    "Id": 108664,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Yumulmalık Yum Cha",
+    "Description": "Gaming'in özel tarifi. Gerçeğinin bire bir aynısı Suanni somunları, buharda pişmesi için sıra sıra hasır sepete dizilmiş. Erik Çiçeği Direkleri arasında hoplayan o zeki genç çocukları anımsatıyor adeta... \"O yüzündeki şaşkın ifade de ne öyle? Gel önce bir çay içelim.\" diyen genç adam, neşeyle gülümseyerek fincanı sana uzatır.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108664"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
@@ -24419,6 +24920,136 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109561,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Saray Mücevherleri",
+    "Description": "Saray Mücevherleri yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109562,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Çalsın Sazlar Üflensin Kavallar",
+    "Description": "Çalsın Sazlar Üflensin Kavallar yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109563,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Sıcacık Aşım",
+    "Description": "Sıcacık Aşım yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109564,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Gurbetteki Yuva",
+    "Description": "Gurbetteki Yuva yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109565,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tarif: Sekiz Hazine Ördeği",
+    "Description": "Sekiz Hazine Ördeği yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109566,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Tarif: Çifte Çıtır Kızartması",
+    "Description": "Çifte Çıtır Kızartması yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109567,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Köfte Kavurma",
+    "Description": "Köfte Kavurma yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109568,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Tarif: Ballı Char Siu",
+    "Description": "Ballı Char Siu yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109569,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Çaylı Dolunay",
+    "Description": "Çaylı Dolunay yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109570,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Tarif: Yeşim Desenli Çay Yumurtası",
+    "Description": "Yeşim Desenli Çay Yumurtası yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109571,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Tarif: Çay Tütsülü Güvercin",
+    "Description": "Çay Tütsülü Güvercin yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109572,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Tarif: Guhua Kuzu Balık Çorbası",
+    "Description": "Guhua Kuzu Balık Çorbası yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109573,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Tarif: Chenyu Çayı",
+    "Description": "Chenyu Çayı yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -25755,6 +26386,36 @@
   },
   {
     "MaterialType": 14,
+    "Id": 112095,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Sırt Tüyü",
+    "Description": "Yenilen bir Xuanwen Canavarının sırtından alınmış bir tüy parçası.\nXuanwen Canavarları uzun mesafeler uçamaz fakat bu tüyler sayesinde avlarının peşinden hızla gidebilirler.",
+    "TypeDescription": "Karakter ve Silah Geliştirme Malzemesi",
+    "Icon": "UI_ItemIcon_112095"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112096,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ay Işığı Sırt Tüyü",
+    "Description": "Yenilen bir Xuanwen Canavarının sırtından alınmış bir tüy parçası.\nTüylerin saçtığı ay ışığını andıran hafif parıltının sakinleştirici bir etkisi var.",
+    "TypeDescription": "Karakter ve Silah Geliştirme Malzemesi",
+    "Icon": "UI_ItemIcon_112096"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112097,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kanyon Işığı Sırt Tüyü",
+    "Description": "Yenilen bir Xuanwen Canavarının sırtından alınmış zarif bir tüy parçası.\nSaçtığı soluk ışık Adeptus enerjisi izleri taşır. Gecenin sessizliğinde, yaratıkların en vahşileri bile bir anlığına da olsa huzurlu bir uykuya dalar ve rüya görmenin yalnızca insanlara mahsus olmadığı zamanları anımsar.",
+    "TypeDescription": "Karakter ve Silah Geliştirme Malzemesi",
+    "Icon": "UI_ItemIcon_112097"
+  },
+  {
+    "MaterialType": 14,
     "Id": 113001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -26325,6 +26986,16 @@
   },
   {
     "MaterialType": 14,
+    "Id": 113058,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bulut Pulu",
+    "Description": "Bir Yalnız Suanni'nin sert ve soğuk pulları. Kopmuş olmalarına rağmen saf Adeptus enerjisini muhafaza eder ve normal silahlar ile hasar verilemez.\nSıradan yaratıklar bazen yanlışlıkla Adeptus enerjisine maruz kalıp normalden daha güçlü olabilirler. Ancak bir Suanni'nin Adeptus enerjisi kendi içinden gelir, bu sebeple liderleri de Adeptuslarla eşit seviyede görülür.",
+    "TypeDescription": "Karakter Seviyesi Yükseltme Malzemesi",
+    "Icon": "UI_ItemIcon_113058"
+  },
+  {
+    "MaterialType": 14,
     "Id": 114001,
     "RankLevel": 2,
     "ItemType": 2,
@@ -26489,7 +27160,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Sis Kaplı Kurşun Cevher",
-    "Description": "Silah Yükseltme Malzemesi.\nJueyun Gölü, kudretli ve göz kamaştıran Adeptusların diyarıdır. Dünyanın elementlerini kontrol etme yeteneğinin dışında Jueyun Gölü üç sırrı daha bünyesinde barındırır: Simya, Mühürler ve Alt Uzay Yaratma.",
+    "Description": "Silah Yükseltme Malzemesi.\nJueyun Gölü, kudretli ve aydınlanmış Adeptusların diyarıdır. Dünyanın elementlerini kontrol etme yeteneğinin dışında Jueyun Gölü üç sırrı daha bünyesinde barındırır: Simya, Mühürler ve Alt Uzay Yaratma.",
     "TypeDescription": "Silah Yükseltme Malzemesi",
     "Icon": "UI_ItemIcon_114017"
   },
@@ -30705,6 +31376,36 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120425,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zaman Yolcusu (I)",
+    "Description": "Buğukuş'un yayınladığı bir bilim kurgu romanı. Bir mühendisin zaman makinası ile yaptığı yolculukları anlatır.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120797"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120426,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zaman Yolcusu (II)",
+    "Description": "Buğukuş'un yayınladığı bir bilim kurgu romanı. Bir mühendisin zaman makinası ile yaptığı yolculukları anlatır.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120797"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120427,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zaman Yolcusu (III)",
+    "Description": "Buğukuş'un yayınladığı bir bilim kurgu romanı. Bir mühendisin zaman makinası ile yaptığı yolculukları anlatır.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120797"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120428,
     "RankLevel": 4,
     "ItemType": 2,
@@ -32065,6 +32766,56 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120615,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Resim: Ay Işığındaki Nilüfer Göleti",
+    "Description": "Ay ışığının aydınlattığı Nilüfer Göletinin güzel bir resmi.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120617"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120616,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Resim: Qiaoying Misafirleri",
+    "Description": "Qiaoying Köyü'nün güzel bir resmi.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120616"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120617,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Resim: Yeşimağzı Sessizliği",
+    "Description": "Yeşimağzı'nın güzel bir resmi.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120615"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120618,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Resim: Xuanlian Dağı",
+    "Description": "Xuanlian Dağı'nın güzel bir resmi.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120618"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120619,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Chenyu Vadisi Gezi Rehberi",
+    "Description": "Yerlilerin tavsiyelerine göre hazırlanmış, bölgedeki büyüleyici manzaraları tanıtan turistik bir rehber.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100105"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120621,
     "RankLevel": 0,
     "ItemType": 2,
@@ -32686,6 +33437,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120724,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kadim Bitki Dalı",
+    "Description": "Kadim bir çay bitkisinden alınan bir dal. Zayıf bir Adeptus enerjisi yayar...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120724"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120725,
     "RankLevel": 0,
     "ItemType": 2,
@@ -32906,6 +33667,46 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120754,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Wangshan Konağı Yedek Anahtarı",
+    "Description": "Üçüncü Huang'dan aldığın paslı bir anahtar.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120754"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120755,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Paimon'un Spesiyali",
+    "Description": "Üçüncü Huang'ın anlattığına göre Büyük Usta Guhua, tekniklerini aktarırken ödeme olarak Mora yerine pirinç ve tuzlanmış et kabul edermiş. Bu hikayeden yola çıkarak Paimon da tüm kalbini (ve tuzunu) bu süper özel yemeğe koydu...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120755"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 120757,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Mora Kesesi",
+    "Description": "Woliu'dan aldığın ödeme. İçinde iki tarafı da tatmin etmeye yetecek kadar Mora var.",
+    "TypeDescription": "Sarf Malzemesi",
+    "Icon": "UI_ItemIcon_100309"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120758,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Woliu'nun Kazı Ekipmanı",
+    "Description": "İçinde kazı ekipmanı olan bir kutu. Bununla ne kazılıp çıkartılacak kim bilir...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120759,
     "RankLevel": 0,
     "ItemType": 2,
@@ -32956,6 +33757,86 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120769,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Sazan Ruh Küresi",
+    "Description": "Altın Sazan heykeline işlenmiş bir küre. Muazzam bir Adeptus enerjisi barındırıyor.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120769"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120785,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Harabe Makinası Çekirdeği",
+    "Description": "Chenyu Vadisi harabelerinde keşfedilen bir güç kaynağı mekanizması. İçinde kalan enerjiyle bir Harabe Muhafızı daha etkin hale getirilebilir.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_112025"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120786,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Yeşim Parçası (Sol)",
+    "Description": "Çevresinde Adeptus enerjisi dolaşan yeşim parçası. Kadim halkın anlattığı efsanelerde, tüm yeşimlerin aslında aynı taştan geldiği söylenir. Eğer bu doğruysa tüm yeşim parçalarını bir araya getirmek mümkün olabilir...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120786"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120787,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Yeşim Parçası (Sağ)",
+    "Description": "Çevresinde Adeptus enerjisi dolaşan yeşim parçası. Kadim halkın anlattığı efsanelerde, tüm yeşimlerin aslında aynı taştan geldiği söylenir. Eğer bu doğruysa tüm yeşim parçalarını bir araya getirmek mümkün olabilir...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120787"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120788,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kokulu Odun \"Huangcong\"",
+    "Description": "Ayin seremonilerinde kullanılan ve hafif bir kokusu olan, zarifçe oyulmuş kokulu bir odun parçası. Şekline bakılacak olursa başka bir kokulu odun parçası ile birleşerek tamamlanması gerek.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120788"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120789,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kokulu Odun: \"Chizhang\"",
+    "Description": "Ayin seremonilerinde kullanılan ve yanık bir kokusu olan, zarifçe oyulmuş kokulu bir odun parçası. Şekline bakılacak olursa başka bir kokulu odun parçası ile birleşerek tamamlanması gerek.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120789"
+  },
+  {
+    "MaterialType": 52,
+    "Id": 120790,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Chenyu Vadisi Yürüyüşümüz\" Albümü",
+    "Description": "Birçok harika fotoğraf içeren bir anı albümü. Şaşırtıcı bir şekilde fotoğrafların yarısından çoğunu aynı kişi çekmiş.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120790"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120792,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Garip Anahtar",
+    "Description": "Garip görünümlü bir anahtar. Kim bilir hangi kilidi açıyor...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120796,
     "RankLevel": 0,
     "ItemType": 2,
@@ -32996,6 +33877,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120806,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kadim Taş Tablet",
+    "Description": "Kadim Taş Tablet",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120807,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33013,6 +33904,106 @@
     "Description": "Gazete kuryesi Pip, Leroy ailesinin yakın zamanda almadığı gazeteleri bu paketin içine doldurmuş.",
     "TypeDescription": "Görev Eşyası",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120812,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Unutulmuş Anahtar (I)",
+    "Description": "Chenyu Vadisi'nin vahşi doğasında kaybolmuş bir anahtar. Ne işe yarıyor acaba?",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120813,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Unutulmuş Anahtar (II)",
+    "Description": "Chenyu Vadisi'nin vahşi doğasında kaybolmuş bir anahtar. Ne işe yarıyor acaba?",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120841,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kutsal Xuanlian Suyu",
+    "Description": "İsmi \"kutsal\" olmasa Xuanlian Dağı yakınlarından gelen bu suyun hiç de özel bir yanı yok. Aksine, ismini öğrendikten sonra baktığında sanki sudan yükselen bir Adeptus havası sezmeye başlıyorsun.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120841"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120842,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kadim Yeşim Bardak",
+    "Description": "Vahşi doğada kaybolmuş eski bir çay bardağı. Adeptuslara özgü hafif bir hava yayıyor.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120842"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120843,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Birinin Muhasebe Defteri",
+    "Description": "Wangshan Konağı'nda bulduğun bu muhasebe defterinde her bir gelir ve gider için detaylı kayıtlar girilmiş.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120843"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120845,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kutsal Yağmur Yeşimi",
+    "Description": "Adeptus Fujin'in kadim zamanlarda attığı son değerli taş. Diğer sıradan yeşim taşlardan bir farkı varmış gibi görünmese de yakındaki toprak ve suları dönüştürmeye yetecek kadar Adeptus enerjisi barındırıyor...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120845"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120851,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chizhang Haritası",
+    "Description": "Deponun yeri, Taşordu'nun geride bıraktığı bu haritada gösterilmiş.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120274"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120853,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Eski Şehir Anahtarı",
+    "Description": "Epeydir paslı olduğu anlaşılan bu anahtar, Chizhang Seddi üzerindeki bir deponun kapısını açmaya yarıyor.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120854,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Paslı Anahtar",
+    "Description": "Chenyu Vadisi'nde bulduğun bu anahtar pas tutmuş ama yine de kullanılabilir...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120857,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pelikanın Ağzından Kaptığın Balık",
+    "Description": "Qiaoying Köyü rıhtımındaki bir pelikanın ağzından almayı başardığın balık. Kimi canlılar için bir hazine değerinde olan bu balığı, bazı hayvanların her gün yemek yediği kaba koyarsan bir zamanlar kaybolmuş bazı şeyler için gönül alman mümkün olabilir...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100084"
   },
   {
     "MaterialType": 31,
@@ -33683,6 +34674,16 @@
     "Description": "Su altı projeleri için yardım sunan, Meka gruplarının kullanım oranını artırmak için geliştirilen kompakt bir yardım Mekası. Aslında diğer Kurmalı Mekaların önemli parçaları tıkanmasın ve arıza yaşanmasın diye su altında çöp, ot ve diğer atıkları toplamak üzere tasarlanmıştır. Bir başka bakış açısına göre Fontaine ekosistemine su altı temizlikçileri olarak büyük katkıda bulunmaktadırlar.\nDiğer seri üretim modellere kıyasla bu özel \"Altın Lider\" yardımcı meka, şeffaf altın bir kasaya ve özel kontrol ekipmanına sahiptir. Proje ekibi bunu özellikle karmaşık su altı ortamlarında komut iletim istasyonu olarak çalışması, komutları kontrol biriminden alıp gruptaki mekalara tekrar iletmesi ve son derece önemli olan liderlik görevini üstlenmesi için tasarlamıştır.\nAncak tüm teknisyen meka projesinin durdurulmasıyla birlikte bu lider mekanın da bir anlamı kalmamıştır. Yalnızca oldukça ayırt edici olan altın kasaları, onları toplayan balıkçıların gözünde bu mekaları oldukça değerli kılar.",
     "TypeDescription": "Balık",
     "Icon": "UI_ItemIcon_131036"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131037,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Yeşim Kalp Tüylü Levrek",
+    "Description": "Yandan bakıldığında kalp şekline benzeyen, levreğin akrabası olduğu söylenen tuhaf bir balık. Sırt ve karın kısmında bulunan tüy inceliğindeki esnek kılçıklardan oluşan yüzgeçlerinden ötürü araştırmacılar bu balık için \"Kalp Tüylü Levrek\" ismini önermişlerdir.\nYeşim Kalp Tüylü Levrek, ismini sudayken büründüğü yeşime benzeyen renkten alır. Nazik görüntüsünün aksine oldukça dayanıklı ve farklı su çevrelerine uyum sağlayabilen bir yapısı vardır. Chenyu Vadisi'nin temiz suları, bu balığın kaygıdan uzak ve rahat bir hayat yaşayıp gelişmesi için son derece uygun bir ortamdır.",
+    "TypeDescription": "Balık",
+    "Icon": "UI_ItemIcon_131037"
   },
   {
     "MaterialType": 36,
@@ -34670,7 +35671,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 99",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Ballad of Many Waters\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -34680,7 +35681,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 100",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Coruscating Street\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -34690,7 +35691,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 101",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Throughout the Flow of Years\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -34700,7 +35701,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 102",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Miraculous Whisper\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -34710,7 +35711,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 103",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Surging Reminiscence\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -34720,7 +35721,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 104",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Ann's Quiescent Residence\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -34730,7 +35731,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 105",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Limpide est le sanglot d'eau\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -34740,7 +35741,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 106",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Que le vent soit doux\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -34750,7 +35751,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 107",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Demain, des l'aube\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -34871,6 +35872,66 @@
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 119",
     "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "TypeDescription": "Macera Eşyası",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141220,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 120",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Liyue'den gelen gizemli bir müzik vardır.",
+    "TypeDescription": "Macera Eşyası",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141221,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 121",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Liyue'den gelen gizemli bir müzik vardır.",
+    "TypeDescription": "Macera Eşyası",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141222,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 122",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Liyue'den gelen gizemli bir müzik vardır.",
+    "TypeDescription": "Macera Eşyası",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141223,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 123",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Liyue'den gelen gizemli bir müzik vardır.",
+    "TypeDescription": "Macera Eşyası",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141224,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 124",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Liyue'den gelen gizemli bir müzik vardır.",
+    "TypeDescription": "Macera Eşyası",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141225,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 125",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Liyue'den gelen gizemli bir müzik vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37820,7 +38881,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Sisli Rüyalar Köşkü",
-    "Description": "Sisli Rüyalar Köşkü yapımını adım adım anlatan detaylı bir taslak.\n\"Düşlere dalan sislerden.\"\nWangshu Hanındakilere birçok açıdan benzeyen mütevazı ve gösterişsiz bir yatak odası. Bu yatak odasının gizemini anlatmaya kelimeler yetmez. Bazen süzülen bulutların arasından sızan gün ışığı misali yanından geçen insanların anılarını canlandırır. Hatta mutsuz anılar geride kalır ve geçmiş mazide kalır.\nAkışına bırakıp yaşadığımız bu fani hayatta \"kim\" olduğunu hatırlayanlar yoluna istikrarlı bir şekilde devam edebilir. Düşüncelerimizin en berrak olduğu an, rüya görmek ve uyanmak arasındaki kısa andır. İnsanların neden Wangshu Hanında bir gece geçirip neşeli, yeni yolculuklara atılmaya hazır, yüz kat daha enerjik uyandığına şaşırmamak gerek.\nBu eşyayı kullandıktan sonra Yerleştirme Ekranında görüntüleyebilirsin.\nYoldaşların arasından Hu Tao, Yanfei, Ganyu, Keqing ve Chongyun bu Dekorasyon Setini tercih eder.",
+    "Description": "Sisli Rüyalar Köşkü yapımını adım adım anlatan detaylı bir taslak.\n\"Düşlere dalan sislerden.\"\nWangshu Hanındakilere birçok açıdan benzeyen mütevazı ve gösterişsiz bir yatak odası. Bu yatak odasının gizemini anlatmaya kelimeler yetmez. Bazen süzülen bulutların arasından sızan gün ışığı misali yanından geçen insanların anılarını canlandırır. Hatta orada yaşanan kederleri unutturur ve geriye sadece mazi kalır.\nAkışına bırakıp yaşadığımız bu fani hayatta \"kim\" olduğunu hatırlayanlar yoluna istikrarlı bir şekilde devam edebilir. Düşüncelerimizin en berrak olduğu an, rüya görmek ve uyanmak arasındaki kısa andır. İnsanların neden Wangshu Hanında bir gece geçirip neşeli, yeni yolculuklara atılmaya hazır, yüz kat daha enerjik uyandığına şaşırmamak gerek.\nBu eşyayı kullandıktan sonra Yerleştirme Ekranında görüntüleyebilirsin.\nYoldaşların arasından Hu Tao, Yanfei, Ganyu, Keqing, Chongyun ve Gaming bu Dekorasyon Setini tercih eder.",
     "TypeDescription": "Dekorasyon Seti Taslağı",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -37880,7 +38941,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Gurme Toplantısı",
-    "Description": "Gurme Toplantısı yapımını adım adım anlatan detaylı bir taslak.\nChihu Kayalığı'nın curcunasını aratmayan, dış tesisleri bulunan bir lezzet durağı.\nBuna \"gurme toplantısı\" demek yetersiz kalır. Ortada çok fazla mutfak aleti olmasa da Liyue bölgesine özgü yöresel yemekleri sunmak için yeter de artar bile. Sonuçta yetenekli şefler en basit mutfak eşyalarıyla bile lezzetli yemekler pişirebilir. Kolay hazırlanan birçok malzemenin meşhur bazı yemeklerin temelini oluşturması da işi kolaylaştırır elbette.\nBu eşyayı kullandıktan sonra Yerleştirme Ekranında görüntüleyebilirsin.\nYoldaşların arasından Beidou, Xiangling, Ganyu, Xinyan, Tartaglia ve Yelan bu Dekorasyon Setini tercih eder.",
+    "Description": "Gurme Toplantısı yapımını adım adım anlatan detaylı bir taslak.\nChihu Kayalığı'nın curcunasını aratmayan, açık alanlara sahip bir lezzet durağı.\nBuna \"gurme toplantısı\" demek yetersiz kalır. Ortada çok fazla mutfak aleti yokmuş gibi görünse de Liyue bölgesine özgü yöresel yemekleri sunmak için yeter de artar bile. Sonuçta yetenekli şefler, en basit mutfak eşyalarıyla bile lezzetli yemekler pişirebilir. Kolay hazırlanan birçok malzemenin, meşhur bazı yemeklerin temelini oluşturması da işi kolaylaştırır elbette.\nBu eşyayı kullandıktan sonra Yerleştirme Ekranında görüntüleyebilirsin.\nYoldaşların arasından Beidou, Xiangling, Ganyu, Xinyan, Tartaglia, Yelan, Gaming ve Xianyun bu Dekorasyon Setini tercih eder.",
     "TypeDescription": "Dekorasyon Seti Taslağı",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -37900,7 +38961,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Qingce Bulut Köşkü",
-    "Description": "Qingce Bulut Köşkü yapımını adım adım anlatan detaylı bir taslak.\nQingce Köyü'nden esinlenerek tasarlanmış bir dağ evi. Dostane atmosferinin bulaşıcı olduğu, oraya giren ziyaretçilerin rahatladıkları ve unuttukları basit eğlencelerin değerini anladıkları söylenir.\nHedeflerinin peşine düşmek ve yıllarını muhteşem bir şekilde kariyer kovalayarak geçirmek kesinlikle takdire şayan bir durumdur. Ancak bunca gayretin ardından yorgun düşebilirsin. Bu durumda taşrada sessiz ve huzurlu bir hayat yaşamak iyi bir seçenektir. Qingce Köyü servet peşine düşüp köyü terk eden gençlere her zaman hoşgörülü davranmıştır. Döndüklerinde de onlara seve seve kucak açar.\nBu eşyayı kullandıktan sonra Yerleştirme Ekranında görüntüleyebilirsin.\nYoldaşların arasından Xinyan, Xiao, Hu Tao, Qiqi, Shenhe, Yelan ve Yaoyao bu Dekorasyon Setini tercih eder.",
+    "Description": "Qingce Bulut Köşkü yapımını adım adım anlatan detaylı bir taslak.\nQingce Köyü'nden esinlenerek tasarlanmış bir dağ evi. Oradaki samimi ortamın bulaşıcı olduğu, gelip giden ziyaretçilerin rahatladıkları ve bir zamanlar unuttukları basit mutlulukların değerini anladıkları söylenir.\nİdeallerinin peşinden gitmek ve yıllarını bir kariyer peşinde koşmaya adamak elbette takdire şayan bir durumdur, ancak bunca gayretin ardından yorgun düşebilirsin. Bu durumda taşrada sessiz ve huzurlu bir hayat yaşamak iyi bir seçenektir. Qingce Köyü, servet peşine düşüp köyü terk eden gençlere her zaman hoşgörülü davranmıştır. Döndüklerinde de onlara seve seve kucak açar.\nBu eşyayı kullandıktan sonra Yerleştirme Ekranında görüntüleyebilirsin.\nYoldaşların arasından Xinyan, Xiao, Hu Tao, Qiqi, Shenhe, Yelan, Yaoyao ve Xianyun bu Dekorasyon Setini tercih eder.",
     "TypeDescription": "Dekorasyon Seti Taslağı",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -46471,6 +47532,416 @@
     "ItemType": 2,
     "Name": "\"Yasak Kalenin Dövüş Hedefi\"",
     "Description": "\"Yasak Kalenin Dövüş Hedefi\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390117,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Vadi Dükkanı: Çay Keyfi",
+    "Description": "Vadi Dükkanı: Çay Keyfi yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390118,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Vadi Sahnesi: Dalgalı Bulutlar",
+    "Description": "Vadi Sahnesi: Dalgalı Bulutlar yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390119,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Verandası: Uzak Başlangıçlar",
+    "Description": "Vadi Verandası: Uzak Başlangıçlar yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390120,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Verandası: Sağlam Temel",
+    "Description": "Vadi Verandası: Sağlam Temel yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390121,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Köşkü: Sıcak Gün Işığı",
+    "Description": "Vadi Köşkü: Sıcak Gün Işığı yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390122,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Taş Kemeri: Bolluk Alameti",
+    "Description": "Vadi Taş Kemeri: Bolluk Alameti yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390123,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Çardağı: İster Güneş İster Yağmur",
+    "Description": "Vadi Çardağı: İster Güneş İster Yağmur yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390124,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Gözetleme Kulesi: Nöbet",
+    "Description": "Vadi Gözetleme Kulesi: Nöbet yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391253,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Kapısı: Kalabalık Avlu",
+    "Description": "Vadi Kapısı: Kalabalık Avlu yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391254,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Kapısı: Kapının Ötesindeki Dağlar",
+    "Description": "Vadi Kapısı: Kapının Ötesindeki Dağlar yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391255,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Mağarası: Yelpazenin Dolambaçlı Yolu",
+    "Description": "Vadi Mağarası: Yelpazenin Dolambaçlı Yolu yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393439,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Taş Davul: Ses Yankısı",
+    "Description": "Taş Davul: Ses Yankısı yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391256,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Duvar Köşesi: Yükselen Dalgalar",
+    "Description": "Vadi Duvar Köşesi: Yükselen Dalgalar yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391257,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Taş Duvarı: Yeşim Kemeri Nehri",
+    "Description": "Vadi Taş Duvarı: Yeşim Kemeri Nehri yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391258,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Taş Duvarı: Çiçekler ve Söğütler",
+    "Description": "Vadi Taş Duvarı: Çiçekler ve Söğütler yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391259,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Taş Duvarı: Sazan ve Uçurtma",
+    "Description": "Vadi Taş Duvarı: Sazan ve Uçurtma yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390125,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Konutu: Yüksek Dağlar",
+    "Description": "Vadi Konutu: Yüksek Dağlar yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390126,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Konutu: Sükunet",
+    "Description": "Vadi Konutu: Sükunet yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390127,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Konutu: Özel Yapım Karmaşa",
+    "Description": "Vadi Konutu: Özel Yapım Karmaşa yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390128,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Konutu: Tam Odaklanma",
+    "Description": "Vadi Konutu: Tam Odaklanma yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390129,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Konutu: Taşranın Sakinliği",
+    "Description": "Vadi Konutu: Taşranın Sakinliği yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390130,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Konutu: Ölçülü Yapı",
+    "Description": "Vadi Konutu: Ölçülü Yapı yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391260,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Kalkan Duvarı: Rüzgar ve Ateşe Karşı Koruma",
+    "Description": "Vadi Kalkan Duvarı: Rüzgar ve Ateşe Karşı Koruma yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391261,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Kalkan Duvarı: Yağmur Sığınağı",
+    "Description": "Vadi Kalkan Duvarı: Yağmur Sığınağı yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391262,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Taş Basamaklar: Temel Taşı",
+    "Description": "Vadi Taş Basamaklar: Temel Taşı yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394321,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kare Çay Masası: Dostça Karşılama",
+    "Description": "Kare Çay Masası: Dostça Karşılama yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393441,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Wushou Dansı Kostümü: Kükreyen Suanni",
+    "Description": "Wushou Dansı Kostümü: Kükreyen Suanni yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393442,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Wushou Dansı Oyuncağı: Uykucu Suanni",
+    "Description": "Wushou Dansı Oyuncağı: Uykucu Suanni yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393443,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ziyafet Paravanı: Dans Eden Kelebekler ve Atlayan Balıklar",
+    "Description": "Ziyafet Paravanı: Dans Eden Kelebekler ve Atlayan Balıklar yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393444,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ziyafet Paravanı: Çığıran Kırlangıçlar ve Ötüşen Serçeler",
+    "Description": "Ziyafet Paravanı: Çığıran Kırlangıçlar ve Ötüşen Serçeler yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393448,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kutlama Uçurtması: Her Sene Bolluk",
+    "Description": "Kutlama Uçurtması: Her Sene Bolluk yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393449,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kutlama Uçurtması: Her Şey Yolunda",
+    "Description": "Kutlama Uçurtması: Her Şey Yolunda yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393450,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kutlama Uçurtması: Kelebeğin Dansı",
+    "Description": "Kutlama Uçurtması: Kelebeğin Dansı yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393451,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kutlama Uçurtması: Refah ve Bolluk",
+    "Description": "Kutlama Uçurtması: Refah ve Bolluk yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393452,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kokulu Sedir Kütüğü Duyuru Panosu",
+    "Description": "Kokulu Sedir Kütüğü Duyuru Panosu yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394211,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Çay Sandalyesi: Serin Meltem",
+    "Description": "Çay Sandalyesi: Serin Meltem yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380444,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "El Yapımı Balık Feneri: Uçan Sazan",
+    "Description": "El Yapımı Balık Feneri: Uçan Sazan yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380445,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "El Yapımı Balık Feneri: Bereketli Bahar",
+    "Description": "El Yapımı Balık Feneri: Bereketli Bahar yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380446,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Liman Yer Aydınlatması: Hoş Koku",
+    "Description": "Liman Yer Aydınlatması: Hoş Koku yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380447,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Liman Sokak Aydınlatması: Çifte Şans",
+    "Description": "Liman Sokak Aydınlatması: Çifte Şans yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380448,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vadi Taş Lambası: Daima Parlak",
+    "Description": "Vadi Taş Lambası: Daima Parlak yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
     "Icon": "UI_ItemIcon_Home_Common"
   }

@@ -3235,6 +3235,16 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 10307,
+    "RelationshipId": 10307,
+    "Name": "Boss Brutoshaman",
+    "Title": "Un chaman ayant accidentellement obtenu la donjon-mination",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 21040101,
     "DescribeId": 10401,
     "RelationshipId": 10401,
@@ -9143,6 +9153,32 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 60402,
+    "RelationshipId": 60402,
+    "Name": "Seigneur de Chizhang : Yiji",
+    "Title": "Géosaure",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-火"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 60403,
+    "RelationshipId": 60403,
+    "Name": "Seigneur de Chizhang : Tianyu",
+    "Title": "Géosaure",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-冰"
+    ]
+  },
+  {
     "Id": 26050101,
     "DescribeId": 60501,
     "RelationshipId": 60501,
@@ -11471,6 +11507,120 @@
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.6,
       "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190101,
+    "DescribeId": 61901,
+    "RelationshipId": 61901,
+    "MonsterName": "Hermit_Normal_01",
+    "Name": "Suanni solitaire",
+    "Title": "Suanni solitaire",
+    "Description": "Ces élégantes et fières bêtes ne vivent que dans les montagnes enveloppées d'énergie mystique.\nDepuis les temps anciens, elles sont considérées comme un symbole de bonne fortune et leur préférence pour une vie à l'écart du monde des humains a été admirée par les intellectuels pendant des générations. Dans les anciennes légendes du Vallon Chenyu, la cheffe des suannis était appelée la maîtresse de la montagne et était considérée comme ayant le même statut que les Adeptes.\nUne autre théorie prétend que les Bêtes de Xuanwen qui parcourent les montagnes de nos jours sont les descendants des suannis, mais que la dilution de leur sang au fil des années les a amenées à se transformer en créatures violentes. Bien que cela contredise une autre théorie concernant l'origine des Bêtes de Xuanwen, les quelques documents sur les suannis les décrivent souvent accompagnés d'un grand nombre de Bêtes de Xuanwen.\nDe nos jours, la célèbre danse de wushou du Vallon Chenyu est basée sur les mouvements des suannis. Mais comme seule une poignée de personnes ont réellement vu ces créatures, la plupart ne peuvent qu'imaginer à quoi elles ressemblent. Après des milliers d'années de changements et d'interprétations artistiques différentes, la tête du costume de la danse de wushou a évolué vers son style actuel.",
+    "Icon": "UI_MonsterIcon_Hermit",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113058,
+      104151,
+      104152,
+      104153,
+      104154,
+      104121,
+      104122,
+      104123,
+      104124,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 225.4944,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.7,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.7,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190201,
+    "DescribeId": 61902,
+    "RelationshipId": 61902,
+    "MonsterName": "Striped_01",
+    "Name": "Bête de Xuanwen",
+    "Title": "Bête de Xuanwen",
+    "Description": "Les Bêtes de Xuanwen, dont les corps sont ornés de motifs sombres, sont des créatures féroces qui vivent dans les montagnes du Vallon Chenyu.\nSelon les légendes de la région, ces bêtes étaient les compagnons d'un Adepte des temps anciens, qui avait la charge de vaincre le mal et de protéger la zone. Cependant, elles se sont transformées en créatures brutales après la mort de l'Adepte. Ces légendes ne peuvent être vérifiées et personne ne connaît la véritable identité de cet Adepte. Ce qui est sûr, cependant, c'est qu'il vaut mieux rester à l'écart de ces créatures agressives...\nDepuis plus de mille ans, ces bêtes ont perdu une énorme quantité du territoire qui leur appartenait autrefois à cause de l'empiétement incessant de l'homme. De nos jours, on ne peut les apercevoir qu'occasionnellement dans les montagnes isolées du Vallon Chenyu...",
+    "Icon": "UI_MonsterIcon_Striped",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112095,
+      112096,
+      112097,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 57.0528,
+      "AttackBase": 55.264,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1

@@ -1090,6 +1090,26 @@
     "Icon": "UI_ItemIcon_1102"
   },
   {
+    "MaterialType": 20,
+    "Id": 1192,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "가명의 운명의 별",
+    "Description": "가명의 운명의 자리 활성화 소재",
+    "TypeDescription": "운명의 자리 활성화",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1193,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "한운의 운명의 별",
+    "Description": "한운의 운명의 자리 활성화 소재",
+    "TypeDescription": "운명의 자리 활성화",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
     "MaterialType": 5,
     "Id": 1201,
     "RankLevel": 5,
@@ -1437,7 +1457,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "양배추",
-    "Description": "겹겹이 쌓여 있는 채소. 원래는 관상용 식물이었다고 한다. 솥 안에 있는 모양도 꽤 괜찮다",
+    "Description": "겹겹이 싸여 있는 채소. 원래는 관상용 식물이었다고 한다. 솥 안에 있는 모양도 꽤 괜찮다",
     "TypeDescription": "식자재",
     "Icon": "UI_ItemIcon_100018"
   },
@@ -2646,6 +2666,26 @@
     "Description": "모르트 구역의 물속에 떠다니는 맑은 이슬방울. 흔히 볼 수 있는 물로 만들어진 창조물과는 달리 원시의 순수한 원소 에너지가 응집되어 있는 것 같다",
     "TypeDescription": "폰타인 지역 특산물",
     "Icon": "UI_ItemIcon_101240"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101241,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "청수옥",
+    "Description": "침옥 협곡에서 나는 옥석. 차가운 촉감이 맑은 물 같다고 해서 붙여진 이름이다",
+    "TypeDescription": "리월 지역 특산물",
+    "Icon": "UI_ItemIcon_101241"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101242,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "침옥 선잎",
+    "Description": "침옥 협곡의 따뜻하고 습한 곳에서 자라는 찻잎. 수천 년 동안 심혈을 기울여 선별하고 재배한 결과 오늘날의 깊고 진한 향기를 가진 찻잎이 탄생했다. 길 너머에서도 가슴까지 스며드는 짙은 향기를 맡을 수 있다고 한다",
+    "TypeDescription": "식자재",
+    "Icon": "UI_ItemIcon_101242"
   },
   {
     "MaterialType": 25,
@@ -4123,7 +4163,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "속이 꽉 찬 양배추",
-    "Description": "겹겹이 쌓여 있는 채소. 원래는 관상용 식물이었다고 한다. 솥 안에 있는 모양도 꽤 괜찮다",
+    "Description": "겹겹이 싸여 있는 채소. 원래는 관상용 식물이었다고 한다. 솥 안에 있는 모양도 꽤 괜찮다",
     "TypeDescription": "임무 아이템",
     "Icon": "UI_ItemIcon_100018"
   },
@@ -16337,6 +16377,16 @@
     "Icon": "UI_ItemIcon_107025"
   },
   {
+    "MaterialType": 10,
+    "Id": 107026,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "푸른 영력 잉어",
+    "Description": "흩어진 선력이 응집되어 탄생한 잉어. 산과 강을 마음껏 누빈다",
+    "TypeDescription": "모험 아이템",
+    "Icon": "UI_ItemIcon_107026"
+  },
+  {
     "MaterialType": 1,
     "EffectDescription": "파티 내 모든 캐릭터의 방어력이 88pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
     "Id": 108001,
@@ -21116,7 +21166,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "맛있는 크림소스 생선",
-    "Description": "소스를 곁들인 생선요리. 하얗고 투명한 생선 살코기가 절묘한 크림소스 위에 가로놓여 있다. 한입 베어 물면 싱싱한 물고기가 물 위로 뛰어오르는 것 같은 신선한 맛의 충격을 느낄 수 있다",
+    "Description": "소스를 곁들인 생선 요리. 하얗고 투명한 생선 살코기가 부드러운 크림소스 위에 가로놓여 있어 한입 베어 물면 싱싱한 물고기가 물 위로 뛰어오르는 것 같은 신선한 맛의 충격을 느낄 수 있다",
     "TypeDescription": "음식",
     "Icon": "UI_ItemIcon_108434"
   },
@@ -23189,6 +23239,457 @@
     "Icon": "UI_ItemIcon_108622"
   },
   {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 HP 최대치가 20% 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108624,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "이상한 금옥만당",
+    "Description": "감칠맛이 가득한 리월 요리. 제대로 손질하지 않은 생새우살과 설익은 꽃게알에서 이상한 냄새가 난다. 방금 전쟁이라도 치른 듯 어질러져 있지만 재료 자체는 신선한지라 냄새만 무시하면 그럭저럭 먹을 수 있다…",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108625"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 HP 최대치가 22% 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108625,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "금옥만당",
+    "Description": "감칠맛이 가득한 리월 요리. 반죽을 입힌 생새우살에 풍미가 깊은 꽃게알을 곁들여서 구웠다. 금빛 찬란한 꽃게알과 옥구슬처럼 투명하고 영롱한 생새우살이 만나 그야말로 「금옥만당」이다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108625"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 HP 최대치가 25% 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108626,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "맛있는 금옥만당",
+    "Description": "감칠맛이 가득한 리월 요리. 톡톡 터지는 새우를 감싼 쫀득한 꽃게살은 마치 영롱한 보물 같아서 보기만 해도 군침이 돈다. 한입 베어 물면 신선한 감칠맛이 입안을 가득 채우고, 혀끝에서 일렁이는 파도에 몸을 맡긴 새우와 꽃게가 떠오른다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108625"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 치명타 확률이 10% 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108627,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "이상한 번현급관",
+    "Description": "풍미가 독특한 고기 요리. 잘게 썬 고기들은 볶는 과정에서 뭉텅이가 되어 그릇에 눌어붙었다. 먹어보니 짜고 시큼하고 쓴맛에 미각이 고장 날 것 같다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108628"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 치명타 확률이 15% 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108628,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "번현급관",
+    "Description": "풍미가 독특한 고기 요리. 갖가지 고기를 잘게 썰어 양념을 넣고 볶는다. 재료가 다양하고 복잡하여 맛도 요리사의 실력에 따라 가지각색이다. 유명한 식당에서도 보기 힘든 요리다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108628"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 치명타 확률이 20% 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108629,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "맛있는 번현급관",
+    "Description": "풍미가 독특한 고기 요리. 다양한 식감을 자랑하는 가늘게 썬 고기들은 악기처럼 잘 어우러져 아름다운 하모니를 만들어낸다. 한 평론가는 이 요리에 대해, 서로 다른 음들이 입 안에서 묘하게 어우러져 마치 선경을 오른 느낌이 든다고 평가했다…",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108628"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 26%를 즉시 회복하고 30초 동안 5초마다 HP를 450pt씩 회복한다",
+    "Id": 108630,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "이상한 만족의 기쁨",
+    "Description": "양념 조림 향이 그윽한 두부 요리. 너무 매워 입에 댈 수가 없다. 약간의 시간이 소요되겠지만 맑은 물로 양념을 헹궈내면 먹을 수 있을지도 모른다…",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108631"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 28%를 즉시 회복하고 30초 동안 5초마다 HP를 620pt씩 회복한다",
+    "Id": 108631,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "만족의 기쁨",
+    "Description": "양념 조림 향이 그윽한 두부 요리. 먼저 두부를 지지다가 양념을 넣고 볶는다. 재료가 평범하지만 풍미가 깊어 밥과 찰떡궁합이다. 집에서 만들어 먹기 좋은 요리다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108631"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 30%를 즉시 회복하고 30초 동안 5초마다 HP를 790pt씩 회복한다",
+    "Id": 108632,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "맛있는 만족의 기쁨",
+    "Description": "양념 조림 향이 그윽한 두부 요리. 간장 소스를 머금은 지진 두부에서 화끈한 매운맛과 느껴질 듯 말 듯 한 「고기향」이 난다. 한 입만 먹어도 향기로움이 입안을 가득 채워 끝없는 여운을 느끼게 해준다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108631"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 방어력이 165pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108633,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "이상한 내 집 같은 편안함",
+    "Description": "다양한 재료가 들어간 주식. 불 조절 실패로 불맛은 없고 식감도 나쁘다. 다음에는 더 강한 불로 볶아야 할 것이다…",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108634"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 방어력이 200pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108634,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "내 집 같은 편안함",
+    "Description": "다양한 재료가 들어간 주식. 햄과 새알 등 식자재와 쌀을 볶아 만든 요리다. 취향에 따라 다양한 식자재를 선택할 수 있어, 리월에서는 못 만드는 사람이 거의 없을 정도로 흔한 주식이다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108634"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 방어력이 235pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108635,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "맛있는 내 집 같은 편안함",
+    "Description": "다양한 재료가 들어간 주식. 알알이 노란 달걀옷을 입은 쌀과 짭조름한 풍미를 풍기는 햄을 강한 불에서 볶는다. 다정한 불맛은 멀리서 온 손님에게 「내 집 같은 편안함」을 선사한다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108634"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 보호막 강화 효과가 25%, 방어력이 165pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108636,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "이상한 팔보 복 오리",
+    "Description": "명실상부한 고난도 요리. 뼈 손질에만 반나절이 걸리는 이 요리는 칼 솜씨뿐만 아니라 체력과 인내심도 시험한다. 힘들게 모양을 갖춘 오리가 기름 냄비 안에서 터져버렸다…. 다시 도전할 힘은 없고, 일단 쉬는 게 좋을 것 같다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108637"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 보호막 강화 효과가 30%, 방어력이 200pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108637,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "팔보 복 오리",
+    "Description": "명실상부한 고난도 요리. 뼈를 손질한 새끼오리 속에 고기와 야채가 든 8가지 소를 넣기 때문에 '팔보'라고 부른다. 마지막으로 복록길상의 상징인 표주박 모양으로 묶어서 요리를 마무리한다. 식자재 선택부터 칼 솜씨, 불 조절 등 어느 하나 간과할 수 없는 요리이기에 어떤 잔치에 내놓아도 가장 마지막에 등장하는 메인 요리다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108637"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 보호막 강화 효과가 35%, 방어력이 235pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108638,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "맛있는 팔보 복 오리",
+    "Description": "명실상부한 고난도 요리. 속이 꽉 찬 오리는 그 향만으로도 식욕을 돋운다. 거기에 고소한 전분물을 뿌리고 기름칠을 해주면 맛과 향을 모두 갖춘 팔보 복 오리가 완성된다. 한 입만 먹어도 그 여운이 두고두고 잊히지 않는다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108637"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 치명타 확률이 6% 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108639,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "이상한 유폭쌍취",
+    "Description": "리월의 유명 요리 중 하나. 잠깐 한눈판 사이에 활활 타오르는 강한 불에 바삭한 식감은 없어지고 시꺼멓게 타서 「유폭폭삭」이 되어버렸다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108640"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 치명타 확률이 9% 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108640,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "유폭쌍취",
+    "Description": "리월의 유명 요리 중 하나. 기름을 넣고 센 불에 볶아야 하므로 끊임없이 냄비를 돌려야 한다. 자칫하면 설익거나 너무 익어서 바삭하지 않을 수 있으므로 불 조절에 대한 요구가 굉장히 높다. 노련한 리월 주방장은 솜씨를 뽐낼 때 이 요리를 선택한다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108640"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 치명타 확률이 12% 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108641,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "맛있는 유폭쌍취",
+    "Description": "리월의 유명 요리 중 하나. 빨간색과 하얀색 고기 꽃이 혀끝에서 피어난다. 부드럽고 바삭한 식감에 짭조름함이 더해져 풍미가 일품이다. 순식간에 한 그릇을 비우고 연신 감탄을 자아내게 한다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108640"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 공격력이 160pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108642,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "이상한 홍소 고기 완자",
+    "Description": "대표적인 리월식 요리. 동글동글한 모양에 맛있는 향까지, 겉으로는 별문제가 없어 보이지만 한 입 베어 무니 고기가 뻑뻑하다. 살코기가 너무 많이 붙은 고기를 사용한 걸까?",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108643"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 공격력이 194pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108643,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "홍소 고기 완자",
+    "Description": "대표적인 리월식 요리. 살코기와 비계를 반반 섞은 다음 아삭한 죽순과 함께 다지고 완자로 만들어, 한 번 튀겨서 익힌다. 모두의 입맛을 사로잡은 요리로 집밥으로든, 손님 대접으로든 인기가 많다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108643"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 공격력이 228pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108644,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "맛있는 홍소 고기 완자",
+    "Description": "대표적인 리월식 요리. 푸른 파와 붉은 완자가 대조를 이루었다. 세심하면서도 비범한 칼 솜씨로 썬 완자는 입에 넣자마자 사르르 녹아 전혀 느끼하지 않다. 한 입 먹어보니 감탄이 절로 나온다. 다 먹으면 행운이 찾아올 것 같다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108643"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 8%를 즉시 회복하고 30초 동안 5초마다 HP를 210pt씩 회복한다",
+    "Id": 108645,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "이상한 꿀 차사오",
+    "Description": "리월식 사오라(광둥식 구이)의 일종. 단맛을 내는 조미료를 많이 넣어 금방 물린다. 한 치의 실수가 천 리의 실수를 초래한다는 리월 속담은 요리에서도 적용되는 것 같다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108646"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 9%를 즉시 회복하고 30초 동안 5초마다 HP를 260pt씩 회복한다",
+    "Id": 108646,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "꿀 차사오",
+    "Description": "리월식 사오라(광둥식 구이)의 일종. 양념에 재워둔 고기를 특제 꼬챙이로 꽂아 화로 위에서 굽는다. 갓 구운 차사오는 베테랑 미식가들이 손에 꼽는 요리다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108646"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 10%를 즉시 회복하고 30초 동안 5초마다 HP를 300pt씩 회복한다",
+    "Id": 108647,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "맛있는 꿀 차사오",
+    "Description": "리월식 사오라(광둥식 구이)의 일종. 붉은빛을 띠는 실한 자태에 맛있는 냄새까지, 보고만 있다간 먹고 싶어서 기절할지도 모른다. 두툼한 고기가 육즙을 가득 머금어 밥 한 그릇으론 모자랄 것 같다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108646"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 30%를 회복하고 추가로 HP를 600pt 회복한다",
+    "Id": 108648,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "이상한 차와 보름달",
+    "Description": "노른자를 머금은 다과. 살짝 쥐었을 뿐인데 겉피는 산사태가 일어난 것처럼 떨어진다. 입에 넣으니 찐득찐득하고 너무 달기만 하다…. 이런, 목에 뭐가 걸린 것 같다. 일단 물 한 잔 마시고 나머지를 어떻게 처리해야 할지 생각해야겠다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108649"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 32%를 회복하고 추가로 HP를 1250pt 회복한다",
+    "Id": 108649,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "차와 보름달",
+    "Description": "노른자를 머금은 다과. 소금에 절인 달걀노른자에 소를 입히고 차 가루로 만든 피로 감싼 다음 보름달 모양으로 빚어 굽는다. 겉은 바삭바삭하고 속은 단맛과 짠맛이 번갈아 나면서 풍부한 식감을 자랑한다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108649"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 34%를 회복하고 추가로 HP를 1900pt 회복한다",
+    "Id": 108650,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "맛있는 차와 보름달",
+    "Description": "노른자를 머금은 다과. 차진 달걀노른자의 보드라운 식감과 깊숙한 협곡에서 전해지는 진한 차 맛이 어우러져 한 입만 먹어도 행복을 느낄 수 있다. 한꺼번에 몇 개씩 먹게 되는 건 물론이고 입가에 묻은 부스러기조차 놓치고 싶지 않다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108649"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "선택한 캐릭터를 부활시키고 HP를 50pt 회복한다",
+    "Id": 108651,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "이상한 옥무늬 찻잎 달걀",
+    "Description": "리월의 전통 먹거리 중 하나. 맹물에 삶은 달걀과 별반 다르지 않다. 찻잎을 잘못 고른 걸까, 조리 방식이 잘못된 걸까?",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108652"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "선택한 캐릭터를 부활시키고 HP를 100pt 회복한다",
+    "Id": 108652,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "옥무늬 찻잎 달걀",
+    "Description": "리월의 전통 먹거리 중 하나. 민간에서 조리법이 널리 알려졌다. 끓일 때 차향이 깨진 껍데기 틈으로 노른자에 스며들어서, 마치 옥석의 무늬처럼 곱다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108652"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "선택한 캐릭터를 부활시키고 HP를 150pt 회복한다",
+    "Id": 108653,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "맛있는 옥무늬 찻잎 달걀",
+    "Description": "리월의 전통 먹거리 중 하나. 차향이 계란 안에 깊게 스며들어 크게 한 입 먹든, 작게 한 입 먹든, 풍미가 일품이다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108652"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 20%를 회복하고 추가로 HP를 900pt 회복한다",
+    "Id": 108654,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "이상한 차향 훈제 비둘기",
+    "Description": "인기 많은 요리. 비둘기 다리와 날개의 끝부분이 탄 것을 보아하니 불 조절에 실패한 모양이다. 살짝 처리하면 먹을 수 있을지도 모른다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108655"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 22%를 회복하고 추가로 HP를 1200pt 회복한다",
+    "Id": 108655,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "차향 훈제 비둘기",
+    "Description": "인기 많은 요리. 비둘기를 차와 간장에 하룻밤 절이고 바람에 말린 다음 튀겨서 만든 것으로 차향이 그윽하다. 이는 오랜 세월 전해진 조리법으로 연회에 빠지지 않는 최고의 요리다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108655"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 24%를 회복하고 추가로 HP를 1500pt 회복한다",
+    "Id": 108656,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "맛있는 차향 훈제 비둘기",
+    "Description": "인기 많은 요리. 반투명한 비둘기 껍질이 얇고 바삭한 게 붉은색의 유리종이 같다. 실하고 도톰한 비둘기 고기에 향기로운 육즙이 더해지자 손님들의 위와 마음을 사로잡는다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108655"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 방어력이 88pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108657,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "이상한 고화 어양선",
+    "Description": "수기에 기록된 옛 요리. 양고기의 누린내와 생선의 비린내가 입안에서 다투고 있다. 당장 물로 입가심해 미각을 되찾아야 한다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108658"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 방어력이 107pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108658,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "고화 어양선",
+    "Description": "수기에 기록된 옛 요리. 싱싱한 생선과 양고기를 졸여서 끓인 것으로 부드러운 생선 살코기와 고소한 양고기가 한데 어우러져서 깊은 감칠맛이 난다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108658"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 방어력이 126pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108659,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "맛있는 고화 어양선",
+    "Description": "수기에 기록된 옛 요리. 목구멍으로 흘러드는 뽀얀 국물의 감칠맛이 일품이다. 위가 두 개라면 얼마나 좋을까, 겨울에 한 냄비 먹으면 봄까지 그 여운이 가시지 않는다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108658"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 8%를 즉시 회복하고 30초 동안 5초마다 HP를 210pt씩 회복한다",
+    "Id": 108660,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "이상한 침옥 차 이슬",
+    "Description": "흔히 볼 수 있는 리월 명차. 아무 맛이 없는 온수를 마시는 것 같다. 이게 차가 맞는지 몇 번이고 확인할 정도다. 흠——물의 온도가 문제였을까? 아니면 너무 잠깐 우린 걸까?",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108661"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 9%를 즉시 회복하고 30초 동안 5초마다 HP를 260pt씩 회복한다",
+    "Id": 108661,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "침옥 차 이슬",
+    "Description": "흔히 볼 수 있는 리월 명차. 인생이란, 차 한 잔을 마시고 입가에 맴도는 달콤한 여운을 음미하는 것과 같다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108661"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 10%를 즉시 회복하고 30초 동안 5초마다 HP를 300pt씩 회복한다",
+    "Id": 108662,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "맛있는 침옥 차 이슬",
+    "Description": "흔히 볼 수 있는 리월 명차. 맑은 차의 첫맛은 산들바람처럼 담아하다. 입안에선 침옥 협곡에서 불어온 상쾌한 향기가 가득 퍼지고, 귓가에선 산골 차밭에서 흐르는 샘물 소리가 들려온다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108661"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 공격력이 274pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108663,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "원만한 네 가지 기쁨",
+    "Description": "한운의 특제 요리. 향기로운 고기 완자가 당신의 시선을 끌었다. 놀란 표정을 짓기도 전에 한운이 먼저 입을 열었다: 「속세의 요리 따윈 식은 죽 먹기지. 식기 전에 먹거라. 아무 근심 걱정 없이 평안하고 즐겁기를 바라마! 크흠, 남들처럼 격식을 차려본 것이니라. 무슨 불만 있느냐?」",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108663"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "선택한 캐릭터 HP 최대치의 14%를 즉시 회복하고 30초 동안 5초마다 HP를 350pt씩 회복한다",
+    "Id": 108664,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "느긋하게 차 한잔",
+    "Description": "가명의 특제 요리. 찜통에 가지런히 줄지어 앉아 있는 산예 만두는 매화 말뚝 위의 위엄 있고 날렵한 소년을 떠올리게 한다…. 「멍하니 뭐 하는 거야? 일단 차부터 한잔해, 자」 말이 끝나기 무섭게 미소가 명랑한 소년은 또 한 잔의 차를 건넨다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108664"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
@@ -24959,6 +25460,136 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109561,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "레시피: 금옥만당",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「금옥만당」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109562,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "레시피: 번현급관",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「번현급관」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109563,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "레시피: 만족의 기쁨",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「만족의 기쁨」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109564,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "레시피: 내 집 같은 편안함",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「내 집 같은 편안함」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109565,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "레시피: 팔보 복 오리",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「팔보 복 오리」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109566,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "레시피: 유폭쌍취",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「유폭쌍취」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109567,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "레시피: 홍소 고기 완자",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「홍소 고기 완자」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109568,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "레시피: 꿀 차사오",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「꿀 차사오」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109569,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "레시피: 차와 보름달",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「차와 보름달」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109570,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "레시피: 옥무늬 찻잎 달걀",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「옥무늬 찻잎 달걀」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109571,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "레시피: 차향 훈제 비둘기",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「차향 훈제 비둘기」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109572,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "레시피: 고화 어양선",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「고화 어양선」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109573,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "레시피: 침옥 차 이슬",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「침옥 차 이슬」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -26295,6 +26926,36 @@
   },
   {
     "MaterialType": 14,
+    "Id": 112095,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "깃털 지느러미",
+    "Description": "현문 야수를 처치하고 야수의 등에서 얻은 지느러미 조각.\n장거리 비행 능력은 없지만, 현문 야수는 새의 깃털 같은 이 지느러미로 사냥감을 추격할 때 더욱 빠르게 움직일 수 있다",
+    "TypeDescription": "캐릭터와 무기 육성 소재",
+    "Icon": "UI_ItemIcon_112095"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112096,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "달빛 지느러미",
+    "Description": "현문 야수를 처치하고 야수의 등에서 얻은 지느러미.\n마치 달빛처럼 은은하게 빛을 반사해 왠지 모르게 평온한 느낌을 준다",
+    "TypeDescription": "캐릭터와 무기 육성 소재",
+    "Icon": "UI_ItemIcon_112096"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112097,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "그윽한 지느러미",
+    "Description": "현문 야수를 처치하고 야수의 등에서 얻은 화려한 지느러미.\n은은한 빛을 반사하는 지느러미에서 선력의 흔적이 희미하게 느껴진다. 깊은 밤에는 아무리 흉악한 야수라도 잠깐 동안 조용히 잠에 빠져 「꿈」이 인간의 전유물이 아니던 세월을 추억한다",
+    "TypeDescription": "캐릭터와 무기 육성 소재",
+    "Icon": "UI_ItemIcon_112097"
+  },
+  {
+    "MaterialType": 14,
     "Id": 113001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -26862,6 +27523,16 @@
     "Description": "물의 환인간이 흩어지면서 남긴 흔적.\n원류바다 이종의 체내에서 꺼낸 결정과 유사한 성질을 지니고 있으나, 마치 미숙한 공예가가 만든 유리 공예품에 기포가 잔뜩 끼어있는 것처럼 매우 혼탁하다",
     "TypeDescription": "캐릭터 육성 소재",
     "Icon": "UI_ItemIcon_113057"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113058,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "구름 비늘",
+    "Description": "은둔 산예의 비늘. 차갑고 딱딱하며 벗겨져도 여전히 순수한 선력이 감돌고 있어 평범한 무기로는 흠집 하나 낼 수 없다.\n가끔 평범한 야수가 흩어진 선력의 영향을 받아 더욱 강해질 때도 있지만 산예의 몸에 감도는 선력은 환경이 아니라 산예 그 자체로부터 나온다. 그리고 이는 산예 우두머리의 지위가 선인과 동등하다고 여겨지는 이유이기도 하다",
+    "TypeDescription": "캐릭터 육성 소재",
+    "Icon": "UI_ItemIcon_113058"
   },
   {
     "MaterialType": 14,
@@ -31245,6 +31916,36 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120425,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "시간 여행자·제1권",
+    "Description": "스팀버드에서 출판한 폰타인의 공상과학 소설. 한 엔지니어가 타임머신으로 시간 여행을 하는 이야기이다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120797"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120426,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "시간 여행자·제2권",
+    "Description": "스팀버드에서 출판한 폰타인의 공상과학 소설. 한 엔지니어가 타임머신으로 시간 여행을 하는 이야기이다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120797"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120427,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "시간 여행자·제3권",
+    "Description": "스팀버드에서 출판한 폰타인의 공상과학 소설. 한 엔지니어가 타임머신으로 시간 여행을 하는 이야기이다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120797"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120428,
     "RankLevel": 4,
     "ItemType": 2,
@@ -32605,6 +33306,56 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120615,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "사진-명월 연못",
+    "Description": "달빛 아래 연못의 아름다운 사진이다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120617"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120616,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "사진-교영의 귀빈",
+    "Description": "교영 마을의 아름다운 사진이다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120616"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120617,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "사진-고요한 물과 옥고리",
+    "Description": "보결구의 아름다운 사진이다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120615"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120618,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "사진-산과 폭포",
+    "Description": "현련산의 아름다운 사진이다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120618"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120619,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "침옥 협곡 풍경 가이드",
+    "Description": "관광 안내서. 현지 주민들이 추천하는 매력적인 관광 명소가 적혀 있다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_100105"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120621,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33226,6 +33977,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120724,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "고목 나뭇가지",
+    "Description": "옛 차나무에서 꺾은 나뭇가지. 미약한 선력 기운이 느껴지는 듯하다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120724"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120725,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33446,6 +34207,46 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120754,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "왕산청 비상 열쇠",
+    "Description": "황삼야에게 얻은 열쇠. 조금 녹슨 것 같다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120754"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120755,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "페이몬의 정성이 담긴 특제 요리",
+    "Description": "황삼야의 말에 따르면, 과거 고화 종사가 무예를 전수할 때는 모라가 아니라 쌀과 절인 고기를 보수로 받았다고 한다. 그래서 페이몬은 모든 정성(그리고 항상 갖고 다니는 소금 전부)을 이 특제 요리에 담았다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120755"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 120757,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "모라 한 주머니",
+    "Description": "간유에게 받은 보수. 안에는 모두가 만족할 만한 액수의 모라가 담겨 있다",
+    "TypeDescription": "소모품",
+    "Icon": "UI_ItemIcon_100309"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120758,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "간유의 시추 장치",
+    "Description": "시추 장치가 들어있는 상자. 이 장치로 도대체 무엇을 파낼 수 있을까…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120759,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33496,6 +34297,86 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120769,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "푸른 잉어 영력 구슬",
+    "Description": "황금 잉어 조각상에 박혀 있던 영력 구슬. 풍부한 선력을 품고 있다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120769"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120785,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "유적 장치 코어",
+    "Description": "침옥 협곡의 유적에서 찾은 유적 가디언 에너지 공급 장치. 유적 가디언 하나를 충분히 작동시킬 수 있을 만큼의 에너지가 남아 있는 듯하다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_112025"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120786,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "옥고리 조각·좌",
+    "Description": "선력이 감도는 옥고리 조각. 선조들의 오래된 전설에 따르면 모든 옥고리는 원래 같은 옥석에서 나왔다고 한다. 그렇다면 다른 옥고리 조각을 한데 모아 맞출 수 있을지도 모른다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120786"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120787,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "옥고리 조각·우",
+    "Description": "선력이 감도는 옥고리 조각. 선조들의 오래된 전설에 따르면 모든 옥고리는 원래 같은 옥석에서 나왔다고 한다. 그렇다면 다른 옥고리 조각을 한데 모아 맞출 수 있을지도 모른다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120787"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120788,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "향나무 「황종」",
+    "Description": "정교하게 조각한 제사용 향나무. 은은하게 상쾌한 향기를 풍긴다. 모양을 봤을 때 또 다른 향나무와 한 세트인 듯하다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120788"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120789,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "향나무 「적장」",
+    "Description": "정교하게 조각한 제사용 향나무. 은은하게 탄 향기를 풍긴다. 모양을 봤을 때 또 다른 향나무와 한 세트인 듯하다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120789"
+  },
+  {
+    "MaterialType": 52,
+    "Id": 120790,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「침옥곡 여행」 기념 앨범",
+    "Description": "여러 훌륭한 작품이 수록된 기념 앨범. 놀랍게도 그중 절반 이상은 같은 인물의 작품이다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120790"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120792,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "특이한 열쇠",
+    "Description": "특이한 열쇠. 어떤 자물쇠를 여는 데 쓰는 건지 알 수 없다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120796,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33536,6 +34417,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120806,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "오래된 비석",
+    "Description": "오래된 비석",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120807,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33553,6 +34444,106 @@
     "Description": "신문 배달부 핍은 르로아 가족들이 한동안 가져가지 않은 신문들을 전부 이 소포 안에 넣었다",
     "TypeDescription": "임무 아이템",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120812,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "분실된 열쇠·첫 번째",
+    "Description": "누군가 침옥 협곡 야외에 떨어뜨린 열쇠. 대체 어떤 곳에 쓰이는 걸까…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120813,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "분실된 열쇠·두 번째",
+    "Description": "누군가 침옥 협곡 야외에 떨어뜨린 열쇠. 대체 어떤 곳에 쓰이는 걸까…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120841,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「현련 선인의 물」",
+    "Description": "현련산 근처에서 길어 온 「선인의 물」. 이 이름이 아니었다면 그 안에 담긴 현묘함을 전혀 알아차리지 못했을 것이다. 오히려 「선인의 물」이라는 이름 덕분에 정말로 모락모락 피어오르는 선인의 기운이 보이는 듯하다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120841"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120842,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "오래된 옥잔",
+    "Description": "누군가 야외에 떨어뜨린 오래된 찻잔. 미약하게 선력 기운이 느껴지는 것 같다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120842"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120843,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "누군가의 장부",
+    "Description": "왕산청에서 찾은 장부. 모든 수입과 지출이 상세하게 기록되어 있다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120843"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120845,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「사롱옥」",
+    "Description": "부금 선인이 과거에 던진 마지막 보옥. 평범한 옥 장식과 다를 게 없어 보이지만, 이 안에 담긴 선력은 근처의 물과 흙의 형태를 순식간에 바꿀 수 있는 듯하다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120845"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120851,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "적장 지도",
+    "Description": "천암군이 남긴 지도. 창고의 위치가 기록되어 있는 것 같다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120274"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120853,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "옛 성벽의 열쇠",
+    "Description": "이미 녹슨 열쇠. 적장 성벽 어딘가에 있는 버려진 창고를 열 수 있는 듯하다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120854,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "녹슨 열쇠",
+    "Description": "침옥 협곡의 유적에서 찾은 열쇠. 군데군데 녹슬어 있지만 아직 쓸 수 있는 듯하다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120857,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「사다새」의 입속에서 뺏은 물고기",
+    "Description": "교영 마을 사다새의 입속에서 뺏은 물고기. 다른 동물이 꽤 귀하게 여기는 진미인 듯하다. 어떤 동물이 평소 쓰는 밥그릇 속에 넣으면 특정 시기의 아쉬움을 달랠 수 있을지도 모른다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_100084"
   },
   {
     "MaterialType": 31,
@@ -34160,7 +35151,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "포포 하트 농어",
-    "Description": "옆구리에 하트 모양 점이 있는 특이한 물고기. 농어와 관련이 있는 것으로 알려져 있으며, 등지느러미와 배지느러미에 깃털처럼 생긴 길고 가는 연골이 달려 있어 「하트 농어」라는 이름이 붙었다.\n하트 농어 중에서 중요 품종 중 하나로 포포 하트 농어라는 생선이 있다. 이 품종은 생김새와는 달리 수중 이동 능력이 상당히 뛰어나며, 심지어 폭풍이 휘몰아치는 바다를 가로지를 수도 있다고 한다. 이 녀석들은 수면으로 나와서 급류를 거슬러 올라갈 때 독특하게 생긴 지느러미로 「포포」하는 소리를 낸다고 전해진다. 하지만 푸른 물속에서 보호색을 띠고 있는 이 어종을 발견하는 것만으로도 이미 어려운 일이라, 대부분의 낚시꾼은 아직 이런 독특한 소리를 들어본 적이 없다",
+    "Description": "옆모습이 하트 모양인 특이한 물고기. 농어와 관련이 있는 것으로 알려져 있으며, 등지느러미와 배지느러미에 깃털처럼 생긴 길고 가는 연골이 달려 있어 「하트 농어」라는 이름이 붙었다.\n하트 농어 중에서 중요 품종 중 하나로 포포 하트 농어라는 생선이 있다. 이 품종은 생김새와는 달리 수중 이동 능력이 상당히 뛰어나며, 심지어 폭풍이 휘몰아치는 바다를 가로지를 수도 있다고 한다. 이 녀석들은 수면으로 나와서 급류를 거슬러 올라갈 때 독특하게 생긴 지느러미로 「포포」하는 소리를 낸다고 전해진다. 하지만 푸른 물속에서 보호색을 띠고 있는 이 어종을 발견하는 것만으로도 이미 어려운 일이라, 대부분의 낚시꾼은 아직 이런 독특한 소리를 들어본 적이 없다",
     "TypeDescription": "물고기",
     "Icon": "UI_ItemIcon_131030"
   },
@@ -34170,7 +35161,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "활활 하트 농어",
-    "Description": "옆구리에 하트 모양 점이 있는 특이한 물고기. 농어와 관련이 있는 것으로 알려져 있으며, 등지느러미와 배지느러미에 깃털처럼 생긴 길고 가는 연골이 달려 있어 「하트 농어」라는 이름이 붙었다.\n「활활 하트 농어」라 불리는 이 생선은 마치 햇빛과도 같은 독특한 색채를 띠고 있어서 물속에서 특히 돋보인다. 이는 자기 보호를 위한 또 다른 방법으로, 시각에 의존하는 생선들의 눈에는 「물속에서 타오르는 무언가」로 보인다고 한다. 하지만 화염과도 같은 외모와는 달리 이 하트 농어는 체온이 낮고 먹이 섭취량이 매우 적으며, 때로는 얕은 물에서 햇볕을 쬐기도 한다",
+    "Description": "옆모습이 하트 모양인 특이한 물고기. 농어와 관련이 있는 것으로 알려져 있으며, 등지느러미와 배지느러미에 깃털처럼 생긴 길고 가는 연골이 달려 있어 「하트 농어」라는 이름이 붙었다.\n「활활 하트 농어」라 불리는 이 생선은 마치 햇빛과도 같은 독특한 색채를 띠고 있어서 물속에서 특히 돋보인다. 이는 자기 보호를 위한 또 다른 방법으로, 시각에 의존하는 생선들의 눈에는 「물속에서 타오르는 무언가」로 보인다고 한다. 하지만 화염과도 같은 외모와는 달리 이 하트 농어는 체온이 낮고 먹이 섭취량이 매우 적으며, 때로는 얕은 물에서 햇볕을 쬐기도 한다",
     "TypeDescription": "물고기",
     "Icon": "UI_ItemIcon_131031"
   },
@@ -34223,6 +35214,16 @@
     "Description": "수중에서 활동하는 태엽 장치를 지원하고, 총 운용률을 높이기 위해 개발된 소형 보조 장치. 최초 설계 목적은 쓰레기나 식물 파편이 태엽 장치의 주요 기관 사이에 끼는 것을 방지하기 위해 수중 폐기물을 제거하여 태엽 장치의 고장률을 최소화하는 것이었으나, 여기에 추가로 폰타인 수중 생태계에 도움을 주는 「수중 청소부」의 역할까지 수행하고 있다.\n다른 양산형 타입과 달리 이 특별한 「금빛 리더 타입」 유지 보수 장치는 깨끗한 금색 프레임과 특별한 제어 설비를 장착했다. 개발팀은 복잡한 수중 지형에서 임무 수행 시 이런 유지 보수 장치가 마치 「리더」처럼 고효율의 「중계 지휘 거점」이 되어 제어자가 내린 각종 명령을 주위의 다른 유지 보수 장치에 하달하는 식의 중요한 장치가 되길 바랐다.\n유지 보수 장치 프로젝트팀의 운영이 중단되자 이런 「리더 장치」들도 존재의 의미를 잃었지만, 눈에 확 띄는 개성과 깨끗한 금색 외관 덕분에 그나마 일부 낚시꾼들 사이에서 높은 소장 가치를 지니고 있다",
     "TypeDescription": "물고기",
     "Icon": "UI_ItemIcon_131036"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131037,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "옥빛 하트 농어",
+    "Description": "옆모습이 하트 모양인 특이한 물고기. 농어와 관련이 있는 것으로 알려져 있으며, 등지느러미와 배지느러미에 깃털처럼 생긴 길고 가는 연골이 달려 있어 「하트 농어」라는 이름이 붙었다.\n마치 물속의 비취옥처럼 특별한 색깔을 지니고 있어 「옥빛 하트 농어」라고 불린다. 얌전해 보이는 겉모습과는 다르게 강인한 생명력을 지니고 있어 다양한 특성의 수역에서 생존할 수 있다. 침옥 협곡처럼 맑은 수질은 이 녀석들에게 흠잡을 데 없이 완벽한 환경이다. 아름다운 옥으로 유명한 침옥 협곡에서 이 녀석들은 근심 걱정 없이 건강하고 편안하게 살아간다",
+    "TypeDescription": "물고기",
+    "Icon": "UI_ItemIcon_131037"
   },
   {
     "MaterialType": 36,
@@ -35210,7 +36211,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "빛나는 결정·99",
-    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 폰타인의 신비한 선율이 담겨 있다",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에 담긴 선율: 「Ballad of Many Waters」",
     "TypeDescription": "모험 아이템",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35220,7 +36221,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "빛나는 결정·100",
-    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 폰타인의 신비한 선율이 담겨 있다",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에 담긴 선율: 「Coruscating Street」",
     "TypeDescription": "모험 아이템",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35230,7 +36231,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "빛나는 결정·101",
-    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 폰타인의 신비한 선율이 담겨 있다",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에 담긴 선율: 「Throughout the Flow of Years」",
     "TypeDescription": "모험 아이템",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35240,7 +36241,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "빛나는 결정·102",
-    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 폰타인의 신비한 선율이 담겨 있다",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에 담긴 선율: 「Miraculous Whisper」",
     "TypeDescription": "모험 아이템",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35250,7 +36251,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "빛나는 결정·103",
-    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 폰타인의 신비한 선율이 담겨 있다",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에 담긴 선율: 「Surging Reminiscence」",
     "TypeDescription": "모험 아이템",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35260,7 +36261,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "빛나는 결정·104",
-    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 폰타인의 신비한 선율이 담겨 있다",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에 담긴 선율: 「Ann's Quiescent Residence」",
     "TypeDescription": "모험 아이템",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35270,7 +36271,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "빛나는 결정·105",
-    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 폰타인의 신비한 선율이 담겨 있다",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에 담긴 선율: 「Limpide est le sanglot d'eau」",
     "TypeDescription": "모험 아이템",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35280,7 +36281,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "빛나는 결정·106",
-    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 폰타인의 신비한 선율이 담겨 있다",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에 담긴 선율: 「Que le vent soit doux」",
     "TypeDescription": "모험 아이템",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35290,7 +36291,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "빛나는 결정·107",
-    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 폰타인의 신비한 선율이 담겨 있다",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에 담긴 선율: 「Demain, des l'aube」",
     "TypeDescription": "모험 아이템",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35411,6 +36412,66 @@
     "ItemType": 2,
     "Name": "빛나는 결정·119",
     "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 폰타인의 신비한 선율이 담겨 있다",
+    "TypeDescription": "모험 아이템",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141220,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "빛나는 결정·120",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 리월의 신비한 선율이 담겨 있다",
+    "TypeDescription": "모험 아이템",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141221,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "빛나는 결정·121",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 리월의 신비한 선율이 담겨 있다",
+    "TypeDescription": "모험 아이템",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141222,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "빛나는 결정·122",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 리월의 신비한 선율이 담겨 있다",
+    "TypeDescription": "모험 아이템",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141223,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "빛나는 결정·123",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 리월의 신비한 선율이 담겨 있다",
+    "TypeDescription": "모험 아이템",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141224,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "빛나는 결정·124",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 리월의 신비한 선율이 담겨 있다",
+    "TypeDescription": "모험 아이템",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141225,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "빛나는 결정·125",
+    "Description": "음률이 담긴 기묘한 결정. 마치 부드러운 비단으로 만든 옥 같다. 대륙 각지에 흩어져 있거나 진기한 보물을 찾는 상인의 손에 있다. 「속세의 주전자」의 「천상의 소리·활공」 또는 「천상의 소리·얽힘」으로 기록된 선율을 복원할 수 있다. 현재 「빛나는 결정」에는 리월의 신비한 선율이 담겨 있다",
     "TypeDescription": "모험 아이템",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -38360,7 +39421,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "안개 노을의 꿈나라 방",
-    "Description": "작업 순서가 상세히 적힌 도면. 「안개 노을의 꿈나라 방」의 설치 방법이 기재되어 있다.\n소박하고 꾸밈없는 침실, 장식품의 배치와 느낌이 망서 객잔과 비슷하다. 이 침실의 현묘함은 표현하기 어려운데, 꼭 구름과 안개가 피어오르는 것처럼 보이는 방은 나그네에게 추억을 생각나게 하고, 그 슬픔이 사라진 후에는 지난날에 대한 흔적만을 남긴다.\n속세의 삶은 유랑하는 것과 같기에 「자아」를 명심해야만, 올곧게 앞으로 나아갈 수 있다. 반쯤 깨어났을 때의 상념들은 때론 매우 깊다. 그래서인지 망서 객잔에서 하룻밤을 묵은 나그네들은 모두 넘치는 의욕을 되찾아 기쁜 마음으로 다시 여정에 오른다.\n사용 후 배치 화면에서 확인할 수 있다.\n해당 장식 세트를 선호하는 친구: 호두, 연비, 감우, 각청, 중운",
+    "Description": "작업 순서가 상세히 적힌 도면. 「안개 노을의 꿈나라 방」의 설치 방법이 기재되어 있다.\n소박하고 꾸밈없는 침실, 장식품의 배치와 느낌이 망서 객잔과 비슷하다. 이 침실의 현묘함은 표현하기 어려운데, 꼭 구름과 안개가 피어오르는 것처럼 보이는 방은 나그네에게 추억을 생각나게 하고, 그 슬픔이 사라진 후에는 지난날에 대한 흔적만을 남긴다.\n속세의 삶은 유랑하는 것과 같기에 「자아」를 명심해야만, 올곧게 앞으로 나아갈 수 있다. 반쯤 깨어났을 때의 상념들은 때론 매우 깊다. 그래서인지 망서 객잔에서 하룻밤을 묵은 나그네들은 모두 넘치는 의욕을 되찾아 기쁜 마음으로 다시 여정에 오른다.\n사용 후 배치 화면에서 확인할 수 있다.\n해당 장식 세트를 선호하는 친구: 호두, 연비, 감우, 각청, 중운, 가명",
     "TypeDescription": "장식 세트 도면",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -38420,7 +39481,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "노천 먹자골목",
-    "Description": "작업 순서가 상세히 적힌 도면. 「노천 먹자골목」의 설치 방법이 기재되어 있다.\n야외의 먹거리 노점, 여러 종류의 음식이 놓여있고, 흘호암의 풍경이 재현되어 있다.\n「노점」은 사실 너무 겸손한 표현이다. 이 야외의 먹거리 노점엔 몇 개의 조리 기구뿐이지만, 리월 전역을 아우르는 맛있는 요리가 모두 준비되어 있다——숙련된 요리사는 가장 간단한 조리 기구로 맛있는 요리를 만들어 내기 때문에 조리 기구에 대한 요구 사항이 높지 않고, 간단한 조리 기구로 만든 요리는 쉽게 유명해질 수 있다.\n사용 후 배치 화면에서 확인할 수 있다.\n해당 장식 세트를 선호하는 친구: 북두, 향릉, 감우, 신염, 타르탈리아, 야란",
+    "Description": "작업 순서가 상세히 적힌 도면. 「노천 먹자골목」의 설치 방법이 기재되어 있다.\n야외의 먹거리 노점, 여러 종류의 음식이 놓여있고, 흘호암의 풍경이 재현되어 있다.\n「노점」은 사실 너무 겸손한 표현이다. 이 야외의 먹거리 노점엔 몇 개의 조리 기구뿐이지만, 리월 전역을 아우르는 맛있는 요리가 모두 준비되어 있다——숙련된 요리사는 가장 간단한 조리 기구로 맛있는 요리를 만들어 내기 때문에 조리 기구에 대한 요구 사항이 높지 않고, 간단한 조리 기구로 만든 요리는 쉽게 유명해질 수 있다.\n사용 후 배치 화면에서 확인할 수 있다.\n해당 장식 세트를 선호하는 친구: 북두, 향릉, 감우, 신염, 타르탈리아, 야란, 가명, 한운",
     "TypeDescription": "장식 세트 도면",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -38440,7 +39501,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "구름 속 경책",
-    "Description": "작업 순서가 상세한 도면. 「구름 속 경책」 설치 방법이 기재되어 있다.\n경책 산장을 모방해 만들어진 산간 마을. 이곳에 들어오면 친근한 분위기에 감화되어 편안한 마음을 느끼고, 그간 경시했던 소박함의 아름다움을 발견한다고 한다.\n젊은 날 이상을 추구하고 사업을 위해 파란만장한 삶을 사는 것도 긍정적이지만, 계속해서 떠돌아다닌다면 지치는 날이 오기 마련이다. 그런 때에 화목한 이웃들과 평화로운 시골 생활을 하는 것도 괜찮은 선택이다. 멀리 여행을 떠나는 젊은이들에게 경책 산장은 언제나 아량을 베풀어 고향으로의 귀향을 반긴다.\n사용 후 배치 화면에서 확인할 수 있다.\n해당 장식 세트를 선호하는 친구: 신염, 소, 호두, 치치, 신학, 야란, 요요",
+    "Description": "작업 순서가 상세한 도면. 「구름 속 경책」 설치 방법이 기재되어 있다.\n경책 산장을 모방해 만들어진 산간 마을. 이곳에 들어오면 친근한 분위기에 감화되어 편안한 마음을 느끼고, 그간 경시했던 소박함의 아름다움을 발견한다고 한다.\n젊은 날 이상을 추구하고 사업을 위해 파란만장한 삶을 사는 것도 긍정적이지만, 계속해서 떠돌아다닌다면 지치는 날이 오기 마련이다. 그런 때에 화목한 이웃들과 평화로운 시골 생활을 하는 것도 괜찮은 선택이다. 멀리 여행을 떠나는 젊은이들에게 경책 산장은 언제나 아량을 베풀어 고향으로의 귀향을 반긴다.\n사용 후 배치 화면에서 확인할 수 있다.\n해당 장식 세트를 선호하는 친구: 신염, 소, 호두, 치치, 신학, 야란, 요요, 한운",
     "TypeDescription": "장식 세트 도면",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -47011,6 +48072,416 @@
     "ItemType": 2,
     "Name": "「제한된 요새의 격투 과녁」",
     "Description": "작업 순서가 상세히 적힌 도면. 「『제한된 요새의 격투 과녁』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390117,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 상점-「차 한잔의 여유」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 상점-『차 한잔의 여유』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390118,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 무대-「구름바다의 물결」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 무대-『구름바다의 물결』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390119,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 회랑-「멀리서 보는 풍경」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 회랑-『멀리서 보는 풍경』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390120,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 회랑-「탄탄한 기초」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 회랑-『탄탄한 기초』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390121,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 정각-「밝고 따스한 햇살」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 정각-『밝고 따스한 햇살』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390122,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 돌패방-「돌아오는 풍년」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 돌패방-『돌아오는 풍년』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390123,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 정자-「안성맞춤」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 정자-『안성맞춤』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390124,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 망루-「경계근무」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 망루-『경계근무』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391253,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 대문-「문전성시」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 대문-『문전성시』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391254,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 대문-「문 너머 산」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 대문-『문 너머 산』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391255,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 통로-「그윽한 부채」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 통로-『그윽한 부채』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393439,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "액막이 돌북-「묵직한 울림」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「액막이 돌북-『묵직한 울림』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391256,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 담장-「모이는 파도」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 담장-『모이는 파도』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391257,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 돌벽-「옥대 강물」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 돌벽-『옥대 강물』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391258,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 돌벽-「그윽한 경치」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 돌벽-『그윽한 경치』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391259,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 돌벽-「잉어와 솔개」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 돌벽-『잉어와 솔개』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390125,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 가옥-「우뚝 솟은 산」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 가옥-『우뚝 솟은 산』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390126,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 가옥-「깊은 골짜기 속 여유」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 가옥-『깊은 골짜기 속 여유』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390127,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 가옥-「단순함 속의 복잡함」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 가옥-『단순함 속의 복잡함』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390128,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 가옥-「일심전력」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 가옥-『일심전력』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390129,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 가옥-「차의 고향」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 가옥-『차의 고향』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390130,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 가옥-「촌척 누각」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 가옥-『촌척 누각』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391260,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 박공벽-「방풍 방화」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 박공벽-『방풍 방화』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391261,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 박공벽-「빛이 드는 처마」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 박공벽-『빛이 드는 처마』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391262,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 돌계단-「초석의 공로」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 돌계단-『초석의 공로』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394321,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "명차 탁자-「사방 손님맞이」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「명차 탁자-『사방 손님맞이』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393441,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "짐승춤 무대 의상-「위풍당당한 산예」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「짐승춤 무대 의상-『위풍당당한 산예』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393442,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "짐승춤 인형-「나른한 산예」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「짐승춤 인형-『나른한 산예』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393443,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "비단 병풍-「나비와 물고기의 춤」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「비단 병풍-『나비와 물고기의 춤』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393444,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "비단 병풍-「솔개와 참새의 합창」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「비단 병풍-『솔개와 참새의 합창』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393448,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "축제 연-「풍족 기원」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「축제 연-『풍족 기원』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393449,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "축제 연-「평안 기원」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「축제 연-『평안 기원』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393450,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "축제 연-「나비의 날갯짓」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「축제 연-『나비의 날갯짓』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393451,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "축제 연-「번영 기원」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「축제 연-『번영 기원』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393452,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수향나무 처마 게시판",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수향나무 처마 게시판」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394211,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "명차 의자-「상쾌한 청풍」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「명차 의자-『상쾌한 청풍』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380444,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "정교한 물고기 등-「만사형통」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「정교한 물고기 등-『만사형통』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380445,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "정교한 물고기 등-「봄맞이」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「정교한 물고기 등-『봄맞이』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380446,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "상업 항구의 바닥 조명-「그윽한 향」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「상업 항구의 바닥 조명-『그윽한 향』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380447,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "상업 항구의 가로등-「겹경사」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「상업 항구의 가로등-『겹경사』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380448,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "수려한 협곡의 석등-「꺼지지 않는 촛불」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「수려한 협곡의 석등-『꺼지지 않는 촛불』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
     "TypeDescription": "장식 도면",
     "Icon": "UI_ItemIcon_Home_Common"
   }

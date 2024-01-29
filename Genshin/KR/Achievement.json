@@ -611,7 +611,7 @@
     "Goal": 5,
     "Order": 44,
     "Title": "바위 감상",
-    "Description": "리월의 모든 워프 포인트 해제하기(층암거연은 제외)",
+    "Description": "리월의 모든 워프 포인트 해제하기(층암거연과 침옥 협곡은 따로 계산)",
     "FinishReward": {
       "Id": 201,
       "Count": 5
@@ -655,7 +655,7 @@
     "Goal": 5,
     "Order": 47,
     "Title": "바위 속 길잡이",
-    "Description": "리월에서 20개의 선령을 따라가 선령의 정원 밝히기(층암거연은 제외)",
+    "Description": "리월에서 20개의 선령을 따라가 선령의 정원 밝히기(층암거연과 침옥 협곡은 따로 계산)",
     "FinishReward": {
       "Id": 201,
       "Count": 5
@@ -669,7 +669,7 @@
     "Order": 48,
     "PreviousId": 80047,
     "Title": "바위 속 길잡이",
-    "Description": "리월에서 40개의 선령을 따라가 선령의 정원 밝히기(층암거연은 제외)",
+    "Description": "리월에서 40개의 선령을 따라가 선령의 정원 밝히기(층암거연과 침옥 협곡은 따로 계산)",
     "FinishReward": {
       "Id": 201,
       "Count": 10
@@ -683,7 +683,7 @@
     "Order": 49,
     "PreviousId": 80048,
     "Title": "바위 속 길잡이",
-    "Description": "리월에서 60개의 선령을 따라가 선령의 정원 밝히기(층암거연은 제외)",
+    "Description": "리월에서 60개의 선령을 따라가 선령의 정원 밝히기(층암거연과 침옥 협곡은 따로 계산)",
     "FinishReward": {
       "Id": 201,
       "Count": 20
@@ -696,7 +696,7 @@
     "Goal": 5,
     "Order": 50,
     "Title": "반암의 트레저헌터",
-    "Description": "리월에서 보물상자 200개 열기(층암거연은 제외)",
+    "Description": "리월에서 보물상자 200개 열기(층암거연과 침옥 협곡은 따로 계산)",
     "FinishReward": {
       "Id": 201,
       "Count": 5
@@ -711,7 +711,7 @@
     "Order": 51,
     "PreviousId": 80050,
     "Title": "반암의 트레저헌터",
-    "Description": "리월에서 보물상자 400개 열기(층암거연은 제외)",
+    "Description": "리월에서 보물상자 400개 열기(층암거연과 침옥 협곡은 따로 계산)",
     "FinishReward": {
       "Id": 201,
       "Count": 10
@@ -726,7 +726,7 @@
     "Order": 52,
     "PreviousId": 80051,
     "Title": "반암의 트레저헌터",
-    "Description": "리월에서 보물상자 800개 열기(층암거연은 제외)",
+    "Description": "리월에서 보물상자 800개 열기(층암거연과 침옥 협곡은 따로 계산)",
     "FinishReward": {
       "Id": 201,
       "Count": 20
@@ -740,7 +740,7 @@
     "Goal": 5,
     "Order": 53,
     "Title": "반암의 모험가",
-    "Description": "리월에서 월드 장치 타임어택 도전 10개 클리어하기(층암거연은 제외)",
+    "Description": "리월에서 월드 장치 타임어택 도전 10개 클리어하기(층암거연과 침옥 협곡은 따로 계산)",
     "FinishReward": {
       "Id": 201,
       "Count": 5
@@ -754,7 +754,7 @@
     "Order": 54,
     "PreviousId": 80053,
     "Title": "반암의 모험가",
-    "Description": "리월에서 월드 장치 타임어택 도전 20개 클리어하기(층암거연은 제외)",
+    "Description": "리월에서 월드 장치 타임어택 도전 20개 클리어하기(층암거연과 침옥 협곡은 따로 계산)",
     "FinishReward": {
       "Id": 201,
       "Count": 10
@@ -768,7 +768,7 @@
     "Order": 55,
     "PreviousId": 80054,
     "Title": "반암의 모험가",
-    "Description": "리월에서 월드 장치 타임어택 도전 40개 클리어하기(층암거연은 제외)",
+    "Description": "리월에서 월드 장치 타임어택 도전 40개 클리어하기(층암거연과 침옥 협곡은 따로 계산)",
     "FinishReward": {
       "Id": 201,
       "Count": 20
@@ -3965,6 +3965,181 @@
     "Progress": 1,
     "Icon": "UI_AchievementIcon_A016_Part3",
     "Version": "4.2"
+  },
+  {
+    "Id": 80300,
+    "Goal": 47,
+    "Order": 276,
+    "Title": "대지 탐사·푸른 물이 굽이도는 고장",
+    "Description": "리월 지역의 침옥 협곡 지도 밝히기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 80301,
+    "Goal": 47,
+    "Order": 277,
+    "Title": "침옥 너머로",
+    "Description": "리월 지역의 침옥 협곡의 모든 워프 포인트 해제하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "Progress": 29,
+    "Version": "4.4"
+  },
+  {
+    "Id": 80302,
+    "Goal": 47,
+    "Order": 278,
+    "Title": "선계 정원의 인도자",
+    "Description": "침옥 협곡에서 4개의 선령을 따라가 선령의 정원 밝히기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "Progress": 4,
+    "Version": "4.4"
+  },
+  {
+    "Id": 80303,
+    "Goal": 47,
+    "Order": 279,
+    "PreviousId": 80302,
+    "Title": "선계 정원의 인도자",
+    "Description": "침옥 협곡에서 8개의 선령을 따라가 선령의 정원 밝히기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 10
+    },
+    "Progress": 8,
+    "Version": "4.4"
+  },
+  {
+    "Id": 80304,
+    "Goal": 47,
+    "Order": 280,
+    "PreviousId": 80303,
+    "Title": "선계 정원의 인도자",
+    "Description": "침옥 협곡에서 16개의 선령을 따라가 선령의 정원 밝히기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 20
+    },
+    "Progress": 16,
+    "Version": "4.4"
+  },
+  {
+    "Id": 80305,
+    "Goal": 47,
+    "Order": 281,
+    "Title": "비취 언덕의 트레저헌터",
+    "Description": "침옥 협곡에서 보물상자 60개 열기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "Progress": 60,
+    "Version": "4.4"
+  },
+  {
+    "Id": 80306,
+    "Goal": 47,
+    "Order": 282,
+    "PreviousId": 80305,
+    "Title": "비취 언덕의 트레저헌터",
+    "Description": "침옥 협곡에서 보물상자 120개 열기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 10
+    },
+    "Progress": 120,
+    "Version": "4.4"
+  },
+  {
+    "Id": 80307,
+    "Goal": 47,
+    "Order": 283,
+    "PreviousId": 80306,
+    "Title": "비취 언덕의 트레저헌터",
+    "Description": "침옥 협곡에서 보물상자 240개 열기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 20
+    },
+    "Progress": 240,
+    "Version": "4.4"
+  },
+  {
+    "Id": 80308,
+    "Goal": 47,
+    "Order": 284,
+    "Title": "비취 언덕의 모험가",
+    "Description": "침옥 협곡에서 월드 타임어택 도전 12개 클리어하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "Progress": 12,
+    "Version": "4.4"
+  },
+  {
+    "Id": 80309,
+    "Goal": 47,
+    "Order": 285,
+    "PreviousId": 80308,
+    "Title": "비취 언덕의 모험가",
+    "Description": "침옥 협곡에서 월드 타임어택 도전 24개 클리어하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 10
+    },
+    "Progress": 24,
+    "Version": "4.4"
+  },
+  {
+    "Id": 80310,
+    "Goal": 47,
+    "Order": 286,
+    "PreviousId": 80309,
+    "Title": "비취 언덕의 모험가",
+    "Description": "침옥 협곡에서 월드 타임어택 도전 48개 클리어하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 20
+    },
+    "Progress": 48,
+    "Version": "4.4"
+  },
+  {
+    "Id": 80311,
+    "Goal": 47,
+    "Order": 287,
+    "Title": "절대 옥",
+    "Description": "금락정의 사롱옥을 최고 레벨까지 공양하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 20
+    },
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 80312,
+    "Goal": 47,
+    "Order": 288,
+    "Title": "침옥의 축복",
+    "Description": "「침옥의 축복」 완료하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 10
+    },
+    "Progress": 1,
+    "Version": "4.4"
   },
   {
     "Id": 81000,
@@ -9479,6 +9654,426 @@
     "Version": "4.3"
   },
   {
+    "Id": 81438,
+    "Goal": 0,
+    "Order": 1422,
+    "Title": "「적장순악부군」",
+    "Description": "지방 전설·적장순악부군 처치하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81439,
+    "Goal": 0,
+    "Order": 1423,
+    "Title": "극상의 비급",
+    "Description": "고화가 남긴 보물찾기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81440,
+    "Goal": 0,
+    "Order": 1424,
+    "Title": "진·창검쌍절",
+    "Description": "왕산청 내의 모든 시련 통과하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81441,
+    "Goal": 0,
+    "Order": 1425,
+    "Title": "폐허의 이야기",
+    "Description": "선조들이 봉인한 비밀 파헤치기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81442,
+    "Goal": 0,
+    "Order": 1426,
+    "Title": "완벽한 복원",
+    "Description": "유적 경관 6곳의 복구 및 재건 완료하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81443,
+    "Goal": 0,
+    "Order": 1427,
+    "Title": "무명 타파",
+    "Description": "성한 기운의 근원 7개 파괴하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81444,
+    "Goal": 0,
+    "Order": 1428,
+    "Title": "손을 내밀어 하늘의 얼굴을 만져보았다네",
+    "Description": "선력으로 잠깐 동안 대지의 속박에서 벗어나기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81445,
+    "Goal": 0,
+    "Order": 1429,
+    "Title": "그깟 돌덩이 하나쯤…",
+    "Description": "…조심스럽게 다뤄야 한다",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81446,
+    "Goal": 0,
+    "Order": 1430,
+    "Title": "솥중천지",
+    "Description": "나 씨 아저씨를 도와 교영 마을의 차솥 수리하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81447,
+    "Goal": 0,
+    "Order": 1431,
+    "Title": "봄과 가을의 나이",
+    "Description": "고목이 다시 태어나는 모습 확인하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81448,
+    "Goal": 0,
+    "Order": 1432,
+    "Title": "「고기가 가라앉으면… 나타난다?」",
+    "Description": "고대 패옥 거북의 서식지 발견하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81449,
+    "Goal": 0,
+    "Order": 1433,
+    "Title": "오래 지속되는 주전자 속 경치",
+    "Description": "침옥 협곡의 산천에서 모든 옛 찻잔 채우기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81450,
+    "Goal": 0,
+    "Order": 1434,
+    "Title": "비단이 추락하니 구름이 열리네",
+    "Description": "영연과 함께 오랫동안 봉인된 금락정으로 들어가기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81452,
+    "Goal": 0,
+    "Order": 1436,
+    "Title": "왕산으로 돌아온 오검",
+    "Description": "「잃어버린 고화의 검」 다섯 자루 모두 찾기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81454,
+    "Goal": 0,
+    "Order": 1438,
+    "Title": "「배우고 싶어? 가르쳐줄게」",
+    "Description": "특수한 신분을 가진 고화파 비정식 제자 3회 쓰러뜨리기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81455,
+    "Goal": 0,
+    "Order": 1439,
+    "Title": "벽화의 베일",
+    "Description": "4곳의 벽화 확인하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81457,
+    "Goal": 0,
+    "Order": 1441,
+    "Title": "철도 두드리면 열린다",
+    "Description": "천암군을 도와 「철염파」의 불법 무역 적발하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81458,
+    "Goal": 0,
+    "Order": 1442,
+    "Title": "침옥 협곡의 사계절",
+    "Description": "한정판 「침옥곡 여행」 기념 앨범 획득하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81459,
+    "Goal": 0,
+    "Order": 1443,
+    "Title": "향군의 꿈",
+    "Description": "혼향꽃의 비밀에 대해 알아보기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81460,
+    "Goal": 0,
+    "Order": 1444,
+    "Title": "종선여류",
+    "Description": "동물 짐꾼 사육 노하우 향상이… 정말 효과가 있을까?",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81461,
+    "Goal": 0,
+    "Order": 1445,
+    "Title": "예비 동력원",
+    "Description": "침옥 협곡의 유적 장치 재가동하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81462,
+    "Goal": 0,
+    "Order": 1446,
+    "Title": "만리장성 축조 때",
+    "Description": "천암군이 남긴 물자 찾기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81463,
+    "Goal": 0,
+    "Order": 1447,
+    "Title": "푸른 물을 따라서",
+    "Description": "뱃노래를 들으며 벽수강의 아름다운 풍경 관람하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81465,
+    "Goal": 0,
+    "Order": 1449,
+    "Title": "잉어 등용문",
+    "Description": "황금 잉어가 협곡을 넘는 모습 확인하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81466,
+    "Goal": 0,
+    "Order": 1450,
+    "Title": "신선께선 어찌하여 물속에 계실까",
+    "Description": "보결구의 숨겨진 비밀 발견하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81467,
+    "Goal": 0,
+    "Order": 1451,
+    "Title": "「옥벽아 옥벽아, 소원을 들어다오…」",
+    "Description": "마지막 사롱옥 회수하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81468,
+    "Goal": 0,
+    "Order": 1452,
+    "Title": "가끔 어렴풋이 보이는",
+    "Description": "꿈에서 닿은 높은 하늘",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81469,
+    "Goal": 0,
+    "Order": 1453,
+    "Title": "오래된 무속 노래",
+    "Description": "부금이 롱옥 투척 의식을 완료하는 것 확인하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81470,
+    "Goal": 0,
+    "Order": 1454,
+    "Title": "선인의 길을 따라서",
+    "Description": "다시 금락정으로 돌아가기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 81471,
+    "Goal": 0,
+    "Order": 1455,
+    "Title": "비밀의 기적",
+    "Description": "내흠산 옥석의 비밀을 파헤치기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
     "Id": 82001,
     "Goal": 7,
     "Order": 2001,
@@ -11945,6 +12540,20 @@
     "IsDeleteWatcherAfterFinish": true,
     "Progress": 1,
     "Version": "4.2"
+  },
+  {
+    "Id": 82189,
+    "Goal": 0,
+    "Order": 2188,
+    "Title": "아이스윈드 게일",
+    "Description": "은둔 산예와 얼음 원소의 관계 탐색하기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
   },
   {
     "Id": 84000,
@@ -14495,6 +15104,34 @@
     "IsDeleteWatcherAfterFinish": true,
     "Progress": 1,
     "Version": "4.1"
+  },
+  {
+    "Id": 84572,
+    "Goal": 0,
+    "Order": 4096,
+    "Title": "진상 좀 알려줄 사람?",
+    "Description": "기하로를 도와 새로운 영감을… 찾았다?",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
+  },
+  {
+    "Id": 84573,
+    "Goal": 0,
+    "Order": 4097,
+    "Title": "순응자",
+    "Description": "어느 수문과 촬영에 관한 이야기 지켜보기",
+    "FinishReward": {
+      "Id": 201,
+      "Count": 5
+    },
+    "IsDeleteWatcherAfterFinish": true,
+    "Progress": 1,
+    "Version": "4.4"
   },
   {
     "Id": 85000,

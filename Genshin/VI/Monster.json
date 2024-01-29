@@ -3235,6 +3235,16 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 10307,
+    "RelationshipId": 10307,
+    "Name": "Boss Phù Thủy Hilichurl",
+    "Title": "Phù Thủy Lạc Lối Trong Bí Cảnh?",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 21040101,
     "DescribeId": 10401,
     "RelationshipId": 10401,
@@ -9143,6 +9153,32 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 60402,
+    "RelationshipId": 60402,
+    "Name": "Xích Chương Tuần Nhạc Phủ Quân - Di Tức",
+    "Title": "Rồng Đất Nham",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-火"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 60403,
+    "RelationshipId": 60403,
+    "Name": "Xích Chương Tuần Nhạc Phủ Quân - Thiên Ngu",
+    "Title": "Rồng Đất Nham",
+    "Icon": "UI_MonsterIcon_Drake_Rock",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "岩龙蜥-冰"
+    ]
+  },
+  {
     "Id": 26050101,
     "DescribeId": 60501,
     "RelationshipId": 60501,
@@ -11471,6 +11507,120 @@
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.6,
       "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190101,
+    "DescribeId": 61901,
+    "RelationshipId": 61901,
+    "MonsterName": "Hermit_Normal_01",
+    "Name": "Ẩn Sơn Nghê Thú",
+    "Title": "Ẩn Sơn Nghê Thú",
+    "Description": "Linh thú tao nhã và kiêu sa, chỉ sống ở vùng núi sâu có tiên lực bao quanh.\nTừ xưa đến nay, các loài tiên thú thường được cho là biểu tượng của sự may mắn. Chúng có đặc tính sống ẩn cư trong rừng núi, cách xa thế gian hỗn loạn, nên rất được các nhà văn cổ đại ca ngợi. Trong truyền thuyết cổ xưa ở Trầm Ngọc Cốc, thủ lĩnh của loài nghê thú hoang dã này được gọi là \"Sơn Chủ\", địa vị được cho là ngang hàng với tiên nhân.\nCó cách nói khác cho rằng, Huyền Văn Thú hiện nay đang hoạt động trên núi là hậu duệ của tiên thú. Vì tiên duyên thấp kém nên khó mà kế thừa được dòng máu cao quý, do đó thoái hóa thành loài dã thú hung hãn. Điều này trái ngược với cách nói còn lại về nguồn gốc của Huyền Văn Thú. Nhưng dù là vậy thì trong những ghi chép ít ỏi về loài nghê thú, luôn có sự xuất hiện của không ít Huyền Văn Thú đi kèm.\nNgày nay, \"Múa Thú\" được mọi người biết đến ở Trầm Ngọc Cốc, chính là nghệ thuật trình diễn mô phỏng các động tác và biểu cảm của nghê thú trong truyền thuyết. Hơn nữa, người nhìn thấy nghê thú lại càng ít, phần lớn con người chỉ có thể miêu tả lại hình dạng của chúng qua trí tưởng tượng. Sau hàng ngàn năm biến hóa và hoàn thiện về nghệ thuật, \"Đầu Nghê\" từ múa thú cuối cùng đã được cố định với vẻ ngoài như hiện tại ta thường thấy.",
+    "Icon": "UI_MonsterIcon_Hermit",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113058,
+      104151,
+      104152,
+      104153,
+      104154,
+      104121,
+      104122,
+      104123,
+      104124,
+      400022,
+      400032,
+      400052,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 225.4944,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.7,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.7,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26190201,
+    "DescribeId": 61902,
+    "RelationshipId": 61902,
+    "MonsterName": "Striped_01",
+    "Name": "Huyền Văn Thú",
+    "Title": "Huyền Văn Thú",
+    "Description": "Dã thú hung dữ sinh sống trong núi rừng Trầm Ngọc Cốc. Vì hoa văn đậm màu trên cơ thể nên có tên là \"Huyền Văn\".\nTrong truyền thuyết dân gian Trầm Ngọc Cốc, ở một quá khứ xa xôi, loài dã thú này từng là gia quyến của một vị tiên nhân, trấn yêu hàng ma, bảo vệ một vùng. Sau khi tiên nhân qua đời mới thoái hóa thành loài dã thú dữ tợn. Truyền thuyết từ lâu đã khó kiểm chứng, thân phận của tiên nhân mỗi người đồn một kiểu, điều duy nhất có thể xác nhận là tuyệt đối đừng nên lại gần loài sinh linh nóng nảy này để đảm bảo an toàn cho bản thân.\nTrong hàng ngàn năm, cùng sự khai phá không ngừng nghỉ của con người, không gian sống vốn thuộc về loài dã thú này ngày một thu hẹp. Cho đến nay, chỉ có những rặng núi cao chót vót vắng bóng người ở Trầm Ngọc Cốc mới có thể nhìn thấy bóng dáng của sinh vật này...",
+    "Icon": "UI_MonsterIcon_Striped",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112095,
+      112096,
+      112097,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 57.0528,
+      "AttackBase": 55.264,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1
