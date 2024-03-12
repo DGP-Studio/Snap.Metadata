@@ -1090,6 +1090,16 @@
     "Icon": "UI_ItemIcon_1102"
   },
   {
+    "MaterialType": 20,
+    "Id": 1194,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna di Chiori",
+    "Description": "Materiale per l'attivazione della costellazione di Chiori",
+    "TypeDescription": "Attiva costellazione",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
     "MaterialType": 5,
     "Id": 1201,
     "RankLevel": 5,
@@ -22254,7 +22264,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Haggis",
-    "Description": "Un piatto dai sapori forti e intensi. Trita le frattaglie di pecora, mescolale con i fiocchi d'avena, farcisci lo stomaco della pecora con diversi condimenti e spezie e avrai una pietanza a forma di sacca da cucinare. Quando servi questo piatto, la sacca dello stomaco viene normalmente rimossa, e si serve il ripieno accompagnandolo con un paté di ravanello e purea di patate. È una specialità locale caratteristica della cucina di Fontaine da offrire agli ospiti importanti.",
+    "Description": "Un piatto dai sapori forti e intensi. Per prepararlo, trita le frattaglie di pecora e mescolale con i fiocchi d'avena, poi farcisci lo stomaco della pecora con diversi condimenti e spezie per formare una sacca. Nel servire questo piatto, la sacca dello stomaco viene normalmente rimossa, e il ripieno viene servito con un paté di ravanello e purea di patate. È una specialità locale caratteristica della cucina di Fontaine da offrire agli ospiti importanti.",
     "TypeDescription": "Cibo",
     "Icon": "UI_ItemIcon_108583"
   },
@@ -23148,6 +23158,50 @@
     "Description": "La specialità di Gaming. In fila nella vaporiera giacciono, l'uno accanto all'altro, dei graziosi panini a forma di suanni. Ricordano il giovane che danza tra i pali del fiore di pruno... \"Perché hai quell'espressione perplessa? Che ne dici di una bella tazza di tè?\" Con queste parole, Gaming ti porge un'altra tazza, tutto sorridente.",
     "TypeDescription": "Cibo",
     "Icon": "UI_ItemIcon_108664"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Ripristina un 30% dei PS max e 600 PS aggiuntivi del personaggio selezionato.",
+    "Id": 108665,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sushi extracarne sospetto",
+    "Description": "Sushi preparato con carne grigliata. Le fette di carne sono orientate in ogni direzione, secche come la legna da ardere. Mangiarlo è come scalare vette pericolose. Arrendersi a metà strada potrebbe rivelarsi la scelta più saggia...",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108666"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Ripristina un 32% dei PS max e 1.250 PS aggiuntivi del personaggio selezionato.",
+    "Id": 108666,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sushi extracarne",
+    "Description": "Sushi preparato con carne grigliata. La carne, sottile e tenera, viene ammassata strato dopo strato come terra e pietra per formare una montagna, con la delicata purea di ravanello a fare da sua vetta innevata. Questo piatto non è solo una gioia per gli occhi, ma anche per la bocca.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108666"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Ripristina un 34% dei PS max e 1.900 PS aggiuntivi del personaggio selezionato.",
+    "Id": 108667,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sushi extracarne delizioso",
+    "Description": "Sushi preparato con della carne grigliata. La tenera carne succulenta riempie rapidamente ogni angolo della tua bocca. Conquistare l'intero piatto dà l'impressione di trovarsi in cima a una montagna altissima, contemplando il mondo sottostante pieni di una soddisfazione che trabocca dal fondo del proprio cuore.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108666"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "#Ripristina un 34% dei PS max del personaggio selezionato e rigenera 980 PS ogni 5{NON_BREAK_SPACE}s per 30{NON_BREAK_SPACE}s.",
+    "Id": 108668,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Spettacolo di moda",
+    "Description": "La specialità di Chiori. Grazie alle sue dita agili, anche il comune taiyaki si trasforma, riempiendosi di gloriose farciture che incantano i sensi. Un banchetto sontuoso che delizia le papille gustative e gli occhi, quasi al punto di sopraffarli. Non sarebbe esagerato definirlo un capolavoro di arte culinaria.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108668"
   },
   {
     "MaterialType": 5,
@@ -25050,6 +25104,16 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109574,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ricetta: sushi extracarne",
+    "Description": "Una ricetta passo dopo passo per preparare del sushi extracarne.",
+    "TypeDescription": "Ricetta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -26771,7 +26835,7 @@
     "ItemType": 2,
     "Name": "Becco adunco maestoso",
     "Description": "Un becco allungato che hai acquisito dopo aver sconfitto il Fungostro Cresta di giada.\nI ricercatori lo reputano un miracolo ancora adesso che alcuni teneri Miconoidi hanno sviluppato questi becchi adunchi duri come la roccia. Questo maestoso sovrano Miconoide rappresenta la massima espressione evolutiva. Di tanto in tanto, emette un richiamo rivolto a tutti gli esseri viventi della foresta: un giorno, persino la creatura più timida e indifesa potrebbe governare questo bioma.",
-    "TypeDescription": "Materiale per l'aumento di livello del personaggio",
+    "TypeDescription": "Materiale per aumento livello dei personaggi",
     "Icon": "UI_ItemIcon_113036"
   },
   {
@@ -26781,7 +26845,7 @@
     "ItemType": 2,
     "Name": "Nucleoreptus tonante",
     "Description": "Il nucleo di un Regisreptus di Electro, avvolto in foglie affilatissime, emette una gran quantità di energia di Electro.\nLa ruggente energia che infuria nelle viscere della terra è impaziente di scatenare la sua ira, diffondendo la sua ossessione ai poveri rampicanti, al punto da farli gemere e dimenare freneticamente. Non è chiaro se intenda trasmettere ad altri il dolore che prova a seguito delle continue elettrocuzioni e ustioni, o se stia invece lottando in attesa del suo inevitabile destino.",
-    "TypeDescription": "Materiale per l'aumento di livello del personaggio",
+    "TypeDescription": "Materiale per aumento livello dei personaggi",
     "Icon": "UI_ItemIcon_113037"
   },
   {
@@ -26951,7 +27015,7 @@
     "ItemType": 2,
     "Name": "Filo di seta senza luce",
     "Description": "Un filo sottile che è rimasto in qualche modo impigliato nella tua arma durante il combattimento contro il Narvalo Divoramondi.\nNella Fontaine antica alcuni pensavano che Fortuna, che dominava il mondo, avesse infiniti filamenti, come le corde di un'arpa. Corde che risuonano della musica maestosa che porta felicità in tutti i cuori, mentre la discordia distrugge la tela dell'universo.",
-    "TypeDescription": "Materiale per l'aumento di livello del personaggio",
+    "TypeDescription": "Materiale per aumento livello dei personaggi",
     "Icon": "UI_ItemIcon_113054"
   },
   {
@@ -26961,7 +27025,7 @@
     "ItemType": 2,
     "Name": "Occhio del vortice senza luce",
     "Description": "Una strana \"sostanza\" ottenuta dallo scontro con il Narvalo Divoramondi. Il suo peso effettivo è superiore a quello previsto, date le sue dimensioni.\nTutto converge attorno agli oggetti più pesanti, proprio come l'oro attrae più del ferro, o il suolo più della brezza che lo sovrasta. Come la luce non può sfuggire al vortice delle tenebre, causa ed effetto sono vincolati al destino, forse in modo irreversibile.",
-    "TypeDescription": "Materiale per l'aumento di livello del personaggio",
+    "TypeDescription": "Materiale per aumento livello dei personaggi",
     "Icon": "UI_ItemIcon_113055"
   },
   {
@@ -26971,7 +27035,7 @@
     "ItemType": 2,
     "Name": "Massa senza luce",
     "Description": "Un frammento generato dall'intensa battaglia contro il Narvalo Divoramondi.\nL'universo è un luogo buio e freddo.\nMa osserva con attenzione: al suo interno vi sono sempre deboli bagliori di luce, come perle che brillano nella sabbia, schegge di diamante disseminate sull'asfalto, fari che fendono la nebbia notturna e scintille che divampano vivacemente.",
-    "TypeDescription": "Materiale per l'aumento di livello del personaggio",
+    "TypeDescription": "Materiale per aumento livello dei personaggi",
     "Icon": "UI_ItemIcon_113056"
   },
   {
@@ -26981,7 +27045,7 @@
     "ItemType": 2,
     "Name": "Acqua non trascesa",
     "Description": "Tutto ciò che resta dei Tulpa di Hydro dopo che si sono dispersi.\nQuesta sostanza è molto simile ai cristalli estratti dai corpi degli Aberranti del Fontemer, ma contiene molte impurità di minuscole dimensioni, come le bolle all'interno del vetro lavorato da un artigiano maldestro.",
-    "TypeDescription": "Materiale per l'aumento di livello del personaggio",
+    "TypeDescription": "Materiale per aumento livello dei personaggi",
     "Icon": "UI_ItemIcon_113057"
   },
   {
@@ -33847,6 +33911,26 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120797,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Perinheri (I)",
+    "Description": "Questo testo è conosciuto anche come \"Hleobranto Innamorato\". L'autore della prima edizione di questo racconto sostiene di essersi basato su di una storia leggendaria conosciuta in tutta Khaenri'ah, ma non è rimasto nessuno che possa confermarlo. Al momento, si tratta di un'opera antologica prodotta nell'arco di diverse generazioni.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120798"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120798,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Perinheri (II)",
+    "Description": "Questo testo è conosciuto anche come \"Hleobranto Innamorato\". L'autore della prima edizione di questo racconto sostiene di essersi basato su di una storia leggendaria conosciuta in tutta Khaenri'ah, ma non è rimasto nessuno che possa confermarlo. Al momento, si tratta di un'opera antologica prodotta nell'arco di diverse generazioni.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120798"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120803,
     "RankLevel": 0,
     "ItemType": 2,
@@ -33904,6 +33988,16 @@
     "Description": "Il fattorino del giornale, Pip, ha inzeppato al suo interno tutti i giornali che la famiglia Leroy non ha ritirato negli ultimi tempi.",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120810,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Lumitoile incantevole",
+    "Description": "Una Lumitoile raccolta sul fondale marino. Ha una forma a stella e un colore affascinante. Può essere utilizzata come accessorio per i vestiti.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_101237"
   },
   {
     "MaterialType": 2,
@@ -33997,6 +34091,26 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120855,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Conchiglia di Béryl meravigliosa",
+    "Description": "Una conchiglia di Béryl raccolta sul fondale marino. Ha una forma a stella e un colore affascinante. Può essere utilizzata come accessorio per i vestiti.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_101232"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120856,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Fiore di Romaritime incantevole",
+    "Description": "Un fiore di Romaritime raccolto sul fondale marino. Ha una forma a stella e un colore affascinante. Può essere utilizzato come accessorio per i vestiti.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_101233"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120857,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34004,6 +34118,26 @@
     "Description": "#Un pesce che sei {F#riuscita}{M#riuscito} a recuperare dalla bocca di un pellicano ai moli del Villaggio di Qiaoying. Sembra essere un articolo molto apprezzato dalle altre creature, per cui potresti essere in grado di ovviare a una certa perdita di un certo periodo riportandolo nel contenitore per il cibo giornaliero di certi animali...",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_100084"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120864,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Felix Felicium",
+    "Description": "Una pozione speciale preparata da Lisa che sembra brillare di un bagliore dorato. Si dice che porti fortuna a chi la beve, assicurando che tutte le cose vadano per il verso giusto fino a quando l'effetto non svanisce. Poiché gli ingredienti usati sono estremamente rari, e il processo di elaborazione è incredibilmente intricato, solo in pochi sono riusciti a crearla.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120864"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120870,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Busta di Lynette",
+    "Description": "Una busta che appartiene solo a Lynette. Sul retro c'è scritto il suo nome, e contiene una foto di gruppo e una sua foto sul palco. Dentro vi è anche la \"lettera minatoria\".",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_120870"
   },
   {
     "MaterialType": 31,
@@ -34611,7 +34745,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Spigola Cuor di piuma increspata",
-    "Description": "Uno strano pesce simile a un cuore visto di lato, che si dice sia parente della spigola. Le pinne dorsali e ventrali sono composte di ossa flessibili finissime come piume. Per questo motivo, i ricercatori hanno proposto il nome di \"spigola Cuor di piuma\".\nIn quanto importante sottospecie della famiglia delle spigole Cuor di piuma, le spigole Cuor di piuma increspate sono molto più brave a nuotare di quanto il loro aspetto suggerisca, e sono in grado perfino di viaggiare tra le onde in burrasca. Si dice che le loro pinne producano un suono stridente quando nuotano controcorrente sulla superficie dell'acqua. Identificare i pesci è già estremamente difficile, dato il loro colore protettivo, quindi la maggior parte dei pescatori non ha mai sentito questo suono speciale con le proprie orecchie.",
+    "Description": "Uno strano pesce simile a un cuore visto di lato, che si dice sia parente della spigola. Le pinne dorsali e ventrali sono composte di lische flessibili finissime come piume. Per questo motivo, i ricercatori hanno proposto il nome di \"spigola Cuor di piuma\".\nIn quanto importante sottospecie della famiglia delle spigole Cuor di piuma, le spigole Cuor di piuma increspate sono molto più brave a nuotare di quanto il loro aspetto suggerisca, e sono in grado perfino di viaggiare tra le onde in burrasca. Si dice che le loro pinne producano un suono stridente quando nuotano controcorrente sulla superficie dell'acqua. Identificare i pesci è già estremamente difficile, dato il loro colore protettivo, quindi la maggior parte dei pescatori non ha mai sentito questo suono speciale con le proprie orecchie.",
     "TypeDescription": "Pesci",
     "Icon": "UI_ItemIcon_131030"
   },
@@ -34621,7 +34755,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Spigola Cuor di piuma ardente",
-    "Description": "Uno strano pesce simile a un cuore visto di lato, che si dice sia parente della spigola. Le pinne dorsali e ventrali sono composte di ossa flessibili finissime come piume. Per questo motivo, i ricercatori hanno proposto il nome di \"spigola Cuor di piuma\".\nLa spigola Cuor di piuma ardente ha una colorazione speciale che brilla come la luce del sole, rendendola estremamente appariscente nell'acqua. Si dice che sia una speciale strategia di difesa per assumere l'aspetto di un oggetto incandescente agli occhi dei predatori che si basano sul senso della vista. Nonostante l'apparenza fiammeggiante, in realtà mantiene una bassa temperatura corporea e la quantità di cibo consumato è relativamente modesta. A volte cerca appositamente le zone di secca per godersi la luce del sole.",
+    "Description": "Uno strano pesce simile a un cuore visto di lato, che si dice sia parente della spigola. Le pinne dorsali e ventrali sono composte di lische flessibili finissime come piume. Per questo motivo, i ricercatori hanno proposto il nome di \"spigola Cuor di piuma\".\nLa spigola Cuor di piuma ardente ha una colorazione speciale che brilla come la luce del sole, rendendola estremamente appariscente nell'acqua. Si dice che sia una speciale strategia di difesa per assumere l'aspetto di un oggetto incandescente agli occhi dei predatori che si basano sul senso della vista. Nonostante l'apparenza fiammeggiante, in realtà mantiene una bassa temperatura corporea e la quantità di cibo consumato è relativamente modesta. A volte cerca appositamente le zone di secca per godersi la luce del sole.",
     "TypeDescription": "Pesci",
     "Icon": "UI_ItemIcon_131031"
   },
@@ -34771,7 +34905,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Voltacristallo radioso 9",
-    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero: Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Bustling Afternoon in Mondstadt.",
+    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Bustling Afternoon in Mondstadt.",
     "TypeDescription": "Oggetto dell'avventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35831,7 +35965,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Voltacristallo radioso 115",
-    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero: Sinuosità o Eufonio libero: Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine.",
+    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine.",
     "TypeDescription": "Oggetto dell'avventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35841,7 +35975,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Voltacristallo radioso 116",
-    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero: Sinuosità o Eufonio libero: Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine.",
+    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine.",
     "TypeDescription": "Oggetto dell'avventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35851,7 +35985,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Voltacristallo radioso 117",
-    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero: Sinuosità o Eufonio libero: Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine.",
+    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine.",
     "TypeDescription": "Oggetto dell'avventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35861,7 +35995,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Voltacristallo radioso 118",
-    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero: Sinuosità o Eufonio libero: Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine.",
+    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine.",
     "TypeDescription": "Oggetto dell'avventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -35871,7 +36005,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Voltacristallo radioso 119",
-    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero: Sinuosità o Eufonio libero: Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine.",
+    "Description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine.",
     "TypeDescription": "Oggetto dell'avventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36334,6 +36468,16 @@
     "Description": "Materiale di miglioramento specifico per la \"Spada magica del Super Signore Supremo\".\nPuò raccogliere un gran numero di desideri (compresi quelli fortissimi fatti di cartone) e metterli insieme, creando un misterioso mega potere finale.\nAnche se è possibile acquistarne una versione giocattolo molto simile presso lo Spaccio Damoville (praticamente identico, a dirla tutta), c'è (probabilmente) una differenza qualitativa tra i due, quindi non bisogna assolutamente confonderli!",
     "TypeDescription": "Materiale di miglioramento",
     "Icon": "UI_ItemIcon_200119"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 200120,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Terra sublime",
+    "Description": "Materiale di miglioramento specifico per Dialoghi dei saggi del deserto.\nNei compendi alchemici, si usa spesso il nome \"terra sublime\" per riferirsi al mercurio, data la sua capacità di divorare avidamente finanche l'oro. Per questo motivo, la terra sublime è usata anche in alchimia per rappresentare il metallo.\nIl suo potenziale trasformativo rimane intatto anche se viene essiccata o polverizzata.",
+    "TypeDescription": "Materiale di miglioramento",
+    "Icon": "UI_ItemIcon_200120"
   },
   {
     "MaterialType": 28,
@@ -37916,6 +38060,16 @@
     "Icon": "UI_ItemIcon_220096"
   },
   {
+    "MaterialType": 21,
+    "Id": 220098,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Destinometro",
+    "Description": "Una scatola di carte dall'aspetto ingannevolmente grandioso, ma in realtà piuttosto semplice. Il numero estratto sembra indicare una certa direzione del destino, o forse il successo o il fallimento di una scelta...\n\"Finché crederai nel tuo legame con le carte, i numeri mostrati riveleranno il tuo destino\". Dato che è stato Lyney a dirlo, per il momento è meglio prendere le sue parole con le pinze.",
+    "TypeDescription": "Gadget",
+    "Icon": "UI_ItemIcon_220098"
+  },
+  {
     "MaterialType": 5,
     "Id": 221001,
     "RankLevel": 3,
@@ -39011,7 +39165,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Sorgente rivitalizzante",
-    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una Sorgente rivitalizzante.\nUna sorgente calda all'aria aperta completa di tutto. I minerali e gli elementi presenti forse non saranno gli stessi delle Terme Aisa, ma le sorgenti calde di questo genere sono le migliori in termini di atmosfera rilassata e informale e della relativa mancanza di regole.\nBasta un semplice bagno di mezz'ora perché la fatica accumulata dal lavoro svanisca, sostituita da un rinnovato vigore. E, se avanza tempo, puoi adagiarti su una vicina pietra bianca e gustarti del tè e delle chiacchiere con gli amici.\nNaturalmente, ricorda le regole basilari dettate dall'etichetta: non c'è nulla di male nel godersi la sorgente calda con gli amici, ma non rimanervi troppo a lungo. Se passi troppo tempo in acqua con persone loquaci come la Regina del Festival d'estate, potrebbe girarti la testa.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di posizionamento.\nQuesto set decorativo piace particolarmente a Yoimiya, Gorou, Yae Miko e Shikanoin Heizou.",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un set Sorgente rivitalizzante.\nUna sorgente calda all'aria aperta completa di tutto. I minerali e gli elementi presenti forse non saranno gli stessi delle Terme Aisa, ma le sorgenti calde di questo genere sono le migliori in termini di atmosfera rilassante e informale e della relativa mancanza di regole.\nBasta un semplice bagno di mezz'ora affinché la fatica accumulata dal lavoro svanisca e venga sostituita da un rinnovato vigore. E, se avanza tempo, puoi adagiarti su una vicina pietra bianca e gustarti del tè e delle chiacchiere con gli amici.\nNaturalmente, ricorda le regole basilari dettate dal galateo: non c'è nulla di male nel godersi la sorgente calda con gli amici, ma non rimanervi troppo a lungo. Se passi troppo tempo in acqua con persone loquaci come la Regina del Festival d'estate, potrebbe girarti la testa.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di posizionamento.\nQuesto set decorativo piace particolarmente a Yoimiya, Gorou, Yae Miko e Shikanoin Heizou, Chiori",
     "TypeDescription": "Progetto per set decorativo",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -39331,7 +39485,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Commercio fiorente della Corte di Giustizia",
-    "Description": "Ispirato al Quartiere Lyonnais nella Corte di Fontaine, questo luogo brulica di negozi specializzati e tavoli a cui sedersi per assaporare un tè e godersi un momento di relax.\nSe non conosci bene i negozi e i prodotti in vendita, alcuni turisti abituali suggeriscono che questo sia il posto migliore dove chiedere informazioni ai residenti. Dato che molti negozi seguono rigorosamente i controlli dei prezzi stabiliti dal Palais Mermonia, in pochissimi acquistano degli articoli a prezzi gonfiati.\nQuesto set decorativo piace particolarmente a Lynette e Lyney.",
+    "Description": "Ispirato al Quartiere Lyonnais nella Corte di Fontaine, questo luogo brulica di negozi di specialità e tavoli a cui sedersi per assaporare un tè e godersi un momento di relax.\nSe non conosci bene i negozi e i prodotti in vendita, alcuni turisti abituali suggeriscono che questo sia il posto migliore dove chiedere informazioni ai residenti. Dato che molti negozi seguono rigorosamente i controlli dei prezzi stabiliti dal Palais Mermonia, in pochissimi acquistano degli articoli a prezzi gonfiati.\nQuesto set decorativo piace particolarmente a Lynette e Lyney, Chiori",
     "TypeDescription": "Progetto per set decorativo",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -47942,6 +48096,246 @@
     "ItemType": 2,
     "Name": "Lampada di pietra della valle Luce perpetua",
     "Description": "Un progetto con istruzioni passo dopo passo per realizzare una lampada di pietra della valle Luce perpetua.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381334,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tavolo lungo della sala da tè Utensili della nostalgia",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un tavolo lungo della sala da tè Utensili della nostalgia.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381335,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Utensile della sala da tè Controllo qualità",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un utensile della sala da tè Controllo qualità.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382261,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Freschi boccioli di montagna e d'acqua",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Freschi boccioli di montagna e d'acqua.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383401,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Utensile della sala da tè Perfezione millimetrica",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un utensile della sala da tè Perfezione millimetrica.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383402,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tè delicato in una tazza di argilla",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Tè delicato in una tazza di argilla.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382262,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Utensile della sala da tè Conservazione a secco",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un utensile della sala da tè Conservazione a secco.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382263,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Utensile della sala da tè Vista nitida",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un utensile della sala da tè Vista nitida.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382125,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Panchina della sala da tè Riposo e semplicità",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una panchina della sala da tè Riposo e semplicità.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381508,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Fornello della sala da tè Cottura sublime",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un fornello della sala da tè Cottura sublime.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381509,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Fornello della sala da tè Cottura lenta a vapore",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un fornello della sala da tè Cottura lenta a vapore.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390524,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Luogo dell'ascensione ingegnosa",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Luogo dell'ascensione ingegnosa.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390131,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Residenza della valle Il segreto",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una residenza della valle Il segreto.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390132,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Favolosi sapori del porto",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Favolosi sapori del porto.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393514,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Credenza sapientemente realizzata Ordine sistematico",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una credenza ingegnosa Ordine sistematico.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394322,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tavolo di pietra del villaggio del tè Ozio culturale",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un tavolo di pietra del villaggio del tè Ozio culturale.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393515,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Scaffale sapientemente realizzato Vendite assicurate",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare uno scaffale sapientemente realizzato Vendite assicurate.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393453,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Dispositivo sapientemente realizzato Purezza e duro lavoro",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un dispositivo sapientemente realizzato Purezza e duro lavoro.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393911,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Stoccaggio e trasporto del raccolto del tè",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Stoccaggio e trasporto della raccolta del tè.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393912,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ispirazione ittica della raccolta del tè",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Ispirazione dal pescatore della raccolta del tè.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393913,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Mobiletto da tè multifunzione",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un mobiletto da tè multifunzione.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393914,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ricetta della fragranza della raccolta del tè",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Ricetta della fragranza della raccolta del tè.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393915,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Fragranza dell'essiccazione al sole della raccolta del tè",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Fragranza dell'essiccazione al sole della raccolta del tè.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394212,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Seduta in pietra del villaggio del tè Sicura, spaziosa e robusta",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una seduta in pietra del villaggio del tè Sicura, spaziosa e robusta.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per oggetto decorativo",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380449,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Luce del Lago Sicerae",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Luce del Lago Sicerae.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
     "TypeDescription": "Progetto per oggetto decorativo",
     "Icon": "UI_ItemIcon_Home_Common"
   }
