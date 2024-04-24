@@ -9485,6 +9485,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 60512,
+    "RelationshipId": 60512,
+    "Name": "Elementosauro abissale primordiale",
+    "Title": "Elementosauro abissale primordiale",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26060101,
     "DescribeId": 60601,
     "RelationshipId": 60601,
@@ -10572,6 +10582,122 @@
       "IceSubHurt": 0.25,
       "RockSubHurt": 0.25,
       "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26140101,
+    "DescribeId": 61401,
+    "RelationshipId": 61401,
+    "MonsterName": "Golem_Centaur",
+    "Name": "Golem legatus",
+    "Title": "Statua di marmo e ottone",
+    "Description": "Un Golem a forma di centauro plasmato con marmo e ottone, sotto la cui corazza di dura pietra scorre sangue d'Icore. Imponente come si confà a un Comandante di legione, è sempre pronto a travolgere ogni avversario che osi trasgredire ai dettami del suo onore.\nQuella civiltà ora sommersa considerava la guerra al pari della musica, un'arte fatta di ritmi e cadenze. Chi si occupava di schierare una legione, pertanto, era di fatto come un direttore d'orchestra, che usava spada e scudo come le corde e l'archetto di un violino per eseguire una spietata melodia di fiamme sul campo di battaglia.\n\"La guerra è un male necessario sul cammino che conduce alla pace assoluta\". Queste furono le parole dell'Armosta che guidò una legione di Golem alla conquista del Mare Alto.",
+    "Icon": "UI_MonsterIcon_Golem_Centaur",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113059,
+      104111,
+      104112,
+      104113,
+      104114,
+      104171,
+      104172,
+      104173,
+      104174,
+      400022,
+      400032,
+      400127,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 217.344,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26140201,
+    "DescribeId": 61402,
+    "RelationshipId": 61402,
+    "MonsterName": "Golem_Legion",
+    "Name": "Golem pretoriano",
+    "Title": "Pretoriano della Legione degli Athanatoi",
+    "Description": "Una statua semovente dalla forma di guerriero, che attacca con la sua spada chiunque osi introdursi indebitamente nella sua area di sorveglianza. Non è ben chiaro se sia animata da uno spirito di qualche tipo o da un potere magico esterno.\nSi dice che le legioni di Golem abbiano conquistato le nazioni che vedevano il Mare Alto come la propria casa, e questo poderoso esemplare potrebbe appartenere a una di quelle armate. Le grandi torri e i maestosi palazzi che ora giacciono tra le onde hanno conosciuto la sorte di chi tenta di deviare il percorso della ruota del destino.",
+    "Icon": "UI_MonsterIcon_Golem_Legion",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112098,
+      112099,
+      112100,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {
@@ -12096,6 +12222,19 @@
     "RelationshipId": 90903,
     "Title": "Narvalo Divoramondi",
     "Icon": "UI_MonsterIcon_Hili_None_01",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "仆人周本难度调整词缀"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 91001,
+    "RelationshipId": 91001,
+    "Name": "La Fantesca",
+    "Title": "La Fantesca",
+    "Icon": "UI_MonsterIcon_Nihil",
     "Type": 0,
     "Arkhe": 0
   }

@@ -9485,6 +9485,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 60512,
+    "RelationshipId": 60512,
+    "Name": "Rồng Biển Sâu - Nguyên Thủy",
+    "Title": "Rồng Biển Sâu - Nguyên Thủy",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26060101,
     "DescribeId": 60601,
     "RelationshipId": 60601,
@@ -10572,6 +10582,122 @@
       "IceSubHurt": 0.25,
       "RockSubHurt": 0.25,
       "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26140101,
+    "DescribeId": 61401,
+    "RelationshipId": 61401,
+    "MonsterName": "Golem_Centaur",
+    "Name": "Đốc Quân Ma Tượng",
+    "Title": "\"Bức Tượng Của Đá Trắng Và Đồng Thau\"",
+    "Description": "Tượng bán nhân mã khổng lồ tạc từ đá trắng và đồng thau, phía dưới lớp vỏ rắn chắc bằng đá là dòng huyết mạch Linh Lộ tuôn chảy. Đứng sừng sững trong tư thế của một thống soái quân đoàn, luôn sẵn sàng đạp vụn những kẻ dám mạo phạm sự uy nghiêm của nó.\nNền văn minh cổ đại đã bị chìm cho rằng, chiến tranh cũng giống như âm nhạc, cần phải tuân theo nhịp điệu nghệ thuật. Vị thống soái quân đoàn cũng phải giống như chỉ huy dàn nhạc, coi khiên và kiếm trong tay như hợp âm và dây đàn, tấu lên giai điệu hùng tráng giữa chiến trường lạnh lẽo vô tình.\n\"Chiến tranh là chuyện ác tất yếu để dẫn đến một hạnh phúc trải dài rộng khắp.\" - Thống soái quân đoàn Ma Tượng, người chỉnh âm từng chinh phục toàn bộ biển cao đã nói vậy.",
+    "Icon": "UI_MonsterIcon_Golem_Centaur",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113059,
+      104111,
+      104112,
+      104113,
+      104114,
+      104171,
+      104172,
+      104173,
+      104174,
+      400022,
+      400032,
+      400127,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 217.344,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26140201,
+    "DescribeId": 61402,
+    "RelationshipId": 61402,
+    "MonsterName": "Golem_Legion",
+    "Name": "Cấm Vệ Ma Tượng",
+    "Title": "Cấm Vệ Quân Đoàn Bất Hủ",
+    "Description": "Bức tượng chuyển động với tư thế chiến sĩ, sẵn sàng chĩa lưỡi kiếm về phía bất cứ ai liều lĩnh xâm nhập lãnh địa mà nó bảo vệ. Chẳng rõ là linh hồn hay phép thuật mới là thứ thôi thúc nó chiến đấu.\nTương truyền rằng đoàn quân Ma Tượng đã từng chinh phục các quốc gia trên biển cao, biết đâu nó cũng là một thành viên trong đó. Những tòa tháp cao và cung điện chìm sâu dưới biển đã chứng kiến kết cục của những kẻ dám chống lại vòng xoay của bánh xe vận mệnh.",
+    "Icon": "UI_MonsterIcon_Golem_Legion",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112098,
+      112099,
+      112100,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {
@@ -12096,6 +12222,19 @@
     "RelationshipId": 90903,
     "Title": "Thôn Tinh Kình Ngư",
     "Icon": "UI_MonsterIcon_Hili_None_01",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "仆人周本难度调整词缀"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 91001,
+    "RelationshipId": 91001,
+    "Name": "Arlecchino",
+    "Title": "Arlecchino",
+    "Icon": "UI_MonsterIcon_Nihil",
     "Type": 0,
     "Arkhe": 0
   }
