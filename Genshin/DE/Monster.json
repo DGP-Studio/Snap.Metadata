@@ -4808,7 +4808,7 @@
     "MonsterName": "Fatuus_Summoner_01",
     "Name": "Fatui – Elektro-Cicin-Zauberin",
     "Title": "Cicin-Zauberin – Elektrisiertes Mädchen",
-    "Description": "Ein Fatuimagier, der Elektro-Cicine im Kampf einsetzt. Ihr Ursprung und ihr tatsächliches Aussehen sind ein Geheimnis.\nSo wie es Elektro-Cicinen zum Nebelgras hinzieht, lieben Cicin-Zauberinnen es, mit ihrer Beute zu spielen.",
+    "Description": "Ein Fatuimagier, der Elektro-Cicine im Kampf einsetzt. Ihr Ursprung und ihr tatsächliches Aussehen sind ein Geheimnis.\nSo wie es Elektro-Cicine zum Nebelgras hinzieht, lieben Cicin-Zauberinnen es, mit ihrer Beute zu spielen.",
     "Icon": "UI_MonsterIcon_Fatuus_Summoner_01",
     "Type": 1,
     "Arkhe": 0,
@@ -9485,6 +9485,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 60512,
+    "RelationshipId": 60512,
+    "Name": "Tiefsee-Drachenechse – Urtyp",
+    "Title": "Tiefsee-Drachenechse – Urtyp",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26060101,
     "DescribeId": 60601,
     "RelationshipId": 60601,
@@ -10589,6 +10599,122 @@
     ]
   },
   {
+    "Id": 26140101,
+    "DescribeId": 61401,
+    "RelationshipId": 61401,
+    "MonsterName": "Golem_Centaur",
+    "Name": "Golem-Anführer",
+    "Title": "„Statue aus Marmor und Messing“",
+    "Description": "Unter der steinernen Haut dieser aus Marmor und Messing geformten Statue eines Zentauren fließt das Blut des Ichors. Wie ein Heerführer steht er da, jederzeit bereit, jene in Stücke zu reißen, die es wagen, seine Erhabenheit zu beleidigen.\nDie untergegangene alte Zivilisation glaubte, dass der Krieg eine Kunst sei, die, wie die Musik, einem bestimmten Rhythmus folge. Und so sollte der Heerführer wie der Dirigent eines Orchesters sein. Er behandelt Schwert und Schild in seiner Hand wie die Saiten und den Bogen einer Leier, auf dem unbarmherzigen Schlachtfeld spielt er seine feurige Melodie.\n„Der Krieg ist das notwendige Übel, das zum umfassenden Glück führt.“ So sprach einst der Harmost, der die Legionen der Golems anführte, die Hohe See zu erobern.",
+    "Icon": "UI_MonsterIcon_Golem_Centaur",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113059,
+      104111,
+      104112,
+      104113,
+      104114,
+      104171,
+      104172,
+      104173,
+      104174,
+      400022,
+      400032,
+      400127,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 217.344,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26140201,
+    "DescribeId": 61402,
+    "RelationshipId": 61402,
+    "MonsterName": "Golem_Legion",
+    "Name": "Golem-Wächter",
+    "Title": "Prätorianer der Legion Athanatoi",
+    "Description": "Diese bewegliche Statue in Form eines Kriegers richtet ihre Klinge gegen jeden, der es wagt, den Ort zu betreten, den sie bewacht. Niemand weiß, was sie antreibt; ist es ein Geist, oder Magie?\nDer Legende nach sollen einst Legionen an Golems die Gefilde der Hohen See erobert haben. Vielleicht war es aber auch nur einer. Die Türme und Paläste, die auf den Grund des Meeres gesunken sind, sind jedenfalls Zeuge dessen, was denen widerfährt, die es wagen, sich dem Rad des Schicksals in den Weg zu stellen.",
+    "Icon": "UI_MonsterIcon_Golem_Legion",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112098,
+      112099,
+      112100,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 26151001,
     "DescribeId": 61510,
     "RelationshipId": 61510,
@@ -11428,7 +11554,7 @@
     "MonsterName": "SeaHorse_Mature_01_Land",
     "Name": "Kaiser von Feuer und Eisen",
     "Title": "Kaiser von Feuer und Eisen",
-    "Description": "Einer der beiden Herrscher, die alle anderen Fontemer-Mutanten dominieren und dereinst Legenden unter den Seeleuten waren.\nDie Panzerkrabbe, die keine natürlichen Feinde trifft und stets auf der Jagd und am Fressen ist, sucht während ihres Wachstums unentwegt nach einem geeigneten Schneckenhaus oder Muscheln, die ihr als neuer Panzer dienen können. Doch am Ende wurde sie einfach zu groß. Es existieren Aufzeichnungen, die auf die Zeit vor der ersten Hochwasserperiode zurückgehen und in denen eine riesige Panzerkrabbe erwähnt wird, die Schiffe angegriffen hat und am Ende von der noch nicht wiedereingesetzten Marinekommandantin Basil Elton besiegt wurde.\nStell dir diese Welt vor: Alle Menschen in Teyvat sind verschwunden und der endlos weiterwachsende Kaiser von Feuer und Eisen macht sich das Palais Mermonia zu seiner neuen Heimstatt, um ihn als prachtvolle weiße Steinrüstung zu tragen. Natürlich würde es in einer solchen Welt keine Menschen mehr geben, die ihn halb in Ehrfurcht, halb im Spott als „Kaiser von Feuer und Eisen“ bezeichnen würden.",
+    "Description": "Einer der beiden Herrscher, die alle anderen Fontemer-Mutanten dominieren und dereinst Legenden unter den Seeleuten waren.\nDie Panzerkrabbe, die keine natürlichen Feinde trifft und stets auf der Jagd und am Fressen ist, sucht während ihres Wachstums unentwegt nach einem geeigneten Schneckenhaus oder Muscheln, die ihr als neuer Panzer dienen können. Doch am Ende wurde sie einfach zu groß. Es existieren Aufzeichnungen, die auf die Zeit vor der ersten Hochwasserperiode zurückgehen und in denen eine riesige Panzerkrabbe erwähnt wird, die Schiffe angegriffen hat und am Ende von der noch nicht wiedereingesetzten Marinekommandantin Basil Elton besiegt wurde.\nStell dir diese Welt vor: Alle Menschen in Teyvat sind verschwunden und der endlos weiterwachsende Kaiser von Feuer und Eisen macht sich das Palais Mermonia zu seiner neuen Heimstatt, um es als prachtvolle Marmorrüstung zu tragen. Natürlich würde es in einer solchen Welt keine Menschen mehr geben, die ihn halb in Ehrfurcht, halb im Spott als „Kaiser von Feuer und Eisen“ bezeichnen würden.",
     "Icon": "UI_MonsterIcon_HermitCrab_Primo",
     "Type": 1,
     "Arkhe": 0,
@@ -12096,6 +12222,19 @@
     "RelationshipId": 90903,
     "Title": "Sternenverschlingender Narwal",
     "Icon": "UI_MonsterIcon_Hili_None_01",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "仆人周本难度调整词缀"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 91001,
+    "RelationshipId": 91001,
+    "Name": "„Arlecchino“",
+    "Title": "„Arlecchino“",
+    "Icon": "UI_MonsterIcon_Nihil",
     "Type": 0,
     "Arkhe": 0
   }

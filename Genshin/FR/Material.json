@@ -1120,6 +1120,16 @@
     "Icon": "UI_ItemIcon_1102"
   },
   {
+    "MaterialType": 20,
+    "Id": 1196,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna d'Arlecchino",
+    "Description": "Matériau d'activation de la constellation d'Arlecchino.",
+    "TypeDescription": "Matériau d'activation de constellation",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
     "MaterialType": 5,
     "Id": 1201,
     "RankLevel": 5,
@@ -16725,7 +16735,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Matsutake sautés au beurre",
-    "Description": "Des tranches de matsutake sautées dans du beurre. Tendres à l'intérieur et croustillantes à l'extérieur. Vous ferez mieux de les manger avant qu'on vous en pique !",
+    "Description": "Des tranches de matsutake sautées dans du beurre. Tendres à l'intérieur et croustillantes à l'extérieur. Vous feriez mieux de les manger avant qu'on vous en pique !",
     "TypeDescription": "Nourriture",
     "Icon": "UI_ItemIcon_Recipe_1007"
   },
@@ -17638,7 +17648,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Délices des rivages",
-    "Description": "Spécialité culinaire de Xingqiu. On n'ose à peine toucher à ce plat tant c'est bien présenté, mais après la première bouchée, c'est difficile de s'arrêter... Attendez, ne me dites pas qu'il a jeté les carottes ?",
+    "Description": "Spécialité culinaire de Xingqiu. On ose à peine toucher à ce plat tant il est bien présenté, mais après la première bouchée, c'est difficile de s'arrêter... Attendez, ne me dites pas qu'il a jeté les carottes ?",
     "TypeDescription": "Nourriture",
     "Icon": "UI_ItemIcon_108136"
   },
@@ -20420,7 +20430,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Crevettes à la rosée",
-    "Description": "Spécialité culinaire de Yelan. On trouve parmi les ingrédients du nouveau thé de rosée livré directement du Village de Qiaoying à la maison de thé, qu'on utilise pour frire rapidement des crevettes de rivière fraîchement pêchées. À la vue, il est d'une couleur élégante ; à l'odeur, on sent le parfum d'un thé lointain ; au goût, il est à la fois tendre et a une consistance élastique... Une petite minute, pourquoi est-elle en train d'apporter une assiette de piment ?",
+    "Description": "Spécialité culinaire de Yelan. On trouve parmi les ingrédients du nouveau thé de rosée livré directement du Village de Qiaoying à la maison de thé, qu'on utilise pour frire rapidement des crevettes de rivière fraîchement pêchées. À la vue, le plat est d'une couleur élégante ; à l'odeur, on sent le parfum d'un thé lointain ; au goût, il est à la fois tendre et a une consistance élastique... Une petite minute, pourquoi est-elle en train d'apporter une assiette de piment ?",
     "TypeDescription": "Nourriture",
     "Icon": "UI_ItemIcon_108389"
   },
@@ -21113,7 +21123,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Baklava",
-    "Description": "Un dessert traditionnel sumérien. Cette pâte feuilletée contient des noix hachées et a été cuite après avoir enduite de beurre... et sans oublier un peu de sirop une fois sortie du four. Certains chercheurs commanderont spécialement cette véritable « forteresse de douceur » pour faire le plein d'énergie avant un examen. C'est aussi la raison pour laquelle ce plat occupe une place de choix parmi les desserts préférés de l'Académie.",
+    "Description": "Un dessert traditionnel sumérien. Cette pâte feuilletée contient des noix hachées et a été cuite après avoir été enduite de beurre... et sans oublier un peu de sirop une fois sortie du four. Certains chercheurs commanderont spécialement cette véritable « forteresse de douceur » pour faire le plein d'énergie avant un examen. C'est aussi la raison pour laquelle ce plat occupe une place de choix parmi les desserts préférés de l'Académie.",
     "TypeDescription": "Nourriture",
     "Icon": "UI_ItemIcon_108452"
   },
@@ -23494,6 +23504,61 @@
     "Icon": "UI_ItemIcon_108668"
   },
   {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 26 % des PV max, puis 570 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108669,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Lait au dango rock 'n' roll",
+    "Description": "Après être resté sous la scène pendant un jour et une nuit, ce lait au dango a été fermenté avec l'énergie du rock, se transformant en lait au dango rock 'n' roll !\nOn dit que son goût a subi un merveilleux changement, mais plus étonnant encore, il peut être vendu deux fois plus cher que la version d'origine !\nSi c'est pas rock, ça...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_101514"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108670,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Soufflé bullé (suspect)",
+    "Description": "Un tout petit gâteau niché dans la peau d'un fruit bullé. N'ayant pas pu résister à l'envie de jeter un coup d'œil pendant la cuisson, vous n'avez finalement que vu le soufflé s'effondrer rapidement... Il semble que la curiosité est non seulement un vilain défaut, mais qu'elle ruine aussi les gâteaux...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108671"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108671,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Soufflé bullé",
+    "Description": "Un tout petit gâteau niché dans la peau d'un fruit bullé. Recette : versez des blancs d'œufs battus dans la peau d'un fruit bullé préalablement évidé et enfournez le tout jusqu'à ce que le soufflé soit bien gonflé. Le mot « bullé » ne fait pas partie du nom simplement parce que le fruit éponyme figure parmi les ingrédients, mais aussi parce que le produit fini permet à la langue de se délecter d'une douceur spongieuse semblable à une bulle.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108671"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 30 % des PV max, puis 790 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 108672,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Soufflé bullé (délicieux)",
+    "Description": "Un tout petit gâteau niché dans la peau d'un fruit bullé. Tout commence par une glorieuse et moelleuse sensation en bouche. Viennent ensuite le riche arôme d'œuf et la saveur fruitée et fraîche qui imprègnent votre bouche, comme si vous aviez plongé la tête la première dans des nuages moelleux alors que l'air même chante avec une douceur subtile.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108671"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 40 % des PV max du personnage sélectionné et 2 350 PV supplémentaires.",
+    "Id": 108674,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Traces du fourneau",
+    "Description": "Spécialité culinaire d'Arlecchino. La viande crue, dénuée de tout assaisonnement excessif, apporte un afflux de sang et une fraîcheur brutale, gravant sur la langue un élégant ensemble de saveurs. L'arrière-goût final est encore plus propre et plus soigné, tel un reflet miroir de la façon dont sa créatrice gère certaines situations...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108674"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
@@ -25404,6 +25469,16 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109575,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Soufflé bullé",
+    "Description": "Étapes de préparation du soufflé bullé.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -26770,6 +26845,36 @@
   },
   {
     "MaterialType": 14,
+    "Id": 112098,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pommeau abîmé",
+    "Description": "Un pommeau en pierre obtenu à partir d'une statue ancienne.\nSon éclat a depuis longtemps été perdu à cause des déprédations de l'eau de mer.",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
+    "Icon": "UI_ItemIcon_112098"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112099,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Pommeau rayé",
+    "Description": "Un pommeau en pierre obtenu à partir d'une statue ancienne.\nLes éclats et les rayures témoignent des batailles brutales que son propriétaire a endurées.",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
+    "Icon": "UI_ItemIcon_112099"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112100,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Pommeau incandescent",
+    "Description": "Un pommeau en pierre obtenu à partir d'une statue ancienne.\nSeule la récente séparation d'avec son propriétaire peut expliquer la flamme qui ne s'est pas encore éteinte à l'intérieur.",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
+    "Icon": "UI_ItemIcon_112100"
+  },
+  {
+    "MaterialType": 14,
     "Id": 113001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -27347,6 +27452,46 @@
     "Description": "L'écaille froide et solide d'un Suanni solitaire. Elle conserve son énergie mystique pure même après être tombée et ne peut pas être endommagée par les armes ordinaires.\nLes bêtes ordinaires peuvent parfois être affectées par l'énergie mystique dispersée et devenir plus puissantes que la normale. Cependant, l'énergie mystique des suannis vient d'eux-mêmes, c'est pourquoi leur cheffe est souvent considérée comme l'égale des Adeptes.",
     "TypeDescription": "Matériau d'amélioration de personnage",
     "Icon": "UI_ItemIcon_113058"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113059,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Fragment d'une mélodie dorée",
+    "Description": "Un fragment doré tombé de la poitrine du golem centaure. En reconstituant la mélodie inscrite sur les morceaux brisés, cela semble être un petit fragment d'une composition musicale plus grande.\nLes gens croyaient autrefois que le chant du bonheur et de l'harmonie éternels résonnerait dans le monde entier jusqu'à la fin de tous les destins. Mais les harmonies peuvent être modifiées. Lorsque le roi divin rebelle tomba de son trône, la capitale impérissable fut réduite à l'état de décombres. À qui donc la lyre entre les mains d'un commandant sans légion jouerait-elle ?",
+    "TypeDescription": "Matériau d'amélioration de personnage",
+    "Icon": "UI_ItemIcon_113059"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113060,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Bougie vacillante",
+    "Description": "Une bougie ramassée dans les ruines après avoir terminé le duel contre Arlecchino.\nLes légendes transmises prétendent que lorsque la flamme de la bougie vacille entre les mains d'un pécheur, la lumière peut se transformer en ombres, rendant les pas discrets et masquant les intentions fatales.\nImpossible de dire de quel matériau elle est constituée : elle ne laisse pas couler de cire en brûlant, libérant uniquement des cendres noires qui se dispersent dans le vent pour dériver vers l'inconnu lointain.",
+    "TypeDescription": "Matériau d'amélioration de personnage",
+    "Icon": "UI_ItemIcon_113060"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113061,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Plume soyeuse",
+    "Description": "Un cristal ramassé dans les ruines après avoir terminé le duel contre Arlecchino.\nLe sang et le feu déjà refroidis conservent toujours la forme d'une plume, s'organisant autour d'une tige noire et élégante.\nAvant que leurs pensées n'aient mûri, les jeunes enfants dépendent des soins méticuleux de leurs parents, tout comme les novices ont besoin de l'égide d'une aile adulte.\nC'est pour réaliser de tels souhaits que Père a tissé une dangereuse soie d'araignée pour en faire un fac-similé de plumes, afin de pouvoir accorder à sa famille quelque chaleur.",
+    "TypeDescription": "Matériau d'amélioration de personnage",
+    "Icon": "UI_ItemIcon_113061"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113062,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Verdict négatif",
+    "Description": "Une boucle d'oreille ramassée dans les ruines après avoir terminé le duel contre Arlecchino.\nLe symbole rouge dessus ressemble à l'image dans ses yeux, à la fois déclaration et rejet.\nLes orphelins vivent une vie remplie de souffrances dès l'enfance, ce qu'elle voit et garde dans son cœur.\nTout comme le destin jette un œil scrutateur sur l'humanité, les humains porteront également un jugement sur le destin.",
+    "TypeDescription": "Matériau d'amélioration de personnage",
+    "Icon": "UI_ItemIcon_113062"
   },
   {
     "MaterialType": 14,
@@ -28235,6 +28380,26 @@
     "ItemType": 2,
     "Name": "Reliquaire des profondeurs - Catégorie I",
     "Description": "Un reliquaire utilisé pour ranger des artéfacts. Que celui qui le voit soit miraculé.\n\nChaque reliquaire vous accordera un artéfact des sets suivants :\n· Chanson des jours d'antan\n· Murmure nocturne en forêt d'échos",
+    "TypeDescription": "Reliquaire",
+    "Icon": "UI_ItemIcon_117003"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 117018,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Reliquaire des profondeurs - Catégorie II",
+    "Description": "Un reliquaire utilisé pour ranger des artéfacts. Que celui qui le voit soit béni.\n\nChaque reliquaire vous accordera un artéfact des sets suivants :\n· Fragment d'harmonie divergente\n· Rêverie incomplète\n· Berserker\n· Instructeur\n· Exilé",
+    "TypeDescription": "Reliquaire",
+    "Icon": "UI_ItemIcon_117002"
+  },
+  {
+    "MaterialType": 12,
+    "Id": 117019,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Reliquaire des profondeurs - Catégorie I",
+    "Description": "Un reliquaire utilisé pour ranger des artéfacts. Que celui qui le voit soit miraculé.\n\nChaque reliquaire vous accordera un artéfact des sets suivants :\n· Fragment d'harmonie divergente\n· Rêverie incomplète",
     "TypeDescription": "Reliquaire",
     "Icon": "UI_ItemIcon_117003"
   },
@@ -34180,6 +34345,16 @@
     "Icon": "UI_ItemIcon_120790"
   },
   {
+    "MaterialType": 4601,
+    "Id": 120791,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ancienne boîte à musique auto-harmonieuse",
+    "Description": "Cette ancienne boîte à musique, trouvée dans le Château fané, renferme la mystérieuse puissance de la Symphonie.\nElle peut être utilisée pour lire les partitions musicales laissées par une civilisation ancienne. Trouver davantage de ces partitions vous permettra de percer les secrets de cette civilisation.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120791"
+  },
+  {
     "MaterialType": 2,
     "Id": 120792,
     "RankLevel": 0,
@@ -34188,6 +34363,36 @@
     "Description": "Une clé étrange. Qui sait quelle serrure elle ouvre...",
     "TypeDescription": "Objet de quête",
     "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120793,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partition vierge",
+    "Description": "Cette partition musicale semble avoir été créée à partir de matériaux inconnus par une civilisation ancienne.\nSes lignes sont vides, car aucune note n'a jamais été consignée dessus.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120793"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120794,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partition ancienne",
+    "Description": "Cette partition musicale semble avoir été créée à partir de matériaux inconnus par une civilisation ancienne.\nLa mélodie consignée dessus ne peut être déchiffrée qu'à l'aide d'un appareil spécial.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120794"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120795,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Grimoire perdu",
+    "Description": "Un étrange livre de magie qui, grâce à la puissance de la Symphonie, s'est enfin calmé.\nSi vous en avez l'occasion, vous pouvez peut-être le remettre dans sa bibliothèque...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120795"
   },
   {
     "MaterialType": 2,
@@ -34218,6 +34423,36 @@
     "Description": "Ce texte est également connu sous le nom de « Hleobranto Innamorato ». L'auteur de la première édition prétend avoir basé ce conte sur une histoire légendaire connue dans tout Khaenri'ah, mais personne ne peut le vérifier. Il s'agit désormais d'une anthologie qui inclut la collaboration de plusieurs générations.",
     "TypeDescription": "Objet de quête",
     "Icon": "UI_ItemIcon_120798"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120799,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Anecdota septentrionalis - I",
+    "Description": "Un ancien parchemin rémurien que vous avez découvert accidentellement dans les ruines. Il n'y a aucun moyen de vérifier la véracité de son contenu.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120799"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120800,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Anecdota septentrionalis - II",
+    "Description": "Un ancien parchemin rémurien que vous avez découvert accidentellement dans les ruines. Il n'y a aucun moyen de vérifier la véracité de son contenu.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120799"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120801,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Anecdota septentrionalis - III",
+    "Description": "Un ancien parchemin rémurien que vous avez découvert accidentellement dans les ruines. Il n'y a aucun moyen de vérifier la véracité de son contenu.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120799"
   },
   {
     "MaterialType": 2,
@@ -34361,6 +34596,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120852,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Mini-phonographe",
+    "Description": "Un phonographe miniaturisé qui semble avoir enregistré certains sons. Ça pourrait peut-être être utile...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120852"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120853,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34410,6 +34655,16 @@
     "Icon": "UI_ItemIcon_100084"
   },
   {
+    "MaterialType": 4602,
+    "Id": 120861,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Invitation du gang Arataki",
+    "Description": "#Une lettre d'invitation pétaradante et colorée, tant dans son style que dans son contenu. Elle décrit un festival de rock 'n' roll endiablé, libre, sauvage, immense et global, dans lequel vous serez {F#une invitée spéciale chargée}{M#un invité spécial chargé} de réveiller l'âme brûlante du rock 'n' roll dans le cœur de tous ceux qui sont présents !",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120861"
+  },
+  {
     "MaterialType": 2,
     "Id": 120864,
     "RankLevel": 3,
@@ -34428,6 +34683,276 @@
     "Description": "Une enveloppe qui n'appartient qu'à Lynette. Son nom est inscrit au dos et elle contient une photo de groupe et une photo d'elle sur scène. La « lettre de menace » a également été placée à l'intérieur.",
     "TypeDescription": "Objet de quête",
     "Icon": "UI_ItemIcon_120870"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120872,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partition restaurée",
+    "Description": "La partition autrefois en morceaux a été réparée. Une personne instruite en musique sera sûrement capable de lire l'ancienne mélodie qu'elle contient...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120872"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120873,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Page d'une partition perdue (1)",
+    "Description": "Ce fragment d'une ancienne partition musicale est indéchiffrable dans son état actuel.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120873"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120874,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Branche absolument ordinaire",
+    "Description": "Une branche très ordinaire qui semble avoir été traitée artificiellement.\nIl pourrait s'agir d'un objet utilisé par des enfants pour jouer... Mais quoi qu'il en soit, ça ne peut pas être un gage barbare...",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120234"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120880,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "« Je me suis réincarné en scarabuto... et j'ai renversé le monde »",
+    "Description": "Des paroles de rock 'n' roll léger... Ou peut-être simplement de la mauvaise poésie ?",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_101501"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120881,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Lettre mystérieuse",
+    "Description": "Lettre mystérieuse",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120882,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Lettre de Cyno",
+    "Description": "Lettre de Cyno",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120883,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partition endommagée",
+    "Description": "Partition endommagée",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120872"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120910,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Partition restaurée",
+    "Description": "Partition restaurée",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120872"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120911,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes de Ruggiero (2)",
+    "Description": "Carte de Ruggiero",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120872"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120917,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Page d'une partition perdue (2)",
+    "Description": "Ce fragment d'une ancienne partition musicale est indéchiffrable dans son état actuel.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_120917"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120933,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gravure ancienne",
+    "Description": "Gravure ancienne",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120934,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gravure ancienne",
+    "Description": "Gravure ancienne",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120935,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes d'accordeur (2)",
+    "Description": "Notes d'accordeur (2)",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120936,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gravure ancienne",
+    "Description": "Gravure ancienne",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120937,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gravure ancienne",
+    "Description": "Gravure ancienne",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120938,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gravure ancienne",
+    "Description": "Gravure ancienne",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120940,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Journal de bord en lambeaux",
+    "Description": "Journal de bord en lambeaux",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120941,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes de Ruggiero (1)",
+    "Description": "Notes de Ruggiero (1)",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120942,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Note à la provenance inconnue",
+    "Description": "Note à la provenance inconnue",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120943,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes de Ruggiero (3)",
+    "Description": "Notes de Ruggiero (3)",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120944,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Enquête sur les barbares du nord",
+    "Description": "Enquête sur les barbares du nord",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120945,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes d'accordeur (1)",
+    "Description": "Notes d'accordeur (1)",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120946,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Inscription ancienne",
+    "Description": "Inscription ancienne",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120947,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ancienne note",
+    "Description": "Ancienne note",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120948,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ancienne note",
+    "Description": "Ancienne note",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120949,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ancienne note",
+    "Description": "Ancienne note",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120950,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ancienne note",
+    "Description": "Ancienne note",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100356"
   },
   {
     "MaterialType": 31,
@@ -36356,6 +36881,56 @@
     "ItemType": 2,
     "Name": "Gyrocristal radiant 125",
     "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Liyue.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141226,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 126",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141227,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 127",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141228,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 128",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141229,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 129",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141230,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 130",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine.",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -38351,6 +38926,16 @@
   },
   {
     "MaterialType": 21,
+    "Id": 220097,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Cor de vent-nuit",
+    "Description": "Ce cor raffiné, un instrument fontainois pouvant être utilisé lors de prestations, est un cadeau que Dvorak vous a fait.\nOn dit que les sons du cor sont à la fois riches et doux ainsi que délicats, comme une douce brise du soir soufflant dans un fourré d'arbres. Ainsi, les compositeurs fontainois utilisent souvent des cors pour donner vie aux images des chasseurs et des forêts. Il ne fait aucun doute que cet instrument convient parfaitement à un gala musical célébrant la vie.",
+    "TypeDescription": "Gadget",
+    "Icon": "UI_ItemIcon_220097"
+  },
+  {
+    "MaterialType": 21,
     "Id": 220098,
     "RankLevel": 4,
     "ItemType": 2,
@@ -39735,7 +40320,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Concentration parfaite",
-    "Description": "Un intérieur avec une scène de taille moyenne comme pièce maîtresse, suffisante pour jouer un petit spectacle.\nPour ceux qui débutent dans le domaine du spectacle, des spectateurs trop nombreux les rendront nerveux et affecteront leur performance, et pour les maîtres en la matière qui se moquent du nombre de spectateurs, un spectacle organisé pour leurs amis peut leur valoir bien plus de bonheur qu'un grand numéro à guichets fermés. Par conséquent, la plupart des artistes, qu'ils soient novices ou experts, pourront apprécier la simplicité de cette scène.\nCompagnons préférant ce set : Lynette, Lyney.",
+    "Description": "Un intérieur avec une scène de taille moyenne comme pièce maîtresse, suffisante pour jouer un petit spectacle.\nPour ceux qui débutent dans le domaine du spectacle, des spectateurs trop nombreux les rendront nerveux et affecteront leur performance, et pour les maîtres en la matière qui se moquent du nombre de spectateurs, un spectacle organisé pour leurs amis peut leur valoir bien plus de bonheur qu'un grand numéro à guichets fermés. Par conséquent, la plupart des artistes, qu'ils soient novices ou experts, pourront apprécier la simplicité de cette scène.\nCompagnons préférant ce set : Lynette, Lyney, Arlecchino.",
     "TypeDescription": "Plan de set de décorations",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -39765,7 +40350,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "« Routine de la cour de justice »",
-    "Description": "Une rue qui a pour modèle les rues ordinaires des quartiers résidentiels de Fontaine. Les nombreuses résidences de ce set reproduisent parfaitement l'aspect authentique de la Cour de Fontaine.\nPour de nombreux Fontainois, une grande partie de leur vie consiste à vivre de manière ordonnée, d'arriver et de quitter leur lieu de travail à l'heure, de flâner, de retrouver leurs amis pour un repas ou faire du lèche-vitrines, ou bien encore de se rendre occasionnellement à l'Opéra Épiclèse pour assister à une grande représentation. Même certains aventuriers, qui ont connu des temps difficiles par le passé, pourraient penser qu'une telle douceur de vivre dans ces quartiers ne serait pas si mal s'il leur prenait l'envie d'y emménager à l'occasion...\nCompagnon préférant ce set : Charlotte.",
+    "Description": "Une rue qui a pour modèle les rues ordinaires des quartiers résidentiels de Fontaine. Les nombreuses résidences de ce set reproduisent parfaitement l'aspect authentique de la Cour de Fontaine.\nPour de nombreux Fontainois, une grande partie de leur vie consiste à vivre de manière ordonnée, d'arriver et de quitter leur lieu de travail à l'heure, de flâner, de retrouver leurs amis pour un repas ou faire du lèche-vitrines, ou bien encore de se rendre occasionnellement à l'Opéra Épiclèse pour assister à une grande représentation. Même certains aventuriers, qui ont connu des temps difficiles par le passé, pourraient penser qu'une telle douceur de vivre dans ces quartiers ne serait pas si mal s'il leur prenait l'envie d'y emménager à l'occasion...\nCompagnons préférant ce set : Charlotte, Arlecchino.",
     "TypeDescription": "Plan de set de décorations",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -48626,6 +49211,266 @@
     "ItemType": 2,
     "Name": "Lumière du Lac de cidre",
     "Description": "Étapes de fabrication de la lumière du Lac de cidre.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382265,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Garde-corps d'hôtel « Feuilles de menthe »",
+    "Description": "Étapes de fabrication du garde-corps d'hôtel « Feuilles de menthe ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382266,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "#Garde-corps d'hôtel « Arc scénique{NON_BREAK_SPACE}»",
+    "Description": "#Étapes de fabrication du garde-corps d'hôtel « Arc scénique{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383113,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "#Lanterne simple « Matériaux locaux{NON_BREAK_SPACE}»",
+    "Description": "#Étapes de fabrication de la lanterne simple « Matériaux locaux{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382315,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tapis fontainois « Carré et droit »",
+    "Description": "Étapes de fabrication du tapis fontainois « Carré et droit ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 384219,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Luminaire mécanique « Réflexions nocturnes »",
+    "Description": "#Étapes de fabrication du luminaire mécanique « Réflexions nocturnes{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390826,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Sonnailles de la Cité mélomane »",
+    "Description": "#Étapes de fabrication des «{NON_BREAK_SPACE}Sonnailles de la Cité mélomane ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390827,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Résidence tranquille de la Cité mélomane »",
+    "Description": "#Étapes de fabrication de la «{NON_BREAK_SPACE}Résidence tranquille de la Cité mélomane ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390828,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Atelier de la Cité mélomane »",
+    "Description": "Étapes de fabrication de l'« Atelier de la Cité mélomane ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390829,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Résidence ingénieuse de la Cité mélomane »",
+    "Description": "#Étapes de fabrication de la «{NON_BREAK_SPACE}Résidence ingénieuse de la Cité mélomane ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390333,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "#Cabane du village musical «{NON_BREAK_SPACE}Harmonie de mardouce »",
+    "Description": "Étapes de fabrication de la cabane du village musical « Harmonie de mardouce ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394323,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Table longue « Souvenirs gravés » en bois d'hibiscus",
+    "Description": "Étapes de fabrication de la table longue « Souvenirs gravés » en bois d'hibiscus.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394324,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Table ronde « Thé d'hospitalité » en bois d'hibiscus",
+    "Description": "Étapes de fabrication de la table ronde « Thé d'hospitalité » en bois d'hibiscus.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394601,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Statue tenant une épée « Garde éternelle »",
+    "Description": "#Étapes de fabrication de la statue tenant une épée « Garde éternelle{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393916,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Boîte aux lettres « Rangement » en bois d'hibiscus",
+    "Description": "Étapes de fabrication de la boîte aux lettres « Rangement » en bois d'hibiscus.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394115,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cadre de porte « Douce mélodie » en bois d'hibiscus",
+    "Description": "Étapes de fabrication du cadre de porte « Douce mélodie » en bois d'hibiscus.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394116,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Clôture « Marées » en bois d'hibiscus",
+    "Description": "Étapes de fabrication de la clôture « Marées » en bois d'hibiscus.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393454,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Origine de la musique »",
+    "Description": "Étapes de fabrication de l'« Origine de la musique ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393455,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Corne enragée de la légion",
+    "Description": "Étapes de fabrication de la corne enragée de la légion.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393456,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Serpent tapi",
+    "Description": "Étapes de fabrication du serpent tapi.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393457,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Lyre spéculaire",
+    "Description": "Étapes de fabrication de la lyre spéculaire.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393458,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gloire cristalline",
+    "Description": "Étapes de fabrication de la gloire cristalline.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393215,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bouquet blanc d'inspiration",
+    "Description": "Étapes de fabrication du bouquet blanc d'inspiration.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393216,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Parfum salubre »",
+    "Description": "Étapes de fabrication du « Parfum salubre ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394213,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Banc « Mélodie cachée » en bois d'hibiscus",
+    "Description": "#Étapes de fabrication du banc «{NON_BREAK_SPACE}Mélodie cachée » en bois d'hibiscus.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394214,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Siège « Clic clac » en bois d'hibiscus",
+    "Description": "#Étapes de fabrication du siège «{NON_BREAK_SPACE}Clic clac » en bois d'hibiscus.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380450,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "#Lampadaire du village musical «{NON_BREAK_SPACE}Éclairage de sécurité »",
+    "Description": "#Étapes de fabrication du lampadaire du village musical «{NON_BREAK_SPACE}Éclairage de sécurité ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
     "Icon": "UI_ItemIcon_Home_Common"
   }

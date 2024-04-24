@@ -9485,6 +9485,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 60512,
+    "RelationshipId": 60512,
+    "Name": "Primordial Bathysmal Vishap",
+    "Title": "Primordial Bathysmal Vishap",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26060101,
     "DescribeId": 60601,
     "RelationshipId": 60601,
@@ -10572,6 +10582,122 @@
       "IceSubHurt": 0.25,
       "RockSubHurt": 0.25,
       "PhysicalSubHurt": 0.25
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26140101,
+    "DescribeId": 61401,
+    "RelationshipId": 61401,
+    "MonsterName": "Golem_Centaur",
+    "Name": "Legatus Golem",
+    "Title": "\"รูปปั้นหินขาวและทองเหลือง\"",
+    "Description": "รูปปั้นเซนทอร์ที่ทำจากหินสีขาว และทองเหลือง ภายใต้เปลือกหินที่แข็งแกร่งมีหยาดน้ำค้างวิญญาณไหลเวียนอยู่ ยืนหยัดราวกับผู้บัญชาการกองทัพ พร้อมที่จะเหยียบย่ำใครก็ตามที่กล้ารุกรานให้แหลกเป็นผุยผงได้ทุกเมื่อ\nอารยธรรมโบราณที่จมอยู่ใต้น้ำเชื่อว่า สงครามก็เหมือนกับดนตรี เป็นศิลปะที่ต้องเป็นไปตามจังหวะ ผู้บัญชาการของกองทัพควรจะเป็นเหมือนผู้ควบคุมวงออเคสตรา ที่ปฏิบัติต่อโล่และดาบในมือดั่งสาย และคันธนูของพิณ บรรเลงท่วงทำนองแห่งเปลวเพลิงที่ลุกโชนบนสนามรบอันโหดร้าย\n\"สงครามคือความชั่วร้ายที่จำเป็น ซึ่งนำไปสู่ความสุขของทุกคน\" กองทัพที่ปกครองโกเลม และช่างจูนเสียงผู้พิชิตทะเลหลวงเคยกล่าวไว้เช่นนี้",
+    "Icon": "UI_MonsterIcon_Golem_Centaur",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113059,
+      104111,
+      104112,
+      104113,
+      104114,
+      104171,
+      104172,
+      104173,
+      104174,
+      400022,
+      400032,
+      400127,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 217.344,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26140201,
+    "DescribeId": 61402,
+    "RelationshipId": 61402,
+    "MonsterName": "Golem_Legion",
+    "Name": "Praetorian Golem",
+    "Title": "ผู้อารักขากองทัพอมตะ",
+    "Description": "รูปปั้นที่เคลื่อนไหวได้ด้วยรูปร่างของนักรบ มันจะชี้ดาบไปยังผู้ใดก็ตามที่กล้าบุกเข้าไปในดินแดนที่มันปกป้อง ไม่รู้ว่าสิ่งที่ขับเคลื่อนการต่อสู้ของมันเป็นวิญญาณ หรือว่าเวทมนตร์กันแน่\nตำนานเล่าว่า มันอาจเป็นหนึ่งในกองทัพโกเลม ที่เคยพิชิตอาณาจักรบนท้องทะเลหลวง หอคอย และพระราชวังที่จมอยู่ใต้ท้องทะเล เป็นพยานถึงชะตากรรมของคนที่กล้าขัดขวางกงล้อแห่งโชคชะตา",
+    "Icon": "UI_MonsterIcon_Golem_Legion",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112098,
+      112099,
+      112100,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
       {
@@ -12096,6 +12222,19 @@
     "RelationshipId": 90903,
     "Title": "All-Devouring Narwhal",
     "Icon": "UI_MonsterIcon_Hili_None_01",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "仆人周本难度调整词缀"
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 91001,
+    "RelationshipId": 91001,
+    "Name": "The Knave",
+    "Title": "The Knave",
+    "Icon": "UI_MonsterIcon_Nihil",
     "Type": 0,
     "Arkhe": 0
   }
