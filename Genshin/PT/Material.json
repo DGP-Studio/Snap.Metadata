@@ -110,6 +110,16 @@
     "Icon": "UI_ItemIcon_204"
   },
   {
+    "MaterialType": 0,
+    "Id": 206,
+    "RankLevel": 4,
+    "ItemType": 1,
+    "Name": "Medalha de Brinquedo",
+    "Description": "Medalhas brilhantes. Elas são brinquedos, sim, mas mesmo assim representam o reconhecimento da plateia.\nUse-as no \"Teatro das Realidades Imaginárias\" para obter \"Truques Dramáticos\" de Lobinho.",
+    "TypeDescription": "Moeda Especial",
+    "Icon": "UI_ItemIcon_206"
+  },
+  {
     "MaterialType": 5,
     "Id": 210,
     "RankLevel": 2,
@@ -1121,11 +1131,41 @@
   },
   {
     "MaterialType": 20,
+    "Id": 1195,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Sigewinne",
+    "Description": "Material de Ativação da Stella Fortuna de Sigewinne",
+    "TypeDescription": "Ativação de Constelação",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
     "Id": 1196,
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "Stella Fortuna de Arlecchino",
     "Description": "Material de Ativação da Constelação de Arlecchino",
+    "TypeDescription": "Ativação de Constelação",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1197,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Sethos",
+    "Description": "Material de Ativação da Constelação de Sethos",
+    "TypeDescription": "Ativação de Constelação",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1198,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Clorinde",
+    "Description": "Material de Ativação da Constelação de Clorinde",
     "TypeDescription": "Ativação de Constelação",
     "Icon": "UI_ItemIcon_1102"
   },
@@ -1912,6 +1952,28 @@
     "Icon": "UI_ItemIcon_100099"
   },
   {
+    "MaterialType": 5,
+    "EffectDescription": "Aumenta o Buff do Sangue de Dragão",
+    "Id": 101005,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cristal de Sangue",
+    "Description": "Cristal de Sangue",
+    "TypeDescription": "Bônus do Sangue de Dragão",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
+    "MaterialType": 5,
+    "EffectDescription": "Aumenta o Buff do Sangue de Dragão",
+    "Id": 101007,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cristal de Sangue",
+    "Description": "Cristal de Sangue (Evento da Espinha do Dragão)",
+    "TypeDescription": "Bônus do Sangue de Dragão",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
     "MaterialType": 4,
     "Id": 101001,
     "RankLevel": 0,
@@ -1952,17 +2014,6 @@
     "Icon": "UI_ItemIcon_101004"
   },
   {
-    "MaterialType": 5,
-    "EffectDescription": "Aumenta o Buff do Sangue de Dragão",
-    "Id": 101005,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Cristal de Sangue",
-    "Description": "Cristal de Sangue",
-    "TypeDescription": "Bônus do Sangue de Dragão",
-    "Icon": "UI_ItemIcon_101005"
-  },
-  {
     "MaterialType": 4,
     "Id": 101006,
     "RankLevel": 0,
@@ -1971,17 +2022,6 @@
     "Description": "Um minério raro e precioso formado pelas condições geográficas e Linhas Ley únicas da Espinha do Dragão.",
     "TypeDescription": "Minério de Forjamento",
     "Icon": "UI_ItemIcon_101006"
-  },
-  {
-    "MaterialType": 5,
-    "EffectDescription": "Aumenta o Buff do Sangue de Dragão",
-    "Id": 101007,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Cristal de Sangue",
-    "Description": "Cristal de Sangue (Evento da Espinha do Dragão)",
-    "TypeDescription": "Bônus do Sangue de Dragão",
-    "Icon": "UI_ItemIcon_101005"
   },
   {
     "MaterialType": 4,
@@ -23559,6 +23599,17 @@
   },
   {
     "MaterialType": 15,
+    "EffectDescription": "Restaura 34% da Vida Máxima do personagem selecionado e regenera 980 de Vida a cada 5s por 30s.",
+    "Id": 108673,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Refeição Balanceada",
+    "Description": "Especialidade de Sigewinne. \"Coma logo, ou então o suflê vai murchar!\" O tom e o olhar sincero de produção dela fizeram você levantar os talheres, mas isso parece uma carne familiar, misturada com um certo milkshake... Parece que não há escapatória dessa vez.",
+    "TypeDescription": "Alimento",
+    "Icon": "UI_ItemIcon_108673"
+  },
+  {
+    "MaterialType": 15,
     "EffectDescription": "Restaura 40% de Vida para o personagem selecionado, e restaura 2350 de Vida adicional.",
     "Id": 108674,
     "RankLevel": 3,
@@ -23567,6 +23618,61 @@
     "Description": "Especialidade de Arlecchino. A carne crua, sem nenhum tempero excessivo, traz um choque tanto de sangue e frescor brutal, gravando um elegante conjunto de sabores em sua língua. O sabor residual final é ainda mais limpo e interessante, um reflexo espelhado de como sua criadora lida com certas situações...",
     "TypeDescription": "Alimento",
     "Icon": "UI_ItemIcon_108674"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Restaura 40 de Stamina.",
+    "Id": 108675,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Peito de Pato ao Molho Bulle Estranho",
+    "Description": "Um prato de carne aromático. O molho não consegue eliminar a gordura da carne, e por isso acaba acrescentando um sabor amargo no prato. Depois de engolir o prato de aparência refinada, todo seu apetite desaparece sem deixar nenhum sinal de vida.",
+    "TypeDescription": "Alimento",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Restaura 50 de Stamina.",
+    "Id": 108676,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Peito de Pato ao Molho Bulle",
+    "Description": "Um prato de carne com um aroma frutado. Após refogar o peito de pato, corte-o em fatias e coloque-o em um prato antes de despejar molho de Fruta Bulle em cima dele. Pele crocante, carne macia e suntuosa, e um molho que mistura o doce e ácido se unem para criar essa iguaria clássica de Fontaine.",
+    "TypeDescription": "Alimento",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Restaura 60 de Stamina.",
+    "Id": 108677,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Peito de Pato ao Molho Bulle Delicioso",
+    "Description": "Um prato de carne com aroma frutado. A fragrância das frutas se mistura docemente com as tiras de carne de pato. Antes de engolir um pedaço, o garfo já não consegue se controlar e se estende para pegar outro, como uma pessoa ansiosa para provar essa delícia. Não se surpreende que ao longo da evolução da cultura gastronômica de Fontaine, esse prato sempre tenha um espaço central nela.",
+    "TypeDescription": "Alimento",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Restaura 80 de Stamina.",
+    "Id": 108678,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "\"Caçado e Capturado\"",
+    "Description": "Especialidade de Clorinde. A carne de ave utilizada como ingrediente foi recentemente caçada e levemente assada. A textura das bolinhas e o sabor refrescante deixam as dúvidas para trás, afinal, Clorinde já provou esse prato antes. Você também deve ter um estômago forte como o de um caçador, não é?",
+    "TypeDescription": "Alimento",
+    "Icon": "UI_ItemIcon_108678"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Aumenta o ATQ de todos os membros da Equipe em 114 por 300s. No modo multijogador, terá efeito em si mesmo.",
+    "Id": 108679,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Rolinho de Carne Mega Gostoso",
+    "Description": "Especialidade de Sethos. A massa é feita de forma áspera e o tempero da carne assada é diferente das receitas comuns. É uma iguaria gastronômica única, e o jovem ao seu lado quando percebeu que você desejava mais, piscou e disse: \"Essa é a minha receita secreta.\"",
+    "TypeDescription": "Alimento",
+    "Icon": "UI_ItemIcon_108679"
   },
   {
     "MaterialType": 5,
@@ -25485,6 +25591,16 @@
     "ItemType": 2,
     "Name": "Receita: Suflê de Bulle",
     "Description": "Receita passo a passo detalhada de como fazer Suflê de Bulle.",
+    "TypeDescription": "Receita",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109576,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Receita: Peito de Pato ao Molho Bulle",
+    "Description": "Uma receita passo a passo detalhada para fazer Peito de Pato ao Molho Bulle",
     "TypeDescription": "Receita",
     "Icon": "UI_ItemIcon_109000"
   },
@@ -34686,6 +34802,26 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120865,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pérola Transoceânica Concentrada",
+    "Description": "Um ingrediente especial na lista que Sigewinne deu. Deve ser obtido de Aberrações Primordiais específicas.",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_112080"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120866,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Extrato de Fantasma Hydro Corrompido",
+    "Description": "Um ingrediente especial na lista que Sigewinne deu. Deve ser obtido de Fantasmas Hydro Corrompidos específicos.",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_112086"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120870,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34730,7 +34866,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "\"Eu Reencarnei como um Onikabuto... E Virei o Mundo de Ponta-Cabeça\"",
-    "Description": "Um trecho de letra de soft rock, ou talvez um poema medíocre.",
+    "Description": "Um trecho de letra de rock meloso... ou talvez um poema medíocre?",
     "TypeDescription": "Item de Missão",
     "Icon": "UI_ItemIcon_101501"
   },
@@ -34766,6 +34902,36 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120891,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Testemunho do Criminoso",
+    "Description": "Testemunhos criminosos compilados por Morgane. Eles registram os resultados do interrogatório de hoje.",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120892,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Nota de Rawat",
+    "Description": "Uma página de um caderno que você encontrou em um armário na residência da mãe de Rawat. Ela marca um local ao norte do Instituto de Pesquisas de Fontaine.",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120894,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Foto em Grupo de um Tempo Desconhecido",
+    "Description": "Uma preciosa foto em grupo que de alguma forma ultrapassou as regras, tirada por uma pessoa desconhecida usando meios desconhecidos num espaço que não deveria mais existir.",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120894"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120910,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34793,6 +34959,36 @@
     "Description": "Um fragmento antigo de uma partitura musical. Indecifrável na sua forma atual.",
     "TypeDescription": "Item de Missão",
     "Icon": "UI_ItemIcon_120917"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120928,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Foto em Grupo de um Tempo Desconhecido",
+    "Description": "Uma preciosa foto em grupo que de alguma forma ultrapassou as regras, tirada por uma pessoa desconhecida usando meios desconhecidos num espaço que não deveria mais existir.",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120928"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120931,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "\"Mapa do Tesouro\" Com a Localização do Cofre",
+    "Description": "Um Mapa do Tesouro dado a você por Florian, o \"guarda\". Dizem que no cofre ao qual esse mapa levará você, os Caçadores das Sombras do passado deixaram para trás um tesouro com o poder de derrotar o feiticeiro maligno...",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_100173"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120932,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum de Personagem \"Caçador das Sombras: Dia do Julgamento\"",
+    "Description": "Um livro que comemora os participantes deste jogo de \"Caçador das Sombras: Dia do Julgamento\", tanto jogadores quanto Mestre do Jogo, estão cheios de memórias de suas aventuras em conjunto. \"Por essa razão, não abandone a esperança\"... Talvez essa exortação tenha um significado mais profundo para quem interpretou o Caçador das Sombras?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120932"
   },
   {
     "MaterialType": 2,
@@ -34963,6 +35159,246 @@
     "Description": "Nota Antiga",
     "TypeDescription": "Item de Missão",
     "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120954,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Registros de Produção",
+    "Description": "Registros de Produção",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120955,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Registros de Experimentos",
+    "Description": "Registros de Experimentos",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120971,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum de Personagem \"Caçador das Sombras: Dia do Julgamento\"",
+    "Description": "Um livro que comemora os participantes deste jogo de \"Caçador das Sombras: Dia do Julgamento\", tanto jogadores quanto Mestre do Jogo, estão cheios de memórias de suas aventuras em conjunto. \"Por essa razão, não abandone a esperança\"... Talvez essa exortação tenha um significado mais profundo para quem interpretou o Caçador das Sombras?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120972,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum de Personagem \"Caçador das Sombras: Dia do Julgamento\"",
+    "Description": "Um livro que comemora os participantes deste jogo de \"Caçador das Sombras: Dia do Julgamento\", tanto jogadores quanto Mestre do Jogo, estão cheios de memórias de suas aventuras em conjunto. \"Por essa razão, não abandone a esperança\"... Talvez essa exortação tenha um significado mais profundo para quem interpretou o Caçador das Sombras?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120973,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum de Personagem \"Caçador das Sombras: Dia do Julgamento\"",
+    "Description": "Um livro que comemora os participantes deste jogo de \"Caçador das Sombras: Dia do Julgamento\", tanto jogadores quanto Mestre do Jogo, estão cheios de memórias de suas aventuras em conjunto. \"Por essa razão, não abandone a esperança\"... Talvez essa exortação tenha um significado mais profundo para quem interpretou o Caçador das Sombras?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120974,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum de Personagem \"Caçador das Sombras: Dia do Julgamento\"",
+    "Description": "Um livro que comemora os participantes deste jogo de \"Caçador das Sombras: Dia do Julgamento\", tanto jogadores quanto Mestre do Jogo, estão cheios de memórias de suas aventuras em conjunto. \"Por essa razão, não abandone a esperança\"... Talvez essa exortação tenha um significado mais profundo para quem interpretou o Caçador das Sombras?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120975,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum de Personagem \"Caçador das Sombras: Dia do Julgamento\"",
+    "Description": "Um livro que comemora os participantes deste jogo de \"Caçador das Sombras: Dia do Julgamento\", tanto jogadores quanto Mestre do Jogo, estão cheios de memórias de suas aventuras em conjunto. \"Por essa razão, não abandone a esperança\"... Talvez essa exortação tenha um significado mais profundo para quem interpretou o Caçador das Sombras?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120976,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum de Personagem \"Caçador das Sombras: Dia do Julgamento\"",
+    "Description": "Um livro que comemora os participantes deste jogo de \"Caçador das Sombras: Dia do Julgamento\", tanto jogadores quanto Mestre do Jogo, estão cheios de memórias de suas aventuras em conjunto. \"Por essa razão, não abandone a esperança\"... Talvez essa exortação tenha um significado mais profundo para quem interpretou o Caçador das Sombras?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120977,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum de Personagem \"Caçador das Sombras: Dia do Julgamento\"",
+    "Description": "Um livro que comemora os participantes deste jogo de \"Caçador das Sombras: Dia do Julgamento\", tanto jogadores quanto Mestre do Jogo, estão cheios de memórias de suas aventuras em conjunto. \"Por essa razão, não abandone a esperança\"... Talvez essa exortação tenha um significado mais profundo para quem interpretou o Caçador das Sombras?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120988,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "A Bruxinha e as Chamas Eternas I",
+    "Description": "O encadernamento e disposição são feitos com muito requinte, mas o conteúdo real é todo escrito a mão. Julgando pela caligrafia, há mais de um autor. \"Não se preocupe com o QUE estamos escrevendo, a capa precisa ser bonita! Esse é o único jeito de isso dar aquela 'sensação' de obra-prima.\"",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120989,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "A Bruxinha e as Chamas Eternas II",
+    "Description": "\"Você passou de mais da metade e nem avançou o enrendo um pouquinho sequer! Por que é tudo sobre o cenário?!\" \"E o que você saberia? Além disso, essa coisa não está aprofundando o cenário, é ciência natural e disciplinas diversas!\"",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120990,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "A Bruxinha e as Chamas Eternas III",
+    "Description": "Uma escrita misteriosa aparece antes do texto principal: \"É tão raro R estar com a cabeça no lugar para um feitiço, ela devia mesmo estar desperdiçando seu precioso tempo lúcida escrevendo isso?\", \"Não se preocupe. Para uma feiticeira, essa é a coisa mais importante.\"",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120991,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "A Bruxinha e as Chamas Eternas IV",
+    "Description": "Alguma escrita misteriosa aparece antes do texto principal: \"Vossa majestade, como você conseguirá amarrar todas essas pontas soltas? Por favor, tenha misericórdia de mim.\"",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120992,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "A Bruxinha e as Chamas Eternas V",
+    "Description": "A escrita aqui é uma bagunça. Talvez o autor não escreva muito, ou talvez algo tenha acontecido.",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120993,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "A Bruxinha e as Chamas Eternas VI",
+    "Description": "\"Em um momento como esse, ainda é necessário escrever isso?\", \"Bem, lá vou eu. As oportunidades para retornar a esse mundo são raras. Alice pensaria o mesmo: se não continuarmos, tudo não teria sentido desde o começo.\"",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120994,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "A Bruxinha e as Chamas Eternas VII",
+    "Description": "A formatação é refinada, mas o conteúdo é todo escrito à mão. A julgar pela grafia, há mais de um autor. \"Descobri o significado de escrever. Por isso lhe direi: eu gostaria que você estivesse aqui também.\"",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120995,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escritório de Gatos I",
+    "Description": "Um dia, um felino da firma misterioso enviou um convite para o porteiro Perroux... que aventuras esperam por ele?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120996,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escritório de Gatos II",
+    "Description": "Depois de ter decifrado o feitiço felino, Perroux encontra a entrada para a firma, e assim \"salta para as sombras abaixo\"... e então?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120997,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escritório de Gatos III",
+    "Description": "O gato com uma tatuagem que cobria todo o braço completou a comissão do gato que sempre roncava, mas o que o outro fez? Perroux permanecia curioso...",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120998,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escritório de Gatos IV",
+    "Description": "Até mesmo a firma felina, que já havia visto de tudo, às vezes ficava perdida. Que dificuldade assombrosa confundia o orgulhoso chefe listrado ao ponto dele ter de pedir a ajuda a Perroux?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120999,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escritório de Gatos V",
+    "Description": "Uma bota mágica de gato, junto com sua máscara misteriosa. Como levarão o gato de cabelos longos até a firma felina?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121000,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escritório de Gatos VI",
+    "Description": "Testemunhado por todos os gatos e o mestre, o gato com listras de tigre e o gato de pelos longos podem se casar... ou...?",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121001,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escritório de Gatos VII",
+    "Description": "\"Corra, Perroux, corra!\", para Perroux, com suas orelhas de gato, somente essas palavras ficaram em sua mente...",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121002,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escritório de Gatos VIII",
+    "Description": "\"Parece que o mestre deu as boas-vindas para outro amor da primavera...\", murmuraram os servos...\nMas isso foi algo que aconteceu muito depois.",
+    "TypeDescription": "Item de Missão",
+    "Icon": "UI_ItemIcon_120800"
   },
   {
     "MaterialType": 31,
@@ -36720,7 +37156,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 108",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Truncated Verse\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36730,7 +37166,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 109",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Clockwork Waltz\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36740,7 +37176,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 110",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"The Rotating Realm\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36750,7 +37186,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 111",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Crystalline Path\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36760,7 +37196,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 112",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"A Sweet Dream in Fontaine\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36770,7 +37206,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 113",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Rhythm of Inquiry\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36780,7 +37216,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 114",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Un nouvel espoir\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36790,7 +37226,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 115",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Loch's Revitalization\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36800,7 +37236,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 116",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Les fumees blanches\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36810,7 +37246,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 117",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Neath the Fountain\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36820,7 +37256,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 118",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Magick Without Tears\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36830,7 +37266,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 119",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Songe de la plus haute tour\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36840,7 +37276,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 120",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Liyue.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Jade Chimes\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36850,7 +37286,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 121",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Liyue.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Guhua's Legacy\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36860,7 +37296,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 122",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Liyue.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Into the Yonder and Water\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36870,7 +37306,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 123",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Liyue.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Garden of Jade\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36880,7 +37316,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 124",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Liyue.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Springtide of Qiaoying\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36890,7 +37326,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cristal Rodopiante Radiante 125",
-    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Liyue.",
+    "Description": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"The Jadeite Reflection\".",
     "TypeDescription": "Item de Aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37353,6 +37789,16 @@
     "Description": "Item de refinamento exclusivo para a arma \"Conversas dos Sábios do Deserto\".\nNos cursos básicos de alquimia, o mercúrio é conhecido como \"o rei do mundo\", pois pode devorar avidamente o ouro. Portanto, na alquimia, é usado para representar os metais.\nMesmo depois de secar e se tornar em pó, ele ainda mantém suas propriedades de transformação.",
     "TypeDescription": "Material de Refinamento",
     "Icon": "UI_ItemIcon_200120"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 200121,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Câmera e Cabos da Lei",
+    "Description": "Material de refinamento especializado para \"Tocador de Nuvens\".\nUm novo tipo de componente que o Yuheng comissionou à Forja do Penhasco Obscuro. Segundo os ferreiros, sua carga dinâmica \"não perderia para mecanismos adepti\". Ao instalá-lo na arma protótipo de sua contraparte, o poder dela pode ser aumentado consideravelmente.\nO mundo governado pela humanidade é como corda tesa de arco de qualidade: Pode apenas evitar que se rompa com a quantidade adequada de tensão.",
+    "TypeDescription": "Material de Refinamento",
+    "Icon": "UI_ItemIcon_200121"
   },
   {
     "MaterialType": 28,
@@ -40180,7 +40626,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Aroma Fervente",
-    "Description": "Este luxuoso esquema de decoração imita o interior de um conhecido café da Cidade de Sumeru, mas incorpora as mudanças necessárias para torná-lo adequado para a residência do Paraíso Mágico do Bule. Tem uma decoração soberba perfeitamente organizada. No interior, misturam-se os vapores das cozinhas e o delicioso aroma das iguarias que são servidas, inundando o ambiente com uma sensação agradável. Basta uma boa companhia e uma garrafa de vinho para desfrutar da melhor experiência gastronômica possível.\nAqueles que viajam frequentemente de um lugar para outro escolhem sempre com antecedência os restaurantes onde vão comer, tendo em conta a dimensão do estabelecimento e a quantidade de porções. Para esse tipo de pessoa, uma churrascaria é sempre a opção mais segura. Mesmo quem viaja sozinho pode aproveitar o ambiente animado deste café para manter em segredo o propósito da sua viagem ou sentir, observar e analisar a situação da segurança deste movimentado estabelecimento. \nOs personagens a seguir preferem este Conjunto de Decoração: Alhaitham, Dehya.",
+    "Description": "Este luxuoso esquema de decoração imita o interior de um conhecido café da Cidade de Sumeru, mas incorpora as mudanças necessárias para torná-lo adequado para a residência do Paraíso Mágico do Bule. Tem uma decoração soberba perfeitamente organizada. No interior, misturam-se os vapores das cozinhas e o delicioso aroma das iguarias que são servidas, inundando o ambiente com uma sensação agradável. Basta uma boa companhia e uma garrafa de vinho para desfrutar da melhor experiência gastronômica possível.\nAqueles que viajam frequentemente de um lugar para outro escolhem sempre com antecedência os restaurantes onde vão comer, tendo em conta a dimensão do estabelecimento e a quantidade de porções. Para esse tipo de pessoa, uma churrascaria é sempre a opção mais segura. Mesmo quem viaja sozinho pode aproveitar o ambiente animado deste café para manter em segredo o propósito da sua viagem ou sentir, observar e analisar a situação da segurança deste movimentado estabelecimento. \nOs personagens a seguir preferem este Conjunto de Decoração: Alhaitham, Dehya, Sethos",
     "TypeDescription": "Diagrama de Conjunto de Decorações",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -40220,7 +40666,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Mercado Próspero",
-    "Description": "Uma área comercial movimentada e decorada com bom gosto, que lembra as ruas repletas de barracas da cidade de Sumeru ou o projeto do Grande Bazar. Aqui você encontra tudo; desde bancas de frutas e legumes frescos e petiscos deliciosos para animar o dia, até produtos do dia a dia, e tudo a poucos metros de distância. Este tipo de mercado é caracterizado pelo seu ambiente divertido e movimentado.\nHá rumores de que a distribuição das barracas e lojas nas ruas de Sumeru em ambos os lados da rua segue uma organização planejada resultante das investigações realizadas pela Academia. O objetivo é aproveitar o uso do espaço e reduzir a necessidade de gerenciamento de tarefas para oferecer um serviço de maior qualidade aos clientes.\nEste conjunto de decorações é o preferido das seguinte companheiras: Dori, Faruzan.",
+    "Description": "Uma área comercial movimentada e decorada com bom gosto, que lembra as ruas repletas de barracas da cidade de Sumeru ou o projeto do Grande Bazar. Aqui você encontra tudo; desde bancas de frutas e legumes frescos e petiscos deliciosos para animar o dia, até produtos do dia a dia, e tudo a poucos metros de distância. Este tipo de mercado é caracterizado pelo seu ambiente divertido e movimentado.\nHá rumores de que a distribuição das barracas e lojas nas ruas de Sumeru em ambos os lados da rua segue uma organização planejada resultante das investigações realizadas pela Academia. O objetivo é aproveitar o uso do espaço e reduzir a necessidade de gerenciamento de tarefas para oferecer um serviço de maior qualidade aos clientes.\nEste conjunto de decorações é o preferido das seguintes companheiras: Dori, Faruzan, Sethos",
     "TypeDescription": "Diagrama de Conjunto de Decorações",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40310,7 +40756,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Adesão Estrita aos Códigos do Escritório",
-    "Description": "Um layout de escritório clássico baseado nos móveis do Palais Mermonia, recriando aquele escritório sempre movimentado, onde tudo segue regulamentos.\nUm pesquisador do Instituto de Pesquisas de Fontaine certa vez afirmou que \"o ambiente de uma pessoa afetará muito o seu estado de trabalho.\" Seguindo esse princípio, alguém que está em um ambiente muito semelhante ao do Palais Mermonia pode, subconscientemente, seguir de maneira confiável cada processo detalhadamente...\nEste conjunto de decorações é o preferido do seguinte companheiro: Neuvillette",
+    "Description": "Um layout de escritório clássico baseado nos móveis do Palais Mermonia, recriando aquele escritório sempre movimentado, onde tudo segue regulamentos.\nUm pesquisador do Instituto de Pesquisas de Fontaine certa vez afirmou que \"o ambiente de uma pessoa afetará muito o seu estado de trabalho.\" Seguindo esse princípio, alguém que está em um ambiente muito semelhante ao do Palais Mermonia pode, subconscientemente, seguir de maneira confiável cada processo detalhadamente...\nEste conjunto de decorações é o preferido dos seguintes companheiro: Neuvillette, Clorinde",
     "TypeDescription": "Diagrama de Conjunto de Decorações",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -40400,7 +40846,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "A Espuma Luminosa sob as Águas Silenciosas",
-    "Description": "Um pequeno assentamento que se esforça para recriar a paisagem na Vila Marusea, com edifícios únicos e bastante chamativos.\nAs Melusines habitam Elynas, sob as ondas, e poucas pessoas normais visitarão sua vila, embora aqueles que o façam sempre elogiem sua experiência ao retornar. Alguns artistas tentaram desenhar o lugar com base nessas descrições e informações obtidas ao entrevistar Melusines na Corte de Fontaine. No entanto, sempre houve uma \"diferença de cor\" entre seu trabalho e as cores reais da vila que era difícil de ignorar. Esse problema só foi resolvido quando fotos tiradas por um Aparelho Fotográfico da Vila Marusea se tornaram amplamente conhecidas, resolvendo mais ou menos o problema...\nEste conjunto de decorações é o preferido do seguinte companheiro: Freminet",
+    "Description": "Um pequeno assentamento que se esforça para recriar a paisagem na Vila Marusea, com edifícios únicos e bastante chamativos.\nAs Melusines habitam Elynas, sob as ondas, e poucas pessoas normais visitarão sua vila, embora aqueles que o façam sempre elogiem sua experiência ao retornar. Alguns artistas tentaram desenhar o lugar com base nessas descrições e informações obtidas ao entrevistar Melusines na Corte de Fontaine. No entanto, sempre houve uma \"diferença de cor\" entre seu trabalho e as cores reais da vila que era difícil de ignorar. Esse problema só foi resolvido quando fotos tiradas por um Aparelho Fotográfico da Vila Marusea se tornaram amplamente conhecidas, resolvendo mais ou menos o problema...\nEste conjunto de decorações é o preferido dos seguintes companheiros: Freminet, Sigewinne",
     "TypeDescription": "Diagrama de Conjunto de Decorações",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40410,7 +40856,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Força Total Avante na Fortaleza Proibida",
-    "Description": "Uma arena cujo ponto central é um ringue de boxe. Ficando dentro dele, você pode ouvir novamente os aplausos e gritos da plateia, os comentários animados do apresentador e o som abafado do punho batendo contra a carne vindo de cada competidor, essa é a profunda impressão que o Ringue de Pancrácio da Fortaleza Meropide deixa.\n\"Em um ringue onde seu punho decide tudo, você só pode dar o seu melhor para reivindicar a glória, e os Cupons Especiais, que deveriam ser seus.\" ... Muitos competidores do Ringue de Pancrácio adotam isso como seu lema mesmo após deixarem completamente a Fortaleza...\nEste conjunto de decorações é o preferido dos seguintes companheiros: Wriothesley e Chevreuse",
+    "Description": "Uma arena cujo ponto central é um ringue de boxe. Ficando dentro dele, você pode ouvir novamente os aplausos e gritos da plateia, os comentários animados do apresentador e o som abafado do punho batendo contra a carne vindo de cada competidor, essa é a profunda impressão que o Ringue de Pancrácio da Fortaleza Meropide deixa.\n\"Em um ringue onde seu punho decide tudo, você só pode dar o seu melhor para reivindicar a glória, e os Cupons Especiais, que deveriam ser seus.\" ... Muitos competidores do Ringue de Pancrácio adotam isso como seu lema mesmo após deixarem completamente a Fortaleza...\nEste conjunto de decorações é o preferido dos seguintes companheiros: Wriothesley, Chevreuse, Sigewinne",
     "TypeDescription": "Diagrama de Conjunto de Decorações",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40420,7 +40866,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "As Cores Marmóreas da Nação Hydro",
-    "Description": "Uma cena rural repleta de plantas exuberantes. Ela contém todos os tipos de flores e arbustos que podem ser encontrados por toda parte em Fontaine. Flores e plantas são temas comuns em pinturas e representam um ponto de partida para explorações da \"cor\". Alguns pintores em Fontaine acreditam que a paleta do mundo usa plantas para demonstrar a combinação perfeita de cores. Portanto, se todas as cores em uma pintura encontram sua origem nas flores, então essa pintura deve certamente possuir uma beleza harmoniosa igual à da paisagem natural. Claro, isso parte da premissa de que você não vai misturar todas as cores derivadas de plantas em uma única conversa...",
+    "Description": "Uma cena rural repleta de plantas exuberantes. Ela contém todos os tipos de flores e arbustos que podem ser encontrados por toda parte em Fontaine. Flores e plantas são temas comuns em pinturas e representam um ponto de partida para explorações da \"cor\". Alguns pintores em Fontaine acreditam que a paleta do mundo usa plantas para demonstrar a combinação perfeita de cores. Portanto, se todas as cores em uma pintura encontram sua origem nas flores, então essa pintura deve certamente possuir uma beleza harmoniosa igual à da paisagem natural. Claro, isso parte da premissa de que você não vai misturar todas as cores derivadas de plantas em uma única conversa...\nEsse conjunto de decoração é o preferido da seguinte companheira: Clorinde",
     "TypeDescription": "Diagrama de Conjunto de Decorações",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -49481,6 +49927,56 @@
     "ItemType": 2,
     "Name": "Lanterna de Estrada Amigável: \"Luz Instantânea\"",
     "Description": "Um diagrama que descreve passo a passo como fabricar Lanterna de Estrada Amigável: \"Luz Instantânea\".\nDepois de usar, você pode entrar na interface de produção para ver.",
+    "TypeDescription": "Diagrama de Decoração",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382316,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Resplendor Desvanecido\"",
+    "Description": "Um diagrama que descreve passo a passo como fabricar \"Resplendor Desvanecido\".\nDepois de usar, você pode entrar na interface de produção para vê-la.",
+    "TypeDescription": "Diagrama de Decoração",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393459,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sinos da Brisa da Cidade da Música: \"Passarinhos Cantarolando\"",
+    "Description": "Um diagrama que descreve passo a passo como fabricar Sinos da Brisa da Cidade da Música: \"Passarinhos Cantarolando\".\nDepois de usar, você pode entrar na interface de produção para ver.",
+    "TypeDescription": "Diagrama de Decoração",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394602,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Estátua com Espada: \"Estética da Incompletude\"",
+    "Description": "Um diagrama que descreve passo a passo como fabricar Estátua com Espada: \"Estética da Incompletude\".\nDepois de usar, você pode entrar na interface de produção para ver.",
+    "TypeDescription": "Diagrama de Decoração",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393185,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Canhão Crocodilo Explosivo Melhorado",
+    "Description": "Um diagrama que descreve passo a passo como fabricar Canhão Crocodilo Explosivo Melhorado.\nDepois de usar, você pode entrar na interface de produção para ver.",
+    "TypeDescription": "Diagrama de Decoração",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393917,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Modelo Mecânico: Modo Musical Padrão",
+    "Description": "Um diagrama que descreve passo a passo como fabricar Modelo Mecânico: Modo Musical Padrão\nDepois de usar, você pode entrar na interface de colocação para ver.",
     "TypeDescription": "Diagrama de Decoração",
     "Icon": "UI_ItemIcon_Home_Common"
   }

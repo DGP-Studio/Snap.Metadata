@@ -110,6 +110,16 @@
     "Icon": "UI_ItemIcon_204"
   },
   {
+    "MaterialType": 0,
+    "Id": 206,
+    "RankLevel": 4,
+    "ItemType": 1,
+    "Name": "Spielzeugmedaille",
+    "Description": "Wie hübsch diese Medaillen doch funkeln. Es handelt sich zwar nur um Spielzeug, aber sie stellen auch die Anerkennung des Publikums dar.\nDu kannst sie im „Theater der träumerischen Realität“ bei Wölfchen gegen „Schauspielertricks“ eintauschen.",
+    "TypeDescription": "Seltene Währung",
+    "Icon": "UI_ItemIcon_206"
+  },
+  {
     "MaterialType": 5,
     "Id": 210,
     "RankLevel": 2,
@@ -1121,11 +1131,41 @@
   },
   {
     "MaterialType": 20,
+    "Id": 1195,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna von Sigewinne",
+    "Description": "Material zum Aktivieren von Sigewinnes Sternbild",
+    "TypeDescription": "Zur Aktivierung von Sternbildern",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
     "Id": 1196,
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "Stella Fortuna von Arlecchino",
     "Description": "Material zum Aktivieren von Arlecchinos Sternbild",
+    "TypeDescription": "Zur Aktivierung von Sternbildern",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1197,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Stella Fortuna von Sethos",
+    "Description": "Material zum Aktivieren von Sethos’ Sternbild",
+    "TypeDescription": "Zur Aktivierung von Sternbildern",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1198,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna von Clorinde",
+    "Description": "Material zum Aktivieren von Clorindes Sternbild",
     "TypeDescription": "Zur Aktivierung von Sternbildern",
     "Icon": "UI_ItemIcon_1102"
   },
@@ -1912,6 +1952,28 @@
     "Icon": "UI_ItemIcon_100099"
   },
   {
+    "MaterialType": 5,
+    "EffectDescription": "Erhöht Drachenblut-Bonus",
+    "Id": 101005,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tiefroter Quarz",
+    "Description": "Tiefroter Quarz",
+    "TypeDescription": "Drachenblut-Bonus",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
+    "MaterialType": 5,
+    "EffectDescription": "Erhöht Drachenblut-Bonus",
+    "Id": 101007,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tiefroter Quarz",
+    "Description": "Tiefroter Quarz (Aktion auf dem Drachengrat)",
+    "TypeDescription": "Drachenblut-Bonus",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
     "MaterialType": 4,
     "Id": 101001,
     "RankLevel": 0,
@@ -1952,17 +2014,6 @@
     "Icon": "UI_ItemIcon_101004"
   },
   {
-    "MaterialType": 5,
-    "EffectDescription": "Erhöht Drachenblut-Bonus",
-    "Id": 101005,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Tiefroter Quarz",
-    "Description": "Tiefroter Quarz",
-    "TypeDescription": "Drachenblut-Bonus",
-    "Icon": "UI_ItemIcon_101005"
-  },
-  {
     "MaterialType": 4,
     "Id": 101006,
     "RankLevel": 0,
@@ -1971,17 +2022,6 @@
     "Description": "Ein seltenes und wertvolles Erz, das durch die einzigartigen geografischen Bedingungen und den Fluss der Elemente am Drachengrat gebildet wurde.",
     "TypeDescription": "Zum Schmieden geeignetes Erz",
     "Icon": "UI_ItemIcon_101006"
-  },
-  {
-    "MaterialType": 5,
-    "EffectDescription": "Erhöht Drachenblut-Bonus",
-    "Id": 101007,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Tiefroter Quarz",
-    "Description": "Tiefroter Quarz (Aktion auf dem Drachengrat)",
-    "TypeDescription": "Drachenblut-Bonus",
-    "Icon": "UI_ItemIcon_101005"
   },
   {
     "MaterialType": 4,
@@ -23389,6 +23429,17 @@
   },
   {
     "MaterialType": 15,
+    "EffectDescription": "#Stellt der gewählten Figur sofort 34{NON_BREAK_SPACE}% LP und innerhalb der nächsten 30{NON_BREAK_SPACE}s alle 5{NON_BREAK_SPACE}s 980 LP wieder her.",
+    "Id": 108673,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ausgewogene Mahlzeit",
+    "Description": "Sigewinnes Spezialzubereitung. „Schnell, hau rein, das Soufflé fällt sonst in sich zusammen.“ Ihr besorgter Tonfall und ihre flehenden Augen lassen einen direkt zum Besteck greifen. Aber dieses fremdartige Fleisch, gepaart mit dem unvergesslichen, nahrhaften Milchmixgetränk ... das lässt dich doch etwas ratlos zurück.",
+    "TypeDescription": "Nahrung",
+    "Icon": "UI_ItemIcon_108673"
+  },
+  {
+    "MaterialType": 15,
     "EffectDescription": "#Stellt der gewählten Figur 40{NON_BREAK_SPACE}% LP sowie zusätzlich 2.350 LP wieder her.",
     "Id": 108674,
     "RankLevel": 3,
@@ -23397,6 +23448,61 @@
     "Description": "Arlecchinos Spezialzubereitung. Rohes Fleisch ohne überflüssige Würze, blutig und schmackhaft frisch spielt auf deiner Zunge eine erhabene Sinfonie. Der Nachgeschmack ist ausgesprochen klar und prägnant, ein Abbild der schnörkellosen Herangehensweise ihrer Schöpferin bei der Zubereitung ...",
     "TypeDescription": "Nahrung",
     "Icon": "UI_ItemIcon_108674"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Stellt 40 Punkte Ausdauer wieder her.",
+    "Id": 108675,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Misslungene Entenbrust an Blasenmandarinen-Soße",
+    "Description": "Eine Fleischkreation mit fruchtigem Aroma. Die Sauce vermag es nicht, das Fett der Ente zu neutralisieren; vielmehr fügt sie dem Gericht einen bitteren Geschmack hinzu. Schon nach dem ersten Bissen hat sich der Appetit, den die schöne Aufmachung hervorgerufen hat, in Luft aufgelöst.",
+    "TypeDescription": "Nahrung",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Stellt 50 Punkte Ausdauer wieder her.",
+    "Id": 108676,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Entenbrust an Blasenmandarinen-Soße",
+    "Description": "Eine Fleischkreation mit fruchtigem Aroma. Zuerst die Entenbrust goldbraun anbraten, dann in feine Scheiben schneiden und auf einem Servierteller anrichten. Nun mit Soße aus Blasenmandarinen übergießen. Die knusprige Haut, das zarte Fleisch und die süßsaure Soße ergeben zusammen einen zeitlosen Klassiker der Fontaine-Küche.",
+    "TypeDescription": "Nahrung",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Stellt 60 Punkte Ausdauer wieder her.",
+    "Id": 108677,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Leckere Entenbrust an Blasenmandarinen-Soße",
+    "Description": "Eine Fleischkreation mit fruchtigem Aroma. Das Zitrusaroma fügt dem reichhaltigen, saftigen Entenfleisch eine unverkennbare Süße hinzu, und noch bevor man den ersten Bissen hinuntergeschluckt hat, verlangt die Gabel bereits gierig nach dem nächsten. Welch unwiderstehlicher Genuss das ist.",
+    "TypeDescription": "Nahrung",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Stellt 80 Punkte Ausdauer wieder her.",
+    "Id": 108678,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "„Der Kitzel der Jagd“",
+    "Description": "Clorindes Spezialzubereitung. Bestehend aus ausgewählten Zutaten aus frisch erlegtem Geflügel, das nur leicht angebraten wurde. Eine zarte Konsistenz und ein würziger Nachgeschmack lassen jede Frage im Keim ersticken, schließlich war Clorinde die Erste, die es probiert hat. Du hast doch einen starken Magen, wie der eines wie eines Jägers ... ist doch so, oder?",
+    "TypeDescription": "Nahrung",
+    "Icon": "UI_ItemIcon_108678"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Erhöht den ANG aller Truppenmitglieder 300{NON_BREAK_SPACE}s lang um 114 Punkte. Wirkung ist im Mehrspielermodus auf eigene Figuren beschränkt.",
+    "Id": 108679,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Gegrillte ki-ka-köstliche Fleischröllchen",
+    "Description": "Sethos Spezialzubereitung. Die Kruste ist leicht grob, und die Würze des Fleisches unterscheidet sich von herkömmlichen Rezepten auf dem Markt, wodurch die Geschmacksknospen mit einer noch nie dagewesenen Neuheit und einem einzigartigen Geschmack überrascht werden. Es scheint fast so, als spüre der Junge, der da neben dir sitzt, deine unerfüllten Sehnsüchte. Er zwinkert dir zu und sagt: „Mein Geheimrezept, so was findest du nirgendwo sonst.“",
+    "TypeDescription": "Nahrung",
+    "Icon": "UI_ItemIcon_108679"
   },
   {
     "MaterialType": 5,
@@ -25315,6 +25421,16 @@
     "ItemType": 2,
     "Name": "Rezept: Blasen-Soufflé",
     "Description": "Rezept mit detaillierten Schritten zur Zubereitung von „Blasen-Soufflé“.",
+    "TypeDescription": "Rezept",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109576,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Rezept: Entenbrust an Blasenmandarinen-Soße",
+    "Description": "Rezept mit detaillierten Schritten zur Zubereitung von „Entenbrust an Blasenmandarinen-Soße“.",
     "TypeDescription": "Rezept",
     "Icon": "UI_ItemIcon_109000"
   },
@@ -34516,6 +34632,26 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120865,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Konzentrierte Transozeanische Perle",
+    "Description": "Ein ganz besonderes Material von der Liste, die Sigewinne dir gegeben hat. Es wird von einem bestimmten Fontemer-Mutanten gewonnen.",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_112080"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120866,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Okeanospuk-Extrakt",
+    "Description": "Ein ganz besonderes Material von der Liste, die Sigewinne dir gegeben hat. Es wird von einem bestimmten Okeanospuk gewonnen.",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_112086"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120870,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34596,6 +34732,36 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120891,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Geständnisse von Häftlingen",
+    "Description": "Die Aussage eines Häftlings, die von Morgane zusammengestellt wurde. Es enthält die Ergebnisse eines Verhörs von heute Morgen.",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120892,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Rawats Notizen",
+    "Description": "Ein Blatt mit Notizen, das in einem Schrank in den Räumlichkeiten von Rawats Mutter gefunden wurde. Es zeigt einen Standort nördlich des Forschungsinstituts Fontaine.",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120894,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gruppenfoto aus einer nicht näher bekannten Zeit",
+    "Description": "Ein wertvolles Gruppenfoto, das für dich zurückgelassen wurde. Aufgenommen von jemandem mittels unbekannter Technik in einem Raum, der eigentlich nicht länger existieren sollte, widersetzt es sich jeder Regel.",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120894"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120910,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34623,6 +34789,36 @@
     "Description": "Ein Fragment einer antiken Komposition, doch allein mit diesem Teil ist eine vollständige Deutung schwierig.",
     "TypeDescription": "Auftragsobjekt",
     "Icon": "UI_ItemIcon_120917"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120928,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gruppenfoto aus einer nicht näher bekannten Zeit",
+    "Description": "Ein wertvolles Gruppenfoto, das für dich zurückgelassen wurde. Aufgenommen von jemandem mittels unbekannter Technik in einem Raum, der eigentlich nicht länger existieren sollte, widersetzt es sich jeder Regel.",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120928"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120931,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "„Schatzkarte“ mit Standort einer Schatzkammer",
+    "Description": "Diese Schatzkarte, die dir die „Wache“ Florian gegeben hat, soll den Schatz enthüllen, den die einstigen Schattenjäger in einer Kammer zurückgelassen haben. Er beinhaltet angeblich die Kraft, den bösen Zauberer zu bezwingen ...",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_100173"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120932,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Figurengedenkalbum zu „Schattenjäger: Tag des Gerichts“",
+    "Description": "Ein Album mit Bildern von Teilnehmern und Spielleiter, die an diesem Abenteuer von „Schattenjäger: Tag des Gerichts“ beteiligt waren. Es ist vollgepackt mit Erinnerungen an gemeinsame Erlebnisse mit deinen Kameraden. „Lass die Hoffnung also niemals fahren“ ... Für jemanden, der schon einmal die Rolle des Schattenjägers übernommen hat, könnte dieser Eid eine noch weitaus tiefere Bedeutung haben, oder?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120932"
   },
   {
     "MaterialType": 2,
@@ -34793,6 +34989,246 @@
     "Description": "Uralter Zettel",
     "TypeDescription": "Auftragsobjekt",
     "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120954,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Produktionsprotokoll",
+    "Description": "Produktionsprotokoll",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120955,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Versuchsprotokoll",
+    "Description": "Versuchsprotokoll",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120971,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Figurengedenkalbum zu „Schattenjäger: Tag des Gerichts“",
+    "Description": "Ein Album mit Bildern von Teilnehmern und Spielleiter, die an diesem Abenteuer von „Schattenjäger: Tag des Gerichts“ beteiligt waren. Es ist vollgepackt mit Erinnerungen an gemeinsame Erlebnisse mit deinen Kameraden. „Lass die Hoffnung also niemals fahren“ ... Für jemanden, der schon einmal die Rolle des Schattenjägers übernommen hat, könnte dieser Eid eine noch weitaus tiefere Bedeutung haben, oder?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120972,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Figurengedenkalbum zu „Schattenjäger: Tag des Gerichts“",
+    "Description": "Ein Album mit Bildern von Teilnehmern und Spielleiter, die an diesem Abenteuer von „Schattenjäger: Tag des Gerichts“ beteiligt waren. Es ist vollgepackt mit Erinnerungen an gemeinsame Erlebnisse mit deinen Kameraden. „Lass die Hoffnung also niemals fahren“ ... Für jemanden, der schon einmal die Rolle des Schattenjägers übernommen hat, könnte dieser Eid eine noch weitaus tiefere Bedeutung haben, oder?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120973,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Figurengedenkalbum zu „Schattenjäger: Tag des Gerichts“",
+    "Description": "Ein Album mit Bildern von Teilnehmern und Spielleiter, die an diesem Abenteuer von „Schattenjäger: Tag des Gerichts“ beteiligt waren. Es ist vollgepackt mit Erinnerungen an gemeinsame Erlebnisse mit deinen Kameraden. „Lass die Hoffnung also niemals fahren“ ... Für jemanden, der schon einmal die Rolle des Schattenjägers übernommen hat, könnte dieser Eid eine noch weitaus tiefere Bedeutung haben, oder?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120974,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Figurengedenkalbum zu „Schattenjäger: Tag des Gerichts“",
+    "Description": "Ein Album mit Bildern von Teilnehmern und Spielleiter, die an diesem Abenteuer von „Schattenjäger: Tag des Gerichts“ beteiligt waren. Es ist vollgepackt mit Erinnerungen an gemeinsame Erlebnisse mit deinen Kameraden. „Lass die Hoffnung also niemals fahren“ ... Für jemanden, der schon einmal die Rolle des Schattenjägers übernommen hat, könnte dieser Eid eine noch weitaus tiefere Bedeutung haben, oder?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120975,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Figurengedenkalbum zu „Schattenjäger: Tag des Gerichts“",
+    "Description": "Ein Album mit Bildern von Teilnehmern und Spielleiter, die an diesem Abenteuer von „Schattenjäger: Tag des Gerichts“ beteiligt waren. Es ist vollgepackt mit Erinnerungen an gemeinsame Erlebnisse mit deinen Kameraden. „Lass die Hoffnung also niemals fahren“ ... Für jemanden, der schon einmal die Rolle des Schattenjägers übernommen hat, könnte dieser Eid eine noch weitaus tiefere Bedeutung haben, oder?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120976,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Figurengedenkalbum zu „Schattenjäger: Tag des Gerichts“",
+    "Description": "Ein Album mit Bildern von Teilnehmern und Spielleiter, die an diesem Abenteuer von „Schattenjäger: Tag des Gerichts“ beteiligt waren. Es ist vollgepackt mit Erinnerungen an gemeinsame Erlebnisse mit deinen Kameraden. „Lass die Hoffnung also niemals fahren“ ... Für jemanden, der schon einmal die Rolle des Schattenjägers übernommen hat, könnte dieser Eid eine noch weitaus tiefere Bedeutung haben, oder?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120977,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Figurengedenkalbum zu „Schattenjäger: Tag des Gerichts“",
+    "Description": "Ein Album mit Bildern von Teilnehmern und Spielleiter, die an diesem Abenteuer von „Schattenjäger: Tag des Gerichts“ beteiligt waren. Es ist vollgepackt mit Erinnerungen an gemeinsame Erlebnisse mit deinen Kameraden. „Lass die Hoffnung also niemals fahren“ ... Für jemanden, der schon einmal die Rolle des Schattenjägers übernommen hat, könnte dieser Eid eine noch weitaus tiefere Bedeutung haben, oder?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120988,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Die kleine Hexe und das unauslöschliche Feuer – Band I",
+    "Description": "Obwohl wunderschön gebunden, ist der Text vollständig handschriftlich verfasst. Geht man von der Handschrift aus, scheint es mehr als einen Autor gegeben zu haben. „Vergiss erstmal, was wir schreiben, Hauptsache, der Einband sieht gut aus. So hat man das Gefühl, ein Meisterwerk zu verfassen.“",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120989,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Die kleine Hexe und das unauslöschliche Feuer – Band II",
+    "Description": "„Du hast schon über die Hälfte geschrieben, aber die Handlung scheint keinen Schritt voranzukommen. Was soll der ganze Handlungsaufbau?“ „Was weißt du schon? Hier geht es nicht um den Handlungsaufbau, sondern um Naturwissenschaft und dergleichen!“",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120990,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Die kleine Hexe und das unauslöschliche Feuer – Band III",
+    "Description": "Ein rätselhafter Text in Handschrift, der dem Haupttext vorangestellt ist: „Soll R. wirklich ihre kostbare Zeit, die sie bei klarem Verstand ist, damit verbringen, dies zu schreiben?“ „Mach dir deswegen mal keinen Kopf. Genau das ist das Wichtigste für Hexen.“",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120991,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Die kleine Hexe und das unauslöschliche Feuer – Band IV",
+    "Description": "Ein rätselhafter Text in Handschrift, der dem Haupttext vorangestellt ist: „Majestät, was sollen denn all die Andeutungen. Habt Erbarmen mit diesem alten Zausel.“",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120992,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Die kleine Hexe und das unauslöschliche Feuer – Band V",
+    "Description": "Die Handschrift hier ist ein heilloses Gekrakel. Vielleicht schreibt der Autor ja nicht viel oder es ist etwas passiert.",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120993,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Die kleine Hexe und das unauslöschliche Feuer – Band VI",
+    "Description": "„Ist es wirklich notwendig, das jetzt zu schreiben?“ „Bitte lass mich einfach schreiben. Gelegenheiten, in diese Welt zurückzukehren, sind selten. Und Alice denkt sicher dasselbe: Wenn es nicht weitergeht, dann war von Anfang an alles sinnlos.“",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120994,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Die kleine Hexe und das unauslöschliche Feuer – Band VII",
+    "Description": "Obwohl wunderschön gebunden, ist der Text vollständig handschriftlich verfasst. Geht man von der Handschrift aus, scheint es mehr als einen Autor gegeben zu haben. „Ich habe den Sinn des Schreibens gefunden. Er besteht darin, dir zu sagen, wie sehr ich wünschte, du wärst hier.“",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120995,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Das Kätzchenbüro – Band I",
+    "Description": "Eines Tages schickte das geheimnisvolle Kätzchenbüro eine Einladung an den Portier Perroux ... welche Abenteuer wohl auf ihn warteten?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120996,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Das Kätzchenbüro – Band II",
+    "Description": "Perroux, der die Magie der Katzensprache geknackt hatte, fand den Eingang zum Büro und „sprang mir nichts, dir nichts in die dunklen Schatten“, aber was passierte dann?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120997,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Das Kätzchenbüro – Band III",
+    "Description": "Die Katze mit den gemusterten Vorderbeinen erfüllte den Auftrag des schnarchenden Katzenbosses, doch was haben die anderen Katzen getan? Perroux’ Neugierde blieb ungebrochen ...",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120998,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Das Kätzchenbüro – Band IV",
+    "Description": "Es soll ja vorkommen, dass das Kätzchenbüro, das bekanntlich schon alles erlebt hat, in die Bredouille gerät. Doch was genau war es, das den stolzen getigerten Boss dazu veranlasste, Perroux um Hilfe zu bitten?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120999,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Das Kätzchenbüro – Band V",
+    "Description": "Magische Katzenstiefel und eine magische Katzenmaske. Doch wie würden sie die langhaarige Katze ins Kätzchenbüro bringen?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121000,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Das Kätzchenbüro – Band VI",
+    "Description": "Unter den Augen aller Katzen und des Grafen werden die getigerte und die zottelige Katze den Bund der Katzenehe eingehen. Alles wird reibungslos verlaufen, ist doch so, oder ...?",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121001,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Das Kätzchenbüro – Band VII",
+    "Description": "„Los Perroux, lauf!“ Einzig diese Worte klangen in Perroux’ Katzenohren nach ...",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121002,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Das Kätzchenbüro – Band VIII",
+    "Description": "„Jedoch ... der Graf scheint einen zweiten Frühling der Liebe zu erleben, oder?“ Die Dienerschaft tuschelte heimlich untereinander ...\nDoch dies war etwas, das später geschah.",
+    "TypeDescription": "Auftragsobjekt",
+    "Icon": "UI_ItemIcon_120800"
   },
   {
     "MaterialType": 31,
@@ -36550,7 +36986,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CVIII",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Fontaine enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Truncated Verse“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36560,7 +36996,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CIX",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Fontaine enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Clockwork Waltz“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36570,7 +37006,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CX",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Fontaine enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „The Rotating Realm“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36580,7 +37016,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXI",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Fontaine enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Crystalline Path“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36590,7 +37026,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXII",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Fontaine enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „A Sweet Dream in Fontaine“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36600,7 +37036,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXIII",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Fontaine enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Rhythm of Inquiry“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36610,7 +37046,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXIV",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Fontaine enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Un nouvel espoir“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36620,7 +37056,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXV",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Fontaine enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Loch’s Revitalization“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36630,7 +37066,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXVI",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Fontaine enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Les fumées blanches“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36640,7 +37076,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXVII",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Fontaine enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Neath the Fountain“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36650,7 +37086,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXVIII",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Fontaine enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Magick Without Tears“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36660,7 +37096,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXIX",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Fontaine enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Songe de la plus haute tour“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36670,7 +37106,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXX",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Liyue enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Jade Chimes“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36680,7 +37116,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXXI",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Liyue enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Past Glories of Wangshan“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36690,7 +37126,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXXII",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Liyue enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Into the Yonder and Water“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36700,7 +37136,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXXIII",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Liyue enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Jade Court in Chenyu“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36710,7 +37146,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXXIV",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Liyue enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „Springtide of Qiaoying“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36720,7 +37156,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strahlender Drehkristall CXXV",
-    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. In diesem strahlenden Drehkristall ist eine mysteriöse Melodie aus Liyue enthalten.",
+    "Description": "Dieser wundersame Kristall hat einen gewissen Rhythmus, wie etwas Schönes, das aus zarter Seide gewebt ist. Diese Gegenstände kannst du überall auf dem Festland oder bei Händlern finden, die Einzigartiges sammeln. Die Melodie, die in diesem Kristall enthalten ist, kann in deiner Kanne der Vergänglichkeit durch „Höchste Euphonie – Musik in der Luft“ oder „Höchste Euphonie – Verflochtene Klänge“ wieder zum Leben erweckt werden. Die Melodie, die in diesem strahlenden Drehkristall enthalten ist, lautet „The Jadeite Reflection“.",
     "TypeDescription": "Abenteuerobjekt",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37183,6 +37619,16 @@
     "Description": "Objekt zur Verfeinerung von „Dialoge der Weisen der Wüste“.\nIn den Basislehrbüchern der Alchimie wird Quecksilber als „König des Landes“ bezeichnet, weil es sogar in der Lage ist, Gold gierig zu verschlingen. So kam es, dass es in der Alchimie auch zur Darstellung von Metallen verwendet wurde.\nAuch nach dem Vertrocknen und Zerstäuben besitzt es nach wie vor die Fähigkeiten der Umwandlung.",
     "TypeDescription": "Verfeinerungsmaterial",
     "Icon": "UI_ItemIcon_200120"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 200121,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Mechanisches Stück von Mitte und Maß",
+    "Description": "Objekt zur Verfeinerung von „Wolkenweber“.\nEin neuartiges mechanisches Bauteil, das von der Schwarzsteinschmiede im Auftrag vom Yuheng entwickelt wurde. Den Handwerkern zufolge besitzt es eine mobile Ladekapazität, die mit der von Vorrichtungen der Adepten vergleichbar ist. Wenn es in die experimentelle Waffe eingesetzt wird, erhöht es deren Leistung.\nDie von der Menschheit regierte Welt ist wie die gespannte Bogensehne: Sie kann den Test der Zeit nur überstehen, wenn da die Mitte und Maß waltet.",
+    "TypeDescription": "Verfeinerungsmaterial",
+    "Icon": "UI_ItemIcon_200121"
   },
   {
     "MaterialType": 28,
@@ -40010,7 +40456,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Wundervolles Aroma",
-    "Description": "Ein exquisit dekoriertes Restaurant, das den berühmten Tavernen und Cafés von Sumeru nachempfunden ist und sorgfältig an die Gebäude in dem Kannenreich angepasst wurde. Heißer Dampf und der Duft von Gewürzen sind ein Genuss und machen einen glücklich. Wenn du einige gute Freunde und ein paar Krüge guten Weins dabei hast, wirst du hier das perfekte Esserlebnis haben.\nFür diejenigen, die gern mit Gefährten reisen, ist das Grillrestaurant perfekt, wenn man die Anzahl der Sitzplätze und die Menge der benötigten Speisen bedenken muss. Diejenigen, die allein unterwegs sind, können in der ausgelassenen Atmosphäre des Grillrestaurants ihre Spuren verbergen und gleichzeitig sichere Bedingungen für Beobachtungen, Verfolgungen und Nachdenken schaffen.\nDieses Set wird von den folgenden Kameraden bevorzugt: Alhaitham und Dehya.",
+    "Description": "Ein exquisit dekoriertes Restaurant, das den berühmten Tavernen und Cafés von Sumeru nachempfunden ist und sorgfältig an die Gebäude in dem Kannenreich angepasst wurde. Heißer Dampf und der Duft von Gewürzen sind ein Genuss und machen einen glücklich. Wenn du einige gute Freunde und ein paar Krüge guten Weins dabei hast, wirst du hier das perfekte Esserlebnis haben.\nFür diejenigen, die gern mit Gefährten reisen, ist das Grillrestaurant perfekt, wenn man die Anzahl der Sitzplätze und die Menge der benötigten Speisen bedenken muss. Diejenigen, die allein unterwegs sind, können in der ausgelassenen Atmosphäre des Grillrestaurants ihre Spuren verbergen und gleichzeitig sichere Bedingungen für Beobachtungen, Verfolgungen und Nachdenken schaffen.\nDieses Set wird von den folgenden Kameraden bevorzugt: Alhaitham, Dehya und Sethos.",
     "TypeDescription": "Dekorationssetbauplan",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -40050,7 +40496,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Inmitten florierender Märkte",
-    "Description": "Ein exquisit eingerichtetes Handelsviertel, das dem Straßenlayout von Sumeru und dem Großen Basar nachempfunden ist. Frische Früchte, köstliche Gerichte und alle Arten von Waren des Alltagslebens werden hier an den Ständen angeboten. Nach ein paar Runden durch das Viertel wirst du sicher die einzigartige Intimität eines belebten Marktes erleben.\nEs heißt, dass die Läden und Stände auf beiden Seiten der Straßen von Sumeru nach bestimmten Regeln geplant wurden, die das Ergebnis der Forschungen der Akademie sind, so dass ein ganzheitlicher Service mit möglichst geringem Verwaltungsaufwand und Flächenverbrauch geboten werden kann.\nDieses Set wird von den folgenden Kameraden bevorzugt: Dori, Faruzan",
+    "Description": "Ein exquisit eingerichtetes Handelsviertel, das dem Straßenlayout von Sumeru und dem Großen Basar nachempfunden ist. Frische Früchte, köstliche Gerichte und alle Arten von Waren des Alltagslebens werden hier an den Ständen angeboten. Nach ein paar Runden durch das Viertel wirst du sicher die einzigartige Intimität eines belebten Marktes erleben.\nEs heißt, dass die Läden und Stände auf beiden Seiten der Straßen von Sumeru nach bestimmten Regeln geplant wurden, die das Ergebnis der Forschungen der Akademie sind, so dass ein ganzheitlicher Service mit möglichst geringem Verwaltungsaufwand und Flächenverbrauch geboten werden kann.\nDieses Set wird von den folgenden Kameraden bevorzugt: Dori, Faruzan und Sethos.",
     "TypeDescription": "Dekorationssetbauplan",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40140,7 +40586,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Regeln zur strikten Einhaltung von Arbeitsabläufen",
-    "Description": "Ein äußerst klassisch eingerichtetes Büro. Das Interieur ist eine Hommage an die Einrichtung des Palais Mermonia und gibt die Erscheinung dessen stark frequentierten Büros bis ins kleinste Detail wieder. Denn alles hat in Einklang mit den Gesetzen zu funktionieren.\nEin Gelehrter des Forschungsinstitut Fontaines behauptete einst, dass „die Umgebung, in der ein Mensch sich befindet, seine Arbeitsbedingungen stark beeinflusst“. Dieser Theorie zufolge sollte ein Arbeitender, wenn er sich in einem Arbeitszimmer befindet, dessen Einrichtung sich am Palais Mermonia orientiert, auch unbewusst eben jenen Arbeitsprozessen folgen und stetig danach handeln ...\nDieses Set wird von folgenden Kameraden bevorzugt: Neuvillette.",
+    "Description": "Ein äußerst klassisch eingerichtetes Büro. Das Interieur ist eine Hommage an die Einrichtung des Palais Mermonia und gibt die Erscheinung dessen stark frequentierten Büros bis ins kleinste Detail wieder. Denn alles hat in Einklang mit den Gesetzen zu funktionieren.\nEin Gelehrter des Forschungsinstitut Fontaines behauptete einst, dass „die Umgebung, in der ein Mensch sich befindet, seine Arbeitsbedingungen stark beeinflusst“. Dieser Theorie zufolge sollte ein Arbeitender, wenn er sich in einem Arbeitszimmer befindet, dessen Einrichtung sich am Palais Mermonia orientiert, auch unbewusst eben jenen Arbeitsprozessen folgen und stetig danach handeln ...\nDieses Set wird von folgenden Kameraden bevorzugt: Neuvillette und Clorinde.",
     "TypeDescription": "Dekorationssetbauplan",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -40230,7 +40676,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Unter den stillen Wassern des Dorfes Glanz",
-    "Description": "Eine Siedlung in Anlehnung an die Szenerie Méruseas, die mit ihrer unverwechselbaren Architektur ein echter Hingucker ist.\nDas Dorf, in dem die Melusinen leben, liegt entlang Elynas’ unter Wasser. Nur wenige gewöhnliche Menschen besuchen diesen Ort und diejenigen, die zurückkehren, hören nicht auf, von den einzigartigen Farben dort zu schwärmen. Mehrere Maler haben sich bereits daran versucht, die dortige Landschaft auf Leinwand zu bannen, wobei sie auf eine Kombination der vorher erwähnten Schwärmereien und Interviews mit Melusinen am Hof von Fontaine zurückgriffen. Leider bestanden stets unausweichliche „farbliche Abweichungen“ zwischen ihren Werken und den tatsächlichen Farben des Dorfes. Ein Problem, mit dem sich die Maler lange Zeit herumschlagen mussten und das erst mithilfe halbwegs objektiver Aufnahmen von Fotoapparaten gelöst werden konnte ...\nDieses Set wird von folgenden Kameraden bevorzugt: Fréminet",
+    "Description": "Eine Siedlung in Anlehnung an die Szenerie Méruseas, die mit ihrer unverwechselbaren Architektur ein echter Hingucker ist.\nDas Dorf, in dem die Melusinen leben, liegt entlang Elynas’ unter Wasser. Nur wenige gewöhnliche Menschen besuchen diesen Ort und diejenigen, die zurückkehren, hören nicht auf, von den einzigartigen Farben dort zu schwärmen. Mehrere Maler haben sich bereits daran versucht, die dortige Landschaft auf Leinwand zu bannen, wobei sie auf eine Kombination der vorher erwähnten Schwärmereien und Interviews mit Melusinen am Hof von Fontaine zurückgriffen. Leider bestanden stets unausweichliche „farbliche Abweichungen“ zwischen ihren Werken und den tatsächlichen Farben des Dorfes. Ein Problem, mit dem sich die Maler lange Zeit herumschlagen mussten und das erst mithilfe halbwegs objektiver Aufnahmen von Fotoapparaten gelöst werden konnte ...\nDieses Set wird von folgenden Kameraden bevorzugt: Fréminet und Sigewinne.",
     "TypeDescription": "Dekorationssetbauplan",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40240,7 +40686,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "„Alles geben beim Pankration“ in der verbotenen Festung",
-    "Description": "Eine Arena, in deren Mittelpunkt sich ein Kampfplatz befindet. Setzt du deinen Fuß auf diesen, ist es so, als würden deine Ohren vom Jubel und dem Geschrei des Publikums, vom aufgeregten Kommentar des Moderators und vom Klatschen fliegender Fäuste auf rohes Fleisch klingen, wenn beide Kontrahenten in vollem Einsatz gegeneinander antreten. Vorbild für diesen Veranstaltungsort bildet die „Pankration-Arena“ von Fort Méropide, ein Ort, der einem den Atem zu verschlagen weiß.\n„In einer Arena, in der nur die Schlagkraft zählt, ist der einzige Weg zu Ruhm und Tauschscheinen, einfach alles zu geben!“ ... Für viele von denen, die am „Pankration“ teilgenommen hatten, ist dieser Satz zu einem Credo geworden, sogar, nachdem sie Fort Méropide verlassen haben ...\nDieses Set wird von folgenden Kameraden bevorzugt: Wriothesley und Chevreuse.",
+    "Description": "Eine Arena, in deren Mittelpunkt sich ein Kampfplatz befindet. Setzt du deinen Fuß auf diesen, ist es so, als würden deine Ohren vom Jubel und dem Geschrei des Publikums, vom aufgeregten Kommentar des Moderators und vom Klatschen fliegender Fäuste auf rohes Fleisch klingen, wenn beide Kontrahenten in vollem Einsatz gegeneinander antreten. Vorbild für diesen Veranstaltungsort bildet die „Pankration-Arena“ von Fort Méropide, ein Ort, der einem den Atem zu verschlagen weiß.\n„In einer Arena, in der nur die Schlagkraft zählt, ist der einzige Weg zu Ruhm und Tauschscheinen, einfach alles zu geben!“ ... Für viele von denen, die am „Pankration“ teilgenommen hatten, ist dieser Satz zu einem Credo geworden, sogar, nachdem sie Fort Méropide verlassen haben ...\nDieses Set wird von folgenden Kameraden bevorzugt: Wriothesley, Chevreuse und Sigewinne.",
     "TypeDescription": "Dekorationssetbauplan",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40250,7 +40696,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Getupfte Farben des Reichs des Wassers",
-    "Description": "Eine Landschaft mit üppiger Vegetation und einer Vielzahl von Blumen und Sträuchern, wie sie in Fontaine üblich sind. Blumen und Pflanzen sind ein beliebtes Thema in der Malerei und einer der Ansätze, wenn es darum geht, „Farben“ zu erforschen. Einige der Maler von Fontaine glauben, dass ihnen die Farbpalette der Welt mit ihren vielen Pflanzen das Paradigma „perfekter Übereinstimmung“ vor Augen führt. Wenn sich also alle Farben eines Gemäldes in den Pflanzen wiederfinden, dann muss doch dieses Gemälde die Harmonie und Schönheit der natürlichen Landschaft aufweisen. Natürlich unter der Voraussetzung, dass man niemals die Farben mehrerer Pflanzen mischt ...",
+    "Description": "Eine Landschaft mit üppiger Vegetation und einer Vielzahl von Blumen und Sträuchern, wie sie in Fontaine üblich sind. Blumen und Pflanzen sind ein beliebtes Thema in der Malerei und einer der Ansätze, wenn es darum geht, „Farben“ zu erforschen. Einige der Maler von Fontaine glauben, dass ihnen die Farbpalette der Welt mit ihren vielen Pflanzen das Paradigma „perfekter Übereinstimmung“ vor Augen führt. Wenn sich also alle Farben eines Gemäldes in den Pflanzen wiederfinden, dann muss doch dieses Gemälde die Harmonie und Schönheit der natürlichen Landschaft aufweisen. Natürlich unter der Voraussetzung, dass man niemals die Farben mehrerer Pflanzen mischt ...\nDieses Set wird von folgenden Kameraden bevorzugt: Clorinde.",
     "TypeDescription": "Dekorationssetbauplan",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -49311,6 +49757,56 @@
     "ItemType": 2,
     "Name": "Straßenlaterne in der Stadt der Musik – „Licht für sichere Wege“",
     "Description": "Bauplan mit detaillierten Schritten zur Herstellung von „Straßenlaterne in der Stadt der Musik – ‚Licht für sichere Wege‘“.\nNach der Anwendung im Herstellungsmenü zu finden.",
+    "TypeDescription": "Dekorationsbauplan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382316,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "„Verblassender Abglanz“",
+    "Description": "Bauplan mit detaillierten Schritten zur Herstellung von „Verblassender Abglanz“.\nNach der Anwendung im Herstellungsmenü zu finden.",
+    "TypeDescription": "Dekorationsbauplan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393459,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Windspiel in der Stadt der Musik – „Spatzengezwitscher“",
+    "Description": "Bauplan mit detaillierten Schritten zur Herstellung von „Windspiel in der Stadt der Musik – ‚Spatzengezwitscher‘“.\nNach der Anwendung im Herstellungsmenü zu finden.",
+    "TypeDescription": "Dekorationsbauplan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394602,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Steinstatue mit Schwert – „Die Ästhetik des Unvollkommenen“",
+    "Description": "Bauplan mit detaillierten Schritten zur Herstellung von „Steinstatue mit Schwert – ‚Die Ästhetik des Unvollkommenen‘“.\nNach der Anwendung im Herstellungsmenü zu finden.",
+    "TypeDescription": "Dekorationsbauplan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393185,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "„Verbesserte Krokokanone“",
+    "Description": "Bauplan mit detaillierten Schritten zur Herstellung von „Verbesserte Krokokanone“.\nNach der Anwendung im Herstellungsmenü zu finden.",
+    "TypeDescription": "Dekorationsbauplan",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393917,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Vorrichtungsmodell – „Standardisierte Tonart“",
+    "Description": "Bauplan mit detaillierten Schritten zur Herstellung von „Vorrichtungsmodell – ‚Standardisierte Tonart‘“.\nNach der Anwendung im Herstellungsmenü zu finden.",
     "TypeDescription": "Dekorationsbauplan",
     "Icon": "UI_ItemIcon_Home_Common"
   }

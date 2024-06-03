@@ -110,6 +110,16 @@
     "Icon": "UI_ItemIcon_204"
   },
   {
+    "MaterialType": 0,
+    "Id": 206,
+    "RankLevel": 4,
+    "ItemType": 1,
+    "Name": "Medalla de juguete",
+    "Description": "Una medalla brillante. Puede que solo sea un juguete, pero también representa el reconocimiento del público.\nSe puede intercambiar con Lobezno por técnicas teatrales en el «Teatro Fantasía».",
+    "TypeDescription": "Moneda especial",
+    "Icon": "UI_ItemIcon_206"
+  },
+  {
     "MaterialType": 5,
     "Id": 210,
     "RankLevel": 2,
@@ -1121,11 +1131,41 @@
   },
   {
     "MaterialType": 20,
+    "Id": 1195,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Sigewinne",
+    "Description": "Material de activación de constelación de Sigewinne.",
+    "TypeDescription": "Activación de constelación",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
     "Id": 1196,
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "Stella Fortuna de Arlecchino",
     "Description": "Material de activación de constelación de Arlecchino.",
+    "TypeDescription": "Activación de constelación",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1197,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Sethos",
+    "Description": "Material de activación de constelación de Sethos.",
+    "TypeDescription": "Activación de constelación",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1198,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Clorinde",
+    "Description": "Material de activación de constelación de Clorinde.",
     "TypeDescription": "Activación de constelación",
     "Icon": "UI_ItemIcon_1102"
   },
@@ -1912,6 +1952,28 @@
     "Icon": "UI_ItemIcon_100099"
   },
   {
+    "MaterialType": 5,
+    "EffectDescription": "Aumenta la Vida del dragón",
+    "Id": 101005,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cuarzo carmesí",
+    "Description": "Cuarzo carmesí",
+    "TypeDescription": "Bono del Vida del dragón",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
+    "MaterialType": 5,
+    "EffectDescription": "Aumenta la vida del dragón",
+    "Id": 101007,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cuarzo carmesí",
+    "Description": "Cuarzo carmesí (evento de Espinadragón)",
+    "TypeDescription": "Bono de vida del dragón",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
     "MaterialType": 4,
     "Id": 101001,
     "RankLevel": 0,
@@ -1952,17 +2014,6 @@
     "Icon": "UI_ItemIcon_101004"
   },
   {
-    "MaterialType": 5,
-    "EffectDescription": "Aumenta la Vida del dragón",
-    "Id": 101005,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Cuarzo carmesí",
-    "Description": "Cuarzo carmesí",
-    "TypeDescription": "Bono del Vida del dragón",
-    "Icon": "UI_ItemIcon_101005"
-  },
-  {
     "MaterialType": 4,
     "Id": 101006,
     "RankLevel": 0,
@@ -1971,17 +2022,6 @@
     "Description": "Un preciado mineral formado gracias a la geografía, el entorno y las líneas ley especiales de Espinadragón.",
     "TypeDescription": "Mineral de forja",
     "Icon": "UI_ItemIcon_101006"
-  },
-  {
-    "MaterialType": 5,
-    "EffectDescription": "Aumenta la vida del dragón",
-    "Id": 101007,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Cuarzo carmesí",
-    "Description": "Cuarzo carmesí (evento de Espinadragón)",
-    "TypeDescription": "Bono de vida del dragón",
-    "Icon": "UI_ItemIcon_101005"
   },
   {
     "MaterialType": 4,
@@ -23589,6 +23629,17 @@
   },
   {
     "MaterialType": 15,
+    "EffectDescription": "#Restaura un 34% de la Vida Máx. al personaje seleccionado y regenera 980{NON_BREAK_SPACE}pts. de Vida cada 5{NON_BREAK_SPACE}s durante 30{NON_BREAK_SPACE}s.",
+    "Id": 108673,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Comida equilibrada",
+    "Description": "La especialidad de Sigewinne. “Se debe comer lo antes posible, o de lo contrario el suflé se desmoronará”. Su tono de preocupación y su mirada sincera te hacen tomar los cubiertos, pero esta extraña carne mezclada con un nutritivo batido te da una sensación de déjà vu... Parece que esta vez no hay escapatoria.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108673"
+  },
+  {
+    "MaterialType": 15,
     "EffectDescription": "#Restaura un 40% de la Vida Máx. y 2350{NON_BREAK_SPACE}pts. de Vida al personaje seleccionado.",
     "Id": 108674,
     "RankLevel": 3,
@@ -23597,6 +23648,61 @@
     "Description": "La especialidad de Arlecchino. La carne cruda, desprovista de cualquier condimento excesivo, aporta un torrente tanto de sangre como de frescura brutal, grabando un elegante conjunto de sabores en la lengua. El regusto final es de pulcritud y eficacia, un reflejo de cómo su creadora resuelve ciertas situaciones...",
     "TypeDescription": "Comida",
     "Icon": "UI_ItemIcon_108674"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Restaura 40 pts. de Aguante.",
+    "Id": 108675,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pechuga de pato a la burburanja extraña",
+    "Description": "Un plato de carne con una fragancia afrutada. La salsa no consigue neutralizar la grasa del pato, sino que le añade un sabor amargo. Tras tragar un bocado, el apetito que podía haber despertado la bella presentación desaparece sin dejar rastro.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Restaura 50 pts. de Aguante.",
+    "Id": 108676,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pechuga de pato a la burburanja",
+    "Description": "Un plato de carne con una fragancia afrutada. La pechuga de pato se fríe y se corta en trozos antes de servirla con salsa de burburanja. La crujiente piel, los gruesos pero tiernos trozos de carne y la salsa de sabor agridulce forjan una delicia clásica de Fontaine.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Restaura 60 pts. de Aguante.",
+    "Id": 108677,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pechuga de pato a la burburanja deliciosa",
+    "Description": "Un plato de carne con una fragancia afrutada. El aroma cítrico de la burburanja añade a la suculenta carne de pato un distintivo toque de dulzura. Está tan irresistiblemente deliciosa que resulta difícil no tomar otro trozo, incluso antes de terminar de comer el anterior. No es de extrañar que, independientemente de cómo cambie la cultura gastronómica de Fontaine, este plato siempre ocupe un lugar entre los clásicos.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Restaura 80 pts. de Aguante.",
+    "Id": 108678,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Ave que vuela, a la cazuela",
+    "Description": "La especialidad de Clorinde. Se trata de un plato que consiste en carne de ave recién cazada y ligeramente asada. La aprensión inicial desaparece rápidamente tras experimentar su tierna textura y su refrescante regusto. Después de todo, Clorinde fue la primera en probarlo. Seguro que tu estómago es tan fuerte como el de un cazador experimentado... ¿Verdad?",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108678"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta el ATQ de todos los miembros del equipo en 114{NON_BREAK_SPACE}pts. durante 300{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108679,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Shawarma supremo",
+    "Description": "La especialidad de Sethos. La sutil textura gruesa de la corteza confiere a la masa una sensación agradable y satisfactoria de masticar. La carne a la parrilla está condimentada de una forma que la distingue de las recetas comunes y que convierte este plato en una delicia sin precedentes. Al percibir tus ganas de más, el joven que se sienta a un lado te guiña un ojo y te dice: “Receta secreta. No la encontrarás en ningún otro lugar”.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108679"
   },
   {
     "MaterialType": 5,
@@ -25515,6 +25621,16 @@
     "ItemType": 2,
     "Name": "Receta: suflé burbujeante",
     "Description": "Receta paso a paso para hacer un suflé burbujeante.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109576,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Receta: pechuga de pato a la burburanja",
+    "Description": "Receta paso a paso para hacer una pechuga de pato a la burburanja.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
   },
@@ -27519,7 +27635,7 @@
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "Pluma de seda",
-    "Description": "Un fragmento que encontraste en unas ruinas tras enfrentarte a La Sota.\nLa sangre y el fuego, ahora enfriados, conservan la forma de una pluma y alrededor de ellos hay unos hilos negros solidificados.\nAntes de madurar, los niños dependen del cuidado de sus padres, al igual que un polluelo necesita la protección de unas alas adultas.\nPara cumplir ese anhelo, madre tejió seda de una peligrosa araña en forma de pluma, con el fin de brindar algo de calidez a su familia.",
+    "Description": "Un fragmento que encontraste en unas ruinas tras enfrentarte a La Sota.\nLa sangre y el fuego, ahora enfriados, conservan la forma de una pluma y alrededor de ellos hay unos hilos negros solidificados.\nAntes de madurar, los niños dependen del cuidado de sus padres, al igual que un polluelo necesita la protección de unas alas adultas.\nPara cumplir ese anhelo, Padre tejió seda de una peligrosa araña en forma de pluma, con el fin de brindar algo de calidez a su familia.",
     "TypeDescription": "Material de mejora de personaje",
     "Icon": "UI_ItemIcon_113061"
   },
@@ -34716,6 +34832,26 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120865,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Condensado extramarino",
+    "Description": "Un ingrediente especial que figura en la lista que te dio Sigewinne. Se obtiene de ciertos Engendros Fontamarinos.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_112080"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120866,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Extracto de Ánima Legamosa",
+    "Description": "Un ingrediente especial que figura en la lista que te dio Sigewinne. Se obtiene de ciertas Ánimas Legamosas.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_112086"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120870,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34796,6 +34932,36 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120891,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Testimonio criminal",
+    "Description": "Testimonio criminal recopilado por Morgane. Contiene los resultados del interrogatorio de hoy.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120892,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notas de Rawat",
+    "Description": "Una página de un cuaderno que encontraste en un armario dentro de la casa de la madre de Rawat. Señala una ubicación al norte del Instituto de Ciencias de Fontaine.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120894,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Imagen grupal de un momento desconocido",
+    "Description": "Una preciosa imagen grupal que de alguna manera ha sobrepasado las normas, tomada por algún desconocido con medios desconocidos en un espacio que ya no debería existir.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120894"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120910,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34823,6 +34989,36 @@
     "Description": "Un fragmento de una antigua partitura. Resulta indescifrable en su forma actual.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120917"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120928,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Imagen grupal de un momento desconocido",
+    "Description": "Una preciosa imagen grupal que de alguna manera ha sobrepasado las normas, tomada por algún desconocido con medios desconocidos en un espacio que ya no debería existir.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120928"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120931,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Mapa del tesoro con ubicación de la cámara",
+    "Description": "Un mapa del tesoro que te dio Florián, el “guardia”. Se dice que en la cámara a la que conduce se esconde un tesoro de los Cazadores Fantasmales capaz de derrotar al brujo maléfico.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100173"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120932,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum conmemorativo de “Cazador Fantasmal: Hora del juicio”",
+    "Description": "Un álbum que conmemora a los personajes que participaron en el juego de “Cazador Fantasmal: Hora del juicio”, tanto de la moderadora como del resto de jugadores. Contiene recuerdos de sus aventuras juntos. “Por esta razón, no hay que abandonar la esperanza”... Tal vez esta aseveración tenga un significado más profundo para quien haya hecho de Cazador Fantasmal.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120932"
   },
   {
     "MaterialType": 2,
@@ -34993,6 +35189,246 @@
     "Description": "Una nota antigua.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120954,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Registro de producción",
+    "Description": "Un registro de producción.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120955,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Registro de experimento",
+    "Description": "Un registro de experimento.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120971,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum conmemorativo de “Cazador Fantasmal: Hora del juicio”",
+    "Description": "Un álbum que conmemora a los personajes que participaron en el juego de “Cazador Fantasmal: Hora del juicio”, tanto de la moderadora como del resto de jugadores. Contiene recuerdos de sus aventuras juntos. “Por esta razón, no hay que abandonar la esperanza”... Tal vez esta aseveración tenga un significado más profundo para quien haya hecho de Cazador Fantasmal.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120972,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum conmemorativo de “Cazador Fantasmal: Hora del juicio”",
+    "Description": "Un álbum que conmemora a los personajes que participaron en el juego de “Cazador Fantasmal: Hora del juicio”, tanto de la moderadora como del resto de jugadores. Contiene recuerdos de sus aventuras juntos. “Por esta razón, no hay que abandonar la esperanza”... Tal vez esta aseveración tenga un significado más profundo para quien haya hecho de Cazador Fantasmal.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120973,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum conmemorativo de “Cazador Fantasmal: Hora del juicio”",
+    "Description": "Un álbum que conmemora a los personajes que participaron en el juego de “Cazador Fantasmal: Hora del juicio”, tanto de la moderadora como del resto de jugadores. Contiene recuerdos de sus aventuras juntos. “Por esta razón, no hay que abandonar la esperanza”... Tal vez esta aseveración tenga un significado más profundo para quien haya hecho de Cazador Fantasmal.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120974,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum conmemorativo de “Cazador Fantasmal: Hora del juicio”",
+    "Description": "Un álbum que conmemora a los personajes que participaron en el juego de “Cazador Fantasmal: Hora del juicio”, tanto de la moderadora como del resto de jugadores. Contiene recuerdos de sus aventuras juntos. “Por esta razón, no hay que abandonar la esperanza”... Tal vez esta aseveración tenga un significado más profundo para quien haya hecho de Cazador Fantasmal.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120975,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum conmemorativo de “Cazador Fantasmal: Hora del juicio”",
+    "Description": "Un álbum que conmemora a los personajes que participaron en el juego de “Cazador Fantasmal: Hora del juicio”, tanto de la moderadora como del resto de jugadores. Contiene recuerdos de sus aventuras juntos. “Por esta razón, no hay que abandonar la esperanza”... Tal vez esta aseveración tenga un significado más profundo para quien haya hecho de Cazador Fantasmal.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120976,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum conmemorativo de “Cazador Fantasmal: Hora del juicio”",
+    "Description": "Un álbum que conmemora a los personajes que participaron en el juego de “Cazador Fantasmal: Hora del juicio”, tanto de la moderadora como del resto de jugadores. Contiene recuerdos de sus aventuras juntos. “Por esta razón, no hay que abandonar la esperanza”... Tal vez esta aseveración tenga un significado más profundo para quien haya hecho de Cazador Fantasmal.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120977,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum conmemorativo de “Cazador Fantasmal: Hora del juicio”",
+    "Description": "Un álbum que conmemora a los personajes que participaron en el juego de “Cazador Fantasmal: Hora del juicio”, tanto de la moderadora como del resto de jugadores. Contiene recuerdos de sus aventuras juntos. “Por esta razón, no hay que abandonar la esperanza”... Tal vez esta aseveración tenga un significado más profundo para quien haya hecho de Cazador Fantasmal.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120988,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "La brujita y el fuego inextinguible (I)",
+    "Description": "Aunque está bellamente encuadernado, todo el texto está escrito a mano. A juzgar por la caligrafía, hubo más de un autor. “El contenido no es relevante. Con que la cubierta sea bonita, dará la sensación de que se trata de una obra maestra”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120989,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "La brujita y el fuego inextinguible (II)",
+    "Description": "“¡Has escrito todo esto y no hay ningún avance en la trama! ¡Es todo ambientación!”. “¡Y qué sabrás tú! Además, ¡no es todo ambientación! ¡Hay elementos de distintas disciplinas y ciencias!",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120990,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "La brujita y el fuego inextinguible (III)",
+    "Description": "Un texto de caligrafía misteriosa se halla escrito antes del cuerpo principal: “Con las pocas veces que R logra estar durante un tiempo en sus cabales, ¿de verdad quieres que pase ese tiempo tan valioso escribiendo esto?”. “No te preocupes, esto es lo más importante que puede haber para una bruja”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120991,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "La brujita y el fuego inextinguible (IV)",
+    "Description": "Un texto de caligrafía misteriosa se halla escrito antes del cuerpo principal: “¡Por su majestad la Zarina! ¿Cómo voy a reciclar tantos hilos argumentales? Ay, pobre de mí, pobre de esta anciana...”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120992,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "La brujita y el fuego inextinguible (V)",
+    "Description": "La caligrafía con la que está escrito es bastante descuidada. Quizá la autora no tenía la costumbre de escribir, o tal vez ocurrió algo.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120993,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "La brujita y el fuego inextinguible (VI)",
+    "Description": "“¿De verdad tengo que escribir esto en un momento como este?”. “Déjame escribir a mí, rara vez puedo volver a este mundo. Seguro que Alice también pensaría que, si no seguimos escribiendo, nada habría tenido sentido desde un principio”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120994,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "La brujita y el fuego inextinguible (VII)",
+    "Description": "Aunque está bellamente encuadernado, todo el texto está escrito a mano. A juzgar por la caligrafía, hubo más de un autor. “He encontrado el sentido de escribir, y es para contarte cuánto deseo que estés aquí conmigo”.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120995,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "El despacho de los gatos (I)",
+    "Description": "Un día, el misterioso despacho de los gatos envía una invitación a Perroux, el portero... ¿Qué clase de aventuras te esperan, Perroux?",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120996,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "El despacho de los gatos (II)",
+    "Description": "Tras descifrar el sortilegio de las palabras felinas, Perroux encontró la entrada del despacho y “saltó hacia la sombra que hay debajo”. ¿Qué pasará después?",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120997,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "El despacho de los gatos (III)",
+    "Description": "El gato de patas floridas ha completado el encargo de Roncófilo, el jefe de los gatos. ¿Qué habrán hecho los demás gatos? La curiosidad de Perroux continúa...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120998,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "El despacho de los gatos (IV)",
+    "Description": "Hay momentos en los que incluso el todopoderoso despacho de los gatos puede verse en apuros. ¿A qué dilema tendrá que hacer frente el orgulloso atigrado jefe de los gatos como para tener que pedirle ayuda a Perroux?",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120999,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "El despacho de los gatos (V)",
+    "Description": "Botas y máscaras mágicas felinas, ¿qué método utilizará para traer a un gato de pelo largo al despacho de los gatos?",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121000,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "El despacho de los gatos (VI)",
+    "Description": "Bajo la atenta mirada de los gatos y de su amo, ¿tendrá éxito la unión felina entre el gato atigrado y el de pelo largo, o tal vez...?",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121001,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "El despacho de los gatos (VII)",
+    "Description": "“¡Corre, Perroux, corre!”. En la cabeza de Perroux, a quien le habían crecido orejas de gato, solo estaban estas palabras.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121002,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "El despacho de los gatos (VIII)",
+    "Description": "“Aunque, ¿es posible que el amor haya vuelto a llamar a la puerta del amo?” —murmuraron los guardias.\nSin embargo, esto es algo que acontecerá mucho más adelante.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120800"
   },
   {
     "MaterialType": 31,
@@ -36750,7 +37186,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (108)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Truncated Verse».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36760,7 +37196,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (109)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Clockwork Waltz».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36770,7 +37206,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (110)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «The Rotating Realm».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36780,7 +37216,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (111)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Crystalline Path».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36790,7 +37226,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (112)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «A Sweet Dream in Fontaine».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36800,7 +37236,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (113)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Rhythm of Inquiry».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36810,7 +37246,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (114)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Un nouvel espoir».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36820,7 +37256,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (115)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Loch's Revitalization».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36830,7 +37266,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (116)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Les fumées blanches».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36840,7 +37276,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (117)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Neath the Fountain».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36850,7 +37286,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (118)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Magick Without Tears».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36860,7 +37296,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (119)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Fontaine.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Songe de la plus haute tour».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36870,7 +37306,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (120)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Liyue.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Jade Chimes».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36880,7 +37316,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (121)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Liyue.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Guhua's Legacy».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36890,7 +37326,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (122)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Liyue.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Into the Yonder and Water».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36900,7 +37336,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (123)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Liyue.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Garden of Jade».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36910,7 +37346,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (124)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Liyue.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «Springtide of Qiaoying».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36920,7 +37356,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Girocristal radiante (125)",
-    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. Este Girocristal radiante contiene una misteriosa canción de Liyue.",
+    "Description": "Un maravilloso cristal que contiene cierta melodía. Es como un hermoso objeto confeccionado con una delicada seda. Estos objetos están distribuidos por todo Teyvat o en manos de comerciantes de rarezas. Puedes restaurar la música que contienen usando las decoraciones “Melodías del mundo: Música en el aire” o “Melodías del mundo: Sonidos entrelazados” de tu Relajatetera. La canción que contiene este Girocristal radiante es «The Jadeite Reflection».",
     "TypeDescription": "Objeto de aventura",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37383,6 +37819,16 @@
     "Description": "Objeto de refinamiento exclusivo para el arma “Discusión de los Sabios del Desierto”.\nEn los cursos básicos de alquimia, al mercurio se lo conoce como “el rey del mundo”, pues es capaz de engullir vorazmente al oro. Por eso, la alquimia lo utiliza como metal representativo.\nAun después de secarse y convertirse en polvo, sigue poseyendo propiedades transformadoras.",
     "TypeDescription": "Material de refinamiento",
     "Icon": "UI_ItemIcon_200120"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 200121,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Pieza calibradora",
+    "Description": "Objeto de refinamiento exclusivo para el arma “Cimentador de Nubes”.\nUn nuevo componente creado por la Forja Peñasco Oscuro por encargo del Equilibrio Terrenal. Según los artesanos, posee una capacidad de carga móvil “comparable a la de los mecanismos adépticos”. Al introducirlo en su respectiva arma experimental, aumentará su poder.\nEl gobierno de los mortales es como la cuerda de un arco: solo podrá sobrevivir en el tiempo si se le hacen los ajustes correspondientes.",
+    "TypeDescription": "Material de refinamiento",
+    "Icon": "UI_ItemIcon_200121"
   },
   {
     "MaterialType": 28,
@@ -40210,7 +40656,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Intenso aroma",
-    "Description": "Este lujoso plano de decoración imita el interior de un conocido café de la Ciudad de Sumeru, aunque incorpora los cambios necesarios para adecuarlo a la residencia del mundo interior. Posee una soberbia decoración perfectamente organizada. En su interior, los vapores de las cocinas y el delicioso aroma de los manjares que se sirven se entremezclan, inundando el ambiente de una agradable sensación. Buena compañía y una jarra de vino es todo lo que se necesita para disfrutar de la mejor experiencia gastronómica posible.\nAquellos que viajaban con frecuencia de un lado para otro siempre eligen de antemano los restaurantes donde comerán, teniendo en cuenta la amplitud del establecimiento y la cantidad de las raciones. Para esa clase de personas, un restaurante de carne a la parrilla es siempre la opción más segura. Incluso aquellos que viajan solos pueden aprovechar el animado ambiente de este café para mantener en secreto el objeto de su viaje o tantear, observar y analizar la situación desde la seguridad que supone este concurrido establecimiento.\nLos siguientes acompañantes prefieren este conjunto: Alhacén y Dehya.",
+    "Description": "Este lujoso plano de decoración imita el interior de un conocido café de la Ciudad de Sumeru, aunque incorpora los cambios necesarios para adecuarlo a la residencia del mundo interior. Posee una soberbia decoración perfectamente organizada. En su interior, los vapores de las cocinas y el delicioso aroma de los manjares que se sirven se entremezclan, inundando el ambiente de una agradable sensación. Buena compañía y una jarra de vino es todo lo que se necesita para disfrutar de la mejor experiencia gastronómica posible.\nAquellos que viajaban con frecuencia de un lado para otro siempre eligen de antemano los restaurantes donde comerán, teniendo en cuenta la amplitud del establecimiento y la cantidad de las raciones. Para esa clase de personas, un restaurante de carne a la parrilla es siempre la opción más segura. Incluso aquellos que viajan solos pueden aprovechar el animado ambiente de este café para mantener en secreto el objeto de su viaje o tantear, observar y analizar la situación desde la seguridad que supone este concurrido establecimiento.\nLos siguientes acompañantes prefieren este conjunto: Alhacén, Dehya y Sethos.",
     "TypeDescription": "Plano de conjunto de decoración",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -40250,7 +40696,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Entre el bullicio mercader",
-    "Description": "Una bulliciosa zona comercial decorada con gran gusto que recuerda a las calles llenas de puestos de la Ciudad de Sumeru o al diseño del Gran Bazar. Aquí encontrarás de todo; desde puestos de frutas y verduras frescas y deliciosos aperitivos para amenizar la jornada, hasta productos de uso cotidiano, y todo a pocos metros de distancia. Este tipo de mercados se caracteriza por su ambiente divertido y ajetreado.\nSe rumorea que la distribución de los puestos y tiendas de las calles de Sumeru a ambos lados de la calle sigue una planificada organización fruto del resultado de las investigaciones llevadas a cabo por la Academia. El objetivo es aprovechar el uso del espacio y reducir la necesidad de gestión de tareas para así poder ofrecer un servicio de mayor calidad a la clientela.\nLos siguientes acompañantes prefieren este conjunto: Dori y Faruzán.",
+    "Description": "Una bulliciosa zona comercial decorada con gran gusto que recuerda a las calles llenas de puestos de la Ciudad de Sumeru o al diseño del Gran Bazar. Aquí encontrarás de todo; desde puestos de frutas y verduras frescas y deliciosos aperitivos para amenizar la jornada, hasta productos de uso cotidiano, y todo a pocos metros de distancia. Este tipo de mercados se caracteriza por su ambiente divertido y ajetreado.\nSe rumorea que la distribución de los puestos y tiendas de las calles de Sumeru a ambos lados de la calle sigue una planificada organización fruto del resultado de las investigaciones llevadas a cabo por la Academia. El objetivo es aprovechar el uso del espacio y reducir la necesidad de gestión de tareas para así poder ofrecer un servicio de mayor calidad a la clientela.\nLos siguientes acompañantes prefieren este conjunto: Dori, Faruzán y Sethos.",
     "TypeDescription": "Plano de conjunto de decoración",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40340,7 +40786,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Estándares de oficina: Flujo de trabajo",
-    "Description": "Un estudio con una composición extremadamente clásica que toma como referencia la ornamentación del Palacio Mermonia y que recoge a la perfección el bullicio y la excepcionalidad de dicho lugar.\nUn académico del Instituto de Ciencias de Fontaine dijo una vez: “El entorno afecta en gran medida a la actitud de trabajo de la persona”. Según esta teoría, cuando alguien se encuentre en un estudio con un diseño similar al del Palacio Mermonia, su subconsciente lo llevará a ejecutar el flujo de trabajo de forma estable y eficiente.\nLos siguientes acompañantes prefieren este conjunto: Neuvillette.",
+    "Description": "Un estudio con una composición extremadamente clásica que toma como referencia la ornamentación del Palacio Mermonia y que recoge a la perfección el bullicio y la excepcionalidad de dicho lugar.\nUn académico del Instituto de Ciencias de Fontaine dijo una vez: “El entorno afecta en gran medida a la actitud de trabajo de la persona”. Según esta teoría, cuando alguien se encuentre en un estudio con un diseño similar al del Palacio Mermonia, su subconsciente lo llevará a ejecutar el flujo de trabajo de forma estable y eficiente.\nLos siguientes acompañantes prefieren este conjunto: Neuvillette y Clorinde.",
     "TypeDescription": "Plano de conjunto de decoración",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -40430,7 +40876,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Luz de la espuma submarina",
-    "Description": "Un asentamiento que recrea un paisaje de la Aldea Espumarina lo más fielmente posible a la realidad. Su característico estilo arquitectónico deslumbra a cualquiera.\nLa aldea en la que viven las melusinas se encuentra en la zona submarina de Elynas, un lugar muy poco visitado, pero que siempre se gana los elogios de todo aquel que lo ve con sus propios ojos. Una vez, unos pintores intentaron dibujar un paisaje de la Aldea Espumarina a partir de descripciones y la información que obtuvieron de algunas melusinas de la Corte de Fontaine. Por desgracia, había una diferencia abismal entre los colores de la obra y los reales, lo cual supuso durante mucho tiempo un quebradero de cabeza para esos pintores. Estos solo pudieron salir de dudas cuando los Daguerrotipos, que tomaban imágenes más fieles a la realidad, se popularizaron bastante.\nLos siguientes acompañantes prefieren este conjunto: Fréminet.",
+    "Description": "Un asentamiento que recrea un paisaje de la Aldea Espumarina lo más fielmente posible a la realidad. Su característico estilo arquitectónico deslumbra a cualquiera.\nLa aldea en la que viven las melusinas se encuentra en la zona submarina de Elynas, un lugar muy poco visitado, pero que siempre se gana los elogios de todo aquel que lo ve con sus propios ojos. Una vez, unos pintores intentaron dibujar un paisaje de la Aldea Espumarina a partir de descripciones y la información que obtuvieron de algunas melusinas de la Corte de Fontaine. Por desgracia, había una diferencia abismal entre los colores de la obra y los reales, lo cual supuso durante mucho tiempo un quebradero de cabeza para esos pintores. Estos solo pudieron salir de dudas cuando los Daguerrotipos, que tomaban imágenes más fieles a la realidad, se popularizaron bastante.\nLos siguientes acompañantes prefieren este conjunto: Fréminet y Sigewinne.",
     "TypeDescription": "Plano de conjunto de decoración",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40440,7 +40886,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "“Poder de los puños” del fuerte recluido",
-    "Description": "Una arena con un cuadrilátero de boxeo como pieza central. Al situarte en el interior, casi parecen poder oírse los vítores y aplausos del público, las emocionantes palabras del comentarista y el retumbar sordo de los puñetazos de los luchadores al golpear la carne. Precisamente esta es la impresión que deja el prototipo de tal lugar, la Arena de “A Bocajarro” del Fuerte Merópide.\n“En la arena donde todo se decide por el poder de los puños, solo el máximo esfuerzo otorga la gloria y los Cupones crediticios”... Este dicho se ha convertido en el lema de muchos luchadores que participaron en la Arena de “A Bocajarro” tras abandonar el Fuerte Merópide.\nLos siguientes acompañantes prefieren este conjunto: Wriothesley y Chevreuse.",
+    "Description": "Una arena con un cuadrilátero de boxeo como pieza central. Al situarte en el interior, casi parecen poder oírse los vítores y aplausos del público, las emocionantes palabras del comentarista y el retumbar sordo de los puñetazos de los luchadores al golpear la carne. Precisamente esta es la impresión que deja el prototipo de tal lugar, la Arena de “A Bocajarro” del Fuerte Merópide.\n“En la arena donde todo se decide por el poder de los puños, solo el máximo esfuerzo otorga la gloria y los Cupones crediticios”... Este dicho se ha convertido en el lema de muchos luchadores que participaron en la Arena de “A Bocajarro” tras abandonar el Fuerte Merópide.\nLos siguientes acompañantes prefieren este conjunto: Wriothesley, Chevreuse y Sigewinne.",
     "TypeDescription": "Plano de conjunto de decoración",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40450,7 +40896,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Colores de la Nación del Agua",
-    "Description": "Un bucólico paisaje de vegetación exuberante que reúne todo tipo de flores y arbustos típicos de Fontaine. La flora se trata de un tema principal común en las pinturas y es uno de los orígenes de la exploración del color de este arte. Algunos pintores de Fontaine consideran que la paleta de colores del mundo usa su gran variedad de plantas para demostrar el canon de una combinación perfecta. Por eso, si todas las tonalidades de un cuadro pueden hallar en la vegetación su forma original, entonces, la pintura reflejará la belleza y armonía de la naturaleza. Claro está, siempre y cuando no se mezclen los colores de todas estas plantas en un caos irreconocible.",
+    "Description": "Un bucólico paisaje de vegetación exuberante que reúne todo tipo de flores y arbustos típicos de Fontaine. La flora se trata de un tema principal común en las pinturas y es uno de los orígenes de la exploración del color de este arte. Algunos pintores de Fontaine consideran que la paleta de colores del mundo usa su gran variedad de plantas para demostrar el canon de una combinación perfecta. Por eso, si todas las tonalidades de un cuadro pueden hallar en la vegetación su forma original, entonces, la pintura reflejará la belleza y armonía de la naturaleza. Claro está, siempre y cuando no se mezclen los colores de todas estas plantas en un caos irreconocible.\nLos siguientes acompañantes prefieren este conjunto: Clorinde.",
     "TypeDescription": "Plano de conjunto de decoración",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -49511,6 +49957,56 @@
     "ItemType": 2,
     "Name": "Farola del pueblo de la música: Luz segura",
     "Description": "Plano detallado para fabricar una Farola del pueblo de la música: Luz segura.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382316,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Resplandor apagado",
+    "Description": "Plano detallado para fabricar “Resplandor apagado”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393459,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Campana de viento: Lenguaje de los pinzones",
+    "Description": "Plano detallado para fabricar una Campana de viento: Lenguaje de los pinzones.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394602,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Estatua de piedra con espada: Estética imperfecta",
+    "Description": "Plano detallado para fabricar una Estatua de piedra con espada: Estética imperfecta.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393185,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Drilocañón 2.0",
+    "Description": "Plano detallado para fabricar un Drilocañón 2.0.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393917,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Modelo de mecanismo: Modo musical estándar",
+    "Description": "Plano detallado para fabricar “Modelo de mecanismo: Modo musical estándar”.\nTras usarlo, entra en el menú de fabricación para verlo.",
     "TypeDescription": "Plano de decoración",
     "Icon": "UI_ItemIcon_Home_Common"
   }
