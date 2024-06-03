@@ -110,6 +110,16 @@
     "Icon": "UI_ItemIcon_204"
   },
   {
+    "MaterialType": 0,
+    "Id": 206,
+    "RankLevel": 4,
+    "ItemType": 1,
+    "Name": "Toy Medal",
+    "Description": "A shiny medal. It is a toy, yes, but it nonetheless represents the acknowledgment of the audience.\nUse it in the \"Imaginarium Theater\" to obtain \"Thespian Tricks\" from Wolfy.",
+    "TypeDescription": "Special Currency",
+    "Icon": "UI_ItemIcon_206"
+  },
+  {
     "MaterialType": 5,
     "Id": 210,
     "RankLevel": 2,
@@ -1121,11 +1131,41 @@
   },
   {
     "MaterialType": 20,
+    "Id": 1195,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Sigewinne's Stella Fortuna",
+    "Description": "Sigewinne's Constellation Activation Material",
+    "TypeDescription": "Activates Constellation",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
     "Id": 1196,
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "Arlecchino's Stella Fortuna",
     "Description": "Arlecchino's Constellation Activation Material",
+    "TypeDescription": "Activates Constellation",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1197,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sethos's Stella Fortuna",
+    "Description": "Sethos's Constellation Activation Material",
+    "TypeDescription": "Activates Constellation",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1198,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Clorinde's Stella Fortuna",
+    "Description": "Clorinde's Constellation Activation Material",
     "TypeDescription": "Activates Constellation",
     "Icon": "UI_ItemIcon_1102"
   },
@@ -1627,7 +1667,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "Starconch",
-    "Description": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
+    "Description": "Empty seashells brought ashore by the tides. Hold one close to your ear, and hear the longing calls of the sea.",
     "TypeDescription": "Local Specialty (Liyue)",
     "Icon": "UI_ItemIcon_100033"
   },
@@ -2042,6 +2082,28 @@
     "Icon": "UI_ItemIcon_100099"
   },
   {
+    "MaterialType": 5,
+    "EffectDescription": "Increases the Dragon Blood Buff",
+    "Id": 101005,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Scarlet Quartz",
+    "Description": "Scarlet Quartz",
+    "TypeDescription": "Dragon Blood Buff",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
+    "MaterialType": 5,
+    "EffectDescription": "Increases the Dragon Blood Buff",
+    "Id": 101007,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Scarlet Quartz",
+    "Description": "Scarlet Quartz (Dragonspine Event)",
+    "TypeDescription": "Dragon Blood Buff",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
     "MaterialType": 4,
     "Id": 101001,
     "RankLevel": 0,
@@ -2082,17 +2144,6 @@
     "Icon": "UI_ItemIcon_101004"
   },
   {
-    "MaterialType": 5,
-    "EffectDescription": "Increases the Dragon Blood Buff",
-    "Id": 101005,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Scarlet Quartz",
-    "Description": "Scarlet Quartz",
-    "TypeDescription": "Dragon Blood Buff",
-    "Icon": "UI_ItemIcon_101005"
-  },
-  {
     "MaterialType": 4,
     "Id": 101006,
     "RankLevel": 0,
@@ -2101,17 +2152,6 @@
     "Description": "A rare and precious ore formed by the unique geographical conditions and Ley Lines of Dragonspine.",
     "TypeDescription": "Forging Ore",
     "Icon": "UI_ItemIcon_101006"
-  },
-  {
-    "MaterialType": 5,
-    "EffectDescription": "Increases the Dragon Blood Buff",
-    "Id": 101007,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Scarlet Quartz",
-    "Description": "Scarlet Quartz (Dragonspine Event)",
-    "TypeDescription": "Dragon Blood Buff",
-    "Icon": "UI_ItemIcon_101005"
   },
   {
     "MaterialType": 4,
@@ -23729,6 +23769,17 @@
   },
   {
     "MaterialType": 15,
+    "EffectDescription": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s.",
+    "Id": 108673,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Well-Balanced Meal",
+    "Description": "Sigewinne's specialty. \"You'd better finish it quickly, or the souffle will collapse!\" Confronted with such a concerned tone and earnest gaze, you feel compelled to pick up your knife and fork. But then the sight of such familiar-looking chunks of mystery meat, combined with the still-fresh memory of her nutritious shakes... puts you at a loss for what to do next.",
+    "TypeDescription": "Food",
+    "Icon": "UI_ItemIcon_108673"
+  },
+  {
+    "MaterialType": 15,
     "EffectDescription": "Restores 40% of Max HP and an additional 2,350 HP to the selected character.",
     "Id": 108674,
     "RankLevel": 3,
@@ -23737,6 +23788,61 @@
     "Description": "Arlecchino's specialty. The raw meat, bereft of any excessive seasoning, brings a rush of both blood and brutal freshness, engraving an elegant ensemble of flavors on your tongue. The final aftertaste is cleaner and neater still, a mirror reflection of how its maker handles certain situations...",
     "TypeDescription": "Food",
     "Icon": "UI_ItemIcon_108674"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Restores 40 Stamina.",
+    "Id": 108675,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Suspicious Bulle Sauce Duck Breast",
+    "Description": "A meat dish with the fragrant fullness of fruit. The sauce hasn't counteracted the greasiness of the duck at all — in fact, it's given it a bitter edge instead. The appetite evoked upon seeing it presented so beautifully seems to have disappeared equally as suddenly after your first bite.",
+    "TypeDescription": "Food",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Restores 50 Stamina.",
+    "Id": 108676,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Bulle Sauce Duck Breast",
+    "Description": "A meat dish with the fragrant fullness of fruit. After sautéeing the duck breast, slice it and plate the meat before drizzling Bulle Fruit sauce atop it. Crisp skin, sumptuous tender meat, and sauce mingling sweet and sour come together in an ensemble that is a classic Fontainian delicacy.",
+    "TypeDescription": "Food",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Restores 60 Stamina.",
+    "Id": 108677,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Delicious Bulle Sauce Duck Breast",
+    "Description": "A meat dish with the fragrant fullness of fruit. The citrusy flavor of tangerine gives the succulent duck a unique, fresh sweetness. It's so irresistibly delicious that you can barely stop yourself from reaching for the next piece even before you've swallowed the last one. No matter how much Fontaine's food culture has evolved over the years, it's no surprise that this dish has always kept its place among the classics.",
+    "TypeDescription": "Food",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Restores 80 Stamina.",
+    "Id": 108678,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "\"Tagged and Bagged\"",
+    "Description": "Clorinde's specialty. It consists of freshly caught Fowl that has been but only very slightly roasted. Your initial apprehension quickly vanishes after experiencing its tender texture and refreshing aftertaste for yourself. Anyway, Clorinde already took a bite herself. Surely your digestive system is as robust as a seasoned hunter's is... right?",
+    "TypeDescription": "Food",
+    "Icon": "UI_ItemIcon_108678"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Increases all party members' ATK by 114 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "Id": 108679,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Super-Dee-Duper Delicious Meat Roll",
+    "Description": "Sethos's specialty. A subtle coarseness gives the pastry a satisfying, chewy texture. The grilled meat is seasoned in a way that makes it stand out from the usual recipes you'd find in a market, its delicious novelty taking your taste buds by storm. Sensing your desire for more, the unaffected youth sitting to one side gives you a wink and says: \"Secret recipe — you won't find it anywhere else.\"",
+    "TypeDescription": "Food",
+    "Icon": "UI_ItemIcon_108679"
   },
   {
     "MaterialType": 5,
@@ -25655,6 +25761,16 @@
     "ItemType": 2,
     "Name": "Recipe: Bulle Souffle",
     "Description": "A detailed step-by-step recipe for making Bulle Souffle.",
+    "TypeDescription": "Recipe",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109576,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Recipe: Bulle Sauce Duck Breast",
+    "Description": "A detailed step-by-step recipe for making Bulle Sauce Duck Breast.",
     "TypeDescription": "Recipe",
     "Icon": "UI_ItemIcon_109000"
   },
@@ -27639,7 +27755,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Fragment of a Golden Melody",
-    "Description": "A golden fragment that fell from the centaur golem's chest. Putting the tune inscribed upon the shattered rubble back together, it appears to be a small sliver of a grander musical movement.\nPeople once believed that the song of eternal happiness and harmony would resound throughout the world till the end of all destinies. But harmonies can be changed. When the rebellious God King fell from his throne, the imperishable capital was reduced to refuse and rubble — for who, then, shall the lyre in the hands of a legion-less commander play?",
+    "Description": "A golden fragment that fell from the centaur golem's chest. Putting the tune inscribed upon the shattered rubble back together, it appears to be a small sliver of a grander musical movement.\nPeople once believed that the song of eternal happiness and harmony would resound throughout the world till the end of all destinies. But harmonies can be changed. When the rebellious God King fell from his throne, the imperishable capital was reduced to refuse and rubble — for whom, then, shall the lyre in the hands of a legion-less commander play?",
     "TypeDescription": "Character Level-Up Material",
     "Icon": "UI_ItemIcon_113059"
   },
@@ -34856,6 +34972,26 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120865,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Concentrated Transoceanic Pearl",
+    "Description": "A special ingredient on the list that Sigewinne gave. Must be obtained from specific Fontemer Aberrants.",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_112080"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120866,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tainted Hydro Phantasm Extract",
+    "Description": "A special ingredient on the list that Sigewinne gave. Must be obtained from specific Tainted Hydro Phantasms.",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_112086"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120870,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34936,6 +35072,36 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120891,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Criminal's Testimony",
+    "Description": "Criminal testimonies compiled by Morgane. They record the results of today's interrogation.",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120892,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Rawat's Notes",
+    "Description": "A page of a notebook you found in a cupboard within Rawat's mother's residence. It marks out a location north of the Fontaine Research Institute.",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120894,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Group Photo From an Unknown Time",
+    "Description": "A precious group photo that has surpassed the rules somehow, being taken by some unknown person using unknown means in a space that should no longer exist.",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120894"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120910,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34963,6 +35129,36 @@
     "Description": "A fragment of an ancient musical score. Indecipherable in its current form.",
     "TypeDescription": "Quest Item",
     "Icon": "UI_ItemIcon_120917"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120928,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Group Photo From an Unknown Time",
+    "Description": "A precious group photo that has surpassed the rules somehow, being taken by some unknown person using unknown means in a space that should no longer exist.",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120928"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120931,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "\"Treasure Map\" With the Vault's Location",
+    "Description": "A Treasure Map given to you by Florian, the \"guard.\" It is said that within the vault it will lead you to, the Marechaussee Hunters of the past left behind a treasure with the power to defeat the evil sorcerer...",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_100173"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120932,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Marechaussee Hunter: Judgment Day\" Character Album",
+    "Description": "A book that commemorates the participants in this game of \"Marechaussee Hunter: Judgment Day.\" For both players and Game Master, it is full of memories of your adventures together. \"And so shall I never despair\"... Perhaps this exhortation holds a deeper meaning for the one who played the Marechaussee Hunter?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120932"
   },
   {
     "MaterialType": 2,
@@ -35133,6 +35329,246 @@
     "Description": "Ancient Piece of Paper",
     "TypeDescription": "Quest Item",
     "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120954,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Production Log",
+    "Description": "Production Log",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120955,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Experiment Log",
+    "Description": "Experiment Log",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120971,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Marechaussee Hunter: Judgment Day\" Character Album",
+    "Description": "A book that commemorates the participants in this game of \"Marechaussee Hunter: Judgment Day.\" For both players and Game Master, it is full of memories of your adventures together. \"And so shall I never despair\"... Perhaps this exhortation holds a deeper meaning for the one who played the Marechaussee Hunter?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120972,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Marechaussee Hunter: Judgment Day\" Character Album",
+    "Description": "A book that commemorates the participants in this game of \"Marechaussee Hunter: Judgment Day.\" For both players and Game Master, it is full of memories of your adventures together. \"And so shall I never despair\"... Perhaps this exhortation holds a deeper meaning for the one who played the Marechaussee Hunter?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120973,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Marechaussee Hunter: Judgment Day\" Character Album",
+    "Description": "A book that commemorates the participants in this game of \"Marechaussee Hunter: Judgment Day.\" For both players and Game Master, it is full of memories of your adventures together. \"And so shall I never despair\"... Perhaps this exhortation holds a deeper meaning for the one who played the Marechaussee Hunter?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120974,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Marechaussee Hunter: Judgment Day\" Character Album",
+    "Description": "A book that commemorates the participants in this game of \"Marechaussee Hunter: Judgment Day.\" For both players and Game Master, it is full of memories of your adventures together. \"And so shall I never despair\"... Perhaps this exhortation holds a deeper meaning for the one who played the Marechaussee Hunter?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120975,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Marechaussee Hunter: Judgment Day\" Character Album",
+    "Description": "A book that commemorates the participants in this game of \"Marechaussee Hunter: Judgment Day.\" For both players and Game Master, it is full of memories of your adventures together. \"And so shall I never despair\"... Perhaps this exhortation holds a deeper meaning for the one who played the Marechaussee Hunter?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120976,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Marechaussee Hunter: Judgment Day\" Character Album",
+    "Description": "A book that commemorates the participants in this game of \"Marechaussee Hunter: Judgment Day.\" For both players and Game Master, it is full of memories of your adventures together. \"And so shall I never despair\"... Perhaps this exhortation holds a deeper meaning for the one who played the Marechaussee Hunter?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120977,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Marechaussee Hunter: Judgment Day\" Character Album",
+    "Description": "A book that commemorates the participants in this game of \"Marechaussee Hunter: Judgment Day.\" For both players and Game Master, it is full of memories of your adventures together. \"And so shall I never despair\"... Perhaps this exhortation holds a deeper meaning for the one who played the Marechaussee Hunter?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120988,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "The Little Witch and the Undying Fire (I)",
+    "Description": "The binding and layout are exquisitely made, but the actual content is all handwritten. Judging from the handwriting, there is more than one author. \"Don't fuss about WHAT we're writing, the cover needs to look good! That's the only way it'll give off that 'masterpiece' feeling.\"",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120989,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "The Little Witch and the Undying Fire (II)",
+    "Description": "\"You're more than halfway through and you haven't even pushed the plot forward one iota! Why is it all about the setting!?\" \"And what would you know? Besides, this stuff isn't fleshing the setting out. It's elucidating natural science and other miscellaneous disciplines!\"",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120990,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "The Little Witch and the Undying Fire (III)",
+    "Description": "Some mysterious handwriting appears before the main text: \"It's so rare for R to be in her right mind for a spell. Should she really be wasting the precious little lucid time she has writing this?\" \"Don't worry. For a witch, this is the most important thing.\"",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120991,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "The Little Witch and the Undying Fire (IV)",
+    "Description": "Some mysterious handwriting appears before the main text: \"Tsaritsa be good, how are there this many unresolved plot threads? Please, have mercy on these old bones, would you?\"",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120992,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "The Little Witch and the Undying Fire (V)",
+    "Description": "The writing here is practically a messy scrawl. Perhaps the author doesn't really write much, or perhaps something happened.",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120993,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "The Little Witch and the Undying Fire (VI)",
+    "Description": "\"Is it still necessary to write this, the present moment being what it is?\" \"Allow me, then. Opportunities to return to this world are few and far between. Alice would think the same: If we don't continue, then everything would have been meaningless from the start.\"",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120994,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "The Little Witch and the Undying Fire (VII)",
+    "Description": "The binding and layout are exquisitely made, but the actual content is all handwritten. Judging from the handwriting, there is more than one author. \"I have already found the meaning of writing — that is to tell you: I do so wish you were here, too.\"",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120995,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "The Feline Firm (I)",
+    "Description": "One day, the mysterious Feline Firm sends an invitation to the doorman Perroux... Just what kind of adventures await him?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120996,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "The Feline Firm (II)",
+    "Description": "Having deciphered the Felinese spell, Perroux finds the entrance to the firm, and just like that, \"jumps into the shadows beneath\"... And then?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120997,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "The Feline Firm (III)",
+    "Description": "The cat with the full-sleeve arm tattoo completed the ever-snoring cat boss's commission, but what did the other do? Perroux's curiosity remained unabated...",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120998,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "The Feline Firm (IV)",
+    "Description": "Even the Feline Firm, which has seen nearly everything, can find itself at a loss from time to time. Just what devilish difficulty has confounded the conceited tabby boss that he must seek succor from Perroux?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120999,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "The Feline Firm (V)",
+    "Description": "A cat's magical boots and a cat's mysterious mask. Just how will they bring the long-furred cat to the Feline Firm?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121000,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "The Feline Firm (VI)",
+    "Description": "Witnessed by all the cats and the Master, will the tabby cat and the long-furred cat get hitched without a hitch, becoming cat husband-and-wife... or...?",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121001,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "The Feline Firm (VII)",
+    "Description": "\"Run, Perroux, run!\" — For the Perroux that had grown cat ears, these words alone remained ringing in his mind...",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121002,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "The Feline Firm (VIII)",
+    "Description": "\"That said, it seems the Master has come into another springtime of love?\" whispered the servants...\nBut this was something that happened much later.",
+    "TypeDescription": "Quest Item",
+    "Icon": "UI_ItemIcon_120800"
   },
   {
     "MaterialType": 31,
@@ -36890,7 +37326,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 108",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Fontaine.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Truncated Verse.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36900,7 +37336,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 109",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Fontaine.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Clockwork Waltz.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36910,7 +37346,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 110",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Fontaine.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"The Rotating Realm.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36920,7 +37356,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 111",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Fontaine.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Crystalline Path.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36930,7 +37366,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 112",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Fontaine.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"A Sweet Dream in Fontaine.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36940,7 +37376,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 113",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Fontaine.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Rhythm of Inquiry.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36950,7 +37386,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 114",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Fontaine.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Un nouvel espoir.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36960,7 +37396,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 115",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Fontaine.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Loch's Revitalization.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36970,7 +37406,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 116",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Fontaine.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Les fumees blanches.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36980,7 +37416,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 117",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Fontaine.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Neath the Fountain.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36990,7 +37426,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 118",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Fontaine.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Magick Without Tears.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37000,7 +37436,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 119",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Fontaine.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Songe de la plus haute tour.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37010,7 +37446,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 120",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Liyue.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Jade Chimes.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37020,7 +37456,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 121",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Liyue.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Guhua's Legacy.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37030,7 +37466,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 122",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Liyue.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Into the Yonder and Water.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37040,7 +37476,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 123",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Liyue.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Garden of Jade.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37050,7 +37486,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 124",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Liyue.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"Springtide of Qiaoying.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37060,7 +37496,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Radiant Spincrystal 125",
-    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Liyue.",
+    "Description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is \"The Jadeite Reflection.\"",
     "TypeDescription": "Adventure Item",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37523,6 +37959,16 @@
     "Description": "Specialized refinement material for \"Dialogues of the Desert Sages.\"\nIn introductory alchemy studies, mercury is often called \"Exalted Earth,\" for it can even greedily devour gold. As such, it is also used in alchemy to represent metal.\nIt still possesses the potential for transformation even after being dried and turned to dust.",
     "TypeDescription": "Refinement Material",
     "Icon": "UI_ItemIcon_200120"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 200121,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Cam and Cables of Law",
+    "Description": "Specialized refinement material for \"Cloudforged.\"\nA new type of component the Yuheng commissioned the Blackcliff Forge to make. According to the smiths, its dynamic load \"wouldn't lose to adeptal mechanisms.\" By installing it on its counterpart prototype weapon, the latter's power can be considerably increased.\nThe world ruled by humanity is like the taut bowstring of a quality bow: It can only avoid snapping and collapsing with the appropriate quantity of tension.",
+    "TypeDescription": "Refinement Material",
+    "Icon": "UI_ItemIcon_200121"
   },
   {
     "MaterialType": 28,
@@ -40350,7 +40796,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Fervid Aroma",
-    "Description": "The blueprint for this exquisitely decorated restaurant is a famous tavern in Sumeru City... modified for use within the Serenitea Pot, of course. Steam and the scent of spices alike waft through the air, each doubling up on an already joyful experience. All one would then need was some friends for company and a few jugs of fine wine, and this would be the perfect dining experience.\nFor those who travel together often, barbecue places are perfect when considering the number of seats and amount of food needed. As for those who move alone, the raucous atmosphere of such establishments allows them to conceal their movements, alongside providing safe conditions for observing, tracking, or even plotting.\nThis Furnishing Set is favored by the following companions: Alhaitham, Dehya",
+    "Description": "The blueprint for this exquisitely decorated restaurant is a famous tavern in Sumeru City... modified for use within the Serenitea Pot, of course. Steam and the scent of spices alike waft through the air, each doubling up on an already joyful experience. All one would then need was some friends for company and a few jugs of fine wine, and this would be the perfect dining experience.\nFor those who travel together often, barbecue places are perfect when considering the number of seats and amount of food needed. As for those who move alone, the raucous atmosphere of such establishments allows them to conceal their movements, alongside providing safe conditions for observing, tracking, or even plotting.\nThis Furnishing Set is favored by the following companions: Alhaitham, Dehya, Sethos",
     "TypeDescription": "Furnishing Set Blueprint",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -40390,7 +40836,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Amidst Prospering Markets",
-    "Description": "An exquisitely-furnished mercantile district that pays homage to the layout of Sumeru City's streets and its Grand Bazaar. Fresh fruits, delectable dishes, and all manner of lifestyle goods may be found at the stalls here. A few rounds around the area, and you will find a unique ambience one feels when stepping foot into a bustling market.\nThey say that the shops and stalls on either side of Sumeru's streets have been modified according to specific rules that are the product of some Akademiya research, such that they can provide holistic service with the minimum possible management difficulty and acreage used.\nThis Furnishing Set is favored by the following companion: Dori, Faruzan",
+    "Description": "An exquisitely-furnished mercantile district that pays homage to the layout of Sumeru City's streets and its Grand Bazaar. Fresh fruits, delectable dishes, and all manner of lifestyle goods may be found at the stalls here. A few rounds around the area, and you will find a unique ambience one feels when stepping foot into a bustling market.\nThey say that the shops and stalls on either side of Sumeru's streets have been modified according to specific rules that are the product of some Akademiya research, such that they can provide holistic service with the minimum possible management difficulty and acreage used.\nThis Furnishing Set is favored by the following companions: Dori, Faruzan, Sethos",
     "TypeDescription": "Furnishing Set Blueprint",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40480,7 +40926,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Strict Adherence to Office Codes",
-    "Description": "A classic study layout based on the Palais Mermonia's furnishings, recreating that ever-bustling office, where everything is in accordance with regulations.\nA certain Fontaine Research Institute researcher once claimed that \"a person's environment will greatly affect their state at work.\" Following this principle, one who is within an environment so much like the Palais might subconsciously, reliably follow every process to the letter...\nThis Furnishing Set is favored by the following companion: Neuvillette",
+    "Description": "A classic study layout based on the Palais Mermonia's furnishings, recreating that ever-bustling office, where everything is in accordance with regulations.\nA certain Fontaine Research Institute researcher once claimed that \"a person's environment will greatly affect their state at work.\" Following this principle, one who is within an environment so much like the Palais might subconsciously, reliably follow every process to the letter...\nThis Furnishing Set is favored by the following companions: Neuvillette, Clorinde",
     "TypeDescription": "Furnishing Set Blueprint",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -40570,7 +41016,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Undersea Merusea's Luster",
-    "Description": "A small settlement that makes an effort to recapture the scenery in Merusea Village, with unique and rather eye-catching buildings.\nThe Melusines dwell within Elynas, beneath the waves, and few normal people visit their village, though those who do all sing its praises upon their return. Some artists have tried to draw the place based on the descriptions and information gained from interviewing Melusines in the Court of Fontaine. However, there was always a \"color difference\" between their work and the real colors of the village that was hard to ignore. This problem was only solved once Kamera-taken images of Merusea Village became widespread, thus more or less solving the problem...\nThis Furnishing Set is favored by the following companion: Freminet",
+    "Description": "A small settlement that makes an effort to recapture the scenery in Merusea Village, with unique and rather eye-catching buildings.\nThe Melusines dwell within Elynas, beneath the waves, and few normal people visit their village, though those who do all sing its praises upon their return. Some artists have tried to draw the place based on the descriptions and information gained from interviewing Melusines in the Court of Fontaine. However, there was always a \"color difference\" between their work and the real colors of the village that was hard to ignore. This problem was only solved once Kamera-taken images of Merusea Village became widespread, thus more or less solving the problem...\nThis Furnishing Set is favored by the following companions: Freminet, Sigewinne",
     "TypeDescription": "Furnishing Set Blueprint",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40580,7 +41026,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Full Force Forward in the Forbidden Fortress",
-    "Description": "An arena whose centerpiece is a boxing ring. Standing within it, you can hear again the cheers and applause of the audience, the excited commentary of the host, and the dull sound of fists thudding against flesh coming from both competitors — such is the deep impression that the Fortress of Meropide's Pankration Ring leaves.\n\"In a ring where your fists decide everything, you can only go full force forward to claim the glory — and the Credit Coupons — that should be yours.\" ...Many Pankration Ring competitors take this as their motto even after departing the Fortress altogether...\nThis Furnishing Set is favored by the following companions: Wriothesley, Chevreuse",
+    "Description": "An arena whose centerpiece is a boxing ring. Standing within it, you can hear again the cheers and applause of the audience, the excited commentary of the host, and the dull sound of fists thudding against flesh coming from both competitors — such is the deep impression that the Fortress of Meropide's Pankration Ring leaves.\n\"In a ring where your fists decide everything, you can only go full force forward to claim the glory — and the Credit Coupons — that should be yours.\" ...Many Pankration Ring competitors take this as their motto even after departing the Fortress altogether...\nThis Furnishing Set is favored by the following companions: Wriothesley, Chevreuse, Sigewinne",
     "TypeDescription": "Furnishing Set Blueprint",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40590,7 +41036,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "The Nation of Hydro's Mottled Colors",
-    "Description": "A countryside scene full of luxurious plants. It contains all sorts of flowers and bushes that can be found everywhere in Fontaine. Flowers and plants are common themes in paintings, and are a starting point for explorations into \"color.\" Some painters in Fontaine believe that the world's palette uses plants to demonstrate the perfect combination of colors. As such, if all the colors in a painting may find their source in flowers, then this painting must surely have harmonious beauty equal to that of natural scenery. Of course, this is predicated on you not mixing all plant-derived colors together in a single conversation...",
+    "Description": "A countryside scene full of luxurious plants. It contains all sorts of flowers and bushes that can be found everywhere in Fontaine. Flowers and plants are common themes in paintings, and are a starting point for explorations into \"color.\" Some painters in Fontaine believe that the world's palette uses plants to demonstrate the perfect combination of colors. As such, if all the colors in a painting may find their source in flowers, then this painting must surely have harmonious beauty equal to that of natural scenery. Of course, this is predicated on you not mixing all plant-derived colors together in a single conversation...\nThis Furnishing Set is favored by the following companion: Clorinde",
     "TypeDescription": "Furnishing Set Blueprint",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -49651,6 +50097,56 @@
     "ItemType": 2,
     "Name": "Music Town's Streetlamp: \"Safety Lighting\"",
     "Description": "A detailed step-by-step blueprint for making Music Town's Streetlamp: \"Safety Lighting.\"\nAfter using this item, you can view it in the Creation Screen.",
+    "TypeDescription": "Furnishing Blueprint",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382316,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Fading Afterglow\"",
+    "Description": "A detailed step-by-step blueprint for making \"Fading Afterglow.\"\nAfter using this item, you can view it in the Creation Screen.",
+    "TypeDescription": "Furnishing Blueprint",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393459,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Music Town's Breeze Bells: \"Cheeping Finches\"",
+    "Description": "A detailed step-by-step blueprint for making Music Town's Breeze Bells: \"Cheeping Finches.\"\nAfter using this item, you can view it in the Creation Screen.",
+    "TypeDescription": "Furnishing Blueprint",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394602,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sword-Bearing Statue: \"Aesthetics of Incompleteness\"",
+    "Description": "A detailed step-by-step blueprint for making Sword-Bearing Statue: \"Aesthetics of Incompleteness.\"\nAfter using this item, you can view it in the Creation Screen.",
+    "TypeDescription": "Furnishing Blueprint",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393185,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Improved Crococannon",
+    "Description": "A detailed step-by-step blueprint for making an Improved Crococannon.\nAfter using this item, you can view it in the Creation Screen.",
+    "TypeDescription": "Furnishing Blueprint",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393917,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Model Contraption: Standard Musical Mode",
+    "Description": "A detailed step-by-step blueprint for making a Model Contraption: Standard Musical Mode.\nAfter using this item, you can view it in the Creation Screen.",
     "TypeDescription": "Furnishing Blueprint",
     "Icon": "UI_ItemIcon_Home_Common"
   }

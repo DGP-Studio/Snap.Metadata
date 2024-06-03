@@ -110,6 +110,16 @@
     "Icon": "UI_ItemIcon_204"
   },
   {
+    "MaterialType": 0,
+    "Id": 206,
+    "RankLevel": 4,
+    "ItemType": 1,
+    "Name": "Oyuncak Madalya",
+    "Description": "Parlak bir madalya. Evet, bir oyuncak olsa da izleyicilerin takdirini temsil ediyor.\nBunu \"Hayal Dünyası Tiyatrosu\"nda kullanarak Minik Kurt'tan \"Oyunculuk Numaraları\" öğrenebilirsin.",
+    "TypeDescription": "Özel Para Birimi",
+    "Icon": "UI_ItemIcon_206"
+  },
+  {
     "MaterialType": 5,
     "Id": 221,
     "RankLevel": 5,
@@ -1101,11 +1111,41 @@
   },
   {
     "MaterialType": 20,
+    "Id": 1195,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Sigewinne'in Yaşam Yıldızı",
+    "Description": "Sigewinne'in Takımyıldız Etkinleştirme Malzemesi",
+    "TypeDescription": "Takımyıldızı Etkinleştirir",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
     "Id": 1196,
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "Arlecchino'nun Yaşam Yıldızı",
     "Description": "Arlecchino'nun Takımyıldız Etkinleştirme Malzemesi",
+    "TypeDescription": "Takımyıldızı Etkinleştirir",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1197,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sethos'un Yaşam Yıldızı",
+    "Description": "Sethos'un Takımyıldız Etkinleştirme Malzemesi",
+    "TypeDescription": "Takımyıldızı Etkinleştirir",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 1198,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Clorinde'in Yaşam Yıldızı",
+    "Description": "Clorinde'in Takımyıldız Etkinleştirme Malzemesi",
     "TypeDescription": "Takımyıldızı Etkinleştirir",
     "Icon": "UI_ItemIcon_1102"
   },
@@ -1822,6 +1862,28 @@
     "Icon": "UI_ItemIcon_100099"
   },
   {
+    "MaterialType": 5,
+    "EffectDescription": "Ejder Kanı Güçlendirmesini artırır.",
+    "Id": 101005,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kızıl Kuvars",
+    "Description": "Kızıl Kuvars",
+    "TypeDescription": "Ejder Kanı Güçlendirmesi",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
+    "MaterialType": 5,
+    "EffectDescription": "Ejder Kanı Güçlendirmesini artırır.",
+    "Id": 101007,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kızıl Kuvars",
+    "Description": "Kızıl Kuvars (Ejdersırtı Etkinliği)",
+    "TypeDescription": "Ejder Kanı Güçlendirmesi",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
     "MaterialType": 4,
     "Id": 101001,
     "RankLevel": 0,
@@ -1862,17 +1924,6 @@
     "Icon": "UI_ItemIcon_101004"
   },
   {
-    "MaterialType": 5,
-    "EffectDescription": "Ejder Kanı Güçlendirmesini artırır.",
-    "Id": 101005,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Kızıl Kuvars",
-    "Description": "Kızıl Kuvars",
-    "TypeDescription": "Ejder Kanı Güçlendirmesi",
-    "Icon": "UI_ItemIcon_101005"
-  },
-  {
     "MaterialType": 4,
     "Id": 101006,
     "RankLevel": 0,
@@ -1881,17 +1932,6 @@
     "Description": "Eşsiz coğrafi koşullar ve Ejdersırtı Ley Hatlarının oluşturduğu nadir ve değerli bir cevher.",
     "TypeDescription": "Dövmeye Uygun Cevher",
     "Icon": "UI_ItemIcon_101006"
-  },
-  {
-    "MaterialType": 5,
-    "EffectDescription": "Ejder Kanı Güçlendirmesini artırır.",
-    "Id": 101007,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Kızıl Kuvars",
-    "Description": "Kızıl Kuvars (Ejdersırtı Etkinliği)",
-    "TypeDescription": "Ejder Kanı Güçlendirmesi",
-    "Icon": "UI_ItemIcon_101005"
   },
   {
     "MaterialType": 4,
@@ -23259,6 +23299,17 @@
   },
   {
     "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %34 yeniler ve 30 saniye boyunca 5 saniyede bir 980 Can verir.",
+    "Id": 108673,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Dengeli Öğün",
+    "Description": "Sigewinne'in özel tarifi. \"Çabuk bitir, yoksa suflesi çökecek!\" Böyle endişeli bir ses ve ciddi bakışlar karşısında elin mecburen çatal bıçağına uzanıyor. Ancak tabakta tanıdık gelen gizemli et parçalarını görünce ve Sigewinne'in, anısı hâlâ taze o besleyici içeceklerini hatırlayınca... Ne yapacağın konusunda kararsız kalıyorsun.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108673"
+  },
+  {
+    "MaterialType": 15,
     "EffectDescription": "Seçili karakterin Maks. Canını %40 yeniler, ardından 2.350 Can verir.",
     "Id": 108674,
     "RankLevel": 3,
@@ -23267,6 +23318,61 @@
     "Description": "Arlecchino'nun özel tarifi. İçerisinde gereksiz baharatları barındırmayan çiğ et, kan akışını hızlandırır ve dilinde enfes bir lezzet bombardımanı hissi oluşturarak müthiş bir ferahlık sağlar. Ağızda sade ve duru bir tat bırakır, ustasının belirli durumları ele alış şeklini yansıtan bir ayna işlevi görür...",
     "TypeDescription": "Yiyecek",
     "Icon": "UI_ItemIcon_108674"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "40 Dayanıklılık yeniler.",
+    "Id": 108675,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Bulle Soslu Ördek Göğsü (Tuhaf)",
+    "Description": "Hoş kokulu meyve aromasına sahip bir et yemeği. Sos, ördeğin yağlılığını hiç yumuşatamamış. Aksine, yemeğe acı bir tat vermiş. Yemeğin muhteşem sunumunun göze hoş gelen görüntüsüyle açılan iştahın, ilk lokmanı aldıktan sonra bir anda tası tarağı toplayıp gitmeye karar veriyor.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "50 Dayanıklılık yeniler.",
+    "Id": 108676,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Bulle Soslu Ördek Göğsü",
+    "Description": "Hoş kokulu meyve aromasına sahip bir et yemeği. Ördek göğsü sotelendikten sonra dilimlenir. Tabaklandıktan sonra ise Bulle Meyvesinden yapılan sos dökülür. Kıtır deri, muhteşem yumuşaklıkta et ve tatlı ekşi sosun birleşimiyle bu yemek klasik bir Fontaine lezzetidir.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "60 Dayanıklılık yeniler.",
+    "Id": 108677,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Bulle Soslu Ördek Göğsü (Lezzetli)",
+    "Description": "Hoş kokulu meyve aromasına sahip bir et yemeği. Portakal aromalı ekşimsi lezzet, yumuşacık ördeğe eşsiz ve ferahlatıcı bir tat katıyor. O kadar lezzetli ki daha ağzındaki lokmayı çiğnerken bir bakmışsın çatalını bir sonraki lokmaya götürüyorsun. Fontaine mutfağı yıllar içinde ne kadar gelişmiş olsa da bu yemeğin klasikler arasındaki yerini korumasına şaşmamalı.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108676"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "80 Dayanıklılık yeniler.",
+    "Id": 108678,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "\"Gözaltı\"",
+    "Description": "Clorinde'in özel tarifi. Taze avlanmış Kuş Eti, hafifçe ızgarada pişirilmiş. İlk başta şüpheyle yaklaşsan da etin yumuşak dokusunu ve yedikten sonra ağızda bıraktığı ferahlatıcı tadını alınca şüphelerin kuş olup uçuyor. Neyse, sonuçta Clorinde de bir lokma aldı. Herhalde senin miden de deneyimli avcılarınki kadar dayanıklıdır... Değil mi?",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108678"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 114 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108679,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fevkaladenin Fevki Et Dürüm",
+    "Description": "Sethos'un özel tarifi. Hamurun kalınlığı, yemeğe çiğnemesi hoş bir doku katmış. İçindeki ızgara et, dışarıda bulacağın sıradan tariflerden farklı bir şekilde terbiye edilmiş. Yenilikçi lezzeti damağında şaşırtıcı bir etki bırakıyor. Yanında oturan kayıtsız genç, senin ikinci porsiyonu istediğini görünce göz kırpıyor ve \"Bu gizli bir tarif. Başka bir yerde bulamazsın.\" diyor.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108679"
   },
   {
     "MaterialType": 5,
@@ -25185,6 +25291,16 @@
     "ItemType": 2,
     "Name": "Tarif: Bulle Meyveli Sufle",
     "Description": "Bulle Meyveli Sufle yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109576,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Tarif: Bulle Soslu Ördek Göğsü",
+    "Description": "Bulle Soslu Ördek Göğsü yapımını adım adım anlatan detaylı bir tarif.",
     "TypeDescription": "Tarif",
     "Icon": "UI_ItemIcon_109000"
   },
@@ -34386,6 +34502,26 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120865,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Okyanus Ötesi İncisi Konsantresi",
+    "Description": "Sigewinne'in verdiği listedeki özel bir malzeme. Belirli Fontemer Sapkınlarından elde edilmeli.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_112080"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120866,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Lekeli Su Tayfı Özütü",
+    "Description": "Sigewinne'in verdiği listedeki özel bir malzeme. Belirli Lekeli Su Tayflarından elde edilmeli.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_112086"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120870,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34466,6 +34602,36 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120891,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Suçluların İfadeleri",
+    "Description": "Morgane tarafından derlenen suçlu ifadeleri. Bugünkü sorgunun sonuçlarını içeriyor.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120892,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Rawat'ın Notları",
+    "Description": "Rawat'ın annesinin evindeki bir dolapta bulduğun defter sayfası. Fontaine Araştırma Enstitüsünün kuzeyinde bir yer işaretlenmiş.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120894,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bilinmeyen Bir Zamandan Grup Fotoğrafı",
+    "Description": "Bir şekilde kuralları aşan değerli bir grup fotoğrafı. Bilinmeyen bir kişi tarafından, bilinmeyen yöntemlerle, artık var olmayan bir yerde çekilmiş.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120894"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120910,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34493,6 +34659,36 @@
     "Description": "Kadim bir bestenin parçası. Mevcut haliyle okunamaz.",
     "TypeDescription": "Görev Eşyası",
     "Icon": "UI_ItemIcon_120917"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120928,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bilinmeyen Bir Zamandan Grup Fotoğrafı",
+    "Description": "Bir şekilde kuralları aşan değerli bir grup fotoğrafı. Bilinmeyen bir kişi tarafından, bilinmeyen yöntemlerle, artık var olmayan bir yerde çekilmiş.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120928"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120931,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kasanın Yerini Gösteren \"Hazine Haritası\"",
+    "Description": "\"Muhafız\" Florian'ın sana verdiği bir Hazine Haritası. Söylenene göre haritada işaretli kasada geçmişteki Mareşose Avcılarından kalan bir hazine varmış ve bu hazinenin gücüyle kötü büyücü yenilebilirmiş...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100173"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120932,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Mareşose Avcısı: Kıyamet Günü\" Karakter Albümü",
+    "Description": "Bu \"Mareşose Avcısı: Kıyamet Günü\" oyununun hem oyuncuları hem Oyun Yöneticisi anısına hazırlanmış, beraber yaşadığınız maceraların anılarıyla dolu bir kitap. \"Umutsuzluğa kapılmayacağım asla...\" Belki bu teşvik, Mareşose Avcısı olarak oynayan kişi için daha derin bir anlam taşıyordur...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120932"
   },
   {
     "MaterialType": 2,
@@ -34663,6 +34859,246 @@
     "Description": "Eski Bir Kağıt Parçası",
     "TypeDescription": "Görev Eşyası",
     "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120954,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Üretim Günlüğü",
+    "Description": "Üretim Günlüğü",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120955,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Deney Günlüğü",
+    "Description": "Deney Günlüğü",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120971,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Mareşose Avcısı: Kıyamet Günü\" Karakter Albümü",
+    "Description": "Bu \"Mareşose Avcısı: Kıyamet Günü\" oyununun hem oyuncuları hem Oyun Yöneticisi anısına hazırlanmış, beraber yaşadığınız maceraların anılarıyla dolu bir kitap. \"Umutsuzluğa kapılmayacağım asla...\" Belki bu teşvik, Mareşose Avcısı olarak oynayan kişi için daha derin bir anlam taşıyordur...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120972,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Mareşose Avcısı: Kıyamet Günü\" Karakter Albümü",
+    "Description": "Bu \"Mareşose Avcısı: Kıyamet Günü\" oyununun hem oyuncuları hem Oyun Yöneticisi anısına hazırlanmış, beraber yaşadığınız maceraların anılarıyla dolu bir kitap. \"Umutsuzluğa kapılmayacağım asla...\" Belki bu teşvik, Mareşose Avcısı olarak oynayan kişi için daha derin bir anlam taşıyordur...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120973,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Mareşose Avcısı: Kıyamet Günü\" Karakter Albümü",
+    "Description": "Bu \"Mareşose Avcısı: Kıyamet Günü\" oyununun hem oyuncuları hem Oyun Yöneticisi anısına hazırlanmış, beraber yaşadığınız maceraların anılarıyla dolu bir kitap. \"Umutsuzluğa kapılmayacağım asla...\" Belki bu teşvik, Mareşose Avcısı olarak oynayan kişi için daha derin bir anlam taşıyordur...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120974,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Mareşose Avcısı: Kıyamet Günü\" Karakter Albümü",
+    "Description": "Bu \"Mareşose Avcısı: Kıyamet Günü\" oyununun hem oyuncuları hem Oyun Yöneticisi anısına hazırlanmış, beraber yaşadığınız maceraların anılarıyla dolu bir kitap. \"Umutsuzluğa kapılmayacağım asla...\" Belki bu teşvik, Mareşose Avcısı olarak oynayan kişi için daha derin bir anlam taşıyordur...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120975,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Mareşose Avcısı: Kıyamet Günü\" Karakter Albümü",
+    "Description": "Bu \"Mareşose Avcısı: Kıyamet Günü\" oyununun hem oyuncuları hem Oyun Yöneticisi anısına hazırlanmış, beraber yaşadığınız maceraların anılarıyla dolu bir kitap. \"Umutsuzluğa kapılmayacağım asla...\" Belki bu teşvik, Mareşose Avcısı olarak oynayan kişi için daha derin bir anlam taşıyordur...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120976,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Mareşose Avcısı: Kıyamet Günü\" Karakter Albümü",
+    "Description": "Bu \"Mareşose Avcısı: Kıyamet Günü\" oyununun hem oyuncuları hem Oyun Yöneticisi anısına hazırlanmış, beraber yaşadığınız maceraların anılarıyla dolu bir kitap. \"Umutsuzluğa kapılmayacağım asla...\" Belki bu teşvik, Mareşose Avcısı olarak oynayan kişi için daha derin bir anlam taşıyordur...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120977,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Mareşose Avcısı: Kıyamet Günü\" Karakter Albümü",
+    "Description": "Bu \"Mareşose Avcısı: Kıyamet Günü\" oyununun hem oyuncuları hem Oyun Yöneticisi anısına hazırlanmış, beraber yaşadığınız maceraların anılarıyla dolu bir kitap. \"Umutsuzluğa kapılmayacağım asla...\" Belki bu teşvik, Mareşose Avcısı olarak oynayan kişi için daha derin bir anlam taşıyordur...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120932"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120988,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Küçük Cadı ve Sönmeyen Ateş (I)",
+    "Description": "Ciltleme ve düzenleme oldukça özenli yapılmış fakat içindeki yazıların tamamı elle yazılmış. El yazısına bakılırsa kitabın birden fazla yazarı var. \"Ne yazdığımızı boş ver, kapak güzel görünsün yeter! Ancak o şekilde 'şaheser' havası verebiliriz.\"",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120989,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Küçük Cadı ve Sönmeyen Ateş (II)",
+    "Description": "\"Yarısından fazlasını bitirmişsin ama hikayeyi arpa boyu bile ilerletememişsin! Niye sürekli olayın geçtiği dünyayı anlatıyorsun?\" \"Hem sen ne bileceksin ki? Bu yazdıkların dünyayı detaylandırmıyor ayrıca. Doğal bilimleri ve başka disiplinleri anlatıyor!\"",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120990,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Küçük Cadı ve Sönmeyen Ateş (III)",
+    "Description": "Ana metinden önce gizemli bir el yazısı bulunuyor: \"R'nin büyü yapacak kadar kendinde olması çok nadir bir durum. Bilinçli olduğu bu değerli kısa vakti bunu yazarak mı harcamalı gerçekten?\" \"Merak etme. Bir cadı için bundan daha önemli hiçbir şey olamaz.\"",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120991,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Küçük Cadı ve Sönmeyen Ateş (IV)",
+    "Description": "Ana metinden önce gizemli bir el yazısı bulunuyor: \"Çariçe aşkına, niye çözüme kavuşmayan bu kadar çok yan hikaye var? Şu ihtiyara merhamet et, ne olur.\"",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120992,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Küçük Cadı ve Sönmeyen Ateş (V)",
+    "Description": "Buradaki yazılar karman çorman. Belki yazar çok yazmıyordur, belki de başka bir şey yaşanmıştır.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120993,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Küçük Cadı ve Sönmeyen Ateş (VI)",
+    "Description": "\"Böyle bir vakitte bunu yazmak hâlâ gerekli mi?\" \"Bırak yazayım. Bu dünyaya dönme fırsatını çok nadiren yakalıyorum. Alice de bana katılırdı hem. Devam etmezsek en başından beri tüm yaptıklarımız anlamını yitirir.\"",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120994,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Küçük Cadı ve Sönmeyen Ateş (VII)",
+    "Description": "Ciltleme ve düzenleme oldukça özenli yapılmış fakat içindeki yazıların tamamı elle yazılmış. El yazısına bakılırsa kitabın birden fazla yazarı var. \"Yazma eyleminin altında yatan anlamı buldum, sana da söyleyeyim. Yazıyorum, çünkü sana şunu demek istiyorum: Keşke sen de burada olsaydın.\"",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120801"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120995,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kedi Ofisi (I)",
+    "Description": "Bir gün gizemli Kedi Ofisi, kapıcı Perroux'ya bir davetiye gönderiyor... Onu ne tür maceralar bekliyor acaba?",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120996,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kedi Ofisi (II)",
+    "Description": "Kedice büyüyü çözen Perroux, ofisin girişini buluyor ve birden \"aşağıdaki gölgelere atlıyor\"... Peki ya sonra?",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120997,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kedi Ofisi (III)",
+    "Description": "Bir kolu dövmelerle kaplı kedi, sürekli horlayan kedi patronunun verdiği görevi tamamladı. Peki ya diğeri ne yaptı? Perroux'nun merakı dinmedi...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120998,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kedi Ofisi (IV)",
+    "Description": "Neredeyse her şeyi görüp geçirmiş olan Kedi Ofisinin bile bazen ne yapacağını bilemediği oluyor. Kibirli, tekir patron acaba nasıl bir zorlukla karşı karşıya kaldı da Perroux'nun yardımına ihtiyaç duydu?",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120999,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kedi Ofisi (V)",
+    "Description": "Bir kedinin büyülü çizmeleri ve bir kedinin gizemli maskesi. Bunlar uzun tüylü kediyi Kedi Ofisine nasıl getirecek?",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121000,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kedi Ofisi (VI)",
+    "Description": "Tüm kedilerin ve Usta'nın şahitliğinde tekir kedi ile uzun tüylü kedi, kedi evine girerek karı koca ilan edilecek mi?",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121001,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kedi Ofisi (VII)",
+    "Description": "\"Koş Perroux, koş!\" Kedi kulakları çıkaran Perroux'nun aklında yalnızca bu sözcükler yankılandı...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121002,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kedi Ofisi (VIII)",
+    "Description": "\"Gerçi Usta yeni bir sevgi dönemine daha girdi sanki?\" diye fısıldadı hizmetkarlar...\nAma bu çok daha sonra yaşandı.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120800"
   },
   {
     "MaterialType": 31,
@@ -36420,7 +36856,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 108",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Truncated Verse\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36430,7 +36866,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 109",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Clockwork Waltz\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36440,7 +36876,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 110",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"The Rotating Realm\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36450,7 +36886,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 111",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Crystalline Path\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36460,7 +36896,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 112",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"A Sweet Dream in Fontaine\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36470,7 +36906,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 113",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Rhythm of Inquiry\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36480,7 +36916,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 114",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Un nouvel espoir\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36490,7 +36926,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 115",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Loch's Revitalization\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36500,7 +36936,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 116",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Les fumees blanches\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36510,7 +36946,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 117",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Neath the Fountain\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36520,7 +36956,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 118",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Magick Without Tears\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36530,7 +36966,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 119",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Fontaine'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Songe de la plus haute tour\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36540,7 +36976,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 120",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Liyue'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Jade Chimes\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36550,7 +36986,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 121",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Liyue'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Guhua's Legacy\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36560,7 +36996,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 122",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Liyue'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Into the Yonder and Water\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36570,7 +37006,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 123",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Liyue'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Garden of Jade\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36580,7 +37016,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 124",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Liyue'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"Springtide of Qiaoying\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -36590,7 +37026,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Parlak Burgu Kristal 125",
-    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Liyue'den gelen gizemli bir müzik vardır.",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde \"The Jadeite Reflection\" müziği vardır.",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_BGM_Common"
   },
@@ -37053,6 +37489,16 @@
     "Description": "\"Çöl Alimleriyle Sohbet\" için özel saflaştırma malzemesi.\nSimya çalışmalarında cıvadan genellikle \"Yüce Toprak\" olarak bahsedilir çünkü altını bile büyük bir açgözlülükle yutabilir. Bu sebeple simyada metalin sembolü olarak da kullanılır.\nKurutulup un ufak edilse bile dönüşüm özelliğinden hiçbir şey kaybetmez.",
     "TypeDescription": "Saflaştırma Malzemesi",
     "Icon": "UI_ItemIcon_200120"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 200121,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kalibrasyon Parçası",
+    "Description": "\"Bulut Örgüsü\" için özel saflaştırma malzemesi.\nYuheng'in Kara Kaya Demirci Ocağından yapımını istediği yeni tür bir bileşen. Demircilere göre dinamik yükü \"Adeptus mekanizmalarına karşı kaybetmez\" imiş. İlgili prototip silaha eklendiğinde silahın gücü ciddi ölçüde artırılabilir.\nİnsanlığın yönetimindeki dünya, kaliteli bir yayın gerilmiş kirişine benzer: Kopup dağılmaması için gerginliği tam uygun derecede olmalıdır.",
+    "TypeDescription": "Saflaştırma Malzemesi",
+    "Icon": "UI_ItemIcon_200121"
   },
   {
     "MaterialType": 28,
@@ -39880,7 +40326,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Ateşli Aroma",
-    "Description": "Bu zarif bir şekilde dekore edilmiş restoran taslağı, Sumeru Şehri'ndeki ünlü bir handır... Elbette Dinginçay Çaydanlığı içinde kullanılmak üzere bazı değişiklikler yapılmıştır. Buhar ve baharat kokuları benzer şekilde havada süzülür ve her biri zaten var olan keyifli bir anı daha da artırır. Tam bu anda gereken tek şey birkaç arkadaş ve birkaç sürahi kaliteli şaraptır, bundan mükemmel bir yemek deneyimi olur.\nSık sık birlikte seyahate çıkanlar için koltuk sayısı ve gereken yiyecek miktarı da düşünüldüğünde, mangal yerleri idealdir. Tek başına gezenlere gelince bu tür yerlerin boğuk atmosferi, gözlem, takip ve hatta kumpas kurmak için güvenli koşullar sağlamanın yanı sıra onların hareketlerini gizlemelerini de sağlar.\nYoldaşların arasından Alhaitham ve Dehya bu Dekorasyon Setini tercih eder.",
+    "Description": "Bu zarif bir şekilde dekore edilmiş restoran taslağı, Sumeru Şehri'ndeki ünlü bir handır... Elbette Dinginçay Çaydanlığı içinde kullanılmak üzere bazı değişiklikler yapılmıştır. Buhar ve baharat kokuları benzer şekilde havada süzülür ve her biri zaten var olan keyifli bir anı daha da artırır. Tam bu anda gereken tek şey birkaç arkadaş ve birkaç sürahi kaliteli şaraptır, bundan mükemmel bir yemek deneyimi olur.\nSık sık birlikte seyahate çıkanlar için koltuk sayısı ve gereken yiyecek miktarı da düşünüldüğünde, mangal yerleri idealdir. Tek başına gezenlere gelince bu tür yerlerin boğuk atmosferi, gözlem, takip ve hatta kumpas kurmak için güvenli koşullar sağlamanın yanı sıra onların hareketlerini gizlemelerini de sağlar.\nYoldaşların arasından Alhaitham, Dehya ve Sethos bu Dekorasyon Setini tercih eder.",
     "TypeDescription": "Dekorasyon Seti Taslağı",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -39920,7 +40366,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Gelişen Piyasaların Arasında",
-    "Description": "Sumeru Şehri'nin sokaklarının düzenine ve Kapalı Çarşı'ya istinaden zarifçe döşenmiş bir ticaret bölgesi. Buradaki tezgahlarda taze meyveler, enfes yemekler ve her türden yaşam tarzı ürünleri bulunabilir. Bölgede birkaç tur attıktan sonra kendini hareketli bir pazarın eşsiz havasına adım atmış gibi bulursun.\nSumeru caddelerinin her iki yanındaki dükkanlarda ve tezgahlarda, olası minimum yönetim zorluğuyla ve kullanılan alan ile birlikte kapsamlı bir hizmet sunulabilmesi açısından, Akademi araştırmalarının getirdiği belirli kurallara göre değişiklik yapıldığı söyleniyor.\nYoldaşların arasından Dori ve Faruzan bu Dekorasyon Setini tercih eder.",
+    "Description": "Sumeru Şehri'nin sokaklarının düzenine ve Kapalı Çarşı'ya istinaden zarifçe döşenmiş bir ticaret bölgesi. Buradaki tezgahlarda taze meyveler, enfes yemekler ve her türden yaşam tarzı ürünleri bulunabilir. Bölgede birkaç tur attıktan sonra kendini hareketli bir pazarın eşsiz havasına adım atmış gibi bulursun.\nSumeru caddelerinin her iki yanındaki dükkanlarda ve tezgahlarda, olası minimum yönetim zorluğuyla ve kullanılan alan ile birlikte kapsamlı bir hizmet sunulabilmesi açısından, Akademi araştırmalarının getirdiği belirli kurallara göre değişiklik yapıldığı söyleniyor.\nYoldaşların arasından Dori, Faruzan ve Sethos bu Dekorasyon Setini tercih eder.",
     "TypeDescription": "Dekorasyon Seti Taslağı",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40010,7 +40456,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Sıkı Ofis Kuralları",
-    "Description": "Mermonia Sarayı dekorasyonunu temel alan klasik bir çalışma odası. Her şeyin kurallar doğrultusunda ilerlediği o hareketli ofis ortamını yeniden yansıtıyor.\nBir Fontaine Araştırma Enstitüsü Araştırmacısı zamanında \"çevrenin, kişinin işteki durumunu son derece etkileyeceğini\" iddia etmişti. Bu iddia doğrultusunda kişi, Mermonia Sarayı'na benzer bir yerde çalıştığı zaman bilinçsizce de olsa her adımda kurallara bağlı kalabilir...\nYoldaşların arasından Neuvillette bu Dekorasyon Setini tercih eder.",
+    "Description": "Mermonia Sarayı dekorasyonunu temel alan klasik bir çalışma odası. Her şeyin kurallar doğrultusunda ilerlediği o hareketli ofis ortamını yeniden yansıtıyor.\nBir Fontaine Araştırma Enstitüsü Araştırmacısı zamanında \"çevrenin, kişinin işteki durumunu son derece etkileyeceğini\" iddia etmişti. Bu iddia doğrultusunda kişi, Mermonia Sarayı'na benzer bir yerde çalıştığı zaman bilinçsizce de olsa her adımda kurallara bağlı kalabilir...\nYoldaşların arasından Neuvillette ve Clorinde bu Dekorasyon Setini tercih eder.",
     "TypeDescription": "Dekorasyon Seti Taslağı",
     "Icon": "UI_ItemIcon_Home_Indoor"
   },
@@ -40100,7 +40546,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Su Altındaki Merusea'nın Işıltısı",
-    "Description": "Merusea Köyü'nden özgün ve dikkat çeken binaların olduğu bir manzarayı yeniden canlandıran küçük bir yerleşim yeri.\nMelusinalar Elynas'ta, suların altında yaşarlar ve köylerini ziyarete giden insan sayısı çok azdır. Ancak bu ziyaretçilerin hepsi de orayı gördükten sonra övgüler dizerler. Bazı sanatçılar da bu övgülerden ve Fontaine Şehri'nde yaşayan bazı Melusinalarla yapılan röportajlardan yola çıkarak burayı çizmeye çalışmışlardır. Ancak çizimleriyle köydeki gerçek renkler arasındaki farklılık göz ardı edilemeyecek boyuttadır. Bu sorun Kamerayla Merusea Köyü'nün fotoğrafları çekilip bu fotoğraflar yaygınlaştığı zaman az çok çözülmüştür...\nYoldaşların arasından Freminet bu Dekorasyon Setini tercih eder.",
+    "Description": "Merusea Köyü'nden özgün ve dikkat çeken binaların olduğu bir manzarayı yeniden canlandıran küçük bir yerleşim yeri.\nMelusinalar Elynas'ta, suların altında yaşarlar ve köylerini ziyarete giden insan sayısı çok azdır. Ancak bu ziyaretçilerin hepsi de orayı gördükten sonra övgüler dizerler. Bazı sanatçılar da bu övgülerden ve Fontaine Şehri'nde yaşayan bazı Melusinalarla yapılan röportajlardan yola çıkarak burayı çizmeye çalışmışlardır. Ancak çizimleriyle köydeki gerçek renkler arasındaki farklılık göz ardı edilemeyecek boyuttadır. Bu sorun Kamerayla Merusea Köyü'nün fotoğrafları çekilip bu fotoğraflar yaygınlaştığı zaman az çok çözülmüştür...\nYoldaşların arasından Freminet ve Sigewinne bu Dekorasyon Setini tercih eder.",
     "TypeDescription": "Dekorasyon Seti Taslağı",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40110,7 +40556,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Yasak Kalede Kaçınılmaz Kaba Kuvvet",
-    "Description": "Ortasında dövüş ringi bulunan bir arena. Burada izleyicilerin alkışlarını ve tezahüratlarını, sunucunun o heyecan dolu anlatımını, rakiplerin birbirlerine attıkları yumrukların tok sesini tekrar duyabilirsin. Tıpkı Meropide Kalesi'ndeki Pankrasyon Ringinin bıraktığı etkiyi verir.\n\"Her şeye yumrukların karar verdiği bir ringdeysen zafer (ve Kale Kuponu) elde etmek için tüm gücünü ortaya koymalısın.\" Pankrasyon Ringinde dövüşmüş birçok kişi Kaleden ayrıldıktan sonra bile bu düsturla yollarına devam etmişlerdir...\nYoldaşların arasından Wriothesley ve Chevreuse bu Dekorasyon Setini tercih eder.",
+    "Description": "Ortasında dövüş ringi bulunan bir arena. Burada izleyicilerin alkışlarını ve tezahüratlarını, sunucunun o heyecan dolu anlatımını, rakiplerin birbirlerine attıkları yumrukların tok sesini tekrar duyabilirsin. Tıpkı Meropide Kalesi'ndeki Pankrasyon Ringinin bıraktığı etkiyi verir.\n\"Her şeye yumrukların karar verdiği bir ringdeysen zafer (ve Kale Kuponu) elde etmek için tüm gücünü ortaya koymalısın.\" Pankrasyon Ringinde dövüşmüş birçok kişi Kaleden ayrıldıktan sonra bile bu düsturla yollarına devam etmişlerdir...\nYoldaşların arasından Wriothesley, Chevreuse ve Sigewinne bu Dekorasyon Setini tercih eder.",
     "TypeDescription": "Dekorasyon Seti Taslağı",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40120,7 +40566,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Su Ulusunun Ebruli Renkleri",
-    "Description": "Gösterişli bitkilerle dolu bir kır manzarası. Fontaine'in dört bir yanında görülebilecek her türden çiçek ve çalı vardır. Çiçekler ve çalılar resimlerde sık görülen bir temadır ve \"renk\" keşfinin de başlangıcıdır. Fontaineli bazı ressamlar dünyanın bitkileri kullanarak paletindeki muhteşem renk birleşimlerini gösterdiğine inanırlar. Dolayısıyla bir tabloda yer alan tüm renklerin kaynağı bir çiçekte bulunabiliyorsa o zaman bu tablonun doğal manzaralara eş bir güzelliği vardır. Tabii bitkilerden gelen renkleri birbiriyle fazla karıştırmaman gerekir...",
+    "Description": "Gösterişli bitkilerle dolu bir kır manzarası. Fontaine'in dört bir yanında görülebilecek her türden çiçek ve çalı vardır. Çiçekler ve çalılar resimlerde sık görülen bir temadır ve \"renk\" keşfinin de başlangıcıdır. Fontaineli bazı ressamlar dünyanın renk paletinin, bitkileri kullanarak muhteşem renk birleşimlerini gösterdiğine inanırlar. Dolayısıyla bir tabloda yer alan tüm renklerin kaynağı bir çiçekte bulunabiliyorsa o zaman bu tablonun doğal manzaralara eş bir güzelliği vardır. Tabii bitkilerden gelen renkleri birbiriyle fazla karıştırmaman gerekir...\nYoldaşların arasından Clorinde bu Dekorasyon Setini tercih eder.",
     "TypeDescription": "Dekorasyon Seti Taslağı",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -49181,6 +49627,56 @@
     "ItemType": 2,
     "Name": "Müzik Şehrinin Sokak Lambası: \"Güvenli Aydınlatma\"",
     "Description": "Müzik Şehrinin Sokak Lambası: \"Güvenli Aydınlatma\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382316,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Solan Gün Batımı\"",
+    "Description": "\"Solan Gün Batımı\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393459,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Müzik Şehrinin Rüzgar Çanları: \"Cıvıldayan Serçeler\"",
+    "Description": "Müzik Şehrinin Rüzgar Çanları: \"Cıvıldayan Serçeler\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394602,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kılıç Tutan Heykel: \"Tamamlanmamışlığın Güzelliği\"",
+    "Description": "Kılıç Tutan Heykel: \"Tamamlanmamışlığın Güzelliği\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393185,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gelişmiş Timsah Topu",
+    "Description": "Gelişmiş Timsah Topu yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393917,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Düzenek Modeli: Standart Müzik Modu",
+    "Description": "Düzenek Modeli: Standart Müzik Modu yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
     "Icon": "UI_ItemIcon_Home_Common"
   }
