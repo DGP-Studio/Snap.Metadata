@@ -1170,6 +1170,16 @@
     "Icon": "UI_ItemIcon_1102"
   },
   {
+    "MaterialType": 20,
+    "Id": 1199,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Émilie",
+    "Description": "Material de activación de constelación de Émilie.",
+    "TypeDescription": "Activación de constelación",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
     "MaterialType": 5,
     "Id": 1201,
     "RankLevel": 5,
@@ -1952,28 +1962,6 @@
     "Icon": "UI_ItemIcon_100099"
   },
   {
-    "MaterialType": 5,
-    "EffectDescription": "Aumenta la Vida del dragón",
-    "Id": 101005,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Cuarzo carmesí",
-    "Description": "Cuarzo carmesí",
-    "TypeDescription": "Bono del Vida del dragón",
-    "Icon": "UI_ItemIcon_101005"
-  },
-  {
-    "MaterialType": 5,
-    "EffectDescription": "Aumenta la vida del dragón",
-    "Id": 101007,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Cuarzo carmesí",
-    "Description": "Cuarzo carmesí (evento de Espinadragón)",
-    "TypeDescription": "Bono de vida del dragón",
-    "Icon": "UI_ItemIcon_101005"
-  },
-  {
     "MaterialType": 4,
     "Id": 101001,
     "RankLevel": 0,
@@ -2014,6 +2002,17 @@
     "Icon": "UI_ItemIcon_101004"
   },
   {
+    "MaterialType": 5,
+    "EffectDescription": "Aumenta la Vida del dragón",
+    "Id": 101005,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cuarzo carmesí",
+    "Description": "Cuarzo carmesí",
+    "TypeDescription": "Bono del Vida del dragón",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
     "MaterialType": 4,
     "Id": 101006,
     "RankLevel": 0,
@@ -2022,6 +2021,17 @@
     "Description": "Un preciado mineral formado gracias a la geografía, el entorno y las líneas ley especiales de Espinadragón.",
     "TypeDescription": "Mineral de forja",
     "Icon": "UI_ItemIcon_101006"
+  },
+  {
+    "MaterialType": 5,
+    "EffectDescription": "Aumenta la vida del dragón",
+    "Id": 101007,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cuarzo carmesí",
+    "Description": "Cuarzo carmesí (evento de Espinadragón)",
+    "TypeDescription": "Bono de vida del dragón",
+    "Icon": "UI_ItemIcon_101005"
   },
   {
     "MaterialType": 4,
@@ -23590,7 +23600,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Leche de dango roquera",
-    "Description": "Tras pasar un día entero bajo el escenario, esta leche dango se ha fermentado con la levadura del rock, ¡transformándose en leche de dango roquera!\nDicen que su sabor ha sufrido un cambio misterioso, pero lo más sorprendente es que se puede vender al doble de precio que la original.\n¡Rocanrol del bueno!",
+    "Description": "Tras pasar un día entero bajo el escenario, esta leche de dango se ha fermentado con la levadura del rock, ¡transformándose en leche de dango roquera!\nDicen que su sabor ha sufrido un cambio misterioso, pero lo más sorprendente es que se puede vender al doble de precio que la original.\n¡Rocanrol del bueno!",
     "TypeDescription": "Comida",
     "Icon": "UI_ItemIcon_101514"
   },
@@ -23703,6 +23713,126 @@
     "Description": "La especialidad de Sethos. La sutil textura gruesa de la corteza confiere a la masa una sensación agradable y satisfactoria de masticar. La carne a la parrilla está condimentada de una forma que la distingue de las recetas comunes y que convierte este plato en una delicia sin precedentes. Al percibir tus ganas de más, el joven que se sienta a un lado te guiña un ojo y te dice: “Receta secreta. No la encontrarás en ningún otro lugar”.",
     "TypeDescription": "Comida",
     "Icon": "UI_ItemIcon_108679"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta el ATQ de todos los miembros del equipo en 160{NON_BREAK_SPACE}pts. durante 300{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108680,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Fricasé de pollo extraño",
+    "Description": "Un plato de carne muy conocido en Fontaine. Al probarlo, notas que algo no está bien. La crema batida no puede salvar la carne seca, amarillenta e incluso ligeramente amarga, hasta el punto de que el hambre voraz que tenías hace un momento ha decidido esfumarse con el rabo entre las piernas.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108681"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta el ATQ de todos los miembros del equipo en 194{NON_BREAK_SPACE}pts. durante 300{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108681,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Fricasé de pollo",
+    "Description": "Un plato de carne muy conocido en Fontaine. Primero, se dora la carne en aceite hasta que esté crujiente por fuera. Luego, se saltea la cebolla y los demás ingredientes. Después, se añade jugo fermentado de frutas y se deja cocer a fuego lento. Cuando la salsa se espese, no olvides agregar crema batida. Al servir, la crema batida cubre uniformemente cada trozo de carne, lo que le otorga a este plato el sabor cálido y familiar que tanto adora la gente de Fontaine.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108681"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta el ATQ de todos los miembros del equipo en 228{NON_BREAK_SPACE}pts. durante 300{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108682,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Fricasé de pollo delicioso",
+    "Description": "Un plato de carne muy conocido en Fontaine. La crema batida y la carne de pollo se unen en un encuentro romántico que se cataliza en un intenso aroma que relaja los sentidos. Se dice que es uno de los platos favoritos de los habitantes de Fontaine... Uno podría darse un festín con este plato durante toda la vida sin cansarse de su fantástico sabor.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108681"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta el ATQ de todos los miembros del equipo en 274{NON_BREAK_SPACE}pts. durante 300{NON_BREAK_SPACE}s. En modo Multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108683,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Fragrante banquete de sabores",
+    "Description": "La especialidad de Émilie. El jugo fermentado de frutas impregna tu boca de un sutil aroma floral, mientras que el dulzor de la crema batida armoniza con el color y la textura y se desliza sobre los labios como la seda. El aroma del plato te deja un regusto duradero, como si hubieras tenido un encuentro fortuito con una fragancia que jamás querrías olvidar.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108683"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta la DEF de todos los miembros del equipo en 215{NON_BREAK_SPACE}pts. y su curación en un 6% durante 300{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108684,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Helado abotorgado extraño",
+    "Description": "Un helado de color azul aguamarina. Los grandes granos de sal marina asaltan tus papilas gustativas y, tras un intenso sabor salado, los sentidos se te nublan... Cuando te armas de valor para probarlo de nuevo, el helado se ha derretido y se ha convertido en un batido...",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108685"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta la DEF de todos los miembros del equipo en 261{NON_BREAK_SPACE}pts. y su curación en un 8% durante 300{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108685,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Helado abotorgado",
+    "Description": "Un helado de color azul aguamarina. El mejor remedio para un día de calor sofocante es un fresco helado. Refresca cuerpo y alma, ofreciendo una sensación similar a la de darse un chapuzón en el mar. Todas las preocupaciones desaparecen, al igual que el calor del cuerpo, dejando nada más que pura felicidad.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108685"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta la DEF de todos los miembros del equipo en 308{NON_BREAK_SPACE}pts. y su curación en un 10% durante 300{NON_BREAK_SPACE}s. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108686,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Helado abotorgado delicioso",
+    "Description": "Un helado de color azul aguamarina. El diseño de la copa, que imita a una Foca Abotargada, le otorga un toque de humor y simpatía. La cremosidad de la leche se funde suave y delicadamente con un toque de sal. Es como si tus sentidos hubieran sido invitados a embarcarse en una inolvidable odisea submarina. ¡Un viaje que esperas que nunca termine!",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108685"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Disminuye el Coste de Aguante al escalar y esprintar en un 15% durante 900{NON_BREAK_SPACE}s de todos los miembros del equipo. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108687,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Croissant crujiente con café extraño",
+    "Description": "Una comida compuesta de bollería y café. El pan seco tiene una textura dura, como si hubiera sido desprovisto de toda humedad. La bebida, con un sabor amargo y agrio, hace que uno se sienta como si hubiera tomado una poción por equivocación. Menos mal que no es una comida principal...",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108688"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Disminuye el Coste de Aguante al escalar y esprintar en un 20% durante 900{NON_BREAK_SPACE}s de todos los miembros del equipo. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108688,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Croissant crujiente con café",
+    "Description": "Una comida compuesta de bollería y café. Primero, se enrolla la masa antes de recubrirla con un baño de huevo e introducirla en el horno, lo que da como resultado unos croissants humeantes y exquisitos. Se dice que la aplicación del baño de huevo es como la firma de un panadero... Y parece que para firmar este plato se ha usado una excelente caligrafía.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108688"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Disminuye el Coste de Aguante al escalar y esprintar en un 25% durante 900{NON_BREAK_SPACE}s de todos los miembros del equipo. En modo multijugador, solo tendrá efecto en tus propios personajes.",
+    "Id": 108689,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Croissant crujiente con café delicioso",
+    "Description": "Una comida compuesta de bollería y café. Los dos trozos de pan puntiagudos esconden una esponjosa suavidad dentro de crujientes cortezas. El aroma de la mantequilla impregna el aire y se mezcla con el intenso sabor del café. Es como si esta combinación se hubiera preparado en el mismísimo cielo. Ya sea por la mañana o durante un descanso, degustar tan deliciosa combinación es un alivio incluso para el alma más agotada.",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108688"
+  },
+  {
+    "MaterialType": 1,
+    "Id": 108690,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cóctel mágico",
+    "Description": "Una misteriosa bebida especial que está conservada en una botella pequeña y hermética como cualquier otra. Tal vez haya sido hechizada con algún tipo de magia que la hace más deliciosa... Pero ¿de verdad existe una magia capaz de hacer algo así?",
+    "TypeDescription": "Comida",
+    "Icon": "UI_ItemIcon_108690"
   },
   {
     "MaterialType": 5,
@@ -25631,6 +25761,36 @@
     "ItemType": 2,
     "Name": "Receta: pechuga de pato a la burburanja",
     "Description": "Receta paso a paso para hacer una pechuga de pato a la burburanja.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109577,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Receta: fricasé de pollo",
+    "Description": "Receta paso a paso para hacer un fricasé de pollo.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109578,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Receta: helado abotorgado",
+    "Description": "Receta paso a paso para hacer un helado abotorgado.",
+    "TypeDescription": "Receta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109579,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Receta: croissant crujiente con café",
+    "Description": "Receta paso a paso para hacer un croissant crujiente con café.",
     "TypeDescription": "Receta",
     "Icon": "UI_ItemIcon_109000"
   },
@@ -33525,7 +33685,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "El anhelo de Parker",
-    "Description": "Una pequeña botella transparente que contiene una nota con un extraño diseño en el reverso. En ella están registradas de forma resumida las hazañas de un hombre llamado Parker.",
+    "Description": "Una pequeña botella transparente que contiene una nota con un extraño diseño en el reverso. En ella están registradas de forma resumida las hazañas de una mujer llamada Parker.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_100173"
   },
@@ -33605,7 +33765,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "El anhelo de Parker",
-    "Description": "Una pequeña botella transparente que contiene una nota con un extraño diseño en el reverso. En ella están registradas de forma resumida las hazañas de un hombre llamado Parker. Encontraste el tesoro que dejó esta persona siguiendo las indicaciones de la nota.",
+    "Description": "Una pequeña botella transparente que contiene una nota con un extraño diseño en el reverso. En ella están registradas de forma resumida las hazañas de una mujer llamada Parker. Encontraste el tesoro que dejó esta persona siguiendo las indicaciones de la nota.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_100173"
   },
@@ -34822,6 +34982,26 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120862,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pacto de testigos",
+    "Description": "Un documento muy antiguo. No se sabe desde cuándo lleva aquí.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_71700047"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120863,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gran mecallave",
+    "Description": "Una gran mecallave de alta calidad. Es inevitable cuestionarse qué poder mágico posee para recibir semejante trato.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120863"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120864,
     "RankLevel": 3,
     "ItemType": 2,
@@ -34932,6 +35112,36 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120888,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bombilla de Villabloque de largo alcance",
+    "Description": "Una bombilla que colgaba en el faro de Villabloque. Aún brilla con fuerza, a pesar de haber sido retirada.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120889"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120889,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cuerno de dragón semejante a un arma",
+    "Description": "Un cuerno de dragón que se asemeja a una espada. Parece haber sido arrancado de la cabeza de un dragón temerario.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120888"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120890,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Escama de dragón malvado",
+    "Description": "Una escama que emana una energía ominosa. Se dice que proviene del malvado dragón de Simulanka.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120890"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120891,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34949,6 +35159,16 @@
     "Description": "Una página de un cuaderno que encontraste en un armario dentro de la casa de la madre de Rawat. Señala una ubicación al norte del Instituto de Ciencias de Fontaine.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120893,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Estrella dispersa",
+    "Description": "Una estrella que una vez estuvo en lo alto de la Metrópolis de las Constelaciones. Por alguna razón, ha acabado aquí...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120893"
   },
   {
     "MaterialType": 2,
@@ -34989,6 +35209,66 @@
     "Description": "Un fragmento de una antigua partitura. Resulta indescifrable en su forma actual.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120917"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120918,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pico especial",
+    "Description": "Un pico que sirve para excavar en la Mina de Juguetanio. Posee un poder especial que permite cortar las rocas sin dañar el juguetanio o a los habitantes de Simulanka.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120918"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120919,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Manuscrito de la diosa (I)",
+    "Description": "Una historia que escribió personalmente la diosa que creó el mundo. Este es el plano de la creación de Simulanka, un hecho que resulta indiscutible.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120294"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120920,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Manuscrito de la diosa (II)",
+    "Description": "Un manuscrito escrito por la autora de un cuento de hadas. Por alguna razón, el papel tiene un agujero que parece...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120294"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120921,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Manuscrito de la diosa (III)",
+    "Description": "Un mero cuento de hadas escrito por una persona común y corriente. Si prestas atención, hay marcas en el papel hechas por un gato...",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120294"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120925,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "“Elixir secreto”",
+    "Description": "Se dice que es un elixir secreto del clan de la empatía que puede hacer que los residentes de la Metrópolis de las Constelaciones se vuelvan más grandes y fuertes. ¿De verdad este recipiente contiene algo así?",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120925"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120926,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Lanza de guardia",
+    "Description": "Una larga lanza que usan los guardias de la Metrópolis de las Constelaciones. Está bien equilibrada y es elegante. Si se lanza desde el suelo, podría derribar a un dragón volador.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_120926"
   },
   {
     "MaterialType": 2,
@@ -35429,6 +35709,66 @@
     "Description": "“Aunque, ¿es posible que el amor haya vuelto a llamar a la puerta del amo?” —murmuraron los guardias.\nSin embargo, esto es algo que acontecerá mucho más adelante.",
     "TypeDescription": "Objeto de misión",
     "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121007,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "“Sol del ocaso que nunca se pone”",
+    "Description": "Una solsettia que crece en Simulanka. Parece que puede utilizarse para hacer la tónica mágica del Bosque de las Bendiciones.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100002"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121008,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "“Pez que nada en la orilla”",
+    "Description": "Una flor dorada que crece en Simulanka. Parece que puede utilizarse para hacer la tónica mágica del Bosque de las Bendiciones.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_100015"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121009,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "“Luna que solo brilla de noche”",
+    "Description": "Un loto nilotpala que crece en Simulanka. Parece que puede utilizarse para hacer la tónica mágica del Bosque de las Bendiciones.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_101215"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121010,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tónica mágica",
+    "Description": "Un tinta mágica creada por el hada del bosque. Es muy importante para los habitantes del Bosque de las Bendiciones.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_121010"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121016,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Álbum ilustrado del dragón malvado",
+    "Description": "Un libro ilustrado sobre el malvado dragón de Simulanka, es decir, Durin. En él se relatan historias que nadie conoce.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_121016"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121017,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sueños de la antigua capital",
+    "Description": "Un libro que cuenta la historia de una joven llamada Licia, que emprende un viaje en solitario después de que su tierra natal sea destruida por un dragón negro.",
+    "TypeDescription": "Objeto de misión",
+    "Icon": "UI_ItemIcon_220100"
   },
   {
     "MaterialType": 31,
@@ -39431,6 +39771,46 @@
     "Icon": "UI_ItemIcon_220098"
   },
   {
+    "MaterialType": 21,
+    "Id": 220099,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Carta jovial",
+    "Description": "Una carta que irradia un tenue resplandor mágico y que está escrita con una pluma bien fabricada. Al sostener esta pluma en la mano, escribirás de forma elegante y con palabras alegres para describir la ubicación de ciertas cosas, aparentemente acertadas en lo que a localización de tesoros se refiere...\nÚsala para detectar los Extractos jubilosos en una cierta área cercana dentro de Simulanka.",
+    "TypeDescription": "Artilugio",
+    "Icon": "UI_ItemIcon_220099"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220100,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Carta exultante",
+    "Description": "Una carta que irradia un resplandor mágico y que está escrita con una pluma de fabricación exquisita. Al sostener esta pluma en la mano, escribirás de forma elegante y con palabras alegres para describir la ubicación de ciertas cosas, aparentemente acertadas en lo que a localización de tesoros se refiere...\nÚsala para detectar todos los Extractos jubilosos de Simulanka.",
+    "TypeDescription": "Artilugio",
+    "Icon": "UI_ItemIcon_220100"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220101,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Yelena",
+    "Description": "Una muestra de perfume hecha por Émilie. Se ha creado a partir de la fórmula del famoso perfume Augustinne de Fontaine.\nSi se pone al sol, se puede apreciar una frase escrita con una elegante caligrafía: “Olvídate del pasado y sigue adelante”.",
+    "TypeDescription": "Artilugio",
+    "Icon": "UI_ItemIcon_220101"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220102,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Daguerrotipo de Fontaine de Asagiri",
+    "Description": "Un Daguerrotipo que te dio Asagiri para ayudarla a obtener inspiración para su viaje a Fontaine.\nEl Daguerrotipo está en muy buen estado, lo que significa que la artista lo atesora tanto como sus pinturas y pinceles...",
+    "TypeDescription": "Artilugio",
+    "Icon": "UI_ItemIcon_220102"
+  },
+  {
     "MaterialType": 5,
     "Id": 221001,
     "RankLevel": 3,
@@ -40856,7 +41236,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Agua fresca de la corte de la justicia",
-    "Description": "Una plaza con verdes arbustos, numerosas flores y una espléndida fuente, inspirada en la zona de la Fontana Lucine de las Erinias.\nCuando hace sol, la fragancia de las flores se mezcla con el frescor del agua para levantar el ánimo tanto a turistas de fuera como a lugareños. Y aunque tuvieras la mala suerte de ir y lloviera a cántaros, pensar en las leyendas que existen en torno a la Fontana te haría tener esperanza de que algo mejor está por llegar.\nLos siguientes acompañantes prefieren este conjunto: Neuvillette y Furina.",
+    "Description": "Una plaza con verdes arbustos, numerosas flores y una espléndida fuente, inspirada en la zona de la Fontana Lucine de las Erinias.\nCuando hace sol, la fragancia de las flores se mezcla con el frescor del agua para levantar el ánimo tanto a turistas de fuera como a lugareños. Y aunque tuvieras la mala suerte de ir y lloviera a cántaros, pensar en las leyendas que existen en torno a la Fontana te haría tener esperanza de que algo mejor está por llegar.\nLos siguientes acompañantes prefieren este conjunto: Neuvillette, Furina y Émilie.",
     "TypeDescription": "Plano de conjunto de decoración",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40896,7 +41276,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Colores de la Nación del Agua",
-    "Description": "Un bucólico paisaje de vegetación exuberante que reúne todo tipo de flores y arbustos típicos de Fontaine. La flora se trata de un tema principal común en las pinturas y es uno de los orígenes de la exploración del color de este arte. Algunos pintores de Fontaine consideran que la paleta de colores del mundo usa su gran variedad de plantas para demostrar el canon de una combinación perfecta. Por eso, si todas las tonalidades de un cuadro pueden hallar en la vegetación su forma original, entonces, la pintura reflejará la belleza y armonía de la naturaleza. Claro está, siempre y cuando no se mezclen los colores de todas estas plantas en un caos irreconocible.\nLos siguientes acompañantes prefieren este conjunto: Clorinde.",
+    "Description": "Un bucólico paisaje de vegetación exuberante que reúne todo tipo de flores y arbustos típicos de Fontaine. La flora se trata de un tema principal común en las pinturas y es uno de los orígenes de la exploración del color de este arte. Algunos pintores de Fontaine consideran que la paleta de colores del mundo usa su gran variedad de plantas para demostrar el canon de una combinación perfecta. Por eso, si todas las tonalidades de un cuadro pueden hallar en la vegetación su forma original, entonces, la pintura reflejará la belleza y armonía de la naturaleza. Claro está, siempre y cuando no se mezclen los colores de todas estas plantas en un caos irreconocible.\nLos siguientes acompañantes prefieren este conjunto: Clorinde y Émilie.",
     "TypeDescription": "Plano de conjunto de decoración",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -50007,6 +50387,226 @@
     "ItemType": 2,
     "Name": "Modelo de mecanismo: Modo musical estándar",
     "Description": "Plano detallado para fabricar “Modelo de mecanismo: Modo musical estándar”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390525,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Casita de la metrópolis: Trompetista",
+    "Description": "Plano detallado para fabricar una Casita de la metrópolis: Trompetista.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390526,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Casita de la metrópolis: Platillero",
+    "Description": "Plano detallado para fabricar una Casita de la metrópolis: Platillero.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390527,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Casita de la metrópolis: Director",
+    "Description": "Plano detallado para fabricar una Casita de la metrópolis: Director.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390528,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Unidad pum, pum",
+    "Description": "Plano detallado para fabricar una Unidad pum, pum.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390529,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Unidad ting, ting",
+    "Description": "Plano detallado para fabricar una Unidad ting, ting.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390530,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Cabaña mágica del bosque",
+    "Description": "Plano detallado para fabricar una Cabaña mágica del bosque.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394325,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Encuentro en el bosque",
+    "Description": "Plano detallado para fabricar “Encuentro en el bosque”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391143,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Locomotora rompeolas",
+    "Description": "Plano detallado para fabricar una Locomotora rompeolas.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391144,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Vagón de los ronquidos",
+    "Description": "Plano detallado para fabricar un Vagón de los ronquidos.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391145,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Vagón de carga rebosante",
+    "Description": "Plano detallado para fabricar un Vagón de carga rebosante.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394117,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Belleza autóctona del bosque",
+    "Description": "Plano detallado para fabricar “Belleza autóctona del bosque”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394603,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Marquesina ligera al aire libre",
+    "Description": "Plano detallado para fabricar una Marquesina ligera al aire libre.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394604,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Panel de estación",
+    "Description": "Plano detallado para fabricar un Panel de estación.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393460,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Guardia atrapavientos diligente",
+    "Description": "Plano detallado para fabricar un Guardia atrapavientos diligente.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394118,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ventana de la profecía",
+    "Description": "Plano detallado para fabricar una Ventana de la profecía.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394119,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Puerta estelar",
+    "Description": "Plano detallado para fabricar una Puerta estelar.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394120,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Pilar musicoestelar de jardín",
+    "Description": "Plano detallado para fabricar un Pilar musicoestelar de jardín.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380451,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Fruto fluorescente del bosque",
+    "Description": "Plano detallado para fabricar “Fruto fluorescente del bosque”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393186,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Modelo de papel: Saltarín",
+    "Description": "Plano detallado para fabricar “Modelo de papel: Saltarín”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393187,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Modelo de papel: Rechoncho",
+    "Description": "Plano detallado para fabricar “Modelo de papel: Rechoncho”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393188,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Modelo de papel: Silbido",
+    "Description": "Plano detallado para fabricar “Modelo de papel: Silbido”.\nTras usarlo, entra en el menú de fabricación para verlo.",
+    "TypeDescription": "Plano de decoración",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393189,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Modelo de papel: Duro como una roca",
+    "Description": "Plano detallado para fabricar “Modelo de papel: Duro como una roca”.\nTras usarlo, entra en el menú de fabricación para verlo.",
     "TypeDescription": "Plano de decoración",
     "Icon": "UI_ItemIcon_Home_Common"
   }

@@ -1170,6 +1170,16 @@
     "Icon": "UI_ItemIcon_1102"
   },
   {
+    "MaterialType": 20,
+    "Id": 1199,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "에밀리의 운명의 별",
+    "Description": "에밀리의 운명의 자리 활성화 소재",
+    "TypeDescription": "운명의 자리 활성화",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
     "MaterialType": 5,
     "Id": 1201,
     "RankLevel": 5,
@@ -2082,28 +2092,6 @@
     "Icon": "UI_ItemIcon_100099"
   },
   {
-    "MaterialType": 5,
-    "EffectDescription": "드래곤의 피 버프 강화",
-    "Id": 101005,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "적색의 돌",
-    "Description": "적색의 돌",
-    "TypeDescription": "드래곤의 피 버프",
-    "Icon": "UI_ItemIcon_101005"
-  },
-  {
-    "MaterialType": 5,
-    "EffectDescription": "드래곤의 피 버프 강화",
-    "Id": 101007,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "적색의 돌",
-    "Description": "적색의 돌(설산 이벤트)",
-    "TypeDescription": "드래곤의 피 버프",
-    "Icon": "UI_ItemIcon_101005"
-  },
-  {
     "MaterialType": 4,
     "Id": 101001,
     "RankLevel": 0,
@@ -2144,6 +2132,17 @@
     "Icon": "UI_ItemIcon_101004"
   },
   {
+    "MaterialType": 5,
+    "EffectDescription": "드래곤의 피 버프 강화",
+    "Id": 101005,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "적색의 돌",
+    "Description": "적색의 돌",
+    "TypeDescription": "드래곤의 피 버프",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
     "MaterialType": 4,
     "Id": 101006,
     "RankLevel": 0,
@@ -2152,6 +2151,17 @@
     "Description": "드래곤 스파인의 특수한 자연환경과 지맥에 의해 생성된 진귀한 광석이다",
     "TypeDescription": "단조용 광석",
     "Icon": "UI_ItemIcon_101006"
+  },
+  {
+    "MaterialType": 5,
+    "EffectDescription": "드래곤의 피 버프 강화",
+    "Id": 101007,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "적색의 돌",
+    "Description": "적색의 돌(설산 이벤트)",
+    "TypeDescription": "드래곤의 피 버프",
+    "Icon": "UI_ItemIcon_101005"
   },
   {
     "MaterialType": 4,
@@ -20335,7 +20345,7 @@
     "RankLevel": 1,
     "ItemType": 2,
     "Name": "「온기」",
-    "Description": "토마의 이색 요리. 단순한 재료가 사용된 것이 믿기지 않을 정도로 세련된 스타일링에 한 모금 마시면 바로 햇살처럼 따듯한 토마의 웃음이 떠오른다. 가장 소박한 식재료로 몸과 마음을 따뜻하게 하는 맛. 이게 바로 토마의 실력인가?",
+    "Description": "토마의 특제 요리. 단순한 재료가 사용된 것이 믿기지 않을 정도로 세련된 스타일링에 한 모금 마시면 바로 햇살처럼 따듯한 토마의 웃음이 떠오른다. 가장 소박한 식재료로 몸과 마음을 따뜻하게 하는 맛. 이게 바로 토마의 실력인가?",
     "TypeDescription": "음식",
     "Icon": "UI_ItemIcon_108354"
   },
@@ -23915,6 +23925,126 @@
     "Icon": "UI_ItemIcon_108679"
   },
   {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 공격력이 160pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108680,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "이상한 치킨 프리카세",
+    "Description": "폰타인의 유명한 고기 요리. 한입 베어 물자마자 위화감이 느껴진다. 퍽퍽하고 누런 고기는 부드러운 크림으로도 구제할 수 없다. 심지어 살짝 쓴맛까지 느껴져 방금 돈 입맛이 단번에 사라져 버린다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108681"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 공격력이 194pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108681,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "치킨 프리카세",
+    "Description": "모르는 사람이 없는 폰타인 고기 요리. 기름에 고기를 겉이 바삭해질 때까지 굽고 양파와 다른 재료를 볶고, 발효 과일즙을 넣고 같이 끓인다. 진해질 때까지 졸인 후 잊지 말고 크림을 넣어야 한다. 크림이 고기를 부드럽게 골고루 감싸면 완성되는 이 요리는 폰타인 사람들에게 가장 친숙하고 따뜻한 맛을 선사한다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108681"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 공격력이 228pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108682,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "맛있는 치킨 프리카세",
+    "Description": "모르는 사람이 없는 폰타인 고기 요리. 크림과 닭고기의 만남이 풍기는 진한 향기에 마음이 사르르 녹는다. 폰타인 사람들 식탁의 단골 메뉴라고 하는데… 이렇게 맛있으니 평생 먹어도 안 질릴 만하다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108681"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 공격력이 274pt 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108683,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "향기로운 맛의 향연",
+    "Description": "에밀리의 특제 요리. 발효 과일즙이 은은한 꽃과 과일의 향을 풍기고, 초목의 향기가 입안에 가득 퍼지며, 색채의 조화를 이룬 달콤한 크림이 비단처럼 혀끝에서 미끄러진다. 풍부한 향미의 여운은 우연히 맡은 향기처럼 잊히지 않는다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108683"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 방어력이 215pt 증가하고 치유 효과가 6% 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108684,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "이상한 탱탱 아이스크림",
+    "Description": "물빛 아이스크림. 미각을 습격한 큼직한 소금 알갱이의 과도한 짠맛이 주는 자극에 정신이 아찔해진다…. 용기를 내어 다시 맛보려고 할 때는 아이스크림이 이미 다 녹아 셰이크가 되어버린 뒤다…",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108685"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 방어력이 261pt 증가하고 치유 효과가 8% 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108685,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "탱탱 아이스크림",
+    "Description": "물빛 아이스크림. 무더운 날씨에 더위를 달래주는 아이스크림보다 좋은 것은 없다. 차가운 식감은 마치 바닷속에 뛰어든 듯한 느낌을 주며, 고민도 입안의 열기와 함께 사라지고 상쾌한 기분만 남는다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108685"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 방어력이 308pt 증가하고 치유 효과가 10% 증가한다. 지속 시간: 300초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108686,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "맛있는 탱탱 아이스크림",
+    "Description": "물빛 아이스크림. 컵에 그려진 귀여운 탱탱 물범이 재미를 더했다. 편안한 기분을 선사하는 우유 향과 부드러운 짭짤함이 어우러지며, 미각이 해류 속으로 빨려 들어가 신비로운 모험을 떠난다. 이런 맛의 여정은 정말이지 끝이 없으면 좋겠다!",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108685"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 등반/대시 시 소모하는 스태미나가 15% 감소한다. 지속 시간: 900초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108687,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "이상한 바삭바삭 크루아상",
+    "Description": "작은 빵과 커피가 포함된 세트 요리. 퍼석퍼석하고 딱딱한 식감의 빵은 모든 수분을 잃은 듯하다. 쓰고 시큼한 맛의 음료는 약을 잘못 마신 듯한 느낌을 선사한다. 이게 한 끼 식사가 아니라서 정말 다행이다…",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108688"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 등반/대시 시 소모하는 스태미나가 20% 감소한다. 지속 시간: 900초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108688,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "바삭바삭 크루아상",
+    "Description": "빵과 커피가 포함된 세트 요리. 반죽을 돌돌 말아 달걀물을 칠하고 오븐 안에 넣으면, 부풀어 오른 작고 따뜻한 빵이 나온다. 달걀물을 칠하는 것은 제빵사의 사인과 같다고 하는데——이번에 남긴 사인도 매우 반듯하다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108688"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "파티 내 모든 캐릭터의 등반/대시 시 소모하는 스태미나가 25% 감소한다. 지속 시간: 900초. 다인 모드 시 자신의 캐릭터에만 적용된다",
+    "Id": 108689,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "맛있는 바삭바삭 크루아상",
+    "Description": "빵과 커피가 포함된 세트 요리. 양끝이 뾰족한 빵은 속이 부드럽고 겉이 바삭하다. 공기 중으로 퍼지는 향긋한 버터 냄새와 커피의 진한 맛이 섞여 천상의 맛을 이룬다. 아침이든 휴식 시간이든, 이 완벽한 세트 요리를 먹는다면 아무리 피곤한 사람도 생기 넘치는 모습을 되찾을 것이다",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108688"
+  },
+  {
+    "MaterialType": 1,
+    "Id": 108690,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "특제 마술 음료",
+    "Description": "기묘한 특제 음료. 빈틈없이 밀봉된 작은 병은 평범한 음료와 별반 다를 게 없어 보인다. 어쩌면 음료가 더 맛있어지는 마법이 걸려있을지도 모른다…. 그런데 그런 마법이 정말로 존재할까?",
+    "TypeDescription": "음식",
+    "Icon": "UI_ItemIcon_108690"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
@@ -25841,6 +25971,36 @@
     "ItemType": 2,
     "Name": "레시피: 귤향 오리 가슴살구이",
     "Description": "조리 과정이 자세히 적혀 있는 레시피. 「귤향 오리 가슴살구이」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109577,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "레시피: 치킨 프리카세",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「치킨 프리카세」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109578,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "레시피: 탱탱 아이스크림",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「탱탱 아이스크림」의 조리 방법이 적혀있다",
+    "TypeDescription": "레시피",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109579,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "레시피: 바삭바삭 크루아상",
+    "Description": "조리 과정이 자세히 적혀 있는 레시피. 「바삭바삭 크루아상」의 조리 방법이 적혀있다",
     "TypeDescription": "레시피",
     "Icon": "UI_ItemIcon_109000"
   },
@@ -35032,6 +35192,26 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120862,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "세 가문의 맹약",
+    "Description": "세월이 느껴지는 문서. 얼마나 오래 놓여 있었는지 모르겠다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_71700047"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120863,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "위대한 태엽",
+    "Description": "아주 높은 기준으로 보존된 태엽. 어떤 신기한 힘이 있길래 이렇게 귀한 대우를 받는지는 알 수 없다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120863"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120864,
     "RankLevel": 3,
     "ItemType": 2,
@@ -35142,6 +35322,36 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120888,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "첩첩 선반 조명등",
+    "Description": "원래 첩첩 선반 마을의 등대에 걸려 있던 조명등. 떼어내도 여전히 빛을 내뿜는다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120889"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120889,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「무기」 같은 용의 뿔",
+    "Description": "검처럼 생긴 용의 뿔. 과거 어떤 서투른 용의 소유였던 것 같다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120888"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120890,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "악룡의 사악한 비늘",
+    "Description": "불길한 힘을 내뿜는 비늘. 시뮬랑카의 악룡에게서 떨어진 것이라고 한다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120890"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120891,
     "RankLevel": 0,
     "ItemType": 2,
@@ -35159,6 +35369,16 @@
     "Description": "라바트의 어머니 집 수납장에서 발견한 메모 한 장. 폰타인 과학원 북쪽의 한 지점이 표시되어 있다",
     "TypeDescription": "임무 아이템",
     "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120893,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "흩어진 별",
+    "Description": "한때 별길 왕성 상공에 떠 있던 별. 어떤 이유로 인해 이곳에 흩어졌다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120893"
   },
   {
     "MaterialType": 2,
@@ -35199,6 +35419,66 @@
     "Description": "어떤 오래된 악보의 조각인 듯하다. 하지만 이 조각만으론 해독하기 어렵다",
     "TypeDescription": "임무 아이템",
     "Icon": "UI_ItemIcon_120917"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120918,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "특수 곡괭이",
+    "Description": "블록 광산에서 블록 광석을 채굴할 수 있는 곡괭이. 특별한 힘을 가지고 있어 암반층만 깎아내고 블록 광석과 시뮬랑카 주민은 털끝 하나 해치지 않는다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120918"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120919,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "여신의 원고·첫 번째",
+    "Description": "세상을 창조한 여신이 직접 쓴 이야기. 시뮬랑카를 탄생시킨 설계도이자 부정할 수 없는 역사다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120294"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120920,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "여신의 원고·두 번째",
+    "Description": "동화 작가의 친필 원고. 왜인지 종이에 뚫려있는 구멍은 마치…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120294"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120921,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "여신의 원고·세 번째",
+    "Description": "그냥 평범한 사람이 쓴 동화. 자세히 보면 원고지에 구멍이 뚫려 있는데 고양이 발자국인 것 같다…",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120294"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120925,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「비약」",
+    "Description": "「공감」 가문의 비약으로 별길 왕성의 주민을 체형을 키우고 힘을 강화할 수 있다고 한다. 하지만 정말 이 안에 그런 약이 들어있을까?",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120925"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120926,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "경비병의 창",
+    "Description": "별길 왕성 경비병의 창. 중심이 잘 잡혀있고 매끄러운 곡선이 아름답다. 평지에서 던지면 날아가는 용을 격추할 수 있다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_120926"
   },
   {
     "MaterialType": 2,
@@ -35639,6 +35919,66 @@
     "Description": "「하지만 어르신은 사랑의 두 번째 봄을 맞이하신 것 같네?」 시종들이 몰래 얘기했다…\n하지만 이건 아주 먼 훗날의 이야기다",
     "TypeDescription": "임무 아이템",
     "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121007,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「영원히 걸린 노을」",
+    "Description": "시뮬랑카에서 자라는 일몰 열매. 축복의 숲의 「마법의 물」을 만드는 데 사용할 수 있는 듯하다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_100002"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121008,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「뭍에서 헤엄치는 물고기」",
+    "Description": "시뮬랑카에서 자라는 금어초. 축복의 숲의 「마법의 물」을 제작하는 데 사용할 수 있는 듯하다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_100015"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121009,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「밤에만 피는 달」",
+    "Description": "시뮬랑카에서 자라는 달 연꽃. 축복의 숲의 「마법의 물」을 제작하는 데 사용할 수 있는 듯하다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_101215"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121010,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「마법의 물」",
+    "Description": "숲의 요정이 마법으로 만든 신기한 잉크. 축복의 숲의 주민들에게 매우 중요한 물건이다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_121010"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121016,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「악룡」의 그림책",
+    "Description": "「시뮬랑카의 악룡」——두린에 관한 그림책. 알려지지 않은 그의 이야기가 그려져 있다",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_121016"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121017,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "《옛 왕국의 꿈》",
+    "Description": "「리키아」라는 소녀가 고향이 흑룡에 의해 파괴된 후, 홀로 여정을 떠나는 이야기를 다룬 책",
+    "TypeDescription": "임무 아이템",
+    "Icon": "UI_ItemIcon_220100"
   },
   {
     "MaterialType": 31,
@@ -39641,6 +39981,46 @@
     "Icon": "UI_ItemIcon_220098"
   },
   {
+    "MaterialType": 21,
+    "Id": 220099,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "즐거운 편지지",
+    "Description": "마법의 형광빛이 은은하게 나는 편지지와 정교한 깃털 펜. 이 깃털 펜은 잡기만 해도 자동으로 어떤 사물의 위치를 우아한 필체와 유쾌한 단어로 자세하게 묘사하는데, 보물이 어디에 있는지 암시하는 것 같다….\n사용 후 주변 일정 범위 내의 「행복 조각」을 탐지할 수 있다",
+    "TypeDescription": "간편 아이템",
+    "Icon": "UI_ItemIcon_220099"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220100,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "기쁜 편지지",
+    "Description": "마법의 형광빛이 예쁘게 반짝이는 편지지와 아담한 깃털 펜. 이 깃털 펜은 잡기만 해도 자동으로 어떤 사물의 위치를 우아한 필체와 유쾌한 단어로 자세하게 묘사하는데, 보물이 어디에 있는지 암시하는 것 같다….\n사용 후 「시뮬랑카」에 있는 모든 「행복 조각」을 탐지할 수 있다",
+    "TypeDescription": "간편 아이템",
+    "Icon": "UI_ItemIcon_220100"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220101,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「옐레나」",
+    "Description": "에밀리가 직접 만든 향수 시제품. 폰타인 역사 속 전설의 향수 「아우구스투스」를 참고해 제조했다.\n햇빛 아래에서 병을 기울이면 수려한 글씨체의 작은 글 한 줄이 보인다. 「과거는 잊고, 꿋꿋하게 살아가라」",
+    "TypeDescription": "간편 아이템",
+    "Icon": "UI_ItemIcon_220101"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220102,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "아사기리의 폰타인 전용 사진기",
+    "Description": "아사기리에게 받은 사진기. 아사기리를 도와 폰타인 여행에서 소재를 수집하는 데 쓰인다….\n사진기가 잘 관리되어 있는 것으로 보아, 화가는 중요한 도구에 물감과 붓만큼 관심을 기울이는 것 같다…",
+    "TypeDescription": "간편 아이템",
+    "Icon": "UI_ItemIcon_220102"
+  },
+  {
     "MaterialType": 5,
     "Id": 221001,
     "RankLevel": 3,
@@ -41066,7 +41446,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "정의의 성의 물안개",
-    "Description": "울창한 관목, 만연한 꽃잎과 화려한 분수로 이뤄진 광장. 에리니에스섬의 루키나 분수 구역을 참고해 디자인했다.\n날이 맑을 때면 에리니에스섬의 꽃향기와 깨끗한 물안개가 뒤엉키며 이곳에 방문한 외지의 관광객과 폰타인 시민들의 마음을 밝혀준다. 만약 폭우가 내릴 때 이곳에 방문했더라도 루키나 분수에 얽힌 전설이 사람들에게 아름다운 기대감을 심어준다.\n해당 장식 세트를 선호하는 친구: 느비예트, 푸리나",
+    "Description": "울창한 관목, 만연한 꽃잎과 화려한 분수로 이뤄진 광장. 에리니에스섬의 루키나 분수 구역을 참고해 디자인했다.\n날이 맑을 때면 에리니에스섬의 꽃향기와 깨끗한 물안개가 뒤엉키며 이곳에 방문한 외지의 관광객과 폰타인 시민들의 마음을 밝혀준다. 만약 폭우가 내릴 때 이곳에 방문했더라도 루키나 분수에 얽힌 전설이 사람들에게 아름다운 기대감을 심어준다.\n해당 장식 세트를 선호하는 친구: 느비예트, 푸리나, 에밀리",
     "TypeDescription": "장식 세트 도면",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -41106,7 +41486,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "물의 나라의 알록달록 색채",
-    "Description": "무성한 식물이 자라있는 야외 풍경. 폰타인에서 자주 볼 수 있는 꽃과 관목이 모여 있다. 꽃과 초목은 회화에 자주 등장하는 테마이자 「색채」를 탐색하는 데 있어 중요한 출발 중 하나이다. 폰타인의 일부 화가들은 다양한 식물로 가득 찬 세계의 팔레트가 자신들에게 「완벽한 조합」의 예시를 보여줬다고 여긴다. 그 때문에 어떤 한 작품에 쓰인 모든 색을 식물에서 찾을 수 있다면 그 작품은 자연의 풍광과 같은 조화로운 아름다움을 담고 있는 것이라고 했다. 물론, 다양한 식물의 색채를 한데 섞지 않는다는 전제하에 말이다…\n해당 장식 세트를 선호하는 친구: 클로린드",
+    "Description": "무성한 식물이 자라있는 야외 풍경. 폰타인에서 자주 볼 수 있는 꽃과 관목이 모여 있다. 꽃과 초목은 회화에 자주 등장하는 테마이자 「색채」를 탐색하는 데 있어 중요한 출발 중 하나이다. 폰타인의 일부 화가들은 다양한 식물로 가득 찬 세계의 팔레트가 자신들에게 「완벽한 조합」의 예시를 보여줬다고 여긴다. 그 때문에 어떤 한 작품에 쓰인 모든 색을 식물에서 찾을 수 있다면 그 작품은 자연의 풍광과 같은 조화로운 아름다움을 담고 있는 것이라고 했다. 물론, 다양한 식물의 색채를 한데 섞지 않는다는 전제하에 말이다…\n해당 장식 세트를 선호하는 친구: 클로린드, 에밀리",
     "TypeDescription": "장식 세트 도면",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -49935,8 +50315,8 @@
     "Id": 383113,
     "RankLevel": 2,
     "ItemType": 2,
-    "Name": "간의 휴대용 등불-「현지 조달」",
-    "Description": "작업 순서가 상세히 적힌 도면. 「간의 휴대용 등불-『현지 조달』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "Name": "간이 휴대용 등불-「현지 조달」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「간이 휴대용 등불-『현지 조달』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
     "TypeDescription": "장식 도면",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -50217,6 +50597,226 @@
     "ItemType": 2,
     "Name": "장치 모형-「표준 조율」",
     "Description": "작업 순서가 상세히 적힌 도면. 「장치 모형-『표준 조율』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390525,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "재밌는 왕성의 집-「나팔수」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「재밌는 왕성의 집-『나팔수』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390526,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "재밌는 왕성의 집-「심벌즈 연주자」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「재밌는 왕성의 집-『심벌즈 연주자』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390527,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "재밌는 왕성의 집-「지휘자」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「재밌는 왕성의 집-『지휘자』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390528,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「동동 유닛」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『동동 유닛』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390529,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「딩딩 유닛」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『딩딩 유닛』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390530,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「우거진 숲의 마법 오두막」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『우거진 숲의 마법 오두막』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394325,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「우거진 숲의 모임」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『우거진 숲의 모임』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391143,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「칙칙폭폭 파도를 가르는 기관차」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『칙칙폭폭 파도를 가르는 기관차』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391144,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「쿨쿨 휴식 칸」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『쿨쿨 휴식 칸』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391145,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「한가득 화물 칸」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『한가득 화물 칸』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394117,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「우거진 숲의 자연미」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『우거진 숲의 자연미』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394603,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「가볍고 시원한 그늘대」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『가볍고 시원한 그늘대』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394604,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「시간 준수 정거장의 안내판」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『시간 준수 정거장의 안내판』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393460,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「바람을 잡는 성실한 경비병」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『바람을 잡는 성실한 경비병』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394118,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「예언의 창」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『예언의 창』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394119,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「별하늘의 문」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『별하늘의 문』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394120,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「정원의 별빛 음악 기둥」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『정원의 별빛 음악 기둥』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380451,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「우거진 숲의 형광 열매」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「『우거진 숲의 형광 열매』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393186,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "종이 모형-「폴짝폴짝」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「종이 모형-『폴짝폴짝』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393187,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "종이 모형-「둥글둥글」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「종이 모형-『둥글둥글』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393188,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "종이 모형-「슝슝슝」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「종이 모형-『슝슝슝』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
+    "TypeDescription": "장식 도면",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393189,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "종이 모형-「딱딱」",
+    "Description": "작업 순서가 상세히 적힌 도면. 「종이 모형-『딱딱』」의 제작 방법이 기재되어 있다.\n사용 후 제작 화면에서 확인할 수 있다",
     "TypeDescription": "장식 도면",
     "Icon": "UI_ItemIcon_Home_Common"
   }

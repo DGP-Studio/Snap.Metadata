@@ -1150,6 +1150,16 @@
     "Icon": "UI_ItemIcon_1102"
   },
   {
+    "MaterialType": 20,
+    "Id": 1199,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Emilie'nin Yaşam Yıldızı",
+    "Description": "Emilie'nin Takımyıldız Etkinleştirme Malzemesi",
+    "TypeDescription": "Takımyıldızı Etkinleştirir",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
     "MaterialType": 5,
     "Id": 1201,
     "RankLevel": 5,
@@ -1862,28 +1872,6 @@
     "Icon": "UI_ItemIcon_100099"
   },
   {
-    "MaterialType": 5,
-    "EffectDescription": "Ejder Kanı Güçlendirmesini artırır.",
-    "Id": 101005,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Kızıl Kuvars",
-    "Description": "Kızıl Kuvars",
-    "TypeDescription": "Ejder Kanı Güçlendirmesi",
-    "Icon": "UI_ItemIcon_101005"
-  },
-  {
-    "MaterialType": 5,
-    "EffectDescription": "Ejder Kanı Güçlendirmesini artırır.",
-    "Id": 101007,
-    "RankLevel": 0,
-    "ItemType": 2,
-    "Name": "Kızıl Kuvars",
-    "Description": "Kızıl Kuvars (Ejdersırtı Etkinliği)",
-    "TypeDescription": "Ejder Kanı Güçlendirmesi",
-    "Icon": "UI_ItemIcon_101005"
-  },
-  {
     "MaterialType": 4,
     "Id": 101001,
     "RankLevel": 0,
@@ -1924,6 +1912,17 @@
     "Icon": "UI_ItemIcon_101004"
   },
   {
+    "MaterialType": 5,
+    "EffectDescription": "Ejder Kanı Güçlendirmesini artırır.",
+    "Id": 101005,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kızıl Kuvars",
+    "Description": "Kızıl Kuvars",
+    "TypeDescription": "Ejder Kanı Güçlendirmesi",
+    "Icon": "UI_ItemIcon_101005"
+  },
+  {
     "MaterialType": 4,
     "Id": 101006,
     "RankLevel": 0,
@@ -1932,6 +1931,17 @@
     "Description": "Eşsiz coğrafi koşullar ve Ejdersırtı Ley Hatlarının oluşturduğu nadir ve değerli bir cevher.",
     "TypeDescription": "Dövmeye Uygun Cevher",
     "Icon": "UI_ItemIcon_101006"
+  },
+  {
+    "MaterialType": 5,
+    "EffectDescription": "Ejder Kanı Güçlendirmesini artırır.",
+    "Id": 101007,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kızıl Kuvars",
+    "Description": "Kızıl Kuvars (Ejdersırtı Etkinliği)",
+    "TypeDescription": "Ejder Kanı Güçlendirmesi",
+    "Icon": "UI_ItemIcon_101005"
   },
   {
     "MaterialType": 4,
@@ -20164,7 +20174,7 @@
   },
   {
     "MaterialType": 1,
-    "EffectDescription": "1.500 saniyeliğine tüm grup üyelerinin tırmanma ve depar esnasında harcadığı Dayanıklılık tüketimini %25 azaltır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "EffectDescription": "1.500 saniyeliğine tüm grup üyelerinin tırmanma ve depar esnasında harcadığı Dayanıklılık %25 azalır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
     "Id": 108388,
     "RankLevel": 3,
     "ItemType": 2,
@@ -21022,7 +21032,7 @@
   },
   {
     "MaterialType": 1,
-    "EffectDescription": "1.500 saniyeliğine tüm grup üyelerinin tırmanma ve depar esnasında harcadığı Dayanıklılık tüketimini %25 azaltır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "EffectDescription": "1.500 saniyeliğine tüm grup üyelerinin tırmanma ve depar esnasında harcadığı Dayanıklılık %25 azalır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
     "Id": 108466,
     "RankLevel": 3,
     "ItemType": 2,
@@ -22716,7 +22726,7 @@
   },
   {
     "MaterialType": 1,
-    "EffectDescription": "1.500 saniyeliğine tüm grup üyelerinin tırmanma ve depar esnasında harcadığı Dayanıklılık tüketimini %25 azaltır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "EffectDescription": "1.500 saniyeliğine tüm grup üyelerinin tırmanma ve depar esnasında harcadığı Dayanıklılık %25 azalır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
     "Id": 108620,
     "RankLevel": 3,
     "ItemType": 2,
@@ -23373,6 +23383,126 @@
     "Description": "Sethos'un özel tarifi. Hamurun kalınlığı, yemeğe çiğnemesi hoş bir doku katmış. İçindeki ızgara et, dışarıda bulacağın sıradan tariflerden farklı bir şekilde terbiye edilmiş. Yenilikçi lezzeti damağında şaşırtıcı bir etki bırakıyor. Yanında oturan kayıtsız genç, senin ikinci porsiyonu istediğini görünce göz kırpıyor ve \"Bu gizli bir tarif. Başka bir yerde bulamazsın.\" diyor.",
     "TypeDescription": "Yiyecek",
     "Icon": "UI_ItemIcon_108679"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 160 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108680,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tavuk Frikase (Tuhaf)",
+    "Description": "Meşhur bir Fontaine et yemeği. İlk lokmayı ağzına atar atmaz bu yemekte bir sorun olduğunu bariz biçimde anlıyorsun. Pürüzsüz krema ne yazık ki sararmış, kupkuru kalmış ve acılaşmış etin tadını kurtaramaz. Kurda benzettiğin açlığın, kuyruğunu bacakları arasına sıkıştırıp kaçmayı tercih etti...",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108681"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 194 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108681,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tavuk Frikase",
+    "Description": "Meşhur bir Fontaine et yemeği. Et önce derisi lezzetli ve kıtır bir kahverengiliğe ulaşana dek yağda kızartılır, ardından tavaya soğan ve diğer çeşniler eklenir. En son fermente meyve suyu eklenip pişmeye bırakılır. Çorba koyulaştığında son dokunuş olarak krema konur. Hazır olduğunda tüm et parçaları eşit biçimde kremaya bulanmış olur ve Fontainelilerin pek sevdiği o sıcak ve tanıdık lezzet ortaya çıkar.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108681"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 228 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108682,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tavuk Frikase (Lezzetli)",
+    "Description": "Meşhur bir Fontaine et yemeği. Krema ve tavuğun romantik randevusu anında derin ve zengin bir tat oluşturarak insanın moralini yükseltir. Fontainelilerin en sevdiği yemeklerden biri olduğu söylenir... Ömrünün sonuna kadar yesen bile muhteşem tadından bıkman mümkün olmaz.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108681"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 274 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108683,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Hoş Kokulu Bir Lezzet Şöleni",
+    "Description": "Emilie'nin özel tarifi. Fermente meyve suyundan hafif çiçeksi bir koku gelir ve damağını odunsu aromalarla kaplar. İpek gibi yumuşacık krema ise ağzında dağılarak lezzetini bırakır. Geriye yoğun aromanın verdiği zevki kalır ve gurmelere layık bir tat sunar.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108683"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Savunmasını 215 artırır, iyileşme etkilerini %6 güçlendirir. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108684,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tomdurma (Tuhaf)",
+    "Description": "Deniz mavisi bir dondurma. İri deniz tuzu parçaları, damağını hazırlıksız yakalayarak moralini yerle bir ediyor... Tekrar deneyecek cesareti topladığında dondurmanın eriyerek milkshake'e dönüştüğünü fark ediyorsun...",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108685"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Savunmasını 261 artırır, iyileşme etkilerini %8 güçlendirir. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108685,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tomdurma",
+    "Description": "Deniz mavisi bir dondurma. Aşırı sıcak bir günü geçirmenin en iyi yolu ferahlatıcı bir dondurmanın tadını çıkarmaktır. Hem vücudu serinletir hem ruhu yatıştırır, insana denize atlamış hissi yaşatır. Ağzındaki ısı uçup giderken tüm endişelerin onunla beraber yok olur ve geriye yalnızca saf mutluluk kalır.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108685"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Savunmasını 308 artırır, iyileşme etkilerini %10 güçlendirir. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108686,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tomdurma (Lezzetli)",
+    "Description": "Deniz mavisi bir dondurma. Bardağın üzerindeki sevimli mi sevimli Tombalak komik bir dokunuş katmış. Tereyağlı kremsilik, hafif ve ipeksi bir tuzlulukla bir araya gelerek tat duyularını unutulmaz bir deniz altı yolculuğuna davet ediyor. Bu yolculuk bitmesin isteyeceksin!",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108685"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "900 saniyeliğine tüm grup üyelerinin tırmanma ve depar esnasında harcadığı Dayanıklılık %15 azalır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108687,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kıtır Kruvasan Kombosu (Tuhaf)",
+    "Description": "Ufak bir hamur işi ve kahve kombinasyonu. Taş gibi sert ekmeğe dişlerini geçiremiyorsun, içinde en ufak nem zerresi bile kalmamış. İçeceğin tadı ise o kadar acı ki tıbbi bir ilaç zannetsen kimse şaşırmaz. Bu ikilinin tek iyi yönü, ana yemek olmaması...",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108688"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "900 saniyeliğine tüm grup üyelerinin tırmanma ve depar esnasında harcadığı Dayanıklılık %20 azalır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108688,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kıtır Kruvasan Kombosu",
+    "Description": "Ufak bir hamur işi ve kahve kombinasyonu. Hamur rulo yapılıp katlanır, üzerine çırpılmış yumurta sürülür ve fırına verilir. Hamur kısa süre sonra kabararak muhteşem bir hamur işine dönüşür ve fırından sıcacık alınır. Çırpılmış yumurtanın sürülme şeklinin fırıncının imzası olduğu söylenir. Bunda da muhteşem bir imza olduğu aşikar.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108688"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "900 saniyeliğine tüm grup üyelerinin tırmanma ve depar esnasında harcadığı Dayanıklılık %25 azalır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108689,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kıtır Kruvasan Kombosu (Lezzetli)",
+    "Description": "Ufak bir hamur işi ve kahve kombinasyonu. Ekmeğin iki sivri ucu, kıtır kabuğunun altında akılalmaz bir yumuşaklık saklar. Lezzetli tereyağı ise kahvenin yoğun tadıyla mükemmel bir uyum içindedir. İster sabahın erken saatlerinde ister kısa bir molada olsun, bu harika kombinasyon en yorgunları bile canlandırabilir.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108688"
+  },
+  {
+    "MaterialType": 1,
+    "Id": 108690,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Büyülü Bir Karışım",
+    "Description": "Ufak bir şişeye doldurulmuş muhteşem bir içecek. Sıradan bir içeceğe benzese de belki üzerinde içeceklerin tadını güzelleştiren bir büyü vardır... Böyle bir büyü gerçek olabilir mi acaba?",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108690"
   },
   {
     "MaterialType": 5,
@@ -25301,6 +25431,36 @@
     "ItemType": 2,
     "Name": "Tarif: Bulle Soslu Ördek Göğsü",
     "Description": "Bulle Soslu Ördek Göğsü yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109577,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Tavuk Frikase",
+    "Description": "Tavuk Frikase yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109578,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tarif: Tomdurma",
+    "Description": "Tomdurma yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109579,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Kıtır Kruvasan Kombosu",
+    "Description": "Kıtır Kruvasan Kombosu yapımını adım adım anlatan detaylı bir tarif.",
     "TypeDescription": "Tarif",
     "Icon": "UI_ItemIcon_109000"
   },
@@ -34492,6 +34652,26 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120862,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tanık Sözleşmesi",
+    "Description": "Oldukça eski duran bir belge. Kim bilir ne zamandır burada?",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_71700047"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120863,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Yüce Kurmalı Anahtarı",
+    "Description": "Son derece yüksek bir standartta korunmuş bir kurmalı cihaz. Böylesi özel bir muameleyi ne tür gizemli bir gücün hak ettiğini insan merak ediyor.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120863"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120864,
     "RankLevel": 3,
     "ItemType": 2,
@@ -34602,6 +34782,36 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120888,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tuğlaköy Uzun Menzilli Lamba",
+    "Description": "Bir zamanlar Tuğlaköy Fenerinde asılı bir lamba. Çıkarılmış olmasına rağmen hâlâ parlıyor.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120889"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120889,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Silah Gibi\" Bir Ejder Boynuzu",
+    "Description": "Kılıca benzeyen bir ejder boynuzu. Zamanında amansız bir ejdere aitmiş gibi duruyor...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120888"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120890,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Uğursuz Ejderin Pulu",
+    "Description": "İçinden kötü bir güç yayılan bir pul. Simulanka'nın uğursuz ejderinden düştüğü söyleniyor.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120890"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120891,
     "RankLevel": 0,
     "ItemType": 2,
@@ -34619,6 +34829,16 @@
     "Description": "Rawat'ın annesinin evindeki bir dolapta bulduğun defter sayfası. Fontaine Araştırma Enstitüsünün kuzeyinde bir yer işaretlenmiş.",
     "TypeDescription": "Görev Eşyası",
     "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120893,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Saçılmış Yıldız",
+    "Description": "Bir zamanlar Takımyıldız Metropolü'nün üzerinde asılı duran bir yıldız. Bilinmeyen bir nedenden ötürü gökyüzünden yere düşmüş...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120893"
   },
   {
     "MaterialType": 2,
@@ -34659,6 +34879,66 @@
     "Description": "Kadim bir bestenin parçası. Mevcut haliyle okunamaz.",
     "TypeDescription": "Görev Eşyası",
     "Icon": "UI_ItemIcon_120917"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120918,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Özel Kazma",
+    "Description": "Blokyum çıkarmak için kullanılan özel bir kazma. Kaya tabakalarını kesme gücüne sahiptir fakat blokyuma veya Simulanka sakinlerine zarar vermez.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120918"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120919,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tanrıçanın Taslak Metni (I)",
+    "Description": "Bu dünyanın yaratıcısı tarafından yazılan bir hikaye. Simulanka'yı doğuran taslak, şüphe götürmez bir tarih.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120294"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120920,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tanrıçanın Taslak Metni (II)",
+    "Description": "Bir masal yazarı tarafından kaleme alınan el yazması bir taslak. Nedense kağıttaki delik bir şeyi andırıyor...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120294"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120921,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tanrıçanın Taslak Metni (III)",
+    "Description": "En sıradan ellerden çıkma basit bir peri masalı. Yakından bakınca kağıttaki deliklerin bir kedi patisi şeklinde olduğunu görüyorsun...",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120294"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120925,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "\"Gizli İksir\"",
+    "Description": "Empati klanına ait gizli bir iksir olduğu söyleniyor. Takımyıldız Metropolü sakinlerinin boyutlarını büyütüp güçlerini artırabiliyormuş. Peki bu şişe gerçekten böyle bir ilaç içeriyor olabilir mi?",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120925"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120926,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Muhafız Mızrağı",
+    "Description": "Takımyıldız Metropolü muhafızlarının kullandığı uzun mızrak. Dengeli ve zariftir. Yerden gökyüzüne doğru fırlatarak uçan bir ejderi indirebilirsin.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_120926"
   },
   {
     "MaterialType": 2,
@@ -35099,6 +35379,66 @@
     "Description": "\"Gerçi Usta yeni bir sevgi dönemine daha girdi sanki?\" diye fısıldadı hizmetkarlar...\nAma bu çok daha sonra yaşandı.",
     "TypeDescription": "Görev Eşyası",
     "Icon": "UI_ItemIcon_120800"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121007,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "\"Hiç Bitmeyen Bir Gün Batımı\"",
+    "Description": "Simulanka'da yetişen bir Güneriği. Lütuflar Ormanı'nın Sihirli Toniğini yapmak için kullanılabilir.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100002"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121008,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "\"Kükremeyen Bir Aslan\"",
+    "Description": "Simulanka'da yetişen bir Aslanağzı. Lütuflar Ormanı'nın Sihirli Toniğini yapmak için kullanılabilir.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_100015"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121009,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "\"Yalnızca Geceleri Parıldayan Bir Ay\"",
+    "Description": "Simulanka'da yetişen bir Nilotpala Nilüferi. Lütuflar Ormanı'nın Sihirli Toniğini yapmak için kullanılabilir.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_101215"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121010,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Sihirli Tonik",
+    "Description": "Orman Perisi tarafından sihir kullanılarak yaratılan esrarengiz mürekkep. Lütuflar Ormanı'nda yaşayanlar için çok önemliymiş.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_121010"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121016,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Uğursuz Ejderin Resimli Kitabı",
+    "Description": "\"Simulanka'nın uğursuz ejderi\", yani Durin hakkında bir resimli kitap. Bu metinde yazan öyküleri hiç kimse bilmiyor.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_121016"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121017,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kadim Başkentin Rüyaları",
+    "Description": "Memleketi kara bir ejder tarafından harap edildikten sonra tek başına bir yolculuğa çıkan Lycia adında genç bir kadını anlatan kitap.",
+    "TypeDescription": "Görev Eşyası",
+    "Icon": "UI_ItemIcon_220100"
   },
   {
     "MaterialType": 31,
@@ -37516,7 +37856,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Çelik Kanat",
-    "Description": "Sürekli uçmak veya zıplayarak yerden yükselmek mevcut karaktere, maksimum 3 kademe olacak şekilde 0,3 saniyede bir Çelik Kanat kademesi kazandırır. Karakterler Havadan Saldırı yaptıklarında her Çelik Kanat kademesi saldırının hasarını %35 artırır. Karakterin sahip olduğu tüm Çelik Kanat kademeleri harcanır.",
+    "Description": "Sürekli uçmak veya zıplayarak yerden yükselmek mevcut karaktere, maksimum 3 kademe olacak şekilde 0,3 saniyede bir Çelik Kanat kademesi kazandırır. Karakterler Havadan Saldırı yaptıklarında her Çelik Kanat kademesi saldırının Hasarını %35 artırır. Karakterin sahip olduğu tüm Çelik Kanat kademeleri harcanır.",
     "TypeDescription": "Kırık Meyve Parçacığı",
     "Icon": "UI_ItemIcon_200202"
   },
@@ -37546,7 +37886,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Avcının Öfkesi",
-    "Description": "Karakterler, düşmanları yenmek için Yüklü Saldırı kullandığında 60 saniyeliğine gruptaki tüm karakterlerin Yüklü Saldırı hasarı %35 artar. Bu etkilerin her biri 5 kademeye kadar birikebilir ve 0,3 saniyede bir tetiklenebilir.",
+    "Description": "Karakterler, düşmanları yenmek için Yüklü Saldırı kullandığında 60 saniyeliğine gruptaki tüm karakterlerin Yüklü Saldırı Hasarı %35 artar. Bu etkilerin her biri 5 kademeye kadar birikebilir ve 0,3 saniyede bir tetiklenebilir.",
     "TypeDescription": "Kırık Meyve Parçası",
     "Icon": "UI_ItemIcon_200201"
   },
@@ -37596,7 +37936,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Kılıç Dansı",
-    "Description": "Karakterler 5 kademe Kılıç Dansı etkisine sahiptir ve her kademe karakterin verdiği Normal Saldırı Hasarını %15 artırır. 5 kademe biriktirmek Normal Saldırı Hızını %15 artırır. Karakter hasar aldığında 1 Kılıç Dansı kademesi kaybeder. Bu şekilde her saniye maksimum 1 kademe kaybedilebilir. Karakter, savaş alanında olduğu her 10 saniyede maksimum 5 kademe olacak şekilde Kılıç Dansı kademesi kazanır. BS, kademe sayısı ve etkileri her karakter için farklı hesaplanır.",
+    "Description": "Karakterler 5 kademe Kılıç Dansı etkisine sahiptir ve her kademe karakterin verdiği Normal Saldırı Hasarını %15 artırır. 5 kademe biriktirmek Normal Saldırı Hızını %15 artırır. Karakter Hasar aldığında 1 Kılıç Dansı kademesi kaybeder. Bu şekilde her saniye maksimum 1 kademe kaybedilebilir. Karakter, savaş alanında olduğu her 10 saniyede maksimum 5 kademe olacak şekilde Kılıç Dansı kademesi kazanır. BS, kademe sayısı ve etkileri her karakter için farklı hesaplanır.",
     "TypeDescription": "Kırık Meyve Parçası",
     "Icon": "UI_ItemIcon_200201"
   },
@@ -37676,7 +38016,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Sonsuz Vals",
-    "Description": "Element Patlaması kullandıktan sonra alandaki tüm grup üyeleri yakındaki düşmanlara hasar veren bir şok dalgası yayar. Bu şok dalgasının hasarı, dalgayı yayan karakterin Saldırısının %600'ü kadardır. Bu etki 2 saniyede bir uygulanabilir. BS tüm grup üyeleri için ortaktır.",
+    "Description": "Element Patlaması kullandıktan sonra alandaki tüm grup üyeleri yakındaki düşmanlara Hasar veren bir şok dalgası yayar. Bu şok dalgasının Hasarı, dalgayı yayan karakterin Saldırısının %600'ü kadardır. Bu etki 2 saniyede bir uygulanabilir. BS tüm grup üyeleri için ortaktır.",
     "TypeDescription": "Kırık Meyve Parçası",
     "Icon": "UI_ItemIcon_200201"
   },
@@ -37716,7 +38056,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Yıldırım Dansı",
-    "Description": "Bir karakter, düşmanlarına Elektrik Yükleme tepkimesini uyguladığında %50 ihtimalle şimşek çaktırır. Bu şimşek, tetikleyen karakterin Saldırısının %500'ü kadar hasar verir ve düşmanın Elektrik Direncini %25 azaltır. Bu etki 5 saniyede bir tetiklenebilir. BS tüm grup üyeleri için ortaktır.",
+    "Description": "Bir karakter, düşmanlarına Elektrik Yükleme tepkimesini uyguladığında %50 ihtimalle şimşek çaktırır. Bu şimşek, tetikleyen karakterin Saldırısının %500'ü kadar Hasar verir ve düşmanın Elektrik Direncini %25 azaltır. Bu etki 5 saniyede bir tetiklenebilir. BS tüm grup üyeleri için ortaktır.",
     "TypeDescription": "Kırık Meyve Parçası",
     "Icon": "UI_ItemIcon_200201"
   },
@@ -37746,7 +38086,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Sulu Sepken Dansı",
-    "Description": "Bir karakter, düşmanlarına Süper İletim tepkimesi uyguladığında %50 ihtimalle buz saçağı düşürür. Buz saçağı, tetikleyen karakterin Saldırısının %500'ü kadar hasar verir ve 10 saniyeliğine düşmanın Fiziksel Direncini %25 azaltır. Bu etki 5 saniyede bir tetiklenebilir. BS tüm grup üyeleri için ortaktır.",
+    "Description": "Bir karakter, düşmanlarına Süper İletim tepkimesi uyguladığında %50 ihtimalle buz saçağı düşürür. Buz saçağı, tetikleyen karakterin Saldırısının %500'ü kadar Hasar verir ve 10 saniyeliğine düşmanın Fiziksel Direncini %25 azaltır. Bu etki 5 saniyede bir tetiklenebilir. BS tüm grup üyeleri için ortaktır.",
     "TypeDescription": "Kırık Meyve Parçası",
     "Icon": "UI_ItemIcon_200201"
   },
@@ -37916,7 +38256,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Kılıç Dansı",
-    "Description": "Karakterler 5 kademe Kılıç Dansı etkisine sahiptir ve her kademe karakterin verdiği Normal Saldırı Hasarını %15 artırır. 5 kademe biriktirmek Normal Saldırı Hızını %15 artırır. Karakter hasar aldığında 1 Kılıç Dansı kademesi kaybeder. Bu şekilde her saniye maksimum 1 kademe kaybedilebilir. Karakter, savaş alanında olduğu her 10 saniyede maksimum 5 kademe olacak şekilde Kılıç Dansı kademesi kazanır. BS, kademe sayısı ve etkileri her karakter için farklı hesaplanır.",
+    "Description": "Karakterler 5 kademe Kılıç Dansı etkisine sahiptir ve her kademe karakterin verdiği Normal Saldırı Hasarını %15 artırır. 5 kademe biriktirmek Normal Saldırı Hızını %15 artırır. Karakter Hasar aldığında 1 Kılıç Dansı kademesi kaybeder. Bu şekilde her saniye maksimum 1 kademe kaybedilebilir. Karakter, savaş alanında olduğu her 10 saniyede maksimum 5 kademe olacak şekilde Kılıç Dansı kademesi kazanır. BS, kademe sayısı ve etkileri her karakter için farklı hesaplanır.",
     "TypeDescription": "Kırık Meyve Parçası",
     "Icon": "UI_ItemIcon_200201"
   },
@@ -37946,7 +38286,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Sonsuz Vals",
-    "Description": "Element Patlaması kullandıktan sonra alandaki tüm grup üyeleri yakındaki düşmanlara hasar veren bir şok dalgası yayar. Bu şok dalgasının hasarı, dalgayı yayan karakterin Saldırısının %600'ü kadardır. Bu etki 2 saniyede bir uygulanabilir. BS tüm grup üyeleri için ortaktır.",
+    "Description": "Element Patlaması kullandıktan sonra alandaki tüm grup üyeleri yakındaki düşmanlara Hasar veren bir şok dalgası yayar. Bu şok dalgasının Hasarı, dalgayı yayan karakterin Saldırısının %600'ü kadardır. Bu etki 2 saniyede bir uygulanabilir. BS tüm grup üyeleri için ortaktır.",
     "TypeDescription": "Kırık Meyve Parçası",
     "Icon": "UI_ItemIcon_200201"
   },
@@ -39099,6 +39439,46 @@
     "Description": "Gösterişli bir kart kutusu gibi görünse de aslında oldukça basittir. Çekilen sayılar bir kader yolunu ya da bir seçimin başarılı olup olmayacağını gösterir...\n\"Kartlarla arandaki bağa inandığın sürece çekilen sayılar senin kaderini gösterir.\" Bunu söyleyenin Lyney olduğunu düşünürsek şimdilik körü körüne inanmamak en iyisi.",
     "TypeDescription": "Aygıt",
     "Icon": "UI_ItemIcon_220098"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220099,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Neşeli Mektuplar",
+    "Description": "Hafif büyülü bir ışıltı yayan mektup kağıdı ve incelikle işlenmiş bir tüy kalem. Bu ikiliyi kullanırken zarif ve şevkli sözcükler kendiliğinden dökülür sayfalara; bazı nesnelerin konumlarını detaylıca yazarak hazinenin yerine işaret ederler...\nBu eşyayı kullandıktan sonra Simulanka'da belirli bir Etki Alanı içindeki \"Mutluluk Sayfaları\"nı tespit edebilirsin.",
+    "TypeDescription": "Aygıt",
+    "Icon": "UI_ItemIcon_220099"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220100,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Coşkulu Mektuplar",
+    "Description": "Büyülü bir ışıltı yayan mektup kağıdı ve ustalıkla işlenmiş bir tüy kalem. Bu ikiliyi kullanırken zarif ve şevkli sözcükler kendiliğinden dökülür sayfalara; bazı nesnelerin konumlarını detaylıca yazarak hazinenin yerine işaret ederler...\nBu eşyayı kullandıktan sonra Simulanka'daki tüm \"Mutluluk Sayfaları\" tespit edebilirsin.",
+    "TypeDescription": "Aygıt",
+    "Icon": "UI_ItemIcon_220100"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220101,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Yelena\"",
+    "Description": "Emilie'nin bizzat ürettiği parfümün bir numunesi. Fontaine tarih kitaplarında bahsi geçen efsanevi \"Auguste\" parfümünü baz almıştır.\nŞişeyi güneş ışığına doğru çevirirsen zarif bir yazıyla karşılaşırsın: \"Geçmişi unut, yaşamaya devam et.\"",
+    "TypeDescription": "Aygıt",
+    "Icon": "UI_ItemIcon_220101"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220102,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Asagiri'nin Fontaine'e Özel Kamerası",
+    "Description": "Asagiri'den aldığın bir Kamera. Bu Kamerayı kullanarak Fontaine'e yaptığı seyahatinde Asagiri'nin ilham toplamayı tamamlamasına yardımcı ol.\nKamera oldukça iyi bakımlı, belli ki bu sanatçı boyalarına ve fırçalarına gösterdiği özeni bu önemli cihaza da göstermiş...",
+    "TypeDescription": "Aygıt",
+    "Icon": "UI_ItemIcon_220102"
   },
   {
     "MaterialType": 5,
@@ -40526,7 +40906,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Adalet Sarayının Taze Sisi",
-    "Description": "Gösterişli bir çeşme, yeşil çalılar ve canlı çiçeklerle dolu bir meydan. Tasarım, Erinnyes'te bulunan Lucine Çeşmesinden ilhamla yapılmıştır.\nHava güzel olduğunda Erinnyes'teki çiçeklerin arasından süzülen o hafif sis hem orada yaşayanların hem de gezmeye gelen turistlerin keyfini yerine getirir. Vardığında sağanak yağmura bile yakalansan Çeşmeyle ilgili anlatılan efsaneler insana yine de umut verir.\nYoldaşların arasından Neuvillette ve Furina bu Dekorasyon Setini tercih eder.",
+    "Description": "Gösterişli bir çeşme, yeşil çalılar ve canlı çiçeklerle dolu bir meydan. Tasarımı, Erinnyes'te bulunan Lucine Çeşmesinden ilham alınarak yapılmıştır.\nHava güzel olduğunda Erinnyes'teki çiçeklerin arasından süzülen o hafif sis hem orada yaşayanların hem de gezmeye gelen turistlerin keyfini yerine getirir. Vardığında sağanak yağmura bile yakalansan Çeşmeyle ilgili anlatılan efsaneler insana yine de umut verir.\nYoldaşların arasından Neuvillette, Furina ve Emilie bu Dekorasyon Setini tercih eder.",
     "TypeDescription": "Dekorasyon Seti Taslağı",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -40566,7 +40946,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Su Ulusunun Ebruli Renkleri",
-    "Description": "Gösterişli bitkilerle dolu bir kır manzarası. Fontaine'in dört bir yanında görülebilecek her türden çiçek ve çalı vardır. Çiçekler ve çalılar resimlerde sık görülen bir temadır ve \"renk\" keşfinin de başlangıcıdır. Fontaineli bazı ressamlar dünyanın renk paletinin, bitkileri kullanarak muhteşem renk birleşimlerini gösterdiğine inanırlar. Dolayısıyla bir tabloda yer alan tüm renklerin kaynağı bir çiçekte bulunabiliyorsa o zaman bu tablonun doğal manzaralara eş bir güzelliği vardır. Tabii bitkilerden gelen renkleri birbiriyle fazla karıştırmaman gerekir...\nYoldaşların arasından Clorinde bu Dekorasyon Setini tercih eder.",
+    "Description": "Gösterişli bitkilerle dolu bir kır manzarası. Fontaine'in dört bir yanında görülebilecek her türden çiçek ve çalı vardır. Çiçekler ve çalılar resimlerde sık görülen bir temadır ve \"renk\" keşfinin de başlangıcıdır. Fontaineli bazı ressamlar dünyanın renk paletinin, bitkileri kullanarak muhteşem renk birleşimlerini gösterdiğine inanırlar. Dolayısıyla bir tabloda yer alan tüm renklerin kaynağı bir çiçekte bulunabiliyorsa o zaman bu tablonun doğal manzaralara eş bir güzelliği vardır. Tabii bitkilerden gelen renkleri birbiriyle fazla karıştırmaman gerekir...\nYoldaşların arasından Clorinde ve Emilie bu Dekorasyon Setini tercih eder.",
     "TypeDescription": "Dekorasyon Seti Taslağı",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -49677,6 +50057,226 @@
     "ItemType": 2,
     "Name": "Düzenek Modeli: Standart Müzik Modu",
     "Description": "Düzenek Modeli: Standart Müzik Modu yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390525,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Metropol Eğlence Evi: Trompetçi",
+    "Description": "\"Metropol Eğlence Evi: Trompetçi\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390526,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Metropol Eğlence Evi: Zilci",
+    "Description": "\"Metropol Eğlence Evi: Zilci\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390527,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Metropol Eğlence Evi: Orkestra Şefi",
+    "Description": "\"Metropol Eğlence Evi: Orkestra Şefi\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390528,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Güm Güm Ünitesi",
+    "Description": "\"Güm Güm Ünitesi\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390529,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Çın Çın Ünitesi",
+    "Description": "\"Çın Çın Ünitesi\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390530,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sihirli Orman Kulübesi",
+    "Description": "\"Sihirli Orman Kulübesi\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394325,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Neşeli Orman Partisi",
+    "Description": "\"Neşeli Orman Partisi\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391143,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Dalga Kıran Lokomotif",
+    "Description": "\"Dalga Kıran Lokomotif\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391144,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Rahat Uyku Vagonu",
+    "Description": "\"Rahat Uyku Vagonu\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391145,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Dopdolu Yük Vagonu",
+    "Description": "\"Dopdolu Yük Vagonu\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394117,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ezeli Orman Güzeli",
+    "Description": "\"Ezeli Orman Güzeli\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394603,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Havadar Durak Çatısı",
+    "Description": "\"Havadar Durak Çatısı\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394604,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Saatleri Aksatmayan Tren İstasyonu Tabelası",
+    "Description": "\"Saatleri Aksatmayan Tren İstasyonu Tabelası\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393460,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "İtinalı Rüzgar Kapanı Nöbetçisi",
+    "Description": "\"İtinalı Rüzgar Kapanı Nöbetçisi\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394118,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kehanete Açılan Pencere",
+    "Description": "\"Kehanete Açılan Pencere\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394119,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Yıldızlar Kapısı",
+    "Description": "\"Yıldızlar Kapısı\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394120,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Yıldızlı Müzikli Bahçe Sütunu",
+    "Description": "\"Yıldızlı Müzikli Bahçe Sütunu\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380451,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Parlayan Orman Meyvesi",
+    "Description": "\"Parlayan Orman Meyvesi\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393186,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Origami Modeli: Zıpla, Hopla, Sıçra",
+    "Description": "\"Origami Modeli: Zıpla, Hopla, Sıçra\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393187,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Origami Modeli: Toparlak Göbek",
+    "Description": "\"Origami Modeli: Toparlak Göbek\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393188,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Origami Modeli: Fiyuuuu!",
+    "Description": "\"Origami Modeli: Fiyuuuu!\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393189,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Origami Modeli: Son Derece Sert",
+    "Description": "\"Origami Modeli: Son Derece Sert\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
     "Icon": "UI_ItemIcon_Home_Common"
   }
