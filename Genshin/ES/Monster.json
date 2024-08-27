@@ -4747,6 +4747,36 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 30111,
+    "RelationshipId": 30111,
+    "Name": "Soldado Fatui - Guardia con Cañón Cryo aguerrido",
+    "Title": "Soldado - Guardia con Cañón Cryo",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30113,
+    "RelationshipId": 30113,
+    "Name": "Soldado Fatui - Electromartillador de Vanguardia aguerrido",
+    "Title": "Soldado - Electromartillador de Vanguardia",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Strong_GreatHammer_Electric_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30116,
+    "RelationshipId": 30116,
+    "Name": "Soldado Fatui - Guerrillero con Cañón Pyro aguerrido",
+    "Title": "Soldado - Guerrillero con Cañón Pyro",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Rifle_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23020101,
     "DescribeId": 30201,
     "RelationshipId": 30201,
@@ -4800,6 +4830,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30211,
+    "RelationshipId": 30211,
+    "Name": "Soldado Fatui - Recaudador Pyro aguerrido",
+    "Title": "Recaudador - Filos incineradores",
+    "Icon": "UI_MonsterIcon_Fatuus_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 23030101,
@@ -6889,6 +6929,58 @@
     ]
   },
   {
+    "Id": 24090101,
+    "DescribeId": 40901,
+    "RelationshipId": 40901,
+    "MonsterName": "ToothTrap_01",
+    "Name": "Autómata Fuentenigma - Rastreador",
+    "Title": "Autómata Fuentenigma - Rastreador",
+    "Description": "Una maquinaria usada para labores de recolección en ruinas antiguas.\nSegún las leyendas, se trata de una máquina de trabajo especial para ruinas de la antigüedad que fue diseñada principalmente con fines experimentales, como atrapar o recoger muestras, y que solo cuenta con unas funciones de combate básicas.\nDicen los rumores que no fue creada por humanos, sino por una civilización mucho más antigua. Sin embargo, en el presente, dicha civilización ya no existe y lo único que queda de ella son estas extrañas centinelas.",
+    "Icon": "UI_MonsterIcon_ToothTrap",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112113,
+      112114,
+      112115,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
@@ -8740,6 +8832,842 @@
     ]
   },
   {
+    "Id": 25500101,
+    "DescribeId": 55001,
+    "RelationshipId": 55001,
+    "MonsterName": "Human_Female_NoWeapon_Mosasaurus_01",
+    "Name": "Guerrera Flujoafilado - Guerrillera",
+    "Title": "Guerrera Flujoafilado - Guerrillera",
+    "Description": "Una guerrera procedente del origen de los manantiales, así como una centinela tribal que patrulla por zonas acuáticas y costeras.\nEsta Guerrera Tribal no lleva ningún arma porque es experta en las técnicas del combate físico. Te parecerá que sus puñetazos y sus patadas son poca cosa, pero en realidad encierran un poder tan abrumador como el de las olas.",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501101,
+    "DescribeId": 55011,
+    "RelationshipId": 55011,
+    "MonsterName": "Human_Female_Sword_Drillhead_01",
+    "Name": "Guerrera Forjarenas - Interrogadora",
+    "Title": "Guerrera Forjarenas - Interrogadora",
+    "Description": "Una guerrera de los cañones, así como una centinela tribal que patrulla por las montañas y ríos en los que abundan las piedras preciosas.\nEsta Guerrera Tribal lleva un bate con el que puede hacer añicos incluso a la más dura de las piedras. Cuando no está combatiendo, suele destrozar rocas con su arma en busca de gemas y minerales flogísticos.",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501201,
+    "DescribeId": 55012,
+    "RelationshipId": 55012,
+    "MonsterName": "Human_Female_Sword_Hookwalker_01",
+    "Name": "Guerrera Rauda - Buscapistas",
+    "Title": "Guerrera Rauda - Buscapistas",
+    "Description": "Una guerrera de los árboles, así como una centinela tribal que patrulla por cañones y bosques con arroyos.\nEn comparación con los guerreros de otras tribus, estas, que siempre están de acá para allá entre las montañas con sus cuerdas y sus ganchos, tienen una excelente percepción del entorno y no dejan de pensar en formas de derrotar a sus oponentes atrapándolos por sorpresa.",
+    "Icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502101,
+    "DescribeId": 55021,
+    "RelationshipId": 55021,
+    "MonsterName": "Human_Male_Standard_Sword_Hookwalker_01",
+    "Name": "Guerrero Raudo - Exploracéfiros",
+    "Title": "Guerrero Raudo - Exploracéfiros",
+    "Description": "Un guerrero de los árboles, así como un centinela tribal que patrulla por cañones y bosques con arroyos.\nDicen que, a modo de entrenamiento de combate, los miembros de las tribus que usan espadas deben pasar un día entero bajo un árbol partiendo las hojas que se le caen. Al igual que una hoja no hace ningún ruido al caer, los cortes de estos mensajeros pueden llegar cuando menos te lo esperes.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502201,
+    "DescribeId": 55022,
+    "RelationshipId": 55022,
+    "MonsterName": "Human_Male_Standard_Sword_Mosasaurus_01",
+    "Name": "Guerrero Flujoafilado - Serrasálmido",
+    "Title": "Guerrero Flujoafilado - Serrasálmido",
+    "Description": "Un guerrero procedente del origen de los manantiales, así como un centinela tribal que patrulla por zonas acuáticas y costeras.\nSiempre se sitúa en el frente de batalla y blande una espada con unos dientes desgarradores. Los miembros de las tribus que practican el uso de la espada lo hacen en zonas acuáticas para entrenar su fuerza y sus habilidades contra la resistencia del agua. Los mejores entre ellos son capaces de partir un pez en dos.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25503101,
+    "DescribeId": 55031,
+    "RelationshipId": 55031,
+    "MonsterName": "Human_Male_Standard_Claymore_Hookwalker_01",
+    "Name": "Guerrero Raudo - Mensajero Filopesado",
+    "Title": "Guerrero Raudo - Mensajero Filopesado",
+    "Description": "Un guerrero de los árboles, así como un centinela tribal que patrulla por cañones y bosques con arroyos.\nHay quien piensa que un mandoble es un arma demasiado pesada para que la lleve un mensajero de los Retoños Arbóreos. Sin embargo, tal vez precisamente debido a que tienen una responsabilidad tan grande, un arma con una gran capacidad de disuasión es algo absolutamente imprescindible.",
+    "Icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25504101,
+    "DescribeId": 55041,
+    "RelationshipId": 55041,
+    "MonsterName": "Human_MuscleMan_Claymore_Drillhead_01",
+    "Name": "Guerrero Forjarenas - Quebrantaescudos",
+    "Title": "Guerrero Forjarenas - Quebrantaescudos",
+    "Description": "Un guerrero de los cañones, así como un centinela tribal que patrulla por las montañas y ríos en los que abundan las piedras preciosas.\nEste Guerrero Tribal lleva un martillo gigante para ir en la vanguardia y ser el primero en romper las defensas enemigas. En los Vástagos del Eco, una tribu aficionada a las gemas y la artesanía decorativa, los martillos son unas herramientas que los guerreros usaban mucho en su infancia.",
+    "Icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505101,
+    "DescribeId": 55051,
+    "RelationshipId": 55051,
+    "MonsterName": "Human_Male_Fat_Sword_Drillhead_01",
+    "Name": "Guerrero Forjarenas - Lanzajabalinas",
+    "Title": "Guerrero Forjarenas - Lanzajabalinas",
+    "Description": "Un guerrero de los cañones, así como un centinela tribal que patrulla por las montañas y ríos en los que abundan las piedras preciosas.\nEn la época en la que las montañas habían sido destrozadas y las tribus necesitaban ser reconstruidas, los guerreros usaban jabalinas como marcas con las que determinaban las ubicaciones de ambos lados de un cañón desde las que se podían excavar nuevos caminos. Para ello, tenían que clavar muy bien las jabalinas en la roca.",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505201,
+    "DescribeId": 55052,
+    "RelationshipId": 55052,
+    "MonsterName": "Human_Male_Fat_Sword_Mosasaurus_01",
+    "Name": "Guerrero Flujoafilado - Arponero",
+    "Title": "Guerrero Flujoafilado - Arponero",
+    "Description": "Un guerrero procedente del origen de los manantiales, así como un centinela tribal que patrulla por zonas acuáticas y costeras.\nEste guerrero lleva dos arpones y sus habilidades de caza y pesca no se deben subestimar. Dicen que, en el pasado, la gente de las tribus cazaba bestias gigantes de aletas y escamas duras como el acero usando estas habilidades.",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510101,
+    "DescribeId": 55101,
+    "RelationshipId": 55101,
+    "MonsterName": "Tribalwarrior_Male_Standard_Powermaul_Drillhead_01",
+    "Name": "Soldado Tepetlisaurio - Aplastacristales",
+    "Title": "Soldado Tepetlisaurio - Aplastacristales",
+    "Description": "Un poderoso soldado de los cañones cuya valentía ha recibido cierto reconocimiento, y por lo cual se le ha otorgado la corona sáurica que lleva en la cabeza.\nPuede atacar con el poder de una avalancha. Incluso entre los Vástagos del Eco, que viven de las montañas y los minerales, los soldados sauriocoronados entienden de piedras más que nadie. Dicen que incluso pueden adivinar la pureza y las vetas del interior de un mineral en bruto con solo observar su áspero exterior.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510201,
+    "DescribeId": 55102,
+    "RelationshipId": 55102,
+    "MonsterName": "Tribalwarrior_Male_Strong_Chainsword_Drillhead_01",
+    "Name": "Soldado Tepetlisaurio - Destrozarrocas",
+    "Title": "Soldado Tepetlisaurio - Destrozarrocas",
+    "Description": "Un poderoso soldado de los cañones cuya valentía ha recibido cierto reconocimiento, y por lo cual se le ha otorgado la corona sáurica que lleva en la cabeza.\nPuede atacar con el poder de una avalancha. Cuenta la leyenda que, originalmente, las Montañas Cristasulfúricas eran una cordillera más completa y hermosa que ahora. Adoptó su forma actual cuando, al llegar la marea oscura, los soldados sauriocoronados de los Vástagos del Eco abrieron huecos en la tierra para guiar dicha marea.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510301,
+    "DescribeId": 55103,
+    "RelationshipId": 55103,
+    "MonsterName": "Tribalwarrior_Male_Standard_Chainsword_Hookwalker_01",
+    "Name": "Soldado Yumkasaurio - Aserrahojas",
+    "Title": "Soldado Yumkasaurio - Aserrahojas",
+    "Description": "Un poderoso soldado de los árboles cuya valentía ha recibido cierto reconocimiento, y por lo cual se le ha otorgado la corona sáurica que lleva en la cabeza.\nPuede usar ganchos de agarre para aumentar el alcance de sus ataques. Los ganchos son un elemento indispensable en la vida diaria de los Retoños Arbóreos. Sin embargo, solo los guerreros más fuera de sus cabales combinarían un gancho con una sierra para crear un arma muy complicada de manejar, pero con una capacidad destructiva letal.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510401,
+    "DescribeId": 55104,
+    "RelationshipId": 55104,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Hookwalker_01",
+    "Name": "Soldado Yumkasaurio - Artillera celeste",
+    "Title": "Soldado Yumkasaurio - Artillera celeste",
+    "Description": "Una poderosa soldado de los árboles cuya valentía ha recibido cierto reconocimiento, y por lo cual se le ha otorgado la corona sáurica que lleva en la cabeza.\nPuede usar ganchos de agarre para aumentar el alcance de sus ataques. Tras construir un mecanismo muy sofisticado, ha obtenido un cañón que se dispara con el gancho de la cuerda. Para los soldados sauriocoronados de los Retoños Arbóreos, pulir las habilidades y el pensamiento es más importante que entrenar el espíritu y la fuerza de voluntad.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510501,
+    "DescribeId": 55105,
+    "RelationshipId": 55105,
+    "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Mosasaurus_01",
+    "Name": "Soldado Koholasaurio - Caminaolas",
+    "Title": "Soldado Koholasaurio - Caminaolas",
+    "Description": "Una poderosa soldado procedente del origen de los manantiales cuya valentía ha recibido cierto reconocimiento, y por lo cual se le ha otorgado la corona sáurica que lleva en la cabeza.\nPuede usar el poder de la marea para trasladarse de un lado a otro. Cuentan las leyendas que los héroes de la tribu podían moverse sobre el agua a toda velocidad y sin la ayuda de ninguna herramienta. En la actualidad, la gente de la tribu considera que ello se trata de una compleja habilidad de manipulación de la marea cuya clave reside en la manera de moverse.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510601,
+    "DescribeId": 55106,
+    "RelationshipId": 55106,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Mosasaurus_01",
+    "Name": "Soldado Koholasaurio - Quebrantarrecifes",
+    "Title": "Soldado Koholasaurio - Quebrantarrecifes",
+    "Description": "Una poderosa soldado procedente del origen de los manantiales cuya valentía ha recibido cierto reconocimiento, y por lo cual se le ha otorgado la corona sáurica que lleva en la cabeza.\nPuede usar el poder de la marea para trasladarse de un lado a otro. Hay tres fases de entrenamiento para dominar esta habilidad: la primera es la de adaptación, la segunda, la de sumisión, y la tercera, la de manipulación. Ser capaz de usar esta habilidad solamente es el requisito más básico para formar parte de los soldados sauriocoronados del Pueblo de los Manantiales, pero aquellos de mayores capacidades pueden incluso “navegar” por tierra durante un breve periodo de tiempo haciendo uso de esta técnica.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55151,
+    "RelationshipId": 55151,
+    "Name": "Soldado Tepetlisaurio - Destrozarrocas aguerrido",
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55152,
+    "RelationshipId": 55152,
+    "Name": "Soldado Koholasaurio - Caminaolas aguerrida",
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55153,
+    "RelationshipId": 55153,
+    "Name": "Soldado Yumkasaurio - Artillera celeste aguerrida",
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55154,
+    "RelationshipId": 55154,
+    "Name": "¿?",
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55161,
+    "RelationshipId": 55161,
+    "Name": "¿?",
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55501,
+    "RelationshipId": 55501,
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55502,
+    "RelationshipId": 55502,
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55503,
+    "RelationshipId": 55503,
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55504,
+    "RelationshipId": 55504,
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55505,
+    "RelationshipId": 55505,
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55506,
+    "RelationshipId": 55506,
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55507,
+    "RelationshipId": 55507,
+    "Name": "Jefe de la tribu de los Tepetlisaurios",
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26010101,
     "DescribeId": 60101,
     "RelationshipId": 60101,
@@ -9491,7 +10419,7 @@
     "Id": 0,
     "DescribeId": 60512,
     "RelationshipId": 60512,
-    "Name": "Dragarto de las Profundidades Primordial",
+    "Name": "Dragarto de las Profundidades Primordial aguerrido",
     "Title": "Dragarto de las Profundidades Primordial",
     "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
@@ -11768,6 +12696,694 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 26200101,
+    "DescribeId": 62001,
+    "RelationshipId": 62001,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Small_01",
+    "Name": "Cría de Tepetlisaurio",
+    "Title": "Cría de Tepetlisaurio",
+    "Description": "Un Tepetlisaurio joven capaz de moverse por rocas y flogisto sólido.\nAún no le ha crecido el cuerno en la frente y sus habilidades de excavación todavía están en desarrollo, de manera que suelen escucharse noticias de Crías de Tepetlisaurio que se quedan atrapadas entre las rocas. Sin embargo, no hay de que preocuparse, pues tarde o temprano se convertirán en unos Tepetlisaurios capaces de moverse libremente por las rocas más duras.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 14.9424,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26200201,
+    "DescribeId": 62002,
+    "RelationshipId": 62002,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Normal_01",
+    "Name": "Tepetlisaurio",
+    "Title": "Tepetlisaurio",
+    "Description": "Un saurio con un cuerno y unas garras muy tenaces, capaz de moverse por rocas y flogisto sólido.\nCuenta la leyenda que los ancestros de los Tepetlisaurios eran unos dragones muy longevos tan grandes como las montañas. Cuando dormían, en sus espaldas se formaban montañas, y al despertar, se sacudían la tierra y las piedrecillas para que entre sus escamas solo quedaran radiantes piedras preciosas. Se dice que los objetos de gran tamaño similares a un taladro de los Vástagos del Eco son los restos de los cuernos de aquellos grandes dragones.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 40.752,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210101,
+    "DescribeId": 62101,
+    "RelationshipId": 62101,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Small_01",
+    "Name": "Cría de Koholasaurio",
+    "Title": "Cría de Koholasaurio",
+    "Description": "Un Koholasaurio joven capaz de moverse por el agua y el flogisto líquido.\nTanto su piel como sus aletas están aún en desarrollo, de manera que, a diferencia de los Koholasaurios adultos, estos no pueden permanecer mucho tiempo en entornos con altas temperaturas. Sin embargo, no hay de que preocuparse, pues tarde o temprano se convertirá en un Koholasaurio capaz de moverse libremente por el agua.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.3,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210201,
+    "DescribeId": 62102,
+    "RelationshipId": 62102,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Normal_01",
+    "Name": "Koholasaurio",
+    "Title": "Koholasaurio",
+    "Description": "Un saurio con unas aletas muy toscas y una larga cola, capaz de moverse por el agua y el flogisto líquido.\nCuenta la leyenda que los dragones de la antigüedad tenían una mayor capacidad de adaptación al entorno, de manera que, al flotar en la superficie del agua, los dragones marinos más grandes se podían confundir con islas enteras. Los Koholasaurio de ahora serían los descendientes de aquellos gigantescos dragones marinos. De hecho, a partir de sus amplias espaldas, nos podemos hacer una idea de lo colosales que debieron de ser aquellas bestias marinas de la antigüedad.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220101,
+    "DescribeId": 62201,
+    "RelationshipId": 62201,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Small_01",
+    "Name": "Cría de Yumkasaurio",
+    "Title": "Cría de Yumkasaurio",
+    "Description": "Un Yumkasaurio joven capaz de escupir la pectina de flamigranada que esconde en las mejillas para atrapar objetos lejanos.\nTodavía no puede agarrar las cosas con fuerza y su sentido del equilibrio no está lo suficientemente desarrollado como para poder moverse sin problema por el aire, de manera que a veces se cae hacia un lado si se sienta sobre su propia cola. Sin embargo, no hay de que preocuparse, pues tarde o temprano se convertirá en un Yumkasaurio capaz de moverse a sus anchas por los bosques.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220201,
+    "DescribeId": 62202,
+    "RelationshipId": 62202,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Normal_01",
+    "Name": "Yumkasaurio",
+    "Title": "Yumkasaurio",
+    "Description": "Un saurio con unas fuertes extremidades y una cola blandita y esponjosa, capaz de escupir la pectina de flamigranada que esconde en las mejillas para atrapar objetos lejanos.\nSegún las leyendas, los Yumkasaurios de ahora no se parecen en nada a los del pasado, los cuales eran tan pequeños que hasta costaba verlos. Podían flotar en el aire y pegarse al cuerpo de otros dragones más grandes, o juntarse para flotar como nubes. No obstante, no tuvieron más remedio que adoptar su aspecto actual para poder conservar su forma después de que sus habilidades se degeneraran.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220301,
+    "DescribeId": 62203,
+    "RelationshipId": 62203,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Primo_01",
+    "Name": "Rey Yumkasaurio Glotón",
+    "Title": "Rey Yumkasaurio Glotón",
+    "Description": "Un poderoso Yumkasaurio que ha sobrevivido hasta hoy desde una época muy antigua tras haber luchado en incontables batallas.\nEste Rey de la Montaña se enfrentó a la marea oscura junto a los héroes de la antigüedad, razón por la cual goza de un gran estatus entre los retoños arbóreos. Entre estos últimos, hay quienes creen que, al igual que ocurre con el tirano de los Qucusaurios, este saurio simplemente tiene una complexión física especial. Sin embargo, tal vez sea tan simple como que ha vivido mucho tiempo y comido demasiado.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113065,
+      104131,
+      104132,
+      104133,
+      104134,
+      400022,
+      400032,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 105.504,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.7,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26230301,
+    "DescribeId": 62303,
+    "RelationshipId": 62303,
+    "MonsterName": "Monster_Natsaurus_Flamingo_Primo_01",
+    "Name": "Tirano Qucusaurio Aureoardiente",
+    "Title": "Tirano Qucusaurio Aureoardiente",
+    "Description": "Un Qucusaurio que ha obtenido un cuerpo sobrenatural debido a un enorme poder imposible de controlar por los saurios de la actualidad.\nSegún una antigua leyenda, cuando era pequeño, el gran saurio alado que ahora suele deambular entre la bruma de la montaña fue de aventuras con los héroes que salvaron Natlan. Cuentan que uno de esos héroes prometió hacer el peregrinaje al volcán con este saurio para evitar que perdiera la cordura a causa del agresivo poder que fluía por su sangre. A juzgar por el nombre de “tirano” con el que la gente se refiere a él hoy en día, aquella historia no debió de terminar muy bien...",
+    "Icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113064,
+      104111,
+      104112,
+      104113,
+      104114,
+      400022,
+      400032,
+      400127,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 168.4416,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260101,
+    "DescribeId": 62601,
+    "RelationshipId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "Manifestación Wayob Cavernaria",
+    "Title": "Manifestación Wayob Contrafluyente",
+    "Description": "La Wayob en la que creen y adoran los Vástagos del Eco. Usa el poder de los tótems y las almas noctámbulas para manifestarse con esta forma. En el saber de las tribus de Natlan, las Wayob viven en el Reino de la Noche y no tienen una forma fija, ya que se adhieren a cualquier objeto para guiar a la gente perdida de las tribus. Entre estos seres, las Manifestaciones Wayob son aún más especiales, pues toman la forma de los tótems para mostrarse y suelen tener una misión importante que llevar a cabo.\nLos Vástagos del Eco creen que su Wayob tiene el poder de moldear picos y valles y puede controlar los ecos que produce el choque entre rocas y peñascos.",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260201,
+    "DescribeId": 62602,
+    "RelationshipId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "Manifestación Wayob Contrafluyente",
+    "Title": "Manifestación Wayob Cavernaria",
+    "Description": "La Wayob en la que cree y adora el Pueblo de los Manantiales. Usa el poder de los tótems y las almas noctámbulas para manifestarse con esta forma.\nLas Wayob son la creencia que se fue formando a raíz de las tribus y los tótems de obsidiana después de que los habitantes de Natlan empezaran a comunicarse con el Reino de la Noche. Es una consciencia con pensamiento colectivo, así como el hogar de las almas de los ancestros.\nLos miembros del Pueblo de los Manantiales creen que su Wayob tiene el poder de manipular la marea y las olas del mar, y puede controlar los cambios que se producen en las aguas muertas y aguas corrientes.",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260301,
+    "DescribeId": 62603,
+    "RelationshipId": 62603,
+    "MonsterName": "Wayob_Hookwalker_01",
+    "Name": "Manifestación Wayob Raudifolia",
+    "Title": "Manifestación Wayob Raudifolia",
+    "Description": "La Wayob en la que creen y adoran los Retoños Arbóreos. Usa el poder de los tótems y las almas noctámbulas para manifestarse con esta forma.\nEn las historias de los cuentacuentos, las Manifestaciones Wayob suelen aparecer como emisarias de una prueba o guías del Reino de la Noche. Hubo una vez un soldado sauriocoronado que afirmó haber luchado contra una Manifestación Wayob mientras estaba en trance y practicaba sus habilidades. Según él, gracias a ello obtuvo una mayor comprensión de las cosas.\nLos Retoños Arbóreos creen que su Wayob tiene el poder de controlar el crecimiento de los frutos, las hojas de las plantas y las raíces de los cultivos, y puede dibujar patrones en los nervios de las hojas.",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62604,
+    "RelationshipId": 62604,
+    "Name": "Manifestación Wayob Cavernaria aguerrida",
+    "Title": "Manifestación Wayob Contrafluyente",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62605,
+    "RelationshipId": 62605,
+    "Name": "Manifestación Wayob Contrafluyente aguerrida",
+    "Title": "Manifestación Wayob Cavernaria",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62606,
+    "RelationshipId": 62606,
+    "Name": "Manifestación Wayob Raudifolia aguerrida",
+    "Title": "Manifestación Wayob Raudifolia",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 26270101,
+    "DescribeId": 62701,
+    "RelationshipId": 62701,
+    "MonsterName": "Monster_Lava_Liquid_01",
+    "Name": "Surcamagma Incadescente",
+    "Title": "Surcamagma Incadescente",
+    "Description": "Un particular monstruo que necesita absorber calor constantemente para moverse.\nEn el pasado, un tipo de fuego más arcaico y profundo ardía por toda Natlan, y los habitantes grandiosos y primitivos de aquella época lo usaban para extender la luz, el calor y la sabiduría. Creían que la vida y el alma adoptaban su forma inicial gracias a las chispas producidas al chocar un sílex contra otro.\nCon un núcleo que arda perpetuamente, hasta las rocas más duras y obstinadas pueden crear vida. Así pues, las ascuas de las que está compuesto el cuerpo de los Surcamagmas parecerían ser los restos de aquella grandiosa era.",
+    "Icon": "UI_MonsterIcon_Lava_Liquid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 103.2384,
+      "AttackBase": 87.92,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26270201,
+    "DescribeId": 62702,
+    "RelationshipId": 62702,
+    "MonsterName": "Monster_Lava_Solid_01",
+    "Name": "Surcamagma Devoratierra",
+    "Title": "Surcamagma Devoratierra",
+    "Description": "Un particular monstruo que necesita absorber calor constantemente para moverse.\nCierta civilización de la antigüedad usaba distintos tipos de patrones dorados iridiscentes para hacer que el flogisto fluyera, con lo que conseguían que creaciones gigantescas y ciudades magníficas funcionaran gracias a la sabiduría de dichos patrones. Dicen que, además de las máquinas de estructura fija, los monstruos conocidos como “Surcamagmas” son, en realidad, formas de vida dañadas que se crearon del mismo modo. Sin embargo, la mayoría de ellos perdieron su rumbo y propósito cuando las llamas de la Montaña Sagrada se extinguieron.",
+    "Icon": "UI_MonsterIcon_Lava_Solid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 116.8224,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 80226,
+    "RelationshipId": 80226,
+    "Name": "Acuibara aguerrido",
+    "Title": "¿?",
+    "Icon": "UI_MonsterIcon_Raijin",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 29010101,

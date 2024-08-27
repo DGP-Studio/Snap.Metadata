@@ -4747,6 +4747,36 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 30111,
+    "RelationshipId": 30111,
+    "Name": "Fatui Skirmisher - Cryogunner Legionnaire ที่ผ่านศึกมานับร้อย",
+    "Title": "Skirmisher - Cryogunner Legionnaire",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30113,
+    "RelationshipId": 30113,
+    "Name": "Fatui Skirmisher - Electrohammer Vanguard ที่ผ่านศึกมานับร้อย",
+    "Title": "Skirmisher - Electrohammer Vanguard",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Strong_GreatHammer_Electric_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30116,
+    "RelationshipId": 30116,
+    "Name": "Fatui Skirmisher - Pyroslinger Bracer ที่ผ่านศึกมานับร้อย",
+    "Title": "Skirmisher - Pyroslinger Bracer",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Rifle_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23020101,
     "DescribeId": 30201,
     "RelationshipId": 30201,
@@ -4800,6 +4830,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30211,
+    "RelationshipId": 30211,
+    "Name": "Fatui - Pyro Agent ที่ผ่านศึกมานับร้อย",
+    "Title": "Agent - Incinerating Blades",
+    "Icon": "UI_MonsterIcon_Fatuus_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 23030101,
@@ -6889,6 +6929,58 @@
     ]
   },
   {
+    "Id": 24090101,
+    "DescribeId": 40901,
+    "RelationshipId": 40901,
+    "MonsterName": "ToothTrap_01",
+    "Name": "Secret Source Automaton: Hunter-Seeker",
+    "Title": "Secret Source Automaton: Hunter-Seeker",
+    "Description": "จักรกลที่ใช้ในการเก็บรวบรวมของโบราณสถาน\nว่ากันว่ามันเป็นเครื่องจักรสำหรับทำงานพิเศษในโบราณสถาน โดยถูกออกแบบมาเพื่อใช้ในการจับหรือเก็บรวบรวมตัวอย่างเป็นหลัก และมีความสามารถในการต่อสู้ขั้นพื้นฐานเท่านั้น\nมีข่าวลือว่ามันไม่ใช่จักรกลที่ถูกสร้างขึ้นโดยมนุษย์ แต่เป็นสิ่งประดิษฐ์ของอารยธรรมโบราณที่เก่าแก่ยิ่งกว่านั้น ปัจจุบันอารยธรรมโบราณนั้นได้สูญหายไปแล้ว เหลือเพียงจักรกลประหลาดเหล่านี้ที่เดินกระจัดกระจายไปทั่วทุกที่",
+    "Icon": "UI_MonsterIcon_ToothTrap",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112113,
+      112114,
+      112115,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
@@ -8740,6 +8832,842 @@
     ]
   },
   {
+    "Id": 25500101,
+    "DescribeId": 55001,
+    "RelationshipId": 55001,
+    "MonsterName": "Human_Female_NoWeapon_Mosasaurus_01",
+    "Name": "Flowing Blade Skirmisher",
+    "Title": "Flowing Blade Skirmisher",
+    "Description": "ผู้กล้าจากต้นกำเนิดของน้ำพุไหลริน และผู้พิทักษ์ชนเผ่าที่ลาดตระเวนอยู่ริมน้ำและลุ่มน้ำ\nนักรบชนเผ่าผู้ชำนาญในทักษะการต่อสู้ด้วยมือเปล่าแบบดั้งเดิม ในกระบวนท่าออกหมัดและเท้าที่ดูธรรมดานั้น กลับแฝงไว้ด้วยพลังอันแข็งแกร่งดั่งเกลียวคลื่น",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501101,
+    "DescribeId": 55011,
+    "RelationshipId": 55011,
+    "MonsterName": "Human_Female_Sword_Drillhead_01",
+    "Name": "Forged Sand Interrogator",
+    "Title": "Forged Sand Interrogator",
+    "Description": "ผู้กล้าจากหุบเขา และผู้พิทักษ์ชนเผ่าที่ลาดตระเวนอยู่ระหว่างภูเขาคริสตัลและแม่น้ำ\nนักรบชนเผ่าที่ถือกระบองหัวบอลอยู่ในมือ ซึ่งสามารถทำให้หินที่แข็งที่สุดกลายเป็นผุยผงได้เมื่อใดที่เธอหวดตี เวลาที่ไม่ได้ต่อสู้ เธอมักจะใช้อาวุธทุบหินเพื่อค้นหาร่องรอยของอัญมณีและผลึกโฟลจิสตัน",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501201,
+    "DescribeId": 55012,
+    "RelationshipId": 55012,
+    "MonsterName": "Human_Female_Sword_Hookwalker_01",
+    "Name": "Swiftstep Seeker",
+    "Title": "Swiftstep Seeker",
+    "Description": "ผู้กล้าจากพงศ์พิดานพฤกษา และผู้พิทักษ์ชนเผ่าที่ลาดตระเวนอยู่ระหว่างป่าและหุบเขา\nเมื่อเทียบกับนักรบจากเผ่าอื่น นักรบที่โหนตัวไปรอบภูเขาตลอดทั้งวันด้วยตะขอและเชือกเหล่านี้มีความไวต่อสิ่งแวดล้อมมากกว่า และคิดอยู่เสมอว่าจะเอาชนะคู่ต่อสู้ด้วยการโจมตีที่ไม่คาดคิดได้อย่างไรดี",
+    "Icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502101,
+    "DescribeId": 55021,
+    "RelationshipId": 55021,
+    "MonsterName": "Human_Male_Standard_Sword_Hookwalker_01",
+    "Name": "Swiftstep Storm Scout",
+    "Title": "Swiftstep Storm Scout",
+    "Description": "ผู้กล้าจากพงศ์พิดานพฤกษา และผู้พิทักษ์ชนเผ่าที่ลาดตระเวนอยู่ระหว่างป่าและหุบเขา\nว่ากันว่าเมื่อชนเผ่าที่ใช้ดาบต้องฝึกฝนทักษะการต่อสู้ของพวกเขา พวกเขาจะต้องยืนใต้ต้นไม้ และต้องฟันใบไม้ที่ร่วงหล่นลงมาในหนึ่งวันทั้งหมด แต่ความจริงนั้นการโจมตีของเหล่าผู้ส่งสารมักจะเกิดขึ้นอย่างเงียบเชียบอยู่แล้ว เช่นเดียวกับใบไม้ที่ร่วงหล่นลงมาอย่างไร้เสียง",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502201,
+    "DescribeId": 55022,
+    "RelationshipId": 55022,
+    "MonsterName": "Human_Male_Standard_Sword_Mosasaurus_01",
+    "Name": "Flowing Blade Grease-Saw",
+    "Title": "Flowing Blade Grease-Saw",
+    "Description": "ผู้กล้าจากต้นกำเนิดของน้ำพุไหลริน และผู้พิทักษ์ชนเผ่าที่ลาดตระเวนอยู่ริมน้ำและลุ่มน้ำ\nนักรบที่มักจะพุ่งตัวไปข้างหน้าเสมอ ดาบในมือเปรียบดั่งเขี้ยวเล็บที่กลืนกินผู้คน ชาวเผ่าที่ฝึกฝนวิชาดาบนั้นจะต้องต้านทานแรงต้านในน้ำเพื่อฝึกฝนด้านพละกำลังและเทคนิค ผู้ที่มีฝีมือเป็นเลิศที่สุดในนั้นทำได้แม้กระทั่งผ่าปลาที่แหวกว่ายอยู่ในน้ำออกเป็นสองส่วนด้วยซ้ำ",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25503101,
+    "DescribeId": 55031,
+    "RelationshipId": 55031,
+    "MonsterName": "Human_Male_Standard_Claymore_Hookwalker_01",
+    "Name": "Swiftstep Armed Courier",
+    "Title": "Swiftstep Armed Courier",
+    "Description": "ผู้กล้าจากพงศ์พิดานพฤกษา และผู้พิทักษ์ชนเผ่าที่ลาดตระเวนอยู่ระหว่างป่าและหุบเขา\nผู้คนมักสงสัยว่าดาบใหญ่เป็นอาวุธที่หนักเกินไปสำหรับผู้ส่งสารของ \"พงศ์พิดานพฤกษา\" หรือไม่ แต่บางทีอาจเพราะหน้าที่ของผู้ส่งสารนั้นสำคัญยิ่ง อาวุธที่น่าเกรงขามจึงถูกมองว่าเป็นสิ่งที่จำเป็นต้องมี",
+    "Icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25504101,
+    "DescribeId": 55041,
+    "RelationshipId": 55041,
+    "MonsterName": "Human_MuscleMan_Claymore_Drillhead_01",
+    "Name": "Forged Sand Shieldbreaker",
+    "Title": "Forged Sand Shieldbreaker",
+    "Description": "ผู้กล้าจากหุบเขา และผู้พิทักษ์ชนเผ่าที่ลาดตระเวนอยู่ระหว่างภูเขาคริสตัลและแม่น้ำ\nนักรบชนเผ่าที่สองมือกวัดแกว่งค้อนยักษ์ มักจะเป็นแนวหน้าในการทำลายแนวป้องกันของศัตรู ในเผ่า \"บุตรแห่งเสียงสะท้อน\" ที่ชื่นชอบอัญมณีและเครื่องประดับทำมือ ค้อนเป็นเครื่องมือที่เหล่านักรบได้สัมผัสอยู่บ่อยครั้งมาตั้งแต่ยังเด็ก",
+    "Icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505101,
+    "DescribeId": 55051,
+    "RelationshipId": 55051,
+    "MonsterName": "Human_Male_Fat_Sword_Drillhead_01",
+    "Name": "Forged Sand Javelineer",
+    "Title": "Forged Sand Javelineer",
+    "Description": "ผู้กล้าจากหุบเขา และผู้พิทักษ์ชนเผ่าที่ลาดตระเวนอยู่ระหว่างภูเขาคริสตัลและแม่น้ำ\nในยุคสมัยที่ยอดเขาพังทลาย และเผ่าจำเป็นต้องถูกสร้างขึ้นใหม่ เหล่านักรบจะใช้หอก เพื่อเป็นเครื่องหมายระบุตำแหน่งทั้งสองฝั่งของหุบเขาในการขุดเจาะเส้นทาง ซึ่งหมายความว่า หอกแต่ละเล่มจะต้องถูกปักลึกลงไปในหิน",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505201,
+    "DescribeId": 55052,
+    "RelationshipId": 55052,
+    "MonsterName": "Human_Male_Fat_Sword_Mosasaurus_01",
+    "Name": "Flowing Blade Harpoon-Thrower",
+    "Title": "Flowing Blade Harpoon-Thrower",
+    "Description": "ผู้กล้าจากต้นกำเนิดของน้ำพุไหลริน และผู้พิทักษ์ชนเผ่าที่ลาดตระเวนอยู่ริมน้ำและลุ่มน้ำ\nนักรบผู้มักถือฉมวกไว้ในมือเสมอ ความสามารถในการจับปลาที่พวกเขาได้เรียนรู้จากการล่าปลานั้นไม่อาจมองข้ามได้เลย ว่ากันว่า ชาวเผ่าในสมัยก่อนได้ใช้ทักษะเช่นนี้ในการไล่ล่าอสูรยักษ์ที่มีครีบ และเกล็ดแหลมคมในทะเล",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510101,
+    "DescribeId": 55101,
+    "RelationshipId": 55101,
+    "MonsterName": "Tribalwarrior_Male_Standard_Powermaul_Drillhead_01",
+    "Name": "Tepetlisaurus Warrior: Shard Striker",
+    "Title": "Tepetlisaurus Warrior: Shard Striker",
+    "Description": "นักรบผู้แข็งแกร่งจากหุบเขา และได้รับมงกุฎ Saurian\nนักรบที่สามารถใช้พลังของหินถล่มเพื่อโจมตีได้ แม้แต่ในบรรดา \"บุตรแห่งเสียงสะท้อน\" ที่ใช้ชีวิตใกล้ชิดกับหินและคริสตัล นักรบผู้สวมมงกุฎ Saurian ก็ยังเป็นยอดฝีมือที่เข้าใจในพลังของหินถล่มมากกว่า ว่ากันว่าพวกเขาสามารถวิเคราะห์คุณภาพและลวดลายภายในแร่ ผ่านพื้นผิวชั้นหยาบของแร่ดิบได้",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510201,
+    "DescribeId": 55102,
+    "RelationshipId": 55102,
+    "MonsterName": "Tribalwarrior_Male_Strong_Chainsword_Drillhead_01",
+    "Name": "Tepetlisaurus Warrior: Rockbreaker Blade",
+    "Title": "Tepetlisaurus Warrior: Rockbreaker Blade",
+    "Description": "นักรบผู้แข็งแกร่งจากหุบเขา ได้รับการยอมรับในด้านความกล้าหาญ และได้รับมงกุฎ Saurian\nนักรบที่สามารถใช้พลังของหินถล่มเพื่อโจมตีได้ ในตำนานเล่าว่า เดิมที Sulfurous Veins เป็นเทือกเขาที่อุดมสมบูรณ์และสวยงามยิ่งกว่านี้ แต่เมื่อคลื่นดำรุกรานเข้ามา เหล่านักรบผู้สวมมงกุฎ Saurian ของ \"บุตรแห่งเสียงสะท้อน\" จึงต้องทุบแผ่นดินให้แยกออก เพื่อให้คลื่นดำไหลไปในทิศทางที่พวกเขาต้องการ ส่งผลให้ที่นั่นมีสภาพเป็นอย่างทุกวันนี้",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510301,
+    "DescribeId": 55103,
+    "RelationshipId": 55103,
+    "MonsterName": "Tribalwarrior_Male_Standard_Chainsword_Hookwalker_01",
+    "Name": "Yumkasaurus Warrior: Whirling Leaves",
+    "Title": "Yumkasaurus Warrior: Whirling Leaves",
+    "Description": "นักรบผู้แข็งแกร่งจากพงศ์พิดานพฤกษา ได้รับการยอมรับในด้านความกล้าหาญ และได้รับมงกุฎ Saurian\nนักรบที่สามารถขยายรัศมีการโจมตีได้โดยใช้ตะขอและเชือก ตะขอและเชือกเป็นสิ่งที่ขาดไม่ได้ในชีวิตประจำวันของผู้คนในเผ่า \"พงศ์พิดานพฤกษา\" แต่ถึงอย่างนั้น ก็มีเพียงนักรบที่บ้าคลั่งที่สุดเท่านั้นที่นำตะขอ เชือกและใบเลื่อยมารวมเข้าด้วยกัน กลายเป็นอาวุธที่ควบคุมได้ยาก แต่มีพลังสังหารอย่างมหาศาล",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510401,
+    "DescribeId": 55104,
+    "RelationshipId": 55104,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Hookwalker_01",
+    "Name": "Yumkasaurus Warrior: Flowing Skyfire",
+    "Title": "Yumkasaurus Warrior: Flowing Skyfire",
+    "Description": "นักรบผู้แข็งแกร่งจากพงศ์พิดานพฤกษา ได้รับการยอมรับในด้านความกล้าหาญ และได้รับมงกุฎ Saurian\nนักรบที่สามารถขยายรัศมีการโจมตีได้โดยใช้ตะขอและเชือก หลังจากประกอบขึ้นด้วยกลไกอันซับซ้อนแล้ว ปืนใหญ่มือในมือของพวกเขาก็สามารถยิงโจมตีด้วยตะขอได้ สำหรับนักรบผู้สวมมงกุฎ Saurian แห่งเผ่า \"พงศ์พิดานพฤกษา\" แล้ว การศึกษาทักษะและความคิดนั้น สำคัญยิ่งกว่าการขัดเกลาจิตใจและเจตจำนง",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510501,
+    "DescribeId": 55105,
+    "RelationshipId": 55105,
+    "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Mosasaurus_01",
+    "Name": "Koholasaurus Warrior: Waveshuttler",
+    "Title": "Koholasaurus Warrior: Waveshuttler",
+    "Description": "นักรบผู้แข็งแกร่งจากต้นกำเนิดของน้ำพุไหลริน ได้รับการยอมรับในด้านความกล้าหาญ และได้รับมงกุฎ Saurian\nนักรบที่สามารถควบคุมพลังของคลื่นได้ชั่วคราวเพื่อเคลื่อนที่ไปมา ตามตำนาน วีรบุรุษของเผ่าถึงขั้นสามารถตีลังกากลับไปกลับมาบนน้ำได้โดยไม่ต้องใช้เครื่องมือใด ๆ ในขณะแล่นด้วยความเร็วสูง ชาวเผ่าในปัจจุบันจึงเชื่อว่า นี่คือเทคนิคการแล่นไปบนคลื่นที่ค่อนข้างซับซ้อนอย่างหนึ่ง ซึ่งจุดสำคัญอยู่ที่วิธีการเคลื่อนไหว",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510601,
+    "DescribeId": 55106,
+    "RelationshipId": 55106,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Mosasaurus_01",
+    "Name": "Koholasaurus Warrior: Reefsplitter",
+    "Title": "Koholasaurus Warrior: Reefsplitter",
+    "Description": "นักรบผู้แข็งแกร่งจากต้นกำเนิดของน้ำพุไหลริน ได้รับการยอมรับในด้านความกล้าหาญ และได้รับมงกุฎ Saurian\nนักรบที่สามารถควบคุมพลังของคลื่นได้ชั่วคราวเพื่อเคลื่อนที่ไปมา ว่ากันว่าการเรียนรู้ทักษะดังกล่าวต้องผ่านการฝึกฝนสามขั้นตอน: ขั้นแรกคือปรับตัว ขั้นที่สองคือปฏิบัติตาม และสุดท้ายคือการบังคับ การฝึกวิชาขนส่งเช่นนี้เป็นเพียงเงื่อนไขเบื้องต้นในการเข้ามาเป็นนักรบมงกุฎ Saurian ของ \"เหล่าวารี\" เท่านั้น ผู้เป็นยอดฝีมือในบรรดานักรบมงกุฎ Saurian ถึงขั้นที่ว่าสามารถใช้มันแล่นเรือบนบกชั่วคราวได้ด้วยซ้ำ",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55151,
+    "RelationshipId": 55151,
+    "Name": "Tepetlisaurus Warrior: Rockbreaker Blade ที่ผ่านศึกมานับร้อย",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55152,
+    "RelationshipId": 55152,
+    "Name": "Koholasaurus Warrior: Waveshuttler ที่ผ่านศึกมานับร้อย",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55153,
+    "RelationshipId": 55153,
+    "Name": "Yumkasaurus Warrior: Flowing Skyfire ที่ผ่านศึกมานับร้อย",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55154,
+    "RelationshipId": 55154,
+    "Name": "???",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55161,
+    "RelationshipId": 55161,
+    "Name": "???",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55501,
+    "RelationshipId": 55501,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55502,
+    "RelationshipId": 55502,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55503,
+    "RelationshipId": 55503,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55504,
+    "RelationshipId": 55504,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55505,
+    "RelationshipId": 55505,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55506,
+    "RelationshipId": 55506,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55507,
+    "RelationshipId": 55507,
+    "Name": "หัวหน้าชนเผ่า Tepetlisaurus",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26010101,
     "DescribeId": 60101,
     "RelationshipId": 60101,
@@ -9491,7 +10419,7 @@
     "Id": 0,
     "DescribeId": 60512,
     "RelationshipId": 60512,
-    "Name": "Primordial Bathysmal Vishap",
+    "Name": "Primordial Bathysmal Vishap ที่ผ่านศึกมานับร้อย",
     "Title": "Primordial Bathysmal Vishap",
     "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
@@ -11768,6 +12696,694 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 26200101,
+    "DescribeId": 62001,
+    "RelationshipId": 62001,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Small_01",
+    "Name": "Tepetlisaurus Whelp",
+    "Title": "Tepetlisaurus Whelp",
+    "Description": "Tepetlisaurus ที่ยังเด็ก มีความสามารถในการเจาะทะลวงหิน และโฟลจิสตันแข็งได้\nพวกมันยังไม่มีเขาแหลมคมงอกขึ้นบนหน้าผาก และทักษะการขุดเจาะของพวกมันก็ยังไม่ชำนาญมากพอ จึงเป็นเรื่องปกติหากได้ยินเรื่องที่ Tepetlisaurus น้อยมักจะติดอยู่ในหินภูเขาอยู่บ่อย ๆ แต่สักวันหนึ่ง มันจะเติบโตเป็นรูปลักษณ์ที่สามารถเคลื่อนที่ในดินแข็งได้อย่างอิสระ",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 14.9424,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26200201,
+    "DescribeId": 62002,
+    "RelationshipId": 62002,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Normal_01",
+    "Name": "Tepetlisaurus",
+    "Title": "Tepetlisaurus",
+    "Description": "Saurian ที่มีเขาและกรงเล็บที่แข็งแกร่ง สามารถเจาะทะลวงหินภูเขาและโฟลจิสตันแข็งได้\nตำนานเล่าว่า บรรพบุรุษของ Tepetlisaurus คือมังกรยักษ์ที่ตัวใหญ่เท่าภูเขาและมีอายุยืนยาว ยามที่มันหลับใหล ทิวเขาจะก่อตัวขึ้นบนสันหลังของมัน และเมื่อมันตื่นขึ้น มันจะสลัดดินและก้อนหินบนตัวทิ้งไป เหลือเพียงอัญมณีและหยกงามที่เปล่งประกายอยู่ท่ามกลางเกล็ดของมัน ว่ากันว่าวัตถุรูปทรงสว่านขนาดใหญ่ที่อยู่ในเผ่า \"บุตรแห่งเสียงสะท้อน\" ก็คือซากเขาขนาดมหึมาของมังกรยักษ์ในตอนนั้นนั่นเอง",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 40.752,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210101,
+    "DescribeId": 62101,
+    "RelationshipId": 62101,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Small_01",
+    "Name": "Koholasaurus Whelp",
+    "Title": "Koholasaurus Whelp",
+    "Description": "Koholasaurus ที่ยังเด็ก มีความสามารถในการแหวกว่ายอยู่ในน่านน้ำและโฟลจิสตันเหลวได้\nด้วยความที่ผิวหนังและครีบยังอ่อนแอ จึงไม่สามารถอยู่ในสภาพแวดล้อมที่มีอุณหภูมิสูงได้เหมือนกับ Koholasaurus ที่โตเต็มวัยแล้ว แต่สักวันหนึ่ง พวกมันจะเติบโตขึ้นจนสามารถแหวกว่ายในน่านน้ำได้อย่างอิสระ",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.3,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210201,
+    "DescribeId": 62102,
+    "RelationshipId": 62102,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Normal_01",
+    "Name": "Koholasaurus",
+    "Title": "Koholasaurus",
+    "Description": "Saurian ที่มีครีบและหางที่แข็งแรง สามารถแหวกว่ายอยู่ในน่านน้ำและโฟลจิสตันเหลวได้\nในตำนานเล่าว่า มังกรในยุคโบราณมีความสามารถในการปรับตัวเข้ากับสภาพแวดล้อมได้ดีกว่า ในสมัยนั้น เมื่อมังกรยักษ์ที่ตัวใหญ่ที่สุดในทะเลลอยอยู่บนผิวน้ำ ก็ทำให้ผู้คนเข้าใจผิดคิดว่าเป็นเกาะลอยได้ ว่ากันว่า Koholasaurus ในปัจจุบันก็คือลูกหลานของ มังกรทะเลยักษ์นั่นเอง ซึ่งจากแผ่นหลังอันกว้างใหญ่ของพวกมัน ยังดูเหมือนสามารถมองเห็นรูปร่างอันใหญ่โตของอสูรทะเลโบราณยักษ์ได้อีกด้วย",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220101,
+    "DescribeId": 62201,
+    "RelationshipId": 62201,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Small_01",
+    "Name": "Yumkasaurus Whelp",
+    "Title": "Yumkasaurus Whelp",
+    "Description": "Yumkasaurus ที่ยังเด็ก สามารถพ่นเพคติน Flamegranate ที่ซ่อนอยู่ในกระพุ้งแก้มออกมา เพื่อตวัดรัดวัตถุที่อยู่ห่างไกลได้\nพลังในการพันรัดวัตถุนั้นยังแข็งแรงไม่เพียงพอ และความสมดุลของตัวมันเองก็ยังดีไม่มากพอที่จะทำให้พวกมันสามารถเคลื่อนที่กลางอากาศได้อย่างอิสระ บางครั้งแม้จะนั่งอยู่บนหางก็ยังเซเอียงไปอีกด้านหนึ่ง แต่สักวันหนึ่ง พวกมันจะเติบโตขึ้นจนสามารถห้อยโหนไปมาในป่าได้อย่างเสรี",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220201,
+    "DescribeId": 62202,
+    "RelationshipId": 62202,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Normal_01",
+    "Name": "Yumkasaurus",
+    "Title": "Yumkasaurus",
+    "Description": "Saurian ที่มีขาหลังอันทรงพลังพร้อมด้วยหางนุ่มฟู สามารถพ่นเพคติน Flamegranate จากกระพุ้งแก้ม เพื่อตวัดรัดวัตถุที่อยู่ห่างไกลได้\nตำนานเล่าว่า เดิมที Yumkasaurus ไม่ได้มีรูปร่างอย่างที่เห็นในปัจจุบัน แต่มีขนาดตัวเล็กกว่า เล็กจนไม่สามารถสังเกตเห็นได้ง่าย ๆ ถึงขนาดที่พวกมันสามารถโบยบินไปมาในสายลมได้ตามใจชอบ หรือเข้าไปเกาะติดบนตัวมังกรยักษ์ตัวอื่น หรือไม่ก็เกาะกลุ่มกันเคลื่อนที่ไปมาเหมือนก้อนเมฆ เพียงแต่ในเวลาต่อมา เพื่อให้สามารถคงรูปร่างของมันเอาไว้ได้หลังจากที่พลังถดถอยลง พวกมันจึงจำต้องเลือกใช้รูปลักษณ์อย่างที่เห็นในปัจจุบัน",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220301,
+    "DescribeId": 62203,
+    "RelationshipId": 62203,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Primo_01",
+    "Name": "ราชาแห่งขุนเขา Yumkasaurus จอมตะกละ",
+    "Title": "ราชาแห่งขุนเขา Yumkasaurus จอมตะกละ",
+    "Description": "Yumkasaurus ผู้แข็งแกร่งที่อยู่รอดมาจนถึงทุกวันนี้ และผ่านการต่อสู้ในสนามรบมานับครั้งไม่ถ้วน\n\"ราชาแห่งขุนเขา\" ที่ครั้งหนึ่งเคยร่วมมือกับเหล่าผู้กล้าเพื่อไปเผชิญหน้ากับแห่งกระแสน้ำอันมืดมิด และมีความสำคัญอย่างยิ่งในหัวใจของบรรดาสมาชิกเผ่า \"พงศ์พิดานพฤกษา\" ชาวเผ่าบางคนเชื่อว่า การที่มันมีรูปร่างดังเช่นในปัจจุบัน ก็เพราะมันมีร่างกายพิเศษเหมือนกับ \"ทรราช\" แห่ง Qucusaurus... แต่บางทีสาเหตุอาจเพียงเพราะว่ามันมีชีวิตมานานมากเกินไป และกินอาหารเยอะเกินไปก็เท่านั้นเอง",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113065,
+      104131,
+      104132,
+      104133,
+      104134,
+      400022,
+      400032,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 105.504,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.7,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26230301,
+    "DescribeId": 62303,
+    "RelationshipId": 62303,
+    "MonsterName": "Monster_Natsaurus_Flamingo_Primo_01",
+    "Name": "ทรราช Qucusaurus เพลิงทอง",
+    "Title": "ทรราช Qucusaurus เพลิงทอง",
+    "Description": "Qucusaurus สายพันธุ์พิเศษที่มีรูปร่างแตกต่างจาก Qucusaurus ทั่วไป เพราะแบกรับพลังอันยิ่งใหญ่เกินกว่าที่ร่างกายของ Saurian ในปัจจุบันจะควบคุมได้\nในตำนานโบราณ Qucusaurus ยักษ์ที่ปัจจุบันมักพักอาศัยอยู่ท่ามกลางหมอกหนาในหุบเขานั้น ก็เคยร่วมผจญภัยกับเหล่าผู้กล้าของ Natlan ในเรื่องเล่าเช่นกัน ว่ากันว่าหนึ่งในผู้กล้าเหล่านั้น เคยนัดแนะกับมันว่าจะเดินทางไปยังเส้นทางแสวงบุญของภูเขาไฟด้วยกัน เพื่อฟื้นฟูจิตใจที่เกือบคลุ้มคลั่งเนื่องจากพลังในสายเลือดของมันทวีความรุนแรงมากขึ้น แต่เมื่อดูจากฉายา \"ทรราช\" ที่มันได้รับในปัจจุบันแล้ว เรื่องนี้คงไม่ได้จบลงอย่างมีความสุข",
+    "Icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113064,
+      104111,
+      104112,
+      104113,
+      104114,
+      400022,
+      400032,
+      400127,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 168.4416,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260101,
+    "DescribeId": 62601,
+    "RelationshipId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "Rock-Cavernous Wayob Manifestation",
+    "Title": "Flow-Inverted Wayob Manifestation",
+    "Description": "\"Wayob\" ที่เผ่า \"บุตรแห่งเสียงสะท้อน\" ศรัทธาและบูชา ซึ่งปรากฏร่างเหนือพื้นดินด้วยพลังของโทเทมและวิญญาณราตรี ชนเผ่าต่าง ๆ ใน Natlan เชื่อกันว่า \"Wayob\" นั้นอาศัยอยู่ในอาณาจักรราตรี และไม่มีรูปร่างตายตัว เพราะ \"Wayob\" สามารถสิงสิ่งใดก็ได้ เพื่อชี้นำแก่ชาวเผ่าที่กำลังหลงทาง การปรากฏตัวของ \"Wayob\" นั้นเป็นสิ่งพิเศษสำหรับพวกเขา ร่างที่ปรากฏในรูปแบบของโทเทมนั้น มักจะมีภารกิจสำคัญเสมอ\nชาวเผ่า \"บุตรแห่งเสียงสะท้อน\" เชื่อว่า \"Wayob\" ของพวกเขามีพลังที่สามารถสร้างยอดเขาและหุบเหวลึกได้ และสามารถควบคุมเสียงสะท้อนที่เกิดจากหินผาเสียดสีกันได้",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260201,
+    "DescribeId": 62602,
+    "RelationshipId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "Flow-Inverted Wayob Manifestation",
+    "Title": "Rock-Cavernous Wayob Manifestation",
+    "Description": "\"Wayob\" ที่เผ่า \"เหล่าวารี\" ศรัทธาและบูชา ซึ่งปรากฏร่างเหนือพื้นดินด้วยพลังของโทเทมและวิญญาณราตรี\nสิ่งที่เรียกว่า \"Wayob\" นั้นเป็นความเชื่อที่ค่อย ๆ ก่อตัวขึ้นมา โดยมีชนเผ่า และโทเทมหินออบซิเดียนเป็นหลักสำคัญ ภายหลังจากที่ชาว Natlan เริ่มติดต่อกับอาณาจักรราตรี เป็นจิตสำนึกของความคิดร่วมกัน และเป็นที่พำนักของวิญญาณบรรพบุรุษ\nชนเผ่า \"เหล่าวารี\" เชื่อว่า \"Wayob\" ของพวกเขามีพลังที่สามารถควบคุมกระแสน้ำ และคลื่นในทะเล รวมทั้งยังสามารถควบคุมการเปลี่ยนแปลงของน้ำไหลและน้ำนิ่งได้อีกด้วย",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260301,
+    "DescribeId": 62603,
+    "RelationshipId": 62603,
+    "MonsterName": "Wayob_Hookwalker_01",
+    "Name": "Foliar-Swift Wayob Manifestation",
+    "Title": "Foliar-Swift Wayob Manifestation",
+    "Description": "\"Wayob\" ที่เผ่า \"พงศ์พิดานพฤกษา\" ศรัทธาและบูชา ซึ่งปรากฏร่างเหนือพื้นดินด้วยพลังของโทเทมและวิญญาณราตรี\nในเรื่องราวของนักเล่าเรื่อง Wayob มักปรากฏกายด้วยร่างของทูตผู้ทดสอบ หรือผู้นำทางแห่งอาณาจักรราตรี นักรบมงกุฎ Saurian เคยกล่าวไว้ว่า เขาเคยประมือกับ Wayob ตอนที่กำลังใจลอยระหว่างฝึกวิชาต่อสู้ และได้รู้แจ้งในระดับที่ลึกซึ้งยิ่งขึ้น\nเผ่า \"พงศ์พิดานพฤกษา\" เชื่อว่า Wayob ของพวกเขามีพลังที่สามารถควบคุมการเติบโตของพืชพรรณในป่าได้ ทั้งยังสามารถควบคุมรากของพืชพรรณ และวาดลายเส้นของใบไม้ได้",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62604,
+    "RelationshipId": 62604,
+    "Name": "Rock-Cavernous Wayob Manifestation ที่ผ่านศึกมานับร้อย",
+    "Title": "Flow-Inverted Wayob Manifestation",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62605,
+    "RelationshipId": 62605,
+    "Name": "Flow-Inverted Wayob Manifestation ที่ผ่านศึกมานับร้อย",
+    "Title": "Rock-Cavernous Wayob Manifestation",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62606,
+    "RelationshipId": 62606,
+    "Name": "Foliar-Swift Wayob Manifestation ที่ผ่านศึกมานับร้อย",
+    "Title": "Foliar-Swift Wayob Manifestation",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 26270101,
+    "DescribeId": 62701,
+    "RelationshipId": 62701,
+    "MonsterName": "Monster_Lava_Liquid_01",
+    "Name": "Fluid Avatar of Lava",
+    "Title": "Fluid Avatar of Lava",
+    "Description": "มอนสเตอร์ประหลาดที่ต้องดูดซับความร้อนอย่างต่อเนื่อง เพื่อให้ยังคงเคลื่อนไหวต่อไปได้\nครั้งหนึ่ง เคยมีไฟที่เก่าแก่และลึกล้ำยิ่งกว่าเผาไหม้ลามไปทั่วดินแดน Natlan ในรูปแบบต่าง ๆ ในเวลานั้น ผู้อาศัยยุคดึกดำบรรพ์ที่ยิ่งใหญ่เคยใช้ไฟเหล่านี้เพื่อส่งแสง ความร้อน และภูมิปัญญา พวกเขาเชื่อว่าชีวิตและจิตวิญญาณนั้นมีร่างแรกเริ่มมาจากสะเก็ดไฟยามที่หินเหล็กไฟกระทบกัน\nหากมีแก่นพลังงานที่ลุกไหม้ชั่วนิรันดร์ แม้แต่หินที่แข็งกระด้างก็มีชีวิตขึ้นมาได้ ไฟที่ยังคุอยู่ในร่างที่เรียกว่า Avatar of Lava นั้น ดูเหมือนจะเป็นเศษขี้เถ้าอันเย็นเฉียบของยุคสมัยอันยิ่งใหญ่ในอดีต",
+    "Icon": "UI_MonsterIcon_Lava_Liquid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 103.2384,
+      "AttackBase": 87.92,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26270201,
+    "DescribeId": 62702,
+    "RelationshipId": 62702,
+    "MonsterName": "Monster_Lava_Solid_01",
+    "Name": "Eroding Avatar of Lava",
+    "Title": "Eroding Avatar of Lava",
+    "Description": "มอนสเตอร์ประหลาดที่ต้องดูดซับความร้อนอย่างต่อเนื่อง เพื่อให้ยังคงเคลื่อนไหวต่อไปได้\nอารยธรรมโบราณใช้ลวดลายสีทองในการออกแบบเพื่อขับเคลื่อนการไหลของโฟลจิสตัน ทำให้สิ่งก่อสร้างขนาดมหึมา และเมืองอันงดงามสามารถดำเนินไปได้ภายใต้ภูมิปัญญาอันเกิดจากลวดลายสีทอง ว่ากันว่านอกจากจักรกลที่มีโครงสร้างตายตัวแล้ว แท้จริงแล้วมอนสเตอร์ที่ชื่อว่า Avatar of Lava เป็นสิ่งมีชีวิตที่ไม่สมบูรณ์ซึ่งถูกสร้างขึ้นด้วยวิธีนี้เช่นกัน แต่หลังจากเปลวไฟของภูเขาศักดิ์สิทธิ์ดับลง พวกมันส่วนใหญ่ก็สูญเสียเป้าหมาย และทิศทางของตนไป",
+    "Icon": "UI_MonsterIcon_Lava_Solid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 116.8224,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 80226,
+    "RelationshipId": 80226,
+    "Name": "Capybara ที่ผ่านศึกมานับร้อย",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Raijin",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 29010101,

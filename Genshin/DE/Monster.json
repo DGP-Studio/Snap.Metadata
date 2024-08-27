@@ -4747,6 +4747,36 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 30111,
+    "RelationshipId": 30111,
+    "Name": "Fatui-Plänkler – Altgedienter Kryo-Kanonen-Gardist",
+    "Title": "Plänkler – Kryo-Kanonen-Gardist",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30113,
+    "RelationshipId": 30113,
+    "Name": "Fatui-Plänkler – Altgedienter Elektro-Hammer-Stürmer",
+    "Title": "Plänkler – Elektro-Hammer-Stürmer",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Strong_GreatHammer_Electric_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30116,
+    "RelationshipId": 30116,
+    "Name": "Fatui-Plänkler – Altgedienter Pyro-Kanonen-Freischärler",
+    "Title": "Plänkler – Pyro-Kanonen-Freischärler",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Rifle_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23020101,
     "DescribeId": 30201,
     "RelationshipId": 30201,
@@ -4800,6 +4830,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30211,
+    "RelationshipId": 30211,
+    "Name": "Fatui – Altgedienter Pyro-Schuldeneintreiber",
+    "Title": "Schuldeneintreiber – Flammende Klinge",
+    "Icon": "UI_MonsterIcon_Fatuus_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 23030101,
@@ -5077,7 +5117,7 @@
     "Id": 0,
     "DescribeId": 30603,
     "RelationshipId": 30603,
-    "Name": "Altgediente Fatui – Frostdienerin",
+    "Name": "Fatui – Altgediente Frostdienerin",
     "Title": "Dienerin des Frostschwerts",
     "Icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
     "Type": 0,
@@ -5087,7 +5127,7 @@
     "Id": 0,
     "DescribeId": 30604,
     "RelationshipId": 30604,
-    "Name": "Altgediente Fatui – Winddienerin",
+    "Name": "Fatui – Altgediente Winddienerin",
     "Title": "Dienerin des Brisen-Maiglöckchens",
     "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
     "Type": 0,
@@ -6751,7 +6791,7 @@
     "Id": 0,
     "DescribeId": 40613,
     "RelationshipId": 40613,
-    "Name": "Altgedienter Mecha – Rechenleistungsverstärker",
+    "Name": "Mecha – Altgedienter Rechenleistungsverstärker",
     "Title": "Mecha – Rechenleistungsverstärker",
     "Icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
     "Type": 0,
@@ -6871,6 +6911,58 @@
       "WindSubHurt": 0.1,
       "IceSubHurt": 0.1,
       "RockSubHurt": 0.7,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090101,
+    "DescribeId": 40901,
+    "RelationshipId": 40901,
+    "MonsterName": "ToothTrap_01",
+    "Name": "Geheimquellen-Automaton – Jäger-Sucher",
+    "Title": "Geheimquellen-Automaton – Jäger-Sucher",
+    "Description": "Eine Maschine aus uralten Ruinen, die für Sammelaufgaben eingesetzt wurde.\nDer Legende nach soll es sich hierbei um eine spezielle Arbeitsmaschine aus uralten Ruinen handeln. In erster Linie wurde sie wohl für das Einfangen oder Sammeln von Proben zu Versuchszwecken eingesetzt. Sie verfügt nur über rudimentäre Kampffähigkeiten.\nMan munkelt, dass sie nicht von Menschenhand, sondern von einer Zivilisation erschaffen worden sein soll, die bereits sehr lange zurückliegt. Heute ist diese Zivilisation längst verschwunden. Lediglich diese merkwürdigen Maschinen sind geblieben und drehen unablässig ihre Runden.",
+    "Icon": "UI_MonsterIcon_ToothTrap",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112113,
+      112114,
+      112115,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1
     },
     "GrowCurves": [
@@ -8740,6 +8832,842 @@
     ]
   },
   {
+    "Id": 25500101,
+    "DescribeId": 55001,
+    "RelationshipId": 55001,
+    "MonsterName": "Human_Female_NoWeapon_Mosasaurus_01",
+    "Name": "Recke der fließenden Klinge – Freischärler",
+    "Title": "Recke der fließenden Klinge – Freischärler",
+    "Description": "Ein Krieger der Menschen der Quellen, ein Stammeswächter, der die Gewässer und Ufer patrouilliert.\nSie sind völlig unbewaffnet, denn sie beherrschen den rohen, physischen Kampf mit bloßen Händen und ihre so unscheinbaren Schläge und Tritte treffen mit der Wucht unzähliger Wellen.",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501101,
+    "DescribeId": 55011,
+    "RelationshipId": 55011,
+    "MonsterName": "Human_Female_Sword_Drillhead_01",
+    "Name": "Recke des geschmiedeten Sands – Befragerin",
+    "Title": "Recke des geschmiedeten Sands – Befragerin",
+    "Description": "Eine Kriegerin aus dem Herzen der Schlucht, eine Stammeswächterin, die in den kristallinen Bergen und Flüssen umherzieht.\nDiese Stammeskriegerin ist mit einer kugelköpfigen Keule bewaffnet, deren Schläge jeden noch so harten Stein in Stücke schlagen können. Wenn sie sich gerade nicht in den Kampf stürzt, sprengt sie mit ihrer Waffe gern die Felsen in den Bergen, um Edelsteine und Spuren von Phlogiston zu finden.",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501201,
+    "DescribeId": 55012,
+    "RelationshipId": 55012,
+    "MonsterName": "Human_Female_Sword_Hookwalker_01",
+    "Name": "Recke des schnellen Schritts – Sucher",
+    "Title": "Recke des schnellen Schritts – Sucher",
+    "Description": "Ein Krieger von den Nachkommen der Baumkronen, ein Stammeswächter, der zwischen den Tälern, Waldbächen und Flüssen umherwandert.\nIm Gegensatz zu den Kriegern anderer Stämme schwingen diese hier sich mithilfe von Haken und Seilen von Berg zu Berg. Sie verfügen über ein noch ausgeprägteres Gespür für ihre Umgebung und planen stets, wie sie ihre Gegner mit unerwarteten Angriffen zu Leibe rücken können.",
+    "Icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502101,
+    "DescribeId": 55021,
+    "RelationshipId": 55021,
+    "MonsterName": "Human_Male_Standard_Sword_Hookwalker_01",
+    "Name": "Recke des schnellen Schritts – Sturmspäher",
+    "Title": "Recke des schnellen Schritts – Sturmspäher",
+    "Description": "Ein Krieger von den Nachkommen der Baumkronen, ein Stammeswächter, der zwischen den Tälern, Waldbächen und Flüssen umherwandert.\nEs heißt, dass diese schwertschwingenden Stammesangehörigen ihre Kampffähigkeiten trainieren, indem sie sich unter einen Baum stellen und alle Blätter im Flug zerteilen, die während eines Tages herunterfallen. Aber so wie die Blätter lautlos fallen, so sind auch die Hiebe dieser schnellen Späher lautlos.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502201,
+    "DescribeId": 55022,
+    "RelationshipId": 55022,
+    "MonsterName": "Human_Male_Standard_Sword_Mosasaurus_01",
+    "Name": "Recke der fließenden Klinge – Fettsäge",
+    "Title": "Recke der fließenden Klinge – Fettsäge",
+    "Description": "Ein Krieger der Menschen der Quellen, ein Stammeswächter, der die Gewässer und Ufer patrouilliert.\nDiese Krieger findet man stets an vorderster Front, die Schwerter in ihren Händen wie Zähne, die selbst Knochen entzwei spalten können. Stammesangehörige, die sich im Schwertkampf üben, tun dies, indem sie ihre Kraft und Geschicklichkeit im Wasser unter Beweis stellen. Die Besten unter ihnen sind sogar in der Lage, einen schwimmenden Fisch im Wasser in zwei Hälften zu teilen.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25503101,
+    "DescribeId": 55031,
+    "RelationshipId": 55031,
+    "MonsterName": "Human_Male_Standard_Claymore_Hookwalker_01",
+    "Name": "Recke des schnellen Schritts – Schwerbewaffneter Bote",
+    "Title": "Recke des schnellen Schritts – Schwerbewaffneter Bote",
+    "Description": "Ein Krieger von den Nachkommen der Baumkronen, ein Stammeswächter, der zwischen den Tälern, Waldbächen und Flüssen umherwandert.\nSo mancher fragt sich sicher, ob ein Zweihänder nicht eine viel zu schwere Waffe für einen Boten der Nachkommen der Baumkronen ist. Doch möglicherweise ist gerade deshalb, da die Aufgaben dieser Boten so eminent wichtig sind, eine Waffe mit möglichst abschreckender Wirkung gerade notwendig.",
+    "Icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25504101,
+    "DescribeId": 55041,
+    "RelationshipId": 55041,
+    "MonsterName": "Human_MuscleMan_Claymore_Drillhead_01",
+    "Name": "Recke des geschmiedeten Sands – Schildbrecher",
+    "Title": "Recke des geschmiedeten Sands – Schildbrecher",
+    "Description": "Ein Krieger aus dem Herzen der Schlucht, ein Stammeswächter, der in den kristallinen Bergen und Flüssen umherzieht.\nSolche mit riesigen Hämmern in beiden Händen sind meist die ersten, die den Angriff auf die Verteidigungslinien des Feindes anführen. Bei den „Kindern der Echos“, wo Edelstein- und Ornamentarbeiten besonders beliebt sind, gehören Hämmer zu den Werkzeugen, mit denen die Krieger schon von Kindesbein an vertraut sind.",
+    "Icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505101,
+    "DescribeId": 55051,
+    "RelationshipId": 55051,
+    "MonsterName": "Human_Male_Fat_Sword_Drillhead_01",
+    "Name": "Recke des geschmiedeten Sands – Speerwerfer",
+    "Title": "Recke des geschmiedeten Sands – Speerwerfer",
+    "Description": "Ein Krieger aus dem Herzen der Schlucht, ein Stammeswächter, der in den kristallinen Bergen und Flüssen umherzieht.\nIn einer Zeit, in der die Gebirgskämme zerstört waren und die Stämme neu gegründet werden mussten, markierten die Krieger mit Wurfspeeren die Lagen beider Schluchtseiten, um sich einen Weg bahnen zu können. Dies bedeutete, dass jeder Speer tief in den Felsen versenkt werden musste.",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505201,
+    "DescribeId": 55052,
+    "RelationshipId": 55052,
+    "MonsterName": "Human_Male_Fat_Sword_Mosasaurus_01",
+    "Name": "Recke der fließenden Klinge – Harpunenjäger",
+    "Title": "Recke der fließenden Klinge – Harpunenjäger",
+    "Description": "Ein Krieger der Menschen der Quellen, ein Stammeswächter, der die Gewässer und Ufer patrouilliert.\nBegehe bloß nicht den Fehler, diese mit Harpunen bewaffneten Krieger, die ihre Fähigkeiten beim Fischen und auf der Jagd erlernt haben, zu unterschätzen. Es wird erzählt, dass in der Vergangenheit Stammesangehörige diese Fähigkeiten nutzten, um gewaltige Meeresungeheuer zu jagen, deren Flossen und Schuppen so hart wie Eisen waren.",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510101,
+    "DescribeId": 55101,
+    "RelationshipId": 55101,
+    "MonsterName": "Tribalwarrior_Male_Standard_Powermaul_Drillhead_01",
+    "Name": "Tepetlisaurierkrieger – Splitterschläger",
+    "Title": "Tepetlisaurierkrieger – Splitterschläger",
+    "Description": "Ein mächtiger Krieger aus dem Herzen der Schlucht, der für seine Tapferkeit bekannt ist und mit der Saurierkrone geehrt wurde.\nEin Kampfkünstler, dessen Schläge die Kraft einer Steinlawine haben. Selbst unter den „Kindern der Echos“, in deren Adern bekanntlich Felsen fließen und die Kristalle atmen, gelten die Saurierkronen-Krieger als Meister ihres Fachs, die Stein und Fels besser verstehen als jeder andere sonst. Angeblich seien sie sogar in der Lage, die innere Reinheit und Beschaffenheit von Roherz allein anhand der rauen, verwitterten Oberfläche zu erfassen.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510201,
+    "DescribeId": 55102,
+    "RelationshipId": 55102,
+    "MonsterName": "Tribalwarrior_Male_Strong_Chainsword_Drillhead_01",
+    "Name": "Tepetlisaurierkrieger – Felsbrecherklinge",
+    "Title": "Tepetlisaurierkrieger – Felsbrecherklinge",
+    "Description": "Ein mächtiger Krieger aus dem Herzen der Schlucht, der für seine Tapferkeit bekannt ist und mit der Saurierkrone geehrt wurde.\nEin Kampfkünstler, dessen Schläge die Kraft einer Steinlawine haben. Der Legende nach sollen die Schwefelkristall-Adern einst ein Gebirge von deutlich größerem Ausmaß und Schönheit gewesen sein. Doch als die schwarze Flut hereinbrach, hämmerten und meißelten die Saurierkronen-Krieger der „Kinder der Echos“ emsig die Erde hinfort, um die Schwarze Flut in eben jene Bahnen zu lenken, auf dass sie ihre heutige Gestalt annehmen möge.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510301,
+    "DescribeId": 55103,
+    "RelationshipId": 55103,
+    "MonsterName": "Tribalwarrior_Male_Standard_Chainsword_Hookwalker_01",
+    "Name": "Yumkasaurierkrieger – Sägeblätter",
+    "Title": "Yumkasaurierkrieger – Sägeblätter",
+    "Description": "Ein mächtiger Krieger der Nachkommen der Baumkrone, der für seine Tapferkeit ausgezeichnet und dem die Ehre der Saurierkrone zuteilwurde.\nDieser Krieger vermag es, seine Angriffsreichweite mithilfe eines an einem Seil befestigten Hakens maßgeblich zu erweitern. Haken und Seile sind für die Mitglieder des Stammes der „Nachkommen der Baumkrone“ ein unverzichtbarer Bestandteil des täglichen Lebens. Doch nur die durchgeknalltesten unter den Kriegern kombinieren Haken und Seile mit Sägeblättern, um dadurch schwer zu handhabende, aber dafür umso tödlichere Waffen zu schaffen.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510401,
+    "DescribeId": 55104,
+    "RelationshipId": 55104,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Hookwalker_01",
+    "Name": "Yumkasaurierkrieger – Brennender Himmel",
+    "Title": "Yumkasaurierkrieger – Brennender Himmel",
+    "Description": "Ein mächtiger Krieger der Nachkommen der Baumkrone, der für seine Tapferkeit ausgezeichnet und dem die Ehre der Saurierkrone zuteilwurde.\nDieser Krieger vermag es, seine Angriffsreichweite mithilfe eines an einem Seil befestigten Hakens maßgeblich zu erweitern. Nach dem Zusammenbau des filigranen Mechanismus kann die Handkanone in ihrer Hand mittels eines Hakens abgefeuert werden. Für die Saurierkronen-Krieger der „Nachkommen der Baumkrone“ ist weniger die Kultivierung des Geistes und des Willens entscheidend, sondern vielmehr die der Fähigkeiten und des Denkens.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510501,
+    "DescribeId": 55105,
+    "RelationshipId": 55105,
+    "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Mosasaurus_01",
+    "Name": "Koholasaurierkrieger – Wellenbohrer",
+    "Title": "Koholasaurierkrieger – Wellenbohrer",
+    "Description": "Ein mächtiger Krieger der Menschen der Quellen, der für seine Tapferkeit gewürdigt und mit der Saurierkrone ausgezeichnet wurde.\nEin Krieger, der sich zeitweise die Kraft der Wellen zunutze machen kann, um hin und her zu pendeln. Der Legende nach sollen die Helden des Stammes sogar in der Lage gewesen sein, mit großer Geschwindigkeit und ohne jegliche Hilfsmittel über das Wasser zu reisen. Heutige Stammesangehörige glauben, dass es sich dabei um eine ausgeklügelte Technik gehandelt haben muss, um die Wellen zu treiben, wobei das Hauptaugenmerk auf der Methode liegen muss, mit der sie bewegt worden sind.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510601,
+    "DescribeId": 55106,
+    "RelationshipId": 55106,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Mosasaurus_01",
+    "Name": "Koholasaurierkrieger – Riffspalter",
+    "Title": "Koholasaurierkrieger – Riffspalter",
+    "Description": "Ein mächtiger Krieger der Menschen der Quellen, der für seine Tapferkeit gewürdigt und mit der Saurierkrone ausgezeichnet wurde.\nEin Krieger, der sich zeitweise die Kraft der Wellen zunutze machen kann, um hin und her zu pendeln. Es heißt, es seien drei Stufen der Übung erforderlich, um diese Technik zu meistern: Zuerst anpassen, dann einhalten und schließlich vorantreiben. Das Meistern einer solchen Methode der Kraftübertragung gilt lediglich als Zugangsvoraussetzung, um ein Saurierkronen-Krieger der Menschen der Quellen zu werden. Echte Meister unter ihnen sind sogar in der Lage, diese Technik kurzzeitig an Land einsetzen zu können.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55151,
+    "RelationshipId": 55151,
+    "Name": "Altgedienter Tepetlisaurierkrieger – Felsbrecherklinge",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55152,
+    "RelationshipId": 55152,
+    "Name": "Altgedienter Koholasaurierkrieger – Wellenbohrer",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55153,
+    "RelationshipId": 55153,
+    "Name": "Altgedienter Yumkasaurierkrieger – Brennender Himmel",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55154,
+    "RelationshipId": 55154,
+    "Name": "???",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55161,
+    "RelationshipId": 55161,
+    "Name": "???",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55501,
+    "RelationshipId": 55501,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55502,
+    "RelationshipId": 55502,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55503,
+    "RelationshipId": 55503,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55504,
+    "RelationshipId": 55504,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55505,
+    "RelationshipId": 55505,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55506,
+    "RelationshipId": 55506,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55507,
+    "RelationshipId": 55507,
+    "Name": "Häuptling des Tepetlisaurierstamms",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26010101,
     "DescribeId": 60101,
     "RelationshipId": 60101,
@@ -9491,7 +10419,7 @@
     "Id": 0,
     "DescribeId": 60512,
     "RelationshipId": 60512,
-    "Name": "Tiefsee-Drachenechse – Urtyp",
+    "Name": "Altgediente Tiefsee-Drachenechse – Urtyp",
     "Title": "Tiefsee-Drachenechse – Urtyp",
     "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
@@ -11768,6 +12696,694 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 26200101,
+    "DescribeId": 62001,
+    "RelationshipId": 62001,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Small_01",
+    "Name": "Junger Tepetlisaurier",
+    "Title": "Junger Tepetlisaurier",
+    "Description": "Junge Tepetlisaurier besitzen die Fähigkeit, sich ihren Weg durch Berge, Felsen und festes Phlogiston bahnen zu können.\nBisweilen sind die Hörner auf ihrer Stirn noch nicht ausgeprägt, was ebenso für ihre Fähigkeiten im Graben gilt. Es soll sogar vorkommen, dass junge Tepetlisaurier, die sich im Graben üben, von Felsen eingeklemmt werden. Eines Tages sind sie dann jedoch groß genug, dass man auf den ersten Blick erkennen kann, wie frei sie sich doch durch Fels und Gestein zu bewegen wissen.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 14.9424,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26200201,
+    "DescribeId": 62002,
+    "RelationshipId": 62002,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Normal_01",
+    "Name": "Tepetlisaurier",
+    "Title": "Tepetlisaurier",
+    "Description": "Ein Saurier mit einem bohrerartigen Horn und starken Klauen, die sich durch Felsen und festes Phlogiston bohren können.\nDer Legende nach sollen die Vorfahren der Tepetlisaurier, gigantische Drachenwesen, groß wie Berge, gewesen sein, die angeblich ewig lebten. Während diese schliefen, sollen sich ganze Gebirge auf ihren Rücken gebildet haben. Sobald sie erwachten und Schmutz und Gestein von sich schüttelten, blieben nur noch Edelsteine und Jade übrig, die schimmernd zwischen ihren Schuppen zum Vorschein traten. Bei dem riesigen, bohrerförmigen Objekt der „Kinder der Echos“ soll es sich um das Überbleibsel des Bohrerhorns eines dieser gewaltigen Drachenwesen handeln.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 40.752,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210101,
+    "DescribeId": 62101,
+    "RelationshipId": 62101,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Small_01",
+    "Name": "Junger Koholasaurier",
+    "Title": "Junger Koholasaurier",
+    "Description": "Ein junger Koholasaurier kann sowohl durch Wasser als auch flüssiges Phlogiston schwimmen.\nSeine Haut und Flossen sind jedoch noch zu jung, um so lange in der Hitze zu verweilen wie einer seiner erwachsenen Artgenossen. Eines Tages wird er aber so groß sein, um völlig frei durchs Wasser schwimmen zu können.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.3,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210201,
+    "DescribeId": 62102,
+    "RelationshipId": 62102,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Normal_01",
+    "Name": "Koholasaurier",
+    "Title": "Koholasaurier",
+    "Description": "Dieser Saurier mit kräftigen Flossen und langem Schwanz ist in der Lage, sowohl im Wasser als auch flüssigem Phlogiston zu schwimmen.\nDie Legende besagt, dass die Drachen ältester Zeitalter wahre Meister darin gewesen sein sollen, sich ihren Umweltbedingungen entsprechend anzupassen. So sollen die gigantischen Drachen des Meeres kaum von einer Insel zu unterscheiden gewesen sein, wenn sie sich einmal faul auf der Meeresoberfläche haben treiben lassen. So heißt es auch, dass unsere heutigen Koholasaurier von eben jenen gigantischen Seedrachen abstammen sollen; ihre breiten Rücken könnten jedenfalls einen Hinweis auf die Form ihrer uralten Vorfahren geben.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220101,
+    "DescribeId": 62201,
+    "RelationshipId": 62201,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Small_01",
+    "Name": "Junger Yumkasaurier",
+    "Title": "Junger Yumkasaurier",
+    "Description": "Junge Yumkasaurier sind in der Lage, das in ihren Wangen gespeicherte Pektin von Flammengranaten auszuspucken, welches sich dann um weit entfernte Objekte wickelt.\nWeder sind sie aber stark genug, um die eingewickelten Gegenstände zu sich heranzuziehen, noch ist ihr Gleichgewichtssinn ausreichend ausgeprägt, um sich frei durch die Luft bewegen zu können. Es kann sogar vorkommen, dass sie einfach so zur Seite umkippen, während sie auf ihrem Schwanz sitzen. Aber wie dem auch sei, eines Tages wachsen sie zu den Sauriern heran, die sich ganz gemütlich von Baum zu Baum schwingen können.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220201,
+    "DescribeId": 62202,
+    "RelationshipId": 62202,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Normal_01",
+    "Name": "Yumkasaurier",
+    "Title": "Yumkasaurier",
+    "Description": "Dieser Saurier hat kräftige Hinterbeine und einen flauschigen Schwanz. Er ist in der Lage, das Pektin von Flammengranaten zu spucken, das er in seinen Backentaschen speichert, welches sich um entfernte Objekte wickelt.\nDer Legende nach sollen die ursprünglichen Yumkasaurier nicht so ausgesehen haben wie jetzt. Sie sollen viel kleiner gewesen sein, so klein, dass man sie gar nicht mal so leicht zu Gesicht bekam. Sie sollen sogar nach Belieben mit dem Wind umhergeschwebt sein, sich an die Oberfläche der Körper anderer Drachen angehängt haben oder in Schwärmen wie Wolken umhergezogen sein. Erst später müssen sie dann wohl ihre jetzige Form angenommen haben, um auch nach dem Verlust ihrer Kräfte weiterhin bestehen zu können.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220301,
+    "DescribeId": 62203,
+    "RelationshipId": 62203,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Primo_01",
+    "Name": "Gefräßiger Yumkasaurier-Bergkönig",
+    "Title": "Gefräßiger Yumkasaurier-Bergkönig",
+    "Description": "Der mächtige Yumkasaurier, der seit den Urzeiten bis heute überlebt und zahllose Schlachten miterlebt hat.\nDer „Bergkönig“, der sich einst an der Seite der Helden der schwarzen Flut stellte, genießt in den Herzen der Mitglieder des Stammes der „Nachkommen der Baumkrone“ hohes Ansehen. Einige Stammesangehörige glauben, dass er einen besonderen Körperbau hat, der dem des „Tyrannen“ der Qucusaurier ähnelt ... Vielleicht liegt es aber auch nur daran, dass er so lange gelebt und so viel gefressen hat.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113065,
+      104131,
+      104132,
+      104133,
+      104134,
+      400022,
+      400032,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 105.504,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.7,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26230301,
+    "DescribeId": 62303,
+    "RelationshipId": 62303,
+    "MonsterName": "Monster_Natsaurus_Flamingo_Primo_01",
+    "Name": "Goldflammen-Qucusauriertyrann",
+    "Title": "Goldflammen-Qucusauriertyrann",
+    "Description": "Ein Qucusaurier, dessen Körper übernatürliche Kräfte angenommen hat, denen heutige Saurier physiologisch niemals standhalten könnten.\nDer alten Legende nach begleitete der riesige Qucusaurier, der heute die nebelverhangenen Berge heimsucht, einst in jungen Jahren die Helden, die Natlan damals retteten, auf ihren Abenteuern. Man erzählt sich, dass einer der Helden aus der Gruppe versprochen hatte, sich mit ihm auf eine Pilgerreise zum Vulkan zu begeben, um seinen Verstand wiederherzustellen, der aufgrund der Kraft seiner Blutlinie, die mehr und mehr wütete, kurz davor war, verloren zu gehen. Seinem Namen „Tyrann“ nach zu urteilen, hat diese Geschichte wohl kein allzu gutes Ende genommen.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113064,
+      104111,
+      104112,
+      104113,
+      104114,
+      400022,
+      400032,
+      400127,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 168.4416,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260101,
+    "DescribeId": 62601,
+    "RelationshipId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "Höhlenbewohner – Wayob-Verkörperung",
+    "Title": "Strömungsschwimmer – Wayob-Verkörperung",
+    "Description": "Der Stamm der „Kinder der Echos“ glaubt und verehrt den „Wayob“, welcher sich auf der Welt durch die Kraft von Totems und der Nachtseelen offenbart. Gemäß dem Glauben der Stammesmitglieder von Natlan lebt der Wayob im Reich von Yohualtecuhtin, dem König der Nacht und besitzt keine eigene Form, denn er kann sich mit allem verbinden und so verlorenen Stammesmitgliedern Orientierung geben. Die Wayob-Verkörperung ist etwas Besonderes und die Figur, die sich mithilfe der totemistischen Form entfaltet, muss oftmals eine wichtige Aufgabe erfüllen.\nDie „Kinder der Echos“ glauben, dass ihr „Wayob“ die Macht besitzt, die Gipfel und Täler der Gebirge zu formen, und dass er das Echo der Geräusche der Reibung von Fels auf Fels zu kontrollieren vermag.",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260201,
+    "DescribeId": 62602,
+    "RelationshipId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "Strömungsschwimmer – Wayob-Verkörperung",
+    "Title": "Höhlenbewohner – Wayob-Verkörperung",
+    "Description": "Der Stamm der „Menschen der Quellen“ glaubt und verehrt den „Wayob“, welcher sich auf der Welt durch die Kraft von Totems und der Nachtseelen offenbart.\nDer sogenannte „Wayob“ ist der Glaube des Volkes von Natlan, der sich allmählich infolge der Kommunikation mit dem Reich von Yohualtecuhtin, König der Nacht, herausgebildet hat. Er fußt hauptsächlich auf den Stammes- und Obsidian-Totems, dem Bewusstsein kollektiver Meditation und dem Ort, an den die Seelen der Vorfahren zurückkehren.\nDie „Menschen der Quellen“ glauben, dass ihr „Wayob“ die Macht besitzt, Gezeiten und Wellen zu kontrollieren und den Verlauf von fließendem und totem Wasser zu steuern.",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260301,
+    "DescribeId": 62603,
+    "RelationshipId": 62603,
+    "MonsterName": "Wayob_Hookwalker_01",
+    "Name": "Blattraser – Wayob-Verkörperung",
+    "Title": "Blattraser – Wayob-Verkörperung",
+    "Description": "Der Stamm der „Nachkommen der Baumkrone“ glaubt und verehrt den „Wayob“, welcher sich auf der Welt durch die Kraft von Totems und der Nachtseelen offenbart.\nIn den Geschichten von Erzählern erscheint die Wayob-Verkörperung oft als Bote von Prüfungen oder als Führer in das Königreich der Nacht. Es soll auch Saurierkronen-Krieger geben, die behaupten, dass sie noch tiefere Einsichten erlangt hätten, indem sie die Wayob-Verkörperung in einer Trance der Kampfkunstpraxis bekämpften.\nDas Volk der „Nachkommen der Baumkrone“ glaubt, dass ihr „Wayob“ die Macht besitzt, das Wachstum von Früchten und Waldgrün zu kontrollieren, die Wurzeln der Pflanzen zu steuern und den Verlauf der Blattadern zu bestimmen.",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62604,
+    "RelationshipId": 62604,
+    "Name": "Höhlenbewohner – Altgediente Wayob-Verkörperung",
+    "Title": "Strömungsschwimmer – Wayob-Verkörperung",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62605,
+    "RelationshipId": 62605,
+    "Name": "Strömungsschwimmer – Altgediente Wayob-Verkörperung",
+    "Title": "Höhlenbewohner – Wayob-Verkörperung",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62606,
+    "RelationshipId": 62606,
+    "Name": "Blattraser – Altgediente Wayob-Verkörperung",
+    "Title": "Blattraser – Wayob-Verkörperung",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 26270101,
+    "DescribeId": 62701,
+    "RelationshipId": 62701,
+    "MonsterName": "Monster_Lava_Liquid_01",
+    "Name": "Lavagestalt – Flüssige Flamme",
+    "Title": "Lavagestalt – Flüssige Flamme",
+    "Description": "Dieses sonderbare Monster muss fortlaufend Hitze absorbieren, um aktiv bleiben zu können.\nEinst verbreitete sich ein noch älteres und tieferes Feuer in verschiedenen Formen über das Land Natlan. Zu jener Zeit verwendeten die einstigen Ureinwohner diese Feuer, um Licht und Weisheit zu verbreiten. Sie glaubten, dass das Leben und die Seelen ihre erste Form aus den Funken des aufeinanderprallenden Feuersteins erhielten.\nMit einem ewig brennenden Kern können sogar hartnäckige Steine zum Leben erweckt werden, richtig? Die Glut, die dem Körper der als Lavagestalt bekannten Kreatur innewohnt, scheint ebenfalls ein erkalteter, ascheartiger Überrest aus dieser vergangenen, großartigen Zeit zu sein.",
+    "Icon": "UI_MonsterIcon_Lava_Liquid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 103.2384,
+      "AttackBase": 87.92,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26270201,
+    "DescribeId": 62702,
+    "RelationshipId": 62702,
+    "MonsterName": "Monster_Lava_Solid_01",
+    "Name": "Lavagestalt – Erdfresser",
+    "Title": "Lavagestalt – Erdfresser",
+    "Description": "Dieses sonderbare Monster muss fortlaufend Hitze absorbieren, um aktiv bleiben zu können.\nDie alte Zivilisation nutzte verschiedene Formen gravierter Goldmuster, um den Fluss des Phlogistons zu steuern, sodass riesige Konstruktionen und prächtige Städte in der Weisheit jener goldener Muster entstehen konnten. Es heißt, dass die magischen Kreaturen, auch als Lavagestalten bekannt, in Wirklichkeit entstellte Wesen sind, die auf diese Weise erschaffen wurden, nur dass die meisten von ihnen nach dem Erlöschen der Flammen des heiligen Berges ihre Bestimmung und Orientierung verloren.",
+    "Icon": "UI_MonsterIcon_Lava_Solid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 116.8224,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 80226,
+    "RelationshipId": 80226,
+    "Name": "Altgedientes Wasserschwein",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Raijin",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 29010101,
