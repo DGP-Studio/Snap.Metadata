@@ -918,7 +918,7 @@
     "Close": "2022-11-16T03:59:59+08:00",
     "BuffName": "Lune de rupture",
     "Descriptions": [
-      "Lorsque l'attaque d'un noyau Dendro (incluant Bourgeonnement et Exubérance) a touché un ennemi, <color=#F39000FF>une onde de choc est libérée</color> à son emplacement, infligeant des DGT réels. L'onde de choc peut être libérée une fois toutes les 2 s de cette manière."
+      "Lorsque l'attaque d'un noyau Dendro (incluant Bourgeonnement et Exubérance) a touché un ennemi, <color=#F39000FF>une onde de choc est libérée</color> à l'emplacement de ce dernier, infligeant des DGT réels. L'onde de choc peut être libérée une fois toutes les 2 s de cette manière."
     ],
     "Icon": "UI_TowerBlessing_52"
   },
@@ -1046,7 +1046,7 @@
     "Close": "2023-03-16T03:59:59+08:00",
     "BuffName": "Lune opulente",
     "Descriptions": [
-      "Lorsqu'un personnage déclenche une réaction de Propagation ou de Suractivation sur un ennemi, <color=#F39000FF>une onde de choc est libérée</color> à son emplacement, infligeant des DGT réels. L'onde de choc peut être libérée une fois toutes les 3 s de cette manière."
+      "Lorsqu'un personnage déclenche une réaction de Propagation ou de Suractivation sur un ennemi, <color=#F39000FF>une onde de choc est libérée</color> à l'emplacement de ce dernier, infligeant des DGT réels. L'onde de choc peut être libérée une fois toutes les 3 s de cette manière."
     ],
     "Icon": "UI_TowerBlessing_60"
   },
@@ -1577,5 +1577,21 @@
       "Lorsqu'un personnage attaque un ennemi brûlé, <color=#F39000FF>son taux CRIT augmente de 15 % et ses DGT CRIT de 30 %</color>."
     ],
     "Icon": "UI_TowerBlessing_84"
+  },
+  {
+    "Id": 99,
+    "FloorIds": [
+      1084,
+      1085,
+      1086,
+      1087
+    ],
+    "Open": "2024-09-16T04:00:00+08:00",
+    "Close": "2024-10-16T03:59:59+08:00",
+    "BuffName": "Lune compétitrice",
+    "Descriptions": [
+      "Pendant 12 s après que le personnage déployé a utilisé une compétence élémentaire, <color=#F39000>les DGT infligés par les attaques normales et les compétences élémentaires augmentent de 40 %</color>. Cet effet est renforcé pour les personnages en <color=#F39000>bénédiction noctâme</color> : <color=#F39000>les DGT infligés par les attaques normales et les compétences élémentaires augmentent de 80 %</color>."
+    ],
+    "Icon": "UI_TowerBlessing_86"
   }
 ]

@@ -4747,6 +4747,36 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 30111,
+    "RelationshipId": 30111,
+    "Name": "Kıdemli Fatui Avcı Eri - Lejyoner Buz Topçusu",
+    "Title": "Fatui Avcı Eri - Lejyoner Buz Topçusu",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30113,
+    "RelationshipId": 30113,
+    "Name": "Kıdemli Fatui Avcı Eri - Öncü Elektrik Balyoz",
+    "Title": "Fatui Avcı Eri - Öncü Elektrik Balyoz",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Strong_GreatHammer_Electric_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30116,
+    "RelationshipId": 30116,
+    "Name": "Kıdemli Fatui Avcı Eri - Destek Ateş Nişancısı",
+    "Title": "Fatui Avcı Eri - Destek Ateş Nişancısı",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Rifle_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23020101,
     "DescribeId": 30201,
     "RelationshipId": 30201,
@@ -4800,6 +4830,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30211,
+    "RelationshipId": 30211,
+    "Name": "Kıdemli Fatui Ateş Tetikçisi",
+    "Title": "Tetikçi - Kül Edici Kılıçlar",
+    "Icon": "UI_MonsterIcon_Fatuus_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 23030101,
@@ -6889,6 +6929,58 @@
     ]
   },
   {
+    "Id": 24090101,
+    "DescribeId": 40901,
+    "RelationshipId": 40901,
+    "MonsterName": "ToothTrap_01",
+    "Name": "Gizli Kaynak Canavar Makinası: Avcı-Arayıcı",
+    "Title": "Gizli Kaynak Canavar Makinası: Avcı-Arayıcı",
+    "Description": "Nesne toplamak için kullanılan kadim bir harabe canavar makinası.\nEfsanelerde anlatılanlara göre bu kadim harabe makinaları öncelikle numune yakalama ve toplama gibi deneysel işleri yapmak üzere özel işlevler için tasarlanmıştır ve sadece temel savaş işlevlerine sahiptir.\nHalk arasındaki söylentiler ise bu makinaların insanlar tarafından değil de geçmişi çok eskilere dayanan bir medeniyet tarafından yaratıldığı yönündedir. Ancak bu medeniyet tarihin tozlu sayfalarına karışmış ve bugün geriye sadece etrafta dolaşan bu tuhaf makinalar kalmış.",
+    "Icon": "UI_MonsterIcon_ToothTrap",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112113,
+      112114,
+      112115,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
@@ -8740,6 +8832,842 @@
     ]
   },
   {
+    "Id": 25500101,
+    "DescribeId": 55001,
+    "RelationshipId": 55001,
+    "MonsterName": "Human_Female_NoWeapon_Mosasaurus_01",
+    "Name": "Akış Kılıcı: Avcı Asker",
+    "Title": "Akış Kılıcı: Avcı Asker",
+    "Description": "Kaplıcaların kaynağından gelen, sularda ve kıyılarda devriye gezen bir savaşçı.\nBu kabilenin savaşçıları silah kullanmak yerine fiziksel ve yakın savaşlarda ustalaşmıştır. Sıradan görünen yumrukları ve tekmeleri yıkıcı dalgalar kadar güçlüdür.",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501101,
+    "DescribeId": 55011,
+    "RelationshipId": 55011,
+    "MonsterName": "Human_Female_Sword_Drillhead_01",
+    "Name": "Dövülmüş Kumlar: Sorgucu",
+    "Title": "Dövülmüş Kumlar: Sorgucu",
+    "Description": "Vadinin cesur savaşçısı, kristal dağları ve nehirleri devriye gezen bir kabile muhafızı.\nYuvarlak başlı sopa savuran bu kabile savaşçısının ezici darbeleri en sert kayaları bile toza çevirebilir. Savaşmadığı zamanlarda silahını genellikle kayaları parçalayarak değerli taşlar ve Filojiston kristallerinin izlerini aramak için kullanır.",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501201,
+    "DescribeId": 55012,
+    "RelationshipId": 55012,
+    "MonsterName": "Human_Female_Sword_Hookwalker_01",
+    "Name": "Çevik Adım: Arayıcı",
+    "Title": "Çevik Adım: Arayıcı",
+    "Description": "Gök Kubbenin savaşçısı, ormanlık vadilerde ve dağlardaki derelerde devriye gezen bir kabile savaşçısı.\nDiğer kabilelerdeki savaşçıların aksine ellerinde kancayla dağlarda dolaşan bu savaşçılar sürekli beklenmedik saldırılarla düşmanlarını nasıl yenebileceklerini düşünürler.",
+    "Icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502101,
+    "DescribeId": 55021,
+    "RelationshipId": 55021,
+    "MonsterName": "Human_Male_Standard_Sword_Hookwalker_01",
+    "Name": "Çevik Adım: Fırtına Gözcüsü",
+    "Title": "Çevik Adım: Fırtına Gözcüsü",
+    "Description": "Gök Kubbenin savaşçısı, ormanlık vadilerde ve dağlardaki derelerde devriye gezen bir kabile savaşçısı.\nKılıç kullanan bu kabile savaşçılarının sürekli ağaçların altında durduğu ve yukarıdan düşen her bir yaprağı keserek savaş becerilerini geliştirdikleri söylenir. Dallardan sessizce düşen yapraklar gibi bu hızlı savaşçıların saldırıları da sessizdir.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502201,
+    "DescribeId": 55022,
+    "RelationshipId": 55022,
+    "MonsterName": "Human_Male_Standard_Sword_Mosasaurus_01",
+    "Name": "Akış Kılıcı: Yağlı Testere",
+    "Title": "Akış Kılıcı: Yağlı Testere",
+    "Description": "Kaplıcaların kaynağından gelen, sularda ve kıyılarda devriye gezen bir savaşçı.\nBu savaşçılar daima en önden giderler, ellerindeki kılıçlar ise kemikleri kıtır kıtır kesen testere dişleri gibidir. Kabilenin üyeleri kılıç talimlerini suyun içinde yaparlar, böylece suyun direncine karşı becerilerini ve güçlerini geliştirirler. En iyileri suyun içinde yüzen bir balığı bile ikiye bölebilir.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25503101,
+    "DescribeId": 55031,
+    "RelationshipId": 55031,
+    "MonsterName": "Human_Male_Standard_Claymore_Hookwalker_01",
+    "Name": "Çevik Adım: Silahlı Kurye",
+    "Title": "Çevik Adım: Silahlı Kurye",
+    "Description": "Gök Kubbenin savaşçısı, ormanlık vadilerde ve dağlardaki derelerde devriye gezen bir kabile savaşçısı.\nÇoğu kişi acaba çift elli kılıçlar Gök Kubbenin Evlatlarındaki kuryelerin kaldıramayacağı kadar ağır mıdır diye merak eder durur. Belki de görevleri çok daha ağır olduğundan caydırıcılığı daha yüksek olan bir silah taşımaları gerekiyordur.",
+    "Icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25504101,
+    "DescribeId": 55041,
+    "RelationshipId": 55041,
+    "MonsterName": "Human_MuscleMan_Claymore_Drillhead_01",
+    "Name": "Dövülmüş Kumlar: Kalkan Kıran",
+    "Title": "Dövülmüş Kumlar: Kalkan Kıran",
+    "Description": "Vadinin cesur savaşçısı, kristal dağları ve nehirleri devriye gezen bir kabile muhafızı.\nİki ellerinde iki devasa savaş çekici savuran bu kabile savaşçıları düşmanın savunma hattını kıran ilk öncü birliktir. Değerli taşları ve her türlü süs eşyasını çok seven Yankıların Çocuklarına göre çekiçler, genellikle kabile savaşçılarının daha çocukken ellerine aldıkları ilk alettir.",
+    "Icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505101,
+    "DescribeId": 55051,
+    "RelationshipId": 55051,
+    "MonsterName": "Human_Male_Fat_Sword_Drillhead_01",
+    "Name": "Dövülmüş Kumlar: Mızrakçı",
+    "Title": "Dövülmüş Kumlar: Mızrakçı",
+    "Description": "Vadinin cesur savaşçısı, kristal dağları ve nehirleri devriye gezen bir kabile muhafızı.\nTepelerin parçalandığı ve kabilelerin yeniden inşa edilmesi gerektiği bir çağda savaşçılar, vadinin her iki tarafında geçitlerin nereye kazılacağını belirlemek için mızrakları işaretleyici olarak kullanırlardı. Bu nedenle her mızrağın derine saplanması gerekirdi.",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505201,
+    "DescribeId": 55052,
+    "RelationshipId": 55052,
+    "MonsterName": "Human_Male_Fat_Sword_Mosasaurus_01",
+    "Name": "Akış Kılıcı: Zıpkın Atan",
+    "Title": "Akış Kılıcı: Zıpkın Atan",
+    "Description": "Kaplıcaların kaynağından gelen, sularda ve kıyılarda devriye gezen bir savaşçı.\nZıpkın savuran bu cesur savaşçıların avlanma ve balık tutma yoluyla kazandıkları inanılmaz becerileri hafife alınmamalıdır. Geçmiş zamanlarda kabile halkının bu becerilerini kullanarak demir kadar sert yüzgeçlere ve pullara sahip devasa deniz canavarlarını avladıkları söylenir.",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510101,
+    "DescribeId": 55101,
+    "RelationshipId": 55101,
+    "MonsterName": "Tribalwarrior_Male_Standard_Powermaul_Drillhead_01",
+    "Name": "Tepetlizor Savaşçısı: Kaya Kırıcı",
+    "Title": "Tepetlizor Savaşçısı: Kaya Kırıcı",
+    "Description": "Vadiden gelen ve yiğitliğiyle tanınan, bundan dolayı Sürüngen Tacına layık görülen güçlü bir savaşçı.\nDüşen kayaların gücünden yararlanarak saldırır. Sürüngen Taçlı Savaşçılar, kayalarla ve kristallerle yatıp kalkan Yankıların Çocuklarının arasında bile kayalardan ve taşlardan en iyi anlayan ustalardır. Hatta bir ham cevherin sadece dışına kabaca bakarak cevherin içindeki saflığı ve tanecikleri görebildikleri söylenir.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510201,
+    "DescribeId": 55102,
+    "RelationshipId": 55102,
+    "MonsterName": "Tribalwarrior_Male_Strong_Chainsword_Drillhead_01",
+    "Name": "Tepetlizor Savaşçısı: Kaya Kıran Kılıç",
+    "Title": "Tepetlizor Savaşçısı: Kaya Kıran Kılıç",
+    "Description": "Vadiden gelen ve yiğitliğiyle tanınan, bundan dolayı Sürüngen Tacına layık görülen güçlü bir savaşçı.\nDüşen kayaların gücünden yararlanarak saldırır. Efsaneye göre, Kükürt Damarları bir zamanlar çok daha kusursuz ve güzel bir sıradağ imiş, ancak Kara Dalga geldiğinde Yankıların Çocuklarındaki Sürüngen Taçlı Savaşçılar toprağı kazarak dalgaları yönlendirmişler ve Damarlara bugünkü görünümünü kazandırmışlar.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510301,
+    "DescribeId": 55103,
+    "RelationshipId": 55103,
+    "MonsterName": "Tribalwarrior_Male_Standard_Chainsword_Hookwalker_01",
+    "Name": "Yumkazor Savaşçısı: Dönen Yapraklar",
+    "Title": "Yumkazor Savaşçısı: Dönen Yapraklar",
+    "Description": "Gök Kubbeden gelen ve yiğitliğiyle tanınan, bundan dolayı Sürüngen Tacına layık görülen güçlü bir savaşçı.\nSaldırı menzilini artırmak için kanca kullanır. Gök Kubbenin Evlatları için kancalar günlük yaşamlarının ayrılmaz birer parçasıdır. Ancak sadece en vahşi savaşçılar kancaları testere kılıçlarıyla birleştirerek hem son derece ölümcül hem de kontrol edilmesi zor bir silah ortaya çıkarabilir.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510401,
+    "DescribeId": 55104,
+    "RelationshipId": 55104,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Hookwalker_01",
+    "Name": "Yumkazor Savaşçısı: Akan Gök Alevi",
+    "Title": "Yumkazor Savaşçısı: Akan Gök Alevi",
+    "Description": "Gök Kubbeden gelen ve yiğitliğiyle tanınan, bundan dolayı Sürüngen Tacına layık görülen güçlü bir savaşçı.\nSaldırı menzilini artırmak için kanca kullanır. Karmaşık bir mekanik işçilik sayesinde kuşandığı el topunu kanca kullanarak ateşleyebilir. Gök Kubbenin Evlatlarının Sürüngen Taçlı Savaşçılarına göre insanın becerilerini ve düşüncelerini geliştirmesi, ruhunu ve iradesini eğitmesinden çok daha önemlidir.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510501,
+    "DescribeId": 55105,
+    "RelationshipId": 55105,
+    "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Mosasaurus_01",
+    "Name": "Koholazor Savaşçısı: Dalga Dokuyan",
+    "Title": "Koholazor Savaşçısı: Dalga Dokuyan",
+    "Description": "Kaplıcaların kaynağından gelen ve yiğitliğiyle tanınan, bundan dolayı Sürüngen Tacına layık görülen güçlü bir savaşçı.\nDalgaların gücünü geçici olarak kullanarak ileri ve geri gidebilir. Efsanelere göre kabilenin kahramanları, olağanüstü hızdan yararlanarak herhangi bir araca ihtiyaç duymadan dalgaların üzerine hareket edebilirmiş. Günümüzde ise kabileler bunun dalgaları kontrol etmek için kullanılan çok gelişmiş ve karmaşık bir sanat olduğuna ve temelinde hareket eyleminin yattığına inanır.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510601,
+    "DescribeId": 55106,
+    "RelationshipId": 55106,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Mosasaurus_01",
+    "Name": "Koholazor Savaşçısı: Resif Yaran",
+    "Title": "Koholazor Savaşçısı: Resif Yaran",
+    "Description": "Kaplıcaların kaynağından gelen ve yiğitliğiyle tanınan, bundan dolayı Sürüngen Tacına layık görülen güçlü bir savaşçı.\nDalgaların gücünü geçici olarak kullanarak ileri ve geri gidebilir. Bu beceride ustalaşmak için üç aşamadan geçilmesi gerektiği söylenir. Birincisi uyum sağlamak, ikincisi boyun eğmek ve üçüncüsü ise sürmektir. Bu hareketlerde ustalaşmak, Kaplıca Halkının Sürüngen Taçlı Savaşçısı olmak için en temel şarttır. Bu Savaşçılar arasında en maharetli olanlar ise bu beceriyi karada dahi kullanabilirler.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55151,
+    "RelationshipId": 55151,
+    "Name": "Kudretli Tepetlizor Savaşçısı: Kaya Kıran Kılıç",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55152,
+    "RelationshipId": 55152,
+    "Name": "Kudretli Koholazor Savaşçısı: Dalga Dokuyan",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55153,
+    "RelationshipId": 55153,
+    "Name": "Kudretli Yumkazor Savaşçısı: Akan Gök Alevi",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55154,
+    "RelationshipId": 55154,
+    "Name": "???",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55161,
+    "RelationshipId": 55161,
+    "Name": "???",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55501,
+    "RelationshipId": 55501,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55502,
+    "RelationshipId": 55502,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55503,
+    "RelationshipId": 55503,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55504,
+    "RelationshipId": 55504,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55505,
+    "RelationshipId": 55505,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55506,
+    "RelationshipId": 55506,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55507,
+    "RelationshipId": 55507,
+    "Name": "Tepetlizor Kabile Şefi",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26010101,
     "DescribeId": 60101,
     "RelationshipId": 60101,
@@ -9491,7 +10419,7 @@
     "Id": 0,
     "DescribeId": 60512,
     "RelationshipId": 60512,
-    "Name": "Ezeli Su Ejderi",
+    "Name": "Savaş Uzmanı Ezeli Su Ejderi",
     "Title": "Ezeli Su Ejderi",
     "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
@@ -11768,6 +12696,694 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 26200101,
+    "DescribeId": 62001,
+    "RelationshipId": 62001,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Small_01",
+    "Name": "Yavru Tepetlizor",
+    "Title": "Yavru Tepetlizor",
+    "Description": "Kayaları ve Katı Filojistonu delip geçebilme yeteneğine sahip olan genç bir Tepetlizor.\nAlınlarında henüz boynuz çıkmamıştır ve kazı becerileri gelişme aşamasındadır. Genç Tepetlizorların kazı becerilerini geliştirme sırasında sık sık kayaların arasına sıkıştıkları bile görülür. Ancak gün gelecek ve en sert toprakları bile özgürce yarıp geçebilecekleri bir kuvvete kavuşacaklar.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 14.9424,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26200201,
+    "DescribeId": 62002,
+    "RelationshipId": 62002,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Normal_01",
+    "Name": "Tepetlizor",
+    "Title": "Tepetlizor",
+    "Description": "Matkap gibi boynuzuyla ve güçlü pençeleriyle kayaları ve Katı Filojistonu delip geçebilen bir Sürüngen.\nEfsanelere göre tüm Tepetlizorların atası bir dağ kadar büyük ve olağanüstü derecede uzun yaşayan devasa bir ejderhaymış. Uyuduğunda sırtında dağlar oluşurmuş, uyandığında ise silkelenerek sırtındaki taşı toprağı atarmış ve geriye pulları arasında parlayan mücevherler ve yeşimler kalırmış. Yankıların Çocuklarında görülebilen matkap şekilli devasa nesnelerin bu ejderhanın kocaman matkap boynuzunun kalıntıları olduğu söyleniyor.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 40.752,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210101,
+    "DescribeId": 62101,
+    "RelationshipId": 62101,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Small_01",
+    "Name": "Yavru Koholazor",
+    "Title": "Yavru Koholazor",
+    "Description": "Su ve Sıvı Filojiston içinde yüzebilen genç bir Koholazor.\nHassas ve yumuşak bir deriye ve yüzgece sahiptir, bu yüzden yetişkin Koholazorlar kadar uzun süre sıcak ortamlara dayanamaz. Elbet bir gün suyun içinde özgürce yüzebileceği bir forma kavuşacak.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.3,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210201,
+    "DescribeId": 62102,
+    "RelationshipId": 62102,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Normal_01",
+    "Name": "Koholazor",
+    "Title": "Koholazor",
+    "Description": "Kalın, güçlü yüzgeçleri ve uzunca bir kuyruğu olan, su ve Sıvı Filojiston içinde yüzebilen bir Sürüngen.\nEfsanelere göre ejderhalar, çok uzun zaman önce bulundukları ortama çok daha kolay bir şekilde uyum sağlayabiliyormuş. O zamanların en büyük ejderhası okyanusun yüzeyinde yüzerken kocaman bir adayı andırırmış. Günümüzdeki Koholazorların o büyük deniz ejderhasının soyundan geldiği ve geniş sırtlarında o kadim deniz canavarlarının kocaman bir şeklinin halen görülebildiği söylenir.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220101,
+    "DescribeId": 62201,
+    "RelationshipId": 62201,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Small_01",
+    "Name": "Yavru Yumkazor",
+    "Title": "Yavru Yumkazor",
+    "Description": "Yanak keselerinde bulunan Alev Narı Pektinini tükürerek uzaktaki nesnelerin etrafını sarabilen genç bir Yumkazor.\nPektin kaplı nesneleri sarma gücü yeterince kuvvetli olmamakla birlikte denge duyusu da havada özgürce hareket edebilecek kadar gelişmemiştir. Bazen kuyruğunun üzerinde otururken bile bir yana devrilebilir. Elbet bir gün ağaçların arasında özgürce daldan dala zıplayabileceği bir bedene kavuşacak.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220201,
+    "DescribeId": 62202,
+    "RelationshipId": 62202,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Normal_01",
+    "Name": "Yumkazor",
+    "Title": "Yumkazor",
+    "Description": "Güçlü arka ayakları ve pofuduk kuyruğu olan bir Sürüngen. Yanak keselerinde bulunan Alev Narı Pektinini tükürerek uzaktaki nesnelerin etrafını sarabilir.\nEfsanelere göre ilk Yumkazorlar bugünkünden epey farklıymış. Çok daha küçüklermiş, hatta o kadar küçüklermiş ki gözle görmek bile zormuş. Rüzgarda özgürce dolaşabilir, devasa ejderhaların bedenine tutunabilir veya bir araya gelerek bulutlar gibi hareket edebilirlermiş. Ancak yetenekleri zayıfladıktan sonra varlıklarını sürdürebilmeleri için şu anki görünümlerini almaktan başka çareleri kalmamış.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220301,
+    "DescribeId": 62203,
+    "RelationshipId": 62203,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Primo_01",
+    "Name": "Obur Yumkazor Dağ Kralı",
+    "Title": "Obur Yumkazor Dağ Kralı",
+    "Description": "Hem zamanın yıkıcı etkisinden hem de sayısız savaştan sağ çıkabilmeyi başarmış, bir şekilde günümüze kadar hayatta kalabilmiş güçlü bir Yumkazor.\nKara Dalga'ya karşı büyük kahramanlarla güçlerini birleştiren bu \"Dağ Kralı\", Gök Kubbenin Evlatlarının gönlünde özel bir yere sahiptir. Bazı kabile üyeleri, onun Gukuzor \"Tiran\" gibi benzersiz bir fiziği olduğu için mevcut vücut şekline sahip olduğuna inanıyor... Oysa gerçekte bunun sebebi sadece çok uzun yaşamış ve çok ama ÇOK fazla yemek yemiş olması.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113065,
+      104131,
+      104132,
+      104133,
+      104134,
+      400022,
+      400032,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 105.504,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.7,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26230301,
+    "DescribeId": 62303,
+    "RelationshipId": 62303,
+    "MonsterName": "Monster_Natsaurus_Flamingo_Primo_01",
+    "Name": "Altın Alevli Gukuzor Tiran",
+    "Title": "Altın Alevli Gukuzor Tiran",
+    "Description": "Günümüz Sürüngenlerinin bedenleri tarafından kontrol edilmesi imkansız olan ebedi güçlerden ötürü, bedeni doğaüstü görünüm kazanan bir Gukuzor.\nEfsanelere göre, şimdilerde genellikle dağlardaki sislerin arasında yaşayan dev Gukuzor gençken Natlan'ı kurtaran kahramanlara maceralarında eşlik etmiş. O kahramanlardan biri, kanındaki giderek şiddetlenen güç nedeniyle delirmek üzere olan zihnini kurtarmak için Gukuzorla birlikte yanardağa doğru kutsal bir yolculuğa çıkmayı kabul etmiş. Ancak şu anki \"Tiran\" unvanına bakacak olursak o hikayenin pek de mutlu sonla bittiğini söyleyemeyiz.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113064,
+      104111,
+      104112,
+      104113,
+      104114,
+      400022,
+      400032,
+      400127,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 168.4416,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260101,
+    "DescribeId": 62601,
+    "RelationshipId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "Kaya Mağarası Wayob Tezahürü",
+    "Title": "Ters Akıntı Wayob Tezahürü",
+    "Description": "Yankıların Çocukları totemlerin ve Gece Ruhlarının gücüyle topraklarda tecelli eden Wayob'a inanırlar ve ona taparlar.\nNatlanlılar Wayob'un Gece Lordu'nun krallığında yaşadığına ve sabit bir sureti olmadığına, bu yüzden de kayıp kabile halkına rehberlik edebilmek için her türlü şekle bürünebildiğine inanır. Wayob Tezahürleri özeldir ve totemlerle ortaya çıkan figürlerin genellikle önemli bir amacı vardır.\nYankıların Çocukları, Wayob'un dağlara ve denizlere şekil verme gücüne ve kayalarla taşların sürtünmesiyle oluşan yankıları kontrol edebilme yetisine sahip olduğuna inanır.",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260201,
+    "DescribeId": 62602,
+    "RelationshipId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "Ters Akıntı Wayob Tezahürü",
+    "Title": "Kaya Mağarası Wayob Tezahürü",
+    "Description": "Kaplıca Halkı, totemlerin ve Gece Ruhlarının gücüyle topraklarda tecelli eden Wayob'a inanırlar ve ona taparlar.\n\"Wayob\" denilen kavram, Natlan halkının Gece Lordu'nun krallığıyla iletişim kurmaya başlamasıyla birlikte kabilelerden ve obsidiyen totemlerden oluşmuş bir inançtır. Kolektif düşünceye sahip bir bilinçtir ve ataların ruhlarına ev sahipliği yapar.\nKaplıca Halkı, Wayob'un gelgitleri ve dalgaları kontrol edebilme gücüne sahip olduğuna ve hem akan sularda hem de durgun suların akışında meydana gelen değişiklikleri yönetebildiğine inanır.",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260301,
+    "DescribeId": 62603,
+    "RelationshipId": 62603,
+    "MonsterName": "Wayob_Hookwalker_01",
+    "Name": "Yaprak Yarışı Wayob Tezahürü",
+    "Title": "Yaprak Yarışı Wayob Tezahürü",
+    "Description": "Gök Kubbenin Evlatları, totemlerin ve Gece Ruhlarının gücüyle topraklarda tecelli eden Wayob'a inanırlar ve ona taparlar.\nHikayecilerin anlattığı öykülerde Wayob Tezahürleri genellikle ya imtihanların elçileri ya da Gece Lordu'nun krallığına giden rehberler olarak ortaya çıkar. Bir Sürüngen Taçlı Savaşçı bir keresinde becerilerini geliştirirken kendinden geçerek bir Wayob'la savaştığını, böylece çok daha derin bir farkındalık elde ettiğini söylemiş.\nGök Kubbenin Evlatları, Wayob'un meyvelerin ve yaprakların büyümesini kontrol edebilme gücüne sahip olduğuna ve hem ekinlerin köklerini kontrol ettiğine hem de yaprak damarlarının desenlerini çizdiğine inanır.",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62604,
+    "RelationshipId": 62604,
+    "Name": "Savaş Uzmanı Kaya Mağarası Wayob Tezahürü",
+    "Title": "Ters Akıntı Wayob Tezahürü",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62605,
+    "RelationshipId": 62605,
+    "Name": "Savaş Uzmanı Ters Akıntı Wayob Tezahürü",
+    "Title": "Kaya Mağarası Wayob Tezahürü",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62606,
+    "RelationshipId": 62606,
+    "Name": "Savaş Uzmanı Yaprak Yarışı Wayob Tezahürü",
+    "Title": "Yaprak Yarışı Wayob Tezahürü",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 26270101,
+    "DescribeId": 62701,
+    "RelationshipId": 62701,
+    "MonsterName": "Monster_Lava_Liquid_01",
+    "Name": "Akışkan Lav Avatarı",
+    "Title": "Akışkan Lav Avatarı",
+    "Description": "Aktif durumda kalabilmek için sürekli olarak ısı soğurması gereken tuhaf bir canavar.\nBir zamanlar, Natlan'ın her yerinde çok daha kadim ve derin bir ateş sayısız biçimlerde yanmaktaydı. O zamanlar yaşayan ilkel halk ışığı, ısıyı ve bilgeliği iletmek için bu ateşi kullanıyordu. Yaşam ve ruhun ilk şeklini çakmaktaşına vurulduğunda ortaya çıkan kıvılcımlardan aldığına inanıyorlardı.\nSonsuza dek yanan bir çekirdeğe sahipse o zaman en inatçı taşlar bile hayat bulabilir. Lav Avatarının bedenindeki közler, o kadim çağdan kalma soğuk ve kül benzeri kalıntılar gibi duruyor.",
+    "Icon": "UI_MonsterIcon_Lava_Liquid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 103.2384,
+      "AttackBase": 87.92,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26270201,
+    "DescribeId": 62702,
+    "RelationshipId": 62702,
+    "MonsterName": "Monster_Lava_Solid_01",
+    "Name": "Aşınan Lav Avatarı",
+    "Title": "Aşınan Lav Avatarı",
+    "Description": "Aktif durumda kalabilmek için sürekli olarak ısı soğurması gereken tuhaf bir canavar.\nKadim medeniyetler, Filojistonun akışını yönlendirmek için birbirinden farklı pek çok altın tasarım kullanmışlar ve devasa yapılar ile büyülü şehirler, altın desenli bilgelik altında yaşam bulmuş. Sabit bir yapısı olan makinaların yanı sıra Lav Avatarları olarak bilinen yaratıkların da aslında aynı şekilde yaratılmış ve ciddi hasar almış olan yaşam formları oldukları söyleniyor. Ne yazık ki kutsal dağın alevleri söndürüldükten sonra çoğu amacını ve yönünü kaybetmiş.",
+    "Icon": "UI_MonsterIcon_Lava_Solid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 116.8224,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 80226,
+    "RelationshipId": 80226,
+    "Name": "Savaş Uzmanı Kapibara",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Raijin",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 29010101,

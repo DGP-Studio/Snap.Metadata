@@ -4747,6 +4747,36 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 30111,
+    "RelationshipId": 30111,
+    "Name": "노련한 우인단 선발대·얼음총 중보병",
+    "Title": "선발대·얼음총 중보병",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30113,
+    "RelationshipId": 30113,
+    "Name": "노련한 우인단 선발대·번개 해머 돌격대",
+    "Title": "선발대·번개 해머 돌격대",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Strong_GreatHammer_Electric_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30116,
+    "RelationshipId": 30116,
+    "Name": "노련한 우인단 선발대·화승총 유격대",
+    "Title": "선발대·화승총 유격대",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Rifle_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23020101,
     "DescribeId": 30201,
     "RelationshipId": 30201,
@@ -4800,6 +4830,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30211,
+    "RelationshipId": 30211,
+    "Name": "노련한 우인단·화염 채무 처리인",
+    "Title": "채무 처리인·불태워진 칼날",
+    "Icon": "UI_MonsterIcon_Fatuus_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 23030101,
@@ -6889,6 +6929,58 @@
     ]
   },
   {
+    "Id": 24090101,
+    "DescribeId": 40901,
+    "RelationshipId": 40901,
+    "MonsterName": "ToothTrap_01",
+    "Name": "비밀근원 기계·포획기",
+    "Title": "비밀근원 기계·포획기",
+    "Description": "고대 유적의 채집용 기계.\n고대 유적의 특수 작업용 기계로 표본을 포획하거나 채집하는 데 쓰기 때문에 기본적인 전투 기능만 있다.\n전설에 따르면 이는 인간이 만든 기계가 아니라 더 오래된 문명의 창조물이라고 한다. 오늘날 고대 문명은 이미 사라졌고 이 이상한 기계만이 남아서 배회하고 있다",
+    "Icon": "UI_MonsterIcon_ToothTrap",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112113,
+      112114,
+      112115,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
@@ -8740,6 +8832,842 @@
     ]
   },
   {
+    "Id": 25500101,
+    "DescribeId": 55001,
+    "RelationshipId": 55001,
+    "MonsterName": "Human_Female_NoWeapon_Mosasaurus_01",
+    "Name": "물결검 용사·유격자",
+    "Title": "물결검 용사·유격자",
+    "Description": "샘물의 원천에서 온 용사이자 수역 주변을 순찰하는 부족의 파수꾼.\n무기는 없지만, 가장 원초적인 격투 기술을 익힌 부족 전사다. 평범해 보이는 격투술에 거센 파도와 같은 힘이 숨겨져 있다",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501101,
+    "DescribeId": 55011,
+    "RelationshipId": 55011,
+    "MonsterName": "Human_Female_Sword_Drillhead_01",
+    "Name": "주물모래 용사·심문자",
+    "Title": "주물모래 용사·심문자",
+    "Description": "협곡에서 온 용사이자 유황 결정산을 순찰하는 부족의 파수꾼.\n곤봉을 든 부족 전사로, 단단한 바위도 가루로 만들 수 있다. 전투가 없을 땐 주로 바위를 부숴 보석과 열소 수정을 찾는다",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501201,
+    "DescribeId": 55012,
+    "RelationshipId": 55012,
+    "MonsterName": "Human_Female_Sword_Hookwalker_01",
+    "Name": "날쌘 용사·밧줄꾼",
+    "Title": "날쌘 용사·밧줄꾼",
+    "Description": "나무의 고향에서 온 용사이자 숲과 계곡을 순찰하는 부족의 파수꾼.\n매일 갈고리줄을 타고 산간을 누비는 이 전사들은 다른 부족 전사보다 환경에 더 민감하다. 늘 어떻게 예상 밖의 공격으로 적을 쓰러트릴지를 연구한다",
+    "Icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502101,
+    "DescribeId": 55021,
+    "RelationshipId": 55021,
+    "MonsterName": "Human_Male_Standard_Sword_Hookwalker_01",
+    "Name": "날쌘 용사·바람 척후병",
+    "Title": "날쌘 용사·바람 척후병",
+    "Description": "나무의 고향에서 온 용사이자 숲과 계곡을 순찰하는 부족의 파수꾼.\n검을 다루는 부족인은 하루 종일 나무 아래서 떨어지는 나뭇잎을 베며 전투 기술을 익힌다고 한다. 낙엽에는 소리가 없듯이 전달꾼의 칼날도 소리 없이 들이닥친다",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502201,
+    "DescribeId": 55022,
+    "RelationshipId": 55022,
+    "MonsterName": "Human_Male_Standard_Sword_Mosasaurus_01",
+    "Name": "물결검 용사·해체자",
+    "Title": "물결검 용사·해체자",
+    "Description": "샘물의 원천에서 온 용사이자 수역 주변을 순찰하는 부족의 파수꾼.\n항상 앞장서는 전사로, 손에 뼈이빨 같은 검을 들고 있다. 검술을 연마하는 부족인은 하루 종일 물의 흐름을 버티며 힘과 기교를 익힌다고 한다. 그들 중의 정예는 헤엄치는 물고기를 반으로 가를 수 있다",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25503101,
+    "DescribeId": 55031,
+    "RelationshipId": 55031,
+    "MonsterName": "Human_Male_Standard_Claymore_Hookwalker_01",
+    "Name": "날쌘 용사·대검 전달꾼",
+    "Title": "날쌘 용사·대검 전달꾼",
+    "Description": "나무의 고향에서 온 용사이자 숲과 계곡을 순찰하는 부족의 파수꾼.\n양손검은 「나무살이」의 전달꾼에게 있어 너무 무거운 무기가 아닐까 하는 의심을 불러일으키지만, 그들은 중요한 책임을 짊어지고 있기 때문에 더욱 위협적인 무기가 필요하다",
+    "Icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25504101,
+    "DescribeId": 55041,
+    "RelationshipId": 55041,
+    "MonsterName": "Human_MuscleMan_Claymore_Drillhead_01",
+    "Name": "주물모래 용사·방패 파괴자",
+    "Title": "주물모래 용사·방패 파괴자",
+    "Description": "협곡에서 온 용사이자 유황 결정산을 순찰하는 부족의 파수꾼.\n거대한 양손 망치를 휘두르는 부족 전사로, 방어선을 뚫는 선봉장 역할을 맡는다. 「메아리 아이」는 보석과 장식품 제작을 좋아하기 때문에 망치는 전사들이 어린 시절부터 가장 흔히 접촉한 도구다",
+    "Icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505101,
+    "DescribeId": 55051,
+    "RelationshipId": 55051,
+    "MonsterName": "Human_Male_Fat_Sword_Drillhead_01",
+    "Name": "주물모래 용사·투창수",
+    "Title": "주물모래 용사·투창수",
+    "Description": "협곡에서 온 용사이자 유황 결정산을 순찰하는 부족의 파수꾼.\n산등성이가 무너져서 부족을 다시 건설해야 할 때, 전사들은 투창으로 개척해야 할 위치를 표시했다. 따라서 창은 바위에 아주 깊숙이 박혀야만 했다",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505201,
+    "DescribeId": 55052,
+    "RelationshipId": 55052,
+    "MonsterName": "Human_Male_Fat_Sword_Mosasaurus_01",
+    "Name": "물결검 용사·작살꾼",
+    "Title": "물결검 용사·작살꾼",
+    "Description": "샘물의 원천에서 온 용사이자 수역 주변을 순찰하는 부족의 파수꾼.\n손에 작살을 쥔 용사. 물고기를 잡는 솜씨가 대단하다. 소문에 따르면, 부족 사람들은 이 작살 기술로 단단한 비늘을 두르고 있는 해수를 추격한다고 한다",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510101,
+    "DescribeId": 55101,
+    "RelationshipId": 55101,
+    "MonsterName": "Tribalwarrior_Male_Standard_Powermaul_Drillhead_01",
+    "Name": "산룡 무사·결정 타자",
+    "Title": "산룡 무사·결정 타자",
+    "Description": "협곡에서 온 강력한 무사. 용맹함을 인정받아 용투구를 하사받았다.\n바위를 붕괴시키는 힘으로 공격하는 무사. 바위 결정에 익숙한 「메아리 아이」 중에서도 용투구 무사는 바위의 힘을 깨우친 고수로, 그들은 원석의 거친 외형만 봐도 내부 구조와 무늬를 분석해 낼 수 있다고 한다",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510201,
+    "DescribeId": 55102,
+    "RelationshipId": 55102,
+    "MonsterName": "Tribalwarrior_Male_Strong_Chainsword_Drillhead_01",
+    "Name": "산룡 무사·바위 파쇄검",
+    "Title": "산룡 무사·바위 파쇄검",
+    "Description": "협곡에서 온 강력한 무사. 용맹함을 인정받아 용투구를 하사받았다.\n바위를 붕괴시키는 힘으로 공격하는 무사. 전설에 따르면 유황 결정 지맥은 원래 아름다운 산맥이었으나, 「메아리 아이」의 용투구 무사들은 칠흑 파도의 방향을 틀기 위해 대지를 부쉈기 때문에 오늘날의 모습이 된 것이라고 한다",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510301,
+    "DescribeId": 55103,
+    "RelationshipId": 55103,
+    "MonsterName": "Tribalwarrior_Male_Standard_Chainsword_Hookwalker_01",
+    "Name": "숲룡 무사·예초꾼",
+    "Title": "숲룡 무사·예초꾼",
+    "Description": "나무의 고향에서 온 강력한 무사. 용맹함을 인정받아 용투구를 하사받았다.\n갈고리줄을 이용해 공격 범위를 확장할 수 있는 무사. 갈고리줄은 「나무살이」 사람들의 일상 필수품이다. 그래도 가장 과격한 전사만이 톱날검과 갈고리줄을 결합해 다루기 어렵지만 살상력이 높은 거대한 무기로 만들 수 있다",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510401,
+    "DescribeId": 55104,
+    "RelationshipId": 55104,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Hookwalker_01",
+    "Name": "숲룡 무사·불꽃놀이",
+    "Title": "숲룡 무사·불꽃놀이",
+    "Description": "나무의 고향에서 온 강력한 무사. 용맹함을 인정받아 용투구를 하사받았다.\n갈고리줄을 이용해 공격 범위를 확장할 수 있는 무사. 손 대포에 달린 정교한 장치는 갈고리줄을 발사할 수 있다. 「나무살이」 부족의 용투구 무사들은 정신과 의지 수련보단 기술과 사고력 개발을 더 중시한다",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510501,
+    "DescribeId": 55105,
+    "RelationshipId": 55105,
+    "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Mosasaurus_01",
+    "Name": "어룡 무사·파도타기",
+    "Title": "어룡 무사·파도타기",
+    "Description": "샘물의 원천에서 온 강력한 무사. 용맹함을 인정받아 용투구를 하사받았다.\n파도의 힘을 잠시 빌려 물 위를 넘나들 수 있는 무사. 전설에 따르면 부족의 영웅은 도구를 이용하지 않고도 매우 빠른 속도로 수면을 왕복할 수 있다고 한다. 오늘날의 부족인들은 그 전설을 일종의 뛰어난 파도타기 이동 기술로 여긴다",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510601,
+    "DescribeId": 55106,
+    "RelationshipId": 55106,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Mosasaurus_01",
+    "Name": "어룡 무사·갈래 암류",
+    "Title": "어룡 무사·갈래 암류",
+    "Description": "샘물의 원천에서 온 강력한 무사. 용맹함을 인정받아 용투구를 하사받았다.\n파도의 힘을 잠시 빌려 물 위를 넘나들 수 있는 무사. 소문에 따르면 그 기술을 익히려면 순서대로 적응, 순응, 제어 총 3단계 수련을 거쳐야 한다. 「샘물 무리」 용투구 무사에게 있어 그 기술은 입문에 불과하며, 고수는 심지어 파도 뿐만 아니라 짧은 시간 동안 땅까지 탈 수 있다고 한다",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55151,
+    "RelationshipId": 55151,
+    "Name": "노련한 산룡 무사·바위 파쇄검",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55152,
+    "RelationshipId": 55152,
+    "Name": "노련한 어룡 무사·파도타기",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55153,
+    "RelationshipId": 55153,
+    "Name": "노련한 숲룡 무사·불꽃놀이",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55154,
+    "RelationshipId": 55154,
+    "Name": "?????",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55161,
+    "RelationshipId": 55161,
+    "Name": "?????",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55501,
+    "RelationshipId": 55501,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55502,
+    "RelationshipId": 55502,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55503,
+    "RelationshipId": 55503,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55504,
+    "RelationshipId": 55504,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55505,
+    "RelationshipId": 55505,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55506,
+    "RelationshipId": 55506,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55507,
+    "RelationshipId": 55507,
+    "Name": "산룡 부족 족장",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26010101,
     "DescribeId": 60101,
     "RelationshipId": 60101,
@@ -9491,7 +10419,7 @@
     "Id": 0,
     "DescribeId": 60512,
     "RelationshipId": 60512,
-    "Name": "심해 용 도마뱀·원종",
+    "Name": "노련한 심해 용 도마뱀·원종",
     "Title": "심해 용 도마뱀·원종",
     "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
@@ -11768,6 +12696,694 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 26200101,
+    "DescribeId": 62001,
+    "RelationshipId": 62001,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Small_01",
+    "Name": "어린 산룡",
+    "Title": "어린 산룡",
+    "Description": "어린 산룡. 바위와 고체 열소 사이를 넘나들 수 있다.\n어린 산룡의 이마에는 뿔이 없고 발굴 기술도 미숙하다. 심지어 훈련하다가 바위에 갇혔다는 소문도 자주 들린다. 하지만 언젠가 어린 산룡도 단단한 땅속을 자유롭게 넘나들 수 있는 모습으로 성장할 것이다",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 14.9424,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26200201,
+    "DescribeId": 62002,
+    "RelationshipId": 62002,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Normal_01",
+    "Name": "산룡",
+    "Title": "산룡",
+    "Description": "드릴 모양의 뿔과 단단한 발톱을 가지고 있으며, 바위와 고체 열소 사이를 넘나들 수 있는 용.\n전설에 따르면 산룡의 조상은 산만큼 거대한 용으로 수명이 상당히 길며, 뭇 산은 그가 잠들 때 그의 등 뒤에서 생겨난다고 한다. 깨어나면 몸에 묻은 흙과 돌을 털어내고 뿔에 붙은 빛나는 보석과 옥만은 남겼는데, 「메아리 아이」 부족의 거대한 드릴이 바로 그 뿔이라고 한다",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 40.752,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210101,
+    "DescribeId": 62101,
+    "RelationshipId": 62101,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Small_01",
+    "Name": "어린 어룡",
+    "Title": "어린 어룡",
+    "Description": "어린 어룡. 수역과 액체 열소에서 헤엄칠 수 있다.\n어린 어룡은 피부와 지느러미가 약해서, 성체 어룡처럼 고온의 환경에서 오랫동안 버틸 수 없다. 하지만 어린 어룡도 언젠가 물속을 자유롭게 넘나들 수 있는 모습으로 성장할 것이다",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.3,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210201,
+    "DescribeId": 62102,
+    "RelationshipId": 62102,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Normal_01",
+    "Name": "어룡",
+    "Title": "어룡",
+    "Description": "건장한 지느러미와 긴 꼬리를 가지고 있으며, 수역과 액체 열소 속에서 헤엄칠 수 있는 용.\n전설에 따르면 고대 용들은 환경 적응력이 더 강하다고 한다. 당시 사람들은 바다에서 떠오른 가장 거대한 용을 떠다니는 섬으로 착각할 정도였다. 지금의 어룡은 그 거대한 해룡의 후예로 여겨진다. 녀석의 넓은 등짝에서 고대 해룡의 거대한 덩치를 엿볼 수 있다",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220101,
+    "DescribeId": 62201,
+    "RelationshipId": 62201,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Small_01",
+    "Name": "어린 숲룡",
+    "Title": "어린 숲룡",
+    "Description": "어린 숲룡. 볼주머니에 숨겨둔 화염류탄 열매 끈끈이로 멀리 있는 물체를 감쌀 수 있다.\n물체를 감싸는 힘이 강하지 않고, 공중에서 균형을 잘 잡지도 못한다. 심지어 꼬리 위에 앉아 있다가 넘어질 때도 있다. 하지만 언젠가 어린 숲룡도 숲속을 자유롭게 넘나들 수 있는 모습으로 성장할 것이다",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220201,
+    "DescribeId": 62202,
+    "RelationshipId": 62202,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Normal_01",
+    "Name": "숲룡",
+    "Title": "숲룡",
+    "Description": "뒷다리가 튼튼하고 꼬리가 복슬복슬하며, 볼주머니 숨겨둔 화염류탄 열매 끈끈이로 멀리 있는 물건을 감쌀 수 있는 용.\n전설에 따르면, 숲룡은 원래 관찰하기 힘들 정도로 작았다고 한다. 심지어 바람을 타고 자유롭게 움직일 수 있으며, 다른 거대한 용의 몸에 달라붙거나 구름처럼 무리 지어 이동하기도 했다고 한다. 하지만 능력이 퇴화한 후 형태를 유지하기 위해 지금의 모습을 선택할 수밖에 없었다",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220301,
+    "DescribeId": 62203,
+    "RelationshipId": 62203,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Primo_01",
+    "Name": "식탐의 숲룡 산왕",
+    "Title": "식탐의 숲룡 산왕",
+    "Description": "고대부터 무수한 전쟁을 겪고도 살아남은 강대한 숲룡.\n한때 다른 영웅들과 함께 칠흑의 파도에 맞선 「산왕」이자, 「나무살이」의 가장 중요한 부족원이다. 몇몇 부족 사람들은 이 용이 깃룡 「폭군」처럼 특수한 체질을 타고나 거대해졌다고 생각했으나… 단순히 오래 살고 많이 먹어서 그런 걸지도 모른다",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113065,
+      104131,
+      104132,
+      104133,
+      104134,
+      400022,
+      400032,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 105.504,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.7,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26230301,
+    "DescribeId": 62303,
+    "RelationshipId": 62303,
+    "MonsterName": "Monster_Natsaurus_Flamingo_Primo_01",
+    "Name": "황금불꽃의 깃룡 폭군",
+    "Title": "황금불꽃의 깃룡 폭군",
+    "Description": "현재 용들이 다룰 수 없는 위대한 힘 때문에 거대해진 이종 깃룡.\n오래된 전설에 따르면 산안개에서 사는 거대한 깃룡은 어린 시절, 나타를 구원한 영웅들과 함께 모험했다고 전해진다. 그리고 그중 한 영웅과 함께 혈통에서 비롯된 이성을 잃게 하는 난폭한 힘을 씻어 내기 위해 함께 성스러운 산으로 향하기로 약속했다. 하지만 깃룡이 여전히 「폭군」이라 불리는 것으로 보건대, 그 전설은 좋은 끝을 맺지 못한 것 같다",
+    "Icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113064,
+      104111,
+      104112,
+      104113,
+      104114,
+      400022,
+      400032,
+      400127,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 168.4416,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260101,
+    "DescribeId": 62601,
+    "RelationshipId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "암굴·대영혼의 화신",
+    "Title": "역류·대영혼의 화신",
+    "Description": "「메아리 아이」 부족이 믿고 숭배하는 「대영혼」. 토템과 밤혼의 힘을 빌려 대지에 모습을 드러낸다.\n나타 부족 사람들은 「대영혼」이 밤의 신의 나라에 살고 있으며, 고유 형체가 없다고 생각한다. 「대영혼」은 사물에 빙의해 길 잃은 부족 사람들에게 길을 안내하기 때문이다. 따라서 대영혼의 화신이 형체를 드러내는 것은 매우 특별한 상황이며, 토템의 형상을 빌려 드러낸 그 자태는 중요한 사명을 짊어지고 있을 것이다.\n「메아리 아이」 사람은 자신이 섬기는 「대영혼」이 산과 골짜기를 세우며, 산석의 마찰음이 내는 메아리를 관장한다고 믿는다",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260201,
+    "DescribeId": 62602,
+    "RelationshipId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "역류·대영혼의 화신",
+    "Title": "암굴·대영혼의 화신",
+    "Description": "「샘물 무리」 부족이 믿고 숭배하는 「대영혼」. 토템과 밤혼의 힘을 빌려 대지에 모습을 드러낸다.\n소위 말하는 「대영혼」은, 나타 사람과 밤의 신의 나라가 연결된 뒤 서서히 형성된 부락과 토템을 주체로 하는 신앙으로, 집단 명상의 의식이자 선조의 영혼이 귀로다.\n「샘물 무리」 사람은 자신이 섬기는 「대영혼」이 조석과 파도를 제어하며, 흐르는 물과 썩은 물의 변화를 관장한다고 믿는다",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260301,
+    "DescribeId": 62603,
+    "RelationshipId": 62603,
+    "MonsterName": "Wayob_Hookwalker_01",
+    "Name": "숲잎·대영혼의 화신",
+    "Title": "숲잎·대영혼의 화신",
+    "Description": "「나무살이」 부족이 믿고 숭배하는 「대영혼」. 토템과 밤혼의 힘을 빌려 대지에 모습을 드러낸다.\n이야기꾼의 이야기에서, 대영혼의 화신은 시련의 사자로 나타나거나 밤의 신의 나라로 인도하는 자로 등장한다. 또한 어떤 용투구 무사는 무예 수행 중에 대영혼의 화신과 싸워 더 깊은 깨달음을 얻었다고 주장한다.\n「나무살이」 사람은 자신이 섬기는 「대영혼」이 열매와 잎의 성장을 제어하며, 작물이 자라는 것을 관장한다고 믿는다",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62604,
+    "RelationshipId": 62604,
+    "Name": "노련한 암굴·대영혼의 화신",
+    "Title": "역류·대영혼의 화신",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62605,
+    "RelationshipId": 62605,
+    "Name": "노련한 역류·대영혼의 화신",
+    "Title": "암굴·대영혼의 화신",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62606,
+    "RelationshipId": 62606,
+    "Name": "노련한 숲잎·대영혼의 화신",
+    "Title": "숲잎·대영혼의 화신",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 26270101,
+    "DescribeId": 62701,
+    "RelationshipId": 62701,
+    "MonsterName": "Monster_Lava_Liquid_01",
+    "Name": "용암 형상·연소체",
+    "Title": "용암 형상·연소체",
+    "Description": "지속적으로 열에너지를 흡수해야 활동 상태를 유지할 수 있는 기이한 마물.\n더 깊고 오래된 불이 다양한 형태로 나타의 땅을 가득 채웠던 시절, 당시 위대했던 원시 주민들은 그 불을 이용해 광열과 지혜를 전달했다. 그들은 부싯돌이 부딪혀 생겨난 불꽃에서 생명과 영혼의 초기 윤곽이 탄생한다고 믿었다.\n상시로 불타는 코어가 있다면 돌멩이조차 생명을 가질 수 있지도 모른다. 용암 형상 체내에 담긴 잿불은, 그 위대한 시대의 차가운 잔재인 것 같다",
+    "Icon": "UI_MonsterIcon_Lava_Liquid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 103.2384,
+      "AttackBase": 87.92,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26270201,
+    "DescribeId": 62702,
+    "RelationshipId": 62702,
+    "MonsterName": "Monster_Lava_Solid_01",
+    "Name": "용암 형상·침식자",
+    "Title": "용암 형상·침식자",
+    "Description": "지속적으로 열에너지를 흡수해야 활동 상태를 유지할 수 있는 기이한 마물.\n고대 문명은 빛을 새긴 다양한 종류의 금빛 문양으로 열소의 흐름을 제어했고, 거대한 피조물과 웅장한 도시는 금빛 문양에서 탄생한 지혜로 작동했다. 고정 구조의 기계뿐만 아니라, 용암 형상이라는 마물도 사실은 이런 방법으로 창조된 불완전한 생명체라고 한다. 다만 신성한 산의 불이 꺼진 후 그들은 대부분 목적과 방향을 잃었다",
+    "Icon": "UI_MonsterIcon_Lava_Solid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 116.8224,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 80226,
+    "RelationshipId": 80226,
+    "Name": "노련한 카피바라",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Raijin",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 29010101,

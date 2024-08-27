@@ -4747,6 +4747,36 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 30111,
+    "RelationshipId": 30111,
+    "Name": "Veteran Fatui Skirmisher - Cryogunner Legionnaire",
+    "Title": "Fatui Skirmisher - Cryogunner Legionnaire",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30113,
+    "RelationshipId": 30113,
+    "Name": "Veteran Fatui Skirmisher - Electrohammer Vanguard",
+    "Title": "Fatui Skirmisher - Electrohammer Vanguard",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Strong_GreatHammer_Electric_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30116,
+    "RelationshipId": 30116,
+    "Name": "Veteran Fatui Skirmisher - Pyroslinger Bracer",
+    "Title": "Fatui Skirmisher - Pyroslinger Bracer",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Rifle_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23020101,
     "DescribeId": 30201,
     "RelationshipId": 30201,
@@ -4800,6 +4830,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30211,
+    "RelationshipId": 30211,
+    "Name": "Veteran Fatui Pyro Agent",
+    "Title": "Agent - Incinerating Blades",
+    "Icon": "UI_MonsterIcon_Fatuus_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 23030101,
@@ -6889,6 +6929,58 @@
     ]
   },
   {
+    "Id": 24090101,
+    "DescribeId": 40901,
+    "RelationshipId": 40901,
+    "MonsterName": "ToothTrap_01",
+    "Name": "Secret Source Automaton: Hunter-Seeker",
+    "Title": "Secret Source Automaton: Hunter-Seeker",
+    "Description": "An ancient ruin automaton used in object collection.\nLegend has it that these ancient ruin machines were designed for specialized work functions, primarily conducting experimental work such as capturing and collecting samples, and had only basic combat functionality.\nAccording to rumor, these were not built by humans, but are instead creations of a yet more ancient civilization. Today, that civilization has been lost, and all that remains are these strange machines that roam the land.",
+    "Icon": "UI_MonsterIcon_ToothTrap",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112113,
+      112114,
+      112115,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
@@ -8740,6 +8832,842 @@
     ]
   },
   {
+    "Id": 25500101,
+    "DescribeId": 55001,
+    "RelationshipId": 55001,
+    "MonsterName": "Human_Female_NoWeapon_Mosasaurus_01",
+    "Name": "Flowing Blade Skirmisher",
+    "Title": "Flowing Blade Skirmisher",
+    "Description": "A warrior from the source of the springs, and a tribal guardian that patrols the waters and shores.\nIn lieu of weapons, these tribal warriors have mastered the techniques of raw, physical combat. Their seemingly ordinary fists and feet contain the power equal to the crashing waves.",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501101,
+    "DescribeId": 55011,
+    "RelationshipId": 55011,
+    "MonsterName": "Human_Female_Sword_Drillhead_01",
+    "Name": "Forged Sand Interrogator",
+    "Title": "Forged Sand Interrogator",
+    "Description": "A valiant warrior of the canyon, and a tribal guardian who patrols the crystal mountains and rivers.\nA tribal warrior wielding a ball-headed club, she can turn even the hardest of rocks into dust with her crushing blows. When not using her weapon to fight, she instead often smashes open rocks in search of precious gems and traces of phlogiston crystals.",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501201,
+    "DescribeId": 55012,
+    "RelationshipId": 55012,
+    "MonsterName": "Human_Female_Sword_Hookwalker_01",
+    "Name": "Swiftstep Seeker",
+    "Title": "Swiftstep Seeker",
+    "Description": "A warrior from the Canopy, and a tribal guardian that patrols the forest valleys and mountain streams.\nUnlike the warriors of other tribes, these warriors, ever swinging around the mountains using their grappling hooks, are always considering how to defeat their opponents with unexpected attacks.",
+    "Icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502101,
+    "DescribeId": 55021,
+    "RelationshipId": 55021,
+    "MonsterName": "Human_Male_Standard_Sword_Hookwalker_01",
+    "Name": "Swiftstep Storm Scout",
+    "Title": "Swiftstep Storm Scout",
+    "Description": "A warrior from the Canopy, and a tribal guardian that patrols the forest valleys and mountain streams.\nIt is said that these sword-wielding tribal warriors stand under trees and cut every leaf that falls over the course of a day in order to hone their fighting skills. But just as leaves fall silently, so are the slashes of these swift couriers soundless.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502201,
+    "DescribeId": 55022,
+    "RelationshipId": 55022,
+    "MonsterName": "Human_Male_Standard_Sword_Mosasaurus_01",
+    "Name": "Flowing Blade Grease-Saw",
+    "Title": "Flowing Blade Grease-Saw",
+    "Description": "A warrior from the source of the springs, and a tribal guardian that patrols the waters and shores.\nThese warriors always lead the charge, and the swords in their hands are as teeth that saw through bone. The members of the tribe who practice the sword do so in the water, honing their skill and strength against the resistance of the water itself. The best among them can cleave a swimming fish in two.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25503101,
+    "DescribeId": 55031,
+    "RelationshipId": 55031,
+    "MonsterName": "Human_Male_Standard_Claymore_Hookwalker_01",
+    "Name": "Swiftstep Armed Courier",
+    "Title": "Swiftstep Armed Courier",
+    "Description": "A warrior from the Canopy, and a tribal guardian that patrols the forest valleys and mountain streams.\nMany wonder if claymores are too heavy to be wielded by the couriers of the Scions of the Canopy, but perhaps it is precisely because their duties are heavier still that a weapon more capable of deterrence is a necessity.",
+    "Icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25504101,
+    "DescribeId": 55041,
+    "RelationshipId": 55041,
+    "MonsterName": "Human_MuscleMan_Claymore_Drillhead_01",
+    "Name": "Forged Sand Shieldbreaker",
+    "Title": "Forged Sand Shieldbreaker",
+    "Description": "A valiant warrior of the canyon, and a tribal guardian that patrols the crystal mountains and rivers.\nTribal warriors wielding massive warhammers with both hands, they are the vanguard that is the first to breach the enemy's defensive lines. For the Children of Echoes, who delight in gemstones and all manner of crafted ornaments, hammers are often the first tool to be touched by the tribe's warriors as children.",
+    "Icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505101,
+    "DescribeId": 55051,
+    "RelationshipId": 55051,
+    "MonsterName": "Human_Male_Fat_Sword_Drillhead_01",
+    "Name": "Forged Sand Javelineer",
+    "Title": "Forged Sand Javelineer",
+    "Description": "A valiant warrior of the canyon, and a tribal guardian that patrols the crystal mountains and rivers.\nIn an era when the ridges were shattered and the tribes needed to rebuild, the warriors used javelins as markers to determine the locations on both sides of the canyon from which passages should be dug. That meant that each javelin had to be sunk deep into the rock.",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505201,
+    "DescribeId": 55052,
+    "RelationshipId": 55052,
+    "MonsterName": "Human_Male_Fat_Sword_Mosasaurus_01",
+    "Name": "Flowing Blade Harpoon-Thrower",
+    "Title": "Flowing Blade Harpoon-Thrower",
+    "Description": "A warrior from the source of the springs, and a tribal guardian that patrols the waters and shores.\nUnderestimate the incredible skills these brave harpoon-wielding warriors have gained through hunting and fishing at your peril. It is said that in the past, tribespeople would use these skills to hunt massive sea beasts with fins and scales as tough as iron.",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510101,
+    "DescribeId": 55101,
+    "RelationshipId": 55101,
+    "MonsterName": "Tribalwarrior_Male_Standard_Powermaul_Drillhead_01",
+    "Name": "Tepetlisaurus Warrior: Shard Striker",
+    "Title": "Tepetlisaurus Warrior: Shard Striker",
+    "Description": "A powerful warrior from the canyon, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nA warrior who can strike with the power of a rockfall. Even among the Children of Echoes, who live and breathe rock and crystal, Saurian-Crowned Warriors are masters who understand rock and stone better than any. It is said they can even divine the purity and grain of the interior of raw ore merely by looking at the rough exterior.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510201,
+    "DescribeId": 55102,
+    "RelationshipId": 55102,
+    "MonsterName": "Tribalwarrior_Male_Strong_Chainsword_Drillhead_01",
+    "Name": "Tepetlisaurus Warrior: Rockbreaker Blade",
+    "Title": "Tepetlisaurus Warrior: Rockbreaker Blade",
+    "Description": "A powerful warrior from the canyon, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nA warrior who can strike with the power of a rockfall. Legend holds that the Sulfurous Veins were once a more complete and more beautiful mountain range, and it was only when the Black Tide came that the Saurian-Crowned warriors of the Children of Echoes carved the earth itself to guide the tide, giving the Veins their current appearance.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510301,
+    "DescribeId": 55103,
+    "RelationshipId": 55103,
+    "MonsterName": "Tribalwarrior_Male_Standard_Chainsword_Hookwalker_01",
+    "Name": "Yumkasaurus Warrior: Whirling Leaves",
+    "Title": "Yumkasaurus Warrior: Whirling Leaves",
+    "Description": "A powerful warrior from the Canopy, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nA warrior who can use a grappling hook to extend their attack range. Grappling hooks are an indispensable part of daily life for the Scions of the Canopy. However, only the wildest warriors will combine the hooks with sawblades to create a weapon both exceptionally lethal and difficult-to-control.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510401,
+    "DescribeId": 55104,
+    "RelationshipId": 55104,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Hookwalker_01",
+    "Name": "Yumkasaurus Warrior: Flowing Skyfire",
+    "Title": "Yumkasaurus Warrior: Flowing Skyfire",
+    "Description": "A powerful warrior from the Canopy, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nA warrior who can use a grappling hook to extend their attack range. Following intricate mechanical tinkering, the handcannon they wield can be fired using said grappling hook. For the Saurian-Crowned warriors of the Scions of the Canopy, refining one's skills and thought is more important than training the spirit and will.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510501,
+    "DescribeId": 55105,
+    "RelationshipId": 55105,
+    "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Mosasaurus_01",
+    "Name": "Koholasaurus Warrior: Waveshuttler",
+    "Title": "Koholasaurus Warrior: Waveshuttler",
+    "Description": "A powerful warrior from the source of the springs, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nA warrior who can temporarily harness the power of the waves to shuttle back and forth. According to legend, the tribe's heroes can take advantage of exceptional speed to move across the waves with no need of any tool. Today, the tribe believes this to be a sophisticated, complex art used to drive the waves, with the way one moves being at its heart.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510601,
+    "DescribeId": 55106,
+    "RelationshipId": 55106,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Mosasaurus_01",
+    "Name": "Koholasaurus Warrior: Reefsplitter",
+    "Title": "Koholasaurus Warrior: Reefsplitter",
+    "Description": "A powerful warrior from the source of the springs, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nA warrior who can temporarily harness the power of the waves to shuttle back and forth. It is said that one must undergo three states of training to master this skill: First, to adapt. Second, to submit. Finally, to drive. Mastering this method of movement is merely the entry-level requirement to become a Saurian-Crowned Warrior of the People of the Springs, and the greatest among these Warriors can even use this skill to sail on land.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55151,
+    "RelationshipId": 55151,
+    "Name": "Veteran Tepetlisaurus Warrior: Rockbreaker Blade",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55152,
+    "RelationshipId": 55152,
+    "Name": "Veteran Koholasaurus Warrior: Waveshuttler",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55153,
+    "RelationshipId": 55153,
+    "Name": "Veteran Yumkasaurus Warrior: Flowing Skyfire",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55154,
+    "RelationshipId": 55154,
+    "Name": "???",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55161,
+    "RelationshipId": 55161,
+    "Name": "???",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55501,
+    "RelationshipId": 55501,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55502,
+    "RelationshipId": 55502,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55503,
+    "RelationshipId": 55503,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55504,
+    "RelationshipId": 55504,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55505,
+    "RelationshipId": 55505,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55506,
+    "RelationshipId": 55506,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55507,
+    "RelationshipId": 55507,
+    "Name": "Tepetlisaurus Tribe Chief",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26010101,
     "DescribeId": 60101,
     "RelationshipId": 60101,
@@ -9491,7 +10419,7 @@
     "Id": 0,
     "DescribeId": 60512,
     "RelationshipId": 60512,
-    "Name": "Primordial Bathysmal Vishap",
+    "Name": "Battle-Hardened Primordial Bathysmal Vishap",
     "Title": "Primordial Bathysmal Vishap",
     "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
@@ -11768,6 +12696,694 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 26200101,
+    "DescribeId": 62001,
+    "RelationshipId": 62001,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Small_01",
+    "Name": "Tepetlisaur Whelp",
+    "Title": "Tepetlisaur Whelp",
+    "Description": "A young Tepetlisaurus with the ability to tunnel between rocks and solid phlogiston.\nThey have not yet formed the horns on their forehead, and their digging skills are still developing as well. It is even common to hear about young Tepetlisaurs getting trapped by rocks while practicing their digging. However, one day, they will grow into a form that may travel freely through even the toughest of soils.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 14.9424,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26200201,
+    "DescribeId": 62002,
+    "RelationshipId": 62002,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Normal_01",
+    "Name": "Tepetlisaurus",
+    "Title": "Tepetlisaurus",
+    "Description": "A Saurian with a drill-like horn and strong claws that can tunnel through rocks and solid phlogiston.\nAccording to legend, the ancestor of all Tepetlisaurs was a massive drake as large as a mountain, with an exceptionally long lifespan. When it slept, mountains would form along its back, and when it woke, it would shake off the dirt and rocks, leaving behind gems and jade shining amongst its scales. The huge, drill-shaped objects in the Children of Echoes are said to be the remains of that great drake's large drill-horn.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 40.752,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210101,
+    "DescribeId": 62101,
+    "RelationshipId": 62101,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Small_01",
+    "Name": "Koholasaur Whelp",
+    "Title": "Koholasaur Whelp",
+    "Description": "A young Koholasaurus with the ability to swim through water and liquid phlogiston.\nTheir skin and flippers are still soft and tender, to the point that they can't even tolerate hot environments for long periods like adults. However, one day, they will grow into the form that can swim freely through the water.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.3,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210201,
+    "DescribeId": 62102,
+    "RelationshipId": 62102,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Normal_01",
+    "Name": "Koholasaurus",
+    "Title": "Koholasaurus",
+    "Description": "A Saurian with thick, strong flippers and a long tail that can swim in water and liquid phlogiston.\nAccording to legend, more ancient dragons were even more able to adapt to their environments, and when the largest dragon in the ocean of the age floated on the surface, it could even be mistaken for an island. It is said that today's Koholasaurus are the descendants of that great sea dragon, and in their broad backs the colossal forms of those ancient sea beasts may yet be glimpsed.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220101,
+    "DescribeId": 62201,
+    "RelationshipId": 62201,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Small_01",
+    "Name": "Yumkasaur Whelp",
+    "Title": "Yumkasaur Whelp",
+    "Description": "A young Yumkasaurus with the ability to spit Flamegranate pectin hidden in their cheek pouches out, wrapping around distant objects.\nTheir hold on pectin-coated objects isn't strong enough, nor is their sense of balance good enough to allow them to move freely through the air. Sometimes, they'll even fall over to one side just sitting on their tails. However, one day, they will grow into the form that can swing freely between the trees without a care.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220201,
+    "DescribeId": 62202,
+    "RelationshipId": 62202,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Normal_01",
+    "Name": "Yumkasaurus",
+    "Title": "Yumkasaurus",
+    "Description": "A Saurian with powerful hind legs and a fluffy tail, capable of spitting Flamegranate pectin hidden in their cheek pouches out, wrapping around distant objects.\nAccording to legend, the original Yumkasaurs were not at all like today, but much smaller, so small that they were difficult even to see. They could roam freely with the wind, cling to the bodies of the massive dragons, or gather in groups to move about like clouds. However, in order to maintain their form after their abilities degenerated, they had no choice but to assume their current shape.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220301,
+    "DescribeId": 62203,
+    "RelationshipId": 62203,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Primo_01",
+    "Name": "Gluttonous Yumkasaur Mountain King",
+    "Title": "Gluttonous Yumkasaur Mountain King",
+    "Description": "A powerful Yumkasaur that has survived both the ravages of time and countless battles, surviving until the present day.\nThis \"Mountain King,\" who once joined forces with the great heroes against the Black Tide, holds a special place in the hearts of the Scions of the Canopy. Some tribe members believe that it has its current body shape because it has a unique physique, like the Qucusaurus \"Tyrant\"... Though in fact, this is simply because it's lived for so long, and eaten way, WAY too much.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113065,
+      104131,
+      104132,
+      104133,
+      104134,
+      400022,
+      400032,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 105.504,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.7,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26230301,
+    "DescribeId": 62303,
+    "RelationshipId": 62303,
+    "MonsterName": "Monster_Natsaurus_Flamingo_Primo_01",
+    "Name": "Goldflame Qucusaur Tyrant",
+    "Title": "Goldflame Qucusaur Tyrant",
+    "Description": "A Qucusaurus whose body has attained a supernatural form due to enduring forces that the bodies of modern Saurians cannot control.\nLegends say that when the giant Qucusaur who now often dwells in the mountain fog was young, he also once followed the heroes who saved Natlan in their adventures. It is said that one of those heroes once agreed to make the pilgrimage with him together to the volcano, to save his mind back from the brink of insanity that the increasing violent power in his blood was forcing him towards. However, judging from his current title of \"Tyrant,\" that story did not have a happy ending.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113064,
+      104111,
+      104112,
+      104113,
+      104114,
+      400022,
+      400032,
+      400127,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 168.4416,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260101,
+    "DescribeId": 62601,
+    "RelationshipId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "Rock-Cavernous Wayob Manifestation",
+    "Title": "Flow-Inverted Wayob Manifestation",
+    "Description": "The Children of Echoes believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\nThe people of Natlan believe that the Wayob dwell in the kingdom of the Lord of the Night, and have no fixed form, instead attaching themselves to anything in order to provide guidance to lost tribespeople. Wayob manifestations are particularly special, and the figure revealed through the totems often has an important purpose.\nThe Children of Echoes believe that their Wayob has the power to shape mountains and valleys, and can control the echoes created when rock meets stone.",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260201,
+    "DescribeId": 62602,
+    "RelationshipId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "Flow-Inverted Wayob Manifestation",
+    "Title": "Rock-Cavernous Wayob Manifestation",
+    "Description": "The People of the Springs believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\nThe so-called \"Wayob\" is the belief that gradually formed primarily from the tribes and obsidian totems after the people of Natlan began communicating with the kingdom of the Lord of the Night. A \"Wayob\" is a consciousness of collective thought, and the home of the ancestors' souls.\nThe People of the Springs believe their Wayob has the power to control the tides and waves, and can control the changes of flowing and still, dead waters alike.",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260301,
+    "DescribeId": 62603,
+    "RelationshipId": 62603,
+    "MonsterName": "Wayob_Hookwalker_01",
+    "Name": "Foliar-Swift Wayob Manifestation",
+    "Title": "Foliar-Swift Wayob Manifestation",
+    "Description": "The Scions of the Canopy believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\nIn the stories of the storytellers, Wayob manifestations often appear as the messengers of trials, or guides to the kingdom of the Lord of the Night. A Saurian-Crowned Warrior once said that he fought with a Wayob in a trance while practicing his skills, and in doing so, gained deeper understanding.\nThe Scions of the Canopy believe their Wayob has the power to control the growth of fruits and leaves, and can also control the roots of crops and draw the patterns of the veins of leaves.",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62604,
+    "RelationshipId": 62604,
+    "Name": "Battle-Hardened Rock-Cavernous Wayob Manifestation",
+    "Title": "Flow-Inverted Wayob Manifestation",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62605,
+    "RelationshipId": 62605,
+    "Name": "Battle-Hardened Flow-Inverted Wayob Manifestation",
+    "Title": "Rock-Cavernous Wayob Manifestation",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62606,
+    "RelationshipId": 62606,
+    "Name": "Battle-Hardened Foliar-Swift Wayob Manifestation",
+    "Title": "Foliar-Swift Wayob Manifestation",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 26270101,
+    "DescribeId": 62701,
+    "RelationshipId": 62701,
+    "MonsterName": "Monster_Lava_Liquid_01",
+    "Name": "Fluid Avatar of Lava",
+    "Title": "Fluid Avatar of Lava",
+    "Description": "A strange monster that must continually absorb heat to stay in an active state.\nOnce, a more ancient and deep fire burned across all of Natlan in myriad forms. At that time, the once-great primitive residents used these fires to transmit light, heat, and wisdom. They believed that life and the soul too took their initial shape from the sparks that flew when flint was struck.\nIf it possesses an eternally burning core, then even a stubborn stone can bring about life. The embers within the body of the Avatar of Lava seem to be the cold, ash-like remnants of that ancient era.",
+    "Icon": "UI_MonsterIcon_Lava_Liquid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 103.2384,
+      "AttackBase": 87.92,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26270201,
+    "DescribeId": 62702,
+    "RelationshipId": 62702,
+    "MonsterName": "Monster_Lava_Solid_01",
+    "Name": "Eroding Avatar of Lava",
+    "Title": "Eroding Avatar of Lava",
+    "Description": "A strange monster that must continually absorb heat to stay in an active state.\nThe ancient civilization used many different types of golden designs to drive the flow of phlogiston, allowing massive constructs and magnificent cities to operate under the wisdom of the golden patterns. It is said that in addition to machines with fixed structures, the creatures known as Avatars of Lava are actually badly damaged lifeforms that were once created in the same way. However, after the flames of the sacred mountain were extinguished, most of them lost their sense of purpose and direction.",
+    "Icon": "UI_MonsterIcon_Lava_Solid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 116.8224,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 80226,
+    "RelationshipId": 80226,
+    "Name": "Battle-Hardened Capybara",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Raijin",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 29010101,

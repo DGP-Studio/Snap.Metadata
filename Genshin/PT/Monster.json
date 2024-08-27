@@ -4747,6 +4747,36 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 30111,
+    "RelationshipId": 30111,
+    "Name": "Soldado dos Fatui Veterano - Guarda de Canhão Cryo",
+    "Title": "Soldado - Guarda de Canhão Cryo",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30113,
+    "RelationshipId": 30113,
+    "Name": "Soldado dos Fatui Veterano- Vanguarda de Martelo Electro",
+    "Title": "Soldado - Vanguarda de Martelo Electro",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Strong_GreatHammer_Electric_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30116,
+    "RelationshipId": 30116,
+    "Name": "Soldado dos Fatui Veterano- Guerrilheiro de Canhão Pyro",
+    "Title": "Soldado - Guerrilheiro de Canhão Pyro",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Rifle_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23020101,
     "DescribeId": 30201,
     "RelationshipId": 30201,
@@ -4800,6 +4830,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30211,
+    "RelationshipId": 30211,
+    "Name": "Fatui - Agente Pyro Veterano",
+    "Title": "Agente - Lâminas Incineradoras",
+    "Icon": "UI_MonsterIcon_Fatuus_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 23030101,
@@ -6889,6 +6929,58 @@
     ]
   },
   {
+    "Id": 24090101,
+    "DescribeId": 40901,
+    "RelationshipId": 40901,
+    "MonsterName": "ToothTrap_01",
+    "Name": "Autômato da Fonte Secreta: Caçador-Perseguidor",
+    "Title": "Autômato da Fonte Secreta: Caçador-Perseguidor",
+    "Description": "Uma antiga máquina das ruínas de coleta.\nAs lendas dizem que essas antigas máquinas das ruínas foram projetadas para funções especializadas de trabalho, primariamente conduzindo trabalho experimental como a captura e coleta de amostras, e tinha apenas uma funcionalidade básica de combate.\nSegundo rumores, elas não foram construídas por humanos, ao invés disso, eram as criações de uma civilização ainda mais antiga. Hoje, essa civilização se perdeu, e tudo que sobrou são os restos dessas estranhas máquinas que vagam pela terra.",
+    "Icon": "UI_MonsterIcon_ToothTrap",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112113,
+      112114,
+      112115,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
@@ -8740,6 +8832,842 @@
     ]
   },
   {
+    "Id": 25500101,
+    "DescribeId": 55001,
+    "RelationshipId": 55001,
+    "MonsterName": "Human_Female_NoWeapon_Mosasaurus_01",
+    "Name": "Espadachim da Lâmina Fluida",
+    "Title": "Espadachim da Lâmina Fluida",
+    "Description": "Uma guerreira das fontes termais e guardiã tribal que patrulha águas e costas.\nCompletamente desarmada, esses guerreiros tribais dominaram as técnicas de combate físico e desarmado. Seus punhos e pés aparentemente extraordinários contêm o poder de ondas quebrando.",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501101,
+    "DescribeId": 55011,
+    "RelationshipId": 55011,
+    "MonsterName": "Human_Female_Sword_Drillhead_01",
+    "Name": "Interrogadora da Areia Forjada",
+    "Title": "Interrogadora da Areia Forjada",
+    "Description": "Uma brava guerreira do cânion e guardiã tribal que patrulha as montanhas e rios de cristal.\nUma guerreira tribal empunhando uma maça com uma esfera na ponta, ela pode até transformar as rochas mais duras em pó com seus golpes esmagadores. Quando não usa sua arma para lutar, ela frequentemente destrói pedras abertas a procura de gemas preciosas e rastros de cristais de Flogisto.",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501201,
+    "DescribeId": 55012,
+    "RelationshipId": 55012,
+    "MonsterName": "Human_Female_Sword_Hookwalker_01",
+    "Name": "Exploradora de Passo Ágil",
+    "Title": "Exploradora de Passo Ágil",
+    "Description": "Uma guerreira das Copas e guardiã tribal que patrulha os vales da floresta e riachos da montanha.\nDiferentemente dos guerreiros de outras tribos, esses guerreiros que estão sempre se balançando pelas montanhas com seus ganchos estão sempre considerando como usar ataques inesperados para derrotar seus oponentes.",
+    "Icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502101,
+    "DescribeId": 55021,
+    "RelationshipId": 55021,
+    "MonsterName": "Human_Male_Standard_Sword_Hookwalker_01",
+    "Name": "Batedor da Tempestade de Passo Ágil",
+    "Title": "Batedor da Tempestade de Passo Ágil",
+    "Description": "Um guerreiro das Copas e guardião tribal que patrulha os vales da floresta e riachos da montanha.\nDizem que esses guerreiros tribais que empunham espadas ficam sob árvores e cortam toda folha que cai ao longo do dia para aprimorar as habilidades de combate. Mas assim como as folhas caem em silêncio, os cortes desses velozes guerreiros não emitem sons.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502201,
+    "DescribeId": 55022,
+    "RelationshipId": 55022,
+    "MonsterName": "Human_Male_Standard_Sword_Mosasaurus_01",
+    "Name": "Serra Lubrificada da Lâmina Fluida",
+    "Title": "Serra Lubrificada da Lâmina Fluida",
+    "Description": "Um guerreiro das fontes termais e guardião que patrulha as águas e costas.\nEsses guerreiros sempre lideram a investida, e as espadas em suas mãos são como dentes que serram ossos. Os membros da tribo que praticam a arte da espada, o fazem na água, aprimorando sua habilidade e força contra a resistência da própria água. O melhor deles pode partir um peixe nadando em dois com um golpe.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25503101,
+    "DescribeId": 55031,
+    "RelationshipId": 55031,
+    "MonsterName": "Human_Male_Standard_Claymore_Hookwalker_01",
+    "Name": "Mensageiro Armado do Passo Ágil",
+    "Title": "Mensageiro Armado do Passo Ágil",
+    "Description": "Um guerreiro das Copas e guardião tribal que patrulha os vales da floresta e riachos da montanha.\nMuitos se perguntam se espadões são pesados demais para serem usados pelos mensageiros dos Descendentes das Copas, mas talvez seja precisamente por seus deveres serem ainda mais pesados, que uma arma mais do que capaz de dissuasão é uma necessidade.",
+    "Icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25504101,
+    "DescribeId": 55041,
+    "RelationshipId": 55041,
+    "MonsterName": "Human_MuscleMan_Claymore_Drillhead_01",
+    "Name": "Quebrador de Escudos de Areia Forjada",
+    "Title": "Quebrador de Escudos de Areia Forjada",
+    "Description": "Um bravo guerreiro do cânion e guardião tribal que patrulha as montanhas e rios de cristal.\nGuerreiros tribais que empunham martelos de guerra gigantescos com as duas mãos, eles são a vanguarda que primeiramente rompe as defesas inimigas. Para os Filhos dos Ecos, que apreciam gemas e todos os tipos de ornamentos, martelos são frequentemente a primeira ferramente tocada pelos guerreiros da tribo enquanto ainda são crianças.",
+    "Icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505101,
+    "DescribeId": 55051,
+    "RelationshipId": 55051,
+    "MonsterName": "Human_Male_Fat_Sword_Drillhead_01",
+    "Name": "Lanceiro de Areia Forjada",
+    "Title": "Lanceiro de Areia Forjada",
+    "Description": "Um bravo guerreiro do cânion e guardião tribal que patrulha as montanhas e rios de cristal.\nEm uma era em que as cordilheiras foram destruídas e as tribos precisavam ser reconstruídas, os guerreiros usavam dardos como marcadores para determinar os locais nos dois lados do cânion nos quais passagens deveriam ser cavadas. Isso significava que cada dardo devia ser enfincado profundamente na rocha.",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505201,
+    "DescribeId": 55052,
+    "RelationshipId": 55052,
+    "MonsterName": "Human_Male_Fat_Sword_Mosasaurus_01",
+    "Name": "Arremessador de Pontas da Lâmina Fluida",
+    "Title": "Arremessador de Pontas da Lâmina Fluida",
+    "Description": "Um guerreiro das fontes termais e guardião tribal que patrulha águas e costas.\nSubestime as incríveis habilidades que esses corajosos guerreiros que empunham tridentes ganharam em caças e pesca por sua própria conta e risco. Dizem que no passado, pessoas da tribo usavam essas habilidades para caçar feras marinhas enormes com nadadeiras e escamas tão duras quanto aço.",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510101,
+    "DescribeId": 55101,
+    "RelationshipId": 55101,
+    "MonsterName": "Tribalwarrior_Male_Standard_Powermaul_Drillhead_01",
+    "Name": "Guerreiro Tepetlissauro: Destruidor de Cristais",
+    "Title": "Guerreiro Tepetlissauro: Destruidor de Cristais",
+    "Description": "Um poderoso guerreiro do cânion, cuja bravura foi reconhecida, o permitindo usar uma Coroa Sauriana.\nUm guerreiro que pode atacar com o poder de um deslizamento de rochas. Até entre os Filhos dos Ecos, que vivem sob rochas e cristais, Guerreiros de Coroa Sauriana são mestres que entendem rochas e pedras melhor do que ninguém. Dizem que eles podem até adivinhar a pureza e granulação do interior de minérios brutos meramente ao olhar para seu exterior.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510201,
+    "DescribeId": 55102,
+    "RelationshipId": 55102,
+    "MonsterName": "Tribalwarrior_Male_Strong_Chainsword_Drillhead_01",
+    "Name": "Guerreiro Tepetlissauro: Lâmina Destrói-Rocha",
+    "Title": "Guerreiro Tepetlissauro: Lâmina Destrói-Rocha",
+    "Description": "Um poderoso guerreiro do cânion, cuja bravura foi reconhecida, o permitindo usar uma Coroa Sauriana.\nUm guerreiro que pode atacar com o poder de um deslizamento de rochas. As lendas dizem que os Veios Sulfurosos já foram uma cordilheira mais completa e bela, e que foi apenas quando a Maré Negra veio que os Guerreiros de Coroa Sauriana dos Filhos dos Ecos talharam a própria terra para guiar a maré que eles ganharam sua aparência atual.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510301,
+    "DescribeId": 55103,
+    "RelationshipId": 55103,
+    "MonsterName": "Tribalwarrior_Male_Standard_Chainsword_Hookwalker_01",
+    "Name": "Guerreiro Yumkassauro: Folhas Rodopiantes",
+    "Title": "Guerreiro Yumkassauro: Folhas Rodopiantes",
+    "Description": "Um poderoso guerreiro das Copas, cuja bravura foi reconhecida, o permitindo usar uma Coroa Sauriana.\nUm guerreiro que pode usar um gancho para estender seu alcance de ataque. Cordas-gancho são uma parte indispensável do cotidiano dos Descendentes das Copas. Contudo, apenas os guerreiros mais intensos combinarão os ganchos com lâminas de serras para se tornar uma arma tanto excepcionalmente letal quanto difícil de controlar.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510401,
+    "DescribeId": 55104,
+    "RelationshipId": 55104,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Hookwalker_01",
+    "Name": "Guerreira Yumkassauro: Céu Flamejante",
+    "Title": "Guerreira Yumkassauro: Céu Flamejante",
+    "Description": "Uma poderosa guerreira das Copas, cuja bravura foi reconhecida, a permitindo usar uma Coroa Sauriana.\nUma guerreira que pode usar um gancho para estender seu alcance de ataque. Após juntar um mecanismo sofisticado, o canhão de mão que eles usam pode ser disparado usando o gancho. Para os Guerreiros de Coroa Sauriana dos Descendentes das Copas, acredita-se que refinar as habilidades é mais importante do que treinar a determinação.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510501,
+    "DescribeId": 55105,
+    "RelationshipId": 55105,
+    "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Mosasaurus_01",
+    "Name": "Guerreira Koholassauro: Sopradora de Ondas",
+    "Title": "Guerreira Koholassauro: Sopradora de Ondas",
+    "Description": "Uma poderosa guerreira das fontes termais, cuja bravura foi reconhecida, a permitindo usar uma Coroa Sauriana.\nUma guerreira que pode manusear temporariamente o poder das ondas para ir e vir. Segundo as lendas, os heróis da tribo podem tirar vantagem da velocidade excepcional para se moverem pelas ondas sem precisar de qualquer ferramenta. Hoje, a tribo acredita que isso é usar movimentos complexos e sofisticados para comandar as ondas, com a forma que se movem estando em seu coração.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510601,
+    "DescribeId": 55106,
+    "RelationshipId": 55106,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Mosasaurus_01",
+    "Name": "Guerreira Koholassauro: Quebradora de Marés",
+    "Title": "Guerreira Koholassauro: Quebradora de Marés",
+    "Description": "Uma poderosa guerreira das fontes termais, cuja bravura foi reconhecida, a permitindo usar uma Coroa Sauriana.\nUma guerreira que pode manusear temporariamente o poder das ondas para ir e vir. Dizem que é necessário passar por três estados de treinamento para dominar essa habilidade: Primeiro, se adaptar. Segundo, se submeter. Finalmente, comandar. Dominar esse método de movimentação é o único requisito para se tornar um Guerreiro de Coroa Sauriana do Povo das Termas, e o maior entre esses guerreiros pode até mesmo usar essa habilidade para navegar na terra.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55151,
+    "RelationshipId": 55151,
+    "Name": "Guerreiro Tepetlissauro Veterano: Lâmina Destrói-Rocha",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55152,
+    "RelationshipId": 55152,
+    "Name": "Guerreira Koholassauro Veterana: Sopradora de Ondas",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55153,
+    "RelationshipId": 55153,
+    "Name": "Guerreira Yumkassauro Veterana: Céu Flamejante",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55154,
+    "RelationshipId": 55154,
+    "Name": "?????",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55161,
+    "RelationshipId": 55161,
+    "Name": "?????",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55501,
+    "RelationshipId": 55501,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55502,
+    "RelationshipId": 55502,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55503,
+    "RelationshipId": 55503,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55504,
+    "RelationshipId": 55504,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55505,
+    "RelationshipId": 55505,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55506,
+    "RelationshipId": 55506,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55507,
+    "RelationshipId": 55507,
+    "Name": "Chefe da tribo dos Tepetlissauros",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26010101,
     "DescribeId": 60101,
     "RelationshipId": 60101,
@@ -9491,7 +10419,7 @@
     "Id": 0,
     "DescribeId": 60512,
     "RelationshipId": 60512,
-    "Name": "Dragarto das Profundezas Primordial",
+    "Name": "Dragarto das Profundezas Primordial Veterano",
     "Title": "Dragarto das Profundezas Primordial",
     "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
@@ -11768,6 +12696,694 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 26200101,
+    "DescribeId": 62001,
+    "RelationshipId": 62001,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Small_01",
+    "Name": "Filhote de Tepetlissauro",
+    "Title": "Filhote de Tepetlissauro",
+    "Description": "Tepetlissauros jovens têm a habilidade de cavar em rochas e Flogisto Sólido.\nEles ainda não formaram chifres em suas testas, e suas habilidades de cavar ainda estão em desenvolvimento. É até comum ouvir Tepetlissauros jovens ficando presos em rochas durante a prática de escavação. Contudo, um dia, eles crescerão até a forma que os permite viajar livremente até através dos solos mais difíceis.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 14.9424,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26200201,
+    "DescribeId": 62002,
+    "RelationshipId": 62002,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Normal_01",
+    "Name": "Tepetlissauro",
+    "Title": "Tepetlissauro",
+    "Description": "Um Sauriano com um chifre parecido com uma broca e garras fortes que podem cavar por rochas e Flogisto Sólido.\nSegundo as lendas, o ancestral do Tepetlissauro era um dragão enorme, tão grande quanto uma montanha, com uma vida excepcionalmente longa. Quando dormia, montanhas se formavam em suas costas e, quando acordava, chacoalhava a poeira e rochas, deixando para trás gemas e jade brilhando entre suas escamas. Os imensos objetos com formato de broca nos Filhos dos Ecos são considerados restos do imenso chifre-broca do dragão gigantesco.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 40.752,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210101,
+    "DescribeId": 62101,
+    "RelationshipId": 62101,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Small_01",
+    "Name": "Filhote de Koholassauro",
+    "Title": "Filhote de Koholassauro",
+    "Description": "Jovens Koholassauros têm a habilidade de nadar por água e Flogisto Líquido.\nSua pele e nadadeiras ainda são macias e suaves, ao ponto de eles nem conseguirem tolerar ambientes quentes por longos períodos como Koholassauros adultos. Contudo, um dia, eles crescerão até a forma que pode nadar livremente pela água.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.3,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210201,
+    "DescribeId": 62102,
+    "RelationshipId": 62102,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Normal_01",
+    "Name": "Koholassauro",
+    "Title": "Koholassauro",
+    "Description": "Um Sauriano com nadadeiras grossas e fortes, e uma cauda longa que pode nadar em água e Flogisto Líquido.\nSegundo as lendas, dragões mais antigos eram ainda mais capazes de se adaptar aos seus ambientes, e quando o maior dragão da era boiava na superfície, dava para ser confundido com uma ilha. Dizem que os Koholassauros de hoje são os descendentes daquele grande dragão do mar, e em suas largas costas, as formas colossais daquelas antigas feras marinhas ainda podem ser vistas.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220101,
+    "DescribeId": 62201,
+    "RelationshipId": 62201,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Small_01",
+    "Name": "Filhote de Yumkassauro",
+    "Title": "Filhote de Yumkassauro",
+    "Description": "Yumkassauros jovens têm a habilidade de cuspir Cola de Fogorromã escondida nas bolsas de suas bochechas, envolvendo objetos distantes.\nSeu controle de objetos revestidos de pectina não é forte suficiente, nem o senso de equilíbrio deles é bom o bastante para permitir que eles se movam livremente pelo ar. Às vezes, eles até caem de lado só ao sentar em suas caudas. Contudo, um dia, eles crescerão até a forma que pode se balançar livremente entre as árvores sem se preocupar.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220201,
+    "DescribeId": 62202,
+    "RelationshipId": 62202,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Normal_01",
+    "Name": "Yumkassauro",
+    "Title": "Yumkassauro",
+    "Description": "Um Sauriano com poderosas pernas traseiras e uma cauda fofa, capazes de cuspir Cola de Fogorromã escondida nas bolsas de suas bochechas, envolvendo objetos distantes.\nSegundo as lendas, os Yumkassauros originais não eram nada como os de hoje, e sim muito menores, tão pequenos que eram até difíceis de ver. Eles podiam andar livremente com o vento, ficar perto de dragões gigantes, ou se reunir em grupos para se moverem como nuvens. Contudo, para manter sua forma após a degeneração de suas habilidades, eles não tiveram escolha senão assumir sua forma atual.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220301,
+    "DescribeId": 62203,
+    "RelationshipId": 62203,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Primo_01",
+    "Name": "Yumkassauro Guloso Lorde da Montanha",
+    "Title": "Yumkassauro Guloso Lorde da Montanha",
+    "Description": "Um poderoso Yumkassauro que sobreviveu tanto às devastações do tempo e incontáveis batalhas, sobrevivendo até o presente.\nEsse \"Rei da Montanha\", que já uniu forças com os grandes heróis contra a Maré Negra, possui um lugar especial nos corações dos Descendentes das Copas. Alguns da tribo acreditam que ele possui sua atual forma corporal por causa de seu físico único, como o Qucussauro \"Tirano\"... Na verdade, é simplesmente porque ele viveu por tanto tempo e comeu demais, DEMAIS mesmo.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113065,
+      104131,
+      104132,
+      104133,
+      104134,
+      400022,
+      400032,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 105.504,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.7,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26230301,
+    "DescribeId": 62303,
+    "RelationshipId": 62303,
+    "MonsterName": "Monster_Natsaurus_Flamingo_Primo_01",
+    "Name": "Tirano Qucussauro da Chama Dourada",
+    "Title": "Tirano Qucussauro da Chama Dourada",
+    "Description": "Um Qucussauro cujo corpo atingiu uma forma sobrenatural devido a forças remanescentes que os corpos dos Saurianos modernos não conseguem controlar.\nLendas dizem que quando o Qucussauro gigante que agora frequentemente habita na névoa da montanha era jovem, ele também seguiu os heróis que salvaram Natlan em suas aventuras. Dizem que um desses heróis uma vez concordou em fazer a peregrinação junto a ele até o vulcão para salvar sua mente do precipício da insanidade ao qual seu crescente poder violento estava o conduzindo. Entretanto, julgando pelo seu atual título de \"Tirano\", essa história não teve um final feliz.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113064,
+      104111,
+      104112,
+      104113,
+      104114,
+      400022,
+      400032,
+      400127,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 168.4416,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260101,
+    "DescribeId": 62601,
+    "RelationshipId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "Manifestação Wayob da Caverna Rochosa",
+    "Title": "Manifestação Wayob do Fluxo Invertido",
+    "Description": "Os Filhos dos Ecos acreditam e veneram o Wayob, que se manifesta acima da terra com o poder de totens e Espíritos da Noite.\nO povo de Natlan acredita que o Wayob vive no reino do Lorde da Noite e não possui forma fixa, pois ele pode se anexar a qualquer coisa para fornecer orientação aos membros da tribo perdidos. Manifestações Wayob são particularmente especiais, e a figura revelada pelos totens frequentemente possui um propósito importante.\nOs Filhos dos Ecos acreditam que seu Wayob possui o poder para moldar montanhas e vales, e pode controlar os ecos criados quando rochas e pedras colidem.",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260201,
+    "DescribeId": 62602,
+    "RelationshipId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "Manifestação Wayob do Fluxo Invertido",
+    "Title": "Manifestação Wayob da Caverna Rochosa",
+    "Description": "O Povo das Termas acredita e venera o Wayob, que se manifesta acima da terra com o poder de totens e Espíritos da Noite.\nO chamado \"Wayob\" é a crença que formou gradual e primariamente das tribos e totens de obsidiana após o povo de Natlan começar a se comunicar com o reino do Lorde da Noite. É uma consciência de pensamentos coletivos e lar das almas dos ancestrais.\nO Povo das Termas acredita que seu Wayob pode controlar as marés e ondas, e consegue controlar as mudanças das águas fluentes, paradas e mortas.",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260301,
+    "DescribeId": 62603,
+    "RelationshipId": 62603,
+    "MonsterName": "Wayob_Hookwalker_01",
+    "Name": "Manifestação Wayob da Folha Veloz",
+    "Title": "Manifestação Wayob da Folha Veloz",
+    "Description": "Os Descendentes das Copas acreditam e veneram o Wayob, que se manifesta acima da terra com o poder de totens e Espíritos da Noite.\nEm histórias dos contadores de histórias, Manifestações Wayob frequentemente aparecem como mensageiros de julgamentos ou guias para o reino do Lorde da Noite. Um Guerreiro de Coroa Sauriana disse uma vez que lutou com um Wayob num transe enquanto treinava suas habilidades e, ao fazer isso, ganhou uma compreensão mais aprofundada.\nOs Descendentes das Copas acreditam que seu Wayob pode controlar o crescimento de frutas e plantas, e também consegue controlar as raízes de cultivos e desenhar os padrões nas veias das folhas.",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62604,
+    "RelationshipId": 62604,
+    "Name": "Manifestação Wayob da Caverna Rochosa Endurecida por Batalhas",
+    "Title": "Manifestação Wayob do Fluxo Invertido",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62605,
+    "RelationshipId": 62605,
+    "Name": "Manifestação Wayob do Fluxo Invertido Endurecida por Batalhas",
+    "Title": "Manifestação Wayob da Caverna Rochosa",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62606,
+    "RelationshipId": 62606,
+    "Name": "Manifestação Wayob da Folha Veloz Endurecida por Batalhas",
+    "Title": "Manifestação Wayob da Folha Veloz",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 26270101,
+    "DescribeId": 62701,
+    "RelationshipId": 62701,
+    "MonsterName": "Monster_Lava_Liquid_01",
+    "Name": "Avatar Fluido da Lava",
+    "Title": "Avatar Fluido da Lava",
+    "Description": "Um monstro estranho que deve absorver calor continuamente para continuar num estado ativo.\nNo passado, um fogo mais antigo e profundo queimou por toda Natlan em uma miríade de formas. Na época, os então grandes residentes primitos usavam esses fogos para transmitir luz, calor e sabedoria. Eles acreditavam que a vida e a alma também tiravam seu formato inicial das fagulhas que voavam quando uma pederneira era golpeada.\nSe há um núcleo em queima eterna, então até uma pedra teimosa pode trazer vida. As brasas no corpo do Avatar de Lava parecem ser os restos frios e semelhantes a cinzas daquela antiga era.",
+    "Icon": "UI_MonsterIcon_Lava_Liquid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 103.2384,
+      "AttackBase": 87.92,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26270201,
+    "DescribeId": 62702,
+    "RelationshipId": 62702,
+    "MonsterName": "Monster_Lava_Solid_01",
+    "Name": "Avatar de Lava Erodindo",
+    "Title": "Avatar de Lava Erodindo",
+    "Description": "Um monstro estranho que deve absorver calor continuamente para continuar num estado ativo.\nA antiga civilização usava muitos tipos de padrões dourados para conduzir o fluxo do Flogisto, permitindo que construtos enormes e cidades magníficas operassem sob a sabedoria dos padrões dourados. Dizem que além das máquinas com estruturas fixas, os monstros conhecidos como Avatares de Lava são, na verdade, formas de vida muito danificadas criadas da mesma forma. Contudo, após as chamas da montanha sagrada serem apagadas, a maioria deles perdeu seu senso de propósito e direção.",
+    "Icon": "UI_MonsterIcon_Lava_Solid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 116.8224,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 80226,
+    "RelationshipId": 80226,
+    "Name": "Capivara Forjada em Batalhas",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Raijin",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 29010101,

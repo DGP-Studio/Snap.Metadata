@@ -1350,7 +1350,7 @@
     "Close": "2024-01-01T03:59:59+08:00",
     "BuffName": "Süzülen Ay",
     "Descriptions": [
-      "Bir karakter savaş alanına girdiğinde her 2,5 saniyede bir Yükselme kademesi kazanır. Her kademe <color=#F39000FF>bu karakterin verdiği Hasarı %8 artırır</color>. 3 kademeye kadar birikir. 3 kademe biriktiren bir karakter düşmana Hasar verdiğinde düşmanın olduğu yerde Gerçek Hasar veren bir <color=#F39000FF>şok dalgası çıkar</color>. Bu etki, karakter savaş alanından ayrıldığında sona erer. Bu şekilde her 1 saniyede bir şok dalgası çıkarılabilir."
+      "Bir karakter savaş alanına girdiğinde her 2,5 saniyede bir Yükselme kademesi kazanır. Her kademe <color=#F39000FF>bu karakterin verdiği Hasarı %8 artırır</color>. 3 kademeye kadar birikir. 3 kademe biriktiren bir karakter bir düşmana Hasar verdiğinde düşmanın olduğu yerde Gerçek Hasar veren bir <color=#F39000FF>şok dalgası çıkar</color>. Bu etki, karakter savaş alanından ayrıldığında sona erer. Bu şekilde her 1 saniyede bir şok dalgası çıkarılabilir."
     ],
     "Icon": "UI_TowerBlessing_74"
   },
@@ -1462,7 +1462,7 @@
     "Close": "2024-04-16T03:59:59+08:00",
     "BuffName": "Çakıl Ay",
     "Descriptions": [
-      "Bir karakter düşmana Toprak Hasarı verdiğinde karakter için bir sayı kaydedilir. Her 0,1 saniyede bir sayı kaydedilebilir. 3 sayıya ulaşıldığı zaman bu karakter bir Çakıl İzi kazanarak 10 saniyeliğine <color=#F39000FF>%50 Toprak Hasarı Bonusu</color> elde eder."
+      "Bir karakter bir düşmana Toprak Hasarı verdiğinde karakter için bir sayı kaydedilir. Her 0,1 saniyede bir sayı kaydedilebilir. 3 sayıya ulaşıldığı zaman bu karakter bir Çakıl İzi kazanarak 10 saniyeliğine <color=#F39000FF>%50 Toprak Hasarı Bonusu</color> elde eder."
     ],
     "Icon": "UI_TowerBlessing_81"
   },
@@ -1577,5 +1577,21 @@
       "Karakter, Yanma etkisindeki bir düşmana saldırdığında <color=#F39000FF>Kritik Oranı %15, Kritik Hasarı %30 artar</color>."
     ],
     "Icon": "UI_TowerBlessing_84"
+  },
+  {
+    "Id": 99,
+    "FloorIds": [
+      1084,
+      1085,
+      1086,
+      1087
+    ],
+    "Open": "2024-09-16T04:00:00+08:00",
+    "Close": "2024-10-16T03:59:59+08:00",
+    "BuffName": "Çarpışan Ay",
+    "Descriptions": [
+      "Aktif Karakter bir Element Becerisi kullandığında 12sn boyunca <color=#F39000>Normal Saldırı ve Element Becerisi Hasarı %40 artar</color>. <color=#F39000>Gece Ruhunun Lütfu</color> durumundaki karakterlerin <color=#F39000>Normal Saldırı ve Element Becerisi Hasarı %80 artar</color>."
+    ],
+    "Icon": "UI_TowerBlessing_86"
   }
 ]

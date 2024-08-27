@@ -4747,6 +4747,36 @@
     ]
   },
   {
+    "Id": 0,
+    "DescribeId": 30111,
+    "RelationshipId": 30111,
+    "Name": "Veteran Fatui Skirmisher - Cryogunner Legionnaire",
+    "Title": "Fatui Skirmisher - Cryogunner Legionnaire",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30113,
+    "RelationshipId": 30113,
+    "Name": "Veteran Fatui Skirmisher - Electrohammer Vanguard",
+    "Title": "Fatui Skirmisher - Electrohammer Vanguard",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Strong_GreatHammer_Electric_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30116,
+    "RelationshipId": 30116,
+    "Name": "Veteran Fatui Skirmisher - Pyroslinger Bracer",
+    "Title": "Fatui Skirmisher - Pyroslinger Bracer",
+    "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Rifle_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23020101,
     "DescribeId": 30201,
     "RelationshipId": 30201,
@@ -4800,6 +4830,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30211,
+    "RelationshipId": 30211,
+    "Name": "Veteran Fatui Pyro Agent",
+    "Title": "Agent - Incinerating Blades",
+    "Icon": "UI_MonsterIcon_Fatuus_Fire_01",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 23030101,
@@ -6889,6 +6929,58 @@
     ]
   },
   {
+    "Id": 24090101,
+    "DescribeId": 40901,
+    "RelationshipId": 40901,
+    "MonsterName": "ToothTrap_01",
+    "Name": "Secret Source Automaton: Hunter-Seeker",
+    "Title": "Secret Source Automaton: Hunter-Seeker",
+    "Description": "Mesin reruntuhan kuno yang digunakan untuk mengumpulkan material.\nKonon mesin-mesin kuno ini didesain untuk pekerjaan yang spesifik, yaitu mengambil dan mengumpulkan sampel untuk eksperimen. Mesin ini hanya memiliki fitur pertarungan yang dasar saja.\nMenurut kabar burung, mesin ini bukan dibuat oleh manusia, melainkan oleh peradaban yang lebih kuno lagi. Sekarang peradaban tersebut telah tiada dan hanya menyisakan mesin-mesin ini di seluruh penjuru daratan.",
+    "Icon": "UI_MonsterIcon_ToothTrap",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112113,
+      112114,
+      112115,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
@@ -8740,6 +8832,842 @@
     ]
   },
   {
+    "Id": 25500101,
+    "DescribeId": 55001,
+    "RelationshipId": 55001,
+    "MonsterName": "Human_Female_NoWeapon_Mosasaurus_01",
+    "Name": "Flowing Blade Skirmisher",
+    "Title": "Flowing Blade Skirmisher",
+    "Description": "Seorang petarung dari sumber mata air, dan merupakan penjaga suku yang melindungi perairan dan pesisirnya.\nDengan tangan kosong sebagai senjatanya, para pejuang suku ini telah menguasai ilmu bertarung fisik yang paling sederhana. Tangan dan kaki mereka yang terlihat biasa saja mengandung kekuatan seganas ombak.",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501101,
+    "DescribeId": 55011,
+    "RelationshipId": 55011,
+    "MonsterName": "Human_Female_Sword_Drillhead_01",
+    "Name": "Forged Sand Interrogator",
+    "Title": "Forged Sand Interrogator",
+    "Description": "Seorang petarung gagah dari lembah, dan merupakan penjaga suku yang melindungi gunung serta sungai kristal.\nSeorang pejuang suku yang menggunakan pentungan bola sebagai senjatanya. Pukulannya bahkan dapat menghancurkan batu paling kokoh sekalipun. Saat tidak sedang bertarung menggunakan senjatanya, biasa ia menghancurkan bebatuan dengan tangan kosong untuk mencari permata dan sisa-sisa kristal Phlogiston.",
+    "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25501201,
+    "DescribeId": 55012,
+    "RelationshipId": 55012,
+    "MonsterName": "Human_Female_Sword_Hookwalker_01",
+    "Name": "Swiftstep Seeker",
+    "Title": "Swiftstep Seeker",
+    "Description": "Seorang petarung dari suku Tirai Daun, dan merupakan penjaga suku yang melindungi lembah hutan dan sungai di gunung.\nBerbeda dengan pejuang dari suku-suku lainnya, para pejuang ini selalu menggunakan tali kait mereka untuk melintasi medan pegunungan dengan lincah dan mencari cara untuk mengalahkan para musuh melalui cara-cara yang tak terduga.",
+    "Icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502101,
+    "DescribeId": 55021,
+    "RelationshipId": 55021,
+    "MonsterName": "Human_Male_Standard_Sword_Hookwalker_01",
+    "Name": "Swiftstep Storm Scout",
+    "Title": "Swiftstep Storm Scout",
+    "Description": "Seorang petarung dari suku Tirai Daun, dan merupakan penjaga suku yang melindungi lembah hutan dan sungai di gunung.\nKonon pejuang suku bersenjatakan pedang ini melatih kemampuannya dengan cara berdiri di bawah pohon dan menebas setiap helai daun yang terjatuh. Bagaikan dedaunan yang jatuh tanpa suara, tebasan pedang para pejuang ini pun juga demikian.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25502201,
+    "DescribeId": 55022,
+    "RelationshipId": 55022,
+    "MonsterName": "Human_Male_Standard_Sword_Mosasaurus_01",
+    "Name": "Flowing Blade Grease-Saw",
+    "Title": "Flowing Blade Grease-Saw",
+    "Description": "Seorang petarung dari sumber mata air, dan merupakan penjaga suku yang melindungi perairan dan pesisirnya.\nPara pejuang ini selalu menerjang paling depan dan pedang di tangan mereka bagaikan gerigi tajam yang menggigit hingga ke dalam tulang. Para anggota suku ini melatih kemampuan berpedang mereka di dalam air untuk meningkatkan kekuatan saat mengayunkan pedang di air. Pejuang suku yang terhebat bahkan bisa menebas ikan yang sedang berenang di air.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25503101,
+    "DescribeId": 55031,
+    "RelationshipId": 55031,
+    "MonsterName": "Human_Male_Standard_Claymore_Hookwalker_01",
+    "Name": "Swiftstep Armed Courier",
+    "Title": "Swiftstep Armed Courier",
+    "Description": "Seorang petarung dari suku Tirai Daun, dan merupakan penjaga suku yang melindungi lembah hutan dan sungai di gunung.\nBanyak yang merasa bahwa pedang Claymore terlalu berat untuk digunakan oleh para kurir suku Tirai Daun. Tapi justru karena tugas yang mereka emban lebih berat, maka mereka harus menggunakan senjata yang mengancam.",
+    "Icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "钩爪部落特殊技细分逻辑处理，也需要挂载55092",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25504101,
+    "DescribeId": 55041,
+    "RelationshipId": 55041,
+    "MonsterName": "Human_MuscleMan_Claymore_Drillhead_01",
+    "Name": "Forged Sand Shieldbreaker",
+    "Title": "Forged Sand Shieldbreaker",
+    "Description": "Seorang petarung gagah dari lembah, dan merupakan penjaga suku yang melindungi gunung serta sungai kristal.\nPejuang suku yang menggenggam palu perang raksasa di kedua tangannya. Mereka adalah pasukan baris depan yang bertugas menembus garis pertahanan musuh. Bagi suku Putra-Putri Gema yang pandai membuat permata dan berbagai jenis ornamen, sering kali para pejuang suku ini sudah bermain dengan palu semenjak kecil.",
+    "Icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505101,
+    "DescribeId": 55051,
+    "RelationshipId": 55051,
+    "MonsterName": "Human_Male_Fat_Sword_Drillhead_01",
+    "Name": "Forged Sand Javelineer",
+    "Title": "Forged Sand Javelineer",
+    "Description": "Seorang petarung gagah dari lembah, dan merupakan penjaga suku yang melindungi gunung serta sungai kristal.\nPada masa ketika bukit-bukit hancur berantakan dan para penduduk suku harus membangun kembali rumah mereka, para pejuang suku sering menggunakan tombak sebagai penanda di kedua sisi jurang agar mereka tahu bagian mana yang harus digali. Itu berarti mereka harus menancapkan tombaknya menembus permukaan berbatu.",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505201,
+    "DescribeId": 55052,
+    "RelationshipId": 55052,
+    "MonsterName": "Human_Male_Fat_Sword_Mosasaurus_01",
+    "Name": "Flowing Blade Harpoon-Thrower",
+    "Title": "Flowing Blade Harpoon-Thrower",
+    "Description": "Seorang petarung dari sumber mata air, dan merupakan penjaga suku yang melindungi perairan dan pesisirnya.\nJangan pernah meremehkan kemampuan dari para petarung bersenjatakan trisula ini karena mereka selalu mengasah kemampuan dengan cara berburu ikan. Konon di masa lalu, para penduduk suku menggunakan keahlian mereka ini untuk berburu monster laut raksasa dengan sisik setangguh baja.",
+    "Icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
+    ],
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510101,
+    "DescribeId": 55101,
+    "RelationshipId": 55101,
+    "MonsterName": "Tribalwarrior_Male_Standard_Powermaul_Drillhead_01",
+    "Name": "Tepetlisaurus Warrior: Shard Striker",
+    "Title": "Tepetlisaurus Warrior: Shard Striker",
+    "Description": "Seorang petarung tangguh dari lembah yang keberaniannya telah diakui hingga pantas mengenakan Mahkota Saurian.\nKekuatan serangannya bahkan setara dengan bebatuan yang jatuh dari atas gunung. Bahkan di antara para penduduk suku Putra-Putri Gema yang hidup bersama dengan bebatuan dan kristal, Saurian-Crowned Warrior jauh lebih paham tentang kekuatan bebatuan dibanding siapa pun. Konon mereka bahkan bisa menilai kemurnian dan kualitas dari sebuah bijih mineral hanya dengan melihat bagian luarnya yang masih kasar.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510201,
+    "DescribeId": 55102,
+    "RelationshipId": 55102,
+    "MonsterName": "Tribalwarrior_Male_Strong_Chainsword_Drillhead_01",
+    "Name": "Tepetlisaurus Warrior: Rockbreaker Blade",
+    "Title": "Tepetlisaurus Warrior: Rockbreaker Blade",
+    "Description": "Seorang petarung tangguh dari lembah yang keberaniannya telah diakui hingga pantas mengenakan Mahkota Saurian.\nKekuatan serangannya bahkan setara dengan bebatuan yang jatuh dari atas gunung. Konon dulunya Sulfurous Veins adalah deretan pegunungan yang lebih utuh dan indah. Hanya saja ketika Black Tide datang menyerang, para petarung dengan Mahkota Saurian yang berasal dari suku Putra-Putri Gema ini membentuk ulang permukaan bumi untuk mengalihkan arus hitam tersebut dan bentuknya pun menjadi seperti yang sekarang ini.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510301,
+    "DescribeId": 55103,
+    "RelationshipId": 55103,
+    "MonsterName": "Tribalwarrior_Male_Standard_Chainsword_Hookwalker_01",
+    "Name": "Yumkasaurus Warrior: Whirling Leaves",
+    "Title": "Yumkasaurus Warrior: Whirling Leaves",
+    "Description": "Seorang petarung tangguh dari suku Tirai Daun yang keberaniannya telah diakui hingga pantas mengenakan Mahkota Saurian.\nSeorang petarung yang bisa memanfaatkan tali kait untuk memperluas jangkauan serangannya. Tali kait adalah alat yang tak bisa terpisahkan dari kehidupan sehari-hari suku Tirai Daun. Tapi hanya pejuang paling liar yang bisa menggabungkan tali kait dengan pedang gergaji sehingga menjadi senjata mematikan yang sulit dikuasai.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510401,
+    "DescribeId": 55104,
+    "RelationshipId": 55104,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Hookwalker_01",
+    "Name": "Yumkasaurus Warrior: Flowing Skyfire",
+    "Title": "Yumkasaurus Warrior: Flowing Skyfire",
+    "Description": "Seorang petarung tangguh dari suku Tirai Daun yang keberaniannya telah diakui hingga pantas mengenakan Mahkota Saurian.\nSeorang petarung yang bisa memanfaatkan tali kait untuk memperluas jangkauan serangannya. Setelah dipasang dengan sebuah mekanisme yang canggih, meriam tangan yang mereka gunakan bisa ditembakkan dengan menggunakan tali kait. Bagi para pejuang pemakai Mahkota Saurian dari suku Tirai Daun, mengasah kemampuan dan pikiran diri sendiri lebih penting daripada mengasah tekad dan kemauan.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510501,
+    "DescribeId": 55105,
+    "RelationshipId": 55105,
+    "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Mosasaurus_01",
+    "Name": "Koholasaurus Warrior: Waveshuttler",
+    "Title": "Koholasaurus Warrior: Waveshuttler",
+    "Description": "Seorang petarung tangguh dari sumber mata air yang keberaniannya telah diakui hingga pantas mengenakan Mahkota Saurian.\nSeorang petarung yang bisa memanfaatkan kekuatan ombak untuk bergerak maju dan mundur. Menurut legenda, para pahlawan dari suku ini bisa melintasi ombak tanpa alat bantuan apa pun, hanya menggunakan kecepatannya. Sekarang ini para penduduk suku percaya bahwa ini adalah sebuah teknik canggih dan rumit untuk menggerakkan ombak yang fokusnya terletak pada cara seseorang bergerak.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25510601,
+    "DescribeId": 55106,
+    "RelationshipId": 55106,
+    "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Mosasaurus_01",
+    "Name": "Koholasaurus Warrior: Reefsplitter",
+    "Title": "Koholasaurus Warrior: Reefsplitter",
+    "Description": "Seorang petarung tangguh dari sumber mata air yang keberaniannya telah diakui hingga pantas mengenakan Mahkota Saurian.\nSeorang petarung yang bisa memanfaatkan kekuatan ombak untuk bergerak maju dan mundur. Konon seseorang harus melewati tiga tahap latihan untuk menguasai keahlian ini. Pertama, beradaptasi. Kedua, mengikuti. Dan yang terakhir, menggerakkan. Satu-satunya syarat untuk bisa menjadi Saurian-Crowned Warrior di suku Warga Mata Air adalah dengan menguasai keahlian ini. Saurian-Crowned Warrior terhebat bahkan bisa menggunakannya untuk berlayar di darat.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112104,
+      112105,
+      112106
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55151,
+    "RelationshipId": 55151,
+    "Name": "Veteran Tepetlisaurus Warrior: Rockbreaker Blade",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55152,
+    "RelationshipId": 55152,
+    "Name": "Veteran Koholasaurus Warrior: Waveshuttler",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55153,
+    "RelationshipId": 55153,
+    "Name": "Veteran Yumkasaurus Warrior: Flowing Skyfire",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55154,
+    "RelationshipId": 55154,
+    "Name": "???",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55161,
+    "RelationshipId": 55161,
+    "Name": "???",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55501,
+    "RelationshipId": 55501,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55502,
+    "RelationshipId": 55502,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55503,
+    "RelationshipId": 55503,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55504,
+    "RelationshipId": 55504,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55505,
+    "RelationshipId": 55505,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55506,
+    "RelationshipId": 55506,
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55507,
+    "RelationshipId": 55507,
+    "Name": "Tepetlisaurus Tribe Chief",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26010101,
     "DescribeId": 60101,
     "RelationshipId": 60101,
@@ -9491,7 +10419,7 @@
     "Id": 0,
     "DescribeId": 60512,
     "RelationshipId": 60512,
-    "Name": "Primordial Bathysmal Vishap",
+    "Name": "Battle-Hardened Primordial Bathysmal Vishap",
     "Title": "Primordial Bathysmal Vishap",
     "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
@@ -11768,6 +12696,694 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 26200101,
+    "DescribeId": 62001,
+    "RelationshipId": 62001,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Small_01",
+    "Name": "Tepetlisaurus Whelp",
+    "Title": "Tepetlisaurus Whelp",
+    "Description": "Tepetlisaurus muda yang bisa menembus bebatuan dan Phlogiston padat.\nTanduk di kepalanya masih belum tumbuh dan kemampuan menggalinya juga masih berkembang. Sudah umum bagi seekor Tepetlisaurus untuk tersangkut di tengah bebatuan saat sedang berlatih menggali. Tapi suatu hari nanti, mereka akan tumbuh menjadi Saurian kuat yang bisa melintas menembus tanah paling padat sekalipun.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 14.9424,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.3,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26200201,
+    "DescribeId": 62002,
+    "RelationshipId": 62002,
+    "MonsterName": "Monster_Natsaurus_Drillhead_Normal_01",
+    "Name": "Tepetlisaurus",
+    "Title": "Tepetlisaurus",
+    "Description": "Saurian yang memiliki tanduk seperti mata bor dan cakar tajam untuk menembus bebatuan dan Phlogiston padat.\nBerdasarkan legenda, leluhur Tepetlisaurus adalah seekor naga yang berukuran sebesar gunung dan berumur sangat panjang. Selagi ia tidur, akan terbentuk pegunungan di bagian punggungnya. Dan saat ia terbangun, ia akan menggoyangkan debu dan batu yang menumpuk hingga menyisakan batu permata dan giok yang berkilauan. Konon benda berbentuk bor raksasa yang ada di suku Putra-Putri Gema merupakan peninggalan dari tanduk milik naga raksasa leluhur ini.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 40.752,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210101,
+    "DescribeId": 62101,
+    "RelationshipId": 62101,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Small_01",
+    "Name": "Koholasaurus Whelp",
+    "Title": "Koholasaurus Whelp",
+    "Description": "Koholasaurus muda yang mampu berenang di dalam air dan Phlogiston cair.\nBagian kulit dan siripnya masih lembut dan lembek, sehingga mereka tidak bisa bertahan lama di lingkungan yang panas, berbeda dengan Koholasaurus dewasa. Tapi suatu hari nanti, mereka akan tumbuh besar menjadi Saurian yang bisa berenang bebas melintasi air.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.3,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26210201,
+    "DescribeId": 62102,
+    "RelationshipId": 62102,
+    "MonsterName": "Monster_Natsaurus_Mosasaurus_Normal_01",
+    "Name": "Koholasaurus",
+    "Title": "Koholasaurus",
+    "Description": "Saurian berekor panjang dengan sirip tebal dan kokoh. Saurian ini bisa berenang bebas di dalam air dan Phlogiston cair.\nMenurut legenda, naga-naga zaman dahulu memiliki kemampuan beradaptasi yang kuat dengan lingkungan sekitarnya. Dan saat naga raksasa pada masa itu mengapung di permukaan air, orang-orang akan salah mengiranya sebagai sebuah pulau besar. Konon Koholasaurus pada zaman sekarang ini merupakan keturunan dari naga laut dan wujud monster laut kuno itu mungkin masih sedikit tersisa di punggung Koholasaurus yang lebar ini.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220101,
+    "DescribeId": 62201,
+    "RelationshipId": 62201,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Small_01",
+    "Name": "Yumkasaurus Whelp",
+    "Title": "Yumkasaurus Whelp",
+    "Description": "Yumkasaurus muda bisa memuntahkan Flamegranate Pectin yang disembunyikan di dalam pipinya untuk menangkap benda ringan di kejauhan.\nDaya lekat pada bendanya dan juga daya keseimbangan Yumkasaurus-nya sendiri tidak begitu kuat, sehingga mereka belum bisa menggerakkan bendanya sesuka hati. Kadang-kadang benda ini akan jatuh begitu saja ke samping ekor mereka. Tapi suatu hari nanti Yumkasaurus ini akan tumbuh besar hingga bisa berayun dari pohon ke pohon dengan mudahnya.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.3,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220201,
+    "DescribeId": 62202,
+    "RelationshipId": 62202,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Normal_01",
+    "Name": "Yumkasaurus",
+    "Title": "Yumkasaurus",
+    "Description": "Saurian dengan kaki belakang yang kuat dan ekor yang berbulu halus. Saurian ini bisa memuntahkan Flamegranate Pectin yang disembunyikan di dalam pipinya untuk menangkap benda di kejauhan.\nMenurut legenda, ukuran Yumkasaurus yang asli jauh lebih kecil dari yang sekarang ini, bahkan hingga sulit dilihat. Pada masa itu mereka bisa berkelana bebas mengikuti angin, atau bergelayutan ke tubuh naga raksasa, atau pergi berkelompok bagaikan kumpulan awan. Tapi demi bisa menjaga wujud mereka setelah kemampuannya ini hilang, mereka harus beradaptasi menjadi bentuknya yang seperti sekarang ini.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112101,
+      112102,
+      112103
+    ],
+    "BaseValue": {
+      "HpBase": 36.6768,
+      "AttackBase": 33.912,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26220301,
+    "DescribeId": 62203,
+    "RelationshipId": 62203,
+    "MonsterName": "Monster_Natsaurus_Hookwalker_Primo_01",
+    "Name": "Gluttonous Yumkasaurus Mountain King",
+    "Title": "Gluttonous Yumkasaurus Mountain King",
+    "Description": "Yumkasaurus tangguh yang telah bertahan hidup selama berabad-abad dan telah melewati banyak pertempuran.\nSang \"Raja Gunung\" yang pernah bertarung melawan Black Tide bersama para pahlawan dalam sejarah ini memiliki tempat khusus di hati suku Tirai Daun. Beberapa anggota suku percaya bahwa bentuk Yumkasaurus menjadi seperti sekarang ini karena mereka memiliki fisiologi yang spesial, seperti Qucusaurus \"Tyrant\". Pada faktanya, ini hanya karena mereka dapat hidup hingga lama sekali dan mereka makan hingga banyak sekali.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113065,
+      104131,
+      104132,
+      104133,
+      104134,
+      400022,
+      400032,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 105.504,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.7,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26230301,
+    "DescribeId": 62303,
+    "RelationshipId": 62303,
+    "MonsterName": "Monster_Natsaurus_Flamingo_Primo_01",
+    "Name": "Goldflame Qucusaurus Tyrant",
+    "Title": "Goldflame Qucusaurus Tyrant",
+    "Description": "Seekor Qucusaurus yang tubuhnya telah berubah melampaui batas normal karena harus menahan kekuatan yang tidak bisa ditahan oleh Qucusaurus biasa.\nMenurut legenda, Qucusaurus raksasa yang sering berdiam di kabut pegunungan selagi muda ini dulunya juga pernah mengikuti para pahlawan penyelamat Natlan dalam petualangan mereka. Konon salah satu pahlawan itu telah berjanji untuk berziarah bersama dengannya ke gunung berapi. Ziarah ini bertujuan untuk menyelamatkan pikirannya yang semakin menggila karena kekacauan yang ada di dalam darahnya. Tapi melihat julukan \"Tyrant\" yang diberikan pada Saurian ini ... sepertinya ziarah itu tidak berujung baik.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113064,
+      104111,
+      104112,
+      104113,
+      104114,
+      400022,
+      400032,
+      400127,
+      400047,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 168.4416,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260101,
+    "DescribeId": 62601,
+    "RelationshipId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "Rock-Cavernous Wayob Manifestation",
+    "Title": "Flow-Inverted Wayob Manifestation",
+    "Description": "Suku Putra-Putri Gema memercayai dan memuja Wayob yang mengambil wujudnya dengan bantuan totem dan juga Nightsoul.\nPara penduduk Natlan percaya bahwa Wayob tinggal di Kerajaan Malam dan tidak memiliki wujud pasti. Ia bisa menempel pada benda apa pun untuk memberikan bimbingan para penduduk suku yang tersesat. Manifestasi Wayob adalah sesuatu hal yang spesial, dan bentuk yang muncul di totem-totem sering kali memiliki arti yang penting.\nPara Putra-Putri Gema percaya bahwa Wayob kepercayaan mereka memiliki kemampuan untuk membentuk gunung dan juga lembah, ia juga bisa mengendalikan suara gema yang tercipta saat batu bertemu dengan batu.",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.5,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260201,
+    "DescribeId": 62602,
+    "RelationshipId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "Flow-Inverted Wayob Manifestation",
+    "Title": "Rock-Cavernous Wayob Manifestation",
+    "Description": "Suku Warga Mata Air memercayai dan memuja Wayob yang mengambil wujudnya dengan bantuan totem dan juga Nightsoul.\nYang disebut \"Wayob\" ini adalah kepercayaan yang pelan-pelan terbentuk dari para penduduk suku dan totem obsidian setelah para penduduk Natlan mulai berkomunikasi dengan Kerajaan Malam. Wayob adalah kesadaran yang tercipta dari kumpulan pikiran, dan juga merupakan rumah dari jiwa para leluhur.\nPara Warga Mata Air percaya bahwa Wayob dapat mengendalikan pasang dan ombak, serta mengendalikan perubahan air yang mengalir dan juga yang diam.",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26260301,
+    "DescribeId": 62603,
+    "RelationshipId": 62603,
+    "MonsterName": "Wayob_Hookwalker_01",
+    "Name": "Foliar-Swift Wayob Manifestation",
+    "Title": "Foliar-Swift Wayob Manifestation",
+    "Description": "Suku Tirai Daun memercayai dan memuja Wayob yang mengambil wujudnya dengan bantuan totem dan juga Nightsoul.\nDalam kisah yang diceritakan para pendongeng, Wayob sering memanifestasikan diri sebagai utusan ujian, atau pemandu ke Kerajaan Malam. Seorang Saurian-Crowned Warrior pernah bertarung melawan manifestasi Wayob saat pikirannya tenggelam terlalu dalam saat berlatih. Setelah itu ia mendapatkan pemahaman yang lebih mendalam tentang Wayob.\nSuku Tirai Daun percaya bahwa Wayob memiliki kekuatan untuk mengendalikan pertumbuhan buah-buahan dan dedaunan, serta mengendalikan akar dari tanaman dan juga menciptakan pola-pola di urat daun.",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112107,
+      112108,
+      112109,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62604,
+    "RelationshipId": 62604,
+    "Name": "Battle-Hardened Rock-Cavernous Wayob Manifestation",
+    "Title": "Flow-Inverted Wayob Manifestation",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62605,
+    "RelationshipId": 62605,
+    "Name": "Battle-Hardened Flow-Inverted Wayob Manifestation",
+    "Title": "Rock-Cavernous Wayob Manifestation",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62606,
+    "RelationshipId": 62606,
+    "Name": "Battle-Hardened Foliar-Swift Wayob Manifestation",
+    "Title": "Foliar-Swift Wayob Manifestation",
+    "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 26270101,
+    "DescribeId": 62701,
+    "RelationshipId": 62701,
+    "MonsterName": "Monster_Lava_Liquid_01",
+    "Name": "Fluid Avatar of Lava",
+    "Title": "Fluid Avatar of Lava",
+    "Description": "Monster aneh yang perlu menyerap panas terus-menerus agar bisa tetap aktif.\nDahulu kala, api yang lebih kuno dan mendalam pernah berkobar di seluruh Natlan dengan bentuk yang berbeda-beda. Pada masa itu, para penduduk primitif yang pandai memanfaatkan api-api ini untuk menyalurkan cahaya, panas, dan juga pengetahuan. Mereka percaya bahwa kehidupan dan nyawa juga bermula dari percikan api yang muncul saat dua batu api saling bertabrakan.\nJika ada sebuah inti yang membara abadi, maka sebuah batu yang keras pun juga bisa menciptakan kehidupan. Sisa-sisa bara api yang ada di dalam tubuh Avatar of Lava terlihat seperti sisa-sisa yang tertinggal dari masa lalu itu.",
+    "Icon": "UI_MonsterIcon_Lava_Liquid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 103.2384,
+      "AttackBase": 87.92,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26270201,
+    "DescribeId": 62702,
+    "RelationshipId": 62702,
+    "MonsterName": "Monster_Lava_Solid_01",
+    "Name": "Eroding Avatar of Lava",
+    "Title": "Eroding Avatar of Lava",
+    "Description": "Monster aneh yang perlu menyerap panas terus-menerus agar bisa tetap aktif.\nPeradaban kuno ini sering menggunakan banyak pola keemasan untuk menggerakkan aliran Phlogiston, sehingga banyak konstruksi raksasa dan kota megah yang dapat beroperasi dengan kebijaksanaan dari pola emas ini. Konon selain mesin-mesin dengan struktur yang tetap, para monster yang diberi nama Avatar of Lava ini merupakan makhluk hidup rusak yang diciptakan dengan cara serupa. Tapi sejak api di gunung sakral itu telah padam, kebanyakan dari mereka telah kehilangan arah dan tujuan hidupnya.",
+    "Icon": "UI_MonsterIcon_Lava_Solid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112110,
+      112111,
+      112112,
+      400022,
+      400032,
+      400042,
+      400062,
+      400023,
+      400033,
+      400043
+    ],
+    "BaseValue": {
+      "HpBase": 116.8224,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 80226,
+    "RelationshipId": 80226,
+    "Name": "Battle-Hardened Capybara",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Raijin",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 29010101,
