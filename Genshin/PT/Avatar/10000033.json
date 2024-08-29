@@ -1,0 +1,1374 @@
+{
+  "Id": 10000033,
+  "PromoteId": 33,
+  "Sort": 1,
+  "Body": 4,
+  "Icon": "UI_AvatarIcon_Tartaglia",
+  "SideIcon": "UI_AvatarIcon_Side_Tartaglia",
+  "Name": "Tartaglia",
+  "Description": "O N.° 11 dos Mensageiros dos Fatui, também conhecido como \"Childe\". O seu nome é bastante temido nos campos de batalha.",
+  "BeginTime": "2020-11-11T04:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 12,
+  "BaseValue": {
+    "HpBase": 1020.0524,
+    "AttackBase": 23.4612,
+    "DefenseBase": 63.4198
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 3331,
+        "Proud": {
+          "Descriptions": [
+            "Dano do 1° Golpe|{param1:F1P}",
+            "Dano do 2° Golpe|{param2:F1P}",
+            "Dano do 3° Golpe|{param3:F1P}",
+            "Dano do 4° Golpe|{param4:F1P}",
+            "Dano do 5° Golpe|{param5:F1P}",
+            "Dano do 6° Golpe|{param6:F1P}",
+            "Disparo com Mira|{param7:F1P}",
+            "Disparo com Mira com Energização Completa|{param8:P}",
+            "Dano da Interceptação de Fluxo·Instantâneo|{param9:F1P} x3",
+            "Interceptação de Fluxo|{param10:F1P}",
+            "Duração da Interceptação de Fluxo|{param14:F1}s",
+            "Dano Durante a Queda|{param11:F1P}",
+            "Dano de Queda de Baixa/Alta Altitude|{param12:P}/{param13:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.4128,
+                0.46268,
+                0.55384,
+                0.57018,
+                0.60888,
+                0.72756,
+                0.4386,
+                1.24,
+                0.124,
+                0.62,
+                0.639324,
+                1.278377,
+                1.596762,
+                10
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.4464,
+                0.50034,
+                0.59892,
+                0.61659,
+                0.65844,
+                0.78678,
+                0.4743,
+                1.333,
+                0.1333,
+                0.6665,
+                0.691362,
+                1.382431,
+                1.726731,
+                10
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.48,
+                0.538,
+                0.644,
+                0.663,
+                0.708,
+                0.846,
+                0.51,
+                1.426,
+                0.1426,
+                0.713,
+                0.7434,
+                1.486485,
+                1.8567,
+                10
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.528,
+                0.5918,
+                0.7084,
+                0.7293,
+                0.7788,
+                0.9306,
+                0.561,
+                1.55,
+                0.155,
+                0.775,
+                0.81774,
+                1.635134,
+                2.04237,
+                10
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.5616,
+                0.62946,
+                0.75348,
+                0.77571,
+                0.82836,
+                0.98982,
+                0.5967,
+                1.643,
+                0.1643,
+                0.8215,
+                0.869778,
+                1.739187,
+                2.172339,
+                10
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.6,
+                0.6725,
+                0.805,
+                0.82875,
+                0.885,
+                1.0575,
+                0.6375,
+                1.736,
+                0.1736,
+                0.868,
+                0.92925,
+                1.858106,
+                2.320875,
+                10
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.6528,
+                0.73168,
+                0.87584,
+                0.90168,
+                0.96288,
+                1.15056,
+                0.6936,
+                1.86,
+                0.186,
+                0.93,
+                1.011024,
+                2.02162,
+                2.525112,
+                10
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.7056,
+                0.79086,
+                0.94668,
+                0.97461,
+                1.04076,
+                1.24362,
+                0.7497,
+                1.984,
+                0.1984,
+                0.992,
+                1.092798,
+                2.185133,
+                2.729349,
+                10
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.7584,
+                0.85004,
+                1.01752,
+                1.04754,
+                1.11864,
+                1.33668,
+                0.8058,
+                2.108,
+                0.2108,
+                1.054,
+                1.174572,
+                2.348646,
+                2.933586,
+                10
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.816,
+                0.9146,
+                1.0948,
+                1.1271,
+                1.2036,
+                1.4382,
+                0.867,
+                2.232,
+                0.2232,
+                1.116,
+                1.26378,
+                2.527025,
+                3.15639,
+                10
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.8736,
+                0.97916,
+                1.17208,
+                1.20666,
+                1.28856,
+                1.53972,
+                0.9282,
+                2.356,
+                0.2356,
+                1.178,
+                1.352988,
+                2.705403,
+                3.379194,
+                10
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                0.9312,
+                1.04372,
+                1.24936,
+                1.28622,
+                1.37352,
+                1.64124,
+                0.9894,
+                2.48,
+                0.248,
+                1.24,
+                1.442196,
+                2.883781,
+                3.601998,
+                10
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                0.9888,
+                1.10828,
+                1.32664,
+                1.36578,
+                1.45848,
+                1.74276,
+                1.0506,
+                2.635,
+                0.2635,
+                1.3175,
+                1.531404,
+                3.062159,
+                3.824802,
+                10
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.0464,
+                1.17284,
+                1.40392,
+                1.44534,
+                1.54344,
+                1.84428,
+                1.1118,
+                2.79,
+                0.279,
+                1.395,
+                1.620612,
+                3.240537,
+                4.047606,
+                10
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.104,
+                1.2374,
+                1.4812,
+                1.5249,
+                1.6284,
+                1.9458,
+                1.173,
+                2.945,
+                0.2945,
+                1.4725,
+                1.70982,
+                3.418915,
+                4.27041,
+                10
+              ]
+            }
+          ]
+        },
+        "Id": 10331,
+        "Name": "Ataque Normal: Intercepção de Chuva",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 6 disparos consecutivos com o arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um <color=#FFD780FF>Disparo com Mira</color> com dano aumentado.\nNa hora do Disparo com Mira, o Elemento Hydro pode se acumular na flecha. Uma flecha totalmente carregada que acertar o inimigo causará <color=#80C0FFFF>Dano Hydro</color> e Interceptação de Fluxo.\n\n<color=#FFD780FF>Interceptação de Fluxo</color>\nInimigos sob a influência da Interceptação de Fluxo receberão vários tipos de ataque de Tartaglia que causarão <color=#80C0FFFF>Dano Hydro AdE</color>. Os danos são considerados Ataques Normais.\n·Interceptação de Fluxo·Instantâneo: um Disparo com Mira carregado que acertar um inimigo afetado pela Interceptação de Fluxo causará Dano AdE consecutivo. A Interceptação de Fluxo·Instantâneo só pode ser ativada uma vez a cada 0.7 segundos.\n·Interceptação de Fluxo·Explosão: Derrotar um inimigo afetado pela Interceptação de Fluxo causará uma explosão Hydro que infligirá o efeito Interceptação de Fluxo nos inimigos ao redor.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas no ar antes de cair e impactar o chão, causando dano AoE no impacto.\nSe estiver no estado corpo a corpo em Legado do Mal - Ondas de Fúria, não pode apresentar o Ataque Imersivo.",
+        "Icon": "Skill_A_02"
+      },
+      {
+        "GroupId": 3332,
+        "Proud": {
+          "Descriptions": [
+            "Dano de Mudança de Postura|{param1:P}",
+            "Dano do 1° Golpe|{param2:F1P}",
+            "Dano do 2° Golpe|{param3:F1P}",
+            "Dano do 3° Golpe|{param4:F1P}",
+            "Dano do 4° Golpe|{param5:F1P}",
+            "Dano do 5° Golpe|{param6:F1P}",
+            "Dano do 6° Golpe|{param7:F1P}+{param8:F1P}",
+            "Dano de Ataque Carregado|{param9:F1P}+{param10:F1P}",
+            "Consumo de Stamina de Ataque Carregado|{param12:F1}",
+            "Dano da Interceptação de Fluxo·Corte|{param11:P}",
+            "Duração Máxima|{param13:F1}s",
+            "Tempo de Recarga|{param14:F1} até {param15:F1}s",
+            "Recarga Máx|{param16:F1}s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.72,
+                0.38872,
+                0.41624,
+                0.5633,
+                0.59942,
+                0.55298,
+                0.35432,
+                0.37668,
+                0.602,
+                0.71982,
+                0.602,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.774,
+                0.42036,
+                0.45012,
+                0.60915,
+                0.64821,
+                0.59799,
+                0.38316,
+                0.40734,
+                0.651,
+                0.77841,
+                0.651,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.828,
+                0.452,
+                0.484,
+                0.655,
+                0.697,
+                0.643,
+                0.412,
+                0.438,
+                0.7,
+                0.837,
+                0.7,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.9,
+                0.4972,
+                0.5324,
+                0.7205,
+                0.7667,
+                0.7073,
+                0.4532,
+                0.4818,
+                0.77,
+                0.9207,
+                0.77,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.954,
+                0.52884,
+                0.56628,
+                0.76635,
+                0.81549,
+                0.75231,
+                0.48204,
+                0.51246,
+                0.819,
+                0.97929,
+                0.819,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                1.008,
+                0.565,
+                0.605,
+                0.81875,
+                0.87125,
+                0.80375,
+                0.515,
+                0.5475,
+                0.875,
+                1.04625,
+                0.875,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                1.08,
+                0.61472,
+                0.65824,
+                0.8908,
+                0.94792,
+                0.87448,
+                0.56032,
+                0.59568,
+                0.952,
+                1.13832,
+                0.952,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                1.152,
+                0.66444,
+                0.71148,
+                0.96285,
+                1.02459,
+                0.94521,
+                0.60564,
+                0.64386,
+                1.029,
+                1.23039,
+                1.029,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                1.224,
+                0.71416,
+                0.76472,
+                1.0349,
+                1.10126,
+                1.01594,
+                0.65096,
+                0.69204,
+                1.106,
+                1.32246,
+                1.106,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.296,
+                0.7684,
+                0.8228,
+                1.1135,
+                1.1849,
+                1.0931,
+                0.7004,
+                0.7446,
+                1.19,
+                1.4229,
+                1.19,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.368,
+                0.82264,
+                0.88088,
+                1.1921,
+                1.26854,
+                1.17026,
+                0.74984,
+                0.79716,
+                1.274,
+                1.52334,
+                1.274,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.44,
+                0.87688,
+                0.93896,
+                1.2707,
+                1.35218,
+                1.24742,
+                0.79928,
+                0.84972,
+                1.358,
+                1.62378,
+                1.358,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.53,
+                0.93112,
+                0.99704,
+                1.3493,
+                1.43582,
+                1.32458,
+                0.84872,
+                0.90228,
+                1.442,
+                1.72422,
+                1.442,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.62,
+                0.98536,
+                1.05512,
+                1.4279,
+                1.51946,
+                1.40174,
+                0.89816,
+                0.95484,
+                1.526,
+                1.82466,
+                1.526,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.71,
+                1.0396,
+                1.1132,
+                1.5065,
+                1.6031,
+                1.4789,
+                0.9476,
+                1.0074,
+                1.61,
+                1.9251,
+                1.61,
+                20,
+                30,
+                6,
+                36,
+                45
+              ]
+            }
+          ]
+        },
+        "Id": 10332,
+        "Name": "Legado do Mal - Ondas de Fúria",
+        "Description": "Lança armas feitas de água, causando <color=#80C0FFFF>Dano Hydro</color> nos inimigos ao redor e entra na Posição Corpo a Corpo.\n\nNessa posição, os ataques Normais e Carregados de Tartaglia são convertidos para <color=#80C0FFFF>Dano Hydro</color> que não podem ser anulados por outros elementos e mudam para o seguinte:\n\n<color=#FFD780FF>Ataque Normal</color>\nRealiza até 6 ataques <color=#80C0FFFF>Hydro</color> consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantia de Stamina para realizar dois cortes que causam <color=#80C0FFFF>Dano Hydro</color>.\n\n<color=#FFD780FF>Interceptação de Fluxo - Corte</color>\nAtingir um inimigo afetado pela Interceptação de Fluxo com um ataque corpo a corpo libera um Corte de Interceptação de Fluxo que causa <color=#80C0FFFF>Dano Hydro AdE</color>. Dano causado nesta maneira é considerado Dano de uma Habilidade Elemental, e só pode ocorrer uma vez a cada 1.5s.\n\nDepois de 30s, ou quando a habilidade é lançada novamente, esse efeito se encerrará. Tartaglia retornará para sua Posição À Distância e essa habilidade entrará no seu tempo de recarga. Quanto mais tempo Tartaglia permanecer na Posição Corpo a Corpo, maior a recarga.\nSe o retorno a Posição À Distância acontecer automaticamente depois de 30s, o tempo de recarga é ainda maior.\n\n<i>Ele escolheu o arco como sua arma precisamente para superar sua deficiência com ele. Mas uma luta séria exige que ele fique sério...</i>",
+        "Icon": "Skill_S_Tartaglia_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 3339,
+      "Proud": {
+        "Descriptions": [
+          "Dano de Habilidade · Corpo a Corpo|{param1:P}",
+          "Dano de Habilidade · À Distância|{param3:P}",
+          "Interceptação de Fluxo · Dano de Explosão|{param2:P}",
+          "Recuperação de Energia Elemental (À distância)|{param4:I}",
+          "Tempo de Recarga|{param5:F1}s",
+          "Energia Elemental|{param6:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              4.64,
+              1.2,
+              3.784,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              4.988,
+              1.29,
+              4.0678,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              5.336,
+              1.38,
+              4.3516,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              5.8,
+              1.5,
+              4.73,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              6.148,
+              1.59,
+              5.0138,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              6.496,
+              1.68,
+              5.2976,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              6.96,
+              1.8,
+              5.676,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              7.424,
+              1.92,
+              6.0544,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              7.888,
+              2.04,
+              6.4328,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              8.352,
+              2.16,
+              6.8112,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              8.816,
+              2.28,
+              7.1896,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              9.28,
+              2.4,
+              7.568,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              9.86,
+              2.55,
+              8.041,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              10.44,
+              2.7,
+              8.514,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              11.02,
+              2.85,
+              8.987,
+              20,
+              15,
+              60
+            ]
+          }
+        ]
+      },
+      "Id": 10333,
+      "Name": "Devastação: Obliteração",
+      "Description": "Realiza ataques diferentes baseado em qual Posição Tartaglia está quando os lança.\n\n<color=#FFD780FF>Posição À Distância·Clarão da Devastação</color>\nDispara uma flecha Hydro, causando<color=#80C0FFFF>Dano Hydro AoE</color> e aplicando o efeito Interceptação de Fluxo.\nRegenera uma porção de seu Consumo de Energia após o uso.\n\n<color=#FFD780FF>Posição Corpo a Corpo·Luz da Obliteração</color>\nRealiza um corte com uma grande AdE, causando <color=#80C0FFFF>Dano Hydro</color> massivo para os inimigos ao redor, desencadeando Interceptação de Fluxo·Explosão.\n\n<color=#FFD780FF>Interceptação de Fluxo·Explosão</color>\nQuando as águas obliteradoras atingem inimigos afetados pela Interceptação de Fluxo, acaba com esse efeito e desencadeia Explosões Hydro que causam<color=#80C0FFFF> Dano Hydro AdE</color>.\nO dano de Interceptação de Fluxo·Explosão é tratado como um dano de Supremo.\n\n<i>Raramente são vistas águas turbulentas nesta terra cheia de neve. Talvez sua habilidade de comandar água seja pelo seu entendimento de quão preciosa ela é.</i>",
+      "Icon": "Skill_E_Tartaglia_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                8
+              ]
+            }
+          ]
+        },
+        "Id": 332101,
+        "Name": "Infinito Sem-fim",
+        "Description": "A duração da Interceptação de Fluxo será estendida por 8s.",
+        "Icon": "UI_Talent_S_Tartaglia_03"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 332201,
+        "Name": "Espada das Torrentes",
+        "Description": "Quando Tartaglia estiver na posição de corpo a corpo das <color=#FFD780FF>Legado do Mal - Ondas de Fúria</color>, ou se seus Ataques Normais ou Carregados causarem Dano Crítico, eles aplicarão o efeito de Interceptação de Fluxo no inimigo acertado.",
+        "Icon": "UI_Talent_S_Tartaglia_06"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 332301,
+        "Name": "Mestre do Armamento",
+        "Description": "O nível do <color=#FFD780FF>Ataque Normal</color> de seus próprios personagens da equipe aumenta 1 nível.",
+        "Icon": "UI_Talent_S_Tartaglia_07"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 331,
+        "Name": "Legado do Mal - Ondas Calmas",
+        "Description": "Diminui a Recarga de <color=#FFD780FF>Legado do Mal - Ondas de Fúria</color> por 20%.",
+        "Icon": "UI_Talent_S_Tartaglia_01"
+      },
+      {
+        "Id": 332,
+        "Name": "Legado do Mal - Submarino",
+        "Description": "Quando os inimigos afetados pela Interceptação de Fluxo forem derrotados, Tartaglia ganha 4 de Energia Elemental.",
+        "Icon": "UI_Talent_S_Tartaglia_02"
+      },
+      {
+        "Id": 333,
+        "Name": "Caos Abissal - Vórtice da Turbulência",
+        "Description": "Aumenta o nível de <color=#FFD780FF>Legado do Mal - Ondas de Fúria</color> em 3.\nO nível máximo é Nv.15.",
+        "Icon": "UI_Talent_U_Tartaglia_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 334,
+        "Name": "Caos Abissal - Hydroexplosão",
+        "Description": "Quando Interceptação de Fluxo é infligida por Tartaglia a cada 4s, se Tartaglia estiver na posição corpo a corpo de <color=#FFD780FF>Legado do Mal - Ondas de Fúria</color> ativa Interceptação de Fluxo·Corte; caso contrário, ativa Dano da Interceptação de Fluxo·Instantâneo.\nA Interceptação de Fluxo·Corte e Interceptação de Fluxo·Instantâneo não têm limitações de intervalo de ativação e não são afetados por outro intervalo de ativação.",
+        "Icon": "UI_Talent_S_Tartaglia_05"
+      },
+      {
+        "Id": 335,
+        "Name": "Devastação - Lâmina Sem Forma",
+        "Description": "Aumenta o nível da <color=#FFD780FF>Devastação: Obliteração</color> em 3.\nO nível máximo de elevação é 15.",
+        "Icon": "UI_Talent_U_Tartaglia_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 336,
+        "Name": "Devastação - Aniquilação",
+        "Description": "Quando <color=#FFD780FF>Devastação: Obliteração</color> é lançada na Posição Corpo a Corpo, o Tempo de Recarga de <color=#FFD780FF>Legado do Mal - Ondas de Fúria</color> termina imediatamente.\nEsse efeito só acontecerá quando Tartaglia retornar à sua Posição à Distância.",
+        "Icon": "UI_Talent_S_Tartaglia_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Childe",
+    "Detail": "O N.° 11 dos Mensageiros dos Fatui, também conhecido como \"Childe\". O seu nome é bastante temido nos campos de batalha.",
+    "Association": 4,
+    "Native": "Fatui",
+    "BirthMonth": 7,
+    "BirthDay": 20,
+    "VisionBefore": "Hydro",
+    "ConstellationBefore": "Monoceros Caeli",
+    "CvChinese": "鱼冻",
+    "CvJapanese": "木村良平",
+    "CvEnglish": "Griffin Burns",
+    "CvKorean": "Nam Do-hyeong",
+    "CookBonus": {
+      "OriginItemId": 108050,
+      "ItemId": 108175,
+      "InputList": [
+        100073,
+        100056,
+        100016
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Olá...",
+        "Context": "Eu sou o 11° Mensageiro dos Fatui, Tartaglia \"Childe\". E você... Você também gosta de causar muita confusão, não é mesmo? Algo me diz que vamos nos dar esplendidamente bem."
+      },
+      {
+        "Title": "Bate-papo - Ocioso",
+        "Context": "Existem maneiras melhores de perseguir nossos inimigos do que... Bem, ficar parado aqui."
+      },
+      {
+        "Title": "Bate-papo - Competição",
+        "Context": "Hm... Será que não há ninguém que seja digno de lutar contra por aqui perto?"
+      },
+      {
+        "Title": "Bate-papo - Fatui",
+        "Context": "O que será que os outros Mensageiros estão fazendo? Ah, deixe para lá, devem estar fazendo algum plano gigantesco."
+      },
+      {
+        "Title": "Bate-papo - Antiga Terra de Neve",
+        "Context": "Na minha terra natal, se você ficasse parado no campo nevado, já teria morrido congelado há muito tempo. Hahaha!"
+      },
+      {
+        "Title": "Depois da Chuva...",
+        "Context": "O som da chuva batendo na água pode assustar os peixes. Então, o melhor momento para pescar é depois que a chuva terminar."
+      },
+      {
+        "Title": "Quando está nevando - Terras Estrangeiras",
+        "Context": "Hahaha, me pergunto se também está nevando lá em casa?"
+      },
+      {
+        "Title": "Quando esta nevando - Snezhnaya",
+        "Context": "Quanta neve! É branco e calmo como a luz da lua iluminando à terra. É um cenário perfeito para se derramar sangue."
+      },
+      {
+        "Title": "Quando está ventando...",
+        "Context": "Ah, o doce aroma de competição trazida pelos ventos..."
+      },
+      {
+        "Title": "Está ventando muito - Terras Estrangeiras",
+        "Context": "Veja que brisa refrescante!"
+      },
+      {
+        "Title": "Está ventando muito - Snezhnaya",
+        "Context": "Sinto como se o meu corpo e mente tivessem sido limpados pelo vento. Que ótima sensação."
+      },
+      {
+        "Title": "Bom dia...",
+        "Context": "#Bom dia, companheir{M#o}{F#a}! Você parece bem dispost{M#o}{F#a} hoje!"
+      },
+      {
+        "Title": "Boa tarde...",
+        "Context": "Você parece bem. Qual é o seu segredo? Quer ter um duelo rápido comigo?"
+      },
+      {
+        "Title": "Saudações...",
+        "Context": "Ah... Que comida boa. Agora preciso me mover um pouco para digerir melhor."
+      },
+      {
+        "Title": "Boa noite...",
+        "Context": "#Hoje foi realmente um ótimo dia. Até amanhã, companheir{M#o}{F#a}!"
+      },
+      {
+        "Title": "Sobre Tartaglia...",
+        "Context": "Um guerreiro deve estar sempre pronto para enfrentar qualquer desafio com sua lâmina. O resultado da batalha é irrelevante - o que importa é que você aprenda com a experiência."
+      },
+      {
+        "Title": "Sobre Nós - Colegas",
+        "Context": "Tenho certeza de que os Mensageiros já devem saber que estou trabalhando com você. Adoraria ver a cara deles... Hahaha..."
+      },
+      {
+        "Title": "Sobre Nós - Arsenal",
+        "Context": "Na verdade, a arma com que sou pior é o arco. Justamente por isso preciso dominá-lo."
+      },
+      {
+        "Title": "Sobre Nós - Sobrevivência",
+        "Context": "Você possui tais poderes sem possuir uma Visão... Estou realmente entusiasmado em ver o que você tem reservado para nós... Vamos ver até onde você pode ir. Só não morra antes de colocar tudo em jogo em nossa própria batalha final! Eu não vou permitir isso!"
+      },
+      {
+        "Title": "Sobre Nós - Convites",
+        "Context": "Meu companheiro, você quer se juntar aos Fatui? ...Na verdade, esqueça isso. Com suas habilidades, poderíamos vencer todos os outros Mensageiros. Não podemos abrir mão dessa oportunidade."
+      },
+      {
+        "Title": "Sobre a Visão...",
+        "Context": "Desde que me faça mais forte, está ótimo. Visão? Excelente. Ilusão? Também. Até mesmo os ensinamentos heréticos do Abismo."
+      },
+      {
+        "Title": "Algo para Compartilhar...?",
+        "Context": "Nos campos nevados sem fim, a vida pode a qualquer momento ser devorada pela neve, sem deixar nenhum traço de sua existência. É o inimigo invisível que lutamos contra todos os dias."
+      },
+      {
+        "Title": "Coisas Interessantes...",
+        "Context": "#Uma vez me aventurei no fundo do abismo e me deparei com uma enorme fera. Eu não sei seu nome, tudo o que sei é que a visão dela me congelou até os ossos. Mas, marque minhas palavras, um dia eu voltarei para lá e decapitarei aquela besta, e você, companheir{M#o}{F#a}, será minha testemunha!"
+      },
+      {
+        "Title": "Sobre Skirk...",
+        "Context": "Faz anos desde a última vez que vi meu mestre. Espero que quando nos encontrarmos, pelo menos poderei forçá-la a usar as duas mãos para me bater..."
+      },
+      {
+        "Title": "Sobre Zhongli - Ponderando",
+        "Context": "Há muito mais naquele homem do que se vê. Quanto à extensão de seu poder... Muito a se esperar, creio eu."
+      },
+      {
+        "Title": "Sobre Zhongli - Desafio",
+        "Context": "Diga-me, como tem estado o Sr. Zhongli ultimamente? Nada mal, você diz? Parece que ele não teve problemas em se adaptar à vida \"mortal\". Hnf, com certeza ele me enganou. Tal fiasco não deve ser perdoado tão facilmente! O único caminho para a reconciliação é o combate feroz! \nO que você quer dizer com \"não sou páreo para ele\"? Hahaha..."
+      },
+      {
+        "Title": "Sobre a Tsaritsa...",
+        "Context": "Sua Alteza Real a Tsaritsa é na verdade uma alma gentil. Muito gentil, na verdade, e é por isso que ela teve que se endurecer. Da mesma forma, ela declarou guerra contra o mundo inteiro apenas porquê sonha com a paz. E por ter feito do mundo um inimigo, agora tenho em você um amigo."
+      },
+      {
+        "Title": "Sobre Varka...",
+        "Context": "Varka? Só de pensar que um dia poderei ir contra o lendário Cavaleiro de Boreas, o mais forte Cavaleiro de Favonius, me faz tremer de expectativa. É realmente excitante viver neste mundo."
+      },
+      {
+        "Title": "Sobre \"Pierro\"...",
+        "Context": "Ele é o primeiro Mensageiro Fatui, e hoje é o nosso líder. Ele apenas aparece em ocasiões importantes. Quanto às suas conquistas... Para falar a verdade, não me importo, minha lealdade e devoção são exclusivas para a Tsaritsa, e mais ninguém."
+      },
+      {
+        "Title": "Sobre Capitano...",
+        "Context": "Eu o vi em batalha antes, e que vista. Eu estou numa posição muito baixa para que ele repare em mim agora. Ele talvez ainda não reconheça minha força, mas um dia, eu mostrarei para ele meu verdadeiro poder."
+      },
+      {
+        "Title": "Sobre Dottore...",
+        "Context": "Ouvi dizer que ele pegou segmentos de si mesmo em idades diferentes e fez próteses deles, e deu tarefas diferentes para cada uma delas. É, eu sei, todos os meus companheiros são meio esquisitos. Na verdade, se eu encontrasse com minha própria prótese... Haha, teríamos uma luta na hora para descobrir quem sobreviveria."
+      },
+      {
+        "Title": "Sobre \"Columbina\"...",
+        "Context": "Os Mensageiros dos Fatui são classificados por força, e não tenho ideia do porquê aquela garota é a terceira. Eu testaria minhas habilidades contra todos os Mensageiros acima de mim se tivesse a chance, mas quanto a ela... Algo não parece certo. De qualquer maneira, tenha cuidado com ela."
+      },
+      {
+        "Title": "Sobre Arlecchino...",
+        "Context": "Veja bem, eu não tenho nada contra as intenções de cada um. Eu me juntei aos Fatui para ter mais experiência de combate. Mas eu não gosto dela. Se ela ganhasse algo traindo os outros, trairia a Tsaritsa sem nem pensar. Ela é completamente louca."
+      },
+      {
+        "Title": "Sobre Pulcinella...",
+        "Context": "Eu não sei suas motivações, mas ele parece genuinamente querer me ajudar. Ele me trata como se fosse sua família. Oh, falando de família, Tonia e Teucer sempre estão me falando das comidas e outros presentes que ele traz quando escrevem para mim. Ele manteve sua promessa de cuidar de minha família enquanto estou longe de Snezhnaya."
+      },
+      {
+        "Title": "Sobre Sandrone...",
+        "Context": "Ela sempre parece estar mergulhada em sua pesquisa. Hmm... Me pergunto se essas máquinas têm algo a ver com ela? Enfim, eu apenas a vi algumas vezes, mas em todas elas, ela parecia querer me matar. Não faço ideia do que fiz para deixá-la furiosa desse jeito."
+      },
+      {
+        "Title": "Sobre o Magnata...",
+        "Context": "Oh, esse cara tem uma mente repleta de esquemas megalomaníacos motivados pela sua própria ambição. Eu não entendo uma palavra sequer quando ele começa a falar de suas teorias... Mas se ele está mantendo nosso dinheiro guardado, não tenho do que reclamar."
+      },
+      {
+        "Title": "Sobre Signora...",
+        "Context": "Eu nunca me dei bem com ela, você sabe disso. Acho que não há muito mais o que se dizer nesse ponto. Quando você é um Mensageiro, tem que aceitar que a morte sempre está lhe espreitando... Mas não se preocupe comigo, não importa o que aconteça, eu farei todo o necessário para ficar vivo."
+      },
+      {
+        "Title": "Sobre Scaramouche...",
+        "Context": "Depois que ele levou a Gnosis, perdemos todo contato com ele. Agora temos que encontrá-lo e consegui-la de volta... Para falar a verdade, eu não me importo, posso viajar para todo lugar por causa disso. Será que nos encontraremos em algum lugar por aí?"
+      },
+      {
+        "Title": "Mais sobre Tartaglia (I)",
+        "Context": "#Lembre-se bem, {M#meu companheiro}{F#minha companheira}, haverá um dia em que eu conquistarei o mundo!"
+      },
+      {
+        "Title": "Mais sobre Tartaglia (II)",
+        "Context": "Eu gosto de pensar que sou um homem de substância. Enfrente-me pessoalmente, de homem para homem, e sempre terei uma chance de vencê-lo. O mesmo vale se você for uma divindade ou um monstro do abismo. Mas os Mensageiros? Eles estão mais enamorados com seus métodos intangíveis, passando seus dias esquematizando e manobrando. É por isso que não podemos continuar."
+      },
+      {
+        "Title": "Mais sobre Tartaglia (III)",
+        "Context": "O céu daqui e da minha terra natal é o mesmo. Se eu levantar minha cabeça para ver a lua que parece coberta de neve, posso pensar que minha família também está vendo a mesma lua. Não sei como estão meus irmãos e minhas irmãs, será que se tornaram guerreiros excepcionais?"
+      },
+      {
+        "Title": "Mais sobre Tartaglia (IV)",
+        "Context": "#Companheir{M#o}{F#a}, nunca se esqueça: quando estiver lutando, de maneira nenhuma grite algo estúpido. Talvez soem bem na sua cabeça, mas não fazem nenhum sentido. Estou falando de coisas como \"Eu estou pegando fogo!\". Não queremos isso, pois o fogo não deixa nada senão cinzas, e você deve sobreviver, custe o que custar."
+      },
+      {
+        "Title": "Mais sobre Tartaglia (V)",
+        "Context": "#O tempo realmente passa rápido. Um dia, eu permitirei que você veja pessoalmente a aparência do mundo que conquistarei, eu destruirei o trono dos deuses. Haha, mas antes disso, você não pode morrer, {M#meu companheiro}{F#minha companheira}!"
+      },
+      {
+        "Title": "Passatempos de Tartaglia...",
+        "Context": "Pescar no gelo e o combate seguem o mesmo princípio. A paciência e a determinação são fundamentais. Apesar de ter dito isso... Suponho que o mesmo se aplica a tudo na vida."
+      },
+      {
+        "Title": "Preocupações de Tartaglia...",
+        "Context": "Hum? Preocupações... Caminhando com você, sempre há inimigos fortes que valem a pena desafiar, e não há tempo para pensar sobre coisas tão triviais e chatas."
+      },
+      {
+        "Title": "Comida Favorita...",
+        "Context": "Este mundo está cheio de ótimas comidas e boas lutas. Viver nele é ótimo!"
+      },
+      {
+        "Title": "Comida que Odeia...",
+        "Context": "Armas e comida são iguais. Um verdadeiro guerreiro não pode ser exigente com suas armas, como também não pode ser com comida. Você também não deve ser assim."
+      },
+      {
+        "Title": "Recebendo Presentes — I",
+        "Context": "Quando a comida é deliciosa, seu coração se sente reconfortado. Como posso retribuir?"
+      },
+      {
+        "Title": "Recebendo Presentes — II",
+        "Context": "Sua culinária parece ter melhorado bastante... Será que isso quer dizer que você está ficando mais forte o tempo inteiro?"
+      },
+      {
+        "Title": "Recebendo Presentes — III",
+        "Context": "Admito que esse gosto é uma surpresa para mim... Está bem, provarei mais uma vez."
+      },
+      {
+        "Title": "Aniversário...",
+        "Context": "#Oh, feliz aniversário, {M#meu companheiro}{F#minha companheira}! Você quer dar uma surra em alguém? Se precisar, só precisa me dizer!"
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Introdução",
+        "Context": "Oh! Me sinto mais forte. Preciso encontrar alguém para testar..."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Desenvolvimento",
+        "Context": "\"A força de um guerreiro é como um círculo. Quanto maior o círculo, mais inimigos pode-se desafiar dentro dele.\" Quem foi que disse isso mesmo?"
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Auge",
+        "Context": "#Ótimo! Companheir{M#o}{F#a}, graças a você, estou um passo mais próximo de meu objetivo de conquistar o mundo. Duvido que a Tsaritsa esperasse que eu chegasse a esse ponto."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Conclusão",
+        "Context": "#Companheir{M#o}{F#a}. Certifique-se de que você continua treinando também. Caso contrário, quem terá sobrado para lutar até a morte quando o mundo estiver derrotado a meus pés?"
+      },
+      {
+        "Title": "Habilidade Elemental - I",
+        "Context": "Você é meu!"
+      },
+      {
+        "Title": "Habilidade Elemental - II",
+        "Context": "Há!"
+      },
+      {
+        "Title": "Habilidade Elemental - III",
+        "Context": "Onda da maré!"
+      },
+      {
+        "Title": "Habilidade Elemental - IV",
+        "Context": "Venha!"
+      },
+      {
+        "Title": "Habilidade Elemental - V",
+        "Context": "Quem vem agora?"
+      },
+      {
+        "Title": "Habilidade Elemental - VI",
+        "Context": "Whoosh..."
+      },
+      {
+        "Title": "Supremo - I",
+        "Context": "Rebentação!"
+      },
+      {
+        "Title": "Supremo - II",
+        "Context": "Pode correr, mas não pode se esconder!"
+      },
+      {
+        "Title": "Supremo - III",
+        "Context": "Nunca baixe a guarda!"
+      },
+      {
+        "Title": "Supremo - IV",
+        "Context": "Preparem-se, essa vai doer!"
+      },
+      {
+        "Title": "Início da Corrida - I",
+        "Context": "Sem tempo para perder."
+      },
+      {
+        "Title": "Abrindo o Planador - I",
+        "Context": "Poderia me acostumar com isso."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - I",
+        "Context": "Agora sim, essa eu gostei!"
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - II",
+        "Context": "Nada mal... Nada mal mesmo!"
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - III",
+        "Context": "Agora só preciso colocar minhas mãos no resto!"
+      },
+      {
+        "Title": "Vida Baixa - I",
+        "Context": "Ho, agora as coisas estão ficando interessantes."
+      },
+      {
+        "Title": "Vida Baixa - II",
+        "Context": "Você manda bem!"
+      },
+      {
+        "Title": "Vida Baixa - III",
+        "Context": "A morte me aguarda. É minha hora de brilhar!"
+      },
+      {
+        "Title": "Aliado com Vida baixa - I",
+        "Context": "Qual o problema, sem prática?"
+      },
+      {
+        "Title": "Aliado com Vida baixa - II",
+        "Context": "Afaste-se, é a minha vez!"
+      },
+      {
+        "Title": "Derrotado - I",
+        "Context": "Como... Eu tinha acabado de..."
+      },
+      {
+        "Title": "Derrotado - II",
+        "Context": "Fiquei sem saída..."
+      },
+      {
+        "Title": "Derrotado - III",
+        "Context": "Estou... Impressionado..."
+      },
+      {
+        "Title": "Ataque Pesado Sofrido - I",
+        "Context": "Erro de amador."
+      },
+      {
+        "Title": "Entrando na Equipe - I",
+        "Context": "Precisa acabar com alguns inimigos?"
+      },
+      {
+        "Title": "Entrando na Equipe - II",
+        "Context": "Fique de olhos abertos!"
+      },
+      {
+        "Title": "Entrando na Equipe - III",
+        "Context": "Vamos lá, não me deixe esperando!"
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalhes",
+        "Context": "Apesar de ter ascendido para os níveis mais altos dos Fatui, Childe ainda parece o jovem que é.\nÉ um lobo em pele de cordeiro, entretanto. Por baixo da aparência alegre e confiante reside um espadachim mortal.\nEle é o mais novo entre os Mensageiros, mas um dos mais perigosos entre eles.\nDito isso, Childe parece não se encaixar bem com os outros.\nComo um lutador, ele está em desacordo com esta organização cheia de enganos e traições."
+      },
+      {
+        "Title": "História 1",
+        "Context": "Como o membro mais novo entre os Mensageiros na história dos Fatui, Childe tem todo o direito de agir como quiser.\nApesar desse lobo solitário não ser tão bem recebido por seus colegas, como também não gostar de seus métodos, sua atitude esconde sua meticulosidade e responsabilidade.\nÉ um homem que tem orgulho de sua palavra. Ainda que a promessa que ele faça seja absurda, ele nunca vai quebrá-la.\nSeja exterminar todos os dragões dentro da toca; aventurar-se em um domínio de extremo perigo; ou derrubar o território de um nobre sozinho...\nEle não apenas mantém sua promessa, mas faz isso de maneira simples e cirúrgica. Como vanguarda dos Fatui, Tartaglia sempre se pode encontrar em territórios inimigos de Snezhnaya, atacando momentos antes que o caos comece."
+      },
+      {
+        "Title": "História 2",
+        "Context": "Muitos mitos em Snezhnaya dizem que Tartaglia está no campo de batalha desde os 14 anos de idade.\nO curioso é que ele já era o mestre de todas as armas e habilidoso no massacre naquela época, e mais aterrorizante ainda era sua paixão pelo combate.\nAs batalhas apenas o animam, e inimigos aterrorizantes o inflamam ainda mais.\nA arrogância e a presunção de Childe foram desenvolvidas após se aperfeiçoar em inúmeras batalhas e por sua experiência de combate inigualável.\nPor outro lado, por acharem que sua personalidade agressiva pode causar problemas indesejados, os outros Mensageiros sempre se esforçam para que ele seja enviado em missões para terras distantes de Snezhnaya para evitar as consequências.\nO homem está incompreensivelmente no olho da tempestade, e essas experiências incomuns também o tornaram um exibicionista que se deleita com os elogios dos outros.\nAo contrário de outros membros dos Mensageiros, que preferem se manter discretos, Tartaglia frequentemente assiste a apresentações públicas e, de fato, nem sempre permanece como um membro da audiência."
+      },
+      {
+        "Title": "História 3",
+        "Context": "Pescar no gelo é um dos hobbies de Tartaglia desde a infância.\nNaqueles dias, ele não era conhecido pelos nomes Tartaglia ou \"Childe\" que os Fatui o chamam, mas como Ajax, batizado por seu pai em homenagem a uma história de herói. Ele e seu pai abriam buracos em lagos congelados antes de se sentar ao lado deles e cuidar de suas linhas de pesca.\nEsta não era uma tarefa fácil, e às vezes levava a manhã inteira.\nMas seja quebrando o gelo espesso ou nas longas esperas entre as capturas, ele sempre estava acompanhado pelos contos de aventura intermináveis de seu pai.\nEram histórias das aventuras de seu pai desde quando ele era jovem até se tornar o futuro que Tartaglia secretamente imaginou para si mesmo.\nEntão ele prestava muita atenção, colocando-se no lugar do protagonista daqueles contos, mergulhando totalmente neles mesmo enquanto esperavam que um peixe mordesse a isca.\nMesmo depois de sair de casa, Ajax, mais tarde conhecido como \"Childe\" Tartaglia, continuava com o hobby.\nMas ele não era mais acompanhado pelas histórias de dias passados, mas se tornou uma oportunidade para treinar - para aprimorar sua resistência e refletir sobre técnicas de combate.\nEsses longos períodos de meditação para refinar suas habilidades rapidamente tornaram irrelevante a busca por uma pesca perfeita."
+      },
+      {
+        "Title": "História 4",
+        "Context": "Diferente de como o mundo pode pensar, Tartaglia não nasceu com suas habilidades de combate excepcionais.\nEle aprendeu em um encontro especial, mas isso é algo que ele nunca diria à ninguém. \nQuando ele tinha 14 anos, fugiu de casa com apenas uma espada curta e um saco de pão para se afastar de sua família monótona.\nEle se perdeu dentro da floresta de neve.\nAtacado por um urso e uma alcateia, ele caiu em uma fenda muito funda na terra.\nEntão, ele viu um mundo antigo de infinitas possibilidades e encontrou uma espadachim misteriosa...\nOu talvez pode-se dizer que o reino das trevas havia notado esse garoto ambicioso...\nAs trevas seriam algo que o Mensageiro Tartaglia não poderia voltar a investigar.\nDurante os três meses em que esteve lá, a espadachim o ensinou a atravessar livremente o Abismo.\nMais importante, ela alimentou a capacidade de Ajax de causar conflitos por seu amor ao caos.\nNinguém sabe o que aconteceu durante o tempo que passou nas Trevas. Seus lábios estavam selados.\nQuando suas preocupadas mãe e irmã finalmente o encontraram dentro da floresta, apenas três dias se passaram nesse mundo.\nAinda segurando sua espada curta e enferrujada, Ajax completou sua primeira aventura na vida.\nIsso marcou o fim de sua adolescência e o começo como guerreiro."
+      },
+      {
+        "Title": "História 5",
+        "Context": "Quando voltou para casa, o jovem não era mais o mesmo.\nEle não estava mais assustado e hesitante, mas se tornou frívolo e confiante. Ele agia como se o mundo girasse ao seu redor e como se a batalha existisse para o seu bem.\nOs conflitos geralmente trazem mudanças, e essa mudança incalculável atraiu Ajax como um caleidoscópio giratório.\nAos olhos de seu pai, o terceiro filho que ele tanto se preocupou, mudou para pior, trazendo muitos estragos desnecessários para sua pacífica cidade litorânea.\nOu talvez fosse mais correto dizer que Ajax havia se tornado um ponto de conflito, pois não importa aonde ele fosse, lutas e disputas aconteciam - e ele se divertia com isso.\nFinalmente, depois que uma grande briga foi pacificada com alguma dificuldade e com alguns erros quase fatais, seu pai não teve escolha a não ser entregar seu amado filho para ser alistado nos Fatui.\nEle esperava que o estrito treinamento militar dos Fatui pudesse aguçar o temperamento de seu filho, mas acabou vendo tropas totalmente armadas serem espancadas por uma simples criança.\nIsso foi uma grande decepção para seu pai, mas também chamou a atenção de Pulcinella, o 5° Mensageiro.\nChocado com a grande força de Ajax e curioso sobre como ele invariavelmente se tornava o olho de um vórtice de discórdia, Pulcinella introduziu Ajax aos Fatui sob o pretexto de aplicar uma punição, ordenando-lhe que começasse de baixo até assumir o dever de servir a Arconte Cryo.\nSeu desejo insaciável de conquista seria, portanto, constantemente saciado na luta pelos Fatui, e seu ego sempre crescente se saciaria com a alegria de derrotar poderosos inimigos... \nAté que finalmente Ajax foi escolhido para ser um dos Mensageiros dos Fatui, vestindo o manto de \"Childe\" Tartaglia e se tornando uma das pessoas mais poderosas de Snezhnaya.\nMas se tornar Tartaglia estava longe de seu objetivo final. Para alguém que buscou conquistar o mundo, este foi apenas um pequeno passo em sua jornada."
+      },
+      {
+        "Title": "Carta da Família de Tartaglia",
+        "Context": "\"Querida irmã, como estão as coisas aí em casa ultimamente? A cabeça de nosso papai melhorou?\nPor favor estenda meus cumprimentos para nossos pais e irmãos.\nEu enviei alguns remédios muito úteis para dor de cabeça do Porto de Liyue, vão evitar que ele fique ranzinza por um tempo. Depois de alguns dias devem chegar.\nAlém das coisas de nosso pai, claro que não posso me esquecer do seu presente.\nA carta deve vir com duas pipas de Liyue, um chocalho, duas bonecas de porcelana de Inazuma, e uma caixa cheia de vários lanches.\nPor favor, diga a Anthon que os residentes de Liyue são humanos como nós, não pessoas de pedra.\nEles também não comem pedras, isso é redundante de se dizer.\nPor favor não se preocupe, Tonia, e nem seja desobediente.\nEu voltarei para casa em breve. Assim que eu pegar as sete estrelas de Liyue e as der para Sua Majestade Tsaritsa, eu subirei no primeiro barco de volta para casa. Eu cumpro minhas promessas.\nSeu leal cavaleiro\"."
+      },
+      {
+        "Title": "Ilusão",
+        "Context": "A Ilusão de Tartaglia é seu velho símbolo de honra e prova de sua força.\nEle ainda se lembra perfeitamente do dia que recebeu sua Ilusão e ascendeu para se tornar um membro dos Mensageiros.\nQuando estava de frente para a fria e austera Tsaritsa, Bobo da Corte, o primeiro Fatui, colocou essa insígnia nele.\nEra sua recompensa por ter derrotado muitas bestas terríveis e uma lembrança de incontáveis batalhas.\nMas não era isso que trazia alegria para Tartaglia, pois honra é apenas a recompensa natural do guerreiro.\nEle também não deu atenção aos olhares estranhos que seus colegas deram a ele, pois as opiniões dos outros não lhe significavam nada.\nA visão da Tsaritsa no seu trono encheu seu coração de admiração e respeito, não apenas porque ela abriu um caminho para ele encontrar uma abundância de batalhas, mas porque ela também olhava para ele com desconfiança.\nSeu olhar era frio, mas puro; arrogante, mas afiado, pois ela não era meramente a sacrossanta Arconte Cryo, mas uma verdadeira guerreira.\nDesta maneira, com Childe recebendo sua Ilusão, jurou lealdade para a Tsaritsa de Snezhnaya."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 203300,
+      "Name": "Lâminas da Glória",
+      "Description": "Vestuário de Tartaglia. Esse vestuário glorioso é símbolo da identidade de Childe, o 11º Mensageiro dos Fatui.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104124,
+    113012,
+    100033,
+    112034,
+    104303,
+    113014
+  ]
+}

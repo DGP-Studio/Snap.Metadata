@@ -1,0 +1,1049 @@
+{
+  "Id": 10000058,
+  "PromoteId": 58,
+  "Sort": 46,
+  "Body": 3,
+  "Icon": "UI_AvatarIcon_Yae",
+  "SideIcon": "UI_AvatarIcon_Side_Yae",
+  "Name": "Yae Miko",
+  "Description": "Die Guuji des Großen Narukami-Schreins und Chefredakteurin des „Verlagshauses Yae“. Hinter ihrem schönen Aussehen verbergen sich unerwartete Intelligenz und Gerissenheit.",
+  "BeginTime": "2022-02-16T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 807.46204,
+    "AttackBase": 26.4404,
+    "DefenseBase": 44.2742
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 5831,
+        "Proud": {
+          "Descriptions": [
+            "SCH Phase 1|{param1:F1P}",
+            "SCH Phase 2|{param2:F1P}",
+            "SCH Phase 3|{param3:F1P}",
+            "SCH heftiger Schläge|{param4:F1P}",
+            "Ausdauerverbrauch heftiger Schläge|{param5:F1} Punkte",
+            "SCH beim Fallen|{param6:F1P}",
+            "SCH beim Fallen aus niedriger/großer Höhe|{param7:P}/{param8:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.396584,
+                0.385192,
+                0.568888,
+                1.428948,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.426328,
+                0.414081,
+                0.611555,
+                1.53612,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.456072,
+                0.442971,
+                0.654221,
+                1.643291,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.49573,
+                0.48149,
+                0.71111,
+                1.786185,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.525474,
+                0.510379,
+                0.753777,
+                1.893357,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.555218,
+                0.539269,
+                0.796443,
+                2.000528,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.594876,
+                0.577788,
+                0.853332,
+                2.143423,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.634534,
+                0.616307,
+                0.910221,
+                2.286317,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.674193,
+                0.654826,
+                0.96711,
+                2.429212,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.713851,
+                0.693346,
+                1.023998,
+                2.572107,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.75351,
+                0.731865,
+                1.080887,
+                2.715002,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                0.793168,
+                0.770384,
+                1.137776,
+                2.857897,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                0.842741,
+                0.818533,
+                1.208887,
+                3.036515,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                0.892314,
+                0.866682,
+                1.279998,
+                3.215134,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                0.941887,
+                0.914831,
+                1.351109,
+                3.393752,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 10581,
+        "Name": "Standardangriff: Sündenverschlinger",
+        "Description": "<color=#FFD780FF>Standardangriff</color>\nBeschwört Kitsune-Geister hervor, führt bis zu 3 Angriffe aus und verursacht <color=#FFACFFFF>Elektro-Schaden</color>.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und verursacht nach kurzer Aufladezeit <color=#FFACFFFF>Elektro-Flächenschaden</color>.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nKonzentriert die Kraft des Donners, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#FFACFFFF>Elektro-Flächenschaden</color>.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 5832,
+        "Proud": {
+          "Descriptions": [
+            "Sesshou-Sakura-SCH Phase 1|{param1:F1P}",
+            "Sesshou-Sakura-SCH Phase 2|{param2:F1P}",
+            "Sesshou-Sakura-SCH Phase 3|{param3:F1P}",
+            "Sesshou-Sakura-SCH Phase 4|{param4:F1P}",
+            "Dauer|{param5:F1} s",
+            "Abklingzeit|{param6:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.60672,
+                0.7584,
+                0.948,
+                1.185,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.652224,
+                0.81528,
+                1.0191,
+                1.273875,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.697728,
+                0.87216,
+                1.0902,
+                1.36275,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.7584,
+                0.948,
+                1.185,
+                1.48125,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.803904,
+                1.00488,
+                1.2561,
+                1.570125,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.849408,
+                1.06176,
+                1.3272,
+                1.659,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.91008,
+                1.1376,
+                1.422,
+                1.7775,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.970752,
+                1.21344,
+                1.5168,
+                1.896,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                1.031424,
+                1.28928,
+                1.6116,
+                2.0145,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.092096,
+                1.36512,
+                1.7064,
+                2.133,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.152768,
+                1.44096,
+                1.8012,
+                2.2515,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.21344,
+                1.5168,
+                1.896,
+                2.37,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.28928,
+                1.6116,
+                2.0145,
+                2.518125,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.36512,
+                1.7064,
+                2.133,
+                2.66625,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.44096,
+                1.8012,
+                2.2515,
+                2.814375,
+                14,
+                4
+              ]
+            }
+          ]
+        },
+        "Id": 10582,
+        "Name": "Yakan-Kriegszauber – Sesshou-Sakura",
+        "Description": "Für Yae ist es nicht nötig, selbst tätig zu werden, wenn Geister ausgetrieben werden müssen.\nBewegt sich mit hoher Geschwindigkeit und hinterlässt eine „Sesshou-Sakura“.\n\n<color=#FFD780FF>Sesshou-Sakura</color>\nMerkmale:\n· Schlägt in gewissen zeitlichen Abständen einen Gegner in der Umgebung mit einem Blitz und fügt ihm <color=#FFACFFFF>Elektro-Schaden</color> zu.\n· Geht bei Anwesenheit weiterer Sesshou-Sakura in der Nähe in eine höhere Phase und erhöht damit den mit dem oben beschriebenen Angriff verursachten Schaden.\n\nDiese Fähigkeit kann 3-mal eingesetzt werden.\nZu einem Zeitpunkt können bis zu 3 Sesshou-Sakura existieren. Die anfängliche Phase für Sesshou-Sakura ist 1, während die anfängliche Höchstphase 3 beträgt. Sollte sich eine neu erzeugte Sesshou-Sakura zu nah an einer vorhandenen befinden, wird die Letztere zerstört.\n\n<i>„Die Kitsune-Geister, die in den Zweigen versiegelt sind, sind allesamt Yakan, die sich auf die Jagd nach Menschen begeben haben. Die Yakan stehen zwei Stufen niedriger als wir Himmelsfüchse und daher sehe ich kaum ein Problem darin, sie zu bitten, meine Befehle auszuführen. Das heißt aber nicht, dass ihr Menschen von unserer Einteilung lernen solltet. Und was die Frage angeht, wer von uns, Kitsune oder Mensch, auf der höheren Stufe steht ... Tja, das würdest du gern wissen.“</i>",
+        "Icon": "Skill_S_Yae_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 5839,
+      "Proud": {
+        "Descriptions": [
+          "Fähigkeits-SCH|{param1:P}",
+          "Tenko-Blitzschlag-SCH|{param2:P}",
+          "Abklingzeit|{param3:F1} s",
+          "Elementarenergie|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              2.6,
+              3.33816,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              2.795,
+              3.588522,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              2.99,
+              3.838884,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              3.25,
+              4.1727,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              3.445,
+              4.423062,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              3.64,
+              4.673424,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              3.9,
+              5.00724,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              4.16,
+              5.341056,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              4.42,
+              5.674872,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              4.68,
+              6.008688,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              4.94,
+              6.342504,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              5.2,
+              6.67632,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              5.525,
+              7.09359,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              5.85,
+              7.51086,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              6.175,
+              7.92813,
+              22,
+              90
+            ]
+          }
+        ]
+      },
+      "Id": 10585,
+      "Name": "Große Geheimkunst – Tenko Kenshin",
+      "Description": "Die Legende des „Kitsunetsuki“, der Heimsuchung durch eine Kitsune, gehört zu den Volksmärchen von Inazuma. Unter ihnen gilt die der Himmelsfüchse als etwas Besonderes, die in Form eines Blitzes auf die Feinde des Großen Narukami-Schreins herabfallen, wobei <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht wird.\nYae Miko aktiviert die Sesshou-Sakura in der Nähe beim Auslösen der Fähigkeit, zerstört ihre äußere Form und verwandelt sie in Tenko-Blitzschläge, die herunterprasseln und <color=#FFACFFFF>Elektro-Flächenschaden</color> verursachen. Für jede zerstörte Sesshou-Sakura wird ein Tenko-Blitzschlag erzeugt.\n\n<i>Yae benutzt nur in solchen Zeiten das Zeichen der Himmelsfüchse, um Blitze zu beschwören. Alle, die bisher die Schwänze der Guuji gesehen haben, sind zu Asche zerfallen. Also vergiss nicht, Yae hat keine Schwänze.</i>",
+      "Icon": "Skill_E_Yae_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 582101,
+        "Name": "Heiliger Schatten des Schreins",
+        "Description": "Überspringt beim Auslösen von <color=#FFD780FF>Große Geheimkunst – Tenko Kenshin</color> für jede zerstörte Sesshou-Sakura einmal die Abklingzeit von <color=#FFD780FF>Yakan-Kriegszauber – Sesshou-Sakura</color>.",
+        "Icon": "UI_Talent_S_Yae_05"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.0015
+              ]
+            }
+          ]
+        },
+        "Id": 582201,
+        "Name": "Segnung der Erleuchtung",
+        "Description": "Erhöht den mit <color=#FFD780FF>Sesshou-Sakura</color> verursachten Schaden für jeden Punkt Elementarkunde um 0,15 %.",
+        "Icon": "UI_Talent_S_Yae_06"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 582301,
+        "Name": "Yako-Meditation",
+        "Description": "Erschafft mit einer Wahrscheinlichkeit von 25 % extra ein anderes zufälliges Material für Talente aus demselben Gebiet mit einer dem verbrauchten Material entsprechenden Stufe.",
+        "Icon": "UI_Talent_S_Yae_07"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 581,
+        "Name": "Yakan-Opfer",
+        "Description": "Stellt Yae Miko selbst bei jedem Tenko-Blitzschlag von <color=#FFD780FF>Große Geheimkunst – Tenko Kenshin</color> 8 Punkte Elementarenergie wieder her.",
+        "Icon": "UI_Talent_S_Yae_01"
+      },
+      {
+        "Id": 582,
+        "Name": "Mondgesang der Kitsune",
+        "Description": "<color=#FFD780FF>Sesshou-Sakura</color> sind bei der Entstehung anfänglich in Phase 2 und können höchstens Phase 4 erreichen. Außerdem wird ihr Angriffsradius um 60 % erhöht.",
+        "Icon": "UI_Talent_S_Yae_02"
+      },
+      {
+        "Id": 583,
+        "Name": "Sieben wunderbare Variationen",
+        "Description": "Erhöht die Stufe der Fähigkeit <color=#FFD780FF>Yakan-Kriegszauber – Sesshou-Sakura</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Yae_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 584,
+        "Name": "Rosarote Blitzleiter",
+        "Description": "Erhöht beim Treffen von Gegnern mit den Blitzschlägen von <color=#FFD780FF>Sesshou-Sakura</color> den <color=#FFACFFFF>Elektro-Schaden</color> aller Truppenmitglieder in der Nähe 5 s lang um 20 %.",
+        "Icon": "UI_Talent_S_Yae_03"
+      },
+      {
+        "Id": 585,
+        "Name": "Unerbittlicher Spott",
+        "Description": "Erhöht die Stufe der Fähigkeit <color=#FFD780FF>Große Geheimkunst – Tenko Kenshin</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Yae_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 586,
+        "Name": "Daisesshou-Fluch",
+        "Description": "<color=#FFD780FF>Sesshou-Sakura</color> ignorieren beim Angriff 60 % der VTD des Gegners.",
+        "Icon": "UI_Talent_S_Yae_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Verhöhnung der Sterblichen",
+    "Detail": "Die Guuji des Großen Narukami-Schreins und Chefredakteurin des „Verlagshauses Yae“. Hinter ihrem schönen Aussehen verbergen sich unerwartete Intelligenz und Gerissenheit.",
+    "Association": 5,
+    "Native": "Großer Narukami-Schrein",
+    "BirthMonth": 6,
+    "BirthDay": 27,
+    "VisionBefore": "Elektro",
+    "ConstellationBefore": "Divina Vulpes",
+    "CvChinese": "杜冥鸦",
+    "CvJapanese": "佐倉綾音",
+    "CvEnglish": "Ratana",
+    "CvKorean": "Moon Yoo-jung",
+    "CookBonus": {
+      "OriginItemId": 108378,
+      "ItemId": 108380,
+      "InputList": [
+        110001,
+        101210,
+        100084
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Schön, dich kennenzulernen.",
+        "Context": "Ich bin die Guuji des Großen Narukami-Schreins. Der Zweck meines Besuchs ist es, jede deiner Bewegungen zu überwachen, denn das ist die Ordnung des Schreins ... Ach, komm schon, sei nicht so nervös. Das ist doch nur Bürokratie. Ich kann doch nicht einfach ohne Grund herumspazieren, oder? Jetzt komm schon, mach etwas Lustiges für mich."
+      },
+      {
+        "Title": "Gespräch – Genre des Schreibens",
+        "Context": "Heutzutage gibt es zu viele Romane vom „Verlagshaus Yae“, deren Themen die Reisen in anderen Welten sind. Hm, sind sie nur so unzufrieden mit ihrer eigenen Welt?"
+      },
+      {
+        "Title": "Gespräch – Geschichte",
+        "Context": "Die meisten Menschen könnten ihre ganzen flüchtigen Leben in ein paar kurzen Zeilen zusammenfassen und die meisten davon sind nur langweilige Geschichten."
+      },
+      {
+        "Title": "Gespräch – Welt der Sterblichen",
+        "Context": "Persönlich finde ich die Idee, dass die Dinge für immer gleich bleiben, ziemlich schön. *seufz* aber leider funktioniert die Welt einfach nicht so."
+      },
+      {
+        "Title": "Wenn es regnet ...",
+        "Context": "Wenn es regnet, wird mein Fell ungemütlich nass ..."
+      },
+      {
+        "Title": "Wenn es blitzt ...",
+        "Context": "Viele Menschen fürchten sich vor dem Geräusch des Donners ... Für mich klingt es aber ziemlich vertraut."
+      },
+      {
+        "Title": "Wenn es schneit ...",
+        "Context": "Nicht so intelligente Füchse stürzen sich oft auf der Suche nach Nahrung kopfüber in den Schnee ... Willst du sehen, wie ich das mache? Hm."
+      },
+      {
+        "Title": "Guten Morgen.",
+        "Context": "Morgen, hmm? Warum siehst du so müde aus? Hast du nicht gut geschlafen? Ah, du warst gestern Abend sehr beschäftigt, oder?"
+      },
+      {
+        "Title": "Guten Tag.",
+        "Context": "Hmm ... Da kriegt man ja Kopfschmerzen. Was soll ich zum Mittagessen essen? Nicht schon wieder frittierter Tofu, ich bin heute in der Stimmung für etwas Leichteres. Ah! Ich weiß. Ich habe das Mädchen von der Yashiro-Verwaltung schon eine Weile nicht mehr gesehen. Warum gehen wir nicht einfach hin und essen ein paar Sachen, die sie macht?"
+      },
+      {
+        "Title": "Guten Abend.",
+        "Context": "Das Mondlicht ist heute Nacht einfach großartig. Wir dürfen es nicht vergeuden. Komm mit mir auf einen Mondscheinspaziergang. Sag nicht „Nein“."
+      },
+      {
+        "Title": "Gute Nacht.",
+        "Context": "Ich glaube, ich sollte jetzt schlafen. Ich muss zugeben, dass es mir schwerfällt, ohne das beruhigende Donnergrollen im Hintergrund gut zu schlafen."
+      },
+      {
+        "Title": "Über Yae Miko – Ewigkeit",
+        "Context": "Ewigkeit bedeutet, dass du nie auf das verzichten musst, was du schon hast. Aber auf der anderen Seite bedeutet es auch, dass du alle anderen Möglichkeiten aufgibst. So ist die Regel der Welt ... Keiner kann alles haben."
+      },
+      {
+        "Title": "Über Yae Miko – Interesse",
+        "Context": "Menschen sind einfach faszinierende Geschöpfe, deshalb mag ich sie so gern. Ihr Leben ist so kurz, aber in der Zeit, in der sie da sind, strahlen sie so hell wie die Mittagssonne. Manche von ihnen leuchten so hell, dass sie auch im Laufe der Jahre nicht verblassen. Es ist eine große Freude, über solche Leben zu lesen."
+      },
+      {
+        "Title": "Über uns – Schriftsteller",
+        "Context": "Langweilig, völlig langweilig ... Ts, was hat diese Leute bloß dazu bewogen, Schriftsteller zu werden? Sag mal, warum schreibst du nicht deine Geschichte auf und schickst sie an das Verlagshaus Yae? Ich bin mir sicher, dass es mich amüsieren würde ... Es muss ein großer Hit sein."
+      },
+      {
+        "Title": "Über uns – Erosion",
+        "Context": "Wenn du dich vom Rest der Welt abschottest, kann das die Erosion nur noch beschleunigen. Stell dir eine Welt vor, die nur aus dir und dir allein besteht, ohne jemanden, der dir dein Wesen aufzeigt. Wie furchtbar wäre das ... Deswegen ist es wichtig, wenn wir zusammen sind und uns immer gegenseitig aufeinander aufmerksam machen."
+      },
+      {
+        "Title": "Über das „Göttliche Auge“ ...",
+        "Context": "Du meinst ... Es gefällt dir, wie ich das „Göttliche Auge“ trage? Ich würde sagen, du hast wirklich ein gutes Auge. Also ... willst du es anfassen?"
+      },
+      {
+        "Title": "Willst du mir etwas mitteilen?",
+        "Context": "Erhitze das Öl in einem Topf auf mittlerer Flamme. Gib den Tofu hinzu und reduziere die Hitze auf eine kleine Flamme. Frittiere ihn, bis er goldbraun ist, nimm ihn heraus und serviere den Tofu heiß. Da hast du ihn, den frittierten Tofu. Es gibt nichts Köstlicheres auf dieser Welt. Ich habe dir schon gesagt, wie man ihn macht, oder? Warum stehst du immer noch da?"
+      },
+      {
+        "Title": "Interessante Vorkommnisse ...",
+        "Context": "Im Großen Narukami-Schrein befindet sich die heilige Sakura, die schon ein Teil meines Lebens geworden ist. Obwohl es manchmal dazu kommt, dass ich müde bin, sie zu sehen, ist sie doch mit meinem Schicksal eng verbunden."
+      },
+      {
+        "Title": "Über Shougun Raiden ...",
+        "Context": "Sich in den utopischen Gefilden einzuschließen, obwohl sie eigentlich draußen sein will, ist einfach nur mutwillige Selbstquälerei ... Andererseits ist es aber auch irgendwie niedlich, oder?"
+      },
+      {
+        "Title": "Über Kamisato Ayato ...",
+        "Context": "Der Bengel der Yashiro-Verwaltung ... Er war seit seiner Kindheit schon immer unberechenbar. Lass dich nicht von seinem warmen Lächeln täuschen. Man weiß nie, welcher hinterhältige Plan sich in seinem Kopf verbirgt. Er ist wirklich eine Nervensäge. Hm, was meinst du mit „schlau wie eine Kitsune“? Ich bin auf keinen Fall der gleiche Typ wie er."
+      },
+      {
+        "Title": "Über Kamisato Ayaka ...",
+        "Context": "Ich mag das Mädchen der Yashiro-Verwaltung wirklich sehr gern. Sie kümmert sich geschickt um jede Angelegenheit. Leider ist es oft eine undankbare Arbeit. Schade, wäre sie nicht Mitglied des Kamisato-Klans, hätte ich sie schon längst für Verlagshaus Yae abgeworben."
+      },
+      {
+        "Title": "Über Kujou Sara ...",
+        "Context": "Sie ist offensichtlich nicht der klügste Tengu des Waldes. Den brillanten Verstand ihres Papas hat sie leider nicht geerbt ... Wie soll ich das sagen? Ich nehme an, unverblümt und stur zu sein, hat seine eigenen Vorteile ... Aber ich hoffe, dass ich das nächste Mal, wenn sie den Schrein besucht, ihre ständigen Fragen über Ei nicht zu beantworten brauch."
+      },
+      {
+        "Title": "Über Yoimiya ...",
+        "Context": "Das Naganohara-Feuerwerk ist eines der wenigen Dinge, auf die du dich jedes Jahr freuen kannst. Man sagte, dass sie vor Kurzem einen ziemlichen Aufruhr in der Tenryou-Verwaltung verursacht hat, indem sie überall Feuerwerkskörper gezündet hat. Ich bin sicher, dass die Gesichter der Mitglieder des Kujou-Klans vor Wut lila geworden sind ... Schade, dass ich nicht dabei sein konnte, um es mit eigenen Augen zu sehen."
+      },
+      {
+        "Title": "Über Ganyu ...",
+        "Context": "Nun ... Ich habe Ganyu wirklich schon eine Weile nicht mehr gesehen. Als das Sakoku-Dekret noch nicht in Kraft getreten war, war ich diejenige, die mit ihr über alle Angelegenheiten zwischen Liyue und Inazuma verhandelt hat. Das nächste Mal, wenn ich die Gelegenheit habe, nach Liyue zu gehen, werde ich ihr ein paar frische Meereslackporlinge mitbringen."
+      },
+      {
+        "Title": "Über Sangonomiya Kokomi ...",
+        "Context": "Die Schreinjungfern heutzutage scheinen mit jeder Generation niedlicher zu werden. Ich frage mich, wie sie wohl aussieht, wenn sie den Kagura-Tanz des Friedens aufführt ... Vielleicht würden sogar Fische mit ihr tanzen. Wenn sie von mir als einer älteren Schreinjungfer Tipps hören wollte, wäre ich bereit, ein paar Dinge mit ihr zu teilen."
+      },
+      {
+        "Title": "Über Kunikuzushi ...",
+        "Context": "Ich dachte damals schon, dass es ein Problem war, aber sie sagte, sie wolle es nicht zerstören, weil es ihre eigene Kreation war. Wenn ich gewusst hätte, dass es so sein würde, hätte ich es genauso gut loswerden können, ohne es ihr zu sagen. Jetzt? Nun ... jetzt ist die Situation heikel geworden."
+      },
+      {
+        "Title": "Über Arataki Itto ...",
+        "Context": "Oh, ja. Dieser seltsame Oni. Ich habe gehört, dass er eine lange Geschichte mit dem Kujou-Klan hat. Die Tenryou-Verwaltung wollte seine Nachrichten am Schwarzen Brett wegwischen, weil sie angeblich die öffentliche Ordnung gestört haben. Ich war es, die es geschafft hat, sie aufzuhalten. Hehe, einen interessanten Oni wie ihn sieht man heutzutage nicht mehr oft."
+      },
+      {
+        "Title": "Über Gorou ...",
+        "Context": "Gorous Schwanz hat wirklich eine wunderschöne Farbe, aber ... trotzdem ist meiner weicher. Oder?"
+      },
+      {
+        "Title": "Über Sayu ...",
+        "Context": "Das kleine Kind ... Wenn sie etwas kann, dann ist es, sich zu verstecken. Kano Nana beschwert sich ständig bei mir darüber. Offenbar verbringt sie inzwischen so viel Zeit mit der Suche nach Sayu, dass sie kaum noch Zeit zum Lesen hat. Wenn du mich fragst, würde ich sagen, dass Sayu einen heimlichen Freund hat, der ihr die ganze Zeit hilft, sich zu verstecken ..."
+      },
+      {
+        "Title": "Über Kuki Shinobu ...",
+        "Context": "Ich habe gehört, dass Miyukis junge Schwester eine interessante Person ist. Obwohl sie aus einer Schreinjungfernfamilie stammt, hat sie sich vom Schrein ferngehalten, viele Handwerkskünste gelernt, in Liyue studiert und ist schließlich in die Arataki-Bande eingetreten ... So ein interessantes Mädchen, ich sollte Miyuki bitten, sie mir vorzustellen ... Nun, Miyuki wird mich bestimmt nicht ablehnen."
+      },
+      {
+        "Title": "Über Kirara ...",
+        "Context": "In letzter Zeit interessieren sich immer mehr Youkai für die Menschenwelt. Kann man sagen, dass das eine gute Sache ist? Was ich davon halte? Hehe, es sollen ja alle ihren Spaß haben. Außerdem, wem würde es denn nicht gefallen, von den Kleinen zum Essen eingeladen zu werden?"
+      },
+      {
+        "Title": "Ich will mehr über Yae Miko erfahren I",
+        "Context": "Du möchtest mehr über mich wissen? Ich bin bereit, es dir zu sagen, aber was bekomme ich im Gegenzug dafür? In dieser Welt geht es immer um gegenseitigen Nutzen. Du erzählst mir also alles über dich und ich erzähle dir alles über mich. Abgemacht?"
+      },
+      {
+        "Title": "Ich will mehr über Yae Miko erfahren II",
+        "Context": "Kitsune Saiguu sagte, dass sie auf eine lange Reise gehen würde, aber kam nie zurück. Ich wollte damals die anstrengenden Angelegenheiten des Großen Narukami-Schreins gar nicht übernehmen. Sie sagte aber, dass ich als Guuji so viel frittierten Tofu essen könnte, wie ich wollte. Was für ein schrecklicher Grund. Diese Frau redete so viel Unsinn, ehrlich, sie konnte so unausstehlich sein ..."
+      },
+      {
+        "Title": "Ich will mehr über Yae Miko erfahren III",
+        "Context": "Die Motivation für die Gründung vom Verlagshaus Yae war anfangs natürlich, interessante Romane zu lesen, aber dann wurde es immer lustiger, den Autoren dabei zuzusehen, wie sie sich verausgabten. Hehe, du kannst dir gar nicht vorstellen, was für Gründe diese Leute anführen, wenn sie die Fristen nicht einhalten können, und siehe da, es macht viel mehr Spaß als die Romane, die sie schreiben."
+      },
+      {
+        "Title": "Ich will mehr über Yae Miko erfahren IV",
+        "Context": "Auch Archonten vergehen irgendwann. Es ist eine große Schande, wenn ihre Geschichten zusammen mit ihnen in der Zeit verloren gehen und man sich nie wieder an sie erinnert. Das Problem ist, dass nur diejenigen mit erstklassigen Denk- und Kompositionsfähigkeiten qualifiziert sind, diese Geschichten zu Papier zu bringen ... Wenn es auf der Welt keinen qualifizierten Schriftsteller gibt, müssen wir ... müssen wir dann die richtigen Leute ausbilden ..."
+      },
+      {
+        "Title": "Ich will mehr über Yae Miko erfahren V",
+        "Context": "Außerdem habe ich selbst noch nie einen Roman geschrieben, obwohl ich viele andere gelesen habe. Aber wenn dein Abenteuer vorbei ist und du möchtest, dass jemand deine Geschichte aufzeichnet, und ich dann Zeit habe ..."
+      },
+      {
+        "Title": "Yae Mikos Hobbys ...",
+        "Context": "Meine Lieblingsbeschäftigung ist es, die Geschichten anderer Leute zu lesen. Am zweitliebsten mag ich, die besorgten Blicke anderer Leute zu beobachten, und wenn beides zusammengeht, ja, dann wäre es Unterhaltung in ihrer reinsten Form."
+      },
+      {
+        "Title": "Yae Mikos Sorgen ...",
+        "Context": "Leben, das aus Stille und Ruhe besteht, ist einfach zu langweilig ..."
+      },
+      {
+        "Title": "Was sie so mag ...",
+        "Context": "Hast du schon mal von „Kitsune-Udon“ gehört, was eigentlich Udon mit frittiertem Tofu ist? Tofu und Udon, das klingt doch lecker, oder?"
+      },
+      {
+        "Title": "Was sie nicht mag ...",
+        "Context": "Alles, was eingelegt wurde, ist für mich ein Tabu ... Es ist mir egal, ob es Medaka oder Kiviak ist. Welcher Mensch kann diesen widerlichen Gestank ertragen? Ich bin die Guuji vom Großen Narukami-Schrein und weigere mich, mich durch den Verzehr solch stechender Dinge zu besudeln."
+      },
+      {
+        "Title": "Geschenk erhalten I",
+        "Context": "#Meine Güte, Kleine{M#r}, du kennst meinen Geschmack gut."
+      },
+      {
+        "Title": "Geschenk erhalten II",
+        "Context": "Da du es selbst gemacht hast, werde ich es probieren ..."
+      },
+      {
+        "Title": "Geschenk erhalten III",
+        "Context": "Was soll ich sagen ... Es gibt noch viel zu verbessern, nicht wahr?"
+      },
+      {
+        "Title": "Geburtsdatum ...",
+        "Context": "Heute ist also dein Geburtstag ...\n„An deinem feierlichen Geburtstag werde ich meine Verwandtschaft damit beauftragen, dafür zu sorgen, dass du das, was du suchst, auch findest, und das, wonach dein Herz sich sehnt, auch erhältst. Bewahre ein reines Herz und einen wahren Geist und ihr Schutz wird dir zuteilwerden.“ Das ist alles. Ich wünsche dir alles Gute für das kommende Jahr und, dass alle deine Wünsche in Erfüllung gehen."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Beginn",
+        "Context": "Bei der Ausbildung zur Schreinjungfer wird der Titel „Chokkai“ verliehen, wenn man die erforderlichen Studien abgeschlossen hat und den Segensspruch korrekt vorlesen kann. Für Menschen ist das vielleicht ganz einfach, aber für die Kitsune ist es der schwierigste Schritt ... Wir sind schließlich nur Füchse."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Fortschritt",
+        "Context": "Die Ausbildung zur Guuji-Assistentin oder die Ausbildung von „Seikai“ ist in der Tat sehr anstrengend. Du musst unzählige strenge Regeln einhalten ... Es gibt nur einen Weg, es zu schaffen: Wenn du in der Nacht einen Imbiss zu dir nimmst, pass auf, dass du nicht erwischt wirst."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Höhepunkt",
+        "Context": "Um den Rang „Meikai“ zu erreichen, muss man die Funktionsweise der Welt entschlüsseln, ihre Grenzen überschreiten und alle Phänomene darin ergründen. Wer diese Stufe erreicht, bekommt normalerweise ein Göttliches Auge und eine Lebenserwartung, die weit über die einer durchschnittlichen Kitsune hinausgeht."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Ende",
+        "Context": "Im Laufe der Geschichte hat nur die Guuji des Großen Narukami-Schreins jemals den Rang von „Joukai“ getragen. Es ist ein Ehrentitel, der nichts mit den Fähigkeiten des Titelträgers zu tun hat. Aber wenn ich mich selbst zum mächtigsten „Joukai“ der Geschichte erkläre, sehe ich da keine Probleme."
+      },
+      {
+        "Title": "Elementarfähigkeit I",
+        "Context": "Genau hier."
+      },
+      {
+        "Title": "Elementarfähigkeit II",
+        "Context": "Genau jetzt."
+      },
+      {
+        "Title": "Elementarfähigkeit III",
+        "Context": "Tritt hervor!"
+      },
+      {
+        "Title": "Elementarfähigkeit IV",
+        "Context": "Komm raus."
+      },
+      {
+        "Title": "Elementarfähigkeit V",
+        "Context": "Zeig es ihnen."
+      },
+      {
+        "Title": "Spezialfähigkeit I",
+        "Context": "Ich beobachte immer."
+      },
+      {
+        "Title": "Spezialfähigkeit II",
+        "Context": "Nichts währt ewig."
+      },
+      {
+        "Title": "Spezialfähigkeit III",
+        "Context": "Ergreifende Blitze."
+      },
+      {
+        "Title": "Truhe öffnen I",
+        "Context": "Irgendetwas Interessantes?"
+      },
+      {
+        "Title": "Truhe öffnen II",
+        "Context": "Sag mir nicht, dass das alles ist ..."
+      },
+      {
+        "Title": "Truhe öffnen III",
+        "Context": "Komm schon, mach auf und zeig es mir."
+      },
+      {
+        "Title": "Niedrige LP I",
+        "Context": "So kann es nicht weitergehen."
+      },
+      {
+        "Title": "Niedrige LP II",
+        "Context": "Kein Spiel mehr."
+      },
+      {
+        "Title": "Niedrige LP III",
+        "Context": "Zeit, es ernst zu nehmen."
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP I",
+        "Context": "Zwinge dich nicht mehr."
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP II",
+        "Context": "Überlass das einfach mir."
+      },
+      {
+        "Title": "Ohnmächtig I",
+        "Context": "Hatte ... ein bisschen zu viel Spaß ..."
+      },
+      {
+        "Title": "Ohnmächtig II",
+        "Context": "Was für ein furchtbares Ende ..."
+      },
+      {
+        "Title": "Ohnmächtig III",
+        "Context": "So viel zur „Ewigkeit“..."
+      },
+      {
+        "Title": "Leichten Treffer erlitten I",
+        "Context": "Ist das alles?"
+      },
+      {
+        "Title": "Schweren Treffer erlitten I",
+        "Context": "Was für ein Ärger."
+      },
+      {
+        "Title": "Truppenbeitritt I",
+        "Context": "Ach, jetzt fällt dir ein, dass es mich gibt?"
+      },
+      {
+        "Title": "Truppenbeitritt II",
+        "Context": "Machen wir heute doch etwas Interessantes."
+      },
+      {
+        "Title": "Truppenbeitritt III",
+        "Context": "Na gut, da du mich eingeladen hast ..."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Figurendetails",
+        "Context": "Oberste Schreinjungfer des Großen Narukami-Schreins und Nachfahrin der Hakushin-Blutlinie, Untergebene und Freundin der „Ewigkeit“ und die einschüchternde Chefredakteurin des Verlagshauses Yae, einem Verlag für kurze Erzählungen ...\nWenn man es genau betrachtet, sind die Titel von Yae Miko genauso unberechenbar wie ihre Persönlichkeit.\nDie Menschen, die versucht haben, die „wahre Natur“ von Miko für verschiedene Zwecke herauszufinden, können eine lange Schlange von der Tenryou-Verwaltung bis zum Verlagshaus Yae bilden, aber bisher ist es nur wenigen gelungen.\nSchließlich hat Miko noch nie etwas absichtlich versteckt. Tausend Gesichter und hundert Variationen sind nur eine Frage ihrer Laune. Ein Rätsel ohne Inhalt ist von Anfang an nicht gültig.\nDenk einfach daran, dass sie immer die „weise und schöne Yae Miko“ sein wird."
+      },
+      {
+        "Title": "Figurenhintergrund 1",
+        "Context": "Mehrere Redakteure des Verlagshauses Yae haben der Chefredakteurin ein Originalmanuskript empfohlen.\nDie mit einer ausgeklügelten Schreibweise und Ideen geschriebene romantische Komödie war genau ein damals sehr beliebtes Genre.\nWas für ein Rohdiamant, der nur noch wenig verbessert werden und mit schönen Illustrationen versehen werden musste ... Es würde bestimmt ein Hit werden!\nWas die Redakteure nicht erwartet haben, war, dass Yae Miko nach dem Lesen ihre Freude nicht zeigte, sondern tief seufzte und alle wichtigen Redakteure zu sich rief.\nEiner der Redakteure fragte zögerlich: „Aber Yae ... Obwohl ich es war, der ihm vorgeschlagen hat, über dieses Thema zu schreiben ... ist das nicht das heißeste Genre im Moment?“\nMit einem verwirrten Blick ihres Redakteurs konfrontiert, äußerte Miko ihre Meinung direkt: eine kurze Erzählung, die neuartig sein sollte, aber in jeder Hinsicht an ihr Thema gebunden ist, kurz gefasst, „nicht frei genug“.\nDie sogenannten Bestseller und Genre-Werke ... sind nur Trends, die sich alle zehn Jahre wiederholen.\nEs ist bestimmt eine Abkürzung, über populäre Themen zu schreiben, aber wenn ein Werk bereits die Qualität hat, nicht vom aktuellen Trend überwältigt zu werden, warum macht man sich die Mühe?\n„Sag dem neuen Autor, dass er sich keine Sorgen um das Genre machen muss, sondern nur ‚die Geschichte‘ ernst nehmen soll.“\nAls der Autor davon erfuhr, bekam er eine Erleuchtung und hörte auf zu schreiben und dachte intensiv nach. Ein paar Monate später kam eine brandneue Kopie des Romans bei Miko und den Redakteuren an.\nDie Redakteure waren einen Moment lang sprachlos und selbst Miko, die schon immer kein Tabu hatte, runzelte seltsam die Stirn:\n„Hmm ... was soll ich tun ... Das ist wirklich nicht gut.“\n„Ja! Auch wenn er sich über das Thema keine Sorgen machen muss, ist der Titel ‚Wiedergeboren als Shougun Raiden‘ zu überraschend!“\n„Thema? Natürlich ist an dem Thema nichts auszusetzen. Aber sein Pseudonym ist zu gewöhnlich, um irgendwie zu diesem Buch zu passen, denke ich.“\n„Da liegt also der Schwerpunkt ... Nein, solange du glücklich bist, habe ich nichts dagegen.“\nKurz danach debütierte der Autor dieses Buches unter dem von der Chefredakteurin vorgeschlagenen sehr langen Pseudonym „Kadenokouji Kenzaburou“.\nWas die Idee der Chefredakteurin angeht, einen Schreibwettbewerb zum Thema „Wiedergeboren als Guuji Yae“ zu starten, ist das eine andere Geschichte."
+      },
+      {
+        "Title": "Figurenhintergrund 2",
+        "Context": "Die größte Unannehmlichkeit, eine Guuji zu sein, ist, dass du zu jeder Schrein-Zeremonie in voller Tracht erscheinen und in der Schreinhalle sitzen musst.\nDie Feuerwerke bedecken den ganzen Himmel, der Schrein ist voller Menschen und du musst aber die ganze Zeit mit einem feierlichen Lächeln im Schrein sitzen.\nEine solche Katastrophe wäre sogar schlimmer als das vollständige Verschwinden von frittiertem Tofu aus der Welt.\nAls die Dienerin des Elektro-Archons habe ich eine lange Lebenserwartung. Hunderte von Jahren vergehen innerhalb eines Blicks. Im Laufe dieser langen Jahre wird die Langeweile zum größten Feind.\nWenn auch du dich eines Tages daran gewöhnst, still zu sitzen und stur wie ein morscher Baum zu sein, wird der Welt dann nicht ein weiser Mensch fehlen, der gut darin ist, Vergnügen und Gelegenheit zu finden?\nDeshalb es ist also absolut vernünftig und notwendig, ab und zu auch mal Spaß zu haben.\nEs ist nämlich natürlich nichts falsch daran, die Befugnisse der Guuji ein wenig zu nutzen, um dies zu tun!\nIn der Nacht des Festes nickte Yae Miko zufrieden, als sie das spezielle Naganohara-Feuerwerk sah, das die Yashiro-Verwaltung für sie vorbereitet hatte.\nDie Zeremonie an diesem Abend wurde natürlich mit perfektem Respekt vor der Etikette und den Ritualen durchgeführt.\nDie schöne Gestalt von der großen Guuji, die die ganze Nacht aufrecht saß, wird von unzähligen Schreinjungfern bewundert.\nSie saß still unter einem Schauer des Lichtes, der so schön war wie eine Sternschnuppe, und beobachtete die Menschen, die auf dem Fest hin- und hergingen.\nGedämpft durch den Klang des Feuerwerks war ein Flüstern, das zwischen den Zähnen beim Kauen auf einem Liebesapfel entstand.\n„Als du mich gebeten hast, Guuji zu werden, hast du nie gesagt, dass ich mich nur nach draußen schleichen kann, um an dem Fest teilnehmen zu können.“"
+      },
+      {
+        "Title": "Figurenhintergrund 3",
+        "Context": "Das Streben nach Spaß und die Suche nach Vergnügen sind die täglichen Prinzipien von Miko.\nFür sie, die das Studium der Menschheit liebt, stehen Kriterien wie „Standpunkt“ und „Tugend“ weit hinter dem „Spaß“.\nEgal, ob es sich um eine Priesterin eines anderen Glaubens oder einen großen General eines feindlichen Lagers handelt, alle können die Gunst Mikos gewinnen.\nAllerdings kann diese Gunst manchmal zu harmlosen Problemen führen.\nMehr als die fleißigen Untergebenen und die treuen Mitglieder interessiert sich Miko am meisten für eine Schreinjungfer namens Kano Nana im Schrein.\nKano Nana, die Romanliebhaberin (genau wie Miko), kämpft jeden Tag darum, sich gut um Sayu zu kümmern.\nWenn Miko drinnen liegt, sieht sie ab und zu durch das Fenster die Gestalt von Sayu flackern, und es dauert nicht lange, bis die eiligen und wütenden Schritte von Kano Nana folgen.\nDiese Beziehung ist wie Blitz und Gewitter, was Miko amüsiert. Gelegentlich zeigt sie absichtlich eine falsche Richtung, um das Vergnügen noch ein bisschen länger aufrechtzuerhalten.\nEinmal bedankte sich Sayu bei Miko dafür, dass sie ihr bei der Zeit für ein Nickerchen geholfen hatte, und sagte ihr, dass die Nachmittagssonne am entspannendsten sei.\nVielleicht davon inspiriert, verwandelte sich Miko an einem sonnigen Tag in eine gewöhnliche Inazuma-Frau, stieg vom Berg hinunter und machte einen Ausflug.\nDas Badehaus Aisa in der Stadt, das Restaurant Kiminami in Hanamizaka und sogar Ogura-Textilien am Straßenrand ... sie hat keinen einzigen Laden ausgelassen und jeder einzelne brachte ein schönes Erlebnis.\nAm Abend ging sie sogar zur Detektei Bantan Sango, um einen Fall von vermissten Kleintieren, von dem sie auf der Straße gehört hatte, in Auftrag zu geben.\n„Oh, du hast es nicht gesehen, aber die Besitzer weinten so erbärmlich. Bitte tut etwas, um ihnen zu helfen, ihr zwei Detektive!“\nNachdem sie all dies getan hatte, konnte sie nicht anders, als ein zufriedenes Lächeln zu zeigen.\nEs war ein echtes Vergnügen, auf diese Weise am täglichen Leben von Inazuma teilzunehmen.\nEs wäre besser gewesen, wenn Kujou Sara, die vorbeikam, keine skeptischen Blicke auf ihren Gesichtern gehabt hätte.\nAußerdem schuldete sie dem Besitzer des Badehauses Aisa wahrscheinlich eine Entschuldigung: Die heißen Quellen im exotischen Stil waren in der Tat sehr gut, aber vielleicht hat sie während des Bades aus Versehen ein paar Fuchshaare verloren."
+      },
+      {
+        "Title": "Figurenhintergrund 4",
+        "Context": "Vor langer, langer Zeit sagten die Menschen nicht „vor langer, langer Zeit“, wenn sie Geschichten über Youkai erzählten.\nDie Tengu beherrschten den Himmel, die Oni dominierten das Schlachtfeld, die Bakedanuki waren auf kleinen Wegen zu sehen und die Kitsune wandelten unter den Menschen.\nUnter dem großen Banner von Narukami haben die Youkai der Menschheit mit unvorstellbarer Macht durch die Zeit der Not und Armut geholfen.\nAuf der Suche nach einem Zufluchtsort in den Bergen bauten sie eine Stadt am Meer und so entstand Inazuma.\nUnter den Youkai war die „Hakushin-Blutlinie“ die prestigeträchtigste, mit Generationen von großen Youkai, die unzählige Legenden in der Welt hinterlassen haben.\nWenn sich die Youkai auf ein paar Getränke trafen, prahlten sie manchmal damit, dass sie gerade eine neue Legende geschaffen hatten.\nEs war unvermeidlich, dass das, was beim Trinken gesagt wurde, von der Wahrheit abwich, aber es war den Youkai egal, denn sie wollten einfach lustige Geschichten hören. Mit der Zeit wurde daraus die „Hyakumonogatari Daikai“ oder „Das große Treffen der hundert Geschichten“.\nManchmal erhob Urakusai seinen Becher und sprach, was die Youkai anzog, und selbst die Kitsune Saiguu, die das Festmahl ausrichtete, lächelte, als Urakusai seine Geschichte erzählte.\nMiko, die immer noch eine junge Kitsune war, lehnte sich ständig an die Schulter der Kitsune Saiguu und pickte unermüdlich Lücken in den Geschichten von Urakusai heraus.\nUrakusai, der ein kühler und brillanter Edelmann war, würde es erklären, während er seinen Bart zwirbelte.\nAber Miko fand immer etwas Neues, das sie bemängeln konnte, und so ging es hin und her, bis Kitsune Saiguu lächelte und beide Parteien zum Aufhören aufforderte: Das Publikum wollte schließlich den nächsten Teil hören.\nNach drei weiteren Runden mit Getränken und einigen weiteren Runden mit Geschichten waren die Youkai kaum noch in der Lage, einen ganzen Satz zu formulieren, geschweige denn eine Geschichte zu erzählen.\nUnd so verzichteten die Youkai auf das Wortgefecht und nutzten ihre Kräfte, um in die Luft zu steigen, um zu sehen, wer den Himmel und den Mond am besten mit seinen Kräften bedecken konnte.\nUnd so hieß es, dass „Hunderte Youkai in einer mondlosen Nacht marschierten“.\nFünfhundert Jahre später ist aus der kleinen Kitsune bereits eine mächtige Youkai geworden.\nDie Youkai, die damals mit ihr getrunken haben, sind im Krieg und in der Geschichte verschwunden, und ihre verbliebenen Blutlinien werden von Tag zu Tag dünner.\nSeitdem sind diese Märsche, die „Hyakkiyakou“, zu einer Legende von „vor langer, langer Zeit“ geworden."
+      },
+      {
+        "Title": "Figurenhintergrund 5",
+        "Context": "Die Schwerter von Inazuma sind seit der Urzeit in der ganzen Welt bekannt und die Meisterwerke der „Raiden Gokaden“ sind als nationale Schätze sogar noch wichtiger.\nDoch erst vor Kurzem wurden mehr als die Hälfte der fünf Handwerkerlinien abgetrennt.\nViele mächtige Leute waren in diesen Fall verwickelt und die Verantwortlichen wurden alle zur Rechenschaft gezogen und bestraft.\nSogar die Kamisato-Familie, die für die Yashiro-Verwaltung verantwortlich ist, wurde wegen des Versäumnisses, ihre Untergebenen zu beaufsichtigen, darin verwickelt.\nBevor der Shougun ein endgültiges Urteil fällte, sprach die Guuji, die sich schon lange nicht mehr in die Politik eingemischt hatte, plötzlich zum Shougun und rettete die Familie Kamisato inmitten des Sturms.\nSo erlitten sie zwar einen schweren Schlag, wurden aber von einer Entlassung verschont.\nIn den folgenden Jahren gab es viele Spekulationen über den Wechsel der Guuji:\nEinige beobachteten die engen Beziehungen zwischen der Yashiro-Verwaltung und dem Großen Narukami-Schrein und vermuteten, dass sie die Absicht hatte, ihren treuen Fürsprecher zu fördern.\nDoch der Schrein ist schon immer eine eigenständige Macht gewesen und die Guuji mischte sich normalerweise nicht in die Politik ein. Daher schien diese Aktion ein größeres Opfer zu sein, kaum eine weise Entscheidung.\nEinige andere sagten, dass die Guuji vermutete, dass etwas mit der ganzen Situation nicht stimmte, und jetzt, da die Liste der Betroffenen so umfangreich war, könnte jede größere Erschütterung in der Yashiro-Verwaltung Inazuma selbst destabilisieren.\nAuch diese Vermutung schien zunächst vernünftig, überlebte aber keinen zweiten Gedanken. Waren der Aufstieg und Fall großer Familien nicht etwas ganz Alltägliches in der Gesellschaft? Und selbst wenn die Kamisato in Ungnade fielen, würde eine neue „Kamisato“ der Yashiro-Verwaltung auftauchen.\nEine andere Geschichte behauptete, dass Miko geheime Gespräche mit dem Oberhaupt des Kamisato-Klans geführt hat, kurz nachdem die erste Unruhe abgeklungen war.\nAber welche Einflüsse hat der alte und schwer verletzte Herr des Kamisato-Klans auf die Situation, der wie eine Kerze im Wind war?\nZu diesem Zeitpunkt waren alle Spekulationen erfolglos. Es gab keine Antwort auf die Frage der Motivation, was Miko gedacht oder getan hat.\nWas die Leute nicht wissen, ist, dass die Anweisungen, die Miko an jenem Tag gab, genauso wie die Familienvorschriften des Kamisato-Klans geworden waren.\n„Nur der Nachsicht des Shougun ist es zu verdanken, dass die Familie Kamisato diesen Vorfall überlebt hat. Vergesst von nun an nicht die Gnade des Shougun!“\nDiese Worte sind ein Keim des Schicksals geworden, was die zukünftige Position der Yashiro-Verwaltung enthüllt.\nWenn in Zukunft ein Sturm über Inazuma hereinbricht, muss sich die Familie Kamisato der Yashiro-Verwaltung an die Gnade erinnern und den Weg der Ewigkeit des Shougun einhalten, auch wenn sie gegen die anderen beiden Häuser kämpfen muss.\nAuf dem Schachbrett machte die Guuji einen perfekten Zug."
+      },
+      {
+        "Title": "„Feuerbeschwichtigungszeremonie“",
+        "Context": "Die „Feuerbeschwichtigungszeremonie“ war einst eine regelmäßige Veranstaltung, die von der Tenryou-Verwaltung geleitet und von dem Großen Narukami-Schrein durchgeführt wurde, um für Segen und Schutz vor Feuer im kommenden Jahr zu beten.\nDamals waren die Häuser von Inazuma meist aus Holz gebaut und jede Unachtsamkeit im Umgang mit Feuer konnte zu einer Katastrophe führen.\nAuf Anweisung des Shougun stellte die Tenryou-Verwaltung ein Feuerlöschteam auf und bat den Großen Narukami-Schrein, eine „Feuerbeschwichtigungszeremonie“ abzuhalten, um die verängstigten Menschen zu beruhigen.\nIm darauffolgenden Jahrhundert ist die Idee des Brandschutzes ein wichtiger Teil des Lebens der Menschen geworden und es gab keine größeren Brände mehr, aber die jährliche „Feuerbeschwichtigungszeremonie“ wurde beibehalten.\nBei der Zeremonie tanzten die Schreinjungfern anmutig und die Leute spendeten großzügig ... Die gesammelten Spenden wurden dann zu vierzig und sechzig Prozent zwischen der Tenryou-Verwaltung und dem Großen Narukami-Schrein aufgeteilt.\nAls Yae Miko bei der Gründung des Verlagshauses Yae mit finanziellen Problemen konfrontiert wurde, zog sie die verschiedenen Dienste in Betracht, die der Schrein zu dieser Zeit anbot, bevor sie sich auf diese alte Tradition konzentrierte.\n„Warum sollte die Tenryou-Verwaltung einen Anteil der Spenden bekommen, wenn der Große Narukami-Schrein der einzige ist, der die Arbeit macht?\nAußerdem flossen die gesamten Spenden alle in die Tasche des Leiters der Kujou-Familie, und das Feuerlöschteam bekam nie eine Jahresendprämie.“\nDeshalb wurde die „Feuerbeschwichtigungszeremonie“ dieses Jahres, durch einige Kniffe von Miko statt eines Tanzes der Schreinjungfern in einen Schreibwettbewerb für kurze Erzählungen umgewandelt.\nDas Verlagshaus Yae, das den Wettbewerb durchführte und die Werke veröffentlichte, wurde ebenfalls mithilfe der Geldmittel der „Feuerbeschwichtigungszeremonie“ gegründet.\nWas die Einnahmen aus der Veröffentlichung betraf, so floss natürlich alles in die Tasche des Schreins.\n„Nun haben wir nicht mehr viele Brände und trotzdem steigen die Spenden immer weiter an. Diese Anpassung entlastet also die Bürgerinnen und Bürger finanziell.\nAußerdem, wenn man zu dem Kern zurückgeht, sind die Literatur und das Malen ein Weg, den Archon zu unterhalten. Glaubst du, dass du mehr über Rituale als ich weißt?“\nDas sagte Miko angesichts der plötzlichen Ankunft von Kujou Takayuki mit ernstem Gesicht.\nDem hilflosen Herrn der Tenryou-Verwaltung blieb nichts anderes übrig, als mit seinen Untergebenen und einem grimmigen Gesichtsausdruck den Yougou-Berg hinunterzugehen.\nWas sie nicht wussten, war, dass in dem Moment, in dem sie aus dem Schrein traten, Miko hinter ihnen, die ein ernstes Gesicht gemacht hatte, ein halb kommentiertes Manuskript eines Romans unter dem Spendenkästchen hervorzog."
+      },
+      {
+        "Title": "Göttliches Auge",
+        "Context": "#„Es war ein erschütternder Kampf, als der Feind die Flut des Meeres durchbrach und sich in die Luft erhob, sodass sogar Himmel und Erde in Schutt und Asche lagen!\nMit dem Stock in der Hand schritt die Guuji feierlich auf die Spitze des Yougou-Bergs hinauf.\nUm sie herum sangen die Schreinjungfern ihre Mantras, während die Wolken die Sonne verdeckten und der Donner in ihrem Inneren auf den Moment wartete, um zuzuschlagen!“\n„...“\n„Dieser Kampf dauerte so lange, dass sogar die Guuji ein wenig in Trance war. Der Feind nutzte dies aus und schlug plötzlich zu!\nIn diesem Moment fiel ein Blitz wie ein Meteor vom Himmel, direkt vor der Guuji. Es war ein leuchtendes Göttliches Auge!\nDie Guuji griff sofort zu und zeigte ihre Macht ...“\n„Halt! Alles, was du gesagt hast, ist eine Lüge, oder?“\n„Hm? Nun, wie wäre das? Alles begann an dem Tag, als ich in Hanamizaka ein spannendes ‚Ramen-Duell‘ hatte ...“\n„Wie kann jemand das Göttliche Auge bekommen, wenn er Ramen isst?“\n„Ist das nicht interessant? Schließlich wollt ihr ja nur ‚Geschichten‘ hören, nicht wahr?“\nYae Miko schenkte {F#der Reisenden}{M#dem Reisenden} ein rätselhaftes Lächeln, als sie mit {F#ihrer}{M#seiner} Neugierde konfrontiert wurde.\n„Und würdest du mir glauben, wenn ich dir sage: ‚Mein Göttliches Auge ist nur ein Schmuckstück‘, {F#Kleine}{M#Kleiner}?“"
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 205800,
+      "Name": "Mikos Anweisung",
+      "Description": "Yae Mikos Kleidung. Eine Schreinjungfer-Kleidung, die die Erhabenheit der Saiguu des Großen Narukami-Schreins im vollen Umfang zeigt. Sie spiegelt den Wunsch wider, dass die Schönheit der Trägerin dieser makellosen Kleidung so unvergänglich ist wie die Blüten der heiligen Sakura.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104144,
+    113031,
+    101206,
+    112046,
+    104328,
+    113034
+  ]
+}

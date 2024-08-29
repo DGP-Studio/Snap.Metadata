@@ -1,0 +1,1004 @@
+{
+  "Id": 10000027,
+  "PromoteId": 27,
+  "Sort": 15,
+  "Body": 3,
+  "Icon": "UI_AvatarIcon_Ningguang",
+  "SideIcon": "UI_AvatarIcon_Side_Ningguang",
+  "Name": "Ningguang",
+  "Description": "Der „Tianquan“ unter den „Qixing von Liyue“. Ihr Reichtum ist enorm und nur wenige können es auf dem ganzen Kontinent mit ihr aufnehmen.",
+  "BeginTime": "2020-09-15T04:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 820.6119,
+    "AttackBase": 17.808,
+    "DefenseBase": 48.069
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 2731,
+        "Proud": {
+          "Descriptions": [
+            "Standardangriffs-SCH|{param1:F1P}",
+            "SCH heftiger Schläge|{param2:P}",
+            "SCH pro Sternjade|{param3:F1P}",
+            "Ausdauerverbrauch heftiger Schläge|{param4:F1} Punkte",
+            "SCH beim Fallen|{param5:F1P}",
+            "SCH beim Fallen aus niedriger/großer Höhe|{param6:P}/{param7:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.28,
+                1.7408,
+                0.496,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.301,
+                1.87136,
+                0.5332,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.322,
+                2.00192,
+                0.5704,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.35,
+                2.176,
+                0.62,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.371,
+                2.30656,
+                0.6572,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.392,
+                2.43712,
+                0.6944,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.42,
+                2.6112,
+                0.744,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.448,
+                2.78528,
+                0.7936,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.476,
+                2.95936,
+                0.8432,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.504,
+                3.13344,
+                0.8928,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.53312,
+                3.314483,
+                0.944384,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                0.5712,
+                3.551232,
+                1.01184,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                0.60928,
+                3.787981,
+                1.079296,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                0.64736,
+                4.02473,
+                1.146752,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                0.68544,
+                4.261478,
+                1.214208,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 10271,
+        "Name": "Standardangriff: Teure Geschosse",
+        "Description": "<color=#FFD780FF>Standardangriff</color>\nVerschießt Edelsteine, die <color=#FFE699FF>Geo-Schaden</color> verursachen.\nVerleiht Ningguang bei Treffern eine Sternjade.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht Ausdauer und wirft einen gewaltigen Edelstein, der <color=#FFE699FF>Geo-Schaden</color> verursacht.\nVerschießt während eines heftigen Schlags bei Vorhandensein von Sternjade die gesamte Sternjade und verursacht zusätzlichen Schaden.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nKonzentriert die Kraft des Gesteins, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#FFE699FF>Geo-Flächenschaden</color>.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 2732,
+        "Proud": {
+          "Descriptions": [
+            "Erhaltene LP|{param3:F1P}",
+            "Fähigkeits-SCH|{param2:P}",
+            "Abklingzeit|{param4:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                -0.499,
+                2.304,
+                0.501,
+                12
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                -0.469,
+                2.4768,
+                0.531,
+                12
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                -0.439,
+                2.6496,
+                0.561,
+                12
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                -0.4,
+                2.88,
+                0.6,
+                12
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                -0.37,
+                3.0528,
+                0.63,
+                12
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                -0.34,
+                3.2256,
+                0.66,
+                12
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                -0.301,
+                3.456,
+                0.699,
+                12
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                -0.262,
+                3.6864,
+                0.738,
+                12
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                -0.223,
+                3.9168,
+                0.777,
+                12
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                -0.184,
+                4.1472,
+                0.816,
+                12
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                -0.145,
+                4.3776,
+                0.855,
+                12
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                -0.106,
+                4.608,
+                0.894,
+                12
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                -0.067,
+                4.896,
+                0.933,
+                12
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                -0.028,
+                5.184,
+                0.972,
+                12
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                0.011,
+                5.472,
+                1.011,
+                12
+              ]
+            }
+          ]
+        },
+        "Id": 10272,
+        "Name": "Jadeschirm",
+        "Description": "Errichtet einen stabilen Jadeschirm aus Gold, Obsidian und dem Willen eines Kämpfers, der <color=#FFE699FF>Geo-Flächenschaden</color> verursacht.\n\n<color=#FFD780FF>Jadeschirm</color>\n· Hält gegnerische Geschosse ab.\n· Beständigkeit hängt von Ninguangs max. LP ab.\n\nDer Jadeschirm gilt als <color=#FFE699FF>Geo-Objekt</color>, hält einen Teil Angriffe ab und kann nicht erklommen werden. Zu einem Zeitpunkt kann nur ein Jadeschirm existieren.\n\n<i>Leuchtend wie die Sterne am Himmel, zusammengesetzt aus wertvoller Jade.</i>",
+        "Icon": "Skill_S_Ningguang_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 2739,
+      "Proud": {
+        "Descriptions": [
+          "SCH pro Edelstein|{param1:F1P}",
+          "Abklingzeit|{param2:F1} s",
+          "Elementarenergie|{param3:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              0.8696,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              0.93482,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              1.00004,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              1.087,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              1.15222,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              1.21744,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              1.3044,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              1.39136,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              1.47832,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              1.56528,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              1.65224,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              1.7392,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              1.8479,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              1.9566,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              2.0653,
+              12,
+              40
+            ]
+          }
+        ]
+      },
+      "Id": 10274,
+      "Name": "Sternensplitter",
+      "Description": "Ningguang sammelt unzählige Edelsteine, die auf einen Schlag auf Gegner in der Umgebung zufliegen und hohen <color=#FFE699FF>Geo-Schaden</color> verursachen.\nLässt einen eventuell anwesenden Jadeschirm in der Nähe bei Anwendung von Sternensplitter zusätzlich viele kleine Edelsteine abschießen.\n\n<i>Sterne zerbrechen. Stille fällt.</i>",
+      "Icon": "Skill_E_Ningguang_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 272101,
+        "Name": "Ausweichplan",
+        "Description": "Ningguang verbraucht bei Vorhandensein von Sternjade für die Anwendung heftiger Schläge keine Ausdauer.",
+        "Icon": "UI_Talent_S_Ningguang_02"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.12,
+                10
+              ]
+            }
+          ]
+        },
+        "Id": 272201,
+        "Name": "Rücklagen für alle Fälle",
+        "Description": "Erhöht den <color=#FFE699FF>Geo-Schaden</color> von Figuren, die den <color=#FFD780FF>Jadeschirm</color> durchdringen, 10 s lang um 12 %.",
+        "Icon": "UI_Talent_S_Ningguang_06"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 272301,
+        "Name": "Edelsteinhort",
+        "Description": "Zeigt alle <color=#FFD780FF>Erzadern mit zum Schmieden geeignetem Erz</color> in der Nähe auf der Minikarte an.",
+        "Icon": "UI_Talent_Collect_Ore"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 271,
+        "Name": "Berstende Splitter",
+        "Description": "Verursacht bei Treffern mit Standardangriffen Flächenschaden.",
+        "Icon": "UI_Talent_S_Ningguang_01"
+      },
+      {
+        "Id": 272,
+        "Name": "Erschütterung",
+        "Description": "Überspringt die Abklingzeit, wenn der <color=#FFD780FF>Jadeschirm</color> zerspringt.\n6 s Abklingzeit.",
+        "Icon": "UI_Talent_S_Ningguang_05"
+      },
+      {
+        "Id": 273,
+        "Name": "Anordnung der Sterne",
+        "Description": "Erhöht die Stufe der Fähigkeit <color=#FFD780FF>Sternensplitter</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Ningguang_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 274,
+        "Name": "Verteidigungsformation",
+        "Description": "Erhöht den WDS der Figuren in der Umgebung gegen alle Elemente bei Anwendung von <color=#FFD780FF>Jadeschirm</color> um 10 %.",
+        "Icon": "UI_Talent_S_Ningguang_03"
+      },
+      {
+        "Id": 275,
+        "Name": "Majestätischer Jadeschirm",
+        "Description": "Erhöht die Stufe der Fähigkeit <color=#FFD780FF>Jadeschirm</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Ningguang_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 276,
+        "Name": "Leuchten der Sieben Sterne",
+        "Description": "Erschafft bei Anwendung von <color=#FFD780FF>Sternensplitter</color> sieben Stück Sternjade für Ningguang.",
+        "Icon": "UI_Talent_S_Ningguang_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Verdeckter Mond",
+    "Detail": "Der „Tianquan“ unter den „Qixing von Liyue“. Ihr Reichtum ist enorm und nur wenige können es auf dem ganzen Kontinent mit ihr aufnehmen.",
+    "Association": 2,
+    "Native": "Qixing von Liyue",
+    "BirthMonth": 8,
+    "BirthDay": 26,
+    "VisionBefore": "Geo",
+    "ConstellationBefore": "Opus Aequilibrium",
+    "CvChinese": "杜冥鸦",
+    "CvJapanese": "大原さやか",
+    "CvEnglish": "Erin Ebers",
+    "CvKorean": "Kwak Kyu-mi",
+    "CookBonus": {
+      "OriginItemId": 108093,
+      "ItemId": 108139,
+      "InputList": [
+        100061,
+        110001
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Schön, dich kennenzulernen.",
+        "Context": "Ich bin der „Tianquan“ der Qixing von Liyue, Ningguang. Wie wäre es mit einem kleinen Handel? Du darfst meine Leibwache sein, dafür zeige ich dir, wie man in Liyue vorankommt."
+      },
+      {
+        "Title": "Gespräch – Antiquitäten",
+        "Context": "Antiquitäten sind unbezahlbar. Das Glücksgefühl, wenn man eine ersteigert, hält aber nicht lange an."
+      },
+      {
+        "Title": "Gespräch – Handelskrieg",
+        "Context": "In einem Handelskrieg hinterlässt der perfekte Jäger keine Spuren."
+      },
+      {
+        "Title": "Gespräch – Investitionen",
+        "Context": "Wir müssen neue Investitionsmöglichkeiten finden. Mora wachsen schließlich nicht auf Bäumen."
+      },
+      {
+        "Title": "Wenn es regnet ...",
+        "Context": "Es regnet. Halte mir bitte den Schirm auf."
+      },
+      {
+        "Title": "Wenn es schneit ...",
+        "Context": "Dies ist doch ganz gewöhnlicher Schnee. Lass mich dir einmal zeigen, was echter „Schneefall“ in Liyue bedeutet."
+      },
+      {
+        "Title": "Wie sonnig ...",
+        "Context": "Gemäßigtes Wetter? Du darfst deinen Augen nicht trauen, deine Augen können dich täuschen."
+      },
+      {
+        "Title": "Ein Sturm zieht auf.",
+        "Context": "Solch orkanartiges Wetter ist ein Albtraum für Fischerleute und erst recht für ... ach, nichts."
+      },
+      {
+        "Title": "Guten Morgen.",
+        "Context": "Morgen. Melde deine Angelegenheiten, in der Reihenfolge der Priorität."
+      },
+      {
+        "Title": "Guten Tag.",
+        "Context": "Möchtest du lieber in den Liuli-Pavillon oder in das Lokal Xinyue zum Mittagessen?"
+      },
+      {
+        "Title": "Guten Abend.",
+        "Context": "Das Teehaus ist bereits voll? Dann komm doch in mein Jadegemach. Aber nur, wenn du den Preis zahlen kannst."
+      },
+      {
+        "Title": "Gute Nacht.",
+        "Context": "Kein Problem, geh dich ausruhen. Sollte sich etwas Wichtiges ereignen, dann werde ich dich benachrichtigen lassen."
+      },
+      {
+        "Title": "Über Ningguang – Weltanschauung",
+        "Context": "Egal ob bei einer Preisverhandlung oder einem Handelskrieg, Ansehen und Geld sind zweitrangig. Um zu gewinnen, musst du der Erste sein und herausfinden, mit welchen Karten dein Gegenüber spielt."
+      },
+      {
+        "Title": "Über Ningguang – Eindruck",
+        "Context": "Dein Eindruck von mir hat sich verändert? Hehe, zunächst brauchte ich deine Stärke, also musste ich so umgänglich wie möglich sein. Aber nun da wir durch einen Vertrag verbundene Partner sind, können wir solche unechten Formalitäten hinter uns lassen."
+      },
+      {
+        "Title": "Über uns – Gerüchte",
+        "Context": "Du hast bestimmt einiges an Gerüchten über mich gehört. Wie ich wirklich bin? Nun, mach dir mit deinen eigenen Augen ein Bild ... Natürlich wird deine Meinung Teil der Gerüchte."
+      },
+      {
+        "Title": "Über uns – Beobachtung",
+        "Context": "Du bist jetzt schon eine ganze Weile an meiner Seite. Hast du jetzt verstanden, wie man gut beobachtet? Du kannst mich auch beobachten, bis du jemand wirst, der mir am nächsten steht."
+      },
+      {
+        "Title": "Über uns – Jadegemach",
+        "Context": "Komm hier nach vorn und stell dich neben mich. Kannst du das Jadegemach erkennen? Es war ursprünglich nur ein kleines Zimmer, jetzt überspannt es ganz Liyue. Wenn es eines Tages alle sieben Städte überspannt, dann sollst du erneut an meiner Seite stehen."
+      },
+      {
+        "Title": "Über das „Göttliche Auge“ ...",
+        "Context": "Bei Angelegenheiten, die sich mit Mora erledigen lassen, braucht man kein „Göttliches Auge“. Von Angelegenheiten, die sich nicht mit Mora lösen lassen, gab es bisher nur eine."
+      },
+      {
+        "Title": "Willst du mir etwas mitteilen – Bankhalter",
+        "Context": "Glücksspieler setzen alles auf den nächsten Würfel, aber natürlich gewinnt am Ende immer die Bank."
+      },
+      {
+        "Title": "Willst du mir etwas mitteilen – Ziel",
+        "Context": "Der Weggang von Rex Lapis wird keine kleine Herausforderung sein, für sowohl die Qixing als auch für die Stadt Liyue. Selten hat mich eine Angelegenheit so viel Schlaf gekostet wie die kürzlichen Ereignisse.\nDoch ich darf mein Ziel nicht aus den Augen verlieren. Es wird der Tag kommen, an dem die Schatten, die das Jadegemach wirft, jeden Winkel von Teyvat erreichen werden."
+      },
+      {
+        "Title": "Interessante Vorkommnisse ...",
+        "Context": "Texte aus dem alten Liyue preisen die Schönheit der Glaslilie, heutzutage jedoch steht sie kurz vor dem Aussterben. Man findet sie nur noch in der Nähe der Yujing-Terrasse, was ihren Preis natürlich besonders in die Höhe treibt."
+      },
+      {
+        "Title": "Über Beidou – Bußgeld",
+        "Context": "Kapitän Beidou ... Auch wenn sie viele Bewunderer hat, hält sie das nicht davon ab, Regeln und Gesetze zu brechen. Die Bußgelder, die sie bereits zahlen musste, reichen, um ein komplett neues Schiff zu kaufen."
+      },
+      {
+        "Title": "Über Beidou – Einstellung",
+        "Context": "Du hattest wohl noch nie schlechte Erfahrungen im Umgang mit Menschen. Alles, was zu sagen war, ist gesagt worden, Gutes und Schlechtes. Beidou hält jedoch weiter an ihrem eigenen Kurs fest. Also halte sie mir einfach aus dem Weg."
+      },
+      {
+        "Title": "Über Zhongli ...",
+        "Context": "Zhongli ... vom Bestattungsunternehmen Wangsheng ist sehr versiert in einer Reihe von Dingen. Jedoch ist er mir noch nicht wirklich von Nutzen, da ich seine Schwachstellen noch nicht kenne."
+      },
+      {
+        "Title": "Über Xingqiu ...",
+        "Context": "Der zweite Sohn der Händlergilde Feiyun. Solche Leute meiden mich in der Regel, was mir aber völlig klar ist. Ich habe auch nicht das Bedürfnis, mich mit ihm zu befassen. Leute mit unterschiedlichen Ansichten sollten besser nicht zusammenarbeiten."
+      },
+      {
+        "Title": "Über Xiangling ...",
+        "Context": "Dieses Mädchen vom Restaurant Wanmin ... wie misstrauisch sie mir gegenüber steht. Wenn sie nur wüsste, wie sehr ich das Restaurant in den letzten Jahren finanziell unterstützt habe ... Was für ein Gesicht sie dann wohl machen würde?"
+      },
+      {
+        "Title": "Über Ganyu ...",
+        "Context": "Man sollte sich nie zu sehr auf andere verlassen oder gar von ihnen abhängig sein, selbst bei jemandem wie Ganyu. In Liyue gibt es ein Sprichwort „Selbst den Sorgfältigsten kann der Zufall einen Strich durch die Rechnung machen.“ Wichtige Verhandlungen nimmt man lieber selbst in die Hand."
+      },
+      {
+        "Title": "Über Yaoyao ...",
+        "Context": "Ich nehme an, du meinst das Mädchen, das Ganyu unter ihre Fittiche genommen hat. Keine Sorge, ich habe nicht vor, diese Angelegenheit öffentlich zu machen. Ich gebe mich damit zufrieden, ein wenig Nachsicht für das eine oder andere schelmische Manöver dieses Schiffskapitäns zu üben. Eine Sache aber. Yaoyao scheint in letzter Zeit etwas in Meeresfrüchte verliebt zu sein. Du solltest versuchen, sie davon zu überzeugen, mehr Obst und Gemüse in ihren Speiseplan aufzunehmen."
+      },
+      {
+        "Title": "Über Keqing ...",
+        "Context": "Der Yuheng hat sich in der letzten Zeit sehr verändert. Ob das gut ist für Liyue oder nicht, das wird sich in Zukunft noch zeigen."
+      },
+      {
+        "Title": "Über Jean ...",
+        "Context": "Der Stellvertretende Großmeister von Mondstadt ist eine strenge und unfehlbare Frau. Ihr perfektes Betragen kennt keine Fehler und selbst ihre Briefe sind akribisch genau verfasst und entsprechend aller geltenden Regeln gefaltet. Es sind diese oft leicht zu übersehenden Details, die einen tiefen Einblick in den Charakter gewähren."
+      },
+      {
+        "Title": "Über Yanfei ...",
+        "Context": "Yanfei? Hehe, in gewisser Weise ist sie also eine behutsame Gegnerin. Wenn es nicht ihre „geschickten“ Erklärungen der Gesetze und verschiedene „wunderbare“ Vorschläge für diejenigen, die sie konsultieren, gegeben hätte, hätte ich noch Monate gebraucht, um die Lücken in Gesetzen zu finden und den Kodex allmählich selbst zu verbessern."
+      },
+      {
+        "Title": "Über Shenhe ...",
+        "Context": "Wie geht es Shenhe in letzter Zeit? Bitte halte nach ihr Ausschau, wann immer du kannst. Ich bin euch beiden sehr dankbar für eure Hilfe beim Wiederaufbau des Jadegemachs. Ach, und noch etwas Persönliches: Wenn du mal Zeit hast, steht hier immer eine Tasse feinster Tee für dich bereit."
+      },
+      {
+        "Title": "Über Yun Jin ...",
+        "Context": "Yun Jin ... Kannst du ihre Performance nachvollziehen? Am Anfang mag es schwierig sein, aber ich würde dich ermutigen, ihr eine Chance zu geben. Der Grund, warum ich beschlossen habe, in ihre Operntruppe zu investieren, ist ganz einfach: Elegante Kunstformen wie diese verdienen es, an zukünftige Generationen weitergegeben zu werden."
+      },
+      {
+        "Title": "Über Yelan ...",
+        "Context": "Sie ist eine sehr interessante Person und für mich absolut glaubwürdig. Sie ist in der Lage, alle Aufgaben perfekt zu erledigen und hat tadelloses Talent. Hehe, da ihr beide intelligent seid, hoffe ich, dass ihr gut miteinander auskommen werdet."
+      },
+      {
+        "Title": "Über Xianyun ...",
+        "Context": "#Ich habe vor, Xianyun in ein paar Tagen zu einem lockeren Gespräch beim Tee einzuladen. Zufällig besitze ich eine Reihe mechanischer Geräte und ich wäre sehr daran interessiert zu erfahren, was sie über deren Konstruktion und Verwendung denkt. Es wäre auch eine gute Gelegenheit, von ihren Erlebnissen als Adeptin zu hören, die sich an ein neues Leben in Liyue anpassen muss. Jetzt brauche ich nur noch einen geeigneten Kandidaten, der ihr die Einladung in meinem Namen überbringt ... Wärst du daran interessiert, Reisende{M#r}?"
+      },
+      {
+        "Title": "Ich will mehr über Ningguang erfahren I",
+        "Context": "Weil du es bist, musst du nicht allzu formell mit mir umgehen, du kannst etwas lockerer sein. Dennoch solltest du stets meine Zeit respektieren. Wenn es etwas zu sagen gibt, komm direkt auf den Punkt."
+      },
+      {
+        "Title": "Ich will mehr über Ningguang erfahren II",
+        "Context": "Ich glaube, dass Kinder am verlässlichsten sind, weil sie naiv und unschuldig sind. Die Berichte, die ich von ihnen bekomme, sind die wertvollsten von allen. Und was ist mit dir, was bringst du mir?"
+      },
+      {
+        "Title": "Ich will mehr über Ningguang erfahren III",
+        "Context": "Ich habe in letzter Zeit über etwas nachgedacht. Wenn ich dich in Liyue behalte, kann ich vielleicht zum richtigen Zeitpunkt diese Stadt nutzen, um ... Im Moment sind das nur Hypothesen. Ich sollte wirklich noch einmal darüber nachdenken, ob sich die Investition lohnt."
+      },
+      {
+        "Title": "Ich will mehr über Ningguang erfahren IV",
+        "Context": "Du kannst noch ein paar Dinge von mir lernen und Mora einsetzen, um Dinge zu bekommen, die schwer zu kriegen sind. Aber denke daran, auf Mora basierende Beziehungen halten meistens nicht sehr lange. Daher setze ich bei uns beiden nicht auf Mora."
+      },
+      {
+        "Title": "Ich will mehr über Ningguang erfahren V",
+        "Context": "Eine wirklich gute Investition. Ich habe zwar keine Mora damit verdient, aber die Zeit, die ich mit dir verbracht habe, ist mir Zins genug, hehe. Wie schön, dass ich mein Geld wieder auf die richtige Person gesetzt habe."
+      },
+      {
+        "Title": "Ningguangs Hobbys ...",
+        "Context": "Hast du Lust auf eine Runde „Tausend Jahre in Liyue“? Dann kann ich auch sehen, wie gut du dich als Spieler so machst."
+      },
+      {
+        "Title": "Ningguangs Sorgen ...",
+        "Context": "Sorgen? Wenn du die Bedenken der Qixing von Liyue kennen würdest, meinst du, könntest du ihre Last aushalten? Und schon gar nicht den Fehler zu machen, darüber mit anderen zu sprechen ..."
+      },
+      {
+        "Title": "Was sie so mag ...",
+        "Context": "Eine lange gekochte Suppe aus Hühnchen und Knochen über zarten Kohl gegossen und serviert. Kulinarisch gesehen habe ich kaum Ansprüche. Ein paar Grundnahrungsmittel wie diese reichen aus."
+      },
+      {
+        "Title": "Was sie nicht mag ...",
+        "Context": "Ich bin Leuten begegnet, die zu jeder Mahlzeit unbedingt etwas so Teures wie Goldkrebs bestellt haben. Auch wenn es gut aussieht, habe ich keinerlei Interesse an solchen Überschreitungen. Wenn du jemals vorhast, mich zu einem solchen Essen einzuladen, wäre es besser, wenn du mir die Mora einfach direkt gibst."
+      },
+      {
+        "Title": "Geschenk erhalten I",
+        "Context": "Sehr schön. Du übertriffst immer meine Erwartungen."
+      },
+      {
+        "Title": "Geschenk erhalten II",
+        "Context": "Manchmal ist es eine Übung in Vergeblichkeit, wenn man die Schlüsselelemente nicht begreift ... Kannst du das verstehen?"
+      },
+      {
+        "Title": "Geschenk erhalten III",
+        "Context": "Danke trotzdem für deine Mühen."
+      },
+      {
+        "Title": "Dein Geburtstag ...",
+        "Context": "#{M#Dies sind einige von Liyues feinsten Brokaten, gewebt aus Seidenblumen. Dieser hier ist für dich und dieser hier ... Ich hoffe, dass du diesen hier deiner Schwester bald schenken kannst, und ich hoffe auch, dass es ihr gefallen wird. Ich wünsche euch beiden alles Gute zum Geburtstag.}{F#Dies sind einige von Liyues feinsten Brokaten, gewebt aus Seidenblumen. Nutze sie, um etwas Schönes zum Anziehen daraus zu fertigen. Alles Gute zum Geburtstag.}"
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Beginn",
+        "Context": "Gewalt ist niemals eine gute Lösung. Es gibt immer einen anderen Weg."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Fortschritt",
+        "Context": "Zeit und Mora im Austausch für Macht? Diese Art von Austausch hört sich interessant an, ich erkenne den Wert davon."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Höhepunkt",
+        "Context": "Was ist es, das dich so sehr an eine Sache glauben lässt? Psst, sag es mir nicht. Gib mir noch etwas Zeit, dich zu durchschauen."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Ende",
+        "Context": "Es ist normalerweise nicht mein Stil, Leute zu schnell zu loben, aber ich muss sagen, du hast dir das Lob wirklich verdient. Du hast hervorragende Arbeit geleistet. Wenn ich doch nur mehr Leute wie dich hätte ... Wobei du allein schon ausreichen würdest."
+      },
+      {
+        "Title": "Elementarfähigkeit I",
+        "Context": "Kinderspiel."
+      },
+      {
+        "Title": "Elementarfähigkeit II",
+        "Context": "Verschwende nicht meine Zeit."
+      },
+      {
+        "Title": "Elementarfähigkeit III",
+        "Context": "Hm! Gib auf."
+      },
+      {
+        "Title": "Spezialfähigkeit I",
+        "Context": "Dein Leben gehört mir."
+      },
+      {
+        "Title": "Spezialfähigkeit II",
+        "Context": "Gehorche!"
+      },
+      {
+        "Title": "Spezialfähigkeit III",
+        "Context": "Auf Wiedersehen!"
+      },
+      {
+        "Title": "Truhe öffnen I",
+        "Context": "Ein scharfes Auge."
+      },
+      {
+        "Title": "Truhe öffnen II",
+        "Context": "Alle Schätze sollten dorthin, wo sie hingehören."
+      },
+      {
+        "Title": "Truhe öffnen III",
+        "Context": "Reichtum ... Warum sich mit weniger als mit mehr zufrieden geben?"
+      },
+      {
+        "Title": "Niedrige LP I",
+        "Context": "Du wagst es, mich zu schlagen?"
+      },
+      {
+        "Title": "Niedrige LP II",
+        "Context": "Ich merke mir das."
+      },
+      {
+        "Title": "Niedrige LP III",
+        "Context": "Hm."
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP I",
+        "Context": "Für dich stehen die Chancen wirklich schlecht."
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP II",
+        "Context": "Wenn das so ist, helfe ich euch einmal."
+      },
+      {
+        "Title": "Ohnmächtig I",
+        "Context": "Wir sind alle nur Spielsteine ..."
+      },
+      {
+        "Title": "Ohnmächtig II",
+        "Context": "Der Sieger steht fest ..."
+      },
+      {
+        "Title": "Ohnmächtig III",
+        "Context": "Ist dies das Ende des Tianquan?"
+      },
+      {
+        "Title": "Leichten Treffer erlitten I",
+        "Context": "Unhöflich."
+      },
+      {
+        "Title": "Schweren Treffer erlitten I",
+        "Context": "Warte nur."
+      },
+      {
+        "Title": "Schweren Treffer erlitten II",
+        "Context": "Auge um Auge!"
+      },
+      {
+        "Title": "Truppenbeitritt I",
+        "Context": "Verstanden."
+      },
+      {
+        "Title": "Truppenbeitritt II",
+        "Context": "Wir müssen uns beeilen."
+      },
+      {
+        "Title": "Truppenbeitritt III",
+        "Context": "Enttäusche mich nicht."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Figurendetails",
+        "Context": "Die Qixing von Liyue kontrollieren den gesamten Handel, der in Liyue stattfindet. Diese hoch verehrte Position wird von vielen begehrt. Daher ist ihre Hauptdevise es, auf Nummer sicher zu gehen und sich im Hintergrund zu halten.\nDer „Tianquan“ der Qixing, Ningguang, ist die einzige Ausnahme.\nSie wird in den Augen ihrer Rivalen als ausgezeichnete Händlerin angesehen, als eine freundliche große Schwester für die Kinder, als Prominenz bei den Banketten der Yujing-Terrasse und als Kennerin in der Welt der Süßigkeiten ... Ningguang ist das Stadtgespräch Nummer eins und alle scheinen alles über sie zu wissen. Sie scheinen jedoch alle eine andere Version der Geschichte zu kennen, denn keine gleicht der anderen.\nEs gibt nur eine Sache, die in allen Versionen gleich ist: Ningguang ist jemand Außergewöhnliches."
+      },
+      {
+        "Title": "Figurenhintergrund 1",
+        "Context": "Oberhalb des Hafens von Liyue befindet sich ein schwebender Palast, der von Plaustrit gestützt wird. Der Name dieses Palasts ist „Jadegemach“, dieses gehört Ningguang ganz allein.\nAn klaren Tagen kann man von den Decks vor den Palasttoren fast den gesamten Hafen von Liyue sehen.\nImmer wenn Ningguang wichtige geschäftliche Angelegenheiten zu erledigen hat, kommt sie hierher. Nur ihre drei vertrauenswürdigsten Diener dürfen den Palast außer ihr betreten. Ihre Vertrauten sammeln alle relevanten Informationen, fassen diese zusammen und hängen die Zusammenfassungen an die Wand, während Ningguang am Geländer ruht, die Aussicht auf Liyue genießt und still über alles nachdenkt.\nSie wird mit Sicherheit die perfekte Lösung finden, lange bevor ihre Vertrauten alles an die Wand gehängt haben. Sobald sie ihre Entscheidung getroffen hat, zerreisst sie alles und wirft die Fetzen aus dem Fenster, was dann fast wie ein Schneesturm aussieht.\nDie Handschrift auf den Papierstücken fällt allen Händlern von Liyue wie schwarze Tinte im Schnee auf.\nDenn sie wissen ganz genau, dass immer dann, wenn Ningguangs Schneefall fällt, eine große Veränderung in der Geschäftswelt bevorsteht."
+      },
+      {
+        "Title": "Figurenhintergrund 2",
+        "Context": "„Ningguang ist allwissend“, so werden von außerhalb Kommende oft von Einheimischen in Liyue gewarnt.\nSchlupfloch-Händlergilden, den Markt manipulierende Lagerhalter, Schmuggler, die mit ihren illegalen Waren an die Küste kommen ... der Tianquan kennt alle Details, wie schlecht oder hässlich sie sein mögen.\nEinmal war ein Alchimist aus Sumeru in Liyue unterwegs und stieß unwissentlich auf die Aufzeichnungen eines bestimmten Geschäfts mit Nachtjade, in das die Schwarzsteinschmiede zehn Jahre zuvor verwickelt worden war.\nIn jener Nacht klopfte jemand aus Ningguangs innerem Kreis an sein Fenster und lud ihn ein, mit Ningguang im Jadegemach zu sprechen.\nEs geht das Gerücht um, dass Ningguang das Jadegemach so verzaubert hat, dass sie jeden, der sich in und außerhalb des Gemachs befindet, belauschen kann, selbst die privaten Gespräche der Stadt ...\nDie einfache Wahrheit ist, dass Ningguangs Augen und Ohren die Kinder sind, die auf den Straßen in Liyue spielen.\nSie sind es, die jedes vertrauliche Treffen, jedes private Gespräch und jeden neuen Besucher der Stadt mitbekommen. Wenn Ningguang sie zu sich ruft, bietet sie ihnen köstliche Leckereien und prompt erzählen sie ihr alles, was sie wissen will.\nNachdem sie alles, was sie von den Kindern erfahren hat, sorgfältig mit ihren anderen Quellen abgeglichen hat, ist kein Geheimnis aus Liyue sicher vor ihr.\nSie versteht den Wert der Gegenseitigkeit mehr als jeder andere, weshalb sie mehr als bereit ist, Zeit darin zu investieren, sich unter das gewöhnliche Volk zu mischen.\nAußerdem sieht sie gern lächelnde Kinder."
+      },
+      {
+        "Title": "Figurenhintergrund 3",
+        "Context": "Ningguangs Einstellung zu Geld ist weitgehend die gleiche wie die der meisten Leute. Man kann nie genug davon haben.\nAber Geld ist für sie mehr als nur ein Zeichen von Reichtum, jede Mora ist für sie eine Trophäe eines hart erkämpften Sieges.\nNingguang ist freundlich und nett den einfachen Leuten gegenüber, jedoch ist dies eine Seite von ihr, auf die keiner ihrer Geschäftspartner jemals hoffen konnte.\nFür sie ist die Geschäftswelt ein reiner Spielplatz und Spiele um alles oder nichts sind die aufregendsten. Jede Runde, die sie gegen einen reichen Kaufmann gewinnt, zaubert ein fröhliches Lächeln auf ihr Gesicht, während dieser seufzend und widerstrebend die Mora an sie übergibt. Nichts macht sie glücklicher, als zu sehen, wie sich alle Gilden ihren Wünschen beugen.\nJeder Sieg in diesem Spiel trägt zum Reichtum der Qixing von Liyue bei. Infolgedessen gedeiht Liyue, was wiederum mehr Geschäftsmöglichkeiten und mehr Gewinn für Ningguang schafft. Jedes Mitglied der Qixing von Liyue ist mehr als zufrieden mit diesem perfekten Kreislauf ineinandergreifender Interessen.\nDie Leute fragen Ningguang oft, warum sie in Liyue noch Geschäfte macht, wenn sie bereits so viel Reichtum angehäuft hat.\n„Großer Reichtum ist eine wunderbare Sache.“\nGeduldig antwortet sie, kann aber nie verstehen, warum die Leute solch dumme Fragen stellen.\n„Eine weitere Mora kann doch nie schaden.“"
+      },
+      {
+        "Title": "Figurenhintergrund 4",
+        "Context": "Alle, die in Liyue leben, müssen sich an die dortigen Regeln halten. Diejenigen, die dies tun, genießen den Schutz ihrer Interessen, während jene, die die Regeln brechen, entsprechend bestraft werden.\nDie Regeln basieren auf den uralten Gesetzen von Morax, dem göttlichen Beschützer von Liyue und sind absolut. Über die Jahrtausende hinweg hat jeder Tianquan Ergänzungen zu den Regeln hinzugefügt, um sicherzustellen, dass sie zu den aktuellen Erfordernissen der Gesellschaft passen.\nDie Regeln werden zusammengefasst und mit einem 279-seitigen Kommentar an jeden Bürger von Liyue verteilt.\nNingguang gefällt dies: Recht und Ordnung sind gut für das Geschäft und mehr als jeder andere versteht sie die Finessen der Gesetze, die diese Ordnung sichern.\nAllerdings gab es eine gewisse Schiffskapitänin namens Beidou, die sich offen den Regeln widersetzte und mithilfe ihrer exotischen Fracht und ihres besonderen Geschäftssinns Waren schmuggelte. Für Ningguang war Beidou das schwarze Schaf der Geschäftswelt am Hafen von Liyue.\nAls Tianquan war es Ningguangs Aufgabe, Beidou zu bestrafen, wenn sie die Regeln brach. Aber sehr zu ihrer Besorgnis schien Beidou so bekümmert von diesen Strafen, wie ein Fisch sich vor dem Nasswerden fürchtet.\nAuch abseits der offiziellen Kanäle versuchte Ningguang, Beidou davon zu überzeugen, sich zu ändern und die Qixing nicht mehr in eine so schwierige Position zu bringen. Als Antwort darauf redete sich Beidou jedes Mal einfach mit den Stichworten „natürliche Gerechtigkeit“, „den Armen helfen“ und „den Seeleuten die Arbeit sichern“ heraus. Als Vertreterin des Prinzips von „leben und leben lassen“, hatte Beidou keine Zeit für Ningguangs Rat.\nLetzten Endes erkannte Ningguang ihre unüberbrückbaren Meinungsverschiedenheiten an und gab es auf, die sture Beidou ändern zu wollen."
+      },
+      {
+        "Title": "Figurenhintergrund 5",
+        "Context": "Charmant und wohlhabend, wie sie war, hatte Ningguang nie einen Mangel an Verehrern.\nEs scheint, dass alle Junggesellen, von den jungen Edelleuten der Yujing-Terasse bis zu erfolgreichen jungen Geschäftsleuten und namhaften Seekapitänen hin, zu irgendeiner Zeit beträchtliche Energie darauf verwendet haben, Ningguangs Zuneigung zu gewinnen. Ein Gerücht besagt sogar, dass ein reicher Geschäftsmann vom Hof von Fontaine nur aus dem Grund ein großes Handelsabkommen mit Liyue abgeschlossen habe, um Ningguang öfter sehen zu können.\nNingguang behandelt alle ihre Verehrer mit dem gleichen Grad an Freundlichkeit und Anmut, hält sie zugleich aber auch auf Distanz, gerade genug, um ihr Interesse aufrecht zu halten und sie nicht zu verprellen. Die Neugier ergriff alle in der Stadt und jetzt wollten alle wissen: Wer ist Ningguangs Liebhaber?\nAllerdings konnten sie nicht wissen, dass endliche Dinge für Ningguang keinen Reiz hatten und sie sich schon gar nicht von etwas Endlichem einschränken lassen würde.\nDas Jadegemach, ein schwebender Palast über dem Hafen von Liyue, gehört Ningguang allein. Der Palast wuchs von der Größe eines einzigen Raums zu einem solchen Ausmaß, dass er im Mondlicht seinen Schatten über ganz Liyue wirft.\nEin großer Teil von Ningguangs außergewöhnlichem Reichtum ist der ständigen Erweiterung und Erneuerung des Jadegemachs gewidmet, sodass es im Laufe der Zeit immer extravaganter wird.\nFür Ningguang ist das Jadegemach ein Symbol ihrer Macht und ihres Wohlstands sowie ein Zeichen dafür, dass die Geschäfte florieren.\nNeben Mora ist es das, was Ningguang am meisten liebt, weil es unendlich ist.\nSie besteht darauf und glaubt fest, dass es eines Tages seinen Schatten über alle sieben Städte von Teyvat werfen wird."
+      },
+      {
+        "Title": "Ein Spiel: Tausend Jahre in Liyue",
+        "Context": "Um sich die Zeit zu vertreiben, erfand Ningguang ein neues Spiel.\nDas Spielbrett enthält nicht nur maßstabsgetreue Nachbildungen von Liyues natürlicher und städtischer Topografie, den Händlern, Teehäusern, Geschäften, Hotels und verschiedenen Geschäften, sondern sechs-, zehn- und zwölfseitige Würfel gehören auch dazu. Die Spieler benutzen die Würfel, um zu bestimmen, wie weit sich die Figuren bewegen dürfen und je nachdem, an welchen Orten sie landen, werden verschiedene Ereignisse ausgelöst. Über den Sieg im Spiel entscheidet die letztliche Anzahl der Spielsteine eines jeden Spielers.\nDie Regeln können allerdings jederzeit nach Ningguangs Belieben geändert werden und wenn sie mit anderen spielt, wird sie immer den neuesten Regelsatz anwenden.\nManchmal, wenn sie den Geist des Spiels wirklich spürt, wird sie sogar direkt vor Ort neue Regeln entwerfen. Niemand hat sie bisher in ihrem eigenen Spiel geschlagen und aktuell ist sie bei der 32. Version ihres Regelwerks angelangt.\nSie entschied sich einmal, die 8. Auflage des Spiels an die breite Öffentlichkeit zu verkaufen, weil sie glaubte, dass diese Version am einfachsten zu verstehen sei. Dies erwies sich aber immer noch als viel zu kompliziert für das gewöhnliche Volk.\nDessen ungeachtet reißen sich die Leute aber wegen der Schönheit und Komplexität der Modellfiguren um diese Ausgabe.\nMehr Leute kaufen sie wegen der hübschen Modelle als aus Lust, tatsächlich zu spielen."
+      },
+      {
+        "Title": "Göttliches Auge",
+        "Context": "Niemand weiß so ganz genau, wie „Göttliche Augen“ entstehen. Sie tauchen einfach jedes Mal aus dem Nichts auf, daher ist es schwierig, eine Tür oder einen Weg zu finden.\nNur nach dem Tod seines Besitzers ist die dann herrenlose Hülle des Göttlichen Auges zu finden. Sie hat keinerlei elementar Kräfte und es gibt keine bestimmte Methode, sie wieder aufzuwecken. Es besteht nur eine winzig kleine Wahrscheinlichkeit, dass sich das Göttliche Auge wieder mit einer Person verbindet, und es erlaubt nur einer kleinen Anzahl an Leuten, es zu versuchen ...\nAls Ningguang das erste Mal eine herrenlose leere Hülle sah, dachte sie bewusst daran: Wieder eine neue Geschäftsidee, die direkt zu mir gekommen ist.\nWenn diese Hülle zur Auktion freigegeben würde, rissen sich die Reichen bestimmt darum. Selbst wenn es sich nicht mehr mit seinem neuen Besitzer verbünde, eine schöne Dekoration wäre es allemal ...\nWenn es nur einen Weg gäbe, wie man langfristig an mehr Hüllen gelangen könnte, das wäre ein gutes Langzeitgeschäft.\nIn einer Hand jonglierend spielte Ningguang mit der Hülle, mit der anderen Hand schrieb sie bereits einen Auktionsplan dafür nieder. Als sie an die potenziellen Einnahmen dachte und ihr Lächeln dabei immer größer wurde, strömte plötzlich gleißendes Licht durch die Hülle.\nDas Göttliche Auge war wieder erwacht, doch Ningguangs Lächeln fror plötzlich ein.\nIhre Assistenten betraten den Raum und als sie das leuchtende, erwachte Göttliche Auge in den Händen ihrer Meisterin sahen, beglückwünschten sie sie in den höchsten Tönen.\nNingguangs Miene verfinsterte sich und schnippisch antwortete sie,\n„Was gibt es denn da zu beglückwünschen? Wie soll ich diese schon geöffnete Ware denn jetzt noch verkaufen?!“"
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 202701,
+      "Name": "Orchideen-Abendkleid",
+      "Description": "Ningguangs formelle Kleidung. Der lange türkisfarbene Rock zeichnet ihre eleganten Kurven nach und die Schmetterlingsflügel an ihren Knöcheln verleihen der Kleidung einen Hauch von leichter Anmut.",
+      "IsDefault": false,
+      "FrontIcon": "UI_AvatarIcon_NingguangCostumeFloral",
+      "SideIcon": "UI_AvatarIcon_Side_NingguangCostumeFloral"
+    },
+    {
+      "Id": 202700,
+      "Name": "Jade in Blattgold",
+      "Description": "Ningguangs Kleidung. Aufwändige Stickereien sind das Markenzeichen dieses anmutigen Rocks.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104174,
+    113009,
+    100030,
+    112034,
+    104312,
+    113008
+  ]
+}

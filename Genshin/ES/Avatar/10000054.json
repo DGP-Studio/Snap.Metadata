@@ -1,0 +1,1110 @@
+{
+  "Id": 10000054,
+  "PromoteId": 54,
+  "Sort": 40,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_Kokomi",
+  "SideIcon": "UI_AvatarIcon_Side_Kokomi",
+  "Name": "Sangonomiya Kokomi",
+  "Description": "La Sacerdotisa Divina y quien controla todos los asuntos de la Isla Watatsumi.",
+  "BeginTime": "2021-09-21T18:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 1048.652,
+    "AttackBase": 18.2476,
+    "DefenseBase": 51.15465
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 5431,
+        "Proud": {
+          "Descriptions": [
+            "Daño de 1er golpe|{param1:F1P}",
+            "Daño de 2.º golpe|{param2:F1P}",
+            "Daño de 3er golpe|{param3:F1P}",
+            "Daño de ATQ Cargado|{param4:P}",
+            "Coste de Aguante de ATQ Cargado|{param5:F1} pts.",
+            "Daño de Caída|{param6:F1P}",
+            "Daño de impacto de caída baja/alta|{param7:P}/{param8:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.68376,
+                0.615384,
+                0.943056,
+                1.4832,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.735042,
+                0.661538,
+                1.013785,
+                1.59444,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.786324,
+                0.707692,
+                1.084514,
+                1.70568,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.8547,
+                0.76923,
+                1.17882,
+                1.854,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.905982,
+                0.815384,
+                1.249549,
+                1.96524,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.957264,
+                0.861538,
+                1.320278,
+                2.07648,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                1.02564,
+                0.923076,
+                1.414584,
+                2.2248,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                1.094016,
+                0.984614,
+                1.50889,
+                2.37312,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                1.162392,
+                1.046153,
+                1.603195,
+                2.52144,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.230768,
+                1.107691,
+                1.697501,
+                2.66976,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.299144,
+                1.16923,
+                1.791806,
+                2.81808,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.36752,
+                1.230768,
+                1.886112,
+                2.9664,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.45299,
+                1.307691,
+                2.003994,
+                3.1518,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.53846,
+                1.384614,
+                2.121876,
+                3.3372,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.62393,
+                1.461537,
+                2.239758,
+                3.5226,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 10541,
+        "Name": "Ataque Normal: La forma del agua",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 3 ataques con forma de pez nadador que infligen <color=#80C0FFFF>Daño Hydro</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para infligir <color=#80C0FFFF>Daño Hydro en el AdE</color> después de un corto tiempo de canalización.\n\n<color=#FFD780FF>Ataque Descendente</color>\nConcentra el poder del agua, se lanza desde el aire para golpear el suelo y daña a los enemigos a su paso, infligiendo <color=#80C0FFFF>Daño Hydro en el AdE</color> en el momento del impacto.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 5432,
+        "Proud": {
+          "Descriptions": [
+            "Curación|{param1:F1P} de Vida Máx. + {param2:I}",
+            "Daño de la medusa|{param3:F1P}",
+            "Duración|{param4:F1} s",
+            "TdE|{param5:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.044,
+                423.7063,
+                1.091904,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.0473,
+                466.08282,
+                1.173797,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.0506,
+                511.99072,
+                1.25569,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.055,
+                561.43,
+                1.36488,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.0583,
+                614.40063,
+                1.446773,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.0616,
+                670.90265,
+                1.528666,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.066,
+                730.9361,
+                1.637856,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.0704,
+                794.50085,
+                1.747046,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.0748,
+                861.59705,
+                1.856237,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.0792,
+                932.22455,
+                1.965427,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.0836,
+                1006.3835,
+                2.074618,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                0.088,
+                1084.0737,
+                2.183808,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                0.0935,
+                1165.2954,
+                2.320296,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                0.099,
+                1250.0485,
+                2.456784,
+                12,
+                20
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                0.1045,
+                1338.3329,
+                2.593272,
+                12,
+                20
+              ]
+            }
+          ]
+        },
+        "Id": 10542,
+        "Name": "Juramento de la medusa",
+        "Description": "Invoca una medusa de agua que cura a los compañeros.\nAl usar esta habilidad, se aplica el estado de <color=#80C0FFFF>Mojado</color> sobre Sangonomiya Kokomi.\n\n<color=#FFD780FF>Medusa</color>\n·Cada cierto tiempo, la medusa inflige <color=#80C0FFFF>Daño Hydro en el AdE</color> contra los enemigos de alrededor y regenera Vida para los personajes en uso cercanos en proporción a la Vida Máx. de Sangonomiya Kokomi.\n\n<i>Para mantener su eficacia en el trabajo, Kokomi necesita recargar energía a tiempo.</i>",
+        "Icon": "Skill_S_Kokomi_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 5439,
+      "Proud": {
+        "Descriptions": [
+          "Daño de habilidad|{param1:F1P} de Vida Máx.",
+          "Aumento de daño de ATQ Normal|{param4:F1P} de Vida Máx.",
+          "Aumento de daño de ATQ Cargado|{param5:F1P} de Vida Máx.",
+          "Aumento de daño de la medusa|{param9:F1P} de Vida Máx.",
+          "Curación al atacar|{param2:F2P} de Vida Máx. + {param3:I}",
+          "Duración|{param6:F1} s",
+          "TdE|{param7:F1} s",
+          "Energía Elemental|{param8:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              0.10416,
+              0.00808,
+              77.03738,
+              0.0484,
+              0.06776,
+              10,
+              18,
+              70,
+              0.070963
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              0.111972,
+              0.008686,
+              84.74218,
+              0.05203,
+              0.072842,
+              10,
+              18,
+              70,
+              0.076285
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              0.119784,
+              0.009292,
+              93.08906,
+              0.05566,
+              0.077924,
+              10,
+              18,
+              70,
+              0.081608
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              0.1302,
+              0.0101,
+              102.078,
+              0.0605,
+              0.0847,
+              10,
+              18,
+              70,
+              0.088704
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              0.138012,
+              0.010706,
+              111.70901,
+              0.06413,
+              0.089782,
+              10,
+              18,
+              70,
+              0.094026
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              0.145824,
+              0.011312,
+              121.982086,
+              0.06776,
+              0.094864,
+              10,
+              18,
+              70,
+              0.099348
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              0.15624,
+              0.01212,
+              132.89723,
+              0.0726,
+              0.10164,
+              10,
+              18,
+              70,
+              0.106445
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              0.166656,
+              0.012928,
+              144.45445,
+              0.07744,
+              0.108416,
+              10,
+              18,
+              70,
+              0.113541
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              0.177072,
+              0.013736,
+              156.65373,
+              0.08228,
+              0.115192,
+              10,
+              18,
+              70,
+              0.120637
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              0.187488,
+              0.014544,
+              169.49507,
+              0.08712,
+              0.121968,
+              10,
+              18,
+              70,
+              0.127734
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              0.197904,
+              0.015352,
+              182.97849,
+              0.09196,
+              0.128744,
+              10,
+              18,
+              70,
+              0.13483
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              0.20832,
+              0.01616,
+              197.10397,
+              0.0968,
+              0.13552,
+              10,
+              18,
+              70,
+              0.141926
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              0.22134,
+              0.01717,
+              211.87152,
+              0.10285,
+              0.14399,
+              10,
+              18,
+              70,
+              0.150797
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              0.23436,
+              0.01818,
+              227.28113,
+              0.1089,
+              0.15246,
+              10,
+              18,
+              70,
+              0.159667
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              0.24738,
+              0.01919,
+              243.33281,
+              0.11495,
+              0.16093,
+              10,
+              18,
+              70,
+              0.168538
+            ]
+          }
+        ]
+      },
+      "Id": 10545,
+      "Name": "Encarnación de las nereidas",
+      "Description": "Hace descender el poder de Watatsumi para infligir <color=#80C0FFFF>Daño Hydro</color> contra los enemigos cercanos y cubrirse con un manto ceremonial hecho con las aguas de Sangonomiya.\n\n<color=#FFD780FF>Manto ceremonial</color>\n·Aumenta tanto el daño del Ataque Normal y Cargado de Sangonomiya Kokomi como el que inflige la medusa en proporción a su Vida Máx.\n·Al golpear a un enemigo con un Ataque Normal o Cargado, regenera Vida para todos los miembros del equipo cercanos en función de la Vida Máx. de Kokomi.\n·Aumenta la RES a interrupción de Sangonomiya Kokomi y le permite moverse sobre el agua.\n\nEstos efectos desaparecerán cuando Kokomi sea retirada de combate.\n\n<i>Una luz cristalina envuelve a Su Excelencia, Sangonomiya Kokomi, para reflejar su magnificencia.</i>",
+      "Icon": "Skill_E_Kokomi_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 542101,
+        "Name": "Bendición de Tamakushi",
+        "Description": "Si ya hay en combate una medusa invocada por Sangonomiya Kokomi, al realizar <color=#FFD780FF>Encarnación de las nereidas</color> se reiniciará la duración de la medusa.",
+        "Icon": "UI_Talent_S_Kokomi_05"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.15
+              ]
+            }
+          ]
+        },
+        "Id": 542201,
+        "Name": "Canto de la perla",
+        "Description": "Mientras está bajo los efectos del manto ceremonial de <color=#FFD780FF>Encarnación de las nereidas</color>, el aumento de daño del Ataque Normal y Cargado de Sangonomiya Kokomi en proporción a su Vida Máx. aumenta aún más en una cantidad equivalente al 15% de su Bono de Curación.",
+        "Icon": "UI_Talent_S_Kokomi_06"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 542301,
+        "Name": "Princesa de Watatsumi",
+        "Description": "Disminuye en un 20% el Coste de Aguante al nadar de todos los miembros de tu equipo.\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+        "Icon": "UI_Talent_Explosion_Swim"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 542501,
+        "Name": "Estrategia infalible",
+        "Description": "Aumenta en un 25% el Bono de Curación de Sangonomiya Kokomi, pero reduce su Prob. CRIT en un 100%.",
+        "Icon": "UI_Talent_S_Kokomi_07"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 541,
+        "Name": "Los límites del agua",
+        "Description": "Mientras está bajo los efectos del manto ceremonial de <color=#FFD780FF>Encarnación de las nereidas</color>, el último golpe del Ataque Normal de Sangonomiya Kokomi liberará un pez nadador adicional que inflige una cantidad de <color=#80C0FFFF>Daño Hydro</color> equivalente al 30% de la Vida Máx. de Kokomi.\nEste daño no se considera daño de Ataque Normal.",
+        "Icon": "UI_Talent_S_Kokomi_01"
+      },
+      {
+        "Id": 542,
+        "Name": "Oleaje de nubes",
+        "Description": "Sangonomiya Kokomi obtiene los siguientes aumentos de curación para los personajes con un 50% de Vida o menos a través de las siguientes formas:\n·Aumenta la curación de la medusa de <color=#FFD780FF>Juramento de la medusa</color> en una cantidad adicional en proporción al 4.5% de la Vida Máx. de Kokomi.\n·Aumenta la curación de los Ataques Normales y Cargados realizados bajo los efectos de <color=#FFD780FF>Encarnación de las nereidas</color> en una cantidad adicional en proporción al 0.6% de la Vida Máx. de Kokomi.",
+        "Icon": "UI_Talent_S_Kokomi_02"
+      },
+      {
+        "Id": 543,
+        "Name": "Luna del océano",
+        "Description": "Aumenta el nivel de habilidad de <color=#FFD780FF>Encarnación de las nereidas</color> +3.\nPuede ser aumentado hasta Niv. 15.",
+        "Icon": "UI_Talent_U_Kokomi_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 544,
+        "Name": "Observadora de las aguas",
+        "Description": "Mientras está bajo los efectos del manto ceremonial de <color=#FFD780FF>Encarnación de las nereidas</color>, la Vel. de Ataque Normal de Sangonomiya Kokomi aumenta en un 10% y recupera 0.8 pts. de Energía Elemental cada vez que golpea a un enemigo con un Ataque Normal.\nEste efecto solo puede ocurrir una vez cada 0.2 s.",
+        "Icon": "UI_Talent_S_Kokomi_03"
+      },
+      {
+        "Id": 545,
+        "Name": "Convergencia hacia los mares",
+        "Description": "Aumenta el nivel de habilidad de <color=#FFD780FF>Juramento de la medusa</color> +3.\nPuede ser aumentado hasta Niv. 15.",
+        "Icon": "UI_Talent_U_Kokomi_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 546,
+        "Name": "Corazón del coral",
+        "Description": "Mientras está bajo los efectos del manto ceremonial de <color=#FFD780FF>Encarnación de las nereidas</color>, cuando Sangonomiya Kokomi realiza un Ataque Normal o Cargado que tiene efectos curativos con el fin de curar a un personaje con un 80% o más de Vida, obtiene un 40% de <color=#80C0FFFF>Bono de Daño Hydro</color> durante 4 s.",
+        "Icon": "UI_Talent_S_Kokomi_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "La Perla de la Sabiduría",
+    "Detail": "La Sacerdotisa Divina y quien controla todos los asuntos de la Isla Watatsumi.",
+    "Association": 5,
+    "Native": "Isla Watatsumi",
+    "BirthMonth": 2,
+    "BirthDay": 22,
+    "VisionBefore": "Hydro",
+    "ConstellationBefore": "Dracaena Somnolenta",
+    "CvChinese": "龟娘",
+    "CvJapanese": "三森すずこ",
+    "CvEnglish": "Risa Mei",
+    "CvKorean": "Yeo Yoon-mi",
+    "CookBonus": {
+      "OriginItemId": 108325,
+      "ItemId": 108340,
+      "InputList": [
+        100062,
+        100092
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Hola...",
+        "Context": "#Soy Sangonomiya Kokomi, la Sacerdotisa Divina de la Isla Watatsumi. Nuestro viaje junt{F#as}{M#os} me dará la oportunidad de relajarme... *Ejem*, quiero decir, de explorar más allá de nuestras fronteras. No te preocupes, dejé muchas directrices para cubrir mi ausencia, y ya completé los planes de desarrollo para la isla. Puedo irme una temporada, no pasará nada."
+      },
+      {
+        "Title": "Charla - Lectura",
+        "Context": "La Editorial Yae ha publicado varias obras que exponen estrategias militares de forma sencilla y práctica. Esos son mis libros favoritos."
+      },
+      {
+        "Title": "Charla - Peces",
+        "Context": "Hay que respetar la voluntad de todas las criaturas. Los peces del océano nadan en la dirección que desean."
+      },
+      {
+        "Title": "Charla - Preparación",
+        "Context": "Para superar las adversidades, hay que prepararse para ellas."
+      },
+      {
+        "Title": "Cuando llueve...",
+        "Context": "Avanzar bajo la lluvia amortigua el ruido de nuestra llegada, pero pone a prueba nuestro aguante..."
+      },
+      {
+        "Title": "Cuando nieva...",
+        "Context": "La nieve es tan hermosa..."
+      },
+      {
+        "Title": "Qué sol hace...",
+        "Context": "Qué tiempo tan agradable... ¿Quieres ir a pasear?"
+      },
+      {
+        "Title": "Hace mucho viento...",
+        "Context": "Qué viento tan fuerte... Un ataque incendiario sería muy efectivo ahora mismo."
+      },
+      {
+        "Title": "Buenos días...",
+        "Context": "#¡Buenos días! Acabo de leer una estrategia fascinante. ¿Quieres que la analicemos junt{F#as}{M#os}?"
+      },
+      {
+        "Title": "Buenas tardes...",
+        "Context": "Para mejorar la eficiencia, tenemos que hacer algunos ajustes al plan de batalla para esta tarde."
+      },
+      {
+        "Title": "Buenas noches... (I)",
+        "Context": "¿Eh? ¿Ya es de noche? El tiempo pasa muy rápido cuando estoy contigo."
+      },
+      {
+        "Title": "Buenas noches... (II)",
+        "Context": "Buenas noches. Guarda tu fuerza para las batallas que nos esperan."
+      },
+      {
+        "Title": "Sobre Sangonomiya Kokomi - Directrices",
+        "Context": "La batalla es impredecible; un movimiento en falso podría condenarte a la derrota. Antes de comenzar a luchar, considero todos los escenarios posibles y los pongo por escrito en forma de directrices que después entrego a los soldados. Parece que, en la actualidad, dependen demasiado de ellas, lo que me preocupa... Si leyeran estrategia militar ellos mismos, podrían apoyarse en sus propios conocimientos cuando estuvieran en el campo de batalla. Necesito que sean capaces de identificar y aprovechar las oportunidades cuando se presenten."
+      },
+      {
+        "Title": "Sobre Sangonomiya Kokomi - Relajarse",
+        "Context": "Espero que esta batalla termine pronto. La Editorial Yae acaba de publicar un nuevo volumen de «Una leyenda de espadas» y lo único que me apetece ahora mismo es quedarme en mi habitación y leerlo de cabo a rabo."
+      },
+      {
+        "Title": "#Sobre nosotr{F#as}{M#os} - Experiencia",
+        "Context": "Mi madre me dijo una vez que, para ser un líder cualificado, hay que tener una perspectiva global. Pero pasé mi niñez entre Sangonomiya y el ejército, así que nunca tuve tiempo para ir de aventuras. Por tanto, hay muchas facetas en ese ámbito que no entiendo del todo. Tendrás que disculpar mi falta de experiencia."
+      },
+      {
+        "Title": "#Sobre nosotr{F#as}{M#os} - Confusión",
+        "Context": "#Se dice que es difícil sondear las profundidades de una persona, pero yo, como Sacerdotisa Divina, tengo la obligación de tratar de entender los pensamientos de todo el mundo. Empezaré contigo, viajer{F#a}{M#o}. ¿En qué estás pensando ahora mismo? Déjame adivinar..."
+      },
+      {
+        "Title": "Sobre la Visión...",
+        "Context": "En mi opinión, las Visiones son el símbolo de las ambiciones, y las ambiciones son algo muy valioso. Por esto precisamente se formó la resistencia: para oponerse al Decreto de captura de Visiones. Las ambiciones nunca se deberían abandonar o perder a la fuerza."
+      },
+      {
+        "Title": "¿Algo que decir? - Publicaciones",
+        "Context": "De entre las publicaciones de la Editorial Yae, mi favorita es «El arte de la guerra de Teyvat». Tiene artículos sobre campañas bélicas clásicas, así como análisis detallados y comentarios de estrategas famosos. Hay varios que me gustan especialmente. Te leeré alguno..."
+      },
+      {
+        "Title": "¿Algo que decir? - Bucear",
+        "Context": "El mundo que hay bajo el agua no es luminoso y soleado como el de tierra firme. Aun así, cuando estoy ahí abajo, mi corazón se llena lentamente de una sensación de paz embriagadora. Los peces se mueven en bancos lejanos, las medusas danzan a mi alrededor y mis problemas empiezan a evaporarse. ¿Qué te parece si vienes conmigo a verlo alguna vez?"
+      },
+      {
+        "Title": "Un dato curioso...",
+        "Context": "Me encantan las perlas de coral de Watatsumi. No son simplemente una fuente de beneficios para la Isla Watatsumi, sino también un regalo del mar."
+      },
+      {
+        "Title": "Sobre Gorou...",
+        "Context": "Gorou es un general excepcional. Es sincero, determinado y valiente, lo comparte todo con los soldados y se le ocurren estrategias creativas. No obstante, tiene un defecto... A menudo se deja llevar por la emoción de la batalla. Si alguna vez luchas a su lado, asegúrate de frenarlo cuando las cosas se pongan intensas."
+      },
+      {
+        "Title": "Sobre Kujou Sara...",
+        "Context": "Tengo que admitir que Kujou Sara es una rival que no puede tomarse a la ligera. Normalmente no emplea estrategias astutas, pero su desempeño en la batalla siempre es admirable. El ejército de la Shogun confía plenamente en sus habilidades; están dispuestos a luchar hasta la muerte bajo su mando. Sus tropas han sido una seria amenaza para la resistencia en muchas ocasiones."
+      },
+      {
+        "Title": "Sobre Yae Miko...",
+        "Context": "He oído hablar de las impresionantes hazañas de la Suma Sacerdotisa Yae. Para ser sincera, la considero una miko sobresaliente y cumple con sus tareas de forma magnífica. Incluso oí que tiene poder de decisión sobre las novelas ligeras que publica la Editorial Yae. Es una persona muy enigmática..."
+      },
+      {
+        "Title": "Sobre la Shogun Raiden...",
+        "Context": "#Ahora que el Decreto de captura de Visiones ya es historia, la vida en la Isla Watatsumi volvió a la normalidad. Ya no me interesa juzgar si la Shogun hizo bien o mal; lo único que me importa es el futuro de nuestra isla. Espero que la Shogun cumpla su promesa y que podamos coexistir con el shogunato en paz. Sin embargo, si algún día vuelve a dejar de lado las ambiciones de la gente, puedes estar segur{F#a}{M#o} de que tomaré cartas en el asunto."
+      },
+      {
+        "Title": "Sobre Beidou...",
+        "Context": "Cuando Beidou y yo realizábamos emboscadas contra el ejército de la Shogun, compartí con ella mi preocupación de que el enemigo nos descubriera. Pero Beidou me garantizó la férrea disciplina de su tripulación y aseguró que los saqueos podrían completarse sin ser detectados. Al final resultó que tenía razón y todo pasó como ella dijo. Ahora, cada vez que la flota de Watatsumi tiene algún problema, siempre pienso en pedirle que venga a formar a los marineros. Sin lugar a dudas, sabe cómo manejar un barco..."
+      },
+      {
+        "Title": "Sobre Kaedehara Kazuha...",
+        "Context": "Kazuha estuvo un tiempo con la resistencia. Si no me equivoco, se llevaba muy bien con Gorou y a menudo luchaban juntos en las batallas. Kazuha tiene una personalidad muy libre y no le gustan las ataduras, pero cuando estaba con nosotros seguía todas las órdenes al pie de la letra. En mi opinión, además de ser un espadachín notable, también es muy maduro."
+      },
+      {
+        "Title": "Sobre Shikanoin Heizou...",
+        "Context": "Al principio me sorprendió muchísimo ver que alguien con el uniforme de la Comisión Tenryou venía a la Isla Watatsumi. Un samurái de la Comisión nunca sería tan descarado, y un espía no actuaría de una forma tan llamativa. Poco después descubrí que se trataba de un detective autoproclamado llamado Shikanoin, y que no le interesaban los asuntos militares, administrativos o comerciales. Por el contrario, parecía haber venido simplemente a hacer turismo. Por eso encargué que lo vigilaran de lejos, pero no le ordené que se fuera de la isla. Si se presenta la oportunidad, tienes que hablar con él."
+      },
+      {
+        "Title": "Más sobre Sangonomiya Kokomi (I)",
+        "Context": "No importa lo acuciante que sea la situación, tengo que mantener la compostura. Si me dejo llevar por la inquietud, ¿qué puedo esperar de quienes están a mi alrededor?"
+      },
+      {
+        "Title": "Más sobre Sangonomiya Kokomi (II)",
+        "Context": "Según la leyenda, nuestros antepasados vivían en un palacio en el fondo del mar y el dios Orobaxi los trajo a la superficie. Muchas veces pienso que ese palacio debía de ser un lugar muy oscuro, y en esos momentos empiezo a apreciar de verdad la luz..."
+      },
+      {
+        "Title": "Más sobre Sangonomiya Kokomi (III)",
+        "Context": "Cuando te fuiste, los soldados del Escuadrón Pez Espada n.º 2 eligieron un capitán temporal, pero todos esperaban que regresaras. Lo único que pude hacer fue decirles que tenías una misión individual muy importante. Si tienes tiempo, deberías ir a verlos, seguro que les gustaría."
+      },
+      {
+        "Title": "Más sobre Sangonomiya Kokomi (IV)",
+        "Context": "Yo no tenía intención de convertirme en la Sacerdotisa Divina. Mi único objetivo era estudiar estrategia militar y convertirme en consejera. Así podría quedarme detrás de escena y tener menos responsabilidades. Pero el destino tenía otros planes para mí... No puedes enfrentarte a lo que corre por tus venas."
+      },
+      {
+        "Title": "Más sobre Sangonomiya Kokomi (V)",
+        "Context": "Cuando me convertí en Sacerdotisa Divina, fui acostumbrándome a esta vida. Al menos tengo el poder de cambiar las cosas que no me gustan. Y, lo más importante, este título me permitió conocerte, ¿verdad?"
+      },
+      {
+        "Title": "Aficiones de Sangonomiya Kokomi...",
+        "Context": "#¿Qué me gusta hacer? Muy fácil. Me gusta encontrar un lugar tranquilo en el que pueda estar sola y leer libros de estrategia. *Suspira*, el día entero, sin interrupciones. Sería aún mejor si estuviéramos l{F#as}{M#os} dos junt{F#as}{M#os} leyendo. Pero tendrías que dormir en el suelo..."
+      },
+      {
+        "Title": "Preocupaciones de Sangonomiya Kokomi...",
+        "Context": "Para ser sincera, no se me da bien la interacción social. Ponerme en modo “Sacerdotisa Divina” ayuda, pero cuando empiezo a quedarme sin energía, me vuelvo un poco negativa. Evito a toda costa que otros vean esa parte de mí. Los habitantes de la Isla Watatsumi necesitan una líder perfecta, no una niña que siempre quiere estar en su casa."
+      },
+      {
+        "Title": "Comida que más le gusta...",
+        "Context": "Me encanta comer sushi de huevo. Los ingredientes son fáciles de encontrar y la preparación es muy sencilla. ¡Perfecto para la vida militar! Sentarse a comer sushi de huevo en medio de una guerra puede sonar un poco extraño pero, en la mayoría de los casos, la comida simple como esa proporciona una gran satisfacción a los soldados."
+      },
+      {
+        "Title": "Comida que menos le gusta...",
+        "Context": "Mmm... No me gustan los platos que llevan pescado. Pero, por favor, no se lo digas a nadie. La industria pesquera es esencial para la Isla Watatsumi, y si se extendiera el rumor de que no me gusta el pescado, probablemente su moral se vería gravemente afectada."
+      },
+      {
+        "Title": "Al recibir un regalo (I)",
+        "Context": "¡Vaya, sí que está rico! Y las cantidades... Bueno, da igual..."
+      },
+      {
+        "Title": "Al recibir un regalo (II)",
+        "Context": "Si me lo como poco a poco, la alegría me durará aún más tiempo."
+      },
+      {
+        "Title": "Al recibir un regalo (III)",
+        "Context": "Pues sí, me lo pusiste difícil."
+      },
+      {
+        "Title": "Cumpleaños...",
+        "Context": "¡Feliz cumpleaños! ¿Qué planes tienes para hoy? Oh, ¿por qué no lo celebras en la Isla Watatsumi? Primero te llevaré a ver el amanecer y después, cuando haga calor, podemos ir a bucear. Por la noche daremos un paseo cerca del Santuario Sangonomiya. Si llueve, buscaremos un lugar agradable para leer libros de estrategia y haremos una tarta. En cualquier caso, no tienes que preparar nada, ¡la gran estratega lo ha planeado todo por ti!"
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Introducción",
+        "Context": "No suelo hacer las cosas por la fuerza bruta, pero volverse más fuerte es algo bueno."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desarrollo",
+        "Context": "Estoy llena de energía... En nuestra próxima pelea, seremos imparables."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Nudo",
+        "Context": "La luna brilla sobre las profundidades del océano y las mareas vienen y van. Mi mente fluye mientras que mi fuerza va aumentando."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desenlace",
+        "Context": "Antes solía dudar de mí misma. Pensaba que cómo podía alguien como yo ser la Sacerdotisa Divina. Ahora ya no pienso en esas cosas. Cuando estoy contigo, soy capaz de resolver inmediatamente todas las dificultades."
+      },
+      {
+        "Title": "Habilidad Elemental (I)",
+        "Context": "¡Permíteme!"
+      },
+      {
+        "Title": "Habilidad Elemental (II)",
+        "Context": "¡No retrocedas!"
+      },
+      {
+        "Title": "Habilidad Elemental (III)",
+        "Context": "Descansar y reconstruir."
+      },
+      {
+        "Title": "Habilidad Definitiva (I)",
+        "Context": "¡La promesa de las profundidades!"
+      },
+      {
+        "Title": "Habilidad Definitiva (II)",
+        "Context": "¡Marejada!"
+      },
+      {
+        "Title": "Habilidad Definitiva (III)",
+        "Context": "¡Torrentes protectores!"
+      },
+      {
+        "Title": "Al esprintar (I)",
+        "Context": "¡Salgamos de aquí!"
+      },
+      {
+        "Title": "Al abrir el planeador (I)",
+        "Context": "¡Te deja sin aliento!"
+      },
+      {
+        "Title": "Al abrir un cofre (I)",
+        "Context": "Es vital tener provisiones."
+      },
+      {
+        "Title": "Al abrir un cofre (II)",
+        "Context": "Debemos aprovechar estos suministros al máximo."
+      },
+      {
+        "Title": "Al abrir un cofre (III)",
+        "Context": "Humm, así que esta es la emoción de las aventuras..."
+      },
+      {
+        "Title": "Vida baja (I)",
+        "Context": "Estoy fatigada..."
+      },
+      {
+        "Title": "Vida baja (II)",
+        "Context": "Es hora de cambiar de táctica."
+      },
+      {
+        "Title": "Vida baja (III)",
+        "Context": "La prudencia conduce a la victoria."
+      },
+      {
+        "Title": "Aliado con vida baja (I)",
+        "Context": "¡Los refuerzos están aquí!"
+      },
+      {
+        "Title": "Aliado con vida baja (II)",
+        "Context": "Vuelve y descansa."
+      },
+      {
+        "Title": "Derrotada (I)",
+        "Context": "Necesito una nueva estrategia..."
+      },
+      {
+        "Title": "Derrotada (II)",
+        "Context": "Tuve un lapsus..."
+      },
+      {
+        "Title": "Derrotada (III)",
+        "Context": "No tropezaré dos veces con la misma piedra."
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (I)",
+        "Context": "¡Una maniobra impulsiva!"
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (II)",
+        "Context": "Una batalla cuesta arriba..."
+      },
+      {
+        "Title": "Unirse al equipo (I)",
+        "Context": "Necesitaremos una estrategia..."
+      },
+      {
+        "Title": "Unirse al equipo (II)",
+        "Context": "No te preocupes, la victoria será nuestra."
+      },
+      {
+        "Title": "Unirse al equipo (III)",
+        "Context": "Todo está preparado, partamos."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalles del personaje",
+        "Context": "Los residentes de la Isla Watatsumi antes vivían en Enkanomiya, en el fondo del mar.\nCuando el dios Orobaxi los llevó hasta la superficie, la Isla Watatsumi se convirtió en la civilización que es hoy en día.\nDespués de que la Arconte Electro asesinara a Orobaxi, su cuerpo quedó reducido a huesos cansados y las injusticias que había sufrido se condensaron en los tatarigami.\nPero su voluntad de proteger la Isla Watatsumi no se ha disipado.\nEsta voluntad se incorporó al linaje de los Sangonomiya y pasó de generación en generación.\nQuien hereda ese linaje es la Sacerdotisa Divina de Watatsumi.\nLa Sacerdotisa Divina es la persona que lleva la voluntad de la deidad en un cuerpo mortal y protege la tierra en su lugar."
+      },
+      {
+        "Title": "Historia del personaje (1)",
+        "Context": "El día que Kokomi se convirtió en la Sacerdotisa Divina, muchos de los habitantes de la Isla Watatsumi se acercaron a Sangonomiya para verla desde lejos.\nSentían sorpresa o confusión, dudaban o se mostraban temerosos... Todo porque pensaban que Kokomi era demasiado joven.\nSe empezaron a urdir conspiraciones, la incertidumbre iba de boca a oreja y los ambiciosos empezaron a prepararse. Se acercaba una tormenta y toda la Isla Watatsumi estaba intranquila.\nNo obstante, poco después de que Kokomi accediera al puesto, las cosas se calmaron.\nTenía muy clara la diferencia entre el bien y el mal, amaba a su pueblo y mostraba una habilidad excepcional en la estrategia militar. En muy poco tiempo, Kokomi se ganó el apoyo de la mayoría de la gente.\n“Mientras esté la señorita Sangonomiya, no habrá ningún problema”. Esta se convirtió en una de las frases más pronunciadas por los habitantes de la Isla Watatsumi."
+      },
+      {
+        "Title": "Historia del personaje (2)",
+        "Context": "Hay muchos factores que influyen en el resultado de una batalla.\nLa geografía, el clima, la diferencia de fuerza, el equipamiento... Cada elemento se tiene que considerar detenidamente.\nQuienes se fijan en todos los detalles suelen perderse la evolución de la batalla; los que hablan de estrategia incesantemente normalmente solo son útiles sobre el papel.\nEn el campo de batalla, los milagros solo se consiguen cuando se tienen en cuenta tanto los detalles como la situación general.\nDetrás de escena quedan las innumerables horas de una investigación agotadora y las lecciones aprendidas con cada fracaso.\nPocas personas son capaces de perseverar hasta el final, y Kokomi no solo lo consiguió de forma sobresaliente, sino que además acuñó su propio estilo de estrategia.\n“La clave es utilizar la visión de conjunto y la actitud para obligar al rival a desistir de su resistencia, y así terminar la guerra con el menor coste posible”."
+      },
+      {
+        "Title": "Historia del personaje (3)",
+        "Context": "Ya sea dentro o fuera del campo de batalla, Kokomi siempre intenta ir un paso por delante del enemigo.\nAnticipa todas las situaciones posibles, recopila todas las medidas correctivas, las escribe en forma de directrices y se las entrega a los encargados de implementarlas.\nAunque algunas terminaron siendo muy largas, esto ha garantizado el desarrollo estable de la Isla Watatsumi.\nA día de hoy, la Isla Watatsumi es un lugar cada vez más próspero y con más gente de talento trabajando por ella, y Kokomi cada vez necesita enviar menos directrices.\nEsto es un motivo de alegría para ella."
+      },
+      {
+        "Title": "Historia del personaje (4)",
+        "Context": "En su tiempo libre, a Kokomi le gusta pasear sola por la Isla Watatsumi.\nSiempre evita los grupos de gente. Unas veces anda por los bosques de color violeta; otras, se sienta en la playa y observa el horizonte.\nEl sol y la luna se elevan sobre el mar, las estrellas centellean en el cielo y el sonido de las olas acaricia los oídos y calma el ánimo.\nA veces toma una caracola y se la pone en la cabeza, pero al irse, siempre la deja donde la había encontrado.\nTal vez un cangrejo sin hogar pase por allí y decida convertirla en su casa.\nEn ocasiones, Kokomi se sumerge en el agua, deja que sus preocupaciones se hundan hasta el fondo del mar y disfruta del ambiente tranquilo y de los pececillos que nadan a su alrededor.\nKokomi conoce la isla como la palma de su mano y recuerda el nombre de todos sus habitantes.\nLamentablemente, los paisajes son eternos e inmutables, pero el corazón humano es complicado y cambiante.\nEs fácil ganar en el campo de batalla, pero lograr que todos vivan felices es casi imposible.\nPensándolo bien, esta es una de las cosas que más le preocupan."
+      },
+      {
+        "Title": "Historia del personaje (5)",
+        "Context": "Desde que era una niña, Kokomi ha leído muchos libros, especialmente los relacionados con la estrategia militar.\nGracias a esto, posee un amplio conocimiento con el que resolver todo tipo de asuntos.\nPero el resultado de pasar tanto tiempo entre las páginas de los libros de tácticas bélicas fue que Kokomi no desarrolló mucho sus habilidades sociales. Desde hace un tiempo, incluso hablar con personas que no conoce se ha convertido en una pesada carga.\nTras convertirse en Sacerdotisa Divina, Kokomi tuvo que aprender a hacerse cargo de los asuntos que no dominaba, ya fuera hablar con la gente o resolver problemas que no le interesaban lo más mínimo.\nSin embargo, al obligarse a hacer cosas que no le gustan, Kokomi agota toda su energía y queda completamente exhausta.\nPor eso creó un indicador de “energía” para ella misma: hacer lo que le gusta regenera su energía, y hacer lo que no le gusta la gasta.\nCuando la energía se acaba, Kokomi deja por unos instantes sus obligaciones como Sacerdotisa Divina y vuelve a ser una chica corriente que vive en su casa.\nSe pone a estudiar detenidamente un volumen militar, se aparta del ajetreado mundo y disfruta de un momento de tranquilidad.\nEstos son los momentos de descanso que Kokomi más valora."
+      },
+      {
+        "Title": "Notas secretas",
+        "Context": "“El gobernante es un modelo para su pueblo”.\nKokomi oyó esta frase de la boca de su madre hace mucho tiempo.\nLa Sacerdotisa Divina es muy importante para la Isla Watatsumi, y miles de ojos observan cada uno de sus movimientos.\nLo que le gusta se convierte en el objeto de deseo de la gente; lo que no le gusta es rechazado por todos.\nKokomi no quiere influir en cada aspecto de la vida de su pueblo, por lo que raramente manifiesta sus gustos y sus aversiones.\nAdopta una actitud de ecuanimidad ante todas las cosas y se guía por los principios de “justicia y equidad” y “recompensar el bien y castigar el mal”.\nNo obstante, estos no son necesariamente sus auténticos sentimientos, así que se hizo con un cuaderno cuya existencia solo ella conoce.\nEn él, anota los cambios en su nivel de energía y los vaivenes de su ánimo.\nCuando llega la noche y todos están descansando, Kokomi abre su cuaderno y registra las alegrías y las penas de ese día.\nPor supuesto, es algo que no puede mostrar a nadie."
+      },
+      {
+        "Title": "Visión",
+        "Context": "Los líderes con una voluntad fuerte guían a su gente en una dirección clara.\nKokomi no comparte esta opinión. Ella respeta la voluntad del pueblo y espera que cada persona persiga sus propios deseos, igual que un ancho mar en el que tienen cabida tanto incontables criaturas como los sueños de estas.\nCuando se implementó el Decreto de captura de Visiones, la ira que habitaba en el corazón de la gente se transformó en gritos de rebelión y, bajo el liderazgo de Kokomi, ondearon el estandarte de la resistencia.\nCuando acabó la guerra, lo que deseaban era paz y estabilidad, por lo que Kokomi dedicó sus energías a los asuntos administrativos y económicos.\n¿Esta manera de esforzarse es un don de los Arcontes o el propio sentido de la responsabilidad de Kokomi? ¿Tal vez ambos?\nComo Sacerdotisa Divina, Kokomi obviamente también tiene una Visión. Su empeño no ha cambiado desde aquel día en que contempló la Isla Watatsumi desde la puerta del Santuario Sangonomiya.\n“Proteger la Isla Watatsumi y lograr que todos vivan felices”."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 205400,
+      "Name": "Coral cristalino",
+      "Description": "Modelo de vestimenta de Sangonomiya Kokomi. Un vestido noble decorado con pequeños objetos preciosos fabricados en la Isla Watatsumi.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104124,
+    113028,
+    101207,
+    112055,
+    104322,
+    113026
+  ]
+}
