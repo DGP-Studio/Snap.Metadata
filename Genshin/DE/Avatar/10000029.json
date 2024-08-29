@@ -1,0 +1,1065 @@
+{
+  "Id": 10000029,
+  "PromoteId": 29,
+  "Sort": 3,
+  "Body": 5,
+  "Icon": "UI_AvatarIcon_Klee",
+  "SideIcon": "UI_AvatarIcon_Side_Klee",
+  "Name": "Klee",
+  "Description": "Ein häufiger Gast der Arrestzelle des Ordo Favonius und ein wahrer Meister der Zerstörung. Man nennt sie auch die „Fliehende Sonne“.",
+  "BeginTime": "2020-09-15T04:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 800.7888,
+    "AttackBase": 24.206,
+    "DefenseBase": 47.864
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 2931,
+        "Proud": {
+          "Descriptions": [
+            "SCH Phase 1|{param1:F1P}",
+            "SCH Phase 2|{param2:F1P}",
+            "SCH Phase 3|{param3:F1P}",
+            "SCH heftiger Schläge|{param4:P}",
+            "Ausdauerverbrauch heftiger Schläge|{param5:F1} Punkte",
+            "SCH beim Fallen|{param6:F1P}",
+            "SCH beim Fallen aus niedriger/großer Höhe|{param7:P}/{param8:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.7216,
+                0.624,
+                0.8992,
+                1.5736,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.77572,
+                0.6708,
+                0.96664,
+                1.69162,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.82984,
+                0.7176,
+                1.03408,
+                1.80964,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.902,
+                0.78,
+                1.124,
+                1.967,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.95612,
+                0.8268,
+                1.19144,
+                2.08502,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                1.01024,
+                0.8736,
+                1.25888,
+                2.20304,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                1.0824,
+                0.936,
+                1.3488,
+                2.3604,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                1.15456,
+                0.9984,
+                1.43872,
+                2.51776,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                1.22672,
+                1.0608,
+                1.52864,
+                2.67512,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.29888,
+                1.1232,
+                1.61856,
+                2.83248,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.373926,
+                1.188096,
+                1.712077,
+                2.996134,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.472064,
+                1.27296,
+                1.834368,
+                3.210144,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.570202,
+                1.357824,
+                1.956659,
+                3.424154,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.668339,
+                1.442688,
+                2.07895,
+                3.638163,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.766477,
+                1.527552,
+                2.201242,
+                3.852173,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 10291,
+        "Name": "Standardangriff: Bumm-Bumm",
+        "Description": "<color=#FFD780FF>Standardangriff</color>\nWirft eine nette, effektvolle Bombe! Führt bis zu 3 Bombenangriffe aus und verursacht <color=#FF9999FF>Pyro-Flächenschaden</color>.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer, bombardiert Gegner nach kurzer Aufladezeit und verursacht <color=#FF9999FF>Pyro-Flächenschaden</color>.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nKonzentriert die Kraft der Flammen, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#FF9999FF>Pyro-Flächenschaden</color>.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 2932,
+        "Proud": {
+          "Descriptions": [
+            "SCH der Bimm-Bamm-Bombe|{param1:F1P}",
+            "SCH der Sprengfallen|{param4:F1P}",
+            "Dauer der Sprengfallen|{param5:F1} s",
+            "Abklingzeit|{param6:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.952,
+                0.952,
+                0.952,
+                0.328,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                1.0234,
+                1.0234,
+                1.0234,
+                0.3526,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                1.0948,
+                1.0948,
+                1.0948,
+                0.3772,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                1.19,
+                1.19,
+                1.19,
+                0.41,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                1.2614,
+                1.2614,
+                1.2614,
+                0.4346,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                1.3328,
+                1.3328,
+                1.3328,
+                0.4592,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                1.428,
+                1.428,
+                1.428,
+                0.492,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                1.5232,
+                1.5232,
+                1.5232,
+                0.5248,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                1.6184,
+                1.6184,
+                1.6184,
+                0.5576,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.7136,
+                1.7136,
+                1.7136,
+                0.5904,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.8088,
+                1.8088,
+                1.8088,
+                0.6232,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.904,
+                1.904,
+                1.904,
+                0.656,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                2.023,
+                2.023,
+                2.023,
+                0.697,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                2.142,
+                2.142,
+                2.142,
+                0.738,
+                15,
+                20
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                2.261,
+                2.261,
+                2.261,
+                0.779,
+                15,
+                20
+              ]
+            }
+          ]
+        },
+        "Id": 10292,
+        "Name": "Bimm-Bamm-Bombe",
+        "Description": "Wirft eine Bombe, die dazu bestimmt ist, große Freude zu bringen!\nDie Bimm-Bamm-Bombe kommt dreimal auf dem Boden auf und verursacht jedes Mal eine Explosion sowie <color=#FF9999FF>Pyro-Flächenschaden</color>.\n\nSpaltet sich beim dritten Mal zu vielen kleinen Sprengfallen auf.\nBei Berührung mit einem Gegner oder nach einer gewissen Zeit explodieren die Sprengfallen und verursachen <color=#FF9999FF>Pyro-Flächenschaden</color>.\n\nKann anfänglich 2-mal angewendet werden.\n\n<i>Diese Bombe ist ein „Freund“ von Klee, den sie anderen gern vorstellt.</i>",
+        "Icon": "Skill_S_Klee_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 2939,
+      "Proud": {
+        "Descriptions": [
+          "Funkelfunken-SCH|{param1:F1P}",
+          "Dauer|{param5:F1} s",
+          "Abklingzeit|{param2:F1} s",
+          "Elementarenergie|{param3:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              0.4264,
+              15,
+              60,
+              0.51168,
+              10
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              0.45838,
+              15,
+              60,
+              0.550056,
+              10
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              0.49036,
+              15,
+              60,
+              0.588432,
+              10
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              0.533,
+              15,
+              60,
+              0.6396,
+              10
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              0.56498,
+              15,
+              60,
+              0.677976,
+              10
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              0.59696,
+              15,
+              60,
+              0.716352,
+              10
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              0.6396,
+              15,
+              60,
+              0.76752,
+              10
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              0.68224,
+              15,
+              60,
+              0.818688,
+              10
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              0.72488,
+              15,
+              60,
+              0.869856,
+              10
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              0.76752,
+              15,
+              60,
+              0.921024,
+              10
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              0.81016,
+              15,
+              60,
+              0.972192,
+              10
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              0.8528,
+              15,
+              60,
+              1.02336,
+              10
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              0.9061,
+              15,
+              60,
+              1.08732,
+              10
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              0.9594,
+              15,
+              60,
+              1.15128,
+              10
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              1.0127,
+              15,
+              60,
+              1.21524,
+              10
+            ]
+          }
+        ]
+      },
+      "Id": 10295,
+      "Name": "Funkelfunken",
+      "Description": "Und Feuer! Beschwört während der Wirkungsdauer ununterbrochen Funkelfunken, die Gegner in der Nähe angreifen und <color=#FF9999FF>Pyro-Flächenschaden</color> verursachen.\n\n<i>Die Ritter glauben, dass Klee einen Schutzengel haben muss, weil sie sich noch nie mit einer ihrer Bomben selbst verletzt hat.</i>",
+      "Icon": "Skill_E_Klee_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 292101,
+        "Name": "Explosives Geschenk",
+        "Description": "Erschafft beim Verursachen von Schaden mit <color=#FFD780FF>Bimm-Bamm-Bombe</color> oder Standardangriffen mit einer Wahrscheinlichkeit von 50 % einen explosiven Funken.\nVerbraucht beim nächsten heftigen Schlag den Funken statt Ausdauer und erhöht den damit verursachten Schaden um 50 %.",
+        "Icon": "UI_Talent_S_Klee_05"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 292201,
+        "Name": "Unzählige Funken",
+        "Description": "Stellt allen Truppenmitgliedern beim Verursachen von KT mit Klees heftigen Schlägen 2 Punkte Elementarenergie wieder her.",
+        "Icon": "UI_Talent_S_Klee_06"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 292301,
+        "Name": "Alles voller Schätze",
+        "Description": "Zeigt alle <color=#FFD780FF>Besonderheiten Mondstadts</color> in der Nähe auf der Minikarte an.",
+        "Icon": "UI_Talent_Collect_Local_Mengde"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 291,
+        "Name": "Kettenreaktion",
+        "Description": "Erschafft beim Angriff und beim Einsetzen von Fähigkeiten mit gewisser Wahrscheinlichkeit Funken, die Gegner angreifen und Schaden in Höhe von 120 % des Schadens von <color=#FFD780FF>Funkelfunken</color> verursachen.",
+        "Icon": "UI_Talent_S_Klee_01"
+      },
+      {
+        "Id": 292,
+        "Name": "Splitterbombe",
+        "Description": "Die Sprengfallen von <color=#FFD780FF>Bimm-Bamm-Bombe</color> verringern die VTD von Gegnern 10 s lang um 23 %.",
+        "Icon": "UI_Talent_S_Klee_02"
+      },
+      {
+        "Id": 293,
+        "Name": "Klees Sonderanfertigung",
+        "Description": "Erhöht die Stufe der Fähigkeit <color=#FFD780FF>Bimm-Bamm-Bombe</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Klee_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 294,
+        "Name": "Manuelle Explosion",
+        "Description": "Löst beim Auswechseln der Figur während der Wirkungsdauer von <color=#FFD780FF>Funkelfunken</color> eine Explosion aus, die <color=#FF9999FF>Pyro-Flächenschaden</color> in Höhe von 555 % ANG verursacht.",
+        "Icon": "UI_Talent_S_Klee_03"
+      },
+      {
+        "Id": 295,
+        "Name": "Explodierender Stern",
+        "Description": "Erhöht die Stufe der Fähigkeit <color=#FFD780FF>Funkelfunken</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Klee_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 296,
+        "Name": "Feuer frei!",
+        "Description": "Klee stellt allen Truppenmitgliedern (außer sich selbst) während der Wirkungsdauer von <color=#FFD780FF>Funkelfunken</color> alle 3 s 3 Punkte Elementarenergie wieder her.\nErhöht den <color=#FF9999FF>Pyro-Schaden</color> aller Truppenmitglieder nach Anwenden von <color=#FFD780FF>Funkelfunken</color> 25 s lang um 10 %.",
+        "Icon": "UI_Talent_S_Klee_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Fliehende Sonne",
+    "Detail": "Ein häufiger Gast der Arrestzelle des Ordo Favonius und ein wahrer Meister der Zerstörung. Man nennt sie auch die „Fliehende Sonne“.",
+    "Association": 1,
+    "Native": "Ordo Favonius",
+    "BirthMonth": 7,
+    "BirthDay": 27,
+    "VisionBefore": "Pyro",
+    "ConstellationBefore": "Trifolium",
+    "CvChinese": "花玲",
+    "CvJapanese": "久野美咲",
+    "CvEnglish": "Poonam Basu",
+    "CvKorean": "Bang Yeon-ji",
+    "CookBonus": {
+      "OriginItemId": 108002,
+      "ItemId": 108115,
+      "InputList": [
+        110001,
+        100079,
+        100076,
+        100078
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Schön, dich kennenzulernen.",
+        "Context": "Funkenritter Klee vom Ordo Favonius meldet sich zum Dienst! Da war doch noch irgendwas, aber ich erinnere mich nicht ... Mein Gedächtnis lässt mich manchmal im Stich."
+      },
+      {
+        "Title": "Gespräch – Ertrag",
+        "Context": "Ich war heute furchtbar mutig und habe eine merkwürdig aussehende Echse gefunden! So eine Musterung habe ich noch nie zuvor gesehen. Willst du sie auch mal sehen?"
+      },
+      {
+        "Title": "Gespräch – Abenteuer",
+        "Context": "Willst du mit mir Fische platzen lassen? Dafür krieg ich zwar bestimmt einen Tag Hausarrest, aber der Fisch schmeckt so gut, das ist es wert!"
+      },
+      {
+        "Title": "Gespräch – Regeln",
+        "Context": "„Hausarrest für Böller in der Stadt“, „Verständigung von Jean bei Verletzungen durch Explosionen“, „Alles aus für Klee, wenn die Stadt brennt“. Alles Auszüge aus Klees Regelwerk zum Überleben im Ritterorden."
+      },
+      {
+        "Title": "Wenn es regnet ...",
+        "Context": "Mihihihi, dieses Mal sind alle meine Bomben wasserfest!"
+      },
+      {
+        "Title": "Wenn es blitzt ...",
+        "Context": "Ah! Was ist denn jetzt explodiert?! Oh, war doch nur Gewitter."
+      },
+      {
+        "Title": "Ein Sturm zieht auf.",
+        "Context": "Lieber Gott des Windes, bitte lass meine Bomben immer in die richtige Richtung explodieren."
+      },
+      {
+        "Title": "Guten Morgen.",
+        "Context": "Guten Morgen! Kann ich heute mit dir raus zum Spielen? Wir gehen zusammen ein Abenteuer bestehen!"
+      },
+      {
+        "Title": "Guten Tag.",
+        "Context": "Mittagessenszeit! Na, was sollen wir denn essen? Mal sehen, was der „Reiseführer Teyvat“ so vorzuschlagen hat ..."
+      },
+      {
+        "Title": "Guten Abend.",
+        "Context": "Guten Abend! Ich bitte dich, kannst du Huffman bitte sagen, dass Klee kein kleines Kind mehr ist und abends sehr wohl noch raus darf? Nimm mich bitte mit!"
+      },
+      {
+        "Title": "Gute Nacht.",
+        "Context": "Ich hab zwar gesagt, dass ich nicht wieder nach Hause will, aber jetzt ist es so dunkel und ich finde den Weg nicht. Kannst du mich doch nach Hause bringen? Bitte, bitte ..."
+      },
+      {
+        "Title": "Über Klee – Unfall",
+        "Context": "Oh nein! Dieses Mal hab ich ein Windmühlenblatt abgebrochen ... Das tut mir wirklich leid!"
+      },
+      {
+        "Title": "Über Klee – Wiedergutmachung",
+        "Context": "Ich bin aber auch gut im Reparieren von Dingen. Ich helfe euch einen Neuen zu basten! Was? Kinderarbeit ist verboten? Och menno ..."
+      },
+      {
+        "Title": "Über uns – Ritter",
+        "Context": "Hihi ... Ehrenritter ... Ich bin aber schon Funkenritter, also bin ich schon länger beim Ordo Favonius? Das heißt, der Unfall gerade, da kannst du mir doch bestimmt aushelfen, oder?"
+      },
+      {
+        "Title": "Über uns – Spielpartner",
+        "Context": "Das geht nicht! Es ist gerade erst neun Uhr. Ich werde heute Abend ganz bestimmt aufbleiben, um mir die Mitternachtsvorstellung vom Zirkus anzusehen! Du bist mein Freund, denk ja nicht daran, mich nach Hause zu schicken, *kicher* ..."
+      },
+      {
+        "Title": "Über das „Göttliche Auge“ ...",
+        "Context": "Diese Murmel ist ein Geschenk von Barbatos als Anerkennung? Welchen Teil erkennt er denn an? Freiheit? Na, dann nehme ich mir die Freiheit, noch mehr Fische in die Luft zu jagen. Ist das richtig so?"
+      },
+      {
+        "Title": "Willst du mir etwas mitteilen?",
+        "Context": "Ich weiß ganz genau, an den Wänden des Ritterordens darf nicht gesprengt werden. Zwar wäre das ein Weg raus aus dem Arrest, aber Kaeya hat mir schon gesagt, wenn ich das wirklich tun würde, macht Jean ernst und ich sehe nie wieder das Tageslicht ..."
+      },
+      {
+        "Title": "Interessante Vorkommnisse ...",
+        "Context": "Jede Echse hat ein anderes Muster und von einigen Echsen kann man die getrockneten abgefallenen Schwänze sogar als Schießpulver verwenden. Das hat Albedo mir beigebracht."
+      },
+      {
+        "Title": "Über Razor ...",
+        "Context": "Wir sind sehr gute Freunde! Razor gibt sich große Mühe, wenn es gefährlich wird und er mich beschützen muss. Da fühlt man sich einfach sicher! Obwohl ich meistens der Auslöser der Gefahr bin ..."
+      },
+      {
+        "Title": "Über ihre Eltern ...",
+        "Context": "Meine Mama und mein Papa haben schon ganz Teyvat bereist! Der Reiseführer Teyvat wurde von meiner Mama geschrieben. Daher ist allen Hotels und Restaurants sehr wichtig, was sie über sie denkt."
+      },
+      {
+        "Title": "Über Kaeya ...",
+        "Context": "Kaeya ist wie mein großer Bruder! Er hat mir sogar das Regelwerk zum Überleben im Ritterorden geschrieben. Wenn ich wieder etwas angestellt habe, hilft er mir oft aus der Patsche."
+      },
+      {
+        "Title": "Über Amber ...",
+        "Context": "Amber ist wirklich toll! Und ich liebe ihren Grafen von Hoppel, so plüschig und er kann sogar explodieren, einfach nur toll!"
+      },
+      {
+        "Title": "Über Jean ...",
+        "Context": "Unsere Jean ist die Beste! Aber ein bisschen unheimlich ist sie auch ..."
+      },
+      {
+        "Title": "Über Diluc ...",
+        "Context": "Ein komischer Erwachsener, immer so grummelig. Warum lacht er denn nicht?"
+      },
+      {
+        "Title": "Über Lisa ...",
+        "Context": "Lisa, meine liebe Lisa! Jedes Mal, wenn ich sie in ihrer Werkstadt besuchen gehe, gibt sie mir ein paar Leckereien ... Oh? Wo wir gerade davon sprechen, ich wollte sie immer fragen, ob ich in ihrer Werkstatt neues Schießpulver herstellen darf ..."
+      },
+      {
+        "Title": "Über Bennett ...",
+        "Context": "Bennett ist ein Superkumpel! Wenn wir zusammen auf Abenteuerreisen gehen, finde ich immer mehr Schätze als alleine! Er selbst findet aber nie welche. Woran das nur liegt?"
+      },
+      {
+        "Title": "Über Diona ...",
+        "Context": "Diona ist toll! Sie sagt immer, „Ich werde die Getränkewirtschaft Mondstadts im Alleingang zerstören“, und das hört sich interessant an. Ich kann bei den Explosionen helfen! Auch wenn ich nicht ganz verstehe, „Mondstadts Getränkewirtschaft“, ist das ein Monster?"
+      },
+      {
+        "Title": "Über Albedo ...",
+        "Context": "Albedo und ich, wir haben einen Geheimcode! Wenn ich an seiner Tür ein Schild sehe, worauf steht „Beim Experimentieren!“, dann weiß ich, dass ich später wiederkommen soll. Albedo ist immer so nett zu mir, wenn er nicht arbeiten muss. Deshalb warte ich auch gerne."
+      },
+      {
+        "Title": "Über Mona ...",
+        "Context": "Mona ist die Beste! Es macht jedes Mal soviel Spaß, wenn sie mit Albedo und mir spielt. Manchmal erzählt sie von ganz tollen Sachen, die ich nicht verstehe, aber es ist trotzdem alles interessant! Ich mag, wenn sie vorbeikommt!"
+      },
+      {
+        "Title": "Über Saccharose ...",
+        "Context": "Saccharose ist auch toll! Sie hat mich einmal gefragt, ob ich noch etwas wie die Bimm-Bamm-Bombe haben will, das auch laufen und hüpfen kann, hehehe! Natürlich will ich das, ich will Hunderte davon, damit ich jede Ecke von Mondstadt damit zupflastern kann!"
+      },
+      {
+        "Title": "Ich will mehr über Klee erfahren I",
+        "Context": "Hallo, bist du gekommen, um mit mir zu spielen?"
+      },
+      {
+        "Title": "Ich will mehr über Klee erfahren II",
+        "Context": "Genau, das ist meine neuste und verbesserte Bombe! Und, wie findest du sie? Nur ... solltest du sie einmal in der Nähe von Feuer oder so finden, dann ist das nicht meine, ganz sicher nicht meine."
+      },
+      {
+        "Title": "Ich will mehr über Klee erfahren III",
+        "Context": "*seufz* ... Natürlich habe ich bei Hausarrest viel Zeit, mir neue Formeln auszudenken ... Aber erst gar keinen Hausarrest zu haben, wäre noch besser ..."
+      },
+      {
+        "Title": "Ich will mehr über Klee erfahren IV",
+        "Context": "Dies ist Dodoco, meine älteste Freundin. Du musst dir den Namen gut merken, du darfst sie nicht mehr „Puppe an Klees Rucksack“ nennen."
+      },
+      {
+        "Title": "Ich will mehr über Klee erfahren V",
+        "Context": "Danke, dass du mir immer hilfst, wenn ich in Schwierigkeiten bin! Das ist ein Grillspieß, auch genannt „Klees Grillfisch“, um dir zu danken! Der Fisch muss eigentlich nicht mehr gegrillt werden, er ist nach der Explosion im Teich sofort gar. Sag das aber keinem, das ist ein Geheimnis."
+      },
+      {
+        "Title": "Klees Hobbys ...",
+        "Context": "Ich liebte alles, was fluffig ist. So wie Dodoco, Löwenzahn und Razors Haare."
+      },
+      {
+        "Title": "Klees Sorgen ...",
+        "Context": "Hach, du bist eine gute Person, aber ich nicht ... Warte, bis ich meinen Hausarrest abgesessen habe. Dann können wir wieder zusammen spielen gehen ..."
+      },
+      {
+        "Title": "Was sie so mag ...",
+        "Context": "Mondstadts Bärsche schmecken am besten, besonders die vom Mostsee! Meine Mutter findet das auch."
+      },
+      {
+        "Title": "Was sie nicht mag ...",
+        "Context": "Ich hasse Mondstadts Krebse, ich hasse sie! Klee will einfach nur raus zum Spielen und nicht den ganzen Tag rumsitzen und Krebsfleisch aus dem Panzer kratzen."
+      },
+      {
+        "Title": "Geschenk erhalten I",
+        "Context": "Es riecht so gut! Ooh, ich bin so satt ..."
+      },
+      {
+        "Title": "Geschenk erhalten II",
+        "Context": "Ich hatte heute auch ein köstliches Essen, ich war so glücklich! Ich danke dir!"
+      },
+      {
+        "Title": "Geschenk erhalten III",
+        "Context": "Es sieht köstlich aus, aber es ist nicht ganz einfach zu essen ... Kannst du mir bitte helfen?"
+      },
+      {
+        "Title": "Dein Geburtstag ...",
+        "Context": "Herzlichen Glückwunsch zum Geburtstag! Am heutigen Tag sollst du viel Freude haben, du bist älter als Klee, dann hast du bestimmt schon oft gefeiert? Klee ist ganz neidisch!"
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Beginn",
+        "Context": "Ok, Neuer Sprengstoff-Recherche abgeschlossen! Nur Jean darf davon nichts erfahren!"
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Fortschritt",
+        "Context": "Und wieder besser geworden! Obwohl, Jean sagt immer: „Fortschritt ist nur ein kleiner Teil vom Ganzen.“"
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Höhepunkt",
+        "Context": "Danke, dass du mir geholfen hast soviel neues Material zu sammeln! Wenn du einmal etwas über Bomben-Bauen lernen willst, dann sag nur Bescheid!"
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Ende",
+        "Context": "Ich erinnere mich noch, vor langer Zeit, als ich das erste Mal eine Explosion gehört habe, dass ich gar keine Angst hatte ... Erst später erfuhr ich, dass die meisten Menschen nicht so sind ... Obwohl, du scheinst auch keine Angst vor meinen Bomben zu haben! Hehe, sehr gut, Klee hat also einen sehr guten neuen Freund gefunden!"
+      },
+      {
+        "Title": "Elementarfähigkeit I",
+        "Context": "Bimm-Bamm-Bombe!"
+      },
+      {
+        "Title": "Elementarfähigkeit II",
+        "Context": "Boing, boing, bumm!"
+      },
+      {
+        "Title": "Elementarfähigkeit III",
+        "Context": "Schwupp!"
+      },
+      {
+        "Title": "Spezialfähigkeit I",
+        "Context": "Funkelfunken!"
+      },
+      {
+        "Title": "Spezialfähigkeit II",
+        "Context": "Feuer frei!"
+      },
+      {
+        "Title": "Spezialfähigkeit III",
+        "Context": "Ich spreng sie alle in die Luft!"
+      },
+      {
+        "Title": "Rennen – Start I",
+        "Context": "La la la la ♪"
+      },
+      {
+        "Title": "Rennen – Start II",
+        "Context": "Dabbadida!"
+      },
+      {
+        "Title": "Truhe öffnen I",
+        "Context": "Mehr Schatz, mehr Schatz! Hehe ..."
+      },
+      {
+        "Title": "Truhe öffnen II",
+        "Context": "Juhu, glänzend!"
+      },
+      {
+        "Title": "Truhe öffnen III",
+        "Context": "Vielleicht gibt es sogar noch mehr unter der Erde ..."
+      },
+      {
+        "Title": "Niedrige LP I",
+        "Context": "Wie kann jemand nur so etwas tun?"
+      },
+      {
+        "Title": "Niedrige LP II",
+        "Context": "Jeeeean ... sie hacken auf mir herum!"
+      },
+      {
+        "Title": "Niedrige LP III",
+        "Context": "Ich fühle mich irgendwie benebelt ..."
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP I",
+        "Context": "Ich kann einen großen Knall machen, wenn du willst!"
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP II",
+        "Context": "Geht es dir gut?"
+      },
+      {
+        "Title": "Ohnmächtig I",
+        "Context": "Juhu, ich habe es geschafft! Oh warte, nein, habe ich nicht ..."
+      },
+      {
+        "Title": "Ohnmächtig II",
+        "Context": "Ich möchte jetzt nach Hause gehen ..."
+      },
+      {
+        "Title": "Ohnmächtig III",
+        "Context": "Es war ein Unfall ..."
+      },
+      {
+        "Title": "Leichten Treffer erlitten I",
+        "Context": "Das ist nicht gerecht!"
+      },
+      {
+        "Title": "Schweren Treffer erlitten I",
+        "Context": "Das tat wirklich weh!"
+      },
+      {
+        "Title": "Truppenbeitritt I",
+        "Context": "Klee kann helfen!"
+      },
+      {
+        "Title": "Truppenbeitritt II",
+        "Context": "Tada! Klee ist da!"
+      },
+      {
+        "Title": "Truppenbeitritt III",
+        "Context": "Juhu! Lass uns ein großes Abenteuer erleben!"
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Figurendetails",
+        "Context": "Auf die Frage, wer der stärkste Ritter des Ordens sei, werden meistens drei Namen von den Besuchern der Tavernen von Mondstadt genannt:\nDer hoch angesehene amtierende Großmeister Jean, Rittmeister Kaeya und der mysteriöse reiche Jüngling Diluc.\nJedoch behaupten einige, durch betrunkene Augen oder blasses Mondlicht einen Ritter in Rot gesehen zu haben, der die gesamten Windblickberge zum Einsturz bringen kann.\nWenn man diesen mysteriösen Ritter finden will, muss man nicht weiter suchen als bis zur Arrestzelle des Ordo Favonius.\nWenn man die Zelle allerdings leer vorfindet, dann wird wahrscheinlich etwas Explosives stattfinden ...\nKlee ist bekannt für die Gefahr, die sie und ihre Taten darstellen. Als offizielles Mitglied des Ritterordens ist ihre Stärke jedoch im Kampf nicht zu unterschätzen.\nAber als hyperaktives Kind, welches sie ebenfalls ist, sollten auch ihre zerstörerischen Fähigkeiten nicht unterschätzt werden.\nWährend andere Mondstädter Kinder in ihrem Alter immer noch mit Spielzeug spielen, ist Klees Lieblingsspielzeug aktiver Sprengstoff."
+      },
+      {
+        "Title": "Figurenhintergrund 1",
+        "Context": "Vor drei Jahren wurde Klee von ihren Eltern, die berühmte Abenteurer waren, dem Ordo Favonius anvertraut.\nAuf diese Weise wurden die Schicksale von Klee und „dem Jungen in Weiß“ mit ihrer Familie in Mondstadt verflochten.\nKlee ist neugierig auf alles, was in der Außenwelt vorgeht. Sie hat eine unschuldige Leidenschaft für Sprengstoff und ist bei allem, was sie tut, unglaublich enthusiastisch.\nUnter dem Schutz des Ritterordens, ist sie vor jeglichem Schaden und Menschen mit böser Absicht geschützt.\nDieses junge Mädchen knüpfte bald eine unzerbrechliche Verbindung zu allen in der Welt des Ritterordens.\nVon Jean in Einzelhaft geschickt zu werden, Amber dabei zu helfen Graf von Hoppel zu verbessern und neue Bomben zu entwickeln ...\nDiese Teile von Klees Leben sind für sie einfach unschätzbar wertvoll."
+      },
+      {
+        "Title": "Figurenhintergrund 2",
+        "Context": "„Der Apfel fällt nicht weit vom Stamm ...“\nJean seufzt manchmal vor sich hin, während sie mit dem Kopf in den Händen vor dem Haufen von Schadensmeldungen sitzt.\nFahrzeuge sind irreparabel in die Luft gesprengt, Lagerhütten niedergebrannt und dann sind da noch die Waldbrände, die die Ritter nur mühsam löschen konnten ...\nDarüber hinaus gibt es noch die zahlreichen Fälle „unnatürlichen Fischsterbens“ im Sternfallsee.\nDas alles wurde von nur einer potenziell Schuldigen angestellt und sie kommt zufällig auch noch aus ihren eigenen Reihen ...\n„Klee!“\nIm Angesicht des strengen Blicks von Jean gibt die harmlos aussehende Klee all ihren versteckten Sprengstoff ab.\nSie wird dann trotz ihrer eindrucksvollen Tränen in die Arrestzelle gebracht.\nDieses Theater spielt sich ungefähr ein- oder zweimal pro Woche ab."
+      },
+      {
+        "Title": "Figurenhintergrund 3",
+        "Context": "Natürlich versucht Klee immer, die Unordnung zu beseitigen, die sie angerichtet hat.\nJedoch macht ihre vorschnelle Persönlichkeit die Sache manchmal nur noch schlimmer.\nZum Beispiel wollte sie sich einmal bei allen entschuldigen, indem sie sie mit Grillfischen überraschte, sprengte letztendlich aber den Grill in die Luft.\nDann gab es ein Mal, wobei sie in Aufregung geriet und versuchte, das von ihr gelegte Feuer zu löschen ... mit Wind ..., was offensichtlich dazu führte, dass dadurch die ganze Ebene in Flammen aufging.\nKlee ist von Natur aus kein böses Kind. Es ist nur so, dass ihre neugierige und spielerische Art immer dazu führen, dass sie nicht nachdenkt, bevor sie handelt.\nUnd jedes Mal, wenn sie in Schwierigkeiten gerät, versucht sie schuldbewusst dies mit ihren Taten auszugleichen.\nNachdem Jean Klee aus der Einzelhaft entlässt, dauert es normalerweise nicht länger als ein oder zwei Tage, bevor die Explosionen nach Mondstadt zurückkehren.\nDer „Funkenritter“ schafft es immer, seinem Titel auf unerwartete Weise gerecht zu werden."
+      },
+      {
+        "Title": "Figurenhintergrund 4",
+        "Context": "Obwohl Klee dem Ritterorden und Mondstadt immer viel Ärger bereitet, ist sie noch lange keine Anfängerin, die das Team herunterzieht.\nIm Gegenteil, ihre Fähigkeiten im Umgang mit Sprengstoff können sehr nützlich sein, wenn sie richtig angewendet werden.\nJean konnte einst eine Horde eindringender Hilichurle besiegen, einzig allein durch den Einsatz von Klees besonderen Talenten.\nJedoch veränderte Klee in derselben Operation für immer den Anblick der Windblickberge, weil sie rücksichtslos zu viel Sprengstoff gelegt hatte ...\nAlle waren mehr als schockiert, aber zumindest wurde dabei niemand von den Rittern des Ritterordens verletzt.\nSeit jenem Vorfall begann sich die Legende vom „Roten Ritter der Windblickberge“ in Mondstadt zu verbreiten.\nGerüchten zufolge ist sie stets in Rot gehüllt und hat den größten Schatz, den der Ritterorden hat, in ihrem Besitz.\nJedoch weiß nur Klee allein, was dieser „Schatz“ wirklich ist."
+      },
+      {
+        "Title": "Figurenhintergrund 5",
+        "Context": "Für Klee ist der Ritterorden wie ihre unersetzliche Familie. Ihr Vorbild ist jedoch ihre Mutter, die bereits ihr eigenes Abenteuer begonnen hat.\nDiese Frau ist die bemerkenswerte Abenteurerin Alice, Autorin des Reiseführers Teyvat. Klee glaubt, dass ihre unglaubliche Mutter alles kann.\nSie nimmt von kleinauf Klee bei der Hand und lehrt sie Pulverladungen zu machen, Sicherungen auszuwählen und geleitet sie Schritt für Schritt, um ihre eigene Kreativität durch kühne und immer schönere Feuerwerke auszudrücken ...\nAuch wie man die tragenden Punkte der Sterngreifklippe identifiziert, damit man Ladungen platzieren kann, um das Ganze zum Einsturz zu bringen ...\nOder wie sie sich gegenseitig die Zunge herausstreckten, während sie von Huffman vom Ritterorden ausgeschimpft wurden ...\nDies sind Klees wertvolle Erinnerungen an ihre Mutter.\nSo war das Leben gewesen, bis ihre Eltern an einen gefährlichen und weit entfernten Ort gehen mussten. Sie gaben Klee in die Obhut von Albedo und dem Ordo Favonius.\nObwohl sie noch klein war, wusste Klee, dass sie eines Tages genau wie ihre Mutter werden würde.\nEines Tages würde ihr Sprengstoff etwas verursachen, auf das ihre Mutter stolz sein würde."
+      },
+      {
+        "Title": "„Dodoco“",
+        "Context": "Dodoco ist sowohl Klees erster Freund als auch einer ihrer besten.\nVor sehr langer Zeit hatte ihre Mutter diese Puppe für sie von Hand gemacht.\nAlice hat sie dann auf Klees vierblättriges Kleeblatt geheftet und an ihren großen Rucksack gehängt.\nVon diesem Tag an wurden Klee und Dodoco unzertrennlich.\nIhre Mutter sagte damals, dass dies dafür sorgen würde, dass Klee nie einsam wäre und dass sie einen Freund hätte, dem sie sich auch anvertrauen könnte.\nSie würden sich auch in Gefahrensituationen gegenseitig beschützen, genau wie Amber und Graf von Hoppel.\nDas bereitete den Rittern noch keine Sorgen. Schwierig war aber in Anbetracht der anderen Dinge, die Alice und ihre Tochter bereits erfunden hatten, dass Dodoco auch jederzeit explodieren könnte ...\nDen Namen „Dodoco“ hat sich Klee selbst ausgesucht.\nAuf die Frage, was dieser Name denn bedeute, wurde sie eine ganze Weile rot, bevor sie antwortete:\n„Er bedeutet ... Klees bester Freund!“"
+      },
+      {
+        "Title": "Göttliches Auge",
+        "Context": "Wenn man Klee fragt, wie sie zu einem Göttlichen Auge gekommen ist, wird man wahrscheinlich nicht sehr weit kommen. Denn, sie weiß es auch nicht.\nAls geborene Pyromanin wurde Klee schon in sehr jungen Jahren mit einem Göttlichen Auge gesegnet.\nSie hatte nach eigenen Angaben eine Bombe gebaut, die „echt superdupergroß“ war.\nDies war ihr allererstes Soloprojekt, aber die Ergebnisse waren weit hinter den Erwartungen zurückgeblieben.\nNun ja, sie hat ihre kleine Werkstatt „nur“ in die Luft gesprengt und einen Berg rauchende Asche hinterlassen.\nDoch statt enttäuscht zu sein, war Klee angenehm überrascht, als sie sah, wie aus der Asche ein flammendes Göttliches Auge entstand.\nWieso erhielt Klee es aber?\nWaren es ihr Talent und ihre Leidenschaft für Sprengstoff, die individualistische Natur, die sie von ihrer Mutter bekam, oder ihre strahlende Unschuld?\nDessen ungeachtet hatte Klee bereits in einem zarten, sorglosen Alter ein solch begehrtes Stück erhalten.\nWas ihr beim weiteren Heranwachsen nun auch bevorsteht, wird sie dieses „Geschenk“ niemals aufgeben."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 202901,
+      "Name": "Blütenreines Sternenlicht",
+      "Description": "Klees exquisites Kostüm, welches sie nur zu den wichtigsten Aufführungen trägt. Mit seinen leuchtenden Farben erinnert es an eine mit cremefarbenen Blumen und roten Kerzen verzierte Torte. Hiermit trägt Klee Freude und ein Lächeln in jede Ecke dieser Welt, wohin ihr Abenteuer sie auch führen mag.",
+      "IsDefault": false,
+      "FrontIcon": "UI_AvatarIcon_KleeCostumeWitch",
+      "SideIcon": "UI_AvatarIcon_Side_KleeCostumeWitch"
+    },
+    {
+      "Id": 202900,
+      "Name": "Zischende Funken",
+      "Description": "Klees Kleidung. Kindliche Kleidung, die mit dem Lederrucksack ein Set bildet.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104114,
+    113011,
+    100025,
+    112010,
+    104303,
+    113007
+  ]
+}

@@ -1,0 +1,1049 @@
+{
+  "Id": 10000058,
+  "PromoteId": 58,
+  "Sort": 46,
+  "Body": 3,
+  "Icon": "UI_AvatarIcon_Yae",
+  "SideIcon": "UI_AvatarIcon_Side_Yae",
+  "Name": "Yae Miko",
+  "Description": "La Suma Sacerdotisa del Gran Santuario Narukami y editora jefa de la Editorial Yae. Bajo su increíble encanto esconde una inteligencia y una astucia inimaginables.",
+  "BeginTime": "2022-02-16T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 807.46204,
+    "AttackBase": 26.4404,
+    "DefenseBase": 44.2742
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 5831,
+        "Proud": {
+          "Descriptions": [
+            "Daño de 1er golpe|{param1:F1P}",
+            "Daño de 2.º golpe|{param2:F1P}",
+            "Daño de 3er golpe|{param3:F1P}",
+            "Daño de ATQ Cargado|{param4:F1P}",
+            "Coste de Aguante de ATQ Cargado|{param5:F1} pts.",
+            "Daño de Caída|{param6:F1P}",
+            "Daño de impacto de caída baja/alta|{param7:P}/{param8:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.396584,
+                0.385192,
+                0.568888,
+                1.428948,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.426328,
+                0.414081,
+                0.611555,
+                1.53612,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.456072,
+                0.442971,
+                0.654221,
+                1.643291,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.49573,
+                0.48149,
+                0.71111,
+                1.786185,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.525474,
+                0.510379,
+                0.753777,
+                1.893357,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.555218,
+                0.539269,
+                0.796443,
+                2.000528,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.594876,
+                0.577788,
+                0.853332,
+                2.143423,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.634534,
+                0.616307,
+                0.910221,
+                2.286317,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.674193,
+                0.654826,
+                0.96711,
+                2.429212,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.713851,
+                0.693346,
+                1.023998,
+                2.572107,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.75351,
+                0.731865,
+                1.080887,
+                2.715002,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                0.793168,
+                0.770384,
+                1.137776,
+                2.857897,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                0.842741,
+                0.818533,
+                1.208887,
+                3.036515,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                0.892314,
+                0.866682,
+                1.279998,
+                3.215134,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                0.941887,
+                0.914831,
+                1.351109,
+                3.393752,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 10581,
+        "Name": "Ataque Normal: Kitsune devorapecados",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nInvoca espíritus kitsune para realizar hasta 3 ataques que infligen <color=#FFACFFFF>Daño Electro</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para infligir <color=#FFACFFFF>Daño Electro en el AdE</color> después de un corto tiempo de invocación.\n\n<color=#FFD780FF>Ataque Descendente</color>\nConcentra el poder del rayo, se lanza desde el aire para golpear el suelo y daña a los enemigos a su paso, infligiendo <color=#FFACFFFF>Daño Electro en el AdE</color> en el momento del impacto.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 5832,
+        "Proud": {
+          "Descriptions": [
+            "Daño de cerezo kitsune niv. 1|{param1:F1P}",
+            "Daño de cerezo kitsune niv. 2|{param2:F1P}",
+            "Daño de cerezo kitsune niv. 3|{param3:F1P}",
+            "Daño de cerezo kitsune niv. 4|{param4:F1P}",
+            "Duración|{param5:F1} s",
+            "TdE|{param6:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.60672,
+                0.7584,
+                0.948,
+                1.185,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.652224,
+                0.81528,
+                1.0191,
+                1.273875,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.697728,
+                0.87216,
+                1.0902,
+                1.36275,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.7584,
+                0.948,
+                1.185,
+                1.48125,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.803904,
+                1.00488,
+                1.2561,
+                1.570125,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.849408,
+                1.06176,
+                1.3272,
+                1.659,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.91008,
+                1.1376,
+                1.422,
+                1.7775,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.970752,
+                1.21344,
+                1.5168,
+                1.896,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                1.031424,
+                1.28928,
+                1.6116,
+                2.0145,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.092096,
+                1.36512,
+                1.7064,
+                2.133,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.152768,
+                1.44096,
+                1.8012,
+                2.2515,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.21344,
+                1.5168,
+                1.896,
+                2.37,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.28928,
+                1.6116,
+                2.0145,
+                2.518125,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.36512,
+                1.7064,
+                2.133,
+                2.66625,
+                14,
+                4
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.44096,
+                1.8012,
+                2.2515,
+                2.814375,
+                14,
+                4
+              ]
+            }
+          ]
+        },
+        "Id": 10582,
+        "Name": "Maleficio yako: Cerezo kitsune aniquilador",
+        "Description": "Yae Miko no necesita hacer personalmente las tareas más triviales mientras pueda usar los espíritus de otros seres.\nHace un rápido movimiento e invoca un cerezo kitsune.\n\n<color=#FFD780FF>Cerezo kitsune</color>\nTiene las siguientes características:\n·Cada cierto tiempo, hace descender un rayo sobre un enemigo cercano para infligirle <color=#FFACFFFF>Daño Electro</color>.\n·Si se invoca un cerezo kitsune cuando ya existen otros, los ya existentes subirán de nivel y el daño que infligen con sus ataques aumentará.\n\nEsta habilidad puede usarse tres veces.\nSolo pueden existir 3 cerezos kitsune al mismo tiempo. Cuando se crea uno, su nivel inicial es 1 y solo podrá aumentar al nivel 3 como máximo. Si se crea un cerezo kitsune en una ubicación que esté excesivamente cerca de otro, el ya existente se destruirá.\n\n<i>“Los espíritus kitsune sellados en las ramas de los árboles son yako que han degenerado hasta querer herir a los humanos. Los yako están dos rangos por debajo de nosotros, los Kitsune Celestiales, así que no veo ningún problema en pedirles que cumplan mis órdenes. Aunque entre los kitsune tengamos un sistema de clasificación, los humanos no tienen por qué hacer eso. ¿Que quiénes son superiores, los humanos o los kitsune? *Ejem*, ¿de verdad te gustaría saberlo?”</i>",
+        "Icon": "Skill_S_Yae_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 5839,
+      "Proud": {
+        "Descriptions": [
+          "Daño de habilidad|{param1:P}",
+          "Daño de relámpago de Kitsune Celestial|{param2:P}",
+          "TdE|{param3:F1} s",
+          "Energía Elemental|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              2.6,
+              3.33816,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              2.795,
+              3.588522,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              2.99,
+              3.838884,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              3.25,
+              4.1727,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              3.445,
+              4.423062,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              3.64,
+              4.673424,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              3.9,
+              5.00724,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              4.16,
+              5.341056,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              4.42,
+              5.674872,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              4.68,
+              6.008688,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              4.94,
+              6.342504,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              5.2,
+              6.67632,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              5.525,
+              7.09359,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              5.85,
+              7.51086,
+              22,
+              90
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              6.175,
+              7.92813,
+              22,
+              90
+            ]
+          }
+        ]
+      },
+      "Id": 10585,
+      "Name": "Técnica secreta suprema: Encarnación de Kitsune Celestial",
+      "Description": "En Inazuma existen leyendas sobre posesiones kitsune. Una de las más particulares es la de la posesión por Kitsune Celestiales que caen con forma de relámpago sobre los intrusos que se infiltran en el Gran Santuario Narukami. Cuando el relámpago desciende, inflige <color=#FFACFFFF>Daño Electro en el AdE</color>.\nAl lanzar la habilidad, Yae Miko destruye los cerezos kitsune cercanos, los cuales se transforman en relámpagos de Kitsune Celestiales que infligen <color=#FFACFFFF>Daño Electro en el AdE</color>. Un relámpago de Kitsune Celestial caerá por cada cerezo kitsune que se destruya de esta forma.\n\n<i>Yae Miko solo revela su aspecto de Kitsune Celestial en los momentos más cruciales para invocar el poder del rayo. De aquellos que han visto la cola de la Suma Sacerdotisa no quedan ni las cenizas, así que más te vale recordar esto muy bien: la Srta. Yae no tiene cola.</i>",
+      "Icon": "Skill_E_Yae_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 582101,
+        "Name": "Sombra sagrada",
+        "Description": "Al usar <color=#FFD780FF>Técnica secreta suprema: Encarnación de Kitsune Celestial</color>, el TdE de <color=#FFD780FF>Maleficio yako: Cerezo kitsune aniquilador</color> se reiniciará una vez por cada cerezo kitsune destruido.",
+        "Icon": "UI_Talent_S_Yae_05"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.0015
+              ]
+            }
+          ]
+        },
+        "Id": 582201,
+        "Name": "Bendición del despertar",
+        "Description": "Aumenta en un 0.15% el daño que infligen los <color=#FFD780FF>cerezos kitsune</color> por cada punto de Maestría Elemental de Yae Miko.",
+        "Icon": "UI_Talent_S_Yae_06"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 582301,
+        "Name": "Meditación de yako",
+        "Description": "Al fabricar materiales de talento, hay una probabilidad del 25% de obtener otro aleatorio de la misma región y tipo que los materiales usados.",
+        "Icon": "UI_Talent_S_Yae_07"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 581,
+        "Name": "Ofrenda de los yako",
+        "Description": "Yae Miko recupera 8 pts. de Energía Elemental por cada relámpago de Kitsune Celestial desencadenado con <color=#FFD780FF>Técnica secreta suprema: Encarnación de Kitsune Celestial</color>.",
+        "Icon": "UI_Talent_S_Yae_01"
+      },
+      {
+        "Id": 582,
+        "Name": "Aullido lunar",
+        "Description": "Al ser creados, los <color=#FFD780FF>cerezos kitsune</color> comienzan con nivel 2, pueden aumentarse hasta nivel 4 y su alcance de ataque aumenta en un 60%.",
+        "Icon": "UI_Talent_S_Yae_02"
+      },
+      {
+        "Id": 583,
+        "Name": "Heptatransformación",
+        "Description": "Aumenta el nivel de habilidad de <color=#FFD780FF>Maleficio yako: Cerezo kitsune aniquilador</color> +3.\nPuede ser aumentado hasta Niv. 15.",
+        "Icon": "UI_Talent_U_Yae_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 584,
+        "Name": "Cerezo de la tormenta",
+        "Description": "Cuando el rayo de un <color=#FFD780FF>cerezo kitsune</color> golpea a un enemigo, todos los miembros del equipo cercanos obtienen un 20% de <color=#FFACFFFF>Bono de Daño Electro</color> durante 5 s.",
+        "Icon": "UI_Talent_S_Yae_03"
+      },
+      {
+        "Id": 585,
+        "Name": "Burla despiadada",
+        "Description": "Aumenta el nivel de habilidad de <color=#FFD780FF>Técnica secreta suprema: Encarnación de Kitsune Celestial</color> +3.\nPuede ser aumentado hasta Niv. 15.",
+        "Icon": "UI_Talent_U_Yae_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 586,
+        "Name": "Técnica prohibida: Masacre",
+        "Description": "Los ataques de los <color=#FFD780FF>cerezos kitsune</color> ignoran un 60% de la DEF del enemigo.",
+        "Icon": "UI_Talent_S_Yae_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "La Kitsune Taimada",
+    "Detail": "La Suma Sacerdotisa del Gran Santuario Narukami y editora jefa de la Editorial Yae. Bajo su increíble encanto esconde una inteligencia y una astucia inimaginables.",
+    "Association": 5,
+    "Native": "Gran Santuario Narukami",
+    "BirthMonth": 6,
+    "BirthDay": 27,
+    "VisionBefore": "Electro",
+    "ConstellationBefore": "Divina Vulpes",
+    "CvChinese": "杜冥鸦",
+    "CvJapanese": "佐倉綾音",
+    "CvEnglish": "Ratana",
+    "CvKorean": "Moon Yoo-jung",
+    "CookBonus": {
+      "OriginItemId": 108378,
+      "ItemId": 108380,
+      "InputList": [
+        110001,
+        101210,
+        100084
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Hola...",
+        "Context": "#Soy la Suma Sacerdotisa del Gran Santuario Narukami. El propósito de mi visita es vigilar todos y cada uno de tus movimientos, pues ese es el mandato del santuario. Oh, vamos, no te pongas nervios{F#a}{M#o}, querid{F#a}{M#o}. Por Los Siete, solo eran formalidades. No podía visitarte sin ninguna razón, ¿no crees? Vamos, ahora entretenme."
+      },
+      {
+        "Title": "Charla - Escritura",
+        "Context": "Últimamente, la gente solo escribe sobre viajes a otros mundos. Jiji, a saber qué es lo que tanto les decepciona de su propio mundo..."
+      },
+      {
+        "Title": "Charla - Historias",
+        "Context": "La efímera vida de la mayoría de los humanos se podría escribir por completo en tan solo unas pocas líneas. Por Los Siete, qué historias tan horriblemente aburridas..."
+      },
+      {
+        "Title": "Charla - Mundo mortal",
+        "Context": "Personalmente, encuentro muy bella la idea de que las cosas permanezcan iguales para siempre. *Suspira*, una pena que el mundo simplemente no funcione así."
+      },
+      {
+        "Title": "Cuando llueve...",
+        "Context": "Si sigue lloviendo así, mi pelaje se va a empapar..."
+      },
+      {
+        "Title": "Cuando truena...",
+        "Context": "Mucha gente teme el sonido de los truenos, pero para mí, es algo muy familiar."
+      },
+      {
+        "Title": "Cuando nieva...",
+        "Context": "Siempre veo a los kitsune menos inteligentes abalanzándose sobre la nieve sin pensar para rebuscar comida... ¿Eh? ¿Te gustaría verme haciendo eso? ¡Ja! Sabía que dirías eso."
+      },
+      {
+        "Title": "Buenos días...",
+        "Context": "#Buenos días. Te veo muy adormilad{F#a}{M#o}. ¿Acaso no dormiste bien? *Tch*, vamos, confiesa, ¿qué travesuras estuviste haciendo anoche, eh?"
+      },
+      {
+        "Title": "Buenas tardes...",
+        "Context": "Humm... Arg, qué dolor de cabeza... ¿Qué puedo comer? Tofu frito otra vez no, por favor, hoy me apetece algo más ligero. ¡Oh, ya sé! Hace tiempo que no veo a la señorita de la Comisión Yashiro. Vamos a pedirle que nos haga algo de comer."
+      },
+      {
+        "Title": "Buenas noches... (I)",
+        "Context": "Esta noche hay una luna magnífica, no podemos perdérnosla. Vamos, ven conmigo a dar un paseo bajo la luz de la luna. No aceptaré un no por respuesta."
+      },
+      {
+        "Title": "Buenas noches... (II)",
+        "Context": "Supongo que podría dormir un poco. Humm, reconozco que me cuesta dormir plácidamente sin el reconfortante sonido de los truenos de fondo."
+      },
+      {
+        "Title": "Sobre Yae Miko - Eternidad",
+        "Context": "La eternidad significa no tener que dejar atrás lo que ya tienes. Pero, por otro lado, tienes que renunciar a otras posibilidades. Así es como funciona el mundo... No se puede tenerlo todo."
+      },
+      {
+        "Title": "Sobre Yae Miko - Intereses",
+        "Context": "Los humanos son unos seres fascinantes, por eso me gustan tanto. A pesar de sus cortas vidas, brillan tanto como el sol del mediodía mientras están en este mundo. Hay algunos cuya luz nunca se apaga, ni siquiera tras un largo tiempo. Esas son las vidas dignas de relatar en los libros."
+      },
+      {
+        "Title": "#Sobre nosotr{F#as}{M#os} - Escritores",
+        "Context": "Qué aburrido... ¡Esto es verdaderamente aburrido! Arg, ¿qué es lo que motivó a estas personas a convertirse en escritores? Oye, ¿por qué no escribes tu propia historia y se la entregas a la Editorial Yae? Seguro que me entretendrí... *Ejem*, ¡seguro que sería un éxito en ventas!"
+      },
+      {
+        "Title": "#Sobre nosotr{F#as}{M#os} - Erosión",
+        "Context": "#Tal vez, aislarte del resto del mundo solo acelera los efectos de la erosión... Imagínate un mundo en el que estás tú sol{F#a}{M#o}, sin nadie en quien poder reflejarte... Sería algo horrible. Siempre que estemos junt{F#as}{M#os}, es importante que {F#una}{M#uno} sea la luz {F#de la otra}{M#del otro}, ¿de acuerdo? Es muy complicado ver con claridad en la oscuridad."
+      },
+      {
+        "Title": "Sobre la Visión...",
+        "Context": "#Dices que... ¿te gusta cómo llevo mi Visión? Tienes muy buen ojo para los tesoros de gran valor, querid{F#a}{M#o}. Bueno, ¿te gustaría tocarla?"
+      },
+      {
+        "Title": "¿Algo que decir?",
+        "Context": "#Pon aceite en una olla a calentar a fuego medio. Agrega el tofu y reduce el fuego. Cocínalo hasta que quede dorado, retíralo, sírvelo bien caliente y ¡listo! Ya tienes tofu frito. No existe nada tan delicioso en el mundo. Bueno, ya te dije cómo se hace, ¿no? Pues vamos, ¡¿qué haces ahí parad{F#a}{M#o}?!"
+      },
+      {
+        "Title": "Un dato curioso...",
+        "Context": "Aunque a veces me canso de él, ya que no puedo evitar verlo desde el Gran Santuario Narukami, mi destino está fuertemente ligado al Cerezo Sagrado."
+      },
+      {
+        "Title": "Sobre la Shogun Raiden...",
+        "Context": "Encerrarse en el plano de la eutimia cuando, claramente, quiere estar fuera de él es como torturarse a sí misma voluntariamente... Aunque, por otro lado, su terquedad también resulta adorable, ¿no crees?"
+      },
+      {
+        "Title": "Sobre Kamisato Ayato...",
+        "Context": "#Ese jovenzuelo de la Comisión Yashiro... Siempre ha sido muy impredecible, incluso cuando era un niño. Que no te confunda su cálida sonrisa, nunca se sabe qué retorcido plan tiene en mente. Es exasperante... ¿A qué te refieres con que es “astuto como un zorro”? ¡Hum! Si lo que insinúas es que él y yo somos parecidos, estás completamente equivocad{F#a}{M#o}, querid{F#a}{M#o}."
+      },
+      {
+        "Title": "Sobre Kamisato Ayaka...",
+        "Context": "Me agrada mucho la señorita de la Comisión Yashiro. Soluciona hábilmente cualquier asunto que se le presenta, pero por desgracia, su trabajo suele ser poco reconocido. Una lástima... Si no fuera miembro del clan Kamisato, me la habría llevado a la Editorial Yae hace mucho tiempo."
+      },
+      {
+        "Title": "Sobre Kujou Sara...",
+        "Context": "No es la tengu más inteligente de la bandada. Ciertamente, no heredó la brillante mente de su padre tengu. *Suspira*, ¿cómo decirlo? Supongo que ser franca y no tener tacto tiene sus ventajas, pero espero que no se comporte así la próxima vez que visite el santuario. Tengo mejores cosas que hacer que responder sus infinitas preguntas sobre Ei."
+      },
+      {
+        "Title": "Sobre Yoimiya...",
+        "Context": "Vale la pena esperar todo el año para ver los fuegos artificiales de los Naganohara. Dicen que, hace poco, ella armó un buen alboroto en la Comisión Tenryou al prender unos fuegos por todas partes. Jeje, seguro que a los miembros del clan Kujou les hirvió la sangre. Qué pena no haber estado allí para verlo."
+      },
+      {
+        "Title": "Sobre Ganyu...",
+        "Context": "Humm, ahora que lo dices, hace bastante tiempo que no veo a Ganyu. Antes del Decreto de cierre de fronteras, las dos solíamos reunirnos para hablar de las relaciones bilaterales entre nuestras naciones. Siempre la he visto como alguien en quien se puede confiar. La próxima vez que vayas a Liyue, llévale unos hongos marinos de mi parte."
+      },
+      {
+        "Title": "Sobre Sangonomiya Kokomi...",
+        "Context": "Las Sacerdotisas Divinas de estos tiempos se vuelven más adorables con cada generación que pasa. Me pregunto qué tal bailará ella la danza divina de la paz... Quizás pequeños bancos de peces revoloteen a su alrededor mientras baila. Si alguna vez necesita aprender de una sacerdotisa líder con más experiencia, estaré encantada de compartir algunos consejos con ella. Jeje, siempre y cuando me lo pida amablemente, claro."
+      },
+      {
+        "Title": "Sobre Kunikuzushi...",
+        "Context": "En aquel entonces, pensé que sería un desastre que podría ocurrir en cualquier momento, pero ella insistió en que no iba a mover un dedo contra el objeto que ella misma había creado. De haber sabido cómo irían las cosas, me habría deshecho de él sin que lo supiera. ¿Eh? ¿Que qué va a pasar ahora? Jeje, bueno, ya no estamos esperando a que ocurra un desastre, ¿no?"
+      },
+      {
+        "Title": "Sobre Arataki Itto...",
+        "Context": "Ah, el oni excéntrico. Escuché que le ha causado bastantes problemas al clan Kujou. La Comisión Tenryou quiso quitar sus mensajes del tablón de anuncios porque “alteraban el orden público”. Yo me aseguré de que esos mensajes se mantuvieran ahí, jaja. Es un oni muy divertido. En estos tiempos, ya no se ven muchos como él."
+      },
+      {
+        "Title": "Sobre Gorou...",
+        "Context": "Ciertamente tiene una hermosa cola, aunque... la mía es más suave, jeje."
+      },
+      {
+        "Title": "Sobre Sayu...",
+        "Context": "Ah, sí, la pequeña ninja... Si hay algo que se le dé bien, es esconderse. Kano Nana siempre viene a quejarse de ello. Al parecer, pasa tanto tiempo buscándola que apenas tiene tiempo para leer. Yo creo que Sayu tiene un aliado secreto que la ayuda a esconderse todo el tiempo."
+      },
+      {
+        "Title": "Sobre Kuki Shinobu...",
+        "Context": "He oído muchas cosas sobre la hermana pequeña de Miyuki y, por lo que me han dicho, es toda un personaje. Aunque viene de una familia de miko, tomó su propio camino en la vida. Ha probado suerte en muchos oficios diferentes, ha estudiado en Liyue e incluso acabó uniéndose a la Banda de Arataki. Qué chica tan fascinante... Tal vez debería decirle a Miyuki que me la presente. Sí, eso funcionará, Miyuki nunca rechazaría una petición mía."
+      },
+      {
+        "Title": "Sobre Kirara...",
+        "Context": "Cada vez más youkai muestran interés por el mundo humano. Me pregunto si realmente será algo bueno. ¿Que qué opino yo? Jaja, yo animo a todos a vivir la vida. Además, ¿cómo podría no gustarme una youkai tan adorable y que está dispuesta a pagar cuando salimos a cenar?"
+      },
+      {
+        "Title": "Más sobre Yae Miko (I)",
+        "Context": "¿Eh? ¿Quieres saber más sobre mí? No tengo ningún problema en contarte cosas, pero ¿qué obtengo yo a cambio? ¿Eh? Tiene que ser un trato justo, así que tú me contarás todo sobre ti y yo te contaré todo sobre mí. ¿Tenemos un trato?"
+      },
+      {
+        "Title": "Más sobre Yae Miko (II)",
+        "Context": "Desde que la Sacerdotisa Kitsune dijo que se iba a un largo viaje, nunca ha regresado. *Suspira*, en aquel entonces, yo no tenía ninguna gana de cargar con el peso de dirigir el Gran Santuario Narukami, así que me dijo que, como Suma Sacerdotisa, podría comer todo el tofu frito que quisiera. Como si eso fuera una razón convincente... Esa mujer decía tantas tonterías que, sinceramente, a veces era insoportable."
+      },
+      {
+        "Title": "Más sobre Yae Miko (III)",
+        "Context": "Decidí crear la Editorial Yae simplemente porque quería leer novelas ligeras más interesantes, eso es todo. Pero resulta que la verdadera diversión es ver a los escritores exhaustos devanarse los sesos con tal de terminar de escribir sus novelas. No te puedes ni imaginar las excusas que se les ocurren para conseguir que les posponga la fecha de entrega. Oh, son mucho más creativas que sus propias novelas."
+      },
+      {
+        "Title": "Más sobre Yae Miko (IV)",
+        "Context": "Hasta los seres sobrenaturales mueren en algún momento, y eso incluye a los dioses. Es una auténtica pena cuando sus historias se pierden junto a ellos y caen en el olvido. El problema es que solo aquellos con excelentes habilidades de escritura y composición son dignos de registrarlas. Si en el mundo no hay escritores con talento, debemos formarlos. Sí, necesitamos nuestros propios escritores, capaces de plasmar adecuadamente esas historias en papel."
+      },
+      {
+        "Title": "Más sobre Yae Miko (V)",
+        "Context": "Aunque soy una ávida lectora de las novelas de otros, aún tengo pendiente tomar una pluma y ponerme a escribir. Después de todo, escribir una novela es una tarea ardua, pero si llega el día en el que alcanzas el fin de tu aventura, quieres que alguien la registre y yo estoy disponible... Bueno, ya veremos."
+      },
+      {
+        "Title": "Aficiones de Yae Miko...",
+        "Context": "Mi pasatiempo favorito es leer las historias de otras personas, y el segundo es ver cómo se retuercen de preocupación... Si encontrara la manera de combinar ambos... Jaja. Oh, eso sí que sería realmente entretenido."
+      },
+      {
+        "Title": "Preocupaciones de Yae Miko...",
+        "Context": "La paz y la tranquilidad están de moda hoy en día, pero después de un tiempo, pueden ser un aburrimiento..."
+      },
+      {
+        "Title": "Comida que más le gusta...",
+        "Context": "¿Has oído hablar de un plato llamado “kitsune udon”? Es muy fácil de hacer. Solo es tofu frito servido encima de fideos udon. ¿Qué te parece? Solo fideos y tofu frito, nada más. ¿No crees que suena divino?"
+      },
+      {
+        "Title": "Comida que menos le gusta...",
+        "Context": "No soporto cualquier cosa que haya sido encurtida. Me da igual que sea medaka o kiviak, ¿qué clase de persona puede aguantar ese horrible hedor? Soy la Suma Sacerdotisa del Gran Santuario Narukami, y me niego a contaminar mi cuerpo con cosas tan asquerosas."
+      },
+      {
+        "Title": "Al recibir un regalo (I)",
+        "Context": "#¡Vaya, vaya! Parece que sabes muy bien lo que me gusta, querid{F#a}{M#o}."
+      },
+      {
+        "Title": "Al recibir un regalo (II)",
+        "Context": "Ya que lo preparaste tú, lo menos que puedo hacer es probarlo, jaja."
+      },
+      {
+        "Title": "Al recibir un regalo (III)",
+        "Context": "A ver cómo lo digo... Tienes tanto margen de mejora que solo podrías seguir mejorando."
+      },
+      {
+        "Title": "Día de nacimiento...",
+        "Context": "Ah, así que hoy es el día en que naciste... “En este ceremonioso día de recuento de años, encargo a mis familiares que se aseguren de que encuentres aquello que buscas y de que recibas aquello que tanto anhela tu corazón. Conserva la pureza de tu corazón y la autenticidad de tu espíritu para que te sea otorgada su protección”. Listo. Que todo te vaya bien en este año y que todos tus deseos se hagan realidad. Ya está, ¿no?"
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Introducción",
+        "Context": "Durante el entrenamiento para convertirse en miko, se confiere el título de “chokkai” a quien ha completado los requisitos de estudio y puede recitar adecuadamente en ceremonias. Esto puede resultar sencillo para los humanos, pero es el paso más difícil para los kitsune. Después de todo, seguimos siendo zorros."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desarrollo",
+        "Context": "El entrenamiento para ser la asistente de la Suma Sacerdotisa, o “seikai”, es realmente arduo. Debes respetar una infinidad de severas restricciones, y solo hay una manera de llegar hasta ahí: comer a escondidas por la noche sin que nadie te vea."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Nudo",
+        "Context": "Para alcanzar el rango de “meikai”, debes descifrar el funcionamiento del mundo, trascender sus limitaciones y comprender todos sus fenómenos. Normalmente, a quienes llegan a este nivel se les concede una Visión y una esperanza de vida mucho mayor que la de un kitsune promedio."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desenlace",
+        "Context": "A lo largo de la historia, solo la Suma Sacerdotisa del Gran Santuario Narukami ha alcanzado el rango de “joukai”, un título honorífico que no está relacionado con las capacidades de quien lo ostenta. Aunque, claro está, si dijera que soy la joukai más poderosa que ha existido, no creo que hubiera nada de malo en ello."
+      },
+      {
+        "Title": "Habilidad Elemental (I)",
+        "Context": "¡Aquí!"
+      },
+      {
+        "Title": "Habilidad Elemental (II)",
+        "Context": "¡Ahora!"
+      },
+      {
+        "Title": "Habilidad Elemental (III)",
+        "Context": "¡Brota!"
+      },
+      {
+        "Title": "Habilidad Elemental (IV)",
+        "Context": "¡Haz tu aparición!"
+      },
+      {
+        "Title": "Habilidad Elemental (V)",
+        "Context": "¡Dales una muestra!"
+      },
+      {
+        "Title": "Habilidad Definitiva (I)",
+        "Context": "Siempre estoy observando."
+      },
+      {
+        "Title": "Habilidad Definitiva (II)",
+        "Context": "Nada dura para siempre."
+      },
+      {
+        "Title": "Habilidad Definitiva (III)",
+        "Context": "Un espectáculo para la vista."
+      },
+      {
+        "Title": "Al abrir un cofre (I)",
+        "Context": "Vaya, vaya, ¿qué tenemos aquí?"
+      },
+      {
+        "Title": "Al abrir un cofre (II)",
+        "Context": "No me digas que esto es todo..."
+      },
+      {
+        "Title": "Al abrir un cofre (III)",
+        "Context": "Vamos, ábrelo. Enséñame qué hay dentro."
+      },
+      {
+        "Title": "Vida baja (I)",
+        "Context": "Eso es suficiente."
+      },
+      {
+        "Title": "Vida baja (II)",
+        "Context": "Arg, está bien, no más juegos."
+      },
+      {
+        "Title": "Vida baja (III)",
+        "Context": "Ya tienes toda mi atención."
+      },
+      {
+        "Title": "Aliado con vida baja (I)",
+        "Context": "No te pases de la raya."
+      },
+      {
+        "Title": "Aliado con vida baja (II)",
+        "Context": "Yo me haré cargo."
+      },
+      {
+        "Title": "Derrotada (I)",
+        "Context": "Se terminó la diversión..."
+      },
+      {
+        "Title": "Derrotada (II)",
+        "Context": "Un final horrible..."
+      },
+      {
+        "Title": "Derrotada (III)",
+        "Context": "Aquí se acaba la eternidad..."
+      },
+      {
+        "Title": "Recibiendo un ligero ataque (I)",
+        "Context": "¿Eso es todo?"
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (I)",
+        "Context": "¡Qué molesto!"
+      },
+      {
+        "Title": "Unirse al equipo (I)",
+        "Context": "¿Qué harías sin mí?"
+      },
+      {
+        "Title": "Unirse al equipo (II)",
+        "Context": "Bien, entretenme."
+      },
+      {
+        "Title": "Unirse al equipo (III)",
+        "Context": "Bueno, si me lo pides así..."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalles del personaje",
+        "Context": "Yae Miko es la miko principal del Gran Santuario Narukami, la heredera del linaje Hakushin, la familiar y amiga de la Eternidad y la aterradora editora jefa de la Editorial Yae, especializada en novelas ligeras.\nAl conocerla más de cerca, uno se da cuenta de que sus títulos y cargos son tan insondables y diversos como su carácter.\nQuien, por los motivos que sean, quiera comprender a la verdadera Yae Miko, no tiene más que hacer cola desde la Sede de la Comisión Tenryou hasta la puerta de la Editorial Yae. Ahora bien, hasta la fecha, muy pocos han conseguido algo, ya que en realidad ella nunca ha ocultado algo a propósito.\nEs solo que le gusta ser una persona con muchas facetas y poder hacer lo que le plazca. Al fin y al cabo, un acertijo no es nada sin un poco de misterio.\nAsí pues, lo único que tienes que saber de ella es que es la “astuta y hermosa gran Yae Miko”."
+      },
+      {
+        "Title": "Historia del personaje (1)",
+        "Context": "Una vez, unos editores de la Editorial Yae le recomendaron a la editora jefa que leyera un manuscrito.\nSe trataba de una comedia romántica, un género muy de moda en ese momento, con una elegante prosa y unas ideas bien desarrolladas.\nAlgo tan bueno solo tendría que pulirse un poco y agregar ilustraciones. ¡Sería todo un éxito de ventas!\nLo que los editores no anticiparon fue que, tras echarle un vistazo, Yae Miko no mostró ni un ápice de complacencia, sino que exhaló un gran suspiro y llamó al editor a cargo de la novela, que preguntó dubitativo: “Srta. Yae... Es cierto que yo le dije al autor que escribiera sobre este tema, pero ¿acaso no es el más popular ahora mismo?”.\nAnte la vacilante mirada del editor, Yae Miko hizo clara su opinión: “Una novela ligera que debería haber sido novedosa, pero que está encadenada a un tema... Te diré mi opinión: no es lo suficientemente libre”.\nTramas que más venden y obras clasificadas en géneros... eran modas que solo tendrían éxito una vez cada diez años.\nAprovecharse del momento era tomar el camino fácil, pero si una novela tenía lo necesario para no caer en las modas, nunca pasaría desapercibida.\n“Dile a este nuevo autor que no piense en géneros, que solo trate adecuadamente la historia que escribe”.\nEl autor tuvo una epifanía cuando este mensaje llegó a sus oídos. Así pues, paró de escribir para reflexionar seriamente y, unos meses después, un nuevo manuscrito llegó a manos de Yae Miko y del editor.\nEste último enmudeció, y la Srta. Yae, siempre sin filtros al hablar, abrió los ojos de sorpresa.\n“Humm... ¿Qué hacemos? Esto no servirá...”.\n“¡Exacto! Una cosa es que no se aferre a un tema, ¡y otra que un personaje renazca como la todopoderosa Shogun Raiden!”.\n“No creo que haya ningún problema con el tema. En cambio, su nombre de pluma es demasiado normal, no casa en absoluto con este libro”.\n“Oh, así que se estaba fijando en eso... B-bueno, mientras a usted le guste, todo bien”.\nPoco después, y a sugerencia de la editora jefa, el autor dio comienzo a su carrera novelística con el largo nombre de pluma “Kadenokouji Kenzaburou”.\nAsí fue como Yae Miko tuvo la brillante idea de abrir un plazo de entrega de novelas en torno al tema “Renacido como la Suma Sacerdotisa Yae”, pero eso ya es otra historia."
+      },
+      {
+        "Title": "Historia del personaje (2)",
+        "Context": "Uno de los mayores inconvenientes de ser la Suma Sacerdotisa es tener que asistir solemnemente a todos los festivales del santuario y mantener todo el tiempo la compostura.\nMientras los fuegos artificiales estallan en el cielo de la noche y el ambiente está de lo más animado, la Suma Sacerdotisa debe permanecer sentada dentro del santuario con una solemne sonrisa.\nEs una tragedia aún peor que si el tofu frito desapareciera de la faz de la tierra.\nLos familiares de la Arconte Electro tienen vidas longevas en las que cien años pasan en un pestañeo. Por ello, el aburrimiento es el peor enemigo que se puede tener.\nSi la Suma Sacerdotisa se conformase con esperar sentada y fuera terca como un Slime, el mundo perdería una persona inteligente y capaz de encontrar diversión y oportunidades en todas las cosas.\nPor ello, buscar de vez en cuando algo con lo que entretenerse es verdaderamente apropiado y necesario.\nAdemás, tampoco pasa nada si para ello tiene que abusar un poquito de su autoridad como Suma Sacerdotisa...\nUna noche, durante un festival, la Suma Sacerdotisa Yae hizo un gesto de aprobación al ver los fuegos artificiales hechos por los Naganohara y traídos por la Comisión Yashiro.\nEl festival se desarrolló como siempre, respetando la etiqueta y siguiendo todas las normas.\nSorprendentemente, la Suma Sacerdotisa permaneció sentada y serena durante toda la noche, lo que suscitó los elogios de todas las miko.\nSentada bajo una hermosa y centelleante lluvia de estrellas fugaces, observaba el ir y venir de la gente durante el festival.\nEntonces, el estruendo de los fuegos artificiales tapó un murmullo procedente de alguien que mordisqueaba una manzana caramelizada.\n“Cuando me pediste que me convirtiera en Suma Sacerdotisa, no mencionaste que la única forma de disfrutar de los festivales era evadiendo mis responsabilidades”."
+      },
+      {
+        "Title": "Historia del personaje (3)",
+        "Context": "Buscar la diversión y la alegría es lo que rige la vida cotidiana de Yae Miko.\nPara ella, a quien tanto le gusta estudiar a los humanos, los juiciosos conceptos de “opinión” y “moral” están muy por debajo del de “diversión”.\nLa Suma Sacerdotisa siente curiosidad por muchas personas, ya sea una miko de distinta fe o el general de una facción enemiga, pero esta curiosidad a veces puede convertirse en una pequeña molestia.\nMás que a sus diligentes y devotos subordinados, la persona del santuario que más le llama la atención es la miko Kano Nana, también aficionada a las novelas ligeras y obsesionada con vigilar a Sayu todos los días.\nCuando Yae Miko está descansando en el interior del santuario, a veces ve a Sayu aparecer desde una ventana. Al poco tiempo, se escucha a la apresurada y enojada Kano Nana persiguiéndola.\nIgual que los relámpagos y la lluvia, esta relación le resulta de gran interés, y a veces incluso le señala mal el camino a la miko para que la diversión dure un poco más.\nEn otra ocasión en la que Sayu le dio las gracias a Yae Miko por ayudarla a conseguir algo de tiempo para dormir una siesta, la pequeña ninja le dijo que los mejores rayos de sol eran los de la tarde.\nTal vez por ello, un día con un sol radiante, la Suma Sacerdotisa adoptó la forma de una mujer común y corriente para pasar el día fuera de la montaña.\nEl Balneario Aisa, el Restaurante Kiminami de Hanamizaka, la tienda Telas y Kimonos Ogura... Al llegar a la ciudad, no dejó ni un sitio sin visitar, y cada uno de ellos fue una grata experiencia.\nAl caer la noche, fue a la Agencia de Detectives Bantan Sango para avisar de un caso de animales desaparecidos que había escuchado en la calle.\n“¡Ay, no han visto lo tristes que están los pobres dueños de esos animalitos! Detectives, ¡tienen que ayudarlos, por favor!”.\nTras sus andanzas, siguió caminando y no pudo evitar echarse a reír.\nFormar parte de la vida cotidiana de Inazuma con esa identidad era realmente divertido.\nAunque hubiera sido mejor si Kujou Sara, con quien se encontró en la calle, no la hubiera mirado con cara de sospecha...\nTambién se sintió un poco culpable por el jefe del Balneario Aisa. Aunque las exóticas aguas termales estaban en la temperatura ideal, tras el baño se le cayeron algunos pelos de kitsune."
+      },
+      {
+        "Title": "Historia del personaje (4)",
+        "Context": "Hace mucho, mucho tiempo, cuando los humanos contaban historias sobre los youkai, no era necesario comenzar diciendo “hace mucho, mucho tiempo”.\nLos tengu surcaban los cielos, los oni se precipitaban a la batalla, los tanuki correteaban por los campos y los kitsune caminaban entre los humanos.\nBajo el liderazgo de Narukami, los increíblemente poderosos youkai ayudaban a los humanos a cultivar la tierra y a superar sus dificultades.\nFue entonces cuando Inazuma se construyó apoyándose sobre las montañas y colindando con el mar.\nEl ilustre linaje de los kitsune de Hakushin era el más respetado de todos los youkai, y cada vez que nacía un heredero, se creaban incontables historias.\nCuando todos estos seres se reunían, no podían faltar los alardes sobre qué grandes hazañas legendarias habían conseguido recientemente.\nTras emborracharse, decían cosas que poco tenían que ver con la realidad, pero a nadie le importaba, pues solo querían escuchar algo entretenido. Con el tiempo, estas reuniones se convirtieron en encuentros para contar historias.\nLas historias de Urakusai, que solía aparecer en esas ocasiones para beber, fascinaban a los youkai, y ni siquiera la Sacerdotisa Kitsune, anfitriona de las celebraciones, podía evitar sonreír al escucharle.\nYae Miko, que entonces no era más que una pequeña kitsune, trepaba hasta los hombros de la Sacerdotisa para identificar todos los fallos en las historias de Urakusai.\nEste era un erudito racional y de gran intelecto, capaz de pensar en toda clase de argumentos mientras jugueteaba con su barba.\nPero Miko siempre encontraba los fallos en sus historias, por muy pequeños que fueran. Esta costumbre se repitió hasta que, un día, para detener la discusión entre ambos, Saiguu les dijo: “Todo el mundo está esperando a escuchar la siguiente parte de la historia”.\nTras un buen rato bebiendo y después de haber contado la historia varias veces, el público estaba tan borracho que no podía articular palabra.\nEntonces, los youkai desistieron en su discusión y usaron sus poderes para surcar el firmamento y ver quién era capaz de cubrir el cielo y la luna.\nAsí fue como ocurrió el célebre “desfile de los cien monstruos en una noche en la que la luna quedó tapada”.\nHan pasado 500 años desde entonces, y esa pequeña kitsune ya es una poderosa youkai de pleno derecho.\nPor su parte, los demás youkai con los que había bebido y comido en el pasado se desvanecieron en la historia y las guerras, lo que poco a poco fue reduciendo su linaje en el mundo.\nDe esta forma, el desfile de los cien monstruos se convirtió en una leyenda ocurrida “hace mucho, mucho tiempo”."
+      },
+      {
+        "Title": "Historia del personaje (5)",
+        "Context": "Las espadas de Inazuma han sido famosas en todo el mundo desde la antigüedad, y las de las Cinco Escuelas de Raiden son consideradas un tesoro nacional.\nSin embargo, en los últimos efímeros años, la mayor parte de estas Cinco Escuelas ha desaparecido.\nNumerosas personalidades importantes se vieron implicadas en unos turbulentos sucesos cuyas sospechas se extendieron incluso a los clanes más grandes.\nDe hecho, hasta el clan Kamisato de la Comisión Yashiro se vio involucrado por no haber supervisado suficientemente bien a sus subordinados.\nAntes de que la Shogun dictara su sentencia final, la Suma Sacerdotisa, que desde hace mucho tiempo no se había inmiscuido en los asuntos de gobierno, de repente aconsejó a la Shogun que protegiera a los Kamisato de toda la inestabilidad.\nGracias a ello, aunque la reputación del clan se vio dañada, no se les retiraron sus responsabilidades oficiales.\nEn los años siguientes, surgieron todo tipo de rumores en torno a la conducta de la Suma Sacerdotisa.\nUno era que la Comisión Yashiro tenía una estrecha relación con el Gran Santuario Narukami, y que aquello se hizo para afianzar la lealtad de la Comisión hacia el Santuario.\nSin embargo, este era una entidad independiente, y la Suma Sacerdotisa nunca se había involucrado en los asuntos de gobierno. Ayudar a la Comisión Yashiro conllevaría más perdidas que ganancias, por lo que no era un acto muy inteligente.\nOtro rumor era que la Suma Sacerdotisa vio algo extraño en todo aquello. Había tanta gente implicada que, si a la Comisión Yashiro le ocurría otra desgracia, las cosas en Inazuma nunca volverían a la normalidad.\nAunque esta teoría parezca razonable a primera vista, en realidad carece de fundamentos. La caída y el ascenso de la aristocracia es algo muy normal, así que aunque los Kamisato perdieran su influencia, otro clan tomaría su lugar.\nExistía otro rumor según el cual, poco después de los acontecimientos, Yae Miko había tenido una charla con el líder de los Kamisato de aquella época. Pero este ya era muy anciano, su reputación había sido dañada y ya no era lo que fue en otro momento. ¿Cómo iba a poder controlar la situación?\nNingún rumor urbano era cierto y nadie se explicaba por qué Yae Miko hizo lo que hizo.\nNadie sabía tampoco que el consejo que le dio a la Shogun fue resguardado dentro de la residencia Kamisato como una norma del clan.\n“Los Kamisato han sobrevivido a este incidente gracias a la generosidad de la Shogun. A partir de ahora, nunca olviden la bondad de Su Excelencia”.\nEstas palabras sembraron el destino de la Comisión Yashiro e indicaron su posición de cara al futuro.\nSi algún día una tormenta azotaba a Inazuma, aunque el clan Kamisato se opusiera a los clanes de las otras dos Comisiones, debía recordar la bondad de la Shogun y seguirla sin vacilación en su camino hacia la eternidad.\nAsí, la Suma Sacerdotisa hizo un movimiento estratégico del que salió sin ningún arrepentimiento."
+      },
+      {
+        "Title": "Festival de Aplacamiento del Fuego",
+        "Context": "El Festival de Aplacamiento del Fuego es un ritual religioso dirigido por el Gran Santuario Narukami y que en el pasado era liderado por la Comisión Tenryou. Se hace para pedir bendiciones, buena fortuna y protección contra los incendios.\nAntiguamente, la mayoría de las casas de Inazuma eran de madera, por lo que el fuego podía provocar grandes desastres por un simple descuido.\nBajo las órdenes de la Shogun, la Comisión Tenryou fundó una brigada de bomberos y pidió al Gran Santuario Narukami que celebrara un Festival de Aplacamiento del Fuego para tranquilizar a los ciudadanos.\nDurante los siglos posteriores, los ciudadanos se concienciaron de la seguridad antiincendios y cada vez hubo menos de estos accidentes. Por su parte, el Festival de Aplacamiento del Fuego siguió celebrándose año tras año.\nEn él, las miko bailaban grácilmente y la gente donaba dinero con generosidad. El dinero donado se repartía en un sesenta por ciento para la Comisión Tenryou y un cuarenta para el Santuario.\nCuando Yae Miko planeaba abrir la Editorial Yae, no dejaba de pensar en los fondos necesarios. Tras hacer cálculos con todos los festivales celebrados por el Santuario, se fijó en el antiguo y tradicional Festival de Aplacamiento del Fuego.\n“Los encargados de organizarlo somos nosotros, el Santuario, así que ¿por qué tenemos que dividir las ganancias con la Comisión Tenryou? Además, todo el dinero va al bolsillo del viejo Kujou y nunca queda nada para el extra de año nuevo de los bomberos”.\nEntonces, en el festival del año siguiente, las miko ya no bailaron como forma de entretener a los dioses y de rezar, sino que se celebró un gran concurso literario de novelas ligeras.\nLa Editorial Yae, encargada de dirigir el concurso y de publicar las obras, obtuvo muchas ganancias con los fondos del Festival de Aplacamiento del Fuego y, por supuesto, todos los ingresos de las obras publicadas fueron para el Santuario.\n“Ya no hay tantos incendios y cada año los fondos recaudados aumentan. He hecho esto para no malgastar recursos y fuerza laboral y para no perjudicar a la gente. La razón de este cambio es que la literatura y la escritura también son formas de entretener a los dioses. ¿O acaso creen que saben más que yo de asuntos religiosos?”, le dijo firmemente Yae Miko a Kujou Takayuki, que había ido a visitarla.\nEl Comisionado Tenryou no tuvo más opción que marcharse alicaído de la Montaña Yougou con sus subordinados.\nLo que nunca supieron es que, en el momento en que pusieron un pie fuera del Santuario, la firme Yae Miko sacó de debajo del baúl de donaciones el manuscrito de una novela y siguió escribiendo anotaciones en ella."
+      },
+      {
+        "Title": "Visión",
+        "Context": "#“Aquella batalla estremeció al mundo. El enemigo separó los mares y llegó por el aire. ¡Hasta el cielo y la tierra cambiaron! Con su gohei en mano, la Suma Sacerdotisa puso pie solemnemente en la cima de la Montaña Yougou. Las miko estaban en un lado recitando mantras cuando, de un momento a otro, las nubes cubrieron el cielo y se oyó el estruendo de un trueno”.\n“...”\n“La guerra había durado tanto que incluso la Suma Sacerdotisa estaba sin fuerzas. ¡El enemigo podía atraparnos desprevenidos para lanzar una fuerte ofensiva! Entonces, cual meteorito caído del cielo, un rayo cayó en frente de la Suma Sacerdotisa. ¡Era una centelleante Visión! La atrapó con la mano, se recompuso y mostró su poder divino...”.\n“Espera, espera, espera... Todo esto que cuentas no ocurrió de verdad, ¿cierto?”.\n“¿Eh? Bueno, entonces cambiaré de historia. Un día, estaba yo en Hanamizaka para participar en un concurso de comer ramen...”.\n“¿Cómo va alguien a conseguir una Visión por comer ramen?”.\n“¿No te resulta interesante? Después de todo, te gusta escuchar historias, ¿no es así?”.\nAnte tu gran curiosidad, Yae Miko sonrió pícara y extrañamente.\n“Aunque te dijera la verdad, es decir, que mi Visión no es más que un accesorio decorativo, ¿te lo creerías, querid{F#a}{M#o}?”."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 205800,
+      "Name": "Enseñanzas clericales",
+      "Description": "Modelo de vestimenta de Yae Miko. Un atuendo de miko que evoca la grandeza de Saiguu, la antigua Suma Sacerdotisa del Gran Santuario Narukami. Refleja el anhelo de que la belleza de quien vista este inmaculado vestido sea tan inmarcesible como las flores del Cerezo Sagrado.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104144,
+    113031,
+    101206,
+    112046,
+    104328,
+    113034
+  ]
+}
