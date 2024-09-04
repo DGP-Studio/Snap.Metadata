@@ -1,0 +1,1135 @@
+{
+  "Id": 10000025,
+  "PromoteId": 25,
+  "Sort": 16,
+  "Body": 1,
+  "Icon": "UI_AvatarIcon_Xingqiu",
+  "SideIcon": "UI_AvatarIcon_Side_Xingqiu",
+  "Name": "Xingqiu",
+  "Description": "Um jovem carregando uma espada longa que é frequentemente visto em estantes de livros. Ele tem um coração de ouro e anseia por justiça e equidade para todos.",
+  "BeginTime": "2020-09-15T04:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 1,
+  "BaseValue": {
+    "HpBase": 857.08356,
+    "AttackBase": 16.9176,
+    "DefenseBase": 63.51975
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 2531,
+        "Proud": {
+          "Descriptions": [
+            "Dano do 1° Golpe|{param1:F1P}",
+            "Dano do 2° Golpe|{param2:F1P}",
+            "Dano do 3° Golpe|{param3:F1P}+{param4:F1P}",
+            "Dano do 4° Golpe|{param5:F1P}",
+            "Dano do 5° Golpe|{param6:F1P}+{param7:F1P}",
+            "Dano de Ataque Carregado|{param8:F1P}+{param9:F1P}",
+            "Consumo de Stamina de Ataque Carregado|{param10:F1}",
+            "Dano Durante a Queda|{param11:F1P}",
+            "Dano de Queda de Baixa/Alta Altitude|{param12:P}/{param13:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.46612,
+                0.47644,
+                0.28552,
+                0.28552,
+                0.55986,
+                0.35862,
+                0.35862,
+                0.473,
+                0.56158,
+                20,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.50406,
+                0.51522,
+                0.30876,
+                0.30876,
+                0.60543,
+                0.38781,
+                0.38781,
+                0.5115,
+                0.60729,
+                20,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.542,
+                0.554,
+                0.332,
+                0.332,
+                0.651,
+                0.417,
+                0.417,
+                0.55,
+                0.653,
+                20,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.5962,
+                0.6094,
+                0.3652,
+                0.3652,
+                0.7161,
+                0.4587,
+                0.4587,
+                0.605,
+                0.7183,
+                20,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.63414,
+                0.64818,
+                0.38844,
+                0.38844,
+                0.76167,
+                0.48789,
+                0.48789,
+                0.6435,
+                0.76401,
+                20,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.6775,
+                0.6925,
+                0.415,
+                0.415,
+                0.81375,
+                0.52125,
+                0.52125,
+                0.6875,
+                0.81625,
+                20,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.73712,
+                0.75344,
+                0.45152,
+                0.45152,
+                0.88536,
+                0.56712,
+                0.56712,
+                0.748,
+                0.88808,
+                20,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.79674,
+                0.81438,
+                0.48804,
+                0.48804,
+                0.95697,
+                0.61299,
+                0.61299,
+                0.8085,
+                0.95991,
+                20,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.85636,
+                0.87532,
+                0.52456,
+                0.52456,
+                1.02858,
+                0.65886,
+                0.65886,
+                0.869,
+                1.03174,
+                20,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.9214,
+                0.9418,
+                0.5644,
+                0.5644,
+                1.1067,
+                0.7089,
+                0.7089,
+                0.935,
+                1.1101,
+                20,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.995925,
+                1.017975,
+                0.61005,
+                0.61005,
+                1.196212,
+                0.766237,
+                0.766237,
+                1.010625,
+                1.199887,
+                20,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.083566,
+                1.107557,
+                0.663734,
+                0.663734,
+                1.301479,
+                0.833666,
+                0.833666,
+                1.09956,
+                1.305478,
+                20,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.171208,
+                1.197139,
+                0.717419,
+                0.717419,
+                1.406746,
+                0.901095,
+                0.901095,
+                1.188495,
+                1.411068,
+                20,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.258849,
+                1.28672,
+                0.771103,
+                0.771103,
+                1.512013,
+                0.968524,
+                0.968524,
+                1.27743,
+                1.516658,
+                20,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.354458,
+                1.384446,
+                0.829668,
+                0.829668,
+                1.626849,
+                1.042083,
+                1.042083,
+                1.37445,
+                1.631847,
+                20,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ]
+        },
+        "Id": 10381,
+        "Name": "Ataque Normal: Estilo Guhua",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 golpes rápidos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "Icon": "Skill_A_01"
+      },
+      {
+        "GroupId": 2532,
+        "Proud": {
+          "Descriptions": [
+            "Dano de Habilidade|{param1:P}+{param2:P}",
+            "Taxa de Redução de Dano|{param3:P}",
+            "Duração|{param4:F1}s",
+            "Tempo de Recarga|{param5:F1}s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                1.68,
+                1.912,
+                0.2,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                1.806,
+                2.0554,
+                0.21,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                1.932,
+                2.1988,
+                0.22,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                2.1,
+                2.39,
+                0.23,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                2.226,
+                2.5334,
+                0.24,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                2.352,
+                2.6768,
+                0.25,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                2.52,
+                2.868,
+                0.26,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                2.688,
+                3.0592,
+                0.27,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                2.856,
+                3.2504,
+                0.28,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                3.024,
+                3.4416,
+                0.29,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                3.192,
+                3.6328,
+                0.29,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                3.36,
+                3.824,
+                0.29,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                3.57,
+                4.063,
+                0.29,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                3.78,
+                4.302,
+                0.29,
+                15,
+                21
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                3.99,
+                4.541,
+                0.29,
+                15,
+                21
+              ]
+            }
+          ]
+        },
+        "Id": 10382,
+        "Name": "Espada de Guhua: Chuva Torrencial",
+        "Description": "Xingqiu realiza ataques duplos com sua espada, causando <color=#80C0FFFF>Dano Hydro</color>. Ao mesmo tempo, essa habilidade cria o número máximo de Chuvas das Espadas, que orbitarão o seu próprio personagem.\nAs Chuvas das Espadas têm as seguintes propriedades:\nQuando um personagem recebe Dano, a Chuvas das Espadas se despedaça, reduzindo a quantidade de Dano recebido.\nAumenta a resistência do personagem à interrupção.\n20% do <color=#80C0FFFF>Dano Hydro Adicional</color> de Xingqiu será convertido em Redução de Dano adicional para as Chuvas das Espadas.\n\nA quantidade máxima de adicional da Redução de Dano que pode ser obtida é de 24%.\nO número máximo inicial de Chuvas das Espadas é 3.\nO uso dessa habilidade aplica o estado <color=#80C0FFFF>Molhado</color> ao personagem.\n\n<i>\"É Mais fácil matar um dragão da chuva do que cortar a chuva.\"</i>",
+        "Icon": "Skill_S_Xingqiu_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 2539,
+      "Proud": {
+        "Descriptions": [
+          "Dano de Chuva de Espadas|{param1:F1P}",
+          "Duração|{param2:F1}s",
+          "Tempo de Recarga|{param3:F1}s",
+          "Energia Elemental|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              0.54272,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              0.583424,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              0.624128,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              0.6784,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              0.719104,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              0.759808,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              0.81408,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              0.868352,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              0.922624,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              0.976896,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              1.031168,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              1.08544,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              1.15328,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              1.22112,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              1.28896,
+              15,
+              20,
+              80
+            ]
+          }
+        ]
+      },
+      "Id": 10385,
+      "Name": "Espada Guhua: Retalhador de Chuva",
+      "Description": "Inicia o Trabalho com Lâminas do Arco-íris e luta usando uma chuva de espadas ilusórias, enquanto cria um número máximo de Chuvas das Espadas.\n\n<color=#FFD780FF>Trabalho com Lâminas do Arco-íris</color>\n·Os Ataques Normais do seu próprio personagem irão desencadear ataques consecutivos da Chuva das Espadas, infligindo <color=#80C0FFFF>Dano Hydro</color>.\nChuva das Espadas irá continuar no número máximo ao longo da duração da habilidade.\n\n<i>O \"Caminho do Cortador de Chuva\" é uma das técnicas esotéricas secretas da Seita Guhua.</i>",
+      "Icon": "Skill_E_Xingqiu_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 252101,
+        "Name": "Hidropático",
+        "Description": "Quando uma espada da Chuva das Espadas é quebrada ou quando sua duração acabar, regenera a Vida do personagem atual em 6% da Vida Máxima de Xingqiu.",
+        "Icon": "UI_Talent_S_Xingqiu_05"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 252201,
+        "Name": "Lâminas Entre Gotas de Chuva",
+        "Description": "Xingqiu ganha 20% de <color=#80C0FFFF>Dano Hydro Bônus</color>.",
+        "Icon": "UI_Talent_S_Xingqiu_06"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 252301,
+        "Name": "Flash do Gênio",
+        "Description": "Quando Xingqiu forja Materiais de Talento de Personagem, ele possui 25% de chance de retornar uma certa quantidade de materiais usados.",
+        "Icon": "UI_Talent_Combine_Talent"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 251,
+        "Name": "O Aroma Remanescente",
+        "Description": "Aumenta o número máximo de Chuva das Espadas em 1.",
+        "Icon": "UI_Talent_S_Xingqiu_01"
+      },
+      {
+        "Id": 252,
+        "Name": "Arco-Íris Acima do Céu Azul",
+        "Description": "Estende a duração da <color=#FFD780FF>Espada de Guhua - Retalhador de Chuva</color> por 3 segundos.\nReduz a <color=#80C0FFFF>RES Hydro</color> dos inimigos golpeados pelos ataques do retalhador de chuva em 15% por 4 segundos.",
+        "Icon": "UI_Talent_S_Xingqiu_02"
+      },
+      {
+        "Id": 253,
+        "Name": "Tecedor de Versos",
+        "Description": "Aumenta o Nível de <color=#FFD780FF>Espada de Guhua - Retalhador de Chuva</color> em 3.\nPode ser elevado até Nv.15.",
+        "Icon": "UI_Talent_U_Xingqiu_01",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 254,
+        "Name": "Abrandamento do Mal",
+        "Description": "Ao longo da duração da <color=#FFD780FF>Espada de Guhua - Retalhador de Chuva</color>, o Dano causado por <color=#FFD780FF>Espada de Guhua - Chuva Torrencial</color> é aumentado em 50%.",
+        "Icon": "UI_Talent_S_Xingqiu_03"
+      },
+      {
+        "Id": 255,
+        "Name": "Abrace a Chuva",
+        "Description": "Aumenta o Nível da <color=#FFD780FF>Espada de Guhua - Chuva Torrencial</color> em 3.\nPode ser elevado até Nv.15.",
+        "Icon": "UI_Talent_U_Xingqiu_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 256,
+        "Name": "Coleção de Poemas",
+        "Description": "A cada 2 golpes da <color=#FFD780FF>Espada de Guhua - Retalhador de Chuva</color> o ataque da chuva de espadas aumenta drasticamente o Dano do terceiro golpe, e ao atingir um inimigo, o terceiro golpe de chuva de espadas de Xingqiu regenerará 3 de Energia.",
+        "Icon": "UI_Talent_S_Xingqiu_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Galante Juvenil",
+    "Detail": "Um jovem carregando uma espada longa que é frequentemente visto em estantes de livros. Ele tem um coração de ouro e anseia por justiça e equidade para todos.",
+    "Association": 2,
+    "Native": "Guilda de Comerciantes de Feiyun",
+    "BirthMonth": 10,
+    "BirthDay": 9,
+    "VisionBefore": "Hydro",
+    "ConstellationBefore": "Fabulae Textile",
+    "CvChinese": "唐雅菁",
+    "CvJapanese": "皆川純子",
+    "CvEnglish": "Cristina Vee Valenzuela",
+    "CvKorean": "Kwak Kyu-mi",
+    "CookBonus": {
+      "OriginItemId": 108105,
+      "ItemId": 108136,
+      "InputList": [
+        100092,
+        100093,
+        100013
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Olá...",
+        "Context": "#Xingqiu ao seu serviço, {M#meu senhor}{F#minha senhora}! Confio humildemente que mesmo alguém como eu, um mero leitor de livros, ainda possa ser de alguma utilidade sob sua liderança sábia. Bom, muitas vezes não tenho a chance de falar com tanta formalidade. Foi muito bom!"
+      },
+      {
+        "Title": "Bate-papo - Noite Solitária",
+        "Context": "\"Foi numa noite de luar deserta que o herói se aproximou do vil covil límpido do dragão...\""
+      },
+      {
+        "Title": "Bate-papo - Artigo",
+        "Context": "Nunca embarco em uma viagem sem um bom livro para me acompanhar."
+      },
+      {
+        "Title": "Bate-papo - Pausa",
+        "Context": "\"É tão bom procrastinar e fazer o que gosta durante um dia conturbado.\""
+      },
+      {
+        "Title": "Bate-papo - Leitura",
+        "Context": "Se quiser saber o resto da história, aguarde o próximo volume."
+      },
+      {
+        "Title": "Bate-papo - Livros Novos",
+        "Context": "Estou pensando, devem chegar mais romances no Biblioteca Wanwen. Então, que tal irmos dar uma olhada lá?"
+      },
+      {
+        "Title": "Quando está chovendo...",
+        "Context": "Em suma, os guarda-chuvas sedosos da minha família não guardam a chuva, nem o sol. O único uso deles é pendurar na parede."
+      },
+      {
+        "Title": "Depois da Chuva...",
+        "Context": "Ainda bem que faz sol, senão, os livros iam ficar molhados."
+      },
+      {
+        "Title": "Quando Está Nevando...",
+        "Context": "Apenas nos dias deste tempo, sinto que ficar em casa é melhor que na livraria. Em casa está quentinho com uma fogueira, mas na livraria, não é possível ter fogo."
+      },
+      {
+        "Title": "Quando Faz Sol...",
+        "Context": "Ótimo tempo para praticar artes marciais... Mas tempo perfeito para a leitura. Ei, o que é esse olhar ridículo? Parece que você está tentando decifrar um texto estranho escrito na minha testa."
+      },
+      {
+        "Title": "Bom dia...",
+        "Context": "Bom dia! O tempo da manhã é bem precioso, se pudesse aproveitar para fazer algo que eu gosto."
+      },
+      {
+        "Title": "Boa tarde...",
+        "Context": "Não quero arroz, só quero comer petiscos. Podemos comer no quarto de estudo, assim eles não vão saber... Você quer ir comigo?... Contanto que evite derrubar migalhas nos livros."
+      },
+      {
+        "Title": "Saudações...",
+        "Context": "Vamos pegar alguns Vaga-lumes a fim de ter luz para ler, o que você acha? Hum? Estou brincando, não leve a sério! Faz mal aos olhos."
+      },
+      {
+        "Title": "Boa noite...",
+        "Context": "Você vai me encontrar no mesmo lugar de sempre amanhã. Portanto, nos veremos então. A menos que você consiga se perder no caminho."
+      },
+      {
+        "Title": "Sobre Xingqiu...",
+        "Context": "Sempre tenho que fazer um ato ao redor de outras pessoas, porque elas me veem apenas como o segundo filho da Guilda dos Comerciantes de Feiyun. É um alívio que eu possa ser eu mesmo ao seu redor. Acho que é porque você não me vê da mesma maneira."
+      },
+      {
+        "Title": "Sobre Nós - Amigos leitores",
+        "Context": "#Você é {M#o meu amigo}{F#a minha amiga} de livro. Como assim? Luta? Clã de Guhua? Companheiro de luta? Ugh! O que você está falando? Achei que era um segredo entre nós dois!"
+      },
+      {
+        "Title": "Sobre Nós - Irmandade",
+        "Context": "#Vamos ter um ritual de irmandade, mesmo no Altar do Relevo de Jueyun. Não recuse, por favor. Você já soube tudo sobre mim, inclusive, sobre meu eu verdadeiro, que foi sempre escondido... Não vou te deixar escapar, a não ser que você seja sempre {M#o meu companheiro}{F#a minha companheira}."
+      },
+      {
+        "Title": "Sobre a Visão - Livros Antigos",
+        "Context": "Não há muitos registros sobre assuntos relativos a Visões, mas tenho uma passagem dedicada ao tema em minha coleção de textos antigos. Posso te emprestar, se você quiser."
+      },
+      {
+        "Title": "Sobre a Visão - Realização",
+        "Context": "Cheguei a uma epifania baseada em algumas coisas que tenho lido - em última análise, a essência das artes da lança e da espada é exatamente a arte da coordenação entre o olho e a mão. Ugh, é um pouco difícil explicar... Se você quiser saber mais, venha comigo ao Pavilhão Wangshan. Mas primeiro, você tem que me garantir que não vai rir."
+      },
+      {
+        "Title": "Algo para Compartilhar...?",
+        "Context": "Lugares imperdíveis em Liyue? Essa é uma pergunta difícil. Hmm... O lugar que eu mais sentiria falta se desaparecesse seria a Biblioteca Wanwen, em primeiro lugar. A Seita Guhua também estaria entre os primeiros dez."
+      },
+      {
+        "Title": "Coisas Interessantes...",
+        "Context": "Antigamente eu gostava de coelhos, mas agora sou mais fã de cervos. Para mim, o ditado: \"Que minha resistência final seja um monumento ao cavalheirismo\" significa uma epifania de abandonar tudo do mundo material, no entanto, o cervo simboliza a esperança de uma vida nova. Oh, como eu adoraria vê-lo novamente."
+      },
+      {
+        "Title": "Sobre Beidou...",
+        "Context": "A Beidou é uma pessoa que eu altamente respeito. Mas espero que ela não me chame de \"garoto\", e não toque no meu cabelo."
+      },
+      {
+        "Title": "Sobre Ningguang...",
+        "Context": "Na sua capacidade como Tianquan, sou obrigado a respeitá-la. Caso contrário, ela poderia criar problemas para meu pai e meu irmão. A nível pessoal? Deixe-me pensar... Acho que irei com \"Sem comentários\", não vou falar mal dos outros."
+      },
+      {
+        "Title": "Sobre Chongyun...",
+        "Context": "Ugh... Quanto ao Chongyun, embora nos conheçamos muito bem, tenho que ser mais cauteloso se formos companheiros de missão. Ele ainda está focado no \"ofício\" das artes marciais, mas não entende o que realmente é cavalheirismo. Para entender profundamente o significado de cavalheirismo, exige muito tempo, treinamento e, especialmente... Habilidade para comer comida picante. Hahaha."
+      },
+      {
+        "Title": "Sobre Yunjin...",
+        "Context": "A Yunjin só tem motivação de criar novas óperas quando tem bebidas favoritas. Por minha vez, guardo muitos chás em baixo da cama, que servem para motivá-la quando está sem inspirações... Assim, as lendas nunca se acabam."
+      },
+      {
+        "Title": "Sobre Hutao...",
+        "Context": "Aquela garota é a mestre da Funerária de Wangsheng. Ei? Você quer saber a minha opinião sobre a personalidade dela? Existem muitos rumores sobre como ela trabalha. Mas eu acho que se você realmente quiser entender alguém, deve descobrir o que é que eles realmente desejam."
+      },
+      {
+        "Title": "Sobre Qiqi",
+        "Context": "Eu sempre imaginei que há mais na Qiqi do que se vê. Mas é impossível ter uma conversa com ela quando Baizhu está por perto. Hmm... Poderíamos esperar até que Baizhu fizesse uma visita domiciliar a um de seus outros pacientes e a gente encurralasse ela..."
+      },
+      {
+        "Title": "Sobre Xiangling...",
+        "Context": "Quando encontrar com a Xiangling, observe as suas expressões faciais. Especialmente quando ela acabou de encontrar novos ingredientes, quanto mais sorri, mais perigoso. Ela vai te arrastar para provar novas culinárias... Neste caso, o Chongyun sempre é a minha grande ajuda."
+      },
+      {
+        "Title": "Sobre Xinyan...",
+        "Context": "Onde é que é o espetáculo da Xinyan? Do Penhasco Chihu para o Terraço de Yujing, não tem como fugir desse barulho... *Suspiro* Que saudades dos tempos em que se podia ler quietamente."
+      },
+      {
+        "Title": "Sobre o Albedo...",
+        "Context": "Já tenho ideia de ilustração dos três seguintes volumes! Ah! Eu tenho que anotar essa inspiração, e enviar uma carta ao Príncipe do Giz."
+      },
+      {
+        "Title": "Sobre Zhongli...",
+        "Context": "O meu pai e os meus irmãos receberam este senhor de uma maneira bem respeitosa... Portanto, este senhor deve ser muito prestigiado. Ouvi dizer que ele presta serviço relacionado a funerais dos Adepti. Parece ser gentil. Vamos explorar os seus segredos escondidos?"
+      },
+      {
+        "Title": "Sobre Shenhe...",
+        "Context": "Acho que a Srta. Shenhe parece me olhar com certa ferocidade, então não ouso me aproximar dela. Que estranho, eu inadvertidamente a chateei alguma vez? Ou talvez... chateei alguém próximo a ela?"
+      },
+      {
+        "Title": "Sobre Yelan...",
+        "Context": "Você já ouviu a expressão \"uma pessoa de muitas caras\"? A Srta. Yelan me dá essa sensação. Quando ela veio visitar minha família, meu pai e irmão a trataram com muito respeito, e ela também foi muito educada. Parecia ser uma jovem educada e amadurecida para mim. Mas quando a vi noutro lugar, ela deu uma impressão totalmente diferente."
+      },
+      {
+        "Title": "Sobre Gaming...",
+        "Context": "O trabalho de Gaming tem toda a pompa de um herói cavalheiro. Imagine a cena — em uma noite escura e sem lua, uma figura jovem e solitária revestida de preto está parada, destemida em uma estrada reclusa. Dizem que o domínio dele das artes marciais é incomparável, e a fera mítica ao lado dele sempre realiza seu desejo... Bandidos, tomem cuidado, pois ninguém que o desafia sai ileso... Quando ele tiver o tempo, eu adoraria saber mais sobre as experiências dele como guarda. Você deveria ver também."
+      },
+      {
+        "Title": "Mais sobre Xingqiu - I",
+        "Context": "#Como você está, {F#senhorita}{M#senhor}? Se nada mais tiver para fazer, que tal uma caminhada até a Biblioteca Wanwen?"
+      },
+      {
+        "Title": "Mais sobre Xingqiu - II",
+        "Context": "Você quer saber por que eu gosto de ler sozinho?... Bem, estudar não é um mau hábito. Não há muito mais do que isso, mesmo."
+      },
+      {
+        "Title": "Mais sobre Xingqiu - III",
+        "Context": "Você está disponível hoje? Ok, já estou pronto. Meu livro? Não tem problema. Posso ler a qualquer hora quando voltar, mas as pessoas que vamos ajudar não podem esperar."
+      },
+      {
+        "Title": "Mais sobre Xingqiu - IV",
+        "Context": "Você já tem uma boa ideia? Você quer escrever um romance policial de artes marciais baseado nas nossas aventuras juntos? E você quer chamá-lo de \"Crônicas de Wanwen\"? Hahaha... É uma boa ideia, muito boa mesmo. Mas vou ter que me recusar, me desculpe. Sim, realmente..."
+      },
+      {
+        "Title": "Mais sobre Xingqiu - V",
+        "Context": "\"Um tecelão de versos que tira de um oceano de expressão...\" Essa é a reputação que aspiro. Mas você é a única pessoa com quem posso compartilhar isso. Na verdade, estou escrevendo um romance... Mas você ainda não pode ver. Ainda não. Porém, chegará a hora... Você poderá lê-lo quando estiver à venda nas livrarias de toda a cidade de Liyue."
+      },
+      {
+        "Title": "Passatempos de Xingqiu...",
+        "Context": "O meu passatempo é ler. Basicamente eu leio um pouco de tudo! Por que você está me olhando dessa maneira? É um segredo entre nós dois, não é preciso deixar todo mundo saber."
+      },
+      {
+        "Title": "Preocupações de Xingqiu...",
+        "Context": "O que me irrita? Hmm... Bem, um dia, meu irmão herdará o negócio da família. O que vai acontecer comigo então? Temo que minha atual existência despreocupada... Oh - não, não, não, não se trata do meu status ou algo parecido. Eu não me importo com esse tipo de coisa. Acho que meu irmão é uma pessoa muito simplória e eu provavelmente acabaria tendo que fazer a maior parte do seu trabalho por ele..."
+      },
+      {
+        "Title": "Comida Favorita...",
+        "Context": "Eu gosto de frutos-do-mar ao estilo Yue. Provavelmente porque estou acostumado a uma dieta bastante balanceada em casa."
+      },
+      {
+        "Title": "Comida que Odeia...",
+        "Context": "Eu odeio cenoura, a minha mãe sempre usava cenoura para fazer... Não consigo continuar... Só de pensar nisso eu já fico com vontade de vomitar..."
+      },
+      {
+        "Title": "Recebendo Presentes — I",
+        "Context": "Este é o tipo de comida que você só precisa comer uma vez na vida para nunca esquecer o sabor."
+      },
+      {
+        "Title": "Recebendo Presentes — II",
+        "Context": "Com dotes culinários como o seu, seria uma pena não abrir seu próprio restaurante, não acha?"
+      },
+      {
+        "Title": "Recebendo Presentes — III",
+        "Context": "Coma, coma. Não faça cerimônia."
+      },
+      {
+        "Title": "Aniversário - Felicitações",
+        "Context": "Feliz Aniversário! Muitas felicidades, muitos anos de vida!"
+      },
+      {
+        "Title": "Aniversário - Costumes",
+        "Context": "Segundo registros históricos, a ponte de pedra de Tiancheng foi formada por uma pedra caída que foi lançada pelo Arconte Geo Morax em batalha. Se você caminhar pela ponte no seu aniversário e jogar Mora no mar de ambos os lados, você será abençoado no próximo ano... O seu aniversário só acontece uma vez por ano, então seja rápido se quiser ir. Eu não estou brincando, é verdade! Vá experimentá-lo e você verá!"
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Introdução",
+        "Context": "Se não fosse pela minha capacidade, a causa que me inspira tanto permaneceria confinada às páginas que exaltam suas virtudes."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Desenvolvimento",
+        "Context": "Se eu não tivesse bom senso, meus esforços teriam sido mal orientados. Se eu procurasse os pormenores ignorando o meu objetivo principal, eu teria me tornado um filisteu que busca apenas a violência."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Auge",
+        "Context": "Há uma causa que eu procuro defender, mas poucos em Liyue compartilham minhas aspirações. Isto eu conheço há muito tempo, pois é um caminho que eu percorri por muitos anos."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Conclusão",
+        "Context": "Estou muito grato por sua companhia em minha jornada. Estou orgulhoso de minhas realizações, tanto nas artes marciais como na defesa da causa tão preciosa para o meu coração... Ah, acho que não há mais necessidade de eufemismos. Cavalheirismo! Essa é a causa que me inspira, e que eu procuro defender. Por que eu deveria me afastar disso? Estou certo de que meu pai e meu irmão não têm mais questionamento sobre o que eu defendo até agora. ...Mas, é claro, ainda preciso ser um pouco discreto na forma como faço meus negócios."
+      },
+      {
+        "Title": "Habilidade Elemental - I",
+        "Context": "A chuva revelará o seu destino!"
+      },
+      {
+        "Title": "Habilidade Elemental - II",
+        "Context": "Ah... Hunf!"
+      },
+      {
+        "Title": "Habilidade Elemental - III",
+        "Context": "Conheça minha espada!"
+      },
+      {
+        "Title": "Supremo - I",
+        "Context": "Presencie o poder de Guhua!"
+      },
+      {
+        "Title": "Supremo - II",
+        "Context": "Deixe-me ler um verso para você."
+      },
+      {
+        "Title": "Supremo - III",
+        "Context": "Retalhador de Chuva!"
+      },
+      {
+        "Title": "Início da Corrida - I",
+        "Context": "Corpo e mente."
+      },
+      {
+        "Title": "Início da Corrida - II",
+        "Context": "Hora de agir."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - I",
+        "Context": "Excelente."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - II",
+        "Context": "Caça ao tesouro... Um empenho valoroso."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - III",
+        "Context": "Espero que encontremos literatura antiga perdida há muito tempo."
+      },
+      {
+        "Title": "Vida Baixa - I",
+        "Context": "Mudança de planos..."
+      },
+      {
+        "Title": "Vida Baixa - II",
+        "Context": "Não posso mais me segurar."
+      },
+      {
+        "Title": "Vida Baixa - III",
+        "Context": "Que meu ato final seja um monumento ao cavalheirismo."
+      },
+      {
+        "Title": "Aliado com Vida baixa - I",
+        "Context": "Venha. Bolei um plano."
+      },
+      {
+        "Title": "Aliado com Vida baixa - II",
+        "Context": "Ande com cuidado."
+      },
+      {
+        "Title": "Derrotado - I",
+        "Context": "Ensinei a você... tudo... o que eu sabia..."
+      },
+      {
+        "Title": "Derrotado - II",
+        "Context": "As chamas mais intensas... se apagam mais cedo..."
+      },
+      {
+        "Title": "Derrotado - III",
+        "Context": "Fiquei sem saída..."
+      },
+      {
+        "Title": "Ataque Leve Sofrido - I",
+        "Context": "Um pequeno obstáculo."
+      },
+      {
+        "Title": "Ataque Pesado Sofrido - I",
+        "Context": "Baixei a guarda."
+      },
+      {
+        "Title": "Ataque Pesado Sofrido - II",
+        "Context": "Essa não foi boa..."
+      },
+      {
+        "Title": "Entrando na Equipe - I",
+        "Context": "Que o conhecimento te guie."
+      },
+      {
+        "Title": "Entrando na Equipe - II",
+        "Context": "O cavalheirismo nunca morrerá."
+      },
+      {
+        "Title": "Entrando na Equipe - III",
+        "Context": "Pela justiça."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalhes",
+        "Context": "Todo comerciante no Porto de Liyue conhece Xingqiu da Guilda de Comerciantes de Feiyun.\nTodos o veem como um jovem gentil e educado, que é um excelente aluno. Em suma, um dos principais talentos em todos os sentidos.\nComo o segundo filho da família, Xingqiu não é obrigado a carregar o fardo de gerenciar os assuntos da guilda. No entanto, Xingqiu possui um talento acadêmico único entre seus colegas - isto é, os filhos dos comerciantes mais ricos de Liyue - e era frequentemente elogiado por seus tutores quando jovem.\nO irmão mais velho de Xingqiu, enquanto aprendia os negócios da família com o pai, acreditava firmemente que Xingqiu se tornaria um grande trunfo para os negócios um dia.\nNo entanto, pouco sabia que Xingqiu, depois de terminar os volumes assustadoramente grossos de comércio e filosofia, escondia entre eles romances de artes marciais, que passou a ler incessantemente a partir de então.\nÀs vezes, Xingqiu desaparece repentinamente por horas seguidas, sem explicação. Quando perguntado o motivo, ele simplesmente responde: \"Um momento sozinho\"."
+      },
+      {
+        "Title": "História 1",
+        "Context": "Para Xingqiu, \"um momento sozinho\" pode significar muitas coisas.\nPor exemplo, ir à Livraria Wanwen para ler os últimos romances ou ir à Casa de Chá para conhecer as novas bebidas de Yunjin.\nÀs vezes, isso significa que ele foi recrutado para ser um \"guerreiro da justiça\".\nDerrotar bandidos na estrada, afugentar monstros, ajudar crianças pobres a pegar suas pipas nas copas das árvores... Tudo isso é responsabilidade de um herói da justiça.\nEle também viajava disfarçado, assim como nas cenas clássicas dos romances, e no final de suas aventuras não hesitaria em usar o poder da Guilda de Comerciantes para resolver alguns problemas complexos quando a violência não era a resposta."
+      },
+      {
+        "Title": "História 2",
+        "Context": "Um dia, o irmão mais velho de Xingqiu veio procurá-lo, mas descobriu que ele não estava por perto. Quando Xingqiu voltou mais tarde, ele encontrou seu irmão no corredor.\n\"Seu quarto estava uma bagunça, então eu lhe ajudei a arrumar. Ouça, você e eu somos responsáveis pela reputação da Guilda de Comerciantes de Feiyun. Temos que agir de acordo. Se você não pode nem limpar um quarto, como vai querer ajudar o mundo? Um Adeptus disse uma vez...\"\nDepois de meia hora de palestras, Xingqiu foi finalmente liberado, mas seu irmão disse algo estranho no quarto:\n\"Não entrarei no seu quarto sem permissão da próxima vez... vou garantir que as empregadas façam o mesmo\".\nXingqiu não fazia ideia do que estava falando. No entanto, quando seu irmão se virou, com um olhar desanimado, ele murmurou para si mesmo: \n\"Aqueles livros debaixo da cama... Não, eu não deveria folhear esse tipo de livro， eles são... Afinal de contas, Xingqiu está crescendo... Não quero dar bronca o tempo todo... Puberdade, talvez?\"\nNo final, até Xingqiu achou estranho, esperando que uma das empregadas tivesse algo a dizer sobre o estoque de romances de artes marciais embaixo da cama, mas ninguém nunca entrou em seu quarto novamente."
+      },
+      {
+        "Title": "História 3",
+        "Context": "Para impedir que Xingqiu passasse o dia inteiro na Biblioteca Wanwen na Encosta de Feiyun, seu pai concordou em deixá-lo aprender artes marciais com o clã Guhua. Para sua consternação, Xingqiu rapidamente descobriu que Guhua era uma arte em esquecimento que estava em constante declínio há anos. Não existiam aulas adequadas e o dojo de luxo em que ele havia se inscrito nem pertencia ao clã - eles acabaram de alugá-lo temporariamente para manter as aparências.\nO pai de Xingqiu estava, obviamente, ciente desses assuntos com antecedência. Para ele, tudo era apenas por diversão. Ele achava que Xingqiu se contentaria em aprender um pouco da arte das lâminas para se exibir, e não para defesa pessoal.\nEle não contava que o prodigiosamente inteligente e extremamente culto Xingqiu fosse um talento tão notável em Guhua quanto em todas as outras disciplinas em que se dedicou. Uma combinação de sua própria intuição e amplo conhecimento da literatura antiga fez com que ele fosse capaz de revitalizar completamente a arte morta.\nXingqiu ficou desapontado com o programa de artes marciais de Guhua no início, mas aprendeu outros truques.\nPó de cal, areia fumegante, peixe de papel, engolir espadas, soprar fogo... Xingqiu ficou deslumbrado com as várias opções.\nEle decidiu imediatamente que aprenderia todas elas, não importando quanto tempo levasse. Ele pensou que seriam úteis em seu repertório durante as futuras façanhas como um herói errante."
+      },
+      {
+        "Title": "História 4",
+        "Context": "Há dois lados na personalidade do Xingqiu. Enquanto quieto e despretensioso na frente de estranhos, ele é sociável e falador na companhia de amigos e familiares próximos. Embora mais contido que seu irmão mais velho, ele ainda tem um lado brincalhão e travesso.\nA pessoa que geralmente suporta o peso de seu senso de humor bizarro é alguém chamado Chongyun, um polímata que geralmente é encontrado em uma das trilhas da floresta em torno de Liyue.\n\"Chongyun... Encontrei uma casa mal-assombrada para você praticar...\"\n\"Chongyun, você precisa acreditar em mim... Não fui eu quem colocou as armadilhas dentro daquela casa mal-assombrada - O quê? Não é assombrada? Bem... Eu não tinha como saber, não é?\"\n\"Chongyun... Não me olhe assim... Olha, você está ferido, é melhor você ficar lá e descansar um pouco.\"\n\"Chongyun, temos uma empregada que aprendeu a arte da terapia com óleos essenciais na casa de um nobre em Sumeru... Que tal pedir para ela que cuide das suas feridas?\""
+      },
+      {
+        "Title": "História 5",
+        "Context": "Ser um cavaleiro significa coisas diferentes para pessoas diferentes.\nCavaleiro significa ouvir sua consciência chamando você para agir diante de uma injustiça, certo? Ou talvez seja simplesmente saber o certo e o errado? Não, isso não basta - deve ter algo a ver com ser uma pessoa justa...\nPara Xingqiu, cavaleiro significa simplesmente: seja bom e faça o bem.\nComo filho de um comerciante rico no Porto de Liyue, ele nasceu para o mundo do comércio. Aprendeu noções de cavalheirismo gradualmente à medida que crescia.\nNo entanto, uma visão mudou tudo - ele finalmente conseguia realizar aquelas ações lendárias com as quais só podia sonhar quando criança.\nClaro, não há como se desfazer completamente de seus deveres na Guilda, mas desde que ele saia e seja um herói, mesmo que ocasionalmente, já ficava satisfeito com sua vida.\nA única coisa que pode tirar o sorriso do rosto de Xingqiu é quando os cínicos questionam os verdadeiros motivos dos heróis cavaleiros.\nPosição, reputação, recompensa, acordos sombrios... Sempre que Xingqiu ouve pessoas falando mal sobre verdadeiros heróis, a expressão em seu rosto pode não mudar, mas ele certamente inclui essas pessoas em uma seção especial de sua lista negra reservada para quem ele odeia mais do que cenouras."
+      },
+      {
+        "Title": "\"A Lenda da Espada\"",
+        "Context": "Xingqiu escreveu uma vez um romance de artes marciais chamado \"A Lenda da Espada\", com base em suas próprias experiências, com a intenção de publicá-lo no Porto de Liyue.\nPara sua surpresa, seu manuscrito foi rejeitado pelas editoras locais, que acreditavam que ninguém teria interesse em uma história com \"um cenário tão irrealista e um enredo tão banal\".\nRessentido, Xingqiu imprimiu algumas cópias em particular e as colocou furtivamente na livraria Wanwen, que ele frequentava. Mas realmente ninguém se interessou, um fato que ele não aceitou muito bem.\nEle não sabia, no entanto, que um comerciante que passava em Inazuma realmente comprou uma cópia para levar para casa, onde recebeu ótimas críticas. Os escritores da região tentaram copiar o sucesso de \"A Lenda da Espada\", mas nenhum conseguiu - ela continua sendo a obra mais vendida até hoje."
+      },
+      {
+        "Title": "Visão",
+        "Context": "A escola de artes marciais conhecida como o Clã Guhua está em declínio há centenas de anos. Em seu auge, o nome do Clã ressoava como aço por todo o porto. Diz-se que existem três grandes artes secretas do Clã - os caminhos do \"Perfurador de Luz\" para lanças, \"Cortador de Chuva\" para as espadas e \"Executor de Vidas\" para aqueles que se destacaram em ambos. As três artes seriam refinadas ao longo das gerações, e com o tempo alcançariam seu ápice. No entanto, a força do Clã continuava a diminuir, levando-os a perder sua influência... As três artes se tornaram diamantes escondidos em meio às pedras brutas, esperando silenciosamente por um sucessor.\nDepois de muitos anos, o Clã Guhua finalmente conseguiria um em Xingqiu. Foi ele quem dominou com sucesso o antigo \"Princípio Marcial\", após apenas quatro anos de estudo.\nA arte da arma Guhua enfatiza o uso da arma como uma extensão de seu corpo, e de fato essa é uma ideia comum entre as várias escolas de artes marciais em Liyue. Mas para Xingqiu, a base da lança e da espada era o uso de uma Visão. Os artistas marciais deveriam ver uma Visão como uma extensão de si mesmos, e ver sua arma como uma extensão da Visão. Assim, ele diz que: as artes da lança e da espada são apenas a arte do \"olho\".\nTendo chegado a essa epifania, Xingqiu pegou uma pluma e escreveu um verso sobre o Princípio Marcial. Lendo-o, os Guhua foram sacudidos por lágrimas, declarando que \"Xingqiu não precisa do Clã Guhua, mas o Clã Guhua precisa de Xingqiu\". Desde então, esse verso está guardado na sede do Clã no Pavilhão Wangshan. Os discípulos são proibidos de lê-lo, muito menos os forasteiros.\nO verso lê-se assim:\nAs artes do Guhua eu muito estudei, em seus segredos sou treinado, agora suas profundezas há muito perdidas caem sobre mim como a chuva abençoada.\nO coração pulsante da arte da espada de Guhua é como uma chuva de flores flutuantes. Uma poderá desabrochar, mas aqueles que não a lerem perecerão.\nA lança Guhua é uma dança de lanternas, como as chamas no escuro profundo da noite. Como as faíscas, elas se dispersam com facilidade no escuro, depois se unem como o amanhecer que se aproxima.\nDizem que a espada é como seu braço - eu digo que o brilho está no olho de quem vê, uma luz como o amanhecer claro que se aproxima.\nAqueles que vagueiam não carregam o fardo. Cortam livremente a chuva e perfuram a luz com sabedoria. Como um dragão-cobra, eles não podem ser subjugados. Em seu olho direito está a lâmina, e no outro a lança.\nEste texto deveria ter sido de leitura livre para todos. A única razão pela qual ele foi guardado é a péssima caligrafia."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 202501,
+      "Name": "Bambu da Chuva",
+      "Description": "Roupas formais da Guilda de Comerciantes de Feiyun para Xingqiu. Os bordados de bambu são refinados e lhe fazem vantagem, mas o aspecto favorito da roupa para Xingqiu são os bolsos internos, assim ele pode guardar uma novel.",
+      "IsDefault": false,
+      "FrontIcon": "UI_AvatarIcon_XingqiuCostumeBamboo",
+      "SideIcon": "UI_AvatarIcon_Side_XingqiuCostumeBamboo"
+    },
+    {
+      "Id": 202500,
+      "Name": "Magnólias Brocadas",
+      "Description": "Um vestuário de Xingqiu. Uma roupa de alta qualidade feita com seda vendida pela Guilda de Comerciantes de Feiyun.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104124,
+    113012,
+    100029,
+    112007,
+    104318,
+    113006
+  ]
+}

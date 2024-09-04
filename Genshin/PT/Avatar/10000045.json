@@ -1,0 +1,1080 @@
+{
+  "Id": 10000045,
+  "PromoteId": 45,
+  "Sort": 30,
+  "Body": 3,
+  "Icon": "UI_AvatarIcon_Rosaria",
+  "SideIcon": "UI_AvatarIcon_Side_Rosaria",
+  "Name": "Rosaria",
+  "Description": "Uma freira que, além das suas vestes, não se parece em nada com uma pessoa do clero. Conhecida por seus modos e palavras diretos e frios, ela costuma trabalhar sozinha.",
+  "BeginTime": "2021-04-06T18:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 13,
+  "BaseValue": {
+    "HpBase": 1030.3239,
+    "AttackBase": 20.12304,
+    "DefenseBase": 59.514
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 4531,
+        "Proud": {
+          "Descriptions": [
+            "Dano do 1° Golpe|{param1:F1P}",
+            "Dano do 2° Golpe|{param2:F1P}",
+            "Dano do 3° Golpe|{param3:F1P}*2",
+            "Dano do 4° Golpe|{param4:F1P}",
+            "Dano do 5° Golpe|{param5:F1P}+{param6:F1P}",
+            "Dano de Ataque Carregado|{param7:P}",
+            "Consumo de Stamina de Ataque Carregado|{param8:F1}",
+            "Dano Durante a Queda|{param9:F1P}",
+            "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.5246,
+                0.516,
+                0.3182,
+                0.6966,
+                0.41624,
+                0.43,
+                1.3674,
+                25,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.5673,
+                0.558,
+                0.3441,
+                0.7533,
+                0.45012,
+                0.465,
+                1.4787,
+                25,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.61,
+                0.6,
+                0.37,
+                0.81,
+                0.484,
+                0.5,
+                1.59,
+                25,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.671,
+                0.66,
+                0.407,
+                0.891,
+                0.5324,
+                0.55,
+                1.749,
+                25,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.7137,
+                0.702,
+                0.4329,
+                0.9477,
+                0.56628,
+                0.585,
+                1.8603,
+                25,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.7625,
+                0.75,
+                0.4625,
+                1.0125,
+                0.605,
+                0.625,
+                1.9875,
+                25,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.8296,
+                0.816,
+                0.5032,
+                1.1016,
+                0.65824,
+                0.68,
+                2.1624,
+                25,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.8967,
+                0.882,
+                0.5439,
+                1.1907,
+                0.71148,
+                0.735,
+                2.3373,
+                25,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.9638,
+                0.948,
+                0.5846,
+                1.2798,
+                0.76472,
+                0.79,
+                2.5122,
+                25,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.037,
+                1.02,
+                0.629,
+                1.377,
+                0.8228,
+                0.85,
+                2.703,
+                25,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.1102,
+                1.092,
+                0.6734,
+                1.4742,
+                0.88088,
+                0.91,
+                2.8938,
+                25,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.1834,
+                1.164,
+                0.7178,
+                1.5714,
+                0.93896,
+                0.97,
+                3.0846,
+                25,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.2566,
+                1.236,
+                0.7622,
+                1.6686,
+                0.99704,
+                1.03,
+                3.2754,
+                25,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.3298,
+                1.308,
+                0.8066,
+                1.7658,
+                1.05512,
+                1.09,
+                3.4662,
+                25,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.403,
+                1.38,
+                0.851,
+                1.863,
+                1.1132,
+                1.15,
+                3.657,
+                25,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ]
+        },
+        "Id": 10451,
+        "Name": "Ataque Normal: Lança Eclesiástica",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 golpes com a lança.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "Icon": "Skill_A_03"
+      },
+      {
+        "GroupId": 4532,
+        "Proud": {
+          "Descriptions": [
+            "Dano de Habilidade|{param1:P}+{param2:P}",
+            "Tempo de Recarga|{param3:F1}s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.584,
+                1.36,
+                6
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.6278,
+                1.462,
+                6
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.6716,
+                1.564,
+                6
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.73,
+                1.7,
+                6
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.7738,
+                1.802,
+                6
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.8176,
+                1.904,
+                6
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.876,
+                2.04,
+                6
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.9344,
+                2.176,
+                6
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.9928,
+                2.312,
+                6
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.0512,
+                2.448,
+                6
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.1096,
+                2.584,
+                6
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.168,
+                2.72,
+                6
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.241,
+                2.89,
+                6
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.314,
+                3.06,
+                6
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.387,
+                3.23,
+                6
+              ]
+            }
+          ]
+        },
+        "Id": 10452,
+        "Name": "Confissão Desoladora",
+        "Description": "Rosaria muda rapidamente de posição e aparece atrás de seu alvo. Ela o perfura e corta com sua arma, infligindo <color=#99FFFFFF>Dano Cryo</color>.\nNão é possível deslocar-se para trás de inimigos de tamanho grande com esta habilidade.\n\n<i>A Freira Rosaria não perdoa os pecados daqueles que não se confessam a ela. Todos os pecadores serão castigados com o frio penetrante de uma punição proporcional à gravidade de seus pecados.</i>",
+        "Icon": "Skill_S_Rosaria_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 4539,
+      "Proud": {
+        "Descriptions": [
+          "Dano de Habilidade|{param1:P}+{param2:P}",
+          "Dano Contínuo da Lança de Gelo|{param3:P}",
+          "Duração|{param4:F1}s",
+          "Tempo de Recarga|{param5:F1}s",
+          "Energia Elemental|{param6:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              1.04,
+              1.52,
+              1.32,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              1.118,
+              1.634,
+              1.419,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              1.196,
+              1.748,
+              1.518,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              1.3,
+              1.9,
+              1.65,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              1.378,
+              2.014,
+              1.749,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              1.456,
+              2.128,
+              1.848,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              1.56,
+              2.28,
+              1.98,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              1.664,
+              2.432,
+              2.112,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              1.768,
+              2.584,
+              2.244,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              1.872,
+              2.736,
+              2.376,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              1.976,
+              2.888,
+              2.508,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              2.08,
+              3.04,
+              2.64,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              2.21,
+              3.23,
+              2.805,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              2.34,
+              3.42,
+              2.97,
+              8,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              2.47,
+              3.61,
+              3.135,
+              8,
+              15,
+              60
+            ]
+          }
+        ]
+      },
+      "Id": 10453,
+      "Name": "Ritos de Terminação",
+      "Description": "A oração característica de Rosaria. Após brandir sua arma para cortar os inimigos próximos, ela invoca uma Lança de Gelo frígida e golpeia o solo, infligindo <color=#99FFFFFF>Dano Cryo</color> ambas as vezes.\nEnquanto ativa, a Lança de Gelo emite ar frio de forma intermitente, infligindo <color=#99FFFFFF>Dano Cryo</color> aos inimigos ao redor.\n\n<i>O julgamento é algo muito incômodo. Sugiro que pulemos isso e passemos diretamente para a Oração do Decesso. Devido à minha falta de devoção ao Arconte Anemo, é muito fácil fazer isso.</i>",
+      "Icon": "Skill_E_Rosaria_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.12,
+                5
+              ]
+            }
+          ]
+        },
+        "Id": 452101,
+        "Name": "Confissões Forçadas",
+        "Description": "Quando a habilidade <color=#FFD780FF>Confissão Desoladora</color> ataca por trás de um inimigo, a Taxa CRIT de Rosaria aumenta em 12% por 5s.",
+        "Icon": "UI_Talent_S_Rosaria_05"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.15,
+                10,
+                0.15
+              ]
+            }
+          ]
+        },
+        "Id": 452201,
+        "Name": "Samaritana da Escuridão",
+        "Description": "Ao lançar <color=#FFD780FF>Ritos de Terminação</color>, a Taxa CRIT de todos os membros da Equipe (exceto Rosaria) é aumentada em 15% com base na Taxa CRIT de Rosaria por 10s.\nO aumento da Taxa CRIT obtido dessa maneira não pode ultrapassar 15%.",
+        "Icon": "UI_Talent_S_Rosaria_06"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.1
+              ]
+            }
+          ]
+        },
+        "Id": 452301,
+        "Name": "Caminhada Noturna",
+        "Description": "Durante a noite (18:00 - 06:00), os membros do seu grupo ganham o efeito Passos Ágeis: Veloc. Mov. aumenta em 10%.\nNão tem efeito em Domínios, Domínios Dizimados ou Abismo Espiral. O efeito Passos Ágeis não se acumula.",
+        "Icon": "UI_Talent_Rosaria_NightRunner"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 451,
+        "Name": "Guia do Pecado",
+        "Description": "Depois do ataque de Rosaria causar Dano CRIT, sua Vel. de ATQ aumenta em 10% e o Dano do Ataque Normal aumenta em 10%. Esse efeito dura por 4s.",
+        "Icon": "UI_Talent_S_Rosaria_01"
+      },
+      {
+        "Id": 452,
+        "Name": "Terra Profana",
+        "Description": "O Dano causado pela Lança de Gelo de <color=#FFD780FF>Ritos de Terminação</color> é estendido em 4s.",
+        "Icon": "UI_Talent_S_Rosaria_02"
+      },
+      {
+        "Id": 453,
+        "Name": "Ritual de Confissão",
+        "Description": "Aumenta o nível da habilidade <color=#FFD780FF>Confissão Desoladora</color> em 3.\nO nível máximo é 15.",
+        "Icon": "UI_Talent_U_Rosaria_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 454,
+        "Name": "Graça do Sofrimento",
+        "Description": "Quando a habilidade <color=#FFD780FF>Confissão Desoladora</color> causa um golpe CRIT, Rosaria regenera 5 pontos de Energia Elemental.\nEsse efeito só pode ocorrer uma vez quando a Confissão Desoladora é lançada.",
+        "Icon": "UI_Talent_S_Rosaria_03"
+      },
+      {
+        "Id": 455,
+        "Name": "Oração do Decesso",
+        "Description": "Aumenta o nível da habilidade <color=#FFD780FF>Ritos de Terminação</color> em 3.\nO nível máximo é 15.",
+        "Icon": "UI_Talent_U_Rosaria_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 456,
+        "Name": "Julgamento Divino",
+        "Description": "Os ataques de <color=#FFD780FF>Ritos de Terminação</color> reduzirão a RES Física dos Inimigos em 20% por 10s.",
+        "Icon": "UI_Talent_S_Rosaria_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Benevolência Espinhosa",
+    "Detail": "Uma freira que, além das suas vestes, não se parece em nada com uma pessoa do clero. Conhecida por seus modos e palavras diretos e frios, ela costuma trabalhar sozinha.",
+    "Association": 1,
+    "Native": "Igreja Favonius",
+    "BirthMonth": 1,
+    "BirthDay": 24,
+    "VisionBefore": "Cryo",
+    "ConstellationBefore": "Spinea Corona",
+    "CvChinese": "张安琪",
+    "CvJapanese": "加隈亜衣",
+    "CvEnglish": "Elizabeth Maxwell",
+    "CvKorean": "Kim Bo-na",
+    "CookBonus": {
+      "OriginItemId": 108032,
+      "ItemId": 108234,
+      "InputList": [
+        100064,
+        100012
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Olá...",
+        "Context": "#Discípul{F#a}{M#o}, se você encontrar um problema difícil de resolver, pode vir até mim para lhe ajudar, mas se for para rezar, é melhor procurar outra Freira.\n... Hã? Você não é {F#uma discípula}{M#um discípulo}?"
+      },
+      {
+        "Title": "Bate-papo - Entediada",
+        "Context": "Você ainda não foi embora?"
+      },
+      {
+        "Title": "Bate-papo - Hora extra",
+        "Context": "Tudo pode ser negociado, exceto hora extra."
+      },
+      {
+        "Title": "Bate-papo - Vida em Mondstadt",
+        "Context": "Trabalhar e viver bem a vida. Essa é a vida em Mondstadt, não é?"
+      },
+      {
+        "Title": "Quando está chovendo...",
+        "Context": "*Suspiro* Vai afetar minha eficiência."
+      },
+      {
+        "Title": "Quando Está Trovejando...",
+        "Context": "*Tsc* Que irritante."
+      },
+      {
+        "Title": "Quando Está Nevando...",
+        "Context": "O inverno chegou, tome cuidado."
+      },
+      {
+        "Title": "A Ventania Está Chegando...",
+        "Context": "Uma Bênção do Arconte Anemo Basbato? Espere um pouco, acho que seu nome é Bartobas..."
+      },
+      {
+        "Title": "Bom dia...",
+        "Context": "Bom dia... *Bocejo* Os trabalhos da Igreja já começaram? É muito cedo ainda."
+      },
+      {
+        "Title": "Boa tarde...",
+        "Context": "O sol da tarde é bom para dormir. Você também deveria experimentar."
+      },
+      {
+        "Title": "Saudações...",
+        "Context": "Boa noite. Se você for rezar ao entardecer, eu não participarei. Hã? Não tem por quê."
+      },
+      {
+        "Title": "Boa noite...",
+        "Context": "Vá descansar, não precisa se preocupar. Deixe o resto comigo."
+      },
+      {
+        "Title": "Sobre Rosaria - Freira",
+        "Context": "Eu? Sou apenas uma pessoa entediante. Como você já deve ter percebido, não gosto nem da Igreja, nem de trabalhar."
+      },
+      {
+        "Title": "Sobre Rosaria - Problemas",
+        "Context": "Essas irmãs são uma pior do que a outra. Quando não incomodam sobre alguma oração, nos chamam para cantar em um coral ou fazer outra coisa... Estou tentando me esconder, então não se atreva a dizer a elas que me viu aqui."
+      },
+      {
+        "Title": "Sobre Nós - Fé",
+        "Context": "Talvez um deus tenha o poder de nos proteger caso seja a sua vontade, mas não creio nisso. Se não, o sofrimento das pessoas seria em vão."
+      },
+      {
+        "Title": "Sobre Nós - Rezar",
+        "Context": "#Ore. Não para os deuses e nem para o bem dos outros... Mas por você mesm{F#a}{M#o}."
+      },
+      {
+        "Title": "Sobre Nós - Combate",
+        "Context": "Não se preocupe. Eu me encarrego do trabalho pesado."
+      },
+      {
+        "Title": "Sobre a Visão...",
+        "Context": "Uma Visão... Pode ser uma prova de força, ou uma medalha por ter sobrevivido... Quem sabe? Toda moeda tem dois lados. Não me atrevo a definir o que é uma Visão. Mas eu e minha Visão somos testemunhas uma da outra."
+      },
+      {
+        "Title": "Tem algo a dizer?",
+        "Context": "Nem sempre sabemos o motivo de coisas boas acontecem ou por que devemos ficar felizes com elas. Mas se alguma vez enfrentar um problema grande demais para ser resolvido, não perca as esperanças. Alguém pode estar disposto a ajudar, mesmo que você não possa vê-lo."
+      },
+      {
+        "Title": "Coisas Interessantes...",
+        "Context": "Não tenho nenhum interesse em plantas e outras espécies, mas o Dandelion é uma exceção. Não entendo como uma flor tão simples pode se transformar em um vinho tão delicioso. Uma taça de vinho de Dandelion depois do trabalho é ainda melhor do que tirar uma soneca."
+      },
+      {
+        "Title": "Sobre Diluc...",
+        "Context": "Não é óbvio? Aquele magnata está escondendo algo. Ele é confiante, mas discreto... E com um ar de perigo."
+      },
+      {
+        "Title": "Sobre Kaeya",
+        "Context": "O vinho tem suas utilidades... Como mostrar a verdadeira personalidade de alguém, por exemplo. Kaeya se esconde atrás de um véu de eloquência, mas eu consigo ver através dele. Haha, você deveria vê-lo quando está bêbado."
+      },
+      {
+        "Title": "Sobre Venti...",
+        "Context": "Há algo extremamente interessante sobre este bardo... Não consigo definir muito bem, mas ele é diferente das outras pessoas em Mondstadt."
+      },
+      {
+        "Title": "Sobre Barbara...",
+        "Context": "Barbara sempre está pegando no meu pé, me chamando para participar das orações e corais. Será que foi Victoria que a mandou ficar de olho em mim?"
+      },
+      {
+        "Title": "Sobre Jean...",
+        "Context": "Ela não é competente apenas em seu próprio trabalho, mas também ajuda os outros... É uma mulher que merece admiração."
+      },
+      {
+        "Title": "Sobre Albedo...",
+        "Context": "Ele é como um quadro pendurado na parede de um salão antigo. Enigmático e misterioso... Difícil de entender à primeira vista. Tenho interesse em pessoas com alguma história."
+      },
+      {
+        "Title": "Sobre Lisa...",
+        "Context": "Não gosto de pessoas preguiçosas no trabalho. Entretanto, entendo muito bem sua pontualidade na hora de largar do trabalho."
+      },
+      {
+        "Title": "Sobre Klee...",
+        "Context": "Nada mais do que um grande problema. Mas um problema muito lindo."
+      },
+      {
+        "Title": "Sobre Varka...",
+        "Context": "Varka tem boas intenções, mas é como um velho que não para de falar. Ele realmente se preocupa com os outros, não é mesmo?"
+      },
+      {
+        "Title": "Sobre meu pai...",
+        "Context": "Pai? Não uso essa palavra há muito tempo. Pode-se dizer que não tenho um pai - mas que também tenho vários. Isso surpreende você?"
+      },
+      {
+        "Title": "Mais sobre Rosaria (I)",
+        "Context": "Esqueça as formalidades. Estou aqui para terminar uma tarefa. Deixe o trabalho sujo comigo."
+      },
+      {
+        "Title": "Mais sobre Rosaria (II)",
+        "Context": "O que há de errado em uma freira que não acredita nos deuses? Há caçadores que não comem javali e pescadores que não comem peixe. Só porque você faz algo, não significa que ame fazê-lo. É assim que funciona em qualquer trabalho."
+      },
+      {
+        "Title": "Mais sobre Rosaria (III)",
+        "Context": "Quer beber um pouco? Esse é o Vinho de Dandelion desse ano, está muito bom."
+      },
+      {
+        "Title": "Mais sobre Rosaria (IV)",
+        "Context": "Mondstadt é uma fera de luz, velha e ao mesmo tempo jovem. Velha pois necessita de proteção constante, e jovem pois não consegue sobreviver por conta própria. É por isso que existem pessoas como eu. Eu cuido de Mondstadt assim como as outras irmãs cuidam dos cidadãos, guiando aqueles que amamos no caminho da liberdade. Hã? Por que eu a chamo de fera de luz? Porque pessoas como eu são encontradas apenas no escuro..."
+      },
+      {
+        "Title": "Mais sobre Rosaria (V)",
+        "Context": "Às vezes sinto que meu antigo eu ainda existe e segue ao meu lado, me incentivando. Tenho certeza de que você conhece essa sensação. Ao se aventurar por um novo caminho, não abandone seu antigo eu. Essa é a base sobre a qual você firma os pés. Não tema o seu passado e não tenha medo de enfrentá-lo."
+      },
+      {
+        "Title": "Passatempos de Rosaria...",
+        "Context": "Alguns problemas são resolvidos apenas com uma bebida forte. Mas nunca bebo a ponto de me embriagar."
+      },
+      {
+        "Title": "Preocupações de Rosaria",
+        "Context": "Ugh, não quero participar da apresentação do coral no próximo mês, mas aposto que a Irmã Victoria pedirá minha ajuda... Que incômodo."
+      },
+      {
+        "Title": "Comida Favorita...",
+        "Context": "Já provou carne guisada com vinho tinto? A combinação do álcool e carne de animais em um prato é simplesmente deliciosa."
+      },
+      {
+        "Title": "Comida que Odeia...",
+        "Context": "O molho do Bolinho de Batata é geleia? Isso é impensável!"
+      },
+      {
+        "Title": "Recebendo Presentes — I",
+        "Context": "Parece que nossos gostos culinários são similares."
+      },
+      {
+        "Title": "Recebendo Presentes — II",
+        "Context": "Pelo menos dá para matar a fome."
+      },
+      {
+        "Title": "Recebendo Presentes — III",
+        "Context": "Você gosta mesmo de comidas assim?"
+      },
+      {
+        "Title": "Aniversário...",
+        "Context": "Hoje é seu aniversário. Se tiver algum trabalho sujo para fazer, eu posso ajudar... Só não conte para ninguém, entendeu?"
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Introdução",
+        "Context": "Hmm, exatamente o que eu precisava."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Desenvolvimento",
+        "Context": "Precisa de ajuda? Estou livre agora."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Auge",
+        "Context": "Ótimo. Quanto mais forte eu ficar, mais eficiente serei."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Conclusão",
+        "Context": "Apesar de eu ser uma pessoa muito boa em lutar, nunca tive uma força tão grande como essa. Obrigada pela sua bênção."
+      },
+      {
+        "Title": "Habilidade Elemental - I",
+        "Context": "Heya!!"
+      },
+      {
+        "Title": "Habilidade Elemental - II",
+        "Context": "Julgamento!"
+      },
+      {
+        "Title": "Habilidade Elemental - III",
+        "Context": "Nem pense em ir embora!"
+      },
+      {
+        "Title": "Supremo - I",
+        "Context": "Punição!"
+      },
+      {
+        "Title": "Supremo - II",
+        "Context": "Trema!"
+      },
+      {
+        "Title": "Supremo - III",
+        "Context": "Boa noite..."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - I",
+        "Context": "...Hmm, existem algumas coisas interessantes aqui."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - II",
+        "Context": "Suponho que não foi tanto trabalho."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - III",
+        "Context": "Isso foi... Muito bom."
+      },
+      {
+        "Title": "Vida Baixa - I",
+        "Context": "Hmph. As coisas estão ficando interessantes..."
+      },
+      {
+        "Title": "Vida Baixa - II",
+        "Context": "Parece que vou fazer hora extra hoje."
+      },
+      {
+        "Title": "Vida Baixa - III",
+        "Context": "Você sabe das coisas, estou vendo!"
+      },
+      {
+        "Title": "Aliado com Vida baixa - I",
+        "Context": "Deixe-me lidar com isso!"
+      },
+      {
+        "Title": "Aliado com Vida baixa - II",
+        "Context": "#Não tente bancar {M#o herói}{F#a heroína}!"
+      },
+      {
+        "Title": "Derrotado - I",
+        "Context": "Pelo menos... não preciso mais... trabalhar."
+      },
+      {
+        "Title": "Derrotado - II",
+        "Context": "Talvez seja só... o desígnio sombrio do destino."
+      },
+      {
+        "Title": "Derrotado - III",
+        "Context": "Será este... meu trabalho final?"
+      },
+      {
+        "Title": "Ataque Leve Sofrido - I",
+        "Context": "Estou vendo como é."
+      },
+      {
+        "Title": "Ataque Pesado Sofrido - I",
+        "Context": "Que chatice!"
+      },
+      {
+        "Title": "Entrando na Equipe - I",
+        "Context": "Ouvi dizer que você tem um trabalho para mim."
+      },
+      {
+        "Title": "Entrando na Equipe - II",
+        "Context": "Continue assim."
+      },
+      {
+        "Title": "Entrando na Equipe - III",
+        "Context": "Quanto mais cedo terminarmos, melhor."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalhes",
+        "Context": "Rosaria é uma das freiras da Igreja Favonius de Mondstadt.\nEmbora ela faça parte do clero, as pessoas sempre a consideram muito diferente de outras freiras, como Barbara e Jilliana.\nSua aparência indica que ela é um membro da igreja, mas suas ações e forma de falar não demonstram isso nem um pouco.\nEla venera menos os deuses do que qualquer outro cidadão comum, e quase nunca participa das atividades da igreja.\nEla vive em solidão. Nas poucas vezes em que aparece na Catedral, ela se senta em um dos bancos ao fundo para fumar.\nA loba solitária Rosaria é uma clériga apenas no nome."
+      },
+      {
+        "Title": "História 1",
+        "Context": "Com seu comportamento não ortodoxo, Rosaria ouviu sermões milhares de vezes.\nMas por alguma razão, ela nunca enfrentou quaisquer consequências graves por esses erros. Ela não trabalha junto com seus colegas e raramente aparece em eventos comemorativos na cidade.\nA estranha e misteriosa Rosaria é como uma nuvem de fumaça preta que desaparece sem deixar rastros.\nSuas relações sociais também são raras e ela não costuma sair com outras pessoas.\nNo entanto, a irmã Victoria diria que a bem-humorada Barbara sempre tentou se aproximar de Rosaria.\n\"Oh, por favor, pare de fumar na igreja\", \"Você poderia comparecer à cerimônia na hora certa...\"\n\"E... Ei, por favor, me escute!\"\nBarbara sempre persegue Rosaria, pedindo-lhe que conclua várias tarefas diárias.\nNo entanto, Rosaria permanece absolutamente impassível, mesmo diante de Barbara, o ídolo amada de Mondstadt.\nSerá que seu coração é feito de pedra?"
+      },
+      {
+        "Title": "História 2",
+        "Context": "Os movimentos de Rosaria são imprevisíveis. Muitas vezes ela sai sem avisar ninguém e fica ausente por vários dias.\nNessas ocasiões, nenhum de seus colegas da igreja sabe onde encontrá-la.\nCerta vez, uma das irmãs se encarregou de observar Rosaria e reclamou que \"até os gatos de rua costumam dar sinais antes de fugir...\"\nRosaria usa esses desaparecimentos para realizar trabalhos em locais longe da vista de outras pessoas.\nUm comerciante desconhecido, um viajante suspeito - essas pessoas são uma ameaça a Mondstadt?\nEla investiga, os segue e, se necessário, os interroga.\nSe eles tiverem que desaparecer, Rosaria será a última pessoa que verão.\nEla faz por conta própria o trabalho mais obscuro.\nEla sempre sai assim que o sol se põe e termina seu trabalho em um piscar de olhos. Às vezes, quando retorna ao amanhecer, ela toma um pouco de vinho no café da manhã.\nA vida do povo de Mondstadt acontece sob o sol dourado, mas Rosaria vive sob o luar prateado.\nEssa luz cinzenta é fria e penetrante... como suas técnicas Cryo.\n\"Há coisas que os jovens não precisam saber.\"\nPara Rosaria, os cidadãos de Mondstadt, que vivem ao sol, são todos \"jovens\" independentemente de sua verdadeira idade."
+      },
+      {
+        "Title": "História 3",
+        "Context": "Rosaria, que sempre mostra desinteresse por tudo, é como uma neblina difícil de prever.\nMas ela cumpre seu trabalho com o máximo profissionalismo.\n\"Preguiçosa\" é a última palavra que alguém usaria para descrever os interrogatórios implacáveis que ela faz aos indivíduos suspeitos.\nEla também possui uma força anormal e conhece as fraquezas do corpo humano como a palma da mão - nem hesita em usar esse conhecimento para matar.\nNa verdade, essa irmã fumante e despreocupada é uma carrasca excepcional.\nEla vive sob a luz dos deuses, mas carrega esse tipo de fardo.\nPor que ela se tornou uma assassina sanguinária? Por que não louvava a proteção dos deuses?\nRosaria não nasceu ou foi criada em Mondstadt.\n\"Alguém precisa fazer o trabalho sujo em cidades tão felizes e enfadonhas como esta\".\nRosaria apaga o cigarro, sua voz lânguida.\n\"Para mim, essas tarefas são muito mais simples do que viver como uma freira ortodoxa\"."
+      },
+      {
+        "Title": "História 4",
+        "Context": "Embora Rosaria nunca reze, ela tem sua própria opinião sobre os deuses.\nPara ela, a liberdade é o pilar espiritual do povo de Mondstadt, e foi exatamente isso o que a fez ficar na cidade.\nRosaria nasceu em um vilarejo remoto nas montanhas. Logo depois de nascer, um grupo de ladrões destruiu o lugar e a raptaram.\nCriada por esses bandidos, ela aprendeu a lutar. Algumas vezes roubava, outras fazia trabalhos estranhos para criminosos.\nEla era uma empregada e uma ferramenta, uma ladra e também uma criança.\nLutava não apenas com estranhos, mas também com seus companheiros. Vivia em meio ao frio intenso, e foi nessas condições que ela cresceu.\nA juventude de Rosaria foi como o pôr do sol de Mondstadt - um horizonte de cor vermelho-sangue - e a noite surgiu antes mesmo que ela percebesse.\nO grupo de bandidos foi exterminado pelos Cavaleiros de Favonius. Sendo a membro mais jovem, Rosaria foi encaminhada para reabilitação.\nO Grande Mestre Varka a trouxe para Mondstadt. Esperando sinceramente que um dia ela se integrasse à cidade, ele a aconselhou da seguinte forma:\n \"Vá para a Catedral e purifique-se à luz dos Arcontes. Você pode mudar as coisas e viver como uma pessoa normal.\"\nMas Varka não esperava que Rosaria constantemente faltasse às aulas e evitasse o coral.\nEla preferia caçar ao ar livre a viver como uma freira. Para ela, a luz dourada do sol não era nada além de ofuscante.\nE Rosaria entendeu isso há muito tempo - ela era filha do luar e um dia voltaria para os braços das trevas."
+      },
+      {
+        "Title": "História 5",
+        "Context": "Rosaria, a membro mais evasiva da Igreja, já era famosa por suas ausências desde os tempos de noviça.\n\"Srta. Rosaria, por favor, comporte-se! Você é uma integrante da Igreja. Por que falta tanto aos ensaios do coral?\"\n\"Acalme-se, Irmã Ophila. Srta. Rosaria, ouvi dizer que você não compareceu em nenhuma das aulas obrigatórias. É verdade?\"\n\"Sim.\"\n\"Madre Maria, olhe isto... a tese teológica de Rosaria é uma completa bagunça!\"\n\"Srta. Rosaria, francamente, você pretende trabalhar aqui na Igreja?\"\n\"Não. Eu já encontrei outro trabalho.\"\nRosaria não mostrou o menor sinal de nervosismo diante dessas perguntas. Ela realmente havia encontrado um trabalho mais sombrio.\nMas não esperava que fosse trabalhar em nome da própria Igreja.\nA \"noviça\" Rosaria não deixou o clero e se tornou a \"Irmã\" Rosaria.\nMas quando não está em uma missão, sempre encontra um meio de evitar as atividades da igreja - vai a uma taverna para beber ou observa a paisagem na muralha da cidade.\nE se não puder escapar, não fará mais do que o necessário.\nAssim que o trabalho termina, Rosaria desaparece.\nSeja em um dia claro ou na noite escura, seu princípio permanece o mesmo: nada de fazer horas extras."
+      },
+      {
+        "Title": "Caderno Emitido pela Igreja",
+        "Context": "Um caderno com capa branca. As palavras \"Igreja Favonius\" estão escritas na capa.\nA caligrafia é muito boa, mas não há nada além de frases sem muito sentido.\n\"Vinho de Dandelion - agora com oitenta por cento de desconto!\"\n\"Torrada do Pescador - sabor fantástico por um preço inacreditável!\"\n\"Grandes descontos no trigo - pergunte no balcão se precisar de ajuda para transformá-lo em farinha.\"\n\"Compre três tomates e leve um de graça!\"\n\"Lâmpada de Grama fresca! Você pode usá-la para iluminar seu banheiro! Vamos, senhor, dê uma olhada!\"\nTodos esses apelos dos vendedores e slogans comerciais estão escritos com letras livres e graciosas.\nEsse caderno é um símbolo dos dias de noviça de Rosaria.\nNão é difícil imaginar que ela subia nos telhados das ruas comerciais quando matava uma aula e tomava banho de sol enquanto ouvia e rabiscava os gritos e conversas vindos de baixo."
+      },
+      {
+        "Title": "Visão",
+        "Context": "A Visão de Rosaria apareceu em uma noite gelada.\nEra uma época terrível para a gangue de bandidos, pois eles não tinham comida suficiente para alimentar a todos.\nEla nunca ficava satisfeita quando comia. Como não aguentava mais a fome, ela fugiu em meio aos ventos gelados enquanto fazia mais um trabalho.\nUm dos anciãos da gangue a perseguiu e a trouxe de volta.\nFoi a mesma pessoa que a tirou da aldeia em que ela nasceu e que a ensinou a matar.\n\"Aqueles que fogem são considerados traidores, e os traidores só podem conquistar sua liberdade se vencerem um combate\".\nO bandido jogou uma adaga velha na direção de Rosaria.\n\"Bem, vamos lá. Mate-me e você estará livre para sair daqui. Sou velho demais para isso, e você ainda é jovem. Você consegue fazer isso, não é mesmo?\"\nNinguém imaginaria que ela fosse capaz de matá-lo - mas o velho leão caiu nas garras do pequeno filhote.\nAssim os bandidos perderam um membro antigo e deram as boas-vindas a um novo naquela mesma noite.\nA princípio, os bandidos não queriam que Rosaria fizesse parte do grupo, mesmo tendo matado o ancião. Porém, mudaram de ideia após ver a Visão na mão dela.\nO portador de uma Visão é muito mais forte do que um ancião idiota que morreria mais cedo ou mais tarde. E ela comia menos. Poderiam economizar um pouco de comida dessa forma.\nPor sua vez, Rosaria sentiu uma dúvida invadir seu coração congelado:\nEle me deixou ficar em seu lugar de propósito?... Aquele falso pai sentia algum afeto por uma criança que ele simplesmente encontrou por aí?"
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 204501,
+      "Name": "Aos Libertos da Igreja",
+      "Description": "Vestuário de Rosaria. Parece ter sido confeccionado especialmente para ela pela Igreja.",
+      "IsDefault": false,
+      "FrontIcon": "UI_AvatarIcon_RosariaCostumeWic",
+      "SideIcon": "UI_AvatarIcon_Side_RosariaCostumeWic"
+    },
+    {
+      "Id": 204500,
+      "Name": "Sentença Espinhosa",
+      "Description": "Estilo de roupa de Rosaria. O uniforme sofreu grandes modificações para a freira da Igreja Favonius.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113010,
+    100022,
+    112034,
+    104309,
+    113015
+  ]
+}

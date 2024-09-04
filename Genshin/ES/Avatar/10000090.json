@@ -1,0 +1,1125 @@
+{
+  "Id": 10000090,
+  "PromoteId": 90,
+  "Sort": 76,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_Chevreuse",
+  "SideIcon": "UI_AvatarIcon_Side_Chevreuse",
+  "Name": "Chevreuse",
+  "Description": "La capitana de la Unidad Especial de Seguridad y Vigilancia. Su corazón siempre late por la justicia, y su mosquete solo apunta a los criminales.",
+  "BeginTime": "2024-01-09T18:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 13,
+  "BaseValue": {
+    "HpBase": 1002.9701,
+    "AttackBase": 16.20528,
+    "DefenseBase": 50.70135
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 2,
+    "Skills": [
+      {
+        "GroupId": 9031,
+        "Proud": {
+          "Descriptions": [
+            "Daño de 1er golpe|{param1:F1P}",
+            "Daño de 2.º golpe|{param2:F1P}",
+            "#Daño de 3er golpe|{param3:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param4:F1P}",
+            "Daño de 4.º golpe|{param5:F1P}",
+            "Daño de ATQ Cargado|{param6:F1P}",
+            "Coste de Aguante de ATQ Cargado|{param7:F1} pts.",
+            "Daño de Caída|{param8:F1P}",
+            "Daño de impacto de caída baja/alta|{param9:P}/{param10:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.531299,
+                0.493107,
+                0.276449,
+                0.324527,
+                0.772615,
+                1.2169,
+                25,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.574545,
+                0.533243,
+                0.298951,
+                0.350942,
+                0.835503,
+                1.31595,
+                25,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.61779,
+                0.57338,
+                0.321453,
+                0.377357,
+                0.89839,
+                1.415,
+                25,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.679569,
+                0.630718,
+                0.353598,
+                0.415093,
+                0.988229,
+                1.5565,
+                25,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.722814,
+                0.670855,
+                0.3761,
+                0.441508,
+                1.051116,
+                1.65555,
+                25,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.772237,
+                0.716725,
+                0.401816,
+                0.471697,
+                1.122988,
+                1.76875,
+                25,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.840194,
+                0.779797,
+                0.437176,
+                0.513206,
+                1.22181,
+                1.9244,
+                25,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.908151,
+                0.842869,
+                0.472535,
+                0.554715,
+                1.320633,
+                2.08005,
+                25,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.976108,
+                0.90594,
+                0.507895,
+                0.596225,
+                1.419456,
+                2.2357,
+                25,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.050243,
+                0.974746,
+                0.546469,
+                0.641508,
+                1.527263,
+                2.4055,
+                25,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.124378,
+                1.043552,
+                0.585044,
+                0.68679,
+                1.63507,
+                2.5753,
+                25,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.198513,
+                1.112357,
+                0.623618,
+                0.732073,
+                1.742877,
+                2.7451,
+                25,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.272647,
+                1.181163,
+                0.662192,
+                0.777356,
+                1.850683,
+                2.9149,
+                25,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.346782,
+                1.249968,
+                0.700767,
+                0.822639,
+                1.95849,
+                3.0847,
+                25,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.420917,
+                1.318774,
+                0.739341,
+                0.867922,
+                2.066297,
+                3.2545,
+                25,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ]
+        },
+        "Id": 10901,
+        "Name": "Ataque Normal: Bayoneta de vanguardia (modificada)",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 ataques rápidos con lanza.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para lanzarse al frente e infligir daño a los enemigos en el camino.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+        "Icon": "Skill_A_03"
+      },
+      {
+        "GroupId": 9032,
+        "Proud": {
+          "Descriptions": [
+            "#Daño {LAYOUT_MOBILE#por toque}{LAYOUT_PC#al pulsar una vez}{LAYOUT_PS#al pulsar una vez}|{param1:F1P}",
+            "Daño al mantener pulsado|{param2:F1P}",
+            "Daño de bala de punta sobrecargada|{param3:F1P}",
+            "#Curación continua|{param5:F2P} de Vida Máx.{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param6:I}",
+            "Duración de curación|{param4:F1} s",
+            "Daño de filo fluyente|{param7:F1P}",
+            "#Intervalo de filo fluyente|{param8:F1}{NON_BREAK_SPACE}s",
+            "#TdE|{param9:F1}{NON_BREAK_SPACE}s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                1.152,
+                1.728,
+                2.824,
+                12,
+                0.026667,
+                256.79184,
+                0.288,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                1.2384,
+                1.8576,
+                3.0358,
+                12,
+                0.028667,
+                282.47458,
+                0.3096,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                1.3248,
+                1.9872,
+                3.2476,
+                12,
+                0.030667,
+                310.29758,
+                0.3312,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                1.44,
+                2.16,
+                3.53,
+                12,
+                0.033333,
+                340.26077,
+                0.36,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                1.5264,
+                2.2896,
+                3.7418,
+                12,
+                0.035333,
+                372.36423,
+                0.3816,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                1.6128,
+                2.4192,
+                3.9536,
+                12,
+                0.037333,
+                406.60788,
+                0.4032,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                1.728,
+                2.592,
+                4.236,
+                12,
+                0.04,
+                442.9918,
+                0.432,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                1.8432,
+                2.7648,
+                4.5184,
+                12,
+                0.042667,
+                481.51593,
+                0.4608,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                1.9584,
+                2.9376,
+                4.8008,
+                12,
+                0.045333,
+                522.1803,
+                0.4896,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                2.0736,
+                3.1104,
+                5.0832,
+                12,
+                0.048,
+                564.98486,
+                0.5184,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                2.1888,
+                3.2832,
+                5.3656,
+                12,
+                0.050667,
+                609.9297,
+                0.5472,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                2.304,
+                3.456,
+                5.648,
+                12,
+                0.053333,
+                657.0147,
+                0.576,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                2.448,
+                3.672,
+                6.001,
+                12,
+                0.056667,
+                706.24,
+                0.612,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                2.592,
+                3.888,
+                6.354,
+                12,
+                0.06,
+                757.6055,
+                0.648,
+                10,
+                15
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                2.736,
+                4.104,
+                6.707,
+                12,
+                0.063333,
+                811.11127,
+                0.684,
+                10,
+                15
+              ]
+            }
+          ]
+        },
+        "Id": 10902,
+        "Name": "Fuego rápido de proximidad e intercepción",
+        "Description": "Chevreuse apoya rápidamente su rifle contra el hombro para disparar al enemigo e infligir <color=#FF9999FF>Daño Pyro en el AdE</color>.\nDurante un tiempo después de que Chevreuse realice su disparo, restaura Vida a tu personaje en uso de forma continua en función de la Vida Máx. de Chevreuse.\nEsta habilidad se libera de manera distinta al mantener pulsado.\n\n<color=#FFD780FF>Mantener pulsado</color>\nApunta y fija a un enemigo en su campo de visión para dispararle con un fuego de intercepción de mayor precisión. Si Chevreuse posee una bala de punta sobrecargada, la disparará e infligirá mayor cantidad de <color=#FF9999FF>Daño Pyro</color> con una mayor AdE.\nChevreuse obtiene una bala de punta sobrecargada cuando un miembro del equipo cercano causa una reacción de Sobrecarga. Solo se puede tener 1 bala de punta sobrecargada al mismo tiempo.\n\n<color=#FFD780FF>Arjé: ousía</color>\nCada cierto tiempo, cuando el Fuego rápido de proximidad e intercepción de Chevreuse alcance a un objetivo, caerá un filo fluyente que inflige <color=#FF9999FF>Daño Pyro</color> cargado de energía ousía.\n\n<i>“De hecho, el único término que aparece en el reglamento de entrenamiento es ‘fuego de intercepción’, pero según el protagonista de una novela, usar vocabulario técnico para ponerle nombres llamativos a las habilidades es más motivador, y además puede hacer que el enemigo pierda empuje desde un principio. Me pareció algo muy lógico, ¡así que modifiqué el reglamento!”.</i>",
+        "Icon": "Skill_S_Chevreuse_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 9039,
+      "Proud": {
+        "Descriptions": [
+          "Daño de granada explosiva|{param1:F1P}",
+          "Daño de bombas secundarias|{param2:F1P}",
+          "TdE|{param3:F1} s",
+          "Energía Elemental|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              3.6816,
+              0.49088,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              3.95772,
+              0.527696,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              4.23384,
+              0.564512,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              4.602,
+              0.6136,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              4.87812,
+              0.650416,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              5.15424,
+              0.687232,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              5.5224,
+              0.73632,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              5.89056,
+              0.785408,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              6.25872,
+              0.834496,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              6.62688,
+              0.883584,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              6.99504,
+              0.932672,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              7.3632,
+              0.98176,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              7.8234,
+              1.04312,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              8.2836,
+              1.10448,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              8.7438,
+              1.16584,
+              15,
+              60
+            ]
+          }
+        ]
+      },
+      "Id": 10905,
+      "Name": "Bombardeo radial",
+      "Description": "Chevreuse utiliza su rifle para lanzar una granada explosiva a sus enemigos e infligir <color=#FF9999FF>Daño Pyro en el AdE</color>. Al impactar, la granada se divide en varias bombas secundarias.\nDichas bombas explotan tras un breve intervalo de tiempo e infligen <color=#FF9999FF>Daño Pyro</color> a los enemigos cercanos.\n\n<i>“Por regla general, bombardear un área cuadrada es lo más eficaz contra un enemigo en formación cerrada, pero por desgracia, la sección transversal de la onda expansiva de la explosión es circular como un pastel, por lo que las granadas solo pueden esparcirse en círculo, al igual que la fruta alrededor de un pastel”.</i>",
+      "Icon": "Skill_E_Chevreuse_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.4,
+                6
+              ]
+            }
+          ]
+        },
+        "Id": 902101,
+        "Name": "Vigilancia coordinada",
+        "Description": "#Si el equipo está formado únicamente por personajes <color=#FF9999FF>Pyro</color> y <color=#FFACFFFF>Electro</color> y hay al menos un personaje Pyro y uno Electro en él, Chevreuse otorga el efecto de “maniobra coordinada” a los miembros del equipo cercanos. Cuando un personaje bajo este efecto causa una reacción de Sobrecarga, la RES <color=#FF9999FF>Pyro</color> y <color=#FFACFFFF>Electro</color> del enemigo afectado por dicha reacción se reduce en un 40% durante 6{NON_BREAK_SPACE}s.\nEl efecto de maniobra coordinada desaparecerá cuando el tipo elemental de los miembros de tu equipo no cumpla con los requisitos del talento pasivo.",
+        "Icon": "UI_Talent_S_Chevreuse_05"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.01,
+                30,
+                0.4
+              ]
+            }
+          ]
+        },
+        "Id": 902201,
+        "Name": "Formación lineal integral",
+        "Description": "#Cuando Chevreuse dispara una bala de punta sobrecargada de <color=#FFD780FF>Fuego rápido de proximidad e intercepción</color>, el ATQ de todos los personajes <color=#FF9999FF>Pyro</color> y <color=#FFACFFFF>Electro</color> cercanos del equipo aumenta en un 1% durante 30{NON_BREAK_SPACE}s por cada 1000{NON_BREAK_SPACE}pts. de Vida Máx. que tenga Chevreuse. El ATQ puede aumentar en un máximo de un 40% de esta manera.",
+        "Icon": "UI_Talent_S_Chevreuse_06"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 902301,
+        "Name": "Marcha rápida táctica",
+        "Description": "Disminuye en un 20% el Coste de Aguante al esprintar de todos los miembros de tu equipo.\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+        "Icon": "UI_Talent_Explosion_Sprint"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 901,
+        "Name": "Temple estabilizador en el frente",
+        "Description": "#Cuando un personaje en uso (a excepción de Chevreuse) que está bajo el efecto de maniobra coordinada causa una reacción de Sobrecarga, recupera 6{NON_BREAK_SPACE}pts. de Energía Elemental. Este efecto solo puede ocurrir una vez cada 10{NON_BREAK_SPACE}s.\nEs necesario desbloquear el talento pasivo “Vigilancia coordinada”.",
+        "Icon": "UI_Talent_S_Chevreuse_01"
+      },
+      {
+        "Id": 902,
+        "Name": "Detonación de francotirador",
+        "Description": "#Al mantener pulsada la habilidad <color=#FFD780FF>Fuego rápido de proximidad e intercepción</color> y alcanzar a un objetivo con un disparo, cerca de la ubicación del objetivo tienen lugar 2 explosiones encadenadas, cada una de las cuales inflige <color=#FF9999FF>Daño Pyro</color> en una cantidad equivalente al 120% del ATQ de Chevreuse. Este efecto solo puede ocurrir una vez cada 10{NON_BREAK_SPACE}s, y el daño infligido de esta forma se considera daño de Habilidad Elemental.",
+        "Icon": "UI_Talent_S_Chevreuse_02"
+      },
+      {
+        "Id": 903,
+        "Name": "Recarga artificiosa",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Fuego rápido de proximidad e intercepción</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Chevreuse_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 904,
+        "Name": "Técnica: Multidisparo rápido",
+        "Description": "#Tras usar <color=#FFD780FF>Bombardeo radial</color>, al mantener pulsado y lanzar <color=#FFD780FF>Fuego rápido de proximidad e intercepción</color>, este no entra en TdE. Este efecto dura un máximo de 6{NON_BREAK_SPACE}s y finaliza tras lanzar 2 veces Fuego rápido de proximidad e intercepción manteniendo pulsado.",
+        "Icon": "UI_Talent_S_Chevreuse_03"
+      },
+      {
+        "Id": 905,
+        "Name": "Potencia de fuego incremental",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Bombardeo radial</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Chevreuse_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 906,
+        "Name": "Persecución fenecedora del mal",
+        "Description": "#Tras haber transcurrido 12{NON_BREAK_SPACE}s del efecto curativo de <color=#FFD780FF>Fuego rápido de proximidad e intercepción</color>, todos los personajes del equipo cercanos regeneran Vida una vez en una cantidad equivalente al 10% de la Vida Máx. de Chevreuse.\nDespués de que un personaje reciba curación a causa de Fuego rápido de proximidad e intercepción, obtiene un 20% de <color=#FF9999FF>Bono de Daño Pyro</color> y de <color=#FFACFFFF>Bono de Daño Electro</color>. Este efecto dura 8{NON_BREAK_SPACE}s y puede acumularse hasta 3 veces. Cada acumulación tendrá su propia duración individual.",
+        "Icon": "UI_Talent_S_Chevreuse_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "La Ejecutora de la Ley",
+    "Detail": "La capitana de la Unidad Especial de Seguridad y Vigilancia. Su corazón siempre late por la justicia, y su mosquete solo apunta a los criminales.",
+    "Association": 8,
+    "Native": "Unidad Especial de Seguridad y Vigilancia",
+    "BirthMonth": 1,
+    "BirthDay": 10,
+    "VisionBefore": "Pyro",
+    "ConstellationBefore": "Sclopetum Ensiferum",
+    "CvChinese": "潘丹妮",
+    "CvJapanese": "下地紫野",
+    "CvEnglish": "Erica Lindbeck",
+    "CvKorean": "Chae Min-ji",
+    "CookBonus": {
+      "OriginItemId": 108614,
+      "ItemId": 108619,
+      "InputList": [
+        100076,
+        100064,
+        100084,
+        100080
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Hola...",
+        "Context": "Soy Chevreuse, la capitana de la Unidad Especial de Seguridad y Vigilancia. Podemos ahorrarnos las formalidades. ¿Hay algún caso que requiera mi atención?"
+      },
+      {
+        "Title": "Charla - Mosquetes",
+        "Context": "Los mosquetes son mi arma preferida por su gran capacidad destructiva e intimidatoria. A veces, lo último puede resultar hasta más útil que lo primero."
+      },
+      {
+        "Title": "Charla - Patrulla",
+        "Context": "La Unidad Especial de Seguridad y Vigilancia no patrulla diariamente por la Corte de Fontaine. La gente que arrestamos tampoco suele pasearse por las calles."
+      },
+      {
+        "Title": "Charla - Comida",
+        "Context": "Me gustan los comb-Os porque son fáciles de llevar y se pueden combinar con muchas salsas distintas para darles otro toque. Espera, voy a comprar algunos."
+      },
+      {
+        "Title": "Cuando llueve...",
+        "Context": "#Tranquil{F#a}{M#o}, puedo disparar mi mosquete incluso cuando llueve."
+      },
+      {
+        "Title": "Cuando truena...",
+        "Context": "Algunos criminales aprovechan los truenos para ocultar el ruido de sus disparos, pero se necesita algo más que eso para engañarme."
+      },
+      {
+        "Title": "Cuando nieva...",
+        "Context": "Espera, tengo que proteger mi mosquete para que su mecanismo interno no se congele."
+      },
+      {
+        "Title": "Qué sol hace...",
+        "Context": "Con este sol que hace, hay muy buena visibilidad."
+      },
+      {
+        "Title": "Hace mucho viento...",
+        "Context": "Este viento tan fuerte podría incluso torcer la trayectoria de mis balas."
+      },
+      {
+        "Title": "En el desierto...",
+        "Context": "El desierto es el lugar perfecto para enterrar ciertas cosas."
+      },
+      {
+        "Title": "Buenos días...",
+        "Context": "Buenos días. Justo iba a empezar mi entrenamiento físico, ¿quieres venir?"
+      },
+      {
+        "Title": "Buenas tardes...",
+        "Context": "Buenas tardes. ¿Quieres venir a comer al comedor de la Unidad Especial de Seguridad y Vigilancia? Te aseguro que la comida de allí es suficiente para saciarse."
+      },
+      {
+        "Title": "Buenas noches... (I)",
+        "Context": "Trabajo de hoy terminado, y además, sin contratiempos. Ven, vamos a cenar algo."
+      },
+      {
+        "Title": "Buenas noches... (II)",
+        "Context": "Buenas noches. Yo también me iré a dormir dentro de poco. Espero que esta noche no ocurra ningún imprevisto."
+      },
+      {
+        "Title": "Sobre Chevreuse - Unidad Especial de Seguridad y Vigilancia",
+        "Context": "La Unidad Especial de Seguridad y Vigilancia se encarga de toda clase de crímenes atroces y viles criminales, así que... tenemos que ser bastante duros para garantizar el cumplimiento de la ley."
+      },
+      {
+        "Title": "Sobre Chevreuse - Sombrero",
+        "Context": "Hay una norma no escrita en la Unidad Especial de Seguridad y Vigilancia: si perdemos a algún miembro, conservamos su sombrero y se lo entregamos a sus hijos si es que alguno de ellos se une a nosotros. Es algo así como un legado."
+      },
+      {
+        "Title": "#Sobre nosotr{F#a}{M#o}s - Intereses",
+        "Context": "Me gusta leer novelas de crímenes en mi tiempo libre. La diferencia con las novelas de misterio es que en las de crímenes no hay métodos delictivos supercomplicados, sino que se centran en los conflictos humanos y emocionales que surgen en torno a los personajes del caso. A mí me parecen muy interesantes."
+      },
+      {
+        "Title": "#Sobre nosotr{F#a}{M#o}s - Ley",
+        "Context": "#Si tienes alguna duda sobre la ley, puedes preguntarme lo que quieras. O... si alguna vez piensas “Tal vez esto no se considere ilegal”, consúltalo conmigo.\nNo sabes la cantidad de idiotas que me encuentro todos los años y que no saben dónde están los límites legales. No me gustaría que tú fueras un{F#a}{M#o} de ellos."
+      },
+      {
+        "Title": "Sobre la Visión...",
+        "Context": "Mi Visión es un arma de apoyo imprescindible en mi trabajo. Gracias a ella, nunca más he vuelto a tener ningún problema con mi mosquete.\nSi hay algo que puede asustar a cualquier criminal es que la capitana de la Unidad Especial de Seguridad y Vigilancia tenga tanto una Visión como un arma de fuego."
+      },
+      {
+        "Title": "¿Algo que decir?",
+        "Context": "Harcourt lo hizo... De verdad arrestó a Mylis. Le admiro por atreverse a hacerle eso a su propia amada, pero ¿qué delito cometió ella? Lo único que hizo fue vender unas joyas que se encontró por ahí y que no eran suyas, pero aun así, la aristocracia la tachó de ser una horrible criminal... A veces es difícil entender la justicia, ¿no crees?"
+      },
+      {
+        "Title": "Un dato curioso - Mecagendarmes",
+        "Context": "Aunque la Unidad Especial de Seguridad y Vigilancia pertenece a la Oficina Judicial, en nuestras misiones apenas usamos Mecagendarmes. ¿Que por qué?... Ja, pues porque lo único que saben hacer esas torpes máquinas es ponerse en medio de nuestras balas."
+      },
+      {
+        "Title": "Sobre Navia...",
+        "Context": "He oído que el asesinato del padre de Navia armó un buen escándalo en la Oficina Judicial, y que la gente no paraba de discutir sobre ello.\nMenos mal que el caso se resolvió y el verdadero culpable recibió el castigo que se merecía. Es una de esas ocasiones en las que se puede decir que se ha hecho justicia."
+      },
+      {
+        "Title": "Sobre Lyney...",
+        "Context": "Conozco al gran mago Lyney. Una vez, arrestamos a un mago sospechoso de estafa y asesinato, pero no sabíamos cómo lo había hecho, así que contratamos a Lyney como asesor y, gracias a ello, hallamos pruebas concluyentes y conseguimos que lo condenaran. Luego me enteré de que un escritor al que le interesó el caso escribió una novela de misterio en la que el crimen se cometió con magia.\nSin embargo... las descripciones eran demasiado detalladas y el caso aún es confidencial, así que todavía no se ha publicado."
+      },
+      {
+        "Title": "Sobre Fréminet...",
+        "Context": "Una vez, salí a comprar una pieza y me encontré con ese buceador. Ambos queríamos comprar la única pieza universal que quedaba en la tienda. Justo cuando iba a decirle que se la quedara él, escondió las manos y se marchó cabizbajo. Sé que está mal decirlo, pero ese es exactamente el comportamiento de un delincuente..."
+      },
+      {
+        "Title": "Sobre Clorinde...",
+        "Context": "Es una verduga del justiciazgo muy conocida en la Corte de Fontaine. No voy a entrar a valorar su trabajo, pues es de una naturaleza muy distinta al mío, pero estoy convencida de que acepta batirse en duelos debido a su propio sentido de la justicia."
+      },
+      {
+        "Title": "Sobre Wriothesley...",
+        "Context": "El duque Wriothesley es una persona muy eficaz en su trabajo. Gracias a él, los criminales tienen muy claro que el Fuerte Merópide no es un lugar de retiro, lo que ha facilitado en gran medida los interrogatorios que llevamos a cabo."
+      },
+      {
+        "Title": "Sobre Émilie...",
+        "Context": "Nos llevamos muy bien. En más de una ocasión le he pedido ayuda para analizar pruebas y seguir la pista de sospechosos gracias a sus conocimientos de química. También es de gran ayuda para descubrir cosas que no se ven a simple vista, como por ejemplo, qué perfume usa un delincuente, qué flores ha enviado como regalo o incluso en qué lugares ha estado y qué suelo ha pisado. El caso es que nunca se ha equivocado."
+      },
+      {
+        "Title": "Sobre Chiori...",
+        "Context": "Chiori es muy radical resolviendo disputas, pero ha proporcionado información muchas veces a la Unidad Especial de Seguridad y Vigilancia sirviéndose de sus métodos y su red de contactos. Como agradecimiento, hago la vista gorda cuando echa a alguien de su tienda o cuando se deshace de alguien que le hace competencia desleal. Una vez que investigas cada caso, te das cuenta de que en realidad es una persona muy razonable, solo que no le apetece dar explicaciones innecesarias."
+      },
+      {
+        "Title": "Sobre Charlotte...",
+        "Context": "Esa reportera es una pesada. Cada vez que hay un caso importante, aparece en el lugar más cercano posible aunque acordonemos la zona. Una vez, uno de mis subordinados la incluyó en la lista de sospechosos de un caso y la detuvo durante medio mes. Bueno, pues ella se dedicó a escribir un reportaje en su celda... Voy a tener que encontrar un hueco para hablar seriamente con su editora jefa."
+      },
+      {
+        "Title": "Sobre Sigewinne...",
+        "Context": "La amistad entre la Unidad Especial de Seguridad y Vigilancia y las melusinas tiene ya un tiempo. Colaboramos mucho con las melusinas de la Gendarmería Fantasmal porque son bondadosas, honestas, se puede confiar en ellas y ofrecen una ayuda irremplazable en algunos casos importantes. De hecho, yo misma me llevo bien personalmente con varias melusinas, entre las que se incluye la enfermera jefa Sigewinne.\nLas melusinas llevan tiempo siendo unas ayudantes imprescindibles para nosotros, así que la Unidad Especial no tendrá piedad alguna con quienes se atrevan a difamarlas."
+      },
+      {
+        "Title": "Sobre Neuvillette...",
+        "Context": "Todo el mundo sabe que su señoría el juez supremo no se deja llevar por las emociones durante los juicios. Hay quien dice que debido a ello le falta humanidad, pero a mi parecer, la justicia no debería verse influenciada por los sentimientos humanos. Un criminal es un criminal, y no hay más que hablar."
+      },
+      {
+        "Title": "Sobre Furina...",
+        "Context": "Hubo un tiempo en el que a la Srta. Furina le dio por que hiciéramos... no sé qué acto ceremonial de mosqueteros. No solo exigió que portáramos un tipo especial de mosquetes ceremoniales, sino que también tuvimos que someternos a un entrenamiento de danza con mosquetes... Menos mal que no llegó a encontrar una canción que le gustara y acabó olvidándose del asunto."
+      },
+      {
+        "Title": "Más sobre Chevreuse (I)",
+        "Context": "Lo siento, no se me da bien socializar... al menos con la mayoría de la gente. Si quieres preguntarme algo, hazlo directamente."
+      },
+      {
+        "Title": "Más sobre Chevreuse (II)",
+        "Context": "La Unidad Especial de Seguridad y Vigilancia es uno de los muchos departamentos adscrito a la Oficina Judicial que se encarga de garantizar el cumplimiento de la ley. Como nuestra forma de actuar y nuestros integrantes son muy atrevidos, algunos funcionarios de dicha oficina dicen que somos “el departamento que más incumple la ley”.\nMi opinión es que ningún factor externo debería interferir con las normas de conducta de la Unidad Especial. Los sinvergüenzas con los que lidiamos no son los funcionarios del Palacio Mermonia, así que si de repente nos enteramos de que alguien ha cometido una fechoría, no podemos actuar con lentitud."
+      },
+      {
+        "Title": "Más sobre Chevreuse (III)",
+        "Context": "No todos los criminales que he conocido son crueles asesinos o villanos desalmados.\nLa mayoría empiezan cometiendo un pequeño error que tienen miedo de reconocer. Para remediarlo, sin darse cuenta se ven arrinconados en un bucle de mentiras creado por ellos mismos, de manera que acaban tomando el camino de la delincuencia aunque no quieran hacerlo.\nMi escritor favorito escribió una vez una ópera que decía: “Las mentiras son el caldo de cultivo para la delincuencia”.\nIrónicamente, unos años después lo arrestaron por plagio. Eso sí que es un giro argumental."
+      },
+      {
+        "Title": "Más sobre Chevreuse (IV)",
+        "Context": "Cuando mi padre estuvo en prisión, a mí me empezaron a llamar “hija de un criminal”. Al haber crecido en el Río Ceniciento, he visto la cantidad de rincones desatendidos que hay en Fontaine. Sé que gracias a esas experiencias tengo muchos enemigos, pero también he aprendido muchas cosas.\nUn agente de la ley debe confiar por completo en su sentido de la justicia y actuar consecuentemente. Eso es lo que me enseñó mi padre, y es algo en lo que creo plenamente."
+      },
+      {
+        "Title": "Más sobre Chevreuse (V)",
+        "Context": "Por desgracia, como capitana de la Unidad Especial de Seguridad y Vigilancia, he visto a muchos criminales sin ningún tipo de moral cometer atrocidades, y no puedo evitar sentir ira e impotencia por las personas buenas e inocentes que han sufrido o incluso perdido sus vidas por culpa de ellos.\nEstoy convencida de que los criminales deben ser castigados, pero no con un bucle infinito de venganzas.\nSi nos ciegan nuestras emociones y dejamos que controlen nuestras acciones, tarde o temprano nos ahogaremos en un gélido mar invernal.\nY cuanto más poder tenga alguien, más consciente debe ser de ello. Cada uno tiene que seguir su propio sentido de la justicia, pero ha de tener mucho cuidado para no perderse en el camino."
+      },
+      {
+        "Title": "Aficiones de Chevreuse...",
+        "Context": "¿El entrenamiento y el tiro cuentan como aficiones? Si no... leer novelas de crímenes. Eso me recuerda... que tengo que ir a comprar el último tomo de «Caso abierto»."
+      },
+      {
+        "Title": "Preocupaciones de Chevreuse...",
+        "Context": "No quiero volver a tener que aprender cuestiones de etiqueta. Antes que perder mi tiempo con eso, prefiero vigilar a los criminales."
+      },
+      {
+        "Title": "Comida que más le gusta...",
+        "Context": "Me gusta la comida rica en grasas y azúcares porque me aporta la energía que necesito durante mi jornada laboral, y porque me levanta el ánimo. Sin embargo, en mis días de descanso, se convierte en mi peor enemiga porque solo me hace ganar peso. Pero también me pone de buen humor acabar con las fechorías que comete esa comida."
+      },
+      {
+        "Title": "Comida que menos le gusta...",
+        "Context": "No puedo con la comida cruda. Si tengo que comer algo, al menos que esté bien cocinado."
+      },
+      {
+        "Title": "Al recibir un regalo (I)",
+        "Context": "No está mal. Aunque... vaya, sin querer comí más de la cuenta. Tendré que intensificar mi entrenamiento."
+      },
+      {
+        "Title": "Al recibir un regalo (II)",
+        "Context": "Sabe mucho mejor que la comida del comedor de la Unidad Especial de Seguridad y Vigilancia."
+      },
+      {
+        "Title": "Al recibir un regalo (III)",
+        "Context": "Sirve para llenar el estómago y para quitar el hambre... Así que, para mí, es una comida perfecta."
+      },
+      {
+        "Title": "Cumpleaños...",
+        "Context": "#¡Feliz cumpleaños! *Ejem*, ¡atención! Ponte rect{F#a}{M#o} y no dobles las rodillas. Voy a tomarte las medidas para que te hagan un arma de fuego pequeña, cómoda y fácil de desenfundar.\nBien, ya está. Pero antes de que te hagan el arma, tendrás que practicar durante un tiempo con una de entrenamiento. Ven, vamos a empezar."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Introducción",
+        "Context": "No está mal. Ahora agarro el arma con más firmeza."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desarrollo",
+        "Context": "Ahora podré acertar incluso a los objetivos más lejanos."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Nudo",
+        "Context": "Muchas gracias. Con esta fuerza, pocos malhechores serán capaces de escapar de mí."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desenlace",
+        "Context": "Gracias por todo lo que me has ayudado. Aunque no puedo asegurarte que toda la Unidad Especial de Seguridad y Vigilancia acate tus órdenes, al menos yo sí estaré allí en cuanto me lo pidas."
+      },
+      {
+        "Title": "Habilidad Elemental (I)",
+        "Context": "¡Ni se te ocurra moverte!"
+      },
+      {
+        "Title": "Habilidad Elemental (II)",
+        "Context": "¡Suelta el arma!"
+      },
+      {
+        "Title": "Habilidad Elemental (III)",
+        "Context": "¡Este es mi último aviso!"
+      },
+      {
+        "Title": "Habilidad Definitiva (I)",
+        "Context": "Tú lo has querido."
+      },
+      {
+        "Title": "Habilidad Definitiva (II)",
+        "Context": "La justicia prevalecerá."
+      },
+      {
+        "Title": "Habilidad Definitiva (III)",
+        "Context": "¡Las manos donde pueda verlas!"
+      },
+      {
+        "Title": "Al abrir un cofre (I)",
+        "Context": "No está mal."
+      },
+      {
+        "Title": "Al abrir un cofre (II)",
+        "Context": "Espero que no haya nada de contrabando aquí."
+      },
+      {
+        "Title": "Al abrir un cofre (III)",
+        "Context": "#Tranquil{F#a}{M#o}, esto no se considera un robo."
+      },
+      {
+        "Title": "Vida baja (I)",
+        "Context": "¡Canalla!"
+      },
+      {
+        "Title": "Vida baja (II)",
+        "Context": "Ya veo que no respetas la ley."
+      },
+      {
+        "Title": "Vida baja (III)",
+        "Context": "No hay justificación para lo que estás haciendo."
+      },
+      {
+        "Title": "Aliado con vida baja (I)",
+        "Context": "¡Vuelve a tu puesto!"
+      },
+      {
+        "Title": "Aliado con vida baja (II)",
+        "Context": "¡Aguanta la formación!"
+      },
+      {
+        "Title": "Derrotada (I)",
+        "Context": "No pude... hacer justicia..."
+      },
+      {
+        "Title": "Derrotada (II)",
+        "Context": "El criminal... aún no está entre rejas..."
+      },
+      {
+        "Title": "Derrotada (III)",
+        "Context": "Este es... ¿mi fin?..."
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (I)",
+        "Context": "¡Es inútil que te resistas!"
+      },
+      {
+        "Title": "Unirse al equipo (I)",
+        "Context": "En marcha."
+      },
+      {
+        "Title": "Unirse al equipo (II)",
+        "Context": "Un poco de entrenamiento extra no hace daño."
+      },
+      {
+        "Title": "Unirse al equipo (III)",
+        "Context": "Estoy lista para atacar."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalles del personaje",
+        "Context": "El exhaustivo —y también complejo— sistema judicial de la Corte de Fontaine cuenta con muchas leyes que dejan anonadados a los turistas de fuera.\nPor ejemplo, está prohibido poner una tartaleta de frutas en un plato que no esté caliente; no se permite poner una botella de fonta sin terminar en medio de un camino, y es obligatorio cortarles las uñas a los gatos domésticos.\nEn vista de estos ejemplos, puede resultar complicado no violar alguna ley. Sin embargo, dependiendo de quién ayude a resolver un problema legal, la gente de Fontaine, que está muy al corriente de esta situación, distingue entre varios tipos de gravedad para ayudar a saber qué tienes que hacer.\nSi la persona en cuestión es la dependienta de una tienda, el problema se puede solucionar por medio de un acuerdo verbal, y no habrá problema si te acercas a ver qué ocurre; si quien ayuda es un funcionario trajeado de la Oficina Judicial, la gente no podrá evitar poner la oreja y murmurar, pero será mejor que no te unas a ellos; y si quien llega es un guardia de la Oficina Judicial, entonces la persona implicada estará en un grave problema y puede que incluso tenga que pagar algo como compensación a menos que pueda aclarar que no tiene nada que ver con lo ocurrido.\nAhora bien, si quien llega es Chevreuse, la capitana de sombrero alto y mosquete de la Unidad Especial de Seguridad y Vigilancia, junto a varios de sus agentes... entonces quiere decir que algo grave está ocurriendo, ya sea un malhechor resistiéndose a ser arrestado o un criminal que ha raptado a alguien. En cualquier caso, en esa situación, lo mejor que puedes hacer es obedecer lo que te diga la Unidad Especial, marcharte de la escena y dejar un poco de espacio a este grupo de “expertos en hacerse cargo de delincuentes” para que hagan lo que tienen que hacer. Además, deberás contener la curiosidad y no esconderte en algún sitio para ver cómo ejecutan la ley —cosa que también se aplica a los reporteros.\nLo más importante es que mantengas la calma y no entres en pánico, pues toda la gente de Fontaine sabe que los criminales no pueden escapar de la capitana Chevreuse, el brazo de la ley."
+      },
+      {
+        "Title": "Historia del personaje (1)",
+        "Context": "Una de las cosas que los padres de Fontaine les dicen a sus hijos cuando estos han hecho alguna travesura es:\n“Si te vuelves a portar mal, ¡la Unidad Especial de Seguridad y Vigilancia te arrestará!”.\nAunque los niños, asustados por sus padres, ya sean adultos y sepan que la Unidad Especial de Seguridad y Vigilancia nunca les haría nada por hacer cosas como no lavarse los dientes, quedarse dormidos, romper una ventana o comer pastel a escondidas, otra historia es cuando la que aparece es Chevreuse, la capitana de la Unidad. En ese momento, todos se ponen firmes, miran a otro lado y ponen las manos tras la espalda, como temiendo que los arresten por haber cometido algún delito del que no se han dado cuenta. Por mucho que respeten a los agentes de la Unidad Especial y sepan que son buenas personas que luchan contra el crimen, les es inevitable controlar el impulso de ponerse firmes.\nY es que la Unidad tampoco puede hacer mucho con respecto a esta reputación. Una vez, una persona le dijo a Chevreuse que esa mala fama solo dañaba la imagen de la Unidad Especial, pero es que esta organización es la ejecutora de la ley subordinada a la Oficina Judicial, y si utiliza la coerción y la fuerza es porque es la única manera de hacer frente a criminales tan atroces. Es por ello que la Unidad Especial no tiene más remedio que asustar a los niños.\n¿Por qué «El Pájaro de Vapor» nunca entrevista a Chevreuse? La misma capitana ha enfatizado alguna vez que la Unidad Especial de Seguridad y Vigilancia solo es una institución que se encarga de ejecutar la ley y luchar contra el crimen, así como de velar por la estabilidad y la seguridad de la Corte de Fontaine, por lo que nunca querría importunar a los ciudadanos.\nSin embargo, Chevreuse hizo una propuesta:\n“Si esa reputación termina calando entre la gente, tal vez nadie se atreva a sobrepasar ciertos límites por no querer hacer frente a las consecuencias de ir en contra de la Unidad Especial.\nAsí, a lo mejor nunca tendré que arrestar a nadie”."
+      },
+      {
+        "Title": "Historia del personaje (2)",
+        "Context": "La Oficina Judicial de la Corte de Fontaine es un importante y estricto organismo encargado de velar por el cumplimiento de la ley en Fontaine y, como tal, todos sus empleados han de someterse a una investigación y una formación igual de estrictas. Sus palabras y sus acciones representan no solo a la Oficina Judicial, sino también al sistema legal de la Corte de Fontaine, por lo que no pueden cometer ni el más mínimo error.\nSin embargo, el modo de trabajo de la Unidad Especial de Seguridad y Vigilancia es completamente distinto al de otros organismos: no obligan a sus integrantes a llevar un tipo de arma concreta ni a vestir de uniforme en ocasiones extraoficiales. En cambio, desde que Chevreuse asumió la capitanía, todos los agentes de la Unidad empezaron a usar mosquetes como una de las armas con la que ejecutan la ley, y algunos incluso comenzaron a negarse a colaborar en misiones con los Mecagendarmes, alegando que estas máquinas se suelen quedar paradas para obstruir los disparos de los mosquetes y corren el riesgo de que los criminales las controlen para atacar a los agentes de la Unidad Especial. Por cierto, al reclutar nuevos integrantes, esta organización acepta a los descendientes de delincuentes infames.\nCon el fin de resolver crímenes lo más rápidamente posible, la Oficina Judicial permite algunas de esas acciones, aunque no lo reconoce oficialmente, y siempre mantiene la paciencia con la Unidad Especial y Chevreuse. Sin embargo, lo que la Oficina no tolera es que, cuando la capitana está a cargo de un caso, contrate a criminales para que la ayuden a investigar en calidad de “asesores”.\nAunque Chevreuse insiste en que lo hace para atrapar al culpable lo antes posible, algunos de sus colegas consideran que pedir ayuda a un infractor para arrestar a otro es un insulto a las leyes de Fontaine y sus ejecutores, y se preguntan dónde quedará la dignidad de la Corte de Fontaine y su sistema legal si las cosas se siguen haciendo así.\nAnte esas preguntas, Chevreuse siempre da la misma respuesta breve:\n“Lo que es un insulto a la ley es permitir que un criminal ande suelto por ahí.\nAdemás, ¿qué es más importante, la ‘dignidad’ o la seguridad de la Corte de Fontaine?”.\nEsa era una de las cosas que le enseñó su padre."
+      },
+      {
+        "Title": "Historia del personaje (3)",
+        "Context": "“Donatello era un ejecutor de la ley con un gran sentido de la justicia”.\nEso es lo que siempre dice Chevreuse cuando habla de su padre, y también es uno de los recuerdos que tiene de él de cuando era pequeña.\nDonatello era una persona muy ocupada. Por la mañana se marchaba a toda prisa y, cuando volvía a casa agotado, lo primero que hacía era dar un abrazo a su mujer y a su hija y pedirles perdón por llegar tarde. A veces, cuando llegaba demasiado tarde, traía algún pastel para Chevreuse, pero ella ya se había lavado los dientes y no quería comer nada dulce.\nAl tratarse de un valioso regalo que, por desgracia, se echaba a perder de un día para otro, la madre de Chevreuse le dejaba probar un bocado de la crema batida del pastel, tras lo que lo llevaba a la habitación de su marido para que él se lo terminase junto a una taza de café.\nEn esos momentos, Donatello se quedaba embobado mirando la pared llena de imágenes y chinchetas, daba vueltas en la habitación, fumaba, se despeinaba y a veces incluso alzaba la mano y la bajaba lentamente para no golpear la mesa con demasiada fuerza. Todo eso lo veía Chevreuse a escondidas.\nLas pocas veces que ella veía a su padre en la calle, lo saludaba con emoción, a lo que él solo respondía con una sonrisa y seguía con su trabajo.\nSu esposa, vecinos, compañeros de trabajo e incluso los niños que vivían al lado de él y su familia siempre decían que era una persona buena y justa.\nEsos mismos compañeros de trabajo visitaron de repente un día la casa de Chevreuse.\nSu madre los miraba ir de un lado a otro sin entender qué pasaba. La pequeña Chevreuse, por su parte, estaba en su habitación, pero por la discusión que se escuchaba pudo suponer que su padre se había convertido en uno de esos criminales a los que solía arrestar, que iba a ser juzgado y que probablemente lo exiliarían al Fuerte Merópide.\n“¿Ha hecho algo malo mi papá?”, le preguntó a uno de los desconocidos que había entrado en su casa, el cual respondió sin poder contener la emoción:\n“... Tu padre es un ejecutor de la ley con un gran sentido de la justicia”.\nUn criminal justo.\nEse es uno de los dos recuerdos que tiene Chevreuse de su padre de cuando era pequeña."
+      },
+      {
+        "Title": "Historia del personaje (4)",
+        "Context": "Ni siquiera el mejor escritor de historias de la Corte de Fontaine sería capaz de explicarle a un niño por qué a veces se tarda tanto en declarar culpable a una persona que todo indica que lo es; por qué nadie dice nada cuando alguien difama a los ejecutores de la ley, que son inocentes; por qué quienes saben que han hecho algo malo no dicen la verdad, y por qué esas personas a las que difaman solo pueden hacer justicia a expensas de su propio futuro y reputación.\nY lo que es aún más difícil de explicar: por qué a veces, para hacer algo bueno, primero hay que hacer algo malo.\nEl mayor cambio en la vida de Chevreuse vino cuando su familia se mudó al Río Ceniciento.\nUna casa muy pequeña, comida bastante mala, amigos con los que perdió el contacto y una madre cada vez más agotada... Los compañeros de trabajo de su padre solían visitar a la familia de Donatello fuera del horario de trabajo llevando todo tipo de cosas. Le dijeron a la madre que todo el mundo estaba declarando a favor de Donatello, y que no solo lo hacía la Guardia o la Unidad Especial de Seguridad y Vigilancia, sino también varios funcionarios administrativos que conocían. Aunque era un hecho que Donatello había infringido la ley y que desde un punto de vista judicial era imposible rebajarle la condena, sus compañeros de trabajo al menos sí consiguieron reducir las críticas contra él. Aun así, su esposa no conseguía salir de la depresión en la que se encontraba.\nPara cuidar de ella, Chevreuse tuvo que asumir algunas responsabilidades que no debería haber asumido una niña de su edad, lo que la hizo adentrarse en las recónditas corrientes del Río Ceniciento.\nTal vez porque los habitantes del Río habían oído hablar del asunto, o porque el justo padre de Chevreuse había velado por ellos en el pasado, dichos habitantes también ayudaron mucho a Chevreuse. Un jefe de buen corazón le dio un buen trabajo, y el matrimonio que vivía al lado de ella quería ayudarla a cuidar de su débil madre.\nPero cuando los niños del Río Ceniciento se enteraron de la llegada de la joven Guardia, fue como si hubieran encontrado la acusación y la defensa de un juicio, y dejaron que Chevreuse resolviera todos los problemas y disputas causados por el Mora.\n“¡Chevreuse, haz justicia!”, gritaban los niños al unísono, tras lo que todos estallaban a reír a la vez. En realidad, eso solo era un juego, ya que no querían que Chevreuse tuviera toda la carga de decidir quién tenía razón y quién no.\nAl día siguiente, Chevreuse volvió a encontrarlos mientras llevaba consigo toda una pila de documentos legales. En la mano tenía un cuaderno abierto por la primera página, y entonces les dijo a los niños, que no paraban de reír, en un tono estricto:\n“Bien. Que cada una de las partes presente sus pruebas”.\nEse día, surgió la primera ejecutora de la ley del Río Ceniciento, pero era una muy diferente a los de la superficie, pues ella misma supervisaba que sus decisiones se cumplieran.\nAllí aprendió todo tipo de métodos para hacer justicia de verdad."
+      },
+      {
+        "Title": "Historia del personaje (5)",
+        "Context": "“Bien, Srta. Chevreuse... Según lo investigado por este tribunal, exiliaron a su padre al Fuerte Merópide por infringir el reglamento de la Guardia y filtrar información confidencial sobre un caso de gran importancia.\nTras ello, su madre y usted se mudaron al Río Ceniciento. ¿Tiene algo que decir en cuanto a los cargos de su padre y su experiencia viviendo en el Río Ceniciento?”.\n“En cuanto a mi experiencia viviendo ahí...”.\nDonatello, que había violado la ley y en consecuencia lo habían exiliado; su familia, que se vio obligada a mudarse al Río Ceniciento tras caer en la pobreza, y Chevreuse, que al ser la hija de un criminal no podía trabajar en la Oficina Judicial, razón por la cual decidió seguir combatiendo el crimen en la Unidad Especial de Seguridad y Vigilancia...\nCuando el entonces capitán de la Unidad investigó a Chevreuse, ella repitió las mismas explicaciones de siempre. Cuando Donatello cumplió su condena y entró a trabajar en la Unidad Especial de Seguridad y Vigilancia, examinó su caso numerosas veces, pero nunca encontró ni un solo error.\nHacía mucho tiempo que la Oficina Judicial lo había echado de su trabajo, pero él entendía el porqué. Si Chevreuse quería ser capitana de la Unidad, tendría que darle una explicación creíble a los señores de la Oficina Judicial para que anunciaran al mundo su nombramiento con claridad, contundencia, y también dejándoles un poco de margen por si surgía algún contratiempo.\nChevreuse, que ya no era una niña, sabía muy bien que si su padre había roto la confidencialidad de aquel caso, era para dar un impulso a la curiosidad de los reporteros y a sus investigaciones sobre el sospechoso. Cuando toda la familia se mudó al Río Ceniciento, en realidad no tuvieron una vida tan pobre gracias al apoyo financiero secreto que le daban algunos trabajadores —e incluso funcionarios de alto rango— de la Oficina Judicial. Mientras tanto, los oficiales y colegas de Chevreuse en la Unidad Especial de Seguridad y Vigilancia habían hecho los preparativos para que pudiera hacer prácticas y familiarizarse con el trabajo.\nY a pesar de todo, nada de eso fue realmente de gran ayuda para que Chevreuse asumiera el cargo de capitana.\nAunque a Donatello no terminaba de convencerle que su hija quisiera heredar su trabajo, ella lo dio todo para superar todas las pruebas que su padre le había puesto, inclusive aquellas que eran deliberadamente difíciles.\nCuando llegó el día en que Chevreuse nadó en el gélido mar invernal, Donatello tuvo que reunir toda la fuerza de voluntad posible para quedarse quieto mientras observaba a su joven hija y luchaba contra el impulso de ir a ayudarla. Cuando ella llegó temblando hasta la otra orilla del agua, su padre se dio cuenta de que se había vuelto incluso más tenaz que él, y que era incluso mejor candidata para impartir justicia.\nYa era hora de dejar atrás para siempre todo lo que había vivido en el Río Ceniciento.\nHacía mucho tiempo que padre e hija habían cruzado a nado el gélido mar invernal, y ya era el momento de mirar hacia delante.\n“... El veredicto es inequívoco: mi padre cometió un delito al violar el reglamento de la Guardia”.\nTras declarar su conclusión, Chevreuse cerró el cuaderno.\nDesde entonces, la justicia se impartió siempre que debía."
+      },
+      {
+        "Title": "Mosquete Estándar Tipo II de la Unidad Especial de Seguridad y Vigilancia",
+        "Context": "En comparación con el modelo original, la forma de la culata y la longitud del cañón de los mosquetes estándar mejorados de la Unidad Especial de Seguridad y Vigilancia se modifican según la estructura de los hombros de cada persona. Entre ellas, a los mosquetes tipo II se les coloca un riel multifunción en la estructura principal y en el cañón, y en dicho riel se pueden instalar accesorios tales como una mira, un lanzagranadas, lanzadores de gases antidisturbios y de explosiones sónicas, un arma de combate cuerpo a cuerpo, etc., todo ello con el fin de adaptarse a todo tipo de situaciones de combate.\nAdemás de mejorar la fuerza de combate de los agentes de la Unidad Especial por medio de mosquetes mejorados, Chevreuse también endureció los estándares técnicos para manejar armas de fuego al incluir aptitudes que nada tenían que ver con dichas armas, como por ejemplo, el combate físico.\n“El trabajo de la Unidad Especial de Seguridad y Vigilancia es atrapar a los criminales, ¡no alardear de nuestras armas de fuego!\n¿O es que se negarían ustedes a cumplir con su deber si no llevaran esas armas?”.\nY así, debido a la introducción de los mosquetes estándar tipo II, las horas de entrenamiento de la Unidad Especial aumentaron considerablemente.\nNaturalmente, Chevreuse completó sin excepción todos los objetivos de dicho entrenamiento.\nAl ver a su capitana con una férrea compostura en medio del campo de entrenamiento, los demás agentes suspiraron y dijeron:\n“Capitana, por favor, termine con esta tortura...”."
+      },
+      {
+        "Title": "Visión",
+        "Context": "Chevreuse, capitana de la Unidad Especial de Seguridad y Vigilancia, no suele hablar de cómo consiguió su Visión. Según ella, esto se debe a que la autoridad de la Unidad proviene de la ley y la justicia, y si recalcara demasiado la importancia de su Visión, podría dar lugar a algunos malentendidos. Así que, para mantener la integridad de la ley, prefiere no hablar de ello.\nSin embargo, los agentes que mejor conocen a Chevreuse saben que, para ella, su Visión es una pesada carga.\nCuando se unió a la Unidad, superó todo el entrenamiento con su talento y determinación casi sobrehumanos, memorizó todas las normas de operaciones y cláusulas legales, y así se ganó muy merecidamente el primer puesto de toda su promoción. Pero tal vez lo que más admiraban de ella sus compañeros era su empeño en hacer justicia.\nNo obstante, Grizzetti, el subcapitán a cargo de supervisarlos, no opinaba lo mismo y nunca escogía a Chevreuse cuando había que salir para una misión. Sus compañeros pensaban que tal vez lo hacía para protegerla, puesto que, al fin y al cabo, Grizzetti era muy buen amigo de Donatello, había cuidado de Chevreuse en muchas ocasiones y ella lo trataba con mucha cercanía. O a lo mejor todo formaba parte de un plan de formación con el que capacitarla para asumir tareas más importantes.\nSea como sea, ella no pensó en todas esas opciones y, la sexta vez que el subcapitán la dejó fuera de una misión, no pudo aguantar más y le preguntó por qué nunca le dejaba participar.\n“Aún no estás preparada”, le respondió Grizzetti.\n“Aclara tus ideas, Chevreuse. Si tu justicia se basa en el ‘ojo por ojo, diente por diente’, será mejor que agarres tus cosas y te marches. Este es el lugar de la justicia, no el campo en el que ejecutar tu venganza personal”.\nEn aquel entonces, Chevreuse no comprendió del todo las palabras del subcapitán, ni tampoco sabía muy bien cuándo estaría preparada. A lo mejor necesitaría la vida entera para llegar a comprenderlo, pensó; o tal vez debía estar preparada para lo que fuera a ocurrir en aquel mismo instante.\nEn una operación de persecución, Grizzetti no tuvo más remedio que contar con la ayuda de Chevreuse debido a la falta de personal. Pero antes, le advirtió de que no se separase de él en ningún momento, que obedeciera todo lo que dijera y que bajo ningún concepto actuara por cuenta propia. No obstante, la operación requirió que el grupo se dividiera para acorralar a la banda criminal que estaban persiguiendo en medio de una fuerte tormenta.\nChevreuse y Grizzetti estaban escondidos entre la maleza esperando a que los criminales aparecieran. Como tardaban demasiado, pensaron que tal vez la información que les habían dado era errónea, pero justo cuando iban a retirarse, una fría bala alcanzó al subcapitán. Chevreuse reaccionó de inmediato: aprovechó el fogonazo del enemigo para localizarlo, apuntar y contraatacar con un disparo que lo tumbó. Por desgracia, el cuerpo de Grizzetti ya se encontraba completamente inmóvil...\nAhora solo quedaban Chevreuse y el criminal. Seguro que, si usaba su arma, el disparo no se oiría por el ruido de la lluvia, y puede que la Unidad Especial no investigara muy a fondo por qué habían disparado al criminal que asesinó a uno de sus agentes.\nY lo que era más importante: el asesino estaba enfrente de sus narices. Todo indicaba que ese era el mejor momento para hacer justicia. Así pues, alzó el mosquete apuntando al entrecejo del asesino y... bajó el arma.\nLa Unidad Especial de Seguridad y Vigilancia solo daba voz a la justicia, mientras que la auténtica justicia se impartía en el tribunal. Tal vez esa era la preparación que necesitaba Chevreuse para ser una miembro de pleno derecho de la Unidad.\n“Quedas arrestado en nombre de la Unidad Especial de Seguridad y Vigilancia”, declaró secamente Chevreuse.\nEl criminal no dudó ni un instante en echar a correr atropelladamente, tras lo que se escuchó un fuerte disparo. Chevreuse le había impactado en la pierna derecha, y el fugitivo se puso a gritar y a maldecir, para después acabar rodando hasta los demás agentes que por fin llegaron a la escena.\nEl tribunal se encargó de impartir justicia según la ley, y Chevreuse, de hacer su propia justicia.\nDe lo que no se había dado cuenta es de que, cuando bajó el mosquete, del mango colgaba una Visión.\nBrillaba muy tenuemente debido a lo oscuro que estaba por la tormenta; era pálida y lóbrega, como la justicia que aún no había sido declarada."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 209000,
+      "Name": "Mosquetera guardiana",
+      "Description": "Modelo de vestimenta de Chevreuse. A un uniforme que combina el negro, el blanco y el rojo, los diseñadores agregaron una gran cantidad de elementos decorativos, lo que hizo que se volviera muy pesado y que Chevreuse se quejara de ello. Así pues, el atuendo final carece de la mayoría de esos ornamentos metálicos.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104114,
+    113053,
+    101235,
+    112085,
+    104346,
+    113055
+  ]
+}

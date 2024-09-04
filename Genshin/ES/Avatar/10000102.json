@@ -1,0 +1,1068 @@
+{
+  "Id": 10000102,
+  "PromoteId": 102,
+  "Sort": 86,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_Mualani",
+  "SideIcon": "UI_AvatarIcon_Side_Mualani",
+  "Name": "Mualani",
+  "Description": "Una guía de Natlan muy famosa que lleva una tienda de suministros acuáticos, así como una surfera experta en todo tipo de deportes de agua.",
+  "BeginTime": "2024-08-27T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 1182.1168,
+    "AttackBase": 14.1512,
+    "DefenseBase": 44.39386
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 10231,
+        "Proud": {
+          "Descriptions": [
+            "Daño de 1er golpe|{param1:F1P}",
+            "Daño de 2.º golpe|{param2:F1P}",
+            "Daño de 3er golpe|{param3:F1P}",
+            "Daño de ATQ Cargado|{param4:P}",
+            "Coste de Aguante de ATQ Cargado|{param5:F1} pts.",
+            "Daño de Caída|{param6:F1P}",
+            "Daño de impacto de caída baja/alta|{param7:P}/{param8:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.51396,
+                0.446256,
+                0.700344,
+                1.4288,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.552507,
+                0.479725,
+                0.75287,
+                1.53596,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.591054,
+                0.513194,
+                0.805396,
+                1.64312,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.64245,
+                0.55782,
+                0.87543,
+                1.786,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.680997,
+                0.591289,
+                0.927956,
+                1.89316,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.719544,
+                0.624758,
+                0.980482,
+                2.00032,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.77094,
+                0.669384,
+                1.050516,
+                2.1432,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.822336,
+                0.71401,
+                1.12055,
+                2.28608,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.873732,
+                0.758635,
+                1.190585,
+                2.42896,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.925128,
+                0.803261,
+                1.260619,
+                2.57184,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.976524,
+                0.847886,
+                1.330654,
+                2.71472,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.02792,
+                0.892512,
+                1.400688,
+                2.8576,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.092165,
+                0.948294,
+                1.488231,
+                3.0362,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.15641,
+                1.004076,
+                1.575774,
+                3.2148,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.220655,
+                1.059858,
+                1.663317,
+                3.3934,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 30000,
+        "Name": "Ataque Normal: Refrescamiento",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 3 ataques que infligen <color=#80C0FFFF>Daño Hydro</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para lanzar al aire un peciglobo que inflige <color=#80C0FFFF>Daño Hydro en el AdE</color> al caer.\n\n<color=#FFD780FF>Ataque Descendente</color>\nConcentra el poder del agua, se lanza desde el aire para golpear el suelo y daña a los enemigos a su paso, infligiendo <color=#80C0FFFF>Daño Hydro en el AdE</color> en el momento del impacto.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 10232,
+        "Proud": {
+          "Descriptions": [
+            "Daño básico de escualomordisco|{param1:F2P} de Vida Máx.",
+            "Aumento de daño de energía mareal|{param2:F2P} de Vida Máx./carga",
+            "Aumento de daño adicional de escualomordisco tsunámico|{param3:F2P} de Vida Máx.",
+            "#TdE de escualomordisco|{param4:F1}{NON_BREAK_SPACE}s",
+            "Límite de pts. de noctambulismo|{param5:F1}",
+            "TdE|{param6:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.0868,
+                0.0434,
+                0.217,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.09331,
+                0.046655,
+                0.233275,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.09982,
+                0.04991,
+                0.24955,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.1085,
+                0.05425,
+                0.27125,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.11501,
+                0.057505,
+                0.287525,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.12152,
+                0.06076,
+                0.3038,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.1302,
+                0.0651,
+                0.3255,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.13888,
+                0.06944,
+                0.3472,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.14756,
+                0.07378,
+                0.3689,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.15624,
+                0.07812,
+                0.3906,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.16492,
+                0.08246,
+                0.4123,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                0.1736,
+                0.0868,
+                0.434,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                0.18445,
+                0.092225,
+                0.461125,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                0.1953,
+                0.09765,
+                0.48825,
+                1.8,
+                60,
+                6
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                0.20615,
+                0.103075,
+                0.515375,
+                1.8,
+                60,
+                6
+              ]
+            }
+          ]
+        },
+        "Id": 30002,
+        "Name": "Escualosurf rompeolas",
+        "Description": "#Usa su conocimiento de control de la velocidad y las mareas para ponerse a surfear en cualquier momento y lugar.\nAl usar esta habilidad, Mualani obtiene 60{NON_BREAK_SPACE}pts. de noctambulismo y entra en el estado de “bendición noctámbula”.\n\n<color=#FFD780FF>Bendición noctámbula: Mualani</color>\nConsume continuamente pts. de noctambulismo. Al agotarse todos o al usar de nuevo la habilidad, terminará la duración de la bendición noctámbula de Mualani. Dicha bendición tiene las siguientes propiedades:\n·Se sube a su escualotabla de surf y aumenta la Vel. Movimiento y la RES a interrupción de Mualani. Mientras esté en este estado, podrá moverse sobre el agua y sobre el flogisto líquido, a cuyo daño también será inmune.\n·Al ejecutar un Ataque Normal, en su lugar realizará un escualomordisco que inflige <color=#80C0FFFF>Daño Hydro</color> de naturaleza noctámbula en función de la Vida Máx. de Mualani. El escualomordisco se puede ejecutar en el aire y el daño que inflige se considera daño de Ataque Normal.\n·Al entrar en contacto con un enemigo en este estado, Mualani aplicará sobre dicho enemigo una marca depredadora y obtendrá 1 carga de “energía mareal” que se puede acumular hasta 3 veces. Solo puede obtener 1 carga cada 0.7{NON_BREAK_SPACE}s del mismo enemigo.\n\n<color=#FFD780FF>Energía mareal y marca depredadora</color>\nAumenta el daño que inflige el escualomordisco en función de las cargas de energía mareal que tenga Mualani. Con 3 cargas, el escualomordisco se transforma en un “escualomordisco tsunámico” que inflige aún más daño y, tras golpear a un enemigo, elimina todas las cargas de energía mareal.\nAl golpear a un enemigo con el escualomordisco, elimina la marca de dicho enemigo y dispara escualoproyectiles a un máximo de 5 enemigos cercanos afectados por marcas depredadoras. Estos proyectiles infligen una cantidad de daño equivalente al escualomordisco y eliminan las marcas depredadoras de dichos enemigos. Si el escualomordisco o los escualoproyectiles tienen más de 1 enemigo como objetivo, el daño que infligen irá disminuyendo hasta un máximo del 72% del daño original cuando haya 3 enemigos como objetivo.\n\n<i>En primer lugar, este tiburón no es solo una tabla de surf, sino también un tiburón de agua dulce. Y en segundo lugar, no come humanos, pero sí los muerde.</i>",
+        "Icon": "Skill_S_Mualani_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 10239,
+      "Proud": {
+        "Descriptions": [
+          "Daño de habilidad|{param1:F1P} de Vida Máx.",
+          "TdE|{param2:F1} s",
+          "Energía Elemental|{param3:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              0.584392,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              0.628221,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              0.672051,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              0.73049,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              0.774319,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              0.818149,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              0.876588,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              0.935027,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              0.993466,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              1.051906,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              1.110345,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              1.168784,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              1.241833,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              1.314882,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              1.387931,
+              15,
+              60
+            ]
+          }
+        ]
+      },
+      "Id": 30007,
+      "Name": "Misil acuaexplosivo",
+      "Description": "Dispara un escualomisil gigante que persigue al enemigo e inflige <color=#80C0FFFF>Daño Hydro en el AdE</color> de naturaleza noctámbula en función de la Vida Máx. de Mualani.\n\n<i>Mualani dio ese nombre al escualomisil porque la mezcla del agua y el fuego le recuerda a las aguas termales.</i>",
+      "Icon": "Skill_E_Mualani_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                20
+              ]
+            }
+          ]
+        },
+        "Id": 1022101,
+        "Name": "Peciglobo antitérmico de agua dulce",
+        "Description": "#Al golpear a un enemigo con el escualomordisco tsunámico, se crea un peciglobo en las cercanías. Al recoger un peciglobo, Mualani recupera 20{NON_BREAK_SPACE}pts. de noctambulismo. Como máximo, solo se pueden crear 2 peciglobos de esta manera mientras esté activa una bendición noctámbula.",
+        "Icon": "UI_Talent_S_Mualani_05"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                20,
+                0.15,
+                0.3,
+                0.45
+              ]
+            }
+          ]
+        },
+        "Id": 1022201,
+        "Name": "¡La mejor guía de Natlan!",
+        "Description": "#Cuando un personaje cercano del equipo causa una explosión noctámbula, Mualani obtiene 1 carga de “conocimiento de la marea” que dura 20{NON_BREAK_SPACE}s y puede acumularse hasta 3 veces. Al usar <color=#FFD780FF>Misil acuaexplosivo</color>, Mualani consume todas las cargas de conocimiento de la marea para que el daño de dicha habilidad aumente según el número de cargas consumidas en una cantidad equivalente al 15/30/45% de su Vida Máx.",
+        "Icon": "UI_Talent_S_Mualani_06"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.25,
+                0.65
+              ]
+            }
+          ]
+        },
+        "Id": 1022301,
+        "Name": "Gracia de la noche: Control del oleaje",
+        "Description": "#Cuando no tenga más pts. de noctambulismo, Mualani consumirá flogisto para conservar la bendición noctámbula.\nSi se encuentra en una zona con alguna mecánica de flogisto de Natlan, podrá utilizar “Transmisión noctambular: Mualani”. Cuando el personaje en uso esté esprintando, nadando, se encuentre en un estado de movimiento derivado de algún talento o esté a cierta altura en el aire, al cambiar a Mualani, esta entrará en estado de bendición noctámbula y obtendrá 40{NON_BREAK_SPACE}pts. de noctambulismo. Tu equipo solo puede activar Transmisión noctambular una vez cada 10{NON_BREAK_SPACE}s.\n\nAdemás, cuando Mualani se mueva sobre el agua o el flogisto líquido mientras está en estado de bendición noctámbula, consumirá un 75% menos de pts. de noctambulismo o de flogisto si está dentro de Natlan, y un 35% menos de pts. de noctambulismo si está fuera de dicha nación.",
+        "Icon": "UI_Talent_S_Mualani_07"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                15
+              ]
+            }
+          ]
+        },
+        "Id": 1022501,
+        "Name": "¡La clave es seguir sonriendo!",
+        "Description": "#Restaura 15{NON_BREAK_SPACE}pts. de flogisto al interactuar con algunos objetos recolectables en zonas de Natlan con mecánicas de flogisto. Además, muestra la ubicación de los <color=#FFD780FF>objetos típicos de Natlan</color> cercanos en el minimapa.",
+        "Icon": "UI_Talent_S_Kachina_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1021,
+        "Name": "Parsimonia de Meztli",
+        "Description": "El daño que inflige el primer escualomordisco tsunámico realizado tras entrar en estado de bendición noctámbula y sus escualoproyectiles aumenta en una cantidad equivalente al 66% de la Vida Máx. de Mualani. Este aumento de daño sigue las normas de disminución de daño de <color=#FFD780FF>Escualosurf rompeolas</color>.\nAdemás, mientras Mualani no esté en combate, los pts. de noctambulismo y de flogisto que consume su estado de bendición noctámbula se reducen en un 30%.",
+        "Icon": "UI_Talent_S_Mualani_01"
+      },
+      {
+        "Id": 1022,
+        "Name": "¡Mualani dándolo todo!",
+        "Description": "#Al entrar en estado de bendición noctámbula, Mualani obtiene 2 cargas de energía mareal de <color=#FFD780FF>Escualosurf rompeolas</color>, y al recoger un peciglobo, obtiene 1 carga.\nAdemás, cuando Mualani recoja 2 peciglobos durante una bendición noctámbula, recuperará 12{NON_BREAK_SPACE}pts. de noctambulismo en 2{NON_BREAK_SPACE}s. Para que se active este efecto, es necesario desbloquear el talento pasivo “Peciglobo antitérmico de agua dulce”.",
+        "Icon": "UI_Talent_S_Mualani_02"
+      },
+      {
+        "Id": 1023,
+        "Name": "Surfeando en el mar de la alegría",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Escualosurf rompeolas</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Mualani_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1024,
+        "Name": "Tiburón devorapeciglobos",
+        "Description": "#Al recoger un peciglobo, Mualani obtiene 8{NON_BREAK_SPACE}pts. de Energía Elemental. Para que se active este efecto, es necesario desbloquear el talento pasivo “Peciglobo antitérmico de agua dulce”.\nAdemás, aumenta en un 75% el daño infligido con <color=#FFD780FF>Misil acuaexplosivo</color>.",
+        "Icon": "UI_Talent_S_Mualani_03"
+      },
+      {
+        "Id": 1025,
+        "Name": "¡Escualotablas de surf a la venta!",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Misil acuaexplosivo</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Mualani_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1026,
+        "Name": "Espíritu del Pueblo de los Manantiales",
+        "Description": "Elimina la restricción por la que el aumento de daño otorgado por la constelación “Parsimonia de Meztli” solo se podía activar una vez durante el estado de bendición noctámbula.",
+        "Icon": "UI_Talent_S_Mualani_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "La Cabalgadora de Olas Rugientes",
+    "Detail": "Una guía de Natlan muy famosa que lleva una tienda de suministros acuáticos, así como una surfera experta en todo tipo de deportes de agua.",
+    "Association": 9,
+    "Native": "Meztli",
+    "BirthMonth": 8,
+    "BirthDay": 3,
+    "VisionBefore": "Hydro",
+    "ConstellationBefore": "Phoca Neomonachus",
+    "CvChinese": "王晓彤",
+    "CvJapanese": "東山奈央",
+    "CvEnglish": "Cassandra Lee Morris",
+    "CvKorean": "Kim Do-hee",
+    "CookBonus": {
+      "OriginItemId": 108740,
+      "ItemId": 108746,
+      "InputList": [
+        100096,
+        110001,
+        100093,
+        100076
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Hola...",
+        "Context": "#Bienvenid{F#a}{M#o} a esta expedición, estimado viajer{F#a}{M#o}. Soy Mualani, guía del Pueblo de los Manantiales. Si necesitas algo, ¡no dudes en levantar la mano e indicármelo! Ahora, recoge tus armas, guarda bien tus objetos personales, no sueltes a Paimon y, lo más importante de todo, deja tus preocupaciones atrás. Pon los pies sobre la escualotabla de surf que te he preparado, mantén el equilibrio... ¡y que comience este hermoso viaje!"
+      },
+      {
+        "Title": "Charla - Salir a pasarlo bien",
+        "Context": "La parte clave de “salir a pasarlo bien” es justamente “salir”. Si te animas a venir, yo me encargaré de planificar todo lo demás."
+      },
+      {
+        "Title": "Charla - Cabalgando las olas",
+        "Context": "¿Alguna vez has intentado cabalgar las olas del mar? ¿Te gustaría probarlo? ¿Quieres? ¡Ahora, ahora! Busquemos la playa más cercana."
+      },
+      {
+        "Title": "Charla - Unidad",
+        "Context": "Cuando una sola persona lleva a cabo un desafío, muchas cosas le resultarán imposibles. Sin embargo, ¡un grupo de personas es capaz de desafiar lo imposible!"
+      },
+      {
+        "Title": "Cuando llueve...",
+        "Context": "¡Yujuuu! El suelo está resbaladizo, ¡es la oportunidad perfecta para deslizarme con mi tabla!"
+      },
+      {
+        "Title": "Cuando truena...",
+        "Context": "¡Guau! ¿Dónde ha caído el rayo? ¿Dónde?"
+      },
+      {
+        "Title": "Cuando nieva...",
+        "Context": "Eh... Terminemos deprisa y démonos un chapuzón en las aguas termales..."
+      },
+      {
+        "Title": "Qué sol hace...",
+        "Context": "Qué ganas de tumbarse a tomar el sol... ¡Vuelta y vuelta, como una tortilla!"
+      },
+      {
+        "Title": "Hace mucho viento...",
+        "Context": "¡Cuanto más viento hace, más altas son las olas! ¡Es el mejor momento para poner a prueba los trucos más épicos!"
+      },
+      {
+        "Title": "En el desierto...",
+        "Context": "¡Seguro que surfear sobre las dunas será de lo más emocionante! ¡Mualani del Pueblo de los Manantiales acepta el desafío!"
+      },
+      {
+        "Title": "Buenos días...",
+        "Context": "Buenas noticias, ¡hoy no me he quedado dormida! Como recompensa, pienso engullir un desayuno de lujo."
+      },
+      {
+        "Title": "Buenas tardes...",
+        "Context": "Ah, parece que me he despertado demasiado temprano... ¡No puede ser! ¿Por qué estoy viendo un montón de motas con forma de Mora titilando? Necesito echarme una siesta por la tarde para reponer el sueño..."
+      },
+      {
+        "Title": "Buenas noches... (I)",
+        "Context": "¿Necesitas que haga de repartidora de comida a domicilio? Te aseguro que aún estará ardiendo cuando la pruebes, confía en la velocidad de mi tabla de surf."
+      },
+      {
+        "Title": "Buenas noches... (II)",
+        "Context": "Oh, no... He bailado con tanta energía en la fiesta de la hoguera que ahora no puedo dormir... *Solloza*."
+      },
+      {
+        "Title": "Sobre Mualani - Producto estrella",
+        "Context": "Yo misma he seleccionado cuidadosamente los artículos a la venta en mi tienda según su clase, calidad, función y color. Pero, si quieres saber cuál es el producto estrella en mi opinión, diría que es este pecitraje de baño. Cualquier persona que no sepa nadar bien debería considerar comprar uno, pues es capaz de hincharse en un santiamén para convertirse en un peciglobo salvavidas. ¡Así podrán nadar sin preocupación alguna!\nAdemás, también puedes llevarlo puesto aun cuando no estés en el agua. A mí me gusta ponérmelo para ir a las celebraciones, ¡resulta muy llamativo! Puedes ir botando de un lado a otro...\n¡Ah, y los colores en los que viene son muy auspiciosos!"
+      },
+      {
+        "Title": "Sobre Mualani - Danza",
+        "Context": "El Pueblo de los Manantiales es el mejor lugar para pasar las vacaciones: la vegetación, los montes y los ríos parecen crear una resonancia con la gente, ¡como si fueran nuestros amigos!\nLas olas que vienen y van, las algas que mecen, las hojas que flotan al viento... todos ellos son maestros de danza a los que venero. Si empiezas a menearte y dar vueltas a su ritmo, ¡pronto estarás bailando! ¿Qué te parece? No te quedes ahí, ¡ven a probarlo!"
+      },
+      {
+        "Title": "#Sobre nosotr{F#a}{M#o}s - Saludo",
+        "Context": "¡Mira estas tablas de surf! Hay de todo tipo de materiales y patrones, ¡y miles de colores! ¿Cuál es tu color de la suerte? ¿Que no tienes? Bueno, entonces deja que elija yo una por ti."
+      },
+      {
+        "Title": "#Sobre nosotr{F#a}{M#o}s - Confianza mutua",
+        "Context": "#Hemos estado junt{F#a}{M#o}s en el Reino de la Noche y contemplado a lo lejos el fulgor de la isla misteriosa, así que podría decirse que llevamos tiempo siendo compañer{F#a}{M#o}s capaces de poner nuestras vidas en las manos {F#de la otra}{M#del otro}. Si algún día no encuentras la dirección correcta en uno de tus viajes, ¡no dudes en decírmelo! Soy una guía increíble, ¡encontraré el camino aunque tenga que abrirme paso con mi tabla de surf!"
+      },
+      {
+        "Title": "Sobre la Visión...",
+        "Context": "Durante un tiempo, llegué a llevar colgada la Visión sobre el peciglobo, porque su tono cerúleo, parecido a las aguas del mar, le quedaba muy bien. Pero una vez, cuando jugaba con mis amigos al voleibol, se me olvidó por completo y el peciglobo cayó a la arena y emitió un sonoro crujido. Uff... Por suerte, no se rompió. ¡Tuvo que ser un augurio de buena suerte!"
+      },
+      {
+        "Title": "¿Algo que decir?",
+        "Context": "#¿Te dan miedo los perritos? Si no es el caso, ¡podrías hacerte amig{F#a}{M#o} del que tiene mi familia! Es muy social, siempre saluda a quien venga y se queda mirándote para que lo acaricies, aunque no te conozca. Ah, y a muchas veces vamos a bañarnos juntos. Ha aprendido a surfear y todo, ¡al fin y al cabo es mi perro! ¡Y lo hace mejor que yo!\nEn cuanto se dé la oportunidad, se lo presentaré a l{F#a}{M#o}s dos. Seguro que mueve tanto la cola que parecerá una hélice. No dejes que te golpee con ella, o te dolerá mucho, jaja."
+      },
+      {
+        "Title": "Un dato curioso...",
+        "Context": "En el Pueblo de los Manantiales nos encantan las aguas termales, tanto a humanos como a Koholasaurios. Muchas veces incluso se ponen a remojo en la misma poza que nosotros. Si no sabes cómo reconocer si el saurio que tienes enfrente posee un carácter amigable o no, lo mejor es que mantengas las distancias.\n¿Que cómo se puede discernir el carácter de un Koholasaurio? Jaja, mi método es muy sencillo: acércate lentamente y ve probando. Si no intenta morderte, será porque tiene un buen carácter... Si te muerde... supongo que podrías considerarlo una muestra de cariño."
+      },
+      {
+        "Title": "Sobre Mavuika...",
+        "Context": "La Arconte Pyro es la persona más venerada de Natlan. Yo la admiro mucho, no solo porque sea la Arconte Pyro, sino también porque... ¡sabe surfear como nadie!\nUna vez la invité a enfrentarnos en una carrera acuática... ¿Eh? ¿Quieres saber quién ganó? Bueno, rétame a una carrera. ¡Si ganas, te lo contaré!"
+      },
+      {
+        "Title": "Sobre Kachina...",
+        "Context": "Kachina siempre piensa mucho antes de hablar, y tiene un carácter amable y agradable. Está más que claro que es una chica extraordinaria, pero como nunca alza la voz, la gente a su alrededor suele subestimarla. *Suspira*, yo nunca he dudado de sus habilidades. Lo único que me preocupa es su falta de confianza en sí misma y que termina por creerse las críticas infundadas de los demás... Por eso, además de darle constantes ánimos, siempre le hablo a los demás de sus virtudes. Sé que llegará el día en que todos cambien de opinión."
+      },
+      {
+        "Title": "Sobre Kinich...",
+        "Context": "Ahau habla más en un día que Kinich en todo un año. No tiene que ser fácil tomar decisiones por uno mismo con tantas interrupciones. Ahora que lo pienso, la única vez en la que ambos estuvieron de acuerdo en mostrar desinterés fue cuando intenté hablarles sobre horóscopos..."
+      },
+      {
+        "Title": "Sobre Chasca...",
+        "Context": "Conocí a Chasca cuando era pequeña. Nos peleamos varias veces por algunos juguetes... La verdad es que me quedé muy sorprendida tras enterarme de que se había convertido en mediadora. Dicen que hay quienes maduran lentamente y quienes lo hacen muy rápido. Me pregunto si todavía no me ha llegado a mí ese momento..."
+      },
+      {
+        "Title": "Sobre Citlalí...",
+        "Context": "#La abu Citlalí es sin duda la sacerdotisa más cualificada de los Augures Vientonocturno. Es mucho más que una simple anciana de la tribu, ¡es la anciana más increíble de todas! Además, las predicciones que me hace siempre acaban cumpliéndose. Hace mucho tiempo, me dijo que el rosa y el azul me traerían suerte en los negocios, y tal y como me dijo, los peciglobos que mejor se venden son los de estos colores.\nHace poco volví a importunarla, quiero decir, a visitarla. Me dijo que {F#una}{M#un} foraster{F#a}{M#o} me traería buenos augurios... Un momento, eh... ¡Tú eres {F#una}{M#un} foraster{F#a}{M#o}!"
+      },
+      {
+        "Title": "Sobre Iansán...",
+        "Context": "Iansán no es solo el orgullo de la Comunidad de la Feracidad, sino que es el orgullo de toda Natlan. Ha participado múltiples veces en el Peregrinaje del Retorno del Fuego Sagrado, ¡y no ha perdido hasta el día de hoy! Incluso me inscribí en su grupo de entrenamiento y pagué la matrícula, pero... siempre estoy demasiado ocupada y no tengo tiempo para practicar...\nEstá bien, seré franca. A veces, cuando veo cómo entrena a Kachina, una vocecilla en mi cabeza dice: “Ay, a ti lo que se te da bien es estar como pez en el agua. Si permaneces durante mucho tiempo sobre la tierra, te quedarás atrapada”... Sí, creo que debería respetar mi propio consejo."
+      },
+      {
+        "Title": "Sobre Xilonen...",
+        "Context": "Si incluso la Arconte Pyro reconoce su habilidad para la artesanía, no debe haber ninguna duda de su excelencia. Estoy segura de que, si un nombre antiguo se rompiera en añicos, ella misma podría arreglarlo y dejarlo como nuevo. ¡Ah! Creo que acabo de pronunciar palabras poco auspiciosas, ¿cómo iba a hacerse añicos algo tan importante? No, no. Yo no he dicho nada... Y tú tampoco has oído nada, ¿de acuerdo?"
+      },
+      {
+        "Title": "Sobre Ifá...",
+        "Context": "¡Ifá es el mejor! Siempre trae una actitud de lo más alegre cuando lo invito a hacer algo, y es muy ágil y rápido. Si no fuera porque ya estudió medicina, me hubiera gustado que fuera instructor de deportes acuáticos. ¿Que somos de tribus diferentes? ¡Eso no importa, no es ningún problema!"
+      },
+      {
+        "Title": "Más sobre Mualani (I)",
+        "Context": "¿Tienes un rato libre? ¿Te apetecería venir a mi casa y charlar un rato? ¡Tampoco estaría mal hablar mientras nos remojamos en las aguas termales! ¿O quieres ir a otro sitio? A mí no me importa, no siempre se da una ocasión así. Ya tengo preparado el Daguerrotipo y puedo enseñarte la pose. No te preocupes, ¡seguro que conseguiremos tomar una imagen increíble!"
+      },
+      {
+        "Title": "Más sobre Mualani (II)",
+        "Context": "#Ser guía es una labor que depende mucho de la experiencia. Por suerte, nuestros ancestros nos dejaron montones de valiosas costumbres para guiarnos por el camino correcto. Pero puedes estar tranquil{F#a}{M#o}, pues no solo acepto las normas antiguas; sigo aquellos hábitos que he probado y me han resultado efectivos.\n¿Que cuáles no funcionan? Humm... Por ejemplo, una vez me propuse ir a explorar un nuevo lugar, y había un puente enfrente, pero el mapa indicaba que necesitaba cruzar el río en barco para llegar a la otra orilla. Comprobé la corriente del río y también si el puente tenía algún mecanismo peligroso... Al final me di cuenta de que los ancestros no recomendaban cruzar el puente porque... ¡en aquella época no existía!\nAh... La experiencia es clave para un guía..."
+      },
+      {
+        "Title": "Más sobre Mualani (III)",
+        "Context": "Me encanta tener clientes de tierras lejanas. Después de concluir la ruta, siempre me agradecen que les haya enseñado las costumbres de Natlan, y yo también les doy las gracias por compartir su sabiduría conmigo durante el camino, por hablarme de sus hogares, y por contarme anécdotas que nunca hubiera conocido... Esto también es una expedición espiritual para mí."
+      },
+      {
+        "Title": "Más sobre Mualani (IV)",
+        "Context": "#Aunque siempre intento que todos se sientan cómodos cuando hago amigos nuevos, a veces... Jeje... A veces la gente me da a entender que soy demasiado entusiasta, hasta el punto de que puedo resultar abrumadora... Por eso, ahora trato de controlarme un poco al principio, y luego dejo salir mi lado más entusiasta cuando ya nos conocemos mejor...\nOh, si en algún momento te he hecho sentir incómod{F#a}{M#o}, puedes decírmelo directamente sin lugar a dudas. Si te da cosa decírmelo a la cara, podrías escribir una nota anónima. ¡Te aseguro que lo arreglaré!"
+      },
+      {
+        "Title": "Más sobre Mualani (V)",
+        "Context": "Todos tenemos un gran potencial cuando nos encontramos en apuros. No podría estar más de acuerdo con eso tras mi participación en el Peregrinaje del Retorno del Fuego Sagrado. Aunque sigo pensando que dos personas siempre tienen más opciones de ganar que una sola; y tres, más que dos... Cuando estamos unidos, ¡somos capaces de lograr milagros previamente inconcebibles!\nFíjate en la Guerra de los Peregrinos, por ejemplo. No estamos solos, nos acompañan los héroes de las generaciones pasadas de Natlan y las generaciones futuras que continuarán nuestra lucha. Si Natlan continúa hacia delante, es gracias a todos nuestros esfuerzos combinados. En mi opinión, ese es el significado de “Umoja”..."
+      },
+      {
+        "Title": "Aficiones de Mualani...",
+        "Context": "Natación, buceo, esquí acuático, surf, paracaidismo acuático, voleibol de playa, remo, polo acuático y aguantar la respiración bajo el agua... Ay, no podría contar las actividades que me gustan ni aunque usara también las manos de un peciglobo. Cuando me canso, me gusta hacer el muerto en el agua. A veces, incluso he llegado a quedarme dormida de lo cómoda que estoy. Lo malo es que, cuando despierto, no sé a dónde me ha arrastrado la corriente y los ancianos de la tribu me dan una buena regañina..."
+      },
+      {
+        "Title": "Preocupaciones de Mualani...",
+        "Context": "Cuando no estoy contenta, suelo decirme: “Vamos, no pasa nada. Hoy no es un día auspicioso, eso es todo. Solo es un mal día, no significa que vaya a ser siempre así”. De esa manera logro calmarme un poco. Si eso no funciona, me gusta subirme a la senda espiritual y gritar a todo pulmón mientras giro a toda velocidad. Tras unas vueltas, las preocupaciones se quedan atrás y no pueden alcanzarme."
+      },
+      {
+        "Title": "Comida que más le gusta...",
+        "Context": "Me gustan esas bandejas llenas de marisco sin verduras ni carne. Con un solo bocado, te sientes como si te sumergieras en el mismo mar y te hubieras convertido en un pez, nadando de un lado a otro... Humm... ¡Eso sí que es vida!"
+      },
+      {
+        "Title": "Comida que menos le gusta...",
+        "Context": "Aún me arrepiento de cuando era pequeña y vertía la leche en las aguas termales sin que nadie se diera cuenta. Si no hubiera hecho eso, ahora sería bastante más alta... No importa, ¡le prometí a la Sra. Atea que no volvería a hacerlo! Ahora siempre me termino la leche, ¡todavía tengo tiempo para seguir creciendo! ¡Tú también deberías hacerlo! ¡No cometas el mismo error que yo!"
+      },
+      {
+        "Title": "Al recibir un regalo (I)",
+        "Context": "Pero ¿cómo puede estar tan rico? Está tan bueno que me dan ganas de subirme a mi tabla de sur y hacer piruetas... ¡sin tocar el suelo!"
+      },
+      {
+        "Title": "Al recibir un regalo (II)",
+        "Context": "¿Queda más? ¿Queda más? ¡Esto sería todo un éxito en una fiesta!"
+      },
+      {
+        "Title": "Al recibir un regalo (III)",
+        "Context": "¿Y si lo dejamos un rato en las aguas termales? ¡Así sabrá mejor!"
+      },
+      {
+        "Title": "Cumpleaños...",
+        "Context": "#¡Feliz cumpleaños! Ya abrirás los regalos más tarde, he elegido el restaurante más popular especialmente para ti... Estoy segura de que has recibido muchas invitaciones de amigos, pero ¿no te gustaría celebrarlo junto a aquellos que el destino quiso que conocieras durante tus viajes?\nJeje, siéntate y que den comienzo las felicitaciones de todos. *Ejem*... ¡Perdonen, préstenme atención un momento! ¡Hoy es el cumpleaños de mi amig{F#a}{M#o}, y sí, me refiero a est{F#a}{M#e} gran {F#heroína}{M#héroe} de poder indiscutible y carácter noble que ha derrotado a los monstruos más fieros y sanado incontables almas! ¡Démosle la más calurosa de las felicitaciones! Vamos, repitan conmigo los de aquí: ¡Te deseamos la mejor de las suertes en tu búsqueda de tesoros! Bien, les toca a los de allí: ¡Y gran éxito en tus batallas! Perfecto, ahora todos juntos: ¡Feliz cumpleaños! ¡Suerte, salud y felicidad!"
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Introducción",
+        "Context": "¡Oh, es justo lo que quería! ¡Más, no te cortes!"
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desarrollo",
+        "Context": "¡Mi fuerza sube como la marea! ¿Quieres que juguemos una emocionante partida amistosa de voleibol de playa?"
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Nudo",
+        "Context": "La suerte está de mi lado... ¡Puedo sentirlo! Ahora podré conquistar esas enormes olas que me hicieron volcar la última vez. ¡No perdamos tiempo, vamos por ellas!"
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desenlace",
+        "Context": "#No suelo permitir que los viajeros se acerquen a lugares peligrosos por su propia seguridad. Sin embargo, sé que tú no tienes otra opción y que no puedes evitar ir en busca del peligro. Por eso, me gustaría acompañarte para poder asegurarme de que estás a salvo. Junt{F#a}{M#o}s podremos enfrentarnos a cualquier peligro."
+      },
+      {
+        "Title": "Habilidad Elemental (I)",
+        "Context": "¡Arriba!"
+      },
+      {
+        "Title": "Habilidad Elemental (II)",
+        "Context": "¡Sobre la ola!"
+      },
+      {
+        "Title": "Habilidad Elemental (III)",
+        "Context": "¡Más rápido!"
+      },
+      {
+        "Title": "Habilidad Elemental (IV)",
+        "Context": "¡Yuju!"
+      },
+      {
+        "Title": "Habilidad Elemental (V)",
+        "Context": "¡Increíble!"
+      },
+      {
+        "Title": "Habilidad Elemental (VI)",
+        "Context": "¡Aquí llega la ola!"
+      },
+      {
+        "Title": "Habilidad Definitiva (I)",
+        "Context": "¡A montar la ola! ¡Fuuussshhh!"
+      },
+      {
+        "Title": "Habilidad Definitiva (II)",
+        "Context": "¡Escualín al vuelo!"
+      },
+      {
+        "Title": "Habilidad Definitiva (III)",
+        "Context": "¡Mírame bien! ¡Te deseo buena suerte!"
+      },
+      {
+        "Title": "Al esprintar (I)",
+        "Context": "¡Rápido!"
+      },
+      {
+        "Title": "Al esprintar (II)",
+        "Context": "¿Necesitas que te preste mi tabla de surf?"
+      },
+      {
+        "Title": "Al abrir un cofre (I)",
+        "Context": "¡Sabía que hoy era un día auspicioso!"
+      },
+      {
+        "Title": "Al abrir un cofre (II)",
+        "Context": "Lo mejor siempre está al fondo del cofre."
+      },
+      {
+        "Title": "Al abrir un cofre (III)",
+        "Context": "¡Ay, se ha caído al suelo! ¡Hay que recogerlo, rápido! Espero que no se nos termine la suerte..."
+      },
+      {
+        "Title": "Vida baja (I)",
+        "Context": "Aún debo proteger a mis clientes."
+      },
+      {
+        "Title": "Vida baja (II)",
+        "Context": "Parece que la suerte no me acompaña hoy..."
+      },
+      {
+        "Title": "Vida baja (III)",
+        "Context": "Ganaré... ¡Sé que lo haré!"
+      },
+      {
+        "Title": "Aliado con vida baja (I)",
+        "Context": "#¡No estás sol{F#a}{M#o}!"
+      },
+      {
+        "Title": "Aliado con vida baja (II)",
+        "Context": "¡Eso es pasarse de la raya! ¡Deja que yo le dé una buena tunda!"
+      },
+      {
+        "Title": "Derrotada (I)",
+        "Context": "¿Cómo puede una guía quedarse atrás?..."
+      },
+      {
+        "Title": "Derrotada (II)",
+        "Context": "“Nadie luchará solo”..."
+      },
+      {
+        "Title": "Derrotada (III)",
+        "Context": "El final del camino es... regresar al hogar..."
+      },
+      {
+        "Title": "Recibiendo un ligero ataque (I)",
+        "Context": "¡Ya basta!"
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (I)",
+        "Context": "¡No te pases ni un pelo!"
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (II)",
+        "Context": "Mi tabla de surf..."
+      },
+      {
+        "Title": "Unirse al equipo (I)",
+        "Context": "¡Guau! ¡Con este grupo, ganaremos sí o sí!"
+      },
+      {
+        "Title": "Unirse al equipo (II)",
+        "Context": "¡Hola! ¿Cómo se encuentran todos?"
+      },
+      {
+        "Title": "Unirse al equipo (III)",
+        "Context": "¡Yujuuuu! ¡Vamoooos!"
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalles del personaje",
+        "Context": "Cuando los viajeros que llegan por primera vez al Pueblo de los Manantiales quieren disfrutar de la experiencia que ofrecen los deportes acuáticos más populares como la natación, el surf, el buceo o el polo acuático, todos les aconsejan que acudan a conversar con Mualani.\nLa tienda de artículos acuáticos de Mualani, “Peciglobos Parsimoniosos”, presenta productos de diseño exquisito y gran calidad, y su dueña cuenta con grandes conocimientos como guía. Por eso, Mualani no solo ayuda alegremente a sus clientes a elegir diseños y colores auspiciosos, sino que también les recomienda las mejores termas, las playas de arena fina más idílicas para darse un buen baño y las rutas más interesantes para que los recién llegados puedan pasar unas vacaciones relajadas y felices.\nPor otra parte, aquellos aventureros que adoren las expediciones y búsquedas de tesoros podrán contar con Mualani en su equipo por el precio adecuado. Mualani posee grandes conocimientos y una amplia experiencia atravesando las tierras salvajes, como la excelente guía de la nueva generación de la tribu que es. Por eso, es capaz de satisfacer los deseos de aquellos viajeros que quieran llegar al destino de forma rápida y segura, pero también es una acompañante ideal para aquellos que quieran vivir una expedición emocionante y llena de sorpresas.\n“Lo más importante de un viaje es disfrutar del recorrido hasta alcanzar el destino. ¡Lo segundo más importante es partir en el momento auspicioso!”."
+      },
+      {
+        "Title": "Historia del personaje (1)",
+        "Context": "Aquellos que acaban permaneciendo un tiempo en el Pueblo de los Manantiales, ya sean sus propios habitantes o viajeros de paso, siempre se llevan una impresión muy vívida de cierta joven de la tribu.\nPor ejemplo, te encuentras tomando el sol tranquilamente en la playa cuando, de repente, escuchas una voz que se acerca cada vez más rápido exclamando “¡Yujuuu!”, a la vez que una chica sale despedida desde el mar y aterriza de un salto sobre la fina arena, levantando un polvorín.\nO tal vez estás disfrutando de un partido de voleibol de playa y ves a una grácil muchacha animando a voz en grito a los demás miembros del equipo, tras lo que pega un buen salto y golpea la pelota con todas sus fuerzas hacia el equipo rival, mientras su emocionada voz le hace eco a las olas.\nLa vuelves a ver cuando recibes una invitación para asistir a una celebración y te encuentras hablando con el resto de invitados en voz baja en un ambiente un tanto incómodo. En ese mismo momento, aparece en mitad de la fiesta con la grandiosa actitud de una estrella, mientras declara en voz alta:\n“¿Qué pasa? ¡Están todos demasiado callados! ¡Suban la música y todos a bailar!”.\nInmediatamente después, se coloca en el centro y, siguiendo el ritmo de la música, comienza a menear el cuerpo. Su emoción es contagiosa, y cada vez más y más gente se decide a unirse a ella...\nIntentas averiguar quién es, y enseguida obtienes un nombre: Mualani.\nDespués, cuando te dispones a comprar algún artículo acuático, vuelves a encontrártela en su tienda, con una sonrisa que le ilumina todo el rostro.\nEn un principio, solo pretendías comprar una tabla de surf, pero acabas enterándote de dónde se encuentran todas y cada una de las pozas de aguas termales en el Pueblo de los Manantiales y en qué se diferencian, qué debes tener en cuenta al surfear y en qué lugar hallar a los compañeros Koholasaurios. Por supuesto, Mualani también te anima a adquirir el diseño azul, pues dice que te traerá buena suerte.\n“En realidad, ya te había visto antes...”. Le hablas de las otras ocasiones en las que se han encontrado.\n“¡Ah, entonces ya somos viejos amigos! Bueno, entonces te lo dejaré casi a mitad de precio... ¡y no dudes en venir a buscarme si quieres aprender a surfear!”.\nAunque te habías propuesto simplemente disfrutar de unos días de relajación, terminas quedándote en aquel lugar varios meses. Con el tiempo, ustedes dos forjan una bonita relación de amistad. Al final, le preguntas con curiosidad por qué es siempre tan cariñosa con sus amigos, e incluso con la gente a la que acaba de conocer.\n“Bueno, yo creo que... en este mundo existen dos tipos de personas: los amigos a los que ya conozco y los que están por conocer”.\nTras meditar sus propias palabras un rato más, Mualani esboza una gran sonrisa."
+      },
+      {
+        "Title": "Historia del personaje (2)",
+        "Context": "Los padres de Mualani son comerciantes influyentes, pues no solo lograron establecer una red de negocios en toda Natlan, sino que también han forjaron alianzas con mercaderes de otras naciones.\nCuando era pequeña, sus padres estaban siempre ocupados con alguna actividad social que otra, a veces pasaban días y días hasta que regresaban a casa, por lo que Mualani solía recorrer las calles con su perrito o jugaba a todo tipo de competiciones acuáticas junto a los demás niños de la tribu.\nSolo cuando llegaban las vacaciones, la familia decoraba el hogar y preparaba una buena comida para celebrarlo.\nEn una de estas reuniones familiares, Mualani propuso compartir parte de la carga laboral de sus padres para que así pudieran pasar todos más tiempo juntos.\n“¡Muchos adultos piensan que tengo la personalidad adecuada para los negocios!”, dijo Mualani.\nSu madre era de la opinión de que Mualani debía probar experiencias diferentes y ver mundo antes de decidir a qué quería dedicarse de verdad.\nY su padre añadió que, si al final quería trabajar en el mundo de los negocios, podría encargarse perfectamente de los negocios familiares, pero que si encontraba algo que le despertara un mayor interés, siempre la apoyarían.\nDespués, Mualani comenzó a viajar por múltiples lugares. Como si de un ave se tratase, surcó las montañas y los valles de Natlan. Aquellos paisajes se le antojaron fascinantes, pero tras un largo vuelo, aquel pájaro llegado de las costas comenzó a extrañar el olor a sal de la brisa marina.\nFinalmente, acabó por regresar a su hogar y empezó a practicar todos los deportes acuáticos que conocía y a investigar sobre el equipamiento necesario. Como no estaba muy satisfecha con estos artículos, aprendió a modificarlos, y los pintó con colores auspiciosos y patrones con personalidad.\nAsí fue como se convirtió en pionera de una nueva tendencia, y cada vez que realizaba algún cambio, todos acudían ávidamente a preguntarle sobre dicho proceso. Mualani siempre se mostraba dispuesta a responder, y acabó haciéndose con el título de comerciante de equipamiento, lo que le permitió ganar una gran cantidad de Moras.\nDesde que abrió “Peciglobos Parsimoniosos”, el establecimiento se ha convertido en un lugar de reunión para los amantes de los deportes acuáticos. Entre los clientes, hay quienes acuden por el deporte, y quienes lo hacen por el equipamiento.\nSea como sea, Mualani ha terminado comprendiendo la verdadera alegría de hacer negocios: la sonrisa de la gente cuando obtiene aquello que desea; una sonrisa más brillante que cualquier Mora.\nPero ¿es eso lo que más le gusta hacer a Mualani? Cuando se hace tal pregunta, se rasca la cabeza mientras se dice:\n“Ay, la vida es bien larga... ¿Por qué debería decidir ahora cual es la meta final? Mientras el viaje no termine, podré seguir viendo paisajes diversos. ¡Eso sí que vale la pena!”."
+      },
+      {
+        "Title": "Historia del personaje (3)",
+        "Context": "Al principio, Mualani no solía trazar un plan de viaje antes de partir. Cuando llegaba a un lugar, recorría cada uno de sus rincones, hablaba con los lugareños y preguntaba por los platos locales, los puntos de interés y las costumbres que tenían, para luego decidir qué hacer ese día.\nSi la conversación fluía, Mualani los invitaba a unirse a su viaje. Así, acababa emprendiendo animadas excursiones y celebraciones.\nCuando Mualani pasaba un tiempo más largo en un lugar determinado, se esmeraba por descubrir los lugares más especiales que solo los lugareños conocían.\nA veces, los viajeros que se dirigían a tales destinos acudían a Mualani para que les diera las indicaciones pertinentes. Al ver que tenía un gran conocimiento sobre el tema, pensaban que era una guía turística y le ofrecían dinero para que los llevara allí.\nMualani, sin embargo, rechazaba tales ofertas con un gesto de la mano, argumentando: “Los guías deben asegurar la seguridad de sus clientes, y eso no es algo que yo pueda hacer. Además, yo también acabo de llegar aquí”.\nCuando algún viajero de tierras lejanas acudía al Pueblo de los Manantiales, Mualani veía la oportunidad perfecta para ostentar sus habilidades.\nAlgunos de sus amigos decían que era una guía nata, mientras que otros insistían:\n“Cuando te conviertas en guía, tienes que llevarnos a visitar ruinas de dragones en las que no haya estado nadie más. Tal vez logremos encontrar alguna reliquia valiosa”.\nMualani empezó a considerarlo, así que al día siguiente buscó al Sr. Nuu, un conocido guía de la tribu, para convertirse en su aprendiza.\nAl verlo, Mualani le preguntó que cuáles eran las habilidades que debía tener un guía para liderar una expedición.\nEl Sr. Nuu lo meditó durante un momento, y dijo: “Para empezar, necesitarás conocimientos de supervivencia. Por ejemplo, deberás conocer las costumbres de los animales salvajes, las propiedades de las plantas más comunes y cómo cocinarlas. También tendrás que saber elegir el lugar adecuado para acampar. Además, es importante que conozcas cómo funciona la naturaleza: saber discernir la dirección de la marea y los ciclos de actividad volcánica. Deberás recorrer el terreno: acostumbrarte a pasear por valles, grutas y volcanes. Humm, necesitarás tres años para asentar las bases”.\nMualani quiso marcharse, pero luego pensó que así podría ver lugares a los que nunca habría ido de otra forma. Por eso, se decidió a pagar la costosa matrícula.\nAunque el Sr. Nuu insistía en que la labor más importante de un guía era llevar a los clientes sanos y salvos al destino, Mualani no podía evitar preguntarse que encontraría al final de la otra senda en una encrucijada. ¿Y si encontraba un tesoro increíble? Así fue como acabó viviendo todo tipo de accidentes, como cuando se encontró por error en el nido de un Koholasaurio o cayó en un hoyo oculto por la maleza.\nA Mualani nunca le molestaron tales incidentes. Para ella, recorrer el camino equivocado significaba aprender a distinguir el correcto. Además, a veces encontraba recompensas inesperadas, como un depósito de minerales desconocidos en el fondo de una fosa.\nMás tarde, llegó a convertirse en guía y, como recordaba nítidamente las palabras de su maestro, se esforzaba por planificar las rutas más seguras y prácticas para sus clientes. Sin embargo, así sus viajes se volvieron más aburridos, pues nunca ocurría nada inesperado. Aquello era como si le quitaran el relleno de fruta a los rollitos de manzana... Mualani no podía soportarlo.\nUna vez, Mualani guio a un grupo de turistas hasta un lugar con unas vistas impresionantes, y les sugirió que tomaran una imagen en grupo. Cuando todos estaban ya posando y sonriendo, un volcán estalló a lo lejos.\nMualani pulso el botón de captura justo en ese momento, y al ver la imagen, exclamó mientras daba palmas: “¡Es una imagen perfecta! ¡Este era el lugar indicado, justo como calculé!\nEl enorme temblor los había dejado a todos sin habla, e intercambiaban miradas alarmadas. Por eso, Mualani les explicó:\n“No se preocupen, estamos a una distancia segura. Habrá alguna que otra erupción más, así que pueden sentarse aquí a disfrutar del fenómeno. ¡Les aseguro que no olvidarán una vista así en la vida!”.\nIncluso en los momentos más difíciles, Mualani era una guía fiable capaz de llevar a sus clientes sanos y salvos a su destino.\nPor desgracia, hasta el día de hoy no ha logrado hallar reliquias de dragones que vender a buen precio."
+      },
+      {
+        "Title": "Historia del personaje (4)",
+        "Context": "“¡Háblame de los augurios para este nuevo viaje, por favor!”. Mualani se echó contra la puerta con todo su peso y gritó: “¡Te pagaré!”.\n“¡Búscate a otra persona!”, respondió desde el interior Citlalí, la sacerdotisa de la tribu de los Augures Vientonocturno, también apoyada en la puerta. “Solo vas a salir de viaje. ¡No le des más vueltas, no hay tanto peligro!”.\nLas dos siguieron forcejeando a ambos lados de la entrada del hogar de Citlalí, y Mualani solo se detuvo cuando Citlalí le aseguró amenazadoramente que tendría que compensarle íntegramente el precio de la puerta si llegaba a romperla.\nEso no disuadió a Mualani, que apareció una segunda vez con una cesta llena de comida.\nPan de frijoles con camarones fritos, estofado de carne flameante, sauriogalletas... Aunque a Citlalí no le apetecía recibir invitados, especialmente porque le daba pereza tener que ordenar su casa, no pudo negarse a abrir la puerta al ver tanto manjar junto.\nCuando estuvo llena y satisfecha, Mualani aprovechó para probar uno de sus trucos y así obtener su favor.\n“¿Sabes, abu? ¡El nuevo volumen de «Crónicas del espejismo» está a punto de salir!”\n“Claro que lo sé. Al fin y al cabo soy una ávida lectora conocedora de muchas cosas”, respondió Citlalí sin inmutarse.\n“Mi próximo cliente llegará a Natlan para recoger material de inspiración y escribe para la Editorial Yae. ¿Quién sabe? Podría conseguir una copia antes de tiempo”.\n“*Ejem*, bueno, Natlan es una tierra repleta de misterios, por lo que debemos guardarnos del fuego y la noche. Está bien, te haré una adivinación, pero solo como una excepción, ¿eh?”.\n...\n“Cuando te encuentres con una encrucijada, continúa por la senda de la derecha”. Esa fue la revelación que recibió Citlalí mientras meditaba y se abría paso entre las nieblas del futuro. “Menos mal que tenías tanta confianza. Si no lo hubiera vaticinado, habría ocurrido un desastre”.\nAntes de partir, Mualani revisó el mapa. El destino al que se dirigía aquella vez pasaba por un solo camino principal. Sin embargo, cuando alcanzaron el interior del volcán, se encontró con una encrucijada que no estaba marcada en el mapa. Al parecer, el reciente aumento de la actividad volcánica había alterado el terreno.\nSiguió las instrucciones de Citlalí y logró guiar al grupo hasta su destino, tal y como había sido vaticinado.\nDesde aquel momento, Mualani empezó a considerarla como una sabia anciana, y siempre le lleva todo tipo de regalos cuando la visita para recibir consejos sobre la vida. Desde entonces, Mualani también comenzó a hablar mucho más sobre los buenos y malos augurios.\nHoy en día, todavía se la puede encontrar forcejeando en la puerta de Citlalí. En el momento en que esta muestre un ápice de debilidad, Mualani entrará victoriosa."
+      },
+      {
+        "Title": "Historia del personaje (5)",
+        "Context": "La guerra entre Natlan y el Abismo duró siglos. Como era habitual entre los habitantes de Natlan, Mualani creció escuchando las historias de sus héroes. Sin embargo, la vida que ella conocía no era tan peligrosa, y por tanto tampoco tan emocionante, como la de las leyendas que había escritas en los pergaminos de tela.\nPara Mualani, el ambiente en el Pueblo de los Manantiales siempre era apacible y tranquilo. Cuando se reunían los adultos para discutir asuntos oficiales, solían comenzar con un relajante baño en las aguas termales, tras lo que comían algún dulce y bebían leche hasta que, poco a poco, la conversación viraba hacia el tema que los ocupaba.\nIncluso la música que se escuchaba en la tribu tenía un ritmo lento y plácido.\nDe pequeña, Mualani había escuchado historias sobre las batallas que se libraron en lugares remotos. Así que una vez le preguntó a una de las guardias:\n“¿De verdad es el Abismo tan peligroso? ¿Por qué están todos tan tranquilos?”\nLa guardia se rió y, acariciándole la cabeza, dijo: “En realidad, no es algo de lo que tengas que preocuparte tanto. Tú también podrás enfrentarte a él sin problema cuando crezcas”.\nMualani no lo entendió del todo, pero no le pareció un problema demasiado urgente, por lo que dejó la respuesta de lado y siguió su vida sin preocupaciones.\nHasta que una noche, el Abismo atacó la tribu sin previo aviso. Mualani presenció cómo los guardias luchaban con uñas y dientes contra aquellos monstruos. En aquel momento, comprendió que la apacible vida de la que había disfrutado allí no era algo que pudiera dar por sentado.\nAsí pues, aprendió a combatir junto a los guardias veteranos de la tribu. Como tenía buena forma física y era hábil en el agua, luchaba como un verdadero y veloz tiburón.\nMás tarde, fundó su propio equipo y participó en el Peregrinaje del Retorno del Fuego Sagrado, pero como sus compañeros no eran más que novatos, sufrieron una derrota en sus primeros combates.\nAunque su equipo estaba desanimado, Mualani no perdía la sonrisa. “¡Hemos luchado contra esos veteranos y no se lo hemos puesto fácil! ¡Eso ya es increíble de por sí! Además, ahora que tenemos experiencia, podremos hacerlo mejor la próxima vez”.\nY así fue. Cada vez que participaban en la competición, superaban su resultado anterior. Al final, Mualani se consagró como campeona y obtuvo el privilegio de participar en la Guerra de los Peregrinos.\nLos monstruos del Abismo que ella recordaba de aquella noche, hacía tantos años, eran adversarios formidables y casi imbatibles. Sin embargo, cuando ella y sus compañeros se encontraron cara a cara con los monstruos, se dio cuenta de que podía derrotarlos sin mayor problema.\n“Parece que esta vez he tenido suerte, solo hemos encontrado enemigos débiles”.\nEsa “suerte” siempre acompañó a Mualani, pues participó tres veces en la Guerra de los Peregrinos, alzándose cada vez con la victoria, y ni siquiera ha tenido que ser resucitada hasta la fecha.\nCada vez que regresaba a la tribu tras ganar una batalla, se celebraba un gran festejo en las aguas termales al que asistía toda la tribu. Cuando los niños oían hablar de sus hazañas, corrían a pedirle que les enseñara a luchar.\n“¡Yo también quiero ser tan fuerte como tú!”.\nAl ver sus rostros inocentes, Mualani no podía evitar recordar la pregunta que le hizo a aquella guardia cuando era pequeña. Sonriendo, hizo un gesto con la mano:\n“El Abismo en realidad no es tan terrible. Vayan a jugar, anda. Ya se preocuparán por luchar cuando crezcan”.\n“Por cierto, ¡la próxima vez les enseñaré a surfear!”."
+      },
+      {
+        "Title": "Escualotabla de surf",
+        "Context": "Una vez, cuando Mualani se encontraba surfeando, se topó con un tiburón de agua dulce. Este se acercó a ella en completo silencio y a la velocidad del rayo. Entonces, saltó fuera de la superficie y le mostró los afilados colmillos a Mualani, que brillaron con una tonalidad fría bajo los rayos del sol.\n“Jaja, ¿tú también has venido a surcar las olas?”, dijo Mualani mientras giraba rápidamente sobre sí misma para esquivar el ataque de la bestia y se daba prisa para alejarse de esta. “Entonces, ¡echemos una carrera!”.\nEl tiburón de agua dulce pareció aceptar el desafío y la persiguió sin descanso. Mualani aceleró, y la espuma pareció abrirse paso para dejarle un largo camino blanco que seguir.\nAl acercarse a la orilla, el tiburón se dio por vencido y se marchó enojado. Mualani se despidió desde lejos: “¡Hasta la próxima!”.\nA partir de entonces, Mualani se encontró varias veces con el mismo tiburón en el mismo lugar, con lo que le puso el apodo de “Escualín” y siguieron compitiendo. En las primeras carreras, Mualani siempre se hacía con la victoria, pero Escualín no pensaba rendirse. Poco a poco, la distancia entre ambos fue reduciéndose, hasta que logró alcanzar a Mualani. Sin embargo, en vez de morderla, Escualín se limitó a mover su grueso cuerpo con elegancia, declarándose el ganador.\n“¡Tú has ganado esta vez! ¡Toma, anda, aquí está tu recompensa!”, le dijo Mualani mientras le entregaba un pescado seco a Escualín y le acariciaba las aletas.\nAsí fue como se convirtieron en compañeros de surfeo. Sin embargo, un buen día, tras nadar y dar vueltas a su alrededor, el Escualín se alejó menando la cola y se perdió en dirección al sol poniente.\nMualani se despidió de él como siempre. Después, regresó a ese lugar en varias ocasiones, pero nunca volvió a ver su figura fiera y redonda.\nMualani era consciente de que los encuentros así formaban tan solo una parte del viaje y que siempre habría nuevos destinos que alcanzar, pero que podía atesorar el tiempo que habían pasado juntos.\nMeditando sobre esto, Mualani sacó una hoja de papel y empezó a dibujar. Dos semanas después, le entregó a un artesano el diseño para su “escualotabla de surf”. Las aletas de Escualín eran bien rígidas, pero su cola, por el contrario, era bastante flexible. Mualani escogió cuidadosamente los materiales para recrear fielmente la textura de la piel del animal, e incluso replicó sus dientes y mandíbula.\nEn cuanto al color, tendría que ser naturalmente bastante llamativo, para que todos recordaran a Escualín al verlo.\nMualani salió subida a la tabla y, una vez más, atrajo la mirada de todos. Tras recibir los elogios de todos, la escualotabla de surf comenzó a fabricarse y a venderse en masa. Y claro está, la versión a la venta no era capaz de pegar bocados.\nCuando Mualani surca las olas, a veces se pregunta si volverá a competir con Escualín algún día. Le gustaría saber quién sería más rápido, si el tiburón o su tabla."
+      },
+      {
+        "Title": "Visión",
+        "Context": "Más tarde, Mualani comprendió claramente el significado del nombre antiguo “Umoja”. De hecho, creía saber cuál era su origen: aquella, en principio apacible, noche de hacía tantos años.\nEsa noche, Mualani y sus amigos acababan de terminar una celebración en las aguas termales, y era ya medianoche. Mientras todos seguían deleitándose en la felicidad del momento, un horrible ruido se escuchó a lo lejos, especialmente nítido en la tranquilidad nocturna.\nTodos se miraron los unos a los otros sin saber qué estaba ocurriendo. De pronto, Atea, que había estado patrullando, se acercó corriendo mientras exclamaba: “¡Busquen refugio! ¡El Abismo nos ataca!”.\nA su alrededor, todo se sumió en el caos, y la gente se preparó para correr por sus vidas. Entonces, Mualani alzó el brazo y dijo: “¡Deja que me quede a ayudar, Atea!”.\nTras pronunciar aquellas palabras, otros empezaron a unirse, dispuestos a luchar por defender la tribu.\n“No es posible, ninguno de ustedes tiene experiencia en combate. Si se quedan, correrán un grave peligro. La guerra no es ninguna broma”.\nPero Mualani no estaba de broma, pues la colmaba una poderosa determinación. Como miembro de la tribu, no podía quedarse de brazos cruzados.\n“No hace falta que luchemos. Podemos ayudar de otra forma”.\nMualani se giró para contemplar a aquellos de sus compañeros que habían decidido quedarse...\nIrapa corría a toda velocidad como si el viento mismo lo acompañara en cada zancada que daba, él pasó la información a los demás habitantes de los alrededores. Olanta tenía un físico imponente y una gran visión, por lo que fue de mucha ayuda en las patrullas. También estaba Yana, que había sido salvavidas y conocía varios trucos de primeros auxilios y podía quedarse atrás para prestar auxilio...\n“En cuanto a mí...”, dijo Mualani mientras se subía a la tabla de surf de la que tan orgullosa se sentía, “Soy rápida como nadie. ¡Iré allá donde me necesiten!”.\nSus compañeros se mostraron de acuerdo con Mualani, y Atea no pudo hacer nada para evitar que ayudaran. Así que se limitó a recordarles que debían cuidarse mutuamente y que se mantuvieran a salvo.\n“En ese caso, ven conmigo a buscar los portones del Abismo, Mualani”.\n...\nMualani recorrió a toda velocidad la senda espiritual para reconocer el terreno de las inmediaciones de la tribu y confirmar la ubicación de los portones del Abismo. Cada vez que encontraba uno, se lo comunicaba a los guardias que luchaban más abajo.\nDe uno de los portones había surgido una verdadera horda de monstruos, y en el campo de batalla se batía una cruenta lucha. Cuando Mualani logró traer ayuda, el lugar había quedado arrasado por unas llamas negras.\nBlandiendo su espada, Atea se lanzó contra un monstruo y lo ensartó en su afilada hoja, pero otro más iba a saltar sobre ella desde atrás.\n“¡Cuidado!”, gritó Mualani, y se precipitó con su tabla de surf contra la bestia, haciendo que saliera despedida por los aires y quedando ella misma expuesta.\nRespondiendo a la provocación, el monstruo se dio la vuelta y alzó sus terribles garras contra Mualani, quien se encogió sobre sí misma, esperando un golpe que nunca llegó. Sintió cómo la sangre caliente le salpicaba la cara, pues Atea había atravesado el corazón del monstruo con su hoja justo a tiempo.\n...\nEl encarnizado combate duró hasta el amanecer. Cuando se aseguraron de que todos los portones del Abismo estaban sellados, Mualani siguió a Atea y los demás guardias de vuelta a la tribu, exhaustos.\nLa muchacha se percató de que todos presentaban heridas de menor o mayor tamaño, y alguien se encargó de los primeros auxilios y vendó a los heridos. En comparación, ella, a la que todos habían protegido, no tenía más que algún que otro rasguño.\nMualani comenzó a albergar un sentimiento de culpa que no había sentido jamás. “Si tan solo hubiera sido más rápida y hubiera podido prestarles ayuda antes...”.\nMualani apretó los puños y se resolvió a buscar a los guerreros de la tribu para que la entrenaran en combate.\nLuego, Atea acompañó a Mualani a casa, donde la recibió su familia, que había estado preocupada durante todo ese tiempo y acaban de enterarse de que había participado en la batalla.\n“Es una niña muy valiente”, dijo Atea dándole unos golpecitos en la cabeza antes de marcharse.\n...\nEsa noche, Mualani tuvo un sueño muy largo, y podría haber seguido durmiendo de no ser porque, al darse la vuelta, apoyó la cabeza contra algo duro que la despertó.\nAl abrir los ojos, vio que tenía en la mano un objeto límpido y traslúcido: una Visión.\nLa niña la contempló a la luz del sol que se filtraba a través de la ventana y la acarició con la mano mientras la examinaba repetidas veces para asegurarse de que no era algún juguete que le hubiera comprado su familia.\n“¿Es este un trofeo por mi primera victoria? ¡Qué auspicioso!”."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 210200,
+      "Name": "Peces voladores, olas de calor y caracolas",
+      "Description": "Modelo de vestimenta de Mualani. Originalmente, quería decorar su ropa con toda clase de peces, pero la idea era tan innovadora que el encargado de la tienda de ropa tuvo que rechazarlo sutilmente. Aunque el diseño actual es una versión muy simplificada, sigue teniendo la suficiente personalidad como para que cualquier persona reconozca a esta guía tan entusiasta entre el gentío.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104124,
+    113064,
+    101247,
+    112106,
+    104349,
+    113056
+  ]
+}
