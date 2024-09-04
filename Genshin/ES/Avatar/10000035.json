@@ -1,0 +1,1129 @@
+{
+  "Id": 10000035,
+  "PromoteId": 35,
+  "Sort": 7,
+  "Body": 5,
+  "Icon": "UI_AvatarIcon_Qiqi",
+  "SideIcon": "UI_AvatarIcon_Side_Qiqi",
+  "Name": "Qiqi",
+  "Description": "Una aprendiz y recolectora de hierbas en la Farmacia Bubu. Una zombi con una tez blanca como el hueso, de pocas palabras y emociones.",
+  "BeginTime": "2020-09-15T04:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 1,
+  "BaseValue": {
+    "HpBase": 962.8532,
+    "AttackBase": 22.344,
+    "DefenseBase": 71.796
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 3531,
+        "Proud": {
+          "Descriptions": [
+            "Daño de 1er golpe|{param1:F1P}",
+            "Daño de 2.º golpe|{param2:F1P}",
+            "#Daño de 3er golpe|{param3:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param3:F1P}",
+            "#Daño de 4.º golpe|{param4:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param4:F1P}",
+            "Daño de 5.º golpe|{param5:F1P}",
+            "#Daño de ATQ Cargado|{param6:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param6:F1P}",
+            "Coste de Aguante de ATQ Cargado|{param7:F1} pts.",
+            "Daño de Caída|{param8:F1P}",
+            "Daño de impacto de caída baja/alta|{param9:P}/{param10:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.37754,
+                0.38872,
+                0.24166,
+                0.24682,
+                0.63038,
+                0.64328,
+                20,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.40827,
+                0.42036,
+                0.26133,
+                0.26691,
+                0.68169,
+                0.69564,
+                20,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.439,
+                0.452,
+                0.281,
+                0.287,
+                0.733,
+                0.748,
+                20,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.4829,
+                0.4972,
+                0.3091,
+                0.3157,
+                0.8063,
+                0.8228,
+                20,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.51363,
+                0.52884,
+                0.32877,
+                0.33579,
+                0.85761,
+                0.87516,
+                20,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.54875,
+                0.565,
+                0.35125,
+                0.35875,
+                0.91625,
+                0.935,
+                20,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.59704,
+                0.61472,
+                0.38216,
+                0.39032,
+                0.99688,
+                1.01728,
+                20,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.64533,
+                0.66444,
+                0.41307,
+                0.42189,
+                1.07751,
+                1.09956,
+                20,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.69362,
+                0.71416,
+                0.44398,
+                0.45346,
+                1.15814,
+                1.18184,
+                20,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.7463,
+                0.7684,
+                0.4777,
+                0.4879,
+                1.2461,
+                1.2716,
+                20,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.79898,
+                0.82264,
+                0.51142,
+                0.52234,
+                1.33406,
+                1.36136,
+                20,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                0.85166,
+                0.87688,
+                0.54514,
+                0.55678,
+                1.42202,
+                1.45112,
+                20,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                0.90434,
+                0.93112,
+                0.57886,
+                0.59122,
+                1.50998,
+                1.54088,
+                20,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                0.95702,
+                0.98536,
+                0.61258,
+                0.62566,
+                1.59794,
+                1.63064,
+                20,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.0097,
+                1.0396,
+                0.6463,
+                0.6601,
+                1.6859,
+                1.7204,
+                20,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ]
+        },
+        "Id": 10351,
+        "Name": "Ataque Normal: Técnica de espada antigua",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 5 ataques consecutivos con espada.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para desatar un doble golpe de espada.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+        "Icon": "Skill_A_01"
+      },
+      {
+        "GroupId": 3532,
+        "Proud": {
+          "Descriptions": [
+            "Daño de habilidad|{param8:P}",
+            "Curación al golpear|{param1:F2P} de ATQ + {param2:I}",
+            "Curación continua|{param3:F2P} de ATQ + {param4:I}",
+            "Daño de Heraldo de la escarcha|{param5:F1P}",
+            "Duración|{param6:F1} s",
+            "TdE|{param7:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.1056,
+                67.40786,
+                0.696,
+                450.5507,
+                0.36,
+                15,
+                30,
+                0.96
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.11352,
+                74.149574,
+                0.7482,
+                495.612,
+                0.387,
+                15,
+                30,
+                1.032
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.12144,
+                81.45311,
+                0.8004,
+                544.42847,
+                0.414,
+                15,
+                30,
+                1.104
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.132,
+                89.31845,
+                0.87,
+                597,
+                0.45,
+                15,
+                30,
+                1.2
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.13992,
+                97.745605,
+                0.9222,
+                653.32666,
+                0.477,
+                15,
+                30,
+                1.272
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.14784,
+                106.73457,
+                0.9744,
+                713.40845,
+                0.504,
+                15,
+                30,
+                1.344
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.1584,
+                116.28535,
+                1.044,
+                777.2453,
+                0.54,
+                15,
+                30,
+                1.44
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.16896,
+                126.39793,
+                1.1136,
+                844.83734,
+                0.576,
+                15,
+                30,
+                1.536
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.17952,
+                137.07233,
+                1.1832,
+                916.18445,
+                0.612,
+                15,
+                30,
+                1.632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.19008,
+                148.30853,
+                1.2528,
+                991.2866,
+                0.648,
+                15,
+                30,
+                1.728
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.20064,
+                160.10654,
+                1.3224,
+                1070.1439,
+                0.684,
+                15,
+                30,
+                1.824
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                0.2112,
+                172.46637,
+                1.392,
+                1152.7563,
+                0.72,
+                15,
+                30,
+                1.92
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                0.2244,
+                185.388,
+                1.479,
+                1239.1239,
+                0.765,
+                15,
+                30,
+                2.04
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                0.2376,
+                198.87144,
+                1.566,
+                1329.2466,
+                0.81,
+                15,
+                30,
+                2.16
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                0.2508,
+                212.9167,
+                1.653,
+                1423.1244,
+                0.855,
+                15,
+                30,
+                2.28
+              ]
+            }
+          ]
+        },
+        "Id": 10352,
+        "Name": "Magia Adeptus: Heraldo de la escarcha",
+        "Description": "Usando su talismán de sangre helada, Qiqi invoca al Heraldo de la escarcha, infligiendo <color=#99FFFFFF>Daño Cryo</color> a todos los enemigos cercanos.\n\n<color=#FFD780FF>Heraldo de la escarcha</color>\n·Cuando Qiqi golpea a un objetivo con sus Ataques Normales o Cargados, regenera Vida para todos los miembros de tu equipo y todos los personajes aliados cercanos. La cantidad de Vida regenerada es proporcional al ATQ de Qiqi.\n·Regenera una cierta cantidad de Vida del personaje en uso a intervalos regulares.\n·Sigue al personaje en uso para infligir <color=#99FFFFFF>Daño Cryo</color> a todos los enemigos que se encuentre a su paso.\n\n<i>“Utilizo esto para evitar el aumento de la temperatura y la podredumbre de... las valiosas hierbas medicinales del Dr. Baizhu”</i>.",
+        "Icon": "Skill_S_Qiqi_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 3539,
+      "Proud": {
+        "Descriptions": [
+          "Daño de habilidad|{param3:P}",
+          "Curación|{param1:F1P} de ATQ + {param2:I}",
+          "Duración|{param4:F1} s",
+          "TdE|{param5:F1} s",
+          "Energía Elemental|{param6:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              0.9,
+              577.3388,
+              2.848,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              0.9675,
+              635.0807,
+              3.0616,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              1.035,
+              697.63446,
+              3.2752,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              1.125,
+              765,
+              3.56,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              1.1925,
+              837.17737,
+              3.7736,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              1.26,
+              914.16656,
+              3.9872,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              1.35,
+              995.96765,
+              4.272,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              1.44,
+              1082.5804,
+              4.5568,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              1.53,
+              1174.0051,
+              4.8416,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              1.62,
+              1270.2417,
+              5.1264,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              1.71,
+              1371.29,
+              5.4112,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              1.8,
+              1477.1501,
+              5.696,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              1.9125,
+              1587.8221,
+              6.052,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              2.025,
+              1703.3059,
+              6.408,
+              15,
+              20,
+              80
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              2.1375,
+              1823.6016,
+              6.764,
+              15,
+              20,
+              80
+            ]
+          }
+        ]
+      },
+      "Id": 10353,
+      "Name": "Magia Adeptus: Preservadora de la fortuna",
+      "Description": "Qiqi libera el poder Adeptus sellado dentro de su cuerpo, marcando a los enemigos cercanos con un talismán de conservación de la fortuna que inflige <color=#99FFFFFF>Daño Cryo</color>.\n\n<color=#FFD780FF>Talismán de conservación de la fortuna</color>\nCuando los enemigos marcados con el talismán reciben daño, el personaje que infligió el daño regenera Vida para sí mismo.\n\n<i>“Soy la Preservadora de la Fortuna, la Doncella de la Resurrección”.</i>\n<i>—Qiqi no recuerda cuándo dijo estas palabras.</i>",
+      "Icon": "Skill_E_Qiqi_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 352101,
+        "Name": "Elixir de vida",
+        "Description": "Cuando un personaje bajo el efecto de <color=#FFD780FF>Magia Adeptus: Heraldo de la escarcha</color> provoca una Reacción Elemental, aumenta su Bono de Curación recibida en un 20% durante 8 s.",
+        "Icon": "UI_Talent_S_Qiqi_05"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 352201,
+        "Name": "Apertura arcana",
+        "Description": "Cuando Qiqi golpea a sus enemigos con un Ataque Normal o Cargado, tiene un 50% de probabilidad de ponerles un talismán de conservación de la fortuna durante 6 s. Este efecto solo puede activarse una vez cada 30 s.",
+        "Icon": "UI_Talent_S_Qiqi_06"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 352301,
+        "Name": "Recuerdos de una vida pasada",
+        "Description": "Muestra la ubicación de los <color=#FFD780FF>objetos típicos de Liyue</color> cercanos en el minimapa.",
+        "Icon": "UI_Talent_Collect_Local_Liyue"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 351,
+        "Name": "Ascetismo de la escarcha",
+        "Description": "Qiqi regenera 2 pts. de Energía Elemental cuando el Heraldo de la escarcha golpea a un enemigo marcado por un talismán de conservación de la fortuna.",
+        "Icon": "UI_Talent_S_Qiqi_01"
+      },
+      {
+        "Id": 352,
+        "Name": "Frío polar",
+        "Description": "El daño del Ataque Normal y Cargado de Qiqi aumenta en un 15% contra enemigos afectados por <color=#99FFFFFF>Cryo</color>.",
+        "Icon": "UI_Talent_S_Qiqi_02"
+      },
+      {
+        "Id": 353,
+        "Name": "Mandato celestial",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Magia Adeptus: Preservadora de la fortuna</color> +3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Qiqi_01",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 354,
+        "Name": "Supresión divina",
+        "Description": "Reduce en un 20% el ATQ de los objetivos marcados por el talismán de conservación de la fortuna.",
+        "Icon": "UI_Talent_S_Qiqi_03"
+      },
+      {
+        "Id": 355,
+        "Name": "Flor de loto carmesí",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Magia Adeptus: Heraldo de la escarcha</color> +3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Qiqi_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 356,
+        "Name": "Rito de la resurrección",
+        "Description": "Al lanzar la habilidad <color=#FFD780FF>Magia Adeptus: Preservadora de la fortuna</color>, revive a todos los miembros del equipo cercanos que han sido derrotados y regenera un 50% de su Vida.\nSolo puede ocurrir una vez cada 15 min.",
+        "Icon": "UI_Talent_S_Qiqi_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "La Resurrección del Hielo",
+    "Detail": "Una aprendiz y recolectora de hierbas en la Farmacia Bubu. Una zombi con una tez blanca como el hueso, de pocas palabras y emociones.",
+    "Association": 2,
+    "Native": "Farmacia Bubu",
+    "BirthMonth": 3,
+    "BirthDay": 3,
+    "VisionBefore": "Cryo",
+    "ConstellationBefore": "Pristina Nola",
+    "CvChinese": "宴宁",
+    "CvJapanese": "田村ゆかり",
+    "CvEnglish": "Christie Cate",
+    "CvKorean": "Lee Seul",
+    "CookBonus": {
+      "OriginItemId": 108132,
+      "ItemId": 108140,
+      "InputList": [
+        100061,
+        100084,
+        100092,
+        100088
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Hola...",
+        "Context": "Soy Qiqi. Soy una zombi... Ah, ¿qué más?"
+      },
+      {
+        "Title": "Charla - Hablando consigo misma",
+        "Context": "¿Sabes que...? Espera, ¿qué iba a decir?"
+      },
+      {
+        "Title": "Charla - Miedo al calor",
+        "Context": "Vamos a un lugar más frío."
+      },
+      {
+        "Title": "Charla - Ejercicio",
+        "Context": "Un, dos, tres, cuatro. Dos, dos, tres, cuatro... Cinco, seis, tres, cuatro. Cinco, seis, siete, siete..."
+      },
+      {
+        "Title": "Cuando llueve...",
+        "Context": "Olvidé mi paraguas de nuevo."
+      },
+      {
+        "Title": "Cuando nieva...",
+        "Context": "Quiero hacer un muñeco de nieve... ¿Me ayudas?"
+      },
+      {
+        "Title": "Qué sol hace...",
+        "Context": "Hoy debí quedarme en casa."
+      },
+      {
+        "Title": "Cuando hace viento...",
+        "Context": "Hace frío. Me gusta."
+      },
+      {
+        "Title": "Hace mucho viento...",
+        "Context": "Tómame de la mano. El viento puede mandarme a volar."
+      },
+      {
+        "Title": "Buenos días...",
+        "Context": "¿Ya es de día? ¿Qué tengo que hacer hoy?... Tengo que ver mi diario."
+      },
+      {
+        "Title": "Buenas tardes...",
+        "Context": "Olvidé ayudar al doctor Baizhu a preparar los medicamentos."
+      },
+      {
+        "Title": "Buenas noches... (I)",
+        "Context": "Buenas noches. El día de hoy... ¿qué hice el día de hoy?..."
+      },
+      {
+        "Title": "Buenas noches... (II)",
+        "Context": "Es hora de dormir. Tengo que hacer unos estiramientos... Por favor, no mires."
+      },
+      {
+        "Title": "Sobre Qiqi...",
+        "Context": "¿Me preguntas a mí? Lo siento, lo olvidé."
+      },
+      {
+        "Title": "#Sobre nosotr{F#as}{M#os} - Memoria",
+        "Context": "Tengo mala memoria para la mayoría de las cosas... Pero no es tan grave."
+      },
+      {
+        "Title": "#Sobre nosotr{F#as}{M#os} - Ejercicios de memoria",
+        "Context": "Recientemente comencé a ejercitar la memoria, así que no te preocupes, no te olvidaré."
+      },
+      {
+        "Title": "Sobre la Visión...",
+        "Context": "Mi Visión no puede hacer retroceder el tiempo. Pero me da el poder necesario para proteger a la gente que me importa."
+      },
+      {
+        "Title": "¿Algo que decir?",
+        "Context": "Aunque soy un cadáver, estoy en mejor condición que el doctor Baizhu..."
+      },
+      {
+        "Title": "Un dato curioso...",
+        "Context": "A veces veo pinzones cerca de la farmacia. Una pequeña bandada de pinzones."
+      },
+      {
+        "Title": "Sobre Baizhu...",
+        "Context": "No puedo recordar el rostro del doctor Baizhu, pero no importa."
+      },
+      {
+        "Title": "Sobre Hu Tao...",
+        "Context": "No me gusta. Da mucho calor, se ríe mucho y habla todo el tiempo de la muerte."
+      },
+      {
+        "Title": "Sobre Xiao - Nombre",
+        "Context": "Suena a que es un artefacto antiguo..."
+      },
+      {
+        "Title": "Sobre Xiao - Recuerdos",
+        "Context": "¿Lo he visto antes?"
+      },
+      {
+        "Title": "Sobre Xinyan...",
+        "Context": "¿Quién?"
+      },
+      {
+        "Title": "Sobre Yaoyao...",
+        "Context": "Es como un pequeño pinzón. Qué bonito..."
+      },
+      {
+        "Title": "Sobre la Pequeña Ming",
+        "Context": "En las noches, siento que hay alguien más haciendo estiramientos conmigo... ¿Es mi imaginación?"
+      },
+      {
+        "Title": "Más sobre Qiqi (I)",
+        "Context": "¿Qué está pasando?"
+      },
+      {
+        "Title": "Más sobre Qiqi (II)",
+        "Context": "Hago estiramientos con frecuencia para tener la misma flexibilidad que un humano, pero en cuanto dejo de hacerlos, el rigor mortis vuelve..."
+      },
+      {
+        "Title": "Más sobre Qiqi (III)",
+        "Context": "Algunas personas se aprovechan de mí. Otras me temen. Pero tú... no eres como los demás."
+      },
+      {
+        "Title": "Más sobre Qiqi (IV)",
+        "Context": "#Desde que nos conocimos, tengo una sensación cálida por dentro. No es del tipo de calor que me hace sentir podrida, asquerosa y más cerca de la muerte. Es otro tipo de calor dentro de mi corazón. Gracias. Estoy feliz. Lamentablemente, solo reconozco {F#a la}{M#al} “tú” de ahora. Si te olvido... No, me ordeno no olvidarte."
+      },
+      {
+        "Title": "Más sobre Qiqi (V)",
+        "Context": "#En el pasado, solo pensaba en mantenerme con vida, aunque no sabía para qué vivir. Pero ahora, creo que lo sé. Quiero vivir contigo. ¿Podemos permanecer siempre junt{F#as}{M#os} para el resto de la vida y hasta que muramos? ¿Sí o no? ¿Sí? ¿Esa es tu respuesta? Excelente. Prometo protegerte por siempre."
+      },
+      {
+        "Title": "Aficiones de Qiqi...",
+        "Context": "Quiero tener una mascota. Por ejemplo, un lindo y pequeño pinzón."
+      },
+      {
+        "Title": "Preocupaciones de Qiqi...",
+        "Context": "No sé por qué, pero las altas temperaturas me hacen sentir podrida y asquerosa... y más cerca de la muerte."
+      },
+      {
+        "Title": "Comida que más le gusta...",
+        "Context": "Me gusta la leche de coco... aunque no tengo ni idea de a qué sabe."
+      },
+      {
+        "Title": "Comida que menos le gusta...",
+        "Context": "Lo siento, no lo sé."
+      },
+      {
+        "Title": "Al recibir un regalo (I)",
+        "Context": "Está frío. Me gusta. Pero no sabe a nada..."
+      },
+      {
+        "Title": "Al recibir un regalo (II)",
+        "Context": "Eh..."
+      },
+      {
+        "Title": "Al recibir un regalo (III)",
+        "Context": "Quema un poco..."
+      },
+      {
+        "Title": "Cumpleaños...",
+        "Context": "#Muchas felicidades. Aquí tienes una bolsa de hierbas medicinales. Debes estar muy sorprendid{F#a}{M#o} de que me haya acordado, ¿cierto? Deja que te lo explique. La última vez que me lo dijiste, escribí tu cumpleaños en un papel. Si miro algo una vez al día, al final se graba en mi memoria a largo plazo y permanecerá en ella para siempre."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Introducción",
+        "Context": "¿Que ahora soy más fuerte? ¿Qué quiere decir eso?"
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desarrollo",
+        "Context": "Ah, ya entendí. Después de volverme fuerte, tengo que esforzarme más por controlarme."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Nudo",
+        "Context": "Antes, no entendía el concepto de volverse más fuerte. Ahora que lo entiendo, quisiera ser más fuerte aún."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desenlace",
+        "Context": "Todo esto es por ti. Muchas gracias. ¿Puedes prometerme una cosa? De ahora en adelante, deja que yo te proteja. ¿Aceptas? ¿Sí?"
+      },
+      {
+        "Title": "Habilidad Elemental (I)",
+        "Context": "Ciclo de la vida."
+      },
+      {
+        "Title": "Habilidad Elemental (II)",
+        "Context": "La vida sigue."
+      },
+      {
+        "Title": "Habilidad Elemental (III)",
+        "Context": "Ve."
+      },
+      {
+        "Title": "Habilidad Elemental (IV)",
+        "Context": "Levántate."
+      },
+      {
+        "Title": "Habilidad Definitiva (I)",
+        "Context": "Orden dada, orden recibida."
+      },
+      {
+        "Title": "Habilidad Definitiva (II)",
+        "Context": "Soy la Preservadora de la Fortuna."
+      },
+      {
+        "Title": "Habilidad Definitiva (III)",
+        "Context": "Abriendo la caja de trucos de Adeptus."
+      },
+      {
+        "Title": "Al esprintar (I)",
+        "Context": "¿Más rápido? De acuerdo, más rápido."
+      },
+      {
+        "Title": "Al abrir el planeador (I)",
+        "Context": "¿Eh?"
+      },
+      {
+        "Title": "Al abrir un cofre (I)",
+        "Context": "Oh, ¡qué hermoso!"
+      },
+      {
+        "Title": "Al abrir un cofre (II)",
+        "Context": "Los cofres... Humm, ¿me gustan los cofres?"
+      },
+      {
+        "Title": "Al abrir un cofre (III)",
+        "Context": "¿No había algo aquí antes?"
+      },
+      {
+        "Title": "Vida baja (I)",
+        "Context": "¡Au!"
+      },
+      {
+        "Title": "Vida baja (II)",
+        "Context": "Oh, no..."
+      },
+      {
+        "Title": "Vida baja (III)",
+        "Context": "Tengo que seguir viviendo..."
+      },
+      {
+        "Title": "Aliado con vida baja (I)",
+        "Context": "Peligro."
+      },
+      {
+        "Title": "Aliado con vida baja (II)",
+        "Context": "Para. Déjame a mí."
+      },
+      {
+        "Title": "Derrotada (I)",
+        "Context": "No quiero... que me sellen... de nuevo..."
+      },
+      {
+        "Title": "Derrotada (II)",
+        "Context": "Qué frío..."
+      },
+      {
+        "Title": "Derrotada (III)",
+        "Context": "No..."
+      },
+      {
+        "Title": "Recibiendo un ligero ataque (I)",
+        "Context": "No noté nada..."
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (I)",
+        "Context": "Guau."
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (II)",
+        "Context": "Oh..."
+      },
+      {
+        "Title": "Unirse al equipo (I)",
+        "Context": "Aquí estoy."
+      },
+      {
+        "Title": "Unirse al equipo (II)",
+        "Context": "¿Qué sucede?"
+      },
+      {
+        "Title": "Unirse al equipo (III)",
+        "Context": "Traeré... mi cuaderno."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalles del personaje",
+        "Context": "Debido a su condición de zombi, Qiqi carece de expresión facial, algo comprensible.\nAhora bien, es sorprendentemente ágil debido a un estricto entrenamiento físico.\nTiene muy mala memoria, y eso es, en parte, por lo que puede parecer fría hacia los demás.\nSu apariencia está congelada para siempre desde el momento en que falleció, por lo que su edad es difícil de estimar.\nLos zombis requieren órdenes para actuar, pero por alguna razón, Qiqi es capaz de darse órdenes a sí misma."
+      },
+      {
+        "Title": "Historia del personaje (1)",
+        "Context": "Por lo general, los zombis son fríos y rígidos, lo que los obliga a desplazarse saltando.\nEs por eso que Qiqi mantiene un régimen de entrenamiento especial para mejorar su condición física.\nHu Tao, 77.ª directora de la Funeraria El Camino, no le ve sentido. Cada vez que se encuentra con Qiqi, le dice: “Estarías mejor si te enterrara”.\nQiqi, por supuesto, no desea ser enterrada, y por eso realiza sus ejercicios por la noche cuando nadie está cerca.\nSiendo una no-muerta, su memoria está muy por detrás de la de la gente.\nSi no se esfuerza en recordar a una persona, la olvidará por completo en tres días como máximo.\nPero ¿quién sabe? Para alguien con recuerdos dolorosos, el olvido puede ser una forma de liberación.\nLa persona más importante que Qiqi debe recordar no solo tiene un rostro inconfundible, sino que también lo ve todos los días.\nEs por eso que a Qiqi no le preocupa su mala memoria."
+      },
+      {
+        "Title": "Historia del personaje (2)",
+        "Context": "Qiqi es muy pequeña, pero en realidad es una zombi muy poderosa. Su baja estatura no es un impedimento. Al contrario, le permite moverse a gran velocidad.\nEn combate, Qiqi pierde todo el control, permitiendo que su cuerpo regrese a un estado de no-muerto y aumentando su fuerza y velocidad.\n“Estás muerta”.\nUna vez que ha derrotado a sus enemigos, Qiqi vuelve a tomar el control de sus músculos y regresa a su estado normal.\nEn el pasado, fue acechada por los Ladrones de Tesoros mientras recolectaba hierbas medicinales.\nUna niña pequeña y sola parece un blanco fácil, ¿no?\n¿Quién hubiera pensado que alguien así podría enviar a todo un escuadrón volando por los aires?\nPor eso siempre debemos recordar no juzgar a una persona a partir de su apariencia. O a un zombi, en este caso."
+      },
+      {
+        "Title": "Historia del personaje (3)",
+        "Context": "Los zombis normalmente necesitan órdenes de la persona que los despierta para actuar. Pero, técnicamente, a Qiqi nunca la ha despertado nadie.\nSu caso es muy inusual, ya que es una zombi que se da órdenes a sí misma.\nSi estas órdenes son simples, como “vence al enemigo”, Qiqi no tiene problemas para cumplirlas.\nPero frente a instrucciones más complejas, como “ve al Desfiladero Jueyun, escala una montaña y recolecta hierbas”, a veces se atasca en un lugar intentando escalar sin éxito y, al mismo tiempo, sin poder darse por vencida.\nEl método para cancelar sus órdenes es muy simple: abraza a Qiqi desde detrás, dile algo bonito como “eres mi favorita” y, así como así, su orden ya no tendrá efecto.\nSin embargo, el Dr. Baizhu siempre dice estas cosas sin un atisbo de sentimiento, por lo que el resultado es poco efectivo.\nPuede que algún día llegue alguien que sepa que esas palabras no se pueden pronunciar a la ligera. Y tal vez, lenta y cuidadosamente, libere a Qiqi de sus propias órdenes.\nEn ese momento, ¿cuál será la respuesta de Qiqi?"
+      },
+      {
+        "Title": "Historia del personaje (4)",
+        "Context": "Hace mucho tiempo que los mortales olvidaron esta antigua historia.\nUna recolectora de hierbas como cualquier otra llamada Qiqi se perdió y llegó al reino de los Adeptus. Tras una caída en la que se lastimó la pierna derecha, no tardó en buscar refugio en una caverna.\nMientras vendaba su herida, escuchó unos sonidos que no pertenecían al plano de los mortales. Lo que no se esperaba es que, tras un fuerte estruendo, su ser quedaría atrapado para siempre entre la vida y la muerte.\nAdeptus y demonios, justos y malvados, se dieron cuenta de que Qiqi era una simple mortal atrapada en el fuego cruzado.\nRecibió una Visión en sus últimos momentos de vida, tal vez por voluntad del cielo. Así fue como terminó la disputa entre el bien y el mal.\nLos Adeptus no concebían la idea de dejarla morir, así que cada uno le otorgó parte de su fuerza para que ese cuerpo pudiera seguir viviendo.\nQiqi despertó y volvió a la vida, pero entró en un estado de caos, incapaz de controlar la energía Adeptus que hervía en ella.\nPara poner fin a ese estado de perturbación, Moldeador de Montañas no tuvo más remedio que sellar a la desafortunada niña en un ámbar."
+      },
+      {
+        "Title": "Historia del personaje (5)",
+        "Context": "Siglos después, encontraron a Qiqi atrapada en un ámbar, y la llevaron a la Funeraria El Camino para enterrarla.\nSin embargo, el camino por las montañas era demasiado peligroso, por lo que el ámbar sufrió muchos golpes. Esto, sumado al desgaste producido por el paso los años, hizo que el ámbar en el que Qiqi estaba sellada estuviera a punto de romperse.\nSe despertó en medio de la noche, rompió el ámbar y huyó.\nSiguiendo con los hábitos de su vida anterior, Qiqi fue a las montañas a recolectar hierbas.\nEn el camino, conoció a Baizhu, el jefe de la Farmacia Bubu, quien la acogió.\nBaizhu era un médico de gran talento, pero no un gran ejemplo de nobleza e integridad.\nNo le importaba ni su mala memoria, ni su incapacidad para distinguir hierbas, ya que sus motivos para acoger a Qiqi tenían que ver más con razones personales.\nAunque a veces puede ser testaruda, se da cuenta de las cosas.\nTal vez es porque haya vivido cosas muy duras o haya estado sola demasiado tiempo... pero ella atesora la amabilidad del Dr. Baizhu sin importarle que él tenga otros motivos para ser bueno con ella."
+      },
+      {
+        "Title": "«En casa o fuera de ella: Guía práctica para los no muertos»",
+        "Context": "Qiqi lleva consigo algo que parece un cuaderno.\nComo no tiene buena memoria, es un objeto vital para ella, ya que le permite continuar con su vida cotidiana sin problemas.\nLas palabras están escritas en un estilo antiguo y con una caligrafía impecable.\nEn la primera página, hay instrucciones sobre ejercicios físicos.\nEn la siguiente, hay descripciones de varias hierbas, así como algunas órdenes.\nQiqi necesita darse órdenes muy precisas para asegurarse de no saltarse ningún paso.\nTambién escribe con todo detalle las cosas que tiene que hacer durante el día y, hace poco, hasta añadió un apartado de entrenamiento mental y métodos mnemotécnicos.\nEn este punto, se ha convertido en una verdadera “guía básica” sobre casi cualquier cosa.\nPero si alguna vez llega el día en el que Qiqi se olvide de mirar su cuaderno... que los Arcontes nos tomen confesados."
+      },
+      {
+        "Title": "Visión",
+        "Context": "Qiqi recibió su Visión en los últimos momentos de vida.\nQuería detener el tiempo, vivir feliz de nuevo...\nLe tenía miedo a la muerte. Ella quería vivir. ¡Extrañaba tanto a su familia!\n“Me encantaría que el tiempo pudiera congelarse”.\nEntonces, su deseo se cumplió. Cuando las lágrimas brotaron de sus ojos, se posaron sobre una Visión que apareció ante ella.\nLos poderosos e iluminados Adeptus reconocieron que Qiqi había alcanzado una forma legítima de iluminación: el anhelo de la humanidad por los días de antaño es, después de todo, un deseo de proteger ese pasado."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 203500,
+      "Name": "Sueño en un fresco verano",
+      "Description": "Modelo de vestimenta de Qiqi. La pequeña zombi siempre se siente más tranquila al llevar puesta esta ropa de herborista llena de talismanes.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113010,
+    100034,
+    112010,
+    104312,
+    113006
+  ]
+}

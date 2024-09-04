@@ -1,0 +1,1004 @@
+{
+  "Id": 10000027,
+  "PromoteId": 27,
+  "Sort": 15,
+  "Body": 3,
+  "Icon": "UI_AvatarIcon_Ningguang",
+  "SideIcon": "UI_AvatarIcon_Side_Ningguang",
+  "Name": "Ningguang",
+  "Description": "La Megrez des Sept Étoiles de Liyue. Peu de personnes peuvent se vanter d'être aussi riches à travers Teyvat.",
+  "BeginTime": "2020-09-15T04:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 820.6119,
+    "AttackBase": 17.808,
+    "DefenseBase": 48.069
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 2731,
+        "Proud": {
+          "Descriptions": [
+            "DGT attaque normale|{param1:F1P}",
+            "DGT attaque chargée|{param2:P}",
+            "DGT par Jade d'étoile|{param3:F1P}",
+            "Coût d'endurance attaque chargée|{param4:F1} pts",
+            "DGT durant la chute|{param5:F1P}",
+            "DGT chute basse/élevée|{param6:P}/{param7:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.28,
+                1.7408,
+                0.496,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.301,
+                1.87136,
+                0.5332,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.322,
+                2.00192,
+                0.5704,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.35,
+                2.176,
+                0.62,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.371,
+                2.30656,
+                0.6572,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.392,
+                2.43712,
+                0.6944,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.42,
+                2.6112,
+                0.744,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.448,
+                2.78528,
+                0.7936,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.476,
+                2.95936,
+                0.8432,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.504,
+                3.13344,
+                0.8928,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.53312,
+                3.314483,
+                0.944384,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                0.5712,
+                3.551232,
+                1.01184,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                0.60928,
+                3.787981,
+                1.079296,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                0.64736,
+                4.02473,
+                1.146752,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                0.68544,
+                4.261478,
+                1.214208,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 10271,
+        "Name": "Attaque normale : Géo-dispersion",
+        "Description": "<color=#FFD780FF>Attaque normale</color>\nTire des gemmes qui infligent des <color=#FFE699FF>DGT Géo</color>.\nNingguang obtient un Jade d'étoile à chaque fois qu'une gemme touche un ennemi.\n\n<color=#FFD780FF>Attaque chargée</color>\nTire une gemme géante qui inflige des <color=#FFE699FF>DGT Géo</color>.\nSi Ningguang a obtenu des Jades d'étoile, l'attaque chargée les tire tous au même moment, infligeant des DGT supplémentaires.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs en concentrant ses pouvoirs Géo, infligeant des DGT aux ennemis en chemin et des <color=#FFE699FF>DGT Géo de zone</color> à l'impact.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 2732,
+        "Proud": {
+          "Descriptions": [
+            "PV hérités|{param3:F1P}",
+            "DGT compétence|{param2:P}",
+            "Temps de recharge|{param4:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                -0.499,
+                2.304,
+                0.501,
+                12
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                -0.469,
+                2.4768,
+                0.531,
+                12
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                -0.439,
+                2.6496,
+                0.561,
+                12
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                -0.4,
+                2.88,
+                0.6,
+                12
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                -0.37,
+                3.0528,
+                0.63,
+                12
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                -0.34,
+                3.2256,
+                0.66,
+                12
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                -0.301,
+                3.456,
+                0.699,
+                12
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                -0.262,
+                3.6864,
+                0.738,
+                12
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                -0.223,
+                3.9168,
+                0.777,
+                12
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                -0.184,
+                4.1472,
+                0.816,
+                12
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                -0.145,
+                4.3776,
+                0.855,
+                12
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                -0.106,
+                4.608,
+                0.894,
+                12
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                -0.067,
+                4.896,
+                0.933,
+                12
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                -0.028,
+                5.184,
+                0.972,
+                12
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                0.011,
+                5.472,
+                1.011,
+                12
+              ]
+            }
+          ]
+        },
+        "Id": 10272,
+        "Name": "Paravent d'astrolabe",
+        "Description": "Ningguang puise dans son opulence pour créer un paravent d'or et d'obsidienne infligeant des <color=#FFE699FF>DGT Géo de zone</color>.\n\n<color=#FFD780FF>Paravent d'astrolabe</color>\n· Bloque les projectiles ennemis.\n· Les PV du paravent sont proportionnels aux PV max de Ningguang.\n\nLe paravent d'astrolabe est une <color=#FFE699FF>construction Géo</color> qui peut bloquer certaines attaques mais ne peut pas être escaladée. Il ne peut exister qu'un seul paravent à la fois.\n\n<i>Les étoiles sont dispersées dans le ciel nocturne, les pions sont prêts sur l'échiquier divin. Alors, le paravent d'astrolabe commence à s'étendre.</i>",
+        "Icon": "Skill_S_Ningguang_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 2739,
+      "Proud": {
+        "Descriptions": [
+          "DGT par gemme|{param1:F1P}",
+          "Temps de recharge|{param2:F1} s",
+          "Énergie élémentaire|{param3:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              0.8696,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              0.93482,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              1.00004,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              1.087,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              1.15222,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              1.21744,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              1.3044,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              1.39136,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              1.47832,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              1.56528,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              1.65224,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              1.7392,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              1.8479,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              1.9566,
+              12,
+              40
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              2.0653,
+              12,
+              40
+            ]
+          }
+        ]
+      },
+      "Id": 10274,
+      "Name": "Éclatement des étoiles",
+      "Description": "Ningguang fait tournoyer plusieurs jades précieux à tête chercheuse autour d'elle, qu'elle relâche tous en même temps, infligeant ainsi d'importants <color=#FFE699FF>DGT Géo</color>.\nSi le paravent d'astrolabe est actif lorsque cette attaque est exécutée, il l'accompagne de tirs de jade supplémentaires.\n\n<i>Éparses sont les ténèbres quand les étoiles sont éclatées.</i>",
+      "Icon": "Skill_E_Ningguang_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 272101,
+        "Name": "Plan de reprise",
+        "Description": "L'attaque chargée de Ningguang ne consomme pas d'endurance tant que celle-ci possède des Jades d'étoile.",
+        "Icon": "UI_Talent_S_Ningguang_02"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.12,
+                10
+              ]
+            }
+          ]
+        },
+        "Id": 272201,
+        "Name": "Réserve stratégique",
+        "Description": "Confère pendant 10 s un <color=#FFE699FF>bonus de DGT Géo</color> de 12 % aux personnages qui traversent le <color=#FFD780FF>Paravent d'astrolabe</color>.",
+        "Icon": "UI_Talent_S_Ningguang_06"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 272301,
+        "Name": "Corne d'abondance",
+        "Description": "Affiche l'emplacement des <color=#FFD780FF>filons de minerai utilisables en forge</color> sur la mini-carte.",
+        "Icon": "UI_Talent_Collect_Ore"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 271,
+        "Name": "Fragments perforants",
+        "Description": "Les attaques normales qui touchent infligent des DGT de zone.",
+        "Icon": "UI_Talent_S_Ningguang_01"
+      },
+      {
+        "Id": 272,
+        "Name": "Effet de choc",
+        "Description": "Le TdR de <color=#FFD780FF>Paravent d'astrolabe</color> est annulé lorsque ce dernier est brisé.\nCet effet peut être déclenché une fois toutes les 6 s.",
+        "Icon": "UI_Talent_S_Ningguang_05"
+      },
+      {
+        "Id": 273,
+        "Name": "Alignement des étoiles",
+        "Description": "Niveau d'aptitude <color=#FFD780FF>Éclatement des étoiles</color> +3.\nNiveau max : 15",
+        "Icon": "UI_Talent_U_Ningguang_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 274,
+        "Name": "Exquis soit le Jade, éclatant de toutes parts",
+        "Description": "<color=#FFD780FF>Paravent d'astrolabe</color> augmente les RÉS élémentaires des personnages à proximité de 10 %.",
+        "Icon": "UI_Talent_S_Ningguang_03"
+      },
+      {
+        "Id": 275,
+        "Name": "Invincible soit le Paravent d'astrolabe",
+        "Description": "Niveau d'aptitude <color=#FFD780FF>Paravent d'astrolabe</color> +3.\nNiveau max : 15",
+        "Icon": "UI_Talent_U_Ningguang_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 276,
+        "Name": "Grandeur soit les Sept Étoiles",
+        "Description": "L'activation d'<color=#FFD780FF>Éclatement des étoiles</color> confère 7 Jades d'étoile à Ningguang.",
+        "Icon": "UI_Talent_S_Ningguang_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Megrez de l'éclipse",
+    "Detail": "La Megrez des Sept Étoiles de Liyue. Peu de personnes peuvent se vanter d'être aussi riches à travers Teyvat.",
+    "Association": 2,
+    "Native": "Sept Étoiles de Liyue",
+    "BirthMonth": 8,
+    "BirthDay": 26,
+    "VisionBefore": "Géo",
+    "ConstellationBefore": "Opus Aequilibrium",
+    "CvChinese": "杜冥鸦",
+    "CvJapanese": "大原さやか",
+    "CvEnglish": "Erin Ebers",
+    "CvKorean": "Kwak Kyu-mi",
+    "CookBonus": {
+      "OriginItemId": 108093,
+      "ItemId": 108139,
+      "InputList": [
+        100061,
+        110001
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Première rencontre...",
+        "Context": "Je suis la Megrez des Sept Étoiles, Ningguang. Faisons affaire : soyez mon garde du corps, et moi, je vous apprends comment avoir toujours un coup d'avance à Liyue."
+      },
+      {
+        "Title": "Bavardage - Antiquités",
+        "Context": "Une antiquité peut valoir très cher, mais le bonheur qu'on en tire n'a pas de prix, aussi éphémère soit-il."
+      },
+      {
+        "Title": "Bavardage - Guerre commerciale",
+        "Context": "Le vrai chasseur ne laisse jamais de trace. Il en va de même dans une guerre commerciale."
+      },
+      {
+        "Title": "Bavardage - Investissements",
+        "Context": "Nous devrions chercher de nouveaux investissements. L'argent ne pousse pas sur les arbres."
+      },
+      {
+        "Title": "Quand il pleut...",
+        "Context": "Il pleut. Pourriez-vous m'ouvrir un parapluie ?"
+      },
+      {
+        "Title": "Quand il neige...",
+        "Context": "Ce n'est qu'une simple chute de neige. Peut-être qu'un jour je vous emmènerai voir à quoi ressemble une vraie chute de neige."
+      },
+      {
+        "Title": "Il fait bon dehors...",
+        "Context": "Vous trouvez le temps clément ? Ne croyez pas vos yeux. Ils peuvent vous mentir parfois."
+      },
+      {
+        "Title": "Le vent souffle fort...",
+        "Context": "Ce genre de temps peut être terrible pour les pêcheurs, sans compter... Ah, oubliez ça."
+      },
+      {
+        "Title": "Au réveil...",
+        "Context": "Bonjour. Faites votre rapport, par ordre d'importance."
+      },
+      {
+        "Title": "À l'heure du déjeuner...",
+        "Context": "Pavillon Liuli ou Kiosque Xinyue pour déjeuner ?"
+      },
+      {
+        "Title": "Le soir...",
+        "Context": "Le salon de thé est plein ? Soit, allons à la Chambre de Jade... si vous en avez les moyens."
+      },
+      {
+        "Title": "La nuit...",
+        "Context": "Reposez-vous. Si jamais quelque chose d'important me parvient aux oreilles, je vous enverrai quelqu'un."
+      },
+      {
+        "Title": "À propos de Ningguang – Opinions",
+        "Context": "Qu'il s'agisse d'une simple négociation ou d'une guerre commerciale, rien n'est plus important que de découvrir le premier le jeu de son adversaire."
+      },
+      {
+        "Title": "À propos de Ningguang – Impressions",
+        "Context": "#Vous me trouvez différente ? Quand nous nous sommes {M#rencontrés}{F#rencontrées} pour la première fois, j'avais besoin de votre aide, alors je devais être chaleureuse et amicale envers vous. Désormais, nous sommes de bons partenaires contractuels alors plus besoin de faire semblant."
+      },
+      {
+        "Title": "À propos de nous - Rumeurs",
+        "Context": "J'imagine que vous avez entendu pas mal de bruits à mon sujet. Alors, quelle personne suis-je vraiment à vos yeux ? Je vous laisse décider... Mais votre jugement viendra rejoindre la rumeur à son tour."
+      },
+      {
+        "Title": "À propos de nous - Observations",
+        "Context": "À rester à mes côtés, vous avez dû apprendre beaucoup, notamment dans l'art de l'observation. Observez-moi, allez-y. Observez-moi au plus profond de moi-même."
+      },
+      {
+        "Title": "À propos de nous - Chambre de Jade",
+        "Context": "Venez, avancez. Vous voyez la Chambre de Jade ? Il ne s'agissait au départ de rien de plus qu'une seule pièce, et l'endroit est aujourd'hui capable de recouvrir Liyue. Lorsqu'elle sera capable de flotter au-dessus des Sept Nations, j'espère que vous serez encore à mes côtés."
+      },
+      {
+        "Title": "À propos de l'œil divin...",
+        "Context": "Nul besoin d'utiliser un œil divin pour résoudre un problème quand les moras suffisent. Quant aux problèmes que l'argent ne peut pas résoudre... Je n'en connais qu'un seul jusqu'à présent..."
+      },
+      {
+        "Title": "Quelque chose à partager - Banquiers",
+        "Context": "Le parieur mise tous ses espoirs sur le prochain lancer de dés, mais le banquier est toujours gagnant, et sans avoir jamais à toucher un seul dé."
+      },
+      {
+        "Title": "Quelque chose à partager - Objectif",
+        "Context": "La mort du Souverain de la Roche a été une vraie épreuve pour nous comme il n'y en a pas eu depuis longtemps.\nMais je garde toujours le même objectif en tête : j'étendrai l'influence de la Chambre de Jade à travers tout Teyvat."
+      },
+      {
+        "Title": "Détails intéressants...",
+        "Context": "Les anciens textes de Liyue ne manquent pas de référence au lys verni et à sa beauté. La fleur est de nos jours au bord de l'extinction... On n'en trouve plus qu'à la Terrasse Yujing, et à un prix plutôt élevé."
+      },
+      {
+        "Title": "À propos de Beidou - Amendes",
+        "Context": "Cette... capitaine. Elle est adorée de beaucoup, mais cela ne l'empêche pas de mépriser les règles. Les amendes qu'elle a dû payer par le passé auraient largement suffi à lui acheter un navire..."
+      },
+      {
+        "Title": "À propos de Beidou - Attitude",
+        "Context": "Peut-être n'avez-vous jamais rencontré ce genre de situation : vous avez dit tout ce que vous aviez à dire, le bon comme le mauvais – mais elle continue à faire ce qu'elle veut. Oubliez ça, cette Beidou... Gardez-la hors de ma vue."
+      },
+      {
+        "Title": "À propos de Zhongli...",
+        "Context": "Zhongli... Du Funérarium Wangsheng, oui. Impliqué dans de nombreuses affaires. Mais... un pion d'une telle puissance m'est inutile tant que j'ignore quelles sont ses faiblesses."
+      },
+      {
+        "Title": "À propos de Xingqiu...",
+        "Context": "Le second fils du dirigeant de la Guilde des marchands de Feiyun. Il ne doit pas me porter dans son cœur, ce qui est normal. Je n'ai aucune intention de lui chercher des problèmes. Ceux qui sont de bord opposé ne devraient pas travailler ensemble, de toute façon."
+      },
+      {
+        "Title": "À propos de Xiangling...",
+        "Context": "Ah, la fille du Restaurant Wanmin... Les doutes que je lui inspire se lisent toujours sur sa tête dès qu'elle me voit. Héhé, je me demande la tête qu'elle ferait si elle savait combien j'ai aidé pour le financement du restaurant..."
+      },
+      {
+        "Title": "À propos de Ganyu...",
+        "Context": "Il faut savoir ne pas trop dépendre des autres – même quand il s'agit de Ganyu. Comme on dit à Liyue : « Il suffit d'une seule personne pour qu'un secret se sache ». Je considère pour ma part qu'il est toujours mieux de régler soi-même ses propres affaires."
+      },
+      {
+        "Title": "À propos de Yaoyao...",
+        "Context": "Vous devez parler de cette fille que Ganyu a prise sous son aile. Soyez sans crainte, je n'ai aucune intention de rendre le fait public. Je sais faire preuve de souplesse, quand bien même il s'agirait de cette satanée capitaine. Cependant... Yaoyao a l'air d'être tombée amoureuse des fruits de mer ces derniers temps. Vous devriez peut-être la convaincre d'ajouter à son régime quelques fruits et légumes."
+      },
+      {
+        "Title": "À propos de Keqing...",
+        "Context": "L'Alioth... Elle a beaucoup changé ces derniers temps. Liyue a-t-elle plus besoin de la personne qu'elle était ou de celle qu'elle est devenue ? Le temps nous le dira."
+      },
+      {
+        "Title": "À propos de Jean...",
+        "Context": "La Grande Maîtresse suppléante de l'Ordre de Favonius doit être une femme sévère et méticuleuse. Ses lettres sont toujours très bien écrites et pliées comme il faut. Bien qu'insignifiants, ces détails permettent de juger les qualités d'une personne."
+      },
+      {
+        "Title": "À propos de Yanfei...",
+        "Context": "Yanfei ? Une rivale proche de mon cœur, dans un certain sens. Sans elle pour interpréter les lois de la bonne manière et « conseiller » ses clients, il me faudrait sûrement des mois pour trouver seule toutes les failles dans les lois et amender les textes."
+      },
+      {
+        "Title": "À propos de Shenhe...",
+        "Context": "Comment va mademoiselle Shenhe ces derniers temps ? S'il vous plaît, faites attention à elle. Je suis très reconnaissante pour votre aide à la reconstruction de la Chambre de Jade. Hum, et sur une note plus personnelle, sachez que si vous avez du temps libre, il y aura toujours une tasse du meilleur thé qui vous attendra ici."
+      },
+      {
+        "Title": "À propos de Yun Jin...",
+        "Context": "Yun Jin... Êtes-vous capable d'apprécier ses performances ? Cela peut être difficile au début, mais je vous encourage à leur donner une chance. La raison pour laquelle j'ai décidé d'investir dans sa troupe est assez simple : des formes d'art élégantes comme celles-ci méritent d'être transmises aux générations futures."
+      },
+      {
+        "Title": "À propos de Yelan...",
+        "Context": "C'est un personnage très intéressant. Je pense que c'est une personne en qui l'on peut entièrement avoir confiance. Elle sait très bien comment se comporter en société, de sorte que personne n'ait quoi que ce soit à lui reprocher. Héhé, vous êtes quelqu'un d'intelligent tout comme elle, alors j'espère que vous pourrez bien vous entendre."
+      },
+      {
+        "Title": "À propos de Xianyun...",
+        "Context": "#J'ai l'intention d'inviter madame Xianyun à boire le thé dans quelques jours. J'ai une collection de jouets mécaniques ingénieux et je voudrais connaître son avis là-dessus. J'en profiterai aussi pour écouter ses histoires passionnantes sur la vie des Adeptes dans le Port de Liyue. Seriez-vous {M#intéressé}{F#intéressée}... de lui remettre cette lettre d'invitation de ma part ?"
+      },
+      {
+        "Title": "Connaître Ningguang (1)",
+        "Context": "#C'est vous, pas la peine de s'embêter avec les formalités. Soyez un peu plus... {M#naturel}{F#naturelle}. Mais je vous demanderai malgré tout de continuer à ne pas gaspiller mon temps. Si vous avez quelque chose à dire, dites-le. Mon temps est précieux."
+      },
+      {
+        "Title": "Connaître Ningguang (2)",
+        "Context": "J'ai toujours pensé que les enfants étaient ce qu'on trouve de plus innocent. Les renseignements qu'ils me procurent sont de grande valeur... Et vous ? Qu'est-ce que vous allez m'apporter ?"
+      },
+      {
+        "Title": "Connaître Ningguang (3)",
+        "Context": "J'ai beaucoup réfléchi, ces derniers jours. Si j'arrivais à vous convaincre de rester à Liyue, alors peut-être que... Ou bien, je pourrais faire levier avec la ville pour... Ah, ce n'est que conjecture pour l'instant. Mieux vaut que je réfléchisse encore si l'investissement en vaut la peine."
+      },
+      {
+        "Title": "Connaître Ningguang (4)",
+        "Context": "Prenez exemple sur moi : les moras peuvent vous simplifier grandement la vie. Mais n'oubliez pas cependant que toute relation construite sur l'argent ne dure jamais éternellement... Héhé, et c'est d'ailleurs pour ça que je n'ai jamais mis de moras au milieu de la relation qui nous unit."
+      },
+      {
+        "Title": "Connaître Ningguang (5)",
+        "Context": "Voilà certainement un excellent investissement. Bien sûr, je n'en ai tiré aucun mora, mais le temps passé à vos côtés a été bénéfique sur plus d'un plan. Haha, j'ai encore misé sur la bonne personne, on dirait."
+      },
+      {
+        "Title": "Les loisirs de Ningguang...",
+        "Context": "Est-ce qu'une partie de « Mille ans à Liyue » vous intéresse ? Je suis curieuse de voir ce que vous valez aux échecs."
+      },
+      {
+        "Title": "Les problèmes de Ningguang...",
+        "Context": "Mes problèmes ? Je doute que vos épaules soient assez solides pour porter les soucis qui habitent les Sept Étoiles. Sans compter que si jamais vous alliez répéter ce que je vous confie..."
+      },
+      {
+        "Title": "Plats préférés...",
+        "Context": "Une soupe de restes de poulet et de porc avec quelques feuilles de légumes verts. Je ne suis guère exigeante en la matière."
+      },
+      {
+        "Title": "Plats détestés...",
+        "Context": "J'ai rencontré des gens qui demandent du crabe doré à chaque repas. Ces plats ont peut-être l'air délicieux, mais je n'ai guère de temps à gaspiller sur ce genre de frivolités. Si jamais vous souhaitez m'inviter dans ce genre d'établissement, autant gagner du temps et me donner vos moras directement."
+      },
+      {
+        "Title": "Cadeau reçu (1)",
+        "Context": "Pas mal. Vous dépassez sans cesse mes attentes."
+      },
+      {
+        "Title": "Cadeau reçu (2)",
+        "Context": "Parfois, il arrive qu'une démarche échoue si on ne parvient pas à saisir un élément crucial... Vous comprenez ?"
+      },
+      {
+        "Title": "Cadeau reçu (3)",
+        "Context": "J'apprécie l'intention."
+      },
+      {
+        "Title": "Anniversaire...",
+        "Context": "Voilà des brocarts qui comptent parmi les plus fins de Liyue, tissés à partir de fleurs de soie. Celui-ci est pour vous, et celui-là... J'espère que vous pourrez un jour le donner à la famille que vous avez perdue. Joyeux anniversaire."
+      },
+      {
+        "Title": "Affinité faible",
+        "Context": "Non seulement recourir à la violence manque de style, mais c'est aussi le plus souvent la pire des solutions qu'on puisse prendre."
+      },
+      {
+        "Title": "Affinité moyenne",
+        "Context": "Échanger des moras et du temps contre de la puissance... Intéressant. Je reconnais leur valeur."
+      },
+      {
+        "Title": "Affinité élevée",
+        "Context": "Qu'est-ce donc qui vous habite et vous fait tenir envers et contre tout ? ... Non, ne dites rien. Laissez-moi plus de temps pour vous percer à jour."
+      },
+      {
+        "Title": "Affinité max",
+        "Context": "Je ne suis guère encline à accorder ma confiance à qui que ce soit à la légère, mais je crains devoir revoir ce jugement. Vous m'avez étonnée. Si seulement j'en avais plusieurs comme vous... Quoique. Vous suffisez amplement, après tout."
+      },
+      {
+        "Title": "Compétence élémentaire (1)",
+        "Context": "C'est un jeu d'enfant."
+      },
+      {
+        "Title": "Compétence élémentaire (2)",
+        "Context": "Ne me faites pas perdre mon temps."
+      },
+      {
+        "Title": "Compétence élémentaire (3)",
+        "Context": "Hmph, abandonne."
+      },
+      {
+        "Title": "Déchaînement élémentaire (1)",
+        "Context": "Ta vie est mienne."
+      },
+      {
+        "Title": "Déchaînement élémentaire (2)",
+        "Context": "Prosterne-toi !"
+      },
+      {
+        "Title": "Déchaînement élémentaire (3)",
+        "Context": "Adieu !"
+      },
+      {
+        "Title": "Ouverture de coffre (1)",
+        "Context": "Un œil perçant."
+      },
+      {
+        "Title": "Ouverture de coffre (2)",
+        "Context": "Nous ne pouvons laisser un trésor non répertorié."
+      },
+      {
+        "Title": "Ouverture de coffre (3)",
+        "Context": "Les richesses... Pourquoi se contenter de peu ?"
+      },
+      {
+        "Title": "PV faibles (1)",
+        "Context": "Comment osez-vous me frapper ?"
+      },
+      {
+        "Title": "PV faibles (2)",
+        "Context": "Je m'en souviendrai."
+      },
+      {
+        "Title": "PV faibles (3)",
+        "Context": "Ha !"
+      },
+      {
+        "Title": "Compagnon avec PV faibles (1)",
+        "Context": "Vous n'avez plus d'options."
+      },
+      {
+        "Title": "Compagnon avec PV faibles (2)",
+        "Context": "Dans ce cas, je vais vous donner un coup de main."
+      },
+      {
+        "Title": "K.O. (1)",
+        "Context": "Nous ne sommes que des pions de ce monde..."
+      },
+      {
+        "Title": "K.O. (2)",
+        "Context": "Le gagnant a été désigné... Il n'y a rien à faire."
+      },
+      {
+        "Title": "K.O. (3)",
+        "Context": "Est-ce la fin de la Megrez ?"
+      },
+      {
+        "Title": "Attaque légère subie (1)",
+        "Context": "L'audace."
+      },
+      {
+        "Title": "Attaque puissante subie (1)",
+        "Context": "Attendez de voir !"
+      },
+      {
+        "Title": "Attaque puissante subie (2)",
+        "Context": "Sang pour sang."
+      },
+      {
+        "Title": "Ajout dans l'équipe (1)",
+        "Context": "Compris."
+      },
+      {
+        "Title": "Ajout dans l'équipe (2)",
+        "Context": "Dépêchons-nous."
+      },
+      {
+        "Title": "Ajout dans l'équipe (3)",
+        "Context": "Ne me décevez pas."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Info. personnage",
+        "Context": "Les Sept Étoiles contrôlent tout le commerce du Port de Liyue ; leur haute position est convoitée par nombre d'envieux. Leur philosophie est de garder profil bas, et de ne jamais prendre de risques inconsidérés.\nNingguang est la seule à faire exception.\nElle est aux yeux de ses rivaux commerciaux une marchande dure en affaires ; elle est aussi une grande sœur chérie par les enfants du coin, une femme mondaine que l'on voit aux banquets de la Terrasse Yujin, ou encore une amatrice confirmée du monde des desserts... Tous les gens du port semblent connaître quelque chose à son sujet, mais tous semblent raconter une histoire différente, pouvant grandement varier d'une personne à une autre.\nSeul point commun à toutes les rumeurs circulant à son compte : Ningguang est quelqu'un qui sort de l'ordinaire."
+      },
+      {
+        "Title": "Histoire du personnage 1",
+        "Context": "Dans le ciel du Port de Liyue se trouve un palais propulsé par plaustrite ; il s'agit de la Chambre de Jade, le lieu de résidence de Ningguang.\nLes jours où le ciel est dégagé, on peut apercevoir depuis celui-ci presque toute l'étendue du port.\nNingguang s'y rend à chaque fois qu'elle a quelque affaire importante à traiter. Elle interdit alors à quiconque d'y pénétrer, si ce n'est à ses trois proches confidents. Ceux-ci mettent en ordre les informations reçues, et accrochent les rapports et conclusions qu'ils jugent dignes d'intérêt aux murs du palais, tandis que Ningguang s'absorbe dans la contemplation du port en dessous, toute à ses pensées.\nElle arrive le plus souvent à trouver la meilleure des solutions au problème en cours avant que ses conseillers aient fini leur travail. Une fois sa décision prise, elle déchire tous les documents aux murs, et balance les confettis ainsi obtenus par la fenêtre, en une sorte de pluie de papier.\nLes caractères qu'on y voit sont aux yeux des marchands locaux telle l'encre noire au milieu de la neige ; car ils savent que chaque pluie de papier est l'annonciatrice d'une décision qui va résonner à travers toute la communauté marchande."
+      },
+      {
+        "Title": "Histoire du personnage 2",
+        "Context": "« Ningguang est au courant de tout. » Ainsi sont souvent prévenus les étrangers arrivant au port.\nLes Guildes en quête de quelque faille juridique, les marchands cherchant à contrôler le cours du marché en stockant leurs marchandises, les contrebandiers voulant trafiquer leurs biens au port... Rien ni personne n'a de secret pour la Megrez.\nUn alchimiste vint par exemple à passer à Liyue, et tomba involontairement sur des archives d'une transaction douteuse de jade remontant à plus de dix ans, et impliquant la Forge de Rochenoire. Inutile de préciser quelle fut sa surprise lorsque la nuit venue, un proche de Ningguang vint frapper à sa porte, le priant de la rejoindre pour un entretien à la Chambre de Jade.\nUne rumeur prétend que son palais est enchanté, et lui permet d'espionner toutes les conversations qu'elle souhaite...\nMais les vraies oreilles de Ningguang sont en réalité les gamins jouant sur le port.\nCeux-ci font des espions de premier choix : pas une rencontre secrète, pas une discussion à demi-mots, pas un nouveau visage débarquant à Liyue ne leur échappent. Lorsqu'ils s'agglutinent autour de « grande sœur Ningguang », les sucreries qu'elle ne manque pas de leur donner suffisent à leur délier la langue, et ainsi obtient-elle de précieux renseignements.\nÀ force d'analyse et de recoupements, Liyue n'a plus aucun secret pour elle.\nPlus que quiconque, Ningguang comprend l'importance du tissu social, et est plus que disposée à passer du temps au milieu des gens du peuple.\nUne autre raison explique aussi ceci : elle aime voir le sourire des enfants des alentours."
+      },
+      {
+        "Title": "Histoire du personnage 3",
+        "Context": "L'attitude de Ningguang à l'égard de l'argent est la même que celle de nombreux de ses contemporains : on n'en a jamais assez.\nMais plus qu'un signe de richesse, chaque mora gagné est à ses yeux un trophée durement obtenu.\nNingguang est d'un naturel doux et aimable avec les gens du peuple ; mais c'est une autre facette de sa personnalité à laquelle sont confrontés ses partenaires en affaires.\nÀ ses yeux, le monde du commerce est un jeu excitant et unique en son genre, et chaque mora lâché à contrecœur par quelque riche marchand apporte sur son visage un sourire joyeux ; et rien ne lui fait plus plaisir que de voir les Guildes se plier à sa volonté.\nChaque victoire qu'elle remporte en affaires participe à la richesse des Sept Étoiles, et à la prospérité du port. Cela créé en retour plus d'opportunités pour Ningguang, et ainsi la boucle est bouclée, à la grande satisfaction des Sept Étoiles.\nNombreux sont ceux qui lui demandent pourquoi, ayant acquis une telle richesse, continue-t-elle à faire affaire à Liyue.\nCe à quoi Ningguang répond patiemment, ne comprenant pas pourquoi poser une telle question : « Je ne vois en quoi ajouter un mora à ceux déjà possédés est une mauvaise chose. »"
+      },
+      {
+        "Title": "Histoire du personnage 4",
+        "Context": "Tout habitant de Liyue est soumis aux règlements locaux ; ceux-ci protègent les intérêts de chacun, et inversement punissent ceux coupables d'infractions.\nLes règlements ayant cours aujourd'hui trouvent leur origine dans les lois définies par Morax, le protecteur divin de Liyue. À travers les âges, chaque Megrez y a ajouté des amendements, s'assurant ainsi qu'elles demeurent en phase avec le présent.\nCes lois sont compilées et publiées, accompagnées d'un commentaire de 279 pages ; une copie en est distribuée à chaque habitant du port.\nNingguang apprécie l'ordre ; les lois sont bonnes pour les affaires, et personne ne comprend mieux qu'elle leur complexité.\nCependant, une certaine capitaine de flotte du nom de Beidou semble n'avoir que mépris envers les règles établies, mettant à profit ses uniques informations commerciales et sa cargaison précieuse pour se livrer à la contrebande. Aux yeux de Ningguang, Beidou est le mouton noir du Port de Liyue.\nEn tant que Megrez, il est du devoir de Ningguang d'imposer des amendes aux contrevenants, ce qu'elle fit à nombre de reprises à l'égard de Beidou ; mais à chaque fois et à sa grande consternation celle-ci s'en acquitta sans sembler dérangée le moins du monde.\nNingguang a bien essayé de passer par les voies officieuses pour convaincre Beidou d'arrêter de mettre les Sept Étoiles dans une position difficile ; mais Beidou invoque pour expliquer ses actes différentes raisons, allant de « justice naturelle » à « aider les pauvres », en passant par « frais d'équipage ». Championne incontestée de la philosophie consistant à ne répondre de ses actes à personne, Beidou n'a que faire des remontrances de Ningguang.\nDe guerre lasse, cette dernière a fini par abandonner dans ses tentatives de remettre Beidou sur le droit chemin."
+      },
+      {
+        "Title": "Histoire du personnage 5",
+        "Context": "Aussi riche que charmante, Ningguang ne manque pas de soupirants.\nIl semble que chaque homme célibataire de la région, des jeunes élégants de la Terrasse Yujin aux capitaines de navire renommés ou encore aux jeunes commerçants ayant réussi, a à un moment ou un autre tenté de gagner ses faveurs. Le bruit court même qu'un influent personnage de la Cour de Fontaine signa un accord commercial majeur avec le Port de Liyue dans le seul but de la voir plus souvent.\nNingguang traite tous ces prétendants avec autant de grâce que de gentillesse, mais les maintient à distance raisonnable. Tout ceci participe à la question que tout le monde se pose dans les ruelles du port : qui est son amant ?\nTous ignorent que Ningguang se refuse de voir sa liberté réduite, et à ses yeux entretenir une relation est synonyme de limitations.\nLa Chambre de Jade, le palais flottant au-dessus de Liyue, lui appartient à elle seule ; au départ ne dépassant pas la superficie d'une pièce, l'endroit est aujourd'hui si imposant qu'il projette au clair de lune son ombre sur tout le port.\nNingguang investit une partie non négligeable de ses immenses ressources dans l'extension de son palais, faisant appel aux meilleurs artisans, et le rendant toujours plus somptueux à mesure que le temps passe.\nÀ ses yeux, l'endroit est le symbole de sa richesse et de son pouvoir, et le signe que ses affaires sont florissantes.\nC'est la chose la plus précieuse à ses yeux (après les moras, bien entendu).\nQui sait, peut-être un jour son ombre s'étendra-t-elle sur les Sept Nations de Teyvat ?"
+      },
+      {
+        "Title": "Jeu d'échecs : « Mille ans à Liyue »",
+        "Context": "On doit à Ningguang l'invention d'une forme de jeu d'échecs pour passer le temps.\nLe plateau reproduit avec fidélité et à l'échelle différents lieux du Port de Liyue, tels que salons de thé, magasins, échoppes, hôtels et autres places locales, et se joue avec des dés à six, dix et vingt faces (entre autres). Ces derniers sont lancés pour déterminer la distance que peuvent parcourir les pièces des joueurs, et atterrir sur différents lieux déclenche différents événements. La victoire est déterminée d'après le nombre de pièces restantes aux mains des joueurs.\nLes règles de ce jeu peuvent changer n'importe quand selon l'humeur de Ningguang, mais lorsqu'elle affronte d'autres joueurs qu'elle-même, elle s'en tient toujours à la dernière édition disponible.\nIl arrive que lorsque la partie s'avère suffisamment passionnante à ses yeux, elle invente malgré tout de nouvelles règles en cours de jeu. Personne n'a bien sûr à ce jour réussi à la vaincre, et elle en est déjà à sa 32,6e édition des règles.\nNingguang a bien essayé de faire publier les règles (en l'occurrence, celles de la 8e édition), pensant que le public trouverait le jeu simple et amusant, mais il s'avéra que le public préférait les jeux qu'il avait une chance de comprendre.\nCependant, cela n'empêcha pas la vente des plateaux de connaître un certain succès, en raison de la beauté du décor, ainsi que de la complexité des pièces utilisées.\nOn pourrait arguer que de tous les sets achetés, seule une infime minorité l'a été pour jouer."
+      },
+      {
+        "Title": "Œil divin",
+        "Context": "Nul ne sait comment sont créés les yeux divins. Ils semblent toujours apparaître de nulle part, laissant nombre de personnes désireuses d'en obtenir un jour un dans l'ignorance la plus totale quant aux moyens d'arriver à leurs fins.\nQuant aux yeux divins laissés par leurs propriétaires décédés, ils se révèlent toujours n'être plus que des babioles sans intérêt, des coques vides dénuées du moindre pouvoir élémentaire, que nul n'a jamais réussi à « réactiver », à l'exception de très rares cas où une infime résonance put être observée avec certains héritiers, sans comparaison aucune avec la puissance de l'artéfact originel.\nLa première réflexion que se fit Ningguang lorsqu'elle tomba sur l'une de ces coques vides fut : « Voilà une excellente opportunité de gagner quelques moras ».\nVendre un tel objet attirerait sûrement une pléthore de riches bourgeois avides de n'avoir ne serait-ce qu'une chance d'en posséder un, et quand bien même ils seraient incapables d'en obtenir la moindre petite résonance, fort est à parier qu'ils n'en diraient rien, ne serait-ce que pour sauver les apparences...\nToute à ses pensées, jouant d'une main avec l'objet, de l'autre prenant des notes pour sa future mise en vente, Ningguang souriait à l'idée du prix que certains marchands seraient prêts à débourser pour l'acquérir. C'est ce moment que choisit l'objet jusqu'ici terne et inanimé pour briller de mille feux.\nLe sourire de la Megrez se gela sur ses lèvres, tandis que devant elle s'activait le précieux artéfact.\nSes serviteurs la félicitèrent d'avoir ainsi été bénie des dieux. Ce à quoi Ningguang répondit d'un ton sans réplique :\n« Pourquoi me féliciter ? Maintenant que j'ai été désignée, il est invendable ! »"
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 202701,
+      "Name": "Robe de soirée d'orchidées",
+      "Description": "Tenue formelle de Ningguang. La longue jupe bleue épouse ses formes élégantes et les ailes de papillons à ses chevilles ajoutent une touche aérienne.",
+      "IsDefault": false,
+      "FrontIcon": "UI_AvatarIcon_NingguangCostumeFloral",
+      "SideIcon": "UI_AvatarIcon_Side_NingguangCostumeFloral"
+    },
+    {
+      "Id": 202700,
+      "Name": "Jade doré",
+      "Description": "Tenue de Ningguang. Une mise en soie élégante et travaillée, digne et gracieuse.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104174,
+    113009,
+    100030,
+    112034,
+    104312,
+    113008
+  ]
+}
