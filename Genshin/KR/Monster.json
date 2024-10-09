@@ -3410,7 +3410,7 @@
     "MonsterName": "Abyss_Ice_01",
     "Name": "얼음의 심연 메이지",
     "Title": "얼음을 노래하는 자",
-    "Description": "차가운 얼음 원소의 힘으로 싸우는 심연의 마물.\n대기 중의 수증기를 뾰족한 얼음 가시로 얼려버릴 수 있는 막강한 힘을 가졌음에도 불구하고, 본체는 구부정하고 힘이 없다. 자신을 보호하는 보호막이 파괴되면 영락없이 인간들의 먹잇감이 되어버린다",
+    "Description": "차가운 얼음 원소의 힘으로 싸우는 심연의 마물.\n대기 중의 수증기를 뾰족한 얼음 가시로 얼려버릴 수 있는 막강한 힘을 가졌음에도 불구하고, 본체는 구부정하고 힘이 없다. 자신을 보호하는 방어막이 파괴되면 영락없이 인간들의 먹잇감이 되어버린다",
     "Icon": "UI_MonsterIcon_Abyss_Ice_01",
     "Type": 1,
     "Arkhe": 0,
@@ -4477,6 +4477,115 @@
     "Arkhe": 0
   },
   {
+    "Id": 22120201,
+    "DescribeId": 21202,
+    "RelationshipId": 21202,
+    "MonsterName": "TheAbyss_Rhizome_01",
+    "Name": "그윽한 의태 잎뭉치",
+    "Title": "그윽한 의태 잎뭉치",
+    "Description": "깊고 어두우며 뒤틀린 이계에서 강림한 심연 마물. 식물과 비슷한 형태를 띠고 있다.\n칠흑의 파도가 침식하는 곳에는 식물의 모습을 띤 어둠의 마물이 자라난다고 한다. 하지만 식물을 닮은 건 겉모습일 뿐, 이런 모습을 갖춘 것은 나무 모양인 세계의 의식에 더 가까이 접근해 필요한 개념을 추출하고 분석한 뒤 모방하기 위해서다.\n이성을 잃은 광인들은 이 뻗은 잎사귀 같은 것이 이계로 통하는 문이라고 말하곤 한다",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 46.1856,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21203,
+    "RelationshipId": 21203,
+    "Name": "그윽한 의태·유적 가디언",
+    "Title": "그윽한 의태 잎뭉치",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21204,
+    "RelationshipId": 21204,
+    "Name": "그윽한 의태·츄츄 바람걸음 순찰자",
+    "Title": "그윽한 의태 잎뭉치",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21205,
+    "RelationshipId": 21205,
+    "Name": "그윽한 의태·비밀근원 기계·포획기",
+    "Title": "그윽한 의태 잎뭉치",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21206,
+    "RelationshipId": 21206,
+    "Name": "그윽한 의태·번개도끼 츄츄 폭도",
+    "Title": "그윽한 의태 잎뭉치",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21207,
+    "RelationshipId": 21207,
+    "Name": "그윽한 의태·산룡",
+    "Title": "그윽한 의태 잎뭉치",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21208,
+    "RelationshipId": 21208,
+    "Name": "그윽한 의태·어룡",
+    "Title": "그윽한 의태 잎뭉치",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21209,
+    "RelationshipId": 21209,
+    "Name": "그윽한 의태·숲룡",
+    "Title": "그윽한 의태 잎뭉치",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23010101,
     "DescribeId": 30101,
     "RelationshipId": 30101,
@@ -4618,7 +4727,7 @@
     "MonsterName": "Skirmisher_Male_Standard_Staff_Rock_01",
     "Name": "우인단 선발대·바위 유격대",
     "Title": "선발대·바위 유격대",
-    "Description": "바위 원소로 구성된 보호막으로 아군을 보호하는 선발대 병사.\n소수의 정예 채무처리인과 치친 술사와 달리 선발대는 병사 개인의 능력과 장비가 조금 부족하다.\n이들은 임무를 성공적으로 완수하고 인원과 물자 손해를 최소화하기 위해 팀워크를 더 중요시한다",
+    "Description": "바위 원소로 구성된 방어막으로 아군을 보호하는 선발대 병사.\n소수의 정예 채무처리인과 치친 술사와 달리 선발대는 병사 개인의 능력과 장비가 조금 부족하다.\n이들은 임무를 성공적으로 완수하고 인원과 물자 손해를 최소화하기 위해 팀워크를 더 중요시한다",
     "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Staff_Rock_01",
     "Type": 1,
     "Arkhe": 0,
@@ -6955,6 +7064,66 @@
     "BaseValue": {
       "HpBase": 95.088,
       "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090201,
+    "DescribeId": 40902,
+    "RelationshipId": 40902,
+    "MonsterName": "DragonClaw",
+    "Name": "비밀근원 기계·구축기",
+    "Title": "비밀근원 기계·구축기",
+    "Description": "고대 유적의 제작용 기계. 고대 유적의 주인들은 이런 형태를 바꿀 수 있는 기계로 각종 제작 작업을 진행했다. 이 기계를 사용하는 방법만 배우면, 화산 내부처럼 극단적인 환경 속에서도 상상을 초월하는 거대한 도시를 구축할 수 있다.\n이 외에도 병기로도 사용된 듯하다. 고대 문명은 오래전에 사라졌지만, 이 거대한 발톱을 닮은 기계는 새겨진 금빛 문양의 명령에 따라 사전 설정된 대로 전투에 임한다",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113066,
+      104141,
+      104142,
+      104143,
+      104144,
+      400032,
+      400042,
+      400137,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400138,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 353.184,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -13377,13 +13546,26 @@
   },
   {
     "Id": 0,
+    "DescribeId": 80213,
+    "RelationshipId": 80213,
+    "Name": "노련한 텐트 거북",
+    "Title": "노련한 텐트 거북",
+    "Icon": "UI_MonsterIcon_Tortoise_Electric",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 80226,
     "RelationshipId": 80226,
     "Name": "노련한 카피바라",
     "Title": "???",
-    "Icon": "UI_MonsterIcon_Raijin",
+    "Icon": "UI_MonsterIcon_Capybara_02",
     "Type": 0,
-    "Arkhe": 0
+    "Arkhe": 0,
+    "Affixes": [
+      "异化水豚深渊词缀"
+    ]
   },
   {
     "Id": 29010101,

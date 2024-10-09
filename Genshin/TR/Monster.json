@@ -3410,7 +3410,7 @@
     "MonsterName": "Abyss_Ice_01",
     "Name": "Hiçlik Buz Büyücüsü",
     "Title": "Buzçağıran",
-    "Description": "Savaşta Buz çağıran Hiçlik yaratıkları.\nBu güçlü yaratıklar, su buharını yoğunlaştırıp dondurarak buz saçakları oluşturabilme becerilerine rağmen bedenleri son derece savunmasızdır. Koruyucu bariyerleri yok olduğunda kaderleri düşmanın insafına kalır.",
+    "Description": "Savaşta Buz çağıran Hiçlik yaratıkları.\nBu güçlü yaratıklar, su buharını yoğunlaştırıp dondurarak buz saçakları oluşturabilme becerilerine rağmen bedenleri son derece savunmasızdır. Koruyucu Tılsımları yok olduğunda kaderleri düşmanın insafına kalır.",
     "Icon": "UI_MonsterIcon_Abyss_Ice_01",
     "Type": 1,
     "Arkhe": 0,
@@ -4477,6 +4477,115 @@
     "Arkhe": 0
   },
   {
+    "Id": 22120201,
+    "DescribeId": 21202,
+    "RelationshipId": 21202,
+    "MonsterName": "TheAbyss_Rhizome_01",
+    "Name": "Karanlık Taklit Çiçeği",
+    "Title": "Karanlık Taklit Çiçeği",
+    "Description": "Çarpık ve yabancı bir dünyanın derin karanlığından gelen, bitkiye benzer bir görünüme sahip Hiçlik yaratıkları.\nBu tür bitki görünümlü yaratıkların, karanlık dalgaların aşındırdığı kıyılarda yetiştiği söylenir. Ancak bitkiye olan benzerlikleri sadece görüntüden ibarettir. Ağaca benzeyen dünyaya yaklaşmak, oradan gerekli kavramları alarak onları analiz ve taklit edebilmek için bu görünüşe bürünürler.\nAklını kaçırmış bazı deliler, yaratıkların üzerindeki yaprak gibi uzanan kısımların diğer dünyalara uzanan geçitler olduğunu iddia ederler.",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 46.1856,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21203,
+    "RelationshipId": 21203,
+    "Name": "Karanlık Taklit Çiçeği - Harabe Muhafızı",
+    "Title": "Karanlık Taklit Çiçeği",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21204,
+    "RelationshipId": 21204,
+    "Name": "Karanlık Taklit Çiçeği - Rüzgar Bıçaklı Dağ Zebanisi",
+    "Title": "Karanlık Taklit Çiçeği",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21205,
+    "RelationshipId": 21205,
+    "Name": "Karanlık Taklit Çiçeği - Gizli Kaynak Canavar Makinası: Avcı-Arayıcı",
+    "Title": "Karanlık Taklit Çiçeği",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21206,
+    "RelationshipId": 21206,
+    "Name": "Karanlık Taklit Çiçeği - Elektrik Baltalı Dağ Azmanı",
+    "Title": "Karanlık Taklit Çiçeği",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21207,
+    "RelationshipId": 21207,
+    "Name": "Karanlık Taklit Çiçeği - Tepetlizor",
+    "Title": "Karanlık Taklit Çiçeği",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21208,
+    "RelationshipId": 21208,
+    "Name": "Karanlık Taklit Çiçeği - Koholazor",
+    "Title": "Karanlık Taklit Çiçeği",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21209,
+    "RelationshipId": 21209,
+    "Name": "Karanlık Taklit Çiçeği - Yumkazor",
+    "Title": "Karanlık Taklit Çiçeği",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23010101,
     "DescribeId": 30101,
     "RelationshipId": 30101,
@@ -4618,7 +4727,7 @@
     "MonsterName": "Skirmisher_Male_Standard_Staff_Rock_01",
     "Name": "Fatui Avcı Eri - Destek Toprak İlahicisi",
     "Title": "Fatui Avcı Eri - Destek Toprak İlahicisi",
-    "Description": "Toprak Kalkanı oluşturarak müttefiklerini koruyabilme yeteneğine sahip bir avcı eri.\nFatui Avcı Erleri, seçkin Büyücülere ve Tefecilere kıyasla daha güçsüzdür.\nBu avcı erleri, görevlerini tamamlarken hem insan hem de malzeme zayiatını azaltmak için takım çalışmasını tercih ederler.",
+    "Description": "Toprak Tılsımı oluşturarak müttefiklerini koruyabilme yeteneğine sahip bir avcı eri.\nFatui Avcı Erleri, seçkin Büyücülere ve Tefecilere kıyasla daha güçsüzdür.\nBu avcı erleri, görevlerini tamamlarken hem insan hem de malzeme zayiatını azaltmak için takım çalışmasını tercih ederler.",
     "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Staff_Rock_01",
     "Type": 1,
     "Arkhe": 0,
@@ -6955,6 +7064,66 @@
     "BaseValue": {
       "HpBase": 95.088,
       "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090201,
+    "DescribeId": 40902,
+    "RelationshipId": 40902,
+    "MonsterName": "DragonClaw",
+    "Name": "Gizli Kaynak Canavar Makinası: Yapılandırma Cihazı",
+    "Title": "Gizli Kaynak Canavar Makinası: Yapılandırma Cihazı",
+    "Description": "Kadim harabelerden kalan bir inşaat makinası. Birçok farklı şekle bürünebilen bu makinalar, kadim harabe ustaları tarafından çeşitli üretim işleri için kullanılırdı. Böyle bir makinayı kullanmayı bildiğin sürece, bir yanardağın içi gibi zorlu koşullarda dahi hayallerinin ötesinde devasa bir şehir inşa edebilirsin.\nAyrıca silah olarak kullanılabiliyor. Dev bir pençe şeklindeki bu makina, ait olduğu kadim medeniyet yıkılalı epey zaman geçmiş olmasına rağmen üzerine işlenmiş altın desenlerden aldığı güçle bugün dahi önceden belirtilen talimatlara göre savaşmaya devam ediyor.",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113066,
+      104141,
+      104142,
+      104143,
+      104144,
+      400032,
+      400042,
+      400137,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400138,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 353.184,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -13377,13 +13546,26 @@
   },
   {
     "Id": 0,
+    "DescribeId": 80213,
+    "RelationshipId": 80213,
+    "Name": "Savaş Uzmanı Çadır Kaplumbağası",
+    "Title": "Savaş Uzmanı Çadır Kaplumbağası",
+    "Icon": "UI_MonsterIcon_Tortoise_Electric",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 80226,
     "RelationshipId": 80226,
     "Name": "Savaş Uzmanı Kapibara",
     "Title": "???",
-    "Icon": "UI_MonsterIcon_Raijin",
+    "Icon": "UI_MonsterIcon_Capybara_02",
     "Type": 0,
-    "Arkhe": 0
+    "Arkhe": 0,
+    "Affixes": [
+      "异化水豚深渊词缀"
+    ]
   },
   {
     "Id": 29010101,

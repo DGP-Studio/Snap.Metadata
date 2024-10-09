@@ -2078,6 +2078,27 @@
   },
   {
     "Types": [
+      8001,
+      8002
+    ],
+    "SurfaceType": 11,
+    "IsSpecial": false,
+    "SpecialType": 5,
+    "Comfort": 300,
+    "Cost": 1600,
+    "DiscountCost": 1600,
+    "CanFloat": false,
+    "IsUnique": true,
+    "RankLevel": 1,
+    "GroupRecordType": 0,
+    "Id": 368189,
+    "Name": "실로닌",
+    "Description": "MY 홈 입주 캐릭터",
+    "Icon": "",
+    "Rank": 0
+  },
+  {
+    "Types": [
       1001,
       0
     ],
@@ -19064,7 +19085,7 @@
       "포획 획득"
     ],
     "Id": 369189,
-    "Name": "목도리뀡",
+    "Name": "목도리꿩",
     "Description": "나타에서 볼 수 있는 중형 조류. 화려한 옷을 입은 것처럼 보이는 푸른 깃털과 부드러운 목도리, 그리고 꽃봉오리처럼 화려한 꽁지깃털을 가지고 있다.\n원래도 통통한 이 새는 선계 내의 먹이가 풍부해 안 그래도 취약한 날기 능력이 더 악화되고 있으며, 심지어 걷는 것도 힘겨워지고 있다. 포롱이는 녀석들을 가장 활동적인 새들과 함께 단련시켜 봤지만 큰 효과는 없었고, 결국 그들을 「날개 달린 화분」으로 생각하고 키우는 수밖에 없었다…",
     "Icon": "UI_AnimalIcon_Meleagris_01",
     "Rank": 110100
@@ -26486,7 +26507,7 @@
     ],
     "Id": 372459,
     "Name": "「숨겨진 달콤한 꿀」",
-    "Description": "「색체가 선연한 사막 식물로, 두꺼운 겉껍질을 벗겨내면 소량의 달콤한 과육을 얻을 수 있다. 하지만 일정한 독성이 있으니 대량으로 섭취해선 안 된다.」\n풍기관의 최신 작전 수칙에는 이 사막의 관목을 위와 같이 설명했다.\n한 사람의 의지가 얼마나 강하든, 혹독한 열기와 기나긴 여정에 시달리다 보면 이 달콤한 과육에 경계를 풀어버리기 쉬운 법. 경험이 부족한 풍기관이 실수를 범하는 걸 방지하기 위해 수칙에 딸린 참고자료에는 다른 사막 식물로 과육의 독을 해독하는 방법도 상세히 기술되어 있다",
+    "Description": "「색채가 선연한 사막 식물로, 두꺼운 겉껍질을 벗겨내면 소량의 달콤한 과육을 얻을 수 있다. 하지만 일정한 독성이 있으니 대량으로 섭취해선 안 된다.」\n풍기관의 최신 작전 수칙에는 이 사막의 관목을 위와 같이 설명했다.\n한 사람의 의지가 얼마나 강하든, 혹독한 열기와 기나긴 여정에 시달리다 보면 이 달콤한 과육에 경계를 풀어버리기 쉬운 법. 경험이 부족한 풍기관이 실수를 범하는 걸 방지하기 위해 수칙에 딸린 참고자료에는 다른 사막 식물로 과육의 독을 해독하는 방법도 상세히 기술되어 있다",
     "Icon": "UI_Homeworld_Exterior_Xm_Plant_Grass_Desert_06_Lod0",
     "Rank": 80500
   },
@@ -44032,6 +44053,988 @@
     "Description": "물방울 모양의 바닥 조명. 튼튼하고 「하얀참나무 원목」 틀로 만들었으며, 「샘물 무리」에서 조명을 보충하기 설치되어 있다.\n다른 지역의 조명 시설과 비교했을 때, 「샘물 무리」의 가로등은 조명이 더 부드럽고 섬세하게 조정되어 있는데, 이는 족장이 더 부드럽고 따뜻한 분위기의 조명이 사람들의 생활 리듬을 늦추게 해준다고 여겼기 때문이다. 그리고 더 느리고 더 여유로운 생활 방식이야말로 휴가를 만끽하는 핵심이니까",
     "Icon": "UI_Homeworld_Exterior_Nt_Lamp_Light_YLLDideng_01_Vo",
     "Rank": 90700
+  },
+  {
+    "Types": [
+      3003,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Table_Prop_JJCZhuozi_01_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 361336,
+    "Name": "「외발 원형 방패」",
+    "Description": "튼튼하고 내구성이 좋은 석재 원탁. 성화 경기장에서 볼 수 있다. 원형 방패처럼 튼튼해서 술에 취한 손님이 몽둥이를 휘둘러도 끄떡없다.\n피로의 집에 있는 원탁은 대회가 열릴 때의 경기장과 모양이 비슷해 일종의 「전쟁터」로 여겨지기도 한다. 그래서 이 원탁은 「원형 방패」라는 별명 외에도 「불꽃 대식가들의 전쟁터」라는 별명도 가지고 있다",
+    "Icon": "UI_Homeworld_Interior_Nt_Table_Prop_JJCZhuozi_01_Lod0",
+    "Rank": 20300
+  },
+  {
+    "Types": [
+      3003,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Table_Prop_JJCZhuozi_02_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 361337,
+    "Name": "「네발 대형 방패」",
+    "Description": "독특한 모양의 석재 대형 탁자. 넓은 면적을 가지고 있으며 성화 경기장에서 볼 수 있다. 이름에서 알 수 있듯이 이 대형 탁자는 대형 방패에서 영감을 얻어 설계됐다고 한다. 인체공학적으로 오목하게 들어간 탁자의 가장자리 부분은 독특한 설계 덕분에 팔을 더 잘 지지해 줄 뿐만 아니라 사용자의 몸을 탁자의 중앙에 더 밀착하게 해 일반적인 대형 탁자에 비해 훨씬 더 편안함을 느낄 수 있다. 하지만, 이 독특한 모양 때문에 제조와 유지 보수 비용이 높아 널리 보급되지는 못했다",
+    "Icon": "UI_Homeworld_Interior_Nt_Table_Prop_JJCZhuozi_02_Vo",
+    "Rank": 20300
+  },
+  {
+    "Types": [
+      3003,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 169,
+    "DiscountCost": 127,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Table_Prop_JJCZhuozi_03_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 361338,
+    "Name": "「이름 없는 조연」",
+    "Description": "「복숭아야자나무 원목」 판재를 사용해 만든 기다란 모양의 정교한 테이블. 위에는 우아한 무늬의 식탁보가 깔려 있으며 성화 경기장에서 볼 수 있다. 성화 경기장의 독특한 실내 구조 때문에 이런 긴 테이블은 주요 가구의 역할보다는 빈 공간을 채우거나 미적인 감각을 더하는 용도로 사용된다고 한다. 그럼에도 이 테이블은 성실히 자신의 역할을 수행하고 있다. 마치 나타의 수많은 묵묵한 「이름 없는 조연」처럼…",
+    "Icon": "UI_Homeworld_Interior_Nt_Table_Prop_JJCZhuozi_03_Vo",
+    "Rank": 20300
+  },
+  {
+    "Types": [
+      3003,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 30,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Table_Prop_JJCZhuozi_04_Vo",
+    "RankLevel": 2,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 361339,
+    "Name": "「만능 일꾼」",
+    "Description": "「아라티쿠나무 원목」으로 만든 다용도 탁자. 구조가 단순하고 저렴하며 사용하기 편리하다는 장점이 있다. 성화 경기장에서 볼 수 있으며, 「만능 일꾼」이라는 이름에 걸맞게 일반적인 탁자 용도 외에도 진열대로 쓰이기도 하며 필요시 발 받침대로도 사용할 수 있다. 또한 가벼워서 운반이 용이하고 저렴해 대량 제작 및 소모품으로도 사용할 수 있기 때문에 성공적인 가구 설계로 손꼽힌다",
+    "Icon": "UI_Homeworld_Interior_Nt_Table_Prop_JJCZhuozi_04_Vo",
+    "Rank": 20300
+  },
+  {
+    "Types": [
+      11001,
+      0
+    ],
+    "SurfaceType": 3,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 169,
+    "DiscountCost": 127,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCPenzai_01_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 363508,
+    "Name": "「물가의 메아리」",
+    "Description": "성화 경기장에서 볼 수 있는 분재. 독특한 외형의 파란 식물이 심겨 있다. 식물의 잎은 크고 줄기는 단단하며 바람이 불면 바람의 노랫소리에 반응이라도 하듯 잎사귀가 바람에 따라 규칙적으로 흔들린다. 분재의 파란 색감은 여유롭고 편안한 물가를 연상시켜 「물가의 메아리」라는 이름을 얻게 됐다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCPenzai_01_Lod0",
+    "Rank": 40200
+  },
+  {
+    "Types": [
+      11001,
+      0
+    ],
+    "SurfaceType": 3,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 169,
+    "DiscountCost": 127,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCPenzai_02_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 363509,
+    "Name": "「불패의 용사」",
+    "Description": "성화 경기장에서 볼 수 있는 분재. 생기 넘치는 다육식물이 심겨 있다. 이 식물은 나타에서 가장 인기 있는 식물 중 하나라고 한다.\n생명력이 강하기로 유명하며, 두껍고 풍성한 잎으로 수분과 영양분을 대량으로 저장해 극한의 환경에서도 살아남을 수 있어서 「불패의 용사」라는 별명을 얻었다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCPenzai_02_Vo",
+    "Rank": 40200
+  },
+  {
+    "Types": [
+      11001,
+      0
+    ],
+    "SurfaceType": 3,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 169,
+    "DiscountCost": 127,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCPenzai_03_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 363510,
+    "Name": "「산맥의 불꽃」",
+    "Description": "산맥 모양의 화분 위에 정열적인 귤색 꽃이 돋보이는 분재. 꽃잎의 모양이 불꽃을 닮아서 이런 이름이 붙었다. 성화 경기장에서 볼 수 있으며, 이름에서 느껴지는 「짧고 금세 시들어버리는」 이미지와는 달리 개화 기간이 길고 해충과 가뭄에 강해 분재 입문자가 키우기에 적합하다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCPenzai_03_Vo",
+    "Rank": 40200
+  },
+  {
+    "Types": [
+      4003,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 30,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCTaoguan_01_Vo",
+    "RankLevel": 2,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 362401,
+    "Name": "색채 도자기-「화염의 산물」",
+    "Description": "성화 경기장에서 볼 수 있는 도자기. 순백색 바탕에 검붉은색 무늬가 그려져 있다. 나타의 장인들은 「화산재」를 도자기의 원료 중 하나로 사용하는데, 어떤 수수께끼에서는 이러한 도자기를 「화염의 산물」 또는 「용암의 자손」으로 부르기도 한다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCTaoguan_01_Vo",
+    "Rank": 30300
+  },
+  {
+    "Types": [
+      4002,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 172,
+    "DiscountCost": 129,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCShicaijia_01_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 362268,
+    "Name": "「시장의 제철 식자재」",
+    "Description": "「아라티쿠나무 원목」으로 만든 단순한 구조의 가벼운 진열대. 판매할 신선한 과일과 채소를 보관할 수 있으며 추웬 시장에서 흔히 볼 수 있다. 성화 경기장에는 다양한 부족 출신 사람들이 모인다. 그들의 다양한 식습관과 입맛에 맞추기 위해 상인들은 물건을 준비할 때 「푸짐한 양」보다는 「풍부한 가짓수」에 더 신경 쓴다. 그래서 가볍고 작으면서도 동시에 여러 상품을 진열할 수 있는 진열대를 가장 선호하며, 이런 진열대를 사용해 상품이 과하게 쌓이거나 파손되는 것을 방지한다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCShicaijia_01_Lod0",
+    "Rank": 30200
+  },
+  {
+    "Types": [
+      11002,
+      0
+    ],
+    "SurfaceType": 3,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 90,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCShiwu_01_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "기행·진주의 노래 구매 획득"
+    ],
+    "Id": 363403,
+    "Name": "음식 모형-「필수 요리」",
+    "Description": "천과 금속으로 만든 바비큐 모형. 모형에 설치된 바비큐 향 방향제는 갓 나온 음식 특유의 냄새를 완벽하게 재현했다. 냄새만 맡아도 한 끼 배불리 먹은 것처럼 힘이 넘치게 만든다.\n부족마다 식습관은 다르지만, 바비큐에 대한 사랑은 놀라울 정도로 일치한다. 그래서 맛과 양을 모두 만족시키는 바비큐는 축하 파티나 친구 모임에 약속이라도 한 듯 어김없이 등장하는 필수 요리다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCShiwu_01_Vo",
+    "Rank": 40300
+  },
+  {
+    "Types": [
+      11002,
+      0
+    ],
+    "SurfaceType": 3,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 90,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCShiwu_02_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 363404,
+    "Name": "음식 모형-「무난한 선택」",
+    "Description": "정교하고 섬세한 음식 모형. 외형은 나타의 유명한 음식——타코의 모양을 참고했으며, 천과 금속, 「복숭아야자나무 원목」으로 만들어졌다.\n타코는 어떤 재료와도 잘 어울리고 휴대가 간편해서 손님과 선수들이 칼로리를 빠르게 보충하고 싶을 때 가장 먼저 찾는 음식이라고 한다. 조리 과정이 간단한 타코는 상인들이 빠르게 제공할 수 있기 때문에 성화 경기장에서 가장 인기 있는 음식 중 하나로 꼽힌다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCShiwu_02_Vo",
+    "Rank": 40300
+  },
+  {
+    "Types": [
+      11002,
+      0
+    ],
+    "SurfaceType": 3,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCJiaobei_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 363405,
+    "Name": "「시장의 즐거운 건배」",
+    "Description": "나팔 모양의 술잔. 성화 경기장에서 흔히 볼 수 있다. 오래된 전설에 따르면 뿔잔은 용사의 상징이며, 그 안에 담긴 술은 용사의 뜨거운 피와 용맹을 상징한다고 한다. 그래서 나타의 일부 지역에서는 뿔잔으로 축배를 들 때——반드시 용사처럼 단숨에 술을 들이켜야 한다는 풍습이 있다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCJiaobei_01_Vo",
+    "Rank": 40300
+  },
+  {
+    "Types": [
+      11002,
+      0
+    ],
+    "SurfaceType": 3,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCMianju_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 363406,
+    "Name": "「바람을 쫓는 자」",
+    "Description": "고글과 깃털로 장식한 가면. 성화 경기장 추웬 시장 노점에서 살 수 있다. 고글은 광풍에 굴하지 않는 용기를 뜻하며, 깃털은 하늘에 대한 동경을 상징한다. 수많은 용사들은 이러한 용기와 동경을 따라 끊임없이 여정을 이어간다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCMianju_01_Vo",
+    "Rank": 40300
+  },
+  {
+    "Types": [
+      11002,
+      0
+    ],
+    "SurfaceType": 3,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCMianju_02_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 363407,
+    "Name": "「준비된 투창」",
+    "Description": "깃투구 모양의 가면. 성화 경기장 추웬 시장 노점에서 살 수 있다. 가면 위의 깃털은 날아갈 만반의 준비를 마친 날개를 연상케 한다. 노련한 전사는 투창을 움켜쥐고 힘을 모았다가 적이 방심할 때 결정적인 한 방을 날린다고 한다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCMianju_02_Vo",
+    "Rank": 40300
+  },
+  {
+    "Types": [
+      11002,
+      0
+    ],
+    "SurfaceType": 3,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCMianju_03_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 363408,
+    "Name": "「더 높은 곳으로」",
+    "Description": "숲룡의 색과 비슷한 구석이 있는 가면. 성화 경기장 추웬 시장 노점에서 살 수 있다. 현재 나타 사람들이 많이 사용하는 갈고리줄은 숲룡이 등반하는 모습에서 영감을 얻었다고 한다. 그래서 어떤 이야기에서는 숲룡의 가면을 슬기로움과 연관 짓기도 한다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCMianju_03_Vo",
+    "Rank": 40300
+  },
+  {
+    "Types": [
+      11002,
+      0
+    ],
+    "SurfaceType": 3,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCMianju_04_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 363409,
+    "Name": "「평온한 항해」",
+    "Description": "우뚝 솟은 모양의 가면. 성화 경기장 추웬 시장 노점에서 살 수 있다. 이 가면의 독특한 외형과 파란색 무늬는 수면 위를 항해하는 배를 참고한 것으로 사람들에게 안정감을 선사한다. 이 가면은 장식용으로 쓰이지만, 휴가 중인 여행객이나 불면증 환자들이 「심신 평온」 효과를 기대하며 착용하기도 한다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCMianju_04_Vo",
+    "Rank": 40300
+  },
+  {
+    "Types": [
+      4003,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCMuou_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 362402,
+    "Name": "두발 목각 인형-「흔들흔들」",
+    "Description": "「복숭아야자나무 원목」으로 만든 두 발 달린 용 모양의 목각 인형. 파란색과 빨간색 그라피티가 그려져 있다. 어린 용이나 아이들의 동반자로 나타 곳곳에서 볼 수 있다. 제작자는 아직 걸음마를 떼지 못한 어린 용의 모습을 본떠 이 목각 인형을 흔들거리는 모양으로 만들었다. 이 디자인은 아직 움직임이 미숙한 어린 용이나 아이들에게 자신감을 주고 용기를 내서 흔들거리며 걷는 법을 배우도록 고안되었다고 한다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCMuou_01_Vo",
+    "Rank": 30300
+  },
+  {
+    "Types": [
+      4003,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCMuou_02_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 362403,
+    "Name": "네발 목각 인형-「안정적」",
+    "Description": "「복숭아야자나무 원목」으로 만든 네 발 달린 알파카 목각 인형. 파란색과 빨간색 그라피티가 그려져 있다. 어린 용이나 아이들의 동반자로 나타 곳곳에서 볼 수 있다. 목각 인형의 바닥은 알파카의 성격처럼 안정적이다. 수많은 아이들과 어린 용은 이 목각 인형의 보호를 받으며 알파카처럼 믿음직스럽게 성장한다",
+    "Icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCMuou_02_Vo",
+    "Rank": 30300
+  },
+  {
+    "Types": [
+      4001,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Chair_Prop_JJCZhuozi_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 362126,
+    "Name": "경기장의 「뜨거운 연회」 등받이 의자",
+    "Description": "팔걸이와 등받이가 달린 석재 의자. 성화 경기장 곳곳에서 볼 수 있다. 원래 이 의자는 대회에 참가하는 선수와 해설가, 심판진들이 잠시 앉아 휴식을 취할 수 있도록 설계되었다. 그래서 장인들은 피로에 지친 사람들이 시원함을 느낄 수 있도록 열 배출 기능이 우수한 석재를 특별히 사용했다. 하지만, 이 의자가 주는 「시원한 착석감」이 매운 음식을 먹은 후의 열기를 낮춰주는 데도 도움이 된다는 것이 발견되자, 이 의자는 여러 식품점에서도 유행하기 시작했다. 매운맛도 좋지만 그래도 적당히 먹는 게 좋지 않을까…",
+    "Icon": "UI_Homeworld_Interior_Nt_Chair_Prop_JJCZhuozi_01_Vo",
+    "Rank": 30100
+  },
+  {
+    "Types": [
+      4001,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Chair_Prop_JJCZhuozi_02_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 362127,
+    "Name": "경기장의 「단좌」 벤치",
+    "Description": "석재로 만든 벤치. 성화 경기장 실외 공간에 소량 배치되어 사람들에게 휴식 공간을 제공한다. 네 개를 합치면 경기장 안 원탁과 딱 맞도록 특수한 각도로 설계되어 있다. 이러한 벤치는 일반적인 의자보다 더 많은 자리를 제공할 수 있는 데다 세트인 원탁과 함께 배치하면 더 많은 사람들을 수용할 수 있어, 경기장의 일부 상인들은 사람이 몰릴 때 자리가 부족해 생기는 난처한 상황을 방지하기 위해 이 벤치를 사용하고 있다",
+    "Icon": "UI_Homeworld_Interior_Nt_Chair_Prop_JJCZhuozi_02_Vo",
+    "Rank": 30100
+  },
+  {
+    "Types": [
+      4001,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 30,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Chair_Prop_JJCZhuozi_03_Vo",
+    "RankLevel": 2,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 362128,
+    "Name": "경기장의 「간이」 둥근 의자",
+    "Description": "비용이 저렴해 대량 제작이 가능한 소형 석재 원형 의자. 성화 경기장 내 추웬 시장, 카카오쿠 음료 상점 같은 곳에서 볼 수 있으며 주로 카운터나 탁자 근처에 배치한다. 경기장의 일부 상인들은 즉석식품을 주로 제공하는데, 대회 당일이나 행사 기간에 손님이 급증하면 제한된 공간에 더 많은 의자를 배치해 자리를 마련해야 했다. 그럴 때는 일반적인 등받이 의자보다 차지하는 공간이 적고 저렴한 이 원형 의자가 상인들의 선택을 받는다. 이 석재 원형 의자는 쿠션이 있는 의자나 등받이 의자보다 편안하지는 않지만 손님들의 주요 관심사는 빠르게 식사를 마치고 대회를 관람하는 것이기 때문에, 가게에 머무르는 시간은 길지 않다는 점에서 불편하다는 단점은 큰 문제가 되지 않는다",
+    "Icon": "UI_Homeworld_Interior_Nt_Chair_Prop_JJCZhuozi_03_Vo",
+    "Rank": 30100
+  },
+  {
+    "Types": [
+      11003,
+      0
+    ],
+    "SurfaceType": 3,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 305,
+    "DiscountCost": 305,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Lamp_Light_JJCTaideng_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 363114,
+    "Name": "열소 스탠드-「충족」",
+    "Description": "정교한 디자인의 스탠드. 전체적으로 우수한 금속 재료를 사용해 만들어졌으며 내구성이 뛰어나다. 일반적인 스탠드보다 훨씬 무겁지만 평소에 자주 운반하거나 옮길 필요가 없어 무게는 큰 단점으로 작용하지 않는다. 게다가 일부 나타 주민들은 물건의 무게가 무거우면 좋은 재료를 썼다고 여겨서 스탠드를 고를 때 일부러 무게를 가늠해 보기도 한다…",
+    "Icon": "UI_Homeworld_Interior_Nt_Lamp_Light_JJCTaideng_01_Vo",
+    "Rank": 40100
+  },
+  {
+    "Types": [
+      11003,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 305,
+    "DiscountCost": 305,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Lamp_Light_JJCDideng_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 363115,
+    "Name": "열소 바닥 조명-「간편」",
+    "Description": "제작 비용이 저렴한 바닥 조명. 화로 모양의 금속 받침대를 사용했다. 성화 경기장에서 볼 수 있으며, 초기에는 경기장 내 일부 소형 화로를 대체하기 위해 설계되었다. 화로는 안정성 측면에서 결함이 있고 유지 보수에 전문 인력이 필요하지만, 열소를 광원으로 사용하면 이러한 문제를 해결할 수 있기 때문이다. 비용 최소화 원칙에 따라 장인들이 화로를 바닥 조명의 받침대로 개조해 지금의 디자인이 탄생했다",
+    "Icon": "UI_Homeworld_Interior_Nt_Lamp_Light_JJCDideng_01_Vo",
+    "Rank": 40100
+  },
+  {
+    "Types": [
+      3001,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 592,
+    "DiscountCost": 444,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Cabinet_Prop_JJCHotel_01_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 361114,
+    "Name": "「시장의 분류와 배치」",
+    "Description": "대형 석재 하나를 통으로 조각해 만든 수납장. 내구성이 뛰어나며 추웬 시장의 일부 수납장과 같은 디자인이다. 석재 수납장은 칸막이 수가 제한적이지만 용적이 크고 하중 능력이 뛰어나 전사가 가지고 다니는 무기나 상인이 짊어지고 다니는 물건 모두 보관할 수 있다. 피로의 집에서는 손님의 편의를 위해 객실에 이런 수납장을 배치했다",
+    "Icon": "UI_Homeworld_Interior_Nt_Cabinet_Prop_JJCHotel_01_Lod0",
+    "Rank": 20100
+  },
+  {
+    "Types": [
+      3001,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 254,
+    "DiscountCost": 191,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Cabinet_Prop_JJCBuliao_01_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 361115,
+    "Name": "「시장의 화려한 비단」",
+    "Description": "성화 경기장에 배치된 석재 진열대. 아름다운 무늬에 색이 선명한 직물들이 진열되어 있다. 합리적인 공간 설계 덕분에 보기 좋게 직물을 진열할 수 있고, 환기성이 뛰어나 직물에 곰팡이가 슬지 않기 때문에 가게의 진열대나 개인용 수납장으로 사용하기 좋다. 하지만 무거운 무게 탓에 사용 환경에 제약이 있어서 일반적으로는 모험가 길드나 피로의 집처럼 공간이 넓고 고정된 장소에서만 사용된다",
+    "Icon": "UI_Homeworld_Interior_Nt_Cabinet_Prop_JJCBuliao_01_Lod0",
+    "Rank": 20100
+  },
+  {
+    "Types": [
+      3001,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Cabinet_Prop_JJCGuizi_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 361116,
+    "Name": "복숭아야자나무 원목 「지탱」 진열장",
+    "Description": "품질이 좋은 「복숭아야자나무 원목」 판재로 만든 대형 진열장. 성화 경기장에서 볼 수 있다. 진열장은 내부 공간이 넓고 대칭적인 구조를 이루고 있어서 확장성이 뛰어나며 다양한 장비를 안정적으로 지탱해 준다. 유명한 카카오쿠 음료 상점은 이 진열장과 특별한 도구를 결합해 효율적인 음료 제조 공정을 만들어냈다. 덕분에 상점은 가장 바쁜 시기에도 여유롭고 효율적으로 운영된다",
+    "Icon": "UI_Homeworld_Interior_Nt_Cabinet_Prop_JJCGuizi_01_Vo",
+    "Rank": 20100
+  },
+  {
+    "Types": [
+      4002,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Cabinet_Prop_JJCGuizi_02_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 362269,
+    "Name": "「길 위의 행인」",
+    "Description": "다용도 탁자를 개조해 만든 임시 작업대. 추웬 시장의 일부 노점에서 볼 수 있다. 이 작업대는 가장 기본적인 기능만 갖추고 있지만 가볍고 편리하다는 장점 덕분에 시장에서 입지가 확고하다. 추웬 시장의 일부 상인들은 각지를 떠돌아다니는 행상으로 평소에는 자신의 부족에서 상품을 만들고 대회나 축제 기간에만 시장에 나와 상품을 판다. 따라서 가벼운 무게는 이들에게 어떠한 기능보다 큰 장점으로 작용한다…",
+    "Icon": "UI_Homeworld_Interior_Nt_Cabinet_Prop_JJCGuizi_02_Lod0",
+    "Rank": 30200
+  },
+  {
+    "Types": [
+      4004,
+      0
+    ],
+    "SurfaceType": 8,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Carpet_Prop_JJCHotel_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 362318,
+    "Name": "피로의 카펫-「부담 덜기」",
+    "Description": "사각 모양의 수제 카펫. 품질이 우수하고 오염에 강하며 피로의 집에서 볼 수 있다. 조금 투박해 보이는 이 카펫은 어느 여관 주인의 의도를 반영한 것이다. 여관의 손님은 주로 피로에 지친 선수나 여행가이기 때문에 고급스러운 카펫을 보면 부담스러워서 편히 쉴 수 없다. 조금 투박한 수제 카펫을 사용하면 손님의 부담을 덜어주고 더 나아가 집에 돌아온 느낌마저 줄 수 있다고 한다…",
+    "Icon": "UI_Homeworld_Interior_Nt_Carpet_Prop_JJCHotel_01_Vo",
+    "Rank": 30400
+  },
+  {
+    "Types": [
+      5006,
+      0
+    ],
+    "SurfaceType": 1,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 90,
+    "Cost": 169,
+    "DiscountCost": 127,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Xm_Walldecoration_Prop_FloatsMale_01_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "기간 한정 이벤트 획득"
+    ],
+    "Id": 364511,
+    "Name": "「이 순간이 영원히 남기를」",
+    "Description": "수메르 동료들과 찍은 사진. 화신 탄신일의 「깜짝 생일 선물」 계획 축하연이 끝나고 찍은 것으로 남다른 기념 의미를 가진 선물이다.\n이 순간의 아름다움이 마음속에 영원히 남기를",
+    "Icon": "UI_Homeworld_Interior_Xm_Walldecoration_Prop_FloatsMale_01_Vo",
+    "Rank": 50300
+  },
+  {
+    "Types": [
+      5006,
+      0
+    ],
+    "SurfaceType": 1,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 90,
+    "Cost": 169,
+    "DiscountCost": 127,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Xm_Walldecoration_Prop_FloatsFemale_01_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "기간 한정 이벤트 획득"
+    ],
+    "Id": 364512,
+    "Name": "「이 순간이 영원히 남기를」",
+    "Description": "수메르 동료들과 찍은 사진. 화신 탄신일의 「깜짝 생일 선물」 계획 축하연이 끝나고 찍은 것으로 남다른 기념 의미를 가진 선물이다.\n이 순간의 아름다움이 마음속에 영원히 남기를",
+    "Icon": "UI_Homeworld_Interior_Xm_Walldecoration_Prop_FloatsFemale_01_Vo",
+    "Rank": 50300
+  },
+  {
+    "Types": [
+      5005,
+      0
+    ],
+    "SurfaceType": 1,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 305,
+    "DiscountCost": 305,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Walldecoration_Light_JJCBideng_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 364220,
+    "Name": "열소 조명-「길잡이」",
+    "Description": "성화 경기장에서 널리 사용되는 조명. 바깥쪽은 「폭탄나무 원목」, 안쪽은 금속으로 구성된 복합 구조를 사용했다. 이러한 설계로 내구성을 높이는 한편 전체적인 무게를 줄여 다양한 벽면에 사용할 수 있게 됐다.\n성화 경기장의 내부 구조는 복잡한 데다 좁은 통로가 많아 대형 조명을 설치하기에는 적합하지 않다. 「회의소」는 이러한 환경적 요소와 종종 관객이나 선수가 길을 잃을 수 있다는 점을 고려해서, 경기장에 빛을 제공하고 길잡이 역할을 할 수 있으며 좁은 공간에 설치 가능한 조명을 맞춤 제작했다",
+    "Icon": "UI_Homeworld_Interior_Nt_Walldecoration_Light_JJCBideng_01_Vo",
+    "Rank": 50200
+  },
+  {
+    "Types": [
+      4002,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 389,
+    "DiscountCost": 326,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Nt_Thing_Prop_JJCKaolu_01_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "선계 보물·장식 도면 구매 습득"
+    ],
+    "Id": 362270,
+    "Name": "「불꽃과의 거리」",
+    "Description": "소박한 외관의 자토 그릴. 표면에 심플한 빨간색 무늬가 그려져 있으며 성화 경기장에서 볼 수 있다. 겉보기엔 단순해 보이지만 이 그릴을 사용하는 데는 고도의 기술이 필요하다. 숙련된 사용자는 이 그릴을 사용해서 다양한 특색의 음식을 만들 수 있다고 하는데, 그 비결은 전투와 마찬가지로 「거리」를 조절하는 데 있다고 한다. 하지만 음식과 불 사이의 거리를 조절하는 것도, 자신과 적 사이의 거리를 조절하는 것도 하루아침에 터득할 수는 없다…",
+    "Icon": "UI_Homeworld_Interior_Nt_Thing_Prop_JJCKaolu_01_Lod0",
+    "Rank": 30200
+  },
+  {
+    "Types": [
+      7015,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 90,
+    "Cost": 920,
+    "DiscountCost": 920,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Ani_Exterior_Xm_Thing_Prop_Floats_01",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "기간 한정 이벤트 획득"
+    ],
+    "Id": 373190,
+    "Name": "「오래 기다리셨습니다, 나의 신님」",
+    "Description": "화려하고 정교한 꽃마차 모형. 화신 탄신 축제에 사용된 꽃마차의 1:1 비율 복제품이다. 이 꽃마차에는 수많은 사람들의 지혜와 정성이 담겨 있으며, 당신——꽃의 기사가 직접 장식했다.\n신님은 꽃의 기사를 기다리고 있다. 어서 출발하자",
+    "Icon": "UI_Homeworld_Ani_Exterior_Xm_Thing_Prop_Floats_01",
+    "Rank": 90500
+  },
+  {
+    "Types": [
+      7011,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 10,
+    "Comfort": 30,
+    "Cost": 35,
+    "DiscountCost": 35,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_01_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "기간 한정 이벤트 획득"
+    ],
+    "Id": 374720,
+    "Name": "신비한 이젤",
+    "Description": "수수하면서도 신비로운 정체불명의 나무 이젤.\n우수한 설계대로 정교하게 만들어져 뛰어난 안정성을 자랑한다. 그림을 그리거나 전시용으로 적합하며, 이 앞에 서면 모종의 신비한 힘 덕분에 놀라운 영감이 샘솟는다고 한다…",
+    "Icon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_01_Vo",
+    "Rank": 90800
+  },
+  {
+    "Types": [
+      0,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 11,
+    "Comfort": 0,
+    "Cost": 0,
+    "DiscountCost": 0,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_02_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "Id": 374721,
+    "Name": "「그래, 그렇다면야…」",
+    "Description": "생동감 넘치는 그림. 야에 미코의 흡족한 표정이 그려져 있다. 「신비한 이젤」에 배치해 전시할 수 있다. 궁사님의 인정을 받는다는 건 흔한 일이 아니니 영광스럽게 생각하자",
+    "Icon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_02_Vo",
+    "Rank": 200900
+  },
+  {
+    "Types": [
+      0,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 11,
+    "Comfort": 0,
+    "Cost": 0,
+    "DiscountCost": 0,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_03_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "Id": 374722,
+    "Name": "「고작 이 정도야?」",
+    "Description": "생동감 넘치는 그림. 야에 미코의 언짢은 표정이 그려져 있다. 「신비한 이젤」에 배치해 전시할 수 있다. 궁사님의 마음에 들지 않는 원고를 제출한 작가가 마주할 표정이다…",
+    "Icon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_03_Vo",
+    "Rank": 200900
+  },
+  {
+    "Types": [
+      0,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 11,
+    "Comfort": 0,
+    "Cost": 0,
+    "DiscountCost": 0,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_04_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "Id": 374723,
+    "Name": "「어머, 꼬마야…」",
+    "Description": "생동감 넘치는 그림. 야에 미코의 여유로운 표정이 그려져 있다. 「신비한 이젤」에 배치해 전시할 수 있다. 궁사님의 표정을 보아하니 또 새로운 재밋거리를 찾은 모양이다",
+    "Icon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_04_Vo",
+    "Rank": 200900
+  },
+  {
+    "Types": [
+      0,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 11,
+    "Comfort": 0,
+    "Cost": 0,
+    "DiscountCost": 0,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_05_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "Id": 374724,
+    "Name": "「서둘러 줄래?」",
+    "Description": "생동감 넘치는 그림. 야에 미코가 무심하게 타인을 재촉할 때의 표정이 그려져 있다. 「신비한 이젤」에 배치해 전시할 수 있다. 궁사님의 인내심이 아직 남아 있을 때 서두르지 않으면 무서운 일이 벌어질지도 모른다…",
+    "Icon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_05_Vo",
+    "Rank": 200900
+  },
+  {
+    "Types": [
+      0,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 11,
+    "Comfort": 0,
+    "Cost": 0,
+    "DiscountCost": 0,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_06_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "Id": 374725,
+    "Name": "「음, 맛있어!」",
+    "Description": "생동감 넘치는 그림. 야에 미코가 맛있는 음식을 먹을 때의 표정이 그려져 있다. 「신비한 이젤」에 배치해 전시할 수 있다. 궁사님을 기쁘게 하고 싶다면 따끈따끈한 황금빛 유부를 바치는 게 가장 확실한 선택이다",
+    "Icon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_06_Vo",
+    "Rank": 200900
+  },
+  {
+    "Types": [
+      0,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 11,
+    "Comfort": 0,
+    "Cost": 0,
+    "DiscountCost": 0,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_07_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "Id": 374726,
+    "Name": "「정말이니?」",
+    "Description": "생동감 넘치는 그림. 야에 미코가 의심스러워하는 표정이 그려져 있다. 「신비한 이젤」에 배치해 전시할 수 있다. 궁사님을 속이기엔 아직 수행이 한참 부족한 것 같다…",
+    "Icon": "UI_Homeworld_Exterior_Common_Decoration_Prop_LdHuajia_07_Vo",
+    "Rank": 200900
   },
   {
     "Types": [

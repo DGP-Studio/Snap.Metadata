@@ -3410,7 +3410,7 @@
     "MonsterName": "Abyss_Ice_01",
     "Name": "Mago dell'Abisso di Cryo",
     "Title": "Cryocantore",
-    "Description": "Creature dell'Abisso che invocano l'energia di Cryo in battaglia.\nSebbene possiedano un grande potere e possano persino creare stalattiti condensando e congelando il vapore acqueo nell'atmosfera, i loro corpi sono molto vulnerabili per natura. Una volta infranta la loro barriera protettiva, saranno alla tua mercé.",
+    "Description": "Creature dell'Abisso che invocano l'energia di Cryo in battaglia.\nSebbene possiedano un grande potere e possano persino creare stalattiti condensando e congelando il vapore acqueo nell'atmosfera, i loro corpi sono molto vulnerabili per natura. Una volta infranta la loro Barriera protettiva, saranno alla tua mercé.",
     "Icon": "UI_MonsterIcon_Abyss_Ice_01",
     "Type": 1,
     "Arkhe": 0,
@@ -4477,6 +4477,115 @@
     "Arkhe": 0
   },
   {
+    "Id": 22120201,
+    "DescribeId": 21202,
+    "RelationshipId": 21202,
+    "MonsterName": "TheAbyss_Rhizome_01",
+    "Name": "Mimiflora tenebrosa",
+    "Title": "Mimiflora tenebrosa",
+    "Description": "Mostri dell'Abisso discesi in questo mondo dalle profondità di un luogo contorto e alieno, il cui aspetto ricorda quello di una pianta.\nSi dice che, ove lambiscano le onde contaminanti della marea oscura, cresceranno questi mostri simili a piante. La loro somiglianza è solo superficiale, perché hanno adottato tale forma solo per avvicinarsi al mondo arboreo, poterne estrarre i concetti necessari, analizzarli e imitarli.\nAlcuni folli che hanno perso la testa dicono che quelle cose che si estendono come foglie siano in realtà delle porte per altri mondi nella loro fase iniziale.",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 46.1856,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21203,
+    "RelationshipId": 21203,
+    "Name": "Mimesi tenebrosa - Guardia delle rovine",
+    "Title": "Mimiflora tenebrosa",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21204,
+    "RelationshipId": 21204,
+    "Name": "Mimesi tenebrosa - Hilichurl reietto di Anemo",
+    "Title": "Mimiflora tenebrosa",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21205,
+    "RelationshipId": 21205,
+    "Name": "Mimesi tenebrosa - Automa della Fonte segreta: Cacciatore-Inseguitore",
+    "Title": "Mimiflora tenebrosa",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21206,
+    "RelationshipId": 21206,
+    "Name": "Mimesi tenebrosa - Mitachurl con ascia di fulmine",
+    "Title": "Mimiflora tenebrosa",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21207,
+    "RelationshipId": 21207,
+    "Name": "Mimesi tenebrosa - Tepetlisauro",
+    "Title": "Mimiflora tenebrosa",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21208,
+    "RelationshipId": 21208,
+    "Name": "Mimesi tenebrosa - Koholasauro",
+    "Title": "Mimiflora tenebrosa",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21209,
+    "RelationshipId": 21209,
+    "Name": "Mimesi tenebrosa - Yumkasauro",
+    "Title": "Mimiflora tenebrosa",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23010101,
     "DescribeId": 30101,
     "RelationshipId": 30101,
@@ -4618,7 +4727,7 @@
     "MonsterName": "Skirmisher_Male_Standard_Staff_Rock_01",
     "Name": "Schermagliatore dei Fatui Fante Geoincantatore",
     "Title": "Schermagliatore dei Fatui Fante Geoincantatore",
-    "Description": "Uno Schermagliatore con la capacità di generare uno scudo di Geo per proteggere i suoi alleati.\nA differenza dei Maghi e degli Agenti d'élite, gli Schermagliatori dei Fatui sono soldati di minore potenza individuale.\nPer completare i loro obiettivi e ridurre le perdite in termini di uomini e materiali, le loro tattiche contano maggiormente sul lavoro di squadra.",
+    "Description": "Uno Schermagliatore con la capacità di generare una Barriera di Geo per proteggere i suoi alleati.\nA differenza dei Maghi e degli Agenti d'élite, gli Schermagliatori dei Fatui sono soldati di minore potenza individuale.\nPer completare i loro obiettivi e ridurre le perdite in termini di uomini e materiali, le loro tattiche contano maggiormente sul lavoro di squadra.",
     "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Staff_Rock_01",
     "Type": 1,
     "Arkhe": 0,
@@ -6955,6 +7064,66 @@
     "BaseValue": {
       "HpBase": 95.088,
       "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090201,
+    "DescribeId": 40902,
+    "RelationshipId": 40902,
+    "MonsterName": "DragonClaw",
+    "Name": "Automa della Fonte segreta: Dispositivo di configurazione",
+    "Title": "Automa della Fonte segreta: Dispositivo di configurazione",
+    "Description": "Una macchina da produzione proveniente da antiche rovine. Questo tipo di macchina, che può assumere molteplici forme, veniva usata dai maestri delle antiche rovine per svolgere vari compiti di fabbricazione. A patto che s'impari a utilizzarla, si può costruire una città colossale oltre ogni immaginazione, anche in ambienti estremi come le profondità di un vulcano.\nInoltre, sembra che sia possibile utilizzarla come arma. Anche se l'antica civiltà è scomparsa da tempo, questa macchina a forma di artiglio gigante, alimentata dai motivi dorati che vi sono incisi sopra, può ancora combattere seguendo delle istruzioni predefinite.",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113066,
+      104141,
+      104142,
+      104143,
+      104144,
+      400032,
+      400042,
+      400137,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400138,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 353.184,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -13196,7 +13365,7 @@
     "MonsterName": "Wayob_Hookwalker_01",
     "Name": "Manifestazione fogliare della Wayob",
     "Title": "Manifestazione fogliare della Wayob",
-    "Description": "Il Popolo delle Sorgenti venera la Wayob, che si manifesta sulla terra con il potere dei totem e delle Anime della Notte.\nNei racconti dei cantastorie, le Wayob apparivano spesso come messaggere di prove o guide del regno del Signore della Notte. Un guerriero dalla corona saurica una volta disse di aver combattuto con una Wayob in uno stato di trance mentre praticava le sue abilità, acquisendo così una comprensione più profonda.\nI Discendenti delle Vette credono che la loro Wayob abbia il potere di controllare lo sviluppo delle radici delle colture, la crescita dei frutti e degli alberi e l'aspetto delle nervature delle foglie.",
+    "Description": "I Discendenti delle Vette venerano la Wayob, che si manifesta sulla terra con il potere dei totem e delle Anime della Notte.\nNei racconti dei cantastorie, le Wayob apparivano spesso come messaggere di prove o guide del regno del Signore della Notte. Un guerriero dalla corona saurica una volta disse di aver combattuto con una Wayob in uno stato di trance mentre praticava le sue abilità, acquisendo così una comprensione più profonda.\nI Discendenti delle Vette credono che la loro Wayob abbia il potere di controllare lo sviluppo delle radici delle colture, la crescita dei frutti e degli alberi e l'aspetto delle nervature delle foglie.",
     "Icon": "UI_MonsterIcon_Wayob_Hookwalker",
     "Type": 1,
     "Arkhe": 0,
@@ -13377,13 +13546,26 @@
   },
   {
     "Id": 0,
+    "DescribeId": 80213,
+    "RelationshipId": 80213,
+    "Name": "Tendaruga agguerrita",
+    "Title": "Tendaruga agguerrita",
+    "Icon": "UI_MonsterIcon_Tortoise_Electric",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 80226,
     "RelationshipId": 80226,
     "Name": "Capibara agguerrito",
     "Title": "???",
-    "Icon": "UI_MonsterIcon_Raijin",
+    "Icon": "UI_MonsterIcon_Capybara_02",
     "Type": 0,
-    "Arkhe": 0
+    "Arkhe": 0,
+    "Affixes": [
+      "异化水豚深渊词缀"
+    ]
   },
   {
     "Id": 29010101,
