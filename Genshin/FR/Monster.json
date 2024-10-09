@@ -3410,7 +3410,7 @@
     "MonsterName": "Abyss_Ice_01",
     "Name": "Cryomage de l'Abîme",
     "Title": "Barde des Glaces",
-    "Description": "Créature de l'Abîme, combattant avec l'élément Cryo.\nBien qu'ils détiennent un grand pouvoir et qu'ils puissent même créer des glaçons à partir de la simple condensation et du gel de la vapeur d'eau présente dans l'atmosphère, leur corps est très vulnérable. Une fois leur bouclier brisé, ils sont à votre merci.",
+    "Description": "Créature de l'Abîme, combattant avec l'élément Cryo.\nBien qu'ils détiennent un grand pouvoir et qu'ils puissent même créer des glaçons à partir de la simple condensation et du gel de la vapeur d'eau présente dans l'atmosphère, leur corps est très vulnérable. Une fois leur égide brisée, ils sont à votre merci.",
     "Icon": "UI_MonsterIcon_Abyss_Ice_01",
     "Type": 1,
     "Arkhe": 0,
@@ -4477,6 +4477,115 @@
     "Arkhe": 0
   },
   {
+    "Id": 22120201,
+    "DescribeId": 21202,
+    "RelationshipId": 21202,
+    "MonsterName": "TheAbyss_Rhizome_01",
+    "Name": "Miméflore obombrée",
+    "Title": "Miméflore obombrée",
+    "Description": "Monstre de l'Abîme qui est arrivé dans ce monde depuis les profondeurs sombres d'un monde étrange et déformé, il possède l'apparence d'une plante.\nOn dit que là où les vagues corrosives de la marée noire s'abattent, de tels monstres sombres ressemblant à des plantes poussent. Mais ils n'ont qu'une ressemblance superficielle avec les végétaux, car c'est une forme qu'ils ont adoptée uniquement pour se rapprocher du monde arboricole afin d'en extraire les concepts nécessaires, de les analyser et de les imiter.\nCertains fous qui ont perdu la raison disent que ces choses qui s'étendent comme des feuilles sont en fait les débuts de portes vers d'autres mondes.",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 46.1856,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21203,
+    "RelationshipId": 21203,
+    "Name": "Mimèsis obombré - Gardien des ruines",
+    "Title": "Miméflore obombrée",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21204,
+    "RelationshipId": 21204,
+    "Name": "Mimèsis obombré - Brutovéreux Anémo",
+    "Title": "Miméflore obombrée",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21205,
+    "RelationshipId": 21205,
+    "Name": "Mimèsis obombré - Automate de source secrète : Chasseur-chercheur",
+    "Title": "Miméflore obombrée",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21206,
+    "RelationshipId": 21206,
+    "Name": "Mimèsis obombré - Brutoviandu avec hache Électro",
+    "Title": "Miméflore obombrée",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21207,
+    "RelationshipId": 21207,
+    "Name": "Mimèsis obombré - Tepetlisaure",
+    "Title": "Miméflore obombrée",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21208,
+    "RelationshipId": 21208,
+    "Name": "Mimèsis obombré - Koholasaure",
+    "Title": "Miméflore obombrée",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21209,
+    "RelationshipId": 21209,
+    "Name": "Mimèsis obombré - Yumkasaure",
+    "Title": "Miméflore obombrée",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23010101,
     "DescribeId": 30101,
     "RelationshipId": 30101,
@@ -4618,7 +4727,7 @@
     "MonsterName": "Skirmisher_Male_Standard_Staff_Rock_01",
     "Name": "Tirailleur Fatui - Mercenaire Géo",
     "Title": "Tirailleur Fatui - Mercenaire Géo",
-    "Description": "Un sorcier capable de générer un bouclier à partir de l'élément Géo et de défendre ses alliés.\nContrairement aux Mages et Usuriers, les Tirailleurs Fatui sont des soldats de moindre puissance individuelle.\nPour accomplir leurs tâches et réduire les pertes en hommes et en matériel, leurs tactiques reposent davantage sur le travail d'équipe.",
+    "Description": "Un sorcier capable de générer une égide à partir de l'élément Géo et de défendre ses alliés.\nContrairement aux Mages et Usuriers, les Tirailleurs Fatui sont des soldats de moindre puissance individuelle.\nPour accomplir leurs tâches et réduire les pertes en hommes et en matériel, leurs tactiques reposent davantage sur le travail d'équipe.",
     "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Staff_Rock_01",
     "Type": 1,
     "Arkhe": 0,
@@ -6955,6 +7064,66 @@
     "BaseValue": {
       "HpBase": 95.088,
       "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090201,
+    "DescribeId": 40902,
+    "RelationshipId": 40902,
+    "MonsterName": "DragonClaw",
+    "Name": "Automate de source secrète : Configurateur",
+    "Title": "Automate de source secrète : Configurateur",
+    "Description": "Une machine de fabrication provenant des ruines antiques. Ce type de machine, qui peut se transformer en de nombreuses formes, était utilisé par les maîtres des ruines antiques pour effectuer diverses tâches de fabrication. Tant que vous apprenez à utiliser une telle machine, vous pouvez construire une ville colossale au-delà de l'imagination, même dans des environnements extrêmes comme les profondeurs d'un volcan.\nDe plus, elle semble également pouvoir être utilisée comme une arme. Bien que l'ancienne civilisation soit tombée depuis longtemps, cette machine en forme de griffe géante, alimentée par les motifs dorés gravés dessus, peut toujours s'engager dans un combat en fonction d'instructions prédéfinies.",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113066,
+      104141,
+      104142,
+      104143,
+      104144,
+      400032,
+      400042,
+      400137,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400138,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 353.184,
+      "AttackBase": 100.48,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -13377,13 +13546,26 @@
   },
   {
     "Id": 0,
+    "DescribeId": 80213,
+    "RelationshipId": 80213,
+    "Name": "Tortue bosselée vétérane",
+    "Title": "Tortue bosselée vétérane",
+    "Icon": "UI_MonsterIcon_Tortoise_Electric",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 80226,
     "RelationshipId": 80226,
     "Name": "Capybara vétéran",
     "Title": "???",
-    "Icon": "UI_MonsterIcon_Raijin",
+    "Icon": "UI_MonsterIcon_Capybara_02",
     "Type": 0,
-    "Arkhe": 0
+    "Arkhe": 0,
+    "Affixes": [
+      "异化水豚深渊词缀"
+    ]
   },
   {
     "Id": 29010101,

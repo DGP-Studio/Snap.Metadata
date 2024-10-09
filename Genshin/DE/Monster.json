@@ -3410,7 +3410,7 @@
     "MonsterName": "Abyss_Ice_01",
     "Name": "Kryo-Abgrundmagier",
     "Title": "Kryo-Sänger",
-    "Description": "Abgrundkreaturen, die im Kampf Kryo-Energie beschwören.\nObwohl sie große Kraft besitzen und selbst Eiszapfen erschaffen können, indem sie die Luft gefrieren lassen, sind ihre Körper verwundbar. Wurde ihre Schutzbarriere durchbrochen, sind sie dir ausgeliefert.",
+    "Description": "Abgrundkreaturen, die im Kampf Kryo-Energie beschwören.\nObwohl sie große Kraft besitzen und selbst Eiszapfen erschaffen können, indem sie die Luft gefrieren lassen, sind ihre Körper verwundbar. Wurde ihre schützende Ummantelung durchbrochen, sind sie dir ausgeliefert.",
     "Icon": "UI_MonsterIcon_Abyss_Ice_01",
     "Type": 1,
     "Arkhe": 0,
@@ -4477,6 +4477,115 @@
     "Arkhe": 0
   },
   {
+    "Id": 22120201,
+    "DescribeId": 21202,
+    "RelationshipId": 21202,
+    "MonsterName": "TheAbyss_Rhizome_01",
+    "Name": "Abgrundimitator",
+    "Title": "Abgrundimitator",
+    "Description": "Monster des Abgrunds, die aus den dunklen Tiefen eines verdrehten und fremden Reiches in diese Welt eingedrungen sind. Sie haben ein pflanzenähnliches Aussehen.\nEs wird gesagt, dass dort, wo die zersetzenden Wellen der dunklen Flut schwappen, solche pflanzenähnlichen dunklen Ungeheuer wachsen. Aber sie haben nur eine äußerliche Ähnlichkeit mit Pflanzen. Diese Form haben sie nur angenommen, um sich der baumähnlichen Welt zu nähern, damit sie ihr die notwendigen Konzepte entnehmen, sie analysieren und nachahmen können.\nEinige Verrückte, die den Verstand verloren haben, behaupten, dass diese Dinge, die sich wie Blätter ausbreiten, in Wirklichkeit Tore zu anderen Welten in ihrem Anfangsstadium sind.",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 46.1856,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21203,
+    "RelationshipId": 21203,
+    "Name": "Abgrundimitator – Ruinenwächter",
+    "Title": "Abgrundimitator",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21204,
+    "RelationshipId": 21204,
+    "Name": "Abgrundimitator – Hilichurl-Anemo-Läufer",
+    "Title": "Abgrundimitator",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21205,
+    "RelationshipId": 21205,
+    "Name": "Abgrundimitator – Geheimquellen-Automaton – Jäger-Sucher",
+    "Title": "Abgrundimitator",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21206,
+    "RelationshipId": 21206,
+    "Name": "Abgrundimitator – Mitachurl mit Blitzaxt",
+    "Title": "Abgrundimitator",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21207,
+    "RelationshipId": 21207,
+    "Name": "Abgrundimitator – Tepetlisaurier",
+    "Title": "Abgrundimitator",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21208,
+    "RelationshipId": 21208,
+    "Name": "Abgrundimitator – Koholasaurier",
+    "Title": "Abgrundimitator",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21209,
+    "RelationshipId": 21209,
+    "Name": "Abgrundimitator – Yumkasaurier",
+    "Title": "Abgrundimitator",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23010101,
     "DescribeId": 30101,
     "RelationshipId": 30101,
@@ -4618,7 +4727,7 @@
     "MonsterName": "Skirmisher_Male_Standard_Staff_Rock_01",
     "Name": "Fatui-Plänkler – Geo-Boten-Freischärler",
     "Title": "Plänkler – Geo-Boten-Freischärler",
-    "Description": "Ein Plänkler, der seine Kameraden mit Geo-Schilden schützt, die er selbst erstellen kann.\nAnders als einige besondere Elitesoldaten wie Schuldeneintreiber und Cicin-Zauberinnen haben Plänkler keine so große Stärke und gute Ausrüstung.\nUm ihre Aufträge dennoch zu erfüllen und den Verschleiß an Mensch und Material einzudämmen, sind Plänkler eher für den Kampf im Verband vorgesehen.",
+    "Description": "Ein Plänkler, der seine Kameraden mit Geo-Ummantelungen schützt, die er selbst erstellen kann.\nAnders als einige besondere Elitesoldaten wie Schuldeneintreiber und Cicin-Zauberinnen haben Plänkler keine so große Stärke und gute Ausrüstung.\nUm ihre Aufträge dennoch zu erfüllen und den Verschleiß an Mensch und Material einzudämmen, sind Plänkler eher für den Kampf im Verband vorgesehen.",
     "Icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Staff_Rock_01",
     "Type": 1,
     "Arkhe": 0,
@@ -6981,6 +7090,66 @@
     ]
   },
   {
+    "Id": 24090201,
+    "DescribeId": 40902,
+    "RelationshipId": 40902,
+    "MonsterName": "DragonClaw",
+    "Name": "Geheimquellen-Automaton – Konfigurationsgerät",
+    "Title": "Geheimquellen-Automaton – Konfigurationsgerät",
+    "Description": "Eine Produktionsmaschine aus den uralten Ruinen. Diese Art von Maschine, die sich in zahlreiche Formen verwandeln kann, wurde von den Besitzern der uralten Ruinen benutzt, um verschiedene Herstellungsaufgaben zu erfüllen. Wenn man versteht, wie man eine solche Maschine benutzt, kann man sogar in extremen Umgebungen wie den Tiefen eines Vulkans eine riesige Stadt errichten, die jede Vorstellungskraft übersteigt.\nAußerdem scheint diese Maschine auch als Waffe eingesetzt werden zu können. Obwohl die uralte Zivilisation schon lange untergegangen ist, kann diese wie eine riesige Klaue geformte Maschine, die von den auf ihr eingravierten goldenen Mustern angetrieben wird, immer noch gemäß ihren voreingestellten Anweisungen kämpfen.",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113066,
+      104141,
+      104142,
+      104143,
+      104144,
+      400032,
+      400042,
+      400137,
+      400062,
+      400088,
+      400098,
+      400033,
+      400043,
+      400138,
+      400089,
+      400099
+    ],
+    "BaseValue": {
+      "HpBase": 353.184,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
@@ -8838,7 +9007,7 @@
     "MonsterName": "Human_Female_NoWeapon_Mosasaurus_01",
     "Name": "Recke der fließenden Klinge – Freischärler",
     "Title": "Recke der fließenden Klinge – Freischärler",
-    "Description": "Ein Krieger der Menschen der Quellen, ein Stammeswächter, der die Gewässer und Ufer patrouilliert.\nSie sind völlig unbewaffnet, denn sie beherrschen den rohen, physischen Kampf mit bloßen Händen und ihre so unscheinbaren Schläge und Tritte treffen mit der Wucht unzähliger Wellen.",
+    "Description": "Eine Kriegerin der Menschen der Quellen, eine Stammeswächterin, die die Gewässer und Ufer patrouilliert.\nSie sind völlig unbewaffnet, denn sie beherrschen den rohen, physischen Kampf mit bloßen Händen und ihre so unscheinbaren Schläge und Tritte treffen mit der Wucht unzähliger Wellen.",
     "Icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus",
     "Type": 1,
     "Arkhe": 0,
@@ -8937,7 +9106,7 @@
     "MonsterName": "Human_Female_Sword_Hookwalker_01",
     "Name": "Recke des schnellen Schritts – Sucher",
     "Title": "Recke des schnellen Schritts – Sucher",
-    "Description": "Ein Krieger von den Nachkommen der Baumkronen, ein Stammeswächter, der zwischen den Tälern, Waldbächen und Flüssen umherwandert.\nIm Gegensatz zu den Kriegern anderer Stämme schwingen diese hier sich mithilfe von Haken und Seilen von Berg zu Berg. Sie verfügen über ein noch ausgeprägteres Gespür für ihre Umgebung und planen stets, wie sie ihre Gegner mit unerwarteten Angriffen zu Leibe rücken können.",
+    "Description": "Eine Kriegerin von den Nachkommen der Baumkronen, eine Stammeswächterin, die zwischen den Tälern, Waldbächen und Flüssen umherwandert.\nIm Gegensatz zu den Kriegern anderer Stämme schwingen diese hier sich mithilfe von Haken und Seilen von Berg zu Berg. Sie verfügen über ein noch ausgeprägteres Gespür für ihre Umgebung und planen stets, wie sie ihre Gegner mit unerwarteten Angriffen zu Leibe rücken können.",
     "Icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker",
     "Type": 1,
     "Arkhe": 0,
@@ -9425,7 +9594,7 @@
     "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Hookwalker_01",
     "Name": "Yumkasaurierkrieger – Brennender Himmel",
     "Title": "Yumkasaurierkrieger – Brennender Himmel",
-    "Description": "Ein mächtiger Krieger der Nachkommen der Baumkrone, der für seine Tapferkeit ausgezeichnet und dem die Ehre der Saurierkrone zuteilwurde.\nDieser Krieger vermag es, seine Angriffsreichweite mithilfe eines an einem Seil befestigten Hakens maßgeblich zu erweitern. Nach dem Zusammenbau des filigranen Mechanismus kann die Handkanone in ihrer Hand mittels eines Hakens abgefeuert werden. Für die Saurierkronen-Krieger der „Nachkommen der Baumkrone“ ist weniger die Kultivierung des Geistes und des Willens entscheidend, sondern vielmehr die der Fähigkeiten und des Denkens.",
+    "Description": "Eine mächtige Kriegerin der Nachkommen der Baumkrone, die für ihre Tapferkeit ausgezeichnet und der die Ehre der Saurierkrone zuteilwurde.\nDiese Kriegerin vermag es, ihre Angriffsreichweite mithilfe eines an einem Seil befestigten Hakens maßgeblich zu erweitern. Nach dem Zusammenbau des filigranen Mechanismus kann die Handkanone in ihrer Hand mittels eines Hakens abgefeuert werden. Für die Saurierkronen-Krieger der „Nachkommen der Baumkrone“ ist weniger die Kultivierung des Geistes und des Willens entscheidend, sondern vielmehr die der Fähigkeiten und des Denkens.",
     "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
     "Type": 1,
     "Arkhe": 0,
@@ -9470,7 +9639,7 @@
     "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Mosasaurus_01",
     "Name": "Koholasaurierkrieger – Wellenbohrer",
     "Title": "Koholasaurierkrieger – Wellenbohrer",
-    "Description": "Ein mächtiger Krieger der Menschen der Quellen, der für seine Tapferkeit gewürdigt und mit der Saurierkrone ausgezeichnet wurde.\nEin Krieger, der sich zeitweise die Kraft der Wellen zunutze machen kann, um hin und her zu pendeln. Der Legende nach sollen die Helden des Stammes sogar in der Lage gewesen sein, mit großer Geschwindigkeit und ohne jegliche Hilfsmittel über das Wasser zu reisen. Heutige Stammesangehörige glauben, dass es sich dabei um eine ausgeklügelte Technik gehandelt haben muss, um die Wellen zu treiben, wobei das Hauptaugenmerk auf der Methode liegen muss, mit der sie bewegt worden sind.",
+    "Description": "Eine mächtige Kriegerin der Menschen der Quellen, die für ihre Tapferkeit gewürdigt und mit der Saurierkrone ausgezeichnet wurde.\nEine Kriegerin, die sich zeitweise die Kraft der Wellen zunutze machen kann, um hin und her zu pendeln. Der Legende nach sollen die Helden des Stammes sogar in der Lage gewesen sein, mit großer Geschwindigkeit und ohne jegliche Hilfsmittel über das Wasser zu reisen. Heutige Stammesangehörige glauben, dass es sich dabei um eine ausgeklügelte Technik gehandelt haben muss, um die Wellen zu treiben, wobei das Hauptaugenmerk auf der Methode liegen muss, mit der sie bewegt worden sind.",
     "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
     "Type": 1,
     "Arkhe": 0,
@@ -9515,7 +9684,7 @@
     "MonsterName": "Tribalwarrior_Female_Standard_Launcher_Mosasaurus_01",
     "Name": "Koholasaurierkrieger – Riffspalter",
     "Title": "Koholasaurierkrieger – Riffspalter",
-    "Description": "Ein mächtiger Krieger der Menschen der Quellen, der für seine Tapferkeit gewürdigt und mit der Saurierkrone ausgezeichnet wurde.\nEin Krieger, der sich zeitweise die Kraft der Wellen zunutze machen kann, um hin und her zu pendeln. Es heißt, es seien drei Stufen der Übung erforderlich, um diese Technik zu meistern: Zuerst anpassen, dann einhalten und schließlich vorantreiben. Das Meistern einer solchen Methode der Kraftübertragung gilt lediglich als Zugangsvoraussetzung, um ein Saurierkronen-Krieger der Menschen der Quellen zu werden. Echte Meister unter ihnen sind sogar in der Lage, diese Technik kurzzeitig an Land einsetzen zu können.",
+    "Description": "Eine mächtige Kriegerin der Menschen der Quellen, die für ihre Tapferkeit gewürdigt und mit der Saurierkrone ausgezeichnet wurde.\nEine Kriegerin, die sich zeitweise die Kraft der Wellen zunutze machen kann, um hin und her zu pendeln. Es heißt, es seien drei Stufen der Übung erforderlich, um diese Technik zu meistern: Zuerst anpassen, dann einhalten und schließlich vorantreiben. Das Meistern einer solchen Methode der Kraftübertragung gilt lediglich als Zugangsvoraussetzung, um ein Saurierkronen-Krieger der Menschen der Quellen zu werden. Echte Meister unter ihnen sind sogar in der Lage, diese Technik kurzzeitig an Land einsetzen zu können.",
     "Icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus",
     "Type": 1,
     "Arkhe": 0,
@@ -12749,7 +12918,7 @@
     "MonsterName": "Monster_Natsaurus_Drillhead_Normal_01",
     "Name": "Tepetlisaurier",
     "Title": "Tepetlisaurier",
-    "Description": "Ein Saurier mit einem bohrerartigen Horn und starken Klauen, die sich durch Felsen und festes Phlogiston bohren können.\nDer Legende nach sollen die Vorfahren der Tepetlisaurier, gigantische Drachenwesen, groß wie Berge, gewesen sein, die angeblich ewig lebten. Während diese schliefen, sollen sich ganze Gebirge auf ihren Rücken gebildet haben. Sobald sie erwachten und Schmutz und Gestein von sich schüttelten, blieben nur noch Edelsteine und Jade übrig, die schimmernd zwischen ihren Schuppen zum Vorschein traten. Bei dem riesigen, bohrerförmigen Objekt der „Kinder der Echos“ soll es sich um das Überbleibsel des Bohrerhorns eines dieser gewaltigen Drachenwesen handeln.",
+    "Description": "Ein Saurier mit einem bohrerartigen Horn und starken Klauen, der sich durch Felsen und festes Phlogiston bohren kann.\nDer Legende nach sollen die Vorfahren der Tepetlisaurier, gigantische Drachenwesen, groß wie Berge, gewesen sein, die angeblich ewig lebten. Während diese schliefen, sollen sich ganze Gebirge auf ihren Rücken gebildet haben. Sobald sie erwachten und Schmutz und Gestein von sich schüttelten, blieben nur noch Edelsteine und Jade übrig, die schimmernd zwischen ihren Schuppen zum Vorschein traten. Bei dem riesigen, bohrerförmigen Objekt der „Kinder der Echos“ soll es sich um das Überbleibsel des Bohrerhorns eines dieser gewaltigen Drachenwesen handeln.",
     "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal",
     "Type": 1,
     "Arkhe": 0,
@@ -13377,13 +13546,26 @@
   },
   {
     "Id": 0,
+    "DescribeId": 80213,
+    "RelationshipId": 80213,
+    "Name": "Altgediente Zeltschildkröte",
+    "Title": "Altgediente Zeltschildkröte",
+    "Icon": "UI_MonsterIcon_Tortoise_Electric",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 80226,
     "RelationshipId": 80226,
     "Name": "Altgedientes Wasserschwein",
     "Title": "???",
-    "Icon": "UI_MonsterIcon_Raijin",
+    "Icon": "UI_MonsterIcon_Capybara_02",
     "Type": 0,
-    "Arkhe": 0
+    "Arkhe": 0,
+    "Affixes": [
+      "异化水豚深渊词缀"
+    ]
   },
   {
     "Id": 29010101,

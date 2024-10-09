@@ -269,7 +269,7 @@
           "Descriptions": [
             "DAN da abilità|{param1:P}",
             "Assorbimento DAN scudo|{param2:F1P} PS max+{param3:I}",
-            "Durata scudo|{param4:F1} s",
+            "#Durata scudo|{param4:F1}{NON_BREAK_SPACE}s",
             "Assorbimento DAN scudo max|{param5:F1P} PS max+{param6:I}",
             "TdR|{param7:F1} s"
           ],
@@ -458,7 +458,7 @@
         },
         "Id": 10502,
         "Name": "Benedizione ardente",
-        "Description": "Thoma balza in avanti con la sua lancia e sferra un calcio volante infuocato che infligge <color=#FF9999FF>DAN da Pyro ad area</color>, mentre evoca una Barriera ardente. Al momento del lancio, l'abilità elementale applica <color=#FF9999FF>Pyro</color> a Thoma.\nL'assorbimento DAN della Barriera ardente varia in base ai PS max di Thoma.\nLa Barriera ardente ha le seguenti caratteristiche:\n· assorbe <color=#FF9999FF>DAN da Pyro</color> con un'efficacia superiore di un 250%;\n· quando una nuova Barriera ardente viene evocata, l'assorbimento DAN della Barriera ardente esistente si accumula e la sua durata viene ripristinata.\n\nL'assorbimento DAN massimo della Barriera ardente non supera una data percentuale dei PS max di Thoma.\n\n<i>In quanto visitatore da lontano, solo la passione più ardente permette di padroneggiare le pure e precise arti della lancia di Inazuma. La maestria di Thoma, infatti, non si esaurisce nell'essere \"lo studente dall'apprendimento più rapido\" o \"un maestro della lancia\", bensì Thoma ha unito la sua arte alla volontà di proteggere gli altri e scacciare qualsiasi nemico.</i>",
+        "Description": "Thoma balza in avanti con la sua lancia e sferra un calcio volante infuocato che infligge <color=#FF9999FF>DAN da Pyro ad area</color>, mentre evoca una Barriera ardente. Al momento del lancio, l'abilità elementale applica <color=#FF9999FF>Pyro</color> a Thoma.\nL'assorbimento DAN della Barriera ardente varia in base ai PS max di Thoma.\nLa Barriera ardente ha le seguenti caratteristiche:\n· assorbe <color=#FF9999FF>DAN da Pyro</color> con un'efficacia superiore di un 250%;\n· quando una nuova Barriera ardente viene evocata, l'assorbimento DAN della Barriera ardente esistente si accumula e la sua durata viene ripristinata.\n\nL'assorbimento DAN massimo della Barriera ardente non supera una data percentuale dei PS max di Thoma.\n\n<i>In quanto visitatore da lontano, solo la passione più ardente permette di padroneggiare le pure e precise arti della lancia di Inazuma. La maestria di Thoma, infatti, non si esaurisce nell'essere \"lo studente dall'apprendimento più rapido\" o \"un maestro della lancia\", bensì Thoma ha unito la sua arte alla volontà di proteggere gli altri e scacciare qualsiasi nemico.</i><color=#FF9999FF></color>",
         "Icon": "Skill_S_Tohma_01"
       }
     ],
@@ -469,7 +469,7 @@
           "DAN da abilità|{param1:P}",
           "DAN da Crollo infuocato|{param2:P}",
           "Assorbimento DAN scudo|{param3:F1P} PS max+{param4:I}",
-          "Durata scudo|{param5:F1} s",
+          "#Durata scudo|{param5:F1}{NON_BREAK_SPACE}s",
           "Durata Ooyoroi rovente|{param7:F1} s",
           "TdR|{param8:F1} s",
           "Costo energia|{param9:I}"

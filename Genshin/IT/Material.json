@@ -305,7 +305,7 @@
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "Selce sfolgorante",
-    "Description": "È nota come minerale grezzo per via del bagliore radioso che emana.\nSe presa in mano, la si può sentire pulsare con vigore. Forse un giorno, se tenuta in alto verso il cielo stellato, potrebbe emettere un leggero bagliore che illuminerebbe la notte.",
+    "Description": "La Selce sfolgorante deve il suo nome al bagliore radioso che emana.\nSe presa in mano, la si può sentire pulsare con vigore. Forse un giorno, tenuta in alto verso il cielo stellato, potrebbe emettere un leggero bagliore che illuminerà la notte.",
     "TypeDescription": "Oggetto molto speciale",
     "Icon": "UI_ItemIcon_918"
   },
@@ -1256,6 +1256,16 @@
     "ItemType": 2,
     "Name": "Stella Fortuna di Mualani",
     "Description": "Materiale per l'attivazione della costellazione di Mualani",
+    "TypeDescription": "Attiva costellazione",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 5103,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna di Xilonen",
+    "Description": "Materiale per l'attivazione della costellazione di Xilonen",
     "TypeDescription": "Attiva costellazione",
     "Icon": "UI_ItemIcon_1102"
   },
@@ -2684,7 +2694,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "Branchia Irropiuma",
-    "Description": "Una particolare specie di pianta a forma di piuma che cresce in riva al mare. Assomiglia a un'alga ma, in realtà, è un corallo d'acqua dolce dall'aspetto unico.",
+    "Description": "Una particolare specie a forma di piuma che cresce in riva al mare. Assomiglia a un'alga ma, in realtà, è un corallo d'acqua dolce dall'aspetto unico.",
     "TypeDescription": "Specialità di Natlan",
     "Icon": "UI_ItemIcon_101247"
   },
@@ -20574,7 +20584,7 @@
   },
   {
     "MaterialType": 1,
-    "EffectDescription": "Aumenta di un 35% l'efficacia dello scudo di tutti i membri del gruppo per 300 s. In modalità cooperativa, si applica solo ai tuoi personaggi.",
+    "EffectDescription": "#Aumenta di un 35% l'efficacia dello scudo di tutti i membri del gruppo per 300{NON_BREAK_SPACE}s. In modalità cooperativa, si applica solo ai tuoi personaggi.",
     "Id": 108387,
     "RankLevel": 3,
     "ItemType": 2,
@@ -24576,6 +24586,83 @@
     "Icon": "UI_ItemIcon_108752"
   },
   {
+    "MaterialType": 1,
+    "EffectDescription": "Ripristina 40 di vigore.",
+    "Id": 108754,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Spiedini Cuoricini alla griglia sospetti",
+    "Description": "Pietanza alla griglia venduta comunemente per strada. La fiamma fuori controllo ne ha carbonizzato l'esterno in un istante, mentre la carne all'interno è ancora mezza cruda... Forse potresti tagliare i pezzi bruciati e rimettere a cuocere il resto, possibilmente con una fiamma più debole, stavolta...",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108755"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Ripristina 50 di vigore.",
+    "Id": 108755,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Spiedini Cuoricini alla griglia",
+    "Description": "Pietanza alla griglia venduta comunemente per strada. Il cuore di manzo marinato viene infilato su uno spiedino e poi cotto alla brace, sprigionando un aroma e un luccichio accattivanti. Aggiungi un po' di Granifrutti e di patate grigliate... ed ecco a voi l'emblema dello street food di Natlan!",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108755"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Ripristina 60 di vigore.",
+    "Id": 108756,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Spiedini Cuoricini alla griglia deliziosi",
+    "Description": "Pietanza alla griglia venduta comunemente per strada. Le fiamme crepitanti e lo sfrigolio annunciano l'imminente banchetto, accendendo l'appetito e la voglia di quel primo boccone. La perfetta consistenza delle fette di carne e l'abbondanza dei succhi saporiti che si sprigionano con ogni morso sono la coppia perfetta, per un'esperienza culinaria definibile come nuotare in un mare di beatitudine grigliata.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108755"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta di 165 la DIF di tutti i membri del gruppo per 300{NON_BREAK_SPACE}s. In modalità cooperativa, si applica solo ai tuoi personaggi.",
+    "Id": 108757,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Xocoatl sospetta",
+    "Description": "Una bevanda di Natlan a base di cacahuatl. Se dovessi tirare a indovinare prima di assaggiarla, potresti pensare che abbia un sapore dolce o amaro, ma nemmeno con mille tentativi avresti indovinato il sapore aspro con cui aggredisce la lingua... Qualcuno ha aggiunto gli ingredienti sbagliati?",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108758"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta di 200 la DIF di tutti i membri del gruppo per 300{NON_BREAK_SPACE}s. In modalità cooperativa, si applica solo ai tuoi personaggi.",
+    "Id": 108758,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Xocoatl",
+    "Description": "Una bevanda di Natlan a base di cacahuatl. Inizialmente la bevanda era preparata macinando il cacahuatl amaro e mescolandolo con varie spezie, da cui il nome Xocoatl, che significa \"acqua amara\". In seguito, l'aggiunta di zucchero ha trasformato il prodotto finale in qualcosa di aromatico, delizioso ed estremamente popolare, anche se il nome non è mai cambiato.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108758"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "#Aumenta di 235 la DIF di tutti i membri del gruppo per 300{NON_BREAK_SPACE}s. In modalità cooperativa, si applica solo ai tuoi personaggi.",
+    "Id": 108759,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Xocoatl deliziosa",
+    "Description": "Una bevanda di Natlan a base di cacahuatl. Il ricco profumo del cacahuatl viene infuso con pura cremosità, accarezzando la tua lingua con la morbidezza della seta, lasciando dietro di sé un tocco di dolcezza che è più che sufficiente a farti sciogliere il cuore.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108758"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Ripristina 130 di vigore.",
+    "Id": 108760,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Caramelle al latte al gusto frutta",
+    "Description": "La specialità di Xilonen. Mentre ve ne state fianco a fianco sulla cima di un albero, Xilonen ti passa una scatola raffinata piena di... caramelle di varie forme? \"Il cacahuatl è considerato un tipo di frutto. Quindi potrebbe essere appropriato definire 'al gusto frutta' queste caramelle di cacahuatl e latte. Dai, assaggiamole!\". Ne prende rapidamente una, la mette in bocca e la addenta con gusto.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108760"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
@@ -26726,6 +26813,26 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109600,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Ricetta: spiedini Cuoricini alla griglia",
+    "Description": "Una ricetta passo dopo passo per preparare degli spiedini Cuoricini alla griglia.",
+    "TypeDescription": "Ricetta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109601,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ricetta: Xocoatl",
+    "Description": "Una ricetta passo dopo passo per preparare la Xocoatl.",
+    "TypeDescription": "Ricetta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -28787,7 +28894,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Determinazione dell'Imperatore",
-    "Description": "Il martello da guerra dell'Imperatore del Fuoco e del Ferro, la cui gigantesca chela ha schiacciato innumerevoli avversari. Che si tratti di Mekautomi, altri Aberranti del Fontemer o cacciatori dalla malriposta curiosità... ognuno di essi è stato sopraffatto dalla sua potenza.\nRispetto agli esseri umani, aristocrazia ed eredità sono concetti del tutto estranei agli Aberranti del Fontemer. Nessuno di loro nasce superiore agli altri. Coloro che riescono a sopravvivere contro predatori e avversità letali sono in grado di accumulare un potere pressoché infinito, che permette loro di continuare a cacciare e nutrirsi nel corso dei secoli. Creature simili sono sovente ritenute come dei dominatori per via del timore che sono in grado di suscitare.",
+    "Description": "Il martello da guerra dell'Imperatore del Fuoco e del Ferro.\nUn possente granchio la cui gigantesca chela ha schiacciato innumerevoli avversari. Che si tratti di Mekautomi, altri Aberranti del Fontemer o cacciatori dalla malriposta curiosità... ognuno di essi è stato sopraffatto dalla sua potenza.\nRispetto agli esseri umani, aristocrazia ed eredità sono concetti del tutto estranei agli Aberranti del Fontemer. Nessuno di loro nasce superiore agli altri. Coloro che riescono a sopravvivere contro predatori e avversità letali sono in grado di accumulare un potere pressoché infinito, che permette loro di continuare a cacciare e nutrirsi nel corso dei secoli. Creature simili sono sovente ritenute come dei dominatori per via del timore che sono in grado di suscitare.",
     "TypeDescription": "Materiale per aumento livello dei personaggi",
     "Icon": "UI_ItemIcon_113051"
   },
@@ -28930,6 +29037,16 @@
     "Description": "Uno strano Vampagrano ottenuto dal Vorace Yumkasauro Re della Montagna sconfitto.\nNormalmente, i Vampagrani che continuano a crescere una volta maturi cadono nel fango e marciscono. Ma i Vampagrani che cadono dalla criniera del Re della Montagna, forse per via delle peculiari condizioni termiche, mostrano un raro stato di \"Sovramaturazione\". In questo stato, i Vampagrani sono stabili, ricchi di Flogisto, dai colori brillanti e con un sapore ricco e molto particolare.",
     "TypeDescription": "Materiale per aumento livello dei personaggi",
     "Icon": "UI_ItemIcon_113065"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113066,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Nucleo di Fonte segreta con incisioni dorate",
+    "Description": "Componente centrale separato dal corpo di un Automa della Fonte segreta: Dispositivo di configurazione che ha perso la capacità di muoversi in seguito a una sconfitta.\nAlcuni sostengono che i nuclei che alimentano tutti gli Automi della Fonte segreta siano dello stesso tipo, e che contengano semplicemente diverse informazioni, come dimostrato dai vari motivi dorati su di essi. All'inizio, i numerosi comandi erano stati aggiunti ai circuiti solo per favorirne il buon funzionamento, ma sembra che la continua sovrapposizione e la stratificazione degli ordini abbia finito per creare una rudimentale intelligenza artificiale.",
+    "TypeDescription": "Materiale per aumento livello dei personaggi",
+    "Icon": "UI_ItemIcon_113066"
   },
   {
     "MaterialType": 14,
@@ -29792,7 +29909,7 @@
     "Icon": "UI_ItemIcon_116005"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117001,
     "RankLevel": 3,
     "ItemType": 2,
@@ -29802,7 +29919,7 @@
     "Icon": "UI_ItemIcon_117001"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117002,
     "RankLevel": 4,
     "ItemType": 2,
@@ -29812,7 +29929,7 @@
     "Icon": "UI_ItemIcon_117002"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117003,
     "RankLevel": 5,
     "ItemType": 2,
@@ -29822,7 +29939,7 @@
     "Icon": "UI_ItemIcon_117003"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117004,
     "RankLevel": 4,
     "ItemType": 2,
@@ -29832,7 +29949,7 @@
     "Icon": "UI_ItemIcon_117004"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117005,
     "RankLevel": 5,
     "ItemType": 2,
@@ -29842,7 +29959,7 @@
     "Icon": "UI_ItemIcon_117005"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117006,
     "RankLevel": 4,
     "ItemType": 2,
@@ -29852,7 +29969,7 @@
     "Icon": "UI_ItemIcon_117002"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117007,
     "RankLevel": 5,
     "ItemType": 2,
@@ -29862,7 +29979,7 @@
     "Icon": "UI_ItemIcon_117003"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117008,
     "RankLevel": 4,
     "ItemType": 2,
@@ -29872,7 +29989,7 @@
     "Icon": "UI_ItemIcon_117002"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117009,
     "RankLevel": 5,
     "ItemType": 2,
@@ -29882,7 +29999,7 @@
     "Icon": "UI_ItemIcon_117003"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117010,
     "RankLevel": 4,
     "ItemType": 2,
@@ -29892,7 +30009,7 @@
     "Icon": "UI_ItemIcon_117002"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117011,
     "RankLevel": 5,
     "ItemType": 2,
@@ -29902,7 +30019,7 @@
     "Icon": "UI_ItemIcon_117003"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117012,
     "RankLevel": 4,
     "ItemType": 2,
@@ -29912,7 +30029,7 @@
     "Icon": "UI_ItemIcon_117002"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117013,
     "RankLevel": 5,
     "ItemType": 2,
@@ -29922,7 +30039,7 @@
     "Icon": "UI_ItemIcon_117003"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117014,
     "RankLevel": 4,
     "ItemType": 2,
@@ -29932,7 +30049,7 @@
     "Icon": "UI_ItemIcon_117002"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117015,
     "RankLevel": 5,
     "ItemType": 2,
@@ -29942,7 +30059,7 @@
     "Icon": "UI_ItemIcon_117003"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117016,
     "RankLevel": 4,
     "ItemType": 2,
@@ -29952,7 +30069,7 @@
     "Icon": "UI_ItemIcon_117002"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117017,
     "RankLevel": 5,
     "ItemType": 2,
@@ -29962,7 +30079,7 @@
     "Icon": "UI_ItemIcon_117003"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117018,
     "RankLevel": 4,
     "ItemType": 2,
@@ -29972,7 +30089,7 @@
     "Icon": "UI_ItemIcon_117002"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117019,
     "RankLevel": 5,
     "ItemType": 2,
@@ -29982,7 +30099,7 @@
     "Icon": "UI_ItemIcon_117003"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117020,
     "RankLevel": 4,
     "ItemType": 2,
@@ -29992,7 +30109,7 @@
     "Icon": "UI_ItemIcon_117002"
   },
   {
-    "MaterialType": 12,
+    "MaterialType": 24,
     "Id": 117021,
     "RankLevel": 5,
     "ItemType": 2,
@@ -37058,7 +37175,7 @@
     "RankLevel": 0,
     "ItemType": 2,
     "Name": "Corda speciale",
-    "Description": "Una corda per arrampicata speciale usata dalla tribù degli Yumkasauri, è incredibilmente sicura. È molto usata sia per l'arrampicata che per aiutarsi durante le discese veloci.",
+    "Description": "Una corda per arrampicata speciale usata dalla tribù dei Discendenti delle Vette, è incredibilmente sicura. È molto usata sia per l'arrampicata che per aiutarsi durante le discese veloci.",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_120986"
   },
@@ -37768,9 +37885,39 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Il Signore del vulcano e i Chiodi dell'ombra",
-    "Description": "Un rotolo in tessuto che raffigura la leggenda di Traore, l'eroe preferito dai bambini di Nanatzcayan.",
+    "Description": "Un rotolo in tessuto che raffigura la leggenda di Traore, l'eroe preferito dai bambini Nanatzcayan.",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_121065"
+  },
+  {
+    "MaterialType": 59,
+    "Id": 121068,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "#Cronistoria {F#della Pellegrina}{M#del Pellegrino}",
+    "Description": "Ottenuto dalla Signora della Notte, questo materiale gioca un ruolo chiave nella creazione dei Nomi antichi. La sua essenza è la \"memoria\", poiché le linee geomantiche di Natlan non registrano le avventure degli stranieri e quindi è necessario un recipiente speciale.\nLa memoria scorre dentro questo contenitore e, se guardi con attenzione la sua superficie, ti mostrerà la strada che hai percorso a Natlan.\nDa quello che hai capito, Xilonen e Citlali hanno ottenuto questo materiale con relativa facilità. Probabilmente grazie alla generosità e alla gentilezza della Signora della Notte.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_121068"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121070,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Copia abbastanza consumata di Tequil il Coraggioso",
+    "Description": "Copia abbastanza vecchiotta di Tequil il Coraggioso",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_223019"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121071,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Copia nuova di zecca di Tequil il Coraggioso",
+    "Description": "Copia nuova di zecca di Tequil il Coraggioso",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_223020"
   },
   {
     "MaterialType": 2,
@@ -37801,6 +37948,26 @@
     "Description": "Spartito musicale incompiuto",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121085,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Perla di Miele di Flogisto scarlatto",
+    "Description": "Una perla di Miele di Flogisto incontaminata, nonché un regalo di Xilonen.\nA giudicare dal colore rosso tendente al cremisi, si può dire che sia della qualità più eccelsa.\nContrariamente a quanto ti ha detto, il suo valore di mercato è sorprendentemente elevato.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_121085"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121119,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Foto scattate",
+    "Description": "Una serie di foto che hai ottenuto dai Fatui e che mostrano chiaramente la struttura dei Resti della Fonte segreta in questo luogo. Quest'immagine raffigura un meccanismo speciale dalla forma impressionante.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_100721"
   },
   {
     "MaterialType": 31,
@@ -53369,6 +53536,306 @@
     "ItemType": 2,
     "Name": "Lampada da terra in legno di quercia bianca Crepuscolo",
     "Description": "Un progetto con istruzioni passo dopo passo per realizzare una lampada da terra in legno di quercia bianca Crepuscolo.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381336,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Scudo rotondo monogamba",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Scudo rotondo monogamba.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381337,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Scudo a torre a quattro gambe",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Scudo a torre a quattro gambe.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381338,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Senza nome, senza voce",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Senza nome, senza voce.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381339,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Innumerevoli servizi",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Innumerevoli servizi.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383508,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Echi a riva",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Echi a riva.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383509,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Eroe imbattuto",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Eroe imbattuto.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383510,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Fuochi d'artificio di montagna",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Fuochi d'artificio di montagna.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382401,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Vaso dalle tinte vivaci Nato dalle fiamme",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un vaso dalle tinte vivaci Nato dalle fiamme.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382268,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Verdure fresche del mercato",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Verdure fresche del mercato.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383403,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Piatto modello Imperdibile",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un piatto modello Imperdibile.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383404,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Piatto modello Scelta consueta",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un piatto modello Scelta consueta.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383405,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Banchetti del mercato",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Banchetti del mercato.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383406,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tracciavento",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Tracciavento.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383407,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Lancio di giavellotto imminente",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Lancio di giavellotto imminente.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383408,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sempre più in alto",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Sempre più in alto.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383409,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sulle placide acque",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Sulle placide acque.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382402,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Marionetta bipede Giacomo giacomo",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una marionetta bipede Giacomo giacomo.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382403,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Marionetta quadrupede Stabilità",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una marionetta quadrupede Stabilità.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382126,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Seduta con schienale dell'Arena Banchetto piccante",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una seduta con schienale dell'Arena Banchetto piccante.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382127,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Panchina dell'Arena Seduta a tutto tondo",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una panchina dell'Arena Seduta a tutto tondo.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382128,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Sgabello rotondo dell'Arena Spuntino veloce",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare uno sgabello rotondo dell'Arena Spuntino veloce.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383114,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Lampada da tavolo al Flogisto Pesante al punto giusto",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una lampada da tavolo al Flogisto Pesante al punto giusto.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 383115,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Piantana al Flogisto Praticità e convenienza",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una piantana al Flogisto Praticità e convenienza.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381114,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Distribuzione del mercato",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Distribuzione del mercato.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381115,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tessuti sfarzosi del mercato",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Tessuti sfarzosi del mercato.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 381116,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Contenitore di legno di Pescopalma Fulcrum",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un contenitore di legno di Pescopalma Fulcrum.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382269,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Viaggiatore in viaggio",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Viaggiatore in viaggio.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382318,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tappeto sonnacchioso Deponi il tuo fardello",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un tappeto sonnacchioso Deponi il tuo fardello.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 384220,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Lampada al Flogisto Segnaletica stradale",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una lampada al Flogisto Segnaletica stradale.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 382270,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Distanza dalle fiamme",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Distanza dalle fiamme.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
     "TypeDescription": "Progetto per decorazione",
     "Icon": "UI_ItemIcon_Home_Common"
   }
