@@ -1,0 +1,1082 @@
+{
+  "Id": 10000104,
+  "PromoteId": 104,
+  "Sort": 90,
+  "Body": 3,
+  "Icon": "UI_AvatarIcon_Chasca",
+  "SideIcon": "UI_AvatarIcon_Side_Chasca",
+  "Name": "Chasca",
+  "Description": "A Pacificadora de Tlalocan, a finalizadora de todas as disputas.",
+  "BeginTime": "2024-11-19T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 12,
+  "BaseValue": {
+    "HpBase": 762.656,
+    "AttackBase": 26.999,
+    "DefenseBase": 47.864
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 10431,
+        "Proud": {
+          "Descriptions": [
+            "Dano do 1° Golpe|{param1:F1P}",
+            "Dano do 2° Golpe|{param2:F1P}",
+            "Dano do 3° Golpe|{param3:F1P} *2",
+            "Dano do 4° Golpe|{param4:F1P} *3",
+            "Disparo com Mira|{param5:F1P}",
+            "Disparo com Mira com Energização Completa|{param6:P}",
+            "Dano Durante a Queda|{param7:F1P}",
+            "Dano de Queda de Baixa/Alta Altitude|{param8:P}/{param9:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.480078,
+                0.445884,
+                0.296975,
+                0.254672,
+                0.4386,
+                1.24,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.519154,
+                0.482177,
+                0.321148,
+                0.275401,
+                0.4743,
+                1.333,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.55823,
+                0.51847,
+                0.34532,
+                0.29613,
+                0.51,
+                1.426,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.614053,
+                0.570317,
+                0.379852,
+                0.325743,
+                0.561,
+                1.55,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.653129,
+                0.60661,
+                0.404024,
+                0.346472,
+                0.5967,
+                1.643,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.697788,
+                0.648087,
+                0.43165,
+                0.370163,
+                0.6375,
+                1.736,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.759193,
+                0.705119,
+                0.469635,
+                0.402737,
+                0.6936,
+                1.86,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.820598,
+                0.762151,
+                0.50762,
+                0.435311,
+                0.7497,
+                1.984,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.882003,
+                0.819183,
+                0.545606,
+                0.467885,
+                0.8058,
+                2.108,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.948991,
+                0.881399,
+                0.587044,
+                0.503421,
+                0.867,
+                2.232,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.015979,
+                0.943615,
+                0.628482,
+                0.538957,
+                0.9282,
+                2.356,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.082966,
+                1.005832,
+                0.669921,
+                0.574492,
+                0.9894,
+                2.48,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.149954,
+                1.068048,
+                0.711359,
+                0.610028,
+                1.0506,
+                2.635,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.216941,
+                1.130265,
+                0.752798,
+                0.645563,
+                1.1118,
+                2.79,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.283929,
+                1.192481,
+                0.794236,
+                0.681099,
+                1.173,
+                2.945,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 11041,
+        "Name": "Ataque Normal: Rajada de Penas Fantasma",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 disparos consecutivos com um arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um <color=#FFD780FF>Disparo com Mira </color>mais preciso e com Dano aumentado.\nAo mirar, ventos fortes se acumularão na ponta da flecha. Uma flecha completamente carregada com ventos fortes irá infligir <color=#80FFD7FF>Dano Anemo</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas no ar que atingirão o solo rapidamente, alcançando os inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "Icon": "Skill_A_02"
+      },
+      {
+        "GroupId": 10432,
+        "Proud": {
+          "Descriptions": [
+            "Dano de Ressonância|{param1:F1P}",
+            "Dano de Pressionar Disparo Múltiplo|{param2:F1P}",
+            "Dano do Projétil Caçador de Sombras|{param3:F1P}",
+            "Dano do Projétil Caçador de Sombras Brilhante|{param4:F1P}",
+            "Limite de Pontos de Espírito da Noite|{param5:F1}",
+            "Tempo de Recarga|{param6:F1}s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.6,
+                0.36,
+                0.488,
+                1.66572,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.645,
+                0.387,
+                0.5246,
+                1.790649,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.69,
+                0.414,
+                0.5612,
+                1.915578,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.75,
+                0.45,
+                0.61,
+                2.08215,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.795,
+                0.477,
+                0.6466,
+                2.207079,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.84,
+                0.504,
+                0.6832,
+                2.332008,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.9,
+                0.54,
+                0.732,
+                2.49858,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.96,
+                0.576,
+                0.7808,
+                2.665152,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                1.02,
+                0.612,
+                0.8296,
+                2.831724,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.08,
+                0.648,
+                0.8784,
+                2.998296,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.14,
+                0.684,
+                0.9272,
+                3.164868,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.2,
+                0.72,
+                0.976,
+                3.33144,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.275,
+                0.765,
+                1.037,
+                3.539655,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.35,
+                0.81,
+                1.098,
+                3.74787,
+                80,
+                6.5
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.425,
+                0.855,
+                1.159,
+                3.956085,
+                80,
+                6.5
+              ]
+            }
+          ]
+        },
+        "Id": 11042,
+        "Name": "Rédeas Espirituais, Caça Sombria",
+        "Description": "Chasca e a vontade residindo em sua arma ressoam, causando <color=#80FFD7FF>Dano Anemo em uma AdE</color> com alinhamento Espírito da Noite.\nApós usar esta Habilidade, Chasca ganha 80 pontos de Espírito da Noite e entra no estado de Bênção do Espírito da Noite.\n\n<color=#FFD780FF>Bênção do Espírito da Noite: Chasca</color>\nConsome continuamente pontos de Espírito da Noite. Quando os pontos de Espírito da Noite forem totalmente esgotados ou a habilidade for usada novamente, o estado de Bênção do Espírito da Noite de Chasca terminará. A Bênção do Espírito da Noite possui as seguintes características:\n· Empunha a \"Atiradora de Almas: Cajado Ritual\", aumentando a Veloc. Mov. de Chasca e sua Resistência contra Interrupção. Neste estado, Chasca consumirá continuamente pontos de Espírito da Noite e permanecerá no ar. Ao saltar ou aumentar a altura, pontos de Espírito da Noite extras serão consumidos.\n· Ao usar Ataques Normais ou Carregados, Pressione ou Mantenha pressionado para alternar entre usar \"Disparo Múltiplo\" de diferentes maneiras.\n\n<color=#FFD780FF>Disparo Múltiplo</color>\n<color=#FFD780FF>Pressionar</color>\nCausa <color=#80FFD7FF>Dano Anemo</color> com alinhamento Espírito da Noite aos inimigos à frente. Este Dano é considerado Dano de Ataque Normal.\n<color=#FFD780FF>Manter pressionado</color>\nEntra no Modo de Mira, escolhendo um certo número de inimigos dentro de uma certa AdE, disparando 6 Projéteis Caçadores de Sombras de acordo com o tempo de carregamento. Ao carregar os seis projéteis ou ao parar de carregar, disparará contra os inimigos selecionados.\n\n<color=#FFD780FF>Projéteis Caçadores de Sombras</color>\n· Causam <color=#80FFD7FF>Dano Anemo</color> com alinhamento Espírito da Noite, considerado Dano de Ataque Carregado.\n· O 4º, 5º e 6º Projéteis disparados passarão por Conversão Elemental com base nos Tipos Elementais dos outros personagens na equipe: Para cada personagem <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color> ou <color=#FFACFFFF>Electro</color> na equipe, um Projétil Caçador de Sombras será convertido aleatoriamente em um \"Projétil Caçador de Sombras Brilhante\" de um dos Tipos Elementais correspondentes, causando Dano com alinhamento Espírito da Noite correspondente ao Tipo Elemental. Este Dano é considerado Dano de Ataque Carregado.\n· O último Projétil Caçador de Sombras carregado no carregador é disparado primeiro.\n\nAlém disso, quando estiver no estado Bênção do Espírito da Noite, ao manter pressionado para lançar a Habilidade Elemental <color=#FFD780FF>Rédeas Espirituais, Caça Sombria</color>, Chasca converterá para um Ataque Imersivo que possui alinhamento Espírito da Noite, e ao soltar, poderá interromper o Ataque Imersivo para se manter no ar. Quando Chasca atingir o chão com seu Ataque Imersivo, a Bênção do Espírito da Noite acabará.\n\n<i>Em teoria, enquanto ela quiser, essas rédeas podem domar qualquer coisa... Mas o que poderia ser mais legal que um canhão de mão gigante?</i>",
+        "Icon": "Skill_S_Chasca_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 10439,
+      "Proud": {
+        "Descriptions": [
+          "Dano do Projétil Ceifador de Almas Corta-ventos|{param1:F1P}",
+          "Dano do Projétil Ceifador de Almas|{param2:F1P}",
+          "Dano do Projétil Ceifador de Almas Brilhante|{param3:F1P}",
+          "Tempo de Recarga|{param4:F1}s",
+          "Energia Elemental|{param5:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              0.88,
+              1.034,
+              2.068,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              0.946,
+              1.11155,
+              2.2231,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              1.012,
+              1.1891,
+              2.3782,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              1.1,
+              1.2925,
+              2.585,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              1.166,
+              1.37005,
+              2.7401,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              1.232,
+              1.4476,
+              2.8952,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              1.32,
+              1.551,
+              3.102,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              1.408,
+              1.6544,
+              3.3088,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              1.496,
+              1.7578,
+              3.5156,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              1.584,
+              1.8612,
+              3.7224,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              1.672,
+              1.9646,
+              3.9292,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              1.76,
+              2.068,
+              4.136,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              1.87,
+              2.19725,
+              4.3945,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              1.98,
+              2.3265,
+              4.653,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              2.09,
+              2.45575,
+              4.9115,
+              15,
+              60
+            ]
+          }
+        ]
+      },
+      "Id": 11045,
+      "Name": "Rodada Fatal do Ceifador de Almas",
+      "Description": "Chasca concentra sua vontade e dispara um Projétil Ceifador de Almas Corta-ventos, causando <color=#80FFD7FF>Dano Anemo em AdE</color> com alinhamento Espírito da Noite. Depois disso, o Projétil Ceifador de Almas Corta-ventos se dividirá em seis Projéteis Ceifador de Almas, atacando os inimigos próximos.\n\n<color=#FFD780FF>Projétil Ceifador de Almas</color>\n· Causa <color=#80FFD7FF>Dano Anemo</color> com alinhamento Espírito da Noite.\n· Para cada personagem <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color> e <color=#FFACFFFF>Electro</color> da equipe, dois Projéteis Ceifador de Almas aleatórios serão convertidos para Projéteis Ceifador de Almas Brilhante em um dos Tipos Elementais correspondentes, causando Dano Elemental correspondente com alinhamento Espírito da Noite.\n\n<i>Ninguém pode escapar dos sussurros incessantes da noite e do luar, assim como nenhum inimigo pode fugir de seus olhos atentos quando ela mira neles.</i>",
+      "Icon": "Skill_E_Chasca_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 10421,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.333,
+                0.667,
+                1,
+                0.15,
+                0.35,
+                0.65
+              ]
+            }
+          ]
+        },
+        "Id": 1042101,
+        "Name": "Truque do Projétil",
+        "Description": "Quando o <color=#FFD780FF>Disparo Múltiplo</color> da Habilidade Elemental <color=#FFD780FF>Rédeas Espirituais, Caça Sombria</color> carregar, se houver membros da equipe que atendam aos requisitos do Tipo Elemental de Conversão Elemental, ganha os seguintes efeitos segundo o número de Tipos Elementais diferentes presentes:\n· Há uma chance de 33.3%/66.7%/100%, baseada no número de Tipos Elementais elegíveis presentes, para que cada Tipo desencadeie a \"Conversão Espiritual\" e faça com que o 3º <color=#FFD780FF>Projétil Caçador de Sombras</color> carregado no cilindro seja aleatoriamente convertido em um <color=#FFD780FF>Projétil Caçador de Sombras Brilhantes</color> de um dos Tipos Elementais correspondentes.\n· Cada Tipo Elemental concederá a Chasca 1 acúmulo do efeito \"Espírito da Sombra\", aumentando o Dano do Projétil Caçador de Sombras Brilhantes em 15%/35%/65%. Esse efeito dura até o fim do Disparo Múltiplo atual. Máximo de 3 acúmulos.",
+        "Icon": "UI_Talent_S_Chasca_05"
+      },
+      {
+        "GroupId": 10422,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                1.5
+              ]
+            }
+          ]
+        },
+        "Id": 1042201,
+        "Name": "Intenção Protetora",
+        "Description": "Quando um personagem próximo da equipe desencadear \"Explosão do Espírito da Noite\", Chasca disparará \"Projéteis Caçadores de Sombra Flamejante\" contra os inimigos próximos, causando <color=#80FFD7FF>Dano Anemo</color> com alinhamento Espírito da Noite, esse Dano é equivalente a 150% do Dano dos <color=#FFD780FF>Projéteis Caçadores de Sombras</color> da Habilidade Elemental <color=#FFD780FF>Rédeas Espirituais, Caça Sombria</color>. Se a equipe possuir personagens <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color> ou <color=#FFACFFFF>Electro</color>, os Projéteis Caçadores de Sombra Flamejante passarão por Conversão Elemental, causando Dano Elemental correspondente com alinhamento Espírito da Noite. Esse Dano será equivalente a 150% de <color=#FFD780FF>Projéteis Caçadores de Sombras Brilhantes</color> da Habilidade Elemental <color=#FFD780FF>Rédeas Espirituais, Caça Sombria</color>.\nO Dano causado dessa forma é considerado Dano de Ataque Carregado.",
+        "Icon": "UI_Talent_S_Chasca_06"
+      },
+      {
+        "GroupId": 10423,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 1042301,
+        "Name": "Presente do Reino da Noite: Coração Inextinguível",
+        "Description": "Depois que os pontos de Espírito da Noite de Chasca acabarem, ela mudará para consumir Flogisto para manter a Bênção do Espírito da Noite.\nEnquanto estiver numa área de Natlan com Dispositivos de Flogisto, ela pode usar Transmissão do Espírito da Noite: Chasca. Quando o personagem ativo estiver no ar, trocar para Chasca como personagem ativa desencadeará: Chasca entra no estado Bênção do Espírito da Noite e obtém 32 pontos de Espírito da Noite. Sua própria equipe pode entrar em Transmissão do Espírito da Noite uma vez a cada 10s.",
+        "Icon": "UI_Talent_S_Chasca_07"
+      },
+      {
+        "GroupId": 10425,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                25,
+                12
+              ]
+            }
+          ]
+        },
+        "Id": 1042501,
+        "Name": "O Verdadeiro Significado da Mediação",
+        "Description": "Quando um personagem da sua equipe derrota um inimigo, regenera 25 de Flogisto. Esse efeito pode ser desencadeado uma vez a cada 12s.\nEsse efeito não surtirá em domínios, Domínios Dizimados e Abismo do Espiral.",
+        "Icon": "UI_Talent_S_Chasca_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1041,
+        "Name": "Munição Carregada, Roleta Engatilhada",
+        "Description": "Quando desencadear a Conversão Espiritual do Talento Passivo \"Truque do Projétil\", o segundo <color=#FFD780FF>Projétil Caçador de Sombras</color> adicional será convertido em <color=#FFD780FF>Projétil Caçador de Sombras Brilhantes</color>.\nAumenta a chance de desencadear \"Conversão Espiritual\": se houver personagens na equipe com Tipos Elementais com as condições de Conversão Elemental correspondentes, aumenta a chance de Conversão Espiritual para 33.3%, podendo aumentar em até 100%.\n\nÉ necessário ter desbloqueado o Talento Passivo \"Truque do Projétil\".\nAlém disso, quando não está ativo em batalha, o estado Bênção do Espírito da Noite de Chasca consumirá 30% a menos de pontos de Espírito da Noite e de Flogisto.",
+        "Icon": "UI_Talent_S_Chasca_01"
+      },
+      {
+        "Id": 1042,
+        "Name": "Fumaça Flamejante do Disparo",
+        "Description": "Quando Chasca se torna a personagem ativa no campo de batalha, ela obtém um acúmulo de \"Espírito da Sombra\" do Talento Passivo \"Truque do Projétil\". É necessário ter desbloqueado o Talento Passivo \"Truque do Projétil\" para esse efeito.\nAlém disso, ao lançar os <color=#FFD780FF>Disparos Múltiplos</color> da Habilidade Elemental <color=#FFD780FF>Rédeas Espirituais, Caça Sombria</color>, quando os <color=#FFD780FF>Projéteis Caçadores de Sombras Brilhantes</color> de Chasca atingirem os inimigos, causarão 400% do ATQ de Chasca como Dano Elemental em AdE do Elemento correspondente de <color=#FFD780FF>Projéteis Caçadores de Sombras Brilhantes</color>, esse Dano é considerado Dano de Ataque Carregado. Esse efeito pode ser desencadeado uma vez por <color=#FFD780FF>Disparos Múltiplos</color> lançados.",
+        "Icon": "UI_Talent_S_Chasca_02"
+      },
+      {
+        "Id": 1043,
+        "Name": "Controle Meticuloso das Cordas",
+        "Description": "Aumenta o nível da Habilidade Elemental <color=#FFD780FF>Rédeas Espirituais, Caça Sombria</color> em 3 níveis. \nO nível máximo de elevação é 15.",
+        "Icon": "UI_Talent_U_Chasca_01"
+      },
+      {
+        "Id": 1044,
+        "Name": "Disparo Súbito das Faíscas",
+        "Description": "Quando <color=#FFD780FF>Projétil Ceifador de Almas Brilhante</color> do Supremo <color=#FFD780FF>Rodada Fatal do Ceifador de Almas</color> atinge um inimigo, regenera 1.5 de Energia Elemental para Chasca, e de acordo com o Tipo Elemental de <color=#FFD780FF>Projétil Ceifador de Almas Brilhante</color>, causa 400% do ATQ de Chasca. Esse Dano é considerado Dano de Ataque Carregado.\nO efeito de Dano em uma AdE Elemental correspondente mencionado pode ser desencadeado uma vez cada vez que Chasca usa <color=#FFD780FF>Rodada Fatal do Ceifador de Almas</color>.",
+        "Icon": "UI_Talent_S_Chasca_03"
+      },
+      {
+        "Id": 1045,
+        "Name": "Silhueta do Chapéu sobre a Areia",
+        "Description": "Aumenta o nível do <color=#FFD780FF>Rodada Fatal do Ceifador de Almas</color> em 3.\nO nível máximo de elevação é 15.",
+        "Icon": "UI_Talent_U_Chasca_02"
+      },
+      {
+        "Id": 1046,
+        "Name": "Batalha Gloriosa Decisiva",
+        "Description": "O tempo necessário de carregamento do <color=#FFD780FF>Disparo Múltiplo</color> de Chasca é reduzido, e depois de desencadear a Conversão Espiritual do Talento Passivo \"Truque do Projétil\", Chasca obtém o estado \"Ataque Predestinado\", fazendo com que nos próximos 3s, o próximo<color=#FFD780FF>Disparo Múltiplo</color> da próxima <color=#FFD780FF>Rédeas Espirituais, Caça Sombria</color> lançada carregue completamente imediatamente, e aumentando o Dano CRIT do <color=#FFD780FF>Projétil Caçador de Sombras</color> e do <color=#FFD780FF>Projétil Caçador de Sombras Brilhantes</color> do <color=#FFD780FF>Disparo Múltiplo</color> em 120%. 1 efeito de \"Ataque Predestinado\" pode ser obtido a cada 3s.\n\nEsse efeito requer ter desbloqueado o Talento Passivo \"Truque do Projétil\".",
+        "Icon": "UI_Talent_S_Chasca_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Exploradora Celestial",
+    "Detail": "A Pacificadora de Tlalocan, a finalizadora de todas as disputas.",
+    "Association": 9,
+    "Native": "Tlalocan",
+    "BirthMonth": 12,
+    "BirthDay": 10,
+    "VisionBefore": "Anemo",
+    "ConstellationBefore": "Vultur Gryphus",
+    "CvChinese": "张若瑜",
+    "CvJapanese": "甲斐田裕子",
+    "CvEnglish": "Lauren Amante",
+    "CvKorean": "Soo-hyub",
+    "CookBonus": {
+      "OriginItemId": 108762,
+      "ItemId": 108777,
+      "InputList": [
+        100064,
+        100061,
+        100084,
+        101243
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Olá...",
+        "Context": "Chasca, Clã das Plumas de Flores. Alguma disputa que você precise que eu encerre? Dependendo da situação, poderia te custar um pouco de dignidade, algumas bebidas ou potencialmente... uma munição."
+      },
+      {
+        "Title": "Bate-papo - Observação do Alto",
+        "Context": "Quando você perde seu caminho, ganhar um pouco de altitude pode mudar sua perspectiva."
+      },
+      {
+        "Title": "Bate-papo - Sussurros",
+        "Context": "Eu teria me perdido há muito tempo se tivesse me permitido ser levada pelos sussurros do Abismo. Sobreviver é difícil, mas domar a fera que vive em mim é ainda mais difícil."
+      },
+      {
+        "Title": "Bate-papo - Pacificadora",
+        "Context": "Estou um pouco fora de forma esses dias... *Bocejo*... Algum conflito por aí? Estou a fim de dar uma pacificada."
+      },
+      {
+        "Title": "Quando Está Chovendo...",
+        "Context": "Chuva... Meu cabelo e minhas penas vão ficar encharcadas. Hora de cuidar delas quando voltar."
+      },
+      {
+        "Title": "Quando Está Trovejando...",
+        "Context": "Hmm, a gente vai mesmo voar nesse clima? Acha que consegue despistar um raio?"
+      },
+      {
+        "Title": "Quando Está Ventando...",
+        "Context": "*Snif* O vento está trazendo o cheiro de uma presa para nós... Prepare-se para dar o bote."
+      },
+      {
+        "Title": "A Ventania Está Chegando...",
+        "Context": "O vento está perfeito — toda velocidade à frente!"
+      },
+      {
+        "Title": "Bom Dia...",
+        "Context": "\"A Arconte ajuda quem cedo madruga\", então fiz café da manhã. Qualquer plano para o dia pode esperar até a gente colocar alguma coisa na barriga."
+      },
+      {
+        "Title": "Boa Tarde...",
+        "Context": "Boa tarde. O sol brilha mais forte a essa hora — ótimo momento para descansar."
+      },
+      {
+        "Title": "Boa Noite...",
+        "Context": "#Algum plano para o jantar? Se não, vamos comer na tribo. Eles sempre trazem as melhores comidas e bebidas para campe{M#ões}{F#ãs}."
+      },
+      {
+        "Title": "Boa Noite...",
+        "Context": "Se recolhendo? Hmm... Eu voei o dia inteiro, é melhor fazer manutenção nas minhas armas."
+      },
+      {
+        "Title": "Sobre Chasca - Autoconfiança",
+        "Context": "Na época que o Clã das Plumas de Flores era responsável por patrulhar e defender Natlan inteira, o esquadrão voador era o melhor dos melhores — os guerreiros mais poderosos na nação.\nAté hoje, o orgulho sentido por muitos cavaleiros de Qucussauro se aproxima da arrogância... Hã? Eu? Não, não sou arrogante. Apenas supremamente confiante."
+      },
+      {
+        "Title": "Sobre Chasca - Clã das Plumas de Flores",
+        "Context": "...Quando eles me trouxeram pela primeira vez de volta à tribo, eu não me encaixei nem um pouco. Me sentia tão deslocada — como uma alienígena colocada repentinamente no mundo humano... Mas Chuychu e os pais dela— digo, nossos pais, me aceitaram por quem eu era.\nSou eternamente grata por conhecê-los e, por esse motivo, defenderei sua amada tribo... enquanto eu estiver viva."
+      },
+      {
+        "Title": "Sobre Nós - Resolução de Conflitos",
+        "Context": "Com suas habilidades, duvido que alguém em Natlan ousaria te provocar. Mas há exceções a cada regra, então se você se vir em uma situação que não pode resolver com força bruta, pode me procurar. Eu vou resolver tudo."
+      },
+      {
+        "Title": "Sobre Nós - Família",
+        "Context": "Muito obrigada por ajudar com a situação de Coya... Eu honestamente não sei como as coisas teriam terminado sem você aqui.\nEla não é nem um pouco tão hostil mais com humanos, mas ainda vai precisar de um tempo para ela se acostumar com eles. Difícil mudar antigos hábitos.\nChime, por outro lado? Adora ficar com a tribo. Ela se dá muito bem com Yatlan e as outras crianças... Heh, assistir eles brincando juntos, às vezes me lembra de eu e Coya brincando juntas quando éramos pequenas.\nEnfim, agora minha Mãe é que está sendo difícil... Eu não sei o que deu nela nos últimos tempos. Ela fica me atazanando para construir um ninho só meu como Coya. E ela tá toda, \"talvez seja hora de expandir sua família\"... De onde veio isso? ...Hã? Tá rindo de quê?"
+      },
+      {
+        "Title": "Sobre a Visão...",
+        "Context": "Essa Visão desempenhou um papel importante na minha luta contra o Abismo. Se ela não tivesse aparecido naquele momento, não sei quem eu seria hoje."
+      },
+      {
+        "Title": "Algo para Compartilhar...",
+        "Context": "As pessoas geralmente acham vergonhoso se abrir sobre os erros da infância... Por quê? Seja você humano ou Qucussauro, você só consegue crescer ao aprender com seus erros passados.\nÉ por isso que não tenho vergonha do meu histórico de brigas sem sentido quando eu era criança. Hoje, eu nunca saco minha arma sem pensar direito antes, mesmo que seja por alguns segundos... ou talvez meio segundo."
+      },
+      {
+        "Title": "Coisas Interessantes...",
+        "Context": "Natlan tem muitas árvores altas. Você tem uma ótima visibilidade do topo e são ótimas plataformas de decolagem. Quer experimentar? Não se preocupe, eu te seguro se você cair."
+      },
+      {
+        "Title": "Sobre Kachina...",
+        "Context": "\"Cada Qucussauro cai do seu ninho antes de aprender a voar\". Kachina não se tornou uma campeã magicamente de um dia para o outro. A vitória dela foi o resultado de esforço incansável e consistente ao longo de muito tempo. Ela é uma guerreira formidável que merece toda a honra e respeito que conseguir."
+      },
+      {
+        "Title": "Sobre Mualani...",
+        "Context": "Mualani diz que brigamos quando éramos crianças por algum brinquedo que nós duas queríamos, mas não lembro de nada disso.\nHmm... Me pergunto se é porque eu já entrei em tantas brigas que só perdi a conta? Também me pergunto se eu estava atrás da prancha de surfe dela, ao invés de um brinquedo... Aposto que eu só queria poder caçar na água.\nHeh, seja o que tenha sido, duvido que nossa briga tenha durado mais do que um dia. Nunca dura mais que um dia com Mualani."
+      },
+      {
+        "Title": "Sobre Xilonen...",
+        "Context": "Ela pode parecer um pouco cansada, mas não se engane — ela é uma das pessoas mais diligentes que você vai conhecer.\nQuando eu pedi para ela fazer uma arma para mim, eu praticamente não pensei nada sobre isso, só dei uma ideia geral a ela do que eu queria e deixei em suas mãos. Então, quando ela começou a trabalhar seriamente nela, ela passou um dia inteiro me fazendo perguntas — como era um dia típico de voo, qual frequência eu esperava usá-la e assim por diante — e até o fim do dia, havia diagramas de design abandonados pelo chão inteiro... Eu fiquei tão exausta que caí no sono antes dela.\nEntão ela escreveu um guia de manutenção inteiro que ela me forçou a aprender de cor para eu não ir incomodar ela todo dia com problemas... Bem, foi isso que ela disse. Mas suspeito que o real motivo tenha sido ela querer garantir que eu cuidasse de mim e voasse com segurança."
+      },
+      {
+        "Title": "Sobre Mavuika...",
+        "Context": "Algumas pessoas me comparam à Arconte Pyro pelo meu histórico na Peregrinação. É uma comparação sem sentido. Se a Peregrinação fosse uma árvore e eu fosse um abutre no galho mais alto, então a Arconte Pyro seria o sol no céu... Quanto mais forte você fica, mais você aprecia o tamanho estarrecedor do golfo entre você e ela. Eu só ganhei algumas competições — ela é a campeã de uma era inteira.\nMas pelo menos estar no topo com uma visão limpa do céu significa que eu posso ver exatamente quão alto eu quero voar daqui."
+      },
+      {
+        "Title": "Sobre Kinich...",
+        "Context": "Quando eu vi Ajaw pela primeira vez, pensei \"Ah, Kinich tem um Sauriano que ele trata como família também\"... Eu não fazia ideia de quão errada eu estava. O relacionamento deles é... realmente incomparável.\nMas posso dizer que o domínio da linguagem humana de Ajaw é de dar inveja. Queria que minha mãe pudesse falar daquele jeito também para acabar com todo o jogo de adivinhação baseado em linguagem corporal que temos."
+      },
+      {
+        "Title": "Sobre Citlali...",
+        "Context": "Meu pai me contou que quando eu era pequena, eles reuniram todos os anciões mais sábios em Natlan e pediram para eles pensarem em um plano para gerenciar minha condição do Abismo. Eles todos discordaram sobre a melhor abordagem, e isso acabou virando um debate completo. Em algum momento, Citlali saiu da sala em silêncio, mas eles estavam ocupados demais discutindo para notar. Quando ela voltou, colocou um pouco de comida e vinho na frente dela, ignorou todos e só começou a comer... A mesa ficou bem quieta de repente.\nSó de olhar para ela, você jamais saberia quanta experiência ela tem."
+      },
+      {
+        "Title": "Sobre Ifa...",
+        "Context": "Chuychu e meu pai discutiram medicina com ele incontáveis vezes. Então, após eu voltar da Oficina Aérea, a primeira coisa que fiz foi levar Coya para um exame com ele. Mas ele parecia desconsiderar ela — ele deu uma olhada, disse \"não é nada sério, Cusco pode resolver\", então saiu imediatamente para atender outro paciente... *Suspiro* Ele estava certo, claro. Eu só estava me preocupando demais."
+      },
+      {
+        "Title": "Sobre Iansan...",
+        "Context": "Sempre senti que treinar a si e a outros são dois conjuntos de habilidades diferentes. Poucas pessoas têm ambos, mas Iansan tem de sobra.\nEu, por exemplo, não sou muito boa em ensinar outras pessoas. Sempre que estou tentando demonstrar algo no esquadrão voador, passo uma eternidade tentando explicar algum detalhe básico e chato que parece intuitivo para mim... só para todos perguntarem, \"E o que tem de intuitivo nisso?!\"\nSe pelo menos Iansan pudesse ser tutora deles, aposto que teríamos o dobro de candidatos passando nos julgamentos de voo cada ano... Uma pena que o programa de treino dela não inclua voo."
+      },
+      {
+        "Title": "Mais Sobre Chasca - I",
+        "Context": "Como pacificadora, sei muito bem que violência não é sempre a resposta. Mas em muitos casos, ter a capacidade para violência faz as pessoas ficarem muito mais dispostas a dar ouvidos à razão."
+      },
+      {
+        "Title": "Mais Sobre Chasca - II",
+        "Context": "Os guerreiros do Clã das Plumas de Flores são bem orgulhosos, mas os Qucussauros são ainda mais. Qualquer aspirante a Cavaleiro tem que treinar incansavelmente e conquistar a aprovação deles — até eu, e eu era praticamente uma deles enquanto crescia. Nada mais justo. Permitir que um iniciante monte um Qucussauro nos céus seria muito irresponsável tanto para o Qucussauro quanto para o Cavaleiro."
+      },
+      {
+        "Title": "Mais Sobre Chasca - III",
+        "Context": "Às vezes, após fracassar nos julgamentos de voo incontáveis vezes e nunca conseguir a aprovação dos Qucussauros, as pessoas perdem toda a motivação e decidem desistir. No Clã das Plumas de Flores, chamamos essas pessoas de \"Desalados\"... Mas, geralmente, apenas os guerreiros mais formidáveis sequer tentam os julgamentos de voo para começo de conversa. O espírito de luta deles pode ter enfraquecido, mas ele queimará brilhantemente um dia. E até esse dia chegar, vamos observá-los silenciosamente, assim como os Qucussauros observam seus jovens imaturos."
+      },
+      {
+        "Title": "Mais sobre Chasca - IV",
+        "Context": "Nunca consegui ter uma infância feliz, mas quando eu estava prestes a morrer, mamãe pássaro me deu uma nova vida, e quando eu estava perdida e sem rumo, Chuychu me deu algo no que acreditar. Atrás de mim, tenho minha família Sauriana e minha família humana, além de todas as outras criaturas na família que chamamos de Natlan. Eu superarei tudo, nada ficará em meu caminho, seja o Abismo ou as dificuldades da vida!"
+      },
+      {
+        "Title": "Mais sobre Chasca - V",
+        "Context": "Chuychu desejava que eu me tornasse uma heroína. Por isso, não posso desistir. Tenho que ser forte, por ela...\nMas quando a relíquia explodiu e Coya mergulhou na minha frente, eu... o mesmo medo de perder minha irmã voltou com tudo... (Respira profundamente e se acalma)...\nEu sinto muito, só não sei com quem posso falar sobre isso. Geralmente empurro isso pro fundo da minha mente. Mas me sinto bem melhor agora.\nComo não posso esquecer esse medo, acho que vou tentar o contrário: lembrar dele, dominá-lo e, eventualmente, superá-lo."
+      },
+      {
+        "Title": "Passatempos de Chasca...",
+        "Context": "Começar lutas não vale a pena. Mete você em problemas demais. Agora, acabar lutas é bem melhor. É por isso que adoro ser uma pacificadora, as lutas vêm até mim... Haha, tô brincando."
+      },
+      {
+        "Title": "Preocupações de Chasca...",
+        "Context": "A energia do Abismo. Não porque me afeta tanto, hoje em dia não mais. Mas sim porque faz as pessoas ao meu redor se preocuparem com minha segurança."
+      },
+      {
+        "Title": "Comida Favorita...",
+        "Context": "Crescendo perto do mar, comi peixe cru a maior parte do tempo, e depois que me mudei para a tribo, passei a adorar Filé Grelhado Rápido... Qucussauros e humanos têm dietas muito diferentes, mas gosto das duas."
+      },
+      {
+        "Title": "Comida que Odeia...",
+        "Context": "Qualquer coisa com muito álcool. Não porque não gosto de beber, só preciso ficar de olho no quanto bebi antes de voar. Há umas comidas que o cheiro do álcool é escondido por outros sabores. Parece gostoso, tem um cheiro ótimo, você dá uma mordida e então... é uma armadilha."
+      },
+      {
+        "Title": "Recebendo Presentes — I",
+        "Context": "Tô falando, esse prato aqui com um vinho bom aumentaria as chances de uma mediação de sucesso em 30%. Hehe, não tem nada melhor que comida boa para deixar as pessoas de bom humor."
+      },
+      {
+        "Title": "Recebendo Presentes — II",
+        "Context": "Isso é ótimo. Obrigada."
+      },
+      {
+        "Title": "Recebendo Presentes — III",
+        "Context": "Hã... isso aqui é para Qucussauros? Desculpa, mas, não é disso que eles gostam."
+      },
+      {
+        "Title": "Aniversário...",
+        "Context": "Aqui, pegue essa arma. Está carregada com seis munições, incluindo uma extra especial. Encontre um espaço aberto e experimente — ou melhor ainda, voe até o céu e faça isso de lá.\nOoh, você conseguiu a munição especial de primeira, hein? A sorte tá do seu lado hoje... Isso foi um fogo de artifício de aniversário. Eu mesma fiz!\nHã? O que são as outras cinco munições? Mais fogos de artifício, claro! Mas elas são as de testes que fiz antes da que você acabou de disparar. A cor é diferente e elas não são perfeitas. No próximo ano, vou dar o meu melhor para fazer todas as seis munições de qualidade para você."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Introdução",
+        "Context": "Hã, tem uma bala nova no tambor?"
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Desenvolvimento",
+        "Context": "Precisa que eu resolva algum conflito? Problemas na tribo? Uma guerra total, talvez?"
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Auge",
+        "Context": "Há um anseio por batalha que corre em minhas veias... Mas agora, sei como fazer bom uso dele."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Conclusão",
+        "Context": "\"Gentileza deve sempre ser retribuída e mérito recompensado.\" Esse é um princípio universal que se mantém verdadeiro tanto para o mundo humano quando para o dos Qucussauros. A partir deste dia, não importa aonde vá, minhas asas e minhas armas sempre estarão ao seu serviço."
+      },
+      {
+        "Title": "Habilidade Elemental - I",
+        "Context": "Vamos voar."
+      },
+      {
+        "Title": "Habilidade Elemental - II",
+        "Context": "Hah!"
+      },
+      {
+        "Title": "Habilidade Elemental - III",
+        "Context": "Me leve para cima."
+      },
+      {
+        "Title": "Supremo - I",
+        "Context": "Fogo no pavio!"
+      },
+      {
+        "Title": "Supremo - II",
+        "Context": "Segurem o chapéu!"
+      },
+      {
+        "Title": "Supremo - III",
+        "Context": "Do pó ao pó."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - I",
+        "Context": "Dividir a pilhagem geralmente é motivo de conflito, mas para sua sorte, eu não preciso dessas coisas."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - II",
+        "Context": "Mora faz muitos problemas desaparecem. Nunca é possível ter Mora demais, né?"
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - III",
+        "Context": "Oh, brilhante... que bonito."
+      },
+      {
+        "Title": "Vida Baixa - I",
+        "Context": "Uma luta justa...!"
+      },
+      {
+        "Title": "Vida Baixa - II",
+        "Context": "Já estou aquecida."
+      },
+      {
+        "Title": "Vida Baixa - III",
+        "Context": "Quer me ver louca? Eu te mostro!"
+      },
+      {
+        "Title": "Aliado com Vida baixa - I",
+        "Context": "...Ei, não morra!"
+      },
+      {
+        "Title": "Aliado com Vida baixa - II",
+        "Context": "Atrás de mim!"
+      },
+      {
+        "Title": "Derrotado - I",
+        "Context": "Mamãe..."
+      },
+      {
+        "Title": "Derrotado - II",
+        "Context": "Não consegui... me superar..."
+      },
+      {
+        "Title": "Derrotado - III",
+        "Context": "Eu... estou caíndo..."
+      },
+      {
+        "Title": "Ataque Pesado Sofrido - I",
+        "Context": "Isso está prestes a virar uma bagunça..."
+      },
+      {
+        "Title": "Ataque Pesado Sofrido - II",
+        "Context": "...De novo!"
+      },
+      {
+        "Title": "Entrando na Equipe - I",
+        "Context": "Muito bem, quais asas precisam ser cortadas?"
+      },
+      {
+        "Title": "Entrando na Equipe - II",
+        "Context": "A brisa está inquieta hoje."
+      },
+      {
+        "Title": "Entrando na Equipe - III",
+        "Context": "Munições carregadas e pronta para a ação."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Informações do Personagem",
+        "Context": "Todos os humanos anseiam por poder e nenhum deles consegue evitar conflitos.\nAlguns lutam para proteger sua tribo e lutar contra o Abismo, enquanto outros o fazem para se provar superiores, elevados, mais dignos de Mora, vinho, poder e glória do que seus companheiros.\nMas até aqueles que amam a batalha sabem que devem ter um nome — Chasca.\nContanto que ela esteja no campo de batalha, até a luta mais feroz acabará rápido e silenciosamente.\nIsso não é inteiramente devido à eloquência dela ou suas habilidades como pacificadora, nem é inteiramente graças à compreensão dela da natureza humana concedendo a ela a habilidade de pensar em soluções satisfatórias. Ao invés disso, é mais...\nEssa \"pacificadora\" possui uma força ridícula e ela luta de um jeito que zomba do senso comum. Enfrentá-la de frente é comparável a desafiar o Qucussauro mais feroz enquanto você é um bebê recém-nascido desarmado.\nAqueles apaixonados por conflito também frequentemente temem força, e assim, eles geralmente se encontram sentando-se para falar a melhor escolha ao estarem de frente com um poder muito além do próprio deles.\nMesmo assim, eles se perguntam, por que Chasca consegue sempre aparecer no centro do conflito exatamente na hora certa?\nCom tal precisão, tanta acaso, pode-se dizer que ela é como se fosse atraída por conflito, ou ao invés disso... como uma \"fera\" que captura o cheiro de sua \"presa\"."
+      },
+      {
+        "Title": "História do Personagem 1",
+        "Context": "Chasca viveu com os Qucussauro desde que se lembra.\nInicialmente, ela acreditava que era uma Sauriana, embora não tivesse o bico de gancho e garras afiadas que sua mãe e irmã mais velha possuíam, não pudesse voar, nem pudesse saltar para cima de árvores de uma vez.\nA mãe dela a amava como se fosse sua própria carne e sangue, e ao retornar da caça, sempre alimentava as filhas primeiro.\nContudo, Chasca não estava contente em permanecer uma filhote esperando ser alimentada.\nQuando ela cresceu até conseguir descer os morros e saltar os rios, ela geralmente deixava seu ninho para observar a mãe e irmã caçarem.\nEla lembrava de como elas lutavam e adaptava aquelas técnicas para o próprio uso. Ela não tinha asas que pudesse abrir para voar, então ela saltava entre as copas das árvores. Ela não nasceu com bico e garra, então ela se armava com pedras.\nAnsiosa para caçar sozinha, ela vagava pela mata até que finalmente, seu primeiro poderoso inimigo surgiu — um Javali procurando comida.\nImitando os movimentos dos Qucussauros, ela saltou sobre o Javali, apenas para ser jogada para o chão pela forte investida dele.\nFicando de pé, ela pegou uma rocha próxima e a arremessou, mas o javali esquivou.\nNo fim das contas, ela foi forçada a voltar de mãos vazias, suas roupas em trapos, seu corpo coberto de ferimentos.\nA mãe dela trouxe ervas para tratá-la e sua irmã se opôs vigorosamente a quaisquer jornadas futuras.\nChasca concordou em se curar no ninho, mas voltou às montanhas no instante que suas feridas sararam.\nEla se movia entre a floresta e o rio, coletando todo tipo de coisa para usar: pedras afiadas, galhos resistentes, seiva pegajosa, as peles de animais mortos...\nA família dela não entendia o propósito de todo esse \"lixo\", mas achava que o novo passatempo de Chasca era algo bom mesmo assim.\nInesperadamente, ela fabricou uma nova arma com eles — um estilingue feito dos gravetos e pele, para atirar pedras mais rápido e longe.\n...\nO Javali encurralou um pequeno esquilo, jamais percebendo que também entrara no campo de outro caçador.\nSem aviso, ele encontrou algo preso em seu casco e lutou para se livrar disso em vão. Então, vários objetos afiados sibilando pelo ar, atingiram ele no crânio, um após o outro. Com um grito, o javali caiu morto.\nApenas então Chasca apareceu dos arbustos e arrastou seu troféu animada de volta ao ninho.\nA mãe e irmã dela pensaram na hora que Chasca certamente se tornaria uma caçadora habilidosa — mas as coisas evoluiriam além das expectativas dela.\nChasca realmente aprendeu e contemplou ainda mais técnicas de combate, como se fosse alguma voz nas sombras a guiando para sempre.\nMas quanto mais ela seguia essa voz, menos disposta a esperar nas sombras ela ficava. Ela ficou obcecada em tomar a iniciativa, se comparando tanto a aves quanto feras.\nCervos, Esquilos-Voadores, Pássaros do Peito Coroado, cada foi desafiado ansiosamente por ela. Ao invés de ser uma caçadora habilidosa em uma única emboscada fatal, ela era mais similar a uma guerreira implacável.\nMas quanto mais viciada na emoção da luta ela ficava, menos presas ela obtinha — pois animais são muito vigilantes, e tendo a reconhecido como um inimigo implacável, eles sempre fugiam antes que qualquer batalha pudesse acontecer.\nA jovem Chasca então enfrentou um dilema: batalhas emocionantes, ou uma barriga cheia...\nQue escolha horrível parecia na época!"
+      },
+      {
+        "Title": "História do Personagem 2",
+        "Context": "Diferentemente de outras crianças humanas, a primeira palavra de Chasca não foi \"mamãe\" ou \"papai\".\nA primeira vez que seu humano adotivo, Cusco, olhou para ela, seus olhos eram animalescos e ferozes, seus dentes rasgavam carne crua, era possível confundir a boca dele com um abismo escancarado enquanto ele encarava a Anciã Allpa, que supervisionou a entrega.\n\"Hmm, Anciã... Concordei em receber uma orfã, sim... mas tem certeza que ela não é um Qucussauro?\"\nEm Natlan, frequentemente atacados pelo Abismo, não era incomum que órfãos de guerra fossem adotados, mas um como Chasca, abandonada por humanos e adotada por Saurianos... Isso era coisa de lenda, apenas lenda.\nComo os eventos provaram, Cusco havia, de fato, subestimado o poder destrutivo desse \"Qucussauro\". Aquela raça de Saurianos já era conhecida por fazer o que bem entendia, mas o temperamento de Chasca provou que era mais difícil restringi-la do que seria até o mais orgulhoso dos animais.\n\"Aquela sem-vergonha! Ela roubou carne do armazém — de novo!\"\n\"Minha casa não é seu ninho maldito, sua sem-vergonha!\"\n\"Você tá de brincadeira comigo... aquela peste começou outra briga!\"\nPara piorar as coisas, Qucussauros geralmente têm intenção por trás de suas ações. Para obter, talvez, ou defender seu território... mas Chasca parecia determinada apenas a causar confusão. Ela tinha comida muito mais deliciosa do que carne crua na mesa para ela, e sua cama era muito mais macia do que um monte de palha, mas ela ainda buscava conflito constantemente, dia e noite.\nIsso tomou os pensamentos de Cusco. Ela percebera que isso poderia não ser uma simples selvageria de temperamento, ou uma inabilidade de se adaptar às novas circunstâncias dela... Mas qual seria a raiz desse problema?\nHumanos morriam por dinheiro e monstros por comida, mas isso? Essa perseguição do conflito sem ganhos, sem negociação, sem nada além do desejo de destruição? Ele só podia pensar em uma coisa — o Abismo.\n...Talvez fosse hora de ter uma boa \"conversa\" com sua filha.\nEntão, na próxima vez que Chasca entrou em apuros, sendo restringida por dois membros de elite do esquadrão voador, Cusco se apressou para pedir desculpas mais uma vez por não cuidar dela com mais atenção, e lá ele coçou sua testa em exasperação e perguntou:\n\"...Agora, o que você quer? Se você nunca falar, ninguém nunca vai entender.\"\n\"Que besteira você tá perguntando, Cusco? Essa peste não fala uma palavra que a gente entenda! Sério, o que você e a Anciã estavam pensando...\"\nA pequena Chasca fuzilou os membros do esquadrão de voo a segurando com o olhar, com rosnados formando em sua garganta, antes de proferir uma \"palavra\" grosseira>\n\"P...Pestes!\"\n...Bem. Esse foi um começo, Cusco pensou com um sorriso irônico. Em relação à comunicação, um insulto devolvido ainda contava."
+      },
+      {
+        "Title": "História do Personagem 3",
+        "Context": "A lamparina iluminava o rosto dormindo de Chasca, a luz das chamas tremia no rosto de Cusco e do xamã ao seu lado.\n\"O Abismo tem domínio sobre a alma dela, e seus garras cravejaram o conflito nela. Essa ferida pode piorar com o passar dos anos... Esse é um sinal de agouro, jamais visto antes.\nO xamã suspirou, pensando por um momento, antes de falar novamente, com palavras pesadas e consideradas.\n\"...Talvez seja melhor para todos que ela seja devolvida a floresta agora.\"\nCusco entendeu o que estava sendo dito implicitamente. Lidar com Chasca já era bem difícil agora, enquanto ela é pequena. Quem sabe o que poderia acontecer no futuro?\nO Abismo sempre foi o algoz de Natlan, mantê-la na tribo era dar abrigo à calamidade em potencial.\nMas não encontrar alguma maneira de restringir o Abismo nela... um \"retorno às montanhas\" era apenas um eufemismo para \"abandoná-la ao seu destino\".\nO desejo de Chasca por batalha nascia de dentro, assim como todos os humanos nascem com o desejo por comida. Outras pessoas lutavam por um motivo e quando seus objetivos eram alcançados, não havia mais necessidade de se forçarem mais.\nMas a ânsia de Chasca era um apetite sem fim. Até a doce e constante vitória poderia saciá-la apenas por um tempo.\nSe esse desejo não fosse contido, ela com certeza estaria fadada a destruir tudo ao seu redor, ou a ser abatida em alguma batalha violenta.\n\"Você deve tomar sua decisão... 'agora'.\"\nAs palavras do xamã dançavam na escuridão como a chama de uma vela.\nCusco olhou para a pequena Chasca. Sua respiração estava tranquila, roncando baixo, ela parecia tão em paz dormindo, de fato nada diferente de uma garota humana comum.\nCusco alisou seu cabelo com carinho, falando: \"Não. É tarde demais... É tarde demais agora.\"\n...\nChuychu, acordando no meio da noite, estava escondida por trás da porta, onde a luz não chegava.\nJovem como ela, ela não compreendeu tudo que foi dito entre os dois — mas o ar pesado e a tristeza de seu pai permaneceriam no coração dela mesmo assim."
+      },
+      {
+        "Title": "História do Personagem 4",
+        "Context": "Desde então, os pais de Chuychu sempre faziam viagens longas. Um dia, seria para ir ver um ancião recluso, no próximo, seria para coletar uma erva lendária.\nCada vez, uma delas teria a outra para ficar de olho, mas quando aconteciam emergências, os dois se apressavam, deixando a jovem Chuychu para trás com uma \"irmã mais velha\" que era mentalmente mais jovem que ela.\nFelizmente, Chasca parecia se comportar melhor após aprender a palavra \"peste\". Pelo menos agora, ela podia começar com uma introdução antes de ir direto para a surra.\nTalvez, Chuychu não podia deixar de se perguntar, ela até tinha percebido que ninguém se desculparia por ela e arrumaria sua bagunça enquanto seus pais estivessem longe.\n...Ou não. Com a personalidade dela, não tinha como ela saber quanto seus pais se preocupavam com ela... ou quão bem eles a tratavam.\nChuychu já tinha imaginado uma vida ao lado da irmã mais velha — uma companheira, compartilhadora de problemas, alguém para cuidar dela quando ela ficasse doente...\nMas desde que Chasca chegara, o pai dela se tornara muito mais ocupado e sua mãe cansada. Até aqueles da mesma idade que brincavam com ela agora se escondiam, intencionalmente ou não.\nIsso tudo era culpa de Chasca—\nChuychu balançou a cabeça intensamente conforme o pensamento passou pela sua mente.\nNão. Ela não podia pensar assim. Os anciões disseram que a tribo deve ser unida! E os pais dela disseram que eles tinham que ter pena de Chasca!\n...Mas se ela não estivesse por perto...\n\"Ei! Tá em casa, Cusco? Chasca entrou em uma briga de novo!\"\nO grito repentino cortou aquele pensamento.\nEla se apressou para a cena no lugar do pai, apenas para encontrar Chasca no meio de um grupo de crianças chorando, muitos antigos amigos dela, e o rosto Chasca era a própria fúria.\n\"Esses... pes...\" Chasca levantou sua mão para apontar para a pilha de crianças chorando.\n\"Outra briga? Sério?!\" Os pensamentos que Chuychu deteve voltaram rapidamente. \"É sempre assim. É por isso... por isso que eles não brincam mais comigo! É por isso que Mamãe e Papai não passam mais tempo comigo!\"\n\"Pes...tes...\" Chasca baixou a mão e, embora sua boca ainda repetisse aquelas palavras em grunhidos, sua voz diminuiu cada vez mais.\n\"Você é a pior peste aqui!\"\nFinalmente, as palavras que Chuychu escondeu em seu coração romperam para fora.\nOs olhos de Chasca se arregalaram, seus lábios tremendo como se fossem dizer algo. Então, ela finalmente olhou para o chão, se virou e correu do assentamento.\n...Ela vai ficar bem, Chuychu pensou. Essa não é a primeira vez que ela foge. Eles só precisavam procurar por ela depois.\nMas a inquietação no coração dela não podia ser tranquilizada.\n\"O que houve lá com Chasca? Ela estava muito bem nos últimos dias... O que você disse que foi um gatilho para ela?\" Um adulto que chegou na cena murmurou.\nAs crianças que apanharam se entreolharam, hesitando em falar. Um momento depois, alguém levantou a mão e diz com a voz tremendo:\n\"Nós... Era só uma discussão no começo! Então alguém disse...\"\n\"Aguém disse que Tio Cusco e a família dele também era idiotas por... manter uma peste na nossa tribo... A gente só tava brincando, eu juro! E-E ouvimos isso dos adultos!\"\n\"Eles disseram para não brincar com Chuychu... que a doença da irmã dela podia passar para...\"\nChocada, Chuychu se virou, indo atrás dos rastros de Chasca.\nMas não havia nada entre as montanhas além de um vento pesaroso, dando uma voz uivante para algum choro para o qual não haveria palavras."
+      },
+      {
+        "Title": "História do Personagem 5",
+        "Context": "\"Por quê? Esse não é meu ninho.\"\n\"Aquela 'Anciã' me forçou a isso.\"\n\"Aqueles humanos me fizeram comer coisas. Vestir coisas. Passar algumas noites não tão frias entre eles.\"\n\"Eu poderia voltar a qualquer hora. Isso mesmo. Vou voltar para meu ninho.\"\n\"Mamãe pode me botar para correr de novo, mas minha Irmã vai falar por mim.\"\n\"A 'doença' dói. Mas pode doer quanto quiser. Não preciso que humanos me 'curem'.\"\nEsses pensamentos caóticos revolviam em sua mente.\nSaltos bem-praticados a carregavam árvore sobre árvore conforme ela respirava o ar familiar e fresco da montanha e o sentia o cheiro das folhas. Mesmo assim, ela não conseguia esquecer as chamas das velas da tribo.\n\"Eu não preciso de fogo para me manter aquecida. Eu não preciso de fogo para acender a noite. Mamãe e minha Irmã também nunca precisaram.\"\n\"Humanos são fracos. Eles temem a noite fira, então acendem fogos. Saurianos orgulhosos e fortes não precisam disso.\"\n...E mesmo assim, o fogo era tão quente.\nEsses pensamentos covardes tomaram sua mente e, de repente, eles ecoaram, a fazendo parar rapidamente com uma forte dor de cabeça. Ela caiu das árvores.\n—\"Aquilo\" estava aqui de novo.\nCerrando os dentes, Chasca se colocou contra a árvore, seus dedos trêmulos deixando rastros de sangue nos galhos.\n\"Lute. Morda. Destrua. Assim, você pode esquecer toda a infelicidade.\"\n\"Esqueça a covardice dessa breve permanência forçada a você. Esqueça as correntes que o mundo humano usou para prender você. Todas as coisas nasceram selvagens! Feras de nascimento!\"\nEla ouvira aquela voz desde sempre. Inicialmente, ela meramente a guiava em caça para morder sua presa. Então ela se tornara mais frequente, seus barulhos a deixava tonta e fraca, a libertação vinha apenas quando ela cedia e causava estrago.\n\"Mamãe me enviou para os humanos... esperando que eles pudessem me curar, não foi?\"\n\"Mas não serviu. O mundo humano é mais barulhento do que o ninho. Humanos discordam e lutam o dia todo. Eles estão sempre em conflito. E a \"voz\" fica mais clara quando eles lutam. Mais tentadora.\"\n\"—Irmã, eu não quero desapontar a Mamãe, mas...\"\nChasca havia tentado desabafar com a irmã mais velha em várias ocasiões, mas, infelizmente, línguas humanas não podiam fazer barulhos de Qucussauros.\n\"E vocês, eu sei que vocês não querem que eu lute, mas...\"\nChasca também havia tentado se comunicar com Cusco e sua esposa, mas uma criança Qucussauro não conseguia formar palavras humanas.\n\"—Eles mereciam a surra! Eles me desrespeitaram! Eles também desrespeitaram você!\"\nChasca tentara se explicar para Chuychu, mas apenas a palavra atropelada 'peste', saiu de sua boca.\n\"Esqueça eles! Eu consigo ouvir você e você consegue me ouvir. Isso é tudo que você precisa!\"\n\"Não precisa explicar. Não precisa entender! Só quebre tudo que te machuca! Destrua tudo que ficar no seu caminho!\"\nMesmo agora, aquela voz gritava em sua cabeça, a agitando.\n\"—Basta! Você é quem eu mais odeio! Você é a maior, pior e mais odiosa peste!\"\nChasca não fazia nada além de rugir enquanto esmurrava a árvore, como se ela pudesse arrancar aquela voz e a espancar até virar uma polpa!\nTronco e folhas iam para todo lado, mas a \"voz\" ria ainda mais loucamente.\n...\nLuar prateado penetrou as árvores, sua luz brilhosa iluminando o rosto pálido de Chasca.\nEla havia desmaiado, seus punhos eram uma catástrofe de pele rasgada e carne lameada, os ossos expostos sorrindo medonhamente.\nTudo doía. Ela não conseguia se mover. As pálpebras dela estavam tão, tão pesadas. Até a voz na cabeça dela estava completamente esgotada.\n\"Claro que estaria. 'Ela' está morrendo porque 'ela' sou eu.\"\n\"Aqui não está longe da tribo e tem tantas árvores para cobrir. Mamãe e minha Irmã não vão conseguir me encontrar, vão?\"\nCusco e sua esposa estavam fora. Não tinha como eles voltarem a tempo de encontrar alguém que fugiu de casa.\nNinguém saberia que Chasca estava prestes a morrer aqui.\n...E tudo bem. Esse mundo estaria livre de mais uma peste, Chasca se forçou a pensar — e sem mencionar a peste ainda maior dentro dela.\n...O luar era um pouco frio demais no fim das contas.\n...\nVagamente, ela sentiu um calor em seu rosto, como a leve cobertura das asas da sua mãe, como velas humanas. Chasca abriu os olhos lentamente.\nNa frente dela estava uma fogueira humilde e uma jovem agachada cuidando dela com atenção — Chuychu.\n\"...Ah!\" Percebendo que Chasca estava acordada, Chuychu rapidamente escondeu sua mão atrás das costas. Pela luz do fogo, Chasca conseguia ver que as mãos dela estavam levemente queimadas.\n\"...Sua mão está bem agora?\" Chuychu desviou.\nApenas então Chasca percebeu as bandagens firmes envolvendo suas mãos. Era um trabalho desengonçado, mas bom suficiente para impedir o sangramento.\n\"...Eu não conseguia te mover, então tive que fazer o que pude aqui... Mas acendi uma fogueira, então os adultos devem encontrar a gente logo.\"\nChasca não respondeu, mas a pergunta que seus olhos fizeram estava clara.\n\"...Bem, Mamãe e Papai ficariam tristes se alguma coisa acontecesse com você.\"\n\"...\"\n\"E também... Obrigada por me defender. Desculpa por gritar com você antes perguntando o que aconteceu.\"\n\"...\"\n\"Enfim... Vamos para casa, certo?\"\n\"...Casa...\" Chasca rompeu o silêncio, balbuciando a palavra recém-aprendida. Então ela acenou. \"...Vamos 'para casa'.\""
+      },
+      {
+        "Title": "\"Pacificadora\"",
+        "Context": "A primeira vez que a Capitã de Voo, Anciã Allpa, veio ensinar Chasca, foi porque a porta da frente dela havia sido inundada por reclamações sobre Chasca e as surras que ela dava por aí.\nMas não importa quanto tempo Allpa passassem desenvolvendo explicações do mundo humano e suas leis, a pequena Chasca nunca conseguiu entender o que estava errado em lutar.\nSaurianos e feras todas decidiam as coisas pela força. Ela havia ganhado a luta, então por que ela estava sendo questionada?\nAllpa fala e gesticulava enquanto Chasca a estudava, se perguntando se ela podia ficar livre das aulas se ela conseguisse simplesmente derrotar a Anciã.\nMas na segunda vez que ela veio orientar Chasca, ela percebeu imediatamente que havia algo diferente no olhar da garota.\n\"...Me ensina. Fica forte.\" Com aquelas palavras desengonçadas, Chasca pediu para aprender a vida humana. \"Abismo... quer derrotar.\"\n\"...Tudo bem. Nesse caso, deixe-me te ensinar sobre a maior arma da humanidade.\"\nAo dizer isso, Allpa pegou um pergaminho tecido, requintada frase de pequenas palavras bordadas no topo: \"Pacificador — a Arte da Comunicação.\"\n\"Nossa maior arma é nossa linguagem.\"\nMas o que balançar os lábios tinha a ver com força? Chasca não conseguia entender direito.\nEla preferia aprender a usar várias armas, de arcos a armas de fogo, ou talvez aprender a usar Flogisto, ou como atirar enquanto está no ar.\nSe alguém fosse forte suficiente, falar era desnecessário... Isso era o que ela pensava no passado, pelo menos.\nMas ela sabia que do jeito que estava, ela não conseguia arrancar a voz do próprio coração e espancá-la até que se calasse para sempre.\nEntão, ela persistiu, aprendendo cada palavra que Allpa tinha para ensinar, devorando aquele pergaminho tecido que ela jamais achou que fosse ler, pedaço por pedaço, frase por frase.\nComo resultado, quando ela aprendeu a se comunicar com outros, coordenar com outros e confiar neles, a eficiência de suas caças pareceu aumentar — exatamente como disse o pergaminho.\nQuando ela escreveu uma carta para Chuychu no aniversário dela e desejou que ela ficasse bem, ela e seus pais pareceram prazerosamente surpresos — exatamente como o pergaminho havia dito.\nE quando ela participou da Peregrinação do Retorno da Chama Sagrada, carregando as expectativas de todos em seus ombros, parecia como se o povo do Clã das Plumas de Flores olhasse para ela com um pouco mais de respeito — exatamente como o pergaminho havia dito.\n...\n\"Aqui está. O calibre mais alto possível e a maior mobilidade possível... Se eu não soubesse o que você pode fazer, ou se esse pedido viesse de outra pessoa, eu teria usado os materiais que me trouxessem para enfiar juízo na cabeça da pessoa.\"\n\"Obrigada, Xilonen. Isso deve me fazer mais persuasiva como pacificadora.\"\nAo receber o quase comicamente enorme \"Atiradora de Almas: Cajado Ritual\", Chasca testou seu peso usando as rédeas em sua mão.\n\"Eu diria... Quem discordaria de você após ser atingido com essa coisa mesmo, hein? Essa tem que ser a arma mais forte que eu já fiz para sua tribo.\"\n\"...Não, 'uma bala tem mais poder quando ainda não deixou o tambor'.\"\nConforme ela acariciava o carregador da arma, as analogias de um certo pergaminho tecido vieram a Chasca espontaneamente.\n\"A arma mais forte, hein... Então, a partir de hoje, seremos conhecidas como 'Pacificadoras'.\""
+      },
+      {
+        "Title": "Visão",
+        "Context": "Naquele ponto, ela há muito deixara de ser aquela garota selvagem que causava conflito e se tornou uma Pacificadora que acabava com conflitos incontáveis.\nTambém quase não havia disputa que não pudesse ser resolvida pela intervenção dela, fosse entre humanos, tribos e Saurianos, ou até entre Saurianos.\nMas se houvesse alguma força além da compreensão racional com a qual nem mesmo a maior comunicadora pudesse alcançar consenso, seria o Abismo.\nDesde que ela aprendeu a viver com \"aquilo\" que vivou dentro dela, \"sua\" voz enfraqueceu e, de fato, Chasca até pensou que \"ela\" tinha desaparecido por um tempo.\nMas naquela Guerra da Guarda Noturna, \"ela\" foi revigorada pelo Abismo, e como uma borboleta saindo da crisálida, ela se manifestou como uma ilusão — uma idêntica a ela.\n\"Nos encontramos finalmente. Há muito tempo lutamos, com nenhuma de nós capaz de superar a outra... Mas venha, vamos acabar com isso. Se aproxime de mim, me abrace... e a maior força será sua.\nConforme a batalha seguiu, quanto mais monstros Chasca eliminava, maior ficava o controle do poder do Abismo sobre ela e mais sua sede pela batalha se ampliava.\nAnsiosos eram os passos dela enquanto ela buscava outro alvo para abater, com munições gastas e cadáveres se empilhando em seus pés.\nNaquele campo de batalha horrível, a ilusão com sua mão esticada parecia quase uma enviada trazendo a paz.\nMas o instinto levantou a arma de Chasca até ela. Essa era sua melhor chance. Era hora de reduzir essa voz odiosa a uma bagunça sanguinária de uma vez por todas.\n\"Então você vai me matar? Mas quem vai te entender, quem vai te fazer companhia... senão eu?\"\nMais fantasmas surgiram e voaram até ela, trazendo os sentimentos que ela mantinha escondidos de volta para fora:\nNo passado, ela foi deixada para trás, vista como uma alienígena por todos.\nEla não era uma Sauriana, mas ela não era uma \"humana\" no sentido normal também. Ela tinha um \"lar\", porém trilhava um caminho solitário.\nNinguém conseguia entender a ansiedade que marcava seu coração, nem poderiam apagar esse incêndio.\nAquela ilusão era como uma visão da água após uma seca jornada pelo deserto.\nSerá que ela poderia mesmo colocar um fim a esse conflito infinito, aqui e agora?\nConforme ela andou para frente, passo a passo, o poder do Abismo a envolveu, e ela tremia e ficava mais fraca.\nMas essa sensação era tão familiar, como a de um bebê retornando aos braços da mãe.\nEla já fora abandonada. Era aqui onde ela pertencia?\n...\nMas assim que ela estava prestes a tocar a aparição, vozes cheias de calor chamaram ela por trás.\n\"Ei, mana. Deixa um aviso na próxima vez que você sair de casa, beleza?\"\n\"Você é livre para escolher o próprio caminho na vida, mas lembre-se, você sempre terá um lar aqui com a gente.\"\n(\"Por que você voltou aqui? Você escolheu viver com os humanos, não foi?\")\n(\"Coya só tende a dizer palavras duras. Todos sentimos sua falta, sério...\")\nBalançando a cabeça, Chasca parou de se mover.\nNo passado, ela seguira cegamente a voz em seu coração, com fome de mais batalha e sede de força.\nAté agora, ela ainda caminhava sozinha por hábito, verdade, mas ela agora sabia o significado dos laços forjados como \"humana\".\nLevantando sua arma mais uma vez, ela mirou e disparou todas as balas que estavam nela.\nO fantasma se despedaçou como um espelho ao ser atingido, icor vermelho escorrendo entre os fragmentos.\n\"Hah, sua hipócrita... Você diz que deseja parar lutas, mas levanta sua arma contra mim. Que patética.\"\nA aparição desapareceu como fumaça, deixando apenas uma voz vazia em seus ouvidos.\n\"Não. Eu conheço 'você' bem demais. É por isso que tenho certeza que essa é a única maneira de haver paz entre nós.\"\nChasca ejetou o carregador vazio e se preparou para recarregar, apenas para uma \"bala\" cair no chão, tintilando enquanto isso.\nBaixando sua cabeça, ela viu que era uma Visão, brilhando com sua própria luz.\nAo pegá-la, ela a jogou no ar com seu dedão antes de segurá-la.\n\"Pode vir, então. Não importa quantas disputas me aguardem, vou pacificar todas... incluindo 'você'.\""
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 210400,
+      "Name": "Espectro Noturno de Tlalocan",
+      "Description": "O Vestuário de Chasca. Em seu sangue corre o espírito da batalha, e em suas pupilas reflete-se a determinação inabalável. Superar a dor trazida pela morte é o orgulho dos heróis de Tlalocan.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104154,
+    113067,
+    101253,
+    112103,
+    104355,
+    113061
+  ],
+  "NameCard": {
+    "Name": "Chasca: Carga Máxima",
+    "Description": "Estilo de cartão de visita.\nNão tema, ela está aqui para manter a paz, não para se envolver em uma briga. A única dúvida é se economiza algumas balas... Sabe, do tipo disparada para cima como aviso.",
+    "Icon": "UI_NameCardIcon_Chasca",
+    "PicturePrefix": "UI_NameCardPic_Chasca"
+  }
+}

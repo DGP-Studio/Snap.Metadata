@@ -1,0 +1,1004 @@
+{
+  "Id": 10000105,
+  "PromoteId": 105,
+  "Sort": 89,
+  "Body": 4,
+  "Icon": "UI_AvatarIcon_Olorun",
+  "SideIcon": "UI_AvatarIcon_Side_Olorun",
+  "Name": "Ororon",
+  "Description": "Un giovane membro dei Maestri del Vento della Notte che ama vivere in mezzo alla natura, accanto a forme di vita d'ogni sorta.",
+  "BeginTime": "2024-11-19T00:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 12,
+  "BaseValue": {
+    "HpBase": 775.02234,
+    "AttackBase": 20.4792,
+    "DefenseBase": 49.2135
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 10531,
+        "Proud": {
+          "Descriptions": [
+            "DAN da 1º colpo|{param1:F1P}",
+            "DAN da 2º colpo|{param2:F1P}",
+            "DAN da 3º colpo|{param3:F1P}",
+            "ATT mirato|{param4:F1P}",
+            "ATT mirato a piena carica|{param5:P}",
+            "DAN da ATT in picchiata|{param6:F1P}",
+            "DAN da ATT in picchiata basso/alto|{param7:P}/{param8:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.50642,
+                0.443734,
+                0.698208,
+                0.4386,
+                1.24,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.54764,
+                0.479852,
+                0.755039,
+                0.4743,
+                1.333,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.58886,
+                0.51597,
+                0.81187,
+                0.51,
+                1.426,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.647746,
+                0.567567,
+                0.893057,
+                0.561,
+                1.55,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.688966,
+                0.603685,
+                0.949888,
+                0.5967,
+                1.643,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.736075,
+                0.644963,
+                1.014838,
+                0.6375,
+                1.736,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.80085,
+                0.701719,
+                1.104143,
+                0.6936,
+                1.86,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.865624,
+                0.758476,
+                1.193449,
+                0.7497,
+                1.984,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.930399,
+                0.815233,
+                1.282755,
+                0.8058,
+                2.108,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.001062,
+                0.877149,
+                1.380179,
+                0.867,
+                2.232,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.071725,
+                0.939065,
+                1.477603,
+                0.9282,
+                2.356,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.142388,
+                1.000982,
+                1.575028,
+                0.9894,
+                2.48,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.213052,
+                1.062898,
+                1.672452,
+                1.0506,
+                2.635,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.283715,
+                1.124815,
+                1.769877,
+                1.1118,
+                2.79,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.354378,
+                1.186731,
+                1.867301,
+                1.173,
+                2.945,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 30501,
+        "Name": "Attacco normale: Freccia albergaspiriti",
+        "Description": "<color=#FFD780FF>Attacco normale</color>\nEffettua fino a 3 tiri consecutivi con un arco.\n\n<color=#FFD780FF>Attacco caricato</color>\nEffettua un <color=#FFD780FF>attacco mirato</color> ancora più preciso con DAN aumentati.\nMentre mira, sulla punta della freccia si concentra l'energia di Electro. Una freccia caricata al massimo infligge ingenti <color=#FFACFFFF>DAN da Electro</color>.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nScocca una pioggia di frecce a mezz'aria prima di cadere e colpire il suolo, infliggendo DAN ad area all'impatto.",
+        "Icon": "Skill_A_02"
+      },
+      {
+        "GroupId": 10532,
+        "Proud": {
+          "Descriptions": [
+            "DAN da Sfera spiritica|{param1:F1P}",
+            "#TdR|{param2:F1}{NON_BREAK_SPACE}s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                1.976,
+                15
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                2.1242,
+                15
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                2.2724,
+                15
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                2.47,
+                15
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                2.6182,
+                15
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                2.7664,
+                15
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                2.964,
+                15
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                3.1616,
+                15
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                3.3592,
+                15
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                3.5568,
+                15
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                3.7544,
+                15
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                3.952,
+                15
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                4.199,
+                15
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                4.446,
+                15
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                4.693,
+                15
+              ]
+            }
+          ]
+        },
+        "Id": 30502,
+        "Name": "Lancio della Notte",
+        "Description": "Ororon rivela un'antica tecnica mistica dei Maestri del Vento della Notte dando forma a una <color=#FFD780FF>Sfera spiritica</color> fatta di ombre notturne, che lancia contro il suo avversario infliggendo <color=#FFACFFFF>DAN da Electro</color> con attributo Anima della Notte.\nQuando sono presenti altri avversari vicini, la Sfera spiritica rimbalza tra loro, infliggendo <color=#FFACFFFF>DAN da Electro</color> con attributo Anima della Notte. Per ogni uso dell'abilità elementale Lancio della Notte, ciascun avversario può essere designato come bersaglio una volta sola.\nDopo 3 rimbalzi o quando non ci sono più bersagli disponibili, la Sfera spiritica svanisce.\n\n<i>\"Le persone desiderano sempre predire il futuro, ma forse è perché devono ancora scoprire ciò che devono fare... Chiedo scusa, lo so, sto dicendo di nuovo cose complicate...\"</i>",
+        "Icon": "Skill_S_Olorun_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 10539,
+      "Proud": {
+        "Descriptions": [
+          "DAN da rituale|{param1:F1P}",
+          "DAN da Collisione sonica|{param2:F1P}",
+          "#Durata|{param3:F1}{NON_BREAK_SPACE}s",
+          "#TdR|{param4:F1}{NON_BREAK_SPACE}s",
+          "Costo energia|{param5:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              1.74384,
+              0.332,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              1.874628,
+              0.3569,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              2.005416,
+              0.3818,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              2.1798,
+              0.415,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              2.310588,
+              0.4399,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              2.441376,
+              0.4648,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              2.61576,
+              0.498,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              2.790144,
+              0.5312,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              2.964528,
+              0.5644,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              3.138912,
+              0.5976,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              3.313296,
+              0.6308,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              3.48768,
+              0.664,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              3.70566,
+              0.7055,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              3.92364,
+              0.747,
+              9,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              4.14162,
+              0.7885,
+              9,
+              15,
+              60
+            ]
+          }
+        ]
+      },
+      "Id": 30505,
+      "Name": "Eco di voci oscure",
+      "Description": "Ororon esegue un antico rituale che infligge <color=#FFACFFFF>DAN da Electro ad area</color> con attributo Anima della Notte, evocando un Occhio supersonico.\n\n<color=#FFD780FF>Occhio supersonico</color>\n· Provoca continuamente gli avversari, attirando i loro attacchi.\n· Gira costantemente scagliando onde soniche che infliggono <color=#FFACFFFF>DAN da Electro</color> con attributo Anima della Notte agli avversari.\n\n<i>Le persone che hanno sensi sufficientemente acuti riescono a sentire le voci distanti con cui tutte le cose parlano. Così facendo, non potranno mai perdersi, neanche nelle lunghe notti senza luce.</i>",
+      "Icon": "Skill_E_Olorun_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 10521,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                40,
+                1.6,
+                10,
+                6
+              ]
+            }
+          ]
+        },
+        "Id": 1052101,
+        "Name": "Sinestesia notturna",
+        "Description": "#Dopo che un membro del gruppo ha innescato un Impeto dell'Anima della Notte, Ororon recupera 40 punti Anima della Notte. Per 15{NON_BREAK_SPACE}s dopo aver usato l'abilità elementale, Ororon recupera 5 punti Anima della Notte quando altri membri del gruppo colpiscono gli avversari con attacchi di <color=#80C0FFFF>Hydro</color> o <color=#FFACFFFF>Electro</color>. Quest'effetto può attivarsi una volta ogni 0,3{NON_BREAK_SPACE}s per un massimo di 10 volte nel corso della sua durata.\nOroron può avere un massimo di 80 punti Anima della Notte.\n\nInoltre, quando gli avversari circostanti subiscono DAN da reazione di <color=#FFACFFFF>Electrocarica</color> o DAN con attributo Anima della Notte inflitti da altri personaggi vicini, Ororon consuma 10 punti Anima della Notte (se li ha a disposizione), entra nello stato di Grazia dell'Anima della Notte e innesca l'effetto Ultrasenso, che infligge <color=#FFACFFFF>DAN da Electro</color> con attributo Anima della Notte pari a un 160% del suo ATT a un massimo di 4 avversari vicini. Quest'effetto può attivarsi una volta ogni 1,8{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Grazia dell'Anima della Notte: Ororon</color>\nLo stato di Grazia dell'Anima della Notte di Ororon dura 6{NON_BREAK_SPACE}s.",
+        "Icon": "UI_Talent_S_Olorun_05"
+      },
+      {
+        "GroupId": 10522,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                15,
+                3,
+                3,
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        "Id": 1052201,
+        "Name": "Catalizzatore dello spirito",
+        "Description": "#Quando la <color=#FFD780FF>Sfera spiritica</color> dell'abilità elementale <color=#FFD780FF>Lancio della Notte</color> colpisce un avversario, Ororon ottiene l'effetto Sigillo dello spirito per 15{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Sigillo dello spirito</color>\nQuando un membro attivo del gruppo colpisce un avversario con degli attacchi normali, caricati o in picchiata, l'energia di quest'ultimo si ripristina di 3. Se Ororon non è in campo, anche la sua energia si ripristina di 3. Quest'effetto può attivarsi una volta ogni 1{NON_BREAK_SPACE}s e fino a un massimo di 3 volte nel corso della sua durata.",
+        "Icon": "UI_Talent_S_Olorun_06"
+      },
+      {
+        "GroupId": 10523,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 1052301,
+        "Name": "Dono del Reame notturno: Nebbia fluente, ombre vivaci",
+        "Description": "#Se si trova in un'area di Natlan dove sono presenti uno o più Meccanismi flogistici, può usare Trasmissione dell'Anima della Notte: Ororon. Quando il personaggio attivo è sospeso a mezz'aria, passare il controllo a Ororon attiva il seguente effetto: Ororon compie un balzo formidabile verso l'alto. Trasmissione dell'Anima della Notte può attivarsi una volta ogni 10{NON_BREAK_SPACE}s all'interno del tuo gruppo.\n\nPassare alla modalità di mira permette a Ororon di entrare nello stato medianico, che gli consente di interagire con i Graffiti e i Sigilli dello Spirito della Notte ed estrarne informazioni e potere. Le regole per l'interazione con gli oggetti sopracitati sono le stesse seguite dagli Iktomisauri.\n\nInoltre, la pressione prolungata del {LAYOUT_MOBILE#pulsante}{LAYOUT_PC#tasto}{LAYOUT_PS#tasto} di salto fa consumare a Ororon 75 punti di vigore per eseguire il balzo. Nelle aree di Natlan dove sono presenti dei Meccanismi flogistici, Ororon dà la priorità al consumo di Flogisto, usando 5 punti di quest'ultimo per saltare ancora più in alto.\nQuando è in aria, la pressione prolungata dell'attacco normale permette a Ororon di consumare Flogisto o vigore per entrare in modalità di mira.",
+        "Icon": "UI_Talent_S_Olorun_07"
+      },
+      {
+        "GroupId": 10525,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 1052501,
+        "Name": "Arte metamorfica",
+        "Description": "Aumenta di un 15% la VEL di planata per i membri del tuo gruppo.\nNon è cumulabile con talenti passivi che conferiscono gli stessi effetti.",
+        "Icon": "UI_Talent_S_Olorun_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1051,
+        "Name": "Tracce nel bosco brumoso",
+        "Description": "#La <color=#FFD780FF>Sfera spiritica</color> dell'abilità elementale <color=#FFD780FF>Lancio della Notte</color> può rimbalzare 2 volte in più.\nInoltre, quando la <color=#FFD780FF>Sfera spiritica</color> colpisce un avversario, applica l'effetto Nottescura per 12{NON_BREAK_SPACE}s. Se il talento passivo Sinestesia notturna è sbloccato, gli avversari sotto l'effetto di Nottescura subiscono un 50% di DAN in più dall'effetto Ultrasenso innescato dal suddetto talento passivo.",
+        "Icon": "UI_Talent_S_Olorun_01"
+      },
+      {
+        "Id": 1052,
+        "Name": "Il Re ape dell'idromele nascosto",
+        "Description": "#Dopo aver usato il Tripudio elementale <color=#FFD780FF>Eco di voci oscure</color>, Ororon ottiene l'effetto Supersenso spirituale per 9{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Supersenso spirituale</color>\nOttiene un 8% di <color=#FFACFFFF>bonus DAN da Electro</color>.\nInoltre, mentre l'effetto è attivo, ogni nemico aggiuntivo colpito dal Tripudio elementale <color=#FFD780FF>Eco di voci oscure</color> o dall'<color=#FFD780FF>Occhio supersonico</color> conferisce a Ororon un ulteriore 8% di <color=#FFACFFFF>bonus DAN da Electro</color>. Il bonus massimo che è possibile ottenere in questo modo è pari a un 32%.",
+        "Icon": "UI_Talent_S_Olorun_02"
+      },
+      {
+        "Id": 1053,
+        "Name": "Gabbia spirituale del pipistrello",
+        "Description": "Aumenta di 3 il livello di <color=#FFD780FF>Eco di voci oscure</color>.\nIl livello di potenziamento massimo è 15.",
+        "Icon": "UI_Talent_U_Olorun_01"
+      },
+      {
+        "Id": 1054,
+        "Name": "Come i misteri del Vento della Notte",
+        "Description": "Aumenta di un 25% la velocità di rotazione dell'<color=#FFD780FF>Occhio supersonico</color> evocato dal Tripudio elementale <color=#FFD780FF>Eco di voci oscure</color>.\nInoltre, dopo aver usato <color=#FFD780FF>Eco di voci oscure</color>, l'energia di Ororon si ripristina di 8.",
+        "Icon": "UI_Talent_S_Olorun_03"
+      },
+      {
+        "Id": 1055,
+        "Name": "Un tributo per l'anima",
+        "Description": "Aumenta di 3 il livello di <color=#FFD780FF>Lancio della Notte</color>.\nIl livello di potenziamento massimo è 15.",
+        "Icon": "UI_Talent_U_Olorun_02"
+      },
+      {
+        "Id": 1056,
+        "Name": "Ode alle sorgenti profonde",
+        "Description": "#Dopo aver innescato Ultrasenso tramite il talento passivo Sinestesia notturna, l'ATT del personaggio attivo aumenta di un 10% per 9{NON_BREAK_SPACE}s. Tale aumento è cumulabile fino a 3 volte, e ciascun accumulo è conteggiato in modo indipendente.\nInoltre, usare il Tripudio elementale <color=#FFD780FF>Eco di voci oscure</color> innesca un'iterazione di un effetto equivalente a Ultrasenso che infligge il 200% dei suoi DAN originali.\nRichiede il talento passivo Sinestesia notturna.",
+        "Icon": "UI_Talent_S_Olorun_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Ombra del Vento della Notte",
+    "Detail": "Un giovane membro dei Maestri del Vento della Notte che ama vivere in mezzo alla natura, accanto a forme di vita d'ogni sorta.",
+    "Association": 9,
+    "Native": "Mictlan",
+    "BirthMonth": 10,
+    "BirthDay": 14,
+    "VisionBefore": "Electro",
+    "ConstellationBefore": "Vampyrum Spectrum",
+    "CvChinese": "梁达伟",
+    "CvJapanese": "近藤隆",
+    "CvEnglish": "Nathan Nokes",
+    "CvKorean": "Seo Joung-ik",
+    "CookBonus": {
+      "OriginItemId": 108722,
+      "ItemId": 108776,
+      "InputList": [
+        100084,
+        100076,
+        100079
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Presentazione",
+        "Context": "Ah, ciao. Sono Ororon dei Maestri del Vento della Notte. Vuoi delle verdure?\nAh, non preoccuparti, non sto cercando di venderti nulla e non voglio niente in cambio. Non c'è un motivo, davvero. È che mi piace scoprire ciò che diventerà ogni seme, quindi finisco sempre per avere un sacco di prodotti. La cosa più importante è che le mie verdure finiscano nello stomaco di qualcuno che le sappia apprezzare."
+      },
+      {
+        "Title": "Dialogo: Gente stramba",
+        "Context": "Qualcuno ti ha detto che i Maestri del Vento della Notte sono una tribù di gente stramba? Mh, chi altro lo è? Pensavo di essere l'unico strambo."
+      },
+      {
+        "Title": "Dialogo: Obiettivo",
+        "Context": "Avere un animale preferito, o una verdura o un frutto, può aiutarci a capire che tipo di persona vogliamo diventare."
+      },
+      {
+        "Title": "Dialogo: Fumo",
+        "Context": "A volte, un percorso velato indica che non deve essere percorso. Se procedi con cieca ambizione, il fumo potrebbe soffocarti."
+      },
+      {
+        "Title": "Quando piove",
+        "Context": "Se corro, mi si sporcano i vestiti di fango. Se volo... il mio mantello si appesantisce per via della pioggia. Meglio trovare un luogo dove ripararsi in attesa che spiova."
+      },
+      {
+        "Title": "Quando tuona",
+        "Context": "I fulmini mi ricordano i serpenti. Mi chiedo se le persone usino la loro forma e il loro aspetto per predire il futuro... Ripensandoci, sembra un po' pericoloso."
+      },
+      {
+        "Title": "Quando nevica",
+        "Context": "...Ci sono cose sepolte sotto la neve. Fai attenzione, non vogliamo svegliarle."
+      },
+      {
+        "Title": "Quando spunta il sole",
+        "Context": "Il sole è una fiamma eterna e gli abitanti di Natlan non hanno paura di guardarlo direttamente. E se la luce diventa troppo intensa, gli occhiali da sole sono sempre un'opzione."
+      },
+      {
+        "Title": "Nel deserto",
+        "Context": "Ma qui... si può coltivare qualcosa? Forse dovremmo andarcene."
+      },
+      {
+        "Title": "Buongiorno",
+        "Context": "Scusami. Ho gli occhi aperti, ma sono ancora mezzo addormentato... Possiamo parlare più tardi?"
+      },
+      {
+        "Title": "Buon pomeriggio",
+        "Context": "Il mio stomaco dice che è ora di pranzo, ma non riesco a pensare a cosa mangiare... Forse la mia mente è ancora addormentata."
+      },
+      {
+        "Title": "Buonasera",
+        "Context": "Mi andrebbe proprio del caffè frizzante alla pianta grassa Artiglio di Saurico. Io lo prendo nero... Eh? Il caffè si dovrebbe bere solo di mattina? Beh, allora... Buongiorno."
+      },
+      {
+        "Title": "Buonanotte",
+        "Context": "A quest'ora della notte sono sempre sveglio, quindi non preoccuparti e vai a riposare. Prima ci provavo a dormire, ma ho lasciato perdere da molto tempo. Penso che me ne andrò a controllare i ravanelli."
+      },
+      {
+        "Title": "A proposito di Ororon: Comunicazione",
+        "Context": "So che a volte dico cose difficili da comprendere. Se non capisci qualcosa, non esitare a chiedere spiegazioni. Non mi dà fastidio."
+      },
+      {
+        "Title": "A proposito di Ororon: Mistero irrisolto",
+        "Context": "Non conosco le mie origini, ma questo non mi preoccupa più di tanto... M'interessa molto di più sapere dove sto andando."
+      },
+      {
+        "Title": "A proposito di noi: Scuse",
+        "Context": "Mi dispiace... No, mi dispiace davvero tanto. So che non ho fatto una buona impressione mentendoti all'inizio. Ti ho spiegato le mie motivazioni e ti assicuro che ho detto la pura verità. Ma comprenderei se decidessi di non accettare le mie scuse. E in tal caso, cercherei di non esserti d'intralcio."
+      },
+      {
+        "Title": "A proposito di noi: Regali di ringraziamento",
+        "Context": "Tieni: una pianta grassa Artiglio di Saurico raccolta alle quattro di mattina, una bacca Quenepa più grande della mia testa, il lotto di miele più dolce della settimana scorsa e... Oh! Un coupon per una visita gratuita con Cacucu.\nEh? Perché quell'aria confusa? È per ringraziarti dell'aiuto. Non sapevo se ti serviva qualcosa, così ho optato per dei regali che piacciono a me.\nChi è Cacucu? Un Saurico. Un giorno te lo presenterò."
+      },
+      {
+        "Title": "A proposito della Visione",
+        "Context": "Alcuni dicono che i fulmini aiutino il raccolto a crescere, così una volta ho provato a usare la mia Visione in mezzo all'orto. I cavoli e i pomodori non hanno apprezzato, però, quindi ho lasciato perdere."
+      },
+      {
+        "Title": "Qualcosa da condividere",
+        "Context": "#Ecco un consiglio: non esprimerti mai per {F#prima}{M#primo}. Come il frutto che matura per primo diventa il bersaglio più facile, anche chi prende l'iniziava di solito finisce per trarne meno profitto."
+      },
+      {
+        "Title": "Curiosità",
+        "Context": "Gli scoiattoli volanti possono sembrare arroganti e distaccati quando planano in aria, ma sono molto più astuti di quanto sembrino: si avvicinano dal nulla e ti si aggrappano finché non gli dai un premio... Sono davvero dei birbanti."
+      },
+      {
+        "Title": "A proposito di Xilonen",
+        "Context": "Sembra che le piaccia rilassarsi in luoghi elevati, soprattutto sugli alberi. Per me, appendersi a testa in giù da un ramo è più rilassante che stendercisi sopra. Dovrei provare a dirglielo quando ho tempo... Eh? Ma non dovremmo tutti cambiare prospettiva ogni tanto? Un'inventrice come Xilonen ne trarrebbe sicuramente vantaggio."
+      },
+      {
+        "Title": "A proposito di Kinich",
+        "Context": "Ajaw è molto interessante. È vecchio, ma è anche giovane... E Kinich è il suo opposto: è giovane, ma anche vecchio. Hai capito cosa intendo, vero?"
+      },
+      {
+        "Title": "A proposito di Chasca",
+        "Context": "Se Chasca è famosa c'è un motivo. È una mediatrice straordinaria: le basta comparire che tutti smettono di litigare, stringendosi la mano come se fossero migliori amici. Il suo metodo a quanto pare è molto convincente, lei lo chiama \"dissuasione armata\"... Non male come nome."
+      },
+      {
+        "Title": "A proposito di Ifa",
+        "Context": "Ifa rimprovera spesso i suoi pazienti, ma in realtà ha un ottimo rapporto con i Saurici. Quando non lavora, suona la chitarra davanti alla clinica e i Saurici gli si riuniscono vicino per cantare.\nCerto, più che cantare, direi che schiamazzano. Anche a me piace partecipare quando sono nei paraggi... Partecipare insieme ai Saurici, intendo."
+      },
+      {
+        "Title": "A proposito di Citlali",
+        "Context": "Nonna è molto diretta. È come un libro aperto, è difficile per lei nascondere cosa sta provando. Tu e lei avete la stessa età, giusto? Oppure... tu sei ancora più grande?\nScusami, non dovrei chiedertelo. Forse sono stato maleducato... Ma se ho ragione, forse potreste passare più tempo insieme. Nonna è sempre stata circondata da persone più giovani di lei e probabilmente ne ha avuto abbastanza. Sono certo che le piacerebbe vederti."
+      },
+      {
+        "Title": "A proposito di Iansan",
+        "Context": "Iansan è una famosa allenatrice sportiva, e beh... Sono felice che l'Archon di Pyro non le abbia chiesto di catturarmi. Posso anche avere il vantaggio dell'altezza, ma sono abbastanza sicuro di non poterle sfuggire... Usare il trucco della cortina di fumo? Eh, dopo un paio di volte che lo usi, le persone iniziano ad aspettarselo."
+      },
+      {
+        "Title": "A proposito di Mavuika",
+        "Context": "Prima di tutto questo non conoscevo l'Archon di Pyro.\nNe avevo sentito parlare, certo, ma non la conoscevo davvero. La vedevo come una specie di totem su cui era incisa la parola \"forza\", a simboleggiarne il potere e il controllo assoluto. Ma non era qualcosa che capivo appieno e ben presto ho iniziato a dubitarne.\nOra che la conosco meglio, sono felice, ma sono anche un po' deluso da me stesso... Lei sembra così certa del suo scopo. Ha un fuoco che arde dentro di sé e sa con precisione perché brucia, e non lascerà mai che si spenga. Anch'io voglio la stessa cosa... Voglio essere una persona che può aiutare Natlan.\nComunque, questo è quanto, e poi... ho notato che al banchetto della vittoria ha mangiato un sacco di ortaggi da foglia. Quando ne abbiamo parlato, mi ha detto che le piace mantenere una dieta equilibrata. In un certo senso mi ha sorpreso. Ho la sensazione che sia più meticolosa di quanto si possa immaginare."
+      },
+      {
+        "Title": "A proposito del Condottiero",
+        "Context": "Si sblocca al liv. amicizia 4"
+      },
+      {
+        "Title": "Altro su Ororon (1)",
+        "Context": "Ciao. Ah, una stretta di mano? A Natlan di solito ci salutiamo in modo meno formale, ma... Ok, possiamo fare così. In futuro, ti basterà urlare il mio nome. Ho un buon udito, ti sentirò."
+      },
+      {
+        "Title": "Altro su Ororon (2)",
+        "Context": "#Sembri sempre così {F#impegnata}{M#impegnato}. Anche io vorrei essere il tipo di persona che ha sempre qualcosa fare. Però, a volte mi piace non fare niente. Continuo a cambiare idea. È fastidioso, ma non ci posso fare nulla."
+      },
+      {
+        "Title": "Altro su Ororon (3)",
+        "Context": "A Natlan fa molto caldo durante il giorno, quindi se posso esco di notte. Hai mai notato che il chiaro di luna fa scintillare la superficie dell'acqua? Anche se, di notte, l'acqua diventa completamente nera. Quando è così è impossibile capire quanto sia pulita, quindi eviterei di toccarla."
+      },
+      {
+        "Title": "Altro su Ororon (4)",
+        "Context": "Ho una percezione spirituale molto più accentuata rispetto alle altre persone. Sono nato così, ma è anche difficile da spiegare... Le anime degli esseri umani sono una massa di energia imprevedibile. Immagina un mucchio di marshmallow a forma di Saurici, tutti di tipo diverso... Ecco, un'anima ha quell'aspetto. E la tua è calda, come se fosse stata appena tostata sul fuoco."
+      },
+      {
+        "Title": "Altro su Ororon (5)",
+        "Context": "Gli altri non mi capiscono, ma a dirla tutta, neanche io mi comprendo del tutto. Ho molti dubbi, tantissime domande senza risposta e me ne pongo di nuove di continuo.\nMa non c'è un rimedio semplice per qualcosa del genere... Si può solo continuare ad andare avanti, vero?"
+      },
+      {
+        "Title": "Gli hobby di Ororon",
+        "Context": "Se ho altri passatempi? Oltre al giardinaggio e all'osservazione degli Afidi? Oh, sì... Certo. Dammi un attimo. Mi verranno in mente."
+      },
+      {
+        "Title": "I guai di Ororon",
+        "Context": "A volte, il divario tra il sognare e il fare qualcosa è davvero difficile da colmare."
+      },
+      {
+        "Title": "Cibo preferito",
+        "Context": "Quando mangio un Tataco, mi piace aggiungerci sotto dell'altro pane. Se cadono degli ingredienti finiscono lì sopra e in questo modo si ottengono due Tataco al prezzo di uno."
+      },
+      {
+        "Title": "Cibo meno amato",
+        "Context": "Le razioni militari... Soprattutto i biscotti compressi. In realtà, mi ricordano un po' l'anima del Condottiero: buoni dentro, ma un po' duri fuori."
+      },
+      {
+        "Title": "Ricevere un regalo (1)",
+        "Context": "Wow, perfino più buono di quello che potrei preparare io."
+      },
+      {
+        "Title": "Ricevere un regalo (2)",
+        "Context": "Non troppo forte, ma neanche insipido... Un sapore perfetto."
+      },
+      {
+        "Title": "Ricevere un regalo (3)",
+        "Context": "Non capisco... Che tipo di tecnica d'avanguardia è questa?"
+      },
+      {
+        "Title": "Compleanno",
+        "Context": "Qui a Natlan crediamo che il compleanno di una persona ne determini il destino. Condividere la propria data di nascita con un grande eroe significa ricevere la sua protezione ed ereditarne l'indole.\nNon credo che le persone che condividono il tuo stesso compleanno sappiano quanto sono fortunate... Buon compleanno."
+      },
+      {
+        "Title": "Pensieri sull'ascensione: Introduzione",
+        "Context": "Cos'è che mi hai dato? Posso darci un'altra occhiata?"
+      },
+      {
+        "Title": "Pensieri sull'ascensione: Crescendo",
+        "Context": "#Forse dovrei iniziare a chiamarti {F#maestra}{M#maestro}... Grazie, {F#maestra Altra Nonna}{M#maestro Nonno}, ho imparato molto da te."
+      },
+      {
+        "Title": "Pensieri sull'ascensione: Culmine",
+        "Context": "Mi sento molto leggero... Come se ora potessi raggiungere luoghi ancora più alti. Però devo fare attenzione, sbattere la testa non è divertente."
+      },
+      {
+        "Title": "Pensieri sull'ascensione: Conclusione",
+        "Context": "Non sono ancora abbastanza forte da sondare i confini della morte, ma grazie a te, la fine sembra un po' più lontana. Non preoccuparti, non ne approfitterò per fare qualcosa di irresponsabile. Te lo prometto."
+      },
+      {
+        "Title": "Abilità elementale (1)",
+        "Context": "Non allontanarti troppo."
+      },
+      {
+        "Title": "Abilità elementale (2)",
+        "Context": "Addio."
+      },
+      {
+        "Title": "Abilità elementale (3)",
+        "Context": "Io ti libero!"
+      },
+      {
+        "Title": "Tripudio elementale (1)",
+        "Context": "Vai, ora sei libero."
+      },
+      {
+        "Title": "Tripudio elementale (2)",
+        "Context": "È ora di fare ciao ciao."
+      },
+      {
+        "Title": "Tripudio elementale (3)",
+        "Context": "Dimmi cosa vedi."
+      },
+      {
+        "Title": "Apertura baule (1)",
+        "Context": "La tua passione per la caccia ai tesori sta trasformando questi bauli in una specie in via di estinzione."
+      },
+      {
+        "Title": "Apertura baule (2)",
+        "Context": "Per capire se un frutto è maturo o no, basta picchiettare sulla buccia e ascoltare il suono che fa."
+      },
+      {
+        "Title": "Apertura baule (3)",
+        "Context": "Fai attenzione, ad alcuni Saurici piace nascondersi nei bauli come questo. Probabilmente sono introversi."
+      },
+      {
+        "Title": "PS bassi (1)",
+        "Context": "Aspetta, per favore..."
+      },
+      {
+        "Title": "PS bassi (2)",
+        "Context": "Si mette male...!"
+      },
+      {
+        "Title": "PS bassi (3)",
+        "Context": "È un pessimo presagio."
+      },
+      {
+        "Title": "PS bassi alleato (1)",
+        "Context": "Vado a cercarti un dottore?"
+      },
+      {
+        "Title": "PS bassi alleato (2)",
+        "Context": "Me ne occupo io."
+      },
+      {
+        "Title": "Fuori combattimento (1)",
+        "Context": "Ci vediamo... nel Regno della Notte."
+      },
+      {
+        "Title": "Fuori combattimento (2)",
+        "Context": "Si sta facendo... buio."
+      },
+      {
+        "Title": "Fuori combattimento (3)",
+        "Context": "Le voci... mi chiamano..."
+      },
+      {
+        "Title": "Danni da colpo pesante (1)",
+        "Context": "Argh, troppo lento..."
+      },
+      {
+        "Title": "Danni da colpo pesante (2)",
+        "Context": "Qualcosa non va..."
+      },
+      {
+        "Title": "Unione al gruppo (1)",
+        "Context": "Vuoi che mi unisca a te?"
+      },
+      {
+        "Title": "Unione al gruppo (2)",
+        "Context": "Dove andiamo?"
+      },
+      {
+        "Title": "Unione al gruppo (3)",
+        "Context": "È un'occasione speciale?"
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Informazioni sul personaggio",
+        "Context": "Il territorio dei Maestri del Vento della Notte si trova nel cuore di Natlan, a ovest dell'Arena della Fiamma sacra. Da lontano, assume l'aspetto di una nuvola di baluginante nebbia viola immersa tra le valli montuose.\nI membri della tribù lasciano un'impressione analoga sulla gente: persone profonde, misteriose e con una propensione alla cripticità, che tendono di sovente a non allontanarsi dal proprio territorio se non per svolgere incarichi di guarigione o chiaroveggenza.\nOroron, tuttavia, è un'eccezione, e non per via di un'inclinazione a socializzare, ma piuttosto perché preferisce esplorare la natura selvaggia. Si spinge in luoghi in cui pochi osano avventurarsi, raggiungendo destinazioni dove nemmeno dieci Tatankasauri sarebbero in grado di riportarlo indietro.\nInoltre, \"in cui pochi osano avventurarsi\" non è soltanto un modo di dire: tutti quelli che hanno parlato con lui sanno che tenere il passo con i suoi ragionamenti può risultare... a dir poco impegnativo. Una conversazione con lui è come una sfida d'intelletto e perseveranza.\nEppure, Ororon non ha mai intenzione di lanciare sfide di alcun tipo. Le ragioni alla base di molte delle sue parole e azioni sono in realtà piuttosto semplici, e non necessitano di alcuna interpretazione astrusa.\nPrendiamo, per esempio, quella volta in cui un passante di buon cuore si trovò a transitare vicino alla sua casa in mezzo alla natura. Con un'espressione preoccupata, l'uomo si avvicinò a Ororon e gli chiese: \"Vedo che vivi qui tutto solo... Hai forse litigato con qualcuno della tua tribù? Posso aiutarti in qualche modo?\"\n\"Certo che no\".\nOroron, che se ne stava accovacciato a prendersi cura di alcune piante, si fermò per un momento e si alzò. Dopo aver indicato gli Afidi intorno a lui, proseguì la sua risposta col massimo del candore: \"È solo che questi piccini amano stare qui, e io sono più che felice di tenergli compagnia\"."
+      },
+      {
+        "Title": "Storia del personaggio (1)",
+        "Context": "Data l'esistenza dei Nomi antichi, il popolo di Natlan attribuisce molta importanza ai nomi in generale. Influenzato dall'ambiente in cui è cresciuto, Ororon ha sviluppato l'abitudine di dare un nome a tutto ciò che lo circonda, che respiri o meno.\nAlcuni nomi accompagnano ciò che ne rappresenta il significato per tutta la vita. Arriva il giorno in cui un fiore appassisce e un calice va in frantumi, i loro nomi restano per tutta la loro esistenza, breve o lunga che sia. Anche se durano per un solo minuto, il loro scopo è stato adempiuto e il loro valore rispettato.\nTuttavia, ci sono altri nomi che cambiano nel corso del tempo. E non perché i sentimenti di Ororon mutino, ma piuttosto perché il \"padrone\" del nome subisce una sorta di trasformazione esperienziale, che necessita naturalmente di un nuovo nome più adatto. Per esempio, se un Saurico aumenta di peso col tempo, non lo si potrà più chiamare \"Sottiletta\", no?\nDetto questo, Ororon non tende a soffermarsi troppo sul significato che i nomi racchiudono. Innanzitutto perché i nomi che attribuisce sono sempre semplici e chiari; in secondo luogo, perché vengono assegnati per facilità di riferimento, senza alcun intento più profondo. In altre parole, non vengono creati per comunicare una particolare emozione. Per lui, tutti i nomi sono preziosi e neutri, dei semplici strumenti per facilitare la comunicazione.\nVede il suo nome allo stesso modo, l'unica differenza è che non sa davvero cosa significhi.\nIl nome \"Ororon\" era scritto all'interno delle fasce in cui era avvolto quando fu trovato. Nonostante abbia cercato dei riferimenti nei libri antichi e chiesto informazioni ad alcuni anziani, non ne ha mai trovato menzione, né incontrato nessuno che lo avesse sentito nominare, figuriamoci scopertone il significato!\nForse la sua Nonna l'aveva letto male per via dell'età, o il nome non era stato scritto bene sulla stoffa... oppure tutt'e due le cose!\nQuesto, però, era qualcosa su cui lui avrebbe dovuto riflettere da solo. Se avesse anche solo provato a fare delle domande al riguardo, Nonna lo avrebbe colpito sulla fronte senza indugio."
+      },
+      {
+        "Title": "Storia del personaggio (2)",
+        "Context": "I membri dei Maestri del Vento della Notte prediligono l'impiego di rotoli di tessuto su cui scrivere ogni genere di racconto, leggenda o avvenimento storico. I motivi dei fili intrecciati nel tessuto non eguagliano di certo la precisione dei semplici documenti scritti, ma tendono invece all'astrazione e alle forme concettuali, spesso intrise delle emozioni e dei sentimenti del tessitore.\nIn altre parole, il processo è altamente interpretativo. Quale dev'essere il soggetto principale, quale lo sfondo, e cosa va enfatizzato o semplificato? Tutto questo richiede un'attenta valutazione da parte del tessitore, e dipende dalla sua creatività.\nSebbene sembrasse alquanto semplice, Ororon si sentiva disorientato.\nPer prima cosa, non gli piaceva dover distinguere gli elementi primari da quelli secondari. Per lui tutti gli elementi avevano la stessa importanza, quindi i personaggi e lo sfondo, gli edifici e l'ambiente meritavano tutti la stessa quantità di materiali per la tessitura. Persino le gocce di rugiada su una pianta grassa Artiglio di Saurico meritavano di essere raffigurate, così come le rughe sui volti degli anziani della tribù, in modo che spiccassero nettamente sul tessuto.\nCiò portava al secondo problema: la sua pazienza per i lavori di tessitura era, in tutta franchezza, decisamente limitata. Che si fosse trattato di un grande albero davanti a una porta o delle ombre delle persone sottostanti, ogni motivo avrebbe dovuto avere lo stesso numero di strati e lo stesso livello di dettaglio. Di conseguenza, ogni soggetto sulla stoffa veniva semplificato fino a un certo punto, e alla fine i suoi lavori non potevano quasi neanche essere considerati dei rotoli di tessuto, bensì delle stoffe con dei motivi sopra.\nAlcune abilità sono difficili da insegnare, soprattutto negli ambiti artistici che dipendono molto dal talento naturale. Dato che il bambino stesso aveva già mostrato un eccezionale talento in altri campi, come la sua consapevolezza degli spiriti e la sua intuizione quando si trattava di esaminare le linee geomantiche, i maestri artigiani della tribù rinunciarono a forzare Ororon a perfezionare quest'arte, permettendogli invece di svolgerla come un hobby extracurricolare.\nOroron approfittò della situazione, abile com'era a oltrepassare ogni limite. In seguito abbandonò la tessitura del tutto, preferendo usare carta e penna per raffigurare rapidamente le sue idee il più efficientemente possibile. Dopotutto, se si può catturare l'essenza di qualcosa con un paio di tratti, perché passare per il lento e faticoso processo di tessitura? Inoltre, i Maestri del Vento della Notte sono noti per il loro talento naturale per i graffiti, e quando quelli delle altre tribù vedevano le opere di Ororon, le osservavano con ammirazione, pensando che fossero una sorta di antichi glifi impreziositi da misteriose benedizioni.\nIn realtà, Ororon non ha disegnato quasi mai nulla che si rivelasse particolarmente utile. Il suo lavoro più significativo e meticoloso è stato il disegno sul cartello davanti alla clinica di Ifa. I tratti sono fluidi e i colori vivaci, inoltre...\n\"Visto che il povero Saurico aveva le ali fasciate, ho voluto mettere in risalto questa parte del disegno. Sebbene non occupi molto spazio, ho usato la stessa quantità d'inchiostro di quando ho disegnato te.\"\n\"Bene\", disse Ifa percependo la sincerità negli occhi di Ororon, la quale gli infuse un gran senso di calma. \"Non ho mai visto una rappresentazione tanto accurata di me stesso. Grazie mille, amico mio\"."
+      },
+      {
+        "Title": "Storia del personaggio (3)",
+        "Context": "Coloro che sono gentili con gli altri saranno trattati con gentilezza a loro volta. È proprio l'amore che dimostra verso gli innumerevoli esseri viventi del mondo naturale che ha fatto guadagnare a Ororon la benevolenza delle persone e delle creature di questa terra.\nEhm, beh... In realtà, non è proprio così. Certo, la maggior parte delle persone è gentile nei confronti di Ororon, ma questo non ha nulla a che fare con il suo amore per la natura.\nUno dei motivi è la compassione: era un orfano abbandonato tra le montagne, senza parenti che si prendessero cura di lui, sarebbe stato impossibile per lui sopravvivere da solo. Aiutarlo fornendogli cibo o vestiti non era troppo complicato, e la soddisfazione di vedere quel bambino crescere sano e forte sarebbe stata di gran lunga superiore a qualsiasi altro sforzo. Che ragione c'era per non aiutarlo?\nL'altro motivo è semplicemente che alla gente Ororon piaceva: era molto obbediente (la maggior parte del tempo), sincero (in generale), silenzioso, ragionevole e diligente nello studio. Non era incline alle birichinate, come arrampicarsi sui tetti o staccare le piastrelle. Aveva persino imparato a coltivare piante e ad allevare Afidi da solo, e da quel momento in poi era stato in grado di sostenersi in maniera indipendente. In quanto giovane che (il più delle volte) non causava molti problemi a chi lo circondava, era di certo una persona facile da apprezzare.\nL'ultimo motivo, anche se secondario, è il senso di colpa. Essendo nato con un'anima frammentata, quando i membri della tribù trovarono per la prima volta Ororon, cercarono di sfruttare la sua insolita condizione per testare un metodo per ripristinare le linee geomantiche di Natlan. Per fortuna o sfortuna, quel sacrificio individuale non funzionò. Sebbene avesse scongiurato un dilemma etico irrisolvibile, quell'evento lasciò alcuni anziani con un tacito senso di colpa.\nNaturalmente, una volta cresciuto, Ororon venne a sapere cos'era successo: non aveva senso cercare di nasconderlo, e farlo avrebbe soltanto creato problemi inutili. Tuttavia non provava alcun risentimento nei confronti dell'intera faccenda; al contrario, era molto soddisfatto di averlo scoperto perché, per quanto difficile sia la realtà, è sicuramente meglio di una vita di bugie.\nÈ perfettamente consapevole dei vari motivi per cui la gente si prende cura di lui. Che si tratti di compassione, affetto, senso di colpa o una combinazione di tutti i tre, è disposto ad accettare tutto per come è.\nCome direbbe Ifa, le relazioni sociali tra le persone sono estremamente complesse: anziché impegnarsi a comprenderle, è meglio concentrarsi sulle loro conclusioni e azioni, e questo aiuta a ridurre notevolmente lo stress mentale. Pertanto, considerando che le persone gli mostrano tanta cura e affetto, lui le ripaga con la gentilezza. Sì, è proprio così.\n\"Sono fortunato a essere un veterinario\", disse Ifa gesticolando. \"Se fossi un medico che deve curare le persone, il mio lavoro sarebbe molto più complicato...\"\nIfa continuò, come se stesse elencando una lunga serie di strani casi medici, ma Ororon iniziò a fare dei ragionamenti tra sé e sé. Per quanto quei casi fossero strani, lo erano davvero più del suo?\n\"Ora che ci penso... In un certo senso, anch'io sono un paziente, e uno decisamente incurabile\", rifletté Ororon. Pensò: \"Se qualcuno si concentrasse sulle mie orecchie, completamente diverse da quelle della persona media, allora anch'io sarei considerato un animale malato? Mmh... D'altra parte, forse anche gli umani dovrebbero essere considerati degli animali?\"\nNel bel mezzo delle sue riflessioni, Ororon interruppe Ifa e gli chiese: \"Se fossi malato, dovrei andare da un veterinario?\"\nIfa si ammutolì e lo fissò per qualche tempo.\n\"...Non hai ascoltato una singola parola di quello che ho detto, vero?\"\n\"Non puoi ignorare le domande a cui non vuoi rispondere rigirandomele\", replicò Ororon."
+      },
+      {
+        "Title": "Storia del personaggio (4)",
+        "Context": "Se avessi il tempo e la pazienza per setacciare i testi antichi e i rotoli di tessuto dei Maestri del Vento della Notte, rimarresti a bocca aperta nello scoprire l'ampia varietà di argomenti di cui parlano.\nAd esempio, chi vorrebbe leggere una serie di light novel di Inazuma terminata diverse centinaia di anni fa?\nO l'analisi di 3.600 forme diverse di cenere ottenuta bruciando la carta e la loro applicazione profetica... Ma chi è che si è preso la briga di documentare una cosa del genere?\nNon importa da dove provengano questi testi, la triste verità è che ricade su Ororon il compito di leggerli e organizzarli.\nInizialmente, voleva semplicemente controllare i documenti storici per trovare riferimenti alle anime frammentate, ma poi hanno cominciato a comparire parole come \"linee geomantiche\", \"Signora della Notte\" e \"spiriti\". Di lì a poco, si è ritrovato a leggere opere di saggistica e addirittura romanzi di fantasia; così, i libri hanno finito per ammucchiarsi come una montagna di cacahuatl. Ororon era praticamente diventato un bibliotecario volontario, completamente sommerso da un mare di conoscenza che non aveva nulla a che fare con lui.\n\"Non sono così curioso...\", pensava tra sé e sé Ororon mentre iniziava a sentirsi un po' stanco. Ma, in fin dei conti, non aveva molto altro da fare, e passare le ore a leggere non era stato completamente infruttuoso.\nLa spiegazione più ragionevole che aveva trovato fino a quel momento era contenuta, con sua sorpresa, in un libro di racconti logoro che parlava di creature mistiche. Lì c'era scritto che, durante l'antica Guerra degli Archon, alcuni di questi ultimi avevano compiuto esperimenti con la fusione tra bestie e umani. Il loro obiettivo, nella speranza di ottenere un vantaggio, era quello di creare guerrieri con poteri che superassero i comuni mortali. La maggior parte di questi esperimenti fallì, ma alcuni esemplari difettosi sopravvissero, perdurando anche fino al giorno d'oggi.\n\"Sembra abbastanza plausibile, ma è solo un libro di racconti...\", pensò Ororon tra sé e sé.\n\"...Eppure, anche se sono solo racconti, sembra davvero plausibile.\"\nDa un punto di vista pratico, sapeva che solo con la sua mente da ventenne non avrebbe mai scoperto la verità, per quanto potesse provarci. A volte, è necessario accettare i propri limiti e la propria ignoranza, oppure inventare una storia capace d'intrattenerci.\nAlla fine, Ororon, che era allo stremo delle forze, non riuscì più a leggere neanche una parola. Passò quindi qualche minuto a riflettere su una scusa semplice e concisa...\nÈ come un puzzle: quando provi a forzare insieme tasselli che non combaciano, è inevitabile che si verifichino distorsioni, attriti e persino rotture. E un giorno, più di vent'anni prima, lui era stato quel tassello rotto, che aveva avuto la sfortuna di cadere sulla fredda e dura pietra."
+      },
+      {
+        "Title": "Storia del personaggio (5)",
+        "Context": "In una notte dal clima mite, Ororon si sedette vicino al falò con i Fatui, ascoltando in silenzio ciò che avevano da dire.\nLui fu l'unico a rimanere in silenzio, a parte il Condottiero, che si unì a loro più tardi. I soldati non si contenevano: era chiaro che sapessero della sua collaborazione con il loro comandante. Parlavano di cose di poco conto, ma lo facevano liberamente e ridendo, senza mostrare alcun freno in sua presenza. Dopo avergli chiesto l'età, uno dei soldati gli diede persino un bicchiere di una bevanda incolore che chiamavano \"Acquafuoco\".\nDopo averne bevuto un sorso con cautela, lo trangugiò tutto d'un fiato, come aveva visto fare ai soldati, ricevendo un forte applauso in risposta. Per qualche ragione, si sentì molto meglio dopo averlo fatto.\nI soldati intorno a lui chiacchieravano di questioni banali, ogni tanto intonando canzoni che conoscevano tutti. Ororon non aveva molto da aggiungere, quindi si sedette lì a guardare il fuoco o a contemplare il cielo. Sembrava così lontano dalla terra, le singole stelle sembravano dei chicchi bianchi in mezzo alla foschia. \"Foschia astrale\", pensò improvvisamente tra sé e sé. Non era un nome brutto...\nIn seguito, avrebbe scoperto che non tutti i soldati dei Fatui erano uguali. Quelli che aveva incontrato erano soldati d'élite guidati dal primo dei Messaggeri, tutti veterani di una certa età dotati di esperienza e una solida tempra morale. Oltre a quella compagnia, però, c'erano molti soldati anche più giovani di lui, le cui azioni lo avrebbero davvero fatto accigliare.\nTuttavia, in quella notte senza vento, con le stelle così visibili in cielo, ancora non era stato turbato da tali conoscenze. Si limitò a lasciar andare le sue preoccupazioni, godendosi la compagnia amichevole e il bicchiere di alcol dal sapore strano che gli era stato offerto.\nNon ci sarebbe mai più stata una notte come quella. Lo percepì allora, proprio quando, pensando di accettare un secondo bicchiere, fu fermato dal Condottiero: sebbene sembrasse totalmente normale dopo il primo bicchiere e mostrasse un'ottima capacità di reggere l'alcol, sapeva comunque che per alcune cose era meglio non esagerare.\nMa chiaramente, Ororon non si può definire un tipo obbediente. Più tardi, rintracciò discretamente il soldato che gli aveva dato quella bevanda, l'Acquafuoco, e gli chiese come poteva prepararla lui stesso. Se fosse mai riuscito a prepararne un lotto abbastanza limpido da riflettere il cielo notturno, avrebbe chiamato la prima bottiglia \"Foschia astrale\"."
+      },
+      {
+        "Title": "Portamerenda",
+        "Context": "Questi spuntini non sono per le persone, ma per gli animali selvatici, e sono stati riposti in scomparti differenti in base alle loro preferenze.\nIn realtà, molti degli animali sono piuttosto intelligenti e, stando alle osservazioni di Ororon, non sono poi così diversi da noi umani come si tende a pensare. Molte persone vivono felici semplicemente perché hanno ereditato la conoscenza delle generazioni precedenti. In un certo senso, l'intelligenza dimostrata dagli animali che trovano il modo di sopravvivere in ambienti ostili potrebbe essere considerata ancora più impressionante.\nAnche chiedere aiuto agli umani è una scorciatoia che gli animali hanno imparato nel corso della loro coesistenza con essi. A volte, mentre Ororon cammina per i fatti suoi, sente improvvisamente qualcosa di pesante appoggiarglisi sulle spalle. Se non ha i riflessi pronti, più tardi si ritroverà delle impronte di artigli di scoiattolo sul mantello.\nAllo stesso modo, Ororon è convinto che gli animali abbiano un modo specifico di comunicare tra loro. Gli animali \"messaggeri\" potrebbero persino essere molto più abili delle loro controparti umane, poiché non solo devono viaggiare via terra e via aria, ma anche parlare molte lingue e dialetti diversi con cui comunicare con le altre specie. Il pensiero che le lingue degli animali di Natlan potrebbero includere una frase come \"Ororon ha degli spuntini in tasca!\" lo fa sorridere.\nAnche se avesse modo di allontanare quegli ospiti scrocconi, determinati a ottenere del cibo gratis, non lo farebbe mai. Ovunque vada, gli animali lo accolgono come se fosse uno di loro, il che è un privilegio di cui pochi possono vantarsi.\nNaturalmente, anche gli animali hanno le loro personalità, e ogni esemplare esprime la propria gratitudine a suo modo.\nAjaw, ad esempio, è un tipo piuttosto strano. Si comporta sempre come se tutto ciò che riceve dagli altri non sia altro che \"il compimento di un loro dovere\", ma allo stesso tempo sembra incapace di stare senza la compagnia umana. Di solito Ororon ignora le sue parole e lascia penzolare il cibo davanti a lui osservando i movimenti degli occhi di Ajaw nascosti dietro i suoi occhiali da sole (...Quei puntini luccicanti sono i suoi occhi, no?). Se Ajaw non dicesse qualcosa di educato in tempo, Kinich gli vieterebbe di aprire la bocca prima ancora che possa mettere le sue grinfie sul cibo.\nTotalmente diverso era il caso di Cacucu, che è un vero adulatore. Nonostante i limiti del suo vocabolario umano, ogni cosa che dice è sempre piena di emozioni... Cose come \"Sei il migliore, amico mio!\""
+      },
+      {
+        "Title": "Visione",
+        "Context": "La prima notte, sognò una gelida grotta.\nSi voltò e vide l'entrata della grotta dietro di sé, mentre qualche raggio di luna sparso penetrava come fasci di sabbia bianca; ciononostante, nessuna particella di luce raggiungeva le sue profondità, dalle quali si udiva un flebile fruscio, come se fossero abitate da una fitta nebbia nera. Gocce d'acqua cadevano dall'alto, arrivando a poggiarsi sulla sua mano protesa. Erano appiccicose al tatto.\nErano umide e, al loro interno, c'erano dei nutrienti. Ororon annuì tra sé e sé: questo posto potrebbe probabilmente dar luce alla vita.\nFu in quel momento che si svegliò. Non gli era sembrato un bel sogno, ma nemmeno un incubo. Nel sogno aveva freddo, che fosse per via dell'aria gelida della notte? \"Meglio che prepari una coperta più spessa per domani\", pensò.\nLa seconda notte, sognò un vento rovente.\nTutto ciò che riusciva a vedere erano solo dei pallidi pilastri di pietra e nubi bordate di sfumature color cremisi. C'erano delle nuvole, quindi doveva trovarsi in alto nel cielo. Ma, nonostante non ci fossero né sole né fuoco, c'era un caldo asfissiante nell'aria, al punto tale che perfino la sua anima sembrava bruciare.\nNon sapeva dove fosse, ma in qualche modo era convinto che fosse la fine. Un solo passo e l'avrebbe raggiunta... Solo un altro passo e...\nSi svegliò di soprassalto. La gente è naturalmente attratta dal calore, e lui stesso aveva sempre amato le fiamme di Natlan, ma il bollore opprimente di quel sogno gli riempiva il cuore di paura. Non era una buona idea, pensò scuotendo la testa, incerto se stesse rifiutando il sogno o la realtà stessa. La coperta di lana di alpaca era ancora un po' troppo per la stagione, a quanto pareva.\nLa terza e ultima notte, sognò un universo nero come la pece e un labirinto di specchi. Guardò le superfici sovrapposte che lo circondavano, dove innumerevoli altri Ororon riflessi rispondevano al suo sguardo.\nSentì una voce nella sua testa: \"Se la tua ombra si riflette abbastanza volte, forse riuscirai a ricostruire tutti i pezzi di te stesso!\" Non c'era né gentilezza né malizia in quella voce... Era solo il tono provocatorio di un osservatore indifferente.\nMa com'è possibile che un riflesso riveli qualcosa che non c'è mai stato? E cos'era che si muoveva attraverso gli specchi in quello spazio così buio...?\nStranamente irritato, Ororon gridò: \"Se vuoi un'ombra completa, dovresti almeno iniziare a farmi un po' di luce!\"\nEvidentemente la gente può udire anche mentre sogna, perché fu proprio il suo gridò a svegliarlo. Questa volta, non provò nemmeno a darsi una spiegazione per quel sogno; la temperatura e la coperta erano solo delle scuse, scuse ormai esaurite. Anche dopo essersi completamente svegliato, percepiva ancora una rabbia persistente assieme a un peso insolito che avvertiva sul petto.\nEppure, ciò che indossava e che portava con sé non poteva essere più leggero di così. Quel peso non era altro che il cosiddetto sguardo del favore degli dèi nei suoi confronti."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 210500,
+      "Name": "Occhio del pipistrello",
+      "Description": "Il completo di Ororon. Chi possiede il dono della preveggenza dovrebbe sapere come sottrarsi alla vista. In questo senso, il mantello e il cappuccio sono le sue armi migliori.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104144,
+    113064,
+    101252,
+    112103,
+    104352,
+    113054
+  ],
+  "NameCard": {
+    "Name": "Ororon: Ombra notturna",
+    "Description": "Stile per la carta giocatore.\nCosì come la luce delle stelle non può sopraffare il buio della notte, nemmeno le ombre possono indugiare alla luce delle candele. Al tempo stesso, anche il vuoto del cuore è piuttosto arduo da colmare.",
+    "Icon": "UI_NameCardIcon_Olorun",
+    "PicturePrefix": "UI_NameCardPic_Olorun"
+  }
+}
