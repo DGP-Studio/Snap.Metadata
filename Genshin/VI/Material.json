@@ -1360,6 +1360,26 @@
     "Icon": "UI_ItemIcon_1102"
   },
   {
+    "MaterialType": 20,
+    "Id": 5104,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Chòm Sao Của Chasca",
+    "Description": "Nguyên liệu kích hoạt cung mệnh Chasca",
+    "TypeDescription": "Kích Hoạt Cung Mệnh",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "MaterialType": 20,
+    "Id": 5105,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Chòm Sao Của Ororon",
+    "Description": "Nguyên liệu kích hoạt cung mệnh Ororon",
+    "TypeDescription": "Kích Hoạt Cung Mệnh",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
     "MaterialType": 15,
     "EffectDescription": "Hồi 300 HP cho nhân vật được chọn",
     "Id": 100001,
@@ -2827,6 +2847,26 @@
     "Description": "Loài hoa đặc biệt nằm rải rác khắp vùng đồng bằng và trung du. Nụ hoa trưởng thành sẽ nở bung khi bị tấn công.",
     "TypeDescription": "Nguyên Liệu",
     "Icon": "UI_ItemIcon_101251"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101252,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Nấm Sừng Phát Sáng",
+    "Description": "Loại nấm phát ra ánh sáng nhẹ trong bóng tối. Vì hình dạng trông khá giống với sừng của Iktomisaur nên còn được gọi là nấm sừng.",
+    "TypeDescription": "Đặc Sản Khu Vực Natlan",
+    "Icon": "UI_ItemIcon_101252"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 101253,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Lá Khô Tử Anh",
+    "Description": "Đóa hoa với lá và cánh hoa khô héo, thường bắt gặp ở những nơi tro bụi mù mịt.",
+    "TypeDescription": "Đặc Sản Khu Vực Natlan",
+    "Icon": "UI_ItemIcon_101253"
   },
   {
     "MaterialType": 25,
@@ -16399,6 +16439,46 @@
   },
   {
     "MaterialType": 5,
+    "Id": 121103,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Mảnh Đá Obsidian Tím Đậm",
+    "Description": "Mảnh Đá Obsidian vô tình nhận được trong khi thám hiểm, có khắc hoa văn họa tiết theo phong cách Chủ Nhân Gió Đêm. Nhìn vào có thể thấy, chỉ cần có đủ ba mảnh là sẽ ghép được thành một chiếc vòng hoàn chỉnh, nhưng không biết là có tác dụng gì.",
+    "TypeDescription": "Vật Phẩm Tiêu Hao",
+    "Icon": "UI_ItemIcon_121103"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 121104,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Vòng Đá Obsidian Tím Đậm",
+    "Description": "Vòng Đá Obsidian khắc hoa văn họa tiết theo phong cách Chủ Nhân Gió Đêm, là phương tiện trung gian cổ xưa mà bộ tộc dùng để thiết lập mối quan hệ với màn đêm, có lẽ có thể dựa vào sức mạnh của nó để vượt qua biên giới ở nơi nào đó...",
+    "TypeDescription": "Đạo Cụ Mạo Hiểm",
+    "Icon": "UI_ItemIcon_121104"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 121105,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Mảnh Đá Obsidian Đỏ Chói",
+    "Description": "Mảnh Đá Obsidian vô tình nhận được trong khi thám hiểm, có khắc hoa văn họa tiết theo phong cách Hội Hoa Vũ. Nhìn vào có thể thấy, chỉ cần có đủ ba mảnh là sẽ ghép được thành một chiếc vòng hoàn chỉnh, nhưng không biết là có tác dụng gì.",
+    "TypeDescription": "Vật Phẩm Tiêu Hao",
+    "Icon": "UI_ItemIcon_121105"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 121106,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Vòng Đá Obsidian Đỏ Chói",
+    "Description": "Vòng Đá Obsidian khắc hoa văn họa tiết theo phong cách Hội Hoa Vũ, là phương tiện trung gian cổ xưa mà bộ tộc dùng để thiết lập mối quan hệ với màn đêm, có lẽ có thể dựa vào sức mạnh của nó để vượt qua biên giới ở nơi nào đó...",
+    "TypeDescription": "Đạo Cụ Mạo Hiểm",
+    "Icon": "UI_ItemIcon_121106"
+  },
+  {
+    "MaterialType": 5,
     "Id": 106000,
     "RankLevel": 0,
     "ItemType": 2,
@@ -24993,6 +25073,193 @@
     "Icon": "UI_ItemIcon_108760"
   },
   {
+    "MaterialType": 1,
+    "EffectDescription": "Giảm 15% tiêu hao thể lực cho toàn thành viên đội khi xung kích và bay lượn, kéo dài 900s. Trong chế độ nhiều người chơi, chỉ có hiệu lực với bản thân.",
+    "Id": 108761,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Núi, Biển Và Bầu Trời Kỳ Lạ",
+    "Description": "Một món ăn với hỗn hợp thịt và rau. Miếng trước vừa ăn miếng thịt gần như là sống, miếng sau là miếng cá bị cháy. Dưới sự tương phản mạnh mẽ như vậy, đã không còn can đảm để thử miếng thứ ba...",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108762"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Giảm 20% tiêu hao thể lực cho toàn thành viên đội khi xung kích và bay lượn, kéo dài 900s. Trong chế độ nhiều người chơi, chỉ có hiệu lực với bản thân.",
+    "Id": 108762,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Núi, Biển Và Bầu Trời",
+    "Description": "Một món ăn với hỗn hợp thịt và rau. Sau khi nướng các loại nguyên liệu đến từ đất liền và biển cả rồi trộn đều, mỗi vị khách đều có thể tìm được thứ mà mình thích trong món ăn. Cho nên, đây là món không thể thiếu trong bữa tiệc quan trọng của Natlan.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108762"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Giảm 25% tiêu hao thể lực cho toàn thành viên đội khi xung kích và bay lượn, kéo dài 900s. Trong chế độ nhiều người chơi, chỉ có hiệu lực với bản thân.",
+    "Id": 108763,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Núi, Biển Và Bầu Trời Ngon",
+    "Description": "Một món ăn với hỗn hợp thịt và rau. Miếng thịt dày thấm đẫm tinh hoa từ gia vị, kết hợp cùng vị tươi giòn từ rau củ nhảy nhót tưng bừng trong khoang miệng. Không chỉ kích động vị giác, mà còn kích thích cả dạ dày. Chẳng trách món ăn này có rất nhiều người hâm mộ trung thành.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108762"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Hồi 900 điểm HP cho nhân vật được chọn hồi sinh.",
+    "Id": 108764,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bánh Núi Lửa Kỳ Lạ",
+    "Description": "Bánh kem với hình dạng núi lửa. \"Dãy núi\" không thể bao bọc \"dung nham\" bên trong, thành phẩm đổ sập tan hoang tựa như khí thế núi lửa phun trào, trong thoáng chốc phần đĩa phía dưới đã gặp tai họa. Xem ra, trước khi thử lần tiếp theo thì phải dọn dẹp trước đã...",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108765"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Hồi 1200 điểm HP cho nhân vật được chọn hồi sinh.",
+    "Id": 108765,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bánh Núi Lửa",
+    "Description": "Bánh kem với hình dạng núi lửa. Trộn lẫn nguyên liệu, đánh đều thành hỗn hợp bột nhão, sau đó đổ vào khuôn để nướng. Kiểm soát thời gian chính xác sẽ giúp lớp vỏ ngoài trở nên vững chắc, nhưng phần bên trong vẫn sánh quyện tan chảy, giống như núi lửa vậy.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108765"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Hồi 1500 điểm HP cho nhân vật được chọn hồi sinh.",
+    "Id": 108766,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bánh Núi Lửa Ngon",
+    "Description": "Bánh kem với hình dạng núi lửa. \"Núi lửa nhỏ\" nóng hổi kết hợp với \"đám mây bụi\" mát lạnh, tuôn trào theo hương thơm nồng nàn của \"dung nham\". Thứ chạm đến trái tim không chỉ có vị ngọt, mà còn là cảm giác thỏa mãn sảng khoái.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108765"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Phòng ngự cả đội tăng 88 điểm, kéo dài 300s. Trong chế độ nhiều người chơi, chỉ có hiệu lực với bản thân.",
+    "Id": 108767,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Túi Ngũ Cốc Kỳ Lạ",
+    "Description": "Món chính được gói trong chiếc lá lớn. Hương vị không khác gì ăn Hạt Ngũ Cốc sống, khiến người ta không khỏi tự vấn về ý nghĩa của việc nấu nướng...",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108768"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Phòng ngự cả đội tăng 107 điểm, kéo dài 300s. Trong chế độ nhiều người chơi, chỉ có hiệu lực với bản thân.",
+    "Id": 108768,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Túi Ngũ Cốc",
+    "Description": "Món chính được gói trong chiếc lá lớn. Natlan có một câu ngạn ngữ rất đơn giản như thế này: \"Rồi sẽ có chiếc lá vì Túi Ngũ Cốc mà rơi xuống\", dùng để ẩn dụ cho số phận đã định.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108768"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Phòng ngự cả đội tăng 126 điểm, kéo dài 300s. Trong chế độ nhiều người chơi, chỉ có hiệu lực với bản thân.",
+    "Id": 108769,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Túi Ngũ Cốc Ngon",
+    "Description": "Món chính được gói trong chiếc lá lớn. Lớp nhân mềm mại mang theo hương thơm nức của Hạt Ngũ Cốc. Khi bỏ vào miệng, vị ngọt ngọt cay cay hòa quyện vị mặn khéo léo, phải nói là một trải nghiệm vị giác vô cùng phong phú.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108768"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Một bất ngờ nhỏ từ bộ tộc Chủ Nhân Gió Đêm.",
+    "Id": 108770,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Súp Huyền Bí Kỳ Lạ",
+    "Description": "Thức uống làm từ Hạt Ngũ Cốc. Nhấp nhẹ một ngụm, tất cả vị giác đều bị tê liệt... Trên một góc độ nào đó cũng có thể xem như \"hậu vị vô tận\"... Vì hương vị siêu nồng liên tục quẩn quanh đầu lưỡi, uống nhiều nước cũng chẳng dịu đi là bao.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108771"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Một bất ngờ nhỏ từ bộ tộc Chủ Nhân Gió Đêm.",
+    "Id": 108771,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Súp Huyền Bí",
+    "Description": "Thức uống làm từ Hạt Ngũ Cốc. Được phát minh bởi một vị Shaman nào đó trong Chủ Nhân Gió Đêm. Mục đích ban đầu là để chữa bệnh, theo thời gian thay đổi công thức, đến nay đã trở thành thức uống thường thấy trong các buổi tụ họp.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108771"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Một bất ngờ nhỏ từ bộ tộc Chủ Nhân Gió Đêm.",
+    "Id": 108772,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Súp Huyền Bí Ngon",
+    "Description": "Thức uống làm từ Hạt Ngũ Cốc. Chất lỏng với màu sắc rực rỡ lặng lẽ nằm yên trong ly, phảng phất như một viên đá quý biến ảo tuyệt đẹp vậy. Hương thơm nhẹ nhàng, vị ngọt dịu dàng, thật khiến người ta như xoáy sâu vào bí mật cổ xưa của bộ tộc, lưu luyến quên cả lối về.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108771"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Một bất ngờ nhỏ từ bộ tộc Hội Hoa Vũ.",
+    "Id": 108773,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bài Ca Vang Vọng Kỳ Lạ",
+    "Description": "Viên ngậm họng với hương vị sảng khoái. Vị lạnh buốt xộc thẳng lên tận óc, hàm răng nghiến lên bần bật, khiến trái tim cũng trở nên tê buốt... Đừng nói là hát ca, hiện giờ thì ngay cả việc trò chuyện mạch lạc cũng là cả một thử thách.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108774"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Một bất ngờ nhỏ từ bộ tộc Hội Hoa Vũ.",
+    "Id": 108774,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bài Ca Vang Vọng",
+    "Description": "Viên ngậm họng với hương vị sảng khoái. Nghe nói đó là vũ khí bí mật để xoa dịu cổ họng của cư dân Hội Hoa Vũ, ăn một viên rồi cất cao tiếng hát nào! Nhưng cũng cần cẩn thận không nên dùng quá nhiều, nếu không thì lượng đường quá tay trong đó sẽ khiến cổ họng khàn đặc mất.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108774"
+  },
+  {
+    "MaterialType": 15,
+    "EffectDescription": "Một bất ngờ nhỏ từ bộ tộc Hội Hoa Vũ.",
+    "Id": 108775,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bài Ca Vang Vọng Ngon",
+    "Description": "Viên ngậm họng với hương vị sảng khoái. Kẹo ngọt tinh tế tựa như đang thổi một luồng gió mát xuống yết hầu, dòng suối lành cuốn trôi sự khô héo trong cổ họng. Âm thanh mượt mà trong trẻo tựa như chú chim non mới sinh, nôn nóng muốn dang rộng đôi cánh mà tung bay.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108774"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Tấn công cả đội tăng 114 điểm, kéo dài 300s. Trong chế độ nhiều người chơi, chỉ có hiệu lực với bản thân.",
+    "Id": 108776,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Cá Trích Sốt Mật",
+    "Description": "Món ăn đặc biệt của Ororon. \"Món này là để kính tặng trưởng bối\". Vừa dứt lời, miếng cá lấp lánh đã được đưa lên. Từ vị ngọt ngào tinh tế không khó để nhận ra, bên trong nước sốt hẳn đã được thêm vào loại mật phải tốn rất nhiều công sức để thu thập... Tấm lòng này thực sự vô cùng đáng quý.",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108776"
+  },
+  {
+    "MaterialType": 1,
+    "EffectDescription": "Giảm 25% tiêu hao thể lực cho toàn thành viên đội khi xung kích và bay lượn, kéo dài 1800s. Trong chế độ nhiều người chơi, chỉ có hiệu lực với bản thân.",
+    "Id": 108777,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Dừng Lại Nghỉ Ngơi",
+    "Description": "Món ăn đặc biệt của Chasca. Nguyên liệu chất đầy, hương thơm quyến rũ. Cho dù là những con người đang mang trong mình mâu thuẫn, chỉ cần ngửi thấy hương thơm này, sự tức giận lập tức hóa thành cảm giác thèm ăn nhỉ? Đợi đã, sao đến cả Saurian ồn ào đằng xa kia cũng nhìn thấy rồi?",
+    "TypeDescription": "Thực Phẩm",
+    "Icon": "UI_ItemIcon_108777"
+  },
+  {
     "MaterialType": 5,
     "Id": 109101,
     "RankLevel": 1,
@@ -27163,6 +27430,56 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "MaterialType": 5,
+    "Id": 109602,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Công Thức: Núi, Biển Và Bầu Trời",
+    "Description": "Công thức món ăn, ghi lại cách làm món \"Núi, Biển Và Bầu Trời\".",
+    "TypeDescription": "Công Thức",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109603,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Công Thức: Bánh Núi Lửa",
+    "Description": "Công thức món ăn, ghi lại cách làm món \"Bánh Núi Lửa\".",
+    "TypeDescription": "Công Thức",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109604,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Công Thức: Túi Ngũ Cốc",
+    "Description": "Công thức món ăn, ghi lại cách làm món \"Túi Ngũ Cốc\".",
+    "TypeDescription": "Công Thức",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109605,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Công Thức: Súp Huyền Bí",
+    "Description": "Công thức món ăn, ghi lại cách làm món \"Súp Huyền Bí\".",
+    "TypeDescription": "Công Thức",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 109606,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Công Thức: Bài Ca Vang Vọng",
+    "Description": "Công thức món ăn, ghi lại cách làm món \"Bài Ca Vang Vọng\".",
+    "TypeDescription": "Công Thức",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "MaterialType": 4,
     "Id": 110000,
     "RankLevel": 0,
@@ -27567,6 +27884,26 @@
     "Description": "Nguồn gốc thần bí nhưng công thức lại đơn giản, thậm chí còn rất tốt cho sức khỏe. Đúng như tên gọi, nó có thể khiến người ta trở nên mạnh mẽ hơn.",
     "TypeDescription": "Thực Phẩm",
     "Icon": "UI_ItemIcon_100328"
+  },
+  {
+    "MaterialType": 32,
+    "Id": 111033,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Mồi Bột Spinel",
+    "Description": "Mồi câu kỳ diệu của Natlan, làm từ Quả Spinel và Hạt Ngũ Cốc. Sau khi chìm xuống nước vẫn giữ được hình dáng trong thời gian dài, đồng thời đảm bảo tốc độ lan tỏa hương vị, thu hút các loài cá một cách lâu dài và hiệu quả.\n\nLoại cá thích hợp: Cá Đấu Sĩ, Cá Thái Dương, Cá Một Sừng.",
+    "TypeDescription": "Mồi Câu",
+    "Icon": "UI_ItemIcon_111033"
+  },
+  {
+    "MaterialType": 32,
+    "Id": 111034,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Mồi Lửa Ấm",
+    "Description": "Mồi câu kỳ diệu của Natlan, làm từ Hoa Nhụy Tro và Tiểu Mạch theo phương pháp thủ công đặc biệt. Nghe nói có thể duy trì nhiệt độ nhất định dưới chất lỏng, từ đó thu hút các loài cá đặc biệt nhạy cảm với nó.\n\nLoại cá thích hợp: Cá Phlogiston",
+    "TypeDescription": "Mồi Câu",
+    "Icon": "UI_ItemIcon_111034"
   },
   {
     "MaterialType": 14,
@@ -28720,6 +29057,36 @@
   },
   {
     "MaterialType": 14,
+    "Id": 112116,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Mầm Khúc Xạ",
+    "Description": "Mầm lá rơi ra từ Lá Mô Phỏng U Ám sau khi bị đánh bại.\nNghe nói loại ma vật này sinh ra từ Thủy Triều Đen, với những chồi non đầu tiên mọc lên có thể làm chệch hướng sức mạnh nguyên tố.",
+    "TypeDescription": "Nguyên Liệu Bồi Dưỡng Nhân Vật Và Vũ Khí",
+    "Icon": "UI_ItemIcon_112116"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112117,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Lá Tán Xạ",
+    "Description": "Chiếc lá hình mũi tên rơi ra từ Lá Mô Phỏng U Ám sau khi bị đánh bại.\nSau khi ăn mòn Địa Mạch và trích xuất ký ức từ đó, ma vật sẽ sinh ra vật chứa để chứa đựng những thông tin phân tích được. Việc ma vật có thể tái hiện bất cứ hình dạng nào, có lẽ cũng liên quan mật thiết đến những cành lá mang hoa văn phức tạp này.",
+    "TypeDescription": "Nguyên Liệu Bồi Dưỡng Nhân Vật Và Vũ Khí",
+    "Icon": "UI_ItemIcon_112117"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 112118,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Lõi Lá Cuộn Biến Ảo",
+    "Description": "Phần lõi hình thành bởi những lớp lá cuộn lại, là tàn dư rơi ra từ Lá Mô Phỏng U Ám sau khi bị đánh bại.\nCho dù đã ảm đạm như mất hết sinh khí, nhưng vẫn có thể cảm nhận được nguồn sức mạnh không lành đang ẩn hiện trong đó.\nThỉnh thoảng sẽ có người tự hỏi, khi loại ma vật này bị tiêu diệt, những ký ức mà chúng hấp thụ được từ mặt đất sẽ đi về đâu? Có lẽ phần lõi này đã đưa ra đáp án cho câu hỏi đó.",
+    "TypeDescription": "Nguyên Liệu Bồi Dưỡng Nhân Vật Và Vũ Khí",
+    "Icon": "UI_ItemIcon_112118"
+  },
+  {
+    "MaterialType": 14,
     "Id": 113001,
     "RankLevel": 4,
     "ItemType": 2,
@@ -29374,9 +29741,19 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Lõi Nguồn Khắc Hoa Văn Kỳ Bí",
-    "Description": "Phần linh kiện lõi bên trong cơ thể bị tách rời sau khi đánh bại Cỗ Máy Bí Ẩn - Thiết Bị Cấu Tạo.\nNghe nói, phần lõi cơ khí điều khiển tất cả những cỗ máy có tên gọi là Cỗ Máy Bí Ẩn của hiện tại đều là cùng một bộ lõi, chỉ là những lõi khác nhau sẽ mang các thông tin khác nhau. Sự khác biệt ở các hoa văn màu vàng trên đó có thể giải thích cho điều này. Ban đầu, rất nhiều chỉ lệnh được thêm vào mạch để công cụ có thể tự động vận hành trơn tru, có lẽ chính sự chồng chất lên nhau quá nhiều của những mệnh lệnh này đã tạo ra hình mẫu điển hình của trí tuệ nhân tạo.",
+    "Description": "Phần linh kiện lõi bên trong cơ thể bị tách rời sau khi đánh bại Cỗ Máy Bí Ẩn - Thiết Bị Cấu Tạo.\nNghe nói, phần lõi điều khiển tất cả những tạo vật có tên gọi Cỗ Máy Bí Ẩn của hiện tại đều là cùng một loại, chỉ là những lõi khác nhau sẽ mang các thông tin khác nhau. Sự khác biệt ở các hoa văn màu vàng trên đó có thể giải thích cho điều này. Ban đầu, rất nhiều chỉ lệnh được thêm vào mạch để công cụ có thể tự động vận hành trơn tru, có lẽ chính sự chồng chất lên nhau quá nhiều của những mệnh lệnh này đã tạo ra hình mẫu điển hình của trí tuệ nhân tạo.",
     "TypeDescription": "Nguyên Liệu Bồi Dưỡng Nhân Vật",
     "Icon": "UI_ItemIcon_113066"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 113067,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ánh Nhìn Trói Buộc",
+    "Description": "Vật thể trông như trái cây nhưng thực chất lại không phải, nhận được sau khi đánh bại Gốc Rễ Mô Phỏng U Ám.\nMột \"con mắt\" hình thành từ năng lượng hội tụ tại một điểm, dường như mang theo ánh nhìn từ nơi xa xôi tăm tối đằng sau nó.",
+    "TypeDescription": "Nguyên Liệu Bồi Dưỡng Nhân Vật",
+    "Icon": "UI_ItemIcon_113067"
   },
   {
     "MaterialType": 14,
@@ -36981,6 +37358,66 @@
   },
   {
     "MaterialType": 2,
+    "Id": 120895,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Của Thợ Thủ Công II",
+    "Description": "Ghi Chép Của Thợ Thủ Công",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120896,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Thánh Vương I",
+    "Description": "Ghi Chép Thánh Vương I",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120897,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Thánh Vương II",
+    "Description": "Ghi Chép Thánh Vương II",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120898,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Thánh Vương III",
+    "Description": "Ghi Chép Thánh Vương III",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120899,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Thánh Vương V",
+    "Description": "Ghi Chép Thánh Vương V",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120900,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Thánh Vương VI",
+    "Description": "Ghi Chép Thánh Vương VI",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
     "Id": 120910,
     "RankLevel": 0,
     "ItemType": 2,
@@ -37318,6 +37755,36 @@
     "Description": "Mảnh Giấy Cũ Kỹ",
     "TypeDescription": "Đạo Cụ Nhiệm Vụ",
     "Icon": "UI_ItemIcon_100356"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120951,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chìa Khóa Bị Nước Ăn Mòn",
+    "Description": "Chìa khóa ngâm trong nước đã lâu, không biết còn có thể mở được cánh cửa mà nó nên mở không...",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120952,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Mảnh Ngọc Cổ Xưa",
+    "Description": "Mảnh vỡ kỳ lạ thu thập được trong di tích cổ tại Natlan, khó nhận biết chất liệu của nó.\nKhông hiểu tại sao, khi chạm vào lại có chút ấm áp.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_120952"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 120953,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Trái Tim Thánh Long Hoàn Chỉnh",
+    "Description": "Viên ngọc hoàn chỉnh không tì vết. Trước khi ngọn đuốc của nền văn minh được loài người thắp sáng, trái tim của lãnh chúa thánh long Ix Uxul Tz'ib Bolon Ch'ule-L đã cai trị Chichen Uctokah.\nVốn dĩ sở hữu quyền năng ra lệnh cho tất cả thiết bị trong Ochkanatlan, nhưng đến nay đã không thể sử dụng vì cạn kiệt năng lượng.\nCũng giống như kẻ \"nửa nhân loại\" mưu cầu sự hoàn mỹ, chúa tể rồng theo đuổi sự hoàn hảo cuối cùng cũng chỉ tìm thấy con đường cùng lạnh lẽo như ngọc thạch mà thôi.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_120953"
   },
   {
     "MaterialType": 2,
@@ -37691,6 +38158,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 121005,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chìa Khóa Đá Lửa Cổ Xưa",
+    "Description": "Chìa khóa với ngoại hình độc đáo. Có thể xoay các góc khác nhau để cắm vào các ổ khóa khác nhau...",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121005"
+  },
+  {
+    "MaterialType": 2,
     "Id": 121006,
     "RankLevel": 4,
     "ItemType": 2,
@@ -37781,6 +38258,16 @@
   },
   {
     "MaterialType": 2,
+    "Id": 121015,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chìa Khóa Trên Nền Khí Cầu",
+    "Description": "Trông có vẻ như dùng để mở chiếc lồng nào đó ở doanh trại khí cầu... Thực sự có người bị nhốt trong chiếc lồng như vậy sao?",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100302"
+  },
+  {
+    "MaterialType": 2,
     "Id": 121016,
     "RankLevel": 4,
     "ItemType": 2,
@@ -37834,7 +38321,7 @@
     "Id": 121022,
     "RankLevel": 0,
     "ItemType": 2,
-    "Name": "Bưu Kiện Nguệch Ngoạc",
+    "Name": "Bưu Kiện Xiêu Vẹo",
     "Description": "Bưu kiện có phần bên ngoài đã bị hư hại, loáng thoáng có thể nhìn thấy dòng chữ trên đó: \"Tiệm đá quý... Im...\"",
     "TypeDescription": "Đạo Cụ Nhiệm Vụ",
     "Icon": "UI_ItemIcon_100101"
@@ -38220,6 +38707,16 @@
     "Icon": "UI_ItemIcon_121065"
   },
   {
+    "MaterialType": 2,
+    "Id": 121067,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chìa Khóa Rỉ Sét",
+    "Description": "Chìa khóa rỉ sét hoàn toàn, chắc là dùng để mở cánh cửa ở đâu đó...",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121067"
+  },
+  {
     "MaterialType": 59,
     "Id": 121068,
     "RankLevel": 4,
@@ -38248,6 +38745,26 @@
     "Description": "\"Tequil Dũng Cảm\" Mới Tinh.",
     "TypeDescription": "Đạo Cụ Nhiệm Vụ",
     "Icon": "UI_ItemIcon_223020"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121072,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Hỏa Lân Thạch",
+    "Description": "Loại đá trông khá bình thường, nhưng hình như là chìa khóa để mở ra bí mật Tonatiuh trong truyền thuyết.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121072"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121073,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Mẫu Thuốc Nhuộm",
+    "Description": "Mẫu thuốc nhuộm làm từ loại quả ở sâu trong hang động, dường như là thứ quan trọng để chế tác cuộn dệt đặc biệt.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121073"
   },
   {
     "MaterialType": 2,
@@ -38281,6 +38798,56 @@
   },
   {
     "MaterialType": 2,
+    "Id": 121079,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ghi Chép Của Nhà Mạo Hiểm Vô Danh",
+    "Description": "Không biết là ghi chép của nhà mạo hiểm thời đại nào để lại. Trên đó ghi lại hành trình mạo hiểm của người này tại Ochkanatlan.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121079"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121080,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ghi Chép Của Nhà Mạo Hiểm Vô Danh",
+    "Description": "Không biết là ghi chép của nhà mạo hiểm thời đại nào để lại. Trên đó ghi lại hành trình mạo hiểm của người này tại Ochkanatlan.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121079"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121081,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ghi Chép Của Nhà Mạo Hiểm Vô Danh",
+    "Description": "Không biết là ghi chép của nhà mạo hiểm thời đại nào để lại. Trên đó ghi lại hành trình mạo hiểm của người này tại Ochkanatlan.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121079"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121083,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Thuốc Hiệu Quả Mạnh Hơn",
+    "Description": "Loại thuốc Saurian do chính tay Mazkal điều chế, hiệu quả trị liệu vô cùng rõ rệt.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121083"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121084,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Thuốc Ngon Miệng Hơn",
+    "Description": "Loại thuốc Saurian do chính tay Mazkal điều chế, có hương vị tuyệt hảo.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121084"
+  },
+  {
+    "MaterialType": 2,
     "Id": 121085,
     "RankLevel": 3,
     "ItemType": 2,
@@ -38291,6 +38858,156 @@
   },
   {
     "MaterialType": 2,
+    "Id": 121087,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "\"Kiệt Tác\" Của Magnifico",
+    "Description": "Một tấm ảnh chụp chung khiến người ta khó quên, đằng sau còn có chữ ký của Magnifico: \"Người bạn à, cái cây nhỏ cũng có thể tạo ra bóng râm lớn đấy!\"",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_120280"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121088,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ngọn Lửa Hoàng Hôn Mùa Thu I",
+    "Description": "Cuộn vải dệt lưu truyền trong Hội Hoa Vũ, vốn dĩ là hai câu chuyện đến từ hai thời đại khác nhau, không biết từ khi nào đã bị lẫn lộn vào nhau.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121088"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121089,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ngọn Lửa Hoàng Hôn Mùa Thu II",
+    "Description": "Cuộn vải dệt lưu truyền trong Hội Hoa Vũ, vốn dĩ là hai câu chuyện đến từ hai thời đại khác nhau, không biết từ khi nào đã bị lẫn lộn vào nhau.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121088"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121090,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ngọn Lửa Hoàng Hôn Mùa Thu III",
+    "Description": "Cuộn vải dệt lưu truyền trong Hội Hoa Vũ, vốn dĩ là hai câu chuyện đến từ hai thời đại khác nhau, không biết từ khi nào đã bị lẫn lộn vào nhau.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121088"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121091,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Suối Ẩn Trong Ngọc I",
+    "Description": "Thanh niên lạc lối tại rừng trúc trong thung lũng, sẽ gặp những người qua đường như thế nào đây?",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121091"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121092,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Suối Ẩn Trong Ngọc II",
+    "Description": "Thanh niên lạc lối tại rừng trúc trong thung lũng, sẽ gặp những người qua đường như thế nào đây?",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121091"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121093,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Chuyện Đêm Khuya Ở Linh Mông Sơn I",
+    "Description": "Một cuốn sách chuyên về các câu chuyện và ca dao dân gian ở Trầm Ngọc Cốc, trong đó ghi chép lại rất nhiều truyền thuyết mơ hồ.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121093"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121094,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Chuyện Đêm Khuya Ở Linh Mông Sơn II",
+    "Description": "Một cuốn sách chuyên về các câu chuyện và ca dao dân gian ở Trầm Ngọc Cốc, trong đó ghi chép lại rất nhiều truyền thuyết mơ hồ.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121093"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121095,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Chuyện Đêm Khuya Ở Linh Mông Sơn III",
+    "Description": "Một cuốn sách chuyên về các câu chuyện và ca dao dân gian ở Trầm Ngọc Cốc, trong đó ghi chép lại rất nhiều truyền thuyết mơ hồ.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121093"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121096,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chuyện về Kuntur",
+    "Description": "Câu chuyện dân gian được truyền miệng từ lâu ở Natlan, không thể xác định được tác giả ban đầu.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121064"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121097,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Mảnh Vũ Khí Thần Bí - Giá Đỡ Tên",
+    "Description": "Vũ khí từng được sử dụng bởi Bậc Thầy Biên Giới Sanhaj Kompore của Chủ Nhân Gió Đêm. Do trận đại chiến 500 năm trước mà bị vỡ thành từng mảnh như hiện tại. Từ dự cảm của Bà Itztli, có lẽ nó sẽ giúp ích cho hành trình nào đó của nhà lữ hành trong tương lai.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121097"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121098,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cuộn Dệt Thấu Thị - Bản Đồ",
+    "Description": "Bản đồ có được thông qua thấu thị, chỉ đến một khu vực bí ẩn đã biến mất có tên là Vùng Biển Lặng.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121098"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121099,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Sổ Tay Rách Nát Của Tepal",
+    "Description": "Sổ tay không hoàn chỉnh, ghi chép những chấp niệm và hoài bão của Tepal.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121099"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121101,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chìa Khóa Gần Chỗ \"Khiêu Chiến Đá Nhuộm Màu\"",
+    "Description": "Chìa khóa được tìm thấy ở bên cạnh bục nhận thưởng \"Khiêu Chiến Đá Nhuộm Màu\". Theo suy nghĩ thông thường thì cánh cửa tương ứng với chìa khóa này có lẽ nằm ở đâu đó quanh đây thôi...",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_120930"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121102,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cá Nướng Sốt Bạc Hà Bí Mật",
+    "Description": "Món cá nướng tràn ngập nước sốt. Thân cá được bạn và Paimon cắt gọt tinh tế cẩn thận, trong bụng nhét đầy gia vị đặc biệt do các bạn lựa chọn, một lớp nước sốt Bạc Hà dày đặc rưới lên bên trên sau khi nướng chín. Thịt cá thơm nức, khiến người ta vô cùng kích thích.\nNếu có thể chế biến món này thuần thục, nói không chừng sẽ có ngày bạn và Paimon cũng nhận được danh hiệu Siêu Đầu Bếp Cá Nướng đấy...",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_108716"
+  },
+  {
+    "MaterialType": 2,
     "Id": 121119,
     "RankLevel": 0,
     "ItemType": 2,
@@ -38298,6 +39015,306 @@
     "Description": "Một loạt hình ảnh nhận được từ tay Fatui, ghi lại cấu tạo của Di Tích Nguồn. Trên bức ảnh này xuất hiện một cơ quan đặc biệt, hình dạng của nó rất đáng chú ý.",
     "TypeDescription": "Đạo Cụ Nhiệm Vụ",
     "Icon": "UI_ItemIcon_100721"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121120,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gỗ Bùng Nổ Ở Gần Đây",
+    "Description": "Loài cây có cái tên khá đáng sợ, nhưng thực chất không thể tự thiêu đốt, cũng không phát nổ, chỉ là sở hữu tán cây khiến người đặt tên liên tưởng đến quả cầu lửa phát nổ chói mắt...\nTuy nhiên, quanh đây không có loài cây này nhưng lại bắt gặp loại gỗ này rơi rải rác xung quanh. Hình như có ai đó cố ý vận chuyển chúng đến đây...",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_101325"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121121,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gỗ Aratiku Xám Ở Gần Đây",
+    "Description": "Loài cây thường thấy trong một số khu vực nhất định ở Natlan, số lượng khá hiếm...\nTuy nhiên, quanh đây không có loài cây này nhưng lại bắt gặp loại gỗ này rơi rải rác xung quanh. Hình như có ai đó cố ý vận chuyển chúng đến đây...",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_101324"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121122,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ghi Chép Của Nhà Mạo Hiểm Vô Danh",
+    "Description": "Không biết là ghi chép của nhà mạo hiểm thời đại nào để lại. Trên đó ghi lại hành trình mạo hiểm của người này tại Ochkanatlan.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121079"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121123,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chìa Khóa Khớp Cong",
+    "Description": "Chìa khóa có khớp răng cưa cong nhẹ, hình như có thể dễ dàng mở khóa cánh cửa ở nơi nào đó...",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_120884"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121124,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chìa Khóa Khớp Phẳng",
+    "Description": "Chìa khóa có khớp răng cưa vô cùng vuông vắn, hình như có thể dễ dàng mở khóa cánh cửa ở nơi nào đó...",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_120885"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121125,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chìa Khóa Khớp Loạn",
+    "Description": "Chìa khóa có khớp răng cưa có vẻ đã bị mài mòn nhiều năm nên trông vô cùng lộn xộn, để dùng được chiếc chìa khóa này chắc cũng cần có chút \"khéo léo\"...",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_120886"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121131,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Của Hoán Linh Sư I",
+    "Description": "Ghi Chép Của Hoán Linh Sư I",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121132,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Của Người Tuần Tra Núi",
+    "Description": "Ghi Chép Của Người Tuần Tra Núi",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121133,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Của Tư Tế Vô Danh",
+    "Description": "Ghi Chép Của Tư Tế Vô Danh",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121134,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Của Học Giả Thực Địa",
+    "Description": "Ghi Chép Của Học Giả Thực Địa",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121135,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Thánh Vương VII",
+    "Description": "Ghi Chép Thánh Vương VII",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121136,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Của Ai Đó",
+    "Description": "Ghi Chép Của Ai Đó",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121137,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Thánh Vương VIII",
+    "Description": "Ghi Chép Thánh Vương VIII",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121138,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Thánh Vương IX",
+    "Description": "Ghi Chép Thánh Vương IX",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121139,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Của Hoán Linh Sư II",
+    "Description": "Ghi Chép Của Hoán Linh Sư II",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121140,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Ai Đó Để Lại I",
+    "Description": "Ghi Chép Ai Đó Để Lại I",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121141,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Ai Đó Để Lại II",
+    "Description": "Ghi Chép Ai Đó Để Lại II",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121142,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Ai Đó Để Lại III",
+    "Description": "Ghi Chép Ai Đó Để Lại III",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121143,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Ai Đó Để Lại IV",
+    "Description": "Ghi Chép Ai Đó Để Lại IV",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121144,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ghi Chép Ai Đó Để Lại V",
+    "Description": "Ghi Chép Ai Đó Để Lại V",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121145,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Đĩa Vàng Thông Điệp",
+    "Description": "Đĩa trắng lấy được từ chủ nhân Thành Tro Tàn bị ăn mòn tại Ochkanatlan. Đây là một trong những tín vật bắt buộc phải có để tiến đến Núi Lửa Tollan và thanh tẩy \"Chúc Phúc Của Chúa Tể Lửa\" trên người Tepetlisaur. Nghe nói đó là một phần của con mắt \"Chúa Tể Lửa\" sau khi bị tách làm hai. Theo truyền thuyết, chúa tể rồng cổ xưa từng nắm giữ mọi tia sáng và trí tuệ, đã dùng một con mắt của mình để hóa thành quyền năng tối thượng kiểm soát mọi ngọn lửa, và đó cũng trở thành điểm yếu duy nhất có thể bị khai thác...",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_120968"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121152,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bản Thảo Âm Nhạc Chưa Hoàn Thành",
+    "Description": "Bản Thảo Âm Nhạc Chưa Hoàn Thành",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121153,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Thủ Vệ Bí Ẩn - Ghi Chép",
+    "Description": "Thủ Vệ Bí Ẩn - Ghi Chép",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121154,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Nhật Ký Của Lữ Khách Vô Danh I",
+    "Description": "Nhật Ký Của Lữ Khách Vô Danh I",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121155,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Nhật Ký Của Lữ Khách Vô Danh II",
+    "Description": "Nhật Ký Của Lữ Khách Vô Danh II",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121156,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Nhật Ký Của Lữ Khách Vô Danh III",
+    "Description": "Nhật Ký Của Lữ Khách Vô Danh III",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121157,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Nhật Ký Của Lữ Khách Vô Danh IV",
+    "Description": "Nhật Ký Của Lữ Khách Vô Danh IV",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121158,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Nhật Ký Của Lữ Khách Vô Danh V",
+    "Description": "Nhật Ký Của Lữ Khách Vô Danh V",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121162,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Lời Nhắn Từ Nơi Thí Luyện Xuất Hồn",
+    "Description": "Lời Nhắn Từ Nơi Thí Luyện Xuất Hồn",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "MaterialType": 2,
+    "Id": 121167,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ghi Chép Của Nhà Mạo Hiểm Vô Danh",
+    "Description": "Không biết là ghi chép của nhà mạo hiểm thời đại nào để lại. Trên đó ghi lại hành trình mạo hiểm của người này tại Ochkanatlan.",
+    "TypeDescription": "Đạo Cụ Nhiệm Vụ",
+    "Icon": "UI_ItemIcon_121079"
   },
   {
     "MaterialType": 31,
@@ -38670,6 +39687,16 @@
     "Icon": "UI_ItemIcon_130037"
   },
   {
+    "MaterialType": 31,
+    "Id": 130038,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Hạt Giống Nấm Sừng Phát Sáng",
+    "Description": "Hạt giống nhận từ Hộp Hạt Giống, đầy sức sống, chất lượng tốt, sau khi trồng ở Thế Giới Trong Ấm, sẽ mọc thành \"Nấm Sừng Phát Sáng\".",
+    "TypeDescription": "Nguyên Liệu",
+    "Icon": "UI_ItemIcon_130038"
+  },
+  {
     "MaterialType": 4,
     "Id": 131000,
     "RankLevel": 3,
@@ -39038,6 +40065,76 @@
     "Description": "Loài cá kỳ lạ có diện mạo phần bên hình trái tim, nghe nói có quan hệ mật thiết với giống cá chép, nhưng có phần vây lưng và vây bụng được cấu thành từ sụn mềm giống như lông vũ, nên được các học giả đặt tên là \"Cá Chép Tâm Vũ\".\nMàu sắc của \"Cá Chép Tâm Vũ Ngọc\" khá đặc biệt, trông như ngọc bích dưới nước, nên chúng mới sở hữu tên gọi thú vị này. Với sức sống mãnh liệt khác xa ngoại hình tĩnh lặng của mình, chúng có thể sinh sống trong nhiều vùng nước có đặc tính khác nhau, chất lượng nước trong lành ở Trầm Ngọc Cốc là môi trường vô cùng hoàn hảo đối với chúng. Trầm Ngọc Cốc, nơi mà danh tiếng \"mỹ ngọc\" được lưu truyền rộng rãi, loài cá này được sống một đời vô ưu vô lo, khỏe mạnh và an nhàn.",
     "TypeDescription": "Cá",
     "Icon": "UI_ItemIcon_131037"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131038,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cá Đấu Sĩ Sắc Hoa",
+    "Description": "Động vật lưỡng cư mang tên gọi là cá nhưng lại không phải cá. Ngoại hình độc đáo, có phần đầu dẹt như dao găm, dường như sẵn sàng chiến đấu với thiên địch bất cứ lúc nào. Trên thực tế, chúng vốn có bản tính ôn hòa, không hiếu chiến, cấu tạo phần đầu này chỉ là để giảm lực cản của nước khi bơi lội. Nhờ cấu tạo đó mà chúng có thể phá vỡ dòng chảy xiết, di chuyển tự do trong các vùng nước, từ đó mà có tên gọi \"Cá Đấu Sĩ\".\nMàu hồng sáng của chúng được người ta gọi là \"Sắc Hoa\", một số du khách còn tưởng nhầm rằng chúng có liên quan đến Hội Hoa Vũ hay Qucusaur. Nghe nói trên các khu vực bãi cạn có nham thạch nâu sẫm, loại màu sắc ngụy trang này có hiệu quả đặc biệt với thiên địch của chúng.",
+    "TypeDescription": "Cá",
+    "Icon": "UI_ItemIcon_131038"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131039,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cá Đấu Sĩ Nước Sâu",
+    "Description": "Động vật lưỡng cư mang tên gọi là cá nhưng lại không phải cá. Ngoại hình độc đáo, có phần đầu dẹt như dao găm, dường như sẵn sàng chiến đấu với thiên địch bất cứ lúc nào. Trên thực tế, chúng vốn có bản tính ôn hòa, không hiếu chiến, cấu tạo phần đầu này chỉ là để giảm lực cản của nước khi bơi lội. Nhờ cấu tạo đó mà chúng có thể phá vỡ dòng chảy xiết, di chuyển tự do trong các vùng nước, từ đó mà có tên gọi \"Cá Đấu Sĩ\".\nCá Đấu Sĩ với màu xanh lam có khả năng lặn xuống vùng nước khá sâu. Tuy nhiên, do yêu thích cảm giác ấm áp khi tắm nắng và khoảnh khắc chơi đùa thư giãn cùng Koholasaurus nên chúng thường không ở vùng nước sâu quá lâu...",
+    "TypeDescription": "Cá",
+    "Icon": "UI_ItemIcon_131039"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131040,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cá Đấu Sĩ Nham Thạch",
+    "Description": "Động vật lưỡng cư mang tên gọi là cá nhưng lại không phải cá. Ngoại hình độc đáo, có phần đầu dẹt như dao găm, dường như sẵn sàng chiến đấu với thiên địch bất cứ lúc nào. Trên thực tế, chúng vốn có bản tính ôn hòa, không hiếu chiến, cấu tạo phần đầu này chỉ là để giảm lực cản của nước khi bơi lội. Nhờ cấu tạo đó mà chúng có thể phá vỡ dòng chảy xiết, di chuyển tự do trong các vùng nước, từ đó mà có tên gọi \"Cá Đấu Sĩ\".\nLà loài Cá Đấu Sĩ sống trong môi trường Phlogiston Thể Lỏng, sở hữu lớp vỏ cực kỳ cứng cáp, nổi bật với khả năng chịu nhiệt cao, còn được gọi là \"loài cá không thể làm món cá nướng\". Đương nhiên, phần lớn người đam mê câu cá sau khi săn được Cá Đấu Sĩ Nham Thạch này, đều sẽ coi chúng như một loài cá cảnh quý giá mà tận tình chăm sóc, chứ sẽ không đưa vào nhà bếp...",
+    "TypeDescription": "Cá",
+    "Icon": "UI_ItemIcon_131040"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131041,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cá Thái Dương Sóng Xanh",
+    "Description": "Loài cá cỡ vừa với thân hình dẹt, tính tình ôn hòa, được cho là sinh vật hiền lành nhất trong các vùng nước ở Natlan. Thói quen ăn uống có thể nhét mọi thứ vào bụng khiến chúng trở thành công nhân làm sạch môi trường nước tự nhiên, được mọi người đánh giá cao.\nNghe nói rất lâu về trước, Cá Thái Dương Sóng Xanh từng xuất hiện ở những nơi giàu chất dinh dưỡng quá mức, tảo dày nổi trên bề mặt, và dần dần gây ức chế sự sinh sôi của tảo. Đến nay, chất lượng nước xanh ngắt trong veo của Cư Dân Suối Nước có lẽ cũng có một phần công lao của chúng.",
+    "TypeDescription": "Cá",
+    "Icon": "UI_ItemIcon_131041"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131042,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cá Thái Dương Hoàng Hôn",
+    "Description": "Loài cá cỡ vừa với thân hình dẹt, tính tình ôn hòa, được cho là sinh vật hiền lành nhất trong các vùng nước ở Natlan. Thói quen ăn uống có thể nhét mọi thứ vào bụng khiến chúng trở thành công nhân làm sạch môi trường nước tự nhiên, được mọi người đánh giá cao.\nTrong một số câu chuyện dân gian, loài cá thái dương này có màu sắc đan xen giữa màu đỏ và xanh nhạt, là do chúng đã \"uống cạn tàn dư của ánh chiều tà\", mà ánh nắng và ngọn lửa chính là thứ mà người dân Natlan yêu mến và kính trọng. Còn dưới góc nhìn của các tác giả Liyue và Fontaine, câu chuyện này thuộc về \"sự lãng mạn đặc trưng của Natlan\".",
+    "TypeDescription": "Cá",
+    "Icon": "UI_ItemIcon_131042"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131043,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cá Một Sừng Mô Phỏng Phlogiston",
+    "Description": "Loài cá một sừng độc đáo, cơ thể tròn trịa nhẵn nhụi, phần bụng có khả năng đàn hồi, thậm chí trông như bóng bay.\nVật có hình dạng sừng tinh thể trên đầu chúng có phần tương đồng với Phlogiston Thể Rắn. Nhưng theo nghiên cứu thì khi chúng vừa nở, vật có dạng sừng đó sẽ trong suốt như pha lê. Sau thời gian dài sống trong môi trường Phlogiston Thể Lỏng và tích tụ chất gây sắc tố, mới thể hiện ra sắc độ như hiện nay và có cái tên \"Mô Phỏng Phlogiston\".\nMỗi vài năm, tinh thể \"Mô Phỏng Phlogiston\" trên đầu chúng sẽ suy thoái đôi chút bởi tác động sinh trưởng, mảnh vụn tách ra từ đó là một loại nguyên liệu màu nhuộm vô cùng quý giá, được những người đam mê graffiti gọi là \"màu của lửa\".",
+    "TypeDescription": "Cá",
+    "Icon": "UI_ItemIcon_131043"
+  },
+  {
+    "MaterialType": 4,
+    "Id": 131044,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cá Một Sừng Mô Phỏng Cá Mập",
+    "Description": "Loài cá một sừng độc đáo, cơ thể tròn trịa nhẵn nhụi, phần bụng có khả năng đàn hồi, thậm chí trông như bóng bay... Thực ra bên trong chứa phần khoang nổi giống như khí cầu.\nCá Một Sừng Mô Phỏng Phlogiston có thể cung cấp nguyên liệu màu quý giá cho người đam mê graffiti, nhưng lại chỉ có thể sinh tồn trong môi trường Phlogiston Thể Lỏng. Liên Minh Graffiti đã bắt đầu thăm dò tính khả thi để nuôi dưỡng loài cá này trong môi trường nước thông thường. Vì vậy, chủ nhiệm vài đời trước của Liên Minh Graffiti đã bắt tay với Hội Câu Cá Natlan, chi một khoản tiền khổng lồ để nhập loại cá dây cót từ Fontaine về, cũng như Robot Bảo Trì kỹ thuật, phát triển ra thiết bị mô phỏng sinh thái và hệ thống thu thập dữ liệu bên trong, rồi tiến hành một công cuộc quan sát và nghiên cứu toàn diện. Kết quả thật đáng tiếc, sau khi rời khỏi môi trường Phlogiston Thể Lỏng, sừng tinh thể của cá một sừng không giữ được màu sắc như ngọn lửa nữa. Kế hoạch này đã kết thúc trong sự thất bại.\nNhưng cũng may, khi loài cá một sừng máy móc này bơi lội, nhìn từ xa phía trên mặt nước trông sẽ giống như phần vây lưng cá mập, Cư Dân Suối Nước đã mua một lượng \"Cá Mập Ngụy Trang\" này từ Liên Minh Graffiti và Hội Câu Cá Natlan, nhằm cung cấp trải nghiệm kích thích cho du khách lướt sóng, cũng như đe dọa những phần tử phạm pháp ở một số vùng nước.",
+    "TypeDescription": "Cá",
+    "Icon": "UI_ItemIcon_131044"
   },
   {
     "MaterialType": 36,
@@ -40440,6 +41537,76 @@
     "Icon": "UI_ItemIcon_BGM_Common"
   },
   {
+    "MaterialType": 36,
+    "Id": 141241,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ngọc Thạch Âm Vang 141",
+    "Description": "Kết tinh ẩn chứa vần điệu kỳ diệu, như một viên ngọc bích tuyệt đẹp dệt từ dải lụa mỏng manh. Chúng được phân bổ ở khắp nơi trên vùng đất này hoặc ở trong tay những thương nhân bảo vật. Có thể vào trong \"Ấm Trần Ca\", dùng \"Âm Vang Vạn Dặm - Phiêu Dương\" hoặc \"Âm Vang Vạn Dặm - Mậu Nhiễu\" để khôi phục lại giai điệu bên trong. Giai điệu ẩn chứa trong \"Ngọc Thạch Âm Vang\" thuộc về Natlan thần bí.",
+    "TypeDescription": "Đạo Cụ Mạo Hiểm",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141242,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ngọc Thạch Âm Vang 142",
+    "Description": "Kết tinh ẩn chứa vần điệu kỳ diệu, như một viên ngọc bích tuyệt đẹp dệt từ dải lụa mỏng manh. Chúng được phân bổ ở khắp nơi trên vùng đất này hoặc ở trong tay những thương nhân bảo vật. Có thể vào trong \"Ấm Trần Ca\", dùng \"Âm Vang Vạn Dặm - Phiêu Dương\" hoặc \"Âm Vang Vạn Dặm - Mậu Nhiễu\" để khôi phục lại giai điệu bên trong. Giai điệu ẩn chứa trong \"Ngọc Thạch Âm Vang\" thuộc về Natlan thần bí.",
+    "TypeDescription": "Đạo Cụ Mạo Hiểm",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141243,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ngọc Thạch Âm Vang 143",
+    "Description": "Kết tinh ẩn chứa vần điệu kỳ diệu, như một viên ngọc bích tuyệt đẹp dệt từ dải lụa mỏng manh. Chúng được phân bổ ở khắp nơi trên vùng đất này hoặc ở trong tay những thương nhân bảo vật. Có thể vào trong \"Ấm Trần Ca\", dùng \"Âm Vang Vạn Dặm - Phiêu Dương\" hoặc \"Âm Vang Vạn Dặm - Mậu Nhiễu\" để khôi phục lại giai điệu bên trong. Giai điệu ẩn chứa trong \"Ngọc Thạch Âm Vang\" thuộc về Natlan thần bí.",
+    "TypeDescription": "Đạo Cụ Mạo Hiểm",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141244,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ngọc Thạch Âm Vang 144",
+    "Description": "Kết tinh ẩn chứa vần điệu kỳ diệu, như một viên ngọc bích tuyệt đẹp dệt từ dải lụa mỏng manh. Chúng được phân bổ ở khắp nơi trên vùng đất này hoặc ở trong tay những thương nhân bảo vật. Có thể vào trong \"Ấm Trần Ca\", dùng \"Âm Vang Vạn Dặm - Phiêu Dương\" hoặc \"Âm Vang Vạn Dặm - Mậu Nhiễu\" để khôi phục lại giai điệu bên trong. Giai điệu ẩn chứa trong \"Ngọc Thạch Âm Vang\" thuộc về Natlan thần bí.",
+    "TypeDescription": "Đạo Cụ Mạo Hiểm",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141245,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ngọc Thạch Âm Vang 145",
+    "Description": "Kết tinh ẩn chứa vần điệu kỳ diệu, như một viên ngọc bích tuyệt đẹp dệt từ dải lụa mỏng manh. Chúng được phân bổ ở khắp nơi trên vùng đất này hoặc ở trong tay những thương nhân bảo vật. Có thể vào trong \"Ấm Trần Ca\", dùng \"Âm Vang Vạn Dặm - Phiêu Dương\" hoặc \"Âm Vang Vạn Dặm - Mậu Nhiễu\" để khôi phục lại giai điệu bên trong. Giai điệu ẩn chứa trong \"Ngọc Thạch Âm Vang\" thuộc về Natlan thần bí.",
+    "TypeDescription": "Đạo Cụ Mạo Hiểm",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141246,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ngọc Thạch Âm Vang 146",
+    "Description": "Kết tinh ẩn chứa vần điệu kỳ diệu, như một viên ngọc bích tuyệt đẹp dệt từ dải lụa mỏng manh. Chúng được phân bổ ở khắp nơi trên vùng đất này hoặc ở trong tay những thương nhân bảo vật. Có thể vào trong \"Ấm Trần Ca\", dùng \"Âm Vang Vạn Dặm - Phiêu Dương\" hoặc \"Âm Vang Vạn Dặm - Mậu Nhiễu\" để khôi phục lại giai điệu bên trong. Giai điệu ẩn chứa trong \"Ngọc Thạch Âm Vang\" thuộc về Natlan thần bí.",
+    "TypeDescription": "Đạo Cụ Mạo Hiểm",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "MaterialType": 36,
+    "Id": 141247,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ngọc Thạch Âm Vang 147",
+    "Description": "Kết tinh ẩn chứa vần điệu kỳ diệu, như một viên ngọc bích tuyệt đẹp dệt từ dải lụa mỏng manh. Chúng được phân bổ ở khắp nơi trên vùng đất này hoặc ở trong tay những thương nhân bảo vật. Có thể vào trong \"Ấm Trần Ca\", dùng \"Âm Vang Vạn Dặm - Phiêu Dương\" hoặc \"Âm Vang Vạn Dặm - Mậu Nhiễu\" để khôi phục lại giai điệu bên trong. Giai điệu ẩn chứa trong \"Ngọc Thạch Âm Vang\" thuộc về Natlan thần bí.",
+    "TypeDescription": "Đạo Cụ Mạo Hiểm",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
     "MaterialType": 37,
     "Id": 141099,
     "RankLevel": 1,
@@ -40868,6 +42035,16 @@
     "Description": "Đạo cụ tinh luyện \"Sừng Rượu Vân Xanh\".\nNhững hạt cát mịn màng dịu dàng, tựa như làn gió êm dịu trên biển vào buổi hoàng hôn.\nTrong truyền thuyết Meztli xa xưa, biển cả là mái nhà của muôn vì sao, những ánh sao chìm xuống rồi sẽ trở thành cát biển xanh biếc. Lặng lẽ lắng nghe, đung đưa trong bình, chính là lời thì thầm của ánh sao và thủy triều.",
     "TypeDescription": "Nguyên Liệu Tinh Luyện",
     "Icon": "UI_ItemIcon_200122"
+  },
+  {
+    "MaterialType": 14,
+    "Id": 200123,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Con Thoi Odara",
+    "Description": "Đạo cụ tinh luyện \"Tai Họa Eshu\".\nMặt dây chuyền bằng ngọc phản chiếu ánh sáng kỳ lạ tựa như lăng kính, cho dù có thiêu đốt trên ngọn lửa thì sự lạnh lẽo trên đó vẫn không thể nào xua tan.\nTrong các truyền thống vu thuật kế thừa lại, \"con thoi\" vốn dĩ tượng trưng cho phương tiện xuyên qua các không gian khác nhau. Nghe nói, trong những năm tháng mà người ta còn chưa biết phải làm sao để tính toán ngày tháng, làm sao để dệt những câu chuyện lên vải, thì trong ngôn ngữ sớm đã bị lãng quên của những con rồng khổng lồ lang thang giữa Cao Nguyên Lửa Hồn, tạo vật xuyên qua sao trời tăm tối đó đã được gọi là \"Con Thoi Hư Không\" rồi. Cho dù là tấm màn dày đặc che phủ cả một thế giới, thì cũng sẽ bị cây giáo lửa đâm xuyên mà thôi.\nĐương nhiên, những lời này đều đến từ Sanhaj xảo quyệt, giống như vô số trò đùa mà anh ta từng thêu dệt, nói không chừng cũng chỉ là một câu chuyện dùng để mua vui kiếm cơm... Cho đến nay, một số tư tế đức cao vọng trọng của Chủ Nhân Gió Đêm vẫn giữ vững quan điểm này.",
+    "TypeDescription": "Nguyên Liệu Tinh Luyện",
+    "Icon": "UI_ItemIcon_200123"
   },
   {
     "MaterialType": 28,
@@ -41560,6 +42737,16 @@
     "Icon": "UI_ItemIcon_200906"
   },
   {
+    "MaterialType": 33,
+    "Id": 200907,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Cổ Dài Cùng Chim Xanh",
+    "Description": "Trong khi câu cá, nếu có thể khống chế lực kéo nằm trong phạm vi tốt nhất, thì sử dụng cần câu này sẽ rút ngắn thời gian cá vùng vẫy, tăng hiệu suất câu. Chỉ hữu hiệu tại Natlan.\n\nCần câu đặc biệt của Hội Câu Cá Natlan, với ngoại hình Tê Giác Cổ Dài chạm khắc tỉ mỉ điểm xuyết Chim Nước Xanh trên thân, chất liệu kim loại dùng cho vũ khí, đảm bảo cân đối giữa thẩm mỹ và độ bền.\nCác chuyên gia câu cá thường suy đoán, Tê Giác Cổ Dài với cái cổ của mình hẳn có thể trở thành thợ câu đỉnh cao nhất trong thế giới tự nhiên, mà loài Chim Nước Xanh trông vụng về kia lại cần phải bắt cá để kiếm sống. Cả hai kết hợp quả là một cặp đôi tuyệt hảo, cùng lúc xuất hiện trên cần câu thì chắc chắn sẽ đem lại may mắn tuyệt vời cho người câu cá!",
+    "TypeDescription": "Cần Câu",
+    "Icon": "UI_ItemIcon_200907"
+  },
+  {
     "MaterialType": 21,
     "Id": 220001,
     "RankLevel": 3,
@@ -41585,7 +42772,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "La Bàn Tìm Báu Vật - Nham",
-    "Description": "Khi sử dụng ở Liyue, có thể tìm được rương báu ở gần đó.\nVùng đất của Nham có nhiều sản vật phong phú, giữa những dãy núi và cao nguyên ắt hẳn cất giấu bảo vật.",
+    "Description": "Khi sử dụng ở Liyue, có thể tìm được rương báu và dấu vết rương báu ở xung quanh.\nVùng đất của Nham có nhiều sản vật phong phú, giữa những dãy núi và cao nguyên ắt hẳn cất giấu bảo vật.",
     "TypeDescription": "Đạo cụ nhỏ",
     "Icon": "UI_ItemIcon_220003"
   },
@@ -41645,7 +42832,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "La Bàn Tìm Báu Vật - Phong",
-    "Description": "Khi sử dụng ở Mondstadt, có thể tìm được rương báu ở gần đó.\nLa bàn tìm vật báu không tuân theo quy luật từ trường của đại lục, nó hướng về địa mạch, nơi cất giữ những báu vật gần đó.",
+    "Description": "Khi sử dụng ở Mondstadt, có thể tìm được rương báu và dấu vết rương báu ở xung quanh.\nLa bàn tìm vật báu không tuân theo quy luật từ trường của đại lục, nó hướng về địa mạch, nơi cất giữ những báu vật gần đó.",
     "TypeDescription": "Đạo cụ nhỏ",
     "Icon": "UI_ItemIcon_220009"
   },
@@ -41855,7 +43042,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Hộp Hạt Giống",
-    "Description": "Chiếc hộp thần kỳ nhận được từ chỗ của Bình Lão Lão. Nghe nói, chiếc hộp này có khả năng \"chuyển hoá hạt giống\"...Có nghĩa là, nó có thể tạo ra hạt giống của nhiều loại cây khác nhau dựa theo đặc tính của cây ban đầu, hạt giống thu được có thể được trồng trên ruộng tương ứng trong \"Ấm Trần Ca\". \nCác loại cây có thể cho hạt giống: Hoa Nghê Thường, Hoa Ngọt, Cecilia, Bách Hợp Lưu Ly, Cúc Cánh Quạt, Thanh Tâm, Túi Lưu Ly, Quả Dâu Đỏ, Tiểu Đăng Thảo, Ớt Tuyệt Vân, Cà Rốt, Củ Cải Trắng, Bạc Hà, Nấm Rơm, Cỏ Naku, Đuôi Ngựa, Cỏ Kim Ngư, Đài Sen, Hoa Calla Lily, Rong Biển, Hải Linh Chi, Quả Harra, Đào Zaytun, Tường Vi Sumeru, Sen Pluie, Marcotte, Hoa Lumidouce, Tường Vi Cầu Vồng, Hạt Ngũ Cốc, Cacahuatl, Sen Đá Saurian, Quả Quenepa, Cúc Rực Rỡ, Mang Bọt Biển.",
+    "Description": "Chiếc hộp thần kỳ nhận được từ chỗ của Bình Lão Lão. Nghe nói, chiếc hộp này có khả năng \"chuyển hoá hạt giống\"...Có nghĩa là, nó có thể tạo ra hạt giống của nhiều loại cây khác nhau dựa theo đặc tính của cây ban đầu, hạt giống thu được có thể được trồng trên ruộng tương ứng trong \"Ấm Trần Ca\". \nCác loại cây có thể cho hạt giống: Hoa Nghê Thường, Hoa Ngọt, Cecilia, Bách Hợp Lưu Ly, Cúc Cánh Quạt, Thanh Tâm, Túi Lưu Ly, Quả Dâu Đỏ, Tiểu Đăng Thảo, Ớt Tuyệt Vân, Cà Rốt, Củ Cải Trắng, Bạc Hà, Nấm Rơm, Cỏ Naku, Đuôi Ngựa, Cỏ Kim Ngư, Đài Sen, Hoa Calla Lily, Rong Biển, Hải Linh Chi, Quả Harra, Đào Zaytun, Tường Vi Sumeru, Sen Pluie, Marcotte, Hoa Lumidouce, Tường Vi Cầu Vồng, Hạt Ngũ Cốc, Cacahuatl, Sen Đá Saurian, Quả Quenepa, Cúc Rực Rỡ, Mang Bọt Biển, Nấm Sừng Phát Sáng.",
     "TypeDescription": "Đạo cụ nhỏ",
     "Icon": "UI_ItemIcon_220033"
   },
@@ -41865,7 +43052,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "La Bàn Tìm Báu Vật - Lôi",
-    "Description": "Có thể dò tìm rương báu trong vùng đất Inazuma.\nVùng đất trên quần đảo hội tụ nguyên tố Lôi từng phải gánh chịu nhiều tổn thương. Đi đôi với việc bị tổn thương và hồi phục, đó là khắp nơi trên đảo xuất hiện nhiều kho báu.",
+    "Description": "Khi sử dụng ở Inazuma, có thể tìm được rương báu và dấu vết rương báu ở xung quanh.\nVùng đất trên quần đảo hội tụ nguyên tố Lôi từng phải gánh chịu nhiều tổn thương. Đi đôi với việc bị tổn thương và hồi phục, đó là khắp nơi trên đảo xuất hiện nhiều kho báu.",
     "TypeDescription": "Đạo cụ nhỏ",
     "Icon": "UI_ItemIcon_220034"
   },
@@ -42085,7 +43272,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "La Bàn Tìm Báu Vật - Thảo",
-    "Description": "Khi sử dụng ở Sumeru, có thể tìm kiếm rương xung quanh.\nĐối với một số người, ý nghĩa của cuộc sống là thám hiểm và khám phá. Và khi kết thúc quá trình thám hiểm và khám phá, thường có những kho báu phong phú đang chờ đợi họ.",
+    "Description": "Khi sử dụng ở Sumeru, có thể tìm được rương báu và dấu vết rương báu ở xung quanh.\nĐối với một số người, ý nghĩa của cuộc sống là thám hiểm và khám phá. Và khi kết thúc quá trình thám hiểm và khám phá, thường có những kho báu phong phú đang chờ đợi họ.",
     "TypeDescription": "Đạo Cụ Nhỏ",
     "Icon": "UI_ItemIcon_220058"
   },
@@ -42355,7 +43542,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "La Bàn Tìm Báu Vật - Thủy",
-    "Description": "Khi sử dụng ở Fontaine có thể tìm kiếm rương báu ở xung quanh.\nNhững rương báu này rải rác ở khắp Fontaine, không ai tuyên bố quyền sở hữu chúng cả. Trong đa số trường hợp, gom chúng làm của riêng sẽ không vi phạm pháp luật.",
+    "Description": "Khi sử dụng ở Fontaine, có thể tìm được rương báu và dấu vết rương báu ở xung quanh.\nNhững rương báu này rải rác ở khắp Fontaine, không ai tuyên bố quyền sở hữu chúng cả. Trong đa số trường hợp, gom chúng làm của riêng sẽ không vi phạm pháp luật.",
     "TypeDescription": "Đạo Cụ Nhỏ",
     "Icon": "UI_ItemIcon_220087"
   },
@@ -42525,7 +43712,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "La Bàn Tìm Báu Vật - Hỏa",
-    "Description": "Khi sử dụng ở Natlan, có thể tìm kiếm rương báu ở xung quanh.\nVùng đất của lửa đầy rẫy tranh chấp, có rất nhiều kho báu cũng vì thế mà mất đi manh mối và dấu vết.",
+    "Description": "Khi sử dụng ở Natlan, có thể tìm được rương báu và dấu vết rương báu ở xung quanh.\nVùng đất của lửa đầy rẫy tranh chấp, có rất nhiều kho báu cũng vì thế mà mất đi manh mối và dấu vết.",
     "TypeDescription": "Đạo Cụ Nhỏ",
     "Icon": "UI_ItemIcon_220104"
   },
@@ -42578,6 +43765,16 @@
     "Description": "·Đạo cụ tiêu hao Bột Thánh Hóa để sản sinh Thánh Di Vật được định nghĩa sẵn, hoặc chiết xuất Thánh Di Vật thành Bột Thánh Hóa.\n·Trong mỗi chu kỳ, số lượng Bột Thánh Hóa nhận được thông qua chiết xuất sẽ có giới hạn; Lượt định nghĩa cho các bộ Thánh Di Vật cũng sẽ giới hạn.\n\nNguồn gốc sức mạnh của Thánh Di Vật đến từ những câu chuyện. Do đó, những chữ viết thần thánh có thể cố gắng thử tạo ra Thánh Di Vật. Tương truyền, từng có bảy mươi vị hiền giả đã lần lượt dịch ra một văn bản giống hệt nhau, vì thế mà nguyên tác thần thánh mới được xem là \"thần thánh\". Chỉ cần đặt tay lên cỗ máy này, câu chuyện phía sau Thánh Di Vật sẽ tự nhiên tuôn trào.",
     "TypeDescription": "Đạo Cụ Nhỏ",
     "Icon": "UI_ItemIcon_220109"
+  },
+  {
+    "MaterialType": 21,
+    "Id": 220113,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kính Ghi Hình",
+    "Description": "Chiếc kính do học giả Học Phái Amurta Lamiya chế tạo, có thể liên kết với thiết bị gắn trên người các động vật, từ đó lấy được hình ảnh sự vật trong tầm mắt của chúng để hiện ra trên mặt kính.",
+    "TypeDescription": "Đạo Cụ Nhỏ",
+    "Icon": "UI_ItemIcon_220085"
   },
   {
     "MaterialType": 5,
@@ -42848,6 +44045,26 @@
     "Description": "Bản vẽ mô tả chi tiết các bước làm \"La Bàn Tìm Báu Vật - Hỏa\". Có thể dùng để tìm báu vật ở Natlan.",
     "TypeDescription": "Bản Vẽ Rèn",
     "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 221065,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Công Thức: Mồi Bột Spinel",
+    "Description": "Công thức chi tiết ghi lại cách làm \"Mồi Bột Spinel\".",
+    "TypeDescription": "Bản Vẽ Mồi Câu",
+    "Icon": "UI_ItemIcon_221035"
+  },
+  {
+    "MaterialType": 5,
+    "Id": 221066,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Công Thức: Mồi Lửa Ấm",
+    "Description": "Công thức chi tiết ghi lại cách làm \"Mồi Lửa Ấm\".",
+    "TypeDescription": "Bản Vẽ Mồi Câu",
+    "Icon": "UI_ItemIcon_221035"
   },
   {
     "MaterialType": 5,
@@ -54166,6 +55383,336 @@
     "ItemType": 2,
     "Name": "Khoảng Cách Giữa Nó Và Ngọn Lửa",
     "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Khoảng Cách Giữa Nó Và Ngọn Lửa\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390919,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kiến Trúc Gió Đêm - Qua Lại Cần Thiết",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Kiến Trúc Gió Đêm - Qua Lại Cần Thiết\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390920,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kiến Trúc Gió Đêm - Nền Tảng Bí Thuật",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Kiến Trúc Gió Đêm - Nền Tảng Bí Thuật\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390921,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Căn Cứ Gió Đêm - Con Đường Bình Phàm",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Căn Cứ Gió Đêm - Con Đường Bình Phàm\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394610,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Hàng Rào Tezcatepetonco - Chuyển Động Mặt Trời",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Hàng Rào Tezcatepetonco - Chuyển Động Mặt Trời\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394611,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Hàng Rào Tezcatepetonco - Cung Đường Thám Hiểm",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Hàng Rào Tezcatepetonco - Cung Đường Thám Hiểm\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391147,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Khởi Đầu Vút Cao\"",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Khởi Đầu Vút Cao\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391148,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Khí Cầu Hội Hoa Vũ - Cảnh Báo",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Khí Cầu Hội Hoa Vũ - Cảnh Báo\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390922,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gian Nhà Hoa Vũ - Theo Đuổi Chi Tiết",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Gian Nhà Hoa Vũ - Theo Đuổi Chi Tiết\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390923,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gian Nhà Hoa Vũ - Tư Duy Bay Lượn",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Gian Nhà Hoa Vũ - Tư Duy Bay Lượn\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390924,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Nhà Đơn Sơ Hoa Vũ - Phương Tiện Dự Phòng",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Nhà Đơn Sơ Hoa Vũ - Phương Tiện Dự Phòng\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390925,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Chuồng Nghỉ Hoa Vũ - Saurian Ngon Giấc",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Chuồng Nghỉ Hoa Vũ - Saurian Ngon Giấc\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 391273,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Cầu Thang Gỗ Aratiku Xám - Tối Giản",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Cầu Thang Gỗ Aratiku Xám - Tối Giản\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 390926,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Đài Gỗ Aratiku Xám - Vuốt Lớn",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Đài Gỗ Aratiku Xám - Vuốt Lớn\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394124,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Dây Chặn Trên Vách Quahuacan",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Dây Chặn Trên Vách Quahuacan\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393918,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Mô Hình Thấu Thị - Máy Dệt Tinh Thần",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Mô Hình Thấu Thị - Máy Dệt Tinh Thần\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393919,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Mô Hình Thấu Thị - Lư Hương Xuất Hồn",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Mô Hình Thấu Thị - Lư Hương Xuất Hồn\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393920,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Người Thiền Định Tĩnh Lặng",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Người Thiền Định Tĩnh Lặng\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393921,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Thùng Đa Năng Buộc Dây",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Thùng Đa Năng Buộc Dây\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393922,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Dụng Cụ Trừ Tà An Thần",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Dụng Cụ Trừ Tà An Thần\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393923,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Linh Tính Và Phong Ấn",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Linh Tính Và Phong Ấn\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393924,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Con Đường Của Chúng Ta",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Con Đường Của Chúng Ta\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393925,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Liên Tưởng Đói Khát",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Liên Tưởng Đói Khát\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394612,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bia Gỗ - Phương Án Huấn Luyện",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bia Gỗ - Phương Án Huấn Luyện\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393472,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Túi Đo Gió Núi",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Túi Đo Gió Núi\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393473,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Khao Khát Vô Tận",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Khao Khát Vô Tận\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393474,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bức Tranh Tlalocan",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bức Tranh Tlalocan\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393219,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Gốc Rễ Chắc Chắn",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Gốc Rễ Chắc Chắn\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380456,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Đèn Đường Phlogiston - Con Đường Phía Trước",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Đèn Đường Phlogiston - Con Đường Phía Trước\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380457,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Đèn Đường Phlogiston - Ba Phần Nặng Nề",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Đèn Đường Phlogiston - Ba Phần Nặng Nề\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 380458,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Đèn Sàn Phlogiston - Đường Về",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Đèn Sàn Phlogiston - Đường Về\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393926,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Đuốc Cố Định - Mưu Cầu Chiến Thắng",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Đuốc Cố Định - Mưu Cầu Chiến Thắng\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 393603,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Hồ Dung Nham",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Hồ Dung Nham\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
+    "TypeDescription": "Bản Vẽ Đồ Trang Trí",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "MaterialType": 27,
+    "Id": 394613,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tàn Lửa Thành Tro Tàn",
+    "Description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Tàn Lửa Thành Tro Tàn\".\nSau khi dùng có thể đến giao diện chế tạo để xem.",
     "TypeDescription": "Bản Vẽ Đồ Trang Trí",
     "Icon": "UI_ItemIcon_Home_Common"
   }
