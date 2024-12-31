@@ -244,7 +244,7 @@
         },
         "Id": 30501,
         "Name": "Normal Saldırı: Ruh Meskeni Yıldırım Oku",
-        "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 3 ok atar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nDaha isabetli ve daha yüksek Hasar veren bir <color=#FFD780FF>Hedefli Atış</color> yapar.\nNişan alırken okun ucunda Elektrik enerjisi birikir. Tam yüklü bir ok ağır <color=#FFACFFFF>Elektrik Hasarı</color> verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Yere vurduğunda Alan Hasarı verir.",
+        "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 3 ok atar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nDaha isabetli ve daha yüksek Hasar veren bir <color=#FFD780FF>Hedefli Atış</color> yapar.\nNişan alırken okun ucunda Elektrik enerjisi birikir. Tam yüklü bir ok <color=#FFACFFFF>Elektrik Hasarı</color> verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Yere vurduğunda Alan Hasarı verir.",
         "Icon": "Skill_A_02"
       },
       {
@@ -630,7 +630,11 @@
         "Id": 1053,
         "Name": "Tünemiş Yarasanın Ruh Kafesi",
         "Description": "<color=#FFD780FF>Karanlık Seslerin Yankıları</color> Seviyesini 3 artırır.\nMaksimum yükseltme seviyesi 15'tir.",
-        "Icon": "UI_Talent_U_Olorun_01"
+        "Icon": "UI_Talent_U_Olorun_01",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
       },
       {
         "Id": 1054,
@@ -642,7 +646,11 @@
         "Id": 1055,
         "Name": "Ruh İçin Bir Hediye",
         "Description": "<color=#FFD780FF>Gece Sapanı</color> Seviyesini 3 artırır.\nMaksimum yükseltme seviyesi 15'tir.",
-        "Icon": "UI_Talent_U_Olorun_02"
+        "Icon": "UI_Talent_U_Olorun_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
       },
       {
         "Id": 1056,
@@ -785,7 +793,7 @@
       },
       {
         "Title": "Yüzbaşı Hakkında",
-        "Context": "4. Arkadaşlık Seviyesinde açılır."
+        "Context": "Yüzbaşı ile tanışmak kaderin tuhaf ve beklenmedik bir cilvesiydi.\nKabilem, geleceği tahmin etme yeteneğiyle bilinir ancak durumların böyle karmaşık bir hal almasını hiç beklemiyordum. Birine yardım etmek gerçekten de skoru eşitleyene kadar karşılıklı iyilik yapmak anlamına mı geliyor? Öyleyse neden hâlâ ona karşı borçluymuşum gibi hissediyorum? Neden yaptıkları için bu denli minnettarım?\nBelki de... Ben büyütüyorumdur. Geçmişte ne yaşandıysa yaşandı, Natlan'ın Ley Hatlarının kurtulmasına yardım etti sonuçta. Saygı duyulmayı hak ediyor, onu daima hatırlayacağım."
       },
       {
         "Title": "Ororon Hakkında Daha Fazlası: I",
@@ -951,7 +959,7 @@
       },
       {
         "Title": "Karakter Hikayesi 1",
-        "Context": "Kadim Adların varlığından ötürü Natlan halkı genel olarak adlara büyük önem verir. Ororon da büyüdüğü ortamdan etkilenerek etrafında bulunan, gerek canlı gerek cansız her varlığa bir ad verme alışkanlığı edinmişti.\nBazı adlar vardır ki verildiği varlığa ömrü boyunca eşlik eder. Bir çiçeğin adı o çiçek solana, bir fincanın adı o fincan kırılana dek yaşar, bu nesnelerin miadı dolduğunda adlarının da miadı dolar. Yalnızca bir dakikalığına var olsalar dahi amaçlarını yerine getirmiş, potansiyellerini gerçekleştirmiş sayılırlar.\nBazı adlar ise zaman içinde değişir. Aslında değişen Ororon'un duyguları değildir; adın \"sahibi\" deneyimsel bir dönüşüm yaşamıştır ve bu yüzden yeni, daha uygun bir adı hak eder. Ne de olsa giderek şişmanlayan bir Sürüngene \"Tığ Gibi\" demenin bir anlamı yoktur, değil mi?\nBununla beraber adın anlamı üzerinde çok fazla durmaz. Ororon her şeyden önce anlaşılır adlar verir ve anlamları gayet belirgindir. Ayrıca bu adlar sadece birer referanstır, onlara derin anlamlar yüklemez ve duygusal karşılıkları yoktur. Onun için tüm adlar değerli, tarafsız ve adildir, iletişimi kolaylaştırmaya yarar.\nKendi adını da böyle görür. Tek fark, adının ne anlama geldiğini bilmemesidir.\nOroron adı, Ororon'un bebekken içine sarılı halde bulunduğu kumaşın üzerinde yazılıydı. Ne anlama geldiğini bulmak için eski kitapları araştırdı, bazı büyüklerine sordu ancak aynı ada sahip başka birinin izini bulamadı, anlamıysa muammaydı.\nBelki ninesi yaşlı olduğundan, belki kumaştaki yazı okunaksız olduğundan, belki de her iki nedenden dolayı ninesi adını yanlış okumuş olabilirdi.\nBunun ardındaki gerçeği elbette kendi başına bulması gerekecekti. Çünkü olur da ninesine böyle bir şey sorma gafletinde bulunursa alnına sert bir fiske yiyeceğinden hiç şüphesi yoktu."
+        "Context": "Kadim Adların varlığından ötürü Natlan halkı genel olarak adlara çok önem verir. Ororon da büyüdüğü çevrenin etkisiyle etrafındaki her şeye isim vermeyi alışkanlık haline getirmiştir. Canlı veya cansız olmaları fark etmez.\nBazı isimler, temsil ettikleri şeylere hayatları boyunca eşlik eder. Bir gün çiçekler solup kadehler kırılsa bile, varlıkları ne kadar kısa olursa olsun isimleri var olacaktır. Sadece bir anlık olsalar bile amaçlarına ulaşmış ve görevlerini yerine getirmiş olacaklardır.\nAncak diğer adlar, yol boyunca değişecekti. Bu, Ororon'un hislerinin değiştiğinden değil, ismin \"sahibi\" bir çeşit deneyimsel dönüşüm geçirdiği içindi ve dolayısıyla uygun bir isim bulmak gerekiyordu. Örneğin, bir Sürüngen zamanla daha tombul bir hale geldiğinde ona \"Kraker\" gibi bir isim takamazsın, değil mi?\nBununla birlikte isimlerin taşıdığı anlamlar üzerinde pek durmaz. İlk olarak, verdiği isimler her zaman anlaşılır ve basittir. İkinci olarak, isimleri sadece referansları kolaylaştırmak için bulur ve derin bir anlam taşımaz. Diğer bir deyişle, onları özel bir duygu taşımak için yapmaz. O, tüm isimlerin değerli olduğunu, her birinin sadece iletişimi kolaylaştıran araçlar olduğunu düşünür.\nKendi adı için de aynı şekilde düşünür. Aradaki tek fark, adının anlamını bilmiyor olmasıdır.\nOroron adı, bulunduğunda kundaklanmış olduğu kumaşın içinde yazılıymış. Eski kitaplarda bununla ilgili bir referans bulmaya çalıştı, hatta yaşlılara bile sordu ama adının anlamını bilen kimsenin ya da buna dair bir kayıt bulamadı.\nAcaba ninesinin yaşından mı, yoksa kumaştaki yazının yeterince belli olmamasından mı... Yoksa bu iki sebebin bir araya gelmesinden dolayı yanlış mı okumuştu?\nTabii bu, kendi kendine düşünmesi gereken bir şeydi. Yoksa soruyu dile getirirse ninesinden bir fiske yiyeceğine şüphe yoktu."
       },
       {
         "Title": "Karakter Hikayesi 2",
@@ -971,7 +979,7 @@
       },
       {
         "Title": "Atıştırma Kutusu",
-        "Context": "Bu atıştırmalıklar insanlar için değil, vahşi hayvanlar için. Farklı hayvanların tercihlerine göre farklı bölümlere ayrıldılar.\nÇoğu hayvan oldukça akıllıdır ve Ororon'un yaptığı gözlemlere göre, çoğu kişinin düşündüğünün aksine insanlar ve hayvanlar arasındaki fark aslında o kadar da büyük değil. Birçok insan önceki nesillerin bilgi birikimini miras aldığı için başarılı hayatlar yaşarlar, bu açıdan bakıldığında hayvanların zorlu doğa şartlarında hayatta kalabilmek için ortaya koydukları zeka çok daha etkileyicidir.\nİnsanlarla birlikte yaşarken onlardan yardım almak da hayvanların öğrendiği kestirme bir yoldur. Ororon bazen kendi halinde yürürken aniden ağır bir şeyin sırtına indiğini hisseder. Eğer yeterince hızlı tepki veremezse daha sonra pelerininde fazladan birkaç uçan sincap pençesi iziyle karşılaşabilir.\nOroron aynı zamanda hayvanların kendi aralarında bir iletişim yöntemleri olduğuna inanır. Hatta hayvan ulakların insan ulaklara kıyasla çok daha yetenekli olduğunu, çünkü karada ve havada seyahat etmelerinin yanı sıra diğer türlerle iletişim kurmak için bir sürü farklı dil ile lehçe bilmeleri gerektiğini düşünür. Natlan'daki hayvanların hemen hepsinin dilinde \"Ororon'un cebinde yiyecek var!\" sözünün bir karşılığı olabileceği düşüncesi gülümsetir onu.\nYemeği beleşe getirmeyi kafaya koymuş bu misafirleri geri çevirmek için kendince yöntemleri olsa da onları asla kullanmazdı. Gittiği her yerde hayvanlar onu kendilerinden biri gibi karşılarlar ve bu, herkesin sahip olabileceği bir ayrıcalık değildir.\nElbette her hayvanın bir kişiliği vardır, bu nedenle minnet duygularını gösterme biçimleri değişkenlik gösterir.\nMesela Kinich'in yanındaki Ajaw oldukça acayiptir. Kendisine verilen her şey zaten onun \"doğal hakkıymış\" gibi davranırdı ama aynı zamanda, yanında insan olmadan hayatta kalamaz gibi bir hali vardır. Ororon genelde onun söylediklerine aldırış etmez. Yiyeceği önünde sallandırır ve Ajaw'ın gözlüklerinin arkasından yiyeceği takip edişini seyreder. (... O parlak noktalar onun gözleri olmalı, değil mi?) Eğer Ajaw terbiye sınırlarını aşarsa Kinich, henüz Ajaw yemeğini yiyemeden onun ağzını açmasını yasaklar.\nCacucu ise onun tam tersidir, tatlı dilli bir yoldaştır. İnsanların kullandığı kelimelere dair sınırlı bir anlayışı olsa da söylediği şeyler hep duygu dolu olur, mesela \"Senden iyisi yok dostum!\" gibi."
+        "Context": "Bunlar insanlar için değil, vahşi hayvanlar için yapılıyor. Farklı hayvanların tercihlerine göre farklı bölümlere ayrılıyor.\nÇoğu hayvan aslında oldukça zekidir ve Ororon'un gözlemlerine göre insanlarla aralarındaki fark aslında sanıldığı kadar büyük değildir. Birçok insan, sadece önceki nesillerden gelen bilgileri miras alıyor ve bu sayede sorunsuz yaşayabiliyorlar. Yani bir bakıma, tehlikeli bir ortamda hayatta kalmanın yollarını bulan hayvanların sahip olduğu zeka çok daha etkileyici.\nİnsanlardan yardım istemek de hayvanların insanlarla birlikte yaşarken öğrendiği kestirme bir yoldur. Bazen Ororon, kendi işleriyle ilgileniyorken aniden sırtına ağır bir şeyin konduğunu hisseder. Hemen tepki vermezse sonrasında fark edeceği şey pelerinindeki uçan sincap pençesi izleri olacaktır.\nAynı şekilde Ororon, hayvanların kendileri arasında belirli bir iletişim şekli olduğuna inanıyordu. Hatta hayvan ulaklar insan meslektaşlarından çok daha becerikli olabilir çünkü hem havadan hem karadan seyahat ettikleri gibi bir de diğer türlerle iletişim kurmak için farklı dillerde ve lehçelerde ustalaşmaları gerekir. \"Ororon'un cebinde tatlılar var!\" diye bir ifadenin Natlan'daki hayvanların kendi dillerinde yer alması fikri bile onu gülümsetti.\nBu bedava yemek yiyen misafirleri reddetmenin bir yolunu bulsa bile asla kullanmazdı. Nereye giderse gitsin hayvanlar onu kendi türlerinden biri olarak karşılardı. Bu herkesin sahip olamayacağı bir ayrıcalıktı.\nTabii ki hayvanların da kendine özgü karakterleri vardı ve minnettarlıklarını ifade etme şekilleri de öyleydi.\nMesela Kinich'in Ajaw'ı oldukça tuhaftı. Her zaman her şey için \"bu benim hakkım\" tavırlarındaydı ancak yanında insanlar olmadan yapamaz gibi de duruyordu. Ororon genelde Ajaw'ın söylediklerine kulak asmazdı, önünde yemeği sallar ve Ajaw'ın güneş gözlüğünün ardındaki gözlerini takip ederdi. (... O parıldayan noktalar gözleri olsa gerek, değil mi?) Ajaw, zamanında kibar bir şey söylemezse Kinich onun pençelerini yemeğe geçirmeden ağzını açmasını yasaklardı.\nTam tersine Cacucu ise çok tatlı dilliydi. İnsan dilini belli bir ölçüde bilse de söylediği şeyler hep duygu dolu olurdu. Mesela \"Sen en iyisisin dostum!\" gibi şeyler söylerdi."
       },
       {
         "Title": "Önsezi",

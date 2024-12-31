@@ -244,7 +244,7 @@
         },
         "Id": 30501,
         "Name": "Ataque Normal: Flecha Veloz Espiritual",
-        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 disparos consecutivos com o arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um <color=#FFD780FF>Disparo com Mira</color> mais preciso e com mais dano.\nEnquanto mira, elemento Electro irá acumular na ponta da flecha. Uma flecha completamente carregada irá causar muito <color=#FFACFFFF>Dano Electro</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas do ar antes de cair e impactar o chão, causando Dano em uma AdE no impacto.",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 disparos consecutivos com o arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um <color=#FFD780FF>Disparo com Mira</color> mais preciso e com mais dano.\nEnquanto mira, elemento Electro irá acumular na ponta da flecha. Uma flecha completamente carregada irá causar <color=#FFACFFFF>Dano Electro</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas do ar antes de cair e impactar o chão, causando Dano em uma AdE no impacto.",
         "Icon": "Skill_A_02"
       },
       {
@@ -630,7 +630,11 @@
         "Id": 1053,
         "Name": "Prisão Espiritual dos Morcegos",
         "Description": "Aumenta o nível de <color=#FFD780FF>Ecos Sombrios</color> em 3.\nO nível máximo de elevação é 15.",
-        "Icon": "UI_Talent_U_Olorun_01"
+        "Icon": "UI_Talent_U_Olorun_01",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
       },
       {
         "Id": 1054,
@@ -642,7 +646,11 @@
         "Id": 1055,
         "Name": "Tributo para o Coração Espiritual",
         "Description": "Aumenta o nível da Habilidade Elemental <color=#FFD780FF>Rastreamento da Escuridão</color> em 3 níveis. \nO nível máximo de elevação é 15.",
-        "Icon": "UI_Talent_U_Olorun_02"
+        "Icon": "UI_Talent_U_Olorun_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
       },
       {
         "Id": 1056,
@@ -785,7 +793,7 @@
       },
       {
         "Title": "Sobre Capitano...",
-        "Context": "Desbloqueia quando Amizade atingir Nv.4"
+        "Context": "Conhecer Capitano foi uma reviravolta estranha e inesperada para mim.\nDizem que os Mestres do Vento Noturno são bons em prever o futuro, mas nunca imaginei que as coisas ficariam tão complicadas. Você acha que as relações humanas podem ser resolvidas de forma simples e definitiva? Se for assim, por que ainda guardo em meu coração gratidão e dívida?\n...Ou talvez eu apenas esteja pensando demais. Independentemente do que aconteceu antes, ele ajudou a salvar as Linhas Ley de Natlan, que estavam à beira do colapso. Ele é um herói digno de respeito. Sempre lembrarei dele."
       },
       {
         "Title": "Mais sobre Ororon - I",
@@ -951,7 +959,7 @@
       },
       {
         "Title": "História do Personagem 1",
-        "Context": "Devido à existência de nomes antigos, os habitantes de Natlan também dão muita importância à questão dos nomes. Influenciado pelo ambiente em que cresceu, Ororon gosta de dar nomes às coisas ao seu redor — seja para as que respiram ou para as que não respiram.\n Alguns nomes acompanham essas coisas por toda a vida: as flores murcham, os copos quebram, e seus nomes os acompanham por vidas breves ou longas; mesmo que só tenham utilidade por um minuto, já valeram o que representam.\n E há nomes que mudam ao longo do caminho. Não é que o humor de Ororon tenha mudado, mas o dono do nome passou por certas experiências e, naturalmente, passa a precisar de um nome que lhe caiba melhor. Por exemplo, se um Sauriano crescer e engordar demais, você não pode continuar chamando-o de \"Papelzinho\", certo?\n Contudo, ele não se importa muito com o significado dos nomes. Primeiro, porque todos os nomes que ele dá são bem diretos, sendo fácil entender o que significam. Segundo, ele nomeia as coisas apenas para facilitar a referência, sem outro propósito, então não há nomes carregados de sentimentos específicos — para ele, os nomes são valiosos, neutros e iguais, facilitando a comunicação.\n Até o próprio nome dele ele trata da mesma forma. A única diferença é que ele realmente não sabe o que o próprio nome significa.\n Ororon era o nome escrito no lado interno do seu manto quando ele foi encontrado. Ele consultou alguns livros antigos e perguntou a vários anciãos, mas ninguém conhecia um nome igual, muito menos seu significado.\n Será que a avó, por estar com a visão fraca e a escrita no tecido estar borrada, leu errado?\n Mas essa pergunta ele só pode fazer a si mesmo, pois, se perguntasse diretamente, ganharia um beliscão da avó."
+        "Context": "Devido a existência dos Nomes Antigos, o povo de Natlan valoriza muito todos os nomes. Como foi influenciado pelo ambiente que cresceu, Ororon passou a ter o hábito de nomear tudo ao seu redor, quer respirasse ou não.\nAlguns nomes acompanhavam as coisas que significavam por toda sua vida. Apesar de que inevitavelmente chegaria o dia em que uma flor murcharia ou uma xícara quebraria, portanto, seus nomes tinham vidas longas ou curtas equivalentes as suas existências. Ainda que durassem somente um minuto, seu propósito teria sido realizado.\nOutros nomes, entretanto, mudavam ao longo do caminho. Não era como se os sentimentos de Ororon tivessem mudado, mas que o \"dono\" do nome passou por algum tipo de transformação, por isso precisava de um nome mais adequado. Por exemplo, se um Sauriano ficasse cada vez mais redondo, não combinaria mais chamá-lo de algo como \"Magricela como Papel\", não é?\nDito isso, ele não costuma passar muito tempo pensando nos significados dos nomes. Primeiro, seus nomes sempre são diretos, seus significados imediatamente claros. Segundo, ele pensa nesses nomes só por conveniência, sem nenhuma segunda intenção; ou seja, esses nomes não devem conter nenhuma emoção em particular. Para ele, todos os nomes são preciosos, todos são neutros, todos são ferramentas para facilitar a comunicação.\nEle vê seu próprio nome da mesma forma. A única diferença é que ele mesmo não sabe o que significa.\nO nome Ororon foi escrito no interior do tecido que o enrolava quando foi encontrado. Foram procuradas referências em livros antigos, anciãos também foram questionados, mas ninguém nunca havia visto esse nome ser mencionado, nem jamais conheceram alguém com ele, muito menos sabiam seu significado.\nSerá que era a idade da sua avó, ou será que era a escrita ilegível no tecido, ou até mesmo uma combinação dos dois que a fez ler errado?\nIsso, entretanto, era algo que ele mesmo teria que pensar. Se ele perguntasse em voz alta, sem dúvidas, receberia um golpe na testa da vovó."
       },
       {
         "Title": "História do Personagem 2",
@@ -971,7 +979,7 @@
       },
       {
         "Title": "Caixa de Lanches",
-        "Context": "Não era um lanche para pessoas, mas sim um petisco preparado para animais selvagens. De acordo com as preferências de cada animal, eram organizados em uma caixa com divisórias.\nA maioria dos animais era bastante inteligente e, segundo as observações de Ororon, a diferença de inteligência entre eles e os humanos não era tão grande quanto muitos imaginavam. Muitos humanos conseguem viver bem apenas porque herdaram o conhecimento dos antepassados, enquanto aqueles que encontram maneiras de sobreviver em ambientes hostis talvez sejam ainda mais incríveis.\nBuscar ajuda também é um atalho que os animais aprenderam ao conviver com os humanos. Às vezes, Ororon estava apenas caminhando pela estrada quando sentia de repente um peso nas costas. Se fosse um pouco mais lento para reagir, ganhava algumas marcas de garras de um Esquilo-Voador em sua capa.\nOroron acreditava firmemente que, entre os animais, certamente havia uma rede de comunicação organizada. Os mensageiros entre eles talvez fossem muito mais eficientes que os humanos, pois não só voam e correm pela terra, como também devem conhecer os idiomas de diferentes espécies. Ele não pôde evitar um sorriso ao imaginar cada espécie em Natlan sabendo dizer algo como \"Ororon tem coisas gostosas no bolso!\"\nPor isso, mesmo que tivesse maneiras de afastar esses comensais indesejados, Ororon jamais as usaria. Ser visto como \"um dos seus\" por animais em qualquer lugar que fosse, não era um privilégio que qualquer um tinha.\nClaro, os animais também têm personalidades variadas, então as formas de expressar gratidão eram diversas.\nPor exemplo, Ajaw, de Kinich, era bem peculiar. Ele sempre tinha uma atitude de \"É meu direito!\", mas ao mesmo tempo parecia não conseguir se afastar das pessoas. Ororon geralmente ignorava suas palavras e balançava a comida diante dele, observando os olhos de Achou se moverem atrás dos óculos escuros (Aquelas luzes são os olhos? Devem ser, certo?). Se Achou não dissesse algo gentil a tempo, Kinich o impedia de abrir a boca antes de receber o petisco.\nPor outro lado, Cakuku era excelente em elogios. Embora não soubesse muitas palavras humanas, seu entusiasmo era sempre perceptível: \"Você é o melhor, cara!\""
+        "Context": "Não era um lanche para pessoas, mas sim um petisco preparado para animais selvagens. De acordo com as preferências de cada animal, eram organizados em uma caixa com divisórias.\nA maioria dos animais era bastante inteligente e, segundo as observações de Ororon, a diferença de inteligência entre eles e os humanos não era tão grande quanto muitos imaginavam. Muitos humanos conseguem viver bem apenas porque herdaram o conhecimento dos antepassados, enquanto aqueles que encontram maneiras de sobreviver em ambientes hostis talvez sejam ainda mais incríveis.\nBuscar ajuda também é um atalho que os animais aprenderam ao conviver com os humanos. Às vezes, Ororon estava apenas caminhando pela estrada quando sentia de repente um peso nas costas. Se fosse um pouco mais lento para reagir, ganhava algumas marcas de garras de um Esquilo-Voador em sua capa.\nOroron acreditava firmemente que, entre os animais, certamente havia uma rede de comunicação organizada. Os mensageiros entre eles talvez fossem muito mais eficientes que os humanos, pois não só voam e correm pela terra, como também devem conhecer os idiomas de diferentes espécies. Ele não pôde evitar um sorriso ao imaginar cada espécie em Natlan sabendo dizer algo como \"Ororon tem coisas gostosas no bolso!\"\nMesmo que ele tivesse formas de dispensar esses convidados folgados, fissurados em comer de graça, ele jamais fazia isso. Aonde ele ia, animais sempre o recebiam como se fosse da mesma espécie — e esse era um privilégio que nem todos tinham.\nClaro, os animais também têm personalidades variadas, então as formas de expressar gratidão eram diversas.\nPor exemplo, Ajaw, de Kinich, era bem peculiar. Ele sempre tinha uma atitude de \"É meu direito!\" mas, ao mesmo tempo, parecia não conseguir se afastar das pessoas. Ororon geralmente ignorava suas palavras e balançava a comida diante dele, observando os olhos de Achou se moverem atrás dos óculos escuros (Aquelas luzes são os olhos? Devem ser, certo?). Se Achou não dissesse algo gentil a tempo, Kinich o impedia de abrir a boca antes de receber o petisco.\nPor outro lado, Cacucu era excelente em elogios. Embora não soubesse muitas palavras humanas, seu entusiasmo era sempre perceptível: \"Você é o melhor, mano!\""
       },
       {
         "Title": "Visão",
