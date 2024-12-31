@@ -244,7 +244,7 @@
         },
         "Id": 30501,
         "Name": "Standardangriff: Blitzender Pfeil der schlummernden Seelen",
-        "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 3 Pfeilschüsse hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nFührt einen <color=#FFD780FF>gezielten Schuss</color> mit höherem Schaden und höherer Genauigkeit aus.\nKonzentriert die Elektro-Kraft während des Zielens an der Pfeilspitze, die voll aufgeladen hohen <color=#FFACFFFF>Elektro-Schaden</color> verursacht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht beim Aufkommen Flächenschaden.",
+        "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 3 Pfeilschüsse hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nFührt einen <color=#FFD780FF>gezielten Schuss</color> mit höherem Schaden und höherer Genauigkeit aus.\nKonzentriert die Elektro-Kraft während des Zielens an der Pfeilspitze, die voll aufgeladen <color=#FFACFFFF>Elektro-Schaden</color> verursacht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht beim Aufkommen Flächenschaden.",
         "Icon": "Skill_A_02"
       },
       {
@@ -630,7 +630,11 @@
         "Id": 1053,
         "Name": "Geisterkäfig der Fledermaus im Nest",
         "Description": "Erhöht die Stufe der Spezialfähigkeit <color=#FFD780FF>Gedämpftes Echo der Finsternis</color> um 3.\nHöchststufe 15.",
-        "Icon": "UI_Talent_U_Olorun_01"
+        "Icon": "UI_Talent_U_Olorun_01",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
       },
       {
         "Id": 1054,
@@ -642,7 +646,11 @@
         "Id": 1055,
         "Name": "Geschenk für die Seele",
         "Description": "Erhöht die Stufe der Elementarfähigkeit <color=#FFD780FF>Kette des Zwielichts</color> um 3.\nHöchststufe 15.",
-        "Icon": "UI_Talent_U_Olorun_02"
+        "Icon": "UI_Talent_U_Olorun_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
       },
       {
         "Id": 1056,
@@ -785,7 +793,7 @@
       },
       {
         "Title": "Über „Capitano“ ...",
-        "Context": "Ab Freundschaftsstufe 4 verfügbar"
+        "Context": "Die Begegnung mit Capitano war für mich eine seltsame und unerwartete Wendung des Schicksals.\nMein Stamm ist dafür bekannt, dass wir die Zukunft vorhersagen können, aber ich hätte nie erwartet, dass sich die Dinge so kompliziert entwickeln würden. Geht es dabei, wenn man anderen hilft, wirklich darum, Gefallen auszutauschen, bis man quitt ist? Wenn ja, warum fühle ich mich dann immer noch so sehr in seiner Schuld und so dankbar für alles, was er für mich getan hat?\nOder ... vielleicht mache ich mir einfach zu viele Gedanken. Egal, was in der Vergangenheit passiert ist, er hat geholfen, Natlans Fluss der Elemente vor der Gefahr zu retten. Er ist ein Held, der Respekt verdient, und ich werde ihn immer in Erinnerung behalten."
       },
       {
         "Title": "Ich will mehr über Ororon erfahren I",
@@ -951,7 +959,7 @@
       },
       {
         "Title": "Figurenhintergrund 1",
-        "Context": "Da es antike Namen gibt, messen die Menschen von Natlan Namen im Allgemeinen große Bedeutung bei. Auch Ororon, beeinflusst durch sein Umfeld, liebt es, allen möglichen Dingen – ob lebendig oder nicht – Namen zu geben.\nManche Namen begleiten die Dinge ein Leben lang: Eine Blume wird verwelken, ein Becher zerbrechen; doch ihre Namen begleiten sie für die Dauer ihres Seins, sei es nur für eine Minute, und erfüllen so ihren Zweck.\nAndere Namen werden im Laufe der Zeit geändert. Nicht, weil Ororon seine Meinung ändert, sondern weil die Dinge selbst sich durch ihre Erlebnisse verändern und einen besser passenden Namen brauchen. Wenn ein Drache etwa immer dicker wird, kann man ihn schließlich nicht mehr „Bohnenstange“ nennen, oder?\nDabei kümmert sich Ororon wenig um die Bedeutung der Namen. Zum einen sind seine Namen sehr direkt und sofort verständlich. Zum anderen verleiht er sie nur zur praktischen Identifikation, ohne tieferen Sinn. Die Namen sind neutral, wertvoll und sollen Kommunikation erleichtern.\nSelbst seinen eigenen Namen betrachtet er so. Das Einzige, was seinen von den andern unterscheidet ist, er weiß nicht genau, was sein eigener Name bedeutet.\n„Ororon“ stand auf der Innenseite seines Tuches, als man ihn fand. Er hat alte Schriften durchsucht und Ältere befragt, doch niemand kennt diesen Namen oder seine Bedeutung.\nVielleicht hat Oma ihn falsch gelesen, weil die Schrift auf dem Stoff undeutlich war?\nAber diese Frage bleibt wohl nur in seinen Gedanken. Er würde es nicht direkt ansprechen, da er sonst eine von Omas Kopfnüssen kassieren würde."
+        "Context": "Da es antike Namen gibt, messen die Menschen von Natlan Namen im Allgemeinen große Bedeutung bei. Auch Ororon, beeinflusst das Umfeld, in dem er aufgewachsen ist, liebt es, allen möglichen Dingen – ob lebendig oder nicht – Namen zu geben.\nManche Namen begleiten die Dinge ein Leben lang: Eine Blume wird verwelken, ein Becher zerbrechen; doch ihre Namen begleiten sie für die Dauer ihres Seins, sei es nur für eine Minute, und erfüllen so ihren Zweck.\nAndere Namen werden im Laufe der Zeit geändert. Nicht, weil Ororon seine Meinung ändert, sondern weil die Dinge selbst sich durch ihre Erlebnisse verändern und einen besser passenden Namen brauchen. Wenn ein Drache etwa immer dicker wird, kann man ihn schließlich nicht mehr „Bohnenstange“ nennen, oder?\nDabei kümmert sich Ororon wenig um die Bedeutung der Namen. Zum einen sind seine Namen sehr direkt und sofort verständlich. Zum anderen verleiht er sie nur zur praktischen Identifikation, ohne tieferen Sinn. Die Namen sind neutral, wertvoll und sollen Kommunikation erleichtern.\nSelbst seinen eigenen Namen betrachtet er so. Das Einzige, was seinen von den andern unterscheidet, ist, er weiß nicht genau, was sein eigener Name bedeutet.\n„Ororon“ stand auf der Innenseite seines Tuches, als man ihn fand. Er hat alte Schriften durchsucht und Ältere befragt, doch niemand kennt diesen Namen oder seine Bedeutung.\nVielleicht hat Oma ihn falsch gelesen, weil die Schrift auf dem Stoff undeutlich war?\nAber diese Frage bleibt wohl nur in seinen Gedanken. Er würde es nicht direkt ansprechen, da er sonst eine von Omas Kopfnüssen kassieren würde."
       },
       {
         "Title": "Figurenhintergrund 2",
@@ -971,7 +979,7 @@
       },
       {
         "Title": "Schachtel mit Leckereien",
-        "Context": "Es sind keine Leckereien für Menschen, sondern für wilde Tiere. Entsprechend den Vorlieben verschiedener Tiere sind sie in einer Schachtel mit mehreren Abteilungen geordnet.\nDie meisten Tiere sind sehr schlau und nach Ororons Beobachtungen ist der Intelligenzunterschied zwischen ihnen und den Menschen nicht so groß, wie viele denken. Viele Menschen kommen im Leben nur gut zurecht, weil sie die Weisheit ihrer Vorfahren geerbt haben, während die Tiere, die in feindlicher Umgebung überleben können, noch viel beeindruckender sind.\nHilfe bei Menschen zu suchen, ist auch eine Abkürzung, die Tiere im Zusammenleben mit Menschen gelernt haben. Manchmal läuft Ororon nur ganz normal auf der Straße und plötzlich spürt er ein Gewicht auf dem Rücken. Wenn er nicht schnell genug reagiert, hinterlassen die Krallen eines Gleithörnchens ein paar zusätzliche Kratzer auf seinem Umhang.\nOroron ist überzeugt, dass es unter Tieren ein festes Kommunikationsnetzwerk gibt. Vielleicht sind die Boten der Tiere viel fähiger als die der Menschen, weil sie nicht nur durch Himmel und Erde reisen, sondern auch die verschiedenen Sprachen der Tiere verstehen müssen. Bei dem Gedanken, dass es im Tierreich von Natlan überall den Satz „Ororon hat Leckereien in der Tasche!“ geben könnte, muss er lächeln.\nSelbst wenn er eine Methode hätte, die ungefragten Esser loszuwerden, würde Ororon sie nicht wirklich anwenden. Von Tieren überall als einer der ihren angesehen zu werden, diese Ehre hat nicht jeder.\nNatürlich haben die Tiere auch unterschiedliche Persönlichkeiten und so gibt es viele Arten, Dankbarkeit auszudrücken.\nZum Beispiel ist Kinichs Ajaw ziemlich eigen. Er hat immer die Haltung „Das steht uns zu!“, wirkt aber gleichzeitig, als könnte er nicht ohne Menschen leben. Ororon ignoriert normalerweise seine Wortwahl und schwenkt das Futter vor seinem Gesicht hin und her, um zu sehen, wie Ajaws Augen hinter der Sonnenbrille ihm folgen (Sind diese Lichtpunkte wirklich seine Augen? Schon, oder?). Wenn Ajaw nicht zur richtigen Zeit ein paar nette Worte sagt, wird ihm Kinich vor dem Fressen erstmal das Recht nehmen, seinen Mund zu öffnen.\nIm Gegensatz dazu ist Cacucu sehr geschickt darin, gute Worte zu finden. Auch wenn er nicht viel von der Menschensprache beherrscht, bringt er immer vollen Enthusiasmus rüber: „Du bist echt der Beste, Kumpel!“"
+        "Context": "Es sind keine Leckereien für Menschen, sondern für wilde Tiere. Entsprechend den Vorlieben verschiedener Tiere sind sie in einer Schachtel mit mehreren Abteilungen geordnet.\nDie meisten Tiere sind sehr schlau und nach Ororons Beobachtungen ist der Intelligenzunterschied zwischen ihnen und den Menschen nicht so groß, wie viele denken. Viele Menschen kommen im Leben nur gut zurecht, weil sie die Weisheit ihrer Vorfahren geerbt haben, während die Tiere, die in feindlicher Umgebung überleben können, noch viel beeindruckender sind.\nHilfe bei Menschen zu suchen, ist auch eine Abkürzung, die Tiere im Zusammenleben mit Menschen gelernt haben. Manchmal läuft Ororon nur ganz normal auf der Straße und plötzlich spürt er ein Gewicht auf dem Rücken. Wenn er nicht schnell genug reagiert, hinterlassen die Krallen eines Gleithörnchens ein paar zusätzliche Kratzer auf seinem Umhang.\nOroron ist überzeugt, dass es unter Tieren ein festes Kommunikationsnetzwerk gibt. Vielleicht sind die Boten der Tiere viel fähiger als die der Menschen, weil sie nicht nur durch Himmel und Erde reisen, sondern auch die verschiedenen Sprachen der Tiere verstehen müssen. Bei dem Gedanken, dass es im Tierreich von Natlan überall den Satz „Ororon hat Leckereien in der Tasche!“ geben könnte, muss er lächeln.\nSelbst wenn er eine Methode hätte, die ungefragten Esser loszuwerden, würde Ororon sie nicht wirklich anwenden. Von Tieren überall als einer der ihren angesehen zu werden, diese Ehre hat nicht jeder.\nNatürlich haben die Tiere auch unterschiedliche Persönlichkeiten und so gibt es viele Arten, Dankbarkeit auszudrücken.\nZum Beispiel ist Kinichs Ajaw ziemlich eigen. Er hat immer die Haltung „Das steht uns zu!“, wirkt aber gleichzeitig, als könnte er nicht ohne Menschen leben. Ororon ignoriert normalerweise seine Wortwahl und schwenkt das Futter vor seinem Gesicht hin und her, um zu sehen, wie Ajaws Augen hinter der Sonnenbrille ihm folgen (Sind diese Lichtpunkte wirklich seine Augen? Schon, oder?). Wenn Ajaw nicht zur richtigen Zeit ein paar nette Worte sagt, wird ihm Kinich vor dem Fressen erstmal das Recht nehmen, seinen Mund zu öffnen.\nIm Gegensatz dazu ist Cacucu sehr geschickt darin, gute Worte zu finden. Auch wenn er nicht viel von der Menschensprache beherrscht, bringt er immer vollen Enthusiasmus rüber: „Du bist echt der Beste, Digga!“"
       },
       {
         "Title": "Göttliches Auge",

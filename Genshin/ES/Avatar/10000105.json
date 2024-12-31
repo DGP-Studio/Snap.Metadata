@@ -244,7 +244,7 @@
         },
         "Id": 30501,
         "Name": "Ataque Normal: Flecha albergaespíritus",
-        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 3 disparos consecutivos con arco.\n\n<color=#FFD780FF>Ataque Cargado</color>\nRealiza un <color=#FFD780FF>Disparo Preciso</color> que inflige mayor daño y tiene mayor precisión.\nAl apuntar, la flecha se imbuirá del elemento Electro y, cuando esté completamente cargada, infligirá una gran cantidad de <color=#FFACFFFF>Daño Electro</color> al dispararla.\n\n<color=#FFD780FF>Ataque Descendente</color>\nDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 3 disparos consecutivos con arco.\n\n<color=#FFD780FF>Ataque Cargado</color>\nRealiza un <color=#FFD780FF>Disparo Preciso</color> que inflige mayor daño y tiene mayor precisión.\nAl apuntar, la flecha se imbuirá del elemento Electro y, cuando esté completamente cargada, infligirá <color=#FFACFFFF>Daño Electro</color> al dispararla.\n\n<color=#FFD780FF>Ataque Descendente</color>\nDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
         "Icon": "Skill_A_02"
       },
       {
@@ -609,7 +609,7 @@
         },
         "Id": 1052501,
         "Name": "Cambiapieles",
-        "Description": "Aumenta en un 15% la Vel. de Vuelo de tus personajes del equipo.\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+        "Description": "Aumenta en un 15% la Vel. Vuelo de tus personajes del equipo.\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
         "Icon": "UI_Talent_S_Olorun_08"
       }
     ],
@@ -630,7 +630,11 @@
         "Id": 1053,
         "Name": "Jaula de quiróptero",
         "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Eco de la oscuridad</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
-        "Icon": "UI_Talent_U_Olorun_01"
+        "Icon": "UI_Talent_U_Olorun_01",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
       },
       {
         "Id": 1054,
@@ -642,7 +646,11 @@
         "Id": 1055,
         "Name": "Obsequio del alma",
         "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>Amparo de la noche</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
-        "Icon": "UI_Talent_U_Olorun_02"
+        "Icon": "UI_Talent_U_Olorun_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
       },
       {
         "Id": 1056,
@@ -785,7 +793,7 @@
       },
       {
         "Title": "Sobre El Capitán...",
-        "Context": "Desbloqueable en Niv. de Amistad 4"
+        "Context": "Fue un giro del destino de lo más extraño e inesperado.\nDicen que los Augures Vientonocturno destacan en el arte de la predicción, pero, cuando me encontré con Capitano, nunca imaginé que la situación se volvería tan compleja. ¿Tú qué dices? ¿Crees que ayudar a alguien se trata de intercambiar favores hasta que ambos estén en paz? De ser así, ¿por qué sigo sintiéndome en deuda con él?\n... O puede que esté dándole demasiadas vueltas. Lo que ocurriera en un pasado ya no importa, pues él ayudó a salvar las líneas ley de Natlan de un peligro inminente, por lo que es un héroe digno de admiración. Siempre lo llevaré en mis recuerdos."
       },
       {
         "Title": "Más sobre Ororon (I)",
@@ -951,7 +959,7 @@
       },
       {
         "Title": "Historia del personaje (1)",
-        "Context": "Debido a la existencia de los nombres antiguos, los habitantes de Natlan conceden una gran importancia al asunto de los nombres en general. Ororon también se ha visto afectado por la influencia del entorno en el que creció, por lo que encuentra satisfacción en otorgarle nombre a todo tipo de cosas, respiren o no.\nAlgunos nombres acompañan a sus dueños durante toda una vida: las flores acaban marchitándose, las vasos se hacen añicos... y sus nombres les hacen compañía durante una breve o una larga existencia. Aunque solo durara un minuto, seguiría teniendo un gran valor.\nNo obstante, otros nombres mutan a mitad de camino, y no porque Ororon cambie de idea, sino porque el dueño del nombre podría haber experimentado ciertos cambios y, naturalmente, necesitaría un nuevo nombre que lo reflejara. Por ejemplo, si un saurio se volviera más rechoncho al crecer, no podría seguir llamándose “Papelín”, ¿verdad?\nAunque a Ororon tampoco le importa demasiado el significado implícito de los nombres, porque, para empezar, los nombres que elige suelen ser muy directos y pueden entenderse con tan solo verlos una vez. Además, Ororon otorga nombres para poder referirse a tales objetos más fácilmente. No poseen otra intención ni están diseñados específicamente para portar sentimentalidad alguna. Un nombre es algo valioso, neutral, que proporciona igualdad y facilita la comunicación.\nOroron incluso ve así su propio nombre. La única diferencia es que desconoce su significado.\nEl nombre de Ororon venía escrito en el interior de la tela con la que estaba envuelto cuando lo encontraron. Estuvo investigando y leyendo ciertos tomos antiguos, e incluso le preguntó a varios ancianos, pero nadie conocía tal nombre, ni mucho menos su significado.\n¿Podría haber sido que la abuela estaba ya mayor y había leído mal las letras borrosas sobre la tela?\nOroron solo podía darle vueltas a aquella pregunta en silencio, pues sabía que si se la hacía a su abuela, se llevaría un buen coscorrón."
+        "Context": "Debido a la existencia de los nombres antiguos, los habitantes de Natlan conceden una gran importancia al asunto de los nombres en general. Ororon también se ha visto afectado por la influencia del entorno en el que creció, por lo que encuentra satisfacción en otorgarle nombre a todo tipo de cosas, respiren o no.\nAlgunos nombres acompañan a sus dueños durante toda una vida: las flores acaban marchitándose, los vasos se hacen añicos... y sus nombres les hacen compañía durante una breve o una larga existencia. Aunque solo durara un minuto, seguiría teniendo un gran valor.\nNo obstante, otros nombres mutan a mitad de camino, y no porque Ororon cambie de idea, sino porque el dueño del nombre podría haber experimentado ciertos cambios y, naturalmente, necesitaría un nuevo nombre que lo reflejara. Por ejemplo, si un saurio se volviera más rechoncho al crecer, no podría seguir llamándose “Papelín”, ¿verdad?\nAunque a Ororon tampoco le importa demasiado el significado implícito de los nombres, porque, para empezar, los nombres que elige suelen ser muy directos y pueden entenderse con tan solo verlos una vez. Además, Ororon otorga nombres para poder referirse a tales objetos más fácilmente. No poseen otra intención ni están diseñados específicamente para portar sentimentalidad alguna. Un nombre es algo valioso, neutral, que proporciona igualdad y facilita la comunicación.\nOroron incluso ve así su propio nombre. La única diferencia es que desconoce su significado.\nEl nombre de Ororon venía escrito en el interior de la tela con la que estaba envuelto cuando lo encontraron. Estuvo investigando y leyendo ciertos tomos antiguos, e incluso le preguntó a varios ancianos, pero nadie conocía tal nombre, ni mucho menos su significado.\n¿Podría haber sido que la abuela estaba ya mayor y había leído mal las letras borrosas sobre la tela?\nOroron solo podía darle vueltas a aquella pregunta en silencio, pues sabía que si se la hacía a su abuela, se llevaría un buen coscorrón."
       },
       {
         "Title": "Historia del personaje (2)",

@@ -244,7 +244,7 @@
         },
         "Id": 30501,
         "Name": "Attaque normale : Flèche spirituellement habitée",
-        "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 3 tirs consécutifs.\n\n<color=#FFD780FF>Attaque chargée</color>\nEffectue un <color=#FFD780FF>tir visé</color> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge en élément Électro, infligeant d'importants <color=#FFACFFFF>DGT Électro</color> quand elle est complètement chargée.\n\n<color=#FFD780FF>Attaque plongeante</color>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
+        "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 3 tirs consécutifs.\n\n<color=#FFD780FF>Attaque chargée</color>\nEffectue un <color=#FFD780FF>tir visé</color> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge en élément Électro, infligeant des <color=#FFACFFFF>DGT Électro</color> quand elle est complètement chargée.\n\n<color=#FFD780FF>Attaque plongeante</color>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
         "Icon": "Skill_A_02"
       },
       {
@@ -630,7 +630,11 @@
         "Id": 1053,
         "Name": "Cage de la chauve-souris perchée",
         "Description": "Niveau d'aptitude <color=#FFD780FF>Écho opaquement étouffé</color> +3.\nNiveau max : 15",
-        "Icon": "UI_Talent_U_Olorun_01"
+        "Icon": "UI_Talent_U_Olorun_01",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
       },
       {
         "Id": 1054,
@@ -642,7 +646,11 @@
         "Id": 1055,
         "Name": "Cadeau de l'âme intérieure",
         "Description": "Niveau d'aptitude <color=#FFD780FF>Cordon fermement crépusculaire</color> +3.\nNiveau max : 15",
-        "Icon": "UI_Talent_U_Olorun_02"
+        "Icon": "UI_Talent_U_Olorun_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
       },
       {
         "Id": 1056,
@@ -785,7 +793,7 @@
       },
       {
         "Title": "À propos de Capitano...",
-        "Context": "Débloqué au Niv. d'affinité 4"
+        "Context": "La rencontre avec Capitano a été pour moi un coup du destin étrange et inattendu.\nMa tribu est connue pour sa capacité à prédire l'avenir, mais je ne m'attendais pas à ce que les choses se compliquent autant. Aider quelqu'un revient-il vraiment à échanger des faveurs jusqu'à être quittes ? Si c'est le cas, pourquoi est-ce que je me sens encore si redevable et reconnaissant envers lui pour tout ce qu'il a fait pour moi ?\nOu bien... Peut-être que je réfléchis trop. Peu importe ce qui s'est passé, il a aidé à sauver les lignes énergétiques de Natlan. C'est un héros digne de respect, et je me souviendrai toujours de lui."
       },
       {
         "Title": "Connaître Ororon (1)",
@@ -951,7 +959,7 @@
       },
       {
         "Title": "Histoire du personnage 1",
-        "Context": "En raison de l'existence des antiques noms, les Natlanois accordent une grande importance aux noms en général. Influencé par le milieu dans lequel il a grandi, Ororon a développé l'habitude de nommer tout ce qui l'entoure, organismes vivants ou non.\nCertains noms les accompagnent toute leur vie. Quand vient le jour où une fleur fane ou une tasse se brise, elles ont porté leurs noms pour la durée de leur longue ou brève existence. Même pour une simple minute, leur utilité aura été remplie et leur valeur reconnue.\nEn revanche, d'autres noms changent avec le temps. Les sentiments d'Ororon restent les mêmes, mais le « propriétaire » du nom subit une sorte de transformation, alors il est naturel de lui donner un nouveau nom plus adapté. Par exemple, si un saurien prend de l'embonpoint, il ne pourrait plus être appelé Brindille, n'est-ce pas ?\nCependant, Ororon ne réfléchit pas trop longtemps au sens des noms. Tout d'abord, parce que ceux qu'il donne sont toujours très directs, au sens évident, mais également parce qu'il les attribue seulement pour faciliter la désignation, ni plus ni moins. En d'autres mots, ces noms n'ont aucune dimension émotionnelle. Pour Ororon, tous les noms sont précieux, neutres et égaux comme outils pour simplifier la communication.\nIl en va de même pour son propre nom, la seule différence étant qu'il ne connait pas sa signification.\nLe nom Ororon était inscrit sur le tissu qui l'enveloppait lorsqu'il fut trouvé. Malgré des recherches dans des livres anciens et auprès de certains aînés de la tribu, Ororon ne trouva aucune mention de son nom nulle part et il ne connait personne qui porte le même.\nÉtait-ce simplement l'âge avancé de sa grand-mère ou le fait que l'écriture sur le tissu était peu claire, ou même une combinaison des deux qui auraient contribué à une lecture erronée ?\nEnfin, il ne pourrait que chercher la réponse à cette question tout seul. S'il la posait directement, sa grand-mère lui mettrait une petite pichenette sur le front."
+        "Context": "En raison de l'existence des antiques noms, les Natlanois accordent une grande importance aux noms en général. Influencé par le milieu dans lequel il a grandi, Ororon a développé l'habitude de nommer tout ce qui l'entoure, organismes vivants ou non.\nCertains noms les accompagnent toute leur vie. Quand vient le jour où une fleur fane ou une tasse se brise, elles ont porté leurs noms pour la durée de leur longue ou brève existence. Même pour une simple minute, leur utilité aura été remplie et leur valeur reconnue.\nEn revanche, d'autres noms changent avec le temps. Les sentiments d'Ororon restent les mêmes, mais le « propriétaire » du nom subit une sorte de transformation, alors il est naturel de lui donner un nouveau nom plus adapté. Par exemple, si un saurien prend de l'embonpoint, il ne pourrait plus être appelé Brindille, n'est-ce pas ?\nCependant, Ororon ne réfléchit pas trop longtemps au sens des noms. Tout d'abord, parce que ceux qu'il donne sont toujours très directs, au sens évident, mais également parce qu'il les attribue seulement pour faciliter la désignation, ni plus ni moins. En d'autres mots, ces noms n'ont aucune dimension émotionnelle. Pour Ororon, tous les noms sont précieux, neutres et égaux comme outils pour simplifier la communication.\nIl en va de même pour son propre nom, la seule différence étant qu'il ne connaît pas sa signification.\nLe nom Ororon était inscrit sur le tissu qui l'enveloppait lorsqu'il fut trouvé. Malgré des recherches dans des livres anciens et auprès de certains aînés de la tribu, Ororon ne trouva aucune mention de son nom nulle part et il ne connaît personne qui porte le même.\nÉtait-ce simplement l'âge avancé de sa grand-mère ou le fait que l'écriture sur le tissu était peu claire, ou même une combinaison des deux qui auraient contribué à une lecture erronée ?\nEnfin, il ne pourrait que chercher la réponse à cette question tout seul. S'il la posait directement, sa grand-mère lui mettrait une petite pichenette sur le front."
       },
       {
         "Title": "Histoire du personnage 2",
@@ -971,7 +979,7 @@
       },
       {
         "Title": "Boîte de snacks",
-        "Context": "Ces encas ne sont pas destinés aux humains, mais aux animaux sauvages. Ils sont rangés dans différents compartiments en fonction des préférences des différents animaux.\nContrairement à ce que l'on pourrait croire, la plupart des animaux sont très intelligents. D'après les observations d'Ororon, ils ne sont pas si éloignés des humains. De nombreux humains réussissent leur vie simplement parce qu'ils ont hérité des connaissances des générations précédentes. Dans un certain sens, l'intelligence dont font preuve les animaux en trouvant des moyens de survivre dans des environnements hostiles est d'autant plus impressionnante.\nDemander de l'aide humaine est un raccourci que les animaux apprirent en vivant aux côtés des humains. Pendant ses promenades, Ororon sentait parfois quelque chose de lourd se poser soudainement sur son dos. S'il réagissait trop lentement, il découvrait plus tard des traces de griffes d'écureuil volant sur sa cape.\nOroron est aussi convaincu que les animaux ont un moyen fixe de communiquer entre eux. Les messagers animaux seraient même bien plus compétents que leurs homologues humains, car ils savent non seulement se déplacer sur terre et dans les airs, mais ils sont également capables de parler de nombreuses langues et dialectes différents pour communiquer avec les autres espèces. L'idée que les langues des différents animaux de Natlan puissent former la phrase « Ororon a des friandises dans sa poche » le fit sourire.\nMême s'il savait repousser ces pique-assiettes, bien décidés à se gaver gratuitement, il ne le ferait jamais. Où qu'il aille, les animaux l'accueillent comme l'un des leurs. C'est un privilège qui n'est pas donné à tout le monde.\nLes animaux ont évidemment une personnalité qui leur est propre, alors les façons d'exprimer leur reconnaissance varient.\nAjaw, qui accompagne Kinich, par exemple, est un drôle de personnage. Il se comporte toujours comme si tout lui était dû, mais il semble incapable de se passer de la compagnie des humains. Ororon ignore généralement ses paroles. Il met de la nourriture devant son nez et observe Ajaw suivre des yeux les mouvements derrière ses lunettes de soleil (... Les points brillants sont ses yeux, non ?). Si Ajaw ne dit rien de poli assez rapidement, Kinich lui interdit d'ouvrir la bouche avant qu'il ne mette ses griffes sur la nourriture.\nÀ l'inverse, Cacucu est un vrai baratineur. Son vocabulaire humain est limité, mais il met toujours beaucoup d'émotions dans ses paroles, comme quand il dit : « Tu es le meilleur, mon ami ! »"
+        "Context": "Ces encas ne sont pas destinés aux humains, mais aux animaux sauvages. Ils sont rangés dans différents compartiments en fonction des préférences des différents animaux.\nContrairement à ce que l'on pourrait croire, la plupart des animaux sont très intelligents. D'après les observations d'Ororon, ils ne sont pas si éloignés des humains. De nombreux humains réussissent leur vie simplement parce qu'ils ont hérité des connaissances des générations précédentes. Dans un certain sens, l'intelligence dont font preuve les animaux en trouvant des moyens de survivre dans des environnements hostiles est d'autant plus impressionnante.\nDemander de l'aide humaine est un raccourci que les animaux apprirent en vivant aux côtés des humains. Pendant ses promenades, Ororon sentait parfois quelque chose de lourd se poser soudainement sur son dos. S'il réagissait trop lentement, il découvrait plus tard des traces de griffes de polatouche sur sa cape.\nOroron est aussi convaincu que les animaux ont un moyen fixe de communiquer entre eux. Les messagers animaux seraient même bien plus compétents que leurs homologues humains, car ils savent non seulement se déplacer sur terre et dans les airs, mais ils sont également capables de parler de nombreuses langues et dialectes différents pour communiquer avec les autres espèces. L'idée que les langues des différents animaux de Natlan puissent former la phrase « Ororon a des friandises dans sa poche » le fit sourire.\nMême s'il savait repousser ces pique-assiettes, bien décidés à se gaver gratuitement, il ne le ferait jamais. Où qu'il aille, les animaux l'accueillent comme l'un des leurs. C'est un privilège qui n'est pas donné à tout le monde.\nLes animaux ont évidemment une personnalité qui leur est propre, alors les façons d'exprimer leur reconnaissance varient.\nAjaw, qui accompagne Kinich, par exemple, est un drôle de personnage. Il se comporte toujours comme si tout lui était dû, mais il semble incapable de se passer de la compagnie des humains. Ororon ignore généralement ses paroles. Il met de la nourriture devant son nez et observe Ajaw suivre des yeux les mouvements derrière ses lunettes de soleil (... Les points brillants sont ses yeux, non ?). Si Ajaw ne dit rien de poli assez rapidement, Kinich lui interdit d'ouvrir la bouche avant qu'il ne mette ses griffes sur la nourriture.\nÀ l'inverse, Cacucu est un vrai baratineur. Son vocabulaire humain est limité, mais il met toujours beaucoup d'émotions dans ses paroles, comme quand il dit : tu es le meilleur, mon ami !"
       },
       {
         "Title": "Œil divin",

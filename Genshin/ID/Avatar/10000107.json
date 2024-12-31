@@ -1,0 +1,1138 @@
+{
+  "Id": 10000107,
+  "PromoteId": 107,
+  "Sort": 91,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_Citlali",
+  "SideIcon": "UI_AvatarIcon_Side_Citlali",
+  "Name": "Citlali",
+  "Description": "Shaman Agung dari Penguasa Angin Malam, Nenek Itztli yang dihormati oleh orang dari semua suku.",
+  "BeginTime": "2024-12-31T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 905.654,
+    "AttackBase": 9.8686,
+    "DefenseBase": 59.41119
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 10731,
+        "Proud": {
+          "Descriptions": [
+            "DMG Tahap 1|{param1:F1P}",
+            "DMG Tahap 2|{param2:F1P}",
+            "DMG Tahap 3|{param3:F1P}",
+            "DMG Charged Attack|{param4:F1P}",
+            "Konsumsi Stamina Charged Attack|{param5:F1}",
+            "DMG Selama Plunging|{param6:F1P}",
+            "DMG Plunging Attack Rendah/Tinggi|{param7:P}/{param8:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.434072,
+                0.388136,
+                0.537712,
+                0.992,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.466627,
+                0.417246,
+                0.57804,
+                1.0664,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.499183,
+                0.446356,
+                0.618369,
+                1.1408,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.54259,
+                0.48517,
+                0.67214,
+                1.24,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.575145,
+                0.51428,
+                0.712468,
+                1.3144,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.607701,
+                0.54339,
+                0.752797,
+                1.3888,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.651108,
+                0.582204,
+                0.806568,
+                1.488,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.694515,
+                0.621018,
+                0.860339,
+                1.5872,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.737922,
+                0.659831,
+                0.91411,
+                1.6864,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.78133,
+                0.698645,
+                0.967882,
+                1.7856,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.824737,
+                0.737458,
+                1.021653,
+                1.8848,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                0.868144,
+                0.776272,
+                1.075424,
+                1.984,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                0.922403,
+                0.824789,
+                1.142638,
+                2.108,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                0.976662,
+                0.873306,
+                1.209852,
+                2.232,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.030921,
+                0.921823,
+                1.277066,
+                2.356,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 11071,
+        "Name": "Normal Attack: Shadow-Stealing Spirit Vessel",
+        "Description": "<color=#FFD780FF>Normal Attack</color>\nMemanggil upacara rahasia turun-temurun Penguasa Angin Malam, melancarkan hingga 3 serangan yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nMemasuki Mode Membidik dan mengonsumsi sejumlah Stamina setelah melepaskan tombol Tahan untuk mengonsumsi sejumlah Stamina dan melemparkan sebuah Frost Star ke arah bidikan, mengakibatkan <color=#99FFFFFF>Cryo DMG</color> terhadap musuh di sepanjang jalurnya.\n\n<color=#FFD780FF>Plunging Attack</color>\nMengumpulkan kekuatan Cryo, menerjang tanah, menyerang musuh di jalur terjangan, dan mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color> saat mendarat.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 10732,
+        "Proud": {
+          "Descriptions": [
+            "DMG Obsidian Tzitzimitl|{param1:F1P}",
+            "Penyerapan Perisai|{param2:F1P} Elemental Mastery+{param3:I}",
+            "Durasi Perisai|{param4:F1} detik",
+            "Durasi Itzpapa|{param4:I} dtk",
+            "Konsumsi Poin Nightsoul Itzpapa: Opal Fire|{param7:F1}/dtk",
+            "DMG Frostfall Storm|{param5:F1P}",
+            "Batas Poin Nightsoul|{param9:F1}",
+            "Cooldown|{param8:F1} dtk"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.7296,
+                5.76,
+                1386.6759,
+                20,
+                0.17024,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.78432,
+                6.192,
+                1525.3628,
+                20,
+                0.183008,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.83904,
+                6.624,
+                1675.6068,
+                20,
+                0.195776,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.912,
+                7.2,
+                1837.4082,
+                20,
+                0.2128,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.96672,
+                7.632,
+                2010.7667,
+                20,
+                0.225568,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                1.02144,
+                8.064,
+                2195.6826,
+                20,
+                0.238336,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                1.0944,
+                8.64,
+                2392.1558,
+                20,
+                0.25536,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                1.16736,
+                9.216,
+                2600.186,
+                20,
+                0.272384,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                1.24032,
+                9.792,
+                2819.7734,
+                20,
+                0.289408,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.31328,
+                10.368,
+                3050.9182,
+                20,
+                0.306432,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.38624,
+                10.944,
+                3293.6204,
+                20,
+                0.323456,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.4592,
+                11.52,
+                3547.8796,
+                20,
+                0.34048,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.5504,
+                12.24,
+                3813.696,
+                20,
+                0.36176,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.6416,
+                12.96,
+                4091.0698,
+                20,
+                0.38304,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.7328,
+                13.68,
+                4380.0005,
+                20,
+                0.40432,
+                24,
+                8,
+                16,
+                100
+              ]
+            }
+          ]
+        },
+        "Id": 11072,
+        "Name": "Dawnfrost Darkstar",
+        "Description": "Dengan landasan kontrak warisan ribuan tahun Penguasa Angin Malam, melancarkan Opal Shield dan memanggil \"Obsidian Tzitzimitl: Itzpapa\", makhluk yang (konon katanya) sangat menakutkan, mengakibatkan Nightsoul-aligned <color=#99FFFFFF>Cryo DMG Area</color>.\nPenyerapan DMG Oval Shield didasarkan pada Elemental Mastery Citlali, dan memiliki 250% pertahanan terhadap <color=#99FFFFFF>Cryo DMG</color>, dan saat menghasilkan Perisai, akan memberikan <color=#99FFFFFF>efek Cryo</color> singkat kepada Citlali.\nSetelah dilancarkan, Citlali akan mendapatkan 24 poin Nightsoul dan memasuki status Nightsoul's Blessing.\n\n<color=#FFD780FF>Nightsoul's Blessing: Citlali</color>\nSaat Itzpapa meninggalkan medan pertempuran, Nightsoul's Blessing Citlali akan berakhir.\n\n<color=#FFD780FF>Itzpapa</color>\n·Itzpapa akan mengikuti pergerakan Karakter.\n·Saat Citlali memiliki setidaknya 50 poin Nightsoul, Itzpapa akan memasuki status Opal Fire dan akan terus mengonsumsi poin Nightsoul, menghasilkan Frostfall Storm yang akan mengikuti Karakter dan menyerang musuh di dalam radius, mengakibatkan Nightsoul-aligned <color=#99FFFFFF>Cryo DMG</color>.\n·Saat poin Nightsoul habis terpakai, status Opal Fire Itzpapa juga akan berakhir.\n\n<i>Biasanya, keinginan yang melambangkan bintang yang berbeda tidak dapat hidup berdampingan. Soalnya, mana mungkin warna hitam yang paling murni dapat memantulkan warna putih yang paling murni?\nBagaimanapun juga, Citlali tidak pernah pilih-pilih soal warna, dan begitulah akhirnya kejadiannya.</i>",
+        "Icon": "Skill_S_Citlali_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 10739,
+      "Proud": {
+        "Descriptions": [
+          "DMG Ice Storm|{param1:F1P}",
+          "Perolehan Poin Nightsoul Ice Storm|{param3:F1}",
+          "DMG Spiritvessel Skull|{param2:F1P}",
+          "Perolehan Poin Nightsoul Spiritvessel Skull|{param4:F1}",
+          "Cooldown|{param5:F1} dtk",
+          "Konsumsi Energy|{param6:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              5.376,
+              1.344,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              5.7792,
+              1.4448,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              6.1824,
+              1.5456,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              6.72,
+              1.68,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              7.1232,
+              1.7808,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              7.5264,
+              1.8816,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              8.064,
+              2.016,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              8.6016,
+              2.1504,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              9.1392,
+              2.2848,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              9.6768,
+              2.4192,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              10.2144,
+              2.5536,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              10.752,
+              2.688,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              11.424,
+              2.856,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              12.096,
+              3.024,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              12.768,
+              3.192,
+              24,
+              3,
+              15,
+              60
+            ]
+          }
+        ]
+      },
+      "Id": 11075,
+      "Name": "Edict of Entwined Splendor",
+      "Description": "Memanggil \"sekutu\" yang berasal dari langit berbintang dan tanah luas, menghasilkan badai es untuk menyerang area depan dan mengakibatkan Nightsoul-aligned <color=#99FFFFFF>Cryo DMG Area</color>, dan memulihkan poin Nightsoul Citlali dalam jumlah tertentu, serta memanggil satu <color=#FFD780FF>Spiritvessel Skull</color> terhadap setiap musuh, dengan maksimum 3 musuh di sekitar dalam radius area. Spiritvessel Skull akan meledak setelah beberapa saat, mengakibatkan Nightsoul-aligned <color=#99FFFFFF>Cryo DMG Area</color>, dan akan memulihkan poin Nightsoul Citlali dalam jumlah tertentu.\n\n<i>\"Duh, sudah cukup soal 'bintang gelap, bintang opal'nya! Citlalin, Itzpapa, maju!\"</i>",
+      "Icon": "Skill_E_Citlali_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 10721,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                16,
+                8,
+                0.2,
+                12
+              ]
+            }
+          ]
+        },
+        "Id": 1072101,
+        "Name": "Mamaloaco's Frigid Rain",
+        "Description": "Selama Itzpapa ada di medan pertempuran, setelah Karakter sekitar dalam party memicu reaksi Frozen atau Melt, <color=#FF9999FF>Pyro</color> dan <color=#80C0FFFF>Hydro</color> RES musuh yang terkena reaksi kali ini akan berkurang 20% selama 12 detik. Selain itu, Citlali akan memulihkan 16 poin Nightsoul, efek pemulihan dengan cara ini dapat terpicu maksimum sekali setiap 8 detik.",
+        "Icon": "UI_Talent_S_Citlali_05"
+      },
+      {
+        "GroupId": 10722,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.9,
+                12,
+                4
+              ]
+            }
+          ]
+        },
+        "Id": 1072201,
+        "Name": "Itzpapalotl's Star Garments",
+        "Description": "Selama Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color>, DMG Frostfall Storm Itzpapa meningkat sebesar 90% Elemental Mastery Citlali. Selama Elemental Burst <color=#FFD780FF>Edict of Entwined Splendor</color>, DMG Ice Storm meningkat sebesar 1.200% Elemental Mastery Citlali.\nSelain itu, saat Karakter party di sekitar memicu Nightsoul Burst, Citlali akan memulihkan 4 poin Nightsoul.",
+        "Icon": "UI_Talent_S_Citlali_06"
+      },
+      {
+        "GroupId": 10723,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                75,
+                5,
+                20
+              ]
+            }
+          ]
+        },
+        "Id": 1072301,
+        "Name": "Night Realm's Gift: Smoke, Mirrors, and the Flowing Winds",
+        "Description": "Saat ada area dengan Phlogiston Mechanic di Natlan, Citlali bisa melancarkan Nightsoul Transmission: Citlali. Saat Karakter aktif sedang berada di udara dalam ketinggian tertentu dan mengganti Karakter menjadi Citlali: Citlali akan melompat tinggi ke atas dan melayang di udara dengan meminjam kekuatan \"White Obsidian Tzitzimitl: Citlalin\". Nightsoul Transmission party sendiri dapat terpicu sekali setiap 10 detik.\n\nSaat menggunakan Mode Membidik, Citlali akan memasuki status Spiritspeaker. Dalam status ini, Citlali bisa berinteraksi dengan \"Nightspirit Graffiti\" dan \"Nightspirit Sigil\" untuk mengambil informasi dan kekuatan dari dalamnya. Peraturan interaksi dengan objek-objek ini sama dengan peraturan interaksi Iktomisaurus.\n\nSelain itu, saat menahan tombol Melompat, Citlali akan mengonsumsi 75 poin Stamina untuk melompat tinggi ke atas. Saat ada area dengan Phlogiston Mechanic di Natlan, Citlali akan terlebih dulu mengonsumsi 5 poin Phlogiston untuk melompat ke ketinggian yang lebih tinggi lagi.\nSaat sedang berada di udara, Citlali bisa menahan Normal Attack dan mengonsumsi Phlogiston atau Stamina untuk memasuki Mode Membidik. Saat melakukan Charged Attack di udara, Citlali akan lebih dulu mengonsumsi 20 poin Phlogiston.",
+        "Icon": "UI_Talent_S_Citlali_08"
+      },
+      {
+        "GroupId": 10725,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 1072501,
+        "Name": "Songs of Profound Mystery",
+        "Description": "Saat ada area dengan Phlogiston Mechanic di Natlan, memicu Nightsoul Burst akan memulihkan 20 poin Phlogiston.\nEfek ini tidak aktif dalam Domain, Trounce Domain, atau Spiral Abyss",
+        "Icon": "UI_Talent_S_Mavuika_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1071,
+        "Name": "Radiant Blades of Centzon Mimixcoah",
+        "Description": "Saat melancarkan Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color>, Citlali akan mendapatkan efek \"Opalstar Vestments\" yang berlangsung hingga Itzpapa meninggalkan medan pertempuran: Selama aktif, Citlali akan mendapatkan 10 Stellar Blade. Saat Karakter aktif di sekitar selain Citlali mengakibatkan DMG dengan menggunakan Normal, Charged, Plunging Attack, atau Elemental Skill dan Elemental Burst, akan mengonsumsi 1 Stellar Blade untuk meningkatkan DMG sebesar 200% Elemental Mastery Citlali.\nSetelah Karakter sekitar di dalam party memicu reaksi Frozen atau Melt, Citlali akan mendapatkan 3 Stellar Blade tambahan. Efek ini dapat terpicu sekali setiap 8 detik.\n\nSaat melancarkan Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color>, jumlah lapisan Stellar Blade akan diulang.\nSelain itu, saat Citlali melompat, atau membidik/melakukan Charged Attack saat di udara, konsumsi Phlogiston akan berkurang 45%.",
+        "Icon": "UI_Talent_S_Citlali_01"
+      },
+      {
+        "Id": 1072,
+        "Name": "Heart Devourer's Travail",
+        "Description": "Elemental Mastery Citlali meningkat 125 poin. Karakter lain yang berada dalam perlindungan Opal Shield, atau diikuti oleh Itzpapa, akan mendapat peningkatan Elemental Mastery sebesar 250 poin.\nSelain itu, saat melancarkan Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color>, juga akan memberikan Opal Shield bagi Karakter aktif di sekitar.\n\nSelain itu, efek Talenta Pasif \"Mamaloaco's Frigid Rain\" mendapatkan peningkatan sebagai berikut:\nSelama Itzpapa berada di medan pertempuran, setelah Karakter party di sekitar memicu reaksi Frozen atau Melt, <color=#FF9999FF>Pyro</color> dan <color=#80C0FFFF>Hydro</color> RES musuh yang terkena reaksi kali ini akan berkurang lagi sebesar 20% selama 12 detik. Efek ini harus membuka Talenta Pasif \"Mamaloaco's Frigid Rain\" terlebih dahulu.",
+        "Icon": "UI_Talent_S_Citlali_02"
+      },
+      {
+        "Id": 1073,
+        "Name": "Cloud Serpent's Feathered Crown",
+        "Description": "Meningkatkan 3 level Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color>.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_Citlali_01"
+      },
+      {
+        "Id": 1074,
+        "Name": "Death Defier's Spirit Skull",
+        "Description": "Ketika Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color> aktif, saat Frostfall Storm Itzpapa mengenai musuh, akan memanggil satu <color=#FFD780FF>Obsidian Spiritvessel Skull</color> tambahan. Saat Obsidian Spiritvessel Skull yang dipanggil dengan cara ini meledak, akan mengakibatkan Nightsoul-aligned <color=#99FFFFFF>Cryo DMG Area</color> sebesar 1.800% Elemental Mastery Citlali, dan akan memulihkan 16 poin Nightsoul dan 8 Energy Citlali. Efek ini dapat terpicu sekali setiap 8 detik. DMG ini tidak dianggap sebagai DMG Elemental Burst.",
+        "Icon": "UI_Talent_S_Citlali_03"
+      },
+      {
+        "Id": 1075,
+        "Name": "Nemontemi's Hex",
+        "Description": "Meningkatkan 3 level Elemental Burst <color=#FFD780FF>Edict of Entwined Splendor</color>.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_Citlali_02"
+      },
+      {
+        "Id": 1076,
+        "Name": "Teoiztac's Secret Pact",
+        "Description": "Itzpapa yang dipanggil oleh Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color> akan selalu berada dalam status Opal Fire. Saat poin Nightsoul habis terkonsumsi, status Opal Fire Itzpapa tidak akan berakhir.\nSelain itu, saat melancarkan Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color>, Itzpapa akan mengonsumsi seluruh poin Nightsoul, dan selama berada di medan pertempuran dia akan terus mengonsumsi poin Nightsoul. Setiap poin Nightsoul yang dikonsumsi dengan cara ini akan memberikan 1 poin \"Cifra of the Secret Law\" pada Citlali.\nMaksimal 40 poin yang bisa didapatkan dengan cara ini, dan setiap poin yang didapatkan Citlali akan memberikan <color=#FF9999FF>Pyro</color> dan <color=#80C0FFFF>Hydro</color> DMG Bonus kepada seluruh anggota party di sekitar sebesar 1,5% dan akan meningkatkan DMG yang diakibatkan Citlali sebesar 2,5%.\nSaat Itzpapa meninggalkan medan tempur, atau saat Citlali menggunakan Elemental Skill lagi, semua poin yang dimilikinya akan hilang.",
+        "Icon": "UI_Talent_S_Citlali_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Obsidian Opalstar",
+    "Detail": "Shaman Agung dari Penguasa Angin Malam, Nenek Itztli yang dihormati oleh orang dari semua suku.",
+    "Association": 9,
+    "Native": "Mictlan",
+    "BirthMonth": 1,
+    "BirthDay": 20,
+    "VisionBefore": "Cryo",
+    "ConstellationBefore": "Patina Anavatlaca",
+    "CvChinese": "柳知萧",
+    "CvJapanese": "田野アサミ",
+    "CvEnglish": "Skyler Davenport",
+    "CvKorean": "Lee Eun-jo",
+    "CookBonus": {
+      "OriginItemId": 108719,
+      "ItemId": 108789,
+      "InputList": [
+        101243,
+        100093,
+        110009,
+        100076
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Halo",
+        "Context": "Aku adalah Citlali dari Penguasa Angin Malam. Aku sudah membaca bintang-bintang dan melihat masa depan melalui asap. Kamu akan diberkati dengan keberuntungan dan akan dibantu oleh sekutu yang kuat selama perjalananmu. Izinkan aku untuk bergabung denganmu ... Hei! Aku bisa serius juga ya! Jangan tatap aku kayak begitu dong!"
+      },
+      {
+        "Title": "Berbincang: Novel",
+        "Context": "A-Aku sudah baca hampir semua novel dari Yae Publishing House. Wa-Wajar saja, kan?"
+      },
+      {
+        "Title": "Berbincang: Minum-minum",
+        "Context": "Bersulang untuk kehidupan yang dipenuhi dengan minuman dan dihujani oleh Mora!"
+      },
+      {
+        "Title": "Berbincang: Melamun",
+        "Context": "Berpindah roh itu berbahaya bagi hampir semua orang, jadi jangan coba-coba."
+      },
+      {
+        "Title": "Ketika Turun Hujan",
+        "Context": "Cuaca yang sempurna untuk membaca di rumah."
+      },
+      {
+        "Title": "Setelah Hujan",
+        "Context": "Harusnya kita bisa melihat bintangnya hari ini."
+      },
+      {
+        "Title": "Ketika Turun Salju",
+        "Context": "Ah! Aku belum pernah lihat yang beginian!"
+      },
+      {
+        "Title": "Di Padang Pasir",
+        "Context": "Cuih! Oh, bukan aku kok. Aku sih pasti lebih jago dari itu. Tadi cuma ada pasir di mulutku. Sumpah!"
+      },
+      {
+        "Title": "Selamat Pagi",
+        "Context": "*hoam* Pagi. Terakhir kali aku bangun sepagi ini waktu aku masih jadi murid. Sekarang kan aku sudah hebat, jadi bisa tidur sampai puas. Oh ya, kamu mau ngapain?"
+      },
+      {
+        "Title": "Selamat Siang",
+        "Context": "Siang! Aku itu sebenarnya sangat ketat loh ya! Setelah bangun pagi, aku tidak pernah minum sebelum siang. Meskipun kadang-kadang upacara butuh waktu semalaman, dan aku bisa tidak tidur sama sekali. Jadi, tidak ada jaminan juga ...."
+      },
+      {
+        "Title": "Selamat Malam",
+        "Context": "Malam! Area dengan aktivitas Phlogiston dalam jumlah besar tetap akan hangat apa pun yang terjadi. Tapi di bagian terpencil di Natlan, suhunya bisa turun banyak di malam hari. Jadi jangan lupa pakai yang tebal ya! Eh? Siapa yang tanya kamu bilang? Kalau tidak ada yang tanya, ya dengar saja!"
+      },
+      {
+        "Title": "Selamat Tidur",
+        "Context": "Selamat tidur! Asap dan roh bumi sedang tertidur, dan bintang-bintang pembawa kesialan tidak tampak. Malam yang sempurna dari segala sisi. Tunggu dulu ... Kok bantalku bisa jatuh ke lantai ...?"
+      },
+      {
+        "Title": "Tentang Citlali Sendiri: Pendekar Fatamorgana",
+        "Context": "Nah, kayaknya ada yang tertarik nih! \"Pendekar Fatamorgana\" adalah novel fantasi dari Nakajima Jun, salah satu karya tertua dan paling terkenal yang diterbitkan oleh Yae Publishing House. Ceritanya berlatar di kerajaan pulau yang dikenal sebagai \"Ashihara.\" Tokoh utama di sebagian besar babnya adalah \"Higashi no Sankun,\" seorang pertapa berkepala kucing yang datang dari seberang lautan timur, tetapi identitas aslinya sebenarnya adalah vasal kuno, Raja Muda dari Timur. Ceritanya luar biasa panjangnya ... Penulisnya sudah berubah tiga kali, tetapi pada akhirnya, kebenaran tentang \"Houko\" tidak pernah terungkap ...."
+      },
+      {
+        "Title": "Tentang Citlali Sendiri: Akhir",
+        "Context": "Meski Gita Kebangkitan dapat menghidupkan kembali tubuh fisik kita, tapi segala sesuatu pasti akan berakhir suatu hari nanti, termasuk matahari dan bintang. Oh, kamu ingin tahu bagaimana rasanya kematian itu? Coba bayangkan suatu sore yang terhenti oleh waktu, kamu sedang menunggangi Saurian dan melewati lapangan yang luas, dan ada sosok tak dikenal berdiri di ufuk sana. Secepat apa pun kamu menunggang, sosok itu tidak pernah bisa kamu raih, sampai suatu hari, dia menerjang ke arahmu tanpa peringatan. Tak ada tempat bersembunyi, dan saat kalian berhadapan, itulah akhirnya."
+      },
+      {
+        "Title": "Tentang Kita: Bantuan",
+        "Context": "*huff* Selain senioritasku di suku, aku benar-benar tidak tahu apa yang bisa kutawarkan untukmu. Sekutumu kuat, masa depanmu cerah, kamu seharusnya bisa mengatasinya sendiri ... Lagi pula, bukannya orang tua sepertiku harusnya diizinkan bersantai di rumah seharian? Kecuali kamu butuh bantuan statusku untuk membuat seseorang jadi tahu aturan... Tunggu, kamu tidak serius sedang butuh itu, kan?"
+      },
+      {
+        "Title": "Tentang Kita: Kecanggungan",
+        "Context": "A-Aku perlakukan kamu kayak orang lain loh, sumpah! Oke, oke. Orang-orang di sukuku cuma kenal aku lewat rumor yang sudah beredar selama entah sudah berapa generasi. Tapi, kamu sudah mengenal aku yang sesungguhnya. Karakter pede dan tanpa hambatan itu semua cuma kamuflase, karena itu yang diharapkan orang-orang dariku ... Tapi, kecanggungan, kecemasan, ketidakpastian ... itulah diriku yang sebenarnya. Aku tidak akan bohong kepadamu, tapi jangan berharap aku bisa mencurahkan isi hatiku lebih dari satu kali."
+      },
+      {
+        "Title": "Tentang Vision ....",
+        "Context": "Dalam arti tertentu, mendapatkan Vision itu sama seperti mendapatkan sekutu yang kuat. Tapi, kalau bilang seseorang punya sekutu yang kuat itu lebih mirip komentar tentang seberapa kuat orang itu pada awalnya. Soalnya, sekutu itu hanya menambah kekuatanmu yang sudah ada. Bagaimana melepaskan kekuatan itu, semuanya bergantung pada dirimu sendiri."
+      },
+      {
+        "Title": "Berbagi Cerita",
+        "Context": "Perlu waktu dua minggu bagi novel Inazuma serial untuk bisa mencapai Natlan, dan satu tahun penuh untuk semua babnya agar bisa terbit dalam satu volume utuh. Aku tidak tahu apa ada makna terkandung yang lebih dalam, tapi selama dua minggu itu, ada banyak sekali kebocoran gila-gilaan. Mustahil bisa membedakan yang mana spekulasi dari informasi yang sepenuhnya salah."
+      },
+      {
+        "Title": "Kisah Menarik",
+        "Context": "Berdasarkan legenda, pernah ada sejenis kaktus khusus di Natlan yang disebut \"mescalito\" oleh gurunya guruku. Konon katanya kalau memakannya, mata yang fana ini akan bisa melihat dunia yang lain. Tentu saja semua itu cuma rumor. Aku bahkan tidak tahu masih ada rumor seperti itu atau tidak. Tapi, kalau kamu pernah bertemu, jangan coba-coba, oke?"
+      },
+      {
+        "Title": "Tentang Ororon",
+        "Context": "Huh!"
+      },
+      {
+        "Title": "Tentang Mualani",
+        "Context": "Soal aku dan Mualani, jujur aku sudah tidak tahu siapa yang berhutang dengan siapa. Dia rusak pintuku, hutang Mora kepadaku, mencuri makananku, tapi kadang dia bawakan camilan untukku juga, dan membayar hal lainnya ... Susah kalau mau dicatat semua. Untuk sekarang sih, aku anggap impas saja. Asalkan dia tidak bangunkan aku lagi di jam sebelas pagi hari ... Oh, maksudnya, um ... Lupakan saja! Dia sering kejutkan aku dengan gedorannya di pintu, itu saja."
+      },
+      {
+        "Title": "Tentang Xilonen",
+        "Context": "Dia itu orang yang sama sekali tidak peduli soal gosip tentangku dan tidak ramah berlebihan. Jadi aku selalu nyaman di dekatnya. Oh! Bukan berarti aku tidak nyaman di dekatmu ya! Aku cuma ... yah, berpikir berlebihan saja, seperti biasa. Oh, kamu tahu ya? Syukurlah."
+      },
+      {
+        "Title": "Tentang Mavuika",
+        "Context": "Heh, Mavuika ya ... *uhuk* Maaf. Archon Pyro datang untuk ngobrol denganku beberapa waktu lalu. Sampai waktu aku lagi ngemil di tengah malam, aku tiba-tiba sadar kalau dia itu rupanya sedang pamer seharian! Ada pepatah dari tanah lain seperti ini: \"Orang suci itu rendah hati, sampai kamu menanyakan tugasnya ... Saat itulah harga diri mereka akan menjulang tinggi.\" Aku rasa kalimat ini cocok sekali dengannya."
+      },
+      {
+        "Title": "Tentang Kamisato Ayaka",
+        "Context": "Hei, gadis manis di sana, coba berbalik, biar aku melihatmu. Ah, jadi ini dari Berkas Kasus Nona Orith. Aku kira ini dari pemeran wanita kedua Detektif Herlock. Semua pakaian Fontaine itu mirip di mataku. Baiklah, kamu boleh melanjutkan perjalananku. Itu saja dariku."
+      },
+      {
+        "Title": "Tentang Kinich",
+        "Context": "Benda kecil yang mengikutinya itu menjijikkan sekali deh. Oh, Kinich itu temanmu ya? Huh, terus mau aku ngomong apa lagi ya ... Dia itu bisa diandalkan deh."
+      },
+      {
+        "Title": "Tentang Iansan",
+        "Context": "Aku tidak terlalu kenal dengannya. Tapi aku tahu novel ringan ... Ada orang yang sekuat itu, meskipun badannya hanya seukuran dia, tapi dia pasti memiliki sejenis kekuatan yang bisa digunakan untuk menembak sampai tujuh kaki tingginya dan bertarung dengan 200% kekuatannya."
+      },
+      {
+        "Title": "Mengenal Citlali: I",
+        "Context": "Eh? Kok tiba-tiba banget? Apa kamu ada dengar gosip lagi tentangku? *huff* Ya sudah lah, itu benar! Aku memang Shaman paling tua, paling aneh, dan paling menakutkan di suku! Terserah kamu lah! Aku sudah malas menjelaskan semua dari dulu sekali."
+      },
+      {
+        "Title": "Mengenal Citlali: II",
+        "Context": "Kamu tetap mau aku menjelaskannya ya? *huff* Ada tradisi tak tertulis di sukuku. Guru Shaman sengaja mengaturkan persaingan di antara murid-muridnya dan guru saingannya. Dengan cara itu, kalau muridnya ingin mengalahkan gurunya tanpa dihajar, mereka harus bekerja keras untuk melampaui generasi yang sebelumnya. Kebanyakan Shaman di suku itu berasal dari sekolah yang didirikan temanku. Mereka pilih aku untuk menjadi penyihir jahat yang harus dikalahkan itu. Jadi apa yang bisa aku lakukan? Aku bukan sengaja mempersulit hidup mereka! Duh! Memangnya salahku kalau mereka tidak bisa melawan?!? *huff* Pokoknya, gosip tentang aku sebagai penyihir tua yang menakutkan itu ... berasal dari sana."
+      },
+      {
+        "Title": "Mengenal Citlali: III",
+        "Context": "Benar. Aku memang akting di depan orang lain, tapi kepribadianku yang sesungguhnya ya ini. Sederhana saja kok sebenarnya. Kalau orang-orang berharap kamu berbicara seperti orang kuno dengan logat kuno, lalu kamu membalasnya dengan elegan dan kata-kata standar, orang-orang pasti akan terkejut. Ya, kamu benar, kebodohan dari ketidaktahuan. Tapi, ketidaktahuan itu adalah hal yang paling sulit untuk ditaklukkan. Soalnya, sejak kita pertama bertemu, aku tidak berharap kamu bisa berbeda dari mereka semua."
+      },
+      {
+        "Title": "Mengenal Citlali: IV",
+        "Context": "Jadi, guru Shaman di suku menipu murid-murid mereka supaya punya dendam terhadapku, mau tahu cara mereka? Ini cara yang paling tradisional. Coba bayangkan kamu ditipu oleh penipu, lalu kamu mengirim muridmu untuk menggambar grafiti di rumah penipu itu. Dengan hanya sedikit kemarahan yang penuh dengan keadilan di pihakmu, kamu bisa membuat mereka melakukan apa saja! Tidak adil, kan?!? Setidaknya sekarang orang-orang bisa mengenali rumahku dari rumah penipu acak, jadi jurus ini sudah tidak terlalu digunakan untukku."
+      },
+      {
+        "Title": "Mengenal Citlali: V",
+        "Context": "Oh, botol anggur ini? Asosiasi Relik Saurian yang temukan. Bukan lah, bukan punyaku. Heh, dibuang sembarangan kayak begini ... Pasti Ororon yang minum! Benar kan, Ororon?!? Keluar kau! Minta maaf! Toleransi alkoholku tinggi, jadi aku tidak mungkin mabuk segampang itu. Meskipun aku mabuk, aku tidak pernah buang sampah sembarangan kayak begini. Lagi pula, Asosiasi bilang botol ini ditemukan di alam liar. Oh! Dan tempat yang sama sekali tidak berbahaya. Tentu saja, itu TIDAK terlalu penting sih, soalnya bukan aku yang buang, kan? Jadi ... siapa peduli! Sudah lah, percaya sama aku saja."
+      },
+      {
+        "Title": "Hobi Citlali",
+        "Context": "Hidupku sudah terlalu tidak berarti. Tidak ada lagi yang tersisa kecuali sakit kepala setelah tidur, fantasi tak masuk akal dari novel, dan rasa mabuk dari botol anggur."
+      },
+      {
+        "Title": "Kekhawatiran Citlali",
+        "Context": "Perlu ditanya ya? Aku itu pura-pura tidak peduli dengan semua hal, tapi itu cuma topeng. Kenyataannya, aku khawatir soal semuanya."
+      },
+      {
+        "Title": "Makanan Favorit",
+        "Context": "Pertama, aku suka daging setengah matang, jadi masih ada rasa awalnya saat dipersembahkan. Selanjutnya, apa saja yang gampang dimakan pakai satu tangan, jadi aku bisa makan sambil membaca. Oh, dan yang kamu rekomendasiin sih pastinya."
+      },
+      {
+        "Title": "Makanan yang Tidak Disukai",
+        "Context": "Aku ... tidak terlalu mengerti soal makanan asam deh. Kamu kan makan waktu lagi lapar, minum waktu lagi haus, tidur waktu lagi capek. Kalau makanan asam itu tujuannya untuk menggugah selera, berarti sedari awal kamu tidak lapar dong?"
+      },
+      {
+        "Title": "Menerima Hadiah: I",
+        "Context": "Wah! Enak banget ini! Aku sudah coba semua makan di sekitar Penguasa Angin Malam, tapi tidak pernah makan yang seenak ini. Sumpah!"
+      },
+      {
+        "Title": "Menerima Hadiah: II",
+        "Context": "Heh, aku tidak terbiasa makan yang kayak begini. Eh, tunggu dulu! Aku bukan bilang tidak enak loh! Kamu ... sudah perkenalkan rasa baru. Ini pujian ... dari lubuk hatiku!"
+      },
+      {
+        "Title": "Menerima Hadiah: III",
+        "Context": "Pas-Pasti ada yang salah dengan lidahku. Hahaha ...."
+      },
+      {
+        "Title": "Ulang Tahun",
+        "Context": "Selamat ulang tahun! Jujur ya, aku tidak tahu harus kasih apa. Soalnya tidak ada bintang kesialan di jalanmu. Entah itu dari segi cinta, pertempuran, atau masa depan yang sedang menunggumu, semuanya terlihat cerah. Berkah gaya Mictlan tidak akan mempan untukmu. Jadi aku putuskan untuk kasih \"Bunga untuk Putri Fischl\" untukmu saja, biar kamu bisa tenggelam dalam novel ringan juga. Tapi sepertinya koleksi buku-buku Yae Publishing House seseorang lebih banyak dariku ... Haaah, gimana nih? Gimana nih???"
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Permulaan",
+        "Context": "Hmm ... Ini tidak mirip kayak teknik ramalan di luar dunia ini ... Sekolah Shamanismeku lebih mengandalkan bumi daripada langit. Saat bintang kesialan palsu menunjukkan taringnya, aku menghubungkannya dengan roh bumi, tulang hewan mati, dan kekuatan asap."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Persiapan",
+        "Context": "Langit mengendalikan takdir manusia seperti dalang yang mengendalikan boneka. Jadi, bintang-bintang kesialan itu tidak memiliki kehendaknya sendiri. Tapi begitu aku menyegel kekuatan mereka di dalam boneka dan menghubungkannya dengan tulang hewan, sisa pikiran di dalam tulang itu akan membuatnya mengembangkan kesadarannya sendiri. Aku menyebut, umm ... ciptaan-ciptaan kecil ini, sebagai \"Tzitzimitl\". Kamu boleh anggap ciptaan ini sebagai manifestasi dari bintang-bintang kesialan."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Klimaks",
+        "Context": "Setiap Tzitzimitl mengandung tulang hewan kecil, yah kalau dipikir-pikir, tekniknya menakutkan sih. Makanya, kalau orang takut sama aku ... aku rasa, sepuluh persennya memang tanggung jawabku, mungkin ya ... Tapi aku kan tidak menyakiti hewan kecil! Tulangnya aku cari di alam liar!"
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Konklusi",
+        "Context": "Mulai saat ini, aku akan selalu ada di sisimu, sampai bintangnya menghilang, cahayanya redup, dan asapnya menghilang."
+      },
+      {
+        "Title": "Elemental Skill: I",
+        "Context": "Mulai bekerja."
+      },
+      {
+        "Title": "Elemental Skill: II",
+        "Context": "Penuhi sumpah kita."
+      },
+      {
+        "Title": "Elemental Skill: III",
+        "Context": "Tidak ada kata ampun."
+      },
+      {
+        "Title": "Elemental Skill: IV",
+        "Context": "Hati-hati ... hati-hati ...."
+      },
+      {
+        "Title": "Elemental Skill: V",
+        "Context": "Mulai stabil ...."
+      },
+      {
+        "Title": "Elemental Skill: VI",
+        "Context": "Ya, teruskan ...."
+      },
+      {
+        "Title": "Elemental Burst: I",
+        "Context": "Kalian berdua, waktunya menghabisi mereka!"
+      },
+      {
+        "Title": "Elemental Burst: II",
+        "Context": "Citlalin, Itzpapa, sikat!"
+      },
+      {
+        "Title": "Elemental Burst: III",
+        "Context": "Rasakan kemarahan Itztli!"
+      },
+      {
+        "Title": "Membuka Peti Harta: I",
+        "Context": "Hm, lumayan. Semua milikmu."
+      },
+      {
+        "Title": "Membuka Peti Harta: II",
+        "Context": "Ayolah, terimalah. Aku akan sampaikan terima kasihmu kepada bintang."
+      },
+      {
+        "Title": "Membuka Peti Harta: III",
+        "Context": "Terlalu berat ya? Sini, aku bantu ...."
+      },
+      {
+        "Title": "HP Rendah: I",
+        "Context": "Seharusnya tetap di rumah ...."
+      },
+      {
+        "Title": "HP Rendah: II",
+        "Context": "*huff* Aku mau pulang ...."
+      },
+      {
+        "Title": "HP Rendah: III",
+        "Context": "Harus ... kuat ...."
+      },
+      {
+        "Title": "HP Rekan Rendah: I",
+        "Context": "Eh, jangan mati dulu!"
+      },
+      {
+        "Title": "HP Rekan Rendah: II",
+        "Context": "Hati-hati sedikit?"
+      },
+      {
+        "Title": "Gugur: I",
+        "Context": "Bawa aku ... bintang di atas ...."
+      },
+      {
+        "Title": "Gugur: II",
+        "Context": "Bawa aku ... bumi di bawah ...."
+      },
+      {
+        "Title": "Gugur: III",
+        "Context": "Aku ... minta maaf ...."
+      },
+      {
+        "Title": "Menerima Serangan Hebat: I",
+        "Context": "Beraninya dirimu!"
+      },
+      {
+        "Title": "Menerima Serangan Hebat: II",
+        "Context": "Aduh aduh aduh ...."
+      },
+      {
+        "Title": "Bergabung ke Party: I",
+        "Context": "Aku tidak pernah telat ...."
+      },
+      {
+        "Title": "Bergabung ke Party: II",
+        "Context": "Biarkan aku sendi- Ah! Tidak apa-apa deh. Gas!"
+      },
+      {
+        "Title": "Bergabung ke Party: III",
+        "Context": "Apa pun yang kamu butuhkan."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Info Karakter",
+        "Context": "\"Shaman\" adalah istilah untuk praktisi ilmu sihir yang berasal dari Penguasa Angin Malam. Mereka adalah sosok yang bijaksana dan kuat, yang mampu menggunakan ilmu gaib. Di mata orang Natlan, mengunjungi Shaman adalah pilihan tepat ketika perlu pengobatan, atau menafsirkan ramalan. Shaman bisa merangkap sebagai tabib atau ahli nujum, perannya tak tergantikan dalam kehidupan sehari-hari, dan juga dalam urusan yang lebih penting. Intinya, posisi ini sangat dihormati.\nTapi di atas Shaman masih ada \"Shaman Agung\", yang kekuatannya jauh melebihi rekan-rekan seprofesinya. Gelar ini hanya disematkan bagi mereka yang telah mencapai puncak penguasaan ilmu gaib, dan hanya ada segelintir saja yang berhasil sampai ke tahap ini sepanjang sejarah Natlan. Perbuatan dan jasa mereka dikenang seperti bintang yang bersinar terang di langit malam, menambahkan legenda baru lagi ke dalam profesi yang sudah misterius dari sananya.\nCitlali adalah salah satunya, sekaligus satu-satunya yang hidup di Natlan masa kini.\nTapi kebalikan dari cerita tadi, dia tidak mau mengurusi hal sehari-hari. Tidak juga mengurusi hal \"besar\" dan \"penting\", bahkan nyaris tidak pernah ikut serta dalam upacara kesukuan. Bagi orang luar yang datang meminta bantuan, perjalanannya lebih sulit daripada mengarungi ngarai dan lembah yang menghiasi dataran Natlan.\n\"Cari Nenek Itztli? Wah, mending jangan deh! Kalau memang harus, harus banget ke sana ... siap-siap. Dan jangan melibatkan aku ya\". Demikianlah jawaban yang biasa diberikan warga Penguasa Angin Malam ke orang-orang, seakan-akan sosok \"Citlali\" adalah monster mengerikan yang luar biasa kuat dan ganas.\n\"Shaman Agung? Hahaha ... tidak ada pilihan lain ya? Ck, Yang Mulia Raja Naga ini tidak punya waktu untuk meladeni bocah kemarin sore macam kau! Tapi karena sudah tanya baik-baik, silakan. Sebut saja namaku waktu sampai ke rumahnya. Dia pasti menanggapi dengan baik\", ucap makhluk aneh yang mengaku diri sebagai Raja Naga, seakan-akan Citlali cuma seorang biasa yang gampang diurus.\n\"Butuh bantuan nenek? Kamu datang ke tempat yang tepat. Dia serba tahu! Segala tahu. Tahu rumahnya tidak? Ah, sudah, biar aku antar saja! Oh iya, kalau sudah sampai nanti kamu ketuk terus ya, jangan menyerah. Nenek orangnya pemalu, jadi kitanya yang harus aktif\". Jawaban seperti inilah yang biasa diberikan pemandu kelas atas dari suku Warga Mata Air, seakan-akan Citlali cuma seorang gadis muda yang pemalu.\n\"Perlu bantuan Citlali? Bijaksana. Bantuannyalah yang melancarkan keberhasilan banyak urusan penting di Natlan. Aku yakin dia pasti bisa menyelesaikan urusanmu juga\". Demikianlah jawaban dari pemimpin tertinggi, penjaga Api Keramat, seakan-akan Citlali adalah sosok bijaksana, yang dituakan, dan mudah didekati.\nSetelah demikian banyak pertanyaan dan jawaban, semua yang perlu pertolongannya akan jadi kebingungan. Tidak ada pilihan selain melupakan apa pun itu yang memerlukan campur tangan sang Shaman."
+      },
+      {
+        "Title": "Kisah Karakter 1",
+        "Context": "Rumah Citlali terletak cukup jauh dari kampung suku. Tersembunyi di pegunungan, cocok sebagai kediaman seorang yang suka menyendiri. Tapi tidak seperti rumah \"penyendiri\" lain yang biasa menyatu dengan alam, rumahnya terlihat sangat mencolok ... ya, sedemikian mencolok sampai tidak mungkin terlewatkan dari pandangan.\nAlasannya jelas, grafiti yang memenuhi tembok luarnya. Mencolok, warna-warni, mengundang. Seperti sengaja dibuat untuk mengganggu ketenangan orang. Supaya paham, kita harus pelajari dulu tentang sebuah tradisi di kalangan Shaman Penguasa Angin Malam. Mereka biasa mencari sesamanya yang kuat, lalu \"mengarahkan\" situasi agar salah satu muridnya berhadapan dengan Shaman kuat, lalu dengan memanfaatkan tekanan dari sosok kuat itu mendorong muridnya agar berkembang. Mungkin karena hubungan kekeluargaan antara guru dan murid inilah, mereka harus mengandalkan sosok \"paman\" atau \"bibi\" yang \"sangar\" untuk menguji mental dan ketahanan murid, mengalahkan naluri alamiah mereka sebagai \"orang tua\" yang ingin melindungi \"anaknya\". Dulu, seorang Shaman Agung bernama Huitzilin memilih Citlali sebagai \"objek penderita\" untuk menguji muridnya. Caranya? Dengan menyuruh muridnya menggambar grafiti yang menantang di tembok luar rumah Citlali, sebuah tantangan terbuka yang tentunya tidak bisa diabaikan oleh si empunya rumah.\nCitlali menjalankan peran sebagai pelecut generasi muda dengan sangat baik. Tidak ada satu pun anak muda hasil didikan Shaman hebat yang berlagak, merasa hebat, dan merasa penting itu tahan menghadapi dirinya lebih dari sekali. Semuanya pulang dengan ego terbanting, harga diri hancur lebur, dan rasa hormat yang semakin tinggi pada posisi Shaman.\nSetelah Huitzilin wafat, murid-muridnya, bahkan murid dari muridnya, meneruskan tradisi menjadikan Citlali sebagai objek tantangan, dengan dalih amanat dari guru besar mereka sebelum berpulang.\nKebiasaan ini agak melenceng dari tradisi, tapi kebanyakan warga Penguasa Angin Malam tidak terkejut. Huitzilin adalah Shaman Agung yang kemampuannya setara Citlali, dan dia mengagumi serta memahami kekuatan Citlali lebih dari siapa pun. Bagi Huitzilin, hanya orang yang berani menantang Citlali saja yang layak meneruskan ilmunya. Dan memang tantangan ini selalu membuahkan hasil. Yang berani menghadapi Citlali akan mencetak pencapaian luar biasa, baik sebagai figur utama dalam masyarakat suku, atau dalam pengetahuannya akan ilmu gaib. Seiring berjalannya waktu, menantang Citlali via grafiti pun menjadi tradisi.\nTradisi yang menjadi sumber duka bagi penerus aliran Huitzilin. Begitu menjadi murid, mereka sudah harus siap dipelonco dan diratakan oleh Citlali. Akhirnya, syarat Huitzilin diubah, yakni tidak perlu menang. Cukup bertahan cukup lama saja menghadapi Citlali. Setelah itu, banyak kisah-kisah gila yang beredar tentang Nenek Itztli, yang bermula dari pengalaman para penantang yang habis dihajar oleh dirinya.\nSetiap ada penantang yang gagal, Citlali menghapus grafiti buatan mereka dengan ilmunya. Tahun demi tahun berlalu, grafiti yang menghiasi dinding rumahnya silih berganti. Citlali yang awalnya kesal pun lambat laun menjadi tidak peduli. Dengan kekuatan dan kedudukan yang dipegangnya, dia bisa saja mengakhiri kebiasaan menyebalkan ini untuk selamanya. Tapi tidak, dia membiarkannya terus terjadi. Alasannya? Mungkin karena Citlali memanfaatkan kegagalan para penantang untuk meningkatkan reputasinya sendiri. Ada pula yang yakin bahwa Shaman penyendiri ini masih ingin punya andil untuk mendidik generasi penerus, meski hanya sedikit saja ....\nMungkin hanya Citlali seorang yang tahu alasan sebenarnya. Bahwa tantangan anak-anak muda ini mengingatkannya pada masa ketika dia sendiri bertarung dengan rival tuanya. Selama grafiti-grafiti tetap muncul silih berganti di temboknya, maka dia bisa merasa bahwa hari-hari itu tidak pernah berlalu."
+      },
+      {
+        "Title": "Kisah Karakter 2",
+        "Context": "Kalau tanya apa hobi Citlali, maka yang kenal, yang takut, dan yang cuma dengar gosip pun tahu jawabannya: novel ringan. Hampir semua pertemuan dengan sang Shaman melibatkan dirinya yang sedang tenggelam membaca novel ringan.\nTapi kalau ditanya yang mana yang paling disukai, yah ... bahkan orang yang paling kenal dirinya pun akan sulit menjawab.\nAda yang merasa bahwa jawabannya adalah \"Pendekar Fatamorgana\", novel ringan yang paling sering dibahasnya, mungkin yang pertama dibacanya. Katanya, karya klasik ini penulisnya sampai tiga kali ganti, tapi tidak pernah selesai. Banyak pembaca-pembaca pertamanya sudah wafat, menyisakan Citlali seorang yang masih hidup dan setia menunggu kelanjutannya bahkan setelah dua abad. Buku ini tentu punya arti khusus bagi seseorang seusia Citlali, maka kemungkinan besar buku ini adalah favoritnya.\nAda juga yang bilang dia suka \"Legenda Pedang\", yang terkenal bahkan sampai ke Natlan. Waktu dibahas, Citlali biasanya kesal ... bukan karena ceritanya, tapi karena dia masih dendam ketika Natlan tidak diikutsertakan ketika ada acara pembagian tanda tangan penulisnya.\nLalu ada pula yang memperdebatkan soal \"Shogun Mahakuasa: Terlahir Kembali Sebagai Raiden Dengan Kekuatan Tak Terbatas\" dan \"Ayo dong Kitsune Guuji, Kamu Cantik deh\". Ada yang yakin bahwa dia suka judul pertama, karena pernah terjadi ketika dia sadar buku \"reinkarnasi Raiden\" yang dia punya bukan edisi pertama, dia marah besar sampai penjual bukunya ketakutan. Yang yakin bahwa dia suka judul kedua biasa mengutip cerita ketika Citlali meluluhlantakkan sekelompok penantang yang tiba-tiba muncul dan menghilangkan kesempatan dirinya mendapatkan edisi terbitan khusus \"Kitsune Guuji\".\nCitlali sendiri tidak pernah menjawabnya langsung, sehingga jawabannya masih tidak diketahui sampai hari ini. Namun ada orang kepo yang tidak takut mati, yang mengaku pernah melihat kompartemen rahasia di rak bukunya, yang dilindungi oleh beberapa lapis segel mantra. Pastinya buku yang ada di dalamnya adalah favoritnya.\nCitlali langsung menyimpulkan kalau si orang kepo ini adalah maling yang pernah masuk ke rumahnya. Setelah melacak keberadaan si penyusup dan menghajarnya dengan saksama, dia diserahkan ke para penjaga suku. Setelah itu, mantra pelindung yang melingkupi rumahnya pun ditambah lagi satu lapisan.\nTapi dia tidak pernah menyangkal pernyataan si maling. Karena memang betul ada kompartemen rahasia di rak bukunya.\nBuku yang ada di dalam bukan yang sedang laris manis, bukan juga edisi koleksi terbatas. Tapi justru sebuah novel ringan yang tidak populer, jarang diketahui orang bahkan di Inazuma sana: \"Sejarah Baru Enam Kitsune\".\nJadi apakah buku itu novel ringan kesukaan Citlali? Entahlah. Mungkin saja, alasannya menyimpan buku itu di sana berkaitan dengan kalimat pertama yang dia baca ketika membuka halaman pertamanya.\n\"Kisah yang berkaitan dengan ingatan selalu berhubungan dengan ketika kita mendapatkan dan kehilangan sesuatu di saat yang bersamaan.\""
+      },
+      {
+        "Title": "Kisah Karakter 3",
+        "Context": "Acap kali teman-teman Citlali ingin merayakan ulang tahunnya, semua selalu bertanya-tanya ... berapa sebenarnya umur Citlali?\nKalau dari penampilan sih, tidak ada yang bisa tahu.\nMenurut Citlali sendiri, usianya sudah dua ratus. Tapi ada tetua Penguasa Angin Malam yang yakin kalau dia lebih tua, karena orangnya tahu betul soal peristiwa-peristiwa yang terjadi lebih dari dua ratus tahun silam.\n\"Apa nenek juga diadopsi oleh Saurian ketika muda?\", begitu pikir Chasca. Dia membandingkan masa kecil mereka, yakni dirinya yang dibesarkan Qucusaurus hingga tak tahu pasti berapa usia sebenarnya.\n\"Dua ratus tahun atau lebih, nenek tetaplah nenek\", begitu kata Ororon kalau ada yang tanya. Dia dibesarkan oleh Citlali, maka dia lebih paham konsep nenek yang \"tidak bertambah tua\" dibanding orang lain.\nTapi Xilonen tidak terima jawaban seperti itu. Karena kalau mau bikin kue, tentunya angka yang rancu akan bikin tukang kuenya bingung. Kalau mau minta tolong dibuatkan sesuatu, tentunya syarat dan ketentuan dari kitanya harus jelas. Itu sudah aturan dasar.\n\"Hah! Kalau cuma dua ratus tahun saja bisa bikin kalian kayak burung kehilangan arah, gimana ceritanya dengan Yang Mulia Raja Naga yang sudah berusia—\" demikian komentar Ajaw yang langsung dibungkam Kinich. Satu kali sikutan yang tepat sasaran menerbangkan si perusak suasana entah ke mana.\n\"Dua ratus saja lah ya? Nenek sendiri bilangnya selalu segitu. Aku yakin dia punya alasan sendiri kok, kayak banyak kan orang yang bilang dirinya 'baru delapan belas' supaya selalu disangka muda!\". Yang lain jadi kepikiran, tapi saran Mualani ini pun akhirnya kompak ditolak. Karena kalimat \"baru dua ratus\" tidak bikin orang kelihatan awet muda, ya kan.\nKetika semua orang sudah menyerah, Iansan yang tak pernah kehabisan akal minta petunjuk ke Mavuika. Harapannya, ada informasi dari ingatan yang tersimpan dalam Api Keramat. Tapi bahkan Mavuika saja tidak punya jawaban pasti. Bahkan dalam ingatan Archon Pyro pun, Citlali sudah hidup menyendiri. Tidak ada keterangan mengenai berapa sebenarnya usianya.\nDan mereka semakin ragu, karena percuma saja bertanya langsung ke Citlali. Shaman Agung yang cerdik itu akan tahu maksudnya, dan niat memberikan kejutan pun akan pupus seketika.\nAkhirnya semua yang terlibat menghindari soal usia, dan memillih bentuk kue yang tidak perlu menampilkan angka usia.\nPada malam hari ulang tahunnya, mereka memancing Citlali keluar. Pintu diketuk, kue ditunjukkan, dan kado-kado ulang tahun diberikan ketika yang berulang tahun keluar rumah. Pesta kejutan berhasil dieksekusi.\nMungkin karena terharu melihat usaha anak-anak muda, Citlali minum banyak sekali malam itu. Saat matanya mulai kabur, akhirnya salah satu dari hadirin memberanikan diri bertanya.\n\"Umurku? *ceguk* Aku kasih tahu yang lucu ya ....\" Citlali mulai bercerita, dalam keadaan sudah mabuk. \"Aku bukan satu-satunya orang di dunia ini yang berumur panjang. Kalau orang lain ... biasanya awalnya sih hitung sudah umur berapa. Tapi semakin panjang umur, semakin malas tuh hitung-hitung ... sampai akhirnya lupa sendiri *ceguk* ... tapi aku yah ... gini deh, aku awalnya tidak peduli umur sudah berapa. Tapi ... ada kejadian ... terus aku jadi ... sadar ... sudah tua bangka. Dan aku hitung tuh ... hitung ... hitung ... hasilnya, dua ratus tahun. Pas *ceguk*!\"\nMaka misteri di balik angka \"200\" terungkap sudah. Tapi jawaban ini malah menimbulkan pertanyaan baru. Kejadian apa sebenarnya yang membuat Citlali, yang tidak menunjukkan tanda-tanda penuaan sama sekali selama dua abad, jadi mulai menghitung berapa usianya?\nMeski penasaran, tak ada satu pun yang berani bertanya. Citlali sudah melihat ke langit malam dengan pandangan kosong ... dia tertidur."
+      },
+      {
+        "Title": "Kisah Karakter 4",
+        "Context": "Ketika muda, Huitzilin adalah rekan sepantaran Citlali ketika mempelajari ilmu gaib. Dia selalu ditemani rekan Iktomisaurus setianya, si Cakar. Setiap Huitzilin berpose untuk bertarung, si Cakar akan lompat naik turun di sebelahnya untuk menunjukkan kekuatan.\n\"Jadi kamu toh, 'jenius' yang disebut-sebut sama para tetua? Ayo, kita tentukan siapa yang lebih kuat! Di sini, sekarang juga!\"\n\"Sakit jiwa ya?\"\nDimulai dengan cepat, berakhir dengan cepat pula. Huitzilin kalah telak, dan itu baru awalnya. Huitzilin berulang kali bolak-balik rumah Citlali bersama si Cakar. Awalnya dia cuma datang bawa surat tantangan, tapi setelahnya, dia mulai bawa bekal camilan. Lambat laun bekalnya makin banyak, termasuk minuman keras yang dicurinya dari orang dewasa. Entah karena terbujuk arak, atau karena merasa percuma saja melawan kegigihan Huitzilin, Citlali tidak lagi berusaha mengusir penantangnya.\nDan tahu-tahu saja dua puluh tahun sudah berlalu.\nSampai suatu hari, untuk pertama kalinya, pertarungan mereka berakhir seri. Di malam itulah Citlali pertama kalinya menerima undangan Huitzilin untuk makan dan minum di bawah terang rembulan.\n\"Bisa-bisanya kita jadi Shaman Agung di hari yang sama ... berarti benar nih, kita setara.\"\n\"Dapat hasil seri setelah berusaha setengah mati tuh lumayan juga loh. Baiklah, sainganku yang baik. Sudah puas? Bisa dong stop gangguin aku?\"\n\"Lah, kenapa harus stop? Jelas tidak lah! Lagian, saingan sih saingan, tapi kita juga sudah berteman dua puluh tahun loh!\"\nCitlali yang sudah mulai teler melihat ke arah Huitzilin. Di bawah sinar rembulan yang redup, dia tiba-tiba sadar akan sesuatu. Gadis muda sembrono yang datang ke rumahnya dua puluh tahun silam sudah jadi Shaman Agung yang berwibawa. Si Cakar kecil juga sudah jadi Iktomisaurus garang yang badannya lebih tinggi dari mereka berdua.\n\"Ya ... teman. Dua puluh tahun ....\"\nBenak Citlali mendadak dipenuhi kenangan, ingatan yang sempat dikaburkan oleh aliran waktu yang cepat. Dia merasakan kehangatan dari ikatan ini, tapi di saat yang bersamaan, di dalam hatinya juga muncul firasat tidak enak.\nDan dua puluh tahun berikutnya berlalu dalam sekejap mata.\nPada suatu hari, ketika dia sudah setengah jalan membersihkan grafiti dari penantang lain yang lagi-lagi kalah dengan mudah, Citlali dikagetkan oleh suara langkah kaki yang tidak asing di telinganya.\n\"Halo, teman lama. Sudah lama sejak terakhir kali kamu ajak aku minum. Lagi ngambek nih ceritanya?\"\n\"Kalau mau adu ilmu, datang sendiri lah! Kenapa sih harus suruh anak-anak bodoh itu mengganggu ketenanganku?\"\n\"Yah ... masalahnya umur sih. Usia segini sudah waktunya mendidik penerus, ya kan.\"\nCitlali berbalik badan, tiba-tiba sadar akan sesuatu yang tadinya tidak terpikirkan. Temannya, yang sudah lama tidak berjumpa ini, sekarang sudah keriput. Tidak lagi muda seperti dulu. Sang teman yang merasakan isi hati Citlali dari tatapannya mencoba mencairkan suasana. Huitzilin menunjuk ke lapangan di dekat sana yang penuh bunga bermekaran.\n\"Seindah apa pun bunga liar di Natlan, ketika musim kemarau tiba tetap akan layu juga. Tapi tidak perlu dikhawatirkan, sebab tahun berikutnya bunga-bunga itu akan kembali mekar. Betul?\"\n\"Tapi bunga yang kita lihat saat ini ... tak satu pun dari mereka yang akan merasakan hangatnya sinar mentari tahun depan. Pada akhirnya, tidak ada yang abadi.\"\n\"Aku rasa ada sih, kawan. Biar aku pikirkan dulu ya jawabannya.\"\nHuitzilin mencoba untuk menghilangkan kegelisahan Citlali, tapi sia-sia. Karena dia sudah menyadari dari mana firasat tidak enaknya bersumber. Citlali terjaga sepanjang malam, melihat bintang jatuh terbakar menghiasi langit malam yang kelam.\nSeperti daun layu digantikan daun baru, demikian pula kita manusia. Dan dua puluh tahun berikutnya, di hari peringatan persahabatan mereka, Huitzilin sudah tiada.\n....\nBertahun-tahun kemudian, Citlali yang sedang membersihkan grafiti di tembok rumahnya kepikiran siang hari ketika ada seorang gadis muda dan rekan Saurian Iktomisaurus mudanya datang menantang.\nKenangan demi kenangan datang, tumpah-ruah seperti ombak pasang, seakan-akan baru terjadi kemarin. Tapi secepat itu pula kenangan itu pergi, terbawa angin menuju masa lalu yang tersebar bak debu di lembah zaman. Tahun demi tahun berlalu, perasaan yang gagal dibinasakan oleh Huitzilin telah larut, hanya menyisakan helaan napas tanpa suara.\n\"Jadi apa jawabannya? Sampai sekarang pun kamu belum kasih tahu\", gumam Citlali.\nMeski begitu, tak terbesit sedikit pun di benak Citlali untuk menyalahkan Huitzilin. Karena dia merasa, bahwa jawabannya memang tidak ada. Setelah melihat siklus mekar dan layu beberapa kali, indahnya bunga yang dulu sempat terpatri di benaknya kini sudah kabur, hanyut oleh aliran waktu."
+      },
+      {
+        "Title": "Kisah Karakter 5",
+        "Context": "\"Manusia ibarat burung yang terbang mengarungi ruang dan waktu. Aku berdiam di antara ingatan dan kenangan, mencari 'warna' perjalanan terakhirku.\"\nSetiap kali Citlali menenun gulungan khusus yang mencatat kejadian penting, dia teringat akan ucapan Huitzilin. Kalimat pertama yang dikatakan oleh temannya itu saat mengajarinya cara menenun. Dia memandu Citlali menuju alam ingatan, menunjukkan cara melukis karya agung bak pelukis ulung. Namun pewarna yang digunakannya bukanlah cat, melainkan ingatan.\nSetelah mempelajarinya sampai tuntas, Citlali mengikuti teladan Huitzilin, yakni menghiasi catatan kemenangan besar dengan warna oranye obor pejuang yang membara, atau menghormati pahlawan yang telah gugur dengan warna ungu pucat bunga di pemakaman. Demikianlah riwayat sejarah ditenun, gulungan demi gulungan, agar tradisi Penguasa Angin Malam selamanya lestari.\nCitlali telah lama memahami akan beban dan tanggung jawab penerus ilmu ini. Jadi ketika si Pengembara berambut pirang itu datang menghampirinya, dia tidak kuasa menolak. Kali ini, warna \"emas\" si Pengembara digunakannya untuk menggambarkan cahaya terang yang membinasakan Abyss, sekaligus pertanda untuk akhir peperangan akbar yang telah berlangsung sedemikian lamanya. Dia mewarnai gulungan tersebut dengan saksama, ingatan yang dikandungnya seperti hidup dalam genggaman tangannya.\n\"Supaya tidak hilang terkubur catatan hitam di atas putih.\"\nMendengar ucapan itu terlontar dari mulut si Pengembara, Citlali sekonyong-konyong teringat akan perasaan yang telah lama lekang oleh aliran waktu. Dia mengingat ucapan Huitzilin, dan akhirnya sadar bahwa sahabat lamanya itu tidak ingkar janji.\nBunga-bunga layu seiring tibanya musim kemarau, segala sesuatu akan sirna ditelan aliran waktu. Apa kiranya yang dapat bertahan?\n\"Warna ingatan dan kenangan.\"\nJawaban ini sudah diberikan Huitzilin sedari dulu. Dan demikian pula Citlali menjawab pertanyaan si Pengembara. Dia tau bahwa ucapan ini akan mengikatnya ke dalam suatu perjanjian yang hanya akan ditepati setelah tahun demi tahun lainnya berlalu. Tapi kali ini, tekadnya sudah bulat.\nJaminan yang telah disiapkannya sejak dulu diberikannya pula kepada si Pengembara. Dan untuk pertama kalinya, Citlali mengutarakan harapan yang ingin dicapainya selama masa hidupnya yang demikian panjang.\n\"Agar warnaku kekal abadi di dalam hati dan ingatanmu.\""
+      },
+      {
+        "Title": "Tzitzimitl",
+        "Context": "\"Yang pertama, bintang utara garang Citlalin!\"\n\"Yang kedua, pertanda musibah selatan Itzpapa!\"\nSetiap ada yang tanya soal dua boneka yang selalu dibawa-bawa Citlali (\"Tzitzimitl\"), warga Penguasa Angin Malam biasa berkomentar seperti itu sebagai peringatan: barang siapa berani berucap, maka dirinya akan dilanda nasib sial. Jika kabar tersebut benar, kedua boneka ini \"berisi\" kehendak setan jahat yang hanya bisa dijinakkan oleh murka Nenek Itztli seorang. Maka dari itu, nama keduanya pun berkaitan erat dengan sang nenek, dan sering digunakan sebagai alat para orang tua untuk mendiamkan anak balita yang sedang merajuk.\nNamun, bagi mereka yang pernah berkesempatan melihat kedua boneka dari dekat akan berpendapat lain. Ceritanya lebih seram dari kenyataan, karena wujudnya lebih mirip binatang imut daripada setan jahat. Memang, Citlali sering menjadikan keduanya senjata lempar ketika bertempur, dan rasa takut yang ditimbulkan oleh serangan tersebut lebih mengerikan daripada kepalan tangan kosong sang nenek.\nSebenarnya, memang betul kekuatan dua bintang kesialan terpendam di dalam tubuh boneka ini, tapi kekuatan itu tidak ada sangkut pautnya dengan kepribadian mereka. Citlali menciptakan Tzitzimitl dengan menggunakan tulang hewan yang mati secara alamiah. Sisa-sisa rohnya terbangun di dalam tubuh boneka, sehingga sebuah kesadaran pun terbentuk. Maka kedua makhluk kecil yang lengket sekali dengan Citlali sebetulnya tidak membawa kutukan atau musibah, malah sebaliknya, mereka memberikan kehangatan dan kenyamanan bagi pemiliknya seperti binatang peliharaan.\nTapi lucunya lagi, Citlali tidak suka hal ini diketahui orang banyak. Memang keduanya dipakai sebagai senjata, jadi alangkah baiknya bila musuh-musuhnya melihat keduanya dengan takut dan gentar."
+      },
+      {
+        "Title": "Vision",
+        "Context": "Bahkan setelah menjadi Shaman Agung, Citlali tetap tidak mendapat Marga Kuno.\nDirinya telah menjadi tiang yang menyangga keutuhan suku Penguasa Angin Malam, dan banyak urusan penting Natlan yang hanya bisa selesai berkat campur tangannya. Tapi tidak ada satu pun marga pahlawan yang beresonansi dengan dirinya.\nBanyak yang menyayangkan fakta ini, tapi tak kuasa berbuat. Setelah berusia tujuh puluh tahun, Citlali menjadi enggan keluar rumah. Dia seperti kehilangan minat pada segala yang terjadi di dunia ini, dan hanya mau melibatkan diri bila memang diwajibkan. Pembawaan tanpa kepedulian inilah yang membuatnya tidak dilirik oleh roh pahlawan mana pun.\nNamun, ada satu hal yang Citlali lakukan dengan penuh semangat, tanpa sepengetahuan orang. Yakni menenun gulungan khusus yang mencatat peristiwa besar dalam sejarah.\nSetiap gulungan ini perlu waktu puluhan tahun untuk dirampungkan. Satu generasi berlalu ketika gulungan seperti ini akhirnya selesai. Tapi dia tetap tekun, mungkin karena tugas ini adalah permintaan terakhir sahabatnya, atau mungkin karena kegiatan ini menjauhkannya dari masyarakat. Dia tidak diwajibkan menyelesaikan tugas ini, dan dia pun tidak perlu pengakuan atas usahanya dalam hal ini.\n\"Cuma buat mengisi waktu\", begitu katanya.\nDan itulah kenapa, pada malam ketika salah satu leluhur sukunya memanggil dari balik kabut angin malam, Citlali sangat terkejut.\n\"Jadi, aku akan mewarisi Marga Kuno-mu?\"\n\"Cepat atau lambat. Tapi kamu belum tahu alasannya.\"\n\"Tapi pertama-tama, tolong terimalah pesanku. Segala keraguanmu akan sirna ketika waktunya tiba.\"\nWarna angin malam berubah, dan bahasa yang digunakannya hanya untuk ditafsirkan oleh Citlali seorang.\n\"Manusia ibarat burung yang terbang mengarungi ruang dan waktu.\"\n\"Aku berdiam di hutan hijau, melintasi ombak biru, melewati lahar panas, mengumpulkan bijih mulia, dan mengejar bunga bersayap merah muda.\"\n\"Ketika senja, lukisanku menghiasi angkasa luas.\"\n\"Segala yang dituliskan akan dihadiahkan, untuk dunia tempat mereka yang telah tiada.\"\n\"Inilah namaku, yang akan diserahkan ke atas kepalamu.\"\n\"Ukumbuko, Ingatan.\"\nSetelah pesan tersampaikan, angin malam yang diliputi kabut tebal perlahan bergeser ke arah gulungan yang baru diselesaikan oleh Citlali. Warnanya berubah menjadi semburat misteri yang menerangi semua.\nSambil melihat gulungan itu, Citlali teringat akan malam ketika sahabatnya meninggal dunia.\n\"Tugas yang diwariskannya kepadaku ... pernah menjadi tugasmu juga, ya kan?\"\n\"Ya. Tapi bagimu, ini bukan sekadar tugas.\"\nCitlali membuka tangannya, mengikuti arah warna yang berkilauan. Entah dari mana, sebuah Vision muncul di atas telapak tangannya.\n\"Melainkan bagian dari 'keinginan'-mu juga.\""
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 210700,
+      "Name": "Dawnseer",
+      "Description": "Kostum Citlali. Shaman adalah peramal yang dapat melihat masa lalu dan masa depan yang tak diketahui. Bagi mereka, mata memiliki simbol yang khusus. Inilah alasan kenapa jubah yang dipakai Citlali setengah tertutup di bagian pinggangnya memiliki pola \"Mata Pencerahan\", yang sangat cocok dengan status dan selera estetikanya.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113071,
+    101249,
+    112103,
+    104352,
+    113062
+  ],
+  "NameCard": {
+    "Name": "Citlali: Opalstar",
+    "Description": "Style kartu nama.\nYang hitam mirip dengan obsidian, dan karenanya disebut \"Itzpapa\". Yang putih seputih bintang, dan karenanya dinamai \"Citlalin\".",
+    "Icon": "UI_NameCardIcon_Citlali",
+    "PicturePrefix": "UI_NameCardPic_Citlali"
+  }
+}

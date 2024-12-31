@@ -244,7 +244,7 @@
         },
         "Id": 30501,
         "Name": "Tấn Công Thường - Mũi Tên Linh Hồn",
-        "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 3 lần bắn tên liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiến hành <color=#FFD780FF>ngắm bắn</color> chuẩn hơn, sát thương cao hơn.\nKhi ngắm bắn, nguyên tố Lôi sẽ tích tụ trên mũi tên. Mũi tên mang nguyên tố Lôi sẽ gây lượng lớn <color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nBắn mưa tên xuống mặt đất, đồng thời lao nhanh xuống đất và gây sát thương phạm vi khi chạm đất.",
+        "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 3 lần bắn tên liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiến hành <color=#FFD780FF>ngắm bắn</color> chuẩn hơn, sát thương cao hơn.\nKhi ngắm bắn, nguyên tố Lôi sẽ tích tụ trên mũi tên. Mũi tên mang nguyên tố Lôi sẽ gây <color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nBắn mưa tên xuống mặt đất, đồng thời lao nhanh xuống đất và gây sát thương phạm vi khi chạm đất.",
         "Icon": "Skill_A_02"
       },
       {
@@ -630,7 +630,11 @@
         "Id": 1053,
         "Name": "Lồng Linh Hồn Của Dơi",
         "Description": "Cấp kỹ năng <color=#FFD780FF>Tiếng Vọng U Ám</color> +3.\nTăng tối đa đến cấp 15.",
-        "Icon": "UI_Talent_U_Olorun_01"
+        "Icon": "UI_Talent_U_Olorun_01",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
       },
       {
         "Id": 1054,
@@ -642,7 +646,11 @@
         "Id": 1055,
         "Name": "Quà Tặng Cho Tâm Hồn",
         "Description": "Cấp kỹ năng <color=#FFD780FF>Màn Đêm Trói Buộc</color> +3.\nTăng tối đa đến cấp 15.",
-        "Icon": "UI_Talent_U_Olorun_02"
+        "Icon": "UI_Talent_U_Olorun_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
       },
       {
         "Id": 1056,
@@ -785,7 +793,7 @@
       },
       {
         "Title": "Về Capitano...",
-        "Context": "Mở sau khi cấp Yêu Thích đạt cấp 4"
+        "Context": "#Gặp được Capitano là sự sắp đặt kỳ lạ và bất ngờ của số phận dành cho tôi.\nAi cũng nói Chủ Nhân Gió Đêm giỏi dự đoán tương lai, nhưng khi gặp Capitano trên đường thì tôi không bao giờ ngờ mọi thứ lại trở nên phức tạp đến vậy. {F#Cô}{M#Cậu} nói xem, cho đi có cần thiết phải nhận lại không? Tại sao tôi lại cảm thấy cảm kích và biết ơn ngài ấy đến vậy?\n...Hoặc có lẽ là do tôi suy nghĩ nhiều quá rồi. Dù trước đó đã xảy ra chuyện gì thì Capitano cũng đã giúp giải cứu nguy cơ Địa Mạch của Natlan, là một vị anh hùng đáng được tôn kính. Tôi sẽ luôn ghi nhớ ngài ấy."
       },
       {
         "Title": "Muốn tìm hiểu Ororon - Điều thứ 1",
@@ -971,7 +979,7 @@
       },
       {
         "Title": "Hộp Đồ Ăn Vặt",
-        "Context": "Đồ ăn vặt này không phải cho con người, mà là cho động vật hoang dã. Tùy theo sở thích của các loài khác nhau mà lần lượt cho chúng vào hộp chia ngăn.\nHầu hết các loài động vật đều rất thông minh. Dựa trên quan sát của Ororon, chênh lệch khả năng tư duy giữa chúng và con người không nhiều như mọi người vẫn nghĩ. Nhiều người có thể sống suôn sẻ chỉ vì được thừa hưởng trí tuệ của các trưởng bối, nhưng những loài động vật lại tìm ra cách sinh tồn trong môi trường nguy hiểm, có lẽ còn lợi hại hơn nhiều.\nTìm kiếm sự giúp đỡ từ con người cũng là điều mà động vật đã học được khi chung sống với con người. Đôi khi Ororon đang đi trên đường thì lưng bỗng chùng xuống. Nếu phản ứng chậm hơn một chút là trên áo choàng lại có thêm vài vết xước do sóc bay để lại.\nOroron tin rằng, giữa các loài động vật nhất định phải có một mạng lưới liên lạc cố định. Sứ giả của các loài động vật có thể giỏi giang hơn con người nhiều, vì chúng không chỉ lên trời xuống đất, mà còn biết ngôn ngữ của nhiều loài động vật khác nữa. Khi nghĩ tới ngôn ngữ của các loài động vật ở Natlan đều sẽ có câu \"Trong túi Ororon có đồ ăn ngon!\" là anh ấy không nhịn được mà nở nụ cười.\nVì vậy, đối với những thực khách không mời, dù Ororon có cách đuổi đi bớt, nhưng anh ấy cũng sẽ không thực sự dùng đến. Không phải ai cũng có vinh dự được động vật đối xử như thành viên trong nhà dù đi đến đâu.\nTất nhiên, các loài động vật có tính cách khác nhau, nên cũng có nhiều cách để bày tỏ lòng biết ơn.\nVí dụ như Ajaw của Kinich rất lạ. Nó luôn tỏ thái độ \"Ta xứng đáng được như thế!\", nhưng thực ra thì lại không thể xa rời người khác. Ororon thường phớt lờ lời nó nói, lắc lắc thức ăn trước mặt và nhìn mắt của Ajaw đảo qua lại sau cặp kính râm ấy (Đó có phải là kính râm không? Chắc là đúng nhỉ?). Nếu Ajaw nói điều gì đó không đúng lúc, thì Kinich sẽ tước đi quyền tự do ngôn luận của nó trước khi nhận được thức ăn.\nNgược lại, Cacucu lại rất giỏi nói những điều tử tế. Dù nó không nói nhiều, nhưng luôn có thể nghe thấy trọn vẹn cảm xúc từ nó: \"Anh bạn vẫn cứ là tuyệt vời nhất!\""
+        "Context": "Đồ ăn vặt này không phải cho con người, mà là cho động vật hoang dã. Tùy theo sở thích của các loài khác nhau mà lần lượt cho chúng vào hộp chia ngăn.\nHầu hết các loài động vật đều rất thông minh. Dựa trên quan sát của Ororon, chênh lệch khả năng tư duy giữa chúng và con người không nhiều như mọi người vẫn nghĩ. Nhiều người có thể sống suôn sẻ chỉ vì được thừa hưởng trí tuệ của các trưởng bối, nhưng những loài động vật lại tìm ra cách sinh tồn trong môi trường nguy hiểm, có lẽ còn lợi hại hơn nhiều.\nTìm kiếm sự giúp đỡ từ con người cũng là điều mà động vật đã học được khi chung sống với con người. Đôi khi Ororon đang đi trên đường thì lưng bỗng chùng xuống. Nếu phản ứng chậm hơn một chút là trên áo choàng lại có thêm vài vết xước do sóc bay để lại.\nOroron tin rằng, giữa các loài động vật nhất định phải có một mạng lưới liên lạc cố định. Bưu tá của các loài động vật có thể giỏi giang hơn con người nhiều, vì chúng không chỉ lên trời xuống đất, mà còn biết ngôn ngữ của nhiều loài động vật khác nữa. Khi nghĩ tới ngôn ngữ của các loài động vật ở Natlan đều sẽ có câu \"Trong túi Ororon có đồ ăn ngon!\" là anh ấy không nhịn được mà nở nụ cười.\nVì vậy, đối với những thực khách không mời, dù Ororon có cách đuổi đi bớt, nhưng anh ấy cũng sẽ không thực sự dùng đến. Không phải ai cũng có vinh dự được động vật đối xử như thành viên trong nhà dù đi đến đâu.\nTất nhiên, các loài động vật có tính cách khác nhau, nên cũng có nhiều cách để bày tỏ lòng biết ơn.\nVí dụ như Ajaw của Kinich rất lạ. Nó luôn tỏ thái độ \"Ta xứng đáng được như thế!\", nhưng thực ra thì lại không thể xa rời người khác. Ororon thường phớt lờ lời nó nói, lắc lắc thức ăn trước mặt và nhìn mắt của Ajaw đảo qua lại sau cặp kính râm ấy (Đó có phải là kính râm không? Chắc là đúng nhỉ?). Nếu Ajaw nói điều gì đó không đúng lúc, thì Kinich sẽ tước đi quyền tự do ngôn luận của nó trước khi nhận được thức ăn.\nNgược lại, Cacucu lại rất giỏi nói những điều tử tế. Dù nó không nói nhiều, nhưng luôn có thể nghe thấy trọn vẹn cảm xúc từ nó: \"Anh bạn vẫn cứ là tuyệt vời nhất!\""
       },
       {
         "Title": "Vision",

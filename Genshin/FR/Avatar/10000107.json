@@ -1,0 +1,1138 @@
+{
+  "Id": 10000107,
+  "PromoteId": 107,
+  "Sort": 91,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_Citlali",
+  "SideIcon": "UI_AvatarIcon_Side_Citlali",
+  "Name": "Citlali",
+  "Description": "La grande shamane des Maîtres du vent nocturne et la grand-mère Itztli que tous dans la tribu respectent.",
+  "BeginTime": "2024-12-31T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 905.654,
+    "AttackBase": 9.8686,
+    "DefenseBase": 59.41119
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 10731,
+        "Proud": {
+          "Descriptions": [
+            "DGT 1er coup|{param1:F1P}",
+            "DGT 2e coup|{param2:F1P}",
+            "DGT 3e coup|{param3:F1P}",
+            "DGT attaque chargée|{param4:F1P}",
+            "Coût d'endurance attaque chargée|{param5:F1} pts",
+            "DGT durant la chute|{param6:F1P}",
+            "DGT chute basse/élevée|{param7:P}/{param8:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.434072,
+                0.388136,
+                0.537712,
+                0.992,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.466627,
+                0.417246,
+                0.57804,
+                1.0664,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.499183,
+                0.446356,
+                0.618369,
+                1.1408,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.54259,
+                0.48517,
+                0.67214,
+                1.24,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.575145,
+                0.51428,
+                0.712468,
+                1.3144,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.607701,
+                0.54339,
+                0.752797,
+                1.3888,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.651108,
+                0.582204,
+                0.806568,
+                1.488,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.694515,
+                0.621018,
+                0.860339,
+                1.5872,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.737922,
+                0.659831,
+                0.91411,
+                1.6864,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.78133,
+                0.698645,
+                0.967882,
+                1.7856,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                0.824737,
+                0.737458,
+                1.021653,
+                1.8848,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                0.868144,
+                0.776272,
+                1.075424,
+                1.984,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                0.922403,
+                0.824789,
+                1.142638,
+                2.108,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                0.976662,
+                0.873306,
+                1.209852,
+                2.232,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.030921,
+                0.921823,
+                1.277066,
+                2.356,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 11071,
+        "Name": "Attaque normale : Conduit de vol d'ombres",
+        "Description": "<color=#FFD780FF>Attaque normale</color>\nFait appel aux arts secrets transmis par les Maîtres du vent nocturne afin d'enchaîner jusqu'à 3 attaques qui infligent des <color=#99FFFFFF>DGT Cryo</color>.\n\n<color=#FFD780FF>Attaque chargée</color>\nBascule en mode visée puis consomme de l'endurance à la fin de l'appui long pour invoquer une étoile glaciale dans la direction visée afin d'infliger des <color=#99FFFFFF>DGT Cryo</color>.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs en concentrant ses pouvoirs Cryo, infligeant des DGT aux ennemis en chemin et des <color=#99FFFFFF>DGT Cryo de zone</color> à l'impact.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 10732,
+        "Proud": {
+          "Descriptions": [
+            "DGT tzitzimitl d'obsidienne noire|{param1:F1P}",
+            "PV du bouclier|{param2:F1P} de maîtrise élémentaire + {param3:I}",
+            "Durée du bouclier|{param4:F1} s",
+            "Durée d'Itzpapa|{param4:I} s",
+            "Coût de noctâme de feu d'opale (Itzpapa)|{param7:F1} pts/s",
+            "DGT tempête de givre|{param5:F1P}",
+            "Limite de noctâme|{param9:F1} pts",
+            "Temps de recharge|{param8:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.7296,
+                5.76,
+                1386.6759,
+                20,
+                0.17024,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.78432,
+                6.192,
+                1525.3628,
+                20,
+                0.183008,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.83904,
+                6.624,
+                1675.6068,
+                20,
+                0.195776,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.912,
+                7.2,
+                1837.4082,
+                20,
+                0.2128,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.96672,
+                7.632,
+                2010.7667,
+                20,
+                0.225568,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                1.02144,
+                8.064,
+                2195.6826,
+                20,
+                0.238336,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                1.0944,
+                8.64,
+                2392.1558,
+                20,
+                0.25536,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                1.16736,
+                9.216,
+                2600.186,
+                20,
+                0.272384,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                1.24032,
+                9.792,
+                2819.7734,
+                20,
+                0.289408,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                1.31328,
+                10.368,
+                3050.9182,
+                20,
+                0.306432,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.38624,
+                10.944,
+                3293.6204,
+                20,
+                0.323456,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.4592,
+                11.52,
+                3547.8796,
+                20,
+                0.34048,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.5504,
+                12.24,
+                3813.696,
+                20,
+                0.36176,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.6416,
+                12.96,
+                4091.0698,
+                20,
+                0.38304,
+                24,
+                8,
+                16,
+                100
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.7328,
+                13.68,
+                4380.0005,
+                20,
+                0.40432,
+                24,
+                8,
+                16,
+                100
+              ]
+            }
+          ]
+        },
+        "Id": 11072,
+        "Name": "Étoile d'aurore givrée",
+        "Description": "Invoquant un pacte secret millénaire de sa tribu, Citlali déploie un bouclier d'opale et invoque la tzitzimitl d'obsidienne noire Itzpapa, une créature (réputée) terrifiante au-delà de toute comparaison, infligeant des <color=#99FFFFFF>DGT Cryo de zone</color> infusés de noctâme.\nL'absorption de DGT d'un bouclier d'opale est basée sur la maîtrise élémentaire de Citlali. Ce dernier absorbe les <color=#99FFFFFF>DGT Cryo</color> 250 % plus efficacement et, lorsqu'il est déployé, permet à Citlali d'être temporairement <color=#99FFFFFF>affectée par l'élément Cryo</color>.\nAprès utilisation, Citlali obtient 24 pts de noctâme et entre dans l'état Bénédiction noctâme.\n\n<color=#FFD780FF>Bénédiction noctâme : Citlali</color>\nLa bénédiction noctâme de Citlali prend fin lorsqu'Itzpapa quitte le champ de bataille.\n\n<color=#FFD780FF>Itzpapa</color>\n· Itzpapa suit les déplacements du personnage déployé.\n· Si Citlali a au moins 50 pts de noctâme, Itzpapa entre dans l'état Feu d'opale, ce dernier consommant de façon continue des points de noctâme pour déclencher une tempête de givre suivant le personnage afin d'attaquer les ennemis à portée et de leur infliger des <color=#99FFFFFF>DGT Cryo</color> infusés de noctâme.\n· Une fois les points de noctâme épuisés, l'état Feu d'opale d'Itzpapa prend fin.\n\n<i>Habituellement, les volontés qui symbolisent différentes étoiles ne peuvent coexister, car comment le noir le plus pur pourrait-il refléter le blanc le plus pur ?\nQuoi qu'il en soit, Citlali n'a jamais été particulièrement attachée aux couleurs, et c'est ainsi que les choses se sont décidées à la fin.</i>",
+        "Icon": "Skill_S_Citlali_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 10739,
+      "Proud": {
+        "Descriptions": [
+          "DGT tempête glaciale|{param1:F1P}",
+          "Restauration de noctâme de tempête glaciale|{param3:F1} pts",
+          "DGT crâne possédé|{param2:F1P}",
+          "Restauration de noctâme de crâne possédé|{param4:F1} pts",
+          "Temps de recharge|{param5:F1} s",
+          "Énergie élémentaire|{param6:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              5.376,
+              1.344,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              5.7792,
+              1.4448,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              6.1824,
+              1.5456,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              6.72,
+              1.68,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              7.1232,
+              1.7808,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              7.5264,
+              1.8816,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              8.064,
+              2.016,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              8.6016,
+              2.1504,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              9.1392,
+              2.2848,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              9.6768,
+              2.4192,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              10.2144,
+              2.5536,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              10.752,
+              2.688,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              11.424,
+              2.856,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              12.096,
+              3.024,
+              24,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              12.768,
+              3.192,
+              24,
+              3,
+              15,
+              60
+            ]
+          }
+        ]
+      },
+      "Id": 11075,
+      "Name": "Édit de splendeur liée",
+      "Description": "Invoque des « alliés » du ciel étoilé et de la vaste terre, déclenchant une tempête glaciale en avant qui inflige des <color=#99FFFFFF>DGT Cryo de zone</color> infusés de noctâme, accordant des points de noctâme à Citlali et invoquant un <color=#FFD780FF>crâne possédé</color> à proximité de chaque ennemi à portée, avec un maximum de 3 crânes possédés invoqués. Les crânes possédés explosent après un certain temps afin d'infliger des <color=#99FFFFFF>DGT Cryo de zone</color> infusés de noctâme et d'accorder des points de noctâme à Citlali.\n\n<i>« Argh, ça suffit ces histoires d'étoile noire, d'étoile d'opale ! Citlalin, Itzpapa, attrapez-les ! »</i>",
+      "Icon": "Skill_E_Citlali_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 10721,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                16,
+                8,
+                0.2,
+                12
+              ]
+            }
+          ]
+        },
+        "Id": 1072101,
+        "Name": "Pluie frigide de Mamaloaco",
+        "Description": "Lorsqu'un membre de l'équipe à proximité a déclenché une réaction de Gel ou de Fonte pendant la durée d'Itzpapa, les RÉS <color=#FF9999FF>Pyro</color> et <color=#80C0FFFF>Hydro</color> des ennemis affectés par la réaction diminuent de 20 % pendant 12 s et Citlali récupère 16 pts de noctâme, le noctâme pouvant être restauré une fois toutes les 8 s de cette manière.",
+        "Icon": "UI_Talent_S_Citlali_05"
+      },
+      {
+        "GroupId": 10722,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.9,
+                12,
+                4
+              ]
+            }
+          ]
+        },
+        "Id": 1072201,
+        "Name": "Tenue étoilée d'Itzpapalotl",
+        "Description": "#Pendant la compétence élémentaire <color=#FFD780FF>Étoile d'aurore givrée</color>, les DGT infligés par la tempête de givre d'Itzpapa augmentent d'une valeur équivalant à 90 % de la maîtrise élémentaire de Citlali. Pendant le déchaînement élémentaire <color=#FFD780FF>Édit de splendeur liée</color>, les DGT infligés par la tempête glaciale augmentent d'une valeur équivalant à 1{NON_BREAK_SPACE}200 % de la maîtrise élémentaire de Citlali.\nDe plus, Citlali récupère 4 pts de noctâme lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme.",
+        "Icon": "UI_Talent_S_Citlali_06"
+      },
+      {
+        "GroupId": 10723,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                75,
+                5,
+                20
+              ]
+            }
+          ]
+        },
+        "Id": 1072301,
+        "Name": "Don de la nuit : Fumée, miroir et vents",
+        "Description": "Dans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Citlali » peut être utilisée. Lorsque le personnage déployé est à une certaine hauteur dans les airs, le déploiement de Citlali déclenche l'effet suivant : Citlali fait un bond très haut et flotte dans les airs grâce à l'aide de la tzitzimitl d'obsidienne blanche Citlalin. La transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe.\n\nMaintenir pour viser fait passer Citlali dans l'état de spiritoraison, ce qui lui permet d'interagir avec les graffitis et insignes de spirinocturne pour extraire les informations et la puissance à l'intérieur. Les règles d'interaction avec ces éléments suivent les mêmes règles que celles régissant les interactions avec les iktomisaures.\n\nDe plus, maintenir le saut fait consommer 75 pts d'endurance à Citlali pour sauter. Dans une zone de Natlan avec des mécanismes phlogistiques, Citlali consomme en priorité 5 pts de phlogistique pour sauter encore plus haut.\nDans les airs, Citlali peut maintenir l'attaque normale et consommer du phlogistique ou de l'endurance pour passer en mode visée et déclencher des attaques chargées, Citlali consommant en priorité 20 pts de phlogistique en effectuant une attaque chargée dans les airs.",
+        "Icon": "UI_Talent_S_Citlali_08"
+      },
+      {
+        "GroupId": 10725,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 1072501,
+        "Name": "Chants de profond mystère",
+        "Description": "Dans une zone de Natlan avec des mécanismes phlogistiques, déclencher une éruption noctâme restaure 20 pts de phlogistique.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées.",
+        "Icon": "UI_Talent_S_Mavuika_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1071,
+        "Name": "Lame lumineuse de Centzon Mimixcoah",
+        "Description": "#Lorsque Citlali utilise la compétence élémentaire <color=#FFD780FF>Étoile d'aurore givrée</color>, elle obtient l'effet Tenue d'opale jusqu'à ce qu'Itzpapa quitte le terrain : pendant cet effet, Citlali obtient 10 lames stellaires, une lame étant consommée lorsqu'un membre de l'équipe déployé à proximité autre que Citlali inflige des DGT avec une attaque normale, chargée ou plongeante ou une compétence ou un déchaînement élémentaires, et ce, afin d'augmenter les DGT infligés d'une valeur équivalant à 200 % de la maîtrise élémentaire de Citlali.\nLorsqu'un membre de l'équipe déployé à proximité a déclenché une réaction de Gel ou de Fonte, Citlali obtient 3 lames stellaires, cet effet pouvant être déclenché une fois toutes les 8 s.\n\nUtiliser la compétence élémentaire <color=#FFD780FF>Étoile d'aurore givrée</color> réinitialise les cumuls de lames stellaires.\nDe plus, le phlogistique que Citlali consomme lorsqu'elle saute ou effectue une visée ou une attaque chargée dans les airs diminue de 45{NON_BREAK_SPACE}%.",
+        "Icon": "UI_Talent_S_Citlali_01"
+      },
+      {
+        "Id": 1072,
+        "Name": "Patrouille de dévoreur de cœurs",
+        "Description": "La maîtrise élémentaire de Citlali augmente de 125 pts et celle des autres personnages protégés par un bouclier d'opale ou ayant Itzpapa les suivant de 250 pts.\nDe plus, utiliser la compétence élémentaire <color=#FFD780FF>Étoile d'aurore givrée</color> accorde un bouclier d'opale aux membres de l'équipe déployé à proximité.\n\nL'effet de l'aptitude passive « Pluie frigide de Mamaloaco » est également amélioré :\nLorsqu'un membre de l'équipe à proximité a déclenché une réaction de Gel ou de Fonte pendant la durée d'Itzpapa, les RÉS <color=#FF9999FF>Pyro</color> et <color=#80C0FFFF>Hydro</color> des ennemis affectés par la réaction diminuent de 20 % supplémentaires pendant 12 s, l'aptitude passive « Pluie frigide de Mamaloaco » devant être déjà débloquée.",
+        "Icon": "UI_Talent_S_Citlali_02"
+      },
+      {
+        "Id": 1073,
+        "Name": "Crête plumée de serpent des nuages",
+        "Description": "Niveau d'aptitude <color=#FFD780FF>Étoile d'aurore givrée</color> +3.\nNiveau max : 15",
+        "Icon": "UI_Talent_U_Citlali_01"
+      },
+      {
+        "Id": 1074,
+        "Name": "Crâne spirituel de non-mortel",
+        "Description": "Pendant la compétence élémentaire <color=#FFD780FF>Étoile d'aurore givrée</color>, toucher un ennemi avec une tempête de givre d'Itzpapa permet d'invoquer en plus un <color=#FFD780FF>crâne possédé d'obsidienne</color>. En explosant, un crâne invoqué de cette manière inflige des <color=#99FFFFFF>DGT Cryo de zone</color> infusés de noctâme d'une valeur équivalant à 1 200 % de la maîtrise élémentaire de Citlali et restaure à cette dernière 16 pts de noctâme et 8 pts d'énergie élémentaire, cet effet pouvant être déclenché une fois toutes les 8 s et ces DGT n'étant pas considérés comme des DGT de déchaînement élémentaire.",
+        "Icon": "UI_Talent_S_Citlali_03"
+      },
+      {
+        "Id": 1075,
+        "Name": "Malédiction de Nemontemi",
+        "Description": "Niveau d'aptitude <color=#FFD780FF>Édit de splendeur liée</color> +3.\nNiveau max : 15",
+        "Icon": "UI_Talent_U_Citlali_02"
+      },
+      {
+        "Id": 1076,
+        "Name": "Pacte secret de Teoiztac",
+        "Description": "Invoqué par la compétence élémentaire <color=#FFD780FF>Étoile d'aurore givrée</color>, Itzpapa est constamment dans l'état Feu d'opale, l'état ne prenant pas fin lorsque les points de noctâme sont épuisés.\nDe plus, Itzpapa consomme tous les points de noctâme lors de l'utilisation de la compétence élémentaire <color=#FFD780FF>Étoile d'aurore givrée</color> et consomme de façon continue des points de noctâme tant qu'elle est sur le terrain, chaque point ainsi consommé accordant 1 pt de loi secrète à Citlali.\nCitlali peut cumuler un maximum de 40 pts de loi secrète, chaque point accordant à tous les personnages de l'équipe à proximité des bonus de DGT <color=#FF9999FF>Pyro</color> et <color=#80C0FFFF>Hydro</color> de 1,5 % et augmentant les DGT infligés par Citlali de 2,5 %.\nTous les points de loi secrète de Citlali sont annulés lorsqu'Itzpapa quitte le terrain ou que la compétence élémentaire est à nouveau utilisée.",
+        "Icon": "UI_Talent_S_Citlali_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Étoile opaline d'obsidienne",
+    "Detail": "La grande shamane des Maîtres du vent nocturne et la grand-mère Itztli que tous dans la tribu respectent.",
+    "Association": 9,
+    "Native": "Mictlans",
+    "BirthMonth": 1,
+    "BirthDay": 20,
+    "VisionBefore": "Cryo",
+    "ConstellationBefore": "Patina Anavatlaca",
+    "CvChinese": "柳知萧",
+    "CvJapanese": "田野アサミ",
+    "CvEnglish": "Skyler Davenport",
+    "CvKorean": "Lee Eun-jo",
+    "CookBonus": {
+      "OriginItemId": 108719,
+      "ItemId": 108789,
+      "InputList": [
+        101243,
+        100093,
+        110009,
+        100076
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Première rencontre...",
+        "Context": "Je suis Citlali des Maîtres du vent nocturne. J'ai observé les étoiles et vu ton avenir à travers l'obscure brume. La chance te sourira et tu bénéficieras de l'aide de puissants alliés pendant ton voyage. Permets-moi de te rejoindre... Hé, je peux être sérieuse ! Arrête de me regarder comme ça !"
+      },
+      {
+        "Title": "Bavardage - Romans",
+        "Context": "J—J'ai lu presque tous les romans publiés par la Chambre Yae. Mais ça n'a rien de surprenant, pas vrai ?"
+      },
+      {
+        "Title": "Bavardage - Boissons",
+        "Context": "À une vie où l'alcool coule à flots et où les moras tombent du ciel !"
+      },
+      {
+        "Title": "Bavardage - Transe",
+        "Context": "Les rituels où l'on entre en transe sont risqués pour la plupart des gens, alors ne te fais pas d'idées."
+      },
+      {
+        "Title": "Quand il pleut...",
+        "Context": "C'est une journée parfaite pour lire un roman à la maison."
+      },
+      {
+        "Title": "Après la pluie...",
+        "Context": "Nous devrions pouvoir voir les étoiles ce soir."
+      },
+      {
+        "Title": "Quand il neige...",
+        "Context": "Argh ! Je n'ai jamais vu cette chose auparavant !"
+      },
+      {
+        "Title": "Dans le désert...",
+        "Context": "*bruit de crachat* Oh, je ne viens pas de cracher par terre, j'ai des manières ! J'avais juste du sable dans la bouche, je le jure !"
+      },
+      {
+        "Title": "Au réveil...",
+        "Context": "*bâille* Bonjour. La dernière fois que je me suis réveillée aussi tôt, j'étais encore étudiante. Maintenant que je suis un maître, je peux dormir plus tard. Enfin bref, de quoi s'agit-il ?"
+      },
+      {
+        "Title": "À l'heure du déjeuner...",
+        "Context": "Bonjour ! J'ai beaucoup de retenue, tu sais. Quand je me lève, je ne bois jamais avant midi... Cependant, il m'arrive parfois de passer toute une nuit à organiser un rituel et de ne pas dormir du tout. Je ne fais donc pas de promesse par rapport à quand ça arrive..."
+      },
+      {
+        "Title": "Le soir...",
+        "Context": "Bonsoir ! Les zones avec une grande activité phlogistique sont chaudes quoi qu'il arrive. Mais dans les régions les plus reculées de Natlan, la température chute pendant la nuit. Alors, n'oublie pas de bien te couvrir. Hein ? Tu n'as rien demandé ? Eh bien, je te le dis quand même !"
+      },
+      {
+        "Title": "La nuit...",
+        "Context": "Bonne nuit ! La fumée obscure et les esprits de la terre sont dans un léger sommeil, et il n'y a pas d'étoiles de mauvais augure. C'est donc une belle soirée à tout point de vue. Oh, comment mon oreiller s'est-il retrouvé par terre...?"
+      },
+      {
+        "Title": "À propos de Citlali - Guerriers du mirage",
+        "Context": "Ah, on dirait que ça t'intéresse ! Les Guerriers du mirage, c'est un roman fantastique de Nakajima Jun. C'est l'une des œuvres les plus anciennes et les plus célèbres de la Chambre Yae. L'histoire se déroule dans un royaume insulaire appelé Ashihara. Le protagoniste de la plupart des chapitres est Higashi no Sankun, un ermite à tête de félin venu des mers orientales qui est en réalité l'ancien vassal, le vice-roi de l'Est. L'histoire est particulièrement longue... Il y a déjà eu trois auteurs différents. Mais au final, on ne connaît toujours pas la vérité sur le Houko..."
+      },
+      {
+        "Title": "À propos de Citlali - Fin",
+        "Context": "L'Ode à la résurrection peut ramener nos corps physiques à la vie, mais tout connaîtra une fin un jour, même le soleil et les étoiles. Oh, tu veux savoir à quoi ressemble la mort ? Imagine un après-midi suspendu dans le temps : tu chevauches un saurien à travers une vaste plaine et une silhouette inconnue se tient à l'horizon. Peu importe la vitesse à laquelle tu vas, la silhouette est toujours hors de portée, jusqu'à ce qu'elle charge vers toi sans avertissement. Il n'y a nulle part où se cacher. Quand vous vous retrouvez face à face, c'est la fin."
+      },
+      {
+        "Title": "À propos de nous - Aide",
+        "Context": "#*soupir* À part mon ancienneté dans la tribu, je ne sais vraiment pas ce que je peux t'offrir. Tes alliés sont puissants et ton avenir est très prometteur. Tu devrais pouvoir parfaitement te débrouiller {M#tout seul}{F#toute seule}... De plus, les grands-mères de mon âge ne devraient-elles pas pouvoir se détendre à la maison toute la journée ? À moins que tu n'aies besoin que je fasse entendre raison à quelqu'un... Attends, tu n'as pas réellement besoin de ça quand même ?"
+      },
+      {
+        "Title": "À propos de nous - Gaucherie",
+        "Context": "J—Je te traite de la même manière que tout le monde, c'est promis ! Très bien, les gens de ma tribu ne me connaissent qu'à travers des rumeurs qui circulent depuis des générations. Mais toi, tu me vois comme je suis réellement. Ma personnalité confiante et décomplexée n'est qu'une façade, parce que c'est ce que les gens attendent de moi... Mais la maladresse, l'anxiété, l'incertitude... Voilà qui définit qui je suis vraiment. Je ne te mentirai pas, mais ne t'attends pas à ce que j'étale à nouveau mes sentiments."
+      },
+      {
+        "Title": "À propos de l'œil divin...",
+        "Context": "D'une certaine manière, recevoir un œil divin, c'est comme gagner un allié puissant. Mais dire que quelqu'un a de puissants alliés revient plutôt à dire à quel point cette personne est déjà extraordinaire. Après tout, les alliés ne font qu'augmenter une puissance existante, et libérer cette force dépend entièrement de ta propre volonté."
+      },
+      {
+        "Title": "Quelque chose à partager ?",
+        "Context": "Il faut deux semaines pour qu'un roman en série d'Inazuma arrive à Natlan, et une année entière pour que les chapitres soient publiés en un seul volume. Je ne sais pas s'il y a un sens plus profond derrière tout ça, mais pendant ces deux semaines, il y a tellement de révélations et de fuites toutes plus incroyables les unes que les autres. Il est impossible de distinguer la spéculation de la désinformation pure et simple."
+      },
+      {
+        "Title": "Détails intéressants...",
+        "Context": "Selon la légende, il y avait autrefois une sorte particulière de cactus à Natlan que le maître de mon maître appelait mescalito. En manger permettrait même aux mortels de voir dans un autre royaume. Bien sûr, ce n'était qu'une rumeur, je ne sais pas s'il en existe encore. Mais si jamais tu en vois un, tu n'essayes pas, d'accord ?"
+      },
+      {
+        "Title": "À propos d'Ororon...",
+        "Context": "Hmph."
+      },
+      {
+        "Title": "À propos de Mualani...",
+        "Context": "Entre Mualani et moi, honnêtement, je ne sais pas qui est la plus redevable envers l'autre. Elle casse ma porte, me doit des moras, vole ma nourriture... Mais ensuite, elle m'apporte des collations et paie d'autres choses... J'ai du mal à suivre. À ce stade, je serais plus que ravie de dire que nous sommes quittes. Tout pour qu'elle arrête de me réveiller à onze heures du matin... Oh, euh... Peu importe ! Elle me fait juste sursauter en frappant, c'est tout."
+      },
+      {
+        "Title": "À propos de Xilonen...",
+        "Context": "Elle ignore complètement les rumeurs à mon sujet et n'exagère pas en matière de sympathie. Je me sens donc toujours à l'aise avec elle. Oh ! Non pas que je me sente mal à l'aise avec toi ! Je suis juste... en train de trop réfléchir, comme d'habitude... Voilà, maintenant tu le sais aussi."
+      },
+      {
+        "Title": "À propos de Mavuika...",
+        "Context": "Héhé, Mavuika... Ahem, je veux dire, l'Archon est venu me parler l'autre jour. Ce n'est qu'en grignotant au milieu de la nuit que j'ai réalisé qu'elle se vante tout le temps ! Il y a un ancien dicton d'une autre nation qui dit : « Les saints sont humbles jusqu'à ce qu'on leur pose des questions sur leur devoir, c'est alors que leur fierté est grande. » Je pense que ça lui va parfaitement."
+      },
+      {
+        "Title": "À propos de Kamisato Ayaka...",
+        "Context": "... Toi, la jeune femme là-bas. Retourne-toi et laisse-moi t'observer. Ah, donc ça vient de « L'affaire de mademoiselle Orith ». Je pensais que c'était le second rôle féminin du « Grand détective Hurlock ». Pour moi, tous les vêtements fontainois se ressemblent. Très bien, tu peux y aller maintenant. C'est tout ce que j'avais à dire."
+      },
+      {
+        "Title": "À propos de Kinich...",
+        "Context": "La petite chose qui le suit partout est vraiment embêtante. Oh, Kinich est un de tes amis ? Hmm, que puis-je dire d'autre à son sujet...? C'est quelqu'un de fiable."
+      },
+      {
+        "Title": "À propos d'Iansan...",
+        "Context": "Je ne la connais pas très bien, mais je connais les romans légers... Quelqu'un d'aussi puissant malgré sa taille doit avoir une sorte de mode spécial qui lui permet de mesurer deux mètres et de se battre à 200 % de sa force."
+      },
+      {
+        "Title": "Connaître Citlali (1)",
+        "Context": "Hein ? Pourquoi est-ce que tu me parles de ça, tout d'un coup ? As-tu entendu des rumeurs à mon sujet ? *soupir* Très bien, c'est vrai ! Je suis la shamane la plus âgée, la plus étrange et la plus effrayante de la tribu. Crois ce que tu veux, j'ai depuis longtemps renoncé à m'expliquer."
+      },
+      {
+        "Title": "Connaître Citlali (2)",
+        "Context": "Tu veux que je t'explique quand même ? *soupir* Il existe une tradition tacite dans ma tribu. Les maîtres shamans entretiennent délibérément les rivalités entre leurs étudiants et un maître rival. De cette façon, si les étudiants veulent vaincre ce maître sans être anéantis, ils doivent travailler dur pour surpasser la génération précédente. La plupart des shamans de la tribu appartiennent à l'école fondée par mon amie. Ils m'ont choisi comme sorcière maléfique à vaincre, alors que puis-je faire ? Je n'essaye pas de leur compliquer la vie ! Ce n'est pas ma faute s'ils ne savent pas se battre ! *soupir* Enfin, tout a commencé avec... les rumeurs selon lesquelles je serais une vieille sorcière terrifiante."
+      },
+      {
+        "Title": "Connaître Citlali (3)",
+        "Context": "#C'est exact. Je joue un rôle devant les autres, mais c'est ma vraie personnalité. C'est assez simple, en fait. Quand les gens s'attendent à ce que tu parles comme une vieille dame avec un accent et des expressions désuètes, mais que tu leur réponds avec une élocution élégante et standard, ils sont complètement choqués. Oui, tu as raison, c'est de l'ignorance. Mais l'ignorance est la chose la plus difficile à surmonter. Après tout, quand nous nous sommes {M#rencontrés}{F#rencontrées} la première fois, je ne m'attendais pas à ce que tu sois {M#différent}{F#différente} des autres."
+      },
+      {
+        "Title": "Connaître Citlali (4)",
+        "Context": "#Tu veux savoir comment les maîtres shamans de ma tribu incitent leurs disciples à m'en vouloir ? Il s'agit de la méthode la plus traditionnelle : disons que tu as été {M#trompé}{F#trompée} par un escroc. Tu vas envoyer tes disciples faire des graffitis sur la maison de ce dernier. Avec un peu d'indignation bien calibrée pour cette injustice, tu peux les amener à faire n'importe quoi ! Tu vois à quel point c'est injuste ? Au moins, la plupart des gens peuvent désormais distinguer ma maison de celle d'un escroc quelconque, ça n'arrive donc plus aussi souvent qu'avant."
+      },
+      {
+        "Title": "Connaître Citlali (5)",
+        "Context": "Oh, ces bouteilles de vin ? L'Association des reliques sauriennes les a trouvées... Non, non, ce ne sont pas les miennes. Les voir jetées négligemment comme ça... Ororon a dû les boire ! N'est-ce pas, Ororon ?! Viens tout de suite t'excuser ! J'ai une grande tolérance, je ne suis donc pas facilement ivre. Et même lorsque ça arrive, je ne jette jamais de déchets comme ça. En plus, l'Association a déclaré qu'elles avaient été trouvées dans la nature. Oh ! Dans un endroit totalement inoffensif, bien sûr. Non pas que ça ait de l'importance, parce que ce n'est pas moi qui les ai jetées, et... Peu importe ! Fais-moi confiance !"
+      },
+      {
+        "Title": "Les loisirs de Citlali...",
+        "Context": "Ma vie est presque complètement dénuée de sens. Il ne me reste plus que la torpeur embrumée au réveil, les fantaisies illusoires des romans et le réconfort d'une bouteille."
+      },
+      {
+        "Title": "Les problèmes de Citlali...",
+        "Context": "Tu ne l'as pas encore compris ? Je fais semblant de ne me soucier de rien comme bouclier. En réalité, je passe mon temps à m'inquiéter de tout."
+      },
+      {
+        "Title": "Plats préférés...",
+        "Context": "Tout d'abord, j'aime ma viande cuite à point de sorte qu'elle conserve une partie de la saveur originale d'une offrande sacrificielle. Ensuite, il y aurait tout ce qui est facile à manger d'une seule main pour pouvoir lire en même temps. Oh, et tout ce que tu recommandes, bien sûr !"
+      },
+      {
+        "Title": "Plats détestés...",
+        "Context": "#Je ne comprends pas vraiment... l'intérêt des aliments acides. Tu manges quand tu as faim, bois quand tu as soif, et dors quand tu es {M#fatigué}{F#fatiguée}. Si les aliments acides sont destinés à ouvrir l'appétit, c'est peut-être que tu n'avais tout simplement pas faim, non ?"
+      },
+      {
+        "Title": "Cadeau reçu (1)",
+        "Context": "Waouh, c'est délicieux ! J'ai essayé tous les plats proposés à proximité des Maîtres du vent nocturne, et je n'ai rien trouvé d'aussi bon que ça. C'est la pure vérité !"
+      },
+      {
+        "Title": "Cadeau reçu (2)",
+        "Context": "Je n'ai pas l'habitude de manger ce genre de choses... Non, attends ! Je ne dis pas que c'est mauvais ! Tu... m'as fait découvrir une nouvelle saveur ! C'est un compliment, c'est vrai !"
+      },
+      {
+        "Title": "Cadeau reçu (3)",
+        "Context": "Q—Quelque chose doit clocher avec mes papilles gustatives, haha..."
+      },
+      {
+        "Title": "Anniversaire...",
+        "Context": "Joyeux anniversaire ! Honnêtement, je ne sais pas quoi t'offrir. Il n'y a pas d'étoiles de mauvais augure sur ta route. Que ce soit en matière d'amour, de combats ou de futurs projets, tes possibilités semblent vastes. Une bénédiction comme chez les Mictlans ne te servirait pas à grand-chose. J'ai pensé à t'offrir un exemplaire de « Fleurs pour la princesse Fischl » pour te rendre accro aux romans légers, mais on dirait que tu possèdes plus de livres de la Chambre Yae que moi... Ah, que faire... que faire ?"
+      },
+      {
+        "Title": "Affinité faible",
+        "Context": "Hmm, ça ne ressemble pas à une technique de divination venue d'un autre monde. Mon école de shamanisme s'appuie sur la terre plutôt que sur le ciel. Lorsque les fausses étoiles de mauvais augure se montrent agressives, je les lie avec l'esprit de la terre, les os d'animaux morts et le pouvoir de la fumée obscure."
+      },
+      {
+        "Title": "Affinité moyenne",
+        "Context": "Les cieux contrôlent le destin humain comme le ferait un marionnettiste. Ainsi, les étoiles de mauvais augure elles-mêmes n'ont pas de libre arbitre. Mais, une fois que j'ai scellé leur pouvoir à l'intérieur d'une figurine et que je l'ai liée avec des os d'animaux, les pensées résiduelles dans les os leur permettent de développer une conscience. J'appelle ces petites créations « Tzitzimime ». Tu peux les considérer comme des manifestations d'étoiles de mauvais augure."
+      },
+      {
+        "Title": "Affinité élevée",
+        "Context": "Chaque tzitzimitl contient des os de petits animaux. Cette technique est plutôt effrayante quand on y pense. Je suis donc peut-être un peu responsable du fait que les gens ont peur de moi. Mais je ne fais de mal à aucun animal, je trouve simplement ces os dans la nature !"
+      },
+      {
+        "Title": "Affinité max",
+        "Context": "À partir de maintenant, je serai toujours à tes côtés. Jusqu'à ce que les étoiles perdent leur éclat, que les flammes s'éteignent et que la fumée se dissipe dans le néant."
+      },
+      {
+        "Title": "Compétence élémentaire (1)",
+        "Context": "Au travail !"
+      },
+      {
+        "Title": "Compétence élémentaire (2)",
+        "Context": "Remplissez notre pacte."
+      },
+      {
+        "Title": "Compétence élémentaire (3)",
+        "Context": "Ne montre aucune pitié."
+      },
+      {
+        "Title": "Compétence élémentaire (4)",
+        "Context": "Doucement... Doucement..."
+      },
+      {
+        "Title": "Compétence élémentaire (5)",
+        "Context": "Tranquillement..."
+      },
+      {
+        "Title": "Compétence élémentaire (6)",
+        "Context": "Très bien."
+      },
+      {
+        "Title": "Déchaînement élémentaire (1)",
+        "Context": "Je vous laisse vous en occuper !"
+      },
+      {
+        "Title": "Déchaînement élémentaire (2)",
+        "Context": "Citlalin, Itzpapa, à l'attaque !"
+      },
+      {
+        "Title": "Déchaînement élémentaire (3)",
+        "Context": "Subissez la colère d'Itztli !"
+      },
+      {
+        "Title": "Ouverture de coffre (1)",
+        "Context": "Pas mal du tout, je te le laisse."
+      },
+      {
+        "Title": "Ouverture de coffre (2)",
+        "Context": "Vas-y, sers-toi. Je remercierai les étoiles pour toi plus tard."
+      },
+      {
+        "Title": "Ouverture de coffre (3)",
+        "Context": "Je peux t'aider si c'est trop lourd."
+      },
+      {
+        "Title": "PV faibles (1)",
+        "Context": "J'aurais dû rester à la maison..."
+      },
+      {
+        "Title": "PV faibles (2)",
+        "Context": "*soupir* Je veux rentrer chez moi."
+      },
+      {
+        "Title": "PV faibles (3)",
+        "Context": "Je dois... être forte..."
+      },
+      {
+        "Title": "Compagnon avec PV faibles (1)",
+        "Context": "... Ne m'abandonne pas !"
+      },
+      {
+        "Title": "Compagnon avec PV faibles (2)",
+        "Context": "On aime prendre des risques ?"
+      },
+      {
+        "Title": "K.O. (1)",
+        "Context": "Emmène-moi... rejoindre les étoiles..."
+      },
+      {
+        "Title": "K.O. (2)",
+        "Context": "Emmène-moi... retourner à la terre..."
+      },
+      {
+        "Title": "K.O. (3)",
+        "Context": "Je suis... désolée..."
+      },
+      {
+        "Title": "Attaque puissante subie (1)",
+        "Context": "Quelle audace !"
+      },
+      {
+        "Title": "Attaque puissante subie (2)",
+        "Context": "Aïe, aïe !"
+      },
+      {
+        "Title": "Ajout dans l'équipe (1)",
+        "Context": "Je ne suis jamais en retard..."
+      },
+      {
+        "Title": "Ajout dans l'équipe (2)",
+        "Context": "Laisse-moi tran... Ah, non, je suis prête !"
+      },
+      {
+        "Title": "Ajout dans l'équipe (3)",
+        "Context": "Bien sûr que je vais t'aider."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Info. personnage",
+        "Context": "Les shamans sont des praticiens d'un art mystérieux qui prend racine chez les Maîtres du vent nocturne. Dotés de nombreuses capacités mystiques, ce sont des personnes sages et puissantes. Quand les Natlanois recherchent un remède ou souhaitent déchiffrer une prophétie énigmatique, ils rendent toujours visite à un shaman. Les shamans sont à la fois médecins et prophètes, jouant un rôle indispensable dans la vie quotidienne et dans les affaires de plus grande importance. En résumé, c'est une profession très respectée.\nPourtant, parmi tous ces shamans, il existe des « grands shamans » qui forment un groupe à part entière. Ce titre est donné à tous ceux qui atteignent le sommet de leur art mystique. Dans toute l'histoire de Natlan, ces individus ont été peu nombreux. Leurs exploits brillent comme les étoiles les plus lumineuses dans le ciel nocturne, ajoutant une couche de légende au mystère de leur profession.\nCitlali est l'une de ces grands shamans, et la seule à Natlan aujourd'hui.\nPourtant, contrairement à ce qu'on pourrait croire, elle se mêle rarement des affaires courantes ou importantes de sa tribu. Elle participe peu souvent aux événements de grande ampleur, comme les cérémonies tribales. Les gens de l'extérieur qui voudraient solliciter son aide devront surmonter les nombreux obstacles qui se dressent sur leur chemin, ce qui est plus difficile que de traverser les nombreux gouffres de Natlan.\n« Vous cherchez grand-mère Itztli ? Il vaut mieux ne pas la déranger ! Si vous devez vraiment la voir, n'y allez pas sans préparation ! Ah, et juste pour que ce soit clair, je n'ai rien à voir là-dedans... » C'est ainsi que la plupart des membres des Maîtres du vent nocturne répondent, comme si Citlali était un redoutable démon, un monstre très menaçant et d'une puissance inouïe.\n« La grande shamane... Mouhaha ! Vous n'avez pas d'autre choix, je suppose ? Pfff, Sa Majesté saurienne suprême n'a pas de temps à perdre avec des minables comme toi. Enfin, puisque tu l'as demandé si gentiment, je te laisserai te servir de mon nom lorsque tu frapperas à sa porte. Comme ça, elle prendra ta demande au sérieux. » Une certaine entité étrange et autoproclamée « Majesté saurienne suprême » répond de la sorte, comme si Citlali était un personnage insignifiant.\n« Vous avez besoin de l'aide de grand-mère ? Vous ne trouverez personne de plus compétent : elle sait tout ! Vous avez son adresse ? Je peux même vous y emmener ! D'ailleurs, quand nous serons devant sa porte, vous devrez frapper sans vous arrêter. Grand-mère est un peu timide, alors il ne faut pas hésiter à être entreprenant, d'accord ? » Vous recevrez ce genre de réponse de la part d'une certaine guide de grande renommée du Peuple des sources, comme si Citlali n'était rien de plus qu'une jeune fille timide.\n« Vous cherchez de l'aide auprès de Citlali ? C'est un choix judicieux. Sa contribution a été déterminante dans la réussite de nombreux événements importants à Natlan. Je suis persuadée qu'elle saura également résoudre vos problèmes. » Vous recevrez ce genre de réponse de la part de la gardienne du sanctifeu en personne, comme si Citlali était l'incarnation de l'aînée responsable et accessible.\nEn fin de compte, après s'être longuement renseignés, ceux qui cherchent son aide finissent souvent par se sentir encore plus désorientés qu'ils ne l'étaient au départ. Ils n'ont alors pas d'autre choix que d'abandonner leur entreprise."
+      },
+      {
+        "Title": "Histoire du personnage 1",
+        "Context": "La maison de Citlali se trouve à une distance considérable de la tribu. Nichée dans un coin reculé des montagnes, on peut la qualifier d'idéale pour vivre en réclusion solitaire. Contrairement à la maison de l'« ermite » moyen qui se fond dans son environnement naturel, la sienne est très visible, à tel point qu'on ne peut pas la rater.\nC'est principalement en raison des graffitis qui couvrent ses murs extérieurs. Audacieux, exagérés et provocateurs, ils semblent avoir été délibérément faits pour énerver quelqu'un. Pour comprendre ces graffitis, il faut souligner qu'il existe une tradition plutôt étrange répandue chez les shamans des Maîtres du vent nocturne. Ils s'efforcent souvent de trouver des confrères et consœurs très puissants dans leur cercle, pour orchestrer des situations fortuites dans lesquelles leurs élèves les affrontent. Ensuite, ils poussent leurs élèves à s'améliorer en exploitant la pression inspirée par ces individus impressionnants. C'est peut-être en raison du caractère familial de ce lien entre maître et disciple que pour contourner leur tendresse inconsciente, presque parentale, les maîtres doivent s'en remettre à un oncle ou à une tante sévère pour imposer les épreuves difficiles qu'il faut endurer. Il y a de nombreuses années, une autre grande shamane nommée Huitzilin choisit Citlali comme cible pour ses élèves. Comment y est-elle parvenue, vous demandez-vous ? Eh bien, en leur demandant de recouvrir les murs extérieurs de la maison de Citlali de graffitis moqueurs : un défi direct que nul ne pouvait ignorer.\nCitlali s'acquitta avec brio de son rôle en encourageant la jeune génération à s'améliorer. Pas un seul de ces novices prétentieux, présomptueux et imbus d'eux-mêmes, par le fait d'avoir une grande shamane comme mentor, ne lui résista une seule fois. Elle leur donnait toujours une leçon d'humilité qui les faisait redevenir respectueux, et envisager le shamanisme avec une nouvelle révérence.\nAprès la mort de Huitzilin, ses disciples, et même les disciples de ses disciples, continuèrent à désigner Citlali comme la cible à défier pour leurs élèves, affirmant qu'il s'agissait de sa dernière volonté.\nCette pratique s'éloignait un peu de la tradition, mais la plupart des Maîtres du vent nocturne n'en furent pas surpris. Huitzilin était une grande shamane au même titre que Citlali, et d'après les dires, elle comprenait et admirait la force de Citlali plus que quiconque. Pour Huitzilin, seuls ceux qui avaient l'audace de défier Citlali étaient dignes de son enseignement. En effet, ces défis produisirent des résultats remarquables. Ceux qui eurent le courage d'affronter Citlali accomplirent souvent des exploits exceptionnels par la suite, comme occuper des postes clés au sein de la tribu ou acquérir une profonde maîtrise des arts mystiques. Au fil du temps, défier Citlali par le biais de graffitis devint une tradition à part entière.\nCette tradition fut une source de problèmes pour les héritiers de Huitzilin. Dès le début de leur apprentissage, ils enchaînèrent les défaites auprès de Citlali à un tel point qu'ils n'eurent d'autre choix que de modifier les critères de l'épreuve de Huitzilin : il fallait désormais seulement tenir assez longtemps face à elle. Toutes sortes d'histoires commencèrent ensuite à se répandre au sujet de grand-mère Itztli, alimentées par les expériences désolantes de tous ses adversaires qui ne réussirent pas à la faire s'incliner.\nLorsqu'un de ses adversaires échoue, Citlali utilise ses pouvoirs mystiques pour effacer ses graffitis. Au fil des années, les graffitis sur le mur changèrent, remplacés par des nouveaux, encore et encore. Avec le temps, l'irritation initiale que ressentait Citlali s'atténua. Étant donné son pouvoir et son statut, elle aurait pu facilement mettre fin à cette pratique agaçante, mais elle la laissa perdurer. Certains disent que Citlali se sert de ces adversaires pour améliorer sa propre réputation, tandis que d'autres pensent que, malgré son attitude détachée, la grande shamane a toujours le sentiment d'avoir la responsabilité de former les générations futures. Même si ce n'est qu'un tout petit peu...\nPeut-être que seule Citlali connaît la véritable raison qui la pousse à le faire : ces graffitis lui rappellent les moments précieux passés à affronter une ancienne rivale. Tant que ces graffitis en constante évolution continueront d'apparaître sur ses murs, elle pourra prétendre que ces jours ne sont pas vraiment révolus."
+      },
+      {
+        "Title": "Histoire du personnage 2",
+        "Context": "Si vous demandez à quelqu'un quel est le passe-temps favori de Citlali, qu'il la connaisse bien, qu'il la craigne ou qu'il n'ait entendu qu'une rumeur à son sujet pour la toute première fois, vous obtiendrez la même réponse : la lecture de romans légers. La plupart du temps, c'est le nez plongé dans un de ces livres que tout le monde la voit pour la première fois.\nEn revanche, si vous demandiez ensuite quel est son roman léger préféré... C'est une question sur laquelle même ceux qui la connaissent le mieux auraient du mal à se mettre d'accord.\nCertains sont convaincus qu'il s'agit des Guerriers du mirage, le roman léger dont elle parle le plus souvent, et peut-être le premier qu'elle ait jamais lu. D'après les rumeurs, ce premier classique changea trois fois d'auteur, mais il n'a jamais été achevé. La plupart de ses lecteurs d'origine ne font plus partie de ce monde. La dernière n'est autre que Citlali, qui est toujours en vie et qui espère une reprise après deux siècles entiers. Une œuvre comme celle-ci devrait avoir une place particulière dans le cœur de Citlali après une vie aussi longue, ce qui en fait très probablement son roman préféré.\nD'autres prétendent que c'est le très apprécié « Une légende d'épée ». Ce roman léger jouit d'une grande renommée, même à travers Natlan. Pourtant, lorsque cette œuvre est évoquée, Citlali semble souvent mécontente. Non pas à cause de l'histoire du roman, mais en raison de sa rancœur persistante à l'égard de la fois où une séance de dédicaces n'a pas été organisée à Natlan.\nIl y a également les débats houleux entre ceux qui pensent que son roman léger préféré est « Shogun toute-puissante — Comment j'ai été réincarnée en Raiden aux pouvoirs illimités » et ceux qui pensent que c'est « S'il te plaît, ma Guuji Kitsune ». Le premier camp se souvient qu'elle entra dans une rage folle lorsqu'elle découvrit que son exemplaire de « Shogun toute-puissante » n'était pas issu de la première édition, à un tel point que le libraire en fut très effrayé. Le second camp peut raconter comment Citlali écrasa sans merci un groupe de disciples venus la défier dont l'apparition soudaine l'avait empêchée de mettre la main sur l'édition deluxe de « S'il te plaît, ma Guuji Kitsune ».\nCitlali ne donne jamais de réponse claire à cette question, la laissant en suspens. Cependant, une personne curieuse avec beaucoup de cran prétend avoir découvert un compartiment secret dans sa bibliothèque. Celui-ci est apparemment bien caché et même protégé par plusieurs sceaux mystiques spéciaux. Il contient sans l'ombre d'un doute son roman léger le plus précieux.\nCitlali en déduit rapidement qu'un cambrioleur s'était introduit chez elle. Après l'avoir retrouvé et lui avoir donné personnellement une bonne raclée, elle le remit aux gardes de la tribu. Depuis, les défenses mystiques autour de sa maison furent renforcées.\nPourtant, elle ne nia jamais les dires du cambrioleur, tout simplement parce qu'il y a bien un compartiment secret dans sa bibliothèque.\nCependant, le livre qui se trouve à l'intérieur n'est ni l'un des derniers succès commerciaux, ni une édition rare épuisée, mais bien un roman léger méconnu, même dans sa nation d'origine, Inazuma : « Nouvelles chroniques des six Kitsunes ».\nEst-ce le roman léger préféré de Citlali ? Difficile à dire. Peut-être qu'il est rangé à cet endroit en raison de la première phrase qu'elle lut en l'ouvrant.\n« Les histoires sur les souvenirs sont toujours liées à l'éphémère. »"
+      },
+      {
+        "Title": "Histoire du personnage 3",
+        "Context": "Lorsque les amis de Citlali prévoient de fêter son anniversaire, ils se heurtent toujours à une question épineuse : quel âge a-t-elle, au juste ?\nIl n'y a aucun moyen de le savoir en regardant son apparence.\nÀ en croire les dires de Citlali, elle devrait être âgée de deux cents ans. Cependant, certains aînés des Maîtres du vent nocturne insistent sur le fait qu'elle devrait être encore plus âgée, car elle possède une bonne connaissance de nombreux événements qui se produisirent il y a plus de deux siècles.\n« Tu crois que grand-mère a aussi été adoptée par des sauriens quand elle était jeune ? », s'interrogea Chasca en établissant un parallèle avec sa propre expérience d'enfant élevée par un qucusaure, oubliant totalement la discussion sur l'âge réel de Citlali.\n« Grand-mère sera toujours grand-mère, ça ne changera pas, qu'elle ait deux cents ans ou plus », répond Ororon quand les gens lui posent des questions. Ayant été élevé par Citlali, il est peut-être plus sensible que quiconque à son « intemporalité ».\nEn revanche, cette réponse manqua toujours de satisfaire Xilonen. Après tout, s'ils voulaient commander un gâteau d'anniversaire personnalisé, un chiffre vague ne ferait qu'embrouiller le pâtissier. Pour elle, il fallait faire une demande claire. C'est la moindre des choses en tant que clients.\n« Ha ! Si deux cents ans suffisent à vous contrarier, imaginez si vous saviez le vénérable âge de Sa Majesté sup... » Avant qu'il ne puisse terminer, Ajaw fut interrompu par Kinich, dont le coude rapide comme l'éclair envoya valser le petit rabat-joie.\n« Et si on mettait tout simplement deux cents ans sur le gâteau ? Grand-mère insiste toujours sur l'âge qu'elle a, c'est qu'il y a sans doute une raison. Un peu comme quand les gens disent qu'ils ont éternellement dix-huit ans pour se rajeunir ! » La suggestion de Mualani les fit tous réfléchir pendant un bon moment avant d'être rejetée. « Deux cents ans pour toujours » n'est pas très convaincant si on essaye de paraître jeune.\nTout le monde avait abandonné... ou presque : Iansan, toujours plein de ressources, demanda de l'aide à Mavuika, dans l'espoir que les souvenirs transmis par le sanctifeu lui donneraient quelques indices. Hélas, même Mavuika ne put donner de réponse sûre. D'après les souvenirs des anciens Archons Pyro, Citlali avait toujours vécu à l'écart de la société, ne laissant aucune indication sur son âge exact.\nIls continuèrent donc à hésiter pendant longtemps, sachant qu'il était hors de question de demander directement à Citlali. La grande shamane à l'esprit vif verrait clair dans leur jeu et cela gâcherait leur surprise instantanément.\nFinalement, ils décidèrent de contourner le problème en choisissant de commander un gâteau sans indiquer d'âge dessus.\nLe soir de son anniversaire, ils attirèrent Citlali hors de chez elle en frappant à sa porte et dévoilèrent le gâteau ainsi qu'une farandole de cadeaux lorsqu'elle mit le pied dehors. La fête qu'ils avaient planifiée pendant longtemps fut une réussite.\nCitlali but beaucoup ce soir-là, peut-être parce qu'elle fut émue par leur enthousiasme. Alors que ses yeux commencèrent à se voiler, quelqu'un trouva enfin le courage de poser la question qui les intriguait depuis le début.\n« Quel âge j'ai ? *hic* Laissez-moi vous raconter un truc drôle... », commença Citlali, en bredouillant. « Je ne suis certainement pas la seule personne dans le monde à avoir vécu aussi longtemps. Pour les autres, ça se passe généralement de la sorte : au début, c'est facile de compter les années, mais ça devient pénible au fur et à mesure, alors ils ne font plus attention... *hic* Mais c'est un peu différent pour moi... Au début, je ne me souciais pas de mon âge. Ce n'est qu'après... après un événement... que j'ai commencé à remarquer que je vieillissais... Et c'est à partir de ce moment-là que j'ai commencé à compter... Depuis, ça fait exactement... deux cents ans... *hic* ! »\nLe mystère des « deux cents ans » fut enfin résolu, mais la réponse suscita une nouvelle question : qu'avait-il bien pu se passer pour que Citlali, qui était restée jeune au cours des deux derniers siècles et plus, prenne soudainement conscience du temps qui passe ?\nMalgré leur curiosité, personne n'insista davantage, car ils remarquèrent que Citlali fixait le ciel nocturne. C'était le signe qu'elle s'était endormie."
+      },
+      {
+        "Title": "Histoire du personnage 4",
+        "Context": "Lorsqu'elle était jeune, Huitzilin était la camarade de Citlali pendant leur formation, toujours accompagnée de son fidèle compagnon iktomisaure, Griffouille. Chaque fois que Huitzilin prenait une pose de combat, il bondissait à ses côtés pour appuyer sa démonstration de force.\n« C'est toi le soi-disant génie dont les aînés n'arrêtent pas de parler ? Voyons qui est la plus forte ! »\n« ... T'es complètement cinglée, ma pauvre. »\nAussi brusquement qu'il avait commencé, leur premier affrontement se termina par la défaite écrasante de Huitzilin. Ce n'était que le début. De temps en temps, Huitzilin se présentait à la porte de Citlali, accompagnée de Griffouille. Les premières fois, elle venait seulement avec lettres de défi enflammées, mais peu de temps ensuite, elle commença à apporter des encas. À la fin, c'était avec du vin, volé aux adultes, qu'elle se présentait. Que ce soit le vin qui lui fit changer d'avis, ou simplement qu'elle se soit résignée à la persistance de Huitzilin, Citlali cessa de s'opposer à ses visites.\nVingt années s'écoulèrent de la sorte en un rien de temps.\nJusqu'au jour où le combat se termina par un match nul pour la première fois. Ce soir-là, Citlali accepta finalement l'invitation de Huitzilin à partager du vin et des encas au clair de lune.\n« Dire qu'on est devenues toutes les deux des grandes shamanes le même jour... On dirait bien qu'on est égales à cet égard, après tout. »\n« Ce n'est pas mal d'avoir eu un match nul après t'être autant acharnée. En tant que rivale, tu es sûrement satisfaite de ce résultat ? Je vais peut-être enfin avoir la paix... »\n« Quoi ? Pas du tout. Je continuerai à venir ! D'ailleurs, si on n'est plus rivales à présent, ça fait plus de vingt ans qu'on est amies. Pas vrai ? »\nLégèrement éméchée, Citlali regarda Huitzilin au clair de lune et remarqua soudainement que la jeune fille téméraire des deux dernières décennies était devenue une grande shamane. Griffouille avait également grandi en un iktomisaure adulte imposant qui les dépassait toutes les deux d'une tête.\n« Oui, on est amies depuis vingt ans maintenant... »\nTout à coup, des souvenirs déferlèrent dans la tête de Citlali, de détails qui avaient été obscurcis par le passage rapide du temps. Elle ressentit la chaleur de leur lien, mais aussi un inexplicable sentiment d'inquiétude.\nVingt autres années s'écoulèrent en un clin d'œil.\nUn jour, lorsqu'elle était en train de nettoyer les graffitis d'un autre adversaire qu'elle avait battu sans peine, Citlali fut interrompue par le bruit de pas familiers.\n« Hé, ma vieille amie. Ça fait un moment que tu ne m'as pas invitée à boire un verre. J'espère que tu n'es pas fâchée contre moi ? »\n« Si tu veux te battre, pourquoi tu ne viens pas toi-même ? Pourquoi tu continues à envoyer ces imbéciles pour m'embêter ? »\n« Ah, ça... C'est parce que j'ai atteint l'âge où je dois commencer à prendre des disciples sous mon aile. »\nCitlali se retourna, comme si elle réalisait soudainement quelque chose dont elle ne s'était pas rendu compte auparavant. Son amie, qu'elle n'avait pas vue depuis un certain temps, avait désormais quelques rides et n'était plus la jeune fille rayonnante d'autrefois. Huitzilin sembla percevoir les émotions complexes dans le regard de Citlali et tenta de détendre l'atmosphère en pointant un champ en pleine floraison à proximité.\n« Les fleurs sauvages de Natlan ont beau être jolies, mais elles fanent toujours lorsque la saison sèche arrive. On ne s'en inquiète jamais, car on sait que le champ fleurira à nouveau l'année suivante. Pas vrai ? »\n« Mais les fleurs qu'on regarde maintenant ne sentiront pas la chaleur de la lumière du soleil qui brille sur le champ l'année prochaine. Toute bonne chose a une fin, hein ? »\n« ... Je suis sûre que certaines tiendront le coup, ma chère amie. Laisse-moi y réfléchir encore un peu, je te donnerai ma réponse très bientôt. »\nHuitzilin tenta en vain d'apaiser le malaise apparent de Citlali, qui avait enfin compris d'où venait son sentiment de panique. Citlali resta éveillée toute la nuit et observa les météores qui sillonnaient le ciel.\nLes humains finissent par tomber comme les feuilles d'un arbre. Lorsque l'anniversaire des vingt années suivantes de leur amitié arriva, Huitzilin n'était plus de ce monde.\n...\nBien des années plus tard, lorsque Citlali nettoyait à nouveau les graffitis sur ses murs, elle repensa à cet après-midi quand une jeune fille et son petit iktomisaure vinrent la défier.\nD'innombrables souvenirs lui revinrent comme une marée, vifs comme si c'était hier. Mais ils étaient emportés à nouveau tout aussi rapidement, dispersés par le vent dans un passé lointain. Au fil des années, les émotions que Huitzilin ne réussit pas à apaiser à l'époque s'estompèrent, ne laissant place qu'à de légers soupirs.\n« Tu ne m'as jamais donné cette réponse, en fin de compte. », murmura Citlali.\nMalgré le sous-entendu de ses paroles, Citlali ne souhaitait pas blâmer Huitzilin, car c'était une question sans réponse. Après quelques cycles d'épanouissement et de flétrissement, la fleur dont elle se souvint si bien avait disparu depuis longtemps, ensevelie par les sables du temps, comme le seraient même les fleurs aux couleurs les plus vives."
+      },
+      {
+        "Title": "Histoire du personnage 5",
+        "Context": "#« Nous sommes des oiseaux qui s'envolent à travers le temps. Je m'attarde entre les pinceaux de la mémoire, à la recherche de la « couleur » de mon dernier voyage. »\nChaque fois que Citlali tisse un rouleau pour documenter un événement important, elle repense à cette phrase de Huitzilin. Ce fut la première chose qu'elle lui dit lorsqu'elle lui enseigna l'art mystique du tissage des rouleaux. Elle mena Citlali dans un monde de souvenirs vivants et lui montra comment créer de grandes œuvres à la manière d'un maître peintre, mais avec une palette de souvenirs au lieu de peintures.\nAprès avoir appris cette technique, Citlali suivit l'exemple de Huitzilin. Elle orna les annales d'une grande victoire d'une touche d'orange flamboyant provenant des torches des guerriers, ou honora les héros tombés au combat d'une touche de violet pâle provenant de fleurs déposées sur une tombe. Ce fut ainsi que ces chroniques furent tissées, rouleau après rouleau, et assurèrent la pérennité des traditions des Maîtres du vent nocturne.\nCitlali comprit depuis longtemps le fardeau et la responsabilité que représentait la perpétuation de cet art mystique. Lorsqu'elle fut sollicitée par {M#le voyageur}{F#la voyageuse} aux cheveux dorés, elle sut qu'elle ne pouvait pas refuser sa demande. Cette fois, elle choisit l'« or » {M#du voyageur}{F#de la voyageuse} pour représenter la lumière qui illumina l'Abîme et le point qui mit fin à cette grande guerre. Elle teinta méticuleusement l'ensemble du rouleau, et les souvenirs qu'il contenait semblaient prendre vie entre ses mains.\n« De cette façon, elles ne seront pas perdues dans des piles de texte noir et blanc. »\nEn entendant {M#le voyageur}{F#la voyageuse} à côté d'elle prononcer ces mots, Citlali sentit soudain remonter en elle une émotion qui avait été estompée par le temps. En se remémorant les paroles de Huitzilin, elle se rendit compte que sa vieille amie avait bel et bien tenu sa promesse.\nLorsque les fleurs faneront lors de la saison sèche et que tout sera enseveli sous les dunes du temps, que resterait-il ?\n« La couleur des souvenirs. »\nCe fut la réponse que Huitzilin lui donna toutes ces années auparavant. Ce fut également celle que Citlali put donner {M#au voyageur}{F#à la voyageuse} en réponse à sa question. Elle savait que cela la lierait à une autre promesse qui ne serait tenue qu'après de longues années, mais cette fois-ci, elle se sentait bien plus résolue.\nCitlali lui présenta un objet qu'elle avait préparé il y a longtemps. Pour la première fois, elle exprima à haute voix le souhait qu'elle espérait réaliser au cours de sa longue vie.\n« ... J'espère que ma couleur restera toujours dans ta mémoire. »"
+      },
+      {
+        "Title": "Tzitzimime",
+        "Context": "« La première est Citlalin, étoile terrible du Nord ! »\n« Le deuxième est Itzpapa, présage maléfique du Sud ! »\nLorsque quelqu'un mentionne les tzitzimime, les deux figurines que Citlali garde toujours sur elle, les Maîtres du vent nocturne répondent souvent ceci en guise d'avertissement pour faire taire les langues pendues, par peur qu'elles n'attirent sur elles une terrible malédiction. À en croire les rumeurs, ces figurines abritent les volontés conscientes d'une sorte de démon malveillant, qui fut dompté par la seule colère de grand-mère Itztli en personne. C'est pourquoi leur nom devint associé à celui de grand-mère Itztli. On peut s'en servir comme une sorte d'incantation pour mettre fin aux caprices des enfants.\nCependant, quiconque ayant eu l'occasion de voir ces deux figurines de près les trouve bien moins intimidantes que ce que les histoires racontent. Elles ressemblent plus à de mignons petits animaux plutôt qu'à de redoutables démons, aussi bien dans leur apparence que dans leur comportement. Citlali les lance fréquemment sur ses ennemis en combat, mais la peur inspirée par cette tactique n'est rien par rapport à la terreur qu'elle inspire avec ses deux poings.\nLe pouvoir redoutable des étoiles maléfiques fut véritablement scellé dans ces figurines, mais cela n'a absolument rien à voir avec leur conscience. Citlali fabriqua les tzitzimime à partir d'os de petits animaux morts de causes naturelles. Les vestiges persistants de leur esprit furent réveillés par le corps des figurines et leur donnèrent une conscience. En tant que telles, ces deux petites créatures ne peuvent maudire personne. Au contraire, elles apportent beaucoup de réconfort émotionnel, comme des animaux de compagnie.\nIl est amusant de constater que Citlali ne le fait que rarement savoir. Comme elle s'en sert comme des armes, il vaut sans doute mieux qu'elles paraissent effrayantes."
+      },
+      {
+        "Title": "Œil divin",
+        "Context": "Même après être devenue une grande shamane, Citlali ne reçut pas d'antique nom.\nBien qu'il soit indéniable qu'elle devint un véritable pilier des Maîtres du vent nocturne, tout autant que son aide pour mener à bien de nombreuses affaires parmi les plus importantes à Natlan fut essentielle, aucun nom de héros ne lui correspondait.\nLes gens trouvaient cela très dommage, mais ils ne pouvaient rien faire pour elle. Après avoir atteint l'âge de soixante-dix ans, Citlali fut peu encline à quitter son domicile. Elle semblait avoir perdu toute passion pour le monde, ne s'occupant que des affaires dans lesquelles son implication directe était absolument requise. Évidemment, cette indifférence ne lui attira pas la faveur des esprits héroïques.\nCependant, dans les lieux dont la plupart des gens ignoraient l'existence, Citlali montre toujours un grand enthousiasme pour une seule chose : le tissage des rouleaux spéciaux sur lesquels sont consignés les grands événements historiques.\nChacun de ces rouleaux demanda des dizaines d'années de travail pour être achevé, une génération entière passa le temps qu'ils soient terminés. Pourtant, Citlali persévérait. Peut-être parce qu'il s'agissait de la dernière volonté de sa vieille amie, ou peut-être parce que cela lui permettait d'éviter la compagnie des autres. Elle n'espérait pas aller jusqu'au bout de cette tâche et ne cherchait pas non plus à obtenir une contrepartie pour ses efforts.\n« C'est juste pour passer le temps », se dit-elle.\nCe fut pour cette raison que Citlali se sentit perplexe la nuit où un ancêtre l'appela depuis les teintes brumeuses du vent nocturne.\n« Pensez-vous que j'hériterai de votre antique nom ? »\n« Cela arrivera tôt ou tard, mais tu en ignores encore la raison. »\n« Mais d'abord, je te prie d'accepter mon message. Le moment venu, il répondra à tes questions. »\nLes couleurs du vent nocturne changèrent. Il communiquait dans un langage que seul Citlali pouvait décoder.\n« Nous sommes des oiseaux qui s'envolent à travers le temps. »\n« Je m'attarde dans les forêts verdoyantes, frôle les vagues azurées, vole au-dessus du magma ardent, ramasse du minerai doré et cours après les fleurplumes roses. »\n« Au crépuscule, mes graffitis ornent le ciel nocturne. »\n« Tout ce que je dépeindrai sera un cadeau offert au monde des défunts. »\n« C'était mon nom, et ce sera aussi le tien. »\n« Ukumbuko, le « souvenir ». »\nUne fois le message terminé, le vent nocturne enveloppé de brume se dirigea vers le rouleau que Citlali venait de teindre et se transforma en une mystérieuse irisation qui illumina la scène entière.\nAlors qu'elle contemplait le rouleau tissé, Citlali se souvint soudainement de la nuit où sa vieille amie quitta ce monde.\n« La mission qu'elle m'a confiée... C'était aussi la vôtre, non ? »\n« Oui, mais il semble que ce soit plus qu'une simple mission pour toi. »\nSuivant une traînée de couleurs chatoyantes, Citlali ouvrit la main. Sorti de nulle part, un œil divin scintillant apparut dans sa paume.\n« On dirait que c'est aussi ton « souhait ». »"
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 210700,
+      "Name": "Voyante de l'aube",
+      "Description": "Tenue de Citlali. Les shamans sont des voyants, des devins du passé oublié et de l'avenir incertain. Dans leur monde, l'œil a une signification symbolique particulière. C'est pourquoi la jupe de Citlali, portée à moitié drapée autour de sa taille, est ornée de l'œil de la révélation, un motif qui résume à la fois l'identité de celle qui la porte et ses goûts esthétiques.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113071,
+    101249,
+    112103,
+    104352,
+    113062
+  ],
+  "NameCard": {
+    "Name": "Citlali - Étoile opaline",
+    "Description": "Thème.\nLa noire appelée Itzpapa ressemble à de l'obsidienne. La blanche nommée Citlalin a la même couleur qu'une étoile.",
+    "Icon": "UI_NameCardIcon_Citlali",
+    "PicturePrefix": "UI_NameCardPic_Citlali"
+  }
+}
