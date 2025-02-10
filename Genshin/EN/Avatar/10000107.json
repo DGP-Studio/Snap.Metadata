@@ -475,7 +475,7 @@
         },
         "Id": 11072,
         "Name": "Dawnfrost Darkstar",
-        "Description": "Invoking secret pacts passed down by her tribe over the millennia, Citlali deploys an Opal Shield and calls forth \"Obsidian Tzitzimitl: Itzpapa,\" a creature that is (reputedly) terrifying beyond compare, dealing Nightsoul-aligned <color=#99FFFFFF>AoE Cryo DMG</color>.\nThe Opal Shield's DMG absorption scales based on Citlali's Elemental Mastery, and absorbs <color=#99FFFFFF>Cryo DMG</color> with 250% efficiency. When it is deployed, it will cause Citlali to briefly be <color=#99FFFFFF>affected by Cryo</color>.\nAfter using this skill, Citlali gains 24 Nightsoul points and enters the Nightsoul's Blessing state.\n\n<color=#FFD780FF>Nightsoul's Blessing: Citlali</color>\nWhen Itzpapa leaves the field, Citlali exits the Nightsoul's Blessing state.\n\n<color=#FFD780FF>Itzpapa</color>\n·Itzpapa will follow the character.\n·If Citlali has at least 50 Nightsoul points, Itzpapa enters the Opal Fire state and continuously consumes Nightsoul points to whip up a Frostfall Storm that attacks opponents within its AoE, dealing Nightsoul-aligned <color=#99FFFFFF>Cryo DMG</color>.\n·When Citlali's Nightsoul points are fully depleted, Itzpapa's Opal Fire state also ends.\n\n<i>Usually, the wills that symbolize different stars cannot coexist, for how can purest black be reflected in purest white?\nBe that as it may, Citlali has never harbored a particular preference for colors themselves, and that is just how things played out.</i>",
+        "Description": "Invoking secret pacts passed down by her tribe over the millennia, Citlali deploys an Opal Shield and calls forth \"Obsidian Tzitzimitl: Itzpapa,\" a creature that is (reputedly) terrifying beyond compare, dealing Nightsoul-aligned <color=#99FFFFFF>AoE Cryo DMG</color>.\nThe Opal Shield's DMG absorption scales based on Citlali's Elemental Mastery, and absorbs <color=#99FFFFFF>Cryo DMG</color> with 250% efficiency. When it is deployed, it will cause Citlali to briefly be <color=#99FFFFFF>affected by Cryo</color>.\nAfter using this skill, Citlali gains 24 Nightsoul points and enters the Nightsoul's Blessing state.\n\n<color=#FFD780FF>Nightsoul's Blessing: Citlali</color>\nWhen Itzpapa leaves the field, Citlali exits the Nightsoul's Blessing state.\n\n<color=#FFD780FF>Itzpapa</color>\n·Itzpapa will follow the character.\n·If Citlali has at least 50 Nightsoul points, Itzpapa enters the Opal Fire state and continuously consumes Nightsoul points to whip up a Frostfall Storm that follows the character and attacks opponents within its AoE, dealing Nightsoul-aligned <color=#99FFFFFF>Cryo DMG</color>.\n·When Citlali's Nightsoul points are fully depleted, Itzpapa's Opal Fire state also ends.\n\n<i>Usually, the wills that symbolize different stars cannot coexist, for how can purest black be reflected in purest white?\nBe that as it may, Citlali has never harbored a particular preference for colors themselves, and that is just how things played out.</i>",
         "Icon": "Skill_S_Citlali_01"
       }
     ],
@@ -759,7 +759,11 @@
         "Id": 1073,
         "Name": "Cloud Serpent's Feathered Crown",
         "Description": "Increases the Level of <color=#FFD780FF>Dawnfrost Darkstar</color> by 3.\nMaximum upgrade level is 15.",
-        "Icon": "UI_Talent_U_Citlali_01"
+        "Icon": "UI_Talent_U_Citlali_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
       },
       {
         "Id": 1074,
@@ -771,7 +775,11 @@
         "Id": 1075,
         "Name": "Nemontemi's Hex",
         "Description": "Increases the Level of <color=#FFD780FF>Edict of Entwined Splendor</color> by 3.\nMaximum upgrade level is 15.",
-        "Icon": "UI_Talent_U_Citlali_02"
+        "Icon": "UI_Talent_U_Citlali_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
       },
       {
         "Id": 1076,
