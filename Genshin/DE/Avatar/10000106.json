@@ -889,14 +889,18 @@
       {
         "Id": 1062,
         "Name": "Aschfahler Preis",
-        "Description": "#Erhöht Mavuikas Basis-ANG im Nachtseelensegen-Zustand um 200 Punkte und verleiht ihr gemäß der Form der Allfeuerrüstung den entsprechenden Effekt:\n· Ring des Sengenden Glanzes: Verringert die VTD in der Nähe befindlicher Gegner um 20{NON_BREAK_SPACE}%.\n· Flammenreiter: Erhöht den durch Mavuikas Standardangriffe, heftige Schläge sowie den Sonnensturz-Hieb der Spezialfähigkeit <color=#FFD780FF>Stunde brennender Himmel</color> verursachten Schaden um 60/90/120{NON_BREAK_SPACE}% von Mavuikas ANG.",
+        "Description": "#Erhöht Mavuikas Basis-ANG im Nachtseelensegen-Zustand um 200 Punkte und verleiht ihr gemäß der Form der Allfeuerrüstung den entsprechenden Effekt:\n· Ring des Sengenden Glanzes: Verringert die VTD in der Nähe befindlicher Gegner um 20{NON_BREAK_SPACE}%.\n· Flammenreiter: Erhöht den durch Mavuikas Standardangriffe, heftige Schläge sowie den Sonnensturz-Hieb der Spezialfähigkeit <color=#FFD780FF>Stunde brennender Himmel</color> verursachten Schaden jeweils um 60/90/120{NON_BREAK_SPACE}% von Mavuikas ANG.",
         "Icon": "UI_Talent_S_Mavuika_02"
       },
       {
         "Id": 1063,
         "Name": "Brennende Sonne",
         "Description": "Erhöht die Stufe der Spezialfähigkeit <color=#FFD780FF>Stunde brennender Himmel</color> um 3.\nHöchststufe 15.",
-        "Icon": "UI_Talent_U_Mavuika_01"
+        "Icon": "UI_Talent_U_Mavuika_01",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
       },
       {
         "Id": 1064,
@@ -908,12 +912,16 @@
         "Id": 1065,
         "Name": "Bedeutung der Wahrheit",
         "Description": "Erhöht die Stufe der Elementarfähigkeit <color=#FFD780FF>Moment des Benennens</color> um 3.\nHöchststufe 15.",
-        "Icon": "UI_Talent_U_Mavuika_02"
+        "Icon": "UI_Talent_U_Mavuika_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
       },
       {
         "Id": 1066,
         "Name": "„Der Name der Menschheit“ entfesselt",
-        "Description": "#Verleiht der Allfeuerrüstung der Elementarfähigkeit <color=#FFD780FF>Moment des Benennens</color> umfassende Verstärkungen:\n· Ring des Sengenden Glanzes: Wenn der Angriff des Rings des Sengenden Glanzes einen Gegner trifft, stürzt ein Flammenreiter in den getroffenen Gegner und verursacht mit Nachtseelen versehenen <color=#FF9999FF>Pyro-Flächenschaden</color> in Höhe von 200{NON_BREAK_SPACE}% ANG.\n· Flammenreiter: Wenn Mavuika auf dem Flammenreiter reitet, beschwört sie außerdem den ihr fortlaufend folgenden „Ring des Sengenden Glanzes – Brennende Vision“, der die VTD der in der Nähe befindlichen Gegner um 20{NON_BREAK_SPACE}% verringert sowie ihnen alle 3{NON_BREAK_SPACE}s einmal mit Nachtseelen versehenen <color=#FF9999FF>Pyro-Flächenschaden</color> in Höhe von 500{NON_BREAK_SPACE}% ANG zufügt. Außerdem werden die Geländeüberwindungsfähigkeiten des Flammenreitermodus weiter verbessert.\n\nWenn Mavuika auf dem Flammenreiter reitet und sich nicht im Kampf befindet, erhält sie, wenn ihre Nachtseelenpunkte auf 5 Punkte fallen, 80 Nachtseelenpunkte, 15{NON_BREAK_SPACE}s Abklingzeit.",
+        "Description": "#Verleiht der Allfeuerrüstung der Elementarfähigkeit <color=#FFD780FF>Moment des Benennens</color> umfassende Verstärkungen:\n· Ring des Sengenden Glanzes: Wenn der Angriff des Rings des Sengenden Glanzes einen Gegner trifft, stürzt ein Flammenreiter in den getroffenen Gegner und verursacht mit Nachtseelen versehenen <color=#FF9999FF>Pyro-Flächenschaden</color> in Höhe von 200{NON_BREAK_SPACE}% ANG.\n· Flammenreiter: Wenn Mavuika auf dem Flammenreiter reitet, beschwört sie einen ihr fortlaufend folgenden „Ring des Sengenden Glanzes – Brennende Vision“, der die VTD der in der Nähe befindlichen Gegner um 20{NON_BREAK_SPACE}% verringert sowie ihnen alle 3{NON_BREAK_SPACE}s einmal mit Nachtseelen versehenen <color=#FF9999FF>Pyro-Flächenschaden</color> in Höhe von 500{NON_BREAK_SPACE}% ANG zufügt. Außerdem werden die Geländeüberwindungsfähigkeiten des Flammenreitermodus weiter verbessert.\n\nWenn Mavuika auf dem Flammenreiter reitet und sich nicht im Kampf befindet, erhält sie, wenn ihre Nachtseelenpunkte auf 5 Punkte fallen, 80 Nachtseelenpunkte, 15{NON_BREAK_SPACE}s Abklingzeit.",
         "Icon": "UI_Talent_S_Mavuika_04"
       }
     ]
@@ -1071,6 +1079,10 @@
       {
         "Title": "Über die sieben Archonten ...",
         "Context": "Leider weiß ich selbst weniger über sie als du, doch ich bin überzeugt, dass nur die besten Anführer ein Land so lange erhalten und weiter voranbringen können. Nachdem das Kapitel von Natlans Abwehr gegen den Abgrund nun abgeschlossen ist, beabsichtige ich, auch mit anderen Ländern stärkere Beziehungen aufzubauen und Natlan auf die kommenden Entwicklungen vorzubereiten."
+      },
+      {
+        "Title": "Über Yumemizuki Mizuki ...",
+        "Context": "Ah, sie hat einen sehr positiven Eindruck hinterlassen. Als sie zum ersten Mal in Natlan ankam, hörte ich, dass sie sich sehr für unsere heißen Quellen interessierte und einige Zeit damit verbrachte, deren Eigenschaften zu studieren. Aber es ging ihr nicht um Profit. Sie interessierte sich für ihre Rolle bei der Verbesserung der geistigen Gesundheit. Ein solch nobles Anliegen verdiente unsere Unterstützung und unseren Respekt.\nDa wir gerade dabei sind ... Stimmt es, dass der derzeitige Archon von Inazuma auch gern heiße Quellen besucht? Wenn das der Fall ist, dann habe ich einen guten Ausgangspunkt für unser nächstes Gespräch gefunden."
       },
       {
         "Title": "Ich will mehr über Mavuika erfahren I",
@@ -1276,7 +1288,7 @@
     {
       "Id": 210600,
       "Name": "Unauslöschliche Sonne",
-      "Description": "Mavuikas Kleidung. Die Sonne, die unter uns wandelt; das Licht, das jede Nacht erhellt; der Funke, der alles Feuer entfacht und uns allen Mut beschert. Dies ist ihre Strahlen, das niemals verblassen wird.",
+      "Description": "Mavuikas Kleidung. Die Sonne, die unter uns wandelt; das Licht, das jede Nacht erhellt; der Funke, der alles Feuer entfacht und uns allen Mut beschert. Dies ist ihr Strahlen, das niemals verblassen wird.",
       "IsDefault": true
     }
   ],

@@ -475,7 +475,7 @@
         },
         "Id": 11072,
         "Name": "Stella nera Albagelo",
-        "Description": "Invocando patti segreti tramandati nella sua tribù da millenni, Citlali crea uno Scudo d'opale ed evoca la Tzitzimitl d'ossidiana: Itzpapa, una creatura (stando a quel che si dice) terrificante oltre ogni dire, che infligge <color=#99FFFFFF>DAN da Cryo ad area</color> con attributo Anima della Notte.\nL'assorbimento DAN dello Scudo d'opale si basa sulla maestria elementale di Citlali, e permette di assorbire i <color=#99FFFFFF>DAN da Cryo</color> con un 250% di efficienza. Dopo aver creato lo Scudo, Citlali subisce una breve <color=#99FFFFFF>applicazione di Cryo</color>.\nDopo aver usato l'abilità, Citlali ottiene 24 punti Anima della Notte ed entra nello stato di Grazia dell'Anima della Notte.\n\n<color=#FFD780FF>Grazia dell'Anima della Notte: Citlali</color>\nQuando Itzpapa abbandona il campo, lo stato di Grazia dell'Anima della Notte di Citlali termina.\n\n<color=#FFD780FF>Itzpapa</color>\n· Itzpapa segue il personaggio.\n· Se Citlali ha almeno 50 punti Anima della Notte, Itzpapa entra nello stato di Opale ardente e consuma continuamente punti Anima della Notte per scatenare un Tifone glaciale che attacca gli avversari nella sua area d'effetto, infliggendo <color=#99FFFFFF>DAN da Cryo</color> con attributo Anima della Notte.\n· Quando i punti Anima della Notte di Citlali si esauriscono, anche lo stato di Opale ardente di Itzpapa termina.\n\n<i>Di solito, le volontà che simboleggiano stelle diverse non possono coesistere: come potrebbe il nero più profondo riflettersi nel bianco più candido?\nA ogni modo, Citlali non ha mai avuto preferenze particolari per i colori in sé, quindi la cosa è finita lì.</i>",
+        "Description": "Invocando patti segreti tramandati nella sua tribù da millenni, Citlali crea uno Scudo d'opale ed evoca la Tzitzimitl d'ossidiana: Itzpapa, una creatura (stando a quel che si dice) terrificante oltre ogni dire, che infligge <color=#99FFFFFF>DAN da Cryo ad area</color> con attributo Anima della Notte.\nL'assorbimento DAN dello Scudo d'opale si basa sulla maestria elementale di Citlali, e permette di assorbire i <color=#99FFFFFF>DAN da Cryo</color> con un 250% di efficienza. Dopo aver creato lo Scudo, Citlali subisce una breve <color=#99FFFFFF>applicazione di Cryo</color>.\nDopo aver usato l'abilità, Citlali ottiene 24 punti Anima della Notte ed entra nello stato di Grazia dell'Anima della Notte.\n\n<color=#FFD780FF>Grazia dell'Anima della Notte: Citlali</color>\nQuando Itzpapa abbandona il campo, lo stato di Grazia dell'Anima della Notte di Citlali termina.\n\n<color=#FFD780FF>Itzpapa</color>\n· Itzpapa segue il personaggio.\n· Se Citlali ha almeno 50 punti Anima della Notte, Itzpapa entra nello stato di Opale ardente e consuma continuamente punti Anima della Notte per scatenare un Tifone glaciale che segue il personaggio e attacca gli avversari nella sua area d'effetto, infliggendo <color=#99FFFFFF>DAN da Cryo</color> con attributo Anima della Notte.\n· Quando i punti Anima della Notte di Citlali si esauriscono, anche lo stato di Opale ardente di Itzpapa termina.\n\n<i>Di solito, le volontà che simboleggiano stelle diverse non possono coesistere: come potrebbe il nero più profondo riflettersi nel bianco più candido?\nA ogni modo, Citlali non ha mai avuto preferenze particolari per i colori in sé, quindi la cosa è finita lì.</i>",
         "Icon": "Skill_S_Citlali_01"
       }
     ],
@@ -759,7 +759,11 @@
         "Id": 1073,
         "Name": "Corona piumata del serpente delle nuvole",
         "Description": "Aumenta di 3 il livello di <color=#FFD780FF>Stella nera Albagelo</color>.\nIl livello di potenziamento massimo è 15.",
-        "Icon": "UI_Talent_U_Citlali_01"
+        "Icon": "UI_Talent_U_Citlali_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
       },
       {
         "Id": 1074,
@@ -771,7 +775,11 @@
         "Id": 1075,
         "Name": "Maleficio di Nemontemi",
         "Description": "Aumenta di 3 il livello di <color=#FFD780FF>Editto dello splendore intrecciato</color>.\nIl livello di potenziamento massimo è 15.",
-        "Icon": "UI_Talent_U_Citlali_02"
+        "Icon": "UI_Talent_U_Citlali_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
       },
       {
         "Id": 1076,
