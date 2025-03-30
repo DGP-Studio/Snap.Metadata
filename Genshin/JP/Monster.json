@@ -4736,6 +4736,26 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 21218,
+    "RelationshipId": 21218,
+    "Name": "深遠擬態・ベビーヴィシャップ・岩",
+    "Title": "深遠なるミミックフローラ",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21219,
+    "RelationshipId": 21219,
+    "Name": "深遠擬態・ライノ竜",
+    "Title": "深遠なるミミックフローラ",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23010101,
     "DescribeId": 30101,
     "RelationshipId": 30101,
@@ -7311,6 +7331,24 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40903,
+    "RelationshipId": 40903,
+    "Title": "プライマル構造体·探査機",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40904,
+    "RelationshipId": 40904,
+    "Title": "プライマル構造体·探査機",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
     "Name": "下級防御タワー·炎",
@@ -9589,6 +9627,51 @@
     ]
   },
   {
+    "Id": 25502401,
+    "DescribeId": 55024,
+    "RelationshipId": 55024,
+    "MonsterName": "Human_Male_Standard_Sword_Bisonsaurus_01",
+    "Name": "猛進の勇士・スマッシャー",
+    "Title": "猛進の勇士・スマッシャー",
+    "Description": "平原出身の戦士で、金色の田んぼを巡回する部族の守衛。\n刃先を使って弱点を攻撃してくる。隙を突かれないよう気をつけよう。",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放",
+      "角力相关配置"
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 25503101,
     "DescribeId": 55031,
     "RelationshipId": 55031,
@@ -9779,6 +9862,51 @@
     ]
   },
   {
+    "Id": 25504301,
+    "DescribeId": 55043,
+    "RelationshipId": 55043,
+    "MonsterName": "Human_MuscleMan_Claymore_Bisonsaurus_01",
+    "Name": "猛進の勇士・マイティガイ",
+    "Title": "猛進の勇士・マイティガイ",
+    "Description": "平原出身の戦士で、金色の田んぼを巡回する部族の守衛。\n戦士になると決めたその日から訓練に励んできた。彼が振り下ろす両手武器に対抗できる人はそうそういない。",
+    "Icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放",
+      "角力相关配置"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 25505101,
     "DescribeId": 55051,
     "RelationshipId": 55051,
@@ -9849,6 +9977,50 @@
       112106,
       112105,
       112104
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505301,
+    "DescribeId": 55053,
+    "RelationshipId": 55053,
+    "MonsterName": "Human_Male_Fat_Sword_Bisonsaurus_01",
+    "Name": "猛進の勇士・グラップラー",
+    "Title": "猛進の勇士・グラップラー",
+    "Description": "平原出身の戦士で、金色の田んぼを巡回する部族の守衛。\n「豊穣の邦」では武器を使わないで体だけで戦う格闘技が栄誉の象徴とされる。修行を積み重ねてきた戦士の逞しい腕で投げられた槍は、凄まじい威力を見せる。",
+    "Icon": "UI_MonsterIcon_Human_Fat_Sword_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
     ],
     "BaseValue": {
       "HpBase": 21.7344,
@@ -10305,6 +10477,84 @@
     ]
   },
   {
+    "Id": 25511101,
+    "DescribeId": 55111,
+    "RelationshipId": 55111,
+    "MonsterName": "Tribalwarrior_Male_Strong_Powermaul_Bisonsaurus_01",
+    "Name": "ライノ竜戦士・破空の響動",
+    "Title": "ライノ竜戦士・破空の響動",
+    "Description": "肥沃な土地に生まれ育ち、武勇が認められて竜冠を授かった逞しい戦士。\nライノ竜と暮らす「豊穣の邦」では、竜の仲間から突進しながら攻撃を仕掛けるという強力な技を学んだ戦士もおり、鈍重な武器を使う戦士の多くが当てはまる。因みに、腰をうまく使うのが技の秘訣らしい。",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25511201,
+    "DescribeId": 55112,
+    "RelationshipId": 55112,
+    "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Bisonsaurus_01",
+    "Name": "ライノ竜戦士・霊明の追縛",
+    "Title": "ライノ竜戦士・霊明の追縛",
+    "Description": "肥沃な土地に生まれ育ち、武勇が認められて竜冠を授かった逞しい戦士。\n「豊穣の邦」では、遠距離武器を扱いながらも、近接戦にも長けている戦士が多い。遠くから砲撃するよりも、間近で武器を振るう方が彼女たちの性に合っているのかもしれない。",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 55151,
     "RelationshipId": 55151,
@@ -10351,6 +10601,16 @@
     "Name": "百戦錬磨のイクトミ竜戦士・氷晶の砲手",
     "Title": "？？？",
     "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55156,
+    "RelationshipId": 55156,
+    "Name": "百戦錬磨のライノ竜戦士・霊明の追縛",
+    "Title": "？？？",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
     "Type": 0,
     "Arkhe": 0
   },
@@ -13302,7 +13562,7 @@
   {
     "Id": 26160302,
     "DescribeId": 61603,
-    "RelationshipId": 61701,
+    "RelationshipId": 61603,
     "MonsterName": "SeaHorse_Mature_01_Land",
     "Name": "鉄甲熔炎帝王",
     "Title": "鉄甲熔炎帝王",
@@ -13607,6 +13867,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62081,
+    "RelationshipId": 62081,
+    "Name": "テペトル仔竜",
+    "Title": "テペトル仔竜",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 26210101,
@@ -14076,6 +14346,97 @@
     ]
   },
   {
+    "Id": 26250101,
+    "DescribeId": 62501,
+    "RelationshipId": 62501,
+    "MonsterName": "Monster_Natsaurus_Bisonsaurus_Small_01",
+    "Name": "ライノ仔竜",
+    "Title": "ライノ仔竜",
+    "Description": "幼いライノ竜。体にみなぎる力を上手く扱いきれないため、少々不器用に見える。\n副角がまだ完全には生えきっておらず、背中と腹部の力も未だ道を阻む岩石を破壊できるほど強くはない。しかし、順調に成長すれば、いつかは肥沃な平原を自由に駆け回れるようになるだろう。",
+    "Icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.3,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26250201,
+    "DescribeId": 62502,
+    "RelationshipId": 62502,
+    "MonsterName": "Monster_Natsaurus_Bisonsaurus_Normal_01",
+    "Name": "ライノ竜",
+    "Title": "ライノ竜",
+    "Description": "火山周辺の野原を素早く駆け回る、硬い頭骨と強靭な体を持つ竜。\n言い伝えによると、ライノ竜はもともと巨大な体をしており、なんと角で山を動かせたそうだ。ただその体格のせいか、今のライノ竜ほど小回りが利かなかったらしい。今のライノ竜に備わっている強大なパワーも、その血筋によるものなのかもしれない。",
+    "Icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 43.4688,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62503,
+    "RelationshipId": 62503,
+    "Name": "百戦錬磨のライノ竜",
+    "Title": "ライノ竜",
+    "Icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Normal",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "突角龙异化深渊词缀"
+    ]
+  },
+  {
     "Id": 26260101,
     "DescribeId": 62601,
     "RelationshipId": 62601,
@@ -14360,6 +14721,55 @@
     "Arkhe": 0
   },
   {
+    "Id": 26261101,
+    "DescribeId": 62611,
+    "RelationshipId": 62611,
+    "MonsterName": "Wayob_Bisonsaurus_01",
+    "Name": "震雷・大霊の化身",
+    "Title": "震雷・大霊の化身",
+    "Description": "「豊穣の邦」の部族が信仰し崇拝している「大霊」が、トーテムと夜魂の力を借りて大地に顕現した姿。\n「豊穣の邦」の部族の伝説によると、「大霊」はかつて様々な姿に化け、顔の見えない夜明け前に部族内の強者と力比べを行い、引き分けに終わっていたという。\n「豊穣の邦」の人々はみな、自分たちの「大霊」が雷と速度を操る力を持ち、土地に豊かさをもたらすことができると信じている。",
+    "Icon": "UI_MonsterIcon_Wayob_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62612,
+    "RelationshipId": 62612,
+    "Name": "百戦錬磨の震雷・大霊の化身",
+    "Title": "震雷・大霊の化身",
+    "Icon": "UI_MonsterIcon_Wayob_Bisonsaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26270101,
     "DescribeId": 62701,
     "RelationshipId": 62701,
@@ -14440,6 +14850,127 @@
       "AttackBase": 62.8,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26270301,
+    "DescribeId": 62703,
+    "RelationshipId": 62703,
+    "MonsterName": "Monster_LavaTitan_01",
+    "Name": "輝ける溶岩の龍像",
+    "Title": "輝ける溶岩の龍像",
+    "Description": "自ら絶えず熱を生み出し、その熱で活動を維持する魔物。\n噂によると、この熔岩をコアとする魔物は、後に誕生した秘源装置とは異なる研究領域の副産物らしい。その研究テーマは、「原初の炎が人間を模倣し、新たな種族を創造することは可能か」であった。しかし、研究はもちろん失敗に終わった。天上に略奪者の聖座が訪れて以来、源火から誕生したのは形と生命力しか持たない、知性のない抜け殻のような魔物だけだったからだ。",
+    "Icon": "UI_MonsterIcon_LavaTitan",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113072,
+      104114,
+      104113,
+      104112,
+      104111,
+      400089,
+      400099,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400022,
+      400032,
+      400127,
+      400047
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62704,
+    "RelationshipId": 62704,
+    "Title": "溶岩の像·土蝕者",
+    "Icon": "UI_MonsterIcon_LavaTitan_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 26290101,
+    "DescribeId": 62901,
+    "RelationshipId": 62901,
+    "MonsterName": "Monster_VolcanoWeasel_01",
+    "Name": "マグマイタチ",
+    "Title": "マグマイタチ",
+    "Description": "外界から隔絶された特殊な燃素環境で生息しているがために、特殊な姿を持つ古代種のイタチ。\n豊富な燃素を蓄えた生物を摂取することで、背中の殻に力を蓄えることができる古代の獣。聖山の廃墟で長らく生活している間、燃素と独特な親和性を持っているからか、だんだんと聖山の廃墟にある秘源装置から影響を受けるようになった。そのため、秘源装置と互いに依存する独特な生態を持っている。",
+    "Icon": "UI_MonsterIcon_VolcanoWeasel",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112121,
+      112120,
+      112119,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 149.424,
+      "AttackBase": 82.896,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.5,
       "GrassSubHurt": 0.1,
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.1,
@@ -14558,7 +15089,7 @@
   {
     "Id": 29030101,
     "DescribeId": 0,
-    "RelationshipId": 90301,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Tartaglia",
     "Name": "「公子」",
     "Title": "ファトゥス第十一位",
@@ -14681,7 +15212,7 @@
   {
     "Id": 29050101,
     "DescribeId": 0,
-    "RelationshipId": 90501,
+    "RelationshipId": 0,
     "MonsterName": "Monster_LaSignora",
     "Name": "「淑女」",
     "Title": "ファトゥス第八位",
@@ -14737,7 +15268,7 @@
   {
     "Id": 29060201,
     "DescribeId": 0,
-    "RelationshipId": 90602,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Shougun_Mitakenarukami",
     "Name": "禍津御建鳴神命",
     "Title": "禍津御建鳴神命",
@@ -14780,7 +15311,7 @@
   {
     "Id": 29070101,
     "DescribeId": 0,
-    "RelationshipId": 90701,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Nada",
     "Name": "「正機の神」",
     "Title": "「正機の神」",
@@ -14823,7 +15354,7 @@
   {
     "Id": 29080101,
     "DescribeId": 0,
-    "RelationshipId": 90801,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Apep_Stage1",
     "Name": "アペプのオアシス守護者",
     "Title": "終末オアシスの守護者",
