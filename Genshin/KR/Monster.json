@@ -4737,6 +4737,26 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 21218,
+    "RelationshipId": 21218,
+    "Name": "그윽한 의태·새끼 바위 용 도마뱀",
+    "Title": "그윽한 의태 잎뭉치",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21219,
+    "RelationshipId": 21219,
+    "Name": "그윽한 의태·뿔룡",
+    "Title": "그윽한 의태 잎뭉치",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23010101,
     "DescribeId": 30101,
     "RelationshipId": 30101,
@@ -7312,6 +7332,24 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40903,
+    "RelationshipId": 40903,
+    "Title": "태고의 구조체·탐사기",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40904,
+    "RelationshipId": 40904,
+    "Title": "태고의 구조체·탐사기",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
     "Name": "하급 방어탑-불",
@@ -9590,6 +9628,51 @@
     ]
   },
   {
+    "Id": 25502401,
+    "DescribeId": 55024,
+    "RelationshipId": 55024,
+    "MonsterName": "Human_Male_Standard_Sword_Bisonsaurus_01",
+    "Name": "거친 용사·돌격수",
+    "Title": "거친 용사·돌격수",
+    "Description": "평원에서 온 용사이자 황금빛 들판을 순찰하는 부족의 파수꾼.\n날카로운 뿔로 적의 약점을 공격하는 데 능숙하다. 이 용사 앞에서는 절대로 약점을 보이면 안 된다",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放",
+      "角力相关配置"
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 25503101,
     "DescribeId": 55031,
     "RelationshipId": 55031,
@@ -9780,6 +9863,51 @@
     ]
   },
   {
+    "Id": 25504301,
+    "DescribeId": 55043,
+    "RelationshipId": 55043,
+    "MonsterName": "Human_MuscleMan_Claymore_Bisonsaurus_01",
+    "Name": "거친 용사·레슬러",
+    "Title": "거친 용사·레슬러",
+    "Description": "평원에서 온 용사이자 황금빛 들판을 순찰하는 부족의 파수꾼.\n전사가 되기로 결심한 순간부터 끊임없이 근력을 단련해 왔기 때문에, 양손 무기로 내리찍는 공격은 가공할 위력을 자랑한다",
+    "Icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放",
+      "角力相关配置"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 25505101,
     "DescribeId": 55051,
     "RelationshipId": 55051,
@@ -9850,6 +9978,50 @@
       112106,
       112105,
       112104
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505301,
+    "DescribeId": 55053,
+    "RelationshipId": 55053,
+    "MonsterName": "Human_Male_Fat_Sword_Bisonsaurus_01",
+    "Name": "거친 용사·그래플러",
+    "Title": "거친 용사·그래플러",
+    "Description": "평원에서 온 용사이자 황금빛 들판을 순찰하는 부족의 파수꾼.\n「비옥한 터전」에서 격투기는 일종의 명예로운 기술로 여겨진다. 이 기술을 수련하는 전사는 엄청난 힘으로 창을 던질 수 있다",
+    "Icon": "UI_MonsterIcon_Human_Fat_Sword_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
     ],
     "BaseValue": {
       "HpBase": 21.7344,
@@ -10306,6 +10478,84 @@
     ]
   },
   {
+    "Id": 25511101,
+    "DescribeId": 55111,
+    "RelationshipId": 55111,
+    "MonsterName": "Tribalwarrior_Male_Strong_Powermaul_Bisonsaurus_01",
+    "Name": "뿔룡 무사·천둥 망치",
+    "Title": "뿔룡 무사·천둥 망치",
+    "Description": "비옥한 땅에서 온 강력한 무사. 용맹함을 인정받아 용투구를 하사받았다.\n「비옥한 터전」의 전사들은 뿔룡과 함께 생활하면서 용 동료에게 돌진하며 강력한 공격을 날리는 법을 배운다고 전해진다. 이는 무거운 무기를 사용하는 전사들에게 특히 중요한데, 일설에 따르면 그 기술의 핵심은 재빠르게 허리를 비트는 것이라고 한다.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25511201,
+    "DescribeId": 55112,
+    "RelationshipId": 55112,
+    "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Bisonsaurus_01",
+    "Name": "뿔룡 무사·섬광 추격자",
+    "Title": "뿔룡 무사·섬광 추격자",
+    "Description": "비옥한 땅에서 온 강력한 무사. 용맹함을 인정받아 용투구를 하사받았다.\n「비옥한 터전」의 전사는 원거리 무기를 전문화한 인원도 탁월한 근접전 능력을 자랑한다. 어쩌면 그녀들에게는 원거리에서 대포를 쏘는 것보다 탄궁을 휘두르며 싸우는 게 더 어울리지 않을까?",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 55151,
     "RelationshipId": 55151,
@@ -10352,6 +10602,16 @@
     "Name": "노련한 명룡 무사·얼음 결정 포격수",
     "Title": "???",
     "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55156,
+    "RelationshipId": 55156,
+    "Name": "노련한 뿔룡 무사·섬광 추격자",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
     "Type": 0,
     "Arkhe": 0
   },
@@ -13303,7 +13563,7 @@
   {
     "Id": 26160302,
     "DescribeId": 61603,
-    "RelationshipId": 61701,
+    "RelationshipId": 61603,
     "MonsterName": "SeaHorse_Mature_01_Land",
     "Name": "용암철갑 제왕",
     "Title": "용암철갑 제왕",
@@ -13608,6 +13868,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62081,
+    "RelationshipId": 62081,
+    "Name": "어린 산룡",
+    "Title": "어린 산룡",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 26210101,
@@ -14077,6 +14347,97 @@
     ]
   },
   {
+    "Id": 26250101,
+    "DescribeId": 62501,
+    "RelationshipId": 62501,
+    "MonsterName": "Monster_Natsaurus_Bisonsaurus_Small_01",
+    "Name": "어린 뿔룡",
+    "Title": "어린 뿔룡",
+    "Description": "어린 뿔룡. 힘을 제어하지 못해 다소 둔하다.\n두 번째 뿔과 몸이 완전히 자라지 않아 길을 막는 바위를 부술 수 없지만, 무럭무럭 자란다면 언젠가 비옥한 평원에서 자유롭게 질주할 수 있을 것이다",
+    "Icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.3,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26250201,
+    "DescribeId": 62502,
+    "RelationshipId": 62502,
+    "MonsterName": "Monster_Natsaurus_Bisonsaurus_Normal_01",
+    "Name": "뿔룡",
+    "Title": "뿔룡",
+    "Description": "화산 평원에서 질주할 수 있는 뿔 달린 용.\n전설에 따르면, 뿔룡은 원래 뿔로 산봉우리를 옮길 수 있을 정도로 거대하며 둔했다고 한다. 어쩌면 지금의 뿔룡이 지닌 힘은 혈통에서 전해져 내려오는 것일지도 모른다",
+    "Icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 43.4688,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62503,
+    "RelationshipId": 62503,
+    "Name": "노련한 뿔룡",
+    "Title": "뿔룡",
+    "Icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Normal",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "突角龙异化深渊词缀"
+    ]
+  },
+  {
     "Id": 26260101,
     "DescribeId": 62601,
     "RelationshipId": 62601,
@@ -14361,6 +14722,55 @@
     "Arkhe": 0
   },
   {
+    "Id": 26261101,
+    "DescribeId": 62611,
+    "RelationshipId": 62611,
+    "MonsterName": "Wayob_Bisonsaurus_01",
+    "Name": "벽력·대영혼의 화신",
+    "Title": "벽력·대영혼의 화신",
+    "Description": "「비옥한 터전」 부족이 믿고 숭배하는 「대영혼」. 토템과 밤혼의 힘을 빌려 대지에 모습을 드러낸다.\n「비옥한 터전」 부족의 전설에 따르면, 어두운 새벽에 「대영혼」은 다양한 형태로 변신해 부족의 강한 전사들과 힘겨루기를 벌였지만, 대부분 승부가 나지 않았다고 한다.\n「비옥한 터전」 사람은 자신이 섬기는 「대영혼」이 천둥과 속도의 힘을 제어하며, 땅의 비옥함을 관장한다고 믿는다",
+    "Icon": "UI_MonsterIcon_Wayob_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62612,
+    "RelationshipId": 62612,
+    "Name": "노련한 벽력·대영혼의 화신",
+    "Title": "벽력·대영혼의 화신",
+    "Icon": "UI_MonsterIcon_Wayob_Bisonsaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26270101,
     "DescribeId": 62701,
     "RelationshipId": 62701,
@@ -14441,6 +14851,127 @@
       "AttackBase": 62.8,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26270301,
+    "DescribeId": 62703,
+    "RelationshipId": 62703,
+    "MonsterName": "Monster_LavaTitan_01",
+    "Name": "용암룡 형상",
+    "Title": "용암룡 형상",
+    "Description": "지속적으로 열에너지를 생성해 활동 상태를 유지하는 마물.\n용암을 핵으로 삼은 이 마물은, 뒤늦게 등장한 비밀 근원 장치와는 다른 방향의 연구에서 탄생한 부산물이라고 한다. 그 연구의 주제는 원초의 불로 인간을 모방한 새로운 종족을 창조하는 것이었으나… 결국 실패로 돌아갔다. 하늘에 있는 약탈자의 성좌가 도래한 후, 근원의 불에서 탄생한 것은 형상과 생명력을 갖췄으나 지성과 감각이 결여된 마물이었다",
+    "Icon": "UI_MonsterIcon_LavaTitan",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113072,
+      104114,
+      104113,
+      104112,
+      104111,
+      400089,
+      400099,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400022,
+      400032,
+      400127,
+      400047
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62704,
+    "RelationshipId": 62704,
+    "Title": "용암 형상·침식자",
+    "Icon": "UI_MonsterIcon_LavaTitan_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 26290101,
+    "DescribeId": 62901,
+    "RelationshipId": 62901,
+    "MonsterName": "Monster_VolcanoWeasel_01",
+    "Name": "용암 껍질 산족제비",
+    "Title": "용암 껍질 산족제비",
+    "Description": "외부 세계와 단절된 특수 열소 환경에서 서식하며 독특한 형태로 진화한 용암 껍질 산족제비.\n이 고대 짐승은 열소가 풍부한 생물을 먹고 등껍질에 힘을 축적한다. 신성한 산의 폐허에서 오랫동안 서식하며 얻은 열소 친화 체질 덕분에, 결국 그곳에 있는 비밀근원 장치와 독특한 공생 관계를 이루었다",
+    "Icon": "UI_MonsterIcon_VolcanoWeasel",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112121,
+      112120,
+      112119,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 149.424,
+      "AttackBase": 82.896,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.5,
       "GrassSubHurt": 0.1,
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.1,
@@ -14559,7 +15090,7 @@
   {
     "Id": 29030101,
     "DescribeId": 0,
-    "RelationshipId": 90301,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Tartaglia",
     "Name": "타르탈리아",
     "Title": "우인단 집행관 말석",
@@ -14682,7 +15213,7 @@
   {
     "Id": 29050101,
     "DescribeId": 0,
-    "RelationshipId": 90501,
+    "RelationshipId": 0,
     "MonsterName": "Monster_LaSignora",
     "Name": "「시뇨라」",
     "Title": "우인단 집행관 서열 8위",
@@ -14738,7 +15269,7 @@
   {
     "Id": 29060201,
     "DescribeId": 0,
-    "RelationshipId": 90602,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Shougun_Mitakenarukami",
     "Name": "마가츠 미타케 나루카미노 미코토",
     "Title": "마가츠 미타케 나루카미노 미코토",
@@ -14781,7 +15312,7 @@
   {
     "Id": 29070101,
     "DescribeId": 0,
-    "RelationshipId": 90701,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Nada",
     "Name": "「정기(正機)의 신」",
     "Title": "「정기(正機)의 신」",
@@ -14824,7 +15355,7 @@
   {
     "Id": 29080101,
     "DescribeId": 0,
-    "RelationshipId": 90801,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Apep_Stage1",
     "Name": "아펩의 오아시스 파수꾼",
     "Title": "종막 오아시스의 파수꾼",

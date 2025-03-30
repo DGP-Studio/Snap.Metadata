@@ -4737,6 +4737,26 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 21218,
+    "RelationshipId": 21218,
+    "Name": "Mimèsis obombré - Jeune Géosaure",
+    "Title": "Miméflore obombrée",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21219,
+    "RelationshipId": 21219,
+    "Name": "Mimèsis obombré - Tatankasaure",
+    "Title": "Miméflore obombrée",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23010101,
     "DescribeId": 30101,
     "RelationshipId": 30101,
@@ -7312,6 +7332,24 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40903,
+    "RelationshipId": 40903,
+    "Title": "Structure primale : Prospecteur",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40904,
+    "RelationshipId": 40904,
+    "Title": "Structure primale : Prospecteur",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
     "Name": "Tour défensive Pyro de base",
@@ -9590,6 +9628,51 @@
     ]
   },
   {
+    "Id": 25502401,
+    "DescribeId": 55024,
+    "RelationshipId": 55024,
+    "MonsterName": "Human_Male_Standard_Sword_Bisonsaurus_01",
+    "Name": "Guerrier féroce : Bélier humain",
+    "Title": "Guerrier féroce : Bélier humain",
+    "Description": "Un guerrier des plaines, mais aussi un gardien tribal qui surveille les champs dorés.\nIl se sert de ses lames ornées de cornes pour frapper les points faibles de l'ennemi. Faites attention à ce qu'il ne découvre pas les vôtres.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放",
+      "角力相关配置"
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 25503101,
     "DescribeId": 55031,
     "RelationshipId": 55031,
@@ -9780,6 +9863,51 @@
     ]
   },
   {
+    "Id": 25504301,
+    "DescribeId": 55043,
+    "RelationshipId": 55043,
+    "MonsterName": "Human_MuscleMan_Claymore_Bisonsaurus_01",
+    "Name": "Guerrier féroce : Jouteur",
+    "Title": "Guerrier féroce : Jouteur",
+    "Description": "Un guerrier des plaines, mais aussi un gardien tribal qui surveille les champs dorés.\nIl s'est entraîné sans relâche depuis le moment où il a pris la décision de devenir un guerrier. Lorsqu'il abat son épée qu'il tient de ses deux mains pour asséner un coup puissant, une personne ordinaire ne peut résister à la force pure qui s'en dégage.",
+    "Icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放",
+      "角力相关配置"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 25505101,
     "DescribeId": 55051,
     "RelationshipId": 55051,
@@ -9850,6 +9978,50 @@
       112106,
       112105,
       112104
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505301,
+    "DescribeId": 55053,
+    "RelationshipId": 55053,
+    "MonsterName": "Human_Male_Fat_Sword_Bisonsaurus_01",
+    "Name": "Guerrier féroce : Lutteur",
+    "Title": "Guerrier féroce : Lutteur",
+    "Description": "Un guerrier des plaines, mais aussi un gardien tribal qui surveille les champs dorés.\nLe combat à mains nues est considéré comme très honorable au sein du Collectif de l'abondance. Les guerriers qui choisissent de se consacrer à cet art doivent avoir la force de lancer un javelot à une distance de mille mètres.",
+    "Icon": "UI_MonsterIcon_Human_Fat_Sword_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
     ],
     "BaseValue": {
       "HpBase": 21.7344,
@@ -10306,6 +10478,84 @@
     ]
   },
   {
+    "Id": 25511101,
+    "DescribeId": 55111,
+    "RelationshipId": 55111,
+    "MonsterName": "Tribalwarrior_Male_Strong_Powermaul_Bisonsaurus_01",
+    "Name": "Guerrier tatankasaure : Gronde-ciel",
+    "Title": "Guerrier tatankasaure : Gronde-ciel",
+    "Description": "Un puissant guerrier venant d'une terre d'abondance, dont la bravoure a été reconnue et qui lui permet de revêtir la couronne saurienne.\nIl est dit que les guerriers du Collectif de l'abondance aiment infliger des coups puissants en fonçant sur leurs ennemis, comme les tatankasaures avec qui ils partagent leurs terres. Cela est particulièrement vrai pour les guerriers maniant des armes lourdes. Ces derniers estiment que le secret d'une frappe réussie est de faire un mouvement de rotation des hanches.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25511201,
+    "DescribeId": 55112,
+    "RelationshipId": 55112,
+    "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Bisonsaurus_01",
+    "Name": "Guerrière tatankasaure : Chasse-lumière",
+    "Title": "Guerrière tatankasaure : Chasse-lumière",
+    "Description": "Une puissante guerrière venant d'une terre d'abondance, dont la bravoure a été reconnue et qui lui permet de revêtir la couronne saurienne.\nAu sein du Collectif de l'abondance, les guerriers qui se sont entraînés d'arrache-pied à manier des armes à longue portée sont tout de même connus pour leur habileté au combat rapproché. Peut-être qu'ils pensent qu'il est plus efficace de frapper leurs ennemis directement avec leurs armes que tirer des projectiles avec ?",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 55151,
     "RelationshipId": 55151,
@@ -10352,6 +10602,16 @@
     "Name": "Guerrière iktomisaure vétérane : Canon cryocristallin",
     "Title": "???",
     "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55156,
+    "RelationshipId": 55156,
+    "Name": "Guerrière tatankasaure vétérane : Chasse-lumière",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
     "Type": 0,
     "Arkhe": 0
   },
@@ -13303,7 +13563,7 @@
   {
     "Id": 26160302,
     "DescribeId": 61603,
-    "RelationshipId": 61701,
+    "RelationshipId": 61603,
     "MonsterName": "SeaHorse_Mature_01_Land",
     "Name": "Empereur du feu ferreux",
     "Title": "Empereur du feu ferreux",
@@ -13608,6 +13868,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62081,
+    "RelationshipId": 62081,
+    "Name": "Jeune tepetlisaure",
+    "Title": "Jeune tepetlisaure",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 26210101,
@@ -14077,6 +14347,97 @@
     ]
   },
   {
+    "Id": 26250101,
+    "DescribeId": 62501,
+    "RelationshipId": 62501,
+    "MonsterName": "Monster_Natsaurus_Bisonsaurus_Small_01",
+    "Name": "Jeune tatankasaure",
+    "Title": "Jeune tatankasaure",
+    "Description": "Un jeune tatankasaure qui n'a pas encore la maîtrise totale de son imposante carrure, ce qui rend ses mouvements maladroits.\nSa deuxième paire de cornes n'ayant pas encore poussé, son dos et son tronc ne sont donc pas encore suffisamment durs pour briser les rochers qui lui barrent le chemin. En lui laissant le temps de grandir, il lui sera possible de parcourir librement les plaines fertiles un jour.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.3,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26250201,
+    "DescribeId": 62502,
+    "RelationshipId": 62502,
+    "MonsterName": "Monster_Natsaurus_Bisonsaurus_Normal_01",
+    "Name": "Tatankasaure",
+    "Title": "Tatankasaure",
+    "Description": "Un saurien à la crête osseuse et rigide, doté d'une grande force physique qui lui permet de se déplacer à grande vitesse sur les étendues proches des volcans.\nD'après la légende, les ancêtres des tatankasaures étaient si grands qu'ils pouvaient déplacer des montagnes grâce à leurs cornes, mais ils n'avaient pas l'agilité de leurs descendants qui sont de taille plus petite. La puissance que les tatankasaures possèdent encore aujourd'hui serait peut-être un don de leur lignée.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 43.4688,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62503,
+    "RelationshipId": 62503,
+    "Name": "Tatankasaure vétéran",
+    "Title": "Tatankasaure",
+    "Icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Normal",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "突角龙异化深渊词缀"
+    ]
+  },
+  {
     "Id": 26260101,
     "DescribeId": 62601,
     "RelationshipId": 62601,
@@ -14361,6 +14722,55 @@
     "Arkhe": 0
   },
   {
+    "Id": 26261101,
+    "DescribeId": 62611,
+    "RelationshipId": 62611,
+    "MonsterName": "Wayob_Bisonsaurus_01",
+    "Name": "Manifestation tonitruante de Wayob",
+    "Title": "Manifestation tonitruante de Wayob",
+    "Description": "Les membres du Collectif de l'abondance vénèrent la Wayob, qui se manifeste sur la terre grâce au pouvoir des totems et des noctâmes.\nLa légende de la tribu raconte que la Wayob a pris d'innombrables formes différentes. Dans l'obscurité qui précède l'aube, quand les visages sont cachés dans l'ombre, elle affrontait les guerriers les plus puissants de la tribu lors de matchs de lutte, sans que personne l'emporte. Les membres du Collectif de l'abondance pensent que leur Wayob possède le pouvoir de contrôler le tonnerre et la vitesse, ainsi que d'accorder d'abondantes récoltes aux terres.",
+    "Icon": "UI_MonsterIcon_Wayob_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62612,
+    "RelationshipId": 62612,
+    "Name": "Manifestation tonitruante vétérane de Wayob",
+    "Title": "Manifestation tonitruante de Wayob",
+    "Icon": "UI_MonsterIcon_Wayob_Bisonsaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26270101,
     "DescribeId": 62701,
     "RelationshipId": 62701,
@@ -14441,6 +14851,127 @@
       "AttackBase": 62.8,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26270301,
+    "DescribeId": 62703,
+    "RelationshipId": 62703,
+    "MonsterName": "Monster_LavaTitan_01",
+    "Name": "Statue de dragon de lave",
+    "Title": "Statue de dragon de lave",
+    "Description": "Un monstre qui peut générer de la chaleur en continu pour se maintenir en activité.\nSelon les légendes, les monstres au noyau de lave seraient issus d'une recherche orientée dans une différente direction que celle des mécanismes de source secrète qui les ont suivis. Cette recherche avait pour objectif de déterminer si le feu primal pouvait servir à la création d'une nouvelle race basée sur les humains. Celle-ci s'avéra être un échec. Lorsque les bandits venus du ciel arrivèrent avec leur trône, tout ce que le feu primal put faire naître était des coquilles vides dont la force vitale innée ne leur accordait pas plus de conscience qu'un caillou.",
+    "Icon": "UI_MonsterIcon_LavaTitan",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113072,
+      104114,
+      104113,
+      104112,
+      104111,
+      400089,
+      400099,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400022,
+      400032,
+      400127,
+      400047
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62704,
+    "RelationshipId": 62704,
+    "Title": "Avatar érodant de lave",
+    "Icon": "UI_MonsterIcon_LavaTitan_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 26290101,
+    "DescribeId": 62901,
+    "RelationshipId": 62901,
+    "MonsterName": "Monster_VolcanoWeasel_01",
+    "Name": "Belette des montagnes à coquille fournaise",
+    "Title": "Belette des montagnes à coquille fournaise",
+    "Description": "Une variante ancienne de la belette des montagnes qui s'est adaptée à un environnement unique : riche en phlogistique et isolé du monde extérieur.\nEn consommant la faune riche gorgée de phlogistique, cette espèce accumule de l'énergie dans sa carapace. Après une existence prolongée dans les ruines de la Montagne sacrée, son affinité pour le phlogistique a développé une influence aux mécanismes de source secrète dans les ruines, ce qui a fait naître une relation symbiotique unique entre eux.",
+    "Icon": "UI_MonsterIcon_VolcanoWeasel",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112121,
+      112120,
+      112119,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 149.424,
+      "AttackBase": 82.896,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.5,
       "GrassSubHurt": 0.1,
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.1,
@@ -14559,7 +15090,7 @@
   {
     "Id": 29030101,
     "DescribeId": 0,
-    "RelationshipId": 90301,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Tartaglia",
     "Name": "Tartaglia",
     "Title": "11e Exécuteur des Fatui",
@@ -14682,7 +15213,7 @@
   {
     "Id": 29050101,
     "DescribeId": 0,
-    "RelationshipId": 90501,
+    "RelationshipId": 0,
     "MonsterName": "Monster_LaSignora",
     "Name": "Signora",
     "Title": "8e Exécutrice des Fatui",
@@ -14738,7 +15269,7 @@
   {
     "Id": 29060201,
     "DescribeId": 0,
-    "RelationshipId": 90602,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Shougun_Mitakenarukami",
     "Name": "Narukami no Mikoto la destructrice",
     "Title": "Narukami no Mikoto la destructrice",
@@ -14781,7 +15312,7 @@
   {
     "Id": 29070101,
     "DescribeId": 0,
-    "RelationshipId": 90701,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Nada",
     "Name": "Shouki no Kami, le prodige",
     "Title": "Shouki no Kami, le prodige",
@@ -14824,7 +15355,7 @@
   {
     "Id": 29080101,
     "DescribeId": 0,
-    "RelationshipId": 90801,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Apep_Stage1",
     "Name": "Garde de l'oasis d'Apep",
     "Title": "Garde de l'oasis ultime",

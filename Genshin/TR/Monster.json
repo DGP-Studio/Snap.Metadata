@@ -4737,6 +4737,26 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 21218,
+    "RelationshipId": 21218,
+    "Name": "Karanlık Taklit Çiçeği: Toprak Ejderi Yavrusu",
+    "Title": "Karanlık Taklit Çiçeği",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21219,
+    "RelationshipId": 21219,
+    "Name": "Karanlık Taklit Çiçeği: Tatankazor",
+    "Title": "Karanlık Taklit Çiçeği",
+    "Icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23010101,
     "DescribeId": 30101,
     "RelationshipId": 30101,
@@ -7312,6 +7332,24 @@
   },
   {
     "Id": 0,
+    "DescribeId": 40903,
+    "RelationshipId": 40903,
+    "Title": "Kadim Yapı: Arayıcı",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 40904,
+    "RelationshipId": 40904,
+    "Title": "Kadim Yapı: Arayıcı",
+    "Icon": "UI_MonsterIcon_DragonClaw",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
     "Name": "Temel Savunma Ateş Kulesi",
@@ -9590,6 +9628,51 @@
     ]
   },
   {
+    "Id": 25502401,
+    "DescribeId": 55024,
+    "RelationshipId": 55024,
+    "MonsterName": "Human_Male_Standard_Sword_Bisonsaurus_01",
+    "Name": "Vahşi Savaşçı: İnsan Koçbaşı",
+    "Title": "Vahşi Savaşçı: İnsan Koçbaşı",
+    "Description": "Ovaların savaşçısı ve altın tarlaları koruyan kabile muhafızı.\nBoynuzlu bıçaklarıyla düşmanlarının zayıf noktalarına vurma konusunda ustadır. Sakın senin zayıflıklarını sezmesine izin verme.",
+    "Icon": "UI_MonsterIcon_Human_Male_Sword_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放",
+      "角力相关配置"
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 25503101,
     "DescribeId": 55031,
     "RelationshipId": 55031,
@@ -9780,6 +9863,51 @@
     ]
   },
   {
+    "Id": 25504301,
+    "DescribeId": 55043,
+    "RelationshipId": 55043,
+    "MonsterName": "Human_MuscleMan_Claymore_Bisonsaurus_01",
+    "Name": "Vahşi Savaşçı: Güreşçi",
+    "Title": "Vahşi Savaşçı: Güreşçi",
+    "Description": "Ovaların savaşçısı ve altın tarlaları koruyan kabile muhafızı.\nSavaşçı olmaya karar verdikleri andan itibaren yılmadan güçlerini geliştirdiler. Çift elli silahlarıyla güçlü bir darbe vurduklarında ortaya çıkan muazzam kuvvete sıradan bir insanın karşı koyması mümkün değildir.",
+    "Icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "用于对攻击Type和特效配置进行区分",
+      "战前喷漆手中的Item颜色",
+      "影响部落特殊技的施放",
+      "角力相关配置"
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 25505101,
     "DescribeId": 55051,
     "RelationshipId": 55051,
@@ -9850,6 +9978,50 @@
       112106,
       112105,
       112104
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25505301,
+    "DescribeId": 55053,
+    "RelationshipId": 55053,
+    "MonsterName": "Human_Male_Fat_Sword_Bisonsaurus_01",
+    "Name": "Vahşi Savaşçı: Kündeci",
+    "Title": "Vahşi Savaşçı: Kündeci",
+    "Description": "Ovaların savaşçısı ve altın tarlaları koruyan kabile muhafızı.\nSilahsız dövüş sanatı, Bereket Kolektifi halkı arasında büyük saygı görür. Bu sanat için uzun bir eğitim yolculuğuna çıkan savaşçılar bin metre uzağa mızrak fırlatabilecek güce sahip olmalıdır.",
+    "Icon": "UI_MonsterIcon_Human_Fat_Sword_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "影响部落特殊技的施放",
+      "控制投枪手中特效与Bullet",
+      "战前喷漆手中的Item颜色"
     ],
     "BaseValue": {
       "HpBase": 21.7344,
@@ -10306,6 +10478,84 @@
     ]
   },
   {
+    "Id": 25511101,
+    "DescribeId": 55111,
+    "RelationshipId": 55111,
+    "MonsterName": "Tribalwarrior_Male_Strong_Powermaul_Bisonsaurus_01",
+    "Name": "Tatankazor Savaşçısı: Gökkıran",
+    "Title": "Tatankazor Savaşçısı: Gökkıran",
+    "Description": "Bereketli topraklardan gelen, cesareti takdir görmüş ve bu nedenle Sürüngen Tacı takmaya layık görülen güçlü bir savaşçı.\nBereket Kolektifi savaşçılarının, tıpkı aynı yurdu paylaştıkları Tatankazorlar gibi düşmanlarına doğru atılırken güçlü darbeler indirmeyi sevdikleri söylenir. Bu, özellikle ağır silahlar kullanan savaşçılar için geçerlidir ve başarılı bir vuruşun sırrının kalçalardan güç almak olduğunu iddia ederler.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 25511201,
+    "DescribeId": 55112,
+    "RelationshipId": 55112,
+    "MonsterName": "Tribalwarrior_Female_Slim_Slingshot_Bisonsaurus_01",
+    "Name": "Tatankazor Savaşçısı: Ruh Işığı Avcısı",
+    "Title": "Tatankazor Savaşçısı: Ruh Işığı Avcısı",
+    "Description": "Bereketli topraklardan gelen, cesareti takdir görmüş ve bu nedenle Sürüngen Tacı takmaya layık görülen güçlü bir savaşçı.\nBereket Kolektifinde uzun menzilli silah kullanmak için titizlikle eğitim almış savaşçıların bile yakın dövüşte yetenekli oldukları bilinir. Belki de onlara göre menzilli silahları yakın dövüşte kullanmak daha uygundur.",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 55151,
     "RelationshipId": 55151,
@@ -10352,6 +10602,16 @@
     "Name": "Savaş Uzmanı Iktomizor Savaşçısı: Buz Kristali Topu",
     "Title": "???",
     "Icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 55156,
+    "RelationshipId": 55156,
+    "Name": "Kıdemli Tatankazor Savaşçısı: Ruh Işığı Avcısı",
+    "Title": "???",
+    "Icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
     "Type": 0,
     "Arkhe": 0
   },
@@ -13303,7 +13563,7 @@
   {
     "Id": 26160302,
     "DescribeId": 61603,
-    "RelationshipId": 61701,
+    "RelationshipId": 61603,
     "MonsterName": "SeaHorse_Mature_01_Land",
     "Name": "Ateş ve Demir İmparatoru",
     "Title": "Ateş ve Demir İmparatoru",
@@ -13608,6 +13868,16 @@
         "Value": 12
       }
     ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62081,
+    "RelationshipId": 62081,
+    "Name": "Yavru Tepetlizor",
+    "Title": "Yavru Tepetlizor",
+    "Icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "Type": 0,
+    "Arkhe": 0
   },
   {
     "Id": 26210101,
@@ -14077,6 +14347,97 @@
     ]
   },
   {
+    "Id": 26250101,
+    "DescribeId": 62501,
+    "RelationshipId": 62501,
+    "MonsterName": "Monster_Natsaurus_Bisonsaurus_Small_01",
+    "Name": "Genç Tatankazor",
+    "Title": "Genç Tatankazor",
+    "Description": "Vücut hakimiyetini henüz sağlayamamış, dolayısıyla sakar hareketlere sahip genç bir Tatankazor.\nİkinci boynuz seti gelişim halindedir ve sırtı ile burnu, yolu kapatan kayaları ezecek güçte değildir. Büyüdüğünde bereketli ovalarda özgürce dolaşabilecek.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Small",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.3,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26250201,
+    "DescribeId": 62502,
+    "RelationshipId": 62502,
+    "MonsterName": "Monster_Natsaurus_Bisonsaurus_Normal_01",
+    "Name": "Tatankazor",
+    "Title": "Tatankazor",
+    "Description": "Sert ve kemiksi bir sorguca sahip, volkanik arazilerde hızla hareket eden bir Sürüngen.\nEfsaneye göre, Tatankazorların ataları o kadar büyüktü ki boynuzlarıyla dağları itebilirlerdi ancak günümüzdeki daha küçük Sürüngenlerin çevikliğine de sahip değillerdi. Kim bilir, belki de Tatankazorların gücü atalarından geliyordur.",
+    "Icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Normal",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 43.4688,
+      "AttackBase": 45.216,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62503,
+    "RelationshipId": 62503,
+    "Name": "Savaş Uzmanı Tatankazor",
+    "Title": "Tatankazor",
+    "Icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Normal",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "突角龙异化深渊词缀"
+    ]
+  },
+  {
     "Id": 26260101,
     "DescribeId": 62601,
     "RelationshipId": 62601,
@@ -14361,6 +14722,55 @@
     "Arkhe": 0
   },
   {
+    "Id": 26261101,
+    "DescribeId": 62611,
+    "RelationshipId": 62611,
+    "MonsterName": "Wayob_Bisonsaurus_01",
+    "Name": "Gürleyen Wayob Tezahürü",
+    "Title": "Gürleyen Wayob Tezahürü",
+    "Description": "Bereket Kolektifi, Wayob'a inanır ve ona tapar. Wayob, totemlerin ve Gece Ruhlarının kudretiyle bu topraklarda tezahür eder.\nKabile efsanelerine göre Wayob'un sayısız sureti vardır. Şafağın henüz sökmediği, yüzlerin gölgelerde kaybolduğu o puslu karanlıkta Wayob, kabilelerin en güçlü savaşçılarıyla güreşirdi fakat iki taraf da üstünlük sağlayamazdı. Bereket Kolektifi, Wayob'un gök gürültüsünü ve hızı kontrol edebildiğine, topraklara bereketli hasatlar bahşedebileceğine inanır.",
+    "Icon": "UI_MonsterIcon_Wayob_Bisonsaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62612,
+    "RelationshipId": 62612,
+    "Name": "Savaş Uzmanı Gürleyen Wayob Tezahürü",
+    "Title": "Gürleyen Wayob Tezahürü",
+    "Icon": "UI_MonsterIcon_Wayob_Bisonsaurus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26270101,
     "DescribeId": 62701,
     "RelationshipId": 62701,
@@ -14441,6 +14851,127 @@
       "AttackBase": 62.8,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26270301,
+    "DescribeId": 62703,
+    "RelationshipId": 62703,
+    "MonsterName": "Monster_LavaTitan_01",
+    "Name": "Lav Ejderhası Heykeli",
+    "Title": "Lav Ejderhası Heykeli",
+    "Description": "Hareket etmeyi sürdürebilmek için durmaksızın ısı üreten bir canavar.\nEfsaneye göre içinde lav taşıyan bu canavarlar, Gizli Kaynak Mekanizmalarını takip eden farklı bir araştırmanın ürünüdür. Araştırmanın amacı ise kadim ateşin, insan ırkından yeni bir tür yaratmak için kullanılıp kullanılamayacağını anlamaktı fakat ne yazık ki bu çabalar sonuçsuz kaldı. Çünkü yağmacı, göklerin ötesinden getirdiği tahtıyla indiğinde o kadim ateşten artakalan sadece içi boş kabuklar oldu. Ve o kabukların taşıdığı sözde yaşam gücü, ona bir taştan daha fazla bilinç bile bahşetmeye yetmedi.",
+    "Icon": "UI_MonsterIcon_LavaTitan",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113072,
+      104114,
+      104113,
+      104112,
+      104111,
+      400089,
+      400099,
+      400088,
+      400098,
+      400023,
+      400033,
+      400128,
+      400022,
+      400032,
+      400127,
+      400047
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 62704,
+    "RelationshipId": 62704,
+    "Title": "Aşınan Lav Avatarı",
+    "Icon": "UI_MonsterIcon_LavaTitan_01",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 26290101,
+    "DescribeId": 62901,
+    "RelationshipId": 62901,
+    "MonsterName": "Monster_VolcanoWeasel_01",
+    "Name": "Kor Çekirdekli Dağ Gelinciği",
+    "Title": "Kor Çekirdekli Dağ Gelinciği",
+    "Description": "Dünyadan izole kalıp Filojiston açısından zengin ortama uyum sağlamış kadim bir dağ gelinciği türü.\nBu tür, Filojiston açısından zengin canlıları tüketerek gücünü çekirdeğinde biriktirir. Kutsal Dağ'ın harabelerinde uzun süre varlığını sürdürdükten sonra, Filojistona olan yakınlığı, harabelerin içindeki Gizli Kaynak Mekanizmalarından etkilenmesine neden olmuş ve aralarında benzersiz bir ortak yaşam ilişkisi doğurmuştur.",
+    "Icon": "UI_MonsterIcon_VolcanoWeasel",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112121,
+      112120,
+      112119,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 149.424,
+      "AttackBase": 82.896,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.5,
       "GrassSubHurt": 0.1,
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.1,
@@ -14559,7 +15090,7 @@
   {
     "Id": 29030101,
     "DescribeId": 0,
-    "RelationshipId": 90301,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Tartaglia",
     "Name": "Asilzade",
     "Title": "Fatui Habercilerinin On Birincisi",
@@ -14682,7 +15213,7 @@
   {
     "Id": 29050101,
     "DescribeId": 0,
-    "RelationshipId": 90501,
+    "RelationshipId": 0,
     "MonsterName": "Monster_LaSignora",
     "Name": "Sinyora",
     "Title": "Fatui Habercilerinin Sekizincisi",
@@ -14738,7 +15269,7 @@
   {
     "Id": 29060201,
     "DescribeId": 0,
-    "RelationshipId": 90602,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Shougun_Mitakenarukami",
     "Name": "Magatsu Mitake Narukami no Mikoto",
     "Title": "Magatsu Mitake Narukami no Mikoto",
@@ -14781,7 +15312,7 @@
   {
     "Id": 29070101,
     "DescribeId": 0,
-    "RelationshipId": 90701,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Nada",
     "Name": "Shouki no Kami",
     "Title": "Shouki no Kami",
@@ -14824,7 +15355,7 @@
   {
     "Id": 29080101,
     "DescribeId": 0,
-    "RelationshipId": 90801,
+    "RelationshipId": 0,
     "MonsterName": "Monster_Apep_Stage1",
     "Name": "Apep Vahası'nın Muhafızı",
     "Title": "Son Vaha'nın Bekçisi",
