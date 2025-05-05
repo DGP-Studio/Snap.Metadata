@@ -7349,6 +7349,66 @@
     "Arkhe": 0
   },
   {
+    "Id": 24090501,
+    "DescribeId": 40905,
+    "RelationshipId": 40905,
+    "MonsterName": "DragonCollar",
+    "Name": "비밀근원 기계·통솔기",
+    "Title": "비밀근원 기계·통솔기",
+    "Description": "고대 유적의 통솔 장치.\n위대한 고대 종족은 거대한 도시를 유지하기 위해 열소로 만든 지혜에 일부 권능을 부여했고, 이러한 지혜들은 맡겨진 사명에 따라 각종 장치로 수많은 지상 도시의 운영을 통솔했다. 그러나 고대 문명은 새로운 종족과의 전쟁으로 멸망했고, 위대한 지혜를 탑재했던 통솔 장치에는 이제 가장 단순한 명령만이 남아 있을 뿐이다",
+    "Icon": "UI_MonsterIcon_DragonCollar",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113076,
+      104124,
+      104123,
+      104122,
+      104121,
+      400089,
+      400099,
+      400088,
+      400098,
+      400023,
+      400043,
+      400133,
+      400022,
+      400042,
+      400132,
+      400047
+    ],
+    "BaseValue": {
+      "HpBase": 293.4144,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
@@ -7453,6 +7513,16 @@
     "DescribeId": 48111,
     "RelationshipId": 48111,
     "Name": "방어탑-물리",
+    "Title": "태고의 구조체·역장 발생기",
+    "Icon": "UI_MonsterIcon_Monolith_Ordinator",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 48112,
+    "RelationshipId": 48112,
+    "Name": "거점 보호 (5.6 모의전) (방어)",
     "Title": "태고의 구조체·역장 발생기",
     "Icon": "UI_MonsterIcon_Monolith_Ordinator",
     "Type": 0,
@@ -15564,5 +15634,84 @@
     "Icon": "UI_MonsterIcon_TheAbyssXiuhcoatl",
     "Type": 0,
     "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 91201,
+    "RelationshipId": 91201,
+    "Name": "「체스」·킹",
+    "Title": "「체스」·킹",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 91202,
+    "RelationshipId": 91202,
+    "Name": "「체스」·퀸",
+    "Title": "「체스」·퀸",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 91211,
+    "RelationshipId": 91211,
+    "Name": "승격한 킹",
+    "Title": "승격한 킹",
+    "Icon": "UI_MonsterIcon_GiantChess_King",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 91212,
+    "RelationshipId": 91212,
+    "Name": "승화한 퀸",
+    "Title": "승화한 퀸",
+    "Icon": "UI_MonsterIcon_GiantChess_Queen",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 29122000,
+    "DescribeId": 91220,
+    "RelationshipId": 91220,
+    "MonsterName": "Monster_GiantChess_DummyMonster",
+    "Name": "문 앞의 체스 매치",
+    "Title": "우인단 집행관 서열 8위",
+    "Description": "마녀회의 기술을 결집해 만든 군단.\n기존 기술로 만들어졌기에 우주의 근본을 이루는 심오한 지혜에 비하면 한참 부족하다. 하지만 그럼에도 문 앞을 지키는 최후의 보루이자 일종의 은유가 되었다.\n이 세상에는 규칙이 있을지 모르나, 문을 넘어서는 순간 모든 구속은 사라진다",
+    "Icon": "UI_MonsterIcon_GiantChess",
+    "Type": 2,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 679.2,
+      "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.7,
+      "ElecSubHurt": 0.7,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
   }
 ]

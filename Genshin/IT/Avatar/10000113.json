@@ -1,0 +1,1054 @@
+{
+  "Id": 10000113,
+  "PromoteId": 113,
+  "Sort": 97,
+  "Body": 4,
+  "Icon": "UI_AvatarIcon_Ifa",
+  "SideIcon": "UI_AvatarIcon_Side_Ifa",
+  "Name": "Ifa",
+  "Description": "Un veterinario del Clan Piumafiore che conduce una vita in armonia con gli esseri viventi, dalle persone agli animali.",
+  "BeginTime": "2025-05-06T00:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 845.2303,
+    "AttackBase": 14.95872,
+    "DefenseBase": 50.758575
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 11331,
+        "Proud": {
+          "Descriptions": [
+            "DAN da 1º colpo|{param1:F1P}",
+            "DAN da 2º colpo|{param2:F1P}",
+            "DAN da 3º colpo|{param3:F1P}",
+            "DAN da ATT caricato|{param4:F1P}",
+            "Costo vigore ATT caricato|{param5:F1}",
+            "DAN da ATT in picchiata|{param6:F1P}",
+            "DAN da ATT in picchiata basso/alto|{param7:P}/{param8:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.536072,
+                0.474672,
+                0.747584,
+                1.4704,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.576277,
+                0.510272,
+                0.803653,
+                1.58068,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.616483,
+                0.545873,
+                0.859722,
+                1.69096,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.67009,
+                0.59334,
+                0.93448,
+                1.838,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.710295,
+                0.62894,
+                0.990549,
+                1.94828,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.750501,
+                0.664541,
+                1.046618,
+                2.05856,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.804108,
+                0.712008,
+                1.121376,
+                2.2056,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.857715,
+                0.759475,
+                1.196134,
+                2.35264,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.911322,
+                0.806942,
+                1.270893,
+                2.49968,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.96493,
+                0.85441,
+                1.345651,
+                2.64672,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.018537,
+                0.901877,
+                1.42041,
+                2.79376,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.072144,
+                0.949344,
+                1.495168,
+                2.9408,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.139153,
+                1.008678,
+                1.588616,
+                3.1246,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.206162,
+                1.068012,
+                1.682064,
+                3.3084,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.273171,
+                1.127346,
+                1.775512,
+                3.4922,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 11131,
+        "Name": "Rito disperdiventi",
+        "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 3 attacchi, infliggendo <color=#80FFD7FF>DAN da Anemo</color>.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore e spara un colpo che infligge <color=#80FFD7FF>DAN da Anemo ad area</color>.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nSi scaglia contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria. Infligge <color=#80FFD7FF>DAN da Anemo ad area</color> all'impatto.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 11332,
+        "Proud": {
+          "Descriptions": [
+            "DAN da Colpo rinvigorente|{param1:F1P}",
+            "Guarigione da impatto Colpo rinvigorente|{param2:F1P} maestria elementale+{param3:F1}",
+            "Limite punti Anima della Notte|{param4:F1}",
+            "#TdR|{param5:F1}{NON_BREAK_SPACE}s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                1.3336,
+                0.2016,
+                48.14847,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                1.43362,
+                0.21672,
+                52.96399,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                1.53364,
+                0.23184,
+                58.180798,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                1.667,
+                0.252,
+                63.7989,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                1.76702,
+                0.26712,
+                69.8183,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                1.86704,
+                0.28224,
+                76.23898,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                2.0004,
+                0.3024,
+                83.06097,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                2.13376,
+                0.32256,
+                90.28424,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                2.26712,
+                0.34272,
+                97.908806,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                2.40048,
+                0.36288,
+                105.93467,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                2.53384,
+                0.38304,
+                114.361824,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                2.6672,
+                0.4032,
+                123.19027,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                2.8339,
+                0.4284,
+                132.42001,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                3.0006,
+                0.4536,
+                142.05104,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                3.1673,
+                0.4788,
+                152.08337,
+                80,
+                7.5
+              ]
+            }
+          ]
+        },
+        "Id": 11132,
+        "Name": "Prevenzione delle malattie trasmesse per via aerea",
+        "Description": "La coppia esplosiva entra finalmente in azione! Ifa chiama Cacucu a dargli manforte.\nDopo aver usato l'abilità, Ifa ottiene 80 punti Anima della Notte ed entra nello {LINK#N11130003}<color=#FFD780FF>stato di Grazia dell'Anima della Notte</color>{/LINK}, che gli permette di librarsi in aria con l'aiuto di Cacucu. Quando sferra attacchi normali in questo stato, usa diversi tipi di {LINK#N11130001}<color=#FFD780FF>Fuoco di supporto</color>{/LINK} in base alla durata della pressione, sparando dei Colpi rinvigorenti in grado di ripristinare PS di tutti i membri del gruppo.\n\nInoltre, quando è nello stato di Grazia dell'Anima della Notte, la pressione prolungata dell'abilità elementale <color=#FFD780FF>Prevenzione delle malattie trasmesse per via aerea</color> permette a Ifa di eseguire un attacco in picchiata con attributo Anima della Notte. Interrompere la pressione dell'abilità interrompe a sua volta l'attacco in picchiata, permettendo a Ifa di rimanere a mezz'aria. Se l'attacco in picchiata colpisce il suolo, lo stato di Grazia dell'Anima della Notte di Ifa termina.",
+        "Icon": "Skill_S_Ifa_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 11339,
+      "Proud": {
+        "Descriptions": [
+          "DAN da abilità|{param1:F1P}",
+          "DAN da Marchio di sedazione|{param2:F1P}",
+          "#TdR|{param3:F1}{NON_BREAK_SPACE}s",
+          "Costo energia|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              5.0848,
+              1.0896,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              5.46616,
+              1.17132,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              5.84752,
+              1.25304,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              6.356,
+              1.362,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              6.73736,
+              1.44372,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              7.11872,
+              1.52544,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              7.6272,
+              1.6344,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              8.13568,
+              1.74336,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              8.64416,
+              1.85232,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              9.15264,
+              1.96128,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              9.66112,
+              2.07024,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              10.1696,
+              2.1792,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              10.8052,
+              2.3154,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              11.4408,
+              2.4516,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              12.0764,
+              2.5878,
+              15,
+              60
+            ]
+          }
+        ]
+      },
+      "Id": 11135,
+      "Name": "Campo di sedazione composito",
+      "Description": "Spara un Sedativo terapeutico a un avversario (temporaneamente aggressivo). Il sedativo esplode all'impatto e crea una corrente d'aria vincolante che attira a sé oggetti e avversari vicini, infliggendo al contempo <color=#80FFD7FF>DAN da Anemo ad area</color> con attributo Anima della Notte.\nQuando il Sedativo terapeutico colpisce un avversario affetto da <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, gli applica un {LINK#N11130004}<color=#FFD780FF>Marchio di sedazione</color>{/LINK}.",
+      "Icon": "Skill_E_Ifa_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 11321,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                1,
+                1,
+                150,
+                0.015
+              ]
+            }
+          ]
+        },
+        "Id": 1132101,
+        "Name": "Visione del medico di campo",
+        "Description": "Quando Ifa è nello stato di Grazia dell'Anima della Notte, ogni punto Anima della Notte posseduto dall'intero gruppo gli conferisce 1 punto di {LINK#N11130002}<color=#FFD780FF>Fondamentali di soccorso</color>{/LINK}. Ogni punto aumenta i DAN da Turbinio ed Electrocarica inflitti dai membri vicini del gruppo.",
+        "Icon": "UI_Talent_S_Ifa_05"
+      },
+      {
+        "GroupId": 11322,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                80,
+                10
+              ]
+            }
+          ]
+        },
+        "Id": 1132201,
+        "Name": "Accordo di mutuo soccorso",
+        "Description": "#Quando i membri del gruppo vicini innescano un Impeto dell'Anima della Notte, la maestria elementale di Ifa aumenta di 80 per 10{NON_BREAK_SPACE}s.",
+        "Icon": "UI_Talent_S_Ifa_06"
+      },
+      {
+        "GroupId": 11323,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 1132301,
+        "Name": "Dono del Reame notturno: Salvataggio di emergenza mirato",
+        "Description": "#Dopo aver esaurito i punti Anima della Notte, Ifa consuma il Flogisto per conservare la sua Grazia dell'Anima della Notte.\nSe si trova in un'area di Natlan dove sono presenti uno o più Meccanismi flogistici, può usare Trasmissione dell'Anima della Notte: Ifa. Quando il personaggio attivo è sospeso in aria a una certa altezza, passare il controllo a Ifa attiva il seguente effetto: Ifa entra nello stato di Grazia dell'Anima della Notte e ottiene 32 punti Anima della Notte. Trasmissione dell'Anima della Notte può attivarsi una volta ogni 10{NON_BREAK_SPACE}s all'interno del tuo gruppo.",
+        "Icon": "UI_Talent_S_Ifa_07"
+      },
+      {
+        "GroupId": 11325,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.4,
+                10,
+                0.4,
+                10
+              ]
+            }
+          ]
+        },
+        "Id": 1132501,
+        "Name": "Impacco caldo tattico",
+        "Description": "#Se si trova in un'area di Natlan dove sono presenti uno o più Meccanismi flogistici, quando i PS del membro attivo del gruppo o del Saurico posseduto sono inferiori a un 40%, Ifa consuma 10 punti Flogisto per ripristinare un 40% dei loro PS. Quest'effetto può attivarsi una volta ogni 10{NON_BREAK_SPACE}s e non ha effetto nei domini, nei Domini della conquista o nell'Abisso a spirale.",
+        "Icon": "UI_Talent_S_Ifa_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1131,
+        "Name": "Miscela dell'Elisir vitifero",
+        "Description": "#Quando {LINK#N11130001}<color=#FFD780FF>Fuoco di supporto</color>{/LINK} colpisce un avversario, l'energia di Ifa si ripristina di 6. Un ripristino di energia di questo tipo può innescarsi una volta ogni 8{NON_BREAK_SPACE}s.",
+        "Icon": "UI_Talent_S_Ifa_01"
+      },
+      {
+        "Id": 1132,
+        "Name": "Spirito guida dell'orazione balistica",
+        "Description": "Quando Ifa è nello stato di Grazia dell'Anima della Notte, riceve 4 ulteriori punti di {LINK#N11130002}<color=#FFD780FF>Fondamentali di soccorso</color>{/LINK} per ogni punto Anima della Notte posseduto dall'intero gruppo oltre un minimo di 60.\nInoltre, il limite dei Fondamentali di soccorso di Ifa aumenta di 50.\nRichiede il talento passivo {LINK#P1132101}<color=#FFD780FF>Visione del medico di campo</color>{/LINK}.",
+        "Icon": "UI_Talent_S_Ifa_02"
+      },
+      {
+        "Id": 1133,
+        "Name": "Obiezione nei negoziati con la Notte",
+        "Description": "Aumenta di 3 il livello di <color=#FFD780FF>{LINK#S11132}Prevenzione delle malattie trasmesse per via aerea{/LINK}</color>.\nIl livello di potenziamento massimo è 15.",
+        "Icon": "UI_Talent_U_Ifa_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1134,
+        "Name": "Permutazione di ricettacoli logori",
+        "Description": "#La durata della corrente d'aria vincolante generata dal Tripudio elementale <color=#FFD780FF>{LINK#S11135}Campo di sedazione composito{/LINK}</color> aumenta a 3{NON_BREAK_SPACE}s.\nInoltre, Ifa ottiene 100 di maestria elementale per 15{NON_BREAK_SPACE}s dopo aver usato il Tripudio elementale <color=#FFD780FF>Campo di sedazione composito</color>.",
+        "Icon": "UI_Talent_S_Ifa_03"
+      },
+      {
+        "Id": 1135,
+        "Name": "Voto di coesistenza universale",
+        "Description": "Aumenta di 3 il livello di <color=#FFD780FF>{LINK#S11135}Campo di sedazione composito{/LINK}</color>.\nIl livello di potenziamento massimo è 15.",
+        "Icon": "UI_Talent_U_Ifa_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1136,
+        "Name": "Giuramento del nodo piumato",
+        "Description": "Quando Ifa usa la variante a pressione prolungata del suo {LINK#N11130001}<color=#FFD780FF>Fuoco di supporto</color>{/LINK}, c'è una probabilità del 50% di sparare un Colpo rinvigorente aggiuntivo che infligge DAN da Anemo pari a un 120% dell'ATT di Ifa. Tali DAN sono considerati DAN da attacco normale.\nInoltre, quando non è in combattimento, Ifa consuma un 20% in meno di punti Anima della Notte e di Flogisto quando è nello stato di Grazia dell'Anima della Notte.",
+        "Icon": "UI_Talent_S_Ifa_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "In balia di venti erranti",
+    "Detail": "Un veterinario del Clan Piumafiore che conduce una vita in armonia con gli esseri viventi, dalle persone agli animali.",
+    "Association": 9,
+    "Native": "Tlalocan",
+    "BirthMonth": 3,
+    "BirthDay": 23,
+    "VisionBefore": "Anemo",
+    "ConstellationBefore": "Catena Opele",
+    "CvChinese": "吕书君",
+    "CvJapanese": "寺島惇太&小松昌平",
+    "CvEnglish": "Jonny Loquasto & Dominic Catrambone",
+    "CvKorean": "Park Ki-wook",
+    "CookBonus": {
+      "OriginItemId": 108758,
+      "ItemId": 108821,
+      "InputList": [
+        101246,
+        100016,
+        100078,
+        110006
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Presentazione",
+        "Context": "#<color=#37FFFF>Ifa:</color> \"Ehilà! Sono Ifa, un veterinario per Saurici del Clan Piumafiore. Magari hai già sentito parlare di me, ma non temere: qualunque impressione ti sia {F#fatta}{M#fatto} del sottoscritto, mettiamola da parte e conosciamoci per davvero.\"\n<color=#37FFFF>Ifa:</color> \"Ah, già. Questo piccoletto qui... è Cacucu, il mio assistente. Anche lui è una specie di veterinario, seppure in una maniera diversa. Spero che andrete d'accordo.\"\n<color=#37FFFF>Cacucu:</color> \"Piacere di conoscerti, {F#amica}{M#amico}!\""
+      },
+      {
+        "Title": "Dialogo: Riposo",
+        "Context": "*sospira* Nella vita, quasi mai possiamo iniziare e finire qualcosa tutto in una volta. Dopo che avrai recuperato le energie, passeremo all'azione."
+      },
+      {
+        "Title": "Dialogo: Spuntini",
+        "Context": "Ogni volta che posso prendermi una pausa, voglio sempre qualcosa da stuzzicare... Uhm, ho delle caramelle, della frutta e della carne essiccata. Ne vuoi un po'?"
+      },
+      {
+        "Title": "Dialogo: Versi",
+        "Context": "Hai sentito? Sembrava il verso di un animale. Uhm... Forse me lo sono immaginato."
+      },
+      {
+        "Title": "Quando piove",
+        "Context": "#Occhio quando Cacucu si scuote le piume, rischi di inzupparti... Anche se, in effetti, mi sa che sei già completamente {F#fradicia}{M#fradicio}. Sì, come non detto."
+      },
+      {
+        "Title": "Quando tuona",
+        "Context": "Lo sapevi che molti Saurici hanno paura dei tuoni? Ci vuole sempre un sacco di tempo per calmarli, eheh. A volte sono davvero buffi."
+      },
+      {
+        "Title": "Quando nevica",
+        "Context": "Fiuu, con questo vento riesco a malapena a tenere gli occhi aperti, fa un freddo boia... Meglio non volare con questo tempo."
+      },
+      {
+        "Title": "Quando soffia il vento",
+        "Context": "Sembra che debba scegliere tra il cappello e il fiato... Il vento richiede un sacrificio."
+      },
+      {
+        "Title": "Buongiorno",
+        "Context": "Buongiorno. Non farti ingannare, non sono una persona mattiniera. Ma devo andare alla clinica a dar da mangiare ai pazienti, o cominceranno a fare un baccano assordante."
+      },
+      {
+        "Title": "Buon pomeriggio",
+        "Context": "Oh, ehi! Stavo proprio pensando di pranzare. Ti unisci a me?"
+      },
+      {
+        "Title": "Buonasera",
+        "Context": "Di solito rimango a casa di notte. In questo modo, le persone... e anche i Saurici, sanno sempre dove trovarmi in caso di emergenza. E se è una notte tranquilla, posso rilassarmi e riposare."
+      },
+      {
+        "Title": "Buonanotte",
+        "Context": "Buonanotte. Non possiamo mai prevedere cosa ci riserverà la vita domani; possiamo soltanto riposarci a dovere con il tempo che ci viene concesso così da farci trovare pronti."
+      },
+      {
+        "Title": "A proposito di Ifa: Amici",
+        "Context": "Direi di avere un'ottima cerchia di amici. Alcuni mi danno il mal di testa, altri me lo fanno passare, e altri ancora fanno entrambe le cose, in base al giorno. Ma è un buona combinazione. Sono tutte ottime persone."
+      },
+      {
+        "Title": "A proposito di Ifa: Soddisfazione",
+        "Context": "Non so se sia vero per tutti, ma personalmente adoro sentirmi d'aiuto. La cosa mi dà una grande soddisfazione. Forse la chiave per una vita appagante è riempirla di momenti che ti facciano sentire in questo modo. Ma ognuno deve capire da sé cosa lo renda felice."
+      },
+      {
+        "Title": "A proposito di noi: Promemoria",
+        "Context": "#<color=#37FFFF>Ifa:</color> \"{F#Pronta}{M#Pronto} per il tuo prossimo viaggio? Sai dove andrai? Ti senti bene? Hai tutto ciò che ti serve?\"\n<color=#37FFFF>Ifa:</color> \"Ottimo, sembri in forma, e Paimon è stata sfamata, quindi potete partire... Ah, aspetta, c'è un'ultima cosa che devo controllare...\"\n<color=#37FFFF>Cacucu:</color> \"Non esiste, amico!\""
+      },
+      {
+        "Title": "A proposito di noi: Conferme",
+        "Context": "#Mi conosci da un po' di tempo, quindi sii {F#sincera}{M#sincero}: hai mai la sensazione che io sia assillante o iperprotettivo? No? Vado bene così come sono? Fiuu... Che sollievo. Sai, ho la tendenza a controllare ogni cosa due o tre volte, forse perché ho molto a che fare con gli animali e loro non possono parlare con me. Comunque, volevo solo assicurarmi di non essere una seccatura."
+      },
+      {
+        "Title": "A proposito della Visione",
+        "Context": "Quest'oggettino si rivela spesso utile. A volte, per esempio, se un Saurico è stanco di volare, creo una piccola corrente di Anemo per sospingerlo un po'. Mi assicuro di farlo con discrezione, così da non insospettirlo."
+      },
+      {
+        "Title": "Qualcosa da condividere",
+        "Context": "#Corrompere gli animali con il cibo è abbastanza efficace, {F#amica}{M#amico}. Ma se lo si fa troppo spesso, iniziano a volere più bocconcini per lo stesso comportamento, o addirittura a pretendere la ricompensa senza lavorare per ottenerla. Quindi, ogni volta che posso, preferisco cercare di insegnare loro come funziona il mondo: se finisci in una trappola, ti fai male; se mangi la cosa sbagliata, ti ammali. Questo genere di cose.\nCi vuole più impegno in questo modo, ma credo che ne valga la pena. Soprattutto perché, in alcuni casi, gli animali riescono a essere più svegli degli esseri umani."
+      },
+      {
+        "Title": "Curiosità",
+        "Context": "Se si presta davvero attenzione al mondo che ci circonda, ci si accorge che è pieno di cose affascinanti. Potrei passare l'intera giornata a osservare la natura se ne avessi il tempo. Ma purtroppo il lavoro si mette sempre di traverso."
+      },
+      {
+        "Title": "A proposito di Kachina",
+        "Context": "Ho notato che Kachina adora davvero i Saurici. Se si impegnasse, sono sicuro che diventerebbe un'eccellente veterinaria. Ma dato che ha già dimostrato di essere una guerriera, probabilmente è meglio che si concentri su quello piuttosto che cercare di studiare medicina con me."
+      },
+      {
+        "Title": "A proposito di Xilonen",
+        "Context": "Adoro chiacchierare con Xilonen. Ha sempre un sacco di idee creative fantastiche. A volte, la sua insistenza sulla funzionalità può portare a delle creazioni dall'aspetto un po'... minaccioso, ma d'altronde, l'essere minaccioso è già di per sé una funzionalità."
+      },
+      {
+        "Title": "A proposito di Kinich",
+        "Context": "Domanda seria: tecnicamente Ajaw conta come essere vivente?\nQuando è venuto a farsi visitare, ho condotto un'analisi approfondita e non ho trovato nulla che non andasse. Così ho detto a Kinich: \"Dagli un paio di colpi in testa e vedi se riprende a funzionare\".\nE appena Ajaw l'ha sentito, è guarito all'istante come per miracolo, parola mia. Strana coincidenza, vero?"
+      },
+      {
+        "Title": "A proposito di Chasca",
+        "Context": "Il suo lavoro di pacificatrice è estremamente importante. Guarisce tanti malesseri che vanno al di là delle mie capacità."
+      },
+      {
+        "Title": "A proposito di Ororon: Non pensarci troppo",
+        "Context": "Quel ragazzo ha un modo di pensare molto particolare. Devi semplicemente entrare nel suo flusso di pensieri. Non mi preoccuperei di cercare di capirlo, perché tanto non ci si riesce in ogni caso.\nComunque non è una persona cattiva o altro, e ha i suoi modi unici per dimostrare che ci tiene. Capirai cosa intendo quando lo conoscerai."
+      },
+      {
+        "Title": "A proposito di Ororon: Non posso farci niente",
+        "Context": "...Ok, anche se ormai mi sono abituato a lui, ci sono ancora giorni in cui vorrei poter entrare nella sua testa, solo per vedere cosa succede davvero lì dentro!"
+      },
+      {
+        "Title": "A proposito di Citlali",
+        "Context": "Nonna Itztli... Sì, è una tipa tosta... con una collezione di pigiami molto variopinti, ahahah...\nCerco di non farmi trascinare nei drammi suoi e di Ororon, quindi ogni volta che mi dà un messaggio per lui, lo trasmetto subito, parola per parola, senza fare domande. Sono convinto che, se voglio tenermi alla larga dai problemi, meno ne so, meglio è."
+      },
+      {
+        "Title": "A proposito di Mavuika",
+        "Context": "#Una volta l'Archon di Pyro mi ha dato un passaggio per una visita d'urgenza a un paziente. {F#Amica}{M#Amico}, è stato pazzesco. Siamo arrivati lì, la mia testa stava ancora girando a un milione di chilometri all'ora, e quel Saurico ferito andava curato in qualche modo... Sembrava impossibile, ma ce l'ho fatta. Credo che a volte non conosciamo il nostro potenziale finché non veniamo spinti fuori dalla nostra zona di comfort."
+      },
+      {
+        "Title": "A proposito di Neuvillette",
+        "Context": "#...Cosa? Vuoi che mi prenda cura di lui se si ammala? Ehm... ti ricordi che sono un veterinario, non un dottore, vero?\nMmmh... Beh, a Cacucu piace molto... D'accordo, {F#amica}{M#amico}, farò del mio meglio."
+      },
+      {
+        "Title": "Altro su Ifa (1)",
+        "Context": "<color=#37FFFF>Ifa:</color> \"Quel disegno sulla bacheca fuori dalla mia clinica... Non è opera mia, lo giuro.\"\n<color=#37FFFF>Cacucu:</color> \"Ahahah!\""
+      },
+      {
+        "Title": "Altro su Ifa (2)",
+        "Context": "Non ricordo quale sia stata la prima parola di Cacucu. Quello che ricordo è che mi sono svegliato di soprassalto una mattina alle cinque, al suono stridente di \"Giù dal letto, amico!\" Proprio un bel modo di essere svegliati, lasciamelo dire."
+      },
+      {
+        "Title": "Altro su Ifa (3)",
+        "Context": "Ho superato le prove di volo molto tempo fa, quindi in teoria potrei chiedere aiuto a qualsiasi Qucusauro. Ma da quando è arrivato Cacucu, è diventato un po' geloso nei miei confronti: non gli piace vedermi con altri Qucusauri, credo. Ma va bene così. Certo, è un po' giovane, ma visto che si sente all'altezza del compito, sono felice di affidarglielo."
+      },
+      {
+        "Title": "Altro su Ifa (4)",
+        "Context": "Voglio essere il tipo di persona la cui presenza fa sentire gli altri al sicuro. È un privilegio raro avere la fiducia altrui, non tutti ne sono all'altezza."
+      },
+      {
+        "Title": "Altro su Ifa (5)",
+        "Context": "Essere un veterinario non è niente male. Ci saranno sempre momenti in cui bisogna dirsi addio, ma non mi è mai capitato di rimpiangere le mie scelte. Gli animali sono molto simili ai bambini: sono piccoli mascalzoni chiassosi e possono essere difficili da gestire. Ma in fin dei conti, sono il futuro, e io continuerò a proteggerli."
+      },
+      {
+        "Title": "Gli hobby di Ifa",
+        "Context": "Il canto è un passatempo molto popolare nel Clan Piumafiore. Anche a me piace strimpellare qualcosa e scrivere delle canzoni di tanto in tanto. Può essere un buon modo per gestire le emozioni."
+      },
+      {
+        "Title": "I guai di Ifa",
+        "Context": "<color=#37FFFF>Ifa:</color> \"Onestamente, credo di avere una vita piuttosto piacevole. Non c'è niente che mi tenga sveglio la notte... Oh, ma sarebbe bello se Cacucu imparasse a dire qualche frase utile.\"\n<color=#37FFFF>Cacucu:</color> \"Di che diamine stai parlando?\""
+      },
+      {
+        "Title": "Cibo preferito",
+        "Context": "#Non c'è niente di meglio della frutta fresca, {F#amica}{M#amico}: placa la fame e la sete in una volta sola. Inoltre posso darne qualche pezzetto a Cacucu."
+      },
+      {
+        "Title": "Cibo meno amato",
+        "Context": "La frutta fresca è deliziosa, ma mi chiedo a che serva usarla come ingrediente per cucinare... Cioè, perché non mangiarla così com'è?"
+      },
+      {
+        "Title": "Ricevere un regalo (1)",
+        "Context": "<color=#37FFFF>Cacucu:</color> \"Tienimi presente, amico!\"\n<color=#37FFFF>Ifa:</color> \"E questa dove l'hai imparata, eh? Va bene, va bene, te ne do metà.\""
+      },
+      {
+        "Title": "Ricevere un regalo (2)",
+        "Context": "Mmm, davvero buono. Prendo un po' di succo di frutta per mandarlo giù. Quale gusto vuoi?"
+      },
+      {
+        "Title": "Ricevere un regalo (3)",
+        "Context": "#<color=#37FFFF>Cacucu:</color> \"Ma che, davvero? Amico, guarda che disastro hai fatto...\"\n<color=#37FFFF>Ifa:</color> \"No, no, Cacucu... Mi sembra perfettamente commestibile. Grazie, {F#amica}{M#amico}.\""
+      },
+      {
+        "Title": "Compleanno",
+        "Context": "#Buon compleanno! Ti auguro tanta salute e giovinezza eterna.\nCerto, non si può fermare l'inesorabile avanzare del tempo, ma si può rimanere giovani nel cuore, {F#bella}{M#bello}. Inoltre, essere di cattivo umore non fa bene alla salute. Quindi per oggi, lasciamo perdere le preoccupazioni e divertiamoci un po'.\nAh, sì, che tipo di musica ti piace? Ti suono una canzone."
+      },
+      {
+        "Title": "Pensieri sull'ascensione: Introduzione",
+        "Context": "È una specie di riscaldamento?"
+      },
+      {
+        "Title": "Pensieri sull'ascensione: Crescendo",
+        "Context": "Ci si deve prendere cura di sé stessi prima di poter prendersi cura degli altri, giusto?"
+      },
+      {
+        "Title": "Pensieri sull'ascensione: Culmine",
+        "Context": "La pistola che si estrae di meno è quella che ha più bisogno di manutenzione... Oh, cavolo, che sto dicendo? Sono un medico, non un guerriero. Lascio le mie pistole nella fondina a meno che non ne abbia assolutamente bisogno."
+      },
+      {
+        "Title": "Pensieri sull'ascensione: Conclusione",
+        "Context": "#<color=#37FFFF>Ifa:</color> \"Grazie, {F#amica}{M#amico}! Se mai avessi bisogno di una mano, fammi sapere!\"\n<color=#37FFFF>Cacucu:</color> \"Tienimi presente, {F#amica}{M#amico}!\""
+      },
+      {
+        "Title": "Abilità elementale (1)",
+        "Context": "Andiamo!"
+      },
+      {
+        "Title": "Abilità elementale (2)",
+        "Context": "Occhio al vento!"
+      },
+      {
+        "Title": "Abilità elementale (3)",
+        "Context": "<color=#37FFFF>Cacucu:</color> \"Su e viaaa!\""
+      },
+      {
+        "Title": "Abilità elementale (4)",
+        "Context": "<color=#37FFFF>Cacucu:</color> \"Oh, no! Oh, no!\"\n<color=#37FFFF>Ifa:</color> \"Forza, bello!\""
+      },
+      {
+        "Title": "Tripudio elementale (1)",
+        "Context": "Occhio a dove metti i piedi!"
+      },
+      {
+        "Title": "Tripudio elementale (2)",
+        "Context": "Niente di personale."
+      },
+      {
+        "Title": "Tripudio elementale (3)",
+        "Context": "Non scappare, piccolo delinquente!"
+      },
+      {
+        "Title": "Apertura baule (1)",
+        "Context": "Incredibile! Hai davvero talento nel trovare questa roba."
+      },
+      {
+        "Title": "Apertura baule (2)",
+        "Context": "Oggi è il mio giorno fortunato!"
+      },
+      {
+        "Title": "Apertura baule (3)",
+        "Context": "Se hai bisogno di una mano per trasportare questa roba, posso chiamare Cacucu."
+      },
+      {
+        "Title": "PS bassi (1)",
+        "Context": "Riesco a malapena a respirare..."
+      },
+      {
+        "Title": "PS bassi (2)",
+        "Context": "Un ultimo tentativo, dai..."
+      },
+      {
+        "Title": "PS bassi (3)",
+        "Context": "<color=#37FFFF>Cacucu:</color> \"Ifa? Ifa!\"\n<color=#37FFFF>Ifa:</color> \"Lo so, lo so...\""
+      },
+      {
+        "Title": "PS bassi alleato (1)",
+        "Context": "Sono qui."
+      },
+      {
+        "Title": "PS bassi alleato (2)",
+        "Context": "Dovresti farti dare un'occhiata."
+      },
+      {
+        "Title": "Fuori combattimento (1)",
+        "Context": "Pensavo che la guerra fosse finita..."
+      },
+      {
+        "Title": "Fuori combattimento (2)",
+        "Context": "Scusatemi, ci ho provato..."
+      },
+      {
+        "Title": "Fuori combattimento (3)",
+        "Context": "Avrei potuto salvare altre vite..."
+      },
+      {
+        "Title": "Danni da colpo leggero (1)",
+        "Context": "Smettila..."
+      },
+      {
+        "Title": "Danni da colpo pesante (1)",
+        "Context": "Non esiste, amico!"
+      },
+      {
+        "Title": "Danni da colpo pesante (2)",
+        "Context": "Perché non ti comporti bene?"
+      },
+      {
+        "Title": "Unione al gruppo (1)",
+        "Context": "Ci aspetta un lungo viaggio?"
+      },
+      {
+        "Title": "Unione al gruppo (2)",
+        "Context": "Kit di soccorso pronto."
+      },
+      {
+        "Title": "Unione al gruppo (3)",
+        "Context": "Auguriamoci che sia un buon viaggio."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Informazioni sul personaggio",
+        "Context": "Agli occhi degli abitanti di Natlan, il Clan Piumafiore è il vero padrone del cielo.\nNonostante i Discendenti delle Vette possano spostarsi da un promontorio all'altro, e i Maestri del Vento della Notte osservino il firmamento dalle loro alte vette, solo i membri del Clan Piumafiore hanno il privilegio di poter agguantare le nuvole e fendere gli arcobaleni come dei veri cavalieri celesti.\nGuardare verso l'alto è una sensazione senza pari: non ci sono ostacoli in vista, solo uno sconfinato spazio vuoto che l'umanità anela solcare. Una visione che placa la sete di una vita libera dalle catene terrene.\nTuttavia, quando sotto di loro le fiamme della guerra arroventano la terra, tutto ciò che quelli del Clan Piumafiore sono in grado di sentire sono le urla d'aiuto. E anche un Qucusauro, quando viene ferito, è costretto a posarsi di nuovo.\nIfa è dunque il cavaliere che non distoglie mai lo sguardo dalla terra, sia per dovere che per abitudine. Col suo sguardo acuto, riesce a individuare i problemi anche a un chilometro di distanza.\n\"Che si tratti di umani o animali, la terra è il posto in cui tutti siamo destinati a tornare\". Queste sono le parole usate da Ifa mentre sorride con disinvoltura."
+      },
+      {
+        "Title": "Storia del personaggio (1)",
+        "Context": "Una volta, Ororon pronunciò questa frase: \"Se gli umani possono essere dottori per i Saurici, allora anche i Saurici possono essere dottori per gli umani\".\n\"Anche se una frase è simile a un'altra, non significa che abbia ugualmente senso\". Questa fu la risposta di Ifa dopo un lungo silenzio.\n\"Tu dici...?\"\nIfa non riusciva a non provare un pizzico di compassione per Ororon. Sapeva che non era davvero uno sciocco, e che aveva l'abitudine di proferire affermazioni del tutto illogiche solo per suscitare una reazione da parte sua. Tuttavia, non poteva fare a meno di ripensare alla sua vita, e chiedersi come avesse fatto ad arrivare dov'era adesso.\nNella vita ci sono sempre cose che sfuggono al proprio controllo. Essere un veterinario, ad esempio, è come dirigere un asilo: è impossibile ragionare con delle creaturine che non sanno nemmeno cosa sia la ragione. Tutto quello che si può fare è cercare di confortarle... Specie nei casi in cui il dolore sarà inevitabile: tagli, ferite infette, medicinali, iniezioni... A dirla tutta, se anche Ifa fosse stato un cagnolino o un gattino, nemmeno lui sarebbe stato in grado di riconoscere la differenza tra tutti quei tipi di dolore.\nE quando avvertono il dolore, possono soltanto piangere e lottare. È questa la natura degli esseri viventi. Di fatto, perdere la capacità di provare dolore è un po' come perdere il proprio sistema di allarme naturale... Decisamente preoccupante per il proprio benessere.\nE la vita, probabilmente, è come le creature stesse. Forse, dolori e separazioni esistono per ricordarci che la vita continua, che gli esseri umani e i Saurici, anno dopo anno, crescono e invecchiano.\nPer un medico, questo rappresenta la norma. È il prezzo da pagare per chi esercita questa professione. O almeno, questo è ciò che Ifa dice per rassicurarsi.\nE ciò che riceve in cambio sono l'amore e la gratitudine di umani e animali, nonché i legami che Ifa ha plasmato con \"amici\" di ogni genere.\nFinché la gioia riuscirà a spazzare via la disperazione e il lutto... varrà sempre la pena di affrontare la sua battaglia."
+      },
+      {
+        "Title": "Storia del personaggio (2)",
+        "Context": "Di tanto in tanto, Ifa sente che non sempre si sceglie consapevolmente cosa fare della propria vita. A volte, è la vita stessa a condurti dove ti trovi.\nPer esempio, nemmeno lui ricorda bene quando sia diventato una persona che si prende cura degli altri. I bambini del vicinato lo chiamano \"amico\" (o \"amicone\"); i Saurici, che siano malati o in salute, lo seguono ovunque gracchiando e strepitando. I più giovani di lui, e anche i più anziani, gli fanno un cenno col cappello (quando ne hanno uno) e lo chiamano \"Doc\"... In tutto questo, Ifa non riesce a non avvertire un senso di paura radicarsi nel suo cuore.\nOvviamente, il rispetto che riceve costituisce per lui una fonte di orgoglio e soddisfazione. Ciò che lo divora, però, è forse il timore di ritrovarsi ad aver perso la fiducia altrui. E questa paura lo spinge a fare anche più di quanto dovrebbe: creare giocattoli per i cuccioli di Saurico, suonare la chitarra in pubblico, portare sacchi di frutta fresca ai vicini quando torna da un paziente... Di tanto in tanto, lo si vede perfino aiutare i ragazzini della tribù coi compiti per casa.\nÈ come se qualcuno avesse manomesso lo scorrere del tempo. Un giorno, anni prima, Ifa era ancora indeciso se diventare o meno un veterinario, avendo ancora fresca nella mente la sensazione che si prova a cavalcare un Saurico. Il giorno dopo, invece... la vita l'aveva colpito in pieno volto, rendendolo consapevole di essere diventato un adulto affidabile.\nNon che questa cosa lo turbasse particolarmente. Ifa ne era anzi molto grato. Tuttavia, di tanto in tanto, quando gli anziani della tribù parlavano di cose passate, Ifa non poteva fare a meno di ripensare al ragazzo che era stato un tempo.\nAlcuni bambini adorano sentire quelle vecchie storie. Uno di loro, con le labbra sorridenti ancora sporche di briciole di Torta vulcanica, scoppiò a ridere quando sentì che il giovane Ifa riusciva a malapena a studiare sui libri. \"Ma quindi anche l'amicone Ifa è stato un pischello! Cioè, è pazzesco!\"\nErano anni che nessuno lo chiamava \"pischello\". Ifa rimase attonito per un istante, ma si riprese rapidamente. Pulì la bocca del piccoletto con un tovagliolo e disse ridacchiando: \"Che ci trovi di così pazzesco? Tu quanti anni hai, mh?\"\n\"Ne ho sei!\"\n\"Beh, allora che vuoi? Io ne ho cinque! Che ne dici se inizio a chiamarti 'amicone' pure io?\""
+      },
+      {
+        "Title": "Storia del personaggio (3)",
+        "Context": "Se si contano anche i suoi parenti alla lontana, la famiglia di Ifa è alquanto numerosa. È nota principalmente per le abilità veterinarie dei suoi membri ma, a un esame più attento, sono effettivamente in pochi ad aver scelto di esercitarle come professione. In parole povere, non c'era una ragione logica o sentimentale che imponesse a Ifa di diventare un veterinario.\nPer di più, studiare per intraprendere una carriera simile è un processo a dir poco estenuante. Durante la crescita, Ifa pensava che il suo unico compito fosse quello di leggere i libri di medicina, ma le parole e gli schemi che studiava gli attraversavano la mente come una brezza in una valle, e non riusciva a memorizzare nulla. Il piccolo Ifa, arrabbiato, pensò: \"Non sono obbligato a diventare un veterinario, giusto?\"\nNon era obbligato, ma molto presto Ifa iniziò a comprendere quello che leggeva. Forse per via delle frequenti visite sul campo di battaglia per curare i feriti, i genitori di Ifa avevano subito l'influsso dell'Abisso, ed entrambi erano sempre stati piuttosto cagionevoli. Sebbene fosse ancora giovane, Ifa ebbe una sorta di rivelazione che iniziò a riempirlo di apprensione: \"Non... sono obbligato a diventare un veterinario, giusto...?\"\nRivelazione o meno, maturità precoce o meno, Ifa non era ancora diventato un adulto quando i suoi genitori vennero a mancare. Dopo aver assistito ai funerali, il diciassettenne Ifa fu travolto da un senso di vuoto, e non sapeva più cosa pensare...\nE alla fine diventò un veterinario.\nForse per rispetto delle tradizioni, oppure per semplice abitudine, Ifa divenne presto noto come il miglior veterinario per Saurici, dal cuore più gentile e dal senso di responsabilità più forte di tutti. Una volta presa quella decisione, la sua mente smise di vagare e si concentrò sui fatti. E mentre la guerra infuriava, la sua lista dei doveri non faceva che allungarsi, ma fu proprio questo carico di lavoro a fargli superare quel difficile periodo della sua vita.\nOra che la guerra aveva finalmente ceduto il passo alla storia, Ifa si ritrovò con del tempo per sedersi e riflettere sulla sua vita, ma non gli sembrò che ci fosse poi molto su cui meditare.\n\"Tutti hanno qualcosa da fare\", disse Ifa a sé stesso. \"E io voglio soltanto che tutti siano felici\"."
+      },
+      {
+        "Title": "Storia del personaggio (4)",
+        "Context": "Se si fosse lasciato vincere totalmente dalla compassione e avesse adottato ogni piccolo Saurico ferito che gli capitava tra le mani, Ifa avrebbe fatto prima a lasciare la sua clinica per dedicarsi completamente alla vita in natura. Lui si conosceva fin troppo bene, e sapeva che se avesse preso una strada simile, l'avrebbe percorsa fino alla fine. Ecco perché si era imposto una regola non scritta: a meno che non fosse stato del tutto inevitabile, Ifa non avrebbe mai adottato animali (né umani, né altre creature in generale).\n\"No, no no, non se ne parla...\" Ifa chiuse gli occhi per non vedere lo sguardo implorante del suo piccolo paziente. \"Troverò di certo una casa a questo piccoletto... Ma non posso tenerlo io. Ho già fin troppe cose di cui occuparmi\".\nNegli anni, la sua disciplina era stata ammirevole... Ecco perché detestava ammettere che Cacucu era stato l'unico strappo alla sua regola.\n\"Questo pischello non cresce affatto\", diceva Ifa per giustificarsi. \"È piccolo e paffuto, sa parlare ma non sa quello che dice... Sarebbe pericoloso lasciarlo tutto solo in natura, e perciò lo terrò sotto la mia ala... Per il momento\".\n\"In realtà l'hanno costretto, ma si vergogna troppo ad ammetterlo\", replicava Ororon svelando la verità.\nAnche se Ororon faceva finta di non avere nulla a che fare con la questione, in realtà aveva \"contribuito\" all'adozione di Cacucu, indicando le verdure del suo orto su cui erano presenti dei fori a forma di becco. Il suo gesto era stato una tacita accusa nei confronti di Ifa.\nIncapace di accampare scuse o di scacciare Cacucu, Ifa si era trovato costretto (almeno apparentemente) ad adottarlo e, per compensare Ororon delle perdite, si era offerto di fargli da fattorino per un mese intero.\nTuttavia, facendo un passo indietro, in questa storia ci sono due lacune narrative di cui Ifa non si era mai reso conto.\nLacuna numero uno: l'insolita questione del campo. Cacucu non era un Saurico sciocco, quindi perché avrebbe dovuto mettersi contro Ororon? La realtà è che i due erano stati complici per tutto il tempo. Per Cacucu, il primo passo per realizzare il suo ambizioso sogno di diventare l'assistente di Ifa consisteva innanzitutto nell'accedere alla sua clinica. E, per riuscirci, Ifa andava messo alle strette.\nLacuna numero due: sebbene Ifa pensasse di aver visto per la prima volta quel piccolo Qucusauro paffutello quando lo salvò sulla strada, Cacucu ricordava un capitolo del racconto ancora più vecchio, praticamente sconosciuto ai più. Tempo addietro, la madre di Cacucu era rimasta gravemente ferita e, se non fosse stato per l'intervento di Ifa, avrebbe rischiato di non deporre mai l'uovo da cui sarebbe nato quel piccolo genietto saurico. Per di più, ciò che il piccolo vide appena il suo uovo si schiuse fu proprio il volto di Ifa. Quest'ultimo, purtroppo, non lo ricordava minimamente.\nDa una parte, il limitato vocabolario di Cacucu non gli permetteva di parlare a Ifa della vicenda. Dall'altra, non c'era mai stato alcun bisogno di farlo, pertanto Cacucu non aveva messo in conto di dirglielo. Sua madre finì per morire a causa di una recidiva delle vecchie ferite, e sopravvivere da solo in mezzo alla natura era un'autentica impresa per un giovane Saurico. Non avendo mai avuto molti contatti con gli umani, Cacucu decise pertanto che Ifa, che aveva già aiutato sua madre, era il candidato perfetto da seguire. E se un giorno fosse riuscito a diventare il suo assistente nella clinica e a ricambiarlo di ogni cosa, sarebbe stato un risultato fenomenale per il mondo dei Saurici!\nIl primo passo era stato fatto, ed era il momento di passare alla seconda fase del grande piano di Cacucu: capire come fare il finto tonto.\nConsiderata la personalità di Ifa, sempre felice di addossarsi le responsabilità altrui, conoscere la storia di Cacucu probabilmente gli avrebbe provocato un inesplicabile senso di colpa che lo avrebbe fatto sentire in qualche modo responsabile.\nCacucu decise che era meglio sorvolare sull'intera questione. Se dovevano diventare amici, voleva che la loro fosse un'amicizia sincera e libera dai condizionamenti del passato."
+      },
+      {
+        "Title": "Storia del personaggio (5)",
+        "Context": "In tutta franchezza, Ifa si considerava un tipo piuttosto atletico. Avendo anche stretto un buon rapporto con i Saurici e superato brillantemente le prove di volo, pensò di poter attraversare tutta Natlan con relativa facilità.\nCosì, quando era ancora libero dal peso delle responsabilità, decise di fare visita alle altre tribù.\nVisitando i Figli degli Echi, incontrò la talentuosa fabbra Xilonen, la quale, dimostrandosi decisamente entusiasta, in men che non si dica propose a Ifa alcuni progetti per degli strumenti medici. Il giovane scoprì in seguito che a Xilonen era stato affidato un incarico di responsabilità da parte di Mavuika in persona, e che qualsiasi attività non legata a quell'incarico era per lei una rarissima boccata d'aria fresca. In molti gli dissero che Xilonen era solitamente impossibile da trovare (dato che spesso fuggiva a nascondersi sulle montagne), e Ifa si considerò estremamente fortunato di averla potuta conoscere.\nPresso i Discendenti delle Vette, Ifa percepì un'atmosfera simile a quella che si respira nel Clan Piumafiore: persone che conducono una vita di libertà in mezzo alle nuvole. Si divertì molto a lanciare rampini e a svolazzare tra le rupi, e il suo unico rimpianto fu di non aver potuto incontrare il leggendario \"Cacciatore di Saurici\" di cui aveva sentito tanto parlare. Fu solo in seguito, quando Ajaw dovette visitare la sua clinica, che Ifa vide realizzarsi il suo desiderio. Fu un lieto fine per tutti... Tranne che per Ajaw, ovviamente.\nPrima di partire, Chasca aveva parlato a Ifa di una guida che avrebbe potuto trovare dal Popolo delle Sorgenti, una ragazza di nome Mualani. Ifa indugiò nei pressi del negozio di articoli sportivi per ben due volte, ma a parte incespicare su una Tavola Sharky, i suoi viaggi si rivelarono infruttuosi. Decise così di partecipare a una gara di surf tutto da solo, e fu proprio durante la cerimonia di premiazione che finalmente si imbatté in Mualani. Dopo aver saputo che era riuscito a conquistare il terzo posto nonostante fosse solo un principiante, Mualani si complimentò profusamente con lui. Dalle labbra della campionessa in carica, simili parole di lode valevano oro.\nLa Comunità dell'Abbondanza si dimostrò estremamente generosa, ma il viaggio sarebbe stato molto più piacevole se le persone non avessero voluto sfidarlo a braccio di ferro a ogni piè sospinto. Sospettando di avere ben poche possibilità di vittoria, Ifa declinò decine d'inviti col pretesto di aver bisogno di mani sane per esercitare la sua professione medica. Alla fine di questo capitolo del suo viaggio, Ifa rivolse a tutti un caloroso saluto, lasciandosi perfino convincere a iscriversi a un corso trimestrale di fitness con Iansan... a cui però non si presentò mai.\nI Maestri del Vento della Notte erano i più vicini al Clan Piumafiore, nonché i più misteriosi. Nemmeno Ifa sapeva di preciso cosa ci fosse da fare nel loro territorio, così pensò di fermarcisi solo brevemente durante il ritorno. Mentre camminava, però, avvertiva la costante sensazione di essere osservato, ma non riusciva a capire da chi o cosa derivasse, poiché ogni volta che si guardava alle spalle non c'era anima viva. Per diverse decine di minuti, fu come un Iktomisauro che insegue la propria coda: si girava continuamente all'indietro emettendo borbottii infastiditi.\nProprio quando era sul punto di andarsene, sentì un \"Ah!\" che lo immobilizzò sul posto. Ifa si voltò per quella che sperava fosse l'ultima volta, e si ritrovò davanti una donna dai capelli chiari, una mano sul fianco e l'altra puntata verso di lui con fare rabbioso. Prima che Ifa potesse chiederle cosa avesse fatto di male, qualcun altro lo afferrò e lo trascinò via con sé.\nTutto accadde così in fretta che è difficile stabilire un preciso ordine degli eventi. Sta di fatto che Ifa si era ritrovato coinvolto in un inseguimento tra nonna e nipote, scatenato dalla decisione di quest'ultimo di esercitarsi con le sue arti dell'invisibilità mimetizzandosi dietro i passanti. Era riuscito a gabbare perfino gli anziani della sua stessa tribù.\n\"Belli miei, cosa sono queste 'arti dell'invisibilità'? Esiste sul serio una roba del genere?\" L'onesta curiosità e il buon carattere di Ifa riuscirono a placare l'ira di Nonna Itztli.\nQuando finalmente riuscì a tornare a casa, i suoi genitori gli chiesero come fosse andato il viaggio. C'era veramente troppo da raccontare, e Ifa era davvero molto stanco, così si limitò a dirgli: \"Mi sono divertito un sacco, ho conosciuto tantissimi amici pazzeschi\".\nIfa non vedeva l'ora d'incontrarli di nuovo."
+      },
+      {
+        "Title": "Cartelle",
+        "Context": "Quasi ogni giorno, Ifa si prende del tempo per riordinare e sistemare le sue cartelle cliniche. In questi rari momenti di pace, rilegge i casi vecchi e nuovi, ricordandosi tutte le malattie e le ferite che ha visto. Ogni lezione del passato è preziosa, una gemma che merita di essere condivisa con chiunque intenda percorrere la sua stessa strada.\nAllineando con precisione gli angoli di ogni pagina, Ifa sfrutta quest'attività anche per rilassare il corpo e la mente.\nMa quei documenti non sono leggende eroiche o preziosi e antichi rotoli di tessuto. Si tratta di annotazioni scarabocchiate in tutta fretta, stracolme di gergo medico, che probabilmente non attirerebbero l'attenzione di nessuno all'infuori di colui che le ha redatte.\nMa Ifa non ne è semplicemente \"attirato\": la lettura di quelle vecchie cartelle lo assorbe come poche cose al mondo. Mentre riporta alla mente i dettagli di ogni diagnosi e ogni terapia, gli capita perfino di lasciare delle ulteriori note a margine.\nDopo aver finito, rimette in ordine le cartelle e le ripone nell'apposito armadietto. Se necessario, sparge anche un po' di pesticida e di essiccante.\nQuest'abitudine scandisce il ritmo di tutte le sue giornate, come la crescita e l'avvizzimento delle piante scandiscono il passare delle stagioni."
+      },
+      {
+        "Title": "Visione",
+        "Context": "Un giorno, a primo pomeriggio inoltrato, la clinica di Ifa non aveva ancora aperto i battenti, e la gente iniziava a sospettare che fosse accaduto qualcosa.\nInizialmente, i vicini pensarono che il medico avesse effettuato una visita domiciliare in un'altra tribù e avesse trascorso la notte lì. Fu solo quando qualcuno portò all'ingresso della sua clinica un Saurico ammalato che Ifa diede segni di vita, stordito e in preda a un'inaspettata febbre alta.\n\"È tutto a posto, amico\", bofonchiò Ifa prim'ancora che il visitatore potesse aprire bocca, procedendo dunque a condurre un check up completo del Saurico.\nMa, si sa, le disgrazie non vengono mai sole. Mentre Ifa era intento a scrivere una ricetta, qualcuno entrò trafelato nella stanza, gridando che un'orda di mostri dell'Abisso si stava avvicinando dalla Città di cenere. Serviva un dottore per curare i Qucusauri feriti.\n\"Va bene, amico\", bofonchiò di nuovo Ifa, che seguì il combattente fino alla linea del fronte.\nLa notte dopo che le acque si furono calmate, Ifa bevve la medicina che gli aveva dato il suo vicino, e rimase privo di sensi per un giorno intero. Quando si risvegliò, madido di sudore, tastò meticolosamente il comodino in cerca di un bicchiere d'acqua. Tuttavia, ciò che trovò al suo posto fu una Visione.\nPer via della febbre alta, la mente di Ifa era alquanto annebbiata. Per lui, ciò che era successo il giorno prima non era poi così diverso dalla sua routine quotidiana, e non era la prima volta che si trascinava a forza nel lavoro malgrado fosse ammalato. Ai suoi occhi, non aveva fatto nulla di speciale per meritarsi il favore dei cieli al punto da donargli una Visione.\nOgnuno nella tribù, comunque, aveva un'opinione diversa in merito. Il capo la considerava una ricompensa per il suo altruismo nel lavoro, mentre la vecchina della porta accanto era certa si trattasse di un risarcimento per il suo spirito di sacrificio. \"Ehi, ehi, signora bella, 'sacrificio' è un po' forte come parola!\", disse Ifa gesticolando nervosamente.\nPoi, un bambino dagli occhi sfolgoranti di saggezza rivolse a Ifa le seguenti parole: \"Si dice che il vento sia in grado di unire le persone. Forse gli dèi vogliono ricordarti che, quando il gioco si fa duro, puoi sempre fare affidamento sui tuoi compagni\". Era una cosa assolutamente sensata, e Ifa non ebbe nulla da obiettare; d'altro canto, si era solo lasciato guidare dall'istinto per fare ciò che andava fatto. Quali altre opzioni c'erano?\nAvrebbero potuto parlarne per delle ore senza mai raggiungere una conclusione. Chissà? Forse gli dèi pensavano solo che una bella brezza fresca sarebbe stata la cura perfetta per la sua febbre. Così, scuotendo la testa, Ifa liquidò la questione e smise di rimuginarci sopra.\nDi solito non usava mai la sua Visione, perlomeno non prima di aver adottato Cacucu. Da quando quest'ultimo era diventato parte della sua vita, aveva insistito nel portare Ifa a volare dappertutto, accompagnandolo nelle sue escursioni starnazzando frasi come: \"Più in alto, amico! Più in alto!\"\nIn momenti come questo, la sua Visione si dimostrò estremamente utile."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 211300,
+      "Name": "Ali del dardo sibilante",
+      "Description": "#Il completo di Ifa. Non l'hai mai visto cambiare cappello, ma in verità lo fa spesso. È solo che, sai, ogni cappello è uguale al precedente. \"Quando porti un cappello non dimenticare di stringere il cordoncino, {F#amica}{M#amico}. Potrebbe portartelo via il vento... o un Saurico dispettoso\". Così dice Ifa, sospirando con esasperazione ogni volta che si tocca l'argomento.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104154,
+    113072,
+    101250,
+    112103,
+    104355,
+    113074
+  ],
+  "NameCard": {
+    "Name": "#Ifa: {F#Amica}{M#Amico}",
+    "Description": "#Stile per la carta giocatore.\n\"'C'è qualche vantaggio nell'avere un buon rapporto con Ifa?' Certo che sì, {F#amica}{M#amico}, assolutamente.\" \"Certo, {F#amica}{M#amico}, certo.\"",
+    "Icon": "UI_NameCardIcon_Ifa",
+    "PicturePrefix": "UI_NameCardPic_Ifa"
+  }
+}
