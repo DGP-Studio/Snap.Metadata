@@ -1,0 +1,1054 @@
+{
+  "Id": 10000113,
+  "PromoteId": 113,
+  "Sort": 97,
+  "Body": 4,
+  "Icon": "UI_AvatarIcon_Ifa",
+  "SideIcon": "UI_AvatarIcon_Side_Ifa",
+  "Name": "Ifa",
+  "Description": "Ein Tierarzt aus dem Blumenfeder-Klan, der jeden in sein Herz schließt, sei es nun Mensch oder Tier, für ihn ist jedes Lebewesen ein Gefährte.",
+  "BeginTime": "2025-05-06T00:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 845.2303,
+    "AttackBase": 14.95872,
+    "DefenseBase": 50.758575
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 11331,
+        "Proud": {
+          "Descriptions": [
+            "SCH Phase 1|{param1:F1P}",
+            "SCH Phase 2|{param2:F1P}",
+            "SCH Phase 3|{param3:F1P}",
+            "SCH heftiger Schläge|{param4:F1P}",
+            "Ausdauerverbrauch heftiger Schläge|{param5:F1} Punkte",
+            "SCH beim Fallen|{param6:F1P}",
+            "SCH beim Fallen aus niedriger/großer Höhe|{param7:P}/{param8:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.536072,
+                0.474672,
+                0.747584,
+                1.4704,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.576277,
+                0.510272,
+                0.803653,
+                1.58068,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.616483,
+                0.545873,
+                0.859722,
+                1.69096,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.67009,
+                0.59334,
+                0.93448,
+                1.838,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.710295,
+                0.62894,
+                0.990549,
+                1.94828,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.750501,
+                0.664541,
+                1.046618,
+                2.05856,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.804108,
+                0.712008,
+                1.121376,
+                2.2056,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.857715,
+                0.759475,
+                1.196134,
+                2.35264,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.911322,
+                0.806942,
+                1.270893,
+                2.49968,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.96493,
+                0.85441,
+                1.345651,
+                2.64672,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.018537,
+                0.901877,
+                1.42041,
+                2.79376,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.072144,
+                0.949344,
+                1.495168,
+                2.9408,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.139153,
+                1.008678,
+                1.588616,
+                3.1246,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.206162,
+                1.068012,
+                1.682064,
+                3.3084,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.273171,
+                1.127346,
+                1.775512,
+                3.4922,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 11131,
+        "Name": "Ritual des Windbanns",
+        "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 3 aufeinanderfolgende Angriffe aus und verursacht <color=#80FFD7FF>Anemo-Schaden</color>.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und schießt nach vorn, verursacht dabei <color=#80FFD7FF>Anemo-Flächenschaden</color>.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#80FFD7FF>Anemo-Flächenschaden</color>.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 11332,
+        "Proud": {
+          "Descriptions": [
+            "SCH Elixierkugel|{param1:F1P}",
+            "Heilung bei Treffern mit Elixierkugeln|{param2:F1P} Elementarkunde + {param3:F1}",
+            "#Max. Nachtseelenpunkte|{param4:F1}{NON_BREAK_SPACE}Punkte",
+            "#Abklingzeit|{param5:F1}{NON_BREAK_SPACE}s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                1.3336,
+                0.2016,
+                48.14847,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                1.43362,
+                0.21672,
+                52.96399,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                1.53364,
+                0.23184,
+                58.180798,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                1.667,
+                0.252,
+                63.7989,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                1.76702,
+                0.26712,
+                69.8183,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                1.86704,
+                0.28224,
+                76.23898,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                2.0004,
+                0.3024,
+                83.06097,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                2.13376,
+                0.32256,
+                90.28424,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                2.26712,
+                0.34272,
+                97.908806,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                2.40048,
+                0.36288,
+                105.93467,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                2.53384,
+                0.38304,
+                114.361824,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                2.6672,
+                0.4032,
+                123.19027,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                2.8339,
+                0.4284,
+                132.42001,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                3.0006,
+                0.4536,
+                142.05104,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                3.1673,
+                0.4788,
+                152.08337,
+                80,
+                7.5
+              ]
+            }
+          ]
+        },
+        "Id": 11132,
+        "Name": "Prophylaxe aus der Luft",
+        "Description": "Zeit für die echten Kampfbrüder! Ifa fordert Cacucus Unterstützung an.\nNach dem Auslösen erhält Ifa 80 Nachtseelenpunkte und tritt in den Zustand {LINK#N11130003}<color=#FFD780FF>Nachtseelensegen</color>{/LINK} ein. Ifa schwebt in diesem Zustand dank Cacucus Unterstützung. Wenn Ifa während des Schwebens einen Standardangriff ausführt, verwendet er je nachdem, ob gedrückt oder gedrückt gehalten wird, unterschiedliche Arten von {LINK#N11130001}<color=#FFD780FF>„Unterstützungsfeuer“</color>{/LINK} und schießt dabei Elixierkugeln ab, die allen Truppenmitgliedern LP wiederherstellen können.\n\nFührt, wenn sich Ifa im Zustand Nachtseelensegen befindet und seine Elementarfähigkeit <color=#FFD780FF>Prophylaxe aus der Luft</color> durch Gedrückthalten einsetzt, einen mit Nachtseelen versehenen Angriff aus dem Fall aus. Wird die Fähigkeit losgelassen, so wird der Angriff aus dem Fall unterbrochen und der Schwebezustand wird aufrechterhalten. Beim Aufkommen des Angriffs aus dem Fall endet Ifas Nachtseelensegen.",
+        "Icon": "Skill_S_Ifa_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 11339,
+      "Proud": {
+        "Descriptions": [
+          "Fähigkeits-SCH|{param1:F1P}",
+          "SCH Sedierungsmarker|{param2:F1P}",
+          "#Abklingzeit|{param3:F1}{NON_BREAK_SPACE}s",
+          "Elementarenergie|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              5.0848,
+              1.0896,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              5.46616,
+              1.17132,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              5.84752,
+              1.25304,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              6.356,
+              1.362,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              6.73736,
+              1.44372,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              7.11872,
+              1.52544,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              7.6272,
+              1.6344,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              8.13568,
+              1.74336,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              8.64416,
+              1.85232,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              9.15264,
+              1.96128,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              9.66112,
+              2.07024,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              10.1696,
+              2.1792,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              10.8052,
+              2.3154,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              11.4408,
+              2.4516,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              12.0764,
+              2.5878,
+              15,
+              60
+            ]
+          }
+        ]
+      },
+      "Id": 11135,
+      "Name": "Sammelsedierungsfeld",
+      "Description": "Schießt ein therapeutisches Sedativum auf Gegner, die sich noch immer nicht beruhigt haben. Beim Treffen des Gegners explodiert das Sedativum und erzeugt ein bändigendes Windfeld, das Gegner und Objekte in der Nähe anzieht und dabei mit Nachtseelen versehenen <color=#80FFD7FF>Anemo-Flächenschaden</color> verursacht.\nFügt, wenn die vom therapeutischen Sedativum getroffenen Gegner von <color=#80C0FFFF>Hydro</color>-, <color=#FF9999FF>Pyro</color>-, <color=#99FFFFFF>Kryo</color>- oder <color=#FFACFFFF>Elektro</color>-Kraft betroffen sind, diesen Gegnern den Effekt {LINK#N11130004}<color=#FFD780FF>„Sedierungsmarker“</color>{/LINK} zu.",
+      "Icon": "Skill_E_Ifa_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 11321,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                1,
+                1,
+                150,
+                0.015
+              ]
+            }
+          ]
+        },
+        "Id": 1132101,
+        "Name": "Sichtfeld des Feldarztes",
+        "Description": "Verleiht Ifa im Zustand Nachtseelensegen für jeden Nachtseelenpunkt aller Truppenmitglieder 1 Punkt {LINK#N11130002}<color=#FFD780FF>„Rettungsprinzipien“</color>{/LINK}. Rettungsprinzipien erhöhen den von Truppenmitgliedern in der Nähe mit den Reaktionen Verwirbelung und Unter Strom verursachten Schaden.",
+        "Icon": "UI_Talent_S_Ifa_05"
+      },
+      {
+        "GroupId": 11322,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                80,
+                10
+              ]
+            }
+          ]
+        },
+        "Id": 1132201,
+        "Name": "Vereinbarung zur gegenseitigen Hilfe",
+        "Description": "#Erhöht Ifas Elementarkunde 10{NON_BREAK_SPACE}s lang um 80{NON_BREAK_SPACE}Punkte, sobald ein Truppenmitglied in der Nähe „Nachtseelenaufbruch“ auslöst.",
+        "Icon": "UI_Talent_S_Ifa_06"
+      },
+      {
+        "GroupId": 11323,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 1132301,
+        "Name": "Geschenk des Nachtreichs – Intensivtherapie",
+        "Description": "#Nachdem seine Nachtseelenpunkte aufgebraucht sind, wechselt Ifa zum Verbrauch von Phlogiston, um seinen „Nachtseelensegen“ aufrechtzuerhalten.\nBeim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Ifa verwendet werden. Wenn die aktuelle Figur sich in einer gewissen Höhe in der Luft befindet, wird beim Wechsel zu Ifa Folgendes ausgelöst: Ifa tritt in den Zustand des Nachtseelensegens ein und erhält 32{NON_BREAK_SPACE}Nachtseelenpunkte. 10{NON_BREAK_SPACE}s Abklingzeit für das Auslösen der Nachtseelen-Übertragung innerhalb der eigenen Truppe.",
+        "Icon": "UI_Talent_S_Ifa_07"
+      },
+      {
+        "GroupId": 11325,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.4,
+                10,
+                0.4,
+                10
+              ]
+            }
+          ]
+        },
+        "Id": 1132501,
+        "Name": "Wärmender Kompressionsverband",
+        "Description": "#Ifa verbraucht beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan, wenn die LP der aktuellen eigenen Figur oder eines übernommenen Sauriers in der Truppe unter 40{NON_BREAK_SPACE}% liegen, 10{NON_BREAK_SPACE}Punkte Phlogiston, um dieser Figur oder diesem Saurier 40{NON_BREAK_SPACE}% LP wiederherzustellen, 10{NON_BREAK_SPACE}s Abklingzeit. Dieser Effekt gilt nicht in Sphären, Gebietssäuberungen oder im Gewundenen Abgrund.",
+        "Icon": "UI_Talent_S_Ifa_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1131,
+        "Name": "Arzneimittelherstellung aus Rankengewächsen",
+        "Description": "#Stellt Ifa beim Treffen von Gegnern mit {LINK#N11130001}<color=#FFD780FF>„Unterstützungsfeuer“</color>{/LINK} 6{NON_BREAK_SPACE}Punkte Elementarenergie wieder her, 8{NON_BREAK_SPACE}s Abklingzeit.",
+        "Icon": "UI_Talent_S_Ifa_01"
+      },
+      {
+        "Id": 1132,
+        "Name": "Gebet an den Geist der Ballistik",
+        "Description": "Verleiht Ifa im Zustand Nachtseelensegen für jeden Nachtseelenpunkt aller Truppenmitglieder insgesamt über 60 Punkten 4 Punkte {LINK#N11130002}<color=#FFD780FF>„Rettungsprinzipien“</color>{/LINK}.\nErhöht außerdem das Limit für Ifas „Rettungsprinzipien“ um 50 Punkte.\nDas passive Talent {LINK#P1132101}<color=#FFD780FF>„Sichtfeld des Feldarztes“</color>{/LINK} muss zuerst freigeschaltet werden.",
+        "Icon": "UI_Talent_S_Ifa_02"
+      },
+      {
+        "Id": 1133,
+        "Name": "Widerlegung in den Verhandlungen mit der Nacht",
+        "Description": "Erhöht die Stufe der Elementarfähigkeit <color=#FFD780FF>{LINK#S11132}Prophylaxe aus der Luft{/LINK}</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Ifa_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1134,
+        "Name": "Austausch des verfallenen Wirts",
+        "Description": "#Verlängert die Dauer des durch die Spezialfähigkeit <color=#FFD780FF>{LINK#S11135}Sammelsedierungsfeld{/LINK}</color> erzeugten bändigenden Windfelds auf 3{NON_BREAK_SPACE}s.\nErhöht außerdem nach dem Anwenden der Spezialfähigkeit <color=#FFD780FF>Sammelsedierungsfeld</color> Ifas Elementarkunde 15{NON_BREAK_SPACE}s lang um 100{NON_BREAK_SPACE}Punkte.",
+        "Icon": "UI_Talent_S_Ifa_03"
+      },
+      {
+        "Id": 1135,
+        "Name": "Schwur des Zusammenlebens",
+        "Description": "Erhöht die Stufe der Spezialfähigkeit <color=#FFD780FF>{LINK#S11135}Sammelsedierungsfeld{/LINK}</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Ifa_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1136,
+        "Name": "Versprechen des gefiederten Knotens",
+        "Description": "#Schießt beim Gedrückthalten von {LINK#N11130001}<color=#FFD780FF>„Unterstützungsfeuer“</color>{/LINK} mit einer Wahrscheinlichkeit von 50{NON_BREAK_SPACE}% eine zusätzliche Elixierkugel ab, die Anemo-Schaden in Höhe von 120{NON_BREAK_SPACE}% des ANG von Ifa verursacht. Hierdurch verursachter Schaden gilt als Schaden des Standardangriffs.\nVerringert Ifas Verbrauch an Nachtseelenpunkten und Phlogiston außerhalb des Kampfs im Zustand Nachtseelensegen um 20{NON_BREAK_SPACE}%.",
+        "Icon": "UI_Talent_S_Ifa_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "In den Spuren schweifender Winde",
+    "Detail": "Ein Tierarzt aus dem Blumenfeder-Klan, der jeden in sein Herz schließt, sei es nun Mensch oder Tier, für ihn ist jedes Lebewesen ein Gefährte.",
+    "Association": 9,
+    "Native": "Tlalocan",
+    "BirthMonth": 3,
+    "BirthDay": 23,
+    "VisionBefore": "Anemo",
+    "ConstellationBefore": "Catena Opele",
+    "CvChinese": "吕书君",
+    "CvJapanese": "寺島惇太 & 小松昌平",
+    "CvEnglish": "Jonny Loquasto & Dominic Catrambone",
+    "CvKorean": "Park Ki-wook",
+    "CookBonus": {
+      "OriginItemId": 108758,
+      "ItemId": 108821,
+      "InputList": [
+        101246,
+        100016,
+        100078,
+        110006
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Schön, dich kennenzulernen.",
+        "Context": "<color=#37FFFF>Ifa:</color> Hallo, ich bin Ifa, ein Tierarzt aus dem Blumenfeder-Klan. Du hast bestimmt schon ein paar Dinge über mich gehört, aber das passt schon. Welchen Eindruck du auch immer von mir hast – lass uns doch einfach bei null anfangen und einander richtig kennenlernen.\n<color=#37FFFF>Ifa:</color> Ach ja, genau. Dann gibt es da noch diesen kleinen Kerl ... Cacucu, mein Assistent. Ebenfalls ein ... Tierarzt, wenn auch eher mit der Betonung auf „Tier“. Ich hoffe, dass ihr euch gut verstehen werdet.\n<color=#37FFFF>Cacucu:</color> Schön, dich kennenzulernen, Brudi!"
+      },
+      {
+        "Title": "Gespräch – Ruhe",
+        "Context": "Hach, die meisten Dinge im Leben erledigt man nicht einfach so ein für alle Mal. Also, lass uns aufbrechen, sobald du ausgeruht bist."
+      },
+      {
+        "Title": "Gespräch – Snacks",
+        "Context": "Wann immer ich mal durchatmen kann, hab’ ich Lust auf einen Snack ... Hmm, hier sind ein paar Süßigkeiten, Obst und Trockenfleisch. Magst du was abhaben?"
+      },
+      {
+        "Title": "Gespräch – Ruf",
+        "Context": "Hast du das gehört? Klang nach dem Ruf von irgendeinem Tier. ... Hmm, oder vielleicht stimmt auch was mit meinen Ohren nicht."
+      },
+      {
+        "Title": "Wenn es regnet ...",
+        "Context": "Pass auf, wenn Cacucu sein Federkleid schüttelt, sonst wirst du klatschnass ... Wobei, also eigentlich bist du ja wahrscheinlich schon durchgenässt. Vergiss es einfach."
+      },
+      {
+        "Title": "Wenn es blitzt ...",
+        "Context": "Wusstest du, dass viele Saurier Angst vor Gewitter haben? Es braucht dann immer ewig, bis man sie wieder beruhigt hat, hehe. Schräge Vögel sind das manchmal!"
+      },
+      {
+        "Title": "Wenn es schneit ...",
+        "Context": "Puh, in diesem Wind bekomme ich ja kaum die Augen auf, einfach zu kalt ... Bei solchem Wetter fliege ich lieber vorerst nicht."
+      },
+      {
+        "Title": "Ein Sturm zieht auf.",
+        "Context": "Sieht so aus, als werde ich entweder meinen Hut verlieren oder meinen Atem ... Der Wind fordert seine Opfer."
+      },
+      {
+        "Title": "Guten Morgen.",
+        "Context": "Guten Morgen. Glaub ja nicht, dass ich gern so früh aufstehe. Aber ich muss zur Klinik und die Tiere füttern, sonst machen die noch richtig Radau."
+      },
+      {
+        "Title": "Guten Tag.",
+        "Context": "Oh, he. Ich wollte auch gerade Mittagspause machen. Gehen wir zusammen?"
+      },
+      {
+        "Title": "Guten Abend.",
+        "Context": "Nachts bleibe ich eher zu Hause. Denn so wissen die Menschen – und Saurier – wo sie mich im Notfall finden können. Und wenn es mal eine ruhige Nacht ist, kann ich mich einfach entspannen und erholen."
+      },
+      {
+        "Title": "Gute Nacht.",
+        "Context": "Gute Nacht. Man kann nie wissen, was das Leben am nächsten Tag für einen bereithält. Da ist das Beste, sich bis dahin gut auszuruhen."
+      },
+      {
+        "Title": "Über Ifa – Freundschaft",
+        "Context": "Ich würde sagen, dass ich eine Menge Freunde habe. Manche bereiten mir Kopfschmerzen, und andere lindern sie. Und wieder andere sind da irgendwo in der Mitte, je nach Tagesform. Ist aber ’ne gute Mischung. Alles tolle Leute."
+      },
+      {
+        "Title": "Über Ifa – Erfüllung",
+        "Context": "Ich weiß nicht, ob das andere auch so empfinden, aber ich persönlich mag das Gefühl, gebraucht zu werden. Es erfüllt mich. Vielleicht liegt darin auch der Schlüssel zu einem erfüllten Leben, dass man eben viele Momente hat, die einen so fühlen lassen. Aber jeder muss für sich selbst herausfinden, was ihn antreibt."
+      },
+      {
+        "Title": "Über uns – Erinnerung",
+        "Context": "<color=#37FFFF>Ifa:</color> Bereit für deine nächste Reise? Und du weißt auch, wohin es geht, fühlst dich gut und hast alles, was du brauchst?\n<color=#37FFFF>Ifa:</color> Also auf mich machst du einen guten Eindruck, und Paimon ist auch satt gegessen, ihr könnt also aufbrechen, denke ich ... Wobei – eine kleine Sache würde ich gern noch überprüfen ...\n<color=#37FFFF>Cacucu:</color> Nicht dein Ernst, Brudi!"
+      },
+      {
+        "Title": "Über uns – Nur um sicherzugehen",
+        "Context": "Du kennst mich jetzt schon eine Weile, also sei ehrlich – findest du manchmal, dass ich zu viel herumnörgele oder überfürsorglich bin? ... Nein? Bin gut so, wie ich bin? Puuuh ... Was für eine Erleichterung. Ich neige dazu, alles doppelt und dreifach zu überprüfen, wahrscheinlich, weil ich so viel mit Tieren zu tun habe, und die können ja nicht mit mir sprechen. Wie dem auch sei, ich wollte nur sichergehen, dass ich nicht nerve."
+      },
+      {
+        "Title": "Über das „Göttliche Auge“ ...",
+        "Context": "Dieses Ding ist eigentlich ziemlich nützlich. Manchmal, wenn die Saurier vom Fliegen müde sind, schicke ich einen kleinen Anemo-Windstoß los, um sie für eine Weile zu stützen. Ganz unauffällig natürlich, damit sie es nicht bemerken."
+      },
+      {
+        "Title": "Willst du mir etwas mitteilen?",
+        "Context": "Tiere mit Futter zu bestechen, ist ziemlich effektiv. Aber wenn man es übertreibt, dann wollen sie immer mehr Leckerlis für ein und dasselbe Verhalten, oder verlangen ihre Belohnung sogar, ohne sie sich zu erarbeiten. Daher versuche ich, wann immer es möglich ist, ihnen lieber beizubringen, wie es in der Welt wirklich läuft: Tappt man in eine Falle, zieht man sich eine Verletzung zu, und wenn man das Falsche frisst, wird man krank – solche Sachen halt.\nSo macht es zwar mehr Arbeit, aber das ist es meiner Meinung nach wert. Insbesondere vor dem Hintergrund, dass Tiere in manchen Fällen sogar schlauer als Menschen sein können."
+      },
+      {
+        "Title": "Interessante Vorkommnisse ...",
+        "Context": "Wenn man wirklich auf die Welt achtet, die einen umgibt, dann wird man all die fantastischen Dinge bemerken, die sie bereithält. Hätte ich die Zeit dazu, würde ich den ganzen Tag nur die Natur beobachten. Leider gibt es aber kaum einen Tag, an dem nicht die Arbeit an die Tür klopft."
+      },
+      {
+        "Title": "Über Kachina ...",
+        "Context": "Kachina scheint wirklich eine Schwäche für Saurier zu haben. Wenn sie sich richtig ins Zeug legen würde, gäbe sie sicher eine vorzügliche Tierärztin ab. Aber da sie sich schon als Kriegerin einen Namen gemacht hat, sollte sie sich wahrscheinlich besser darauf konzentrieren, anstatt nebenbei noch Medizin von mir zu lernen."
+      },
+      {
+        "Title": "Über Xilonen ...",
+        "Context": "Ich unterhalte mich sehr gern mit Xilonen, sie steckt immer voller fantastischer, kreativer Ideen. Manchmal führt ihr Beharren auf reiner Funktionalität zu Konstruktionen, die ein wenig ... einschüchternd wirken können. Aber andererseits ist Einschüchterung ja irgendwie auch eine Art Funktion."
+      },
+      {
+        "Title": "Über Kinich ...",
+        "Context": "Ernstgemeinte Frage: Geht Ajaw theoretisch als Lebewesen durch?\nAls er kürzlich in meine Sprechstunde kam, habe ich ihn auf Herz und Nieren überprüft, konnte aber nichts weiter feststellen. Deswegen habe ich Kinich geraten: „Klopf ihm einfach ein paar mal auf den Kopf, bis er wieder funktioniert.“\nUnd genau in dem Moment, als Ajaw das hörte, ging es ihm plötzlich wieder blendend. Schon ein seltsamer Zufall, oder?"
+      },
+      {
+        "Title": "Über Chasca ...",
+        "Context": "Ihre Arbeit als Friedensstifterin ist äußerst wichtig. Sie heilt eine Menge Leiden, die außerhalb meiner Expertise liegen."
+      },
+      {
+        "Title": "Über Ororon – Nicht zu viel Nachdenken",
+        "Context": "Die Gedankengänge von dem Typen sind wirklich eigenartig. Wenn man es mit ihm zu tun hat, sollte man einfach mitmachen und nicht allzu viel nachdenken. Ich würde mir auch nicht die Mühe machen, ihn verstehen zu versuchen, denn ehrlich gesagt wird man aus ihm nur selten schlau.\nNa ja, er ist ja kein schlechter Mensch oder so, und er zeigt auf seine ganz besondere eigene Art und Weise, dass ihm seine Freunde am Herzen liegen. Du wirst schon sehen, was ich meine, wenn du ihn mal kennengelernt hast."
+      },
+      {
+        "Title": "Über Ororon – Nur mal schauen",
+        "Context": "... Gut, auch wenn ich mich mittlerweile schon ganz gut an ihn gewöhnt habe, gibt es immer noch diese Tage, an denen ich wünschte, in seinen Kopf schauen zu können. Einfach nur um zu sehen, was da drin wirklich abgeht!"
+      },
+      {
+        "Title": "Über Citlali ...",
+        "Context": "Oma ... Jap, die ist echt ’n zäher Brocken. Mit einer bunten Pyjamakollektion, hahaha ...\nIch versuche, mich weitestgehend aus ihren und Ororons Dramen rauszuhalten. Wann immer ich ihm also etwas von ihr ausrichten soll, gebe ich die Nachricht einfach Wort für Wort weiter und stelle keine weiteren Fragen. Ich denke mir halt, wenn ich nicht in ihre Schusslinie geraten will, ist es besser, so wenig wie möglich zu wissen."
+      },
+      {
+        "Title": "Über Mavuika ...",
+        "Context": "Einmal hat mich der Pyro-Archon mitgenommen, als ich zu einem dringenden Notfall gerufen wurde. Digga, das war so abgefahren. Wir kamen also da an, während sich mein Kopf noch mit gefühlt einer Million Stundenkilometer drehte, und ich musste dann irgendwie versuchen, diesen kleinen Saurier wieder zusammenzuflicken ... Und hab’ es auch geschafft, ganz zu meiner eigenen Überraschung. Ich glaube, manchmal erkennen wir unser eigenes Potenzial erst, wenn wir aus unserer Komfortzone herausgeschubst werden."
+      },
+      {
+        "Title": "Über Neuvillette ...",
+        "Context": "... Was? Du möchtest, dass ich mich um ihn kümmere, falls er mal krank wird? Ähm ... Dir ist schon klar, dass ich Tierarzt und kein Humanmediziner bin, oder?\nHmm ... Na ja, Cacucu hat definitiv Gefallen an ihm gefunden ... Gut, in Ordnung. Ich werde mein Bestes geben."
+      },
+      {
+        "Title": "Ich will mehr über Ifa erfahren I",
+        "Context": "<color=#37FFFF>Ifa:</color> Das Gemälde auf der Tafel vor meiner Klinik – ist nicht von mir, ich schwöre!\n<color=#37FFFF>Cacucu:</color> Haha!"
+      },
+      {
+        "Title": "Ich will mehr über Ifa erfahren II",
+        "Context": "Ich kann mich nicht mehr daran erinnern, was Cacucus erstes Wort war. Was ich aber noch weiß, dass ich eines Morgens um fünf Uhr hochschreckte, als ich ein kreischendes „Aufstehen, Brudi!“ hörte ... Ich kann dir sagen, das ist vielleicht ’ne heftige Art, geweckt zu werden."
+      },
+      {
+        "Title": "Ich will mehr über Ifa erfahren III",
+        "Context": "Die Flugprüfung habe ich schon vor langer Zeit bestanden, ich könnte also theoretisch jeden beliebigen Qucusaurier zu Hilfe rufen. Aber seitdem Cacucu da ist, ist er in Bezug auf mich schon ein wenig besitzergreifend – er sieht mich vermutlich einfach nicht gern mit anderen Qucusauriern. Aber das passt schon. Klar, er ist noch ein bisschen zu jung für all das, aber da er sich seiner Aufgabe gewachsen fühlt, vertraue ich ihm gern."
+      },
+      {
+        "Title": "Ich will mehr über Ifa erfahren IV",
+        "Context": "Ich möchte so eine Person sein, in deren Nähe sich alle anderen sicher fühlen. Es ist ein seltenes Privileg, von anderen Leute so viel Vertrauen geschenkt zu bekommen – und nicht jeder kann damit umgehen."
+      },
+      {
+        "Title": "Ich will mehr über Ifa erfahren V",
+        "Context": "Es ist echt toll, Tierarzt zu sein. Klar, es wird immer diese Momente geben, in denen man sich verabschieden muss, aber ich habe meine Entscheidung noch nie bereut. Tiere sind oft wie Kinder – lebhafte kleine Racker und manchmal kompliziert im Umgang. Aber vor allem sind sie die Zukunft, und ich werde sie immer beschützen"
+      },
+      {
+        "Title": "Ifas Hobbys ...",
+        "Context": "Singen als Hobby ist im Blumenfeder-Klan sehr populär. Auch ich nehm gerne mal die Gitarre in die Hand und schreibe ein Lied, ab und zu. Emotional gesehen kann das richtig entlastend sein."
+      },
+      {
+        "Title": "Ifas Sorgen ...",
+        "Context": "<color=#37FFFF>Ifa:</color> Ich glaube, ich bin eigentlich ziemlich gut dran, ehrlich gesagt. Nichts raubt mir nachts den Schlaf ... Oh, aber es wäre schon schön, wenn Cacucu ein paar mehr nützliche Sätze lernen würde.\n<color=#37FFFF>Cacacua:</color> Was redest du da für einen Stuss?"
+      },
+      {
+        "Title": "Was er so mag ...",
+        "Context": "Es gibt nichts Besseres, als frisches Obst – stillt den Hunger und löscht den Durst mit einem Bissen. Außerdem kann ich auch Cacucu ein paar Stückchen abgeben."
+      },
+      {
+        "Title": "Was er nicht mag ...",
+        "Context": "Frisches Obst ist toll, aber wenn Leute ihre Gerichte mit Obst aufpeppen wollen, denk’ ich mir immer ... Warum kann ich es nicht einfach so essen?"
+      },
+      {
+        "Title": "Geschenk erhalten I",
+        "Context": "<color=#37FFFF>Cacucu:</color> Gib her, Brudi!\n<color=#37FFFF>Ifa:</color> Wo hast du denn gelernt, Ansprüche auf Sachen anzumelden, hm? Na gut, hier hast du die Hälfte."
+      },
+      {
+        "Title": "Geschenk erhalten II",
+        "Context": "Mh, sehr lecker. Ich hole ein bisschen Obstsaft zum Runterspülen. Welche Sorte möchtest du?"
+      },
+      {
+        "Title": "Geschenk erhalten III",
+        "Context": "<color=#37FFFF>Cacucu:</color> Echt jetzt? Brudi, schau dir mal das Chaos an, das du angerichtet hast ...\n<color=#37FFFF>Ifa:</color> Nein, nein, das sieht doch noch problemlos essbar aus. Danke dir, Digga."
+      },
+      {
+        "Title": "Dein Geburtstag ...",
+        "Context": "Alles Gute zum Geburtstag! Ich wünsche dir viel Gesundheit und ewige Jugend.\nSicher, den gnadenlosen Lauf der Zeit kannst du nicht aufhalten, aber du kannst versuchen, im Herzen stets jung zu bleiben – und ganz nebenbei ist schlechte Laune nicht gut für deine Gesundheit. Also, lass deine Sorgen zumindest heute mal links liegen und lass uns ein bisschen Spaß haben.\nAch ja, und welche Musik gefällt dir eigentlich? Ich spiel’ dir ein Lied."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Beginn",
+        "Context": "Ist das sowas wie ’ne Aufwärmübung?"
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Fortschritt",
+        "Context": "Nur, wer sich gut um sich selbst kümmert, kann sich auch um andere kümmern, stimmt’s?"
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Höhepunkt",
+        "Context": "Die Pistole, die man am seltensten zieht, sollte man besser gut instand halten ... Oh Mann, was rede ich da – Ich bin Mediziner, kein Krieger. Ich lasse meine Waffe im Holster, es sei denn, ich brauche sie unbedingt."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Ende",
+        "Context": "<color=#37FFFF>Ifa:</color> Danke, Digga! Solltest du jemals bei irgendetwas Hilfe brauchen, zögere nicht – sag mir einfach Bescheid!\n<color=#37FFFF>Cacucu: </color> Sag mir einfach Bescheid, Brudi!"
+      },
+      {
+        "Title": "Elementarfähigkeit I",
+        "Context": "Los geht’s!"
+      },
+      {
+        "Title": "Elementarfähigkeit II",
+        "Context": "Achte auf die Windrichtung!"
+      },
+      {
+        "Title": "Elementarfähigkeit III",
+        "Context": "<color=#37FFFF>Cacucu:</color> Auf und davon!"
+      },
+      {
+        "Title": "Elementarfähigkeit IV",
+        "Context": "<color=#37FFFF>Cacucu:</color> Oh je! Oh jeee!\n<color=#37FFFF>Ifa:</color> Du schaffst das, Kollege!"
+      },
+      {
+        "Title": "Spezialfähigkeit I",
+        "Context": "Pass auf, wohin du trittst!"
+      },
+      {
+        "Title": "Spezialfähigkeit II",
+        "Context": "Nichts Persönliches."
+      },
+      {
+        "Title": "Spezialfähigkeit III",
+        "Context": "Komm her, du kleiner Frechdachs!"
+      },
+      {
+        "Title": "Truhe öffnen I",
+        "Context": "Guter Job! Du hast echt ein Händchen dafür, diese Dinger zu finden."
+      },
+      {
+        "Title": "Truhe öffnen II",
+        "Context": "Heute ist wohl mein Glückstag."
+      },
+      {
+        "Title": "Truhe öffnen III",
+        "Context": "Falls du es nicht alleine tragen kannst, werde ich Cacucu um Hilfe bitten."
+      },
+      {
+        "Title": "Niedrige LP I",
+        "Context": "Ich kann kaum noch atmen ..."
+      },
+      {
+        "Title": "Niedrige LP II",
+        "Context": "Ein letzter Versuch, komm schon ..."
+      },
+      {
+        "Title": "Niedrige LP III",
+        "Context": "<color=#37FFFF>Cacucu:</color> Ifa? Ifa!\n<color=#37FFFF>Ifa:</color> Ich weiß, ich weiß ..."
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP I",
+        "Context": "Ich bin da."
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP II",
+        "Context": "Das solltest du untersuchen lassen."
+      },
+      {
+        "Title": "Ohnmächtig I",
+        "Context": "Ich dachte, der Krieg sei vorbei ..."
+      },
+      {
+        "Title": "Ohnmächtig II",
+        "Context": "Tut mir leid, ich habe alles versucht ..."
+      },
+      {
+        "Title": "Ohnmächtig III",
+        "Context": "Ich hätte noch mehr retten können ..."
+      },
+      {
+        "Title": "Leichten Treffer erlitten I",
+        "Context": "Lass das ..."
+      },
+      {
+        "Title": "Schweren Treffer erlitten I",
+        "Context": "Nicht dein Ernst, Brudi!"
+      },
+      {
+        "Title": "Schweren Treffer erlitten II",
+        "Context": "*vom Schmerz gezeichnet* ... Kannst du nicht ein bisschen netter sein?"
+      },
+      {
+        "Title": "Truppenbeitritt I",
+        "Context": "Steht eine lange Reise an?"
+      },
+      {
+        "Title": "Truppenbeitritt II",
+        "Context": "Erste-Hilfe-Kit steht bereit."
+      },
+      {
+        "Title": "Truppenbeitritt III",
+        "Context": "Auf eine sichere Reise!"
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Figurendetails",
+        "Context": "Der Blumenfeder-Klan lebt über den Himmel, so sagen alle in Natlan.\nObwohl die Nachkommen der Baumkrone von einer Klippe zur nächsten springen und die Meister des Nachtwinds die Sterne am Himmel von den Gipfeln ihrer Berge betrachten, genießt doch nur der Blumenfeder-Klan das Privileg, die Wolken als ihre Federn zu tragen und auf den Regenbögen zu reiten; sie sind die wahren Ritter des Himmels.\nDie Freude, den Blick nach oben zu richten, sie ist unvergleichbar. Nichts, was einem die Sicht versperrt, nur eine große, weite Leere, in der der menschliche Durst nach dem Fliegen, nach unbeschwertem Dasein, in vollem Umfang gestillt wird.\nDoch die Flammen des Krieges breiten sich immer weiter unter den Füßen aus, und ihnen folgen die lauter werdenden Hilferufe. Selbst ein Qucusaurier wird stets hinabstürzen, wenn er verwundet wird.\nIfa ist der Ritter, dessen Augen immer auf das gerichtet sind, was unter ihm liegt. Es ist seine Pflicht, es liegt in seiner Natur. Zudem vernimmt sein scharfer Blick Probleme schon von weitem.\n„Ob nun Mensch oder Tier, jeder muss irgendwann wieder auf den Boden zurückkehren“, so sagt es Ifa und lächelt einfach nur."
+      },
+      {
+        "Title": "Figurenhintergrund 1",
+        "Context": "Ororon sagte einmal: „Wenn Menschen Ärzte für Saurier sein können, dann können Saurier doch wohl auch Ärzte für Menschen sein.“\n„... Nicht alles, was richtig klingt, muss auch stimmen“, antwortete Ifa nach langem Schweigen.\n„Ist das so ...“\nIfa konnte nicht umhin, einen Anflug von Mitleid zu verspüren, als er Ororon das sagen hörte. Der Junge war nicht dumm; er hatte nur die Angewohnheit, manchmal unlogische Äußerungen von sich zu geben, einfach, um eine Reaktion aus ihm herauszubekommen. Tief in seinem Inneren wusste Ifa das natürlich. Dabei konnte er nicht anders, als auf sein bisheriges Leben zurückzublicken und sich zu fragen: Wie war er eigentlich hier gelandet?\nIm Leben wird es immer etwas geben, das unabänderlich sein wird. Das Dasein als Tierarzt zum Beispiel: Es ist so, als würde man einen Kindergarten leiten, nur dass diesen Kindern jeglicher logischer Verstand fehlt und man sie unmöglich kontrollieren kann. Alles, was man tun kann, ist, sie zu trösten ... vor allem, wenn bald der unvermeidliche Schmerz auf sie wartet. Schmerz durch Wunden, durch das Säubern ebendieser, durch das Einnehmen von Medikamenten und durch das Setzen von Spritzen ... Seien wir doch mal ehrlich, wäre Ifa selbst einer dieser Welpen oder Kätzchen, wäre er ebenfalls nicht in der Lage, den Unterschied zwischen diesen vielen Arten von Schmerz zu erkennen.\nUnd wenn es weh tut, weinen und kämpfen sie. Das liegt in der Natur aller Lebewesen. Der Verlust der Fähigkeit, Schmerz zu empfinden, ist in der Tat mit dem Verlust des natürlichen Alarmsystems des Körpers vergleichbar, und das wäre gefährlich.\nVielleicht ist es im Leben ja genauso. Kummer und Abschied sind einfach unabänderlich, um uns daran zu erinnern, dass das Leben immer weitergeht, dass Saurier und Menschen gleichermaßen erwachsen und älter werden.\nDas gehört zum Dasein als Arzt einfach dazu. Es ist der Preis, den dieser Beruf mit sich bringt. Zumindest beruhigt sich Ifa selbst damit.\nIm Gegenzug erhält er Liebe und Dankbarkeit von Menschen und Tieren gleichermaßen, zusammen mit den Banden, die er mit vielen „Brüdern“ aller Art und Herkunft knüpft.\nSolange all die Freude die Hilflosigkeit und den Kummer wegwischen kann ... solange lohnt es sich auch, zu kämpfen."
+      },
+      {
+        "Title": "Figurenhintergrund 2",
+        "Context": "Manchmal kann sich Ifa dem Gefühl nicht verwehren, dass man sich nicht unbedingt aussucht, wo einen das Leben so hinführt. Vielmehr landet man im Laufe der Zeit auf natürliche Weise in einer bestimmten Position.\nZum Beispiel kann er sich nicht daran erinnern, wann er zu jemandem wurde, der sich um andere kümmert. Die Nachbarskinder nennen ihn Bruder (oder großer Bruder). Saurier, in Krankheit und Gesundheit, fangen an zu wimmern, wenn er geht, und selbst die Älteren begegnen ihm mit Respekt und nennen ihn „Doktor“ ... Bei dem Gedanken daran, wie er behandelt wird, macht sich hin und wieder Angst in Ifas Herzen breit.\nNatürlich erfüllt es ihn aber auch mit Stolz und Zufriedenheit. Vielleicht ist also die Angst, die so quälend an ihm nagt, einfach nur die Furcht davor, dass er eines Tages ihr Vertrauen verlieren könnte. Das treibt ihn manchmal zu extremen Taten: Er bastelt Spielzeug für Saurierwelpen, gibt Gitarrenkonzerte, schleppt Säcke mit frischem Obst für seine Nachbarn, wenn er von der Behandlung eines Patienten zurückkehrt ... Ja, ab und zu kann man ihn sogar dabei beobachten, wie er den Kindern des Stammes bei den Hausaufgaben hilft.\nEs ist, als hätte jemand den Lauf der Zeit durcheinander gebracht. Es fühlt sich wie gestern an, als Ifa noch mit dem Gedanken haderte, Tierarzt zu werden, und wie er sich schwertat, den Rücken eines Sauriers zu besteigen; und plötzlich ... nun ja, war das Leben passiert. Auf einmal wusste er, dass er erwachsen geworden war, jemand, auf den sich die Menschen um ihn herum verlassen konnten und der sich am Höhepunkt seines Schaffens befand.\nIfa ist nicht unzufrieden, sondern sogar sehr dankbar. Es ist nur, dass die Ältesten des Stammes gelegentlich über alte Geschichten sprechen und er sich dabei daran erinnert, was für ein Junge er früher war.\nEinige Kinder lieben es, diese alten Geschichten zu hören. Ein Junge, der noch die Krümel von seinem Vulkankuchen am Mund hatte, lachte, als er peinliche Geschichten darüber hörte, dass Ifa kaum ein Buch auswendig kennen konnte. „Der große Ifa war also auch einmal ein kleiner Ifa! Wie lustig ist das denn!“\nSeit Langem hatte ihn niemand mehr so genannt. Ifa war einen Moment lang überrascht, aber er kam schnell wieder zu sich, wischte dem Kind den Mund ab und sagte lachend: „Was gibt’s denn da zu lachen? Wie alt bist du denn jetzt?“\n„Ich bin sechs Jahre alt!“\n„Wer hätte das gedacht? Ich bin fünf! Willst du mein ‚großer Bruder‘ sein?“"
+      },
+      {
+        "Title": "Figurenhintergrund 3",
+        "Context": "Ifa hat eine große Familie, wenn man alle entfernten Verwandten mitzählt. Seine Familie ist für ihre Fähigkeiten in der Tiermedizin berühmt, aber wenn man genauer nachforscht, bemerkt man, dass nicht viele in diesem Bereich arbeiten. Mit anderen Worten, Ifa war nicht gezwungen, ein Tierarzt zu werden, weder aus sentimentalen noch aus logischen Gründen.\nAußerdem ist das Studium für einen solchen Beruf überaus anstrengend. Ifa hatte das Gefühl, dass er während seiner Kindheit nur Bücher über Medizin lesen musste, und die Wörter und Diagramme wehten wie ein Windhauch durch sein Gehirn, an einem Ende rein, am anderen wieder raus. Der kleine Ifa dachte wütend: „Ich muss doch nicht unbedingt Tierarzt werden, oder?“\nDas musste er nicht, aber schon bald hatte er die Phase hinter sich, in der er die Bücher nicht verstand. Ifas Eltern waren – vielleicht lag es an ihren häufigen Besuchen auf den Schlachtfeldern, um die Verwundeten zu pflegen – nämlich vom Abgrund beeinträchtigt und ihr Gesundheitszustand war nicht immer gut. Obwohl er noch so jung war, überkam Ifa eine Art von Offenbarung und er dachte oft besorgt: „Ich ... muss doch nicht unbedingt Tierarzt werden, oder?“\nOb Offenbarung oder nicht, Frühreife oder nicht, Ifa war noch nicht ganz erwachsen, als seine Eltern starben. Nachdem er an ihrer Beerdigung teilgenommen hatte, wurde der Siebzehnjährige von einem Gefühl der Leere überwältigt. Jetzt wusste er nicht mehr, was er denken sollte.\nUnd am Ende wurde er doch ein Tierarzt.\nVielleicht lag es an der Tradition oder an seiner Gewohnheit, aber Ifa wurde bald als der Saurierarzt mit den besten Fähigkeiten, dem sanftesten Temperament und dem stärksten Verantwortungsbewusstsein bekannt. Sobald er einmal einen Entschluss gefasst hatte, dachte er nicht mehr über andere Dinge nach. Und als der Krieg immer heftiger wütete, wurde die Liste seiner Aufgaben immer länger, aber gerade diese Last der Arbeit half ihm durch eine schwierige Phase seines Lebens.\nNun, da der Krieg endlich vorbei war, hatte Ifa Zeit, sich hinzusetzen und über sein Leben nachzudenken. Aber gab es da überhaupt viel nachzudenken?\n„Jeder Mensch hat Dinge, die er tun muss“, dachte er. „Ich möchte einfach, dass alle glücklich sind.“"
+      },
+      {
+        "Title": "Figurenhintergrund 4",
+        "Context": "Wenn er sich seinem Mitgefühl hingäbe und jeden verletzten kleinen Saurier aufnähme, dem er begegnete, müsste Ifa seine Klinik verlassen und ein Leben in der Wildnis führen. Er kennt sich selbst am besten: Würde er sich auf diesen Weg begeben, würde er ihn bis zum Ende gehen. Deshalb hat er ein ungeschriebenes Gesetz: Wenn es irgend möglich ist, nimmt er auf Dauer keine Tiere (oder Menschen und andere Lebewesen) auf.\n„Nein, nein, neeein ...“ Ifa wendet seinen Blick von der mitleidigen Miene seines neusten kleinen Patienten ab: „Ich werde auf jeden Fall ein Zuhause für den Kleinen hier finden ... Es darf nur nicht meine Klinik sein. Wir haben hier schon alle Hände voll zu tun.“\nSeine Disziplin im Laufe der Jahre war lobenswert, weshalb er sich auch nicht eingestehen will, dass Cacucu die Ausnahme von der Regel ist.\n„Dieser kleine Kumpel wird nie erwachsen“, sagt Ifa, um sich herauszureden. „Er ist klein, er ist rund, er kann sprechen, aber er weiß nicht wirklich, was er sagt ... Es wäre gefährlich, ihn ganz allein in der Wildnis zu lassen. Deshalb habe ich ihn unter meine Fittiche genommen ... fürs Erste zumindest.“\n„Er lässt sich einfach ausnutzen. Es ist ihm nur zu peinlich, es zuzugeben“, sagte Ororon und legte damit die Wahrheit offen.\nAber obwohl Ororon dann so tat, als hätte die Sache nichts mit ihm zu tun, hatte er tatsächlich dazu „beigetragen“, dass Ifa Cacucu aufnahm, indem er auf das Gemüse auf seinem Feld zeigte, das auffällige Cacucu-Schnabel-Löcher in den Blättern aufwies, wobei die Geste eine stumme Anschuldigung an Ifa war.\nUnfähig, Ausreden zu finden oder Cacucu auch nur im Geringsten abzuschütteln, sah sich Ifa schließlich gezwungen (zumindest ließ er es so aussehen), Cacucu aufzunehmen. Er bot sogar an, einen Monat lang Ororons Zusteller zu sein, um ihn für die von Cacucu verursachten Ernteverluste zu entschädigen.\nWenn man jedoch genau darüber nachdenkt, hat diese Geschichte eigentlich zwei Lücken, von denen Ifa nichts wusste.\nZum Einen war da der merkwürdige Vorfall auf dem Feld. Cacucu ist kein dummer Saurier, also warum hatte er sich überhaupt mit Ororon angelegt? In Wahrheit waren die beiden die ganze Zeit über Komplizen. Damit Cacucu seinen großen Traum, Assistent in Ifas Klinik zu werden, verwirklichen konnte, musste er erst einmal in die Klinik kommen. Und um das zu erreichen, musste er Ifa in die Enge treiben.\nZum Anderen erinnert sich Cacucu, obwohl Ifa glaubt, dass er den kugelrunden Qucusaurier zum ersten Mal sah, als er ihn auf der Straße rettete, an ein anderes, älteres Kapitel ihrer Geschichte. Keiner weiß es, aber Cacucus Mutter war einst schwer verletzt und hätte das Ei, aus dem dieses kleine Genie von einem Saurier schlüpfte, vielleicht nie ausgebrütet, wenn Ifa nicht eingegriffen hätte. Und als besagter Saurier die Schale seines Eis durchpickte, sah er Ifa zum ersten Mal. Leider kann sich Ifa daran nicht mehr erinnern.\nEinerseits fehlt Cacucu das Vokabular, um den Vorfall zu erläutern. Andererseits war es auch nie nötig und so hat Cacucu nie versucht, Ifa alles zu erzählen. Seine Mutter starb schließlich an den Folgen alter Verletzungen und für einen kleinen Saurier war es nicht einfach, allein in der Wildnis zu überleben. Da Cacucu noch nicht mit vielen Menschen in Berührung gekommen war, beschloss er schnell, dass Ifa, der seiner Mutter schon einmal geholfen hatte, genau richtig wäre, um ihm zu folgen. Und wenn er eines Tages Assistent in dieser Klinik werden und sich für den Gefallen revanchieren könnte, dann umso besser. Was für eine wunderbare Leistung in der Welt der Saurier würde das werden!\nNachdem der erste Schritt getan war, kam nun Phase zwei von Cacucus genialem Plan, nämlich zu lernen, wie man sich dumm stellt.\nWenn man bedenkt, wie Ifa immer die Verantwortung auf sich nimmt, könnte er nach der Entdeckung von Cacucus Herkunft ein unerklärliches Schuldgefühl und Verantwortungsbewusstsein entwickeln.\nAber beschloss Cacucu, dass es am besten wäre, diesen ganzen Unsinn zu überspringen. Wenn sie Freunde werden sollten, wollte er, dass ihr Bruditum von einem aufrichtigen, von der Vergangenheit ungetrübten Standpunkt aus entstand."
+      },
+      {
+        "Title": "Figurenhintergrund 5",
+        "Context": "Ifa hielt sich ernsthaft für recht sportlich. Und da er gut mit den Sauriern auskam und seine Flugprüfung mit Bravour bestanden hatte, sollte er in der Lage sein, ganz Natlan zu durchqueren.\nDarum beschloss Ifa, noch bevor er viele Verpflichtungen hatte, andere Stämme zu besuchen.\nBei den Kindern der Echos lernte er die erfahrene Schmiedin Xilonen kennen. Sie erwies sich als recht eifrig und machte ohne große Diskussionen Entwürfe für Ifas medizinische Ausrüstung. Später erfuhr er, dass die Xilonen noch einen Auftrag von Mavuika zu erledigen hatte, sodass jede Arbeit, die nichts damit zu tun hatte, eine dringend benötigte Abwechslung war. Andere sagten, dass Xilonen in der Regel nicht zu erreichen war (weil sie unglaublich schnell in die Berge flüchtete), und Ifa konnte sich glücklich schätzen.\nBei den Nachkommen der Baumkrone spürte Ifa eine ähnliche Atmosphäre wie beim Blumenfeder-Klan: Jeder lebte in seinem eigenen Tempo inmitten der Wolken. Er genoss seine Zeit dort, schleuderte Kletterseile und erklomm Klippen. Das Einzige, was er bedauerte, war, dass er nicht den legendären „Saurierjäger“ kennengelernt hatte, von dem alle immer wieder sprachen. Erst später, als Ajaw in seiner Klinik vorbeischaute, sollte ihm dieser Wunsch erfüllt werden. Es war ein glückliches Ende für alle, nun ja, außer für Ajaw.\nBevor er sich auf den Weg machte, hatte Chasca Ifa von einer Fremdenführerin namens Mualani erzählt, die er bei den Menschen der Quellen finden könnte. Seine ersten beiden Versuche, diese in ihrem Wassersportgeschäft zu finden, waren erfolglos, er stolperte nur über ein Haifisch-Surfbrett. Schließlich beschloss er, auf eigene Faust an einem Surfwettbewerb teilzunehmen, und bei der Preisverleihung traf er schließlich auf sie. Als er erfuhr, dass er bei seinem allerersten Surfversuch den dritten Platz erreicht hatte, überschüttete ihn Mualani mit Lob. Diese warmen Worte der amtierenden Meisterin waren Gold wert.\nWas das Kollektiv der Fülle anbelangt, so waren ihre Früchte absolut göttlich, auch wenn die Reise viel angenehmer gewesen wäre, wenn nicht an jeder Ecke Leute gewesen wären, die Ifa zum Armdrücken herausforderten. In dem Bewusstsein, dass die Chancen auf einen Sieg gering waren, lehnte Ifa Dutzende von Einladungen unter dem Vorwand ab, dass er seine Hände für die Ausübung der Medizin brauchte. Schließlich endete dieses Kapitel seiner Reise damit, dass er sich für drei Monate zu Fitnesskursen bei Iansan anmeldete, an denen er nicht einmal teilnahm, bis er sich mit einem herzlichen Winken von allen verabschiedete.\nUnd die Meister des Nachtwinds ... lagen dem Blumenfeder-Klan einfach am nächsten. Sie sind auch der geheimnisvollste der Stämme. Ifa war sich nicht einmal sicher, was man dort als Besucher tun sollte, also dachte er, er würde auf dem Heimweg einfach mal vorbeischauen. Während er so spazierte, wurde er das Gefühl nicht los, dass er beobachtet wurde, und doch war jedes Mal, wenn er sich umdrehte, niemand zu sehen. Wie ein Iktomisaurier, der seinen eigenen Schwanz hinterherjagt, tanzte er lange Zeit diesen absurden Walzer und murmelte dabei vor sich hin.\nGerade als er gehen wollte, hörte er einen Schrei, „ah!“, und blieb stehen. Als er sich das letzte Mal umdrehte, sah Ifa ein Mädchen mit hellen Haaren, das eine Hand in ihre Hüfte stemmte und die andere wütend auf ihn richtete. Bevor er überhaupt wusste, was er falsch gemacht hatte, packte ihn jemand anderes und rannte mit ihm davon.\nDas ging alles so schnell, dass Ifa die Einzelheiten der Geschehnisse gar nicht erfassen konnte. Jedenfalls war er unbeabsichtigt in eine Jagd verwickelt, in der eine Oma ihren Enkel verfolgte. Der Grund dafür war, dass Ororon sich in der Kunst der Unsichtbarkeit üben wollte und deshalb immer absichtlich hinter Unbeteiligten stand, was sogar bei den Ältesten des Stammes funktionierte.\n„Leute, was ist diese Kunst der Unsichtbarkeit? Gibt es sowas überhaupt?“ Ifas aufrichtige Neugier und seine gute Laune besänftigten schließlich den Zorn von Oma Itztli.\nAls er schließlich müde nach Hause kam, fragten ihn seine Eltern, wie die Reise gelaufen war. Er hätte viel zu erzählen gehabt, aber er war zu müde dafür, also antwortete er nur: „War super, ich habe viele neue Freunde kennengelernt.“\nFreunde, die er wiedersehen würde, dachte er sich."
+      },
+      {
+        "Title": "Unterlagen",
+        "Context": "Fast jeden Tag nimmt sich Ifa etwas Zeit, um seine medizinischen Unterlagen zu sortieren und aufzuräumen. Er verbringt diese seltenen Momente der Ruhe damit, neue und alte Fälle durchzulesen und sich an all die Krankheiten und Verletzungen zu erinnern, die er erlebt hat. Jede Lektion aus der Vergangenheit ist wertvoll, ein Juwel, das es wert ist, mit anderen geteilt zu werden, die denselben Weg gehen wollen.\nGleichzeitig ist das Ausrichten der Ecken jeder Seite eine gute Möglichkeit für Ifa, seinen Körper und Geist zu entspannen.\nAber Legenden von Helden und kostbare alte Schriftrollen sind es nicht. Diese hastig hingekritzelten Notizen, vollgestopft mit fadem medizinischem Jargon, werden vielleicht nie den Blick eines anderen als ihres Verfassers auf sich ziehen.\nTrotzdem kann sich Ifa völlig darin vertiefen. Oft blättert er so in diesen alten Unterlagen herum. Während er sich an die Details der einzelnen Diagnosen und Behandlungen erinnert, macht er sich manchmal sogar ein paar zusätzliche Notizen.\nSchließlich bringt er sie wieder in den Schrank zurück und legt ein paar Insektenabwehrmittel oder Trockenmittel dazu, wenn nötig.\nDiese Gewohnheit setzte sich von Tag zu Tag fort, genau wie die Pflanzen und Bäume, die gedeihen und kahl werden, und die Jahreszeiten, die sich abwechselten."
+      },
+      {
+        "Title": "Göttliches Auge",
+        "Context": "Eines Tages wurde es Nachmittag, ohne dass Ifa die Türen seiner Klinik öffnete. Irgendetwas stimmte nicht, begannen die Leute zu sagen.\nZunächst dachten die Nachbarn, er sei auf Abruf zu einem anderen Stamm gegangen und habe dort übernachtet. Erst als jemand einen kranken Saurier vor seine Haustür brachte, tauchte Ifa auf, völlig fertig und von plötzlichem hohem Fieber geplagt.\nBevor der Besucher auch nur den Mund öffnen konnte, murmelte Ifa bereits: „Alles gut, Bruder“, und untersuchte den Saurier am ganzen Körper.\nWie man so schön sagt: „Ein Unglück kommt selten allein.“ Als er gerade dabei war, ein Rezept zu schreiben, stürzte ein anderer herein und rief, dass ein Überfall des Abgrunds aus Richtung der aschenen Stadt käme und ein Arzt gebraucht würde, um die verwundeten Qucusaurier dort zu retten.\nIfa murmelte erneut und sagte, „Schon in Ordnung, Bruder“, und folgte dem Reiter an die Front.\nIn der Nacht, nachdem alles vorbei war, trank Ifa die Medizin, die ihm sein Nachbar gegeben hatte, und schlief dann einen ganzen Tag lang. Als er schweißgebadet aufwachte, kramte er an seinem Nachttisch nach Wasser. Doch was er stattdessen fand, war ein Göttliches Auge.\nWegen seines hohen Fiebers waren Ifas Erinnerungen etwas verschwommen. Für ihn unterschied sich das, was am Tag zuvor passiert war, kaum von seiner üblichen Routine, und es war auch nicht das erste Mal, dass er sich gezwungen hatte, während einer Krankheit zu arbeiten. In seinen Augen hatte er nichts Besonderes getan, das es rechtfertigen würde, dass der Himmel beschloss, dass er jetzt unbedingt ein Göttliches Auge brauchte.\nAlle anderen hatten jedoch eine andere Auffassung davon. Der Häuptling glaubte, dies sei eine Belohnung für seine selbstlose Arbeit, während die Oma von nebenan meinte, es sei eine Entschädigung für seine Aufopferungsbereitschaft. „He, He, Oma, ‚Aufopferung‘ geht ein bisschen zu weit!“, sagte Ifa dazu und wedelte hastig mit den Händen.\nDa sagte ein Kind zu ihm mit einer Weisheit einem Erwachsenen ähnlich: „Man sagt, der Wind bläst die Menschen zusammen. Vielleicht möchten dich die Götter daran erinnern, dass du dich auf deine Gefährten verlassen kannst, wenn es schwierige Zeiten gibt.“ Ifa widersprach dem Kind nicht. Immerhin war das eine vernünftige Aussage. Aber andererseits hatte er sich einfach von seinen Instinkten leiten lassen, um das zu tun, was er tun musste, wenn es hart auf hart kam. Hätte es eine andere Möglichkeit gegeben?\nSie hätten ewig darüber diskutieren können, ohne jemals zu einem Ergebnis zu kommen. Wer kann das schon sagen? Vielleicht dachte der Himmel, dass eine kühle Brise genau das Richtige für sein Fieber war. Kopfschüttelnd beendete Ifa das Gespräch und ließ die Angelegenheit ruhen.\nDie meiste Zeit über benutzte er sein Göttliches Auge nicht einmal, zumindest nicht, bevor er Cacucu bei sich aufnahm. Nachdem Cacucu ein Teil seines Lebens geworden war, bestand dieser darauf, dass Ifa ihn überall hinfliegen sollte, und juchzte bei diesen Ausflügen immer „Höher, Brudi! Höher!“\nIn Zeiten wie diesen erwies sich sein Göttliches Auge als sehr nützlich."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 211300,
+      "Name": "Pfeifpfeilflügel",
+      "Description": "Ifas Kleidung. Du hast Ifa noch nie seinen Hut wechseln sehen, aber tatsächlich hat er ihn schon viele Male gewechselt – nur jedes Mal mit einem identisch aussehenden. „Wenn du einen Hut trägst, denk daran, eine Schnur an ihm zu befestigen, Digga, damit er nicht immer vom Wind weggeweht oder von vorbeifliegenden Sauriern mitgenommen wird“, sagte er mit einem Seufzer, als es um seinen Hut ging.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104154,
+    113072,
+    101250,
+    112103,
+    104355,
+    113074
+  ],
+  "NameCard": {
+    "Name": "Ifa – Brüder",
+    "Description": "Ein Motiv für Namenskärtchen.\n„‚Hat es eigentlich Sinn, mit Ifa eine Freundschaft aufzubauen?‘ Aber natürlich, Bruder, und zwar sowas von!‘“ „Aber natürlich, Brudi, aber natürlich!“",
+    "Icon": "UI_NameCardIcon_Ifa",
+    "PicturePrefix": "UI_NameCardPic_Ifa"
+  }
+}

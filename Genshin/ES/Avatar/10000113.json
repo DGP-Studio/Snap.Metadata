@@ -1,0 +1,1054 @@
+{
+  "Id": 10000113,
+  "PromoteId": 113,
+  "Sort": 97,
+  "Body": 4,
+  "Icon": "UI_AvatarIcon_Ifa",
+  "SideIcon": "UI_AvatarIcon_Side_Ifa",
+  "Name": "Ifá",
+  "Description": "Un veterinario de la Tribu Plumaflora que ama la compañía de personas, animales y demás seres vivos.",
+  "BeginTime": "2025-05-06T00:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 845.2303,
+    "AttackBase": 14.95872,
+    "DefenseBase": 50.758575
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 11331,
+        "Proud": {
+          "Descriptions": [
+            "Daño de 1er golpe|{param1:F1P}",
+            "Daño de 2.º golpe|{param2:F1P}",
+            "Daño de 3er golpe|{param3:F1P}",
+            "Daño de ATQ Cargado|{param4:F1P}",
+            "Coste de Aguante de ATQ Cargado|{param5:F1} pts.",
+            "Daño de Caída|{param6:F1P}",
+            "Daño de impacto de caída baja/alta|{param7:P}/{param8:P}"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.536072,
+                0.474672,
+                0.747584,
+                1.4704,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                0.576277,
+                0.510272,
+                0.803653,
+                1.58068,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                0.616483,
+                0.545873,
+                0.859722,
+                1.69096,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                0.67009,
+                0.59334,
+                0.93448,
+                1.838,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                0.710295,
+                0.62894,
+                0.990549,
+                1.94828,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                0.750501,
+                0.664541,
+                1.046618,
+                2.05856,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                0.804108,
+                0.712008,
+                1.121376,
+                2.2056,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                0.857715,
+                0.759475,
+                1.196134,
+                2.35264,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                0.911322,
+                0.806942,
+                1.270893,
+                2.49968,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                0.96493,
+                0.85441,
+                1.345651,
+                2.64672,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                1.018537,
+                0.901877,
+                1.42041,
+                2.79376,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                1.072144,
+                0.949344,
+                1.495168,
+                2.9408,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                1.139153,
+                1.008678,
+                1.588616,
+                3.1246,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                1.206162,
+                1.068012,
+                1.682064,
+                3.3084,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                1.273171,
+                1.127346,
+                1.775512,
+                3.4922,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ]
+        },
+        "Id": 11131,
+        "Name": "Ritual disipavientos",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 3 ataques, los cuales infligen <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante y dispara hacia delante para infligir <color=#80FFD7FF>Daño Anemo en el AdE</color>.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo <color=#80FFD7FF>Daño Anemo en el AdE</color> en el momento del impacto.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 11332,
+        "Proud": {
+          "Descriptions": [
+            "Daño de bala medicinal|{param1:F1P}",
+            "#Curación de bala medicinal al golpear|{param2:F1P} de Maestría Elemental{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param3:F1}",
+            "Límite de pts. de noctambulismo|{param4:F1}",
+            "TdE|{param5:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                1.3336,
+                0.2016,
+                48.14847,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 2,
+              "Parameters": [
+                1.43362,
+                0.21672,
+                52.96399,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 3,
+              "Parameters": [
+                1.53364,
+                0.23184,
+                58.180798,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 4,
+              "Parameters": [
+                1.667,
+                0.252,
+                63.7989,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 5,
+              "Parameters": [
+                1.76702,
+                0.26712,
+                69.8183,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 6,
+              "Parameters": [
+                1.86704,
+                0.28224,
+                76.23898,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 7,
+              "Parameters": [
+                2.0004,
+                0.3024,
+                83.06097,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 8,
+              "Parameters": [
+                2.13376,
+                0.32256,
+                90.28424,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 9,
+              "Parameters": [
+                2.26712,
+                0.34272,
+                97.908806,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 10,
+              "Parameters": [
+                2.40048,
+                0.36288,
+                105.93467,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 11,
+              "Parameters": [
+                2.53384,
+                0.38304,
+                114.361824,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 12,
+              "Parameters": [
+                2.6672,
+                0.4032,
+                123.19027,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 13,
+              "Parameters": [
+                2.8339,
+                0.4284,
+                132.42001,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 14,
+              "Parameters": [
+                3.0006,
+                0.4536,
+                142.05104,
+                80,
+                7.5
+              ]
+            },
+            {
+              "Level": 15,
+              "Parameters": [
+                3.1673,
+                0.4788,
+                152.08337,
+                80,
+                7.5
+              ]
+            }
+          ]
+        },
+        "Id": 11132,
+        "Name": "Aeroprevención de enfermedades",
+        "Description": "#¡Colegas a la batalla! Ifá llama a Cacucu para que luche junto a él.\nTras usar esta habilidad, Ifá obtiene 80{NON_BREAK_SPACE}pts. de noctambulismo y entra en el estado de {LINK#N11130003}<color=#FFD780FF>bendición noctámbula</color>{/LINK}. Mientras este estado está activo, Ifá flota con la ayuda de Cacucu y, al realizar un Ataque Normal, ejecuta un {LINK#N11130001}<color=#FFD780FF>disparo auxiliar</color>{/LINK} de distintas formas dependiendo de si se {LAYOUT_MOBILE#toca una vez}{LAYOUT_PC#pulsa una vez}{LAYOUT_PS#pulsa una vez} o se mantiene pulsado. Con el disparo auxiliar, Ifá lanza una bala medicinal que regenera Vida a todos los miembros del equipo.\n\nAdemás, mientras la bendición noctámbula esté activa, al mantener pulsado para liberar la Habilidad Elemental, <color=#FFD780FF>Aeroprevención de enfermedades</color>, en su lugar, Ifá ejecutará un Ataque Descendente de naturaleza noctámbula. Al dejar de mantener pulsado, el Ataque Descendente puede ser interrumpido e Ifá permanecerá en el aire. La bendición noctámbula terminará cuando el Ataque Descendente sea ejecutado.",
+        "Icon": "Skill_S_Ifa_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 11339,
+      "Proud": {
+        "Descriptions": [
+          "Daño de habilidad|{param1:F1P}",
+          "Daño de marca tranquilizante|{param2:F1P}",
+          "TdE|{param3:F1} s",
+          "Energía Elemental|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Level": 1,
+            "Parameters": [
+              5.0848,
+              1.0896,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 2,
+            "Parameters": [
+              5.46616,
+              1.17132,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 3,
+            "Parameters": [
+              5.84752,
+              1.25304,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 4,
+            "Parameters": [
+              6.356,
+              1.362,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 5,
+            "Parameters": [
+              6.73736,
+              1.44372,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 6,
+            "Parameters": [
+              7.11872,
+              1.52544,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 7,
+            "Parameters": [
+              7.6272,
+              1.6344,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 8,
+            "Parameters": [
+              8.13568,
+              1.74336,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 9,
+            "Parameters": [
+              8.64416,
+              1.85232,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 10,
+            "Parameters": [
+              9.15264,
+              1.96128,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 11,
+            "Parameters": [
+              9.66112,
+              2.07024,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 12,
+            "Parameters": [
+              10.1696,
+              2.1792,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 13,
+            "Parameters": [
+              10.8052,
+              2.3154,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 14,
+            "Parameters": [
+              11.4408,
+              2.4516,
+              15,
+              60
+            ]
+          },
+          {
+            "Level": 15,
+            "Parameters": [
+              12.0764,
+              2.5878,
+              15,
+              60
+            ]
+          }
+        ]
+      },
+      "Id": 11135,
+      "Name": "Campo de sedación complejo",
+      "Description": "Dispara un sedante terapéutico contra un enemigo (que esté agresivo). Al golpear al objetivo, el sedante explota y crea un campo de viento amarrador que atrae a los objetos y enemigos cercanos e inflige <color=#80FFD7FF>Daño Anemo en el AdE</color> de naturaleza noctámbula.\nCuando el sedante terapéutico golpea a un enemigo afectado por <color=#80C0FFFF>Hydro</color>, <color=#FF9999FF>Pyro</color>, <color=#99FFFFFF>Cryo</color> o <color=#FFACFFFF>Electro</color>, le aplicará una {LINK#N11130004}<color=#FFD780FF>marca tranquilizante</color>{/LINK}.",
+      "Icon": "Skill_E_Ifa_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 11321,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                1,
+                1,
+                150,
+                0.015
+              ]
+            }
+          ]
+        },
+        "Id": 1132101,
+        "Name": "Visión de campo médica",
+        "Description": "#Cuando Ifá está en el estado de bendición noctámbula, obtiene 1{NON_BREAK_SPACE}pt. de {LINK#N11130002}<color=#FFD780FF>fundamentos de rescate</color>{/LINK} por cada pt. de noctambulismo que tengan todos los miembros del equipo en conjunto. Los fundamentos de rescate aumentan el daño de las reacciones de Torbellino y Electrocargado de los personajes cercanos del equipo.",
+        "Icon": "UI_Talent_S_Ifa_05"
+      },
+      {
+        "GroupId": 11322,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                80,
+                10
+              ]
+            }
+          ]
+        },
+        "Id": 1132201,
+        "Name": "Acuerdo de ayuda mutua",
+        "Description": "#Cuando un personaje cercano del equipo causa una explosión noctámbula, la Maestría Elemental de Ifá aumenta en 80{NON_BREAK_SPACE}pts. durante 10{NON_BREAK_SPACE}s.",
+        "Icon": "UI_Talent_S_Ifa_06"
+      },
+      {
+        "GroupId": 11323,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": []
+            }
+          ]
+        },
+        "Id": 1132301,
+        "Name": "Gracia de la noche: Rescate de emergencia",
+        "Description": "#Cuando no tenga más pts. de noctambulismo, Ifá consumirá flogisto para conservar la bendición noctámbula.\nAl encontrarse en una zona con alguna mecánica de flogisto de Natlan, podrá utilizar “Transmisión noctambular: Ifá”. Cuando el personaje en uso esté a cierta altura en el aire, al cambiar a Ifá, este entrará en estado de bendición noctámbula y obtendrá 32{NON_BREAK_SPACE}pts. de noctambulismo. Tu equipo solo puede activar Transmisión noctambular una vez cada 10{NON_BREAK_SPACE}s.",
+        "Icon": "UI_Talent_S_Ifa_07"
+      },
+      {
+        "GroupId": 11325,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Level": 1,
+              "Parameters": [
+                0.4,
+                10,
+                0.4,
+                10
+              ]
+            }
+          ]
+        },
+        "Id": 1132501,
+        "Name": "Vendaje térmico de compresión",
+        "Description": "#Al encontrarse en una zona con alguna mecánica de flogisto de Natlan, si tu personaje en uso del equipo o el saurio al que has transferido tu alma tienen menos del 40% de Vida, Ifá consumirá 10{NON_BREAK_SPACE}pts. de flogisto para regenerarles un 40% de Vida. Esto solo puede ocurrir una vez cada 10{NON_BREAK_SPACE}s y no tendrá efecto en dominios, Dominios de la cruzada o la Espiral del Abismo.",
+        "Icon": "UI_Talent_S_Ifa_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1131,
+        "Name": "Elixir vitífero",
+        "Description": "#Al golpear a un enemigo con un {LINK#N11130001}<color=#FFD780FF>disparo auxiliar</color>{/LINK}, Ifá recupera 6{NON_BREAK_SPACE}pts. de Energía Elemental. Solo se puede recuperar Energía Elemental una vez cada 8{NON_BREAK_SPACE}s de esta manera.",
+        "Icon": "UI_Talent_S_Ifa_01"
+      },
+      {
+        "Id": 1132,
+        "Name": "Espíritu de oración balística",
+        "Description": "#Cuando Ifá está en el estado de bendición noctámbula, obtiene 4{NON_BREAK_SPACE}pts. de {LINK#N11130002}<color=#FFD780FF>fundamentos de rescate</color>{/LINK} por cada pt. de noctambulismo que tengan todos los miembros del equipo en conjunto por encima de los 60{NON_BREAK_SPACE}pts.\nAdemás, aumenta en 50 el límite de pts. de fundamentos de rescate que puede tener Ifá.\nEs necesario desbloquear el talento pasivo {LINK#P1132101}<color=#FFD780FF>Visión de campo médica</color>{/LINK}.",
+        "Icon": "UI_Talent_S_Ifa_02"
+      },
+      {
+        "Id": 1133,
+        "Name": "Refutación de la discusión con la noche",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>{LINK#S11132}Aeroprevención de enfermedades{/LINK}</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Ifa_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1134,
+        "Name": "Permutación de cuerpo descompuesto",
+        "Description": "#La duración del campo de viento amarrador creado con la Habilidad Definitiva, <color=#FFD780FF>{LINK#S11135}Campo de sedación complejo{/LINK}</color>, aumenta a 3{NON_BREAK_SPACE}s.\nAdemás, tras usar la Habilidad Definitiva, <color=#FFD780FF>Campo de sedación complejo</color>, la Maestría Elemental de Ifá aumenta en 100{NON_BREAK_SPACE}pts. durante 15{NON_BREAK_SPACE}s.",
+        "Icon": "UI_Talent_S_Ifa_03"
+      },
+      {
+        "Id": 1135,
+        "Name": "Juramento de coexistencia universal",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>{LINK#S11135}Campo de sedación complejo{/LINK}</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Ifa_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1136,
+        "Name": "Promesa del nudo plumífero",
+        "Description": "Al mantener pulsado para ejecutar un {LINK#N11130001}<color=#FFD780FF>disparo auxiliar</color>{/LINK}, Ifá tiene un 50% de probabilidad de disparar una bala medicinal adicional que inflige Daño Anemo en una cantidad equivalente al 120% de su ATQ. Este daño se considera daño de Ataque Normal.\nAdemás, mientras no está en combate, el consumo de pts. de noctambulismo y flogisto de la bendición noctámbula de Ifá se reduce en un 20%.",
+        "Icon": "UI_Talent_S_Ifa_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "El Guiado por Vientos Errantes",
+    "Detail": "Un veterinario de la Tribu Plumaflora que ama la compañía de personas, animales y demás seres vivos.",
+    "Association": 9,
+    "Native": "Tlalocán",
+    "BirthMonth": 3,
+    "BirthDay": 23,
+    "VisionBefore": "Anemo",
+    "ConstellationBefore": "Catena Opele",
+    "CvChinese": "吕书君",
+    "CvJapanese": "寺島惇太 & 小松昌平",
+    "CvEnglish": "Jonny Loquasto & Dominic Catrambone",
+    "CvKorean": "Park Ki-wook",
+    "CookBonus": {
+      "OriginItemId": 108758,
+      "ItemId": 108821,
+      "InputList": [
+        101246,
+        100016,
+        100078,
+        110006
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Hola...",
+        "Context": "<color=#37FFFF>Ifá:</color> Hola, soy Ifá, un veterinario de la Tribu Plumaflora. Tal vez ya hayas oído hablar de mí, pero no importa. Sea cual sea la impresión que tienes de mí, podemos ser amigos desde cero.\n<color=#37FFFF>Ifá:</color> Por cierto, este es... eh... mi asistente, Cacucu. Es un saurio y también un médico. Espero que se lleven bien.\n<color=#37FFFF>Cacucu:</color> ¡Un gusto, colega!"
+      },
+      {
+        "Title": "Charla - Descanso",
+        "Context": "*Suspira*, la mayoría de las cosas en esta vida no se pueden hacer de una sola vez. Descansemos un poco y pongámonos manos a la obra."
+      },
+      {
+        "Title": "Charla - Aperitivos",
+        "Context": "Cuando no tengo nada que hacer, me empieza a entrar hambre... Tengo caramelos, fruta y carne seca, ¿quieres un poco?"
+      },
+      {
+        "Title": "Charla - Grito",
+        "Context": "¿Has oído ese grito de animal? Humm, a lo mejor me lo he imaginado..."
+      },
+      {
+        "Title": "Cuando llueve...",
+        "Context": "#Ten cuidado cuando Cacucu se sacuda las plumas, o podría empaparte. Bueno, pensándolo bien, ya estás empapad{F#a}{M#o}, así que da un poco igual."
+      },
+      {
+        "Title": "Cuando truena...",
+        "Context": "¿Sabías que a muchos saurios les dan miedo los truenos? Cada vez que truena, tengo que estar un rato calmándolos. A veces son tan graciosos..."
+      },
+      {
+        "Title": "Cuando nieva...",
+        "Context": "Brrr, hace tanto frío que no puedo ni abrir los ojos. Será mejor que no vuele con este tiempo..."
+      },
+      {
+        "Title": "Hace mucho viento...",
+        "Context": "¿Perder el sombrero o ahogarme con su cuerda? Humm, difícil elección..."
+      },
+      {
+        "Title": "Buenos días...",
+        "Context": "Buenos días. No es que quiera madrugar, es que si no me levanto de la cama, los pacientes de la clínica empezarán a quejarse de hambre."
+      },
+      {
+        "Title": "Buenas tardes...",
+        "Context": "Qué coincidencia, justo iba a comer algo, ¿quieres venir conmigo?"
+      },
+      {
+        "Title": "Buenas noches... (I)",
+        "Context": "Por la noche suelo estar en casa. Así es más fácil encontrarme si hay alguna urgencia, y si no la hay, puedo descansar tranquilamente."
+      },
+      {
+        "Title": "Buenas noches... (II)",
+        "Context": "Buenas noches. Nunca se sabe lo que va a ocurrir mañana, así que lo mejor que puedes hacer es descansar bien."
+      },
+      {
+        "Title": "Sobre Ifá - Amigos",
+        "Context": "Tengo muchos amigos. Algunos me dan dolor de cabeza, otros me lo alivian y otros hacen ambas cosas. Es una buena combinación. Todos ellos son muy buena gente."
+      },
+      {
+        "Title": "Sobre Ifá - Satisfacción",
+        "Context": "No sé si a los demás les pasa lo mismo, pero yo siento una gran satisfacción cuando puedo ser de ayuda. Quizá la clave para una vida plena sea tener muchos momentos en los que te sientas así. Creo que cada uno debe encontrar aquello que le haga sentirse realizado."
+      },
+      {
+        "Title": "Sobre nosotros - Recordatorio",
+        "Context": "#<color=#37FFFF>Ifá:</color> ¿Todo listo para su próximo viaje? ¿Cómo se encuentran físicamente? ¿Llevan todo lo que necesitan?\n<color=#37FFFF>Ifá:</color> Parece que tienes buen aspecto, y Paimon parece estar llena, así que diría que están más que list{F#a}{M#o}s. Pero espera, deja que compruebe una cosa...\n<color=#37FFFF>Cacucu:</color> ¡Qué estás diciendo, colega!"
+      },
+      {
+        "Title": "Sobre nosotros - Inseguridad",
+        "Context": "#Ya nos conocemos desde hace un tiempo, así que sé honest{F#a}{M#o}: ¿crees que a veces soy pesado o me preocupo de más? ¿No? ¿Así te parece bien? Menos mal... Es que, como normalmente solo trato con animales que no pueden hablar, me preocupo un poco por ese tema... Me alegro de no ser una molestia."
+      },
+      {
+        "Title": "Sobre la Visión...",
+        "Context": "¡Esta cosa es muy útil! A veces, cuando un saurio está muy cansado, lo empujo con un poco de viento. Pero muy ligeramente, ¿eh? Para que ni siquiera se dé cuenta."
+      },
+      {
+        "Title": "¿Algo que decir?",
+        "Context": "Aunque la técnica de llamar la atención de los animales con comida es muy útil, si abusas de ella, podrían volverse avariciosos e incluso esperar recompensas sin haber hecho algo para merecerlas. Por eso, siempre que puedo, intento hacerles entender cómo funcionan las cosas. Por ejemplo, que si caen en una trampa, se harán daño, o que si comen cualquier cosa, podría sentarles mal al estómago.\nEs algo que lleva tiempo y esfuerzo, pero creo que vale la pena. Además, a veces los animales entienden mejor las cosas que las personas."
+      },
+      {
+        "Title": "Un dato curioso...",
+        "Context": "Si observas el mundo a tu alrededor, verás que está lleno de cosas fascinantes. Si tuviera tiempo, podría pasarme el día entero contemplando la naturaleza, pero por desgracia, el trabajo siempre acaba llamando a mi puerta."
+      },
+      {
+        "Title": "Sobre Kachina...",
+        "Context": "Se nota que a Kachina le encantan los saurios. Si estudiara mucho, seguro que se convertiría en una excelente veterisauria. Pero bueno, ya es una guerrera extraordinaria, así que no creo que haga falta que se ponga a estudiar medicina conmigo."
+      },
+      {
+        "Title": "Sobre Xilonen...",
+        "Context": "Me encanta hablar con Xilonen, siempre se le ocurren ideas superinteresantes. A veces, su insistencia en la funcionalidad da lugar a herramientas que parecen un poco... intimidantes, pero “parecer intimidante” también es una función en sí misma."
+      },
+      {
+        "Title": "Sobre Kinich...",
+        "Context": "Pregunta seria: ¿Ahau cuenta como ser vivo?\nUna vez vino a la clínica y estuve un buen rato examinándolo, pero no encontré ningún problema, así que le dije a Kinich: “Dale golpecitos en la cabeza hasta que vuelva a funcionar y ya está”.\nEn cuanto dije eso, de repente Ahau dejó de sentirse mal. ¿No te parece demasiada coincidencia?"
+      },
+      {
+        "Title": "Sobre Chasca...",
+        "Context": "Su trabajo como mediadora es muy importante. Ella cura las “dolencias” que yo no puedo curar."
+      },
+      {
+        "Title": "Sobre Ororon - No le des muchas vueltas",
+        "Context": "Tiene una forma de pensar muy peculiar, así que te recomiendo no darle muchas vueltas a lo que diga. Total, seguirás sin entenderlo aunque lo intentes...\nEl caso es que es un buen tipo y se preocupa por sus amigos a su manera. Lo irás entendiendo a medida que lo vayas conociendo."
+      },
+      {
+        "Title": "Sobre Ororon - Ganas de saber más",
+        "Context": "Aunque ya estoy acostumbrado, a veces me dan ganas de meterme en su cabeza a ver en qué está pensando."
+      },
+      {
+        "Title": "Sobre Citlalí...",
+        "Context": "La abuela Citlalí... es extraordinaria y tiene un montón de pijamas distintos, jaja.\nPara no meterme en los dramas de la abu Itztli y Ororon, cuando me pide que le transmita un mensaje a él, se lo digo al pie de la letra sin preguntar nada. Si no quiero tener problemas con ella, cuanto menos sepa, mejor."
+      },
+      {
+        "Title": "Sobre Mavuika...",
+        "Context": "Hubo una vez en la que tuve que ir de urgencia a tratar a un paciente y la Arconte Pyro se ofreció a llevarme. ¡Fue de locos, colega! Tuve que curar la herida de un saurio mientras todo me daba vueltas... La verdad es que no tenía ni idea de que fuera capaz de hacer algo así. Supongo que no sabemos cuál es nuestro potencial hasta que salimos de nuestra zona de confort."
+      },
+      {
+        "Title": "Sobre Neuvillette...",
+        "Context": "¿Dices que, si ese tal Neuvillete enferma, te gustaría que lo cuidase yo? Pero yo soy veterinario, no médico.\nBueno, como es el nuevo colega de Cacucu... Está bien, lo intentaré."
+      },
+      {
+        "Title": "Más sobre Ifá (I)",
+        "Context": "<color=#37FFFF>Ifá:</color> En serio, no fui yo quien dibujó el cartel de la clínica. Tienes que creerme.\n<color=#37FFFF>Cacucu:</color> ¡Jaja!"
+      },
+      {
+        "Title": "Más sobre Ifá (II)",
+        "Context": "En realidad, no estoy seguro de cuándo empezó a hablar Cacucu. Solo recuerdo que, una vez, de madrugada, de repente le escuché gritar: “¡Arriba, colega!”. Ya puedes imaginarte el susto que me llevé al despertarme con esos gritos a las cinco de la madrugada."
+      },
+      {
+        "Title": "Más sobre Ifá (III)",
+        "Context": "Pasé la prueba de vuelo hace mucho tiempo, así que, en teoría, podría pedir ayuda a cualquier Qucusaurio. Sin embargo, desde que tengo a Cacucu, no me deja que le pida ayuda a ningún otro saurio, pero no me importa. Aunque aún es pequeño, si me dice que puede hacer algo, yo confío en él."
+      },
+      {
+        "Title": "Más sobre Ifá (IV)",
+        "Context": "Quiero ser esa persona que hace que los demás se sientan seguros. Es difícil conseguir la confianza de los demás, no todo el mundo puede lograrlo."
+      },
+      {
+        "Title": "Más sobre Ifá (V)",
+        "Context": "Ser veterinario es genial. Es verdad que hay momentos en los que tienes que decir adiós, pero aun así, nunca me he arrepentido de elegir esta carrera. Los animales son como los niños: a veces es difícil hablar con ellos y les encanta meterse en líos, pero en mi opinión, merecen que los protejamos."
+      },
+      {
+        "Title": "Aficiones de Ifá...",
+        "Context": "En la Tribu Plumaflora hay mucha gente a la que le gusta cantar. Yo a veces escribo letras de canciones y toco algún instrumento. ¡Es una buena forma de aliviar el estrés!"
+      },
+      {
+        "Title": "Preocupaciones de Ifá...",
+        "Context": "<color=#37FFFF>Ifá:</color> No tengo ninguna preocupación tan grave como para que no se pueda solucionar. Bueno, tal vez... me gustaría que Cacucu aprendiera a decir cosas un poco más útiles.\n<color=#37FFFF>Cacucu</color>: ¿Qué tonterías dices?"
+      },
+      {
+        "Title": "Comida que más le gusta...",
+        "Context": "Lo mejor es la fruta fresca. Alivia tanto el hambre como la sed y puedo cortarla en trocitos para dársela a Cacucu."
+      },
+      {
+        "Title": "Comida que menos le gusta...",
+        "Context": "La fruta fresca es genial, pero cuando la gente la usa para cocinar, es en plan... ¿Por qué no puedo comerla directamente?"
+      },
+      {
+        "Title": "Al recibir un regalo (I)",
+        "Context": "<color=#37FFFF>Cacucu</color>: ¡Eso es para mí, colega!\n<color=#37FFFF>Ifá:</color> ¿Cuándo aprendiste a decir eso? Está bien, está bien, lo dividiremos en dos."
+      },
+      {
+        "Title": "Al recibir un regalo (II)",
+        "Context": "Qué rico está. Voy a servirme un poco de jugo, ¿tú de qué sabor lo quieres?"
+      },
+      {
+        "Title": "Al recibir un regalo (III)",
+        "Context": "<color=#37FFFF>Cacucu</color> ¿En serio? ¿Tú has visto lo que has hecho, colega?\n<color=#37FFFF>Ifá:</color> No le hagas caso, a mí me parece perfectamente comestible. Gracias, colega."
+      },
+      {
+        "Title": "Cumpleaños...",
+        "Context": "¡Feliz cumpleaños! Te deseo salud y juventud eterna.\nAunque no se puede parar el paso del tiempo, siempre puedes conservar una mente joven. Además, el mal humor puede afectar a tu salud, así que, vamos, olvídate de tus preocupaciones por hoy y hagamos algo divertido.\n¿Qué tipo de música te gusta? Puedo tocar algo para ti."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Introducción",
+        "Context": "¿Esto es como una especie de calentamiento?"
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desarrollo",
+        "Context": "#Tienes que cuidar de ti mism{F#a}{M#o} antes de poder cuidar de los demás, ¿no crees?"
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Nudo",
+        "Context": "Cuanto menos uses una pistola, más mantenimiento necesita. Ay, pero qué estoy diciendo, colega, si yo soy médico. No uso una pistola a menos que sea estrictamente necesario."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desenlace",
+        "Context": "<color=#37FFFF>Ifá:</color> ¡Gracias, colega! Déjate de formalidades. Si necesitas algo, ¡dímelo y ya!\n<color=#37FFFF>Cacucu</color>: ¡Dímelo y ya, colega!"
+      },
+      {
+        "Title": "Habilidad Elemental (I)",
+        "Context": "¡Vamooos!"
+      },
+      {
+        "Title": "Habilidad Elemental (II)",
+        "Context": "¡Cuidado con el viento!"
+      },
+      {
+        "Title": "Habilidad Elemental (III)",
+        "Context": "<color=#37FFFF>Cacucu:</color> ¡A volar!"
+      },
+      {
+        "Title": "Habilidad Elemental (IV)",
+        "Context": "<color=#37FFFF>Cacucu</color>: ¡Ay, ay, ay!\n<color=#37FFFF>Ifá:</color> ¡Vamos!"
+      },
+      {
+        "Title": "Habilidad Definitiva (I)",
+        "Context": "¡Cuidadito!"
+      },
+      {
+        "Title": "Habilidad Definitiva (II)",
+        "Context": "¡No es nada personal!"
+      },
+      {
+        "Title": "Habilidad Definitiva (III)",
+        "Context": "¿Quieres huir? ¡En tus sueños!"
+      },
+      {
+        "Title": "Al abrir un cofre (I)",
+        "Context": "¡Increíble! Qué bien se te da encontrar estas cosas."
+      },
+      {
+        "Title": "Al abrir un cofre (II)",
+        "Context": "¡Hoy es mi día de suerte!"
+      },
+      {
+        "Title": "Al abrir un cofre (III)",
+        "Context": "Si pesa demasiado, puedo decirle a Cacucu que te ayude."
+      },
+      {
+        "Title": "Vida baja (I)",
+        "Context": "Me cuesta respirar..."
+      },
+      {
+        "Title": "Vida baja (II)",
+        "Context": "Tengo que aguantar..."
+      },
+      {
+        "Title": "Vida baja (III)",
+        "Context": "<color=#37FFFF>Cacucu</color>: ¡Ifá, Ifá!\n<color=#37FFFF>Ifá:</color> Lo sé, lo sé..."
+      },
+      {
+        "Title": "Aliado con vida baja (I)",
+        "Context": "¡Voy!"
+      },
+      {
+        "Title": "Aliado con vida baja (II)",
+        "Context": "Deberías ir a urgencias."
+      },
+      {
+        "Title": "Derrotado (I)",
+        "Context": "¿La guerra no había terminado ya?..."
+      },
+      {
+        "Title": "Derrotado (II)",
+        "Context": "Siento no haber sido de ayuda..."
+      },
+      {
+        "Title": "Derrotado (III)",
+        "Context": "El mayor miedo de un médico..."
+      },
+      {
+        "Title": "Recibiendo un ligero ataque (I)",
+        "Context": "Será mejor que pares..."
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (I)",
+        "Context": "¡Qué estás diciendo, colega!"
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (II)",
+        "Context": "¿No puedes ser un poco más amable?"
+      },
+      {
+        "Title": "Unirse al equipo (I)",
+        "Context": "¿Te vas de viaje?"
+      },
+      {
+        "Title": "Unirse al equipo (II)",
+        "Context": "Botiquín de primeros auxilios, listo."
+      },
+      {
+        "Title": "Unirse al equipo (III)",
+        "Context": "¡Que tengamos un buen viaje!"
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalles del personaje",
+        "Context": "La Tribu Plumaflora vive en los cielos, o al menos eso es lo que dice la gente de Natlan.\nAunque están los Retoños Arbóreos, que saltan entre los acantilados, y los Augures Vientonocturno, que contemplan las estrellas desde lo alto de las montañas, solo los miembros de la Tribu Plumaflora pueden tocar las nubes y cabalgar sobre los arcoíris como verdaderos caballeros de los cielos.\nMirar hacia el cielo es una sensación extraordinaria. Ver un espacio vacío, sin obstáculos, donde la necesidad humana de volar, libremente y sin preocupaciones, puede satisfacerse al máximo.\nPero las llamas de la guerra se extienden bajo sus pies, y los gritos de auxilio las acompañan. Incluso un Qucusaurio se ve obligado a caer y a abandonar el cielo cuando está herido.\nIfá es el caballero cuya mirada siempre se posa en la superficie. Su deber y costumbre le han dado una vista aguda para detectar situaciones difíciles.\n“Todo humano o animal debe volver a la tierra algún día”, dice Ifá con una sonrisa en el rostro."
+      },
+      {
+        "Title": "Historia del personaje (1)",
+        "Context": "“Al igual que los humanos pueden ser médicos de saurios, estos también pueden serlo para los humanos”, dijo Ororon una vez.\nIfá se quedó sin palabras durante un tiempo y luego dijo: “No todo lo que suena bien tiene lógica”.\n“Ya veo...”.\nA Ifá le conmovió el tono del muchacho. Ororon no era tonto, pero a veces decía cosas que no tenían mucho sentido, tal vez para ver cómo reaccionaba Ifá. Aunque Ifá era plenamente consciente de lo que pasaba, no podía evitar reflexionar sobre su vida y sobre cómo sus pasos lo habían llevado, uno a uno, a acabar en aquella situación.\nEn esta vida, nunca faltan las cosas que pueden superarte. Ser veterinario se parece a tener una guardería, pues es imposible controlar a unas criaturas sin demasiado intelecto, tan solo se puede intentar apaciguarlas a toda costa. Hacerse una herida, limpiarla, aplicar el medicamento, poner una inyección... todo este proceso es doloroso y, a decir verdad, si Ifá fuera un gato o un perro pequeño, tampoco sabría diferenciar entre tales cosas.\nChillar y forcejear cuando te duele es un instinto natural. Perder la capacidad de sentir dolor sería como perder una alerta de que algo va mal. Se trataría de algo muy peligroso.\nTal vez la vida también sea así, por lo que siempre habrá tristeza y despedidas para recordarte que todo continúa, que tanto los humanos como los saurios deben seguir creciendo año tras año.\nEncontrarse con esta situación era normal siendo médico, era uno de los gajes del oficio, o al menos así se consolaba Ifá.\nY, a cambio, se ganaba el agradecimiento y el cariño de animales y personas, y podía escuchar cómo más gente lo llamaba “colega”.\nSi toda la alegría y la felicidad pudieran contrarrestar la frustración y la tristeza, todo valdría la pena."
+      },
+      {
+        "Title": "Historia del personaje (2)",
+        "Context": "Ifá a veces piensa que la gente no elige su lugar en la vida, sino que ese lugar elige a la gente.\nComo él mismo no recuerda cuándo comenzó a ser la persona que cuidaba siempre de los demás. Los niños pequeños de los vecinos lo llamaban “hermano mayor”, los saurios, sanos o no, lloriqueaban mientras lo seguían, e incluso varios adultos lo llamaban “maestro” como forma de respeto, hecho que verdaderamente lo aterrorizaba.\nAl mismo tiempo, eso le hacía sentirse satisfecho y orgulloso. Quizá debido a un miedo profundo de perder aquella confianza, muchas veces se esforzaba más aún por cumplir su deber: creaba juguetes para las crías de saurio, tocaba la guitarra, siempre que iba a visitar a un paciente regresaba con varias bolsas de fruta fresca para los vecinos, e incluso a veces ayudaba a los niños de la tribu con sus tareas de clase.\nEl tiempo pasó como si alguien lo hubiera alterado por accidente. Los días en los que aún dudaba de si quería convertirse en veterinario y subirse a lomos de un saurio le costaba horrores parecían haber sido ayer, pero, en un abrir y cerrar de ojos, la vida había acabado rodeándolo y se había convertido en un adulto verdaderamente responsable.\nLa verdad es que no se encontraba insatisfecho, es más, se sentía muy agradecido. Es solo que, cuando algún anciano de la tribu hablaba del pasado, él se quedaba pensando en su yo de aquellos tiempos.\nA algunos niños también les gustaba escuchar aquellas viejas historias. Un coleguita que todavía tenía restos de pastel de lava en la comisura de los labios se rio a carcajadas al oír a Ifá contar un incidente en el que no podía aprenderse la lección: “¡Ifá antes también era un niño pequeño! ¡Era el pequeño Ifá!”.\nHacía mucho tiempo que nadie se dirigía a él de aquella manera, por lo que Ifá se quedó atónito durante un instante. Pronto recuperó la compostura, sin embargo, y mientras buscaba un pañuelo para limpiarle la cara, dijo con alegría: “¿De qué te ríes? ¿Cuántos años tienes?”.\n“¡Tengo seis años!”.\n“¡Qué coincidencia! Yo tengo cinco. ¿Qué tal si a partir de ahora te llamo hermano mayor?”."
+      },
+      {
+        "Title": "Historia del personaje (3)",
+        "Context": "Si cuentas a sus parientes lejanos, Ifá tiene una familia enorme que se ha granjeado una gran fama por sus habilidades veterinarias. Sin embargo, si uno se fija bien, no son pocos los que han elegido dedicarse a una profesión diferente. En otras palabras, ni el sentimentalismo ni la lógica dictaron que Ifá tuviera que convertirse en veterinario.\nEstudiar este campo resulta fatigante. Cuando era niño, parecía que lo único que Ifá podía leer eran libros sobre medicina, y las palabras y los diagramas se arremolinaban en su mente como una corriente de agua sin que pudiera retener nada. Cuando esto sucedía, el pequeño Ifá pensaba, airado: “¡Tampoco es que tenga que ser veterinario a la fuerza!”.\nSin embargo, pronto empezó a comprender lo que leía. Tal vez debido a sus frecuentes visitas al campo de batalla para ayudar a los heridos, los padres de Ifá acabaron viéndose afectados por el Abismo y su estado de salud se volvió bastante frágil. Aunque aún era pequeño, Ifá, que se había percatado de algo, seguía pensando, preocupado: “Tampoco es que tenga que ser veterinario a la fuerza...”.\nAunque era un chico bastante maduro para su edad, no tuvo la ocasión de crecer del todo antes de que sus padres dejaran este mundo atrás. Con diecisiete años, tras celebrar el funeral de sus progenitores, Ifá solo podía sentir un gran vacío en su pecho. Ya no sabía qué pensar.\nAl final, acabó convirtiéndose en veterinario.\nTal vez fue por mantener la tradición, o quizá simplemente por inercia, pero Ifá pronto fue conocido como el veterisaurio de mayor talento, con el temperamento más amable y el mayor sentido de la responsabilidad. Una vez que tomó la decisión, dejó de pensar tanto en ello. A medida que la guerra se volvía más cruenta, la lista de responsabilidades de Ifá no hizo más que crecer, pero fue la propia carga de su trabajo lo que lo ayudó a atravesar aquel periodo tan difícil de su vida.\nAhora que la guerra es cosa del pasado, Ifá por fin tiene tiempo de sentarse y pensar sobre la vida, aunque no parece que haya mucho sobre lo que meditar.\nCada uno tiene una tarea que cumplir, piensa. Él solo espera que todos puedan ser felices."
+      },
+      {
+        "Title": "Historia del personaje (4)",
+        "Context": "Si verdaderamente se rindiera ante su empatía y adoptara a todos y cada uno de los pequeños saurios heridos que se encuentra por el camino, Ifá tendría que abandonar su clínica y emprender una vida en la naturaleza. Pero él se conoce demasiado bien: si emprendiera tal camino, lo recorrería hasta el final. Por eso, Ifá tiene una regla no escrita: siempre y cuando no sea absolutamente necesario, no adoptará a ningún animal (ni a ningún humano o criatura de cualquier tipo).\n“No voy a caer, no voy a caer...”, Ifá cierra los ojos para no ver la expresión apenada de los animalillos. “Lo ayudaré a encontrar un nuevo hogar, pero yo no puedo quedármelo”.\nSiempre ha logrado mostrar una gran disciplina en lo que se refiere a este asunto, por lo que, incluso hasta el día de hoy, no quiere admitir que Cacucu fue una excepción.\n“Parece que este colega no crece”. Ifá busca una excusa tras otra para justificarse. “¡Es pequeño y redondito! Además, sabe hablar, pero no sabe lo que dice... Si lo liberara ahora, podría resultar peligroso para él, así que seguiré cuidándolo un poco más”.\n“En realidad, se está aprovechando de él, solo que le da vergüenza admitirlo”, diría Ororon, desvelando la verdad.\nAunque Ororon fingía que no tenía nada que ver con él, la realidad es que no ayudaba mucho cuando se trataba del tema de adoptar a Cacucu. Se limitaba a señalar las verduras de su campo, cuyas hojas mostraban marcas de picotazos de Cacucu, en forma de protesta silenciosa a Ifá.\nA Ifá se le acababan las excusas y, verdaderamente, Cacucu nunca se separaba de él, así que, al final, se comprometió a adoptarlo sin muchas ganas (o así lo hizo parecer). Además, se ofreció a hacer de repartidor para Ororon durante un mes para compensarle.\nPero, si nos paramos a observar esta historia más detenidamente, hay dos lagunas de las que Ifá no es consciente.\nLaguna número uno: el peculiar caso del campo de cultivo. Cacucu no es estúpido, así que ¿por qué iba a molestar a Ororon sin necesidad? En realidad, ambos habían estado aliados desde el primer momento. Si Cacucu quería cumplir su ambicioso sueño de convertirse en un asistente en la clínica de Ifá, el primer paso era encontrar la forma de entrar. Y para eso tenían que poner a Ifá contra la espada y la pared.\nLaguna número dos: aunque Ifá piense que la primera vez que vio al pequeño y redondito saurio fue cuando lo rescató en el camino, Cacucu recuerda otra versión más antigua de la historia. Lo que nadie sabe es que la madre de Cacucu sufrió heridas muy graves y, de no haber sido por la rauda intervención de Ifá, puede que nunca hubiera logrado poner el huevo del que nació aquel pequeño genio. Cuando Cacucu rompió el cascarón, vio la silueta de Ifá por primera vez. Tristemente, este último no se acuerda de ello.\nPor una parte, Cacucu no destacaba en el uso del lenguaje para expresar tal cosa, y por otra, nunca sintió la necesidad de decírselo, así que tampoco planeaba hacerlo. La madre de Cacucu acabó sucumbiendo debido a sus viejas heridas y sobrevivir a solas en la naturaleza era toda una hazaña para un pequeño saurio como él. No se había topado con muchos humanos, pero Cacucu decidió rápidamente que Ifá, quien había ayudado a su madre, era la mejor persona a la que seguir. Si lograba convertirse en un ayudante de su clínica algún día para devolverle el favor a Ifá, mejor que mejor. Aquella sería una gran hazaña en el mundo de los saurios.\nTras llevar a cabo el primer paso, faltaba la segunda parte del plan: hacerse el tonto.\nTeniendo en cuenta la personalidad de Ifá, quien era alguien más que dispuesto a cargar con las responsabilidades de los demás, si conociera la historia de Cacucu, probablemente se vería invadido por una sensación inexplicable de culpa y responsabilidad.\nSin embargo, Cacucu prefirió olvidarse de esa parte. Si iban a ser colegas de verdad, su relación debía ser sincera, sin nada que pudiera enturbiarla."
+      },
+      {
+        "Title": "Historia del personaje (5)",
+        "Context": "Siendo sinceros, Ifá se considera bastante atlético. También se lleva de maravilla con los saurios, y aprobó la prueba de vuelo sin mayor problema. Gracias a ambas ventajas, Ifá pensó que podría atravesar Natlan con facilidad.\nAsí que, mientras aún no estaba hasta arriba de responsabilidades, decidió visitar las demás tribus.\nEn los Vástagos del Eco, conoció a Xilonen, la habilidosa artesana. Estaba llena de entusiasmo y pronto comenzó a diseñar equipamiento médico para Ifá. Más tarde, descubrió que Xilonen estaba trabajando en un encargo para Mavuika en esos momentos, por lo que cualquier cosa que no tuviera que ver con aquella comisión le resultaba un soplo de aire fresco. Luego, oyó a otros decir que era muy difícil lograr dar con Xilonen (pues esta escalaba extremadamente rápido), así que Ifá se consideró muy afortunado.\nLos Retoños Arbóreos le recordaron a la Tribu Plumaflora, pues la gente vivía sus vidas tranquilamente en las alturas. Ifá disfrutó mucho del tiempo que pasó allí, lanzando ganchos de agarre y escalando acantilados. Lo único de lo que se arrepentía era de no haber podido conocer a aquel joven y célebre cazasaurios. Más tarde, cuando Ahau tuvo que acudir a su clínica, Ifá pudo ver cumplido dicho deseo. Fue un momento feliz para todos, excepto para Ahau.\nAntes de que partiera, Chasca le habló de una guía que encontraría en el Pueblo de los Manantiales, una muchacha llamada Mualani. Ifá dio un par de vueltas por la entrada de la tienda de artículos acuáticos, pero, más allá de tropezar con una escualotabla de surf, resultó ser un viaje en vano. Después, participó en una competición de surf por su cuenta, y fue en la entrega de premios cuando por fin se topó con Mualani. Tras descubrir que había logrado hacerse con una posición en el podio sin haber surfeado antes, Mualani lo colmó de halagos. Viniendo de la actual campeona, aquellas cálidas palabras valían ciertamente su peso en oro.\nEn cuanto a la Comunidad de la Feracidad, sus frutas resultaban irresistibles, pero el viaje hubiera sido mucho más placentero si los lugareños no hubieran insistido en desafiarlo a un combate de lucha libre cada vez que giraba una esquina. Percatándose de que no tendría muchas posibilidades de ganar, Ifá rechazó muchas invitaciones con la excusa de que necesitaba sus manos intactas para practicar su profesión. Al final, este periodo de su viaje concluyó con él apuntándose a tres meses de clases de entrenamiento con Iansán. Tras despedirse con la mano, Ifá se marchó sin asistir siquiera a una sola clase.\nLos Augures Vientonocturno tenían su asentamiento muy cerca de la Tribu Plumaflora, pero al mismo tiempo eran los más misteriosos de todos. Ifá no sabía muy bien qué se podía hacer allí, y planeaba pasar por el lugar de camino en su regreso a casa. Pero, al caminar, no podía evitar sentirse vigilado, aunque cuando se giraba, no lograba atisbar a nadie. Como si de un Iktomisaurio que persiguiese su propia cola se tratara, Ifá continuó tan absurda danza, hablando consigo mismo en susurros.\nJusto cuando estaba a punto de irse, un grito hizo que se parara en seco. Ifá se dio la vuelta para encontrarse con una muchacha de cabello claro con una mano en la cintura y la otra señalándolo con furia. Antes de que pudiera contemplar si había hecho algo mal, alguien tiró de él y se echó a la carrera.\nTodo ocurrió tan deprisa que Ifá apenas recuerda los detalles. En cualquier caso, había acabado interponiéndose sin saberlo en el conflicto entre una abuela y un nieto que había estado practicando sus habilidades de invisibilidad colocándose detrás de todo el que pasara. Incluso había funcionado con los ancianos de la tribu.\n“¿Qué es eso de técnica de invisibilidad, colega? ¿Eso existe?”, tales preguntas de Ifá y su buen temperamento lograron calmar la ira de la abu Itztli.\nCuando por fin llegó a casa, exhausto, sus padres le preguntaron por su viaje. Tenía demasiadas cosas que contar y estaba realmente cansado, así que se limitó a responder: “Me lo he pasado en grande y he conocido a un montón de buenos amigos”.\n“Y sé que volveremos a vernos”, pensó."
+      },
+      {
+        "Title": "Registros",
+        "Context": "Casi todos los días, Ifá reserva parte de su tiempo para organizar los registros médicos. En un momento de tranquilidad como este, tan difícil de hallar, lee los casos antiguos y los más nuevos, recordando todas las enfermedades y heridas que ha atendido. Toda lección del pasado es de gran valor y merece la pena compartirla con todos aquellos del gremio que lo necesiten.\nAdemás, a Ifá le resulta muy relajante doblar los papeles por el mismo ángulo.\nNo se tratan de leyendas de héroes ni de antiguos pergaminos valiosos, sino de notas escritas a toda prisa repletas de jerga médica que nadie, aparte de Ifá, querría leer.\nPero Ifá siempre se queda ensimismado mirando las notas. Al recordar los detalles de cada tratamiento, a veces incluso añade unas cuantas anotaciones adicionales.\nAl final, vuelve a dejar las notas en el interior del armario. Si es necesario, también coloca un poco de desecante y un repelente de insectos.\nIfá continúa con estos hábitos día tras día, al igual que las plantas crecen y se marchitan estación tras estación."
+      },
+      {
+        "Title": "Visión",
+        "Context": "Un día, la clínica de Ifá permaneció cerrada pasado el medio día, por lo que la gente comenzó a sospechar que algo no iba bien.\nAl principio, los vecinos pensaron que había pasado la noche en otra tribu debido a alguna visita médica. No fue hasta que alguien trajo un saurio enfermo a su puerta que Ifá salió con aspecto confundido por la elevada fiebre repentina que sufría.\nAntes de que el visitante pudiera decir nada, Ifá ya había empezado a murmurar “No pasa nada, colega” mientras le hacía al saurio un examen médico.\nPero la cosa no había hecho más que empezar. A mitad de la consulta, alguien más entró a toda prisa, gritando que habían detectado una incursión del Abismo en dirección a la Ciudad de las Cenizas, y que necesitaban un médico para salvar a los Qucusaurios heridos.\nMurmurando otro de sus “No pasa nada, colega”, Ifá siguió al jinete hasta el frente.\nPor la noche, después de que ocurriera todo, Ifá tomó la medicina que le había dado su vecino y durmió durante un día entero. Cuando se despertó, empapado de sudor, se puso a tantear en la mesita de noche en busca de agua, pero en su lugar, lo que encontró fue una Visión.\nDebido a la fiebre, los recuerdos de Ifá están un tanto borrosos. Sin embargo, para él, aquella vez no hubo ninguna diferencia con respecto a las otras veces que había salido a atender heridos, ni siquiera era la primera vez que había tenido que trabajar estando enfermo. Ciertamente, no era capaz de recordar si había hecho algo verdaderamente especial para que los cielos decidieran que necesitaba una Visión ya mismo, en aquel momento.\nTodos veían el asunto de una forma completamente diferente. El jefe de la tribu pensaba que era una recompensa por su naturaleza altruista, mientras que la abuela que vivía al lado lo consideraba una compensación por su actitud de constante sacrificio. Ifá le quitó importancia con la mano, argumentando que “sacrificio” era ir demasiado lejos.\nUn muchacho que parecía muy maduro le dijo: “Ifá, hermano, dicen que el viento puede soplar hasta hacer que la gente se reúna, así que los Arcontes te están diciendo que, cuando nos encontramos en un aprieto, podemos confiar los unos en los otros”. Tenía cierto sentido, así que Ifá no rechazó la idea, pero lo cierto era que cuando la situación se había vuelto tan urgente, él no había tenido otra alternativa, tan solo había hecho lo que sabía inconscientemente que debía hacer.\nEste tipo de cosas nunca tienen una respuesta clara. Tal vez los Arcontes tan solo consideraban que necesitaba algo de aire para calmar su fiebre. Ifá sacudió la cabeza, el asunto de la Visión ya era agua pasada.\nNormalmente, no solía usar mucho su Visión, o al menos así era hasta que apareció Cacucu. Después de que Cacucu llegara a su vida, siempre tenía que llevarlo volando a todas partes y, mientras lo hacía, gritaba: “¡Más alto, colega!”.\nEn momentos como ese, una Visión siempre era de gran ayuda."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 211300,
+      "Name": "Alas silbantes",
+      "Description": "Modelo de vestimenta de Ifá. Nunca has visto a Ifá llevar otro sombrero, pero es porque tiene muchos idénticos. “Colega, si alguna vez te pones un sombrero, recuerda atarle una cuerda para evitar que se lo lleve el viento o un saurio”, dice frustrado cada vez que alguien habla de sombreros.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104154,
+    113072,
+    101250,
+    112103,
+    104355,
+    113074
+  ],
+  "NameCard": {
+    "Name": "Ifá - Colega",
+    "Description": "Diseño de tarjeta de presentación.\n“‘¿Llevarse bien con Ifá tiene algún beneficio?’. Claro que sí, colega. Tiene muchos beneficios”. “Claro que sí, colega. Claro que sí”.",
+    "Icon": "UI_NameCardIcon_Ifa",
+    "PicturePrefix": "UI_NameCardPic_Ifa"
+  }
+}
