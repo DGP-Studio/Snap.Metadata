@@ -23856,22 +23856,32 @@
     "Goal": 0,
     "FirstWaves": [
       {
-        "Type": 0,
+        "Type": 1,
+        "Description": "<b>维持2个，两种交替杀一个出一个</b>",
         "Monsters": [
           {
-            "Id": 113,
-            "Count": 1
+            "Id": 111,
+            "Count": 8
           },
           {
-            "Id": 111,
-            "Count": 1
+            "Id": 113,
+            "Count": 8
           }
         ]
       }
     ],
     "SecondWaves": [
       {
-        "Type": 0,
+        "Type": 1,
+        "Monsters": [
+          {
+            "Id": 40901,
+            "Count": 1
+          }
+        ]
+      },
+      {
+        "Type": 2,
         "Monsters": [
           {
             "Id": 40901,
@@ -23889,12 +23899,8 @@
     "Goal": 0,
     "FirstWaves": [
       {
-        "Type": 0,
+        "Type": 1,
         "Monsters": [
-          {
-            "Id": 54101,
-            "Count": 1
-          },
           {
             "Id": 51001,
             "Count": 1
@@ -23904,16 +23910,30 @@
             "Count": 1
           }
         ]
+      },
+      {
+        "Type": 2,
+        "Monsters": [
+          {
+            "Id": 54101,
+            "Count": 1
+          }
+        ]
       }
     ],
     "SecondWaves": [
       {
-        "Type": 0,
+        "Type": 1,
         "Monsters": [
           {
             "Id": 21206,
             "Count": 1
-          },
+          }
+        ]
+      },
+      {
+        "Type": 2,
+        "Monsters": [
           {
             "Id": 40302,
             "Count": 1
@@ -23930,20 +23950,30 @@
     "Goal": 0,
     "FirstWaves": [
       {
-        "Type": 0,
+        "Type": 1,
         "Monsters": [
-          {
-            "Id": 40654,
-            "Count": 1
-          },
-          {
-            "Id": 40659,
-            "Count": 1
-          },
           {
             "Id": 40652,
             "Count": 1
           },
+          {
+            "Id": 40654,
+            "Count": 2
+          }
+        ]
+      },
+      {
+        "Type": 2,
+        "Monsters": [
+          {
+            "Id": 40659,
+            "Count": 1
+          }
+        ]
+      },
+      {
+        "Type": 3,
+        "Monsters": [
           {
             "Id": 40662,
             "Count": 1
@@ -23953,12 +23983,17 @@
     ],
     "SecondWaves": [
       {
-        "Type": 0,
+        "Type": 1,
         "Monsters": [
           {
             "Id": 62602,
             "Count": 1
-          },
+          }
+        ]
+      },
+      {
+        "Type": 2,
+        "Monsters": [
           {
             "Id": 50901,
             "Count": 1
@@ -24068,6 +24103,15 @@
     "MonsterLevel": 99,
     "Goal": 0,
     "FirstWaves": [
+      {
+        "Type": 1,
+        "Monsters": [
+          {
+            "Id": 40103,
+            "Count": 1
+          }
+        ]
+      },
       {
         "Type": 2,
         "Monsters": [
@@ -24283,7 +24327,7 @@
           },
           {
             "Id": 53103,
-            "Count": 2
+            "Count": 1
           }
         ]
       },
@@ -24303,7 +24347,7 @@
         "Monsters": [
           {
             "Id": 20301,
-            "Count": 1
+            "Count": 2
           }
         ]
       },
