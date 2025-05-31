@@ -1,0 +1,267 @@
+[
+  {
+    "Id": 210201,
+    "Name": "<color=#7bb100>Tutunan Tohum</color>",
+    "Description": "Oluşan her Doğa Çekirdeği, aktif karakterin etrafında 1 Tutunan Tohum oluşturur (aynı anda en fazla <color=#f39001>4</color> adet olabilir): Tohumlar bir düşmana isabet ettiğinde tüketilir ve o düşmana <color=#7bb100>Doğa Hasarı</color> verir."
+  },
+  {
+    "Id": 210301,
+    "Name": "<color=#ef5534>Vahşi Ateş Dalgası</color>",
+    "Description": "Her düşmanın Yanma tepkimesinden aldığı Hasar sayısı kaydedilir. Sayı <color=#f39001>{0}</color> olduğunda kayıt sıfırlanır ve <color=#ef5534>Ateş Alan Hasarı</color> verilir."
+  },
+  {
+    "Id": 210302,
+    "Name": "<color=#7bb100>Patlayıcı Çekirdek</color>",
+    "Description": "Karakter, Yanma etkisi altındaki bir düşmana <color=#7bb100>Doğa Hasarı</color> verdiğinde tetiklenerek <color=#7bb100>Doğa Hasarı</color> verir."
+  },
+  {
+    "Id": 210401,
+    "Name": "<color=#f39001>Ateş Kristalinin Kutsaması</color>",
+    "Description": "Tüm grup üyeleri <color=#f39001>%50</color> Ateş ve Toprak Hasarı Bonusu kazanır. Ayrıca <color=#f39001>4</color> saniyede bir yakındaki Kristalleşme parçalarını toplarsın."
+  },
+  {
+    "Id": 210402,
+    "Name": "<color=#ef5534>Yakıcı Dalga</color>",
+    "Description": "<color=#f39001>Ateş Kristalinin Kutsaması</color> etkinken her <color=#f39001>6</color> saniyede bir karakterin bulunduğu yerde çıkar ve <color=#ef5534>Ateş Alan Hasarı</color> verir."
+  },
+  {
+    "Id": 210403,
+    "Name": "<color=#e09800>Taş Parçası Darbesi</color>",
+    "Description": "<color=#f39001>Ateş Kristalinin Kutsaması</color> etkinken her <color=#f39001>4</color> saniyede bir karakterin bulunduğu yerde çıkar ve <color=#e09800>Toprak Alan Hasarı</color> verir."
+  },
+  {
+    "Id": 210501,
+    "Name": "<color=#f39001>Elektrik Kristalinin Kutsaması</color>",
+    "Description": "Tüm grup üyeleri <color=#f39001>%50</color> Elektrik ve Toprak Hasarı Bonusu kazanır. Ayrıca <color=#f39001>4</color> saniyede bir yakındaki Kristalleşme parçalarını toplarsın."
+  },
+  {
+    "Id": 210502,
+    "Name": "<color=#e09800>Kaya Kıran Kükreme</color>",
+    "Description": "<color=#f39001>Elektrik Kristalinin Kutsaması</color> etkinken karakter bir düşmana vurduğunda belirli aralıklarla düşmanın bulunduğu yere inerek <color=#e09800>Toprak Hasarı</color> verir."
+  },
+  {
+    "Id": 210503,
+    "Name": "<color=#e09800>Kaya Kıran Kükreme</color>",
+    "Description": "Karakterler <color=#f39001>Elektrik Kristalleşmesi tepkimesiyle</color> üretilen <color=#f39001>{0}</color> Element Parçası topladığında yakındaki bir düşmanın bulunduğu yere inerek <color=#e09800>Toprak Hasarı</color> verir."
+  },
+  {
+    "Id": 210601,
+    "Name": "<color=#f39001>Kırılganlık</color>",
+    "Description": "Düşmanların Ateş ve Elektrik Direnci <color=#f39001>%5.5</color> azalır, en fazla 4 kademe birikebilir."
+  },
+  {
+    "Id": 210602,
+    "Name": "<color=#ef5534>Patlayıcı Küre</color>",
+    "Description": "Kırılgan bir düşmana Elektrik Hasarı verdikten sonra alandaki <color=#f39001>tüm</color> Kırılgan düşmanlara <color=#ef5534>Ateş Hasarı</color> verilir."
+  },
+  {
+    "Id": 210603,
+    "Name": "<color=#b863ee>Yıldırım Darbeleri</color>",
+    "Description": "Kırılgan bir düşmana Ateş Hasarı verdikten sonra alandaki <color=#f39001>tüm</color> Kırılgan düşmanlara <color=#b863ee>Elektrik Hasarı</color> verilir."
+  },
+  {
+    "Id": 210701,
+    "Name": "<color=#7bb100>Canlandıran Bağlantı</color>",
+    "Description": "Karakterler bir düşman üzerinde Hızlanma, Şiddetlenme veya Yayılma tepkimesi tetiklediğinde, düşmana isabet ettiği zaman patlayan ve <color=#7bb100>Doğa Alan Hasarı</color> veren bir mermi ateşlenir."
+  },
+  {
+    "Id": 210702,
+    "Name": "<color=#b863ee>Toplanan Yıldırım</color>",
+    "Description": "Karakter Hızlanma etkisi altındaki bir düşmana Elektrik veya Doğa Hasarı verdiğinde inerek <color=#b863ee>Elektrik Hasarı</color> verir."
+  },
+  {
+    "Id": 210901,
+    "Name": "<color=#f39001>Esinti Kutsaması: Su</color>",
+    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color>, Maks. Canı <color=#f39001>%8</color> artar."
+  },
+  {
+    "Id": 210902,
+    "Name": "<color=#0075de>İyileştiren Su Topu</color>",
+    "Description": "Karakterlerin iyileştirdiği Can miktarını kaydeder ve süresi dolduğunda patlayarak kaydedilen iyileştirme miktarına ve <color=#f39001>Esinti Kutsaması: Su</color> kademesi sayısına bağlı olarak yakındaki düşmanlara <color=#0075de>Su Alan Hasarı</color> verir."
+  },
+  {
+    "Id": 210903,
+    "Name": "<color=#0075de>Yıkıcı Şelale</color>",
+    "Description": "Yakındaki düşmanları kendine çeker ve <color=#f39001>Esinti Kutsaması: Su</color> kademesi sayısına bağlı olarak <color=#0075de>Su Alan Hasarı</color> verir."
+  },
+  {
+    "Id": 211001,
+    "Name": "<color=#f39001>Esinti Kutsaması: Elektrik</color>",
+    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color> artar ve her <color=#f39001>Esinti Kutsaması: Elektrik</color> kazanıldığında tüm grup üyeleri <color=#f39001>1.5</color> Element Enerjisi kazanır. <color=#f39001>3</color> saniyede bir tetiklenebilir."
+  },
+  {
+    "Id": 211002,
+    "Name": "<color=#b863ee>Keskin Parlayan Yıldırım Bıçağı</color>",
+    "Description": "Karakterler Element Patlaması kullandığında <color=#f39001>Keskin Parlama Nişanı</color> kazanır. Aktif karakterin saldırıları düşmanlara isabet ettiğinde Keskin Parlama Nişanı harcanarak Keskin Parlayan Yıldırım Bıçağı oluşur ve yolundaki tüm düşmanlara Esinti Kutsaması: Elektrik kademesi sayısına bağlı olarak <color=#b863ee>Elektrik Hasarı</color> verir."
+  },
+  {
+    "Id": 211003,
+    "Name": "<color=#b863ee>Yıldırım Sıçrayışı Elektrik Darbesi</color>",
+    "Description": "<color=#f39001>Esinti Kutsaması: Elektrik</color> etkinken bir Havadan Saldırı düşmana isabet ettiğinde Esinti Kutsaması: Elektrik kademesi sayısına bağlı olarak <color=#b863ee>Elektrik Alan Hasarı</color> verir."
+  },
+  {
+    "Id": 211101,
+    "Name": "<color=#f39001>Elektrik Akımı</color>",
+    "Description": "Grup üyelerinin tetiklediği Elektrik Yüklü tepkimelerinin verdiği Hasar <color=#f39001>%250</color> artar."
+  },
+  {
+    "Id": 211102,
+    "Name": "<color=#b863ee>Kayan Şimşek Çekirdeği</color>",
+    "Description": "Elektrik Akımı etkinken aktif karakteri takip eder ve karakterin vurduğu düşmanlara <color=#b863ee>Elektrik Hasarı</color> veren 3 Elektrik mermisi ateşler."
+  },
+  {
+    "Id": 211103,
+    "Name": "<color=#f39001>Şimşek Bulutu</color>",
+    "Description": "Elektrik Akımı etkinken <color=#f39001>2</color> saniyede bir aşağıdaki iki saldırıdan birini rastgele kullanır:\n1. <color=#b863ee>Şimşek Bulutu Darbesi</color>: Etki Alanı içindeki düşmanlara <color=#b863ee>Elektrik Hasarı</color> verir ve aktif karakter <color=#f39001>2</color> Element Enerjisi kazanır.\n2. <color=#0075de>Şimşek Bulutu Sağanağı</color>: Etki Alanı içindeki düşmanlara <color=#0075de>Su Hasarı</color> verir ve aktif karakter <color=#f39001>%5</color> Can yeniler."
+  },
+  {
+    "Id": 211201,
+    "Name": "<color=#f39001>Ateş Kristalinin Kutsaması</color>",
+    "Description": "Tüm grup üyeleri <color=#f39001>%50</color> Ateş ve Toprak Hasarı Bonusu kazanır. Ayrıca <color=#f39001>4</color> saniyede bir yakındaki Kristalleşme parçalarını toplarsın."
+  },
+  {
+    "Id": 211202,
+    "Name": "<color=#e09800>Taş Parçası Darbesi</color>",
+    "Description": "<color=#f39001>Ateş Kristalinin Kutsaması</color> etkinken her <color=#f39001>{0}</color> saniyede bir karakterin bulunduğu yerde çıkar ve <color=#e09800>Toprak Alan Hasarı</color> verir."
+  },
+  {
+    "Id": 211203,
+    "Name": "<color=#e09800>Kaya Kıran Kükreme</color>",
+    "Description": "<color=#f39001>Ateş Kristalinin Kutsaması</color> etkinken karakterler Normal, Yüklü veya Havadan Saldırılarla düşmanlara vurduğunda düşmanın olduğu yere inerek <color=#e09800>Toprak Hasarı</color> verir."
+  },
+  {
+    "Id": 211301,
+    "Name": "<color=#f39001>Buz Kristalinin Kutsaması</color>",
+    "Description": "Tüm grup üyeleri <color=#f39001>%50</color> Buz ve Toprak Hasarı Bonusu kazanır. Ayrıca <color=#f39001>4</color> saniyede bir yakındaki Kristalleşme parçalarını toplarsın."
+  },
+  {
+    "Id": 211302,
+    "Name": "<color=#e09800>Kristal Taş Darbeleri</color>",
+    "Description": "<color=#f39001>Buz Kristalinin Kutsaması</color> etkinken karakterin bulunduğu yerde belirli aralıklarla çıkar ve <color=#e09800>Toprak Alan Hasarı</color> verir."
+  },
+  {
+    "Id": 211303,
+    "Name": "<color=#e09800>Buz Parçalı Taş Patlaması</color>",
+    "Description": "<color=#f39001>Buz Kristalinin Kutsaması</color> etkinken grubundaki Buz veya Toprak karakterleri Kritik Vuruş yaptığında düşmanın olduğu yere iner ve <color=#e09800>Toprak Hasarı</color> verir."
+  },
+  {
+    "Id": 211401,
+    "Name": "<color=#2bb7d5>Ayaz Düşüşü</color>",
+    "Description": "Aktif bir <color=#ef5534>Ateş</color> karakteri Erime tepkimesi tetiklediğinde çıkar ve <color=#2bb7d5>Buz Hasarı</color> verir."
+  },
+  {
+    "Id": 211402,
+    "Name": "<color=#ef5534>Alev Kulesi</color>",
+    "Description": "Aktif bir <color=#2bb7d5>Buz</color> karakteri Erime tepkimesi tetiklediğinde çıkar ve <color=#ef5534>Ateş Hasarı</color> verir."
+  },
+  {
+    "Id": 211403,
+    "Name": "<color=#f39001>Yüksek Termoklin</color>",
+    "Description": "Karakterler <color=#f39001>%30</color> daha fazla Erime Hasarı verir."
+  },
+  {
+    "Id": 211501,
+    "Name": "<color=#f39001>Esinti Kutsaması: Ateş</color>",
+    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color>, Saldırıları ise <color=#f39001>%9</color> artar."
+  },
+  {
+    "Id": 211502,
+    "Name": "<color=#ef5534>Yel Alevi</color>",
+    "Description": "Aktif karakter bir düşmana Hasar verdiğinde tetiklenerek karakterin Canını tüketir ve Esinti Kutsaması: Ateş kademesi sayısına bağlı olarak <color=#ef5534>Ateş Alan Hasarı</color> verir."
+  },
+  {
+    "Id": 211503,
+    "Name": "<color=#f39001>Ateş Fırtınası</color>",
+    "Description": "<color=#f39001>Ateş veya Rüzgar</color> karakterleri savaş alanına çıktığında tetiklenerek Esinti Kutsaması: Ateş kademesi sayısına bağlı olarak o karakterin <color=#f39001>Element Türünde</color> Alan Hasarı verir."
+  },
+  {
+    "Id": 211601,
+    "Name": "<color=#f39001>Sızlatan Soğuk</color>",
+    "Description": "Tüm grup üyelerinin Buz ve Su Kritik Hasarı <color=#f39001>%40</color> artar."
+  },
+  {
+    "Id": 211602,
+    "Name": "<color=#0075de>Soğuk Dalgası</color>",
+    "Description": "Aktif bir <color=#2bb7d5>Buz</color> karakteri düşman üzerinde Donma tepkimesi tetiklediğinde çıkar ve <color=#0075de>Su Alan Hasarı</color> verir."
+  },
+  {
+    "Id": 211603,
+    "Name": "<color=#2bb7d5>Buzul Dalga</color>",
+    "Description": "Aktif bir <color=#0075de>Su</color> karakteri düşman üzerinde Donma tepkimesi tetiklediğinde çıkar ve <color=#2bb7d5>Buz Alan Hasarı</color> verir."
+  },
+  {
+    "Id": 211604,
+    "Name": "<color=#f39001>Kırık Buz</color>",
+    "Description": "Düşmanların Su ve Buz Direnci <color=#f39001>%8</color> azalır, en fazla <color=#f39001>3</color> kademe birikebilir."
+  },
+  {
+    "Id": 211701,
+    "Name": "<color=#f39001>İtaatkar</color>",
+    "Description": "Düşmanların Buz ve Elektrik Direnci <color=#f39001>%3</color>, Fiziksel Direnci <color=#f39001>%6</color> azalır. En fazla 6 kademe birikebilir."
+  },
+  {
+    "Id": 211702,
+    "Name": "<color=#f39001>Sarsıcı Şok</color>",
+    "Description": "Karakterler <color=#f39001>İtaatkar</color> etkisindeki bir düşmana <color=#f39001>Fiziksel Hasar</color> verdiğinde çıkar her <color=#f39001>3</color> saniyede en fazla bir defa Fiziksel Hasar verir."
+  },
+  {
+    "Id": 211801,
+    "Name": "<color=#f39001>Su Kristalinin Kutsaması</color>",
+    "Description": "Tüm grup üyeleri <color=#f39001>%50</color> Su ve Toprak Hasarı Bonusu kazanır. Ayrıca <color=#f39001>4</color> saniyede bir yakındaki Kristalleşme parçalarını toplarsın."
+  },
+  {
+    "Id": 211802,
+    "Name": "<color=#e09800>Taş Parçalayıcı Darbe</color>",
+    "Description": "<color=#f39001>Su Kristalinin Kutsaması</color> etkinken belirli aralıklarla karakterin bulunduğu yerde çıkar ve <color=#e09800>Toprak Alan Hasarı</color> verir."
+  },
+  {
+    "Id": 211803,
+    "Name": "<color=#e09800>Taş Akıntısı</color>",
+    "Description": "<color=#f39001>Su Kristalinin Kutsaması</color> etkinken grubundaki Su veya Toprak karakterleri iyileştirildiğinde düşmanın olduğu yere inerek <color=#e09800>Toprak Hasarı</color> verir."
+  },
+  {
+    "Id": 211804,
+    "Name": "<color=#f39001>Buzul Diken</color>",
+    "Description": "Yakındaki her düşmana <color=#f39001>2</color> saniyede bir <color=#f39001>Buz ve Doğa Alan Hasarı</color> verir. Savaş alanında aynı anda en fazla 2 adet Buzul Diken bulunabilir."
+  },
+  {
+    "Id": 211805,
+    "Name": "<color=#b863ee>Yıldırım Dikeni</color>",
+    "Description": "Karakterin Elektrik saldırısı <color=#f39001>Buzul Dikenin</color> Etki Alanındaki bir düşmanı vurduğunda, <color=#f39001>Buzul Diken</color> <color=#f39001>10</color> saniyeliğine Yıldırım Dikenine dönüşür. Saldırı sıklığı saniyede <color=#f39001>bire</color> yükselir ve <color=#f39001>1.5</color> kat daha fazla Elektrik Alan Hasarı verir."
+  },
+  {
+    "Id": 211806,
+    "Name": "<color=#f39001>Manyetik Diken</color>",
+    "Description": "Saldırmaz, onun yerine karakterlerin yakındaki düşmanlara daha fazla <color=#f39001>Buz, Doğa, Elektrik ve Fiziksel Hasar</color> vermesini sağlar. Alandaki her Manyetik Diken, bu güçlendirmeyi <color=#f39001>%45</color> artırır, en fazla <color=#f39001>%90</color> olabilir."
+  },
+  {
+    "Id": 11120001,
+    "Name": "Soğuk Muhafaza Modu",
+    "Description": "<color=#FFD780FF>Dokun</color>\nÇok Amaçlı Yemek Mekasının Soğuk Muhafaza Modunu etkinleştirerek yakındaki düşmanlara <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n\n<color=#FFD780FF>Yemek Mekası: Soğuk Muhafaza Modu</color>\nMevcut aktif karakterini takip eder ve belirli aralıklarla düşmanlara Buzlu Parfeler ateşleyerek <color=#99FFFFFF>Buz Hasarı</color> verir."
+  },
+  {
+    "Id": 11120002,
+    "Name": "Doğaçlama Pişirme Modu",
+    "Description": "<color=#FFD780FF>Yemek Mekası: Doğaçlama Pişirme Modu</color>\n·Yemek Mekasını alana yerleştirir. Yemek Mekası element saldırılarını emebilir. Emilen element enerjisi belirli bir sınıra ulaştığında Escoffier, mekasındaki malzemeleri harika yemeklere dönüştürür.\n·Escoffier'nin yeni malzemeler almak için zamana ihtiyacı vardır, bu yüzden her hafta bu yemeklerden sadece belirli bir sayıda pişirebilir. Escoffier'nin yemek pişirme hakkı her Pazartesi saat 04:00'te yenilenir."
+  },
+  {
+    "Id": 11130001,
+    "Name": "Destek Ateşi",
+    "Description": "Gece Ruhunun Lütfu durumundayken Ifa'nın Normal Saldırıları Destek Ateşine dönüşür.\n<color=#FFD780FF>Dokun</color>\nBir Tonik Atışı yapar.\n<color=#FFD780FF>Basılı Tut</color>\nSürekli olarak Tonik Atışları yapar.\n<color=#FFD780FF>Tonik Atışı</color>\nGece Ruhu tesirli <color=#80FFD7FF>Rüzgar Hasarı</color> verir ve bir düşmana isabet ettiğinde yakındaki tüm grup üyelerini Ifa'nın Element Ustalığına bağlı olarak iyileştirir."
+  },
+  {
+    "Id": 11130002,
+    "Name": "Kurtarma Kiti",
+    "Description": "En fazla 150 puan birikebilir. Ifa'nın sahip olduğu her Kurtarma Kiti puanı, yakındaki grup üyelerinin verdiği Elektrik Yüklü ve Girdap Hasarını %1,5 artırır. Ifa'nın Gece Ruhunun Lütfu durumu sona erdiğinde puanlar sıfırlanır."
+  },
+  {
+    "Id": 11130003,
+    "Name": "Gece Ruhunun Lütfu: Ifa",
+    "Description": "Sürekli olarak Gece Ruhu puanı tüketir. Gece Ruhu puanı tükendiğinde veya beceri tekrar kullanıldığında Ifa'nın Gece Ruhunun Lütfu durumu sona erer. Gece Ruhunun Lütfu şu özelliklere sahiptir:\n·Ifa, Cacucu'nun yardımıyla süzülerek Hareket Hızını ve müdahaleye karşı direncini artırır. Bu durumda kalmak için Ifa sürekli olarak Gece Ruhu puanı tüketir. Depar atarken veya hızlanırken ekstra Gece Ruhu puanı tüketir.\n·Ifa, Normal Saldırı kullanırken Dokunma veya Basılı Tutma durumuna göre farklı türlerde Destek Ateşi açar."
+  },
+  {
+    "Id": 11130004,
+    "Name": "Sakinleştirici İşaret",
+    "Description": "Bu İşaret kısa bir sürenin ardından patlayarak kaybolur ve ilgili element türünde Alan Hasarı verir. Sakinleştirici, isabet ettiği en fazla 4 düşmana Sakinleştirici İşaret uygulayabilir. Bir düşmana aynı anda farklı elementlerde İşaretler uygulanamaz."
+  }
+]
