@@ -1,5 +1,15 @@
 [
   {
+    "Id": 210101,
+    "Name": "<color=#0075de>Tidal Shock</color>",
+    "Description": "Setelah Karakter memicu reaksi Vaporize terhadap musuh, akan mengakibatkan <color=#0075de>Hydro DMG</color>"
+  },
+  {
+    "Id": 210102,
+    "Name": "<color=#ef5534>Blazing Explosion</color>",
+    "Description": "Setelah Karakter memicu reaksi Vaporize terhadap musuh, akan mengakibatkan <color=#ef5534>Pyro DMG</color>"
+  },
+  {
     "Id": 210201,
     "Name": "<color=#7bb100>Lingering Seed</color>",
     "Description": "Setiap kali menciptakan satu Dendro Core, satu Lingering Seed juga akan tercipta di sekitar Karakter aktif (maksimum <color=#f39001>4</color> buah dalam waktu bersamaan). Lingering Seed akan mengakibatkan <color=#7bb100>Dendro DMG</color> lalu hilang saat menyentuh musuh."
@@ -257,11 +267,46 @@
   {
     "Id": 11130003,
     "Name": "Nightsoul's Blessing: Ifa",
-    "Description": "Terus mengonsumsi poin Nightsoul. Saat sudah habis dikonsumsi atau saat dilancarkan sekali lagi, Nightsoul's Blessing Ifa akan berakhir. Nightsoul's Blessing memiliki karakteristik sebagai berikut:\n·Akan melayang berkat bantuan Cacucu, meningkatkan Movement SPD dan ketahanan Ifa terhadap interupsi. Dalam status ini, Ifa akan terus mengonsumsi poin Nightsoul untuk mempertahankan status melayangnya. Saat berlari atau meningkatkan ketinggian, akan mengonsumsi poin Nightsoul tambahan.\nSaat melancarkan Normal Attack, akan dikonversi menjadi Supporting Fire yang berbeda berdasarkan Mode Tekan dan Mode Tahan."
+    "Description": "Terus mengonsumsi poin Nightsoul. Saat sudah habis dikonsumsi atau saat dilancarkan sekali lagi, Nightsoul's Blessing Ifa akan berakhir. Nightsoul's Blessing memiliki karakteristik sebagai berikut:\n·Akan melayang berkat bantuan Cacucu, meningkatkan Movement SPD dan ketahanan Ifa terhadap interupsi. Dalam status ini, Ifa akan terus mengonsumsi poin Nightsoul untuk mempertahankan status melayangnya. Saat berlari atau meningkatkan ketinggian, akan mengonsumsi poin Nightsoul tambahan.\n·Saat melancarkan Normal Attack, akan dikonversi menjadi Supporting Fire yang berbeda berdasarkan Mode Tekan dan Mode Tahan."
   },
   {
     "Id": 11130004,
     "Name": "Sedation Mark",
     "Description": "Efek ini akan meledak setelah jeda singkat lalu menghilang dan mengakibatkan DMG Area dengan elemen yang sesuai. Obat penenang ini dapat memberikan efek Sedation Mark kepada maksimum 4 musuh yang terkena. Musuh tidak bisa berada dalam Sedation Mark dengan elemen yang berbeda di saat yang sama."
+  },
+  {
+    "Id": 11130005,
+    "Name": "Serpent's Subtlety",
+    "Description": "Skirk dapat mengonsumsi Serpent's Subtlety untuk mempertahankan mode Seven-Phase Flash miliknya, atau untuk melancarkan Elemental Burst \"Havoc: Ruin\".\n\nSkirk dapat memperoleh Serpent's Subtlety dengan cara-cara berikut:\n·Melancarkan Elemental Skill \"Havoc: Warp\".\n·Menyerap Void Rift yang tercipta dari efek Talenta Pasif \"Reason Beyond Reason\".\n\nSerpent's Subtlety yang dimiliki Skirk akan hilang saat Skirk meninggalkan medan pertempuran dalam mode Seven-Phase Flash atau saat mode Seven-Phase Flash berakhir."
+  },
+  {
+    "Id": 11130006,
+    "Name": "Seven-Phase Flash",
+    "Description": "Skirk akan berganti ke mode ini selama kurun waktu tertentu setelah melancarkan Elemental Skill <color=#FFD780FF>Havoc: Warp</color>. Mode ini memiliki karakteristik berikut:\n·Terus mengonsumsi Serpent's Subtlety.\n·Meningkatkan radius serangan Normal Attack dan Charged Attack, serta ketahanan Skirk terhadap interupsi.\n·DMG dari Normal Attack, Charged Attack, dan Plunging Attack akan dikonversi menjadi <color=#99FFFFFF>Cryo DMG</color> yang tidak bisa ditimpa Elemental Infusion lainnya.\n·Elemental Burst <color=#FFD780FF>Havoc: Ruin</color> akan berubah menjadi Elemental Burst spesial <color=#FFD780FF>Havoc: Extinction</color>.\n·Skirk dapat bergerak di atas permukaan air saat berlari.\n·Skirk akan keluar dari mode ini saat Serpent's Subtlety habis dikonsumsi atau saat durasinya berakhir, kemudian Elemental Skill-nya akan memasuki cooldown."
+  },
+  {
+    "Id": 11130007,
+    "Name": "Reason Beyond Reason",
+    "Description": "Saat Karakter di dalam party memicu reaksi Frozen, Superconduct, Cryo Swirl, atau Cryo Crystallize terhadap musuh di sekitar, akan tercipta sebuah Void Rift di sekitar musuh tersebut. Efek ini dapat terpicu sekali setiap 2,5 detik, dan maksimum 3 Void Rift dapat tercipta di medan pertempuran dalam satu waktu.\n\nSkirk bisa menyerap Void Rift di sekitarnya dengan cara berikut:\n·Saat Charged Attack yang dilancarkan Skirk dalam mode Seven-Phase Flash mengenai musuh.\n·Saat melancarkan Elemental Burst spesial <color=#FFD780FF>Havoc: Extinction</color> dalam mode Seven-Phase Flash.\n·Saat menahan tombol Elemental Skill <color=#FFD780FF>Havoc: Warp</color> untuk bergerak dengan cepat.\n\nSetiap Void Rift yang diserap akan memberikan Skirk 8 poin Serpent's Subtlety."
+  },
+  {
+    "Id": 11130008,
+    "Name": "Return to Oblivion",
+    "Description": "Saat serangan <color=#80C0FFFF>Hydro</color> milik Karakter <color=#80C0FFFF>Hydro</color> dalam party di sekitar mengenai musuh, atau saat serangan <color=#99FFFFFF>Cryo</color> milik Karakter <color=#99FFFFFF>Cryo</color> dalam party di sekitar mengenai musuh, maka Skirk akan mendapatkan satu lapis efek \"Death's Crossing\" selama 20 detik. \"Death's Crossing\" dapat ditumpuk hingga 3 lapis dan durasi setiap lapisannya dihitung terpisah.\nSetiap Karakter hanya bisa memberikan efek Death's Crossing sebanyak 1 kali kepada Skirk dengan cara ini.\nSetiap lapis Death's Crossing memberikan efek: Normal Attack Skirk dalam mode Seven-Phase Flash akan mengakibatkan 110%/120%/170% dari DMG awalnya, Elemental Burst <color=#FFD780FF>Havoc: Ruin</color> juga mengakibatkan 105%/115%/160% dari DMG awalnya."
+  },
+  {
+    "Id": 11130009,
+    "Name": "Sacramental Shower",
+    "Description": "Setelah musuh atau Karakter di dalam party menyentuh Sacramental Shower, akan muncul efek yang berbeda berdasarkan subjek yang menyentuhnya:\nJika musuh yang menyentuh, maka Sacramental Shower akan meledak dan mengakibatkan <color=#80C0FFFF>Hydro DMG Area</color> pada musuh di sekitar.\nJika Karakter di dalam party yang menyentuh, maka Sacramental Shower akan mementalkan Karakter tersebut ke udara.\n\nHanya bisa ada satu Sacramental Shower yang bisa dipanggil oleh Dahlia dalam satu waktu."
+  },
+  {
+    "Id": 11130010,
+    "Name": "Favonian Favor",
+    "Description": "Dahlia akan memberikan efek ini kepada Karakter sendiri di dalam party saat melancarkan Elemental Burst <color=#FFD780FF>Radiant Psalter</color>.\nSelama aktif, saat Shield of Sacred Favor berakhir atau perisainya dihancurkan, Dahlia akan mengonsumsi satu lapis efek Benison untuk menciptakan Shield of Sacred Favor baru."
+  },
+  {
+    "Id": 11130011,
+    "Name": "Benison",
+    "Description": "Dahlia bisa mendapatkan efek Benison dengan cara berikut:\n·Dahlia akan mendapatkan X lapis efek Benison saat Karakter aktif di dalam party yang terpengaruh efek Favonian Favor menyerang musuh dengan Normal Attack sebanyak 4 kali.\n·Setelah efek Talenta Pasif \"The Wind's Gentle Grace\" terpicu.\nDahlia bisa mendapatkan maksimum X lapis Benison untuk setiap durasi Favonian Favor."
   }
 ]

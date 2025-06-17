@@ -1,5 +1,15 @@
 [
   {
+    "Id": 210101,
+    "Name": "<color=#0075de>Dalga Şoku</color>",
+    "Description": "Bir karakter, bir düşman üzerinde Buharlaşma tepkimesi tetiklediğinde <color=#0075de>Su Hasarı</color> verir."
+  },
+  {
+    "Id": 210102,
+    "Name": "<color=#ef5534>Çarpıcı Patlama</color>",
+    "Description": "Bir karakter, bir düşman üzerinde Buharlaşma tepkimesi tetiklediğinde <color=#ef5534>Ateş Hasarı</color> verir."
+  },
+  {
     "Id": 210201,
     "Name": "<color=#7bb100>Tutunan Tohum</color>",
     "Description": "Oluşan her Doğa Çekirdeği, aktif karakterin etrafında 1 Tutunan Tohum oluşturur (aynı anda en fazla <color=#f39001>4</color> adet olabilir): Tohumlar bir düşmana isabet ettiğinde tüketilir ve o düşmana <color=#7bb100>Doğa Hasarı</color> verir."
@@ -263,5 +273,40 @@
     "Id": 11130004,
     "Name": "Sakinleştirici İşaret",
     "Description": "Bu İşaret kısa bir sürenin ardından patlayarak kaybolur ve ilgili element türünde Alan Hasarı verir. Sakinleştirici, isabet ettiği en fazla 4 düşmana Sakinleştirici İşaret uygulayabilir. Bir düşmana aynı anda farklı elementlerde İşaretler uygulanamaz."
+  },
+  {
+    "Id": 11130005,
+    "Name": "Yılan Kurnazlığı",
+    "Description": "Skirk, Yedi Aşamalı Parıltı modunu sürdürmek veya Yıkım: Harap Etme Element Patlamasını kullanmak için Yılan Kurnazlığı tüketebilir.\n\nSkirk şu yollarla Yılan Kurnazlığı puanı kazanabilir:\n·Yıkım: Bükme Element Becerisini kullandıktan sonra.\n·Akıl Almaz Mantık Pasif Yeteneğini tetikleyip Boşluk Yarıkları soğurduktan sonra.\n\nSkirk, Yedi Aşamalı Parıltı modundayken alandan ayrıldığında ya da Yedi Aşamalı Parıltı modu sona erdiğinde Yılan Kurnazlığı puanları sıfırlanır."
+  },
+  {
+    "Id": 11130006,
+    "Name": "Yedi Aşamalı Parıltı",
+    "Description": "Skirk, <color=#FFD780FF>Yıkım: Bükme</color> Element Becerisini kullandığında belirli bir süreliğine bu moda geçer. Bu mod aşağıdaki özelliklere sahiptir:\n·Sürekli olarak Yılan Kurnazlığı tüketir.\n·Normal ve Yüklü Saldırıların Etki Alanı ve Skirk'ün müdahaleye karşı direnci artar.\n·Normal, Yüklü ve Havadan Saldırılar, farklı herhangi bir element tesiriyle değişmeyecek şekilde <color=#99FFFFFF>Buz Hasarına</color> dönüşür.\n· <color=#FFD780FF>Yıkım: Harap Etme</color> Element Patlaması, <color=#FFD780FF>Yıkım: Tükeniş</color> olarak değişir.\n·Skirk, depar atarken su üzerinde gidebilir.\n·Yılan Kurnazlığı tamamen tükendiğinde veya süre bittiğinde Skirk bu moddan çıkar ve Element Becerisi Bekleme Süresi başlar."
+  },
+  {
+    "Id": 11130007,
+    "Name": "Akıl Almaz Mantık",
+    "Description": "Yakındaki grup üyeleri düşman üzerinde Donma, Süper İletim, Buz Girdabı veya Buz Kristalleşmesi tepkimelerini tetiklediğinde o düşmanın yakınında bir Boşluk Yarığı oluşur. Bu etki 2,5 saniyede bir tetiklenebilir. Savaş alanında aynı anda Skirk'ün yarattığı en fazla 3 Boşluk Yarığı bulunabilir.\n\nSkirk, yakınındaki Boşluk Yarıklarını aşağıdaki yollarla soğurur:\n·Yedi Aşamalı Parıltı modundayken bir düşmana Yüklü Saldırı ile vurarak.\n·Yedi Aşamalı Parıltı modundayken <color=#FFD780FF>Yıkım: Tükeniş</color> Element Patlamasını kullanarak.\n·<color=#FFD780FF>Yıkım: Bükme</color> Element Becerisine Basılı Tutup hızlı hareket etmeye başlayarak.\n\nSkirk, soğurduğu her Yarık için 8 Yılan Kurnazlığı puanı kazanır."
+  },
+  {
+    "Id": 11130008,
+    "Name": "Unutulmaya Dönüş",
+    "Description": "Yakındaki <color=#80C0FFFF>Su</color> grup üyelerinin <color=#80C0FFFF>Su</color> elementi saldırıları düşmanlara vurduğunda veya Skirk dışındaki <color=#99FFFFFF>Buz</color> grup üyelerinin <color=#99FFFFFF>Buz</color> elementi saldırıları düşmanlara vurduğunda Skirk 20 saniyeliğine \"Ölümün Kıyısı\" etkisini kazanır. Bu etki 3 kademeye kadar birikebilir ve her kademenin süresi birbirinden bağımsızdır.\nHer karakter bu şekilde Skirk'e en fazla 1 \"Ölümün Kıyısı\" kademesi sağlayabilir.\nHer \"Ölümün Kıyısı\" kademesi, Yedi Aşamalı Parıltı modunda Skirk'ün Normal Saldırı Hasarını orijinal Hasarın %110/%120/%170'i kadar artırır. <color=#FFD780FF>Yıkım: Harap Etme</color> Element Patlaması Hasarını ise orijinal Hasarın %105/%115/%160'ı kadar artırır."
+  },
+  {
+    "Id": 11130009,
+    "Name": "Mukaddes Yağmur",
+    "Description": "Düşmanlar ya da yakındaki grup üyeleri Mukaddes Yağmura dokunduğunda kimin dokunduğuna göre farklı etkiler oluşur:\nMukaddes Yağmura bir düşman dokunduğunda yakındaki düşmanlara <color=#80C0FFFF>Su Alan Hasarı</color> veren bir patlama meydana gelir.\nYakındaki bir grup üyesi dokunduğunda dokunan kişiyi havaya fırlatır.\n\nSavaş alanında aynı anda Dahlia'nın çağırdığı sadece 1 Mukaddes Yağmur bulunabilir."
+  },
+  {
+    "Id": 11130010,
+    "Name": "Favonius Lütfu",
+    "Description": "Dahlia, <color=#FFD780FF>Işıltılı İlahi</color> Element Patlamasını kullandığında grubundaki karakterlere bu etkiyi uygular.\nBu etki aktifken mevcut Kutsal Lütuf Kalkanı Hasar alıp kırıldığında ya da süresi dolduğunda 1 Takdis tüketilerek yeni bir Kalkan çağrılabilir."
+  },
+  {
+    "Id": 11130011,
+    "Name": "Takdis",
+    "Description": "Dahlia, aşağıdaki yöntemlerle Takdis elde edebilir:\n·Dahlia'nın bulunduğu gruptaki aktif grup üyesi Favonius Lütfu etkisindeyken bir düşmana 4 defa Normal Saldırı ile vurduğunda Dahlia 1 Takdis kademesi kazanır.\n·\"Rüzgarın Zarafeti\" Pasif Yeteneğinin etkisi tetiklendikten sonra Dahlia Takdis kademesi kazanır.\n\nFavonius Lütfu süresi boyunca Dahlia en fazla 4 Takdis kademesi elde edebilir."
   }
 ]

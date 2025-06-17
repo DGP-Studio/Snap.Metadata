@@ -1,5 +1,15 @@
 [
   {
+    "Id": 210101,
+    "Name": "<color=#0075de>Onda de Choque Torrencial</color>",
+    "Description": "Quando um personagem desencadeia Vaporização em um oponente, causa <color=#0075de>Dano Hydro</color>"
+  },
+  {
+    "Id": 210102,
+    "Name": "<color=#ef5534>Explosão Flamejante</color>",
+    "Description": "Quando um personagem desencadeia Vaporização em um oponente, causa <color=#ef5534>Dano Pyro</color>"
+  },
+  {
     "Id": 210201,
     "Name": "<color=#7bb100>Semente Remanescente</color>",
     "Description": "Cada Núcleo Dendro criado gerará 1 Semente Remanescente ao redor do personagem ativo atual (máximo de <color=#f39001>4</color> simultaneamente): Elas são consumidas após tocarem um oponente, causando <color=#7bb100>Dano Dendro</color>"
@@ -216,7 +226,7 @@
   },
   {
     "Id": 211803,
-    "Name": "<color=#e09800>Pedras de Degrau</color>",
+    "Name": "<color=#e09800>Corrente de Pedras</color>",
     "Description": "Enquanto a <color=#f39001>Bênção do Cristal Hydro</color> estiver ativa, quando personagens Hydro ou Geo em sua equipe forem curados, cairá na posição do oponente, causando <color=#e09800>Dano Geo</color>"
   },
   {
@@ -263,5 +273,40 @@
     "Id": 11130004,
     "Name": "Marca Tranquilizante",
     "Description": "Esse efeito explodirá e desaparecerá depois de um tempo, e causa Dano em AdE do Tipo Elemental correspondente. O Sedativo Terapêutico pode aplicar Marca Tranquilizante até 4 inimigos atingidos. Não é possível que o inimigo seja afetado por Marcas Tranquilizantes de mais de um Tipo Elemental."
+  },
+  {
+    "Id": 11130005,
+    "Name": "Sutileza da Serpente",
+    "Description": "Skirk pode consumir Sutileza da Serpente para manter seu modo Lampejo de Sete Fases ou para usar seu Supremo, Arte Apodrecida: Obliteração.\n\nSkirk pode obter pontos de Sutileza da Serpente das seguintes formas:\n· Após usar sua Habilidade Elemental, Devastação: Lampejo.\n· Após ativar o efeito de seu Talento Passivo, \"Razão Além da Razão\", ao absorver Fendas do Vazio.\n\nQuando Skirk sai de campo ou quando o Lampejo de Sete Fases termina, seus pontos de Sutileza da Serpente serão removidos."
+  },
+  {
+    "Id": 11130006,
+    "Name": "Lampejo de Sete Fases",
+    "Description": "Skirk entrará nesse modo por um tempo determinado ao usar a Habilidade Elemental <color=#FFD780FF>Devastação: Lampejo</color>. Este modo possui as seguintes propriedades:\n· Consome continuamente Sutileza da Serpente.\n· Aumenta a AdE dos Ataques Normais e Carregados, além da Resistência contra Interrupção de Skirk.\n· Ataques Normais, Carregados e Imersivos são convertidos em <color=#99FFFFFF>Dano Cryo</color> que não pode ser substituído.\n· Seu Supremo, <color=#FFD780FF>Arte Apodrecida: Obliteração</color>, é convertido no Supremo especial <color=#FFD780FF>Devastação: Obliteração</color>.\n· Skirk pode se mover sobre a água ao Correr.\n· Skirk sairá desse modo quando a Sutileza da Serpente se esgotar completamente ou quando a duração terminar. Em seguida, a Habilidade Elemental entrará em Recarga."
+  },
+  {
+    "Id": 11130007,
+    "Name": "Razão Além da Razão",
+    "Description": "Quando membros próximos da equipe desencadearem reações de Congelado, Supercondutor, Redemoinho Cryo ou Cristalização Cryo contra inimigos, uma Fenda do Vazio será criada próxima a esse inimigo. Esse efeito pode ser desencadeado uma vez a cada 2,5s. Um máximo de 3 Fendas do Vazio criadas pela própria Skirk pode existir simultaneamente em campo.\n\nSkirk pode usar os seguintes métodos para absorver Fendas do Vazio próximas:\n· Ao acertar um inimigo com um Ataque Carregado no modo Lampejo de Sete Fases.\n· Ao usar o Supremo especial <color=#FFD780FF>Devastação: Obliteração</color> enquanto estiver no modo Lampejo de Sete Fases.\n· Ao Manter pressionada sua Habilidade Elemental <color=#FFD780FF>Devastação: Lampejo</color> para realizar um movimento rápido.\n\nCada Fenda absorvida concederá a ela 8 pontos de Sutileza da Serpente."
+  },
+  {
+    "Id": 11130008,
+    "Name": "Retorno à Desolação",
+    "Description": "Quando membros próximos da equipe de Tipo Elemental <color=#80C0FFFF>Hydro</color> atingirem um inimigo com um ataque <color=#80C0FFFF>Hydro</color>, ou quando os outros personagens próximos da equipe de Tipo Elemental <color=#99FFFFFF>Cryo</color>, exceto a própria Skirk, atingirem um inimigo com um ataque <color=#99FFFFFF>Cryo</color>, Skirk receberá o efeito \"Encruzilhada da Morte\" por 20s. Máximo de 3 acúmulos, com a duração de cada acúmulo contada independentemente.\nCada personagem pode conceder no máximo 1 acúmulo de \"Encruzilhada da Morte\" para Skirk dessa maneira.\nCada acúmulo de \"Encruzilhada da Morte\" aumenta o Dano do Ataque Normal causado por Skirk no modo <color=#FFD780FF>Lampejo de Sete Fases</color> em 110%/120%/170% de seu Dano original e também aumenta o Dano causado por seu Supremo <color=#FFD780FF>Arte Apodrecida: Obliteração</color> em 105%/115%/160% de seu Dano original."
+  },
+  {
+    "Id": 11130009,
+    "Name": "Mistério da Chuva Neblinada",
+    "Description": "Quando os inimigos ou personagens próximos da equipe tocam o Mistério da Chuva Neblinada, gera efeitos diferentes de acordo com o modo que foi desencadeado:\nSe for o inimigo que tocou o Mistério da Chuva Neblinada, o Mistério da Chuva Neblinada explodirá, causando <color=#80C0FFFF>Dano Hydro em AdE</color> contra os inimigos próximos.\nSe for o personagem próximo da equipe que tocou o Mistério da Chuva Neblinada, o Mistério da Chuva Neblinada ricocheteará quem o tocou para alto no ar.\n\nSó é possível existir um Mistério da Chuva Neblinada criado por Dahlia simultaneamente."
+  },
+  {
+    "Id": 11130010,
+    "Name": "Graça de Favonius",
+    "Description": "Quando Dahlia lança seu Supremo <color=#FFD780FF>Pregação Radiante</color>, concede esse efeito para os personagens da equipe.\nQuando o efeito Escudo da Graça acabar na sua duração, ou quando é destruído por Dano, Dahlia consome 1 acúmulo do efeito Bons Desejos para recriar o Escudo da Graça."
+  },
+  {
+    "Id": 11130011,
+    "Name": "Bons Desejos",
+    "Description": "Dahlia pode obter o efeito Bons Desejos das seguintes formas:\n· Quando o personagem ativo atual estiver sob o efeito Graça de Favonius, e seu Ataque Normal atingir inimigos 4 vezes, Dahlia obtém 1 acúmulo do efeito Bons Desejos.\n· Depois que desencadear o efeito do Talento Passivo \"Amor Concedido Pelo Vento\".\n\nDahlia pode obter até X acúmulos de Bons Desejos em cada duração do efeito Graça de Favonius."
   }
 ]

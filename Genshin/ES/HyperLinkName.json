@@ -1,5 +1,15 @@
 [
   {
+    "Id": 210101,
+    "Name": "<color=#0075de>Onda torrencial</color>",
+    "Description": "Cuando el personaje causa una reacción de Vaporización contra un enemigo, se libera una onda torrencial que inflige <color=#0075de>Daño Hydro</color>."
+  },
+  {
+    "Id": 210102,
+    "Name": "<color=#ef5534>Explosión ígnea</color>",
+    "Description": "Cuando el personaje causa una reacción de Vaporización contra un enemigo, se libera una explosión ígnea que inflige <color=#ef5534>Daño Pyro</color>."
+  },
+  {
     "Id": 210201,
     "Name": "<color=#7bb100>Semilla circundante</color>",
     "Description": "Por cada núcleo Dendro creado, se genera cerca del personaje en uso una semilla circundante (como máximo, solo puede haber <color=#f39001>4</color> semillas a la vez) que, al tocar a un enemigo, se consume y le inflige <color=#7bb100>Daño Dendro</color>."
@@ -263,5 +273,40 @@
     "Id": 11130004,
     "Name": "Marca tranquilizante",
     "Description": "Explota y desaparece tras un breve lapso de tiempo para infligir Daño en el AdE del elemento correspondiente. Puede aplicarse una marca tranquilizante a un máximo de 4 enemigos golpeados. Un enemigo no podrá ser afectado al mismo tiempo por marcas tranquilizantes de elementos distintos."
+  },
+  {
+    "Id": 11130005,
+    "Name": "Astucia serpentina",
+    "Description": "Skirk puede consumir astucia serpentina para mantener su estado de distorsión heptafásica o para usar su Habilidad Definitiva, “Caos: Aniquilación”.\n\nSkirk puede obtener astucia serpentina de las siguientes formas:\n·Tras usar su Habilidad Elemental, “Caos: Distorsión”.\n·Tras absorber el efecto de las fisuras del vacío activado con el talento pasivo “La razón más allá de la razón”.\n\nCuando Skirk se retira de combate mientras está en modo distorsión heptafásica o cuando dicho modo termina, se eliminan los pts. que tenga de astucia serpentina."
+  },
+  {
+    "Id": 11130006,
+    "Name": "Distorsión heptafásica",
+    "Description": "Skirk cambia a este modo durante cierto tiempo cuando usa su Habilidad Elemental, <color=#FFD780FF>Caos: Distorsión</color>. Dicho modo posee las siguientes características:\n·Consume continuamente astucia serpentina.\n·Aumenta el AdE de los Ataques Normales y Cargados, así como la RES a interrupción de Skirk.\n·Al ejecutar un Ataque Normal, Cargado o Descendente, el daño que infligen se transforma en <color=#99FFFFFF>Daño Cryo</color>, el cual no puede sustituirse imbuyéndose de otro elemento.\n·La Habilidad Definitiva, <color=#FFD780FF>Caos: Aniquilación</color>, se sustituye por la Habilidad Definitiva especial <color=#FFD780FF>Caos: Exterminio</color>.\n·Skirk puede moverse sobre el agua al esprintar.\n·Cuando se consuman todos los pts. de astucia serpentina o cuando termine su duración, Skirk saldrá de este modo y su Habilidad Elemental entrará en TdE."
+  },
+  {
+    "Id": 11130007,
+    "Name": "La razón más allá de la razón",
+    "Description": "#Cuando un personaje cercano del equipo cause una reacción de Congelado, Superconductor, Torbellino Cryo o Cristalización Cryo contra un enemigo, se creará una fisura del vacío cerca de dicho oponente. Este efecto puede ocurrir, como mucho, una vez cada 2.5{NON_BREAK_SPACE}s, y podrán crearse un máximo de 3 fisuras del vacío a la vez.\n\nSkirk puede absorber las fisuras del vacío que haya en un área cercana de las siguientes maneras:\n·Cuando golpea a un enemigo con su Ataque Cargado mientras está en modo distorsión heptafásica.\n·Cuando usa la Habilidad Definitiva especial, <color=#FFD780FF>Caos: Exterminio</color>, del modo distorsión heptafásica.\n·Al mantener pulsada la Habilidad Elemental, <color=#FFD780FF>Caos: Distorsión</color>, para moverse a gran velocidad.\n\nPor cada fisura del vacío que absorba, Skirk obtendrá 8{NON_BREAK_SPACE}pts. de astucia serpentina."
+  },
+  {
+    "Id": 11130008,
+    "Name": "Retorno al olvido",
+    "Description": "#Cuando un personaje cercano del equipo de tipo elemental <color=#80C0FFFF>Hydro</color> golpee a un enemigo con un ataque <color=#80C0FFFF>Hydro</color>, o cuando un personaje cercano del equipo de tipo elemental <color=#99FFFFFF>Cryo</color> (a excepción de Skirk) golpee a un enemigo con un ataque <color=#99FFFFFF>Cryo</color>, Skirk obtiene una carga del efecto “vado de la muerte” durante 20{NON_BREAK_SPACE}s. Este efecto puede acumularse hasta 3 veces, y cada acumulación tiene su propia duración individual.\nCada personaje puede otorgar, como máximo, 1 carga de vado de la muerte a Skirk de esta forma.\nPor cada carga de vado de la muerte que tenga Skirk, los Ataques Normales que ejecute mientras está en modo distorsión heptafásica infligirán un 110/120/170% del daño original, y su Habilidad Definitiva, <color=#FFD780FF>Caos: Aniquilación</color>, infligirá un 105/115/160% del daño original."
+  },
+  {
+    "Id": 11130009,
+    "Name": "Agua sacramental",
+    "Description": "Provoca distintos efectos dependiendo de si quien entra en contacto con el agua sacramental es un enemigo o un personaje cercano del equipo:\nSi quien entra en contacto con ella es un enemigo, el agua sacramental explotará e infligirá <color=#80C0FFFF>Daño Hydro en el AdE</color> a los enemigos cercanos.\nSi quien lo hace es un personaje, el agua sacramental le hará dar un salto.\n\nSolo puede haber al mismo tiempo un agua sacramental creada por Dahlia."
+  },
+  {
+    "Id": 11130010,
+    "Name": "Gracia de Favonius",
+    "Description": "Dahlia otorga este efecto a tus personajes del equipo al usar su Habilidad Definitiva, <color=#FFD780FF>Salterio fulgurante</color>. Mientras dicho efecto está activo, cuando el efecto del sacroescudo de gracia se termina o cuando se destruye tras recibir daño, Dahlia puede consumir una carga de “beatitud” para volver a crear otro sacroescudo."
+  },
+  {
+    "Id": 11130011,
+    "Name": "Beatitud",
+    "Description": "Dahlia puede obtener el efecto de beatitud de las siguientes formas:\n·Cuando tu personaje en uso del equipo golpea a los enemigos 4 veces con su Ataque Normal mientras está bajo los efectos de gracia de Favonius, Dahlia obtiene X cargas de beatitud.\n·Tras activar el efecto del talento pasivo “Gentil gracia del viento”.\n\nDahlia solo puede obtener un máximo de X cargas de beatitud durante el efecto de gracia de Favonius."
   }
 ]

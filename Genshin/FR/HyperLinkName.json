@@ -1,5 +1,15 @@
 [
   {
+    "Id": 210101,
+    "Name": "<color=#0075de>Onde tidale</color>",
+    "Description": "Déclencher une réaction d'Évaporation sur un ennemi inflige des <color=#0075de>DGT Hydro</color>."
+  },
+  {
+    "Id": 210102,
+    "Name": "<color=#ef5534>Explosion flamboyante</color>",
+    "Description": "Déclencher une réaction d'Évaporation sur un ennemi inflige des <color=#ef5534>DGT Pyro</color>."
+  },
+  {
     "Id": 210201,
     "Name": "<color=#7bb100>Graine persistante</color>",
     "Description": "Chaque noyau Dendro créé génère une graine persistante à proximité du personnage déployé, un maximum de <color=#f39001>4</color> graines persistantes pouvant exister en même temps : elle est consommée en touchant un ennemi afin de lui infliger des <color=#7bb100>DGT Dendro</color>."
@@ -147,12 +157,12 @@
   {
     "Id": 211401,
     "Name": "<color=#2bb7d5>Chute de givre</color>",
-    "Description": "Déclencher une réaction de Fonte avec personnage <color=#ef5534>Pyro</color> déployé déclenche une chute de givre infligeant des <color=#2bb7d5>DGT Cryo</color>."
+    "Description": "Déclencher une réaction de Fonte avec un personnage <color=#ef5534>Pyro</color> déployé déclenche une chute de givre infligeant des <color=#2bb7d5>DGT Cryo</color>."
   },
   {
     "Id": 211402,
     "Name": "<color=#ef5534>Pylône enflammé</color>",
-    "Description": "Déclencher une réaction de Fonte avec personnage <color=#2bb7d5>Cryo</color> déployé déclenche un pylône enflammé infligeant des <color=#ef5534>DGT Pyro</color>."
+    "Description": "Déclencher une réaction de Fonte avec un personnage <color=#2bb7d5>Cryo</color> déployé déclenche un pylône enflammé infligeant des <color=#ef5534>DGT Pyro</color>."
   },
   {
     "Id": 211403,
@@ -182,12 +192,12 @@
   {
     "Id": 211602,
     "Name": "<color=#0075de>Frisson froid</color>",
-    "Description": "Déclencher une réaction de Gel avec personnage <color=#2bb7d5>Cryo</color> déployé déclenche un frisson froid infligeant des <color=#0075de>DGT Hydro de zone</color>."
+    "Description": "Déclencher une réaction de Gel avec un personnage <color=#2bb7d5>Cryo</color> déployé déclenche un frisson froid infligeant des <color=#0075de>DGT Hydro de zone</color>."
   },
   {
     "Id": 211603,
     "Name": "<color=#2bb7d5>Frisson frigide</color>",
-    "Description": "Déclencher une réaction de Gel avec personnage <color=#0075de>Hydro</color> déployé déclenche un frisson frigide infligeant des <color=#2bb7d5>DGT Cryo de zone</color>."
+    "Description": "Déclencher une réaction de Gel avec un personnage <color=#0075de>Hydro</color> déployé déclenche un frisson frigide infligeant des <color=#2bb7d5>DGT Cryo de zone</color>."
   },
   {
     "Id": 211604,
@@ -263,5 +273,40 @@
     "Id": 11130004,
     "Name": "Marque de sédation",
     "Description": "Cet effet explose après un court délai pour infliger des DGT de zone de l'élément correspondant. Les sédatifs thérapeutiques peuvent appliquer des marques de sédation à un maximum de 4 ennemis touchés, un même ennemi ne pouvant pas être affligé simultanément de marques de différents éléments."
+  },
+  {
+    "Id": 11130005,
+    "Name": "Finesse serpentine",
+    "Description": "Skirk peut consommer sa finesse serpentine pour maintenir son mode Flash à sept phases ou utiliser son déchaînement élémentaire « Ravage : Ruine ».\n\nSkirk peut obtenir de la finesse serpentine des manières suivantes :\n· En ayant utilisé sa compétence élémentaire « Ravage : Distorsion ».\n· En ayant déclenché l'effet d'absorption d'une faille du néant de son aptitude passive « Raisonnement outre-raison ».\n\nTous les points de finesse serpentine sont supprimés lorsque Skirk quitte le champ de bataille pendant son mode Flash à sept phases ou lorsque son mode Flash à sept phases prend fin."
+  },
+  {
+    "Id": 11130006,
+    "Name": "Flash à sept phases",
+    "Description": "Skirk passe en mode Flash à sept phases pendant un certain temps lorsqu'elle utilise sa compétence élémentaire <color=#FFD780FF>Ravage : Distorsion</color>. Ce mode possède les propriétés spéciales suivantes :\n· La finesse serpentine de Skirk se consomme de façon continue.\n· La portée des attaques normales et chargées et la RÉS à l'interruption de Skirk augmentent.\n· Les DGT des attaques normales, chargées et plongeantes de Skirk sont convertis en <color=#99FFFFFF>DGT Cryo</color> ne pouvant pas être enchantés.\n· Le déchainement élémentaire <color=#FFD780FF>Ravage : Ruine</color> de Skirk est remplacé par le déchaînement élémentaire spécial <color=#FFD780FF>Ravage : Extinction</color>.\n· Le sprint de Skirk permet de se déplacer sur l'eau.\nLe mode prend fin et la compétence élémentaire de Skirk entre en TdR une fois la finesse serpentine épuisée ou à la fin de la durée."
+  },
+  {
+    "Id": 11130007,
+    "Name": "Raisonnement outre-raison",
+    "Description": "Lorsqu'un membre de l'équipe à proximité déclenche une réaction de Gel, de Supraconduction, de Dispersion Cryo ou de Cristallisation Cryo sur un ennemi, une faille du néant apparaît à proximité de ce dernier. Cet effet peut être déclenché une fois toutes les 2,5 s et un maximum de 3 failles du néant créées par Skirk peut exister en même temps sur le terrain.\n\nSkirk peut absorber les failles du néant à proximité des manières suivantes :\n· En touchant un ennemi avec une attaque chargée pendant son mode Flash à sept phases.\n· En utilisant son déchaînement élémentaire spécial <color=#FFD780FF>Ravage : Extinction</color> pendant son mode Flash à sept phases.\n· En se déplaçant rapidement grâce à un appui long de sa compétence élémentaire <color=#FFD780FF>Ravage : Distorsion</color>.\n\nChaque faille du néant absorbée permet à Skirk d'obtenir 8 pts de finesse serpentine."
+  },
+  {
+    "Id": 11130008,
+    "Name": "Retour à la désolation",
+    "Description": "Lorsqu'un personnage proche de type <color=#80C0FFFF>Hydro</color> dans l'équipe touche un ennemi avec une attaque <color=#80C0FFFF>Hydro</color> ou qu'un personnage proche de type <color=#99FFFFFF>Cryo</color> autre que Skirk dans l'équipe touche un ennemi avec une attaque <color=#99FFFFFF>Cryo</color>, Skirk obtient un cumul de l'effet Traversée de la mort pendant 20 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante.\nDe plus, chaque personnage permet à Skirk d'obtenir 1 cumul de traversée de la mort maximum de cette manière.\nChaque cumul de traversée de la mort permet à l'attaque normale de Skirk d'infliger des DGT d'une valeur équivalant à 110 %/120 %/170 % des DGT d'origine en mode Flash à sept phases et permet à son déchaînement élémentaire <color=#FFD780FF>Ravage : Ruine</color> d'infliger des DGT d'une valeur équivalant à 105 %/115 %/160 % des DGT d'origine."
+  },
+  {
+    "Id": 11130009,
+    "Name": "Mystère bruineux",
+    "Description": "Lorsqu'un ennemi ou un membre de l'équipe à proximité touche un mystère bruineux, différents effets se produisent selon la personne concernée :\nSi un ennemi touche un mystère bruineux, ce dernier explose et inflige des <color=#80C0FFFF>DGT Hydro de zone</color> aux ennemis à proximité.\nSi un membre de l'équipe à proximité touche un mystère bruineux, il se fait projeter dans les airs.\n\nIl ne peut exister qu'un seul mystère bruineux invoqué par Dahlia à la fois."
+  },
+  {
+    "Id": 11130010,
+    "Name": "Faveur favonienne",
+    "Description": "Dahlia accorde cet effet à vos personnages dans l'équipe lorsqu'il utilise son déchaînement élémentaire <color=#FFD780FF>Psautier radieux</color>.\nPendant cet effet, Dahlia peut consommer un cumul de sacrement pour invoquer à nouveau un bouclier de faveur sacrée lorsqu'un précédent bouclier a expiré ou été détruit en subissant des DGT."
+  },
+  {
+    "Id": 11130011,
+    "Name": "Sacrement",
+    "Description": "Dahlia peut obtenir du sacrement des manières suivantes :\n· Il obtient X cumul de sacrement à chaque fois que votre personnage déployé touche un total de 4 ennemis avec des attaques normales tout en étant sous l'effet d'une faveur favonienne.\n· En déclenchant l'effet de l'aptitude passive « La douce grâce du vent ».\n\nDahlia peut obtenir un maximum de X cumuls de sacrement pendant la durée une faveur favonienne."
   }
 ]

@@ -1,5 +1,15 @@
 [
   {
+    "Id": 210101,
+    "Name": "<color=#0075de>Scossa mareale</color>",
+    "Description": "Quando un personaggio innesca Vaporizzazione su un avversario, infligge <color=#0075de>DAN da Hydro</color>."
+  },
+  {
+    "Id": 210102,
+    "Name": "<color=#ef5534>Impeto fiammeggiante</color>",
+    "Description": "Quando un personaggio innesca Vaporizzazione su un avversario, infligge <color=#ef5534>DAN da Pyro</color>."
+  },
+  {
     "Id": 210201,
     "Name": "<color=#7bb100>Seme persistente</color>",
     "Description": "Ogni nucleo di Dendro generato crea 1 Seme persistente che orbita intorno al personaggio attivo (max <color=#f39001>4</color> contemporaneamente). I Semi si consumano al contatto con un avversario, infliggendogli <color=#7bb100>DAN da Dendro</color>."
@@ -263,5 +273,40 @@
     "Id": 11130004,
     "Name": "Marchio di sedazione",
     "Description": "Esplode e svanisce dopo un breve lasso di tempo, infliggendo DAN ad area dell'elemento corrispondente. Il Sedativo terapeutico può applicare un Marchio di sedazione a un massimo di 4 avversari colpiti. Lo stesso avversario non può ricevere Marchi di più elementi contemporaneamente."
+  },
+  {
+    "Id": 11130005,
+    "Name": "Astuzia del serpente",
+    "Description": "Skirk può consumare i punti Astuzia del serpente per mantenere la modalità Lampo eptafasico o per scatenare il suo Tripudio elementale Caos: Rovina.\n\nSkirk ottiene punti Astuzia del serpente nei modi seguenti:\n· dopo aver usato la sua abilità elementale Caos: Distorsione;\n· dopo aver innescato l'effetto del suo talento passivo Oltre ogni logica, e aver assorbito i Varchi nel Vuoto.\n\nQuando Skirk lascia il campo in modalità Lampo eptafasico o se quest'ultima termina, i suoi punti Astuzia del serpente vengono rimossi."
+  },
+  {
+    "Id": 11130006,
+    "Name": "Lampo eptafasico",
+    "Description": "Skirk entra in questa modalità per un determinato periodo di tempo quando usa la sua abilità elementale <color=#FFD780FF>Caos: Distorsione</color>. La modalità ha le seguenti proprietà:\n· consuma continuamente punti Astuzia del serpente;\n· aumenta l'area d'effetto degli attacchi normali e caricati e la resistenza all'interruzione di Skirk;\n· converte i DAN inflitti dai suoi attacchi normali, caricati e in picchiata in <color=#99FFFFFF>DAN da Cryo</color> non influenzabili da altre infusioni elementali;\n· converte il suo Tripudio elementale <color=#FFD780FF>Caos: Rovina</color> nel Tripudio elementale speciale <color=#FFD780FF>Caos: Estinzione</color>;\n· permette a Skirk di muoversi sulle superfici acquatiche quando compie uno Scatto.\nSkirk esce da questa modalità quando i punti Astuzia del serpente si esauriscono o al termine della sua durata, e l'abilità elementale entra in TdR."
+  },
+  {
+    "Id": 11130007,
+    "Name": "Oltre ogni logica",
+    "Description": "#Quando i membri del gruppo vicini innescano reazioni di Congelamento, Superconduzione, Turbinio di Cryo o Cristallizzazione di Cryo su un avversario, si genera un Varco nel Vuoto vicino a quest'ultimo. Quest'effetto può attivarsi una volta ogni 2,5{NON_BREAK_SPACE}s. Nel campo possono coesistere fino a 3 Varchi nel Vuoto generati da Skirk.\n\nPer assorbire i Varchi nel Vuoto vicini, Skirk può usare i seguenti metodi:\n· colpire un avversario con un attacco caricato nella sua modalità Lampo eptafasico;\n· usare il suo Tripudio elementale speciale <color=#FFD780FF>Caos: Estinzione</color> mentre è in modalità Lampo eptafasico;\n· tenere premuta la sua abilità elementale <color=#FFD780FF>Caos: Distorsione</color> per muoversi velocemente.\n\nOgni Varco assorbito le conferisce 8 punti Astuzia del serpente."
+  },
+  {
+    "Id": 11130008,
+    "Name": "Ritorno all'oblio",
+    "Description": "#Quando gli attacchi di <color=#80C0FFFF>Hydro</color> dei membri del gruppo di <color=#80C0FFFF>Hydro</color> vicini colpiscono gli avversari, o quando i membri del gruppo di <color=#99FFFFFF>Cryo</color> vicini, a parte Skirk, colpiscono gli avversari con attacchi di <color=#99FFFFFF>Cryo</color>, Skirk ottiene l'effetto Traversata della morte per 20{NON_BREAK_SPACE}s, cumulabile fino a 3 volte. La durata di ciascun accumulo è calcolata in modo indipendente.\nIn questo modo, ciascun personaggio può conferire a Skirk solo 1 accumulo di Traversata della Morte.\nOgni accumulo di Traversata della Morte aumenta i DAN da attacco normale inflitti da Skirk nella modalità Lampo eptafasico di un 110%/120%/170% dei DAN originali, nonché i DAN inflitti utilizzando il suo Tripudio elementale <color=#FFD780FF>Caos: Rovina</color> di un 105%/115%/160% dei DAN originali."
+  },
+  {
+    "Id": 11130009,
+    "Name": "Pioggia sacramentale",
+    "Description": "Si innescano degli effetti diversi a seconda di chi ci entra in contatto:\nse è un avversario a toccare la Pioggia, quest'ultima esplode e infligge <color=#80C0FFFF>DAN da Hydro ad area</color> agli avversari vicini;\nse è un membro del gruppo a toccare la pioggia, quest'ultima farà sì che il personaggio che l'ha toccata rimbalzi in aria.\n\nNon può esistere più di 1 Pioggia sacramentale evocato da Dahlia in campo alla volta."
+  },
+  {
+    "Id": 11130010,
+    "Name": "Grazia di Favonius",
+    "Description": "Quando Dahlia usa il suo Tripudio elementale <color=#FFD780FF>Salterio radioso</color>, applica questo effetto ai membri del gruppo.\nMentre l'effetto è attivo, Dahlia può consumare 1 accumulo di Benedizione per generare un nuovo Scudo di Grazia sacra quando quello esistente termina la sua durata o viene infranto a causa dei DAN subiti."
+  },
+  {
+    "Id": 11130011,
+    "Name": "Benedizione",
+    "Description": "Dahlia ottiene Benedizione nei modi seguenti:\n· ottiene × accumuli di Benedizione quando il membro attivo del gruppo colpisce 4 volte con gli attacchi normali gli avversari mentre è sotto l'effetto di Grazia di Favonius;\n· dopo aver innescato l'effetto del suo talento passivo Grazia gentile del vento.\n\nDahlia può ottenere un massimo di × accumuli di Benedizione nel corso della durata di Grazia di Favonius."
   }
 ]
