@@ -2,12 +2,12 @@
   {
     "Id": 210101,
     "Name": "<color=#0075de>Tidal Shock</color>",
-    "Description": "Setelah Karakter memicu reaksi Vaporize terhadap musuh, akan mengakibatkan <color=#0075de>Hydro DMG</color>"
+    "Description": "Setelah Karakter memicu <color=#f39001>reaksi Vaporize</color> terhadap musuh, akan mengakibatkan <color=#0075de>Hydro DMG</color>"
   },
   {
     "Id": 210102,
     "Name": "<color=#ef5534>Blazing Explosion</color>",
-    "Description": "Setelah Karakter memicu reaksi Vaporize terhadap musuh, akan mengakibatkan <color=#ef5534>Pyro DMG</color>"
+    "Description": "Setelah Karakter memicu <color=#f39001>reaksi Vaporize</color> terhadap musuh, akan mengakibatkan <color=#ef5534>Pyro DMG</color>"
   },
   {
     "Id": 210201,
@@ -17,12 +17,12 @@
   {
     "Id": 210301,
     "Name": "<color=#ef5534>Wildfire Wave</color>",
-    "Description": "Saat mengakibatkan DMG terhadap musuh melalui reaksi Burning, akan melakukan perhitungan terhadap musuh tersebut. Saat perhitungan ini mencapai angka <color=#f39001>{0}</color>, maka akan tercipta gelombang yang mengakibatkan <color=#ef5534>Pyro DMG Area</color> dan perhitungannya akan diulang."
+    "Description": "Saat mengakibatkan DMG terhadap musuh melalui <color=#f39001>reaksi Burning</color>, akan melakukan perhitungan terhadap musuh tersebut. Saat perhitungan ini mencapai angka <color=#f39001>6</color>, maka akan tercipta gelombang yang mengakibatkan <color=#ef5534>Pyro DMG Area</color> dan perhitungannya akan diulang."
   },
   {
     "Id": 210302,
     "Name": "<color=#7bb100>Combustion Core</color>",
-    "Description": "Terpicu setelah Karakter mengakibatkan <color=#7bb100>Dendro DMG</color> pada musuh yang terpengaruh efek Burning, mengakibatkan <color=#7bb100>Dendro DMG</color> tambahan."
+    "Description": "Terpicu setelah Dendro DMG Karakter mengenai musuh yang berada dalam <color=#f39001>status Burning</color>, mengakibatkan <color=#7bb100>Dendro DMG</color>"
   },
   {
     "Id": 210401,
@@ -82,7 +82,7 @@
   {
     "Id": 210901,
     "Name": "<color=#f39001>Windblessing: Hydro</color>",
-    "Description": "DMG dari reaksi Swirl yang dipicu oleh Karakter meningkat <color=#f39001>80%</color>, Max HP Karakter meningkat <color=#f39001>8%</color>."
+    "Description": "DMG dari reaksi Swirl yang dipicu oleh Karakter +<color=#f39001>80%</color>, Max HP Karakter +<color=#f39001>8%</color>."
   },
   {
     "Id": 210902,
@@ -97,12 +97,12 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Windblessing: Electro</color>",
-    "Description": "DMG dari reaksi Swirl yang dipicu oleh Karakter meningkat <color=#f39001>80%</color>, dan setiap kali mendapatkan <color=#f39001>Windblessing: Electro</color>, akan memulihkan <color=#f39001>1.5</color> poin Energy seluruh anggota party. Efek ini dapat terpicu sekali setiap <color=#f39001>3</color> detik."
+    "Description": "DMG reaksi Swirl yang dipicu oleh Karakter +<color=#f39001>80%</color>, dan setiap kali mendapatkan <color=#f39001>Windblessing: Electro</color>, akan memulihkan <color=#f39001>1.5</color> poin Energy seluruh anggota party."
   },
   {
     "Id": 211002,
     "Name": "<color=#b863ee>Razorflash Thunderblade</color>",
-    "Description": "Saat Karakter melancarkan Elemental Burst, akan mendapatkan <color=#f39001>Razorflash Mark</color>. Saat serangan Karakter aktif mengenai musuh, akan mengonsumsi Razorflash Mark untuk melancarkan sebuah Razorflash Thunderblade yang mengakibatkan <color=#b863ee>Electro DMG</color> kepada semua musuh di jalurnya berdasarkan jumlah lapisan Windblessing: Electro"
+    "Description": "Saat Karakter melancarkan Elemental Burst, akan mendapatkan <color=#f39001>Razorflash Mark</color>. Saat serangan Karakter aktif mengenai musuh, akan mengonsumsi <color=#b863ee>Razorflash Mark</color> untuk melancarkan sebuah <color=#f39001>Razorflash Thunderblade</color> yang mengakibatkan <color=#b863ee>Electro DMG</color> kepada semua musuh di jalurnya berdasarkan jumlah lapisan Windblessing: Electro."
   },
   {
     "Id": 211003,
@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Electrosurge</color>",
-    "Description": "DMG Electro-Charged yang diakibatkan oleh seluruh anggota party meningkat <color=#f39001>250%</color>."
+    "Description": "DMG <color=#f39001>reaksi Electro-Charged</color> yang diakibatkan oleh seluruh anggota party meningkat <color=#f39001>250%</color>."
   },
   {
     "Id": 211102,
@@ -207,7 +207,7 @@
   {
     "Id": 211701,
     "Name": "<color=#f39001>Yielding</color>",
-    "Description": "Cryo dan Electro RES musuh berkurang <color=#f39001>3%</color>, Physical RES musuh berkurang <color=#f39001>6%</color>, dapat ditumpuk sampai 6 lapis."
+    "Description": "Cryo dan Electro RES musuh -<color=#f39001>3%</color>, Physical RES musuh -<color=#f39001>6%</color>, dapat ditumpuk sampai <color=#f39001>6</color> lapis."
   },
   {
     "Id": 211702,
@@ -245,6 +245,21 @@
     "Description": "Tidak dapat menyerang, tapi Magnetizing Thorn ini akan meningkatkan <color=#f39001>Cryo, Dendro, Electro, dan Physical DMG</color> dari Karakter terhadap musuh di sekitarnya. Efek ini akan diperkuat sebesar <color=#f39001>45%</color> untuk setiap Magnetizing Thorn yang ada di medan pertempuran, maksimum hingga <color=#f39001>90%</color>."
   },
   {
+    "Id": 211901,
+    "Name": "<color=#f39001>Windblessing: Cryo</color>",
+    "Description": "DMG reaksi Swirl yang dipicu oleh Karakter +<color=#f39001>80%</color>, CRIT DMG Karakter +<color=#f39001>12%</color>."
+  },
+  {
+    "Id": 211902,
+    "Name": "<color=#2bb7d5>Coldrime</color>",
+    "Description": "Selama <color=#f39001>Windblessing: Cryo</color> aktif, serangan Karakter yang mengenai musuh akan memberikan efek Coldrime. Efek ini mengakibatkan <color=#2bb7d5>Cryo DMG</color> secara berkala berdasarkan jumlah lapisan <color=#f39001>Windblessing: Cryo</color>."
+  },
+  {
+    "Id": 211903,
+    "Name": "<color=#19c78e>Icemist</color>",
+    "Description": "Selama <color=#f39001>Windblessing: Cryo</color> aktif, akan dilancarkan saat Karakter aktif berlari, menarik musuh di sekitar dan mengakibatkan <color=#19c78e>Anemo DMG</color> berdasarkan jumlah lapisan <color=#f39001>Windblessing: Cryo</color>."
+  },
+  {
     "Id": 11120001,
     "Name": "Cold Storage Mode",
     "Description": "<color=#FFD780FF>Mode Tekan</color>\nMengaktifkan All-Spectrum Multi-Use Cooking Mek dalam Cold Storage Mode dan mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color> ke musuh sekitar.\n\n<color=#FFD780FF>Cooking Mek: Cold Storage Mode </color>\nAkan mengikuti Karakter aktif dan menembakkan Frosty Parfait yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color> ke musuh di sekitar secara berkala."
@@ -262,7 +277,7 @@
   {
     "Id": 11130002,
     "Name": "Rescue Essentials",
-    "Description": "Maksimum 150 poin. Untuk setiap 1 poin Rescue Essentials, DMG reaksi Swirl dan Electro-Charged yang diakibatkan anggota party di sekitar meningkat 1,5%. Poin Rescue Essentials akan hilang setelah status Nightsoul's Blessing Ifa berakhir."
+    "Description": "Maksimum 150 poin. Untuk setiap 1 poin Rescue Essentials yang dimiliki Ifa, DMG reaksi Swirl dan Electro-Charged yang diakibatkan anggota party di sekitar +1,5%, dan DMG yang diakibatkan reaksi Lunar-Charged +0,2%. Poin Rescue Essentials akan hilang setelah status Nightsoul's Blessing Ifa berakhir."
   },
   {
     "Id": 11130003,
@@ -308,5 +323,10 @@
     "Id": 11130011,
     "Name": "Benison",
     "Description": "Dahlia bisa mendapatkan efek Benison dengan cara berikut:\n·Dahlia akan mendapatkan X lapis efek Benison saat Karakter aktif di dalam party yang terpengaruh efek Favonian Favor menyerang musuh dengan Normal Attack sebanyak 4 kali.\n·Setelah efek Talenta Pasif \"The Wind's Gentle Grace\" terpicu.\nDahlia bisa mendapatkan maksimum X lapis Benison untuk setiap durasi Favonian Favor."
+  },
+  {
+    "Id": 11160001,
+    "Name": "Birgitta",
+    "Description": "Sebagai asisten dan rekan Ineffa dalam pertempuran, Birgitta dapat dipanggil ke medan pertempuran dengan cara melancarkan Elemental Skill atau Elemental Burst.\nJika ada musuh di sekitar, Birgitta akan langsung mendekati satu musuh dan melancarkan serangan setruman yang mengakibatkan <color=#FFACFFFF>Electro DMG Area</color> setiap 2 detik.\nIneffa sendiri hanya bisa memanggil satu Birgitta dalam waktu bersamaan.\n\nSelain itu, sepertinya akan ada cara khusus untuk mengubah penampilan Birgitta di Nod-Krai ...."
   }
 ]

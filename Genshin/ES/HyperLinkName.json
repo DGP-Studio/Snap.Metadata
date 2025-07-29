@@ -2,12 +2,12 @@
   {
     "Id": 210101,
     "Name": "<color=#0075de>Onda torrencial</color>",
-    "Description": "Cuando el personaje causa una reacción de Vaporización contra un enemigo, se libera una onda torrencial que inflige <color=#0075de>Daño Hydro</color>."
+    "Description": "Cuando el personaje causa una <color=#f39001>reacción de Vaporización</color> contra un enemigo, se libera una onda torrencial que inflige <color=#0075de>Daño Hydro</color>."
   },
   {
     "Id": 210102,
     "Name": "<color=#ef5534>Explosión ígnea</color>",
-    "Description": "Cuando el personaje causa una reacción de Vaporización contra un enemigo, se libera una explosión ígnea que inflige <color=#ef5534>Daño Pyro</color>."
+    "Description": "Cuando el personaje causa una <color=#f39001>reacción de Vaporización</color> contra un enemigo, se libera una explosión ígnea que inflige <color=#ef5534>Daño Pyro</color>."
   },
   {
     "Id": 210201,
@@ -17,12 +17,12 @@
   {
     "Id": 210301,
     "Name": "<color=#ef5534>Onda calcinadora</color>",
-    "Description": "Al infligir daño a un enemigo con la reacción de Quemadura, esto se contabiliza. Al alcanzar <color=#f39001>{0}</color> contabilizaciones, estas se eliminan y se libera una onda calcinadora que inflige <color=#ef5534>Daño Pyro en el AdE</color>."
+    "Description": "Al infligir daño a un enemigo con la <color=#f39001>reacción de Quemadura</color>, esto se contabiliza. Al alcanzar <color=#f39001>6</color> contabilizaciones, estas se eliminan y se libera una onda calcinadora que inflige <color=#ef5534>Daño Pyro en el AdE</color>."
   },
   {
     "Id": 210302,
     "Name": "<color=#7bb100>Núcleo comburente</color>",
-    "Description": "Se activa para infligir <color=#7bb100>Daño Dendro</color> cuando el personaje inflige <color=#7bb100>Daño Dendro</color> a un enemigo quemado."
+    "Description": "Cuando el personaje golpea con Daño Dendro a un enemigo <color=#f39001>afectado por Quemadura</color>, inflige <color=#7bb100>Daño Dendro</color>."
   },
   {
     "Id": 210401,
@@ -97,12 +97,12 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Oración del viento: Electro</color>",
-    "Description": "#Aumenta en un <color=#f39001>80%</color> el daño de la reacción de Torbellino de los personajes y, cada vez que se obtenga el efecto de <color=#f39001>oración del viento: Electro</color>, todos los miembros del equipo recuperan <color=#f39001>1.5</color>{NON_BREAK_SPACE}pts. de Energía Elemental. Este efecto solo se puede activar una vez cada <color=#f39001>3</color>{NON_BREAK_SPACE}s."
+    "Description": "#Aumenta en un <color=#f39001>80%</color> el daño de la reacción de Torbellino de los personajes y, cada vez que se obtenga el efecto de <color=#f39001>oración del viento: Electro</color>, todos los miembros del equipo recuperan <color=#f39001>1.5</color>{NON_BREAK_SPACE}pts. de Energía Elemental."
   },
   {
     "Id": 211002,
     "Name": "<color=#b863ee>Electrofilo tajante</color>",
-    "Description": "Cuando el personaje usa su Habilidad Definitiva, obtiene una <color=#f39001>marca tajante</color>. Cuando el personaje en uso golpea a un enemigo con un ataque, consume la marca tajante y se libera un electrofilo tajante que inflige <color=#b863ee>Daño Electro</color> a los enemigos en su trayectoria en función de las cargas de oración del viento: Electro."
+    "Description": "Cuando el personaje usa su Habilidad Definitiva, obtiene una <color=#f39001>marca tajante</color>. Cuando el personaje en uso golpea a un enemigo con un ataque, consume la marca tajante y se libera un <color=#b863ee>electrofilo tajante</color> que inflige <color=#b863ee>Daño Electro</color> a los enemigos en su trayectoria en función de las cargas de <color=#f39001>oración del viento: Electro</color>."
   },
   {
     "Id": 211003,
@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Voltaje</color>",
-    "Description": "Aumenta en un <color=#f39001>250%</color> el daño infligen todos los miembros del equipo con la reacción de Electrocargado."
+    "Description": "Aumenta en un <color=#f39001>250%</color> el daño infligen todos los miembros del equipo con la <color=#f39001>reacción de Electrocargado</color>."
   },
   {
     "Id": 211102,
@@ -207,7 +207,7 @@
   {
     "Id": 211701,
     "Name": "<color=#f39001>Merma</color>",
-    "Description": "Reduce en un <color=#f39001>3%</color> las RES Cryo y Electro del enemigo, y la RES Física en un <color=#f39001>6%</color>. Puede acumularse hasta 6 veces."
+    "Description": "Reduce en un <color=#f39001>3%</color> las RES Cryo y Electro del enemigo, y la RES Física en un <color=#f39001>6%</color>. Puede acumularse hasta <color=#f39001>6</color> veces."
   },
   {
     "Id": 211702,
@@ -245,6 +245,21 @@
     "Description": "No ataca, pero <color=#f39001>aumenta el daño de los ataques Cryo, Dendro, Electro y Físicos</color> que reciben los enemigos cercanos por parte de los personajes. Por cada zarza magnética que haya en el campo de batalla, dicho efecto aumenta en un <color=#f39001>45%</color>, hasta un máximo de un <color=#f39001>90%</color>."
   },
   {
+    "Id": 211901,
+    "Name": "<color=#f39001>Oración del viento: Cryo</color>",
+    "Description": "Aumenta en un <color=#f39001>80%</color> el daño de la reacción de Torbellino de los personajes y en un <color=#f39001>12%</color> su Daño CRIT."
+  },
+  {
+    "Id": 211902,
+    "Name": "<color=#2bb7d5>Erosión</color>",
+    "Description": "Cuando el personaje golpea a un enemigo mientras la <color=#f39001>oración del viento: Cryo</color> está activa, aplicará a dicho enemigo el efecto de “erosión”, el cual inflige <color=#2bb7d5>Daño Cryo</color> periódicamente en función de las cargas de <color=#f39001>oración del viento: Cryo</color>."
+  },
+  {
+    "Id": 211903,
+    "Name": "<color=#19c78e>Frigibruma</color>",
+    "Description": "Mientras la <color=#f39001>oración del viento: Cryo</color> esté activa, cuando el personaje esprinte, liberará una frigibruma que atrae a los enemigos cercanos e inflige <color=#19c78e>Daño Anemo</color> en función de las cargas de <color=#f39001>oración del viento: Cryo</color>."
+  },
+  {
     "Id": 11120001,
     "Name": "Modo crioalmacenamiento",
     "Description": "#\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nActiva el mecachef multitarea de amplio espectro en modo “crioalmacenamiento” e inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> a los enemigos cercanos.\n\n<color=#FFD780FF>Mecachef: modo crioalmacenamiento</color>\nEl mecachef sigue al personaje en uso y, cada cierto tiempo, lanza un parfait helado a los enemigos cercanos que inflige <color=#99FFFFFF>Daño Cryo</color>."
@@ -262,7 +277,7 @@
   {
     "Id": 11130002,
     "Name": "Fundamentos de rescate",
-    "Description": "#Máximo: 150{NON_BREAK_SPACE}pts. Por cada punto de fundamentos de rescate que tenga Ifá, el daño de las reacciones de Torbellino y Electrocargado de los personajes cercanos del equipo aumenta en un 1.5%. El efecto de fundamentos de rescate se eliminará cuando termine el estado de bendición noctámbula de Ifá."
+    "Description": "#Máximo: 150{NON_BREAK_SPACE}pts. Por cada punto de fundamentos de rescate que tenga Ifá, el daño de las reacciones de Torbellino y Electrocargado de los personajes cercanos del equipo aumenta en un 1.5%, y el de la reacción de Electrocargado Lunar aumenta en un 0.2%. El efecto de fundamentos de rescate se eliminará cuando termine el estado de bendición noctámbula de Ifá."
   },
   {
     "Id": 11130003,
@@ -308,5 +323,10 @@
     "Id": 11130011,
     "Name": "Beatitud",
     "Description": "Dahlia puede obtener el efecto de beatitud de las siguientes formas:\n·Cuando tu personaje en uso del equipo golpea a los enemigos 4 veces con su Ataque Normal mientras está bajo los efectos de gracia de Favonius, Dahlia obtiene X cargas de beatitud.\n·Tras activar el efecto del talento pasivo “Gentil gracia del viento”.\n\nDahlia solo puede obtener un máximo de X cargas de beatitud durante el efecto de gracia de Favonius."
+  },
+  {
+    "Id": 11160001,
+    "Name": "Birgitta",
+    "Description": "#Una ayudante que combate junto a Ineffa y que se puede invocar con la Habilidad Elemental o la Habilidad Definitiva.\nSi en las cercanías hay algún enemigo, cada 2{NON_BREAK_SPACE}s, Birgitta se moverá rápidamente hasta cerca de él para ejecutar un ataque electrizador que inflige <color=#FFACFFFF>Daño Electro en el AdE</color>.\nSolo puede haber al mismo tiempo una Birgitta creada por Ineffa.\n\nAdemás, en Nod Krai, parece que será posible cambiar el aspecto de Birgitta de cierta manera..."
   }
 ]

@@ -2,12 +2,12 @@
   {
     "Id": 210101,
     "Name": "<color=#0075de>Scossa mareale</color>",
-    "Description": "Quando un personaggio innesca Vaporizzazione su un avversario, infligge <color=#0075de>DAN da Hydro</color>."
+    "Description": "Si sprigiona quando un personaggio innesca <color=#f39001>Vaporizzazione</color> su un avversario, infliggendo <color=#0075de>DAN da Hydro</color>."
   },
   {
     "Id": 210102,
     "Name": "<color=#ef5534>Impeto fiammeggiante</color>",
-    "Description": "Quando un personaggio innesca Vaporizzazione su un avversario, infligge <color=#ef5534>DAN da Pyro</color>."
+    "Description": "Si sprigiona quando un personaggio innesca <color=#f39001>Vaporizzazione</color> su un avversario, infliggendo <color=#ef5534>DAN da Pyro</color>."
   },
   {
     "Id": 210201,
@@ -17,12 +17,12 @@
   {
     "Id": 210301,
     "Name": "<color=#ef5534>Onda incendiaria</color>",
-    "Description": "Il numero di iterazioni di DAN da Ustione inflitte viene conteggiato separatamente per ciascun avversario. Quando uno qualsiasi di tali conteggi raggiunge il valore di <color=#f39001>{0}</color>, il conteggio si azzera e vengono inflitti <color=#ef5534>DAN da Pyro ad area</color>."
+    "Description": "Il numero di iterazioni di DAN da <color=#f39001>Ustione</color> inflitte viene conteggiato separatamente per ciascun avversario. Quando uno qualsiasi di tali conteggi raggiunge il valore di <color=#f39001>6</color>, il conteggio si azzera e vengono inflitti <color=#ef5534>DAN da Pyro ad area</color>."
   },
   {
     "Id": 210302,
     "Name": "<color=#7bb100>Nucleo di combustione</color>",
-    "Description": "Si attiva dopo che un personaggio ha inflitto <color=#7bb100>DAN da Dendro</color> a un avversario affetto da Ustione, infliggendo <color=#7bb100>DAN da Dendro</color>."
+    "Description": "Si innesca dopo che il personaggio ha inflitto DAN da Dendro a un avversario affetto da <color=#f39001>Ustione</color>, infliggendo <color=#7bb100>DAN da Dendro</color>."
   },
   {
     "Id": 210401,
@@ -97,12 +97,12 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Preghiera del vento: Electro</color>",
-    "Description": "#I DAN inflitti dai personaggi che innescano reazioni di Turbinio aumentano di un <color=#f39001>80%</color> e, ogni volta che ottengono <color=#f39001>Preghiera del vento: Electro</color>, tutti i membri del gruppo ricevono <color=#f39001>1.5</color> di energia elementale. Quest'effetto può attivarsi una volta ogni <color=#f39001>3</color>{NON_BREAK_SPACE}s."
+    "Description": "I DAN inflitti dai personaggi che innescano reazioni di Turbinio aumentano di un <color=#f39001>80%</color> e, ogni volta che ottengono <color=#f39001>Preghiera del vento: Electro</color>, tutti i membri del gruppo ricevono <color=#f39001>1.5</color> di energia elementale."
   },
   {
     "Id": 211002,
     "Name": "<color=#b863ee>Fendilampo tempestoso</color>",
-    "Description": "Quando i personaggi usano un Tripudio elementale, si genera <color=#f39001>Marchio Fendilampo</color>. Quando gli attacchi del personaggio attivo colpiscono gli avversari, Marchio Fendilampo viene consumato per scatenare un Fendilampo tempestoso che infligge <color=#b863ee>DAN da Electro</color> a tutti gli avversari sul suo percorso in base al numero di accumuli di Preghiera del vento: Electro."
+    "Description": "Quando i personaggi usano un Tripudio elementale, si genera un <color=#f39001>Marchio Fendilampo</color>. Quando gli attacchi del personaggio attivo colpiscono gli avversari, il Marchio Fendilampo viene consumato per scatenare un <color=#b863ee>Fendilampo tempestoso</color> che infligge <color=#b863ee>DAN da Electro</color> a tutti gli avversari sul suo percorso in base al numero di accumuli di <color=#f39001>Preghiera del vento: Electro</color>."
   },
   {
     "Id": 211003,
@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Sovratensione elettrica</color>",
-    "Description": "I DAN inflitti dalle reazioni di Electrocarica innescate dai membri del gruppo aumentano di un <color=#f39001>250%</color>."
+    "Description": "I DAN da <color=#f39001>reazioni di Electrocarica</color> innescati dai membri del gruppo aumentano di un <color=#f39001>250%</color>."
   },
   {
     "Id": 211102,
@@ -207,7 +207,7 @@
   {
     "Id": 211701,
     "Name": "<color=#f39001>Arrendevolezza</color>",
-    "Description": "Riduce di un <color=#f39001>3%</color> le RES a Cryo e a Electro degli avversari, e di un <color=#f39001>6%</color> la RES fisica, massimo 6 accumuli."
+    "Description": "Riduce di un <color=#f39001>3%</color> le RES a Cryo e a Electro degli avversari, e di un <color=#f39001>6%</color> la RES fisica, massimo <color=#f39001>6</color> accumuli."
   },
   {
     "Id": 211702,
@@ -245,6 +245,21 @@
     "Description": "Non attacca, ma aumenta i <color=#f39001>DAN da Cryo, da Dendro, da Electro e fisici</color> inflitti dai personaggi agli avversari vicini. Quest'effetto positivo viene potenziato di un <color=#f39001>45%</color> per ogni Spina magnetica in campo, fino a un <color=#f39001>90%</color> massimo."
   },
   {
+    "Id": 211901,
+    "Name": "<color=#f39001>Preghiera del vento: Cryo</color>",
+    "Description": "I DAN inflitti dai personaggi che innescano reazioni di Turbinio e i loro DAN da CRIT aumentano rispettivamente di un <color=#f39001>80%</color> e di un <color=#f39001>12%</color>."
+  },
+  {
+    "Id": 211902,
+    "Name": "<color=#2bb7d5>Algibrina</color>",
+    "Description": "Si applica quando <color=#f39001>Preghiera del vento: Cryo</color> è attivo e un personaggio colpisce un avversario con i suoi attacchi. Gli avversari subiscono <color=#2bb7d5>DAN da Cryo</color> a intermittenza in base al numero di accumuli di <color=#f39001>Preghiera del vento: Cryo</color>."
+  },
+  {
+    "Id": 211903,
+    "Name": "<color=#19c78e>Nebbiagelida</color>",
+    "Description": "Si genera quando <color=#f39001>Preghiera del vento: Cryo</color> è attivo e il personaggio esegue uno Scatto, attirando i nemici nelle vicinanze e infliggendo <color=#19c78e>DAN da Anemo</color>, in base al numero di accumuli di <color=#f39001>Preghiera del vento: Cryo</color>."
+  },
+  {
     "Id": 11120001,
     "Name": "Modalità Refrigerazione",
     "Description": "#<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nEscoffier attiva il suo Meka da cucina multiuso nella modalità Refrigerazione e infligge <color=#99FFFFFF>DAN da Cryo ad area</color> agli avversari vicini.\n\n<color=#FFD780FF>Meka da cucina: modalità Refrigerazione</color>\nSegue il personaggio attivo e scaglia dei Parfait congelati contro gli avversari vicini a intervalli regolari, infliggendo <color=#99FFFFFF>DAN da Cryo</color>."
@@ -262,7 +277,7 @@
   {
     "Id": 11130002,
     "Name": "Fondamentali di soccorso",
-    "Description": "Massimo 150 punti. Ogni punto di Fondamentali di soccorso di Ifa aumenta i DAN da Turbinio ed Electrocarica inflitti dai membri vicini del gruppo di un 1,5%. Questi punti si azzerano quando lo stato di Grazia dell'Anima della Notte di Ifa termina."
+    "Description": "Massimo 150 punti. Ogni punto di Fondamentali di soccorso di Ifa aumenta di un 1,5% i DAN da Turbinio ed Electrocarica inflitti dai membri vicini del gruppo, e di uno 0,2% i loro DAN da Carica lunare. Questi punti si azzerano quando lo stato di Grazia dell'Anima della Notte di Ifa termina."
   },
   {
     "Id": 11130003,
@@ -308,5 +323,10 @@
     "Id": 11130011,
     "Name": "Benedizione",
     "Description": "Dahlia ottiene Benedizione nei modi seguenti:\n· ottiene × accumuli di Benedizione quando il membro attivo del gruppo colpisce 4 volte con gli attacchi normali gli avversari mentre è sotto l'effetto di Grazia di Favonius;\n· dopo aver innescato l'effetto del suo talento passivo Grazia gentile del vento.\n\nDahlia può ottenere un massimo di × accumuli di Benedizione nel corso della durata di Grazia di Favonius."
+  },
+  {
+    "Id": 11160001,
+    "Name": "Birgitta",
+    "Description": "#L'assistente e compagna di battaglia di Ineffa. Può essere evocata sul campo tramite l'abilità o il Tripudio elementale.\nSe sono presenti avversari nelle vicinanze, Birgitta si sposta rapidamente verso uno di loro e sprigiona una Scarica ogni 2{NON_BREAK_SPACE}s, infliggendo <color=#FFACFFFF>DAN da Electro ad area</color>.\nPuò esistere solo una Birgitta evocata da Ineffa alla volta.\n\nInoltre, sembra che a Nod-Krai esistano dei metodi per modificarne l'aspetto esteriore..."
   }
 ]

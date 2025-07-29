@@ -2,12 +2,12 @@
   {
     "Id": 210101,
     "Name": "<color=#0075de>Schwallstoß</color>",
-    "Description": "Verursacht nach dem Verursachen der Reaktion Verdampfen bei einem Gegner <color=#0075de>Hydro-SCH</color>."
+    "Description": "Verursacht nach dem Verursachen der <color=#f39001>Reaktion Verdampfen</color> bei einem Gegner <color=#0075de>Hydro-SCH</color>."
   },
   {
     "Id": 210102,
     "Name": "<color=#ef5534>Sengende Explosion</color>",
-    "Description": "Verursacht nach dem Verursachen der Reaktion Verdampfen bei einem Gegner <color=#ef5534>Pyro-Schaden</color>."
+    "Description": "Verursacht nach dem Verursachen der <color=#f39001>Reaktion Verdampfen</color> bei einem Gegner <color=#ef5534>Pyro-Schaden</color>."
   },
   {
     "Id": 210201,
@@ -17,12 +17,12 @@
   {
     "Id": 210301,
     "Name": "<color=#ef5534>Brandstoß</color>",
-    "Description": "Beim Verursachen von Schaden mit der Reaktion In Flammen beim Gegner wird 1-mal für den Gegner gezählt. Wenn die Zählung <color=#f39001>{0}</color> erreicht, werden die Zählungen entfernt und <color=#ef5534>Pyro-Flächenschaden</color> verursacht."
+    "Description": "Beim Verursachen von Schaden mit der <color=#f39001>Reaktion In Flammen</color> beim Gegner wird 1-mal für den Gegner gezählt. Wenn die Zählung <color=#f39001>6</color> erreicht, werden die Zählungen entfernt und <color=#ef5534>Pyro-Flächenschaden</color> verursacht."
   },
   {
     "Id": 210302,
     "Name": "<color=#7bb100>Entzündender Schallkern</color>",
-    "Description": "Wird ausgelöst, wenn eine Figur Gegnern in Flammen <color=#7bb100>Dendro-Schaden</color> zufügt. Verursacht <color=#7bb100>Dendro-Schaden</color>."
+    "Description": "Wird ausgelöst, wenn die Figur Gegnern <color=#f39001>in Flammen</color> Dendro-Schaden zugefügt hat. Verursacht dabei <color=#7bb100>Dendro-Schaden</color>."
   },
   {
     "Id": 210401,
@@ -97,12 +97,12 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Windgebet – Elektro</color>",
-    "Description": "#Erhöht den mit der Reaktion Verwirbelung durch die Figur verursachten Schaden um <color=#f39001>80{NON_BREAK_SPACE}%</color> und stellt jedes Mal beim Erhalten von <color=#f39001>Windgebet – Elektro</color> allen Truppenmitgliedern <color=#f39001>1.5</color> Punkte Elementarenergie wieder her, <color=#f39001>3</color>{NON_BREAK_SPACE}s Abklingzeit."
+    "Description": "#Erhöht den mit der Reaktion Verwirbelung durch die Figur verursachten Schaden um <color=#f39001>80{NON_BREAK_SPACE}%</color> und stellt jedes Mal beim Erhalten von <color=#f39001>Windgebet – Elektro</color> allen Truppenmitgliedern <color=#f39001>1.5</color> Punkte Elementarenergie wieder her."
   },
   {
     "Id": 211002,
     "Name": "<color=#b863ee>Elektro-Schnitt-Klinge</color>",
-    "Description": "Erschafft beim Auslösen von Spezialfähigkeiten durch die Figur <color=#f39001>Schnittmarkierungen</color>. Verbraucht beim Treffen von Gegnern mit Angriffen der aktuellen Figur 1 Stapelung und setzt 1 Elektro-Schnitt-Klinge frei, die Gegnern in der Bahn gemäß der Menge an Stapelungen von Windgebet – Elektro <color=#b863ee>Elektro-Schaden</color> zufügt."
+    "Description": "Erschafft beim Auslösen von Spezialfähigkeiten durch die Figur <color=#f39001>Schnittmarkierungen</color>. Verbraucht beim Treffen von Gegnern mit Angriffen der aktuellen Figur 1 Stapelung Schnittmarkierung und setzt 1 <color=#b863ee>Elektro-Schnitt-Klinge</color> frei, die Gegnern in der Bahn gemäß der Menge an Stapelungen von <color=#f39001>Windgebet – Elektro</color> <color=#b863ee>Elektro-Schaden</color> zufügt."
   },
   {
     "Id": 211003,
@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Stromschwankung</color>",
-    "Description": "#Erhöht den Schaden durch die Reaktion Unter Strom aller Truppenmitglieder um <color=#f39001>250{NON_BREAK_SPACE}%</color>."
+    "Description": "#Erhöht den Schaden durch die <color=#f39001>Reaktion Unter Strom</color> aller Truppenmitglieder um <color=#f39001>250{NON_BREAK_SPACE}%</color>."
   },
   {
     "Id": 211102,
@@ -207,7 +207,7 @@
   {
     "Id": 211701,
     "Name": "<color=#f39001>Minimalwiderstand</color>",
-    "Description": "#Verringert den Kryo- sowie Elektro-WDS von Gegnern um <color=#f39001>3{NON_BREAK_SPACE}%</color> und den phys. WDS um <color=#f39001>6{NON_BREAK_SPACE}%</color>, 6-fach stapelbar."
+    "Description": "#Verringert den Kryo- sowie Elektro-WDS von Gegnern um <color=#f39001>3{NON_BREAK_SPACE}%</color> und den phys. WDS um <color=#f39001>6{NON_BREAK_SPACE}%</color>, <color=#f39001>6</color>-fach stapelbar."
   },
   {
     "Id": 211702,
@@ -245,6 +245,21 @@
     "Description": "#Hat keine Angriffseffekte, erhöht aber den durch Figuren verursachten <color=#f39001>Kryo-, Dendro- und Elektro-Schaden sowie phys. Schaden</color> an den Gegnern in der Nähe. Erhöht den oben genannten Schaden für jeden magnetischen Dorn um <color=#f39001>45{NON_BREAK_SPACE}%</color> und insgesamt höchstens um <color=#f39001>90{NON_BREAK_SPACE}%</color>."
   },
   {
+    "Id": 211901,
+    "Name": "<color=#f39001>Windgebet – Kryo</color>",
+    "Description": "#Erhöht den mit der Reaktion Verwirbelung durch die Figur verursachten Schaden um <color=#f39001>80{NON_BREAK_SPACE}%</color> und den kritischen Schaden der Figur um <color=#f39001>12{NON_BREAK_SPACE}%</color>."
+  },
+  {
+    "Id": 211902,
+    "Name": "<color=#2bb7d5>Verwitterung</color>",
+    "Description": "Wird wirksam, wenn die Figur einen Gegner während der Wirkungsdauer von <color=#f39001>Windgebet – Kryo</color> mit einem Angriff trifft: Verursacht basierend auf den Stapelungen von <color=#f39001>Windgebet – Kryo</color> in regelmäßigen Abständen <color=#2bb7d5>Kryo-Schaden</color>."
+  },
+  {
+    "Id": 211903,
+    "Name": "<color=#19c78e>Eisnebel</color>",
+    "Description": "Wird während der Wirkungsdauer von <color=#f39001>Windgebet – Kryo</color> beim Sprinten der Figur ausgelöst: Zieht Gegner in der Nähe an und verursacht basierend auf den Stapelungen von <color=#f39001>Windgebet – Kryo</color> <color=#19c78e>Anemo-SCH</color>."
+  },
+  {
     "Id": 11120001,
     "Name": "Modus „Kaltlagerung“",
     "Description": "<color=#FFD780FF>Drücken</color>\nAktiviert den multifunktionalen Gastro-Mecha im Modus „Kaltlagerung“ und fügt den Gegnern in der Umgebung <color=#99FFFFFF>Kryo-Flächenschaden</color> zu.\n\n<color=#FFD780FF>Gastro-Mecha – Modus „Kaltlagerung“</color>\nFolgt der aktuellen Figur und feuert in gewissen Abständen „Frostparfaits“ auf Gegner in der Nähe ab, die <color=#99FFFFFF>Kryo-Schaden</color> verursachen."
@@ -262,7 +277,7 @@
   {
     "Id": 11130002,
     "Name": "Rettungsprinzipien",
-    "Description": "#Auf 150 Punkte beschränkt. Erhöht den von Truppenmitgliedern in der Nähe mit den Reaktionen Verwirbelung und Unter Strom verursachten Schaden für jeden Punkt „Rettungsprinzipien“ von Ifa um 1,5{NON_BREAK_SPACE}%. „Rettungsprinzipien“ werden entfernt, wenn Ifas Nachtseelensegen endet."
+    "Description": "#Auf 150 Punkte beschränkt. Erhöht den von Truppenmitgliedern in der Nähe mit den Reaktionen „Verwirbelung“ und „Unter Strom“ verursachten Schaden für jeden Punkt „Rettungsprinzipien“ von Ifa um 1,5{NON_BREAK_SPACE}% und den durch die Reaktion „Mond unter Strom“ verursachten Schaden um 0,2{NON_BREAK_SPACE}%. „Rettungsprinzipien“ werden entfernt, wenn Ifas Nachtseelensegen endet."
   },
   {
     "Id": 11130003,
@@ -308,5 +323,10 @@
     "Id": 11130011,
     "Name": "Segen",
     "Description": "Dahlia kann den Effekt „Segen“ auf folgende Weisen erhalten:\n· Dahlia erhält X Stapelung(en) des Effekts „Segen“ jedes Mal, wenn die eigene aktive Figur in der Truppe Gegner 4 Male mit Standardangriffen trifft, während ihr die „Favonius-Gunst“ verliehen wird.\n· Nach dem Auslösen des Effekts des passiven Talents „Sanfte Anmut des Windes“.\n\nDahlia kann höchstens X Stapelung(en) des Effekts „Segen“ pro Wirkungsdauer der „Favonius-Gunst“ erlangen."
+  },
+  {
+    "Id": 11160001,
+    "Name": "Birgitta",
+    "Description": "#Ineffas Helferin im Kampf, die durch Anwenden der Elementarfähigkeit oder Spezialfähigkeit auf das Feld beschworen werden kann.\nBirgitta bewegt sich alle 2{NON_BREAK_SPACE}s, wenn sich Gegner in der Nähe befinden, schnell in die Nähe eines Gegners und löst dabei eine Elektro-Entladung aus, die <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht.\nEs kann immer nur eine von Ineffa selbst beschworene Birgitta existieren.\n\nIn Nod-Krai scheint es außerdem auf irgendeine Weise möglich zu sein, Birgittas Aussehen zu verändern ..."
   }
 ]

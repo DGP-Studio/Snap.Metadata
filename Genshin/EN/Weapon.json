@@ -231,23 +231,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s."
+          "Description": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s."
         },
         {
           "Level": 1,
-          "Description": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>25%</color> for 12s."
+          "Description": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>25%</color> for 12s."
         },
         {
           "Level": 2,
-          "Description": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>30%</color> for 12s."
+          "Description": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>30%</color> for 12s."
         },
         {
           "Level": 3,
-          "Description": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>35%</color> for 12s."
+          "Description": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>35%</color> for 12s."
         },
         {
           "Level": 4,
-          "Description": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>40%</color> for 12s."
+          "Description": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>40%</color> for 12s."
         }
       ]
     },
@@ -3982,6 +3982,59 @@
     ]
   },
   {
+    "Id": 12432,
+    "PromoteId": 12432,
+    "Sort": 4224,
+    "WeaponType": 11,
+    "RankLevel": 4,
+    "Name": "Flame-Forged Insight",
+    "Description": "Tribal tales tell of a great blade forged by the People of the Springs to protect a child who would embark on a distant journey. This particular weapon appears to be a replica of that legendary sword.",
+    "Icon": "UI_EquipIcon_Claymore_Polilith",
+    "AwakenIcon": "UI_EquipIcon_Claymore_Polilith_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 36,
+        "Type": 28,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Mind in Bloom",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "When Electro-Charged, Lunar-Charged, or Bloom is triggered, restore <color=#99FFFFFF>12</color> Elemental Energy and increase Elemental Mastery by <color=#99FFFFFF>60</color> for 15 seconds. This effect can be triggered once every 15s and can be triggered even when the equipping character is off-field."
+        },
+        {
+          "Level": 1,
+          "Description": "When Electro-Charged, Lunar-Charged, or Bloom is triggered, restore <color=#99FFFFFF>15</color> Elemental Energy and increase Elemental Mastery by <color=#99FFFFFF>75</color> for 15 seconds. This effect can be triggered once every 15s and can be triggered even when the equipping character is off-field."
+        },
+        {
+          "Level": 2,
+          "Description": "When Electro-Charged, Lunar-Charged, or Bloom is triggered, restore <color=#99FFFFFF>18</color> Elemental Energy and increase Elemental Mastery by <color=#99FFFFFF>90</color> for 15 seconds. This effect can be triggered once every 15s and can be triggered even when the equipping character is off-field."
+        },
+        {
+          "Level": 3,
+          "Description": "When Electro-Charged, Lunar-Charged, or Bloom is triggered, restore <color=#99FFFFFF>21</color> Elemental Energy and increase Elemental Mastery by <color=#99FFFFFF>105</color> for 15 seconds. This effect can be triggered once every 15s and can be triggered even when the equipping character is off-field."
+        },
+        {
+          "Level": 4,
+          "Description": "When Electro-Charged, Lunar-Charged, or Bloom is triggered, restore <color=#99FFFFFF>24</color> Elemental Energy and increase Elemental Mastery by <color=#99FFFFFF>120</color> for 15 seconds. This effect can be triggered once every 15s and can be triggered even when the equipping character is off-field."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114068,
+      112121,
+      112082
+    ]
+  },
+  {
     "Id": 12501,
     "PromoteId": 12501,
     "Sort": 5201,
@@ -6307,6 +6360,59 @@
     ]
   },
   {
+    "Id": 13515,
+    "PromoteId": 13515,
+    "Sort": 5311,
+    "WeaponType": 13,
+    "RankLevel": 5,
+    "Name": "Fractured Halo",
+    "Description": "A spinning mechanical blade produced by the Clink-Clank Krumkake Craftshop that seems to hide secrets from a bygone era...",
+    "Icon": "UI_EquipIcon_Pole_Perdix",
+    "AwakenIcon": "UI_EquipIcon_Pole_Perdix_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 45.9364,
+        "Type": 4,
+        "Value": 1301
+      },
+      {
+        "InitValue": 0.144,
+        "Type": 22,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "Purifying Crown",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "After an Elemental Skill or Elemental Burst is used, ATK is increased by <color=#99FFFFFF>24%</color> for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal <color=#99FFFFFF>40%</color> more Lunar-Charged DMG."
+        },
+        {
+          "Level": 1,
+          "Description": "After an Elemental Skill or Elemental Burst is used, ATK is increased by <color=#99FFFFFF>30%</color> for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal <color=#99FFFFFF>50%</color> more Lunar-Charged DMG."
+        },
+        {
+          "Level": 2,
+          "Description": "After an Elemental Skill or Elemental Burst is used, ATK is increased by <color=#99FFFFFF>36%</color> for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal <color=#99FFFFFF>60%</color> more Lunar-Charged DMG."
+        },
+        {
+          "Level": 3,
+          "Description": "After an Elemental Skill or Elemental Burst is used, ATK is increased by <color=#99FFFFFF>42%</color> for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal <color=#99FFFFFF>70%</color> more Lunar-Charged DMG."
+        },
+        {
+          "Level": 4,
+          "Description": "After an Elemental Skill or Elemental Burst is used, ATK is increased by <color=#99FFFFFF>48%</color> for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal <color=#99FFFFFF>80%</color> more Lunar-Charged DMG."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114064,
+      112121,
+      112103
+    ]
+  },
+  {
     "Id": 14101,
     "PromoteId": 14101,
     "Sort": 1401,
@@ -6538,23 +6644,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>20%</color> for 12s."
+          "Description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, or a Hydro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s."
         },
         {
           "Level": 1,
-          "Description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>25%</color> for 12s."
+          "Description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, or a Hydro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>25%</color> for 12s."
         },
         {
           "Level": 2,
-          "Description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>30%</color> for 12s."
+          "Description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, or a Hydro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>30%</color> for 12s."
         },
         {
           "Level": 3,
-          "Description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>35%</color> for 12s."
+          "Description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, or a Hydro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>35%</color> for 12s."
         },
         {
           "Level": 4,
-          "Description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>40%</color> for 12s."
+          "Description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, or a Hydro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>40%</color> for 12s."
         }
       ]
     },

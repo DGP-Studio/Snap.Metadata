@@ -2,12 +2,12 @@
   {
     "Id": 210101,
     "Name": "<color=#0075de>Tidal Shock</color>",
-    "Description": "When a character triggers Vaporize on an opponent, deals <color=#0075de>Hydro DMG</color>"
+    "Description": "Unleashed when a character triggers <color=#f39001>Vaporize</color> on an opponent, dealing <color=#0075de>Hydro DMG</color>"
   },
   {
     "Id": 210102,
     "Name": "<color=#ef5534>Blazing Explosion</color>",
-    "Description": "When a character triggers Vaporize on an opponent, deals <color=#ef5534>Pyro DMG</color>"
+    "Description": "Unleashed when a character triggers <color=#f39001>Vaporize</color> on an opponent, dealing <color=#ef5534>Pyro DMG</color>"
   },
   {
     "Id": 210201,
@@ -17,12 +17,12 @@
   {
     "Id": 210301,
     "Name": "<color=#ef5534>Wildfire Wave</color>",
-    "Description": "A tally will be kept on each opponent when Burning reaction DMG is inflicted on them. When any tally reaches <color=#f39001>{0}</color>, the count will be reset, dealing <color=#ef5534>AoE Pyro DMG</color>"
+    "Description": "A tally will be kept on each opponent when <color=#f39001>Burning reaction</color> DMG is inflicted on them. When any tally reaches <color=#f39001>6</color>, the count will be reset, dealing <color=#ef5534>AoE Pyro DMG</color>"
   },
   {
     "Id": 210302,
     "Name": "<color=#7bb100>Combustion Core</color>",
-    "Description": "Triggers after a character deals <color=#7bb100>Dendro DMG</color> to a Burning opponent, dealing <color=#7bb100>Dendro DMG</color>"
+    "Description": "Triggers after a character's Dendro DMG hits a <color=#f39001>Burning</color> opponent, deals <color=#7bb100>Dendro DMG</color>"
   },
   {
     "Id": 210401,
@@ -82,7 +82,7 @@
   {
     "Id": 210901,
     "Name": "<color=#f39001>Windblessing: Hydro</color>",
-    "Description": "The DMG dealt by characters triggering the Swirl reaction increases by <color=#f39001>80%</color> and their Max HP increases by <color=#f39001>8%</color>."
+    "Description": "The DMG dealt by characters triggering the Swirl reaction increases by <color=#f39001>80%</color> and their Max HP increases by <color=#f39001>8%</color>"
   },
   {
     "Id": 210902,
@@ -97,12 +97,12 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Windblessing: Electro</color>",
-    "Description": "The DMG dealt by characters triggering the Swirl reaction increases by <color=#f39001>80%</color> and each time they receive <color=#f39001>Windblessing: Electro</color>, all party members gain <color=#f39001>1.5</color> Elemental Energy. Can be triggered once every <color=#f39001>3</color>s."
+    "Description": "The DMG dealt by characters triggering the Swirl reaction increases by <color=#f39001>80%</color> and each time they receive <color=#f39001>Windblessing: Electro</color>, all party members gain <color=#f39001>1.5</color> Elemental Energy"
   },
   {
     "Id": 211002,
     "Name": "<color=#b863ee>Razorflash Thunderblade</color>",
-    "Description": "When characters use an Elemental Burst, gain <color=#f39001>Razorflash Mark</color>. When the active character's attacks hit opponents, consume the Razorflash Mark to unleash a Razorflash Thunderblade, dealing <color=#b863ee>Electro DMG</color> to all opponents in its path based on the number of Windblessing: Electro stacks"
+    "Description": "When characters use an Elemental Burst, gain <color=#f39001>Razorflash Mark</color>. When the active character's attacks hit opponents, consume the Razorflash Mark to unleash a <color=#b863ee>Razorflash Thunderblade</color>, dealing <color=#b863ee>Electro DMG</color> to all opponents in its path based on the number of <color=#f39001>Windblessing: Electro</color> stacks"
   },
   {
     "Id": 211003,
@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Electrosurge</color>",
-    "Description": "DMG dealt by Electro-Charged reactions triggered by party members is increased by <color=#f39001>250%</color>"
+    "Description": "DMG dealt by <color=#f39001>Electro-Charged reactions</color> triggered by party members is increased by <color=#f39001>250%</color>"
   },
   {
     "Id": 211102,
@@ -207,7 +207,7 @@
   {
     "Id": 211701,
     "Name": "<color=#f39001>Yielding</color>",
-    "Description": "Opponents' Cryo and Electro RES is decreased by <color=#f39001>3%</color>, and Physical RES is decreased by <color=#f39001>6%</color>, max 6 stack(s)"
+    "Description": "Opponents' Cryo and Electro RES is decreased by <color=#f39001>3%</color>, and Physical RES is decreased by <color=#f39001>6%</color>, max <color=#f39001>6</color> stack(s)"
   },
   {
     "Id": 211702,
@@ -245,6 +245,21 @@
     "Description": "Does not attack, but rather causes nearby enemies to take more <color=#f39001>Cryo, Dendro, Electro, and Physical DMG</color> dealt by characters. The aforementioned buff is strengthened by <color=#f39001>45%</color> for every Magnetizing Thorn on the field, up to a maximum of <color=#f39001>90%</color>"
   },
   {
+    "Id": 211901,
+    "Name": "<color=#f39001>Windblessing: Cryo</color>",
+    "Description": "The DMG dealt by characters triggering the Swirl reaction increases by <color=#f39001>80%</color> and their CRIT DMG increases by <color=#f39001>12%</color>"
+  },
+  {
+    "Id": 211902,
+    "Name": "<color=#2bb7d5>Coldrime</color>",
+    "Description": "Applied when characters hit opponents with their attacks while <color=#f39001>Windblessing: Cryo</color> is active. Opponents will periodically take <color=#2bb7d5>Cryo DMG</color> based on the number of <color=#f39001>Windblessing: Cryo</color> stacks"
+  },
+  {
+    "Id": 211903,
+    "Name": "<color=#19c78e>Icemist</color>",
+    "Description": "Released when characters sprint while <color=#f39001>Windblessing: Cryo</color> is active, drawing in nearby opponents and dealing <color=#19c78e>Anemo DMG</color> based on the number of <color=#f39001>Windblessing: Cryo</color> stacks"
+  },
+  {
     "Id": 11120001,
     "Name": "Cold Storage Mode",
     "Description": "<color=#FFD780FF>Tap</color>\nActivates her All-Spectrum Multi-Use Cooking Mek in its Cold Storage mode and deals <color=#99FFFFFF>AoE Cryo DMG</color> to nearby opponents.\n\n<color=#FFD780FF>Cooking Mek: Cold Storage Mode</color>\nFollows the current active character and fires Frosty Parfaits at nearby opponents at intervals, dealing <color=#99FFFFFF>Cryo DMG</color>."
@@ -262,7 +277,7 @@
   {
     "Id": 11130002,
     "Name": "Rescue Essentials",
-    "Description": "Max 150 points. Each Rescue Essentials point Ifa has will increase the Swirl and Electro-Charged DMG dealt by nearby party members by 1.5%. These points will be cleared when his Nightsoul's Blessing state ends."
+    "Description": "Max 150 points. Each Rescue Essentials point Ifa has will increase the Swirl and Electro-Charged DMG dealt by nearby party members by 1.5%, and their Lunar-Charged DMG dealt by 0.2%. These points will be cleared when his Nightsoul's Blessing state ends."
   },
   {
     "Id": 11130003,
@@ -308,5 +323,10 @@
     "Id": 11130011,
     "Name": "Benison",
     "Description": "Dahlia can obtain Benison via the following methods:\n· He will gain X Benison stacks when his own active party member hits opponents 4 times with Normal Attacks while affected by Favonian Favor.\n· After triggering the effect of his Passive Talent, \"The Wind's Gentle Grace.\"\n\nDahlia can gain a maximum of X Benison stacks per Favonian Favor duration."
+  },
+  {
+    "Id": 11160001,
+    "Name": "Birgitta",
+    "Description": "Ineffa's assistant and companion in battle, she can be summoned to the battlefield via Elemental Skill or Elemental Burst.\nIf there are opponents nearby, Birgitta will quickly move close to an opponent and unleash Discharge attacks every 2s, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\nOnly one Birgitta that has been summoned by Ineffa herself can exist at any one time.\n\nAdditionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means..."
   }
 ]
