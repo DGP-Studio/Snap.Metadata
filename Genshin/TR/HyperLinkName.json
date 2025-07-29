@@ -2,12 +2,12 @@
   {
     "Id": 210101,
     "Name": "<color=#0075de>Dalga Şoku</color>",
-    "Description": "Bir karakter, bir düşman üzerinde Buharlaşma tepkimesi tetiklediğinde <color=#0075de>Su Hasarı</color> verir."
+    "Description": "Bir karakter, bir düşman üzerinde <color=#f39001>Buharlaşma</color> tepkimesi tetiklediğinde fırlatılır ve <color=#0075de>Su Hasarı</color> verir."
   },
   {
     "Id": 210102,
     "Name": "<color=#ef5534>Çarpıcı Patlama</color>",
-    "Description": "Bir karakter, bir düşman üzerinde Buharlaşma tepkimesi tetiklediğinde <color=#ef5534>Ateş Hasarı</color> verir."
+    "Description": "Bir karakter, bir düşman üzerinde <color=#f39001>Buharlaşma</color> tepkimesi tetiklediğinde fırlatılır ve <color=#ef5534>Ateş Hasarı</color> verir."
   },
   {
     "Id": 210201,
@@ -17,12 +17,12 @@
   {
     "Id": 210301,
     "Name": "<color=#ef5534>Vahşi Ateş Dalgası</color>",
-    "Description": "Her düşmanın Yanma tepkimesinden aldığı Hasar sayısı kaydedilir. Sayı <color=#f39001>{0}</color> olduğunda kayıt sıfırlanır ve <color=#ef5534>Ateş Alan Hasarı</color> verilir."
+    "Description": "Her bir düşmanın <color=#f39001>Yanma tepkimesi</color> ile Hasar alma sayısı kaydedilir. Sayılardan herhangi biri <color=#f39001>6</color> olduğunda sayım sıfırlanır ve <color=#ef5534>Ateş Alan Hasarı</color> verir."
   },
   {
     "Id": 210302,
     "Name": "<color=#7bb100>Patlayıcı Çekirdek</color>",
-    "Description": "Karakter, Yanma etkisi altındaki bir düşmana <color=#7bb100>Doğa Hasarı</color> verdiğinde tetiklenerek <color=#7bb100>Doğa Hasarı</color> verir."
+    "Description": "Bir karakterin verdiği Doğa Hasarı, <color=#f39001>Yanma</color> etkisindeki bir düşmana isabet ettiğinde tetiklenir ve <color=#7bb100>Doğa Hasarı</color> verir."
   },
   {
     "Id": 210401,
@@ -97,12 +97,12 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Esinti Kutsaması: Elektrik</color>",
-    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color> artar ve her <color=#f39001>Esinti Kutsaması: Elektrik</color> kazanıldığında tüm grup üyeleri <color=#f39001>1.5</color> Element Enerjisi kazanır. <color=#f39001>3</color> saniyede bir tetiklenebilir."
+    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color> artar ve her <color=#f39001>Esinti Kutsaması: Elektrik</color> kazanıldığında tüm grup üyeleri <color=#f39001>1.5</color> Element Enerjisi kazanır."
   },
   {
     "Id": 211002,
     "Name": "<color=#b863ee>Keskin Parlayan Yıldırım Bıçağı</color>",
-    "Description": "Karakterler Element Patlaması kullandığında <color=#f39001>Keskin Parlama Nişanı</color> kazanır. Aktif karakterin saldırıları düşmanlara isabet ettiğinde Keskin Parlama Nişanı harcanarak Keskin Parlayan Yıldırım Bıçağı oluşur ve yolundaki tüm düşmanlara Esinti Kutsaması: Elektrik kademesi sayısına bağlı olarak <color=#b863ee>Elektrik Hasarı</color> verir."
+    "Description": "Karakterler Element Patlaması kullandığında <color=#f39001>Keskin Parlama Nişanı</color> kazanır. Aktif karakterin saldırıları düşmanlara isabet ettiğinde Keskin Parlama Nişanı harcanarak <color=#b863ee>Keskin Parlayan Yıldırım Bıçağı</color> oluşur ve yolundaki tüm düşmanlara <color=#f39001>Esinti Kutsaması: Elektrik</color> kademesi sayısına bağlı olarak <color=#b863ee>Elektrik Hasarı</color> verir."
   },
   {
     "Id": 211003,
@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Elektrik Akımı</color>",
-    "Description": "Grup üyelerinin tetiklediği Elektrik Yüklü tepkimelerinin verdiği Hasar <color=#f39001>%250</color> artar."
+    "Description": "Grup üyelerinin tetiklediği <color=#f39001>Elektrik Yüklü</color> tepkimelerinin verdiği Hasar <color=#f39001>%250</color> artar."
   },
   {
     "Id": 211102,
@@ -207,7 +207,7 @@
   {
     "Id": 211701,
     "Name": "<color=#f39001>İtaatkar</color>",
-    "Description": "Düşmanların Buz ve Elektrik Direnci <color=#f39001>%3</color>, Fiziksel Direnci <color=#f39001>%6</color> azalır. En fazla 6 kademe birikebilir."
+    "Description": "Düşmanların Buz ve Elektrik Direnci <color=#f39001>%3</color>, Fiziksel Direnci <color=#f39001>%6</color> azalır. En fazla <color=#f39001>6</color> kademe birikebilir."
   },
   {
     "Id": 211702,
@@ -245,6 +245,21 @@
     "Description": "Saldırmaz, onun yerine karakterlerin yakındaki düşmanlara daha fazla <color=#f39001>Buz, Doğa, Elektrik ve Fiziksel Hasar</color> vermesini sağlar. Alandaki her Manyetik Diken, bu güçlendirmeyi <color=#f39001>%45</color> artırır, en fazla <color=#f39001>%90</color> olabilir."
   },
   {
+    "Id": 211901,
+    "Name": "<color=#f39001>Esinti Kutsaması: Buz</color>",
+    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color>, Kritik Hasarları ise <color=#f39001>%12</color> artar."
+  },
+  {
+    "Id": 211902,
+    "Name": "<color=#2bb7d5>Kırağı Buzu</color>",
+    "Description": "<color=#f39001>Esinti Kutsaması: Buz</color> etkinken bir karakter, düşmana saldırı yaparak vurduğunda uygulanır. Düşmanlar <color=#f39001>Esinti Kutsaması: Buz</color> kademesine göre belirli aralıklarla <color=#2bb7d5>Buz Hasarı</color> alır."
+  },
+  {
+    "Id": 211903,
+    "Name": "<color=#19c78e>Kar Sisi</color>",
+    "Description": "<color=#f39001>Esinti Kutsaması: Buz</color> etkinken bir karakter depar attığında kullanılır ve yakındaki düşmanları kendine çekerek <color=#f39001>Esinti Kutsaması: Buz</color> kademesine göre <color=#19c78e>Rüzgar Hasarı</color> verir."
+  },
+  {
     "Id": 11120001,
     "Name": "Soğuk Muhafaza Modu",
     "Description": "<color=#FFD780FF>Dokun</color>\nÇok Amaçlı Yemek Mekasının Soğuk Muhafaza Modunu etkinleştirerek yakındaki düşmanlara <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n\n<color=#FFD780FF>Yemek Mekası: Soğuk Muhafaza Modu</color>\nMevcut aktif karakterini takip eder ve belirli aralıklarla düşmanlara Buzlu Parfeler ateşleyerek <color=#99FFFFFF>Buz Hasarı</color> verir."
@@ -262,7 +277,7 @@
   {
     "Id": 11130002,
     "Name": "Kurtarma Kiti",
-    "Description": "En fazla 150 puan birikebilir. Ifa'nın sahip olduğu her Kurtarma Kiti puanı, yakındaki grup üyelerinin verdiği Elektrik Yüklü ve Girdap Hasarını %1,5 artırır. Ifa'nın Gece Ruhunun Lütfu durumu sona erdiğinde puanlar sıfırlanır."
+    "Description": "En fazla 150 puan birikebilir. Ifa'nın sahip olduğu her Kurtarma Kiti puanı, yakındaki grup üyelerinin verdiği Elektrik Yüklü ve Girdap Hasarını %1,5 artırır, Ay Yüklü Hasarını ise %0,2 artırır. Ifa'nın Gece Ruhunun Lütfu durumu sona erdiğinde puanlar sıfırlanır."
   },
   {
     "Id": 11130003,
@@ -308,5 +323,10 @@
     "Id": 11130011,
     "Name": "Takdis",
     "Description": "Dahlia, aşağıdaki yöntemlerle Takdis elde edebilir:\n·Dahlia'nın bulunduğu gruptaki aktif grup üyesi Favonius Lütfu etkisindeyken bir düşmana 4 defa Normal Saldırı ile vurduğunda Dahlia 1 Takdis kademesi kazanır.\n·\"Rüzgarın Zarafeti\" Pasif Yeteneğinin etkisi tetiklendikten sonra Dahlia Takdis kademesi kazanır.\n\nFavonius Lütfu süresi boyunca Dahlia en fazla 4 Takdis kademesi elde edebilir."
+  },
+  {
+    "Id": 11160001,
+    "Name": "Birgitta",
+    "Description": "Ineffa'nın asistanı ve savaştaki yoldaşı. Element Becerisi veya Element Patlamasını kullanarak savaş alanına çağrılabilir.\nEğer yakınlarda düşmanlar varsa Birgitta hızla bir düşmana yaklaşır ve her 2 saniyede bir Elektrik Akımı saldırısı yaparak <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir.\nAlanda aynı anda Ineffa tarafından çağrılan yalnızca bir tane Birgitta var olabilir.\n\nAyrıca Nod-Krai'da iken çeşitli yöntemlerle Birgitta'nın görünüşünü değiştirmek mümkün olacak gibi görünüyor..."
   }
 ]

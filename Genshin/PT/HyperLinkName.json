@@ -2,12 +2,12 @@
   {
     "Id": 210101,
     "Name": "<color=#0075de>Onda de Choque Torrencial</color>",
-    "Description": "Quando um personagem desencadeia Vaporização em um oponente, causa <color=#0075de>Dano Hydro</color>"
+    "Description": "Quando um personagem desencadeia <color=#f39001>Vaporização</color> contra um oponente, causa <color=#0075de>Dano Hydro</color>"
   },
   {
     "Id": 210102,
     "Name": "<color=#ef5534>Explosão Flamejante</color>",
-    "Description": "Quando um personagem desencadeia Vaporização em um oponente, causa <color=#ef5534>Dano Pyro</color>"
+    "Description": "Quando um personagem desencadeia <color=#f39001>Vaporização</color> contra um oponente, causa <color=#ef5534>Dano Pyro</color>"
   },
   {
     "Id": 210201,
@@ -17,12 +17,12 @@
   {
     "Id": 210301,
     "Name": "<color=#ef5534>Onda de Choque Pyro</color>",
-    "Description": "Quando o inimigo sofre Dano causado por uma reação de Queimaduras, fará uma contagem e quando ela alcançar <color=#f39001>{0}</color>, eliminará a contagem e causará <color=#ef5534>Dano Pyro em uma AdE</color>"
+    "Description": "Quando o inimigo sofre Dano causado por uma <color=#f39001>reação de Queimaduras</color>, uma contagem será mantida e quando ela alcançar <color=#f39001>6</color>, a contagem será reiniciada e causará <color=#ef5534>Dano Pyro em uma AdE</color>"
   },
   {
     "Id": 210302,
     "Name": "<color=#7bb100>Núcleos de Suporte Flamejante</color>",
-    "Description": "Desencadeia depois que o personagem causa <color=#7bb100>Dano Dendro</color> contra um inimigo que está no estado Queimaduras, causando <color=#7bb100>Dano Dendro</color>"
+    "Description": "Desencadeado quando o personagem causa Dano Dendro contra um inimigo que está no <color=#f39001>estado de Queimaduras</color>, causando <color=#7bb100>Dano Dendro</color>"
   },
   {
     "Id": 210401,
@@ -82,7 +82,7 @@
   {
     "Id": 210901,
     "Name": "<color=#f39001>Bênção do Vento: Hydro</color>",
-    "Description": "O Dano causado pela reação Redemoinho desencadeado pelo personagem é aumentado em <color=#f39001>80%</color> e sua Vida Máxima é aumentada em <color=#f39001>8%</color>"
+    "Description": "O Dano causado pelos personagens desencadeando a reação de Redemoinho é aumentado em <color=#f39001>80%</color> e sua Vida Máxima aumenta em <color=#f39001>8%</color>"
   },
   {
     "Id": 210902,
@@ -97,12 +97,12 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Bênção do Vento: Electro</color>",
-    "Description": "O Dano causado pelos personagens que desencadearam reação de Redemoinho aumenta em <color=#f39001>80%</color> e cada vez que recebem uma <color=#f39001>Bênção do Vento: Electro</color>, todos os membros da equipe ganham <color=#f39001>1.5</color> de Energia Elemental. Pode ser desencadeado uma vez a cada <color=#f39001>3</color>s"
+    "Description": "O Dano causado pelos personagens desencadeando a reação de Redemoinho é aumentado em <color=#f39001>80%</color> e cada vez que recebem <color=#f39001>Bênção do Vento: Electro</color>, todos os membros da equipe ganham <color=#f39001>1.5</color> de Energia Elemental"
   },
   {
     "Id": 211002,
     "Name": "<color=#b863ee>Lâmina Rápida do Relâmpago</color>",
-    "Description": "Quando personagens usam seu Supremo, ganham um acúmulo de <color=#f39001>Marca da Lâmina Rápida</color>. Quando o ataque do personagem ativo atinge o oponente, consome um acúmulo de Marca da Lâmina Rápida para lançar Lâmina Rápida do Relâmpago, causando <color=#b863ee>Dano Electro</color> contra os inimigos no caminho baseado no número de acúmulos de Bênção do Vento: Electro"
+    "Description": "Quando personagens usam seu Supremo, ganham um acúmulo de <color=#f39001>Marca da Lâmina Rápida</color>. Quando o ataque do personagem ativo atinge oponentes, consome um acúmulo de Marca da Lâmina Rápida para lançar <color=#b863ee>Lâmina Rápida do Relâmpago</color>, causando <color=#b863ee>Dano Electro</color> contra os inimigos no caminho baseado no número de acúmulos de <color=#f39001>Bênção do Vento: Electro</color>"
   },
   {
     "Id": 211003,
@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Torrente Elétrica</color>",
-    "Description": "Todo o Dano causado por reações de Eletricamente Carregado desencadeadas por membros da equipe é aumentada em <color=#f39001>250%</color>"
+    "Description": "Dano causado por <color=#f39001>reações Eletricamente Carregado</color> causada pelos membros da equipe é aumentado em <color=#f39001>250%</color>"
   },
   {
     "Id": 211102,
@@ -207,7 +207,7 @@
   {
     "Id": 211701,
     "Name": "<color=#f39001>Flexível</color>",
-    "Description": "A RES Cryo e Electro dos inimigos é reduzida em <color=#f39001>3%</color>, e a RES Física é reduzida em <color=#f39001>6%</color>, máximo de 6 acúmulo(s)"
+    "Description": "A RES Cryo e Electro dos oponentes é reduzida em <color=#f39001>3%</color>, e a RES Física é reduzida em <color=#f39001>6%</color>, máximo de <color=#f39001>6</color> acúmulos"
   },
   {
     "Id": 211702,
@@ -245,6 +245,21 @@
     "Description": "Não ataca, faz com que os inimigos próximos sofram mais <color=#f39001>Dano Cryo, Dendro, Electro e Físico</color> causado pelos personagens. O bônus mencionado anteriormente é fortalecido em <color=#f39001>45%</color> para cada Espinho Magnético em campo, até um máximo de <color=#f39001>90%</color>"
   },
   {
+    "Id": 211901,
+    "Name": "<color=#f39001>Bênção do Vento: Cryo</color>",
+    "Description": "O Dano causado pelos personagens desencadeando a reação de Redemoinho é aumentado em <color=#f39001>80%</color> e seu Dano CRIT aumenta em <color=#f39001>12%</color>"
+  },
+  {
+    "Id": 211902,
+    "Name": "<color=#2bb7d5>Erosão Respeitosa</color>",
+    "Description": "Enquanto <color=#f39001>Bênção do Vento: Cryo</color> estiver ativa, quando um personagem acertar um oponente com seus ataques, aplica o efeito Erosão Respeitosa. Oponentes sofrerão <color=#2bb7d5>Dano Cryo</color> intermitentemente baseado no número de acúmulos de <color=#f39001>Bênção do Vento: Cryo</color>"
+  },
+  {
+    "Id": 211903,
+    "Name": "<color=#19c78e>Névoa Gélida</color>",
+    "Description": "Enquanto <color=#f39001>Bênção do Vento: Cryo</color> estiver ativa, o personagem ativo lançará Névoa Gélida em sua posição ao correr, puxando os inimigos e objetos próximos. A cada segundo, a Névoa Gélida causará <color=#2bb7d5>Dano Anemo</color> baseado no número de acúmulos de <color=#f39001>Bênção do Vento: Cryo</color>"
+  },
+  {
     "Id": 11120001,
     "Name": "Modo de Armazenamento Frio",
     "Description": "<color=#FFD780FF>Pressionar</color>\nAtiva seu Robô Culinário Multiuso no modo de Armazenamento Frio e causa <color=#99FFFFFF>Dano Cryo em uma AdE</color> aos inimigos próximos.\n\n<color=#FFD780FF>Robô Culinário Multiuso: Modo de Armazenamento Frio</color>\nSegue o personagem ativo atual e dispara Parfait Congelado contra inimigos próximos em intervalos, causando <color=#99FFFFFF>Dano Cryo</color>."
@@ -262,7 +277,7 @@
   {
     "Id": 11130002,
     "Name": "Essencial do Resgate",
-    "Description": "Máximo de 150 pontos. Cada ponto de Essencial do Resgate que Ifa possui aumenta o Dano causado por Reações de Redemoinho e Eletricamente Carregado dos membros próximos da equipe em 1.5%. Os pontos de Essencial do Resgate serão eliminados quando o estado Bênção do Espírito da Noite acabar."
+    "Description": "Máximo de 150 pontos. Cada ponto de Essencial do Resgate que Ifa possui aumenta o Dano causado por Reações de Redemoinho e Eletricamente Carregado dos membros próximos da equipe em 1.5%. O Dano causado por Reações de Eletricamente Carregado aumenta em 0.2% para cada ponto de Essencial do Resgate. Os pontos de Essencial do Resgate serão eliminados quando o estado Bênção do Espírito da Noite acabar."
   },
   {
     "Id": 11130003,
@@ -308,5 +323,10 @@
     "Id": 11130011,
     "Name": "Bons Desejos",
     "Description": "Dahlia pode obter o efeito Bons Desejos das seguintes formas:\n· Quando o personagem ativo atual estiver sob o efeito Graça de Favonius, e seu Ataque Normal atingir inimigos 4 vezes, Dahlia obtém 1 acúmulo do efeito Bons Desejos.\n· Depois que desencadear o efeito do Talento Passivo \"Amor Concedido Pelo Vento\".\n\nDahlia pode obter até X acúmulos de Bons Desejos em cada duração do efeito Graça de Favonius."
+  },
+  {
+    "Id": 11160001,
+    "Name": "Birgitta",
+    "Description": "Luta ao lado de Ineffa, pode ser invocada para o campo de batalha através da Habilidade Elemental ou do Supremo.\nSe houver inimigos por perto, Birgitta se moverá rapidamente para perto de um deles a cada 2s, e realizará um ataque elétrico que causa <color=#FFACFFFF>Dano Electro em AdE</color>.\nÉ possível existir uma Birgitta criada por Ineffa simultaneamente.\nAlém disso, em Nod-Krai, parece ser possível mudar a aparência de Birgitta de alguma forma..."
   }
 ]

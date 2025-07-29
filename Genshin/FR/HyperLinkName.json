@@ -2,12 +2,12 @@
   {
     "Id": 210101,
     "Name": "<color=#0075de>Onde tidale</color>",
-    "Description": "Déclencher une réaction d'Évaporation sur un ennemi inflige des <color=#0075de>DGT Hydro</color>."
+    "Description": "Déclencher une <color=#f39001>réaction d'Évaporation</color> sur un ennemi inflige des <color=#0075de>DGT Hydro</color>."
   },
   {
     "Id": 210102,
     "Name": "<color=#ef5534>Explosion flamboyante</color>",
-    "Description": "Déclencher une réaction d'Évaporation sur un ennemi inflige des <color=#ef5534>DGT Pyro</color>."
+    "Description": "Déclencher une <color=#f39001>réaction d'Évaporation</color> sur un ennemi inflige des <color=#ef5534>DGT Pyro</color>."
   },
   {
     "Id": 210201,
@@ -17,12 +17,12 @@
   {
     "Id": 210301,
     "Name": "<color=#ef5534>Onde incendiaire</color>",
-    "Description": "Infliger des DGT à un ennemi avec une réaction de Brûlure comptabilise un cumul sur ce dernier. En atteignant <color=#f39001>{0}</color> cumuls, les cumuls sont annulés pour libérer une onde incendiaire infligeant des <color=#ef5534>DGT Pyro de zone</color>."
+    "Description": "Infliger des DGT à un ennemi avec une <color=#f39001>réaction de Brûlure</color> comptabilise un cumul sur ce dernier. En atteignant <color=#f39001>6</color> cumuls, les cumuls sont annulés pour libérer une onde incendiaire infligeant des <color=#ef5534>DGT Pyro de zone</color>."
   },
   {
     "Id": 210302,
     "Name": "<color=#7bb100>Noyau incandescent</color>",
-    "Description": "Un noyau incandescent infligeant des <color=#7bb100>DGT Dendro</color> est généré lorsqu'un personnage a infligé des <color=#7bb100>DGT Dendro</color> à un ennemi brûlé."
+    "Description": "Un noyau incandescent infligeant des <color=#7bb100>DGT Dendro</color> se déclenche lorsqu'un personnage a infligé des DGT Dendro à un ennemi <color=#f39001>brûlé</color>."
   },
   {
     "Id": 210401,
@@ -97,12 +97,12 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Bénédiction venteuse Électro</color>",
-    "Description": "Les DGT infligés par les réactions de Dispersion déclenchées par les personnages augmentent de <color=#f39001>80 %</color> et chaque obtention d'une <color=#f39001>bénédiction venteuse Électro</color> restaure <color=#f39001>1.5</color> pts d'énergie élémentaire à tous les personnages de l'équipe. Cet effet peut être déclenché une fois toutes les <color=#f39001>3</color> s."
+    "Description": "Les DGT infligés par les réactions de Dispersion déclenchées par les personnages augmentent de <color=#f39001>80 %</color> et chaque obtention d'une <color=#f39001>bénédiction venteuse Électro</color> restaure <color=#f39001>1.5</color> pts d'énergie élémentaire à tous les personnages de l'équipe."
   },
   {
     "Id": 211002,
     "Name": "<color=#b863ee>Électrolame tailladeuse</color>",
-    "Description": "Une <color=#f39001>marque tailladeuse</color> est générée lorsqu'un personnage utilise un déchaînement élémentaire. Lorsque l'attaque du personnage déployé touche un ennemi, cette marque tailladeuse est consommée pour libérer une électrolame tailladeuse infligeant des <color=#b863ee>DGT Électro</color> aux ennemis en chemin selon les cumuls de bénédiction venteuse Électro."
+    "Description": "Une <color=#f39001>marque tailladeuse</color> est générée lorsqu'un personnage utilise un déchaînement élémentaire. Lorsque l'attaque du personnage déployé touche un ennemi, cette marque tailladeuse est consommée pour libérer une <color=#b863ee>électrolame tailladeuse</color> infligeant des <color=#b863ee>DGT Électro</color> aux ennemis en chemin selon les cumuls de <color=#f39001>bénédiction venteuse Électro</color>."
   },
   {
     "Id": 211003,
@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Électro-impulsion</color>",
-    "Description": "Les DGT infligés par les réactions d'Électrocution de tous les personnages de l'équipe augmentent de <color=#f39001>250 %</color>."
+    "Description": "Les DGT infligés par les <color=#f39001>réactions d'Électrocution</color> de tous les personnages de l'équipe augmentent de <color=#f39001>250 %</color>."
   },
   {
     "Id": 211102,
@@ -207,7 +207,7 @@
   {
     "Id": 211701,
     "Name": "<color=#f39001>Ohm</color>",
-    "Description": "Les RÉS Cryo et Électro des ennemis concernés diminuent de <color=#f39001>3 %</color> et la RÉS physique de <color=#f39001>6 %</color>. Cet effet peut être cumulé 6 fois maximum."
+    "Description": "Les RÉS Cryo et Électro des ennemis concernés diminuent de <color=#f39001>3 %</color> et la RÉS physique de <color=#f39001>6 %</color>. Cet effet peut être cumulé <color=#f39001>6</color> fois maximum."
   },
   {
     "Id": 211702,
@@ -245,6 +245,21 @@
     "Description": "La magnépine n'attaque pas, mais <color=#f39001>augmente les DGT Cryo, Dendro, Électro et physiques</color> que les personnages infligent aux ennemis à proximité. Chaque magnépine sur le terrain augmente cet effet de <color=#f39001>45 %</color>, jusqu'à un maximum de <color=#f39001>90 %</color>."
   },
   {
+    "Id": 211901,
+    "Name": "<color=#f39001>Bénédiction venteuse Cryo</color>",
+    "Description": "Les DGT infligés par les réactions de Dispersion des personnages augmentent de <color=#f39001>80 %</color> et leurs DGT CRIT de <color=#f39001>12 %</color>."
+  },
+  {
+    "Id": 211902,
+    "Name": "<color=#2bb7d5>Gélivure</color>",
+    "Description": "Toucher un ennemi avec une attaque pendant la durée de l'effet <color=#f39001>Bénédiction venteuse Cryo</color> lui applique une gélivure, cette dernière infligeant des <color=#2bb7d5>DGT Cryo</color> de façon intermittente selon les cumuls de <color=#f39001>bénédiction venteuse Cryo</color>."
+  },
+  {
+    "Id": 211903,
+    "Name": "<color=#19c78e>Brumisation</color>",
+    "Description": "Pendant la durée de l'effet <color=#f39001>Bénédiction venteuse Cryo</color>, le sprint déclenche une brumisation attirant les ennemis proches et infligeant des <color=#19c78e>DGT Anémo</color> selon les cumuls de <color=#f39001>bénédiction venteuse Cryo</color>."
+  },
+  {
     "Id": 11120001,
     "Name": "Mode « Stockage à froid »",
     "Description": "<color=#FFD780FF>Appui simple</color>\nEscoffier active son mek cuistot multi-usages à palette complète en mode « Stockage à froid », infligeant des <color=#99FFFFFF>DGT Cryo de zone</color> aux ennemis proches.\n\n<color=#FFD780FF>Mek cuistot : mode « Stockage à froid »</color>\nLe mek cuistot suit le personnage déployé et tire des parfaits glacés de façon intermittente sur les ennemis proches, infligeant des <color=#99FFFFFF>DGT Cryo</color>."
@@ -262,7 +277,7 @@
   {
     "Id": 11130002,
     "Name": "Essentiels de sauvetage",
-    "Description": "Chaque point d'essentiels de sauvetage qu'Ifa possède augmente les DGT infligés par les réactions de Dispersion et d'Électrocution des membres de l'équipe à proximité de 1,5 %, Ifa pouvant posséder un maximum de 150 pts d'essentiels de sauvetage. Tous les points d'essentiels de sauvetage sont annulés lorsque la bénédiction noctâme d'Ifa prend fin."
+    "Description": "Chaque point d'essentiels de sauvetage qu'Ifa possède augmente les DGT infligés par les réactions de Dispersion et d'Électrocution des membres de l'équipe à proximité de 1,5 % et ceux des réactions de Sélénocution de 0,2 %, Ifa pouvant posséder un maximum de 150 pts d'essentiels de sauvetage. Tous les points d'essentiels de sauvetage sont annulés lorsque la bénédiction noctâme d'Ifa prend fin."
   },
   {
     "Id": 11130003,
@@ -308,5 +323,10 @@
     "Id": 11130011,
     "Name": "Sacrement",
     "Description": "Dahlia peut obtenir du sacrement des manières suivantes :\n· Il obtient X cumul de sacrement à chaque fois que votre personnage déployé touche un total de 4 ennemis avec des attaques normales tout en étant sous l'effet d'une faveur favonienne.\n· En déclenchant l'effet de l'aptitude passive « La douce grâce du vent ».\n\nDahlia peut obtenir un maximum de X cumuls de sacrement pendant la durée une faveur favonienne."
+  },
+  {
+    "Id": 11160001,
+    "Name": "Birgitta",
+    "Description": "Assistante d'Ineffa au combat, elle peut être invoquée sur le champ de bataille via une compétence élémentaire ou un déchaînement élémentaire.\nSi des ennemis sont à proximité, Birgitta se rapproche rapidement de l'un d'entre eux toutes les 2 s afin de déclencher une décharge électrique infligeant des <color=#FFACFFFF>DGT Électro de zone</color>.\nIl ne peut exister qu'une seule Birgitta créée par Ineffa à la fois.\n\nDe plus, il semble que vous pourrez changer l'apparence de Birgitta par certains moyens dans Nod-Krai..."
   }
 ]
