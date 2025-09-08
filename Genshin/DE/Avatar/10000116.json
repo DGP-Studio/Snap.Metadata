@@ -669,7 +669,7 @@
         },
         "Id": 1162301,
         "Name": "Mondomen-Segen – Bildähnliches Relais",
-        "Description": "#Wenn eine Figur in der Truppe die Reaktion „Unter Strom“ auslöst, wird diese in die Reaktion „Mond unter Strom“ umgewandelt, wobei der Basis-SCH der Reaktion „Mond unter Strom“ auf der Grundlage von Ineffas ANG erhöht wird: Für je 100 Punkte ANG wird der Basis-SCH um 0,7{NON_BREAK_SPACE}% erhöht. Auf diese Weise kann der Schaden um bis zu 14{NON_BREAK_SPACE}% erhöht werden.\n\nWenn der Neumond aufgeht, erhält man möglicherweise noch weiteren Segen ...",
+        "Description": "#Wenn eine Figur in der Truppe die Reaktion „Unter Strom“ auslöst, wird diese in die Reaktion „Mond unter Strom“ umgewandelt, wobei der Basis-SCH der Reaktion „Mond unter Strom“ auf der Grundlage von Ineffas ANG erhöht wird: Für je 100 Punkte ANG wird der Basis-SCH um 0,7{NON_BREAK_SPACE}% erhöht. Auf diese Weise kann der Schaden um bis zu 14{NON_BREAK_SPACE}% erhöht werden.\n\nErhöht zudem die Stufe vom <color=#FFD780FF>Mondomen</color> der Truppe um 1, wenn sich Ineffa in der Truppe befindet.",
         "Icon": "UI_Talent_S_Ineffa_07"
       },
       {
@@ -751,10 +751,20 @@
     "CvJapanese": "中島愛",
     "CvEnglish": "Angelina Danielle Cama",
     "CvKorean": "Sung Ye-won",
+    "CookBonus": {
+      "OriginItemId": 108856,
+      "ItemId": 108889,
+      "InputList": [
+        101264,
+        110001,
+        100062,
+        110015
+      ]
+    },
     "Fetters": [
       {
         "Title": "Hallo",
-        "Context": "Schön, dich kennenzulernen. Ich bin Ineffa, ein multifunktionaler Roboter für den Hausgebrauch. Ich bin derzeit mit den Modulen für Putzen, Kochen und emotionale Kommunikation ausgestattet. Außerdem verfüge ich über ein Kampfmodul, das nur nach dem Lesen der 11-seitigen Haftungsverzichtserklärung aktiviert werden kann. Also, wie kann ich dir heute helfen?"
+        "Context": "Schön, dich kennenzulernen. Ich bin Ineffa, ein Multifunktionsroboter für den Hausgebrauch. Ich bin derzeit mit den Modulen für Putzen, Kochen und emotionale Kommunikation ausgestattet. Außerdem verfüge ich über ein Kampfmodul, das nur nach dem Lesen der 11-seitigen Haftungsverzichtserklärung aktiviert werden kann. Also, wie kann ich dir heute helfen?"
       },
       {
         "Title": "Gespräch – Shopping",
@@ -842,7 +852,7 @@
       },
       {
         "Title": "Über Aino – Fragen",
-        "Context": "???"
+        "Context": "Eines Tages ... vielleicht, weil Aino bemerkte, dass meine Intelligenz ihre Erwartungen übertraf, konnte sie nicht anders, als mich zu fragen: „Wenn du eines Tages einen Ort findest, an den du lieber gehen möchtest – sollte ich dich dann mit einem Lächeln ziehen lassen?“ Ich bemerkte eine ungewöhnliche Gefühlsregung bei ihr und antwortete daher: „Wenn ich nicht an deiner Seite bin, wird unser Zuhause innerhalb von drei Monaten zu einer Müllhalde. Ich würde also versuchen, vorher zurück zu sein.“\nUnd erst jetzt ... verstehe ich, mit welch schwerem Herzen sie mir diese Frage gestellt hat. Sie wollte nicht, dass ich gehe."
       },
       {
         "Title": "Über Jahoda ...",
@@ -858,7 +868,7 @@
       },
       {
         "Title": "Über Lauma ...",
-        "Context": "Lauma ist die Gesandte des Mondgedichts der „Nachkommen des gefrorenen Mondes“. Die Berichte ihres Volkes deuten darauf hin, dass sie eine weise und heilige Figur ist, die in der Gemeinschaft sehr respektiert wird. Die Nachkommen des gefrorenen Mondes verehren die Mondgöttin ... Ich frage mich, ob es eine Verbindung zwischen der Mondgöttin und der Existenz des Mondrads gibt?"
+        "Context": "Lauma ist die Mondkantorin der „Nachkommen des Frostmonds“. Die Berichte ihres Volkes deuten darauf hin, dass sie eine weise und heilige Figur ist, die in der Gemeinschaft sehr respektiert wird. Die Nachkommen des Frostmonds verehren die Mondgöttin ... Ich frage mich, ob es eine Verbindung zwischen der Mondgöttin und der Existenz des Mondrads gibt?"
       },
       {
         "Title": "Über Linnea ...",
@@ -886,7 +896,7 @@
       },
       {
         "Title": "Ich will mehr über Ineffa erfahren II",
-        "Context": "„Wer ich bin?“ Ich bin ein multifunktionaler Roboter für den Hausgebrauch. Modellname: Ineffa. Allerdings bin ich derzeit das einzige fertige Produkt in dieser Reihe, sodass „Ineffa“ auch mein individueller Name ist."
+        "Context": "„Wer ich bin?“ Ich bin ein Multifunktionsroboter für den Hausgebrauch. Modellname: Ineffa. Allerdings bin ich derzeit das einzige fertige Produkt in dieser Reihe, sodass „Ineffa“ auch mein individueller Name ist."
       },
       {
         "Title": "Ich will mehr über Ineffa erfahren III",
@@ -1072,7 +1082,7 @@
       },
       {
         "Title": "Mondrad",
-        "Context": "Über die Ritualgefäße von Niflheim und die Wunschforschung\n...\n... Der Drachenknecht hat die verdächtige Probe aus den Überresten der Menschen geborgen, die die Unruhen in Ek’ Pulinik angezettelt haben. Den örtlichen Bewohnern zufolge wird die Probe von Händlern jenseits von Natlantea als „Göttliches Auge“ bezeichnet ...\n... Was die Funktionsweise betrifft, so habe ich kurz mit der Dritten darüber gesprochen. Sie stellte eine verblüffende Hypothese auf – sie glaubt, dass diese Probe in irgendeiner Weise mit den rituellen Gegenständen in Niflheim zusammenhängt ...\n... Durch bestimmte Methoden ist es mir gelungen, ein funktionierendes „Mondrad“ zu erwerben (eines der rituellen Gegenstände Niflheims – oder, genauer gesagt, ein Spielzeug, das die Verräter ihren menschlichen Anhängern gegeben haben, damit sie kommunizieren können) ... Ähnlich wie die Weisheit der Herrscher beruht das Mondrad auf einer reineren Form der Macht und nicht auf der unreinen Elementarenergie der Usurpatoren ...\n...\n... Weitere Experimente haben die Hypothese der Dritten bestätigt. Genau wie bei den Ritualgegenständen des Nordens wird dieses „Göttliche Auge“ aus der Seele geformt. Theoretisch wird (...) durch das Wünschen fixiert, wodurch (...) die Elementarkraft beschworen wird ...\nIst das der Grund, warum in letzter Zeit neben den Wünschen der Menschen auch Göttliche Augen aufgetaucht sind?\n... CL-08 Ix Ajkotz’i’j Iq’ismal Waxak Ch’ule-L\n...\n„... Da der Kern durch Phlogiston angetrieben wird, können wir dieselbe Energiequelle nutzen, um ihn zu steuern. In diesem Fall würden die Forschungen der Priesterin nahelegen, dass dieses Ding besser geeignet wäre ... Aber ...“\nIxquieh betrachtete den Edelstein in Liancas Hand und zog die Stirn leicht in Falten.\n„... Bist du sicher, dass du das für sie benutzen willst? Es gehörte einst deiner Mutter ...“\nLianca streichelte den Edelstein, als sie ihre Antwort gab.\n„... Es ist nur eines der vielen Dinge, an dem sie geforscht hat. Es ist mir nicht wichtig. Außerdem war das Wertvollste, was meine Mutter hinterlassen hat, nicht das hier, und auch nicht die Zersprungenen Ketten ...“\nDer Edelstein, der unzählige Jahre überdauert hatte, leuchtete in Liancas Hand wie das unauslöschliche Auge eines Drachens.\n„Es war ihr ‚Wunsch‘, dass ich diesen Weg gehe.“"
+        "Context": "Über die Ritualgefäße von Nephilheim und die Wunschforschung\n...\n... Der Drachenknecht hat die verdächtige Probe aus den Überresten der Menschen geborgen, die die Unruhen in Ek’ Pulinik angezettelt haben. Den örtlichen Bewohnern zufolge wird die Probe von Händlern jenseits von Natlantea als „Göttliches Auge“ bezeichnet ...\n... Was die Funktionsweise betrifft, so habe ich kurz mit der Dritten darüber gesprochen. Sie stellte eine verblüffende Hypothese auf – sie glaubt, dass diese Probe in irgendeiner Weise mit den rituellen Gegenständen in Nephilheim zusammenhängt ...\n... Durch bestimmte Methoden ist es mir gelungen, ein funktionierendes „Mondrad“ zu erwerben (eines der rituellen Gegenstände Nephilheims – oder, genauer gesagt, ein Spielzeug, das die Verräter ihren menschlichen Anhängern gegeben haben, damit sie kommunizieren können) ... Ähnlich wie die Weisheit der Herrscher beruht das Mondrad auf einer reineren Form der Macht und nicht auf der unreinen Elementarenergie der Usurpatoren ...\n...\n... Weitere Experimente haben die Hypothese der Dritten bestätigt. Genau wie bei den Ritualgegenständen des Nordens wird dieses „Göttliche Auge“ aus der Seele geformt. Theoretisch wird (...) durch das Wünschen fixiert, wodurch (...) die Elementarkraft beschworen wird ...\nIst das der Grund, warum in letzter Zeit neben den Wünschen der Menschen auch Göttliche Augen aufgetaucht sind?\n... CL-08 Ix Ajkotz’i’j Iq’ismal Waxak Ch’ule-L\n...\n„... Da der Kern durch Phlogiston angetrieben wird, können wir dieselbe Energiequelle nutzen, um ihn zu steuern. In diesem Fall würden die Forschungen der Priesterin nahelegen, dass dieses Ding besser geeignet wäre ... Aber ...“\nIxquieh betrachtete den Edelstein in Liancas Hand und zog die Stirn leicht in Falten.\n„... Bist du sicher, dass du das für sie benutzen willst? Es gehörte einst deiner Mutter ...“\nLianca streichelte den Edelstein, als sie ihre Antwort gab.\n„... Es ist nur eines der vielen Dinge, an dem sie geforscht hat. Es ist mir nicht wichtig. Außerdem war das Wertvollste, was meine Mutter hinterlassen hat, nicht das hier, und auch nicht die Zersprungenen Ketten ...“\nDer Edelstein, der unzählige Jahre überdauert hatte, leuchtete in Liancas Hand wie das unauslöschliche Auge eines Drachens.\n„Es war ihr ‚Wunsch‘, dass ich diesen Weg gehe.“"
       }
     ]
   },

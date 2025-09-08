@@ -791,7 +791,7 @@
     "Icon": "UI_RelicIcon_15028_4",
     "Descriptions": [
       "Maestria elementale +80.",
-      "#I DAN da reazioni di Fioritura, Iperfioritura e Germinazione del personaggio equipaggiato aumentano di un 40%. In più, se il personaggio innesca Fioritura, Iperfioritura o Germinazione, ottiene un ulteriore 25% di bonus per il suddetto effetto. Ogni accumulo del bonus dura 10{NON_BREAK_SPACE}s. Massimo 4 accumuli contemporaneamente. Quest'effetto può attivarsi solo una volta al secondo. Il personaggio equipaggiato può attivare l'effetto anche se non è presente sul campo."
+      "#I DAN da reazioni di Fioritura, Iperfioritura e Germinazione del personaggio equipaggiato aumentano di un 40%, inoltre i DAN della reazione di Fioritura lunare aumentano di un 10%. In più, se il personaggio innesca Fioritura, Iperfioritura o Germinazione, ottiene un ulteriore 25% di bonus per gli effetti sopracitati. Ogni accumulo dura 10{NON_BREAK_SPACE}s. Massimo 4 accumuli contemporaneamente. Quest'effetto può attivarsi solo una volta al secondo. Il personaggio equipaggiato può attivare l'effetto anche se non è presente sul campo."
     ]
   },
   {
@@ -1008,6 +1008,42 @@
     "Descriptions": [
       "Bonus DAN da Cryo +15%.",
       "#Quando l'energia elementale del personaggio è pari a zero, i DAN da attacco normale e da Tripudio elementale aumentano di un 60%. Dopo aver inflitto DAN da attacco normale, l'effetto relativo al Tripudio elementale si disattiva per 6{NON_BREAK_SPACE}s. Allo stesso modo, dopo aver inflitto DAN da Tripudio elementale, l'effetto relativo agli attacchi normali si disattiva per la stessa quantità di tempo. L'effetto può attivarsi anche se il personaggio che equipaggia il set non è in campo."
+    ]
+  },
+  {
+    "SetId": 15041,
+    "EquipAffixId": 215041,
+    "EquipAffixIds": [
+      2150410,
+      2150411
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Notte della rivelazione celeste",
+    "Icon": "UI_RelicIcon_15041_4",
+    "Descriptions": [
+      "Maestria elementale +80.",
+      "#Se il personaggio che equipaggia il set è in campo, quando i membri vicini del gruppo innescano delle reazioni lunari si ottiene l'effetto Luna splendente: Intento per 4{NON_BREAK_SPACE}s, che aumenta il tasso di CRIT di un 15%/30% quando il Presagio lunare del gruppo è Barlume nascente/Barlume ascendente. I DAN delle reazioni lunari di tutti i membri del gruppo aumentano di un 10% per ciascun tipo di effetto Luna splendente presente nel gruppo. Gli effetti di Luna splendente non sono cumulabili."
+    ]
+  },
+  {
+    "SetId": 15042,
+    "EquipAffixId": 215042,
+    "EquipAffixIds": [
+      2150420,
+      2150421
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Serenata della luna di seta",
+    "Icon": "UI_RelicIcon_15042_4",
+    "Descriptions": [
+      "Ricarica d'energia +20%.",
+      "#Quando vengono inflitti DAN elementali, si ottiene l'effetto Luna splendente: Devozione per 8{NON_BREAK_SPACE}s, che aumenta la maestria elementale di tutti i membri del gruppo di 60/120 quando il Presagio lunare del gruppo è Barlume nascente/Barlume ascendente. L'effetto si può innescare anche quando il personaggio che equipaggia il set non è in campo. I DAN delle reazioni lunari di tutti i membri del gruppo aumentano di un 10% per ciascun tipo di effetto Luna splendente presente nel gruppo. Gli effetti di Luna splendente non sono cumulabili."
     ]
   }
 ]

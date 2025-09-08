@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Electrosurge</color>",
-    "Description": "DMG <color=#f39001>reaksi Electro-Charged</color> yang diakibatkan oleh seluruh anggota party meningkat <color=#f39001>250%</color>."
+    "Description": "DMG <color=#f39001>reaksi Electro-Charged</color> yang diakibatkan oleh seluruh anggota party +<color=#f39001>250%</color>. DMG saat memicu <color=#f39001>reaksi Lunar-Charged</color> +<color=#f39001>70%</color>."
   },
   {
     "Id": 211102,
@@ -328,5 +328,45 @@
     "Id": 11160001,
     "Name": "Birgitta",
     "Description": "Sebagai asisten dan rekan Ineffa dalam pertempuran, Birgitta dapat dipanggil ke medan pertempuran dengan cara melancarkan Elemental Skill atau Elemental Burst.\nJika ada musuh di sekitar, Birgitta akan langsung mendekati satu musuh dan melancarkan serangan setruman yang mengakibatkan <color=#FFACFFFF>Electro DMG Area</color> setiap 2 detik.\nIneffa sendiri hanya bisa memanggil satu Birgitta dalam waktu bersamaan.\n\nSelain itu, sepertinya akan ada cara khusus untuk mengubah penampilan Birgitta di Nod-Krai ...."
+  },
+  {
+    "Id": 11190001,
+    "Name": "Frostgrove Sanctuary",
+    "Description": "Formasi sihir yang menjaga para Pelantun Rembulan dan dapat dipanggil dengan melancarkan <color=#FFD780FF>Runo: Dawnless Rest of Karsikko</color>.\nFrostgrove Sanctuary akan mengikuti Karakter aktif dan mengakibatkan <color=#99FF88FF>Dendro DMG Area</color> kepada musuh di dalam formasi sihir satu kali setiap 2 detik. DMG ini dianggap sebagai DMG Elemental Skill."
+  },
+  {
+    "Id": 11190002,
+    "Name": "Moon Song",
+    "Description": "Melodi yang digunakan untuk menenun himne-himne doa. Moon Song dapat dikonversi menjadi Pale Hymn yang akan meningkatkan DMG reaksi Bloom, Hyperbloom, Burgeon, dan Lunar-Bloom dengan cara melancarkan Elemental Burst atau dalam waktu singkat setelah melancarkan Elemental Burst.\nSaat Lauma mengonsumsi Verdant Dew untuk melancarkan Elemental Skill <color=#FFD780FF>Runo: Dawnless Rest of Karsikko</color> dalam Mode Tahan, maka setiap Verdant Dew yang dikonsumsi akan memberikan satu lapis Moon Song kepada Lauma."
+  },
+  {
+    "Id": 11190003,
+    "Name": "Pale Hymn",
+    "Description": "Himne yang diturunkan dari satu generasi Pelantun Rembulan ke generasi berikutnya. Himne ini dapat meningkatkan DMG yang diakibatkan oleh reaksi Bloom, Hyperbloom, Burgeon, dan Lunar-Bloom.\n\nLauma bisa memperoleh lapisan Pale Hymn dengan cara berikut:\n·Saat melancarkan Elemental Burst <color=#FFD780FF>Runo: All Hearts Become the Beating Moon</color>.\n·Saat mengonsumsi efek Moon Song dengan melancarkan Elemental Burst <color=#FFD780FF>Runo: All Hearts Become the Beating Moon</color>.\n·Saat memicu efek Frostgrove Sanctuary dari Konstelasi <color=#FFD780FF>\"I Offer Blood and Tears to the Moonlight\"</color>.\n\nSaat Karakter dalam party mengakibatkan DMG reaksi Bloom, Hyperbloom, Burgeon, atau Lunar-Bloom, Lauma akan mengonsumsi 1 lapis Pale Hymn untuk meningkatkan DMG yang diakibatkan. Jumlah peningkatan DMG ini didasarkan pada Elemental Mastery Lauma. Saat DMG yang disebutkan di atas mengenai beberapa musuh secara bersamaan, jumlah lapisan Pale Hymn yang dikonsumsi akan didasarkan pada jumlah musuh yang terkena serangan.\nDurasi setiap lapis Pale Hymn akan dihitung secara terpisah."
+  },
+  {
+    "Id": 11190004,
+    "Name": "Dusktide Vigil",
+    "Description": "DMG reaksi Bloom, Hyperbloom, dan Burgeon yang dipicu oleh anggota party dapat mengakibatkan CRIT, dengan nilai CRIT Rate tetap sebesar {PARAM#P1192101|1S100}%, dan CRIT DMG tetap sebesar {PARAM#P1192101|2S100}%. CRIT Rate dari efek ini dapat ditumpuk dengan efek serupa lainnya yang membuat Reaksi Elemental dapat mengakibatkan CRIT juga."
+  },
+  {
+    "Id": 11190005,
+    "Name": "Moonlight Prayer",
+    "Description": "CRIT Rate reaksi Lunar-Bloom yang diakibatkan oleh anggota party +{PARAM#P1192101|3S100}%, CRIT DMG +{PARAM#P1192101|4S100}%."
+  },
+  {
+    "Id": 11190007,
+    "Name": "Bertumbuh",
+    "Description": "Efek peningkatan DMG spesial yang dihitung terpisah dari efek peningkatan DMG lainnya."
+  },
+  {
+    "Id": 11190008,
+    "Name": "Verdant Dew",
+    "Description": "Saat Karakter di dalam party memicu reaksi Lunar-Bloom, akan memberikan sumber daya bagi party.\nSelama 2,5 detik setelah memicu reaksi Lunar-Bloom, party akan mendapatkan 1 Verdant Dew setiap 2,5 detiknya. Party dapat memiliki maksimum 3 Verdant Dew. Jika party memicu reaksi Verdant Dew sekali lagi selama durasi di atas berlangsung, maka durasi efek ini akan diperbarui."
+  },
+  {
+    "Id": 11200001,
+    "Name": "Thunderous Symphony",
+    "Description": "Elemental Burst khusus yang dapat dilancarkan dengan mengonsumsi lebih sedikit Energy. Flins mengakibatkan <color=#FFACFFFF>Electro DMG Area</color> yang dianggap sebagai DMG reaksi Lunar-Charged.\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: Jika ada awan petir di sekitar, akan mengakibatkan satu kali <color=#FFACFFFF>Electro DMG Area</color> tambahan yang dianggap sebagai DMG reaksi Lunar-Charged."
   }
 ]

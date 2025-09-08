@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Électro-impulsion</color>",
-    "Description": "Les DGT infligés par les <color=#f39001>réactions d'Électrocution</color> de tous les personnages de l'équipe augmentent de <color=#f39001>250 %</color>."
+    "Description": "Les DGT infligés par les <color=#f39001>réactions d'Électrocution</color> de tous les personnages de l'équipe augmentent de <color=#f39001>250 %</color>, tandis que les DGT infligés par leurs <color=#f39001>réactions de Sélénofleurissement</color> augmentent de <color=#f39001>70 %</color>."
   },
   {
     "Id": 211102,
@@ -328,5 +328,45 @@
     "Id": 11160001,
     "Name": "Birgitta",
     "Description": "Assistante d'Ineffa au combat, elle peut être invoquée sur le champ de bataille via une compétence élémentaire ou un déchaînement élémentaire.\nSi des ennemis sont à proximité, Birgitta se rapproche rapidement de l'un d'entre eux toutes les 2 s afin de déclencher une décharge électrique infligeant des <color=#FFACFFFF>DGT Électro de zone</color>.\nIl ne peut exister qu'une seule Birgitta créée par Ineffa à la fois.\n\nDe plus, il semble que vous pourrez changer l'apparence de Birgitta par certains moyens dans Nod-Krai..."
+  },
+  {
+    "Id": 11190001,
+    "Name": "Sanctuaire du givrebois",
+    "Description": "Cette zone magique protège les Émissaires de chantelune et peut être invoquée grâce à la compétence élémentaire <color=#FFD780FF>Runo : Repos sans aube de karsikko</color>.\nLe sanctuaire du givrebois suit le personnage déployé et inflige une fois des <color=#99FF88FF>DGT Dendro de zone</color> aux ennemis en son sein toutes les 2 s, ces DGT étant considérés comme des DGT de compétence élémentaire."
+  },
+  {
+    "Id": 11190002,
+    "Name": "Chant lunaire",
+    "Description": "Cette mélodie, utilisée pour tisser des hymnes, peut, lors de l'utilisation d'un déchaînement élémentaire ou pendant une courte période après en avoir utilisé un, être convertie en hymne pâle augmentant les DGT des réactions de Fleurissement, d'Exubérance, de Bourgeonnement et de Sélénofleurissement.\nLorsque Lauma consomme de la rosée verdoyante pour déclencher sa compétence élémentaire <color=#FFD780FF>Runo : Repos sans aube de karsikko</color> avec un appui long, chaque rosée verdoyante consommée lui accorde un cumul de chant lunaire."
+  },
+  {
+    "Id": 11190003,
+    "Name": "Hymne pâle",
+    "Description": "Cet hymne, transmis de génération en génération par les Émissaire de chantelune, augmente les DGT infligés par les réactions de Fleurissement, d'Exubérance, de Bourgeonnement et de Sélénofleurissement.\n\nLauma peut obtenir de l'hymne pâle des manières suivantes :\n· En utilisant son déchaînement élémentaire <color=#FFD780FF>Runo : Cœurs devenant la lune battante</color>.\n· En consommant des cumuls de chant lunaire lors de son déchaînement élémentaire <color=#FFD780FF>Runo : Cœurs devenant la lune battante</color>.\n· En déclenchant un sanctuaire du givrebois avec sa constellation <color=#FFD780FF>« À la lune, j'offre mon sang et mes émois »</color>.\n\nLorsqu'un personnage de l'équipe inflige des DGT avec une réaction de Fleurissement, d'Exubérance, de Bourgeonnement ou de Sélénofleurissement, un cumul d'hymne pâle est consommé pour augmenter les DGT infligés selon la maîtrise élémentaire de Lauma. Un nombre de cumuls égal au nombre d'ennemis touchés sera consommé si ces DGT touchent plusieurs ennemis en même temps.\nLa durée de chaque cumul d'hymne pâle est calculée de façon indépendante."
+  },
+  {
+    "Id": 11190004,
+    "Name": "Vigile crépusculaire",
+    "Description": "Les DGT infligés par les réactions de Fleurissement, d'Exubérance et de Bourgeonnement des personnages de l'équipe peuvent déclencher des coups CRIT dont le taux CRIT est fixé à {PARAM#P1192101|1S100} % et les DGT CRIT à {PARAM#P1192101|2S100} %. Le taux CRIT accordé par cet effet peut se cumuler avec le taux CRIT des effets similaires qui permettent aux réactions élémentaires de déclencher des coups CRIT."
+  },
+  {
+    "Id": 11190005,
+    "Name": "Prière au clair de lune",
+    "Description": "Lorsqu'un personnage de l'équipe inflige des DGT avec une réaction de Sélénofleurissement, le taux CRIT augmente de {PARAM#P1192101|3S100} % et les DGT CRIT de {PARAM#P1192101|4S100} %."
+  },
+  {
+    "Id": 11190007,
+    "Name": "Élévation",
+    "Description": "Cet effet spécial d'augmentation des DGT est calculée indépendamment des autres effets d'augmentation des DGT."
+  },
+  {
+    "Id": 11190008,
+    "Name": "Rosée verdoyante",
+    "Description": "Lorsqu'un personnage de l'équipe a déclenché une réaction de Sélénofleurissement, toute l'équipe obtient des ressources.\nDéclencher une réaction de Sélénofleurissement accorde 1 rosée verdoyante à l'équipe toutes les 2,5 s pendant 2,5 s, l'équipe pouvant avoir un maximum de 3 rosées verdoyantes. Déclencher à nouveau une réaction de Sélénofleurissement pendant cette période réinitialise la durée de l'effet."
+  },
+  {
+    "Id": 11200001,
+    "Name": "Symphonie tonitruante",
+    "Description": "Flins peut consommer moins d'énergie élémentaire pour déclencher un déchaînement élémentaire spécial, infligeant 1 fois des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT de réaction de Sélénocution.\n<color=#FFD780FF>Signelune « Lueur ascendante »</color> : inflige 1 fois de plus des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT de réaction de Sélénocution si un ou plusieurs nuages orageux sont à proximité."
   }
 ]

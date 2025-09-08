@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Xung Điện</color>",
-    "Description": "Tất cả nhân vật trong đội tăng <color=#f39001>250%</color> sát thương kích hoạt <color=#f39001>phản ứng Điện Cảm</color>"
+    "Description": "Tất cả nhân vật trong đội tăng <color=#f39001>250%</color> sát thương kích hoạt <color=#f39001>phản ứng Điện Cảm</color>, tăng <color=#f39001>70%</color> sát thương khi kích hoạt <color=#f39001>phản ứng Nguyệt-Điện Cảm</color>"
   },
   {
     "Id": 211102,
@@ -328,5 +328,45 @@
     "Id": 11160001,
     "Name": "Birgitta",
     "Description": "Trợ thủ đáng tin cậy của Ineffa, có thể dùng Kỹ Năng Nguyên Tố hoặc Kỹ Năng Nộ để triệu hồi.\nNếu xung quanh có kẻ địch thì mỗi 2s Birgitta sẽ di chuyển nhanh đến gần một kẻ địch và Phóng Điện, gây <color=#FFACFFFF>Sát Thương Phạm Vi Nguyên Tố Lôi</color>.\nCùng lúc chỉ có thể tồn tại một Birgitta do Ineffa tạo ra.\n\nNgoài ra, ở Nod-Krai, dường như có thể thay đổi ngoại hình của Birgitta bằng cách nào đó..."
+  },
+  {
+    "Id": 11190001,
+    "Name": "Thánh Vực Rừng Sương",
+    "Description": "Pháp trận dùng để bảo vệ Vịnh Nguyệt Sứ, được triệu hồi bằng cách thi triển Kỹ Năng Nguyên Tố <color=#FFD780FF>Runo - Karsikko Yên Giấc</color>.\nThánh Vực Rừng Sương sẽ đi theo nhân vật trong trận hiện tại, mỗi 2s sẽ gây cho kẻ địch trong đó một lần <color=#99FF88FF>Sát Thương Phạm Vi Nguyên Tố Thảo</color>, sát thương này được xem là sát thương Kỹ Năng Nguyên Tố."
+  },
+  {
+    "Id": 11190002,
+    "Name": "Nguyệt Vịnh",
+    "Description": "Dùng để dệt ra khúc nhạc cầu nguyện, có thể chuyển hóa thành Thánh Ca Sắc Xanh khi thi triển Kỹ Năng Nộ hoặc trong một khoảng thời gian sau khi thi triển Kỹ Năng Nộ để tăng sát thương phản ứng Sum Suê, Nở Rộ, Bung Tỏa, Nguyệt-Sum Suê.\nKhi Lauma tiêu hao Sương Xanh để Nhấn Giữ thi triển Kỹ Năng Nguyên Tố <color=#FFD780FF>Runo - Karsikko Yên Giấc</color>, sẽ căn cứ vào số lượng tiêu hao, mỗi giọt Sương Xanh sẽ cung cấp 1 tầng Nguyệt Vịnh cho Lauma."
+  },
+  {
+    "Id": 11190003,
+    "Name": "Thánh Ca Sắc Xanh",
+    "Description": "Lời cầu nguyện được lưu truyền qua nhiều thế hệ Vịnh Nguyệt Sứ, có thể tăng sát thương gây ra bởi phản ứng Sum Suê, Nở Rộ, Bung Tỏa, Nguyệt-Sum Suê.\n\nLauma có thể nhận Thánh Ca Sắc Xanh bằng những cách sau:\n·Khi thi triển Kỹ Năng Nộ <color=#FFD780FF>Runo - Vạn Tâm Vì Ánh Trăng</color>.\n·Khi kích hoạt hiệu quả tiêu hao Nguyệt Vịnh trong Kỹ Năng Nộ <color=#FFD780FF>Runo - Vạn Tâm Vì Ánh Trăng</color>.\n·Kích hoạt hiệu quả Thánh Vực Rừng Sương trong Cung Mệnh <color=#FFD780FF>\"Nguyện Dâng Máu Lệ Tặng Ánh Trăng\"</color>.\n\nNhân vật trong đội gần đó khi gây sát thương phản ứng Sum Suê, Nở Rộ, Bung Tỏa, Nguyệt-Sum Suê sẽ tiêu hao một tầng Thánh Ca Sắc Xanh để tăng sát thương gây ra, mức tăng căn cứ vào Tinh Thông Nguyên Tố của Lauma. Khi sát thương kể trên đồng thời đánh trúng nhiều kẻ địch, sẽ căn cứ vào số lượng kẻ địch trúng đòn để tiêu hao số tầng Thánh Ca Sắc Xanh.\nMỗi tầng Thánh Ca Sắc Xanh sẽ tính thời gian duy trì riêng."
+  },
+  {
+    "Id": 11190004,
+    "Name": "Tiếng Hát Đêm Khuya",
+    "Description": "Sát thương phản ứng Sum Suê, Nở Rộ, Bung Tỏa do nhân vật trong đội kích hoạt có thể gây Bạo Kích, Tỷ Lệ Bạo Kích cố định là {PARAM#P1192101|1S100}%, Sát Thương Bạo Kích cố định là {PARAM#P1192101|2S100}%. Tỷ Lệ Bạo Kích do hiệu quả này cung cấp có thể cộng dồn với Tỷ Lệ Bạo Kích từ hiệu quả tương đồng gây Bạo Kích phản ứng nguyên tố tương ứng."
+  },
+  {
+    "Id": 11190005,
+    "Name": "Thánh Ca Ánh Trăng",
+    "Description": "Sát thương phản ứng Nguyệt-Sum Suê mà nhân vật trong đội gây ra sẽ tăng {PARAM#P1192101|3S100}% Tỷ Lệ Bạo Kích, tăng {PARAM#P1192101|4S100}% Sát Thương Bạo Kích."
+  },
+  {
+    "Id": 11190007,
+    "Name": "Thăng Tiến",
+    "Description": "Hiệu quả tăng sát thương đặc biệt, tính độc lập với hiệu quả tăng sát thương khác."
+  },
+  {
+    "Id": 11190008,
+    "Name": "Sương Xanh",
+    "Description": "Loại tài nguyên cung cấp cho đội sau khi nhân vật trong đội kích hoạt phản ứng Nguyệt-Sum Suê.\nTrong 2.5s sau khi kích hoạt phản ứng Nguyệt-Sum Suê, mỗi 2.5s sẽ cung cấp một giọt Sương Xanh cho đội, giới hạn của Sương Xanh là 3 giọt. Trong thời gian duy trì, khi kích hoạt phản ứng Nguyệt-Sum Suê lần nữa sẽ làm mới thời gian duy trì hiệu quả trên."
+  },
+  {
+    "Id": 11200001,
+    "Name": "Giao Hưởng Sấm Sét",
+    "Description": "Kỹ Năng Nộ đặc biệt có thể thi triển với ít Năng Lượng Nguyên Tố hơn. Flins gây một lần <color=#FFACFFFF>Sát Thương Phạm Vi Nguyên Tố Lôi</color> được tính là sát thương phản ứng Nguyệt-Điện Cảm.\n<color=#FFD780FF>Nguyệt Triệu - Rực Sáng</color>: Nếu gần đó có Mây Sấm Sét, sẽ gây thêm một lần <color=#FFACFFFF>Sát Thương Phạm Vi Nguyên Tố Lôi</color> được tính là sát thương phản ứng Nguyệt-Điện Cảm."
   }
 ]

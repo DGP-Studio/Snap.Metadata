@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Torrente Elétrica</color>",
-    "Description": "Dano causado por <color=#f39001>reações Eletricamente Carregado</color> causada pelos membros da equipe é aumentado em <color=#f39001>250%</color>"
+    "Description": "Dano causado por <color=#f39001>reações de Eletricamente Carregado</color> desencadeadas por membros da equipe é aumentado em <color=#f39001>250%</color>, e o Dano de <color=#f39001>Carga Lunar</color> dos membros da equipe é aumentado em <color=#f39001>70%</color>"
   },
   {
     "Id": 211102,
@@ -257,7 +257,7 @@
   {
     "Id": 211903,
     "Name": "<color=#19c78e>Névoa Gélida</color>",
-    "Description": "Enquanto <color=#f39001>Bênção do Vento: Cryo</color> estiver ativa, o personagem ativo lançará Névoa Gélida em sua posição ao correr, puxando os inimigos e objetos próximos. A cada segundo, a Névoa Gélida causará <color=#2bb7d5>Dano Anemo</color> baseado no número de acúmulos de <color=#f39001>Bênção do Vento: Cryo</color>"
+    "Description": "Enquanto <color=#f39001>Bênção do Vento: Cryo</color> estiver ativa, o personagem ativo lançará Névoa Gélida em sua posição ao correr, puxando os inimigos e objetos próximos. A cada segundo, a Névoa Gélida causará <color=#f39001>Dano Anemo</color> baseado no número de acúmulos de <color=#19c78e>Bênção do Vento: Cryo</color>"
   },
   {
     "Id": 11120001,
@@ -328,5 +328,45 @@
     "Id": 11160001,
     "Name": "Birgitta",
     "Description": "Luta ao lado de Ineffa, pode ser invocada para o campo de batalha através da Habilidade Elemental ou do Supremo.\nSe houver inimigos por perto, Birgitta se moverá rapidamente para perto de um deles a cada 2s, e realizará um ataque elétrico que causa <color=#FFACFFFF>Dano Electro em AdE</color>.\nÉ possível existir uma Birgitta criada por Ineffa simultaneamente.\nAlém disso, em Nod-Krai, parece ser possível mudar a aparência de Birgitta de alguma forma..."
+  },
+  {
+    "Id": 11190001,
+    "Name": "Santuário da Floresta Congelada",
+    "Description": "Uma formação mágica que protege os Emissários da Canção Lunar, e que é invocada pela Habilidade Elemental <color=#FFD780FF>Runo: Descanso da Noite Eterna</color>.\nSantuário da Floresta Congelada acompanha o personagem ativo, e causa <color=#99FF88FF>Dano Dendro em AdE</color> uma vez contra inimigos que estejam na formação a cada 2s. Esse Dano é considerado Dano de Habilidade Elemental."
+  },
+  {
+    "Id": 11190002,
+    "Name": "Canção Lunar",
+    "Description": "Uma melodia usada para compor hinos. Pode ser convertida em uma Canção Azul para aumentar o Dano de Florescimento, Superflorescimento, Germinação e Florescimento Lunar ao lançar o Supremo ou depois de um certo tempo após lançar o Supremo.\nQuando Lauma consome o Orvalho Verdejantes ao manter pressionado para lançar a Habilidade Elemental <color=#FFD780FF>Runo: Descanso da Noite Eterna</color>, obterá um acúmulo de Canção Lunar para cada acúmulo de Orvalho Verdejante consumido."
+  },
+  {
+    "Id": 11190003,
+    "Name": "Canção Azul",
+    "Description": "Recita o canto da Emissária da Canção Lunar, podendo aumentar o Dano causado por Florescimento, Superflorescimento, Germinação e Florescimento Lunar.\n\nLauma pode obter Canção Azul através das seguintes formas:\n· Ao lançar o Supremo <color=#FFD780FF>Runo: Todos os Corações se Tornam a Lua</color>.\n· Ao desencadear o efeito Canção Lunar do Supremo <color=#FFD780FF>Runo: Todos os Corações se Tornam a Lua</color>.\nAo desencadear o efeito Santuário da Floresta Congelada da Constelação <color=#FFD780FF>\"Desejo Dar o Sangue e as Lágrimas à Lua\"</color>.\n\nQuando um personagem da equipe causa Dano de Florescimento, Superflorescimento, Germinação e Florescimento Lunar, consome 1 acúmulo de Canção Azul para aumentar o Dano causado. O aumento de Dano é baseado na Proficiência Elemental de Lauma. Quando o Dano acima atinge muitos inimigos simultaneamente, consumirá a quantidade de acúmulos de Canção Azul de acordo com a quantidade de inimigos atingidos.\nCada acúmulo de Canção Azul tem sua duração contada separadamente."
+  },
+  {
+    "Id": 11190004,
+    "Name": "Canção Noturna",
+    "Description": "O Dano de Florescimento, Superflorescimento e Germinação causado por um personagem pode causar um Acerto CRIT, com Taxa CRIT fixada em {PARAM#P1192101|1S100}% e o Dano CRIT fixado em {PARAM#P1192101|2S100}%. A Taxa CRIT fornecida por esse efeito pode acumular com a Taxa CRIT de efeitos similares que permitem essas reações elementais a causarem Acertos CRIT."
+  },
+  {
+    "Id": 11190005,
+    "Name": "Elegia da Lua",
+    "Description": "Aumenta a Taxa CRIT em {PARAM#P1192101|3S100}% e o Dano CRIT em {PARAM#P1192101|4S100}% para os personagens que causam Dano de Florescimento Lunar."
+  },
+  {
+    "Id": 11190007,
+    "Name": "Elevação",
+    "Description": "O efeito de aumento de Dano especial e os outros efeitos de aumento de Dano têm suas durações contadas separadamente."
+  },
+  {
+    "Id": 11190008,
+    "Name": "Orvalho Verdejante",
+    "Description": "Quando os membros da equipe desencadeiam Florescimento Lunar, fornece recursos para a equipe.\nNos 2.5s após desencadear Florescimento Lunar, a cada 2.5s fornece um Orvalho Verdejante para a equipe, até o máximo de 3. Nesse período, desencadear Florescimento Lunar novamente redefinirá a duração desse efeito."
+  },
+  {
+    "Id": 11200001,
+    "Name": "Sinfonia Trovejante",
+    "Description": "Consome menos Energia para lançar o Supremo Especial. Flins causa <color=#FFACFFFF>Dano Electro em AdE</color> que é considerado Dano de Carga Lunar uma vez.\n<color=#FFD780FF>Presságio Lunar: Reluzir Cheio</color>: se estiver perto de uma Nuvem Trovejante, causa mais uma instância de <color=#FFACFFFF>Dano Electro em AdE</color> que é considerado Dano de Carga Lunar."
   }
 ]

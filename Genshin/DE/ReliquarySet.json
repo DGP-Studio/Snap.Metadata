@@ -791,7 +791,7 @@
     "Icon": "UI_RelicIcon_15028_4",
     "Descriptions": [
       "Erhöht Elementarkunde um 80 Punkte.",
-      "Erhöht den durch die damit ausgerüstete Figur mit den Reaktionen Sprießen, Supraspross und Flammenspross verursachten Schaden um 40 %. Zusätzlich wird dieser Bonus nach Auslösen der Reaktionen Sprießen, Supraspross oder Flammenspross der damit ausgerüsteten Figur um 25 % erhöht, hält 10 s, 4-fach stapelbar, 1 s Abklingzeit. Dieser Effekt kann auch dann ausgelöst werden, wenn sich die damit ausgerüstete Figur inaktiv in der Truppe befindet."
+      "#Erhöht den durch den Träger mit den Reaktionen „Sprießen“, „Supraspross“ und „Flammenspross“ verursachten Schaden um 40{NON_BREAK_SPACE}% und den durch den Träger mit der Reaktion „Mondspross“ verursachten Schaden um 10{NON_BREAK_SPACE}%. Erhöht den Bonus von obigem Effekt zusätzlich um 25{NON_BREAK_SPACE}%, nachdem der Träger die Reaktionen „Sprießen“, „Supraspross“, „Flammenspross“ oder „Mondspross“ ausgelöst hat, hält 10{NON_BREAK_SPACE}s, 4-fach stapelbar, 1{NON_BREAK_SPACE}s Abklingzeit. Dieser Effekt kann auch dann ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet."
     ]
   },
   {
@@ -1008,6 +1008,42 @@
     "Descriptions": [
       "#Erhöht den Kryo-Schaden um 15{NON_BREAK_SPACE}%.",
       "#Erhöht den mit Standardangriffen verursachten Schaden um 60{NON_BREAK_SPACE}% und den mit Spezialfähigkeiten verursachten Schaden um 60{NON_BREAK_SPACE}%, wenn die Elementarenergie des Trägers 0 Punkte beträgt. Macht den Schadenbonus für Spezialfähigkeiten 6{NON_BREAK_SPACE}s lang unwirksam, wenn der Träger mit seinem Standardangriff Schaden verursacht. Macht den Schadensbonus für Standardangriffe 6{NON_BREAK_SPACE}s lang unwirksam, wenn der Träger mit seiner Spezialfähigkeit Schaden verursacht. Kann auch ausgelöst werden, wenn sich die Figur inaktiv in der Truppe befindet."
+    ]
+  },
+  {
+    "SetId": 15041,
+    "EquipAffixId": 215041,
+    "EquipAffixIds": [
+      2150410,
+      2150411
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Nacht der himmlischen Enthüllung",
+    "Icon": "UI_RelicIcon_15041_4",
+    "Descriptions": [
+      "Erhöht Elementarkunde um 80 Punkte.",
+      "#Verleiht beim Auslösen der Mondleuchten-Reaktionen durch ein Truppenmitglied in der Nähe, wenn sich der Träger auf dem Feld befindet, 4{NON_BREAK_SPACE}s lang den Effekt „Helles Mondlicht – Gedankensammelsurium“: Erhöht, wenn das Mondomen der Truppe „Anfänglicher Glanz“ / „Reifer Glanz“ ist, die KT um 15{NON_BREAK_SPACE}% / 30{NON_BREAK_SPACE}%. Erhöht für jeden unterschiedlichen Effekt des „Hellen Mondlichts“ der Truppenmitglieder den Schaden der von allen Truppenmitgliedern ausgelösten Mondleuchten-Reaktionen um 10{NON_BREAK_SPACE}%. Der durch „Helles Mondlicht“ ausgelöste Effekt ist nicht stapelbar."
+    ]
+  },
+  {
+    "SetId": 15042,
+    "EquipAffixId": 215042,
+    "EquipAffixIds": [
+      2150420,
+      2150421
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Serenade des seidenen Mondes",
+    "Icon": "UI_RelicIcon_15042_4",
+    "Descriptions": [
+      "#Erhöht die Aufladerate um 20{NON_BREAK_SPACE}%.",
+      "#Verleiht beim Verursachen von Elementar-Schaden 8{NON_BREAK_SPACE}s lang den Effekt „Helles Mondlicht – Hohe Überzeugung“: Erhöht, wenn das Mondomen der Truppe „Anfänglicher Glanz“ / „Reifer Glanz“ ist, die Elementarkunde aller Figuren in der Truppe um 60/120 Punkte. Dieser Effekt kann auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet. Erhöht für jeden unterschiedlichen Effekt des „Hellen Mondlichts“ der Truppenmitglieder den Schaden der von allen Truppenmitgliedern ausgelösten Mondleuchten-Reaktionen um 10{NON_BREAK_SPACE}%. Der durch „Helles Mondlicht“ ausgelöste Effekt ist nicht stapelbar."
     ]
   }
 ]

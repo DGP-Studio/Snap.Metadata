@@ -779,7 +779,7 @@
       {
         "Id": 732,
         "Name": "Radice della rettitudine",
-        "Description": "#Gli avversari marchiati con i <color=#FFD780FF>Semi di Skandha</color> applicati da Nahida subiscono gli effetti seguenti:\n· i DAN delle reazioni di Ustione, Fioritura, Iperfioritura e Germinazione possono infliggere colpi CRIT. Il tasso di CRIT e i DAN da CRIT sono fissi, rispettivamente a un 20% e a un 100%;\n· entro 8{NON_BREAK_SPACE}s dall'attivazione dell'effetto di Vivificazione, Accentuazione e Propagazione, la DIF si riduce di un 30%.",
+        "Description": "#Gli avversari marchiati con i <color=#FFD780FF>Semi di Skandha</color> applicati da Nahida subiscono gli effetti seguenti:\n· i DAN delle reazioni di Ustione, Fioritura, Iperfioritura e Germinazione possono infliggere colpi CRIT. Il tasso di CRIT e i DAN da CRIT sono fissi, rispettivamente a un 20% e a un 100%. Il tasso di CRIT di quest'effetto si può accumulare con il tasso di CRIT ottenuto da effetti simili che permettono a queste reazioni elementali di innescare colpi CRIT;\n· entro 8{NON_BREAK_SPACE}s dall'attivazione dell'effetto di Vivificazione, Accentuazione o Propagazione, la DIF si riduce di un 30%;\n· aumenta il tasso di CRIT e i DAN da CRIT della reazione di Fioritura lunare rispettivamente di un 10% e di un 20%.",
         "Icon": "UI_Talent_S_Nahida_02"
       },
       {
@@ -1204,5 +1204,11 @@
     "Description": "Stile per la carta giocatore.\nLa luna crescente ammira il sole, perché la sua luce può irradiare la terra intera. D'altro canto, il sole calante invidia la luna, dato che questa può essere accompagnata dai sogni più dolci.",
     "Icon": "UI_NameCardIcon_Nahida",
     "PicturePrefix": "UI_NameCardPic_Nahida"
+  },
+  "TraceEffect": {
+    "Id": 215015,
+    "Name": "Eco: Fisica della purezza",
+    "Description": "L'Eco immaginario di Nahida. \"Conoscenza condivisa\".",
+    "Icon": "UI_TraceEffectIcon_Nahida"
   }
 }

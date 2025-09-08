@@ -791,7 +791,7 @@
     "Icon": "UI_RelicIcon_15028_4",
     "Descriptions": [
       "Augmente la maîtrise élémentaire de 80 pts.",
-      "Augmente les DGT infligés par les réactions de Fleurissement, d'Exubérance et de Bourgeonnement du personnage équipé de l'artéfact de 40 %. De plus, lorsque le personnage équipé de l'artéfact a déclenché une réaction de Fleurissement, d'Exubérance ou de Bourgeonnement, le bonus mentionné précédemment augmente de 25 % pendant 10 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les secondes. Cet effet peut être déclenché même si le personnage équipé de l'artéfact fait partie de l'équipe mais n'est pas déployé."
+      "Augmente les DGT infligés par les réactions de Fleurissement, d'Exubérance et de Bourgeonnement du personnage équipé de l'artéfact de 40 % et les DGT de ses réactions de Sélénofleurissement de 10 %. De plus, lorsque le personnage équipé de l'artéfact a déclenché une réaction de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, le bonus mentionné précédemment augmente de 25 % pendant 10 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les secondes. Cet effet peut être déclenché même si le personnage équipé de l'artéfact fait partie de l'équipe mais n'est pas déployé."
     ]
   },
   {
@@ -1008,6 +1008,42 @@
     "Descriptions": [
       "Confère un bonus de DGT Cryo de 15 %.",
       "Lorsque le personnage équipé de l'artéfact a 0 pt d'énergie élémentaire, les DGT infligés par les attaques normales et les déchaînements élémentaires augmentent de 60 %. Le bonus ainsi accordé aux déchaînements élémentaires s'arrête pendant 6 s après que le personnage équipé de l'artéfact inflige des DGT grâce à une attaque normale. De même, le bonus ainsi accordé aux attaques normales s'arrête pendant 6 s après que le personnage équipé de l'artéfact inflige des DGT grâce à un déchaînement élémentaire. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+    ]
+  },
+  {
+    "SetId": 15041,
+    "EquipAffixId": 215041,
+    "EquipAffixIds": [
+      2150410,
+      2150411
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Nuit de la révélation céleste",
+    "Icon": "UI_RelicIcon_15041_4",
+    "Descriptions": [
+      "Augmente la maîtrise élémentaire de 80 pts.",
+      "Lorsqu'un personnage de l'équipe à proximité déclenche une réaction sélène alors que le personnage équipé de l'artéfact est sur le terrain, ce dernier obtient l'effet Lune étincelante « Intention » pendant 4 s : augmente le taux CRIT de 15 % ou de 30 % lorsque la signelune de l'équipe est respectivement de type Lueur naissante ou ascendante. De plus, les DGT infligés par les réactions sélènes déclenchées par tous les personnages de l'équipe augmentent de 10 % pour chaque lune étincelante de type différent des personnages de l'équipe. Les bonus accordés par l'effet Lune étincelante ne se cumulent pas."
+    ]
+  },
+  {
+    "SetId": 15042,
+    "EquipAffixId": 215042,
+    "EquipAffixIds": [
+      2150420,
+      2150421
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Sérénade de la lune soyeuse",
+    "Icon": "UI_RelicIcon_15042_4",
+    "Descriptions": [
+      "Augmente la recharge d'énergie de 20 %.",
+      "Infliger des DGT élémentaires accorde l'effet Lune étincelante « Dévotion » pendant 8 s : augmente la maîtrise élémentaire de tous les personnages de l'équipe de 60 pts ou de 120 pts lorsque la signelune de l'équipe est respectivement de type Lueur naissante ou ascendante. L'effet ci-dessus peut être déclenché même si le personnage équipé de l'artéfact n'est pas déployé. De plus, les DGT infligés par les réactions sélènes déclenchées par tous les personnages de l'équipe augmentent de 10 % pour chaque lune étincelante de type différent des personnages de l'équipe. Les bonus accordés par l'effet Lune étincelante ne se cumulent pas."
     ]
   }
 ]

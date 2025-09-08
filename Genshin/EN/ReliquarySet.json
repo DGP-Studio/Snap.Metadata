@@ -791,7 +791,7 @@
     "Icon": "UI_RelicIcon_15028_4",
     "Descriptions": [
       "Increases Elemental Mastery by 80.",
-      "The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%. Additionally, after the equipping character triggers Bloom, Hyperbloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field."
+      "The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%, and their Lunar-Bloom reaction DMG is increased by 10%. Additionally, after the equipping character triggers Bloom, Hyperbloom, Lunar-Bloom, or Burgeon, they will gain another 25% bonus to the effects mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field."
     ]
   },
   {
@@ -1008,6 +1008,42 @@
     "Descriptions": [
       "Cryo DMG Bonus +15%",
       "When the equipping character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%. After the equipping character deals Normal Attack DMG, the aforementioned Elemental Burst effect will stop applying for 6s. After the equipping character deals Elemental Burst DMG, the aforementioned Normal Attack effect will stop applying for 6s. This effect can trigger even if the equipping character is off the field."
+    ]
+  },
+  {
+    "SetId": 15041,
+    "EquipAffixId": 215041,
+    "EquipAffixIds": [
+      2150410,
+      2150411
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Night of the Sky's Unveiling",
+    "Icon": "UI_RelicIcon_15041_4",
+    "Descriptions": [
+      "Increases Elemental Mastery by 80.",
+      "When nearby party members trigger Lunar Reactions, if the equipping character is on the field, gain the Gleaming Moon: Intent effect for 4s: Increases CRIT Rate by 15%/30% when the party's Moonsign is Nascent Gleam/Ascendant Gleam. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack."
+    ]
+  },
+  {
+    "SetId": 15042,
+    "EquipAffixId": 215042,
+    "EquipAffixIds": [
+      2150420,
+      2150421
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Silken Moon's Serenade",
+    "Icon": "UI_RelicIcon_15042_4",
+    "Descriptions": [
+      "Energy Recharge +20%.",
+      "When dealing Elemental DMG, gain the Gleaming Moon: Devotion effect for 8s: Increases all party members' Elemental Mastery by 60/120 when the party's Moonsign is Nascent Gleam/Ascendant Gleam. The equipping character can trigger this effect while off-field. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack."
     ]
   }
 ]
