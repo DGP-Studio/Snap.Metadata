@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Sovratensione elettrica</color>",
-    "Description": "I DAN da <color=#f39001>reazioni di Electrocarica</color> innescati dai membri del gruppo aumentano di un <color=#f39001>250%</color>."
+    "Description": "I DAN inflitti dalle <color=#f39001>reazioni di Electrocarica</color> innescate dai membri del gruppo aumentano di un <color=#f39001>250%</color>, mentre i DAN da <color=#f39001>Carica lunare</color> aumentano di un <color=#f39001>70%</color>."
   },
   {
     "Id": 211102,
@@ -328,5 +328,45 @@
     "Id": 11160001,
     "Name": "Birgitta",
     "Description": "#L'assistente e compagna di battaglia di Ineffa. Può essere evocata sul campo tramite l'abilità o il Tripudio elementale.\nSe sono presenti avversari nelle vicinanze, Birgitta si sposta rapidamente verso uno di loro e sprigiona una Scarica ogni 2{NON_BREAK_SPACE}s, infliggendo <color=#FFACFFFF>DAN da Electro ad area</color>.\nPuò esistere solo una Birgitta evocata da Ineffa alla volta.\n\nInoltre, sembra che a Nod-Krai esistano dei metodi per modificarne l'aspetto esteriore..."
+  },
+  {
+    "Id": 11190001,
+    "Name": "Santuario di Boscogelo",
+    "Description": "#Una matrice magica che protegge le Cantaluna e che può essere evocata usando l'abilità elementale <color=#FFD780FF>Runo: Riposo senz'alba di Karsikko</color>.\nIl Santuario di Boscogelo segue il personaggio attivo e infligge un'iterazione di <color=#99FF88FF>DAN da Dendro ad area</color> agli avversari dentro la matrice ogni 2{NON_BREAK_SPACE}s. Tali DAN sono considerati DAN da abilità elementale."
+  },
+  {
+    "Id": 11190002,
+    "Name": "Canto della luna",
+    "Description": "Una melodia usata per intrecciare inni. Quando si usa un Tripudio elementale, o per un certo periodo di tempo dopo averne usato uno, il Canto può essere convertito in accumuli di Inno pallido, che aumentano i DAN delle reazioni di Fioritura, Iperfioritura, Germinazione e Fioritura lunare.\nQuando Lauma consuma Rugiada verdeggiante per usare la variante a pressione prolungata della sua abilità elementale <color=#FFD780FF>Runo: Riposo senz'alba di Karsikko</color>, ogni unità di Rugiada verdeggiante consumata fornisce a Lauma 1 accumulo di Canto della luna."
+  },
+  {
+    "Id": 11190003,
+    "Name": "Inno pallido",
+    "Description": "Un inno tramandato da generazioni di Cantaluna che aumenta i DAN inflitti dalle reazioni di Fioritura, Iperfioritura, Germinazione e Fioritura lunare.\n\nLauma può ottenere accumuli di Inno pallido nei modi seguenti:\n· usando il suo Tripudio elementale <color=#FFD780FF>Runo: Cuori uniti nella luna battente</color>;\n· quando consuma gli accumuli di Canto della luna a causa dell'utilizzo del Tripudio elementale <color=#FFD780FF>Runo: Cuori uniti nella luna battente</color>;\n· quando il Santuario di Boscogelo innesca l'effetto della sua costellazione <color=#FFD780FF>\"Sangue e lacrime offro al chiaro di luna\"</color>.\n\nQuando i membri del gruppo infliggono DAN da Fioritura, Iperfioritura, Germinazione o Fioritura lunare, viene consumato 1 accumulo di Inno pallido e i DAN inflitti aumentano in base alla maestria elementale di Lauma. Se più avversari contemporaneamente subiscono DAN, vengono consumati più accumuli di Inno pallido in base al numero di avversari colpiti.\nLa durata di ogni accumulo di Inno pallido è indipendente dalle altre."
+  },
+  {
+    "Id": 11190004,
+    "Name": "Veglia della marea crepuscolare",
+    "Description": "I DAN da Fioritura, Iperfioritura e Germinazione inflitti dai membri del gruppo possono causare colpi CRIT, con un tasso di CRIT e DAN da CRIT fissati rispettivamente a un {PARAM#P1192101|1S100}% e un {PARAM#P1192101|2S100}%. Il tasso di CRIT di quest'effetto si può accumulare con il tasso di CRIT ottenuto da effetti simili che permettono a queste reazioni elementali di innescare colpi CRIT."
+  },
+  {
+    "Id": 11190005,
+    "Name": "Preghiera al chiaro di luna",
+    "Description": "Il tasso di CRIT e i DAN da CRIT dei DAN da Fioritura lunare dei membri del gruppo aumentano rispettivamente di un {PARAM#P1192101|3S100}% e di un {PARAM#P1192101|4S100}%."
+  },
+  {
+    "Id": 11190007,
+    "Name": "Innalzamento",
+    "Description": "Effetto di aumento DAN speciale. Viene calcolato in modo indipendente rispetto ad altri effetti di aumento DAN."
+  },
+  {
+    "Id": 11190008,
+    "Name": "Rugiada verdeggiante",
+    "Description": "#Una risorsa che si ottiene quando i membri del gruppo innescano reazioni di Fioritura lunare.\nIl gruppo ottiene 1 Rugiada verdeggiante ogni 2,5{NON_BREAK_SPACE}s per 2,5{NON_BREAK_SPACE}s dopo aver innescato una reazione di Fioritura lunare. Il gruppo può avere un massimo di 3 Rugiade verdeggianti. Innescando un'altra reazione di Fioritura lunare in questo periodo di tempo, la durata dell'effetto viene ripristinata."
+  },
+  {
+    "Id": 11200001,
+    "Name": "Sinfonia tonante",
+    "Description": "Consuma meno energia elementale per usare un Tripudio elementale speciale. Flins infligge un'iterazione di <color=#FFACFFFF>DAN da Electro ad area</color>. Tali DAN sono considerati DAN da Carica lunare.\nQuando <color=#FFD780FF>Presagio lunare: Barlume ascendente</color> è attivo, se sono presenti delle nubi temporalesche nelle vicinanze, Flins infligge un'iterazione aggiuntiva di <color=#FFACFFFF>DAN da Electro ad area</color>. Tali DAN sono considerati DAN da Carica lunare."
   }
 ]

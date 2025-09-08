@@ -1768,7 +1768,7 @@
     "MonsterName": "Sylph_Fire_01",
     "Name": "Ateş Uçarlopu",
     "Title": "Ateş Uçarlopu",
-    "Description": "Havada süzülebilen, yüksek yoğunluktaki Ateş elementlerinden oluşan bir canavar.\nBir zamanlar bu yaratıkların davranışlarını inceleyen bir Akademi öğrencisi vardı. Henüz mezun olmayan bu öğrenci, Uçarlopların bir tür Kristal Kelebeği olduğunu düşünüyordu çünkü her iki tür de uçabiliyordu ve element enerjisinin yoğun olduğu bölgelerde doğmuştu.",
+    "Description": "Havada süzülebilen, yüksek yoğunluktaki Ateş elementlerinden oluşan bir canavar.\nBir zamanlar bu yaratıkların davranışlarını inceleyen bir Akademi öğrencisi vardı. Henüz mezun olmayan bu öğrenci, Uçarlopların bir tür Kristal Kelebek olduğunu düşünüyordu çünkü her iki tür de uçabiliyordu ve element enerjisinin yoğun olduğu bölgelerde doğmuştu.",
     "Icon": "UI_MonsterIcon_Sylph_Fire_01",
     "Type": 1,
     "Arkhe": 0,
@@ -1887,6 +1887,214 @@
       "ElecSubHurt": 0.1,
       "WindSubHurt": 0.1,
       "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 20080101,
+    "DescribeId": 801,
+    "RelationshipId": 801,
+    "MonsterName": "Monster_Moonbeast_Electric_01",
+    "Name": "Işıltılı Cereyan: Donuk Gecenin Varisi",
+    "Title": "Donuk Gecenin Varisi",
+    "Description": "Yüksek element yatkınlığına sahip zarif bir element yaşam formu. Uzun yıllar boyunca yoğun Elektrik elementine maruz kalması, şu anki görünümünü almasına neden olmuş.\nEn saldırgan huylu varlıklardan biri olarak bilinir. Çeliği bile toz edebilen yıldırımlara sanki hizmetkarlarıymış gibi hükmeder. Geçtiği her yer sanki yağmalanmış ve taş üstünde taş kalmamış bir felaket sahnesini andırır.\nUzak kuzeyde hâlâ yankılanan dualarda, Donuk Ayın lütfuyla doğduğu ve saf kaynak ile ilk parıltıyı sembolize ettiği anlatılır. Belki de bu yüzden soluk saflığının, semavi ışığın yedi rengiyle kirlenmesine tahammül edemiyor ve kendisine yaklaşan her canlıyı reddediyordur.",
+    "Icon": "UI_MonsterIcon_Moonbeast_Electric",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112130,
+      112129,
+      112128,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 138.5568,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 20080201,
+    "DescribeId": 802,
+    "RelationshipId": 802,
+    "MonsterName": "Monster_Moonbeast_Grass_01",
+    "Name": "Dolaşmış Sarmaşık: Donuk Gecenin Varisi",
+    "Title": "Donuk Gecenin Varisi",
+    "Description": "Yüksek element yatkınlığına sahip zarif bir element yaşam formu. Uzun yıllar boyunca yoğun Doğa elementine maruz kalması, şu anki görünümünü almasına neden olmuş.\nBu varlığın, korulardaki bitki yaşamıyla muazzam bir bağı vardır. Rivayetlere göre Ay İlahicilerinden biri, vakti zamanında onların sayesinde orman diyarıyla bir anlaşma yapmış ve böylece bu topraklardaki tüm canlılarının dostu ve yoldaşı olmuş.\nUzak kuzeyde hâlâ yankılanan dualarda, Donuk Ayın lütfuyla doğduğu ve saf kaynak ile ilk parıltıyı sembolize ettiği anlatılır. Belki de bu yüzden soluk saflığının, semavi ışığın yedi rengiyle kirlenmesine tahammül edemiyor ve kendisine yaklaşan her canlıyı reddediyordur.",
+    "Icon": "UI_MonsterIcon_Moonbeast_Grass",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112130,
+      112129,
+      112128,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 138.5568,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.5,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 20080301,
+    "DescribeId": 803,
+    "RelationshipId": 803,
+    "MonsterName": "Monster_Moonbeast_Fire_01",
+    "Name": "İhtişamlı Alev: Donuk Gecenin Varisi",
+    "Title": "Donuk Gecenin Varisi",
+    "Description": "Yüksek element yatkınlığına sahip zarif bir element yaşam formu. Uzun yıllar boyunca yoğun Ateş elementine maruz kalması, şu anki görünümünü almasına neden olmuş.\nEn saldırgan huylu varlıklardan biri olarak bilinir. Dünyanın en soğuk bölgelerinde bile sönmeyen bir ateşle çevrilidir.\nUzak kuzeyde hâlâ yankılanan dualarda, Donuk Ayın lütfuyla doğduğu ve saf kaynak ile ilk parıltıyı sembolize ettiği anlatılır. Belki de bu yüzden soluk saflığının, semavi ışığın yedi rengiyle kirlenmesine tahammül edemiyor ve kendisine yaklaşan her canlıyı reddediyordur.",
+    "Icon": "UI_MonsterIcon_Moonbeast_Fire",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112130,
+      112129,
+      112128,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 176.592,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.5,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 20080401,
+    "DescribeId": 804,
+    "RelationshipId": 804,
+    "MonsterName": "Monster_Moonbeast_Ice_01",
+    "Name": "Buz Sırça: Donuk Gecenin Varisi",
+    "Title": "Donuk Gecenin Varisi",
+    "Description": "Yüksek element yatkınlığına sahip zarif bir element yaşam formu. Uzun yıllar boyunca yoğun Buz elementine maruz kalması, şu anki görünümünü almasına neden olmuş.\nDonuk Gecenin Varisinin orijinal haline en yakın olan varlık olduğu söylenir. Buzlu sisler ve kristallerle aşılmaz duvarlar inşa eder ama belki de bunu yalnızca o kusursuz, kadim ışığı ayın altındaki dünyadan ayırmak için yapıyordur.\nUzak kuzeyde hâlâ yankılanan dualarda, Donuk Ayın lütfuyla doğduğu ve saf kaynak ve ilk parıltıyı sembolize ettiği anlatılır. Belki de bu yüzden soluk saflığının, semavi ışığın yedi rengiyle kirlenmesine tahammül edemiyor ve kendisine yaklaşan her canlıyı reddediyordur.",
+    "Icon": "UI_MonsterIcon_Moonbeast_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112130,
+      112129,
+      112128,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 176.592,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.5,
       "RockSubHurt": 0.1,
       "PhysicalSubHurt": 0.1
     },
@@ -4767,6 +4975,140 @@
     "Arkhe": 0
   },
   {
+    "Id": 22130001,
+    "DescribeId": 21300,
+    "RelationshipId": 21300,
+    "MonsterName": "Monster_WildHunt_Female_01",
+    "Name": "Vahşi Sürgün",
+    "Title": "Vahşi Avın Gölgesi",
+    "Description": "Kapkara sis çöktüğünde buz tutmuş çöllerde dolaşan bir hortlak. Ortaya çıkışları, daha kötü felaketlerin habercisidir.\nAyın altında yaşayan herkes kendi hedefleri ve dilekleriyle yola koyulur, ancak her dilek karşılık bulmaz. İçlerindeki hınç, sevdiklerinden ayrılmanın üzüntüsü veya gerçekleşmemiş arzular yüzünden huzur bulamayan ruhlar, Hiçlik tarafından çürütülürse hortlaklara dönüşebilir ve Vahşi Avın yoğun sislerinde ebediyen kaybolurlar.",
+    "Icon": "UI_MonsterIcon_WildHunt",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112136,
+      112135,
+      112134,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 32.6016,
+      "AttackBase": 37.68,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21301,
+    "RelationshipId": 21301,
+    "Name": "Vahşi Sürgün",
+    "Title": "Vahşi Avın Gölgesi",
+    "Icon": "UI_MonsterIcon_WildHunt",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21302,
+    "RelationshipId": 21302,
+    "Name": "Vahşi Sürgün",
+    "Title": "Vahşi Avın Gölgesi",
+    "Icon": "UI_MonsterIcon_WildHunt",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 22131001,
+    "DescribeId": 21310,
+    "RelationshipId": 21310,
+    "MonsterName": "Monster_WildHunt_Elite_01",
+    "Name": "Vahşi Avcı",
+    "Title": "Vahşi Avın Gölgesi",
+    "Description": "Kapkara sis çöktüğünde buz tutmuş çöllerde dolaşan bir hortlak. Ortaya çıkışları, daha kötü felaketlerin habercisidir.\nKaybolmuş kadim bir krallığın nice kahramanı, kuzeyin buzla kaplı topraklarında yatıyor. Geçmişin kalıntıları çoktan silinip gitmiş olsa da bu asil ruhlar hâlâ altın vatanlarını korumaya devam ediyor. Hiçlik kirliliğinin etkisiyle uyanan bu savaşçılar, artık topraklarına giren herkesi av olarak görüyor.",
+    "Icon": "UI_MonsterIcon_WildHunt_Elite",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112136,
+      112135,
+      112134,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 141.2736,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 21320,
+    "RelationshipId": 21320,
+    "Name": "Savaş Uzmanı Işık Muhafızı",
+    "Title": "Savaş Uzmanı Işık Muhafızı",
+    "Icon": "UI_MonsterIcon_WildHunt_Male_Sigurd",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 23010101,
     "DescribeId": 30101,
     "RelationshipId": 30101,
@@ -5422,6 +5764,854 @@
     "Icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
     "Type": 0,
     "Arkhe": 0
+  },
+  {
+    "Id": 23070101,
+    "DescribeId": 30701,
+    "RelationshipId": 30701,
+    "MonsterName": "Human_Male_Standard_Gun_01",
+    "Name": "Opriçnik Cephe Askeri",
+    "Title": "Opriçnik",
+    "Description": "Elinde süngülü tüfeğiyle ön cepheyi koruyan ve Opriçnik kuvvetlerinin omurgasını oluşturan bir Fatui Opriçnikleri askeri.\nSnezhnaya piyade kılavuzlarında, ön cephe askerlerinin temel görevlerinin yalnızca nişan almak, ateş etmek ve hücum etmekten ibaret olduğu yazar. Tek bir askerin savaş gücü çok iyi olmasa bile sıkı bir düzende omuz omuza savaşan cephe askerleri, Snezhnaya ordusunun temel yapı taşlarından birini oluşturur.",
+    "Icon": "UI_MonsterIcon_NodKrai_Oprichnik_Male",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮集群-远程"
+    ],
+    "Drops": [
+      202,
+      112127,
+      112126,
+      112125
+    ],
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30711,
+    "RelationshipId": 30711,
+    "Name": "Opriçnik Cephe Askeri",
+    "Title": "Opriçnik",
+    "Icon": "UI_MonsterIcon_NodKrai_Oprichnik_Male",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 23072101,
+    "DescribeId": 30721,
+    "RelationshipId": 30721,
+    "MonsterName": "Human_MuscleMan_Shield_01",
+    "Name": "Opriçnik Destek Askeri",
+    "Title": "Opriçnik",
+    "Description": "Yoldaşlarını korumak için en önde savaşan, ağır bir kalkana sahip bir Fatui Opriçnikleri askeri.\nÇoğu kişiye göre Snezhnaya ve karanlık felaket arasında süregelen uzun savaşta ancak daha güçlü bir iradeyle, düşmanından daha uzun süre direnen taraf galip gelebilir. Opriçniklerin iradesinin en büyük timsali ise şüphesiz birliklerini koruyan kalkandır. Kalkan düşmediği sürece, zafer için umut var demektir.",
+    "Icon": "UI_MonsterIcon_NodKrai_Oprichnik_MuscleMan",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮集群-坦克4"
+    ],
+    "Drops": [
+      202,
+      112127,
+      112126,
+      112125
+    ],
+    "BaseValue": {
+      "HpBase": 19.0176,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23073101,
+    "DescribeId": 30731,
+    "RelationshipId": 30731,
+    "MonsterName": "Human_Female_Shoulder_01",
+    "Name": "Opriçnik Bombacı",
+    "Title": "Opriçnik",
+    "Description": "Yakın menzilli bombardıman yapabilen, insan gücüyle taşınabilir bir bomba atar taşıyan bir Fatui Opriçnikleri askeri.\nOpriçnikler geniş çaplı ve eksiksiz çalışan bir ateş desteği donanımına sahip olsalar da komutanlar yine de yüksek sayıda bombacı bulundurulmasını savunuyor. Ne de olsa hiçbir büyük silah, savaşın en ön cephesinde istediğin gibi yönlendirebileceğin bir bombacının yerini tutamaz.",
+    "Icon": "UI_MonsterIcon_NodKrai_Oprichnik_Female",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮集群-远程"
+    ],
+    "Drops": [
+      202,
+      112127,
+      112126,
+      112125
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 20.096,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23074101,
+    "DescribeId": 30741,
+    "RelationshipId": 30741,
+    "MonsterName": "Human_Male_Standard_Claymore_PipeWrench_01",
+    "Name": "Opriçnik Öncü",
+    "Title": "Opriçnik",
+    "Description": "Mühendislik araçlarına sahip, yakın menzilli savaşta oldukça yetenekli bir Fatui Opriçnikleri askeri.\nFatui Opriçnikleri, savaş alanının zorlu ihtiyaçlarını karşılamak amacıyla, gelişmiş birliklerin önünü açma görevini üstlenen öncü birlikler oluşturdu. Onlar için engel addedilen şeyin ne olduğu fark etmez. İster geçilmez bir vadi ister bir düşman, her ikisini de hiç tereddüt etmeden ortadan kaldırırlar. Soluk Yıldız sancağının yere düşmemesi için ne gerekiyorsa yaparlar.",
+    "Icon": "UI_MonsterIcon_NodKrai_Oprichnik_Male",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮集群-坦克4"
+    ],
+    "Drops": [
+      202,
+      112127,
+      112126,
+      112125
+    ],
+    "BaseValue": {
+      "HpBase": 16.3008,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30751,
+    "RelationshipId": 30751,
+    "Name": "Opriçnik Öncü",
+    "Title": "Opriçnik",
+    "Icon": "UI_MonsterIcon_NodKrai_Oprichnik_Male",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 23076101,
+    "DescribeId": 30761,
+    "RelationshipId": 30761,
+    "MonsterName": "Human_Male_Standard_Cudgel_01",
+    "Name": "Opriçnik Sıhhiye",
+    "Title": "Opriçnik",
+    "Description": "Sopa benzeri bir cihaz kuşanmış, müttefiklerine savaş alanında acil tıbbi destek sağlayan bir Fatui Opriçnikleri askeri.\nEsasen bu sıhhiyeciler hızlandırılmış eğitim aldıklarından iyileştirme becerileri sınırlıdır. Bu nedenle farklı silahlı birliklerin arasına karışarak ve düşman hatlarına hücum ederek müttefiklerine destek olabilecekleri daha etkili yöntemler benimsemişlerdir.",
+    "Icon": "UI_MonsterIcon_NodKrai_Oprichnik_Male",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮集群-辅助"
+    ],
+    "Drops": [
+      202,
+      112127,
+      112126,
+      112125
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30771,
+    "RelationshipId": 30771,
+    "Name": "Opriçnik Sıhhiye",
+    "Title": "Opriçnik",
+    "Icon": "UI_MonsterIcon_NodKrai_Oprichnik_Male",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 23078101,
+    "DescribeId": 30781,
+    "RelationshipId": 30781,
+    "MonsterName": "Human_Male_Standard_NoWeapon_BombBackpack_01",
+    "Name": "Opriçnik Bombardımancı",
+    "Title": "Opriçnik",
+    "Description": "Özel bir uçuş çantası ve patlayıcılarla donatılmış, cephede gedik açma operasyonlarını yerine getiren bir Fatui Opriçnikleri askeri.\nMuazzam saldırı potansiyeline sahip birlikler olan bombardımancılar, sık sık en zorlu savaş alanlarına gönderilir ve bu sayede hızlıca en yüksek rütbelere ulaşabilirler. Opriçnik subaylarının büyük çoğunlukla bombardımancılardan seçildiği söylenir.",
+    "Icon": "UI_MonsterIcon_NodKrai_Oprichnik_Male",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮集群-远程"
+    ],
+    "Drops": [
+      202,
+      112127,
+      112126,
+      112125
+    ],
+    "BaseValue": {
+      "HpBase": 13.584,
+      "AttackBase": 25.12,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23079101,
+    "DescribeId": 30791,
+    "RelationshipId": 30791,
+    "MonsterName": "Oprichnik_Male_Strong_LanceArquebus_01",
+    "Name": "Opriçnik Ateş Kılıçlı Baskıncı",
+    "Title": "Opriçnik Ateş Kılıçlı Baskıncı",
+    "Description": "Devasa kılıcıyla yakın dövüşte uzmanlaşmış, seçkin bir Fatui Opriçnikleri subayı.\nİster karanlık felakete karşı verilen savaşta ister Çariçe'nin ideallerine karşı çıkmaya cüret eden zırcahillere karşı olsun, en önde savaşıp düşman saflarını yaranlar en büyük kayıpları verirler. Bu yüzden, birkaç savaştan sağ kurtulanlar, seçkin askerler arasında dahi daha üstün olarak görülürler. Tıpkı kaderin adaletsizliğine ve Eski Dünyanın eşitsizliğine boyun eğmeyenler gibi, imparatorluğun ateşi ve kılıcı olmak isteyenler de her zaman var olacaktır.",
+    "Icon": "UI_MonsterIcon_Oprichnik_Male_Strong_LanceArquebus",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮机器-N-红",
+      "铁皮机器-磁单极",
+      "铁皮集群-坦克3"
+    ],
+    "Drops": [
+      202,
+      112127,
+      112126,
+      112125
+    ],
+    "BaseValue": {
+      "HpBase": 59.7696,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23079201,
+    "DescribeId": 30792,
+    "RelationshipId": 30792,
+    "MonsterName": "Oprichnik_Male_Fat_CannonShield_01",
+    "Name": "Opriçnik Dolu Fırtınası Topçusu",
+    "Title": "Opriçnik",
+    "Description": "Ağır topuyla düşman hatlarını parçalayan, güçlü kalkanıyla yoldaşlarını koruyan seçkin bir Fatui Opriçnikleri subayı.\nAcımasız savaşlar kalkanını buz beyazına boyarken, birikmiş kan da kenarlarını siyaha çalar. Opriçnik subayları, boş sözlerin feda edilenleri asla geri getirmeyeceğini iyi bilir. Ancak dolu fırtınasına benzeyen bir bombardıman, bu kirlenmiş Eski Dünyayı sarsabilir.",
+    "Icon": "UI_MonsterIcon_Oprichnik_Male_Fat_CannonShield",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮机器-N-红",
+      "铁皮机器-磁单极",
+      "铁皮集群-坦克3"
+    ],
+    "Drops": [
+      202,
+      112127,
+      112126,
+      112125
+    ],
+    "BaseValue": {
+      "HpBase": 65.2032,
+      "AttackBase": 55.264,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23079301,
+    "DescribeId": 30793,
+    "RelationshipId": 30793,
+    "MonsterName": "prichnik_Female_Slim_MachineGun_01",
+    "Name": "Opriçnik Yıldırım Gvardiya",
+    "Title": "Opriçnik",
+    "Description": "Savaşlarda çift tabanca kullanma konusunda uzmanlaşmış seçkin bir Fatui Opriçnikleri subayı.\nAvcı Asker kuzenlerinden farklı olarak, Opriçnik subaylarının neredeyse tamamı -ister soylu bir ayrıcalığa sahip olsun ister yeteneği sayesinde halktan gelmiş olsun- Snezhnaya Kraliyet Harp Akademisinden mezundur. Zira Çariçe'nin şefkatli ve sevgi dolu idealleri doğrultusunda bu ikisi pek de birbirinden farklı sayılmaz. Geçmişte sadece Feyler seçkin Gvardiya olabiliyordu ancak günümüzde bu şanlı görev ve unvan, yeni bir dünyanın inşası için daha eşit bir dağılım sağlamak amacıyla Opriçnik subaylarına bahşedilmiştir.",
+    "Icon": "UI_MonsterIcon_Oprichnik_Female_Slim_MachineGun",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮机器-N-红",
+      "铁皮机器-磁单极",
+      "铁皮集群-远程"
+    ],
+    "Drops": [
+      202,
+      112127,
+      112126,
+      112125
+    ],
+    "BaseValue": {
+      "HpBase": 54.336,
+      "AttackBase": 50.24,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": -0.2
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30794,
+    "RelationshipId": 30794,
+    "Name": "Savaş Uzmanı Ateş Kılıçlı Baskıncı",
+    "Title": "Savaş Uzmanı Ateş Kılıçlı Baskıncı",
+    "Icon": "UI_MonsterIcon_Oprichnik_Male_Strong_LanceArquebus",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 30801,
+    "RelationshipId": 30801,
+    "Name": "Yakın Çarpışma Taarruz Kara Kruvazörü",
+    "Title": "Kara Kruvazörü",
+    "Icon": "UI_MonsterIcon_Fatuimecha_CoreA_MoveB_AttackA_Fire",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮机器-磁动力"
+    ]
+  },
+  {
+    "Id": 23080201,
+    "DescribeId": 30802,
+    "RelationshipId": 30802,
+    "MonsterName": "Fatuimecha_CoreA_MoveA_AttackC_Water_01",
+    "Name": "Yakın Çarpışma İzci Kara Kruvazörü",
+    "Title": "Kara Kruvazörü",
+    "Description": "Deniz savaşının prensiplerini kara savaşlarına uygulayan, adeta \"karada giden silahlı bir gemi\" olan otonom bir makina.\nİki ayaklı yapıya sahip bu yürüyen Kara Kruvazörleri, engebeli arazileri hızlıca geçerek kilit noktalara ulaşıp müttefiklerine üstünlük sağlayabilmesinden ötürü genellikle \"keşif\" amacıyla kullanılır. Yakın dövüş odaklı dönen bıçakları, düşmanlarına ölümcül hasar vermelerini ve çalılıklarla diğer engelleri parçalayarak yolu açmalarını sağlar. Bu sayede diğer birliklerinin yoğun bitki örtüsünde bile kolayca hareket edebilmesine olanak tanır.",
+    "Icon": "UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮机器-磁动力",
+      "铁皮机器-N-红",
+      "铁皮机器-磁单极",
+      "铁皮集群-坦克3"
+    ],
+    "Drops": [
+      202,
+      112124,
+      112123,
+      112122
+    ],
+    "BaseValue": {
+      "HpBase": 32.6016,
+      "AttackBase": 22.608,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23080301,
+    "DescribeId": 30803,
+    "RelationshipId": 30803,
+    "MonsterName": "Fatuimecha_CoreB_MoveB_AttackB_Grass_01",
+    "Name": "Cebri Keşif Taarruz Kara Kruvazörü",
+    "Title": "Kara Kruvazörü",
+    "Description": "Deniz savaşının prensiplerini kara savaşlarına uygulayan, adeta \"karada giden silahlı bir gemi\" olan otonom bir makina.\nPaletli Hat Hareket Mekanizmaları ile donatılmış bu Kara Kruvazörleri, genellikle düşman mevzilerine baskın yapmak için kullanılır. Üstün yük taşıma kapasiteleri ve arazideki hareket kabiliyetleri sayesinde, ağır zırhlarına ve teçhizatlarına rağmen çamur veya karla kaplı arazilerden geçebilirler. Cebri Keşif silahları arasında çok namlulu otomatik bir silah da bulunur ve bu sayede Kara Kruvazörü hem yakın hem de uzak mesafelerde etkili taktikler geliştirebilir. Uzun menzilli gözlem yapmak veya şiddetli bir çatışmanın ortasında düşman istihbaratı toplamak gibi zorlu görevlerin üstesinden kolaylıkla gelebilir.",
+    "Icon": "UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮机器-磁动力",
+      "铁皮机器-N-红",
+      "铁皮机器-磁单极",
+      "铁皮集群-远程"
+    ],
+    "Drops": [
+      202,
+      112124,
+      112123,
+      112122
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 27.632,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23080401,
+    "DescribeId": 30804,
+    "RelationshipId": 30804,
+    "MonsterName": "Fatuimecha_CoreB_MoveA_AttackB_Ice_01",
+    "Name": "Cebri Keşif İzci Kara Kruvazörü",
+    "Title": "Kara Kruvazörü",
+    "Description": "Deniz savaşının prensiplerini kara savaşlarına uygulayan, adeta \"karada giden silahlı bir gemi\" olan otonom bir makina.\nİki ayaklı yapıya sahip bu yürüyen Kara Kruvazörleri, engebeli arazileri hızlıca geçerek kilit noktalara ulaşıp müttefiklerine üstünlük sağlayabilmesinden ötürü genellikle \"keşif\" amacıyla kullanılır. Cebri Keşif silahlarıyla donatılmış bu Kara Kruvazörü, yalnızca ana kuvvet için keşif yapmakla kalmaz, aynı zamanda düşmanın açıklarından faydalanarak en zayıf olduğu cephelere aktif şekilde saldırır. Bu açıdan, klasik süvarilere benzer bir işlev gösterir...",
+    "Icon": "UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮机器-磁动力",
+      "铁皮机器-N-红",
+      "铁皮机器-磁单极",
+      "铁皮集群-远程"
+    ],
+    "Drops": [
+      202,
+      112124,
+      112123,
+      112122
+    ],
+    "BaseValue": {
+      "HpBase": 27.168,
+      "AttackBase": 27.632,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23080501,
+    "DescribeId": 30805,
+    "RelationshipId": 30805,
+    "MonsterName": "Fatuimecha_CoreB_MoveE_AttackB_Wind_01",
+    "Name": "Cebri Keşif Yer Etkili Kara Kruvazörü",
+    "Title": "Kara Kruvazörü",
+    "Description": "Deniz savaşının prensiplerini kara savaşlarına uygulayan, adeta \"karada giden silahlı bir gemi\" olan otonom bir makina.\nYer etkili Kara Kruvazörü, yüzeye yüksek hızda ve farklı basınçlarda su püskürterek havalanıp yerden belirli bir yükseklikte \"uçabilir\". Böylece ekonomik bir şekilde savaş hızında seyredebilir, mayınlardan ve diğer tuzaklardan kaçınarak oldukça etkili saldırılar gerçekleştirebilir. Ancak maliyeti ve kısıtlı seyir süresi nedeniyle toplu halde üretilen modelleri sınırlı yük taşıma kapasitesine sahiptir. Bu yüzden, şu anda yalnızca Cebri Keşif görevlerinde kullanılabiliyor...",
+    "Icon": "UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮机器-磁动力",
+      "铁皮机器-N-红",
+      "铁皮机器-磁单极",
+      "铁皮集群-远程飞行"
+    ],
+    "Drops": [
+      202,
+      112124,
+      112123,
+      112122
+    ],
+    "BaseValue": {
+      "HpBase": 21.7344,
+      "AttackBase": 27.632,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23085101,
+    "DescribeId": 30851,
+    "RelationshipId": 30851,
+    "MonsterName": "Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric_01",
+    "Name": "Gelişmiş Çok Amaçlı Taarruz Kara Kruvazörü",
+    "Title": "Kara Kruvazörü",
+    "Description": "Son teknoloji, üretim maliyeti ve hücuma kalkma gücünün dengelendiği bu seçkin Kara Kruvazörü, her türlü muharebe düzenine karşı etkili bir güç uygular ve ön cephenin temel dayanağını oluşturur.\nÇok amaçlı saldırı teçhizatı, çok namlulu otomatik silahlar ve yakın mesafe çatışma döner bıçaklarını bir araya getirerek her menzildeki düşmanla başa çıkabilir. Kollarındaki ağır obüsler ise siperleri yerle bir ederek savunmacıların tahkimatlardan faydalanmasını engeller. Fatui ve Kraliyet Harp Akademisinin ortak savaş doktrinine göre, bu Kara Kruvazörleri taarruz esnasında tüm yakın birlikler tarafından desteklenmeli ve düşman hatlarında hızla bir gedik açmalıdır. Böylece düşman savunma hatlarını tamamen çökertecek derinlemesine takip saldırılarının yolu açılır...",
+    "Icon": "UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮机器-磁动力",
+      "铁皮机器-N-红",
+      "铁皮机器-磁单极",
+      "铁皮集群-坦克2"
+    ],
+    "Drops": [
+      202,
+      112124,
+      112123,
+      112122
+    ],
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23085201,
+    "DescribeId": 30852,
+    "RelationshipId": 30852,
+    "MonsterName": "Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water_01",
+    "Name": "Gelişmiş Çok Amaçlı İzci Kara Kruvazörü",
+    "Title": "Kara Kruvazörü",
+    "Description": "İleri teknoloji, üretim maliyeti ve hücuma kalkma gücünün dengelendiği bu seçkin Kara Kruvazörü, her türlü muharebe düzenine karşı etkili bir güç uygular ve ön cephenin temel dayanağını oluşturur.\nÇok amaçlı keşif silahları hem uzun hem de kısa menzilli çatışmalar için tasarlanmıştır. Bu silahlar keşif Kara Kruvazörü birliklerine sadece liderlik etmekle kalmaz, aynı zamanda yüksek yoğunluklu çatışmalarda Çok Amaçlı Taarruz Kara Kruvazörlerine, hendekleri aşmaktan düşman mevzilerini imha etmeye kadar uzanan bir destek sağlar. Bu Kara Kruvazörü türü, derinlemesine hücumlarda öncü birliklerle birlikte hareket edebilir, ardından kanatlara doğru açılarak düşman hatlarının gerisindeki önemli hedeflere hızla saldırabilir.",
+    "Icon": "UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮机器-磁动力",
+      "铁皮机器-N-红",
+      "铁皮机器-磁单极",
+      "铁皮集群-坦克1"
+    ],
+    "Drops": [
+      202,
+      112124,
+      112123,
+      112122
+    ],
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 62.8,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 23085301,
+    "DescribeId": 30853,
+    "RelationshipId": 30853,
+    "MonsterName": "Fatuimecha_CoreC_MoveF_AttackB_Fire_01",
+    "Name": "Gelişmiş Ateş Desteği Yer Etkili Kara Kruvazörü",
+    "Title": "Kara Kruvazörü",
+    "Description": "İleri teknoloji, üretim maliyeti ve hücuma kalkma gücünün dengelendiği bu seçkin Kara Kruvazörü, her türlü muharebe düzenine karşı etkili bir güç uygular ve ön cephenin temel dayanağını oluşturur.\nYüksek verimli jet motorları donatılmasıyla birlikte bu Yer Etkili Kara Kruvazörü, önemli miktarda silah taşıma kapasitesine kavuşmuş ve bu sayede savaş alanının herhangi bir noktasına hızla ateş gücü ulaştırabilir hale gelmiştir. Bu nedenle, Fatui ve Kraliyet Harp Akademisinin ortak savaş doktrinlerinde bu araçların, büyük ölçekli savaşlarda düşman atılımlarına ve karşı saldırılarına karşı savunma yapan ve savaşın iyi gitmesi durumunda fırsatları değerlendiren bir \"Hızlı Tepki Gücü\" olarak örgütlenmesi öngörülmüştür. Elbette, bu tip tüm Kara Kruvazörleri bağımsız olarak görev yapabilir ve uzun görevlerde küçük bir birliğin temelini oluşturarak farklı Fatui birimlerinin ateş gücünü en üst düzeye çıkarabilir...",
+    "Icon": "UI_MonsterIcon_Fatuimecha_CoreC_MoveF_AttackB_Fire",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "铁皮机器-磁动力",
+      "铁皮机器-N-红",
+      "铁皮机器-磁单极",
+      "铁皮集群-远程飞行"
+    ],
+    "Drops": [
+      202,
+      112124,
+      112123,
+      112122
+    ],
+    "BaseValue": {
+      "HpBase": 81.504,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
   },
   {
     "Id": 24010101,
@@ -7419,6 +8609,79 @@
     ]
   },
   {
+    "Id": 24100101,
+    "DescribeId": 41001,
+    "RelationshipId": 41001,
+    "MonsterName": "Gastrobot_01",
+    "Name": "Demir Yumruk Ördek",
+    "Title": "Mekaniğin Gururu",
+    "Description": "Hurda metal ve mekanik rulmanlardan yapılmış, tuhaf şekilli bir Kuuvahki cihazı. Yaratıcısının tercihleri doğrultusunda kısmen bir \"ördeği\" andırıyor gibi duruyor.\nÜrettiği güç ve hasara karşı direnci, Fatui'nin en son teknoloji savaş silahlarıyla boy ölçüşebilir nitelikte... Ama yine de, rakiplerini yalnızca çok ama çok sert bir şekilde yumruklayabilen bir oyuncak ördekten öteye geçemiyor. Bir yaratıcının tercihleri, yaratılan eserin görünümünü büyük ölçüde belirler. Zira kil, çömlekçinin onu hangi kalıplarda şekillendireceğini sorgulayacak yetkiye sahip değildir. Ayın altındaki dünya, insanların uzun zamandır kanıksadığı bir biçime sokulmuş olsa da ilk sakinlerinin gözünde bu biçim, yaratıcısının tuhaf tercihleriyle şekillendirilmiş o garip ördeğe benziyor olmalı.\nMavi saçlı hizmetçi, Krumkake Atölyesinin hanımına böyle bir şey söylemeyecektir elbette. Ne de olsa ördekler, özellikle dünyanın mevcut haliyle karşılaştırıldığında oldukça sevimli canlılardır.",
+    "Icon": "UI_MonsterIcon_Gastrobot_01",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113077,
+      104144,
+      104143,
+      104142,
+      104141,
+      400089,
+      400099,
+      400088,
+      400098,
+      400033,
+      400043,
+      400138,
+      400032,
+      400042,
+      400137,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 366.768,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "DescribeId": 41002,
+    "RelationshipId": 41002,
+    "Name": "Çöp Devi - Robot",
+    "Title": "Kadim Yapı: Arayıcı",
+    "Icon": "UI_MonsterIcon_Gastrobot_01",
+    "Type": 0,
+    "Arkhe": 0,
+    "Affixes": [
+      "重拳出击鸭-6.0魔神任务词缀"
+    ]
+  },
+  {
     "Id": 0,
     "DescribeId": 48101,
     "RelationshipId": 48101,
@@ -7570,10 +8833,66 @@
   },
   {
     "Id": 0,
+    "DescribeId": 49204,
+    "RelationshipId": 49204,
+    "Name": "(test) Nod-Krai Sızma Etkinliği - Robot 1",
+    "Title": "Kadim Yapı: Arayıcı",
+    "Icon": "UI_MonsterIcon_Monolith_Ordinator",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 49205,
+    "RelationshipId": 49205,
+    "Name": "(test) Nod-Krai Sızma Etkinliği - Robot 2",
+    "Title": "Kadim Yapı: Arayıcı",
+    "Icon": "UI_MonsterIcon_Monolith_Ordinator",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
     "DescribeId": 49901,
     "RelationshipId": 49901,
     "Title": "Kadim Yapı: Arayıcı",
     "Icon": "UI_MonsterIcon_Monolith_Ordinator",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 50000,
+    "RelationshipId": 50000,
+    "Title": "Hazine Avcıları: Liuliu",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 50001,
+    "RelationshipId": 50001,
+    "Title": "Hazine Avcıları: Liuliu",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 50002,
+    "RelationshipId": 50002,
+    "Title": "Hazine Avcıları: Liuliu",
+    "Icon": "",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
+    "Id": 0,
+    "DescribeId": 50003,
+    "RelationshipId": 50003,
+    "Title": "Hazine Avcıları: Liuliu",
+    "Icon": "",
     "Type": 0,
     "Arkhe": 0
   },
@@ -13654,6 +14973,16 @@
     "Arkhe": 0
   },
   {
+    "Id": 0,
+    "DescribeId": 61626,
+    "RelationshipId": 61626,
+    "Name": "Savaşta Yaralanmış Kaya Yengeci",
+    "Title": "Savaşta Yaralanmış Kaya Yengeci",
+    "Icon": "UI_MonsterIcon_HermitCrab_Mature_Elite",
+    "Type": 0,
+    "Arkhe": 0
+  },
+  {
     "Id": 26160302,
     "DescribeId": 61701,
     "RelationshipId": 61701,
@@ -15075,6 +16404,224 @@
       "DefenseBase": 500,
       "FireSubHurt": 0.5,
       "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26300101,
+    "DescribeId": 63001,
+    "RelationshipId": 63001,
+    "MonsterName": "Monster_Magbeast_Argali_01",
+    "Name": "Parıltılı Antilop",
+    "Title": "Parıltılı Yaratık",
+    "Description": "Kadim ayın gücüne uzun süre maruz kaldığından eşsiz bir evrim geçirmiş bir canavar.\nAy ışığının kutsadığı topraklara bir zamanlar tuhaf yıldırımlar düşmüş ve önceden sıradan hayvanlar olan antiloplar bile yıldırım gücünü kullanma yeteneği kazanmış. Hatta fırtınanın ortasında, uçurum kenarlarında durarak vücutlarını güçlendirmek için yıldırımları kendilerine çeken antiloplar görenler dahi olmuş.",
+    "Icon": "UI_MonsterIcon_Magbeast_Argali",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112133,
+      112132,
+      112131,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 149.424,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.5,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26300201,
+    "DescribeId": 63002,
+    "RelationshipId": 63002,
+    "MonsterName": "Monster_Magbeast_Rhino_01",
+    "Name": "Parıltılı Kılıç Boynuz",
+    "Title": "Parıltılı Yaratık",
+    "Description": "Kadim ayın gücüne uzun süre maruz kaldığından eşsiz bir evrim geçirmiş bir canavar.\nRivayete göre, çok eski zamanlarda bu uç diyarlar hâlâ zifiri karanlıkla kaplı haldeyken yalnızca devasa gergedanların saldırısı her şeyi harekete geçiren gücü sağlayabiliyordu... Ve ay ışığının bahşettiği lütuf karşılığında onlardan istenen tek şey buydu.",
+    "Icon": "UI_MonsterIcon_Magbeast_Rhino",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112133,
+      112132,
+      112131,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 163.008,
+      "AttackBase": 67.824,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.5,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26300301,
+    "DescribeId": 63003,
+    "RelationshipId": 63003,
+    "MonsterName": "Monster_Magbeast_Squid_01",
+    "Name": "Parıltılı Mehtapot",
+    "Title": "Parıltılı Yaratık",
+    "Description": "Kadim ayın gücüne uzun süre maruz kaldığından eşsiz bir evrim geçirmiş bir canavar.\nEfsaneye göre, felaket dalgaları toprakları kasıp kavurduğunda Terk Edilmiş Denizde yaşayan canlılar bile bundan nasibini aldı. Gökyüzüne dalgalar gönderebilen dev deniz yılanlarından, her şeyi yutmaya ant içmiş tek gözlü canavarlara kadar, ay ışığını özümseyemeyen tüm varlıklar köpük misali yok olup gitti.",
+    "Icon": "UI_MonsterIcon_Magbeast_Squid",
+    "Type": 1,
+    "Arkhe": 0,
+    "Drops": [
+      202,
+      112133,
+      112132,
+      112131,
+      400023,
+      400033,
+      400043,
+      400022,
+      400032,
+      400042,
+      400062
+    ],
+    "BaseValue": {
+      "HpBase": 135.84,
+      "AttackBase": 82.896,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.5,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 26301101,
+    "DescribeId": 63011,
+    "RelationshipId": 63011,
+    "MonsterName": "Monster_Magbeast_Pergesa_01",
+    "Name": "Parıltılı Ay Güvesi",
+    "Title": "Ay Işığındaki Değişken Gölgeler",
+    "Description": "Ayın kadim gücü, bu hayali kanatlara nüfuz etmiş ve kelebek şeklindeki canavar artık ay ışığında zarifçe dans ediyor.\nEvrim prensiplerine göre, vahşi ve ilkel güçler semavi hükümdar tarafından dizginlendikten sonra bu tür bir canavarın formunu muhafaza edememesi, zamanla küçülerek güç kaybetmesi beklenirdi. Ancak ayın lütfu, bu canavarın eski ihtişamını korumasını ve bu dünyada uçmasını sağlayarak kadim ayın bir zamanlar yeryüzünü aydınlattığı o eski dünyanın anılarını günümüze getirmiştir.",
+    "Icon": "UI_MonsterIcon_Magbeast_Pergesa",
+    "Type": 2,
+    "Arkhe": 0,
+    "Drops": [
+      102,
+      202,
+      105,
+      113078,
+      104134,
+      104133,
+      104132,
+      104131,
+      104114,
+      104113,
+      104112,
+      104111,
+      400089,
+      400099,
+      400088,
+      400098,
+      400023,
+      400033,
+      400022,
+      400032,
+      400047
+    ],
+    "BaseValue": {
+      "HpBase": 217.344,
+      "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.7,
+      "GrassSubHurt": 0.7,
       "WaterSubHurt": 0.1,
       "ElecSubHurt": 0.1,
       "WindSubHurt": 0.1,

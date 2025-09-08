@@ -779,7 +779,7 @@
       {
         "Id": 732,
         "Name": "Raíces de la plenitud",
-        "Description": "#Los enemigos afectados por una <color=#FFD780FF>semilla skandha</color> aplicada por Nahida reciben los siguientes efectos:\n·El daño que reciben por medio de las reacciones de Quemadura, Florecimiento, Sobreflorecimiento y Crepitar puede infligir críticos contra ellos, con una Prob. CRIT fija del 20% y un Daño CRIT fijo del 100%.\n·La DEF de dichos enemigos se reduce en un 30% durante 8{NON_BREAK_SPACE}s al ser afectados por las reacciones de Aceleración, Intensificación y Propagación.",
+        "Description": "#Los enemigos afectados por una <color=#FFD780FF>semilla skandha</color> aplicada por Nahida reciben los siguientes efectos:\n·El daño que reciben por medio de las reacciones de Quemadura, Florecimiento, Sobreflorecimiento y Crepitar puede asestar golpes CRIT contra ellos, con una Prob. CRIT fija del 20% y un Daño CRIT fijo del 100%. La Prob. CRIT otorgada por este efecto puede acumularse con otras bonificaciones similares que proporcionen Prob. CRIT a dichas reacciones\n·La DEF de dichos enemigos se reduce en un 30% durante 8{NON_BREAK_SPACE}s al ser afectados por las reacciones de Aceleración, Intensificación y Propagación.\n·Aumenta en un 10% la Prob. CRIT de la reacción de Florecimiento Lunar, y en un 20% su Daño CRIT.",
         "Icon": "UI_Talent_S_Nahida_02"
       },
       {
@@ -1204,5 +1204,11 @@
     "Description": "Diseño de tarjeta de presentación.\nUna nueva luna se alza en el cielo para admirar el sol, pues su luz ilumina cada confín de este mundo. Mientras, el sol se retira, envidioso al ver cómo unos dulces sueños acompañan al destello argénteo de la luna que lo sustituye en los cielos cada anochecer.",
     "Icon": "UI_NameCardIcon_Nahida",
     "PicturePrefix": "UI_NameCardPic_Nahida"
+  },
+  "TraceEffect": {
+    "Id": 215015,
+    "Name": "Estela: La Purificadora de las Plantas",
+    "Description": "La estela epopéyica de Nahida. “¡Te comparto mi conocimiento!”.",
+    "Icon": "UI_TraceEffectIcon_Nahida"
   }
 }

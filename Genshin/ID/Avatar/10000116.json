@@ -669,7 +669,7 @@
         },
         "Id": 1162301,
         "Name": "Moonsign Benediction: Assemblage Hub",
-        "Description": "Saat Karakter di dalam party memicu reaksi Electro-Charged, reaksi ini akan diubah menjadi reaksi Lunar-Charged. DMG dasar reaksi Lunar-Charged meningkat: DMG dasarnya meningkat 0,7% untuk setiap 100 poin ATK Ineffa, dan dapat meningkat hingga maksimum 14% dengan cara ini.\n\nBerkat tambahan mungkin akan mengiringi terbitnya bulan baru ....",
+        "Description": "Saat Karakter di dalam party memicu reaksi Electro-Charged, reaksi ini akan diubah menjadi reaksi Lunar-Charged. DMG dasar reaksi Lunar-Charged meningkat: Untuk setiap 100 poin ATK Ineffa, DMG dasar meningkat 0,7%, hingga maksimum 14%.\n\nSelain itu, saat Ineffa berada di dalam party, <color=#FFD780FF>Moonsign</color> party bertambah 1 level.",
         "Icon": "UI_Talent_S_Ineffa_07"
       },
       {
@@ -751,6 +751,16 @@
     "CvJapanese": "中島愛",
     "CvEnglish": "Angelina Danielle Cama",
     "CvKorean": "Sung Ye-won",
+    "CookBonus": {
+      "OriginItemId": 108856,
+      "ItemId": 108889,
+      "InputList": [
+        101264,
+        110001,
+        100062,
+        110015
+      ]
+    },
     "Fetters": [
       {
         "Title": "Halo",
@@ -842,7 +852,7 @@
       },
       {
         "Title": "Tentang Aino: Pertanyaan",
-        "Context": "???"
+        "Context": "Suatu kali Aino pernah bertanya sesuatu yang tidak biasa ... Mungkin dia sadar bahwa kecerdasanku melebihi tingkat yang dia prediksi. Intinya, pertanyaannya adalah: \"Jika suatu hari nanti, kamu menyadari ada tempat lain yang lebih kamu inginkan, haruskah aku melepaskanmu, dan berbahagia untukmu?\" Merasakan sedikit emosi di balik kata-katanya, aku menjawab sebagai berikut: \"Jika aku meninggalkanmu, rumah kita akan berubah menjadi tempat pembuangan sampah dalam waktu tiga bulan. Jadi, aku akan berusaha memastikan aku kembali dalam jangka waktu tersebut.\"\nKalau dipikir-pikir lagi ... baru sekarang aku menyadari apa yang sebenarnya dia rasakan. Dia enggan aku pergi."
       },
       {
         "Title": "Tentang Jahoda",
@@ -1072,7 +1082,7 @@
       },
       {
         "Title": "Moon Wheel",
-        "Context": "\"Penelitian tentang Peralatan Upacara dan Permohonan di Niflheim\"\n....\n... Pelayan naga telah mengambil sampel mencurigakan dari sisa-sisa manusia yang menyebabkan kerusuhan di Ek' Pulinik. Menurut penduduk setempat, sampel tersebut disebut sebagai \"Vision\" oleh para pedagang dari luar Natlantea ....\n... Mengenai prinsip pengoperasian sampel ini, aku sempat membahas masalah ini dengan Penguasa Ketiga. Dia mengajukan hipotesis yang menarik. Menurutnya, sampel ini mungkin ada hubungannya dengan peralatan upacara di Niflheim ....\n... Setelah menggunakan beberapa cara tertentu, aku berhasil mendapatkan \"Moon Wheel\" (salah satu peralatan upacara Niflheim. Lebih tepatnya, benda yang diberikan oleh ketiga pengkhianat itu kepada pengikutnya agar manusia-manusia itu bisa berkomunikasi dengan mereka) yang masih bisa berfungsi ... Layaknya kebijaksanaan yang diberikan oleh sang Pemimpin, Moon Wheel beroperasi dengan kekuatan yang lebih murni, bukannya kekuatan elemen yang sudah terkontaminasi oleh tirani ....\n....\nEksperimen lebih lanjut mengonfirmasi pernyataan Penguasa Ketiga. \"Vision\" dibentuk dari jiwa, layaknya peralatan upacara di utara. Secara teori, melalui keinginan untuk mengikat (...), lalu meminjam (...) untuk memanggil kekuatan elemen ....\nApa ini juga alasan kenapa Vision sering muncul bersama dengan harapan manusia?\n... CL-08 Ix Ajkotz'i'j Iq'ismal Waxak Ch'ule-L\n....\n\"... Karena intinya ditenagai oleh phlogiston, kita bisa memakai sumber daya yang sama untuk mengendalikannya. Dalam hal ini, penelitian pendeta wanita itu menunjukkan bahwa benda ini mungkin lebih cocok ... Tapi ....\"\nIxquieh menatap \"permata\" di tangan Lianca dan sedikit mengerutkan keningnya.\n\"Kamu yakin mau menggunakan ini padanya? Dulu ini milik ibumu ....\"\nLianca membelai \"permata\" itu dan memberikan jawabannya sendiri.\n\"... Itu hanya salah satu dari banyak hal yang ditelitinya. Aku tidak terlalu peduli tentang hal itu. Terlebih lagi, hal paling berharga yang paling ditinggalkan ibuku bukan benda itu, juga bukan Chain Breaker ....\"\nBatu permata itu, yang telah menyaksikan berlalunya tahun-tahun yang tak terhitung jumlahnya, bersinar terang di tangan Lianca, seperti mata naga yang tidak dapat dipadamkan.\n\"Itu adalah 'keinginannya' agar aku mengikuti jalan ini.\""
+        "Context": "\"Penelitian tentang Peralatan Upacara dan Permohonan di Nephilheim\"\n....\n... Pelayan naga telah mengambil sampel mencurigakan dari sisa-sisa manusia yang menyebabkan kerusuhan di Ek' Pulinik. Menurut penduduk setempat, sampel tersebut disebut sebagai \"Vision\" oleh para pedagang dari luar Natlantea ....\n... Mengenai prinsip pengoperasian sampel ini, aku sempat membahas masalah ini dengan Penguasa Ketiga. Dia mengajukan hipotesis yang menarik. Menurutnya, sampel ini mungkin ada hubungannya dengan peralatan upacara di Nephilheim ....\n... Setelah menggunakan beberapa cara tertentu, aku berhasil mendapatkan \"Moon Wheel\" (salah satu peralatan upacara Nephilheim. Lebih tepatnya, benda yang diberikan oleh ketiga pengkhianat itu kepada pengikutnya agar manusia-manusia itu bisa berkomunikasi dengan mereka) yang masih bisa berfungsi ... Layaknya kebijaksanaan yang diberikan oleh sang Pemimpin, Moon Wheel beroperasi dengan kekuatan yang lebih murni, bukannya kekuatan elemen yang sudah terkontaminasi oleh tirani ....\n....\nEksperimen lebih lanjut mengonfirmasi pernyataan Penguasa Ketiga. \"Vision\" dibentuk dari jiwa, layaknya peralatan upacara di utara. Secara teori, melalui keinginan untuk mengikat (...), lalu meminjam (...) untuk memanggil kekuatan elemen ....\nApa ini juga alasan kenapa Vision sering muncul bersama dengan harapan manusia?\n... CL-08 Ix Ajkotz'i'j Iq'ismal Waxak Ch'ule-L\n....\n\"... Karena intinya ditenagai oleh phlogiston, kita bisa memakai sumber daya yang sama untuk mengendalikannya. Dalam hal ini, penelitian pendeta wanita itu menunjukkan bahwa benda ini mungkin lebih cocok ... Tapi ....\"\nIxquieh menatap \"permata\" di tangan Lianca dan sedikit mengerutkan keningnya.\n\"Kamu yakin mau menggunakan ini padanya? Dulu ini milik ibumu ....\"\nLianca membelai \"permata\" itu dan memberikan jawabannya sendiri.\n\"... Itu hanya salah satu dari banyak hal yang ditelitinya. Aku tidak terlalu peduli tentang hal itu. Terlebih lagi, hal paling berharga yang paling ditinggalkan ibuku bukan benda itu, juga bukan Chain Breaker ....\"\nBatu permata itu, yang telah menyaksikan berlalunya tahun-tahun yang tak terhitung jumlahnya, bersinar terang di tangan Lianca, seperti mata naga yang tidak dapat dipadamkan.\n\"Itu adalah 'keinginannya' agar aku mengikuti jalan ini.\""
       }
     ]
   },

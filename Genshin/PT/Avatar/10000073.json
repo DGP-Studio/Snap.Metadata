@@ -779,7 +779,7 @@
       {
         "Id": 732,
         "Name": "Raiz da Compaixão",
-        "Description": "Oponentes marcados pelas <color=#FFD780FF>Sementes Skandha</color> aplicadas pela própria Nahida serão afetados pelos seguintes efeitos:\n· Dano de Queimadura, Florescimento, Superflorescimento e Germinação pode causar CRIT. Taxa CRIT e Dano CRIT estão fixados em 20% e 100% respectivamente.\n· Dentro de 8s após terem sido afetados por Aceleração, Intensificação e Propagação, a DEF diminui em 30%.",
+        "Description": "Oponentes marcados pelas <color=#FFD780FF>Sementes Skandha</color> aplicadas pela própria Nahida serão afetados pelos seguintes efeitos:\n· Dano de Queimadura, Florescimento, Superflorescimento e Germinação pode causar CRIT. Taxa CRIT e Dano CRIT estão fixados em 20% e 100% respectivamente. Esse efeito de aumento de Taxa CRIT pode acumular com efeitos similares de Acerto CRIT de reações elementais correspondentes.\n· Dentro de 8s após terem sido afetados por Aceleração, Intensificação e Propagação, a DEF diminui em 30%.\n· Aumenta o Dano sofrido por Taxa CRIT de Florescimento Lunar em 10%, aumenta o Dano CRIT em 20%.",
         "Icon": "UI_Talent_S_Nahida_02"
       },
       {
@@ -1204,5 +1204,11 @@
     "Description": "Estilo de cartão de visita.\nA lua nova que se ergue no céu admirará a paisagem do crepúsculo, porque sua luz brilha por todo o mundo; O sol crepuscular sente inveja da lua, porque ela tem milhares de sonhos a lhe fazerem companhia.",
     "Icon": "UI_NameCardIcon_Nahida",
     "PicturePrefix": "UI_NameCardPic_Nahida"
+  },
+  "TraceEffect": {
+    "Id": 215015,
+    "Name": "Viagem: Pureza Restauradora",
+    "Description": "Viagem Imaginária de Nahida. \"Compartilhe do meu conhecimento.\"",
+    "Icon": "UI_TraceEffectIcon_Nahida"
   }
 }

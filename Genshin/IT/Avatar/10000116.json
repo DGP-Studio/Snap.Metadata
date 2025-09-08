@@ -669,7 +669,7 @@
         },
         "Id": 1162301,
         "Name": "Benedizione del presagio lunare: Centro di assemblaggio",
-        "Description": "Quando un membro del gruppo innesca una reazione di Electrocarica, questa si converte in una reazione di Carica lunare, i cui DAN base aumentano di uno 0,7% per ogni 100 di ATT di Ineffa, fino a un 14% massimo.\n\nAltre benedizioni potrebbero comparire con l'avvento della luna nuova...",
+        "Description": "Quando un membro del gruppo innesca una reazione di Electrocarica, questa si converte in una reazione di Carica lunare, i cui DAN base aumentano di uno 0,7% per ogni 100 di ATT di Ineffa, fino a un 14% massimo.\n\nInoltre, quando Ineffa è nel gruppo, il <color=#FFD780FF>Presagio lunare</color> del gruppo aumenta di 1 livello.",
         "Icon": "UI_Talent_S_Ineffa_07"
       },
       {
@@ -751,6 +751,16 @@
     "CvJapanese": "中島愛",
     "CvEnglish": "Angelina Danielle Cama",
     "CvKorean": "Sung Ye-won",
+    "CookBonus": {
+      "OriginItemId": 108856,
+      "ItemId": 108889,
+      "InputList": [
+        101264,
+        110001,
+        100062,
+        110015
+      ]
+    },
     "Fetters": [
       {
         "Title": "Presentazione",
@@ -830,7 +840,7 @@
       },
       {
         "Title": "Qualcosa da condividere",
-        "Context": "Se configuri una macchina con un obiettivo specifico, lo raggiungerà efficacemente. Ma gli umani sono diversi... Per esempio, perché alcune persone affermano di voler tenere sotto controllo il loro peso, ma continuano a consumare calorie in eccesso? Aino lo spiega così: gli spuntini migliorano l'umore e forniscono energia. Si ha bisogno di molta energia per esercitarsi intensamente, e l'esercizio fisico aiuta a tenere sotto controllo il peso. La conclusione logica è che bisogna consumare più spuntini per tenere sotto controllo il peso... Tuttavia, quando cerco di calcolare il suo apporto e consumo calorico, lei cambia discorso prima che riesca mostrarle i risultati. Che peccato."
+        "Context": "Se configuri una macchina con un obiettivo specifico, lo raggiungerà efficacemente. Ma gli umani sono diversi... Per esempio, perché alcune persone affermano di voler tenere sotto controllo il loro peso, ma continuano a consumare calorie in eccesso? Aino lo spiega così: gli spuntini migliorano l'umore e forniscono energia. Si ha bisogno di molta energia per esercitarsi intensamente, e l'esercizio fisico aiuta a tenere sotto controllo il peso. La conclusione logica è che bisogna consumare più spuntini per tenere sotto controllo il peso... Tuttavia, quando cerco di calcolare il suo apporto e consumo calorico, lei cambia discorso prima che riesca a mostrarle i risultati. Che peccato."
       },
       {
         "Title": "Curiosità",
@@ -842,7 +852,7 @@
       },
       {
         "Title": "A proposito di Aino: Domande",
-        "Context": "???"
+        "Context": "Aino una volta mi ha fatto una domanda insolita... Forse perché aveva notato che la mia intelligenza era superiore a quella che aveva previsto. Comunque, la domanda era: \"Se un giorno ti rendessi conto di volerti trovare altrove, dovrei lasciarti andare ed essere felice per te?\" Percependo una certa emozione dietro alle sue parole, le ho risposto: \"Se mai dovessi lasciarti, la nostra casa diventerebbe una discarica nel giro di tre mesi. Quindi cercherei di tornare entro quel lasso di tempo.\"\nRipensandoci... solo ora capisco che quello che provava era tristezza. Non voleva che me ne andassi."
       },
       {
         "Title": "A proposito di Jahoda",
@@ -858,7 +868,7 @@
       },
       {
         "Title": "A proposito di Lauma",
-        "Context": "Lauma è l'Emissaria Cantaluna degli Eredi della Luna gelata. Secondo le valutazioni dei suoi concittadini, è una figura saggia e santa, molto rispettata dalla comunità. Gli Eredi della Luna gelata venerano la Dea della luna... Mi chiedo se ci sia un qualche collegamento tra quest'ultima e l'esistenza del Disco lunare."
+        "Context": "Lauma è la Cantaluna degli Eredi della Luna gelata. Secondo le valutazioni dei suoi concittadini, è una figura saggia e santa, molto rispettata dalla comunità. Gli Eredi della Luna gelata venerano la Dea della luna... Mi chiedo se ci sia un qualche collegamento tra quest'ultima e l'esistenza del Disco lunare."
       },
       {
         "Title": "A proposito di Linnea",
@@ -1044,7 +1054,7 @@
     "FetterStories": [
       {
         "Title": "Informazioni sul personaggio",
-        "Context": "#In merito alle forme di vita meccaniche e alla loro \"percezione di sé stesse\", una volta uno studioso propose il seguente esperimento mentale: supponiamo che le parti di una macchina invecchino e vengano sostituite ogni giorno. Dopo qualche tempo, verrebbero sostituite tutte, e non ne resterebbe più nessuna di quelle originali. In questi termini, sarebbe possibile affermare che si tratta ancora della stessa macchina?\nQuesta domanda non sembra aver mai preoccupato troppo Ineffa: non importa quante volte il suo rivestimento esterno o i suoi componenti vengano sostituiti, il suo \"nucleo\" rimane sempre lo stesso. E il nucleo di Ineffa, di fatto, costituisce la sua casa.\nMa cosa succederebbe se il suo nucleo venisse rimosso in qualche modo? Quale parte la rappresenterebbe, allora? Sebbene la creatrice di Ineffa non possieda ancora l'abilità tecnica necessaria, poter aprire il nucleo di Ineffa per analizzarlo è una cosa che ha sempre desiderato fare. Ciononostante, per paura di farle del male, non ci ha mai provato.\nSe la sua percezione di sé viene definita dalla logica e dai ricordi racchiusi all'interno del suo nucleo, allora non avrebbe dovuto iniziare a trasformarsi e disorientarsi quando la sua memoria è scomparsa per poi ricomparire, come gli ipotetici componenti sostituiti del suddetto esperimento mentale?\nForse, Ineffa ha potuto rivolgersi a un arbitro esterno per definire la propria percezione di sé... come agli amici rimasti incondizionatamente al suo fianco, nonostante i possibili cambiamenti.\nPer esempio, {F#la cavaliere eroica}{M#il cavaliere eroico} che le ha detto: \"Sei la domestica più scrupolosa che abbia mai conosciuto... Beh, la seconda, in realtà!\"\nOppure la cacciatrice di taglie che le ha ripetuto varie volte: \"Tu... sei probabilmente la migliore pasticciera di tutta Nod-Krai... O almeno la migliore pasticciera robot!\"\nO ancora, la giovane e geniale meccanica che l'ha creata? \"Siamo una famiglia! Ricordati di tornare a casa!\"\nDi conseguenza, nonostante gli eventuali stati di confusione o di perdita di memoria, Ineffa è sempre stata certa di una cosa:\n\"Mi chiamo Ineffa, sono un robot multifunzione per l'impiego domestico; e sono tua amica\"."
+        "Context": "#In merito alle forme di vita meccaniche e alla loro \"percezione di sé stesse\", una volta uno studioso propose il seguente esperimento mentale: supponiamo che le parti di una macchina invecchino e vengano sostituite ogni giorno. Dopo qualche tempo, verrebbero sostituite tutte, e non ne resterebbe più nessuna di quelle originali. In questi termini, sarebbe possibile affermare che si tratta ancora della stessa macchina?\nQuesta domanda non sembra aver mai preoccupato troppo Ineffa: non importa quante volte il suo rivestimento esterno o i suoi componenti vengano sostituiti, il suo \"nucleo\" rimane sempre lo stesso. E il nucleo di Ineffa, di fatto, costituisce la sua casa.\nMa cosa succederebbe se il suo nucleo venisse rimosso in qualche modo? Quale parte la rappresenterebbe, allora? Sebbene la creatrice di Ineffa non possieda ancora l'abilità tecnica necessaria, poter aprire il nucleo di Ineffa per analizzarlo è una cosa che ha sempre desiderato fare. Ciononostante, per paura di farle del male, non ci ha mai provato.\nSe la sua percezione di sé viene definita dalla logica e dai ricordi racchiusi all'interno del suo nucleo, allora non avrebbe dovuto iniziare a trasformarsi e disorientarsi quando la sua memoria è scomparsa per poi ricomparire, come gli ipotetici componenti sostituiti del suddetto esperimento mentale?\nForse, Ineffa ha potuto rivolgersi a un arbitro esterno per definire la propria percezione di sé... come agli amici rimasti incondizionatamente al suo fianco, nonostante i possibili cambiamenti.\nPer esempio, {F#la cavaliere eroica}{M#il cavaliere eroico} che le ha detto: \"Sei la domestica più scrupolosa che abbia mai conosciuto... Beh, la seconda, in realtà!\"\nOppure la cacciatrice di taglie che le ha ripetuto varie volte: \"Tu... sei probabilmente la migliore pasticciera di tutta Nod-Krai... O almeno la migliore pasticciera robot!\"\nO ancora, la giovane meccanica prodigio che l'ha creata? \"Siamo una famiglia! Ricordati di tornare a casa!\"\nDi conseguenza, nonostante gli eventuali stati di confusione o di perdita di memoria, Ineffa è sempre stata certa di una cosa:\n\"Mi chiamo Ineffa, sono un robot multifunzione per l'impiego domestico; e sono tua amica\"."
       },
       {
         "Title": "Storia del personaggio (1)",
@@ -1072,7 +1082,7 @@
       },
       {
         "Title": "Disco lunare",
-        "Context": "Discorso intorno agli oggetti rituali di Niflheim e alla ricerca sui desideri\n...\n...Il Servitore della Fonte inviato ha recuperato il campione sospetto dai resti degli umani che responsabili dei disordini a Ek' Pulinik. Secondo gli abitanti del posto, i mercanti provenienti da oltre Natlantea definiscono il campione come \"Visione\"...\n...Riguardo ai suoi princìpi di funzionamento, ho discusso brevemente della questione con la Terza Signora, la quale ha avanzato un'ipotesi interessante: questo campione potrebbe essere in qualche modo collegato agli oggetti rituali di Niflheim...\n...Ricorrendo a particolari metodi, sono riuscita ad acquisire un \"Disco lunare\" funzionante (uno degli oggetti rituali di Niflheim o, a onor di precisione, un gingillo donato dai traditori ai loro seguaci umani per consentire a questi ultimi di comunicare)... Analogamente alla saggezza donata dal nostro sovrano, il Disco lunare si basa su una forma più pura di potere, e non sull'impura energia elementale dell'usurpatore...\n...\n...Ulteriori esperimenti hanno verificato l'ipotesi della Terza Signora. Proprio come per gli oggetti rituali del Nord, questa \"Visione\" è formata dalla materia dell'anima. Teoricamente parlando [...] viene fissata attraverso i desideri, prendendo così in prestito [...] per evocare il potere elementale...\nÈ per questo che ultimamente le Visioni sono comparse insieme ai desideri degli umani?\n...CL-08 Ix Ajkotz'i'j Iq'ismal Waxak Ch'ule-L\n...\n\"...Essendo il nucleo alimentato dal Flogisto, possiamo usare la medesima fonte di energia per controllarlo. In tal caso, secondo le ricerche della Sacerdotessa, questo dispositivo potrebbe adattarsi meglio alle nostre esigenze... Tuttavia...\"\nIxquieh osservò la gemma nella mano di Lianca, corrugando leggermente la fronte.\n\"Vuoi davvero usarlo su di lei? Apparteneva a tua madre...\"\nLianca accarezzò la gemma, fornendo la sua risposta.\n\"...È solo uno dei tanti oggetti delle sue ricerche. Non pensarci troppo. In fondo, non è la cosa più preziosa che abbia lasciato mia madre, così come non lo è Spezzacatene...\"\nQuella gemma, che aveva assistito al passaggio di innumerevoli anni, brillava intensamente nella mano di Lianca, come l'occhio inestinguibile di un drago.\n\"Era il suo 'desiderio' che io seguissi questo cammino.\""
+        "Context": "Discorso intorno agli oggetti rituali di Nephilheim e alla ricerca sui desideri\n...\n...Il Servitore della Fonte inviato ha recuperato il campione sospetto dai resti degli umani che responsabili dei disordini a Ek' Pulinik. Secondo gli abitanti del posto, i mercanti provenienti da oltre Natlantea definiscono il campione come \"Visione\"...\n...Riguardo ai suoi princìpi di funzionamento, ho discusso brevemente della questione con la Terza Signora, la quale ha avanzato un'ipotesi interessante: questo campione potrebbe essere in qualche modo collegato agli oggetti rituali di Nephilheim...\n...Ricorrendo a particolari metodi, sono riuscita ad acquisire un \"Disco lunare\" funzionante (uno degli oggetti rituali di Nephilheim o, a onor di precisione, un gingillo donato dai traditori ai loro seguaci umani per consentire a questi ultimi di comunicare)... Analogamente alla saggezza donata dal nostro sovrano, il Disco lunare si basa su una forma più pura di potere, e non sull'impura energia elementale dell'usurpatore...\n...\n...Ulteriori esperimenti hanno verificato l'ipotesi della Terza Signora. Proprio come per gli oggetti rituali del Nord, questa \"Visione\" è formata dalla materia dell'anima. Teoricamente parlando [...] viene fissata attraverso i desideri, prendendo così in prestito [...] per evocare il potere elementale...\nÈ per questo che ultimamente le Visioni sono comparse insieme ai desideri degli umani?\n...CL-08 Ix Ajkotz'i'j Iq'ismal Waxak Ch'ule-L\n...\n\"...Essendo il nucleo alimentato dal Flogisto, possiamo usare la medesima fonte di energia per controllarlo. In tal caso, secondo le ricerche della Sacerdotessa, questo dispositivo potrebbe adattarsi meglio alle nostre esigenze... Tuttavia...\"\nIxquieh osservò la gemma nella mano di Lianca, corrugando leggermente la fronte.\n\"Vuoi davvero usarlo su di lei? Apparteneva a tua madre...\"\nLianca accarezzò la gemma, fornendo la sua risposta.\n\"...È solo uno dei tanti oggetti delle sue ricerche. Non pensarci troppo. In fondo, non è la cosa più preziosa che abbia lasciato mia madre, così come non lo è Spezzacatene...\"\nQuella gemma, che aveva assistito al passaggio di innumerevoli anni, brillava intensamente nella mano di Lianca, come l'occhio inestinguibile di un drago.\n\"Era il suo 'desiderio' che io seguissi questo cammino.\""
       }
     ]
   },

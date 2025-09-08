@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Electrosurge</color>",
-    "Description": "DMG dealt by <color=#f39001>Electro-Charged reactions</color> triggered by party members is increased by <color=#f39001>250%</color>"
+    "Description": "DMG dealt by <color=#f39001>Electro-Charged reactions</color> triggered by party members is increased by <color=#f39001>250%</color>, while party members' <color=#f39001>Lunar-Charged</color> DMG is increased by <color=#f39001>70%</color>"
   },
   {
     "Id": 211102,
@@ -328,5 +328,45 @@
     "Id": 11160001,
     "Name": "Birgitta",
     "Description": "Ineffa's assistant and companion in battle, she can be summoned to the battlefield via Elemental Skill or Elemental Burst.\nIf there are opponents nearby, Birgitta will quickly move close to an opponent and unleash Discharge attacks every 2s, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\nOnly one Birgitta that has been summoned by Ineffa herself can exist at any one time.\n\nAdditionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means..."
+  },
+  {
+    "Id": 11190001,
+    "Name": "Frostgrove Sanctuary",
+    "Description": "A magical array that protects the Moonchanters and can be summoned by using the Elemental Skill <color=#FFD780FF>Runo: Dawnless Rest of Karsikko</color>.\nThe Frostgrove Sanctuary will follow the active character, dealing a single instance of <color=#99FF88FF>AoE Dendro DMG</color> to opponents within the array every 2s. This DMG is considered Elemental Skill DMG."
+  },
+  {
+    "Id": 11190002,
+    "Name": "Moon Song",
+    "Description": "A melody used to weave together hymns. When an Elemental Burst is used, or for a period of time after an Elemental Burst has been used, it can be converted into Pale Hymn stacks that increase the DMG from Bloom, Hyperbloom, Burgeon, and Lunar-Bloom reactions.\nWhen Lauma consumes Verdant Dew to perform the Hold version of her Elemental Skill <color=#FFD780FF>Runo: Dawnless Rest of Karsikko</color>, each Verdant Dew consumed will provide Lauma with 1 stack of Moon Song."
+  },
+  {
+    "Id": 11190003,
+    "Name": "Pale Hymn",
+    "Description": "A hymn passed down by generations of Moonchanters that increases the DMG dealt by Bloom, Hyperbloom, Burgeon, and Lunar-Bloom reactions.\n\nLauma can gain Pale Hymn stacks in the following ways:\n· When using her Elemental Burst <color=#FFD780FF>Runo: All Hearts Become the Beating Moon</color>.\n· When consuming Moon Song stacks due to using her Elemental Burst <color=#FFD780FF>Runo: All Hearts Become the Beating Moon</color>.\n· When the Frostgrove Sanctuary triggers the effect of her Constellation <color=#FFD780FF>\"I Offer Blood and Tears to the Moonlight\"</color>.\n\nWhen party members deal Bloom, Hyperbloom, Burgeon, or Lunar-Bloom DMG, 1 stack of Pale Hymn will be consumed and the DMG dealt will be increased based on Lauma's Elemental Mastery. If this DMG hits multiple opponents at once, then multiple stacks of Pale Hymn will be consumed, depending on how many opponents are hit.\nThe duration for each stack of Pale Hymn is counted independently."
+  },
+  {
+    "Id": 11190004,
+    "Name": "Dusktide Vigil",
+    "Description": "Bloom, Hyperbloom, and Burgeon DMG dealt by party members can score CRIT Hits, with CRIT Rate fixed at {PARAM#P1192101|1S100}%, and CRIT DMG fixed at {PARAM#P1192101|2S100}%. CRIT Rate from this effect stacks with CRIT Rate from similar effects that allow these Elemental Reactions to CRIT."
+  },
+  {
+    "Id": 11190005,
+    "Name": "Moonlight Prayer",
+    "Description": "Party members' Lunar-Bloom DMG CRIT Rate +{PARAM#P1192101|3S100}%, CRIT DMG +{PARAM#P1192101|4S100}%"
+  },
+  {
+    "Id": 11190007,
+    "Name": "Elevation",
+    "Description": "Special DMG Boost effect. It is calculated independently of other DMG Boost effects."
+  },
+  {
+    "Id": 11190008,
+    "Name": "Verdant Dew",
+    "Description": "When party members trigger Lunar-Bloom reactions, the party will receive such a resource.\nYour party will receive 1 Verdant Dew every 2.5s for 2.5s after triggering a Lunar-Bloom reaction. Your party can have up to 3 Verdant Dew. If you trigger another Lunar-Bloom reaction during this time, the duration of this effect will be reset."
+  },
+  {
+    "Id": 11200001,
+    "Name": "Thunderous Symphony",
+    "Description": "Consume less Elemental Energy to unleash a special Elemental Burst. Flins deals a single instance of <color=#FFACFFFF>AoE Electro DMG</color>. This DMG is considered Lunar-Charged DMG.\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: If there are thunderclouds nearby, Flins will deal 1 additional instance of <color=#FFACFFFF>AoE Electro DMG</color>. This DMG is considered Lunar-Charged DMG."
   }
 ]

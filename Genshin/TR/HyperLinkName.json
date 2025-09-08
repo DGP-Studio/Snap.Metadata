@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Elektrik Akımı</color>",
-    "Description": "Grup üyelerinin tetiklediği <color=#f39001>Elektrik Yüklü</color> tepkimelerinin verdiği Hasar <color=#f39001>%250</color> artar."
+    "Description": "Grup üyelerinin tetiklediği <color=#f39001>Elektrik Yüklü tepkimelerinin</color> verdiği Hasar <color=#f39001>%250</color> artar, grup üyelerinin verdiği <color=#f39001>Ay Yüklü</color> Hasarı ise <color=#f39001>%70</color> artar."
   },
   {
     "Id": 211102,
@@ -328,5 +328,45 @@
     "Id": 11160001,
     "Name": "Birgitta",
     "Description": "Ineffa'nın asistanı ve savaştaki yoldaşı. Element Becerisi veya Element Patlamasını kullanarak savaş alanına çağrılabilir.\nEğer yakınlarda düşmanlar varsa Birgitta hızla bir düşmana yaklaşır ve her 2 saniyede bir Elektrik Akımı saldırısı yaparak <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir.\nAlanda aynı anda Ineffa tarafından çağrılan yalnızca bir tane Birgitta var olabilir.\n\nAyrıca Nod-Krai'da iken çeşitli yöntemlerle Birgitta'nın görünüşünü değiştirmek mümkün olacak gibi görünüyor..."
+  },
+  {
+    "Id": 11190001,
+    "Name": "Donuk Koru Mabedi",
+    "Description": "<color=#FFD780FF>Runo: Karsikko'nun Şafaksız İstirahati</color> Element Becerisi kullanılarak çağrılabilen, Ay İlahicilerini koruyan bir büyü dizilimi.\nDonuk Koru Mabedi aktif karakteri takip eder ve dizilimin içindeki düşmanlara her 2 saniyede bir <color=#99FF88FF>Doğa Alan Hasarı</color> verir. Bu Hasar, Element Becerisi Hasarı sayılır."
+  },
+  {
+    "Id": 11190002,
+    "Name": "Ay Ezgisi",
+    "Description": "İlahileri birbirine dokuyarak birleştiren bir melodi. Element Patlaması kullanıldığında veya kullanıldıktan sonra bir süre boyunca Çiçeklenme, Aşırı Çiçeklenme, Filizlenme ve Ay Çiçeklenmesi Hasarlarını artıran Solgun İlahi kademelerine dönüştürülebilir.\nLauma, <color=#FFD780FF>Runo: Karsikko'nun Şafaksız İstirahati</color> Element Becerisinin Basılı Tutma halini gerçekleştirmek için Taze Çiy tükettiğinde, tüketilen her Taze Çiy başına 1 Ay Ezgisi kademesi kazanır."
+  },
+  {
+    "Id": 11190003,
+    "Name": "Solgun İlahi",
+    "Description": "Çiçeklenme, Aşırı Çiçeklenme, Filizlenme ve Ay Çiçeklenmesi tepkimelerinin verdiği Hasarı artıran, Ay İlahicilerinin nesilden nesile aktardığı bir ilahi.\n\nLauma şu yollarla Solgun İlahi kademesi kazanabilir:\n·<color=#FFD780FF>Runo: Ay İle Çarpan Kalpler</color> Element Patlamasını kullandığında.\n<color=#FFD780FF>Runo: Ay İle Çarpan Kalpler</color> Element Patlamasını kullanması sonucu Ay Ezgisi kademelerini tükettiğinde.\n·Donuk Koru Mabedi, <color=#FFD780FF>\"Kanımı ve Terimi Ay Işığına Adarım\"</color> Takımyıldız etkisini tetiklediğinde.\n\nGrup üyeleri Çiçeklenme, Aşırı Çiçeklenme, Filizlenme veya Ay Çiçeklenmesi Hasarı verdiğinde 1 kademe Solgun İlahi tüketilir ve verilen Hasar, Lauma'nın Element Ustalığına göre artar. Birden fazla düşmana aynı anda Hasar verilmesi halinde, vurulan düşman sayısına bağlı olarak birden fazla Solgun İlahi kademesi tüketilir.\nHer Solgun İlahi kademesinin süresi ayrı hesaplanır."
+  },
+  {
+    "Id": 11190004,
+    "Name": "Alacakaranlık Nöbeti",
+    "Description": "Grup üyelerinin verdiği Çiçeklenme, Aşırı Çiçeklenme ve Filizlenme Hasarları Kritik Vuruş gerçekleştirebilir. Kritik Oranı %{PARAM#P1192101|1S100}, Kritik Hasarı %{PARAM#P1192101|2S100} olarak sabittir. Bu etkiden alınan Kritik Oranı, bu Element Tepkimelerinin Kritik Vuruş yapmasını sağlayan diğer benzer etkilerden alınan Kritik Oranları ile birikir."
+  },
+  {
+    "Id": 11190005,
+    "Name": "Mehtap Duası",
+    "Description": "Grup üyelerinin Ay Çiçeklenmesi Kritik Oranı %{PARAM#P1192101|3S100} artar, Kritik Hasarı ise %{PARAM#P1192101|4S100} artar."
+  },
+  {
+    "Id": 11190007,
+    "Name": "Yükselme",
+    "Description": "Özel Hasar Artışı etkisi. Diğer Hasar Artış etkilerinden bağımsız olarak hesaplanır."
+  },
+  {
+    "Id": 11190008,
+    "Name": "Taze Çiy",
+    "Description": "Grup üyeleri Ay Çiçeklenmesi tepkimeleri tetiklediğinde bu kaynak kazanılır.\nGrubun bir Ay Çiçeklenmesi tetikledikten sonra 2,5sn boyunca, her 2,5 saniyede bir 1 Taze Çiy elde eder. Grubunun en fazla 3 Taze Çiyi olabilir. Bu süre içerisinde başka bir Ay Çiçeklenmesi tepkimesi tetiklediğinde bu etkinin süresi sıfırlanır."
+  },
+  {
+    "Id": 11200001,
+    "Name": "Gürleyen Senfoni",
+    "Description": "Daha az Element Enerjisi tüketerek özel bir Element Patlaması gerçekleştirir. Flins tek bir sefer <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir. Bu Hasar, Ay Yüklü Hasarı olarak kabul edilir.\n<color=#FFD780FF>Ay Sembolü: Yükselen Parıltı</color>: Yakınlarda Şimşek Bulutları olduğunda fazladan 1 sefer daha <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir. Bu Hasar da Ay Yüklü Hasarı sayılır."
   }
 ]

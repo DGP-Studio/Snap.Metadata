@@ -112,7 +112,7 @@
   {
     "Id": 211101,
     "Name": "<color=#f39001>Voltaje</color>",
-    "Description": "Aumenta en un <color=#f39001>250%</color> el daño infligen todos los miembros del equipo con la <color=#f39001>reacción de Electrocargado</color>."
+    "Description": "Aumenta en un <color=#f39001>250%</color> el daño infligido por la <color=#f39001>reacción de Electrocargado</color> de todos los miembros del equipo, y en un <color=#f39001>70%</color> el daño que infligen con la <color=#f39001>reacción de Electrocargado Lunar</color>."
   },
   {
     "Id": 211102,
@@ -328,5 +328,45 @@
     "Id": 11160001,
     "Name": "Birgitta",
     "Description": "#Una ayudante que combate junto a Ineffa y que se puede invocar con la Habilidad Elemental o la Habilidad Definitiva.\nSi en las cercanías hay algún enemigo, cada 2{NON_BREAK_SPACE}s, Birgitta se moverá rápidamente hasta cerca de él para ejecutar un ataque electrizador que inflige <color=#FFACFFFF>Daño Electro en el AdE</color>.\nSolo puede haber al mismo tiempo una Birgitta creada por Ineffa.\n\nAdemás, en Nod Krai, parece que será posible cambiar el aspecto de Birgitta de cierta manera..."
+  },
+  {
+    "Id": 11190001,
+    "Name": "Santuario bosquescarcha",
+    "Description": "#Un encantamiento que protege a la Cantalunas y que puede invocarse por medio de la Habilidad Elemental, <color=#FFD780FF>Runo: Reposo sin alba del Karsikko</color>.\nEl santuario bosquescarcha seguirá al personaje en uso e infligirá <color=#99FF88FF>Daño Dendro en el AdE</color> cada 2{NON_BREAK_SPACE}s a los enemigos que se encuentren dentro del área del hechizo. Esto se considera daño de Habilidad Elemental."
+  },
+  {
+    "Id": 11190002,
+    "Name": "Cántico lunar",
+    "Description": "Una melodía empleada para entretejer letanías. Al usar la Habilidad Definitiva o durante un breve periodo después de usarla, podrá convertirse en una letanía albar que mejora el daño de las reacciones de Florecimiento, Sobreflorecimiento, Crepitar y Florecimiento Lunar.\nCuando Lauma consuma rocío de la espesura para liberar la Habilidad Elemental, <color=#FFD780FF>Runo: Reposo sin alba del Karsikko</color>, manteniéndola pulsada, obtendrá 1 cántico lunar por cada gota de rocío de la espesura consumida."
+  },
+  {
+    "Id": 11190003,
+    "Name": "Letanía albar",
+    "Description": "Una letanía transmitida de generación en generación entre las Cantalunas, capaz de aumentar el daño infligido por las reacciones de Florecimiento, Sobreflorecimiento, Crepitar y Florecimiento Lunar.\n\nLauma puede obtener la letanía albar de las siguientes formas:\n·Al usar la Habilidad Definitiva, <color=#FFD780FF>Runo: Luna de mil corazones</color>.\n·Al activarse el efecto de consumo de cánticos lunares de su Habilidad Definitiva, <color=#FFD780FF>Runo: Luna de mil corazones</color>.\n·Al activarse el efecto de santuario bosquescarcha de la constelación <color=#FFD780FF>“Ofrezco mi sangre y mis lágrimas a la luna”</color>.\n\nCuando un personaje del equipo inflija daño a través de las reacciones de Florecimiento, Sobreflorecimiento, Crepitar o Florecimiento Lunar, se consumirá 1 carga de letanía albar para aumentar el daño infligido en función de la Maestría Elemental de Lauma. Si dicho daño golpea a varios enemigos a la vez, se consumirán cargas según el número de enemigos golpeados.\nCada carga de letanía albar tiene su propia duración individual."
+  },
+  {
+    "Id": 11190004,
+    "Name": "Cantar crepuscular",
+    "Description": "El daño infligido por las reacciones de Florecimiento, Sobreflorecimiento y Crepitar causadas por los personajes del equipo puede asestar golpes CRIT, con una Prob. CRIT fija del {PARAM#P1192101|1S100}% y un Daño CRIT fijo del {PARAM#P1192101|2S100}%. La Prob. CRIT otorgada por este efecto puede acumularse con otras bonificaciones similares que proporcionen Prob. CRIT a dichas reacciones."
+  },
+  {
+    "Id": 11190005,
+    "Name": "Himno fulgorlunar",
+    "Description": "La Prob. CRIT y el Daño CRIT de las reacciones de Florecimiento Lunar causadas por los personajes del equipo aumentan en un {PARAM#P1192101|3S100}% y en un {PARAM#P1192101|4S100}% respectivamente."
+  },
+  {
+    "Id": 11190007,
+    "Name": "Ascenso",
+    "Description": "Efecto especial de aumento de daño que se calcula de forma independiente con respecto a otros efectos de aumento de daño."
+  },
+  {
+    "Id": 11190008,
+    "Name": "Rocío de la espesura",
+    "Description": "#El equipo obtendrá este recurso cuando un personaje del mismo cause una reacción de Florecimiento Lunar.\nTras causar una reacción de Florecimiento Lunar, el equipo recibirá una gota de rocío de la espesura cada 2.5{NON_BREAK_SPACE}s durante 2.5{NON_BREAK_SPACE}s. Se podrá acumular un máximo de 3 gotas de rocío de la espesura a la vez. Si se causa otra reacción de Florecimiento Lunar durante este tiempo, la duración del efecto se reiniciará."
+  },
+  {
+    "Id": 11200001,
+    "Name": "Sinfonía del trueno",
+    "Description": "Gasta menos Energía Elemental para usar la Habilidad Definitiva especial. Flins inflige 1 golpe de <color=#FFACFFFF>Daño Electro en el AdE</color> considerado como daño de Electrocargado Lunar.\n<color=#FFD780FF>Presagio lunar: resplandor ascendente</color> - Si hay alguna nube de tormenta en las cercanías, inflige 1 golpe más de <color=#FFACFFFF>Daño Electro en el AdE</color> considerado como daño de Electrocargado Lunar."
   }
 ]

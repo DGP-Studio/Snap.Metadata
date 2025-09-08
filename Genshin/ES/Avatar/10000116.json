@@ -669,7 +669,7 @@
         },
         "Id": 1162301,
         "Name": "Bendición presagiolunar: Repetidor simulado",
-        "Description": "Cuando un personaje del equipo cause una reacción de Electrocargado, esta se transformará en una reacción de Electrocargado Lunar cuyo daño base aumentará en un 0.7% por cada 100 pts. de ATQ que tenga Ineffa. Como máximo, dicho daño puede aumentar en un 14% de esta manera.\n\nEs posible que haya bendiciones adicionales cuando salga la luna nueva...",
+        "Description": "#Cuando un personaje del equipo cause una reacción de Electrocargado, esta se transformará en una reacción de Electrocargado Lunar cuyo daño base aumentará en un 0.7% por cada 100{NON_BREAK_SPACE}pts. de ATQ que tenga Ineffa. Como máximo, dicho daño puede aumentar en un 14% de esta manera.\n\nAdemás, cuando Ineffa esté en el equipo, el nivel de <color=#FFD780FF>presagio lunar</color> de los personajes aumentará en{NON_BREAK_SPACE}1.",
         "Icon": "UI_Talent_S_Ineffa_07"
       },
       {
@@ -751,6 +751,16 @@
     "CvJapanese": "中島愛",
     "CvEnglish": "Angelina Danielle Cama",
     "CvKorean": "Sung Ye-won",
+    "CookBonus": {
+      "OriginItemId": 108856,
+      "ItemId": 108889,
+      "InputList": [
+        101264,
+        110001,
+        100062,
+        110015
+      ]
+    },
     "Fetters": [
       {
         "Title": "Hola...",
@@ -842,15 +852,15 @@
       },
       {
         "Title": "Sobre Aino - Preguntas",
-        "Context": "¿?"
+        "Context": "Una vez, Aino se dio cuenta de que mi rendimiento cognitivo superaba con creces sus expectativas, así que no pudo evitar preguntarme: “Si algún día te das cuenta de que preferirías estar en otro sitio, ¿debería dejarte ir y alegrarme por ti?”. Detecté una agitación inusual en su estado de ánimo, así que le respondí: “Si no estoy contigo, nuestra casa se convertirá en un vertedero en tan solo tres meses. Haré todo lo posible para volver antes de eso”.\nPensándolo con perspectiva... ahora sé que lo que sentía en ese momento era reticencia a separarse de mí."
       },
       {
         "Title": "Sobre Jahoda...",
         "Context": "Jahoda es una cazarrecompensas legendaria conocida por todos que cuenta con un historial de batalla excepcional... O eso dice. La primera vez que visitó el taller de Aino estaba extremadamente nerviosa, y pensó que el krumkake que acababa de preparar yo era un arma, así que lo cortó en dos de un tajo. Sin embargo, tras probarlo, sus músculos se relajaron por completo. Después de eso, vino a visitarnos frecuentemente cargada de componentes mecánicos. Incluso cuando no viene a realizar ninguna transacción, da la casualidad de que pasa por allí justo cuando acabo de preparar mis postres... O eso dice."
       },
       {
-        "Title": "Sobre Nefer...",
-        "Context": "Nefer es la dueña de la Cámara de Secretos. Ella conoce multitud de historias, y no solo del pasado, sino también de lo que está ocurriendo en la actualidad. Incluso hay quienes dicen que el futuro tampoco escapa a su control. Su mente debe de ser una base de datos formidable."
+        "Title": "Sobre Néfer...",
+        "Context": "Néfer es la dueña de la Cámara de Secretos. Ella conoce multitud de historias, y no solo del pasado, sino también de lo que está ocurriendo en la actualidad. Incluso hay quienes dicen que el futuro tampoco escapa a su control. Su mente debe de ser una base de datos formidable."
       },
       {
         "Title": "Sobre Flins...",
@@ -1072,7 +1082,7 @@
       },
       {
         "Title": "Disco Lunar",
-        "Context": "«Sobre los objetos rituales de Niflheim y la investigación de los deseos»\n...\n... El dragosirviente ha recuperado la muestra sospechosa de los restos de los humanos que instigaron la revuelta en Ek' Pulinik. Según los sujetos locales, los mercaderes de más allá de Natlantia conocen la muestra con el nombre de “Visión”...\n... En cuanto a sus principios de funcionamiento, he discutido el asunto brevemente con la número tres, quien ha propuesto una hipótesis de lo más intrigante. Piensa que la muestra podría guardar algún tipo de relación con los objetos rituales de Niflheim...\n... Haciendo uso de ciertos métodos, me he asegurado la adquisición de un Disco Lunar en funcionamiento (uno de los objetos rituales de Niflheim, o para ser más específicos, un juguete entregado por las tres traidoras a sus seguidores humanos para que puedan comunicarse con ellas)... Al igual que la sabiduría de los soberanos, el Disco Lunar depende de una forma de poder mucho más pura, y no de la energía elemental contaminada de los usurpadores...\n...\n... Experimentos posteriores han verificado la hipótesis de la número tres. Al igual que los objetos rituales del norte, esta “Visión” obtiene su poder del alma. En teoría, (...) está anclado a los deseos, de donde toma prestado (...) para convocar el poder elemental...\n¿Es ese el motivo por el que las Visiones han estado apareciendo recientemente acompañadas de los deseos de las personas?\n... CL-08 Ix Ajkotz'i'j Iq'ismal Waxak Ch'ule-L\n...\n“... Ya que el núcleo es propulsado con flogisto, podríamos usar esa misma energía para controlarlo. En ese caso, la investigación de la sacerdotisa parece indicar que esto sería más adecuado... Aunque...”.\nIxquieh observó la gema que sostenía Lianca en la mano, frunciendo el ceño ligeramente.\n“¿Seguro que quieres que use esto? Al fin y al cabo, le perteneció a tu madre...”\nLianca acarició la gema y dio su respuesta.\n“Solo es uno de sus muchos objetos de investigación. No tiene importancia. Además, lo más preciado que me dejó mi madre no fue esto, ni el Rompecadenas...”\nAquella gema, que había sido testigo del paso de los años, brilló sobre la mano de Lianca como el ojo de un dragón inextinguible.\n“... Fue su ‘deseo’ de que continuara este camino”."
+        "Context": "«Sobre los objetos rituales de Nefilheim y la investigación de los deseos»\n...\n... El dragosirviente ha recuperado la muestra sospechosa de los restos de los humanos que instigaron la revuelta en Ek' Pulinik. Según los sujetos locales, los mercaderes de más allá de Natlantia conocen la muestra con el nombre de “Visión”...\n... En cuanto a sus principios de funcionamiento, he discutido el asunto brevemente con la número tres, quien ha propuesto una hipótesis de lo más intrigante. Piensa que la muestra podría guardar algún tipo de relación con los objetos rituales de Nefilheim...\n... Haciendo uso de ciertos métodos, me he asegurado la adquisición de un Disco Lunar en funcionamiento (uno de los objetos rituales de Nefilheim, o para ser más específicos, un juguete entregado por las tres traidoras a sus seguidores humanos para que puedan comunicarse con ellas)... Al igual que la sabiduría de los soberanos, el Disco Lunar depende de una forma de poder mucho más pura, y no de la energía elemental contaminada de los usurpadores...\n...\n... Experimentos posteriores han verificado la hipótesis de la número tres. Al igual que los objetos rituales del norte, esta “Visión” obtiene su poder del alma. En teoría, (...) está anclado a los deseos, de donde toma prestado (...) para convocar el poder elemental...\n¿Es ese el motivo por el que las Visiones han estado apareciendo recientemente acompañadas de los deseos de las personas?\n... CL-08 Ix Ajkotz'i'j Iq'ismal Waxak Ch'ule-L\n...\n“... Ya que el núcleo es propulsado con flogisto, podríamos usar esa misma energía para controlarlo. En ese caso, la investigación de la sacerdotisa parece indicar que esto sería más adecuado... Aunque...”.\nIxquieh observó la gema que sostenía Lianca en la mano, frunciendo el ceño ligeramente.\n“¿Seguro que quieres que use esto? Al fin y al cabo, le perteneció a tu madre...”\nLianca acarició la gema y dio su respuesta.\n“Solo es uno de sus muchos objetos de investigación. No tiene importancia. Además, lo más preciado que me dejó mi madre no fue esto, ni el Rompecadenas...”\nAquella gema, que había sido testigo del paso de los años, brilló sobre la mano de Lianca como el ojo de un dragón inextinguible.\n“... Fue su ‘deseo’ de que continuara este camino”."
       }
     ]
   },

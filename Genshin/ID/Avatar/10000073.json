@@ -779,7 +779,7 @@
       {
         "Id": 732,
         "Name": "The Root of All Fullness",
-        "Description": "Musuh yang berada dalam status <color=#FFD780FF>Seed of Skandha</color> yang diberikan oleh Nahida akan mendapatkan pengaruh efek sebagai berikut:\n·DMG reaksi Burning, Bloom, Hyperbloom, dan Burgeon yang diterimanya akan bisa mengakibatkan CRIT, dengan nilai CRIT Rate sebesar 20% dan CRIT DMG sebesar 100%;\n·Dalam 8 detik setelah reaksi Quicken, Aggravate, dan Spread terpicu, DEF berkurang 30%.",
+        "Description": "Musuh yang berada dalam status <color=#FFD780FF>Seed of Skandha</color> yang diberikan oleh Nahida akan mendapatkan pengaruh efek sebagai berikut:\n·DMG reaksi Burning, Bloom, Hyperbloom, dan Burgeon yang diterimanya akan bisa mengakibatkan CRIT, dengan nilai CRIT Rate tetap sebesar 20% dan CRIT DMG tetap sebesar 100%. CRIT Rate dari efek ini dapat ditumpuk dengan efek serupa lainnya yang membuat Reaksi Elemental dapat mengakibatkan CRIT juga.\n·Setelah terkena efek reaksi Quicken, Aggravate, dan Spread terpicu, DEF berkurang 30% selama 8 detik.\n·CRIT Rate untuk DMG dari reaksi Lunar-Bloom meningkat 10%, dan CRIT DMG meningkat sebesar 20%.",
         "Icon": "UI_Talent_S_Nahida_02"
       },
       {
@@ -1204,5 +1204,11 @@
     "Description": "Style Kartu Nama.\nRembulan yang naik mengagumi sang surya, karena cahayanya mampu menerangi seluruh bumi. Tapi di sisi lain, surya yang terbenam iri kepada rembulan, karena mimpi yang paling indah selalu menyertainya.",
     "Icon": "UI_NameCardIcon_Nahida",
     "PicturePrefix": "UI_NameCardPic_Nahida"
+  },
+  "TraceEffect": {
+    "Id": 215015,
+    "Name": "Echo: Physic of Purity",
+    "Description": "Envisaged Echoes Nahida. \"Membagi pengetahuanku.\"",
+    "Icon": "UI_TraceEffectIcon_Nahida"
   }
 }
