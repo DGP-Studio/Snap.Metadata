@@ -292,7 +292,7 @@
   {
     "Id": 11130005,
     "Name": "Astucia serpentina",
-    "Description": "Skirk puede consumir astucia serpentina para mantener su estado de distorsión heptafásica o para usar su Habilidad Definitiva, “Caos: Aniquilación”.\n\nSkirk puede obtener astucia serpentina de las siguientes formas:\n·Tras usar su Habilidad Elemental, “Caos: Distorsión”.\n·Tras absorber el efecto de las fisuras del vacío activado con el talento pasivo “La razón más allá de la razón”.\n\nCuando Skirk se retira de combate mientras está en modo distorsión heptafásica o cuando dicho modo termina, se eliminan los pts. que tenga de astucia serpentina."
+    "Description": "Skirk puede consumir astucia serpentina para mantener su estado de distorsión heptafásica o para usar su Habilidad Definitiva, “Caos: Aniquilación”.\n\nSkirk puede obtener astucia serpentina de las siguientes formas:\n·Tras usar su Habilidad Elemental, “Caos: Distorsión”.\n·Tras absorber el efecto de las fisuras del vacío activado con el talento de ascensión “La razón más allá de la razón”.\n\nCuando Skirk se retira de combate mientras está en modo distorsión heptafásica o cuando dicho modo termina, se eliminan los pts. que tenga de astucia serpentina."
   },
   {
     "Id": 11130006,
@@ -322,7 +322,7 @@
   {
     "Id": 11130011,
     "Name": "Beatitud",
-    "Description": "Dahlia puede obtener el efecto de beatitud de las siguientes formas:\n·Cuando tu personaje en uso del equipo golpea a los enemigos 4 veces con su Ataque Normal mientras está bajo los efectos de gracia de Favonius, Dahlia obtiene X cargas de beatitud.\n·Tras activar el efecto del talento pasivo “Gentil gracia del viento”.\n\nDahlia solo puede obtener un máximo de X cargas de beatitud durante el efecto de gracia de Favonius."
+    "Description": "Dahlia puede obtener el efecto de beatitud de las siguientes formas:\n·Cuando tu personaje en uso del equipo golpea a los enemigos 4 veces con su Ataque Normal mientras está bajo los efectos de gracia de Favonius, Dahlia obtiene X cargas de beatitud.\n·Tras activar el efecto del talento de ascensión “Gentil gracia del viento”.\n\nDahlia solo puede obtener un máximo de X cargas de beatitud durante el efecto de gracia de Favonius."
   },
   {
     "Id": 11160001,
@@ -368,5 +368,20 @@
     "Id": 11200001,
     "Name": "Sinfonía del trueno",
     "Description": "Gasta menos Energía Elemental para usar la Habilidad Definitiva especial. Flins inflige 1 golpe de <color=#FFACFFFF>Daño Electro en el AdE</color> considerado como daño de Electrocargado Lunar.\n<color=#FFD780FF>Presagio lunar: resplandor ascendente</color> - Si hay alguna nube de tormenta en las cercanías, inflige 1 golpe más de <color=#FFACFFFF>Daño Electro en el AdE</color> considerado como daño de Electrocargado Lunar."
+  },
+  {
+    "Id": 11220001,
+    "Name": "Danza de las sombras",
+    "Description": "Néfer entra en este estado después de usar su Habilidad Elemental, <color=#FFD780FF>Estrategia de senet: Danza de las mil noches</color>.\nSi Néfer tiene al menos 1 gota de rocío de la espesura mientras danza de las sombras está activa, su Ataque Cargado se remplaza por el Ataque Cargado especial “Espectáculo fantasmagórico”.\nEl estado de danza de las sombras se anulará cuando Néfer haya usado {PARAM#P1223201|3S1} veces “Espectáculo fantasmagórico” o cuando termine su duración."
+  },
+  {
+    "Id": 11220002,
+    "Name": "Espectáculo fantasmagórico",
+    "Description": "Cuando Néfer está en el estado de danza de las sombras creado mediante su Habilidad Elemental, <color=#FFD780FF>Estrategia de senet: Danza de las mil noches</color>, si tiene al menos 1 gota de rocío de la espesura, su Ataque Cargado se remplaza por el Ataque Cargado especial “Espectáculo fantasmagórico”, el cual no consume Aguante.\nNéfer creará ilusiones de sí misma que ejecutan ataques coordinados contra los enemigos, de manera que tanto ella como sus ilusiones infligirán 2 y 3 golpes de <color=#99FF88FF>Daño Dendro en el AdE</color> respectivamente. El daño infligido por las ilusiones se considera daño de Florecimiento Lunar, y las primeras ilusiones que cree cada vez que use “Espectáculo fantasmagórico” consumirán 1 gota de rocío de la espesura."
+  },
+  {
+    "Id": 11220003,
+    "Name": "Velo de la falsedad",
+    "Description": "#El efecto que Néfer obtiene absorbiendo núcleos artificiosos mediante el talento de ascensión “Apuesta bajo la luna” puede aumentar el daño infligido con “Espectáculo fantasmagórico”.\nPor cada carga de velo de la falsedad, el daño que inflige Néfer con “Espectáculo fantasmagórico” aumenta en un {PARAM#P1222101|6S100}% de su daño original. Inicialmente, este efecto puede acumularse hasta {PARAM#P1222101|1S1} veces, tiene una duración de {PARAM#P1222101|2S1}{NON_BREAK_SPACE}s y cada carga tiene su propia duración individual."
   }
 ]

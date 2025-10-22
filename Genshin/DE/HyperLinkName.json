@@ -292,7 +292,7 @@
   {
     "Id": 11130005,
     "Name": "List der Schlange",
-    "Description": "Skirk kann „List der Schlange“ verbrauchen, um den „Sieben-Phasen-Blitzmodus“ aufrechtzuerhalten oder ihre Spezialfähigkeit „Verdorbene Kunst – Zerstörung“ einzusetzen.\n\nSkirk kann die „List der Schlange“ auf folgende Weisen erhalten:\n· Nach dem Einsetzen ihrer Elementarfähigkeit „Verdorbene Kunst – Verzerrung“.\n· Nach dem Auslösen des Effekts zur Absorption der „Leere-Risse“ des passiven Talents „Vernunft jenseits der Vernunft“.\n\nWenn Skirk im „Sieben-Phasen-Blitzmodus“ das Schlachtfeld verlässt oder der „Sieben-Phasen-Blitzmodus“ endet, wird sämtliche „List der Schlange“ von ihr entfernt."
+    "Description": "Skirk kann „List der Schlange“ verbrauchen, um den „Sieben-Phasen-Blitzmodus“ aufrechtzuerhalten oder ihre Spezialfähigkeit „Verdorbene Kunst – Zerstörung“ einzusetzen.\n\nSkirk kann die „List der Schlange“ auf folgende Weisen erhalten:\n· Nach dem Einsetzen ihrer Elementarfähigkeit „Verdorbene Kunst – Verzerrung“.\n· Nach dem Auslösen des Effekts zur Absorption der „Leere-Risse“ des Aufstiegstalents „Vernunft jenseits der Vernunft“.\n\nWenn Skirk im „Sieben-Phasen-Blitzmodus“ das Schlachtfeld verlässt oder der „Sieben-Phasen-Blitzmodus“ endet, wird sämtliche „List der Schlange“ von ihr entfernt."
   },
   {
     "Id": 11130006,
@@ -322,7 +322,7 @@
   {
     "Id": 11130011,
     "Name": "Segen",
-    "Description": "Dahlia kann den Effekt „Segen“ auf folgende Weisen erhalten:\n· Dahlia erhält X Stapelung(en) des Effekts „Segen“ jedes Mal, wenn die eigene aktive Figur in der Truppe Gegner 4 Male mit Standardangriffen trifft, während ihr die „Favonius-Gunst“ verliehen wird.\n· Nach dem Auslösen des Effekts des passiven Talents „Sanfte Anmut des Windes“.\n\nDahlia kann höchstens X Stapelung(en) des Effekts „Segen“ pro Wirkungsdauer der „Favonius-Gunst“ erlangen."
+    "Description": "Dahlia kann den Effekt „Segen“ auf folgende Weisen erhalten:\n· Dahlia erhält X Stapelung(en) des Effekts „Segen“ jedes Mal, wenn die eigene aktive Figur in der Truppe Gegner 4 Male mit Standardangriffen trifft, während ihr die „Favonius-Gunst“ verliehen wird.\n· Nach dem Auslösen des Effekts des Aufstiegstalents „Sanfte Anmut des Windes“.\n\nDahlia kann höchstens X Stapelung(en) des Effekts „Segen“ pro Wirkungsdauer der „Favonius-Gunst“ erlangen."
   },
   {
     "Id": 11160001,
@@ -368,5 +368,20 @@
     "Id": 11200001,
     "Name": "Donnersymphonie",
     "Description": "Eine besondere Spezialfähigkeit, die weniger Elementarenergie benötigt, wenn Flins sie anwendet. Flins verursacht einmal <color=#FFACFFFF>Elektro-Flächenschaden</color>, der als Schaden durch die Reaktion „Mond unter Strom“ gewertet wird.\n<color=#FFD780FF>Mondomen – Reifer Glanz</color>: Befindet sich in der Nähe eine Gewitterwolke, wird zusätzlich einmal <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht, der als Schaden durch die Reaktion „Mond unter Strom“ gewertet wird."
+  },
+  {
+    "Id": 11220001,
+    "Name": "Schattentanz",
+    "Description": "Versetzt Nefer nach Anwenden der Elementarfähigkeit <color=#FFD780FF>Spielstrategie – Tanz der tausend Nächte</color> in diesen Zustand.\nWandelt, wenn Nefer im Zustand „Schattentanz“ über mindestens 1 Stapelung Grünender Tau verfügt, ihren heftigen Schlag in den besonderen heftigen Schlag „Fantasmaauftritt“ um.\nDer Zustand „Schattentanz“ wird nach Nefers {PARAM#P1223201|3S1}. Anwendung von „Fantasmaauftritt“ oder dem Ende der Wirkungsdauer aufgehoben."
+  },
+  {
+    "Id": 11220002,
+    "Name": "Fantasmaauftritt",
+    "Description": "Wandelt, wenn Nefer sich im durch die Elementarfähigkeit <color=#FFD780FF>Spielstrategie – Tanz der tausend Nächte</color> ausgelösten Zustand „Schattentanz“ befindet und über mindestens 1 Stapelung „Grünender Tau“ verfügt, ihren heftigen Schlag in den keine Ausdauer verbrauchenden, besonderen heftigen Schlag „Fantasmaauftritt“ um.\nRuft ein Trugbild von sich selbst herbei und greift Gegner mit einem koordinierten Angriff an, bei dem Nefer und ihr Trugbild jeweils 2/3 Phasen von <color=#99FF88FF>Dendro-Flächenschaden</color> verursachen. Von ihrem Trugbild verursachter Schaden wird als Schaden der Reaktion Mondspross gewertet. Für das erste Trugbild, das nach jedem „Fantasmaauftritt“ herbeigerufen wird, wird 1 Stapelung „Grünender Tau“ verbraucht."
+  },
+  {
+    "Id": 11220003,
+    "Name": "Schleier der Scheingeheimnisse",
+    "Description": "#Verleiht Nefer nach der Absorbierung von „Kernen der List“ durch ihr Aufstiegstalent „Glücksspiel im Mondschein“ diesen Effekt, der ihren durch „Fantasmaauftritt“ verursachten Schaden erhöht.\nErhöht für jede Stapelung von „Schleier der Scheingeheimnisse“ den durch „Fantasmaauftritt“ verursachten Schaden um {PARAM#P1222101|6S100}{NON_BREAK_SPACE}%, anfänglich {PARAM#P1222101|1S1}-fach stapelbar, hält {PARAM#P1222101|2S1}{NON_BREAK_SPACE}s. Die Wirkungsdauer jeder Stapelung wird unabhängig voneinander berechnet."
   }
 ]

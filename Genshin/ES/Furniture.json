@@ -2435,6 +2435,27 @@
   },
   {
     "Types": [
+      8001,
+      8002
+    ],
+    "SurfaceType": 11,
+    "IsSpecial": false,
+    "SpecialType": 5,
+    "Comfort": 300,
+    "Cost": 1600,
+    "DiscountCost": 1600,
+    "CanFloat": false,
+    "IsUnique": true,
+    "RankLevel": 1,
+    "GroupRecordType": 0,
+    "Id": 368206,
+    "Name": "Néfer",
+    "Description": "Personaje para Relajatetera",
+    "Icon": "",
+    "Rank": 0
+  },
+  {
+    "Types": [
       1001,
       0
     ],
@@ -20397,7 +20418,7 @@
     ],
     "Id": 369212,
     "Name": "Rinoceronte cuernorrobusto gélido",
-    "Description": "Un pariente cercano del diploceronte, con el cuerpo recubierto por una gruesa capa de queratina endurecida. La parte más resistente de su espalda brilla luce como hielo.\nDe temperamento tranquilo, al llegar a la Relajatetera se convirtió en un punto de descanso estable y muy apreciado por las aves. Sin embargo, al principio se sintió amenazado por la energía de los perros más juguetones, aunque con el tiempo terminó acostumbrándose y aceptándolos como compañía.\nPor razones desconocidas, al llegar al mundo interior, algunos animales mantuvieron la forma adquirida por la fuerza del kuuvahki. Para facilitarle el reconocimiento a Gordi, Paimon decidió ponerles nombres nuevos según su apariencia.",
+    "Description": "Un pariente cercano del diploceronte, con el cuerpo recubierto por una gruesa capa de queratina endurecida. La parte más resistente de su espalda brilla como el hielo.\nDe temperamento tranquilo, al llegar a la Relajatetera se convirtió en un punto de descanso estable y muy apreciado por las aves. Sin embargo, al principio se sintió amenazado por la energía de los perros más juguetones, aunque con el tiempo terminó acostumbrándose y aceptándolos como compañía.\nPor razones desconocidas, al llegar al mundo interior, algunos animales mantuvieron la forma adquirida por la fuerza del kuuvahki. Para facilitarle el reconocimiento a Gordi, Paimon decidió ponerles nombres nuevos según su apariencia.",
     "Icon": "UI_AnimalIcon_NodRhino_01",
     "Rank": 110100
   },
@@ -20421,7 +20442,7 @@
       "Obtenible al capturar"
     ],
     "Id": 369213,
-    "Name": "Tejón mantomelena rosa",
+    "Name": "Tejón mantomelena rojo",
     "Description": "Una criatura de aspecto bonachón con dos largos mechones de melena roja que se extienden desde sus hombros.\nA pesar de su apariencia, es un cazador nato, con una capacidad de esprintar sorprendente. Tras instalarse en el mundo interior, ya no sufre por la escasez de alimento, pero sigue siendo muy desconfiado: impregna la comida con secreciones de sus glándulas odoríferas, y el olor es tan intenso que ningún otro animal se atreve a acercarse a su madriguera.\nPor razones desconocidas, al llegar al mundo interior, algunos animales mantuvieron la forma adquirida por la fuerza del kuuvahki. Para facilitarle el reconocimiento a Gordi, Paimon decidió ponerles nombres nuevos según su apariencia.",
     "Icon": "UI_AnimalIcon_Wolverine_01_N",
     "Rank": 110100
@@ -53095,6 +53116,581 @@
     "Name": "Chef cerdito",
     "Description": "Un curioso dispositivo de cocina con forma de cerdito regordete y semblante serio, probablemente inspirado en uno de los inventos de Aino.\nAl encenderlo, abrirá su boca de par en par como si soltara una sonora carcajada, aunque en realidad es solo parte de su mecanismo antes de comenzar a preparar los platillos.",
     "Icon": "UI_Homeworld_Ani_Exterior_Ndkl_Thing_Prop_Danjuanji_01",
+    "Rank": 90500
+  },
+  {
+    "Types": [
+      4001,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 90,
+    "Cost": 221,
+    "DiscountCost": 166,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Chair_Prop_WSWshafa_01_Lod0",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 362130,
+    "Name": "Paz y ternura",
+    "Description": "Un sofá largo y acogedor que se puede encontrar en la Cámara de Secretos de la Villa Nasha. Su tono cálido, como de pan recién horneado, despierta una sensación instantánea de familiaridad.\nSuele estar adornado con cojines estampados con huellas de gato, ideales para recostarse un rato. De hecho, algunos animalitos se suben al sofá y se acurrucan solos, disfrutando de ese momento de paz y ternura con las personas que descansan.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Chair_Prop_WSWshafa_01_Lod0",
+    "Rank": 30100
+  },
+  {
+    "Types": [
+      4001,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Chair_Prop_WSWyizi_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 362131,
+    "Name": "Silla de madera de avellano con respaldo verde jade",
+    "Description": "Una silla con respaldo elegante y cómoda que se puede encontrar en la Cámara de Secretos de la Villa Nasha. Está fabricada con madera de avellano y cuenta con un asiento y respaldo tapizados de color verde jade.\nLamentablemente, la mayoría de los visitantes, abrumados por sus preocupaciones o ansiedades, pasan por alto su singularidad. Quien logre apreciarla demuestra una serenidad y fortaleza mental excepcionales, mereciendo por ello una atención más especial y esmerada por parte de la Cámara.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Chair_Prop_WSWyizi_01_Vo",
+    "Rank": 30100
+  },
+  {
+    "Types": [
+      4001,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 30,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Chair_Prop_BGCyizi_01_Vo",
+    "RankLevel": 2,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 362132,
+    "Name": "Taburete de fábrica: Trabajo multifacético",
+    "Description": "Un taburete simple y resistente muy común en la Oficina de Diseño Experimental Kuuvahki.\nCarece de respaldo para facilitar su movilidad. Además de su función principal, puede servir como mesa de trabajo simple, escalón, contrapeso o incluso martillo improvisado.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Chair_Prop_BGCyizi_01_Vo",
+    "Rank": 30100
+  },
+  {
+    "Types": [
+      3006,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 254,
+    "DiscountCost": 191,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Bed_Build_BGCchuang_01_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 361410,
+    "Name": "Amistad fruto del conflicto",
+    "Description": "Una litera de diseño simple muy común en los dormitorios de la Oficina de Diseño Experimental Kuuvahki.\nQuienes comparten una litera suelen forjar una amistad más profunda. Una conexión que nace, sin duda, de la ayuda mutua tras una larga convivencia, pero también de los pequeños roces y conflictos, la adaptación y la comprensión que poco a poco se va construyendo.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Bed_Build_BGCchuang_01_Lod0",
+    "Rank": 20500
+  },
+  {
+    "Types": [
+      3006,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 169,
+    "DiscountCost": 127,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Bed_Prop_JHSchuang_01_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 361411,
+    "Name": "Cama de taberna: Ni buena ni mala",
+    "Description": "Una cama de estructura metálica del Buque Insignia en la Villa Nasha, con colchón de firmeza media. Algunos huéspedes dicen que no es la más cómoda del mundo, pero tampoco está tan mal.\nClaro que, para quienes llegan agotados o con un par de tragos encima, lo único que realmente importa es que la cama aguante sus vueltas sin desarmarse a mitad de la noche. Con eso, ya no hay más que pedir.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Bed_Prop_JHSchuang_01_Lod0",
+    "Rank": 20500
+  },
+  {
+    "Types": [
+      5005,
+      0
+    ],
+    "SurfaceType": 1,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 30,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Walldecoration_Prop_BGCguangbo_01_Vo",
+    "RankLevel": 2,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 364223,
+    "Name": "Altavoz de fábrica: Revitalizante",
+    "Description": "Un altavoz habitual en la Oficina de Diseño Experimental Kuuvahki. Aunque discreto a la vista, emite un sonido de una potencia descomunal. Su eficacia para revitalizar la mente es tan extraordinaria que incluso algunos comentan: “si fuera un poco más fuerte, podría considerarse un arma sónica...”.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Walldecoration_Prop_BGCguangbo_01_Vo",
+    "Rank": 50200
+  },
+  {
+    "Types": [
+      5005,
+      0
+    ],
+    "SurfaceType": 1,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 169,
+    "DiscountCost": 127,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Walldecoration_Prop_JHSfeibiao_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 364224,
+    "Name": "Diana de taberna: Puntuación válida",
+    "Description": "Un blanco de dardos del Buque Insignia en la Villa Nasha, pintado en franjas azules y blancas que delimitan sus distintas zonas de puntuación, ideal para diversos juegos.\nDicen que estos blancos están hechos de madera blanda a propósito, porque entre los jugadores siempre hay algunos que ya van medio tambaleando y lanzan con más entusiasmo que puntería. Para evitar que los dardos reboten como proyectiles por toda la taberna, más vale sacrificar un poco de durabilidad a cambio de seguridad...",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Walldecoration_Prop_JHSfeibiao_01_Vo",
+    "Rank": 50200
+  },
+  {
+    "Types": [
+      3003,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Table_Prop_BGCzhuozi_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 361341,
+    "Name": "Mesa larga de fábrica: No hay tiempo que perder",
+    "Description": "Una mesa larga de metal rectangular y amplia muy común en la Oficina de Diseño Experimental Kuuvahki.\nSirve para el trabajo diario, aunque cuando se acerca la hora de entrega, se transforma en una mesa de comedor improvisada.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Table_Prop_BGCzhuozi_01_Vo",
+    "Rank": 20300
+  },
+  {
+    "Types": [
+      3003,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 169,
+    "DiscountCost": 127,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Table_Prop_JHSzhuozi_01_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 361342,
+    "Name": "Mesa cuadrada de taberna: Defensa propia",
+    "Description": "Una mesa cuadrada muy distintiva que se suele usar en el Buque Insignia en la Villa Nasha, con suaves bordes forrados en tela roja, pensada para resistir el trajín de la taberna.\nQuien la diseñó asegura que el acolchado no es para proteger a los parroquianos ebrios de los golpes... sino para proteger a la mesa de ellos.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Table_Prop_JHSzhuozi_01_Lod0",
+    "Rank": 20300
+  },
+  {
+    "Types": [
+      3003,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 300,
+    "DiscountCost": 225,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Build_WSWzhuozi_01_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 361343,
+    "Name": "Mesa larga interior: Cuidado meticuloso",
+    "Description": "Una elegante mesa larga con mantel tejido, que suele encontrarse en la Cámara de Secretos de la Villa Nasha.\nEntre niños revoltosos y animales juguetones, hay mil formas de que una mesa acabe con marcas o raspones...\nAunque, a veces, basta con un mantel bien elegido, por su color, estampado y ángulo, para convertir esos pequeños daños en parte de su encanto.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Build_WSWzhuozi_01_Lod0",
+    "Rank": 20300
+  },
+  {
+    "Types": [
+      4004,
+      0
+    ],
+    "SurfaceType": 8,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Carpet_Prop_WSWditan_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 362320,
+    "Name": "Alfombra interior: Tupida y suave",
+    "Description": "Una alfombra cuadrada y marrón con estampado intrincado, que suele encontrarse en la Cámara de Secretos de la Villa Nasha.\nDicen que está tejida con el largo y suave pelaje de las alpacas de carga de Natlan, lo cual explica su textura mullida y su suavidad al pisarla: cada paso sobre ella disipa un poco el cansancio de los pies.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Carpet_Prop_WSWditan_01_Vo",
+    "Rank": 30400
+  },
+  {
+    "Types": [
+      4004,
+      0
+    ],
+    "SurfaceType": 8,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 85,
+    "DiscountCost": 64,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Carpet_Prop_WSWditan_02_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 362321,
+    "Name": "Alfombra interior: Estrella de la noche",
+    "Description": "Una alfombra cuadrada azul con complejos motivos simétricos, que suele encontrarse en la Cámara de Secretos de la Villa Nasha. Su creador explicó que quiso plasmar “un cielo azul oscuro con una estrella suspendida en medio, esperando que esa imagen devolviera un poco de ánimo a quien anduviera cabizbajo”.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Carpet_Prop_WSWditan_02_Vo",
+    "Rank": 30400
+  },
+  {
+    "Types": [
+      4002,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 90,
+    "Cost": 169,
+    "DiscountCost": 127,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Decoration_Prop_WSWshafa_02_Lod0",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 362274,
+    "Name": "Barco algodón",
+    "Description": "Una silla mecedora que se puede encontrar en la Cámara de Secretos de la Villa Nasha. Tiene una curva perfecta y cuenta con cuatro almohadones mullidos para recostarse.\nSi te acuestas en esta silla, vivirás una experiencia única: todo tu cuerpo se hundirá en una suave caricia de algodones. Al cerrar los ojos, sentirás como si navegaras en un barco hecho con nubes, hasta perder la noción de la tierra firme. En cuestión de minutos, quizás ya hayas escapado al mundo de los sueños.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Decoration_Prop_WSWshafa_02_Lod0",
+    "Rank": 30200
+  },
+  {
+    "Types": [
+      4002,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 90,
+    "Cost": 590,
+    "DiscountCost": 590,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Ani_Interior_Ndkl_Decoration_Prop_JHSyinyue_01",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 362275,
+    "Name": "Banda sonora embriagadora",
+    "Description": "Un singular tocadiscos que suele encontrarse en el Buque Insignia de la Villa Nasha, con cuatro altavoces orientados en distintas direcciones para crear un sonido envolvente.\nDiferentes estilos de música, combinados con la iluminación, pueden crear atmósferas muy dispares en un escenario fijo, satisfaciendo las diversas necesidades emocionales de los clientes presentes. Su repertorio abarca desde melodías elegantes hasta ritmos vibrantes y festivos, lo que brinda a la mayoría de los clientes el acompañamiento musical perfecto para degustar sus vinos.",
+    "Icon": "UI_Homeworld_Ani_Interior_Ndkl_Decoration_Prop_JHSyinyue_01",
+    "Rank": 30200
+  },
+  {
+    "Types": [
+      4002,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 426,
+    "DiscountCost": 320,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Build_WSWmaojia_01_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 362276,
+    "Name": "Torre para gatos multifuncional de madera de roble estival",
+    "Description": "Una torre multifuncional para gatos, hecha con madera de roble estival, pensada para que puedan escalar, saltar y afilarse las garras.\nSegún cuentan los comerciantes, desde que salió a la venta fue un éxito absoluto entre los felinos.\n¿Cómo lo saben? Es muy sencillo: además de la cantidad de dueños que regresan a comprar otra, basta con colocar una en cualquier rincón que frecuenten los gatos y observar cómo en cuestión de minutos se convierte en su nuevo sitio favorito...",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Build_WSWmaojia_01_Lod0",
+    "Rank": 30200
+  },
+  {
+    "Types": [
+      7014,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 30,
+    "Cost": 85,
+    "DiscountCost": 85,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Exterior_Ndkl_Decoration_Prop_Lipai_01_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "Obtenible por tiempo limitado en el evento"
+    ],
+    "Id": 374634,
+    "Name": "Figura de fiesta: Con ganas de empezar",
+    "Description": "Una figura de personaje del evento de intercambio cultural de baile «Que el ritmo no pare» organizado por el Pueblo de los Manantiales, la Tribu Plumaflora y los Vástagos del Eco de Natlan y Las Alimañas Flamígeras de Los Eremitas de Sumeru. La figura retrata a Mualani, representante del Pueblo de los Manantiales, en plena coreografía rebosante de alegría y energía.\nIncluso los bailarines veteranos de Sumeru, al imitar sus movimientos, terminan asombrados: cada paso los conduce a ideas nuevas, como si se abrieran ante ellos puertas que nunca habían visto, todas llenas de la promesa de un baile más feliz.\nY es que, según quienes organizaron el festival, atreverse con pasos desconocidos y descubrir la fuerza oculta en los movimientos más simples es justo lo que hace tan valioso este tipo de intercambios de danza.",
+    "Icon": "UI_Homeworld_Exterior_Ndkl_Decoration_Prop_Lipai_01_Vo",
+    "Rank": 90100
+  },
+  {
+    "Types": [
+      7014,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 30,
+    "Cost": 85,
+    "DiscountCost": 85,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Exterior_Ndkl_Decoration_Prop_Lipai_02_Vo",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "Obtenible por tiempo limitado en el evento"
+    ],
+    "Id": 374635,
+    "Name": "Figura de fiesta: Gracia en movimiento",
+    "Description": "Una figura de personaje del evento de intercambio cultural de baile «Que el ritmo no pare» organizado por el Pueblo de los Manantiales, la Tribu Plumaflora y los Vástagos del Eco de Natlan en colaboración con Las Alimañas Flamígeras de Los Eremitas de Sumeru. La figura retrata a Nilou, asesora de la danza de Sumeru, capturada en pleno movimiento: cada curva y cada giro transmiten la elegancia y ligereza que la caracterizan.\nAunque sus pasos provenían de una tradición muy distinta, la serenidad que proyectaba resultó tan familiar para los bailarines de las tribus que, por un instante, el bullicio del festival se volvió tan tranquilo como las aguas del Delta Ameyalco.\nPara los organizadores, atreverse a probar coreografías ajenas y hallar en esos gestos delicados una calma genuina es justo lo que hace tan valioso este tipo de intercambios artísticos.",
+    "Icon": "UI_Homeworld_Exterior_Ndkl_Decoration_Prop_Lipai_02_Vo",
+    "Rank": 90100
+  },
+  {
+    "Types": [
+      7014,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 90,
+    "Cost": 450,
+    "DiscountCost": 450,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Ani_Exterior_Ndkl_Decoration_Prop_Renou_01",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "Obtenible por tiempo limitado en el evento"
+    ],
+    "Id": 374636,
+    "Name": "Compañera resuelvenigmas: Con calma",
+    "Description": "Un peluche inspirado en doña Faruzán y el Flotihongo Hydro más querido por los estudiantes. Está totalmente equipado para funcionar de forma autónoma, con mecanismos de desplazamiento integrados, sensores de peso, reconocimiento del terreno y capacidades de control remoto.\nNacido de la colaboración entre la Sociedad de Resolución de Acertijos y el Simposio sobre Mecanismos de las Ruinas, esta compañera resuelvenigmas tiene mucha ingeniería por dentro y a la vez conserva un aspecto encantador. Al ver la versión de peluche de doña Faruzán, se te quitarán todos los miedos aunque estés en las ruinas más siniestras...",
+    "Icon": "UI_Homeworld_Ani_Exterior_Ndkl_Decoration_Prop_Renou_01",
+    "Rank": 90100
+  },
+  {
+    "Types": [
+      3001,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 110,
+    "DiscountCost": 72,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Build_WSWguizi_01_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 361119,
+    "Name": "Deducción e inducción",
+    "Description": "Un tablón de información para exponer y resumir datos que se puede ver en la Cámara de Secretos de la Villa Nasha.\nA la hora de abordar cualquier problema complejo, el primer paso es organizar toda la información conocida y llevar a cabo una deducción lógica. Para ello, este tablero amplio y funcional es una herramienta muy útil.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Build_WSWguizi_01_Lod0",
+    "Rank": 20100
+  },
+  {
+    "Types": [
+      3001,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 169,
+    "DiscountCost": 127,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Cabinet_Prop_BGCguizi_01_Vo",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 361120,
+    "Name": "Armario de fábrica: Apilamiento desordenado",
+    "Description": "Un mueble metálico muy común en la Oficina de Diseño Experimental Kuuvahki, combina un amplio compartimento superior con un par de cajones en la parte inferior.\nQuienes lo estrenan suelen organizar cada objeto con esmero, pero con el paso de los días, muchos terminan arrojando cosas sin orden alguno, hasta que llega el momento inevitable de hacer limpieza y volver a empezar desde cero.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Cabinet_Prop_BGCguizi_01_Vo",
+    "Rank": 20100
+  },
+  {
+    "Types": [
+      3005,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 158,
+    "DiscountCost": 119,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Build_WSWguizi_02_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 361511,
+    "Name": "Pregunta con precio",
+    "Description": "Un mostrador alargado y estrecho, con un diseño refinado, que suele encontrarse en la Cámara de Secretos de la Villa Nasha.\nSi vas en busca de información útil, asegúrate de llevar también algo que estés dispuesto a ofrecer a cambio.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Build_WSWguizi_02_Lod0",
+    "Rank": 20400
+  },
+  {
+    "Types": [
+      3002,
+      0
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 0,
+    "Comfort": 60,
+    "Cost": 288,
+    "DiscountCost": 216,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Interior_Ndkl_Build_WSWguizi_03_Lod0",
+    "RankLevel": 3,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Planos de decoración"
+    ],
+    "Id": 362282,
+    "Name": "Secretos ocultos",
+    "Description": "Un librero de gran tamaño con espacio de sobra para almacenar toda clase de objetos.\nEntre los agentes de inteligencia circula un dicho: “Los mejores secretos se esconden entre las cosas que parecen dejadas al azar”. Desde notas dobladas entre páginas hasta compartimentos ocultos tras los estantes... para quienes quieren ocultar secretos, este mueble es la típica elección. Por supuesto, los profesionales más expertos pueden llegar a convertir el propio librero en una trampa para despistar a sus adversarios.",
+    "Icon": "UI_Homeworld_Interior_Ndkl_Build_WSWguizi_03_Lod0",
+    "Rank": 20200
+  },
+  {
+    "Types": [
+      7015,
+      4003
+    ],
+    "SurfaceType": 0,
+    "IsSpecial": false,
+    "SpecialType": 16,
+    "Comfort": 90,
+    "Cost": 790,
+    "DiscountCost": 790,
+    "CanFloat": false,
+    "IsUnique": false,
+    "ItemIcon": "UI_Homeworld_Ani_Interior_Ndkl_Thing_Prop_Maomaoji_01",
+    "RankLevel": 4,
+    "GroupRecordType": 0,
+    "SourceTexts": [
+      "Obtenible con la compra del PB Himno de la Perla"
+    ],
+    "Id": 374810,
+    "Name": "Gatito perezoso",
+    "Description": "Un juguete mecánico inspirado en un célebre gato negro con varios botones interactivos.\nFiel a la fama enigmática de los felinos, su diseñador incorporó un curioso sistema de reacciones: ciertas acciones hacen que el gato emita un ronroneo de satisfacción, mientras que otras hacen que el gato que parecía adormilado salte de pronto...",
+    "Icon": "UI_Homeworld_Ani_Interior_Ndkl_Thing_Prop_Maomaoji_01",
     "Rank": 90500
   },
   {
