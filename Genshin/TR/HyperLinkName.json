@@ -292,7 +292,7 @@
   {
     "Id": 11130005,
     "Name": "Yılan Kurnazlığı",
-    "Description": "Skirk, Yedi Aşamalı Parıltı modunu sürdürmek veya Yıkım: Harap Etme Element Patlamasını kullanmak için Yılan Kurnazlığı tüketebilir.\n\nSkirk şu yollarla Yılan Kurnazlığı puanı kazanabilir:\n·Yıkım: Bükme Element Becerisini kullandıktan sonra.\n·Akıl Almaz Mantık Pasif Yeteneğini tetikleyip Boşluk Yarıkları soğurduktan sonra.\n\nSkirk, Yedi Aşamalı Parıltı modundayken alandan ayrıldığında ya da Yedi Aşamalı Parıltı modu sona erdiğinde Yılan Kurnazlığı puanları sıfırlanır."
+    "Description": "Skirk, Yedi Aşamalı Parıltı modunu sürdürmek veya Yıkım: Harap Etme Element Patlamasını kullanmak için Yılan Kurnazlığı tüketebilir.\n\nSkirk şu yollarla Yılan Kurnazlığı puanı kazanabilir:\n·Yıkım: Bükme Element Becerisini kullandıktan sonra.\n·Akıl Almaz Mantık Yükseltme Yeteneğini tetikleyip Boşluk Yarıkları soğurduktan sonra.\n\nSkirk, Yedi Aşamalı Parıltı modundayken alandan ayrıldığında ya da Yedi Aşamalı Parıltı modu sona erdiğinde Yılan Kurnazlığı puanları sıfırlanır."
   },
   {
     "Id": 11130006,
@@ -322,7 +322,7 @@
   {
     "Id": 11130011,
     "Name": "Takdis",
-    "Description": "Dahlia, aşağıdaki yöntemlerle Takdis elde edebilir:\n·Dahlia'nın bulunduğu gruptaki aktif grup üyesi Favonius Lütfu etkisindeyken bir düşmana 4 defa Normal Saldırı ile vurduğunda Dahlia 1 Takdis kademesi kazanır.\n·\"Rüzgarın Zarafeti\" Pasif Yeteneğinin etkisi tetiklendikten sonra Dahlia Takdis kademesi kazanır.\n\nFavonius Lütfu süresi boyunca Dahlia en fazla 4 Takdis kademesi elde edebilir."
+    "Description": "Dahlia, aşağıdaki yöntemlerle Takdis elde edebilir:\n·Dahlia'nın bulunduğu gruptaki aktif grup üyesi Favonius Lütfu etkisindeyken bir düşmana 4 defa Normal Saldırı ile vurduğunda Dahlia 1 Takdis kademesi kazanır.\n·\"Rüzgarın Zarafeti\" Yükseltme Yeteneğinin etkisi tetiklendikten sonra Dahlia Takdis kademesi kazanır.\n\nFavonius Lütfu süresi boyunca Dahlia en fazla 4 Takdis kademesi elde edebilir."
   },
   {
     "Id": 11160001,
@@ -368,5 +368,20 @@
     "Id": 11200001,
     "Name": "Gürleyen Senfoni",
     "Description": "Daha az Element Enerjisi tüketerek özel bir Element Patlaması gerçekleştirir. Flins tek bir sefer <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir. Bu Hasar, Ay Yüklü Hasarı olarak kabul edilir.\n<color=#FFD780FF>Ay Sembolü: Yükselen Parıltı</color>: Yakınlarda Şimşek Bulutları olduğunda fazladan 1 sefer daha <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir. Bu Hasar da Ay Yüklü Hasarı sayılır."
+  },
+  {
+    "Id": 11220001,
+    "Name": "Gölge Dansı",
+    "Description": "Nefer, <color=#FFD780FF>Senet Stratejisi: Binbir Gece Dansı</color> Element Becerisini kullandıktan sonra bu duruma girer.\nGölge Dansı durumundayken eğer en az 1 Taze Çiyin varsa Nefer'ın Yüklü Saldırıları değişerek özel Yüklü Saldırı \"Hayali Performans\" olur.\nNefer, {PARAM#P1223201|3S1} Hayali Performans gerçekleştirdiğinde veya durumun süresi bittiğinde Gölge Dansı durumundan çıkar."
+  },
+  {
+    "Id": 11220002,
+    "Name": "Hayali Performans",
+    "Description": "<color=#FFD780FF>Senet Stratejisi: Binbir Gece Dansı</color> Element Becerisinin sonucunda Gölge Dansı durumuna girdiysen ve en az 1 Taze Çiyin varsa Nefer'ın Yüklü Saldırıları değişerek özel Yüklü Saldırı \"Hayali Performans\" olur. Hayali Performans Dayanıklılık tüketmez.\nNefer, kendinin gölgelerini çağırarak düşmanlara karşı Ortak Saldırılar yapar. Nefer 2 aşama, gölgeler ise 3 aşama <color=#99FF88FF>Doğa Alan Hasarı</color> verir. Gölgelerin verdiği Hasar Ay Çiçeklenmesi Hasarı sayılır. Her Hayali Performanstan sonra gölgeler ilk çağrıldığı zaman 1 Taze Çiy tüketilir."
+  },
+  {
+    "Id": 11220003,
+    "Name": "Yanılgı Perdesi",
+    "Description": "Nefer, \"Ay Işığına Bahis\" Yükseltme Yeteneği ile \"Aldatıcı Tohumlar\" topladığında bu etkiyi kazanır ve Hayali Performansının verdiği Hasar artar.\nHer yanılgı Perdesi kademesi, Nefer'ın Hayali Performansının verdiği Hasarı %{PARAM#P1222101|6S100} artırır. Başlangıçtaki maksimum kademe sayısı {PARAM#P1222101|1S1} ile sınırlıdır ve her kademe {PARAM#P1222101|2S1}sn sürer. Her kademenin süresi birbirinden bağımsızdır."
   }
 ]

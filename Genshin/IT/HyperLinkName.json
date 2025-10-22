@@ -292,7 +292,7 @@
   {
     "Id": 11130005,
     "Name": "Astuzia del serpente",
-    "Description": "Skirk può consumare i punti Astuzia del serpente per mantenere la modalità Lampo eptafasico o per scatenare il suo Tripudio elementale Caos: Rovina.\n\nSkirk ottiene punti Astuzia del serpente nei modi seguenti:\n· dopo aver usato la sua abilità elementale Caos: Distorsione;\n· dopo aver innescato l'effetto del suo talento passivo Oltre ogni logica, e aver assorbito i Varchi nel Vuoto.\n\nQuando Skirk lascia il campo in modalità Lampo eptafasico o se quest'ultima termina, i suoi punti Astuzia del serpente vengono rimossi."
+    "Description": "Skirk può consumare i punti Astuzia del serpente per mantenere la modalità Lampo eptafasico o per scatenare il suo Tripudio elementale Caos: Rovina.\n\nSkirk ottiene punti Astuzia del serpente nei modi seguenti:\n· dopo aver usato la sua abilità elementale Caos: Distorsione;\n· dopo aver innescato l'effetto del suo talento d'ascensione Oltre ogni logica, e aver assorbito i Varchi nel Vuoto.\n\nQuando Skirk lascia il campo in modalità Lampo eptafasico o se quest'ultima termina, i suoi punti Astuzia del serpente vengono rimossi."
   },
   {
     "Id": 11130006,
@@ -322,7 +322,7 @@
   {
     "Id": 11130011,
     "Name": "Benedizione",
-    "Description": "Dahlia ottiene Benedizione nei modi seguenti:\n· ottiene × accumuli di Benedizione quando il membro attivo del gruppo colpisce 4 volte con gli attacchi normali gli avversari mentre è sotto l'effetto di Grazia di Favonius;\n· dopo aver innescato l'effetto del suo talento passivo Grazia gentile del vento.\n\nDahlia può ottenere un massimo di × accumuli di Benedizione nel corso della durata di Grazia di Favonius."
+    "Description": "Dahlia ottiene Benedizione nei modi seguenti:\n· ottiene × accumuli di Benedizione quando il membro attivo del gruppo colpisce 4 volte con gli attacchi normali gli avversari mentre è sotto l'effetto di Grazia di Favonius;\n· dopo aver innescato l'effetto del suo talento d'ascensione Grazia gentile del vento.\n\nDahlia può ottenere un massimo di × accumuli di Benedizione nel corso della durata di Grazia di Favonius."
   },
   {
     "Id": 11160001,
@@ -368,5 +368,20 @@
     "Id": 11200001,
     "Name": "Sinfonia tonante",
     "Description": "Consuma meno energia elementale per usare un Tripudio elementale speciale. Flins infligge un'iterazione di <color=#FFACFFFF>DAN da Electro ad area</color>. Tali DAN sono considerati DAN da Carica lunare.\nQuando <color=#FFD780FF>Presagio lunare: Barlume ascendente</color> è attivo, se sono presenti delle nubi temporalesche nelle vicinanze, Flins infligge un'iterazione aggiuntiva di <color=#FFACFFFF>DAN da Electro ad area</color>. Tali DAN sono considerati DAN da Carica lunare."
+  },
+  {
+    "Id": 11220001,
+    "Name": "Danza dell'ombra",
+    "Description": "Uno stato che si attiva quando Nefer usa la sua abilità elementale <color=#FFD780FF>Strategia del senet: Danza delle mille notti</color>.\nMentre è attivo, se Nefer ha almeno 1 unità di Rugiada verdeggiante a disposizione, i suoi attacchi caricati vengono sostituiti dall'attacco caricato speciale Spettacolo fantasma.\nNefer esce dallo stato di Danza dell'ombra dopo aver scatenato {PARAM#P1223201|3S1} volte Spettacolo fantasma o al termine della sua durata."
+  },
+  {
+    "Id": 11220002,
+    "Name": "Spettacolo fantasma",
+    "Description": "Quando è nello stato di Danza dell'ombra derivante dalla sua abilità elementale <color=#FFD780FF>Strategia del senet: Danza delle mille notti</color>, se Nefer ha almeno 1 unità di Rugiada verdeggiante a disposizione, i suoi attacchi caricati vengono sostituiti dall'attacco caricato speciale Spettacolo fantasma, che non consuma vigore.\nNefer evoca delle Ombre di sé stessa per effettuare degli attacchi coordinati contro i nemici. Nefer e le Ombre infliggono rispettivamente la seconda e terza fase dei <color=#99FF88FF>DAN da Dendro ad area</color>. I DAN inflitti dalle Ombre sono considerati DAN da Fioritura lunare. Evocare le Ombre per la prima volta dopo ogni Spettacolo fantasma consuma 1 unità di Rugiada verdeggiante."
+  },
+  {
+    "Id": 11220003,
+    "Name": "Velo della menzogna",
+    "Description": "#Dopo aver assorbito i Semi dell'inganno grazie al talento d'ascensione Scommessa al chiaro di luna, Nefer ottiene questo effetto, aumentando di conseguenza i DAN inflitti dal suo Spettacolo fantasma.\nOgni accumulo di Velo della menzogna aumenta i DAN inflitti dallo Spettacolo fantasma di Nefer di un {PARAM#P1222101|6S100}%. Il numero massimo di accumuli iniziali è {PARAM#P1222101|1S1}. La durata di ogni accumulo è di {PARAM#P1222101|2S1}{NON_BREAK_SPACE}s e ciascuna viene calcolata in modo indipendente."
   }
 ]

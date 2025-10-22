@@ -292,7 +292,7 @@
   {
     "Id": 11130005,
     "Name": "Sutileza da Serpente",
-    "Description": "Skirk pode consumir Sutileza da Serpente para manter seu modo Lampejo de Sete Fases ou para usar seu Supremo, Arte Apodrecida: Obliteração.\n\nSkirk pode obter pontos de Sutileza da Serpente das seguintes formas:\n· Após usar sua Habilidade Elemental, Devastação: Lampejo.\n· Após ativar o efeito de seu Talento Passivo, \"Razão Além da Razão\", ao absorver Fendas do Vazio.\n\nQuando Skirk sai de campo ou quando o Lampejo de Sete Fases termina, seus pontos de Sutileza da Serpente serão removidos."
+    "Description": "Skirk pode consumir Sutileza da Serpente para manter seu modo Lampejo de Sete Fases ou para usar seu Supremo, Arte Apodrecida: Obliteração.\n\nSkirk pode obter pontos de Sutileza da Serpente das seguintes formas:\n· Após usar sua Habilidade Elemental, Devastação: Lampejo.\n· Após ativar o efeito de seu Talento de Ascensão, \"Razão Além da Razão\", ao absorver Fendas do Vazio.\n\nQuando Skirk sai de campo ou quando o Lampejo de Sete Fases termina, seus pontos de Sutileza da Serpente serão removidos."
   },
   {
     "Id": 11130006,
@@ -322,7 +322,7 @@
   {
     "Id": 11130011,
     "Name": "Bons Desejos",
-    "Description": "Dahlia pode obter o efeito Bons Desejos das seguintes formas:\n· Quando o personagem ativo atual estiver sob o efeito Graça de Favonius, e seu Ataque Normal atingir inimigos 4 vezes, Dahlia obtém 1 acúmulo do efeito Bons Desejos.\n· Depois que desencadear o efeito do Talento Passivo \"Amor Concedido Pelo Vento\".\n\nDahlia pode obter até X acúmulos de Bons Desejos em cada duração do efeito Graça de Favonius."
+    "Description": "Dahlia pode obter o efeito Bons Desejos das seguintes formas:\n· Quando o personagem ativo atual estiver sob o efeito Graça de Favonius, e seu Ataque Normal atingir inimigos 4 vezes, Dahlia obtém 1 acúmulo do efeito Bons Desejos.\n· Depois que desencadear o efeito do Talento de Ascensão \"Amor Concedido Pelo Vento\".\n\nDahlia pode obter até X acúmulos de Bons Desejos em cada duração do efeito Graça de Favonius."
   },
   {
     "Id": 11160001,
@@ -368,5 +368,20 @@
     "Id": 11200001,
     "Name": "Sinfonia Trovejante",
     "Description": "Consome menos Energia para lançar o Supremo Especial. Flins causa <color=#FFACFFFF>Dano Electro em AdE</color> que é considerado Dano de Carga Lunar uma vez.\n<color=#FFD780FF>Presságio Lunar: Reluzir Cheio</color>: se estiver perto de uma Nuvem Trovejante, causa mais uma instância de <color=#FFACFFFF>Dano Electro em AdE</color> que é considerado Dano de Carga Lunar."
+  },
+  {
+    "Id": 11220001,
+    "Name": "Baile das Sombras",
+    "Description": "Depois de lançar <color=#FFD780FF>Estratégia de Senet: Dança de Mil Noites</color>, Nefer entra nesse estado.\nQuando está no estado Baile das Sombras, se possuir pelo menos 1 Orvalho Verdejante, o Ataque Carregado de Nefer será substituído pelo Ataque Carregado especial \"Truque Fantástico\".\nBaile das Sombras será removido quando lançar Truque Fantástico {PARAM#P1223201|3S1} vez(es), ou quando sua duração acabar."
+  },
+  {
+    "Id": 11220002,
+    "Name": "Truque Fantástico",
+    "Description": "Quando estiver no Baile das Sombras da Habilidade Elemental <color=#FFD780FF>Estratégia de Senet: Dança de Mil Noites</color>, se possuir pelo menos 1 Orvalho Verdejante, o Ataque Carregado de Nefer será convertido para o Ataque Carregado especial \"Truque Fantástico\" que não consome Stamina.\nNefer invoca a Sombra Vazia para fazer um Ataque Coordenado contra o inimigo, com ela e sua Sombra Vazia causando <color=#99FF88FF>Dano Dendro em AdE</color> de 2/3 fase respectivamente. O Dano de Sombra Vazia é considerado Dano de Florescimento Lunar. A primeira Sombra Vazia invocada depois de lançar Truque Fantástico consumirá 1 Orvalho Verdejante."
+  },
+  {
+    "Id": 11220003,
+    "Name": "Cortina do Segredo Falso",
+    "Description": "O efeito obtido depois de absorver um Núcleo da Falsidade através do Talento de Ascensão \"Aposta Sob o Luar\" de Nefer permite aumentar o Dano causado por Truque Fantástico.\nCada acúmulo de Cortina do Segredo Falso aumenta o Dano de Truque Fantástico em {PARAM#P1222101|6S100}% do original, o valor inicial de acúmulos é de até {PARAM#P1222101|1S1} por até {PARAM#P1222101|2S1}s. A duração de cada acúmulo é contada separadamente."
   }
 ]

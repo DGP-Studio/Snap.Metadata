@@ -292,7 +292,7 @@
   {
     "Id": 11130005,
     "Name": "Finesse serpentine",
-    "Description": "Skirk peut consommer sa finesse serpentine pour maintenir son mode Flash à sept phases ou utiliser son déchaînement élémentaire « Ravage : Ruine ».\n\nSkirk peut obtenir de la finesse serpentine des manières suivantes :\n· En ayant utilisé sa compétence élémentaire « Ravage : Distorsion ».\n· En ayant déclenché l'effet d'absorption d'une faille du néant de son aptitude passive « Raisonnement outre-raison ».\n\nTous les points de finesse serpentine sont supprimés lorsque Skirk quitte le champ de bataille pendant son mode Flash à sept phases ou lorsque son mode Flash à sept phases prend fin."
+    "Description": "Skirk peut consommer sa finesse serpentine pour maintenir son mode Flash à sept phases ou utiliser son déchaînement élémentaire « Ravage : Ruine ».\n\nSkirk peut obtenir de la finesse serpentine des manières suivantes :\n· En ayant utilisé sa compétence élémentaire « Ravage : Distorsion ».\n· En ayant déclenché l'effet d'absorption d'une faille du néant de son aptitude d'élévation « Raisonnement outre-raison ».\n\nTous les points de finesse serpentine sont supprimés lorsque Skirk quitte le champ de bataille pendant son mode Flash à sept phases ou lorsque son mode Flash à sept phases prend fin."
   },
   {
     "Id": 11130006,
@@ -322,7 +322,7 @@
   {
     "Id": 11130011,
     "Name": "Sacrement",
-    "Description": "Dahlia peut obtenir du sacrement des manières suivantes :\n· Il obtient X cumul de sacrement à chaque fois que votre personnage déployé touche un total de 4 ennemis avec des attaques normales tout en étant sous l'effet d'une faveur favonienne.\n· En déclenchant l'effet de l'aptitude passive « La douce grâce du vent ».\n\nDahlia peut obtenir un maximum de X cumuls de sacrement pendant la durée une faveur favonienne."
+    "Description": "Dahlia peut obtenir du sacrement des manières suivantes :\n· Il obtient X cumul de sacrement à chaque fois que votre personnage déployé touche un total de 4 ennemis avec des attaques normales tout en étant sous l'effet d'une faveur favonienne.\n· En déclenchant l'effet de l'aptitude d'élévation « La douce grâce du vent ».\n\nDahlia peut obtenir un maximum de X cumuls de sacrement pendant la durée une faveur favonienne."
   },
   {
     "Id": 11160001,
@@ -368,5 +368,20 @@
     "Id": 11200001,
     "Name": "Symphonie tonitruante",
     "Description": "Flins peut consommer moins d'énergie élémentaire pour déclencher un déchaînement élémentaire spécial, infligeant 1 fois des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT de réaction de Sélénocution.\n<color=#FFD780FF>Signelune « Lueur ascendante »</color> : inflige 1 fois de plus des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT de réaction de Sélénocution si un ou plusieurs nuages orageux sont à proximité."
+  },
+  {
+    "Id": 11220001,
+    "Name": "Danse d'ombre",
+    "Description": "Nefer entre dans l'état Danse d'ombre après avoir utilisé sa compétence élémentaire <color=#FFD780FF>Tactique de senet : Danse des mille nuits</color>.\nDans cet état, les attaques chargées de Nefer sont remplacées par l'attaque chargée spéciale « Performance fantasmatique » si l'équipe possède au moins 1 rosée verdoyante.\nL'état Danse d'ombre prend fin lorsque Nefer a déclenché {PARAM#P1223201|3S1} performances fantasmatiques ou à la fin de sa durée."
+  },
+  {
+    "Id": 11220002,
+    "Name": "Performance fantasmatique",
+    "Description": "Pendant l'état Danse d'ombre déclenché par la compétence élémentaire <color=#FFD780FF>Tactique de senet : Danse des mille nuits</color>, les attaques chargées de Nefer sont remplacées par l'attaque chargée spéciale « Performance fantasmatique » si l'équipe possède au moins 1 rosée verdoyante, cette attaque ne consommant pas d'endurance.\nNefer invoque des ombres d'elle-même pour déclencher une attaque coordonnée contre les ennemis : Nefer et ses ombres infligent respectivement 2/3 instances de <color=#99FF88FF>DGT Dendro de zone</color> en séquence, les DGT infligés par les ombres étant considérés comme des DGT de réaction de Sélénofleurissement. Les premières ombres de Nefer invoquées après le déclenchement d'une performance fantasmatique consomment 1 rosée verdoyante."
+  },
+  {
+    "Id": 11220003,
+    "Name": "Voile mensonger",
+    "Description": "Nefer obtient cet effet après avoir absorbé des graines de tromperie grâce à l'aptitude d'élévation Pari au clair de lune, ce qui lui permet d'augmenter les DGT infligés par ses performances fantasmatiques.\nChaque cumul de voile mensonger augmente les DGT infligés par les performances fantasmatiques de Nefer de {PARAM#P1222101|6S100} % des DGT d'origine. Cet effet peut être initialement cumulé {PARAM#P1222101|1S1} fois maximum et dure {PARAM#P1222101|2S1} s, la durée de chaque cumul étant calculée de façon indépendante."
   }
 ]

@@ -187,6 +187,17 @@
     "Icon": "UI_ItemIcon_224"
   },
   {
+    "Rank": 1120100,
+    "MaterialType": 0,
+    "Id": 238,
+    "RankLevel": 3,
+    "ItemType": 1,
+    "Name": "ESP Mirabilia",
+    "Description": "L'entusiasmo, gli incontri e le conoscenze acquisite quando esplori \"Miliastra Mirabilia\" costituiscono una forma particolarmente preziosa di \"esperienza\".",
+    "TypeDescription": "ESP Mirabilia",
+    "Icon": "UI_ItemIcon_238"
+  },
+  {
     "Rank": 430006,
     "MaterialType": 5,
     "Id": 301,
@@ -1316,7 +1327,7 @@
     "ItemType": 2,
     "Name": "Inno gnostico - Vecchi appunti",
     "Description": "La prima stesura del racconto di un viaggiatore, che riporta in dettaglio le avventure del suo viaggio. Ma qual è il suo scopo? I suoi contenuti ti sembrano familiari...\nUsa quest'oggetto per sbloccare l'Inno gnostico una sola volta.",
-    "TypeDescription": "Materiale per l'attivazione della costellazione della funzionalità",
+    "TypeDescription": "Materiale per attivazione funzionalità",
     "Icon": "UI_ItemIcon_1201"
   },
   {
@@ -1327,7 +1338,7 @@
     "ItemType": 2,
     "Name": "Benedizione lunare del firmamento: Novilunio",
     "Description": "Una preghiera rituale, recitata al sorgere della prima luna nuova, per evocare la benedizione lunare sotto forma di ricchezza e fortuna. Nel tuo caso, si tratta della prima nuova luna di Teyvat, in quanto è la prima che vedi qui.\n\nUsa quest'oggetto per ricevere 30 giorni di ricompense grazie alla Benedizione lunare del firmamento.",
-    "TypeDescription": "Materiale per l'attivazione della costellazione della funzionalità",
+    "TypeDescription": "Materiale per attivazione funzionalità",
     "Icon": "UI_ItemIcon_1202"
   },
   {
@@ -1351,6 +1362,28 @@
     "Description": "Proprio come la prima volta che vi siete incontrati gli hai legato una sciarpa alla coda, ora gli dai un nuovo \"nome\".\nDopo avergli dato un nuovo nome, non potrai più cambiarlo.",
     "TypeDescription": "Oggetto molto speciale",
     "Icon": "UI_ItemIcon_1302"
+  },
+  {
+    "Rank": 410001,
+    "MaterialType": 47,
+    "Id": 1303,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Chiave di sovrascrittura: Sinistra",
+    "Description": "Una chiave segreta affidata a te e a Paimon insieme al Miliastra Mirabilia. Usala per modificare il nome del Manekino.\nÈ possibile cambiare il nome una volta sola.",
+    "TypeDescription": "Oggetto molto speciale",
+    "Icon": "UI_ItemIcon_1303"
+  },
+  {
+    "Rank": 410001,
+    "MaterialType": 47,
+    "Id": 1304,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Chiave di sovrascrittura: Destra",
+    "Description": "Una chiave segreta affidata a te e a Paimon insieme al Miliastra Mirabilia. Usala per modificare il nome della Manekina.\nÈ possibile cambiare il nome una volta sola.",
+    "TypeDescription": "Oggetto molto speciale",
+    "Icon": "UI_ItemIcon_1304"
   },
   {
     "Rank": 0,
@@ -1593,6 +1626,17 @@
     "Description": "Materiale per l'attivazione della costellazione di Aino",
     "TypeDescription": "Attiva costellazione",
     "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "Rank": 30,
+    "MaterialType": 20,
+    "Id": 5122,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna di Nefer",
+    "Description": "Materiale per l'attivazione della costellazione di Nefer",
+    "TypeDescription": "Attiva costellazione",
+    "Icon": "UI_ItemIcon_1102"
   },
   {
     "Rank": 30,
@@ -2759,6 +2803,17 @@
     "Description": "Materiale per l'attivazione della costellazione di Aino",
     "TypeDescription": "Attiva costellazione",
     "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "Rank": 30,
+    "MaterialType": 73,
+    "Id": 6122,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna di Nefer",
+    "Description": "Materiale per l'attivazione della costellazione di Nefer",
+    "TypeDescription": "Attiva costellazione",
+    "Icon": "UI_ItemIcon_1102"
   },
   {
     "Rank": 90000,
@@ -30535,6 +30590,138 @@
     "Icon": "UI_ItemIcon_108844"
   },
   {
+    "Rank": 420006,
+    "MaterialType": 1,
+    "EffectDescription": "Ripristina 70 di vigore.",
+    "Id": 108909,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Torta Baccalakka sospetta",
+    "Description": "Una dolce delizia di frontiera. Dopo aver raccolto tutte le tue forze per addentare la crosta quasi impenetrabile, i ruvidi pezzi di pasta ti grattano la mucosa orale come tante piccole pietruzze. Fortunatamente, proprio quando cominci a dubitare delle tue scelte di vita (o almeno quelle relative ai prodotti da forno), un vago accenno di bacche ti colpisce il palato, ricordandoti che, in fin dei conti, non stai mangiando terra congelata...",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108845"
+  },
+  {
+    "Rank": 420006,
+    "MaterialType": 1,
+    "EffectDescription": "Ripristina 85 di vigore.",
+    "Id": 108910,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Torta Baccalakka",
+    "Description": "Una dolce delizia di frontiera. Un tempo preparata solo con Baccalakka, la ricetta è stata migliorato più tardi con l'aggiunta di bacche Midsommar. Le due tipologie di frutto si completano a vicenda, donando alla preparazione un sapore più ricco e accattivante. Nonostante questo, il nome è rimasto lo stesso.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108845"
+  },
+  {
+    "Rank": 420006,
+    "MaterialType": 1,
+    "EffectDescription": "Ripristina 100 di vigore.",
+    "Id": 108911,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Torta Baccalakka deliziosa",
+    "Description": "Una dolce delizia di frontiera. L'aroma rinfrescante della pasta appena sfornata si sposa perfettamente con il sapore dolce e acidulo della succulenta farcitura a base di due tipi di bacche. I suoi sapori ricchi danzano sul tuo palato, e non c'è da stupirsi se questa piacevole delizia è diventata un alimento base sulle tavole degli abitanti di Nod-Krai.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108845"
+  },
+  {
+    "Rank": 231009,
+    "MaterialType": 15,
+    "EffectDescription": "#Ripristina un 18% dei PS max del personaggio selezionato e rigenera 300 PS ogni 5{NON_BREAK_SPACE}s per 30{NON_BREAK_SPACE}s.",
+    "Id": 108912,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Lohikeitto sospetto",
+    "Description": "Una zuppa classica delle regioni fredde. A prima vista sembra appetitosa, ma basta un unico sorso perché le tue papille gustative vengano sopraffatte dal sapore di bruciato. Ispezioni rapidamente la pentola e scopri che il fondo è ricoperto da una sostanza nera e bruciaticcia... Per la tua salute, forse è meglio saltare il pasto.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108846"
+  },
+  {
+    "Rank": 231009,
+    "MaterialType": 15,
+    "EffectDescription": "#Ripristina un 20% dei PS max del personaggio selezionato e rigenera 390 PS ogni 5{NON_BREAK_SPACE}s per 30{NON_BREAK_SPACE}s.",
+    "Id": 108913,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Lohikeitto",
+    "Description": "Una zuppa classica delle regioni fredde. Il succulento salmone viene tagliato a pezzi e cucinato con verdure fresche. La panna viene aggiunta prima di servire il piatto, insieme ad altri condimenti speciali, per creare una ciotola di zuppa calda e sostanziosa dalla consistenza vellutata.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108846"
+  },
+  {
+    "Rank": 231009,
+    "MaterialType": 15,
+    "EffectDescription": "#Ripristina un 22% dei PS max del personaggio selezionato e rigenera 470 PS ogni 5{NON_BREAK_SPACE}s per 30{NON_BREAK_SPACE}s.",
+    "Id": 108914,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Lohikeitto delizioso",
+    "Description": "Una zuppa classica delle regioni fredde. La minestra densa e liscia come la seta avvolge ciascun ingrediente in un morbido abbraccio. Nel prendere il primo sorso, senti un calore delicato e confortevole pervadere ogni fibra del tuo corpo, come se una vivida alba dorata si stesse irraggiando nel tuo stomaco.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108846"
+  },
+  {
+    "Rank": 230099,
+    "MaterialType": 15,
+    "EffectDescription": "Ripristina un 30% dei PS max e 1.750 PS aggiuntivi del personaggio selezionato.",
+    "Id": 108915,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Usignolo di Piramida",
+    "Description": "Una bevanda dai colori chiari ed eleganti, apparentemente privo di alcol. Leggenda vuole che Solovei, il Forgialuce, regalò a qualcuno un usignolo, e che quel momento ispirò il nome di questa bevanda. Oggi, a persistere è solo la canzone dell'usignolo, che riecheggia nella notte serena.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108847"
+  },
+  {
+    "Rank": 430099,
+    "MaterialType": 1,
+    "EffectDescription": "Ripristina 80 di vigore.",
+    "Id": 108916,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Terra di frontiera",
+    "Description": "Un cocktail a strati dalle sfumature cangianti, apparentemente privo di alcol. Si dice che la fonte d'ispirazione di questa bevanda sia Nod-Krai stessa, con l'iniziale sensazione di gelo che cede progressivamente il passo a note affumicate e astringenti. La sua versione alcolica è una bevanda consumata quotidianamente da molti avventurieri veterani originari del posto.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108848"
+  },
+  {
+    "Rank": 231099,
+    "MaterialType": 15,
+    "EffectDescription": "#Ripristina un 26% dei PS max del personaggio selezionato e rigenera 570 PS ogni 5{NON_BREAK_SPACE}s per 30{NON_BREAK_SPACE}s.",
+    "Id": 108917,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Sentiero baccoso",
+    "Description": "Un cocktail a strati di colori diversi, apparentemente privo di alcol. Incorporando due delle bacche tipiche di Nod-Krai, i suoi colori vivaci ispirano leggerezza e allegria, come una passeggiata lungo il sentiero di un frutteto in fiore.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108849"
+  },
+  {
+    "Rank": 330005,
+    "MaterialType": 1,
+    "EffectDescription": "Rianima un personaggio e ripristina un 15% dei PS max, quindi ripristina 550 PS aggiuntivi.",
+    "Id": 108918,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Segreti scambiati",
+    "Description": "La specialità di Nefer. \"Che ne dici se ti do questo in cambio di una storia?\" Dopo aver sentito proferire quelle parole, vedi comparirti davanti un piatto di sferette croccanti e profumate. Prima che tu possa rispondere di sì, Nefer ti afferra dolcemente la mano e aggiunge: \"Oh, a proposito... Ogni boccone vale almeno una frase intera\". Ovviamente, anche un semplice assaggio della cucina di Nefer ha il suo prezzo...",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108850"
+  },
+  {
+    "Rank": 131099,
+    "MaterialType": 15,
+    "EffectDescription": "Ha un bell'aspetto e un sapore delizioso, ma non ha alcun effetto.",
+    "Id": 108919,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Scultura di zucchero: Nefer",
+    "Description": "Una scultura di zucchero realizzata per rappresentare l'essenza di una persona. Il misterioso e imperscrutabile copricapo fa pensare a Nefer, la direttrice del Consiglio dei segreti.",
+    "TypeDescription": "Cibo",
+    "Icon": "UI_ItemIcon_108851"
+  },
+  {
     "Rank": 300501,
     "MaterialType": 5,
     "Id": 109101,
@@ -33325,6 +33512,28 @@
     "ItemType": 2,
     "Name": "Ricetta: pollo alle Baccalakka",
     "Description": "Una ricetta passo dopo passo per preparare del pollo alle Baccalakka.",
+    "TypeDescription": "Ricetta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109639,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ricetta: torta Baccalakka",
+    "Description": "Una ricetta passo dopo passo per preparare una torta Baccalakka.",
+    "TypeDescription": "Ricetta",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109640,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Ricetta: lohikeitto",
+    "Description": "Una ricetta passo dopo passo per preparare del lohikeitto.",
     "TypeDescription": "Ricetta",
     "Icon": "UI_ItemIcon_109000"
   },
@@ -36192,6 +36401,17 @@
     "Description": "L'ala squamosa di una Farfalla lunare radiosa sconfitta.\nIn molte storie popolari del luogo, coloro che entrano nei territori proibiti venivano spesso stregati da queste ali, e non venivano mai più visti. Alcuni dicono che sia perché la magia illusoria della luna, che questi mostri a forma di farfalla hanno imparato a controllare, induca facilmente alla follia. Altri dicono che sia un avvertimento di quanto possa essere pericoloso e instabile un potere antico...",
     "TypeDescription": "Materiale per aumento livello dei personaggi",
     "Icon": "UI_ItemIcon_113078"
+  },
+  {
+    "Rank": 11101,
+    "MaterialType": 14,
+    "Id": 113079,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Corno splendente",
+    "Description": "Un frammento dei maestosi palchi dell'Herra della Notte gelata. Leggero e affilato, è in grado di fendere con facilità anche le armature di metallo.\nSecondo antiche storie, queste magnifiche e fiere creature vennero create dalla prima emissaria. Quando l'Elisio cadde, venne stretto un patto con la signora della Luna gelata, che prevedeva di usarne la luce primordiale per purificare le impurità del mondo mortale fino al ritorno dell'antico protettore. Anche se le origini di queste leggende sono andate perdute, e la loro veridicità sia del tutto indimostrabile, le creature che camminavano un tempo nella luce continuano a vegliare dalle ombre su questa terra, attraverso lunghe e gelide notti e inaridenti onde nere, poiché la loro forma non può mai sparire del tutto da questo mondo.",
+    "TypeDescription": "Materiale per aumento livello dei personaggi",
+    "Icon": "UI_ItemIcon_113079"
   },
   {
     "Rank": 15101,
@@ -47574,8 +47794,8 @@
     "Id": 121234,
     "RankLevel": 5,
     "ItemType": 2,
-    "Name": "Regalo abbagliante e misterioso",
-    "Description": "Una sfera di cristallo scintillante, adornata con una gemma a forma di stella, ricevuta come ricompensa per aver superato la prova dell'Hexenzirkel. Stando a quello che ha detto la persona che te l'ha data, non è un qualcosa che una persona comune può padroneggiare. Per ora, la sfera di cristallo giace dormiente, come se stesse aspettando il momento perfetto per brillare...",
+    "Name": "Cosmosfera del Mirabilia",
+    "Description": "#Una delle chiavi per accedere al Miliastra Mirabilia, questa splendida sfera di cristallo, adornata con una gemma a forma di stella, è stata ricevuta come ricompensa per aver superato la prova dell'Hexenzirkel.\nStando alle parole della persona che te l'ha affidata, non è qualcosa che la gente comune possa maneggiare, ma la strega conosciuta come \"Octavia\" ti ha osservato per diverso tempo: tu e Paimon avete superato numerose prove e pericoli e, oltre ad aver dimostrato coraggio e curiosità innati, avete anche dato prova di un'incredibile creatività al di là delle semplici avventure. Per queste ragioni, siete {F#le candidate}{M#i candidati} ideali per diventare {F#le nuove padrone}{M#i nuovi padroni} del Miliastra Mirabilia. Octavia crede fermamente che sarete in grado di sfruttare il pieno potenziale di questo meraviglioso mondo...",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_121234"
   },
@@ -48077,6 +48297,17 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121300,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Coupon d'investimento",
+    "Description": "Un coupon comprato alla Libreria Mimisbrunnr.\nPuoi scambiarlo per il calcolo dei profitti ottenuti dagli investimenti una volta a settimana parlando con Dhabit, il proprietario della libreria.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_121300"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121301,
     "RankLevel": 0,
     "ItemType": 2,
@@ -48084,6 +48315,17 @@
     "Description": "Una medaglia ispirata agli Asha, creata dal Resort Dolcebrezza per dimostrare la propria gratitudine. Può essere scambiata con degli oggetti speciali in un luogo specifico all'interno del Resort.",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_121301"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121302,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Profitti degli investimenti",
+    "Description": "I profitti ottenuti dagli investimenti del portafoglio promosso dalla Libreria Mimisbrunnr. Ogni investimento comporta dei rischi, e profitti e perdite fanno parte del gioco, ma pare che la possibilità di ricavi generosi attragga non poche persone.",
+    "TypeDescription": "Consumabile",
+    "Icon": "UI_ItemIcon_100309"
   },
   {
     "Rank": 430011,
@@ -48202,7 +48444,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Scatola con sculture di zucchero speciale",
-    "Description": "Una scatola speciale con sculture di zucchero fatte a mano, sembra che sia stata fatta pensando a qualcuno. Meglio mangiarle prima che possano sciogliersi.",
+    "Description": "Una scatola speciale contenente sculture di zucchero fatte a mano. Sembra siano state preparate pensando a qualcuno di specifico. Meglio mangiarle prima che possano sciogliersi.",
     "TypeDescription": "Consumabile",
     "Icon": "UI_ItemIcon_100101"
   },
@@ -48213,7 +48455,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Scatola con sculture di zucchero speciale",
-    "Description": "Una scatola speciale con sculture di zucchero fatte a mano, sembra che sia stata fatta pensando a qualcuno. Meglio mangiarle prima che possano sciogliersi.",
+    "Description": "Una scatola speciale contenente sculture di zucchero fatte a mano. Sembra siano state preparate pensando a qualcuno di specifico. Meglio mangiarle prima che possano sciogliersi.",
     "TypeDescription": "Consumabile",
     "Icon": "UI_ItemIcon_100101"
   },
@@ -48224,7 +48466,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Scatola con sculture di zucchero speciale",
-    "Description": "Una scatola speciale con sculture di zucchero fatte a mano, sembra che sia stata fatta pensando a qualcuno. Meglio mangiarle prima che possano sciogliersi.",
+    "Description": "Una scatola speciale contenente sculture di zucchero fatte a mano. Sembra siano state preparate pensando a qualcuno di specifico. Meglio mangiarle prima che possano sciogliersi.",
     "TypeDescription": "Consumabile",
     "Icon": "UI_ItemIcon_100101"
   },
@@ -48235,7 +48477,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Scatola con sculture di zucchero speciale",
-    "Description": "Una scatola speciale con sculture di zucchero fatte a mano, sembra che sia stata fatta pensando a qualcuno. Meglio mangiarle prima che possano sciogliersi.",
+    "Description": "Una scatola speciale contenente sculture di zucchero fatte a mano. Sembra siano state preparate pensando a qualcuno di specifico. Meglio mangiarle prima che possano sciogliersi.",
     "TypeDescription": "Consumabile",
     "Icon": "UI_ItemIcon_100101"
   },
@@ -48271,6 +48513,17 @@
     "Description": "L'elsa di una spada di Inazuma che ha assistito a innumerevoli battaglie. Può essere presentata all'Ammiraglia come prova di una caccia alla taglia completata.\n\"Un mondo effimero, un corpo ricoperto di dispiaceri. I fiori di ciliegio cadono, trascurati dal domani. La primavera se ne va, senza più fare ritorno.\"",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_121329"
+  },
+  {
+    "Rank": 410300,
+    "MaterialType": 5,
+    "Id": 121330,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Informazioni documentate",
+    "Description": "Un documento che contiene informazioni raccolte e redatte da un agente del Consiglio dei segreti. La Gilda degli avventurieri potrebbe trovarlo interessante...",
+    "TypeDescription": "Consumabile",
+    "Icon": "UI_ItemIcon_121330"
   },
   {
     "Rank": 10,
@@ -48504,6 +48757,17 @@
     "Icon": "UI_ItemIcon_121361"
   },
   {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121362,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Scatola con sculture di zucchero speciale",
+    "Description": "Una scatola speciale contenente sculture di zucchero fatte a mano. Sembra siano state preparate pensando a qualcuno di specifico. Meglio mangiarle prima che possano sciogliersi.",
+    "TypeDescription": "Consumabile",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
     "Rank": 10,
     "MaterialType": 2,
     "Id": 121363,
@@ -48546,6 +48810,17 @@
     "Description": "Degli appunti scritti su pagine con un motivo a conchiglia.\nSembra che questa storia, ambientata nella Valle di Moley e con protagoniste delle Talpe fiutatrici, sia stata scritta da Auni. Pare che alcuni elementi della storia siano veri, ma quali?",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_121146"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121367,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Informazioni fascicolate",
+    "Description": "Un libretto che riporta tutte le informazioni raccolte finora. Potrebbero tornare utili in futuro...",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_121367"
   },
   {
     "Rank": 10,
@@ -48624,6 +48899,39 @@
     "Description": "Sembra che questo sidro di mele, portato fin da Mondstadt da Mika, sia un regalo proposto da un certo Capitano di cavalleria...",
     "TypeDescription": "Cibo",
     "Icon": "UI_ItemIcon_108151"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121375,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Chiave di apertura del passaggio",
+    "Description": "Una chiave trovata grazie all'aiuto di Mehrak. È bello avere un assistente silenzioso e affidabile al proprio fianco.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_121375"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121376,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti stracciati",
+    "Description": "Delle annotazioni recuperate in vari punti delle rovine. In base alla consistenza fragile e dal colore ingiallito della carta, sembrano aver resistito al passaggio di moltissimi anni.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_121376"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121377,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Appunti ordinati",
+    "Description": "Appunti con una calligrafia precisa, disposti meticolosamente in ordine cronologico. Sembrano documentare le \"avventure\" di una certa persona in questo luogo.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_121377"
   },
   {
     "Rank": 10,
@@ -48778,6 +49086,50 @@
     "Description": "Appunti scritti su pagine stampate con un motivo a conchiglia.\nQueste sono delle note di osservazione scritte da Maite in merito allo Tsar Granchio prima che questi subisse l'influsso del Kuuvahki. Contiene un gran numero di speculazioni personali sulla società dei granchi.",
     "TypeDescription": "Oggetto missione",
     "Icon": "UI_ItemIcon_121146"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121401,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "L'uomo che diventò un mulo",
+    "Description": "Un libro trascritto della Gilda degli avventurieri, che racconta una fiaba originaria del deserto.",
+    "TypeDescription": "Oggetto missione",
+    "Icon": "UI_ItemIcon_71700047"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121406,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fondi del Consiglio",
+    "Description": "Una somma di denaro prelevata dai fondi del Consiglio dei segreti. I soldi non crescono sugli alberi, quindi spendili con criterio.",
+    "TypeDescription": "Consumabile",
+    "Icon": "UI_ItemIcon_100309"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121407,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fondi del Consiglio",
+    "Description": "Una somma di denaro prelevata dai fondi del Consiglio dei segreti. I soldi non crescono sugli alberi, quindi spendili con criterio.",
+    "TypeDescription": "Consumabile",
+    "Icon": "UI_ItemIcon_100309"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121408,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fondi del Consiglio",
+    "Description": "Una somma di denaro prelevata dai fondi del Consiglio dei segreti. I soldi non crescono sugli alberi, quindi spendili con criterio.",
+    "TypeDescription": "Consumabile",
+    "Icon": "UI_ItemIcon_100309"
   },
   {
     "Rank": 287,
@@ -69302,6 +69654,237 @@
     "ItemType": 2,
     "Name": "Chef Maialotto",
     "Description": "Un progetto con istruzioni passo dopo passo per realizzare Chef Maialotto.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382130,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Silenzio e conforto",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Silenzio e conforto.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382131,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sedia in legno di nocciolo con schienale color giada",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare una sedia in legno di nocciolo con schienale color giada.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382132,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Sgabello da fabbrica Dispositivo da seduta multiruolo",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare uno sgabello da fabbrica Dispositivo da seduta multiruolo.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381410,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Attriti tra amici",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Attriti tra amici.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381411,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Letto da taverna Senza infamia e senza lode",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un letto da taverna Senza infamia e senza lode.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 384223,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Altoparlante per fabbrica Rinvigorimento",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un altoparlante per fabbrica Rinvigorimento.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 384224,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bersaglio per freccette da taverna Bel lancio",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un bersaglio per freccette da taverna Bel lancio.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381341,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tavolo lungo per fabbrica Non c'è tempo da perdere",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un tavolo lungo per fabbrica Non c'è tempo da perdere.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381342,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tavolo quadrato da taverna Autodifesa",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un tavolo quadrato da taverna Autodifesa.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381343,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tavolo lungo da interno Segni d'amore",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un tavolo lungo da interno Segni d'amore.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382320,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tappeto per interno Dolce e soffice",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un tappeto per interno Dolce e soffice.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382321,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tappeto da interno Notte stellata",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un tappeto da interno Notte stellata.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382274,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Barca di nuvole",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Barca di nuvole.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382275,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Jukebox Allegro andante",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un jukebox Allegro andante.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382276,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Albero tiragraffi in legno di farnia multifunzione",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un albero tiragraffi in legno di farnia multifunzione.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394636,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Indovinella \"Ci vuole calma e sangue freddo\"",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Indovinella \"Ci vuole calma e sangue freddo\".\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381119,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Deduzione e induzione",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Deduzione e induzione.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381120,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Armadietto per fabbrica Mucchio di scartoffie",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare un armadietto per fabbrica Mucchio di scartoffie.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381511,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Il prezzo giusto",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Il prezzo giusto.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382282,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Segreti nascosti",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Segreti nascosti.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
+    "TypeDescription": "Progetto per decorazione",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394810,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gattino ozioso",
+    "Description": "Un progetto con istruzioni passo dopo passo per realizzare Gattino ozioso.\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione.",
     "TypeDescription": "Progetto per decorazione",
     "Icon": "UI_ItemIcon_Home_Common"
   }
